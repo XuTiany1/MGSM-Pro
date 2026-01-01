@@ -1,0 +1,25 @@
+base_dataset_folder: /home/mila/x/xut/github/evaluation-pipeline/dataset
+dataset_type: original-afrimgsm
+language: 
+  # - amh
+  # - ewe
+  # - hau
+  - ibo
+  # - kin
+  # - lin
+  # - lug
+  # - orm
+  # - sna
+  # - sot
+  # - swa
+  # - twi
+  # - vai
+  # - wol
+  # - xho
+  # - yor
+  # - zul
+model_platform: gemini
+model_name: gemini-2.0-flash
+model_max_token: 4096
+model_temperature: 1.0
+result_basedir: /home/mila/x/xut/github/evaluation-pipeline/result

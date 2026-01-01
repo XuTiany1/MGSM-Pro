@@ -1,0 +1,56 @@
+configs:
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gemma-3-4b/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gemma-3-4b/distribution_symbolic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gemma-3-12b/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gemma-3-12b/distribution_symbolic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gemma-3-27b/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gemma-3-27b/distribution_symbolic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gemma-2-27b/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gemma-2-27b/distribution_symbolic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gemma-2-9b/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gemma-2-9b/distribution_symbolic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gpt-oss-20b/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gpt-oss-20b/distribution_symbolic.yaml
+
+
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/Llama-3.1-70B-Instruct/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/Llama-3.1-70B-Instruct/distribution_symbolic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/Llama-3.1-70B-Instruct/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/Llama-3.1-70B-Instruct/distribution_symbolic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/Llama-3.1-70B-Instruct/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/Llama-3.1-70B-Instruct/distribution_symbolic.yaml
+
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gpt-oss-120b/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gpt-oss-120b/distribution_symbolic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gpt-oss-120b/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gpt-oss-120b/distribution_symbolic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gpt-oss-120b/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gpt-oss-120b/distribution_symbolic.yaml
+
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/DeepSeek-V3-0324/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/DeepSeek-V3-0324/distribution_symbolic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/DeepSeek-V3-0324/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/DeepSeek-V3-0324/distribution_symbolic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/DeepSeek-V3-0324/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/DeepSeek-V3-0324/distribution_symbolic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/DeepSeek-V3-0324/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/DeepSeek-V3-0324/distribution_symbolic.yaml
+
+
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gemini-2.5-flash/distribution_ic.yaml
+   - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gemini-2.5-flash/distribution_symbolic.yaml
+   - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gemini-2.5-flash/distribution_symbolic.yaml
+   - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gemini-2.5-flash/distribution_symbolic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gemini-2.0-flash/distribution_symbolic.yaml
+   - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gemini-2.0-flash/distribution_ic.yaml
+
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/DeepSeek-V3-0324/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/DeepSeek-V3-0324/distribution_symbolic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/DeepSeek-V3-0324/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/DeepSeek-V3-0324/distribution_symbolic.yaml
+
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/claude-4-0/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/claude-4-0/distribution_symbolic.yaml
+
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gpt-4.1/distribution_ic.yaml
+   # - /home/mila/x/xut/github/evaluation-pipeline/src/solve_dataset/config/task_configs/gpt-4.1/distribution_symbolic.yaml

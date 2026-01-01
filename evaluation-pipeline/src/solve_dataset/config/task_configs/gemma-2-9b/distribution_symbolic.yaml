@@ -1,0 +1,21 @@
+base_dataset_folder: /home/mila/x/xut/github/evaluation-pipeline/dataset
+dataset_type: distribution-symbolic
+language: 
+  - amharic
+  - chinese
+  - english
+  - french
+  - igbo
+  - japanese
+  - swahili
+  - twi
+  - yoruba
+prompt_id_to_use:
+   - 3
+model_platform: vllm
+model_name: google/gemma-2-9b-it
+model_max_token: 4096
+model_temperature: 0.1
+result_basedir: /home/mila/x/xut/github/evaluation-pipeline/result
+
+total_num_variation: 10

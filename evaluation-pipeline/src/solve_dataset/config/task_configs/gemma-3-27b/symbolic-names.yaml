@@ -1,0 +1,9 @@
+base_dataset_folder: /home/mila/x/xut/github/evaluation-pipeline/dataset
+dataset_type: symbolic-names
+language: 
+  - yo
+model_platform: vllm
+model_name: google/gemma-3-27b-it
+model_max_token: 4096
+model_temperature: 0.1
+result_basedir: /home/mila/x/xut/github/evaluation-pipeline/result

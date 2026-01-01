@@ -1,0 +1,21 @@
+base_dataset_folder: /home/mila/x/xut/github/evaluation-pipeline/dataset
+dataset_type: distribution-ic
+language: 
+  - amharic
+  - chinese
+  - english
+  - french
+  - igbo
+  - japanese
+  - swahili
+  - twi
+  - yoruba
+prompt_id_to_use:
+   - 3
+model_platform: gemini
+model_name: gemini-2.0-flash
+model_max_token: 4096
+model_temperature: 1.0
+result_basedir: /home/mila/x/xut/github/evaluation-pipeline/result
+
+total_num_variation: 10
