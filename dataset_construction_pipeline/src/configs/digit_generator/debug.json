@@ -1,0 +1,3 @@
+[
+    {"equation": "12*{num_digit_1} + max(0, ({num_digit_3} + 3 - 5)) * (12*{num_digit_1} * {num_digit_2} / 100)", "restriction":["{num_digit_3} < 10" , "{num_digit_2} < 100"]}
+]

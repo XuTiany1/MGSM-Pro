@@ -1,0 +1,4 @@
+'equation_file_path': /home/mila/x/xut/github/distribution-dataset/src/configs/digit_generator/debug.json
+'number_generation': 10
+'minimum_number': 2
+'maximum_number': 1000

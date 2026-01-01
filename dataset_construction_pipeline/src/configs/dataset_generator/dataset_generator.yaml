@@ -1,0 +1,24 @@
+number_combination_filepath: /home/mila/x/xut/github/distribution-dataset/result/digit_combination/digit_combination.json
+number_of_dataset_variation: 10
+categories_to_change:
+  # - names
+  - numbers
+problem_index_to_skip:
+  - 86
+  - 91
+  - 153
+  - 184
+  - 241
+languages: 
+  - amharic
+  - chinese
+  - english
+  - french
+  - igbo
+  - japanese
+  - swahili
+  - twi
+  - yoruba
+language_name_folderpath: /home/mila/x/xut/github/distribution-dataset/dataset_construction_tools/language_names
+template_root_folder: /home/mila/x/xut/github/distribution-dataset/dataset_construction_tools/template
+output_root_folder: /home/mila/x/xut/github/distribution-dataset/generated-dataset-numbers
