@@ -1,0 +1,15 @@
+{
+  "batch_id": "batch_897197ea-0d21-4a8e-9657-5825f1de88b5",
+  "request_file": "/home/mila/x/xut/github/evaluation-pipeline/result/distribution_dataset/gpt-4.1-2-batch/amharic/IC/distribution_result_6/requests/20251225_081404/result.jsonl",
+  "status": "completed",
+  "created_at": 1766668447,
+  "last_updated": "2025-12-25T08:17:30.642565",
+  "request_counts": {
+    "total": 245,
+    "completed": 245,
+    "failed": 0
+  },
+  "input_file_id": "file-e8865080c8da4e9f9e98cb3757556f37",
+  "output_file_id": "file-e786beb8-6ab2-4037-a1bf-03191a7bede1",
+  "error_file_id": ""
+}

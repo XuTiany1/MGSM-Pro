@@ -1,0 +1,15 @@
+{
+  "batch_id": "batch_067b3bad-e020-4f90-837b-e301cdcecc60",
+  "request_file": "/home/mila/x/xut/github/evaluation-pipeline/result/distribution_dataset/gpt-4.1-2-batch/twi/symbolic/distribution_result_0/requests/20251106_192334/result.jsonl",
+  "status": "completed",
+  "created_at": 1762475029,
+  "last_updated": "2025-11-06T19:29:28.273569",
+  "request_counts": {
+    "total": 1470,
+    "completed": 1470,
+    "failed": 0
+  },
+  "input_file_id": "file-c6f04972f23844cbb345b0daced81c87",
+  "output_file_id": "file-2465e04f-c304-4c42-95fe-44ef73d692e6",
+  "error_file_id": ""
+}

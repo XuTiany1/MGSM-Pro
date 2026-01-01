@@ -1,0 +1,15 @@
+{
+  "batch_id": "batch_282d0357-f84a-4927-9fc7-1d99ef30c409",
+  "request_file": "/home/mila/x/xut/github/evaluation-pipeline/result/distribution_dataset/gpt-4.1-2-batch/yoruba/IC/distribution_result_7/requests/20251225_123353/result.jsonl",
+  "status": "completed",
+  "created_at": 1766684038,
+  "last_updated": "2025-12-25T12:35:39.617763",
+  "request_counts": {
+    "total": 245,
+    "completed": 245,
+    "failed": 0
+  },
+  "input_file_id": "file-989a7ae09ccf4ee7853aeffefe54ec94",
+  "output_file_id": "file-75a5f74a-0858-42e0-9f7d-486994f6e241",
+  "error_file_id": ""
+}

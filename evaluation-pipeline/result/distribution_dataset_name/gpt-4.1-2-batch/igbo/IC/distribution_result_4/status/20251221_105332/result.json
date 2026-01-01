@@ -1,0 +1,15 @@
+{
+  "batch_id": "batch_3acbfb45-12e1-4bb8-9e15-ad51ba7d18c5",
+  "request_file": "/home/mila/x/xut/github/evaluation-pipeline/result/distribution_dataset/gpt-4.1-2-batch/igbo/IC/distribution_result_4/requests/20251221_105332/result.jsonl",
+  "status": "completed",
+  "created_at": 1766332415,
+  "last_updated": "2025-12-21T10:55:17.023699",
+  "request_counts": {
+    "total": 245,
+    "completed": 245,
+    "failed": 0
+  },
+  "input_file_id": "file-3189443d09734ff4a850f9798a4b397b",
+  "output_file_id": "file-99afaf11-81c6-443b-9f09-6f71a1557589",
+  "error_file_id": ""
+}

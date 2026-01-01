@@ -1,0 +1,15 @@
+{
+  "batch_id": "batch_b3500a4f-6cda-4f6c-b5ea-eda758fbeca4",
+  "request_file": "/home/mila/x/xut/github/evaluation-pipeline/result/distribution_dataset/gpt-4.1-2-batch/swahili/IC/distribution_result_8/requests/20251018_120253/result.jsonl",
+  "status": "completed",
+  "created_at": 1760803377,
+  "last_updated": "2025-10-18T12:09:21.723518",
+  "request_counts": {
+    "total": 1470,
+    "completed": 1470,
+    "failed": 0
+  },
+  "input_file_id": "file-dfdccea6a9504d758392be3f13216193",
+  "output_file_id": "file-24089502-59f5-43e8-bb1d-012c604547dc",
+  "error_file_id": ""
+}

@@ -1,0 +1,17 @@
+{
+  "batch_id": "msgbatch_01JCpBfA5vuYHY4akbftZJma",
+  "created_at": "2025-11-09T13:44:54.440821+00:00",
+  "processing_status": "ended",
+  "results_url": "https://api.anthropic.com/v1/messages/batches/msgbatch_01JCpBfA5vuYHY4akbftZJma/results",
+  "ended_at": "2025-11-09T13:46:31.531266+00:00",
+  "archived_at": null,
+  "cancel_initiated_at": null,
+  "expires_at": "2025-11-10T13:44:54.440821+00:00",
+  "request_counts": {
+    "succeeded": 1470,
+    "errored": 0,
+    "canceled": 0,
+    "expired": 0,
+    "processing": 0
+  }
+}

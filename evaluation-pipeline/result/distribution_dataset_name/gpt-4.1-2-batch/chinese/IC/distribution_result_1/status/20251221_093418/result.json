@@ -1,0 +1,15 @@
+{
+  "batch_id": "batch_e3b7b3d6-331d-4ded-97a4-6b26ac5b006f",
+  "request_file": "/home/mila/x/xut/github/evaluation-pipeline/result/distribution_dataset/gpt-4.1-2-batch/chinese/IC/distribution_result_1/requests/20251221_093418/result.jsonl",
+  "status": "completed",
+  "created_at": 1766327661,
+  "last_updated": "2025-12-21T09:40:05.149398",
+  "request_counts": {
+    "total": 245,
+    "completed": 245,
+    "failed": 0
+  },
+  "input_file_id": "file-d3ae65a8a1b248d1b7a072dfb38c54d3",
+  "output_file_id": "file-129df5bc-bda4-4e6d-ba15-773793d3aed5",
+  "error_file_id": ""
+}
