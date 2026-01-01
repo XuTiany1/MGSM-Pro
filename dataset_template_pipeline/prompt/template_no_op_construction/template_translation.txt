@@ -1,0 +1,5 @@
+You are an expert at translation.  
+
+Your task:  
+Given a sentence template in english, you will translate it into another language specified later. 
+

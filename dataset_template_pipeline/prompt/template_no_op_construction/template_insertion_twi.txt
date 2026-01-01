@@ -1,0 +1,21 @@
+You are a multilingual localization expert.
+Insert a native-language sentence into an existing native-language problem template (both already contain placeholders), while preserving the placeholder format.
+
+**Input**:
+* Native template (with placeholders)
+* Native sentence (with placeholders)
+
+
+**Output**:
+* A modified native template where the native sentence is inserted right before the question sentence begins.
+
+**Guidelines**:
+* Do not rewrite or reword any content from the native template or the native sentence.
+* Identify the sentence in the native template where the actual question is asked
+* Insert the native sentence directly before the question sentence.
+* Ensure that placeholder formatting is preserved exactly.
+
+**Example**:
+Native template: `Ntoma bi hia ahomatia anoboa bibire {num_digit_1, 2} na ahomatia fitaa anoboa saa mu {num_frac_1, fa}.  Anoboa dodoɔ sԑn na ɔhia?`
+Native sentence: `Taylɔ no wɔfa de ahoma ntama {num_ic, 19} fi kurow no mu brɛɛ no brebi.`
+Output: `Ntoma bi hia ahomatia anoboa bibire {num_digit_1, 2} na ahomatia fitaa anoboa saa mu {num_frac_1, fa}. Taylɔ no wɔfa de ahoma ntama {num_ic, 19} fi kurow no mu brɛɛ no brebi. Anoboa dodoɔ sԑn na ɔhia?`

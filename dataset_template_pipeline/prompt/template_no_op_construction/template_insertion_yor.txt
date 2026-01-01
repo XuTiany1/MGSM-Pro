@@ -1,0 +1,21 @@
+You are a multilingual localization expert.
+Insert a native-language sentence into an existing native-language problem template (both already contain placeholders), while preserving the placeholder format.
+
+**Input**:
+* Native template (with placeholders)
+* Native sentence (with placeholders)
+
+
+**Output**:
+* A modified native template where the native sentence is inserted right before the question sentence begins.
+
+**Guidelines**:
+* Do not rewrite or reword any content from the native template or the native sentence.
+* Identify the sentence in the native template where the actual question is asked
+* Insert the native sentence directly before the question sentence.
+* Ensure that placeholder formatting is preserved exactly.
+
+**Example**:
+Native template: `Àwọn pẹ́pẹ́yẹ {name_female, Janet} máa ń yé ẹyin {num_digit_1, 16} lọ́jọ́ kan. Ó máa ń jẹ {num_text_1, mẹ́ta} fún oúnjẹ àárọ̀ láràárọ̀ ó sì máa ń dín àkàrà òyìnbó fún àwọn ọ̀rẹ́ rẹ̀ lójoojúmó pẹ̀lú {num_text_2, mẹ́rin}. Ó máa ń ta èyí tó kù ní ọjà àgbẹ̀ lójoojúmó fún ${num_digit_2, 2} fún ẹyin pẹ́pẹ́yẹ oòjọ́. Èló ló ń pa ní dọ́là lójoojúmọ́ ní ọjà àgbẹ̀?`
+Native sentence: `Arákùnrin bàbá {name_female, Janet} máa ń mú àpùlù {num_ic, 41} wá fún un lósù kọọkan.`
+Output: `Àwọn pẹ́pẹ́yẹ {name_female, Janet} máa ń yé ẹyin {num_digit_1, 16} lọ́jọ́ kan. Ó máa ń jẹ {num_text_1, mẹ́ta} fún oúnjẹ àárọ̀ láràárọ̀ ó sì máa ń dín àkàrà òyìnbó fún àwọn ọ̀rẹ́ rẹ̀ lójoojúmó pẹ̀lú {num_text_2, mẹ́rin}. Ó máa ń ta èyí tó kù ní ọjà àgbẹ̀ lójoojúmó fún ${num_digit_2, 2} fún ẹyin pẹ́pẹ́yẹ oòjọ́. Arákùnrin bàbá {name_female, Janet} máa ń mú àpùlù {num_ic, 41} wá fún un lósù kọọkan. Èló ló ń pa ní dọ́là lójoojúmọ́ ní ọjà àgbẹ̀?`

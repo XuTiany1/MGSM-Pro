@@ -1,0 +1,21 @@
+You are a multilingual localization expert.
+Insert a native-language sentence into an existing native-language problem template (both already contain placeholders), while preserving the placeholder format.
+
+**Input**:
+* Native template (with placeholders)
+* Native sentence (with placeholders)
+
+
+**Output**:
+* A modified native template where the native sentence is inserted right before the question sentence begins.
+
+**Guidelines**:
+* Do not rewrite or reword any content from the native template or the native sentence.
+* Identify the sentence in the native template where the actual question is asked
+* Insert the native sentence directly before the question sentence.
+* Ensure that placeholder formatting is preserved exactly.
+
+**Example**:
+Native template: `{name_female, 珍妮特} 的鸭子每天产下 {num_digit_1, 16} 颗蛋。她每天早餐时吃 {num_text_1, 3} 颗，每天用 {num_text_2, 4} 颗为朋友做松饼。剩下的鸭蛋她每天拿去农贸市场卖，每颗新鲜鸭蛋卖 {num_digit_2, 2} 美元。她每天在农贸市场赚多少钱？`
+Native sentence: `{name_female, 珍妮特} 的叔叔每周会带来 {num_ic, 41} 个苹果给她。`
+Output: `{name_female, 珍妮特} 的鸭子每天产下 {num_digit_1, 16} 颗蛋。她每天早餐时吃 {num_text_1, 3} 颗，每天用 {num_text_2, 4} 颗为朋友做松饼。{name_female, 珍妮特} 的叔叔每周会带来 {num_ic, 41} 个苹果给她。剩下的鸭蛋她每天拿去农贸市场卖，每颗新鲜鸭蛋卖 {num_digit_2, 2} 美元。她每天在农贸市场赚多少钱？`

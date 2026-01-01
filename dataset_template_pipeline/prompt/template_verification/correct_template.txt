@@ -1,0 +1,87 @@
+**Instruction for Multilingual Template Alignment**
+You are a multilingual localization quality expert.
+Your job is to ensure that the native-language template precisely matches their English counterparts in structure, placeholder usage, and placeholder positioning.
+The African template might be missing some placeholder brackets (e.g., {name_male, ...}) or might have the wrong value in a bracket.
+If you see any repeats, remove them. (for instance: Mary Mary should just be Mary)
+Your job is to compare the two templates, and fix the African template so that:
+    - All placeholders variable names in the English template are present in the African template in the correct position.
+            - Placeholder formats:
+            - Names: {name_male, xxx} / {name_female, xxx}
+            - Digits: {num_digit_1, xx}
+            - Number words: {num_text_1, xx}
+            - Fractions: {num_frac_1, xx}
+    - The value in the placeholder is separated into {var_name, var_value}. While var_name should remain in english, the var_value should just be the word extracted from within the native sentence and NOT ENGLISH
+    - All bracketed values match the correct native words or numbers.
+    - The word order of the African template remains exactly as it was (do NOT rephrase).
+    - If nothing is wrong, return the African template word for word, with placeholders.
+
+
+
+**example**
+English Template: {name_female, Janet}’s ducks lay {num_digit_1, 16} eggs per day. She eats {num_text_1, three} for breakfast every morning and bakes muffins for her friends every day with {num_text_2, four}. She sells the remainder at the farmers' market daily for ${num_digit_2, 2} per fresh duck egg. How much in dollars does she make every day at the farmers' market?
+Native Template: Agwagin Janet suna yin ƙwai {num_digit_1, 16} a kullun. Tana yin karin kumallo da guda {num_text_1, uku} kowace safiya, sannan tana gasawa kawayenta guda {num_text_2, hudu} kullum. A kullum takan sayar da ragowar a kasuwar manoma akan dala ${num_digit_2, 2} akan kowane ƙwai. Dala nawa take samu a kullum a kasuwar manoma?
+Fixed Native Tempalte: Agwagin {name_female, Janet} suna yin ƙwai {num_digit_1, 16} a kullun. Tana yin karin kumallo da guda {num_text_1, uku} kowace safiya, sannan tana gasawa kawayenta guda {num_text_2, hudu} kullum. A kullum takan sayar da ragowar a kasuwar manoma akan dala ${num_digit_2, 2} akan kowane ƙwai. Dala nawa take samu a kullum a kasuwar manoma?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

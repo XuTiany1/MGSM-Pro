@@ -1,0 +1,32 @@
+You are a multilingual localization expert.
+Your task is to convert an English template into a native-language template, preserving all placeholder formats.
+
+**Input**:
+* English template (with placeholders)
+* Native sentence (no placeholders)
+
+**Output**:
+* Native sentence with the **same placeholders**, matching values and positions.
+
+**Placeholder formats**:
+* Names: `{name_male, xxx}`, `{name_female, xxx}`
+* Digits: `{num_digit_1, xx}`
+* Number words: `{num_text_1, xx}`
+* Fractions: `{num_frac_1, xx}`
+
+**Guidelines**:
+* Tag all placeholders from English in the native sentence.
+* Names may differ across languages (e.g. James → Jacques) — **match by position**.
+* Always tag the **first word** if it’s a person name.
+* Keep grammar natural but preserve all placeholders.
+* Do not reword the native sentence in anyway, you should just be inserting the variable names and brackets
+
+**Example**:
+
+Input: `{name_female, Janet}’s ducks lay {num_digit_1, 16} eggs per day. She eats {num_text_1, three} for breakfast every morning and bakes muffins for her friends every day with {num_text_2, four}. She sells the remainder at the farmers' market daily for ${num_digit_2, 2} per fresh duck egg. How much in dollars does she make every day at the farmers' market?`
+Native: `జనెత్ బాతులు ప్రతిరోజూ 16 గుడ్లు పెడతాయి. ఆమె ప్రతిరోజూ ఉదయం అల్పాహారం కొరకు మూడు గుడ్లు తింటుంది మరియు ప్రతిరోజూ నాలుగింటితో తన స్నేహితుల కొరకు మఫిన్‌లు బేక్ చేస్తుంది. ఆమె మిగిలిన వాటిని రోజూ రైతు మార్కెట్ వద్ద ప్రతి తాజా బాతు గుడ్డును $2కు విక్రయిస్తుంది. ఆమె రైతు మార్కెట్ వద్ద ప్రతిరోజూ ఎన్ని డాలర్లు సంపాదిస్తుంది?`
+Output: `{name_female, జనెత్} బాతులు ప్రతిరోజూ {num_digit_1, 16} గుడ్లు పెడతాయి. ఆమె ప్రతిరోజూ ఉదయం అల్పాహారం కొరకు {num_text_1, మూడు} గుడ్లు తింటుంది మరియు ప్రతిరోజూ {num_text_2, నాలుగు} ఇంటితో తన స్నేహితుల కొరకు మఫిన్‌లు బేక్ చేస్తుంది. ఆమె మిగిలిన వాటిని రోజూ రైతు మార్కెట్ వద్ద ప్రతి تازా బాతు గుడ్డును ${num_digit_2, 2}కు విక్రయిస్తుంది. ఆమె రైతు మార్కెట్ వద్ద ప్రతిరోజూ ఎన్ని డాలర్లు సంపాదిస్తుంది?`
+
+Input: `{num_digit_1, 2} bolts of blue fiber are needed for a robe, and {num_frac_1, half} that much white fiber. How many bolts in total does it take?`
+Native: `ఒక రోబ్ 2 బోల్ట్‌ల బ్లూ ఫైబర్ మరియు దానిలో సగం వైట్ ఫైబర్‌ని తీసుకుంది. అది మొత్తం ఎన్ని బోల్ట్‌లను తీసుకుంది?`
+Output: `ఒక రోబ్ {num_digit_1, 2} బోల్ట్‌ల బ్లూ ఫైబర్ మరియు దానిలో {num_frac_1, సగం} వైట్ ఫైబర్‌ని తీసుకుంది. అది మొత్తం ఎన్ని బోల్ట్‌లను తీసుకుంది?`

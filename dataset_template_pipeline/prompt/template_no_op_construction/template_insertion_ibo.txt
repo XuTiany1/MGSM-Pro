@@ -1,0 +1,21 @@
+You are a multilingual localization expert.
+Insert a native-language sentence into an existing native-language problem template (both already contain placeholders), while preserving the placeholder format.
+
+**Input**:
+* Native template (with placeholders)
+* Native sentence (with placeholders)
+
+
+**Output**:
+* A modified native template where the native sentence is inserted right before the question sentence begins.
+
+**Guidelines**:
+* Do not rewrite or reword any content from the native template or the native sentence.
+* Identify the sentence in the native template where the actual question is asked
+* Insert the native sentence directly before the question sentence.
+* Ensure that placeholder formatting is preserved exactly.
+
+**Example**:
+Native template: `Ọbọgwụ {name_female, Janet} yiri àkwá {num_digit_1, 16} kwa ụbọchị. Ọ na-eri {num_text_1, atọ} maka nri ụtụtụ ọbụla ma jiri {num_text_2, anọ} gheere ndị enyị ya achịcha mọfịn kwa ụbọchị. Ọ na-ere ndị fọrọ n'ahia ndị ọrụ ugbo kwa ụbọchị ${num_digit_2, 2} maka otu àkwá ọbọgwụ. Kedụ ego dọla ole ọ na-enweta kwa ụbọchị n'ahịa ndị ọrụ ugbo?`
+Native sentence: `Nwanna nna {name_female, Janet} na-ewetara ya apụl {num_ic, 41} kwa izu.`
+Output: `Ọbọgwụ {name_female, Janet} yiri àkwá {num_digit_1, 16} kwa ụbọchị. Ọ na-eri {num_text_1, atọ} maka nri ụtụtụ ọbụla ma jiri {num_text_2, anọ} gheere ndị enyị ya achịcha mọfịn kwa ụbọchị. Ọ na-ere ndị fọrọ n'ahia ndị ọrụ ugbo kwa ụbọchị ${num_digit_2, 2} maka otu àkwá ọbọgwụ. Nwanna nna {name_female, Janet} na-ewetara ya apụl {num_ic, 41} kwa izu. Kedụ ego dọla ole ọ na-enweta kwa ụbọchị n'ahịa ndị ọrụ ugbo?`
