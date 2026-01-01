@@ -1,0 +1,79 @@
+{
+  "original_question": "スティーブンは食料品の注文をオンラインで行った。彼の最終的な請求書は$40.00だった。デリバリー会社を通したので、彼らが25%の手数料を最終的な総額に上乗せし、デリバリー料金として$3.00請求した。スティーブンはまた、$4.00チップを追加した。追加の手数料を足した後、スティーブンの食料品の注文の最終的な料金は？",
+  "original_answer": 57,
+  "question_template": "{name_male, Stephen} は食料品の注文をオンラインで行った。彼の最終的な請求書は${num_digit_1, 40.00}だった。デリバリー会社を通したので、彼らが{num_digit_2, 25}%の手数料を最終的な総額に上乗せし、デリバリー料金として${num_digit_3, 3.00}請求した。{name_male, Stephen} はまた、${num_digit_4, 4.00}チップを追加した。追加の手数料を足した後、{name_male, Stephen} の食料品の注文の最終的な料{name_male, Stephen}金は？",
+  "question_solution": "answer = num_digit_1 * (1 + num_digit_2/100) + num_digit_3 + num_digit_4",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 + num_digit_2/100) + num_digit_3 + num_digit_4",
+    "num_digit_1 * num_digit_2 % 100 == 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Stephen"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      30,
+      40,
+      35,
+      32,
+      50,
+      45,
+      38,
+      25,
+      100,
+      75
+    ],
+    "num_digit_2": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      40,
+      50,
+      12,
+      18,
+      24
+    ],
+    "num_digit_3": [
+      5,
+      3,
+      2,
+      7,
+      9,
+      1,
+      11,
+      6,
+      8,
+      10
+    ],
+    "num_digit_4": [
+      4,
+      6,
+      8,
+      3,
+      5,
+      10,
+      2,
+      7,
+      12,
+      9
+    ],
+    "answer": [
+      42,
+      55,
+      52,
+      50,
+      79,
+      74,
+      70,
+      41,
+      138,
+      112
+    ]
+  },
+  "ic_question_template": "{name_male, スティーブン}のおばは昨日{num_ic, 41}本のバナナを買いました。{name_male, Stephen} は食料品の注文をオンラインで行った。彼の最終的な請求書は${num_digit_1, 40.00}だった。デリバリー会社を通したので、彼らが{num_digit_2, 25}%の手数料を最終的な総額に上乗せし、デリバリー料金として${num_digit_3, 3.00}請求した。{name_male, Stephen} はまた、${num_digit_4, 4.00}チップを追加した。追加の手数料を足した後、{name_male, Stephen} の食料品の注文の最終的な料{name_male, Stephen}金は？",
+  "ic_sentence": "{name_male, スティーブン}のおばは昨日{num_ic, 41}本のバナナを買いました。"
+}

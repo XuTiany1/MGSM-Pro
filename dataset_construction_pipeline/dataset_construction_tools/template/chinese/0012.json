@@ -1,0 +1,80 @@
+{
+  "original_question": "卡洛斯在种一棵柠檬树。种这棵树需要花 90 美元。这颗树每年会结出 7 棵柠檬，每颗能卖 1.5 美元。每年给这棵树浇水和施肥需要花 3 美元。他需要用多少年才能开始从这棵柠檬树上赚到钱？",
+  "original_answer": 13,
+  "question_template": "{name_male, 卡洛斯} 在种一棵柠檬树。种这棵树需要花 {num_digit_1, 90} 美元。这棵树每年会结出 {num_digit_2, 7} 个柠檬，每个能卖 {num_digit_3, 1.5} 美元。每年给这棵树浇水和施肥需要花 {num_digit_4, 3} 美元。他需要用多少年才能开始从这棵柠檬树上赚到钱？",
+  "question_solution": "answer = num_digit_1 // (num_digit_2 * num_digit_3 - num_digit_4) + 1",
+  "conditions": [
+    "int(answer) == num_digit_1 // (num_digit_2 * num_digit_3 - num_digit_4) + 1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Carlos"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      317,
+      523,
+      799,
+      412,
+      975,
+      661,
+      830,
+      933,
+      1207,
+      1486
+    ],
+    "num_digit_2": [
+      13,
+      17,
+      19,
+      11,
+      23,
+      14,
+      16,
+      18,
+      21,
+      17
+    ],
+    "num_digit_3": [
+      2.4,
+      1.9,
+      2.7,
+      3.1,
+      1.75,
+      2.85,
+      2.2,
+      1.95,
+      2.05,
+      3.3
+    ],
+    "num_digit_4": [
+      7,
+      5,
+      8,
+      12,
+      9,
+      13,
+      11,
+      6,
+      14,
+      19
+    ],
+    "answer": [
+      14,
+      20,
+      19,
+      19,
+      32,
+      25,
+      35,
+      33,
+      42,
+      41
+    ]
+  },
+  "ic_question_template": "{name_male, 卡洛斯} 的表亲在上一次家庭野餐带来了 {num_ic, 136} 个橙子。{name_male, 卡洛斯} 在种一棵柠檬树。种这棵树需要花 {num_digit_1, 90} 美元。这棵树每年会结出 {num_digit_2, 7} 个柠檬，每个能卖 {num_digit_3, 1.5} 美元。每年给这棵树浇水和施肥需要花 {num_digit_4, 3} 美元。他需要用多少年才能开始从这棵柠檬树上赚到钱？",
+  "ic_sentence": "{name_male, 卡洛斯} 的表亲在上一次家庭野餐带来了 {num_ic, 136} 个橙子。"
+}

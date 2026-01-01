@@ -1,0 +1,81 @@
+{
+  "original_question": "Mark ni mhariri wa nakala. Anahariri idadi inayotoshana ya sentensi kila wiki kwa ajili ya wachapishaji wawili tofauti, ambao kila mmoja anamlipa kwa kiwango tofauti kwa kila sentensi. Mchapishaji B anamlipa Mark mara mbili ya kile Mchapishaji A humlipa. Mark anahariri jumla ya sentensi 1000 kila wiki, na Publisher A humlipa senti 5 kwa kila sentensi. Mark hutengeneza pesa ngapi kwa wiki, kwa senti?",
+  "original_answer": 7500,
+  "question_template": "{name_male, Mark} ni mhariri wa nakala. Anahariri idadi inayotoshana ya sentensi kila wiki kwa ajili ya wachapishaji wawili tofauti, ambao kila mmoja anamlipa kwa kiwango tofauti kwa kila sentensi. Mchapishaji B anamlipa {name_male, Mark} {num_text_2, mara mbili} ya kile Mchapishaji A humlipa. {name_male, Mark} anahariri jumla ya sentensi {num_digit_1, 1000} kila wiki, na Publisher A humlipa senti {num_digit_2, 5} kwa kila sentensi. {name_male, Mark} hutengeneza pesa ngapi kwa wiki, kwa senti?",
+  "question_solution": "answer = (num_digit_1/2) * num_digit_2 * (1 + f2)   # f2 is the numeric value of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1/2) * num_digit_2 * (1 + f2)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "0 < f2",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Mark"
+  },
+  "variable_number_dictionary": {
+    "num_text_2": [
+      "mara tatu",
+      "mara tano",
+      "Mara mbili",
+      "Mara nne",
+      "mara moja na nusu",
+      "mara tatu",
+      "mara sita",
+      "mara kumi",
+      "mara saba",
+      "mara tisa"
+    ],
+    "num_digit_1": [
+      1520,
+      2764,
+      9990,
+      24680,
+      7832,
+      3640,
+      9876,
+      1024,
+      5550,
+      8148
+    ],
+    "num_digit_2": [
+      7,
+      12,
+      9,
+      13,
+      15,
+      17,
+      11,
+      3,
+      8,
+      4
+    ],
+    "answer": [
+      21280,
+      99504,
+      134865,
+      802100,
+      146850,
+      123760,
+      380226,
+      16896,
+      177600,
+      162960
+    ],
+    "num_ic": [
+      234,
+      814,
+      3676,
+      3071,
+      527,
+      877,
+      5272,
+      242,
+      1781,
+      3600
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_male, Mark} amesoma riwaya za siri {num_ic, 3071} hivi karibuni. {name_male, Mark} ni mhariri wa nakala. Anahariri idadi inayotoshana ya sentensi kila wiki kwa ajili ya wachapishaji wawili tofauti, ambao kila mmoja anamlipa kwa kiwango tofauti kwa kila sentensi. Mchapishaji B anamlipa {name_male, Mark} {num_text_2, mara mbili} ya kile Mchapishaji A humlipa. {name_male, Mark} anahariri jumla ya sentensi {num_digit_1, 1000} kila wiki, na Publisher A humlipa senti {num_digit_2, 5} kwa kila sentensi. {name_male, Mark} hutengeneza pesa ngapi kwa wiki, kwa senti?",
+  "ic_sentence": "Mjomba wa {name_male, Mark} amesoma riwaya za siri {num_ic, 3071} hivi karibuni."
+}

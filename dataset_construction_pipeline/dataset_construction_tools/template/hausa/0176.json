@@ -1,0 +1,81 @@
+{
+  "original_question": "A gasar tsere ta 'yan Asiya 240, 80 'yan Japan ne, sauran kuma 'yan China ne. Idan adadin yara maza a cikin tawagar kasar China sun kai 60, 'yan mata nawa ne ke cikin tawagar kasar China?",
+  "original_answer": 100,
+  "question_template": "A gasar tsere ta 'yan Asiya {num_digit_1, 240}, {num_digit_2, 80} 'yan Japan ne, sauran kuma 'yan China ne. Idan adadin yara maza a cikin tawagar kasar China sun kai {num_digit_3, 60}, 'yan mata nawa ne ke cikin tawagar kasar China?",
+  "question_solution": "answer = num_digit_1 - num_digit_2 - num_digit_3",
+  "conditions": [
+    "answer == num_digit_1 - num_digit_2 - num_digit_3",
+    "num_digit_1 > num_digit_2",
+    "num_digit_3 < (num_digit_1 - num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "answer > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      300,
+      450,
+      500,
+      320,
+      275,
+      400,
+      350,
+      600,
+      380,
+      420
+    ],
+    "num_digit_2": [
+      100,
+      150,
+      200,
+      80,
+      75,
+      90,
+      140,
+      250,
+      180,
+      60
+    ],
+    "num_digit_3": [
+      50,
+      120,
+      100,
+      120,
+      60,
+      110,
+      80,
+      200,
+      70,
+      120
+    ],
+    "answer": [
+      150,
+      180,
+      200,
+      120,
+      140,
+      200,
+      130,
+      150,
+      130,
+      240
+    ],
+    "num_ic": [
+      193,
+      94,
+      372,
+      263,
+      155,
+      201,
+      401,
+      265,
+      233,
+      239
+    ]
+  },
+  "ic_question_template": "Masoya {num_ic, 306} ne suka kawo banoni zuwa taron. A gasar tsere ta 'yan Asiya {num_digit_1, 240}, {num_digit_2, 80} 'yan Japan ne, sauran kuma 'yan China ne. Idan adadin yara maza a cikin tawagar kasar China sun kai {num_digit_3, 60}, 'yan mata nawa ne ke cikin tawagar kasar China?",
+  "ic_sentence": "Masoya {num_ic, 306} ne suka kawo banoni zuwa taron."
+}

@@ -1,0 +1,77 @@
+{
+  "original_question": "Iyàrá ìkẹ́kọ̀ọ́ kan ní pátákó ìkọ̀wé funfun tí wọ́n pín láàrín àwọn olùkọ́ 4 tí wọ́n ń gba iṣẹ́ lọ́wọ́ ara wọn láti lo kílásì náà. Olùkọ́ kọ̀ọ̀kan ní ẹ̀kọ́ 2 lójúmọ́ ó sì ń ṣàmúlò pátákó ìkọ̀wé funfun náà ní ìkẹ́kọ̀ọ́ kọ̀ọ̀kan. Tí wọn bá pa pátákó ìkọ̀wé funfun náà rẹ́ ní 3 nínú ìkẹ́kọ̀ọ́ kọ̀ọ̀kan, ẹ̀melòó ní wọ́n ń pa pátákó ìkọ̀wé funfun náà rẹ́ ní ojúmọ́?",
+  "original_answer": 24,
+  "question_template": "Iyàrá ìkẹ́kọ̀ọ́ kan ní pátákó ìkọ̀wé funfun tí wọ́n pín láàrín àwọn olùkọ́ {num_digit_1, 4} tí wọ́n ń gba iṣẹ́ lọ́wọ́ ara wọn láti lo kílásì náà. Olùkọ́ kọ̀ọ̀kan ní ẹ̀kọ́ {num_digit_2, 2} lójúmọ́ ó sì ń ṣàmúlò pátákó ìkọ̀wé funfun náà ní ìkẹ́kọ̀ọ́ kọ̀ọ̀kan. Tí wọ́n bá pa pátákó ìkọ̀wé funfun náà rẹ́ ní {num_digit_3, 3} nínú ìkẹ́kọ̀ọ́ kọ̀ọ̀kan, ẹ̀melòó ní wọ́n ń pa pátákó ìkọ̀wé funfun náà rẹ́ ní ojúmọ́?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      5,
+      7,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15
+    ],
+    "num_digit_2": [
+      3,
+      4,
+      5,
+      3,
+      6,
+      7,
+      8,
+      9,
+      4,
+      6
+    ],
+    "num_digit_3": [
+      4,
+      5,
+      6,
+      7,
+      3,
+      2,
+      4,
+      5,
+      9,
+      8
+    ],
+    "answer": [
+      60,
+      140,
+      180,
+      168,
+      162,
+      140,
+      352,
+      540,
+      468,
+      720
+    ],
+    "num_ic": [
+      17,
+      128,
+      70,
+      146,
+      51,
+      40,
+      94,
+      156,
+      122,
+      88
+    ]
+  },
+  "ic_question_template": "Ọmọkùnrin arákùnrin-ìyàwó olùtọjú ilé yìí mú {num_ic, 61} àmì akọ́sọ wá sí ilé-ẹ̀kọ́. Iyàrá ìkẹ́kọ̀ọ́ kan ní pátákó ìkọ̀wé funfun tí wọ́n pín láàrín àwọn olùkọ́ {num_digit_1, 4} tí wọ́n ń gba iṣẹ́ lọ́wọ́ ara wọn láti lo kílásì náà. Olùkọ́ kọ̀ọ̀kan ní ẹ̀kọ́ {num_digit_2, 2} lójúmọ́ ó sì ń ṣàmúlò pátákó ìkọ̀wé funfun náà ní ìkẹ́kọ̀ọ́ kọ̀ọ̀kan. Tí wọ́n bá pa pátákó ìkọ̀wé funfun náà rẹ́ ní {num_digit_3, 3} nínú ìkẹ́kọ̀ọ́ kọ̀ọ̀kan, ẹ̀melòó ní wọ́n ń pa pátákó ìkọ̀wé funfun náà rẹ́ ní ojúmọ́?",
+  "ic_sentence": "Ọmọkùnrin arákùnrin-ìyàwó olùtọjú ilé yìí mú {num_ic, 61} àmì akọ́sọ wá sí ilé-ẹ̀kọ́."
+}

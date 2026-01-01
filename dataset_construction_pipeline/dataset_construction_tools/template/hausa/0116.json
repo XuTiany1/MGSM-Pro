@@ -1,0 +1,80 @@
+{
+  "original_question": "Katy tana dafa kofi ta hanyar amfani da babban cokali na sukari da kofuna na ruwa a cikin tsarin resho 7:13. Idan ta yi amfani da jimillar cokuli 120 na sukari da kofuna na ruwa, lissafa yawan cokulan sukari da ta yi amfani da su.",
+  "original_answer": 42,
+  "question_template": "{name_female, Katy} tana dafa kofi ta hanyar amfani da babban cokali na sukari da kofuna na ruwa a cikin tsarin resho {num_digit_1, 7}:{num_digit_2, 13}. Idan ta yi amfani da jimillar cokuli {num_digit_3, 120} na sukari da kofuna na ruwa, lissafa yawan cokulan sukari da ta yi amfani da su.",
+  "question_solution": "answer = num_digit_3 * num_digit_1 / (num_digit_1 + num_digit_2)",
+  "conditions": [
+    "int(answer) == num_digit_3 * num_digit_1 / (num_digit_1 + num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_3 % (num_digit_1 + num_digit_2) == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Katy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      17,
+      20,
+      26,
+      28,
+      31,
+      33,
+      22,
+      24,
+      29,
+      30
+    ],
+    "num_digit_2": [
+      19,
+      13,
+      14,
+      9,
+      12,
+      17,
+      16,
+      15,
+      11,
+      25
+    ],
+    "num_digit_3": [
+      360,
+      495,
+      560,
+      518,
+      860,
+      1100,
+      684,
+      507,
+      720,
+      990
+    ],
+    "answer": [
+      170,
+      300,
+      364,
+      392,
+      620,
+      726,
+      396,
+      312,
+      522,
+      540
+    ],
+    "num_ic": [
+      52,
+      36,
+      24,
+      126,
+      111,
+      182,
+      97,
+      50,
+      66,
+      88
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Katy} yana shan kofin kofi {num_ic, 47} a kowane wata. {name_female, Katy} tana dafa kofi ta hanyar amfani da babban cokali na sukari da kofuna na ruwa a cikin tsarin resho {num_digit_1, 7}:{num_digit_2, 13}. Idan ta yi amfani da jimillar cokuli {num_digit_3, 120} na sukari da kofuna na ruwa, lissafa yawan cokulan sukari da ta yi amfani da su.",
+  "ic_sentence": "Kawun {name_female, Katy} yana shan kofin kofi {num_ic, 47} a kowane wata."
+}

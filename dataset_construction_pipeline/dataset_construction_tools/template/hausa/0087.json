@@ -1,0 +1,80 @@
+{
+  "original_question": "Wani kamfani yana biyan kowane ma'aikacin $600 a wata. Kamfanin yana da manufar kara albashin kowane ma'aikacin da kashi 10% na albashin farko a duk shekara ga wadanda suka zauna a kamfanin na tsawon shekaru biyar. Idan Sylvie ta cika shekaru 5 a kamfanin a watan Disambar da ya gabata, menene albashinta na shekara bayan ƙarin shekaru uku na hidima?",
+  "original_answer": 9360,
+  "question_template": "Wani kamfani yana biyan kowane ma'aikacin ${num_digit_1, 600} a wata. Kamfanin yana da manufar kara albashin kowane ma'aikacin da kashi {num_digit_2, 10}% na albashin farko a duk shekara ga wadanda suka zauna a kamfanin na tsawon shekaru {num_text_1, biyar}. Idan {name_female, Sylvie} ta cika shekaru {num_digit_3, 5} a kamfanin a watan Disambar da ya gabata, menene albashinta na shekara bayan ƙarin shekaru {num_text_2, uku} na hidima?",
+  "question_solution": "answer = num_digit_1 * (1 + NUM(num_text_2) * num_digit_2 / 100) * 12",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 + NUM(num_text_2) * num_digit_2 / 100) * 12",
+    "NUM(num_text_2) > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_2 < 100"
+  ],
+  "variable_word_list": {
+    "name_female": "Sylvie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      500,
+      550,
+      625,
+      720,
+      800,
+      825,
+      900,
+      1000,
+      1100,
+      1200
+    ],
+    "num_digit_2": [
+      5,
+      8,
+      12,
+      20,
+      25,
+      4,
+      15,
+      30,
+      50,
+      6
+    ],
+    "num_text_2": [
+      "biyu",
+      "uku",
+      "hudu",
+      "shida",
+      "Takwas",
+      "biyar",
+      "bakwai",
+      "tara",
+      "Goma",
+      "goma sha ɗaya"
+    ],
+    "answer": [
+      6600,
+      8184,
+      11100,
+      19008,
+      28800,
+      11880,
+      22140,
+      44400,
+      79200,
+      23904
+    ],
+    "num_ic": [
+      35,
+      98,
+      72,
+      312,
+      226,
+      87,
+      356,
+      45,
+      274,
+      73
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Sylvie} kwanan nan ya sayi kujerun ofis guda {num_ic, 77}. Wani kamfani yana biyan kowane ma'aikacin ${num_digit_1, 600} a wata. Kamfanin yana da manufar kara albashin kowane ma'aikacin da kashi {num_digit_2, 10}% na albashin farko a duk shekara ga wadanda suka zauna a kamfanin na tsawon shekaru {num_text_1, biyar}. Idan {name_female, Sylvie} ta cika shekaru {num_digit_3, 5} a kamfanin a watan Disambar da ya gabata, menene albashinta na shekara bayan ƙarin shekaru {num_text_2, uku} na hidima?",
+  "ic_sentence": "Kawun {name_female, Sylvie} kwanan nan ya sayi kujerun ofis guda {num_ic, 77}."
+}

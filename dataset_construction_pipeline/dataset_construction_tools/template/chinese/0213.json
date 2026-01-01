@@ -1,0 +1,69 @@
+{
+  "original_question": "在一美元商店，斯隆数了数，有 100 位顾客进入了这家店。第二天，她数了数，到店人数比第一天多了 50。如果到第三天为止顾客总数是 500，第三天有多少位顾客到店？",
+  "original_answer": 250,
+  "question_template": "{name_female, 斯隆} 在一美元商店数了数，有 {num_digit_1, 100} 位顾客进入了这家店。第二天，她数了数，到店人数比第一天多了 {num_digit_2, 50}。如果到第三天为止顾客总数是 {num_digit_3, 500}，第三天有多少位顾客到店？",
+  "question_solution": "answer = num_digit_3 - (2 * num_digit_1 + num_digit_2)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_3 - (2 * num_digit_1 + num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sloane"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      157,
+      248,
+      369,
+      431,
+      529,
+      612,
+      703,
+      814,
+      925,
+      1134
+    ],
+    "num_digit_2": [
+      59,
+      153,
+      284,
+      312,
+      449,
+      588,
+      614,
+      733,
+      821,
+      956
+    ],
+    "num_digit_3": [
+      496,
+      1105,
+      1811,
+      1495,
+      2161,
+      2799,
+      2131,
+      2583,
+      3004,
+      3668
+    ],
+    "answer": [
+      123,
+      456,
+      789,
+      321,
+      654,
+      987,
+      111,
+      222,
+      333,
+      444
+    ]
+  },
+  "ic_question_template": "{name_female, 斯隆} 的叔叔为烘焙义卖烤了 {num_ic, 93} 个蓝莓派。{name_female, 斯隆} 在一美元商店数了数，有 {num_digit_1, 100} 位顾客进入了这家店。第二天，她数了数，到店人数比第一天多了 {num_digit_2, 50}。如果到第三天为止顾客总数是 {num_digit_3, 500}，第三天有多少位顾客到店？",
+  "ic_sentence": "{name_female, 斯隆} 的叔叔为烘焙义卖烤了 {num_ic, 93} 个蓝莓派。"
+}

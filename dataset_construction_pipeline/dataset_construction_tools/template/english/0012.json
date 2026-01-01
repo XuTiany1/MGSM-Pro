@@ -1,0 +1,92 @@
+{
+  "original_question": "Carlos is planting a lemon tree. The tree will cost $90 to plant. Each year it will grow 7 lemons, which he can sell for $1.5 each. It costs $3 a year to water and feed the tree. How many years will it take before he starts earning money on the lemon tree?",
+  "original_answer": 13,
+  "question_template": "{name_male, Carlos} is planting a lemon tree. The tree will cost ${num_digit_1, 90} to plant. Each year it will grow {num_digit_2, 7} lemons, which he can sell for ${num_digit_3, 1.5} each. It costs ${num_digit_4, 3} a year to water and feed the tree. How many years will it take before he starts earning money on the lemon tree?",
+  "question_solution": "answer = num_digit_1 // (num_digit_2 * num_digit_3 - num_digit_4) + 1",
+  "conditions": [
+    "int(answer) == num_digit_1 // (num_digit_2 * num_digit_3 - num_digit_4) + 1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Carlos"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      317,
+      523,
+      799,
+      412,
+      975,
+      661,
+      830,
+      933,
+      1207,
+      1486
+    ],
+    "num_digit_2": [
+      13,
+      17,
+      19,
+      11,
+      23,
+      14,
+      16,
+      18,
+      21,
+      17
+    ],
+    "num_digit_3": [
+      2.4,
+      1.9,
+      2.7,
+      3.1,
+      1.75,
+      2.85,
+      2.2,
+      1.95,
+      2.05,
+      3.3
+    ],
+    "num_digit_4": [
+      7,
+      5,
+      8,
+      12,
+      9,
+      13,
+      11,
+      6,
+      14,
+      19
+    ],
+    "answer": [
+      14,
+      20,
+      19,
+      19,
+      32,
+      25,
+      35,
+      33,
+      42,
+      41
+    ],
+    "num_ic": [
+      86,
+      123,
+      62,
+      78,
+      117,
+      122,
+      94,
+      185,
+      148,
+      174
+    ]
+  },
+  "ic_question_template": "{name_male, Carlos} is planting a lemon tree. The tree will cost ${num_digit_1, 90} to plant. Each year it will grow {num_digit_2, 7} lemons, which he can sell for ${num_digit_3, 1.5} each. It costs ${num_digit_4, 3} a year to water and feed the tree. {name_male, Carlos}'s cousin brought {num_ic, 136} oranges to the last family picnic. How many years will it take before he starts earning money on the lemon tree?",
+  "ic_sentence": "{name_male, Carlos}'s cousin brought {num_ic, 136} oranges to the last family picnic."
+}

@@ -1,0 +1,89 @@
+{
+  "original_question": "Ohun èlò ìmúṣiṣẹ́ kan ní ìgbàsílẹ̀ 60 ní oṣù àkọ́kọ́. Ònkà ìgbàsílẹ̀ náà ní oṣù kejì fi ìlọ́po mẹ́ta pọ̀ ju èyí ti ìgbàsílẹ̀ ní oṣù àkọ́kọ́ lọ, ṣùgbọ́n ó tún dínkù pẹ̀lú 30% ní oṣù kẹta. Mélòó ni iye ìgbàsílẹ̀ tí ètò náà ní lápapọ̀ ní kárí àwọn oṣù mẹ́ta náà?",
+  "original_answer": 366,
+  "question_template": "Ohun èlò ìmúṣiṣẹ́ kan ní ìgbàsílẹ̀ {num_digit_1, 60} ní oṣù àkọ́kọ́. Ònkà ìgbàsílẹ̀ náà ní oṣù kejì fi {num_text_1, ìlọ́po mẹ́ta} pọ̀ ju èyí ti ìgbàsílẹ̀ ní oṣù àkọ́kọ́ lọ, ṣùgbọ́n ó tún dínkù pẹ̀lú {num_digit_2, 30}% ní oṣù kẹta. Mélòó ni iye ìgbàsílẹ̀ tí ètò náà ní lápapọ̀ ní kárí àwọn oṣù {num_text_2, mẹ́ta} náà?",
+  "question_solution": "answer = num_digit_1 + NUM(num_text_1) * num_digit_1 + NUM(num_text_1) * num_digit_1 * (1 - num_digit_2/100)",
+  "conditions": [
+    "int(answer) == num_digit_1 + NUM(num_text_1) * num_digit_1 + NUM(num_text_1) * num_digit_1 * (1 - num_digit_2/100)",
+    "num_digit_1 > 0",
+    "NUM(num_text_1) > 0",
+    "0 <= num_digit_2 < 100"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      47,
+      53,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97
+    ],
+    "num_text_1": [
+      "ìkẹrin",
+      "ìgbà márùn-ún",
+      "ẹ̀ẹ̀mefa",
+      "ìkejìlélọ́kànjọ̀jọ",
+      "Ẹẹwàá.",
+      "Ẹẹ̀mẹ́wàá méjì",
+      "ẹẹ́rìndínlógún ìgbà",
+      "ìgbà méjìlélógún",
+      "ìgbà méjìlélọ́gbọ̀n",
+      "ogún-lẹ́jọ̀ méjì igba"
+    ],
+    "num_digit_2": [
+      25,
+      20,
+      50,
+      25,
+      10,
+      25,
+      25,
+      10,
+      25,
+      25
+    ],
+    "num_text_2": [
+      "mẹta",
+      "mẹta",
+      "mẹta",
+      "mẹta",
+      "mẹta",
+      "mẹta",
+      "mẹta",
+      "mẹta",
+      "mẹta",
+      "mẹta"
+    ],
+    "answer": [
+      376,
+      530,
+      610,
+      1005,
+      1420,
+      1606,
+      2291,
+      3237,
+      3827,
+      4850
+    ],
+    "num_ic": [
+      336,
+      208,
+      496,
+      603,
+      560,
+      413,
+      387,
+      942,
+      715,
+      970
+    ]
+  },
+  "ic_question_template": "Arákùnrin olùgbéejáde na kọ́ títa tábìlì kọ̀mpútà {num_ic, 413} fún ilé-iṣẹ́ náà. Ohun èlò ìmúṣiṣẹ́ kan ní ìgbàsílẹ̀ {num_digit_1, 60} ní oṣù àkọ́kọ́. Ònkà ìgbàsílẹ̀ náà ní oṣù kejì fi {num_text_1, ìlọ́po mẹ́ta} pọ̀ ju èyí ti ìgbàsílẹ̀ ní oṣù àkọ́kọ́ lọ, ṣùgbọ́n ó tún dínkù pẹ̀lú {num_digit_2, 30}% ní oṣù kẹta. Mélòó ni iye ìgbàsílẹ̀ tí ètò náà ní lápapọ̀ ní kárí àwọn oṣù {num_text_2, mẹ́ta} náà?",
+  "ic_sentence": "Arákùnrin olùgbéejáde na kọ́ títa tábìlì kọ̀mpútà {num_ic, 413} fún ilé-iṣẹ́ náà."
+}

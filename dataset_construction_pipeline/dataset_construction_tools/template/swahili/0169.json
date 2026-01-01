@@ -1,0 +1,67 @@
+{
+  "original_question": "Pancho hutembea maili 20 kwa siku. Isipokuwa siku za wikendi ambapo huwa anatembea maili 10. Huwa anatembea maili ngapi kwa jumla kwa wiki?",
+  "original_answer": 120,
+  "question_template": "{name_male, Pancho} hutembea maili {num_digit_1, 20} kwa siku, isipokuwa wikendi ambapo hutembea maili {num_digit_2, 10}. Hutembea maili ngapi kwa wiki?",
+  "question_solution": "answer = num_digit_1 * 5 + num_digit_2 * 2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * 5 + num_digit_2 * 2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Pancho"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      137,
+      289,
+      523,
+      784,
+      1024,
+      2047,
+      3056,
+      4096,
+      5123,
+      10000
+    ],
+    "num_digit_2": [
+      73,
+      146,
+      289,
+      333,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384
+    ],
+    "answer": [
+      831,
+      1737,
+      3193,
+      4586,
+      6144,
+      12283,
+      19376,
+      28672,
+      41999,
+      82768
+    ],
+    "num_ic": [
+      748,
+      1931,
+      426,
+      7689,
+      1321,
+      20470,
+      750,
+      9549,
+      4122,
+      7700
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_male, Pancho} anamiliki kofia {num_ic, 302}. {name_male, Pancho} hutembea maili {num_digit_1, 20} kwa siku, isipokuwa wikendi ambapo hutembea maili {num_digit_2, 10}. Hutembea maili ngapi kwa wiki?",
+  "ic_sentence": "Mjomba wa {name_male, Pancho} anamiliki kofia {num_ic, 302}."
+}

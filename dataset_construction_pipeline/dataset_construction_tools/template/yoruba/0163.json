@@ -1,0 +1,104 @@
+{
+  "original_question": "Nínú u yàrá kan, àwọn nǹkan ìṣeré oríṣiríṣi wà níbẹ̀: ọkọ̀ ayọ́kẹ́lẹ́ pupa 5, awọnt nọ́mbà 3, ati ọmọlángidi kan. Iye tí wọ́n ń ta ọmọlángidi náà je iye tí wón ń ta nọ́mbà mẹta, iye ọkọ ayọ́kẹ́lẹ́ kan sì jẹ́ $4. Èló ni gbogbo nkan ìṣeré náà jẹ́, tí iye nọ́mbà kan bá jẹ́ $5?",
+  "original_answer": 50,
+  "question_template": "Nínú u yàrá kan, àwọn nǹkan ìṣeré oríṣiríṣi wà níbẹ̀: ọkọ̀ ayọ́kẹ́lẹ́ pupa {num_digit_1, 5}, nọ́mbà {num_digit_2, 3}, ati ọmọlángidi kan. Iye tí wọ́n ń ta ọmọlángidi náà jẹ iye tí wón ń ta nọ́mbà {num_digit_3, 3}, iye ọkọ ayọ́kẹ́lẹ́ kan sì jẹ́ ${num_digit_4, 4}. Èló ni gbogbo nkan ìṣeré náà jẹ́, tí iye nọ́mbà kan bá jẹ́ ${num_digit_5, 5}?",
+  "question_solution": "answer = num_digit_1 * num_digit_4 + (num_digit_2 + num_digit_3) * num_digit_5",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_4 + (num_digit_2 + num_digit_3) * num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      17,
+      23,
+      31,
+      29,
+      41,
+      34,
+      47,
+      52,
+      63,
+      78
+    ],
+    "num_digit_2": [
+      13,
+      9,
+      17,
+      14,
+      22,
+      19,
+      25,
+      28,
+      32,
+      45
+    ],
+    "num_digit_3": [
+      6,
+      5,
+      8,
+      11,
+      9,
+      12,
+      14,
+      17,
+      21,
+      34
+    ],
+    "num_digit_4": [
+      11,
+      14,
+      9,
+      13,
+      18,
+      21,
+      17,
+      23,
+      29,
+      31
+    ],
+    "num_digit_5": [
+      8,
+      12,
+      15,
+      17,
+      16,
+      20,
+      19,
+      22,
+      25,
+      27
+    ],
+    "answer": [
+      339,
+      490,
+      654,
+      802,
+      1234,
+      1334,
+      1540,
+      2186,
+      3152,
+      4551
+    ],
+    "num_ic": [
+      35,
+      115,
+      107,
+      68,
+      154,
+      198,
+      29,
+      211,
+      256,
+      737
+    ]
+  },
+  "ic_question_template": "Arábìnrin {name_male, Billy} ní arákùnrin kan tí ó ní erùkèrè oyinbo {num_ic, 31}. Nínú u yàrá kan, ọpọlọpọ̀ nǹkan ìṣeré oríṣiríṣi wà níbẹ̀: ọkọ̀ ayọ́kẹ́lẹ́ pupa {num_digit_1, 5}, nọ́mbà {num_digit_2, 3}, ati ọmọlángidi kan. Iye tí wọ́n ń ta ọmọlángidi náà jẹ iye tí wón ń ta nọ́mbà {num_digit_3, 3}, iye ọkọ ayọ́kẹ́lẹ́ kan sì jẹ́ ${num_digit_4, 4}. Èló ni gbogbo nkan ìṣeré náà jẹ́, tí iye nọ́mbà kan bá jẹ́ ${num_digit_5, 5}?",
+  "ic_sentence": "Arábìnrin {name_male, Billy} ní arákùnrin kan tí ó ní erùkèrè oyinbo {num_ic, 31}."
+}

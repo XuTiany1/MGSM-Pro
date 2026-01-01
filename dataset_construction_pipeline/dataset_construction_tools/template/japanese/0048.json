@@ -1,0 +1,55 @@
+{
+  "original_question": "トレイシーは4フィートの長さのワイヤーを、庭でトマトの苗木を支えるために使っていました。ワイヤは今、6インチの長さに切り分けられています。彼女は幾つのワイヤを手に入れましたか？",
+  "original_answer": 3,
+  "question_template": "トレイシーは{name_female, Tracy}は{num_digit_1, 7.75}フィートの長さのワイヤーを、庭でトマトの苗木を支えるために使っていました。ワイヤは今、{num_digit_2, 31}インチの長さに切り分けられています。彼女は幾つのワイヤを手に入れましたか？",
+  "question_solution": "answer = (num_digit_1 * 12) // num_digit_2",
+  "conditions": [
+    "int(answer) == (num_digit_1 * 12) // num_digit_2",
+    "(num_digit_1 * 12) % num_digit_2 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Tracy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7.75,
+      9.5,
+      8.25,
+      10.5,
+      6.25,
+      11.75,
+      12.5,
+      13.5,
+      14.25,
+      15.5
+    ],
+    "num_digit_2": [
+      31,
+      19,
+      11,
+      7,
+      15,
+      47,
+      25,
+      27,
+      9,
+      31
+    ],
+    "answer": [
+      3,
+      6,
+      9,
+      18,
+      5,
+      3,
+      6,
+      6,
+      19,
+      6
+    ]
+  },
+  "ic_question_template": "{name_female, トレイシー}のおじさんは温室に{num_ic, 52}本のトマト支柱を持っています。トレイシーは{name_female, Tracy}は{num_digit_1, 7.75}フィートの長さのワイヤーを、庭でトマトの苗木を支えるために使っていました。ワイヤは今、{num_digit_2, 31}インチの長さに切り分けられています。彼女は幾つのワイヤを手に入れましたか？",
+  "ic_sentence": "{name_female, トレイシー}のおじさんは温室に{num_ic, 52}本のトマト支柱を持っています。"
+}

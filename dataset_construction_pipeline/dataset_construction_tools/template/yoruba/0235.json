@@ -1,0 +1,81 @@
+{
+  "original_question": "John ra pizza díẹ‌ láti pín pẹ‌lú àwọn ọ‌rẹ‌ rẹ‌. Gbogbo àwọn ọ‌rẹ‌ náà jẹ‌ 20 lápapọ‌, John sì fẹ‌ ri dájú pé ọ‌kọ‌ọ‌kan wọn jẹ awẹ‌ mẹ‌rin mẹ‌rin. Pizza ẹyọ‌kan sì máa ń ní awẹ‌ mẹ‌jọ. Pizza mélòó ni John nílò láti rà?",
+  "original_answer": 10,
+  "question_template": "{name_male, John} ra pizza díẹ‌ láti pín pẹ‌lú àwọn ọ‌rẹ‌ rẹ‌. Gbogbo àwọn ọ‌rẹ‌ náà jẹ‌ {num_digit_1, 20} lápapọ‌, {name_male, John} sì fẹ‌ ri dájú pé ọ‌kọ‌ọ‌kan wọn jẹ awẹ‌ {num_digit_2, 4}. Pizza ẹyọ‌kan sì máa ń ní awẹ́ {num_digit_3, 8}. Pizza mélòó ni {name_male, John} nílò láti rà?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 / num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 / num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      137,
+      256,
+      345,
+      462,
+      579,
+      618,
+      845,
+      963,
+      1082,
+      712
+    ],
+    "num_digit_2": [
+      9,
+      5,
+      23,
+      13,
+      21,
+      17,
+      19,
+      21,
+      25,
+      16
+    ],
+    "num_digit_3": [
+      9,
+      10,
+      15,
+      11,
+      9,
+      17,
+      5,
+      3,
+      5,
+      8
+    ],
+    "answer": [
+      137,
+      128,
+      529,
+      546,
+      1351,
+      618,
+      3211,
+      6741,
+      5410,
+      1424
+    ],
+    "num_ic": [
+      82,
+      77,
+      387,
+      934,
+      398,
+      424,
+      277,
+      978,
+      1247,
+      491
+    ]
+  },
+  "ic_question_template": "Ọmọkùnrin baba {name_male, John} ní káàdì bọ́ọ̀lù béesibọ́ọ̀ {num_ic, 712}. {name_male, John} ra pizza díẹ‌ láti pín pẹ‌lú àwọn ọ‌rẹ‌ rẹ‌. Gbogbo àwọn ọ‌rẹ‌ náà jẹ‌ {num_digit_1, 20} lápapọ‌, {name_male, John} sì fẹ‌ ri dájú pé ọ‌kọ‌ọ‌kan wọn jẹ awẹ‌ {num_digit_2, 4}. Pizza ẹyọ‌kan sì máa ń ní awẹ́ {num_digit_3, 8}. Pizza mélòó ni {name_male, John} nílò láti rà?",
+  "ic_sentence": "Ọmọkùnrin baba {name_male, John} ní káàdì bọ́ọ̀lù béesibọ́ọ̀ {num_ic, 712}."
+}

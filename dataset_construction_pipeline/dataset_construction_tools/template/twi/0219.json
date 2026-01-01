@@ -1,0 +1,110 @@
+{
+  "original_question": "Asuafo enan nyaa mba 251 wɔ agodie mu. Naomi nyaa mba no mu 68. Yuri nyaa mba 10 a ɛboro Naomi de so fa, na Brianna nyaa mba 17 a ɛboro Naomi de so. Mba dodoɔ ahe na Jojo dii?",
+  "original_answer": 54,
+  "question_template": "Asuafo enan nyaa mba {num_digit_1, 251} wɔ agodie mu. {name_female_1, Naomi} nyaa mba no mu {num_digit_2, 68}. {name_female_2, Yuri} nyaa mba {num_digit_3, 10} a ɛboro {name_female_1, Naomi} de so {num_frac_1, fa}, na {name_female_3, Brianna} nyaa mba {num_digit_4, 17} a ɛboro {name_female_1, Naomi} de so. Mba dodoɔ ahe na {name_female_4, Jojo} dii?",
+  "question_solution": "answer = num_digit_1 - ( num_digit_2 + (f1 * num_digit_2 + num_digit_3) + (num_digit_2 + num_digit_4) )   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 - ( num_digit_2 + (f1 * num_digit_2 + num_digit_3) + (num_digit_2 + num_digit_4) )",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "0 < f1 < 1",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Naomi",
+    "name_female_2": "Yuri",
+    "name_female_3": "Brianna",
+    "name_female_4": "Jojo"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      395,
+      432,
+      470,
+      699,
+      755,
+      619,
+      816,
+      842,
+      1000,
+      910
+    ],
+    "num_digit_2": [
+      120,
+      135,
+      150,
+      180,
+      210,
+      168,
+      192,
+      240,
+      315,
+      270
+    ],
+    "num_digit_3": [
+      17,
+      29,
+      13,
+      47,
+      41,
+      31,
+      37,
+      23,
+      43,
+      19
+    ],
+    "num_frac_1": [
+      "baako mu mmiɛnsa",
+      "mmaenum abien",
+      "baako mu enum",
+      "anan num",
+      "ka baako",
+      "mparte abien mu baako",
+      "anan num",
+      "Ankwaasonnan",
+      "mmaenum abien",
+      "baako mu mmiɛnsa"
+    ],
+    "num_digit_4": [
+      23,
+      19,
+      27,
+      33,
+      39,
+      45,
+      51,
+      57,
+      63,
+      69
+    ],
+    "answer": [
+      75,
+      60,
+      100,
+      124,
+      150,
+      95,
+      200,
+      222,
+      138,
+      192
+    ],
+    "num_ic": [
+      32,
+      56,
+      63,
+      21,
+      67,
+      87,
+      66,
+      61,
+      74,
+      80
+    ]
+  },
+  "ic_question_template": "{name_female_3, Brianna} wɔfa de nkyɛkyerɛ {num_ic, 38} obiara. Asuafo enan nyaa mba {num_digit_1, 251} wɔ agodie mu. {name_female_1, Naomi} nyaa mba no mu {num_digit_2, 68}. {name_female_2, Yuri} nyaa mba {num_digit_3, 10} a ɛboro {name_female_1, Naomi} de so {num_frac_1, fa}, na {name_female_3, Brianna} nyaa mba {num_digit_4, 17} a ɛboro {name_female_1, Naomi} de so. Mba dodoɔ ahe na {name_female_4, Jojo} dii?",
+  "ic_sentence": "{name_female_3, Brianna} wɔfa de nkyɛkyerɛ {num_ic, 38} obiara."
+}

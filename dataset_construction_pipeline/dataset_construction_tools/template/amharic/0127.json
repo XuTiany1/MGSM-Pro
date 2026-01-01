@@ -1,0 +1,67 @@
+{
+  "original_question": "ኤሚ ወደ አዲስ ትምህርት ቤት ከተዛወረች በኋላ ከሊሊ የበለጠ 20 ጓደኞች አፈራች። ሊሊ 50 ጓደኞች ካፈራች፣ ሊሊ እና ኤሚ ምን ያህል ጓደኞች አሏቸው?",
+  "original_answer": 120,
+  "question_template": "{name_female_1, ኤሚ} ወደ አዲስ ትምህርት ቤት ከተዛወረች በኋላ ከ{name_female_2, ሊሊ} የበለጠ {num_digit_1, 20} ጓደኞች አፈራች። {name_female_2, ሊሊ} {num_digit_2, 50} ጓደኞች ካፈራች፣ {name_female_2, ሊሊ} እና {name_female_1, ኤሚ} ምን ያህል ጓደኞች አሏቸው?",
+  "question_solution": "answer = 2 * num_digit_2 + num_digit_1",
+  "conditions": [
+    "int(answer) == 2 * num_digit_2 + num_digit_1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Amy",
+    "name_female_2": "Lily"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15,
+      30,
+      25,
+      40,
+      12,
+      33,
+      55,
+      70,
+      99,
+      11
+    ],
+    "num_digit_2": [
+      35,
+      70,
+      60,
+      80,
+      44,
+      33,
+      120,
+      150,
+      199,
+      89
+    ],
+    "answer": [
+      85,
+      170,
+      145,
+      200,
+      100,
+      99,
+      295,
+      370,
+      497,
+      189
+    ],
+    "num_ic": [
+      42,
+      262,
+      121,
+      374,
+      61,
+      46,
+      341,
+      570,
+      688,
+      108
+    ]
+  },
+  "ic_question_template": "{name_female_1, ኤሚ} ወደ አዲስ ትምህርት ቤት ከተዛወረች በኋላ ከ{name_female_2, ሊሊ} የበለጠ {num_digit_1, 20} ጓደኞች አፈራች። {name_female_2, ሊሊ} {num_digit_2, 50} ጓደኞች ካፈራች፣ {name_female_2, ሊሊ} እና {name_female_1, ኤሚ} ምን ያህል ጓደኞች አሏቸው? {name_female_2, ሊሊ} አጎቷ  {num_ic, 42} አስቂኝ መጽሃፎችን የእንኳን ደህና መጣችሽ ስጦታ አድርጎ ሰጣት።",
+  "ic_sentence": "{name_female_2, ሊሊ} አጎቷ  {num_ic, 42} አስቂኝ መጽሃፎችን የእንኳን ደህና መጣችሽ ስጦታ አድርጎ ሰጣት።"
+}

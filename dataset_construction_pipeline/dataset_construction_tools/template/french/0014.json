@@ -1,0 +1,65 @@
+{
+  "original_question": "Dans un cours de danse comptant 20 élèves, 20 % d'entre eux sont inscrits en danse contemporaine, 25 % en danse jazz et le reste en danse hip-hop. Quel est le pourcentage des élèves inscrits en danse hip-hop ?",
+  "original_answer": 60,
+  "question_template": "Dans un cours de danse comptant {num_digit_1, 20} élèves, {num_digit_2, 20} % d'entre eux sont inscrits en danse contemporaine, {num_digit_3, 25} % en danse jazz et le reste en danse hip-hop. Quel est le pourcentage des élèves inscrits en danse hip-hop ?",
+  "question_solution": "answer = 100 - num_digit_2 - (100 - num_digit_2) * num_digit_3 / 100",
+  "conditions": [
+    "int(answer) == 100 - num_digit_2 - (100 - num_digit_2) * num_digit_3 / 100",
+    "num_digit_1 > 0",
+    "0 <= num_digit_2 <= 100",
+    "0 <= num_digit_3 <= 100"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      47,
+      53,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97
+    ],
+    "num_digit_2": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22
+    ],
+    "num_digit_3": [
+      75,
+      50,
+      25,
+      50,
+      75,
+      50,
+      25,
+      50,
+      25,
+      50
+    ],
+    "answer": [
+      24,
+      47,
+      69,
+      45,
+      22,
+      43,
+      63,
+      41,
+      60,
+      39
+    ]
+  },
+  "ic_question_template": "La nièce de l’instructeur a apporté {num_ic, 7} cupcakes pour le groupe. Dans un cours de danse comptant {num_digit_1, 20} élèves, {num_digit_2, 20} % d'entre eux sont inscrits en danse contemporaine, {num_digit_3, 25} % en danse jazz et le reste en danse hip-hop. Quel est le pourcentage des élèves inscrits en danse hip-hop ?",
+  "ic_sentence": "La nièce de l’instructeur a apporté {num_ic, 7} cupcakes pour le groupe."
+}

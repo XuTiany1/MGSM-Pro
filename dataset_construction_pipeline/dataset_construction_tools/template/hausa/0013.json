@@ -1,0 +1,91 @@
+{
+  "original_question": "Melanie yar kasuwa ce dake bi gida-gida. Ta siyar da kashi uku na injin shararta a koren gida, guda 2 a Jan gida, rabin abinda ya rage a gida ruwan-lemo. Idan Melanie tana da injin sharar guda 5, nawa ta fara da su?",
+  "original_answer": 18,
+  "question_template": "{name_female, Melanie} yar kasuwa ce dake bi gida-gida. Ta siyar da {num_frac_1, kashi uku} na injin shararta a koren gida, guda {num_digit_1, 2} a Jan gida, {num_frac_2, rabi}n abinda ya rage a gida ruwan-lemo. Idan {name_female, Melanie} tana da injin sharar guda {num_digit_2, 5}, nawa ta fara da su?",
+  "question_solution": "answer = ((2 * num_digit_2 + num_digit_1) * 3) / 2",
+  "conditions": [
+    "int(answer) == ((2 * num_digit_2 + num_digit_1) * 3) / 2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "(2 * num_digit_2 + num_digit_1) % 2 == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Melanie"
+  },
+  "variable_number_dictionary": {
+    "num_frac_1": [
+      "ɗaya bisa uku",
+      "ɗaya bisa uku",
+      "ɗaya bisa uku",
+      "ɗaya bisa uku",
+      "ɗaya bisa uku",
+      "ɗaya bisa uku",
+      "ɗaya bisa uku",
+      "ɗaya bisa uku",
+      "ɗaya bisa uku",
+      "ɗaya bisa uku"
+    ],
+    "num_digit_1": [
+      110,
+      118,
+      122,
+      130,
+      134,
+      142,
+      146,
+      154,
+      158,
+      166
+    ],
+    "num_frac_2": [
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa"
+    ],
+    "num_digit_2": [
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97,
+      101
+    ],
+    "answer": [
+      342,
+      360,
+      384,
+      408,
+      420,
+      450,
+      468,
+      498,
+      528,
+      552
+    ],
+    "num_ic": [
+      87,
+      114,
+      70,
+      61,
+      124,
+      174,
+      52,
+      123,
+      168,
+      108
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Melanie} ta sayi tawul ɗin girki {num_ic, 112} a makon da ya gabata. {name_female, Melanie} yar kasuwa ce dake bi gida-gida. Ta siyar da {num_frac_1, kashi uku} na injin shararta a koren gida, guda {num_digit_1, 2} a Jan gida, {num_frac_2, rabi}n abinda ya rage a gida ruwan-lemo. Idan {name_female, Melanie} tana da injin sharar guda {num_digit_2, 5}, nawa ta fara da su?",
+  "ic_sentence": "Kawun {name_female, Melanie} ta sayi tawul ɗin girki {num_ic, 112} a makon da ya gabata."
+}

@@ -1,0 +1,112 @@
+{
+  "original_question": "Griffin had 24 french fries, but Kyle took 5 of them.  Billy took twice as many as Kyle.  Ginger gave Griffin a handful of her fries, and then Colby took from Griffin 3 less than the number of fries that Kyle had taken.  If in the end Griffin had 27 fries, how many fries did Ginger give Griffin?",
+  "original_answer": 20,
+  "question_template": "{name_male_1, Griffin} had {num_digit_1, 1024} french fries, but {name_male_2, Kyle} took {num_digit_2, 157} of them. {name_male_3, Billy} took {num_text_1, twice} as many as {name_male_2, Kyle}. {name_male_4, Ginger} gave {name_male_1, Griffin} a handful of her fries, and then {name_male_5, Colby} took from {name_male_1, Griffin} {num_digit_3, 13} less than the number of fries that {name_male_2, Kyle} had taken. If in the end {name_male_1, Griffin} had {num_digit_4, 600} fries, how many fries did {name_male_4, Ginger} give {name_male_1, Griffin}?",
+  "question_solution": "answer = num_digit_4 - num_digit_1 + (f1 + 2) * num_digit_2 - num_digit_3  # f1 = {double:2, triple:3, quadruple:4, quintuple:5, sextuple:6, septuple:7, octuple:8, nonuple:9, decuple:10, undecuple:11}[num_text_1]",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_4 - num_digit_1 + (f1 + 2) * num_digit_2 - num_digit_3",
+    "f1 > 1",
+    "num_digit_2 > num_digit_3",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Griffin",
+    "name_male_2": "Kyle",
+    "name_male_3": "Billy",
+    "name_male_4": "Ginger",
+    "name_male_5": "Colby"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "double",
+      "triple",
+      "quadruple",
+      "quintuple",
+      "sextuple",
+      "septuple",
+      "octuple",
+      "nonuple",
+      "decuple",
+      "undecuple"
+    ],
+    "num_digit_1": [
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      12345,
+      23456,
+      54321,
+      31415,
+      27182
+    ],
+    "num_digit_2": [
+      157,
+      211,
+      313,
+      419,
+      523,
+      631,
+      743,
+      853,
+      991,
+      1007
+    ],
+    "num_digit_3": [
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "num_digit_4": [
+      600,
+      2000,
+      5000,
+      7000,
+      16000,
+      11000,
+      22000,
+      53000,
+      30000,
+      25000
+    ],
+    "answer": [
+      191,
+      990,
+      2763,
+      1718,
+      3771,
+      4303,
+      5937,
+      8021,
+      10434,
+      10862
+    ],
+    "num_ic": [
+      289,
+      1878,
+      1974,
+      4391,
+      2276,
+      4937,
+      17460,
+      29220,
+      6781,
+      18458
+    ]
+  },
+  "ic_question_template": "{name_male_1, Griffin} had {num_digit_1, 1024} french fries, but {name_male_2, Kyle} took {num_digit_2, 157} of them. {name_male_3, Billy} took {num_text_1, twice} as many as {name_male_2, Kyle}. {name_male_4, Ginger} gave {name_male_1, Griffin} a handful of her fries, and then {name_male_5, Colby} took from {name_male_1, Griffin} {num_digit_3, 13} less than the number of fries that {name_male_2, Kyle} had taken. {name_male_2, Kyle}'s aunt brought {num_ic, 18458} ketchup packets to the table. If in the end {name_male_1, Griffin} had {num_digit_4, 600} fries, how many fries did {name_male_4, Ginger} give {name_male_1, Griffin}?",
+  "ic_sentence": "{name_male_2, Kyle}'s aunt brought {num_ic, 18458} ketchup packets to the table."
+}

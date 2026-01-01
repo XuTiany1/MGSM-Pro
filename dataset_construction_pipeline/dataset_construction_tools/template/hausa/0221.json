@@ -1,0 +1,81 @@
+{
+  "original_question": "An cika tankin ruwa da lita 120 na ruwa. Celine ta yi amfani da lita 90 na ruwa daga cikin tanki don shayar da ƙaramin lambun ta. Sannan ta sami damar tattara ruwan sama wanda ya ninka sauran da rage sau biyu. Lita nawa ne na ruwa a cikin tankin yanzu?",
+  "original_answer": 90,
+  "question_template": "An cika tankin ruwa da lita {num_digit_1, 120} na ruwa. {name_female, Celine} ta yi amfani da lita {num_digit_2, 90} na ruwa daga cikin tanki don shayar da ƙaramin lambun ta. Sannan ta sami damar tattara ruwan sama wanda ya ninka sauran da rage sau {num_text_1, biyu}. Lita nawa ne na ruwa a cikin tankin yanzu?",
+  "question_solution": "answer = (num_digit_1 - num_digit_2) * (1 + f1)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 - num_digit_2) * (1 + f1)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "f1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Celine"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      437,
+      521,
+      998,
+      743,
+      629,
+      845,
+      907,
+      377,
+      1241,
+      510
+    ],
+    "num_digit_2": [
+      139,
+      321,
+      698,
+      543,
+      329,
+      645,
+      607,
+      177,
+      941,
+      310
+    ],
+    "num_text_1": [
+      "sau biyu",
+      "sau uku",
+      "sau hudu",
+      "sau biyar",
+      "sau shida",
+      "sau bakwai",
+      "sau takwas",
+      "sau tara",
+      "sau goma",
+      "sau goma sha ɗaya"
+    ],
+    "answer": [
+      894,
+      800,
+      1500,
+      1200,
+      2100,
+      1600,
+      2700,
+      2000,
+      3300,
+      2400
+    ],
+    "num_ic": [
+      388,
+      320,
+      868,
+      1164,
+      247,
+      702,
+      965,
+      738,
+      481,
+      1061
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Celine} ta sayi fulawar tulip guda {num_ic, 388} a bazara da ta wuce. An cika tankin ruwa da lita {num_digit_1, 120} na ruwa. {name_female, Celine} ta yi amfani da lita {num_digit_2, 90} na ruwa daga cikin tanki don shayar da ƙaramin lambun ta. Sannan ta sami damar tattara ruwan sama wanda ya ninka sauran da rage sau {num_text_1, biyu}. Lita nawa ne na ruwa a cikin tankin yanzu?",
+  "ic_sentence": "Kawun {name_female, Celine} ta sayi fulawar tulip guda {num_ic, 388} a bazara da ta wuce."
+}

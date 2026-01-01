@@ -1,0 +1,92 @@
+{
+  "original_question": "Aleena subscribed to a streaming service that charges her $140 per month. If the streaming company charged her the initial amount for the first half of the year and then charged her 10% less money on the other half of the year, calculate the total amount she had paid for the streaming service by the end of the year.",
+  "original_answer": 1596,
+  "question_template": "{name_female, Aleena} subscribed to a streaming service that charges her ${num_digit_1, 140} per month. If the streaming company charged her the initial amount for the first {num_frac_1, half} of the year and then charged her {num_digit_2, 10}% less money on the other {num_frac_2, half} of the year, calculate the total amount she had paid for the streaming service by the end of the year.",
+  "question_solution": "answer = num_digit_1 * 6 + num_digit_1 * (1 - num_digit_2/100) * 6",
+  "conditions": [
+    "int(answer) == num_digit_1 * 6 + num_digit_1 * (1 - num_digit_2/100) * 6",
+    "((num_digit_1 * num_digit_2 * 6) % 100) == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_2 < 100"
+  ],
+  "variable_word_list": {
+    "name_female": "Aleena"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      160,
+      150,
+      125,
+      200,
+      180,
+      250,
+      225,
+      300,
+      125,
+      175
+    ],
+    "num_frac_1": [
+      "half",
+      "half",
+      "half",
+      "half",
+      "half",
+      "half",
+      "half",
+      "half",
+      "half",
+      "half"
+    ],
+    "num_digit_2": [
+      20,
+      15,
+      12,
+      14,
+      25,
+      30,
+      16,
+      40,
+      18,
+      22
+    ],
+    "num_frac_2": [
+      "half",
+      "half",
+      "half",
+      "half",
+      "half",
+      "half",
+      "half",
+      "half",
+      "half",
+      "half"
+    ],
+    "answer": [
+      1728,
+      1665,
+      1410,
+      2232,
+      1890,
+      2550,
+      2484,
+      2880,
+      1365,
+      1869
+    ],
+    "num_ic": [
+      191,
+      246,
+      22,
+      520,
+      231,
+      1776,
+      1200,
+      337,
+      80,
+      339
+    ]
+  },
+  "ic_question_template": "{name_female, Aleena} subscribed to a streaming service that charges her ${num_digit_1, 140} per month. If the streaming company charged her the initial amount for the first {num_frac_1, half} of the year and then charged her {num_digit_2, 10}% less money on the other {num_frac_2, half} of the year, {name_female, Aleena}'s aunt bought {num_ic, 57} movie posters last year. Calculate the total amount she had paid for the streaming service by the end of the year.",
+  "ic_sentence": "{name_female, Aleena}'s aunt bought {num_ic, 57} movie posters last year."
+}

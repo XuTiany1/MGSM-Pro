@@ -1,0 +1,105 @@
+{
+  "original_question": "ማሪሣ 12 ማይል ርቀት ላይ እየተራመደች ነው። የመጀመሪያዎቹን 4 ማይል ለመራመድ 1 ሰዓት፣ ከዚያም ቀጣዮቹን 2 ማይል ለመራመድ ሌላ አንድ ሰዓት ፈጅቶባታል። አማካይ ፍጥነቷ በሰዓት 4 ማይል እንዲሆን ከፈለገች ቀሪውን ርቀት ለመራመድ ምን ፍጥነት( በመቶ ማይልስ በሰዓት) ያስፈልጋታል?",
+  "original_answer": 6,
+  "question_template": "{name_female, ማሪሣ} {num_digit_1, 12} ማይል ርቀት ላይ እየተራመደች ነው። የመጀመሪያዎቹን {num_digit_3, 4} ማይል ለመራመድ {num_digit_2, 1} ሰዓት፣ ከዚያም ቀጣዮቹን {num_text_1, 2} ማይል ለመራመድ ሌላ {num_digit_2, 1} ሰዓት ፈጅቶባታል። አማካይ ፍጥነቷ በሰዓት {num_digit_4, 4} ማይል እንዲሆን ከፈለገች ቀሪውን ርቀት ለመራመድ ምን ፍጥነት( በመቶ ማይልስ በሰዓት) ያስፈልጋታል?",
+  "question_solution": "answer = (num_digit_1 - (num_digit_3 + NUM(num_text_1))) / (num_digit_1 / num_digit_4 - 2 * num_digit_2)",
+  "conditions": [
+    "int(answer) == (num_digit_1 - (num_digit_3 + NUM(num_text_1))) / (num_digit_1 / num_digit_4 - 2 * num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_text_1) > 0",
+    "num_digit_3 + NUM(num_text_1) < num_digit_1",
+    "num_digit_4 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Marissa"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      147,
+      134,
+      146,
+      132,
+      44,
+      46,
+      45,
+      72,
+      130,
+      54
+    ],
+    "num_digit_2": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "num_digit_3": [
+      18,
+      16,
+      14,
+      15,
+      7,
+      14,
+      19,
+      8,
+      16,
+      7
+    ],
+    "num_text_1": [
+      "ሁለት",
+      "ሁለት",
+      "ሁለት",
+      "ዐሥራ ሰባት",
+      "ዓሣራ ሶስት",
+      "ዘጠና አስራ",
+      "ሁለት",
+      "ሁለት",
+      "ሁለት",
+      "ሰባት"
+    ],
+    "num_digit_4": [
+      10,
+      9,
+      8,
+      6,
+      10,
+      10,
+      9,
+      5,
+      9,
+      7
+    ],
+    "answer": [
+      10,
+      9,
+      8,
+      5,
+      10,
+      5,
+      8,
+      5,
+      9,
+      7
+    ],
+    "num_ic": [
+      99,
+      59,
+      33,
+      46,
+      64,
+      25,
+      116,
+      127,
+      61,
+      117
+    ]
+  },
+  "ic_question_template": "{name_female, ማሪሣ} {num_digit_1, 12} ማይል ርቀት ላይ እየተራመደች ነው። የመጀመሪያዎቹን {num_digit_3, 4} ማይል ለመራመድ {num_digit_2, 1} ሰዓት፣ ከዚያም ቀጣዮቹን {num_text_1, 2} ማይል ለመራመድ ሌላ {num_digit_2, 1} ሰዓት ፈጅቶባታል። አማካይ ፍጥነቷ በሰዓት {num_digit_4, 4} ማይል እንዲሆን ከፈለገች ቀሪውን ርቀት ለመራመድ ምን ፍጥነት( በመቶ ማይልስ በሰዓት) ያስፈልጋታል? የ{name_female, ማሪሳ} አክስቷ በመንገድ ላይ {num_ic, 49} የዱር አበቦችን አየች።",
+  "ic_sentence": "የ{name_female, ማሪሳ} አክስቷ በመንገድ ላይ {num_ic, 49} የዱር አበቦችን አየች።"
+}

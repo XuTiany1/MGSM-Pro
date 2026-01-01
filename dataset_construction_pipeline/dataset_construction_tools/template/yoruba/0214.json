@@ -1,0 +1,94 @@
+{
+  "original_question": "Jerry ní odò ìwẹ̀ méjì, méjèèjì ń jo omi dànù ni ìwọ̀n-on 4 gallons ní ìṣẹ́jú kan. Ní ìṣẹ́jú mẹ́rin sẹ́yìn, odò ìwẹ̀ ńlá náà ní ìlọ́po méjì ẹkùn omi tó tí ó wà nínú odò ìwẹ̀ kékeré náà. Ní báyìí odò ìwẹ̀ ńlá náà ní ìlọ́po mẹ́rin omi ti inú-un odò ìwẹ̀ kékeré náà. Ọ̀pọ̀ omi mélòó ni odò ìwẹ̀ kékeré náà ní báyìí?",
+  "original_answer": 8,
+  "question_template": "{name_male, Jerry} ní odò ìwẹ̀ méjì, méjèèjì ń jo omi dànù ni ìwọ̀n-on {num_digit_1, 4} gallons ní ìṣẹ́jú kan. Ní ìṣẹ́jú {num_digit_2, 4} sẹ́yìn, odò ìwẹ̀ ńlá náà ní {num_text_1, ẹ̀ẹ̀mejì} ẹkùn omi tó tí ó wà nínú odò ìwẹ̀ kékeré náà. Ní báyìí odò ìwẹ̀ ńlá náà ní ìlọ́po {num_text_2, mẹ́rin} omi ti inú-un odò ìwẹ̀ kékeré náà. Ọ̀pọ̀ omi mélòó ni odò ìwẹ̀ kékeré náà ní báyìí?",
+  "question_solution": "answer = (f1 - 1) * num_digit_1 * num_digit_2 / (f2 - f1)  # f1 and f2 are the numeric values of num_text_1 and num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (f1 - 1) * num_digit_1 * num_digit_2 / (f2 - f1)",
+    "f2 > f1",
+    "f1 > 1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jerry"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_2": [
+      5,
+      8,
+      9,
+      12,
+      15,
+      16,
+      18,
+      21,
+      24,
+      28
+    ],
+    "num_text_1": [
+      "lẹmeji",
+      "Ìkẹta",
+      "ìkẹrin",
+      "ìgbà márùn-ún",
+      "ẹ̀ẹ̀mefa",
+      "ìkẹfàláàdọrin",
+      "ìkejìlélọ́kànjọ̀jọ",
+      "Ìgbà mẹ́sàn-án",
+      "Ẹẹwàá.",
+      "ẹẹ̀gbẹ̀rin méjìlélọ́gọ́rin"
+    ],
+    "num_text_2": [
+      "mẹta",
+      "marun",
+      "Meje",
+      "mẹjọ",
+      "mẹsan",
+      "mókànlá",
+      "Mẹrinla",
+      "mẹ́rìndínlógún",
+      "ẹ̀ẹ́dógún",
+      "mẹtala"
+    ],
+    "answer": [
+      35,
+      88,
+      117,
+      272,
+      475,
+      552,
+      609,
+      744,
+      999,
+      5740
+    ],
+    "num_ic": [
+      59,
+      281,
+      96,
+      128,
+      229,
+      63,
+      363,
+      169,
+      137,
+      244
+    ]
+  },
+  "ic_question_template": "Ìyá ńlá {name_male, Jerry} máa ń kún àpótí omi {num_ic, 123} pẹ̀lú omi ojò l’ọ̀sẹ̀ kọọkan. {name_male, Jerry} ní odò ìwẹ̀ méjì, méjèèjì ń jo omi dànù ni ìwọ̀n-on {num_digit_1, 4} gallons ní ìṣẹ́jú kan. Ní ìṣẹ́jú {num_digit_2, 4} sẹ́yìn, odò ìwẹ̀ ńlá náà ní {num_text_1, ẹ̀ẹ̀mejì} ẹkùn omi tó tí ó wà nínú odò ìwẹ̀ kékeré náà. Ní báyìí odò ìwẹ̀ ńlá náà ní ìlọ́po {num_text_2, mẹ́rin} omi ti inú-un odò ìwẹ̀ kékeré náà. Ọ̀pọ̀ omi mélòó ni odò ìwẹ̀ kékeré náà ní báyìí?",
+  "ic_sentence": "Ìyá ńlá {name_male, Jerry} máa ń kún àpótí omi {num_ic, 123} pẹ̀lú omi ojò l’ọ̀sẹ̀ kọọkan."
+}

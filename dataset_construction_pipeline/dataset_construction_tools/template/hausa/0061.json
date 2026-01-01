@@ -1,0 +1,80 @@
+{
+  "original_question": "Janet takan siyawa ’yarta tufafi. Tana biyan $500 na kayan aiki sannan kuma $800 ga mai yiwa kayan ado da karau. Bayan haka, ta biya kashi 10% na abin don samun inshora. Nawa ta biya?",
+  "original_answer": 1430,
+  "question_template": "{name_female, Janet} takan siyawa ’yarta tufafi. Tana biyan ${num_digit_1, 500} na kayan aiki sannan kuma ${num_digit_2, 800} ga mai yiwa kayan ado da karau. Bayan haka, ta biya kashi {num_digit_3, 10}% na abin don samun inshora. Nawa ta biya?",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) * (1 + num_digit_3/100)",
+  "conditions": [
+    "int(answer) == (num_digit_1 + num_digit_2) * (1 + num_digit_3/100)",
+    "((num_digit_1 + num_digit_2) * num_digit_3) % 100 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Janet"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      450,
+      375,
+      580,
+      610,
+      450,
+      333,
+      520,
+      1400,
+      845,
+      777
+    ],
+    "num_digit_2": [
+      650,
+      825,
+      920,
+      790,
+      1050,
+      667,
+      780,
+      600,
+      1155,
+      223
+    ],
+    "num_digit_3": [
+      10,
+      15,
+      12,
+      8,
+      20,
+      25,
+      7,
+      5,
+      18,
+      22
+    ],
+    "answer": [
+      1210,
+      1380,
+      1680,
+      1512,
+      1800,
+      1250,
+      1391,
+      2100,
+      2360,
+      1220
+    ],
+    "num_ic": [
+      26,
+      33,
+      42,
+      121,
+      99,
+      44,
+      62,
+      57,
+      128,
+      115
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Janet} ya samo tsabar kuɗi masu wuya guda {num_ic, 35} a kasan rufin gidansa. {name_female, Janet} takan siyawa ’yarta tufafi. Tana biyan ${num_digit_1, 500} na kayan aiki sannan kuma ${num_digit_2, 800} ga mai yiwa kayan ado da karau. Bayan haka, ta biya kashi {num_digit_3, 10}% na abin don samun inshora. Nawa ta biya?",
+  "ic_sentence": "Kawun {name_female, Janet} ya samo tsabar kuɗi masu wuya guda {num_ic, 35} a kasan rufin gidansa."
+}

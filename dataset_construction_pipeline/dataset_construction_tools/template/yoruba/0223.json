@@ -1,0 +1,65 @@
+{
+  "original_question": "Ilé-iṣẹ́ kan ná $15000 lórí ìpolówó fún ọdún kan, lẹ́yìn náà ó ná ìdá mẹ́ta iye yẹn lórí ìpolówó fún ọdún mìíràn.  Kí ni àpapọ̀ iye tí ilé-iṣẹ́ ná lórí ìpolówó fún ọdún méjèèjì?",
+  "original_answer": 20000,
+  "question_template": "Ilé-iṣẹ́ kan ná ${num_digit_1, 15000} lórí ìpolówó fún ọdún kan, lẹ́yìn náà ó ná {num_frac_1, ìdá mẹ́ta} iye yẹn lórí ìpolówó fún ọdún mìíràn.  Kí ni àpapọ̀ iye tí ilé-iṣẹ́ ná lórí ìpolówó fún ọdún méjèèjì?",
+  "question_solution": "answer = num_digit_1 * (1 + f1)   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 + f1)",
+    "num_digit_1 > 0",
+    "0 < f1 < 1",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15000,
+      18000,
+      14000,
+      21000,
+      16000,
+      12500,
+      28000,
+      18900,
+      24000,
+      32400
+    ],
+    "num_frac_1": [
+      "Ìkẹta kan",
+      "Idaji mẹrin kan",
+      "ìdámẹ́ta ọdún kan",
+      "ìkejìlélọ́gọ́rin",
+      "mẹta ida mẹrin",
+      "Mejila ninu marun",
+      "mẹta ida karun",
+      "mẹrin ninu meje",
+      "marun-un ida mẹjọ",
+      "Ìje méje lágún mẹ́sàn-án"
+    ],
+    "answer": [
+      20000,
+      22500,
+      16800,
+      35000,
+      28000,
+      17500,
+      44800,
+      29700,
+      39000,
+      57600
+    ],
+    "num_ic": [
+      91,
+      95,
+      27,
+      218,
+      110,
+      90,
+      139,
+      56,
+      183,
+      277
+    ]
+  },
+  "ic_question_template": "Ìbàlẹ̀gbẹ̀ àlákóso ilé-iṣẹ́ náà ni wọ́n ránṣẹ́ láti fi {num_ic, 91} písà dé ìpàdé ọdún yìí. Ilé-iṣẹ́ kan ná ${num_digit_1, 15000} lórí ìpolówó fún ọdún kan, lẹ́yìn náà ó ná {num_frac_1, ìdá mẹ́ta} iye yẹn lórí ìpolówó fún ọdún mìíràn.  Kí ni àpapọ̀ iye tí ilé-iṣẹ́ ná lórí ìpolówó fún ọdún méjèèjì?",
+  "ic_sentence": "Ìbàlẹ̀gbẹ̀ àlákóso ilé-iṣẹ́ náà ni wọ́n ránṣẹ́ láti fi {num_ic, 91} písà dé ìpàdé ọdún yìí."
+}

@@ -1,0 +1,120 @@
+{
+  "original_question": "Anakin and Locsin went to the beach today. Anakin caught 10 starfish, 6 sea horses, and 3 clownfish. While Locsin caught 5 fewer starfish than Anakin, 3 fewer sea horses than Anakin, and 2 more clownfish than Anakin. How many fish were they able to catch?",
+  "original_answer": 32,
+  "question_template": "{name_male_1, Anakin} and {name_male_2, Locsin} went to the beach today. {name_male_1, Anakin} caught {num_digit_1, 10} starfish, {num_digit_2, 6} sea horses, and {num_digit_3, 3} clownfish. While {name_male_2, Locsin} caught {num_digit_4, 5} fewer starfish than {name_male_1, Anakin}, {num_digit_6, 3} fewer sea horses than {name_male_1, Anakin}, and {num_digit_7, 2} more clownfish than {name_male_1, Anakin}. How many fish were they able to catch?",
+  "question_solution": "answer = 2 * num_digit_1 + 2 * num_digit_2 + 2 * num_digit_3 - num_digit_4 - num_digit_6 + num_digit_7",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == 2 * num_digit_1 + 2 * num_digit_2 + 2 * num_digit_3 - num_digit_4 - num_digit_6 + num_digit_7",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "0 < num_digit_4 < num_digit_1",
+    "0 < num_digit_6 < num_digit_2",
+    "num_digit_7 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Anakin",
+    "name_male_2": "Locsin"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      20,
+      15,
+      25,
+      18,
+      30,
+      40,
+      22,
+      27,
+      50
+    ],
+    "num_digit_2": [
+      8,
+      10,
+      12,
+      14,
+      9,
+      15,
+      20,
+      11,
+      16,
+      18
+    ],
+    "num_digit_3": [
+      4,
+      6,
+      5,
+      8,
+      7,
+      10,
+      12,
+      5,
+      9,
+      11
+    ],
+    "num_digit_4": [
+      3,
+      5,
+      4,
+      6,
+      2,
+      10,
+      15,
+      5,
+      8,
+      20
+    ],
+    "num_digit_6": [
+      2,
+      2,
+      3,
+      4,
+      1,
+      5,
+      6,
+      3,
+      4,
+      6
+    ],
+    "num_digit_7": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      4,
+      5,
+      3,
+      2,
+      6
+    ],
+    "answer": [
+      44,
+      67,
+      60,
+      85,
+      67,
+      99,
+      128,
+      71,
+      94,
+      138
+    ],
+    "num_ic": [
+      54,
+      92,
+      31,
+      264,
+      77,
+      215,
+      249,
+      133,
+      180,
+      345
+    ]
+  },
+  "ic_question_template": "{name_male_1, Anakin} and {name_male_2, Locsin} went to the beach today. {name_male_1, Anakin} caught {num_digit_1, 10} starfish, {num_digit_2, 6} sea horses, and {num_digit_3, 3} clownfish. While {name_male_2, Locsin} caught {num_digit_4, 5} fewer starfish than {name_male_1, Anakin}, {num_digit_6, 3} fewer sea horses than {name_male_1, Anakin}, and {num_digit_7, 2} more clownfish than {name_male_1, Anakin}. {name_male_2, Locsin}'s uncle picked up {num_ic, 345} shells on the shore. How many fish were they able to catch?",
+  "ic_sentence": "{name_male_2, Locsin}'s uncle picked up {num_ic, 345} shells on the shore."
+}

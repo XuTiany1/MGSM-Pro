@@ -1,0 +1,93 @@
+{
+  "original_question": "Rosie na iya gudun mil 10 a kowace a cikin awanni 3. Bayan haka, ta yi gudun mil 5 a kowace awa. Gudun mil nawa zata iya gudu a cikin awanni 7?",
+  "original_answer": 50,
+  "question_template": "{name_female, Rosie} na iya gudun mil {num_digit_1, 10} a kowace a cikin awanni {num_digit_2, 3}. Bayan haka, ta yi gudun mil {num_digit_3, 5} a kowace awa. Gudun mil nawa zata iya gudu a cikin awanni {num_digit_4, 7}?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + num_digit_3 * (num_digit_4 - num_digit_2)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 + num_digit_3 * (num_digit_4 - num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_female": "Rosie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      17,
+      23,
+      19,
+      16,
+      21,
+      18,
+      29,
+      14,
+      26,
+      31
+    ],
+    "num_digit_2": [
+      5,
+      7,
+      4,
+      3,
+      6,
+      2,
+      8,
+      5,
+      3,
+      4
+    ],
+    "num_digit_3": [
+      9,
+      14,
+      11,
+      13,
+      17,
+      12,
+      15,
+      16,
+      22,
+      19
+    ],
+    "num_digit_4": [
+      16,
+      13,
+      12,
+      10,
+      15,
+      9,
+      18,
+      20,
+      11,
+      14
+    ],
+    "answer": [
+      184,
+      245,
+      164,
+      139,
+      279,
+      120,
+      382,
+      310,
+      254,
+      314
+    ],
+    "num_ic": [
+      77,
+      228,
+      93,
+      35,
+      145,
+      52,
+      259,
+      200,
+      101,
+      309
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Rosie} ya taba tuƙa keke mil {num_ic, 62} a rana guda. {name_female, Rosie} na iya gudun mil {num_digit_1, 10} a kowace a cikin awanni {num_digit_2, 3}. Bayan haka, ta yi gudun mil {num_digit_3, 5} a kowace awa. Gudun mil nawa zata iya gudu a cikin awanni {num_digit_4, 7}?",
+  "ic_sentence": "Kawun {name_female, Rosie} ya taba tuƙa keke mil {num_ic, 62} a rana guda."
+}

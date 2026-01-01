@@ -1,0 +1,67 @@
+{
+  "original_question": "Il faut distribuer 200 livres de carottes à 40 restaurants d'une certaine ville. Si chaque restaurant doit recevoir 2 livres de carottes, combien de livres de carottes ne seront pas utilisées ?",
+  "original_answer": 120,
+  "question_template": "Il faut distribuer {num_digit_1, 200} livres de carottes à {num_digit_2, 40} restaurants d'une certaine ville. Si chaque restaurant doit recevoir {num_digit_3, 2} livres de carottes, combien de livres de carottes ne seront pas utilisées ?",
+  "question_solution": "answer = num_digit_1 - num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 - num_digit_2 * num_digit_3",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1350,
+      980,
+      1575,
+      2048,
+      3125,
+      4096,
+      5001,
+      8192,
+      999,
+      1234
+    ],
+    "num_digit_2": [
+      27,
+      35,
+      45,
+      32,
+      25,
+      64,
+      33,
+      16,
+      37,
+      17
+    ],
+    "num_digit_3": [
+      15,
+      12,
+      25,
+      16,
+      50,
+      32,
+      13,
+      48,
+      18,
+      37
+    ],
+    "answer": [
+      945,
+      560,
+      450,
+      1536,
+      1875,
+      2048,
+      4572,
+      7424,
+      333,
+      605
+    ]
+  },
+  "ic_question_template": "{num_ic, 22} chefs de la ville essaient une nouvelle recette de soupe. Il faut distribuer {num_digit_1, 200} livres de carottes à {num_digit_2, 40} restaurants d'une certaine ville. Si chaque restaurant doit recevoir {num_digit_3, 2} livres de carottes, combien de livres de carottes ne seront pas utilisées ?",
+  "ic_sentence": "{num_ic, 22} chefs de la ville essaient une nouvelle recette de soupe."
+}

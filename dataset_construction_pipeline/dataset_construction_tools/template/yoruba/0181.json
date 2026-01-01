@@ -1,0 +1,94 @@
+{
+  "original_question": "Inú-un Sandra, florist tí ó wà nítòsí, kò kò dùn sí Fred rárá. Sandra ti béèrè fún òdòdó rose tí ó jẹ́ ìlọ́po mẹ́rin carnations funfun. Ó tún béèrè fún lilies calla aláwọ̀ píǹkì 200, èyí tí ó jẹ́ ìlọ́po márùn-ún iye àwọn carnations funfun. Sandra ti halẹ̀ pé yóò pààrọ̀ àwọn olùpèsè tí wọn kò bá fi àwọn òdòdó rose tí ó sọnù jíṣẹ́ ní aago márùn-ún ìrólẹ́. Láti gba okòwò Sandra là, òdòdó rose mélòó ni Fred gbọ́dọ̀ fi jíṣẹ́ ní aago márùn-ún ìrólẹ́?",
+  "original_answer": 160,
+  "question_template": "Inú-un {name_female, Sandra}, florist tí ó wà nítòsí, kò kò dùn sí {name_male, Fred} rárá. {name_female, Sandra} ti béèrè fún òdòdó rose tí ó jẹ́ ìlọ́po {num_text_1, mẹ́rin} carnations funfun. Ó tún béèrè fún lilies calla aláwọ̀ píǹkì {num_digit_1, 200}, èyí tí ó jẹ́ ìlọ́po {num_text_2, márùn-ún} iye àwọn carnations funfun. {name_female, Sandra} ti halẹ̀ pé yóò pààrọ̀ àwọn olùpèsè tí wọn kò bá fi àwọn òdòdó rose tí ó sọnù jíṣẹ́ ní aago {num_digit_2, 5} ìrólẹ́. Láti gba okòwò {name_female, Sandra} là, òdòdó rose mélòó ni {name_male, Fred} gbọ́dọ̀ fi jíṣẹ́ ní aago {num_digit_2, 5} ìrólẹ́?",
+  "question_solution": "answer = f1 * (num_digit_1 / f2)   # f1 and f2 are the numeric values of num_text_1 and num_text_2 respectively",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == f1 * (num_digit_1 / f2)",
+    "f1 > 0",
+    "f2 > 0",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sandra",
+    "name_male": "Fred"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "mẹta",
+      "Mẹrin",
+      "marun",
+      "mẹfa",
+      "Meje",
+      "mẹjọ",
+      "mẹsan",
+      "mẹ́wàá",
+      "mókànlá",
+      "mẹ́wàá láàdọ́ta"
+    ],
+    "num_digit_1": [
+      30,
+      42,
+      63,
+      96,
+      135,
+      72,
+      60,
+      50,
+      300,
+      363
+    ],
+    "num_text_2": [
+      "marun",
+      "mẹfa",
+      "Meje",
+      "mẹjọ",
+      "mẹsan",
+      "Mẹrin",
+      "mẹta",
+      "méjì",
+      "mẹ́wàá",
+      "mókànlá"
+    ],
+    "num_digit_2": [
+      5,
+      6,
+      4,
+      7,
+      3,
+      8,
+      2,
+      9,
+      10,
+      11
+    ],
+    "answer": [
+      18,
+      28,
+      45,
+      72,
+      105,
+      144,
+      180,
+      250,
+      330,
+      396
+    ],
+    "num_ic": [
+      38,
+      24,
+      112,
+      215,
+      15,
+      102,
+      103,
+      281,
+      291,
+      283
+    ]
+  },
+  "ic_question_template": "Ẹ̀gbọ́n bàbá {name_female, Sandra} laipẹ́ yi gbìn tulipù {num_ic, 38} sí ọgbà rẹ̀. Inú-un {name_female, Sandra}, florist tí ó wà nítòsí, kò kò dùn sí {name_male, Fred} rárá. {name_female, Sandra} ti béèrè fún òdòdó rose tí ó jẹ́ ìlọ́po {num_text_1, mẹ́rin} carnations funfun. Ó tún béèrè fún lilies calla aláwọ̀ píǹkì {num_digit_1, 200}, èyí tí ó jẹ́ ìlọ́po {num_text_2, márùn-ún} iye àwọn carnations funfun. {name_female, Sandra} ti halẹ̀ pé yóò pààrọ̀ àwọn olùpèsè tí wọn kò bá fi àwọn òdòdó rose tí ó sọnù jíṣẹ́ ní aago {num_digit_2, 5} ìrólẹ́. Láti gba okòwò {name_female, Sandra} là, òdòdó rose mélòó ni {name_male, Fred} gbọ́dọ̀ fi jíṣẹ́ ní aago {num_digit_2, 5} ìrólẹ́?",
+  "ic_sentence": "Ẹ̀gbọ́n bàbá {name_female, Sandra} laipẹ́ yi gbìn tulipù {num_ic, 38} sí ọgbà rẹ̀."
+}

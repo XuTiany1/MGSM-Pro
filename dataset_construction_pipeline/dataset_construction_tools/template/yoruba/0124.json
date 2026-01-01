@@ -1,0 +1,79 @@
+{
+  "original_question": "Jennie ń ran ìyá rẹ̀ lọ́wọ́ ní ọ́físì rẹ̀. Ó ní àwọn lẹ́tà tó tó 60 tí wọ́n fẹ́ gbé sítàm̀pù lé lórí, àti àwọn lẹ́tà tí wọ́n ti sítàm̀pù, o fi sítàm̀pù sí ìdá kan nínú mẹ́ta àwọn lẹ́tà tí wọ́n nílò sítàm̀pù. Tí ó bá jẹ́ wípé lẹ́tà 30 ni àwọn tí wọ́n ti sítàm̀pù, mélòó ni ó wà nínú páìlì nígbà tí Jennie bẹ̀rẹ̀?",
+  "original_answer": 10,
+  "question_template": "{name_female, Jennie} ń ran ìyá rẹ̀ lọ́wọ́ ní ọ́físì rẹ̀. Ó ní àwọn lẹ́tà tó tó {num_digit_1, 60} tí wọ́n fẹ́ gbé sítàm̀pù lé lórí, àti àwọn lẹ́tà tí wọ́n ti sítàm̀pù, o fi sítàm̀pù sí {num_frac_1, ìdá kan nínú mẹ́ta} àwọn lẹ́tà tí wọ́n nílò sítàm̀pù. Tí ó bá jẹ́ wípé lẹ́tà {num_digit_2, 30} ni àwọn tí wọ́n ti sítàm̀pù, mélòó ni ó wà nínú páìlì nígbà tí {name_female, Jennie} bẹ̀rẹ̀?",
+  "question_solution": "answer = num_digit_2 - num_digit_1 * num_frac_1",
+  "conditions": [
+    "int(answer) == num_digit_2 - num_digit_1 * num_frac_1",
+    "num_digit_1 > 0",
+    "0 < num_frac_1 && num_frac_1 < 1",
+    "num_digit_2 > num_digit_1 * num_frac_1"
+  ],
+  "variable_word_list": {
+    "name_female": "Jennie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      72,
+      90,
+      84,
+      105,
+      66,
+      98,
+      120,
+      80,
+      96,
+      110
+    ],
+    "num_frac_1": [
+      "5/9",
+      "2/5",
+      "7/12",
+      "3/7",
+      "2/11",
+      "5/14",
+      "11/15",
+      "7/16",
+      "13/24",
+      "9/22"
+    ],
+    "num_digit_2": [
+      70,
+      95,
+      100,
+      120,
+      58,
+      83,
+      150,
+      97,
+      120,
+      123
+    ],
+    "answer": [
+      30,
+      59,
+      51,
+      75,
+      46,
+      48,
+      62,
+      62,
+      68,
+      78
+    ],
+    "num_ic": [
+      66,
+      78,
+      33,
+      42,
+      99,
+      81,
+      88,
+      67,
+      86,
+      57
+    ]
+  },
+  "ic_question_template": "{name_female, Jennie} ń ran ìyá rẹ̀ lọ́wọ́ ní ọ́físì rẹ̀. Ó ní àwọn lẹ́tà tó tó {num_digit_1, 60} tí wọ́n fẹ́ gbé sítàm̀pù lé lórí, àti àwọn lẹ́tà tí wọ́n ti sítàm̀pù, o fi sítàm̀pù sí {num_frac_1, ìdá kan nínú mẹ́ta} àwọn lẹ́tà tí wọ́n nílò sítàm̀pù. Tí ó bá jẹ́ wípé lẹ́tà {num_digit_2, 30} ni àwọn tí wọ́n ti sítàm̀pù, mélòó ni ó wà nínú páìlì nígbà tí {name_female, Jennie} bẹ̀rẹ̀? Ẹ̀gbọ́n baba {name_female, Jennie} gba káàdì ìpẹ́yà {num_ic, 27} lẹ́jọ́ ọjọ́ ìbí rẹ.",
+  "ic_sentence": "Ẹ̀gbọ́n baba {name_female, Jennie} gba káàdì ìpẹ́yà {num_ic, 27} lẹ́jọ́ ọjọ́ ìbí rẹ."
+}

@@ -1,0 +1,81 @@
+{
+  "original_question": "Sue yana zaune a cikin unguwa mai daɗi. Wani karshen mako, makwabta sun yanke shawarar zolayar Sue. A safiyar Juma'a, makwabta sun sanya tsuntsun flamingos na robobi ruwan hoda guda 18 a farfajiyar Sue. A safiyar ranar Asabar, makwabta sun dawo da kashi daya bisa uku na tsuntsayen flamingos din, sai suka yi musu farin fenti, suka mayar da wadannan sabbin tsuntsun flamingos farfajiyar Sue. Sannan, a safiyar Lahadi, sun kara wasu tsuntsun flamingos na roba18 ruwan hoda a cikin tarin wadan can. Da tsakar ranar Lahadi, tsuntsun flamingos na robobi nawa ne suka fita fiye da fararen?",
+  "original_answer": 24,
+  "question_template": "{name_female, Sue} yana zaune a cikin unguwa mai daɗi. Wani karshen mako, makwabta sun yanke shawarar zolayar {name_female, Sue}. A safiyar Juma'a, makwabta sun sanya tsuntsun flamingos na robobi ruwan hoda guda {num_digit_1, 18} a farfajiyar {name_female, Sue}. A safiyar ranar Asabar, makwabta sun dawo da kashi {num_frac_1, ɗaya bisa uku} na tsuntsayen flamingos din, sai suka yi musu farin fenti, suka mayar da wadannan sabbin tsuntsun flamingos farfajiyar {name_female, Sue}. Sannan, a safiyar Lahadi, sun kara wasu tsuntsun flamingos na roba {num_digit_2, 18} ruwan hoda a cikin tarin wadan can. Da tsakar ranar Lahadi, tsuntsun flamingos na robobi nawa ne suka fita fiye da fararen?",
+  "question_solution": "answer = num_digit_1 * (1 - 2 * f1) + num_digit_2   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 - 2 * f1) + num_digit_2",
+    "0 < f1 < 1",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sue"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      35,
+      77,
+      117,
+      180,
+      72,
+      70,
+      66,
+      51,
+      60,
+      85
+    ],
+    "num_frac_1": [
+      "biyu cikin bakwai",
+      "uku cikin goma sha daya",
+      "biyar cikin goma sha uku",
+      "bakwai cikin goma sha biyar",
+      "hudu cikin tara",
+      "uku cikin bakwai",
+      "biyar cikin goma sha ɗaya",
+      "hudu cikin goma sha bakwai",
+      "biyar cikin sha biyar",
+      "biyar cikin goma sha bakwai"
+    ],
+    "num_digit_2": [
+      18,
+      22,
+      14,
+      25,
+      19,
+      23,
+      31,
+      18,
+      17,
+      27
+    ],
+    "answer": [
+      33,
+      57,
+      41,
+      37,
+      27,
+      33,
+      37,
+      45,
+      61,
+      62
+    ],
+    "num_ic": [
+      54,
+      727,
+      494,
+      939,
+      141,
+      437,
+      82,
+      84,
+      314,
+      457
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Sue} ya taɓa sayen kayan kyale-kyale na lambu guda {num_ic, 764} don lambunsa. {name_female, Sue} yana zaune a cikin unguwa mai daɗi. Wani karshen mako, makwabta sun yanke shawarar zolayar {name_female, Sue}. A safiyar Juma'a, makwabta sun sanya tsuntsun flamingos na robobi ruwan hoda guda {num_digit_1, 18} a farfajiyar {name_female, Sue}. A safiyar ranar Asabar, makwabta sun dawo da kashi {num_frac_1, ɗaya bisa uku} na tsuntsayen flamingos din, sai suka yi musu farin fenti, suka mayar da wadannan sabbin tsuntsun flamingos farfajiyar {name_female, Sue}. Sannan, a safiyar Lahadi, sun kara wasu tsuntsun flamingos na roba {num_digit_2, 18} ruwan hoda a cikin tarin wadan can. Da tsakar ranar Lahadi, tsuntsun flamingos na robobi nawa ne suka fita fiye da fararen?",
+  "ic_sentence": "Kawun {name_female, Sue} ya taɓa sayen kayan kyale-kyale na lambu guda {num_ic, 764} don lambunsa."
+}

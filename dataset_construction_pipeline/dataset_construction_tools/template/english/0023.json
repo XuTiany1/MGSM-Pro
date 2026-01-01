@@ -1,0 +1,51 @@
+{
+  "original_question": "A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+  "original_answer": 8,
+  "question_template": "A candle melts by {num_digit_1, 2} centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+  "question_solution": "answer = num_digit_1 * 4",
+  "conditions": [
+    "int(answer) == num_digit_1 * 4",
+    "num_digit_1 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      101,
+      103,
+      107,
+      109,
+      113,
+      127,
+      131,
+      137,
+      139,
+      149
+    ],
+    "answer": [
+      404,
+      412,
+      428,
+      436,
+      452,
+      508,
+      524,
+      548,
+      556,
+      596
+    ],
+    "num_ic": [
+      176,
+      367,
+      461,
+      1126,
+      709,
+      1210,
+      627,
+      915,
+      815,
+      1187
+    ]
+  },
+  "ic_question_template": "A candle melts by {num_digit_1, 2} centimeters every hour that it burns. {name_female, Emily}'s uncle brought {num_ic, 63} matches to the party. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+  "ic_sentence": "{name_female, Emily}'s uncle brought {num_ic, 63} matches to the party."
+}

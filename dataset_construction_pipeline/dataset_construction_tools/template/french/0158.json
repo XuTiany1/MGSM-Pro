@@ -1,0 +1,94 @@
+{
+  "original_question": "Raphael est allé acheter des fournitures scolaires. Il a acheté 4 stylos de 1,5 $ chacun, 2 cahiers de 4 $ chacun et du papier bond pour 20 $. Combien Raphael a-t-il dépensé pour tout cela ?",
+  "original_answer": 34,
+  "question_template": "{name_male, Raphael} est allé acheter des fournitures scolaires. Il a acheté {num_digit_1, 4} stylos de {num_digit_2, 1.5} $ chacun, {num_digit_3, 2} cahiers de {num_digit_4, 4} $ chacun et du papier bond pour {num_digit_5, 20} $. Combien {name_male, Raphael} a-t-il dépensé pour tout cela ?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + num_digit_3 * num_digit_4 + num_digit_5",
+  "conditions": [
+    "answer == num_digit_1 * num_digit_2 + num_digit_3 * num_digit_4 + num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Raphael"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      6,
+      5,
+      8,
+      9,
+      10,
+      3,
+      12,
+      15,
+      7,
+      11
+    ],
+    "num_digit_2": [
+      1.25,
+      2.4,
+      1.75,
+      0.85,
+      1.33,
+      1.6,
+      0.95,
+      1.1,
+      1.85,
+      1.18
+    ],
+    "num_digit_3": [
+      3,
+      4,
+      2,
+      5,
+      6,
+      7,
+      8,
+      5,
+      3,
+      4
+    ],
+    "num_digit_4": [
+      3.5,
+      2.75,
+      3.25,
+      2.67,
+      2.2,
+      1.7,
+      1.45,
+      1.5,
+      2.35,
+      1.77
+    ],
+    "num_digit_5": [
+      15.0,
+      17.0,
+      19.5,
+      14.0,
+      13.5,
+      23.3,
+      17.0,
+      16.0,
+      25.0,
+      19.94
+    ],
+    "answer": [
+      33,
+      40,
+      40,
+      35,
+      40,
+      40,
+      40,
+      40,
+      45,
+      40
+    ]
+  },
+  "ic_question_template": "{name_male, Raphael} a reçu {num_ic, 19} boîtes de crayons de la part de son oncle la semaine dernière. {name_male, Raphael} est allé acheter des fournitures scolaires. Il a acheté {num_digit_1, 4} stylos de {num_digit_2, 1.5} $ chacun, {num_digit_3, 2} cahiers de {num_digit_4, 4} $ chacun et du papier bond pour {num_digit_5, 20} $. Combien {name_male, Raphael} a-t-il dépensé pour tout cela ?",
+  "ic_sentence": "{name_male, Raphael} a reçu {num_ic, 19} boîtes de crayons de la part de son oncle la semaine dernière."
+}

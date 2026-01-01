@@ -1,0 +1,70 @@
+{
+  "original_question": "Seth is twice as old as Brooke. In 2 years, the sum of their ages will be 28. How old is Seth?",
+  "original_answer": 16,
+  "question_template": "{name_male, Seth} is twice as old as {name_female, Brooke}. In {num_digit_1, 2} years, the sum of their ages will be {num_digit_2, 28}. How old is {name_male, Seth}?",
+  "question_solution": "answer = 2 * (num_digit_2 - 2 * num_digit_1) / 3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == 2 * (num_digit_2 - 2 * num_digit_1) / 3",
+    "(num_digit_2 - 2 * num_digit_1) % 3 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "answer > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Seth",
+    "name_female": "Brooke"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      5,
+      1,
+      3,
+      2,
+      4,
+      5,
+      1,
+      2
+    ],
+    "num_digit_2": [
+      36,
+      29,
+      34,
+      29,
+      45,
+      49,
+      44,
+      43,
+      35,
+      58
+    ],
+    "answer": [
+      20,
+      14,
+      16,
+      18,
+      26,
+      30,
+      24,
+      22,
+      22,
+      36
+    ],
+    "num_ic": [
+      28,
+      8,
+      19,
+      5,
+      12,
+      15,
+      21,
+      33,
+      30,
+      47
+    ]
+  },
+  "ic_question_template": "{name_male, Seth} is twice as old as {name_female, Brooke}. In {num_digit_1, 2} years, the sum of their ages will be {num_digit_2, 28}. {name_male, Seth}'s aunt just bought {num_ic, 17} discount movie tickets. How old is {name_male, Seth}?",
+  "ic_sentence": "{name_male, Seth}'s aunt just bought {num_ic, 17} discount movie tickets."
+}

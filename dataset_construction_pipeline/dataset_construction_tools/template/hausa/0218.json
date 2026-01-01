@@ -1,0 +1,96 @@
+{
+  "original_question": "Shekarun Adrian ya ninka shekarun Harriet sau uku, kuma Harriet na da rabin shekarun Zack. Yi lissafin matsakaicin shekaru su ukun a cikin shekaru uku idan Harriet na da shekaru 21 yanzu.",
+  "original_answer": 45,
+  "question_template": "Shekarun {name_male_1, Adrian} ya ninka shekarun {name_male_2, Harriet} sau {num_text_1, uku}, kuma {name_male_2, Harriet} na da {num_frac_1, rabi}n shekarun {name_male_3, Zack}. Yi lissafin matsakaicin shekaru su ukun a cikin shekaru {num_text_2, uku} idan {name_male_2, Harriet} na da shekaru {num_digit_1, 21} yanzu.",
+  "question_solution": "answer = (f1 * num_digit_1 + num_digit_1 + num_digit_1 / f2 + 3 * t2) / 3  # f1 is numeric value of num_text_1; f2 of num_frac_1; t2 of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (f1 * num_digit_1 + num_digit_1 + num_digit_1 / f2 + 3 * t2) / 3",
+    "f1 > 1",
+    "f2 > 0",
+    "t2 > 0",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Adrian",
+    "name_male_2": "Harriet",
+    "name_male_3": "Zack"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "hudu",
+      "biyar",
+      "shida",
+      "bakwai",
+      "Takwas",
+      "tara",
+      "Goma",
+      "goma sha ɗaya",
+      "sha biyu",
+      "Goma sha uku"
+    ],
+    "num_frac_1": [
+      "rabi",
+      "ɗaya bisa uku",
+      "daya bisa hudu",
+      "da dari biyar",
+      "ɗaya cikin shida",
+      "daya cikin bakwai",
+      "ɗaya bisa takwas",
+      "ɗaya cikin tara",
+      "ɗaya bisa goma",
+      "daya cikin goma sha biyu"
+    ],
+    "num_text_2": [
+      "biyu",
+      "uku",
+      "hudu",
+      "biyar",
+      "shida",
+      "bakwai",
+      "Takwas",
+      "tara",
+      "Goma",
+      "sha biyu"
+    ],
+    "num_digit_1": [
+      42,
+      45,
+      48,
+      60,
+      66,
+      84,
+      72,
+      81,
+      30,
+      12
+    ],
+    "answer": [
+      100,
+      138,
+      180,
+      265,
+      336,
+      483,
+      464,
+      576,
+      240,
+      116
+    ],
+    "num_ic": [
+      107,
+      363,
+      252,
+      412,
+      454,
+      149,
+      417,
+      585,
+      246,
+      31
+    ]
+  },
+  "ic_question_template": "Kawun {name_male_2, Harriet} ya sayi tuffa {num_ic, 107} daga kasuwa kwanan nan. Shekarun {name_male_1, Adrian} ya ninka shekarun {name_male_2, Harriet} sau {num_text_1, uku}, kuma {name_male_2, Harriet} na da {num_frac_1, rabi}n shekarun {name_male_3, Zack}. Yi lissafin matsakaicin shekaru su ukun a cikin shekaru {num_text_2, uku} idan {name_male_2, Harriet} na da shekaru {num_digit_1, 21} yanzu.",
+  "ic_sentence": "Kawun {name_male_2, Harriet} ya sayi tuffa {num_ic, 107} daga kasuwa kwanan nan."
+}

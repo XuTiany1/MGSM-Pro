@@ -1,0 +1,65 @@
+{
+  "original_question": "トレジャーハンターは、宝石が詰まった、埋葬された宝のタンスを見つけた。175のダイヤモンドと、それよりも35少ないルビー、ルビーの2倍の数のエメラルドがあった。タンスには全部でいくつの宝石があった？",
+  "original_answer": 595,
+  "question_template": "トレジャーハンターは、宝石が詰まった、埋葬された宝のタンスを見つけた。{num_digit_1, 175} のダイヤモンドと、それよりも {num_digit_2, 35} 少ないルビー、ルビーの {num_text_1, 2倍} の数のエメラルドがあった。タンスには全部でいくつの宝石があった?",
+  "question_solution": "answer = num_digit_1 + (num_digit_1 - num_digit_2) + (num_digit_1 - num_digit_2) * NUM(num_text_1)",
+  "conditions": [
+    "int(answer) == num_digit_1 + (num_digit_1 - num_digit_2) + (num_digit_1 - num_digit_2) * NUM(num_text_1)",
+    "num_digit_1 > num_digit_2",
+    "num_digit_2 >= 0",
+    "NUM(num_text_1) > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      120,
+      150,
+      200,
+      88,
+      60,
+      180,
+      123,
+      95,
+      250,
+      140
+    ],
+    "num_digit_2": [
+      20,
+      50,
+      25,
+      22,
+      15,
+      30,
+      23,
+      5,
+      50,
+      40
+    ],
+    "num_text_1": [
+      "二回",
+      "三度 (さんど)",
+      "４回 (yonkai)",
+      "5回",
+      "６回 (ろっかい / rokkai)",
+      "七回",
+      "8倍",
+      "九回",
+      "十倍",
+      "１１倍 (じゅういちばい, juuichi-bai)"
+    ],
+    "answer": [
+      420,
+      550,
+      1075,
+      484,
+      375,
+      1380,
+      1023,
+      995,
+      2450,
+      1340
+    ]
+  },
+  "ic_question_template": "そのトレジャーハンターの叔父は、かつて別の洞窟で{num_ic, 632}枚の古代のコインを見つけました。トレジャーハンターは、宝石が詰まった、埋葬された宝のタンスを見つけた。{num_digit_1, 175} のダイヤモンドと、それよりも {num_digit_2, 35} 少ないルビー、ルビーの {num_text_1, 2倍} の数のエメラルドがあった。タンスには全部でいくつの宝石があった?",
+  "ic_sentence": "{num_ic, 632}  \nそのトレジャーハンターの叔父は、かつて別の洞窟で{num_ic, 632}枚の古代のコインを見つけました。"
+}

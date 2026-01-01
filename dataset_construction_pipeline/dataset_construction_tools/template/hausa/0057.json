@@ -1,0 +1,77 @@
+{
+  "original_question": "Wata gadar katako ba zata iya ɗaukar fiye da pounds 5000 ba. Wata motar jigilar kaya mai cike da kwalaye iri ɗaya, kowanne mai nauyin pounds 15, za ta wuce ta kan gadar. Gabadaya nauyin direban da motar idan babu kowa a ciki shine pounds 3755. Menene mafi yawan adadin akwatuna da za a iya loda su a kan babbar motar yayin da baza su wuce iyakar karfin gadar ba?",
+  "original_answer": 83,
+  "question_template": "Wata gadar katako ba zata iya ɗaukar fiye da pounds {num_digit_1, 5000} ba. Wata motar jigilar kaya mai cike da kwalaye iri ɗaya, kowanne mai nauyin pounds {num_digit_2, 15}, za ta wuce ta kan gadar. Gabadaya nauyin direban da motar idan babu kowa a ciki shine pounds {num_digit_3, 3755}. Menene mafi yawan adadin akwatuna da za a iya loda su a kan babbar motar yayin da baza su wuce iyakar karfin gadar ba?",
+  "question_solution": "answer = (num_digit_1 - num_digit_3) // num_digit_2",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_digit_3) // num_digit_2",
+    "(num_digit_1 - num_digit_3) % num_digit_2 == 0",
+    "num_digit_1 > num_digit_3",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      5000,
+      4835,
+      9875,
+      12000,
+      15432,
+      20005,
+      10003,
+      7500,
+      6300,
+      5123
+    ],
+    "num_digit_2": [
+      15,
+      17,
+      25,
+      13,
+      19,
+      37,
+      16,
+      21,
+      14,
+      9
+    ],
+    "num_digit_3": [
+      3755,
+      1979,
+      6375,
+      7515,
+      5704,
+      15454,
+      4003,
+      4350,
+      2800,
+      1595
+    ],
+    "answer": [
+      83,
+      168,
+      140,
+      345,
+      512,
+      123,
+      375,
+      150,
+      250,
+      392
+    ],
+    "num_ic": [
+      251,
+      12,
+      788,
+      410,
+      154,
+      880,
+      559,
+      345,
+      424,
+      203
+    ]
+  },
+  "ic_question_template": "Kawun direban motar daukar kaya ya taɓa dakon kabewa {num_ic, 215} a tafiya guda. Wata gadar katako ba zata iya ɗaukar fiye da pounds {num_digit_1, 5000} ba. Wata motar jigilar kaya mai cike da kwalaye iri ɗaya, kowanne mai nauyin pounds {num_digit_2, 15}, za ta wuce ta kan gadar. Gabadaya nauyin direban da motar idan babu kowa a ciki shine pounds {num_digit_3, 3755}. Menene mafi yawan adadin akwatuna da za a iya loda su a kan babbar motar yayin da baza su wuce iyakar karfin gadar ba?",
+  "ic_sentence": "Kawun direban motar daukar kaya ya taɓa dakon kabewa {num_ic, 215} a tafiya guda."
+}

@@ -1,0 +1,77 @@
+{
+  "original_question": "Otu klasị nwere bọọdụ ọcha nke a na-ekere ndị nkụzi anọ ndị nke na-ewe oge n'ahiri eji klasị ahụ eme ịhe. Onye nkụzi ọbụla nwere ịhe nkụzi abụọ kwa ụbọchị ma na-eji bọọdụ ọcha na nkụzi ọbụla. Ọ bụrụ na a ná-ehicha bọọdụ ọcha ugboro atọ n'oge nkụzi ọbụla, kedụ ugboro ole a ná-ehicha bọọdụ ọcha ahụ kwa ụbọchị? ",
+  "original_answer": 24,
+  "question_template": "Otu klasị nwere bọọdụ ọcha nke a na-ekere ndị nkụzi {num_digit_1, 4} ndị nke na-ewe oge n'ahiri eji klasị ahụ eme ịhe. Onye nkụzi ọbụla nwere ịhe nkụzi {num_digit_2, 2} kwa ụbọchị ma na-eji bọọdụ ọcha na nkụzi ọbụla. Ọ bụrụ na a ná-ehicha bọọdụ ọcha ugboro {num_digit_3, 3} n'oge nkụzi ọbụla, kedụ ugboro ole a ná-ehicha bọọdụ ọcha ahụ kwa ụbọchị?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      5,
+      7,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15
+    ],
+    "num_digit_2": [
+      3,
+      4,
+      5,
+      3,
+      6,
+      7,
+      8,
+      9,
+      4,
+      6
+    ],
+    "num_digit_3": [
+      4,
+      5,
+      6,
+      7,
+      3,
+      2,
+      4,
+      5,
+      9,
+      8
+    ],
+    "answer": [
+      60,
+      140,
+      180,
+      168,
+      162,
+      140,
+      352,
+      540,
+      468,
+      720
+    ],
+    "num_ic": [
+      17,
+      128,
+      70,
+      146,
+      51,
+      40,
+      94,
+      156,
+      122,
+      88
+    ]
+  },
+  "ic_question_template": "Nwa nwanne janịtọọ ahụ na-eweta {num_ic, 61} mkpịsị edemede na ụlọ akwụkwọ. Otu klasị nwere bọọdụ ọcha nke a na-ekere ndị nkụzi {num_digit_1, 4} ndị nke na-ewe oge n'ahiri eji klasị ahụ eme ịhe. Onye nkụzi ọbụla nwere ịhe nkụzi {num_digit_2, 2} kwa ụbọchị ma na-eji bọọdụ ọcha na nkụzi ọbụla. Ọ bụrụ na a ná-ehicha bọọdụ ọcha ugboro {num_digit_3, 3} n'oge nkụzi ọbụla, kedụ ugboro ole a ná-ehicha bọọdụ ọcha ahụ kwa ụbọchị?",
+  "ic_sentence": "Nwa nwanne janịtọọ ahụ na-eweta {num_ic, 61} mkpịsị edemede na ụlọ akwụkwọ."
+}

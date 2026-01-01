@@ -1,0 +1,112 @@
+{
+  "original_question": "Griffin ní french fries 24, ṣùgbọ́n Kyle mú 5 nínú wọn.  Billy gba ìlọ́po méjì ti ti Kyle.  Ginger fún Griffin ní díẹ̀ nínú àwọn fries rẹ̀, lẹ́yìn náà Colby gba lọ́wọ́ Griffin, tí iye tí ó gbà fi mẹ́ta kéré iye fries tí Kyle ti mú lọ.  Tí Griffin bá ní fries 27, fries mélòó ni Ginger fún Griffin?",
+  "original_answer": 20,
+  "question_template": "{name_male_1, Griffin} ní french fries {num_digit_1, 1024}, ṣùgbọ́n {name_male_2, Kyle} mú {num_digit_2, 157} nínú wọn. {name_male_3, Billy} gba {num_text_1, ìlọ́po méjì} ti ti Kyle. {name_male_4, Ginger} fún {name_male_1, Griffin} ní díẹ̀ nínú àwọn fries rẹ̀, lẹ́yìn náà {name_male_5, Colby} gba lọ́wọ́ {name_male_1, Griffin}, tí iye tí ó gbà fi {num_digit_3, 13} kéré iye fries tí {name_male_2, Kyle} ti mú lọ. Tí {name_male_1, Griffin} bá ní fries {num_digit_4, 600}, fries mélòó ni {name_male_4, Ginger} fún {name_male_1, Griffin}?",
+  "question_solution": "answer = num_digit_4 - num_digit_1 + (f1 + 2) * num_digit_2 - num_digit_3  # f1 = {double:2, triple:3, quadruple:4, quintuple:5, sextuple:6, septuple:7, octuple:8, nonuple:9, decuple:10, undecuple:11}[num_text_1]",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_4 - num_digit_1 + (f1 + 2) * num_digit_2 - num_digit_3",
+    "f1 > 1",
+    "num_digit_2 > num_digit_3",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Griffin",
+    "name_male_2": "Kyle",
+    "name_male_3": "Billy",
+    "name_male_4": "Ginger",
+    "name_male_5": "Colby"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "Ẹgbẹta",
+      "ègún méta",
+      "ìkẹrin",
+      "ìkarùn-ún",
+      "Ẹ̀fà",
+      "Ìje meje",
+      "ẹgbẹrin",
+      "Ẹẹwàá",
+      "ẹẹwàá",
+      "mókànlá-ọ̀pọ̀"
+    ],
+    "num_digit_1": [
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      12345,
+      23456,
+      54321,
+      31415,
+      27182
+    ],
+    "num_digit_2": [
+      157,
+      211,
+      313,
+      419,
+      523,
+      631,
+      743,
+      853,
+      991,
+      1007
+    ],
+    "num_digit_3": [
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "num_digit_4": [
+      600,
+      2000,
+      5000,
+      7000,
+      16000,
+      11000,
+      22000,
+      53000,
+      30000,
+      25000
+    ],
+    "answer": [
+      191,
+      990,
+      2763,
+      1718,
+      3771,
+      4303,
+      5937,
+      8021,
+      10434,
+      10862
+    ],
+    "num_ic": [
+      289,
+      1878,
+      1974,
+      4391,
+      2276,
+      4937,
+      17460,
+      29220,
+      6781,
+      18458
+    ]
+  },
+  "ic_question_template": "Àntì {name_male_2, Kyle} mú àwọn pákẹ́ẹ̀tì kẹ́tṣọ́ọ̀pù {num_ic, 18458} wá sí tábìlì. {name_male_1, Griffin} ní french fries {num_digit_1, 1024}, ṣùgbọ́n {name_male_2, Kyle} mú {num_digit_2, 157} nínú wọn. {name_male_3, Billy} gba {num_text_1, ìlọ́po méjì} ti ti Kyle. {name_male_4, Ginger} fún {name_male_1, Griffin} ní díẹ̀ nínú àwọn fries rẹ̀, lẹ́yìn náà {name_male_5, Colby} gba lọ́wọ́ {name_male_1, Griffin}, tí iye tí ó gbà fi {num_digit_3, 13} kéré iye fries tí {name_male_2, Kyle} ti mú lọ. Tí {name_male_1, Griffin} bá ní fries {num_digit_4, 600}, fries mélòó ni {name_male_4, Ginger} fún {name_male_1, Griffin}?",
+  "ic_sentence": "Àntì {name_male_2, Kyle} mú àwọn pákẹ́ẹ̀tì kẹ́tṣọ́ọ̀pù {num_ic, 18458} wá sí tábìlì."
+}

@@ -1,0 +1,69 @@
+{
+  "original_question": "ዶሊ ሁለት መፀሃፎች አሏት. ፓንዶራ ደግሞ አንድ. ሁለቱም ዶሊ እና ፓንዶራ አንዷ የሌላዋን ቢያነቡ እና የነሱን ጨምሮ, በስተመጨረሻ ምን ያህል መፀሃፎች በጋራ ያነባሉ?",
+  "original_answer": 6,
+  "question_template": "{name_female_1, ዶሊ}  {num_text_1, ሁለት} መፀሃፎች አሏት. {name_female_2, ፓንዶራ} ደግሞ {num_text_2, አንድ}. ሁለቱም {name_female_1, ዶሊ} እና {name_female_2, ፓንዶራ} አንዷ የሌላዋን ቢያነቡ እና የነሱን ጨምሮ, በስተመጨረሻ ምን ያህል መፀሃፎች በጋራ ያነባሉ?",
+  "question_solution": "answer = 2 * (f1 + f2)   # f1 and f2 are the numeric values of num_text_1 and num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == 2 * (f1 + f2)",
+    "f1 > 0",
+    "f2 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Dolly",
+    "name_female_2": "Pandora"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "አስራ ሁለት",
+      "ዐሥራ ሰባት",
+      "ሃያ ሶስት",
+      "ሃያ ዘጠኝ",
+      "ሰላሳ ስድስት",
+      "አርባ አራት",
+      "አምሳ አንድ",
+      "ስልሳ ስምንት",
+      "ሰባ አምስት",
+      "ሰማንያ ሁለት"
+    ],
+    "num_text_2": [
+      "ሶስት",
+      "አምስት",
+      "አንደኛ ያስራ አንድ",
+      "ዘጠና አስራ",
+      "ሃያ ሰባት",
+      "ሠላሳ ሶስት",
+      "አርባ",
+      "ሀምሳ ዘጠኝ",
+      "ስድሳ አምስት",
+      "ሰባ ሁለት"
+    ],
+    "answer": [
+      30,
+      44,
+      68,
+      96,
+      126,
+      154,
+      182,
+      254,
+      280,
+      308
+    ],
+    "num_ic": [
+      44,
+      90,
+      154,
+      189,
+      182,
+      390,
+      113,
+      666,
+      725,
+      674
+    ]
+  },
+  "ic_question_template": "{name_female_1, ዶሊ}  {num_text_1, ሁለት} መፀሃፎች አሏት. {name_female_2, ፓንዶራ} ደግሞ {num_text_2, አንድ}. ሁለቱም {name_female_1, ዶሊ} እና {name_female_2, ፓንዶራ} አንዷ የሌላዋን ቢያነቡ እና የነሱን ጨምሮ, በስተመጨረሻ ምን ያህል መፀሃፎች በጋራ ያነባሉ? የ{name_female_2, ፓንዶራ} አጎት {num_ic, 674} መጽሐፍቶች ባለቤት ነው።",
+  "ic_sentence": "የ{name_female_2, ፓንዶራ} አጎት {num_ic, 674} መጽሐፍቶች ባለቤት ነው።"
+}

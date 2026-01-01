@@ -1,0 +1,79 @@
+{
+  "original_question": "Bailley ji ụfọdụ ego were malite. Mgbe ahụ ọ na-anata ụgwọ $5 n'izu maka izu ụka asatọ. Na ngwụcha izu ụka asatọ, ọ bụrụ na o nwere ngụkọta $100, ego ole ka Bailey jiri malite?",
+  "original_answer": 60,
+  "question_template": "{name_male, Bailey} ji ụfọdụ ego were malite. Mgbe ahụ ọ na-anata ụgwọ ${num_digit_1, 5} n'izu maka izu ụka {num_digit_2, 8}. Na ngwụcha izu ụka {num_digit_2, 8}, ọ bụrụ na o nwere ngụkọta ${num_digit_3, 100}, ego ole ka {name_male, Bailey} jiri malite?",
+  "question_solution": "answer = num_digit_3 - num_digit_1 * num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_3 - num_digit_1 * num_digit_2",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= num_digit_1 * num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_male": "Bailey"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      12,
+      4,
+      9,
+      6,
+      8,
+      3,
+      10,
+      11,
+      13
+    ],
+    "num_digit_2": [
+      12,
+      9,
+      15,
+      11,
+      14,
+      13,
+      20,
+      17,
+      16,
+      18
+    ],
+    "num_digit_3": [
+      200,
+      250,
+      180,
+      300,
+      220,
+      190,
+      250,
+      350,
+      400,
+      450
+    ],
+    "answer": [
+      116,
+      142,
+      120,
+      201,
+      136,
+      86,
+      190,
+      180,
+      224,
+      216
+    ],
+    "num_ic": [
+      61,
+      73,
+      18,
+      128,
+      28,
+      156,
+      150,
+      95,
+      60,
+      67
+    ]
+  },
+  "ic_question_template": "Nwanne nne {name_male, Bailey} kpọkọtara mkpụrụ ego dị iche iche ruru {num_ic, 56} otu oge. {name_male, Bailey} ji ụfọdụ ego were malite. Mgbe ahụ ọ na-anata ụgwọ ${num_digit_1, 5} n'izu maka izu ụka {num_digit_2, 8}. Na ngwụcha izu ụka {num_digit_2, 8}, ọ bụrụ na o nwere ngụkọta ${num_digit_3, 100}, ego ole ka {name_male, Bailey} jiri malite?",
+  "ic_sentence": "Nwanne nne {name_male, Bailey} kpọkọtara mkpụrụ ego dị iche iche ruru {num_ic, 56} otu oge."
+}

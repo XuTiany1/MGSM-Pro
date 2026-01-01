@@ -1,0 +1,81 @@
+{
+  "original_question": "Christina organise une fête d'anniversaire et demande 0,75 sac cadeau par invité, vu que 1/4 des invités ne se présentent pas. Sachant qu'elle a invité 16 amis et que les sacs cadeaux coûtent 2 $ chacun, combien va-t-elle dépenser ?",
+  "original_answer": 24,
+  "question_template": "{name_female, Christina} organise une fête d'anniversaire et demande {num_digit_1, 0,75} sac cadeau par invité, vu que {num_frac_1, 1/4} des invités ne se présentent pas. Sachant qu'elle a invité {num_digit_2, 16} amis et que les sacs cadeaux coûtent {num_digit_3, 2} $ chacun, combien va-t-elle dépenser ?",
+  "question_solution": "answer = num_digit_2 * num_digit_1 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_2 * num_digit_1 * num_digit_3",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1",
+    "num_digit_1 == 1 - NUM(num_frac_1)",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Christina"
+  },
+  "variable_number_dictionary": {
+    "num_frac_1": [
+      "1/4",
+      "1/5",
+      "1/2",
+      "2/5",
+      "3/10",
+      "1/8",
+      "1/10",
+      "1/20",
+      "3/5",
+      "3/20"
+    ],
+    "num_digit_1": [
+      0.75,
+      0.8,
+      0.5,
+      0.6,
+      0.7,
+      0.875,
+      0.9,
+      0.95,
+      0.4,
+      0.85
+    ],
+    "num_digit_2": [
+      20,
+      25,
+      14,
+      30,
+      10,
+      24,
+      20,
+      40,
+      25,
+      20
+    ],
+    "num_digit_3": [
+      3,
+      2,
+      4,
+      5,
+      6,
+      4,
+      7,
+      10,
+      7,
+      3
+    ],
+    "answer": [
+      45,
+      40,
+      28,
+      90,
+      42,
+      84,
+      126,
+      380,
+      70,
+      51
+    ]
+  },
+  "ic_question_template": "{name_female, Christina} a reçu {num_ic, 89} cupcakes de la part de sa tante pour la fête. {name_female, Christina} organise une fête d'anniversaire et demande {num_digit_1, 0,75} sac cadeau par invité, vu que {num_frac_1, 1/4} des invités ne se présentent pas. Sachant qu'elle a invité {num_digit_2, 16} amis et que les sacs cadeaux coûtent {num_digit_3, 2} $ chacun, combien va-t-elle dépenser ?",
+  "ic_sentence": "{name_female, Christina} a reçu {num_ic, 89} cupcakes de la part de sa tante pour la fête."
+}

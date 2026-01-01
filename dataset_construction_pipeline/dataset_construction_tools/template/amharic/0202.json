@@ -1,0 +1,81 @@
+{
+  "original_question": "ጆሲ በ10 ሄክታር እርሻዋ ላይ ወይን ታበቅላለች. እያንዳንዱ ሄክታር በአመት 5 ቶን ወይን ያመርታል. እና እያንዳንዱ ቶን ወይን 2 በርሜል ወይን ይሠራል. እርሻዋ በዓመት ስንት በርሜል ወይን ያመርታል?",
+  "original_answer": 100,
+  "question_template": "{name_female, ጆሲ} በ{num_digit_1, 10} ሄክታር እርሻዋ ላይ ወይን ታበቅላለች. እያንዳንዱ ሄክታር በአመት {num_digit_2, 5} ቶን ወይን ያመርታል. እና እያንዳንዱ ቶን ወይን {num_digit_3, 2} በርሜል ወይን ይሠራል. እርሻዋ በዓመት ስንት በርሜል ወይን ያመርታል?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 * num_digit_3",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Josie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      57,
+      83,
+      47,
+      96,
+      124,
+      65,
+      89,
+      73,
+      112,
+      131
+    ],
+    "num_digit_2": [
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      43,
+      41,
+      53
+    ],
+    "num_digit_3": [
+      7,
+      5,
+      11,
+      9,
+      3,
+      15,
+      5,
+      13,
+      9,
+      17
+    ],
+    "answer": [
+      5187,
+      7055,
+      9823,
+      19872,
+      10788,
+      30225,
+      16465,
+      40807,
+      41328,
+      118031
+    ],
+    "num_ic": [
+      109,
+      277,
+      53,
+      263,
+      248,
+      191,
+      395,
+      372,
+      415,
+      1047
+    ]
+  },
+  "ic_question_template": "{name_female, ጆሲ} በ{num_digit_1, 10} ሄክታር እርሻዋ ላይ ወይን ታበቅላለች. እያንዳንዱ ሄክታር በአመት {num_digit_2, 5} ቶን ወይን ያመርታል. እና እያንዳንዱ ቶን ወይን {num_digit_3, 2} በርሜል ወይን ይሠራል. እርሻዋ በዓመት ስንት በርሜል ወይን ያመርታል? የ{name_female, ጆሲ} አጎት በአቅራቢያው {num_ic, 289} የፖም ዛፎች ባለቤት ናት።",
+  "ic_sentence": "የ{name_female, ጆሲ} አጎት በአቅራቢያው {num_ic, 289} የፖም ዛፎች ባለቤት ናት።"
+}

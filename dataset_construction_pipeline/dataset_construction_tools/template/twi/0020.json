@@ -1,0 +1,103 @@
+{
+  "original_question": "Mewɔ ankaa nsa 10 lita a ԑmu mmiԑnsa nkyԑmu mmienu yԑ nsuo na mepԑ sԑ mede aborɔbԑ nsa 15 lita a ԑmu num nkyԑmu mmiԑnsa yԑ nsuo ka ho. Nanso berԑ a merehwie no, mehwiee ankaa nsa lita baako guu fam. Nsuo sԑn na aka wɔ lita 24 a aka no mu?",
+  "original_answer": 15,
+  "question_template": "Mewɔ ankaa nsa {num_digit_1, 10} lita a ԑmu {num_frac_1, mmiɛnsa nkyɛmu mmienu} yԑ nsuo na mepԑ sԑ mede aborɔbԑ nsa {num_digit_2, 15} lita a ԑmu {num_frac_2, num nkyɛmu mmiɛnsa} yԑ nsuo ka ho. Nanso berԑ a merehwie no, mehwiee ankaa nsa lita baako guu fam. Nsuo sԑn na aka wɔ lita {num_digit_3, 24} a aka no mu?",
+  "question_solution": "answer = (num_digit_1 - 1) * NUM(num_frac_1) + num_digit_2 * NUM(num_frac_2)",
+  "conditions": [
+    "int(answer) == (num_digit_1 - 1) * NUM(num_frac_1) + num_digit_2 * NUM(num_frac_2)",
+    "num_digit_1 > 1",
+    "0 < NUM(num_frac_1) <= 1",
+    "num_digit_2 > 0",
+    "0 < NUM(num_frac_2) <= 1",
+    "num_digit_3 == num_digit_1 + num_digit_2 - 1"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      49,
+      145,
+      49,
+      81,
+      301,
+      148,
+      313,
+      253,
+      201,
+      325
+    ],
+    "num_frac_1": [
+      "faako",
+      "mmaɛn abiɛsa mu abien",
+      "ananan mu mmiɛnsa",
+      "anan-num mu nan",
+      "anumwia nsia",
+      "nsia so nananɔn",
+      "asaonwɔtwe",
+      "ɛkananwɔtwe",
+      "nkron mu du",
+      "anum-mu-duonu-mmiɛnsa"
+    ],
+    "num_digit_2": [
+      57,
+      150,
+      176,
+      162,
+      440,
+      165,
+      600,
+      92,
+      180,
+      129
+    ],
+    "num_frac_2": [
+      "baako-mu-mienu",
+      "Mmienu mu enum",
+      "mmiɛnsa mu ɔkɔtɔsiɔw",
+      "anan-nkron mu nan",
+      "anum mu duɔnnum",
+      "nsia-mu-duɔson",
+      "nsia-mu-du-nson",
+      "ananan mu mmiɛnsa",
+      "anumwia nsia",
+      "mmaɛn abiɛsa mu abien"
+    ],
+    "num_digit_3": [
+      105,
+      294,
+      224,
+      242,
+      740,
+      312,
+      912,
+      344,
+      380,
+      453
+    ],
+    "answer": [
+      43,
+      156,
+      102,
+      136,
+      470,
+      216,
+      623,
+      293,
+      330,
+      221
+    ],
+    "num_ic": [
+      81,
+      298,
+      217,
+      53,
+      461,
+      1136,
+      101,
+      718,
+      1705,
+      630
+    ]
+  },
+  "ic_question_template": "{name_male, Eric} nua de amango {num_ic, 186} baa anigyie nhyiemu no. Mewɔ ankaa nsa {num_digit_1, 10} lita a ԑmu {num_frac_1, mmiɛnsa nkyɛmu mmienu} yԑ nsuo na mepԑ sԑ mede aborɔbԑ nsa {num_digit_2, 15} lita a ԑmu {num_frac_2, num nkyɛmu mmiɛnsa} yԑ nsuo ka ho. Nanso berԑ a merehwie no, mehwiee ankaa nsa lita baako guu fam. Nsuo sԑn na aka wɔ lita {num_digit_3, 24} a aka no mu?",
+  "ic_sentence": "{name_male, Eric} nua de amango {num_ic, 186} baa anigyie nhyiemu no."
+}

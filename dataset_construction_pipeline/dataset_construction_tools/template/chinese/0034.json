@@ -1,0 +1,82 @@
+{
+  "original_question": "西沃恩的珠宝数量比艾伦的珠宝数量少 2 件。艾伦的珠宝数量比雷蒙德珠宝数量的一半多 5 件。如果雷蒙德有 40 件珠宝，则西沃恩有多少件珠宝？",
+  "original_answer": 23,
+  "question_template": "{name_male_1, 西沃恩} 的珠宝数量比 {name_male_2, 艾伦} 的珠宝数量少 {num_digit_1, 2} 件。{name_male_2, 艾伦} 的珠宝数量比 {name_male_3, 雷蒙德} 珠宝数量的 {num_frac_1, 一半} 多 {num_digit_2, 5} 件。如果 {name_male_3, 雷蒙德} 有 {num_digit_3, 40} 件珠宝，则 {name_male_1, 西沃恩} 有多少件珠宝？",
+  "question_solution": "answer = num_digit_3 / 2 + num_digit_2 - num_digit_1",
+  "conditions": [
+    "int(answer) == num_digit_3 / 2 + num_digit_2 - num_digit_1",
+    "num_digit_3 % 2 == 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Siobhan",
+    "name_male_2": "Aaron",
+    "name_male_3": "Raymond"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      6,
+      7,
+      9,
+      12,
+      10,
+      11,
+      8,
+      5
+    ],
+    "num_digit_2": [
+      7,
+      9,
+      12,
+      15,
+      17,
+      10,
+      8,
+      14,
+      13,
+      6
+    ],
+    "num_digit_3": [
+      62,
+      84,
+      74,
+      100,
+      110,
+      96,
+      88,
+      120,
+      78,
+      56
+    ],
+    "num_frac_1": [
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半"
+    ],
+    "answer": [
+      35,
+      47,
+      43,
+      58,
+      63,
+      46,
+      42,
+      63,
+      44,
+      29
+    ]
+  },
+  "ic_question_template": "{name_male_2, 亚伦} 的叔叔曾经送给他 {num_ic, 341} 颗弹珠。{name_male_1, 西沃恩} 的珠宝数量比 {name_male_2, 艾伦} 的珠宝数量少 {num_digit_1, 2} 件。{name_male_2, 艾伦} 的珠宝数量比 {name_male_3, 雷蒙德} 珠宝数量的 {num_frac_1, 一半} 多 {num_digit_2, 5} 件。如果 {name_male_3, 雷蒙德} 有 {num_digit_3, 40} 件珠宝，则 {name_male_1, 西沃恩} 有多少件珠宝？",
+  "ic_sentence": "{name_male_2, 亚伦} 的叔叔曾经送给他 {num_ic, 341} 颗弹珠。"
+}

@@ -1,0 +1,78 @@
+{
+  "original_question": "Keteke mmienu firi San Rafael berԑ koro no ara. Ͻhyԑ aseԑ sԑ ɔrekɔ apueԑ, wɔn mmienu nyinaa ԑrekɔ kwansini 80. Da a ԑdi akyiri no, wɔkɔ atifi, na wɔtwa kwansini 150. Kwan sԑn na keteke biara bԑtwa wɔ nna mmienu mu?",
+  "original_answer": 230,
+  "question_template": "Keteke  {num_text_1, mmienu} firi {name_town_1, San Rafael} berԑ koro no ara. Ͻhyԑ aseԑ sԑ ɔrekɔ apueԑ, wɔn mmienu nyinaa ԑrekɔ kwansini {num_digit_1, 80}. Da a ԑdi akyiri no, wɔkɔ atifi, na wɔtwa kwansini {num_digit_2, 150}. Kwan sԑn na keteke biara bԑtwa wɔ nna mmienu mu?",
+  "question_solution": "answer = num_digit_1 + num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_1 + num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_town_1": "San Rafael"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "mienu",
+      "mmiɛnsa",
+      "anum",
+      "Nson",
+      "duakoɔ baako",
+      "du-mienu",
+      "duonu nsia",
+      "du nkron",
+      "aduasa-mienu",
+      "aduonu nkron"
+    ],
+    "num_digit_1": [
+      101,
+      113,
+      127,
+      131,
+      137,
+      149,
+      157,
+      163,
+      173,
+      179
+    ],
+    "num_digit_2": [
+      191,
+      193,
+      197,
+      199,
+      211,
+      223,
+      227,
+      229,
+      233,
+      239
+    ],
+    "answer": [
+      292,
+      306,
+      324,
+      330,
+      348,
+      372,
+      384,
+      392,
+      406,
+      418
+    ],
+    "num_ic": [
+      108,
+      920,
+      270,
+      1332,
+      1489,
+      1660,
+      1827,
+      1039,
+      2067,
+      1400
+    ]
+  },
+  "ic_question_template": "{name_town_1, San Rafael} no sodifoɔ wɔ tren nhwɛsoɔ {num_ic, 137}. Keteke  {num_text_1, mmienu} firi {name_town_1, San Rafael} berԑ koro no ara. Ͻhyԑ aseԑ sԑ ɔrekɔ apueԑ, wɔn mmienu nyinaa ԑrekɔ kwansini {num_digit_1, 80}. Da a ԑdi akyiri no, wɔkɔ atifi, na wɔtwa kwansini {num_digit_2, 150}. Kwan sԑn na keteke biara bԑtwa wɔ nna mmienu mu?",
+  "ic_sentence": "{name_town_1, San Rafael} no sodifoɔ wɔ tren nhwɛsoɔ {num_ic, 137}."
+}

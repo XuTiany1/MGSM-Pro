@@ -1,0 +1,80 @@
+{
+  "original_question": "Henri a fait deux arrêts pendant son voyage de 60 miles à vélo. Il a marqué son premier arrêt après 20 miles. Il s'est de nouveau arrêté 15 miles avant la fin du voyage. Combien de miles a-t-il parcourus entre les deux arrêts ?",
+  "original_answer": 25,
+  "question_template": "{name_male, Henri} a fait {num_text_1, deux} arrêts pendant son voyage de {num_digit_1, 60} miles à vélo. Il a marqué son premier arrêt après {num_digit_2, 20} miles. Il s'est de nouveau arrêté {num_digit_3, 15} miles avant la fin du voyage. Combien de miles a-t-il parcourus entre les deux arrêts ?",
+  "question_solution": "answer = (num_digit_1 - num_digit_3) - num_digit_2",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_digit_3) - num_digit_2",
+    "NUM(num_text_1) >= 2",
+    "num_digit_1 > num_digit_3",
+    "num_digit_3 > 0",
+    "num_digit_2 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Henry"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "deux",
+      "trois",
+      "cinq",
+      "sept",
+      "onze",
+      "treize",
+      "dix-sept",
+      "dix-neuf",
+      "vingt-trois",
+      "vingt-neuf"
+    ],
+    "num_digit_1": [
+      101,
+      113,
+      127,
+      131,
+      137,
+      149,
+      157,
+      163,
+      173,
+      179
+    ],
+    "num_digit_2": [
+      17,
+      23,
+      31,
+      19,
+      41,
+      13,
+      29,
+      47,
+      37,
+      17
+    ],
+    "num_digit_3": [
+      19,
+      29,
+      43,
+      37,
+      31,
+      11,
+      59,
+      53,
+      61,
+      89
+    ],
+    "answer": [
+      65,
+      61,
+      53,
+      75,
+      65,
+      125,
+      69,
+      63,
+      75,
+      73
+    ]
+  },
+  "ic_question_template": "{name_male, Henry} a un oncle qui possède {num_ic, 85} casques de vélo. {name_male, Henri} a fait {num_text_1, deux} arrêts pendant son voyage de {num_digit_1, 60} miles à vélo. Il a marqué son premier arrêt après {num_digit_2, 20} miles. Il s'est de nouveau arrêté {num_digit_3, 15} miles avant la fin du voyage. Combien de miles a-t-il parcourus entre les deux arrêts ?",
+  "ic_sentence": "{name_male, Henry} a un oncle qui possède {num_ic, 85} casques de vélo."
+}

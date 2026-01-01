@@ -1,0 +1,69 @@
+{
+  "original_question": "Sue habite un quartier où règne la bonne humeur. Au cours d'un certain week-end, les voisins ont décidé de lui faire une farce. Le vendredi matin, ils ont placé 18 flamants roses en plastique dans son jardin. Le samedi matin, les voisins ont repris un tiers des flamants roses qu'ils ont peints en blanc et replacés dans le jardin de Sue. Puis, le dimanche matin, ils ont ajouté 18 autres flamants roses en plastique à la collection. À midi, le dimanche, quelle quantité de flamants roses en plastique y avait-il de plus que celle des flamants blancs ?",
+  "original_answer": 24,
+  "question_template": "{name_female, Sue} habite un quartier où règne la bonne humeur. Au cours d'un certain week-end, les voisins ont décidé de faire une farce à {name_female, Sue}. Le vendredi matin, ils ont placé {num_digit_1, 18} flamants roses en plastique dans le jardin de {name_female, Sue}. Le samedi matin, les voisins ont repris {num_frac_1, un tiers} des flamants roses qu'ils ont peints en blanc et replacés dans le jardin de {name_female, Sue}. Puis, le dimanche matin, ils ont ajouté {num_digit_2, 18} autres flamants roses en plastique à la collection. À midi, le dimanche, quelle quantité de flamants roses en plastique y avait-il de plus que celle des flamants blancs ?",
+  "question_solution": "answer = num_digit_1 * (1 - 2 * f1) + num_digit_2   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 - 2 * f1) + num_digit_2",
+    "0 < f1 < 1",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sue"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      35,
+      77,
+      117,
+      180,
+      72,
+      70,
+      66,
+      51,
+      60,
+      85
+    ],
+    "num_frac_1": [
+      "deux septièmes",
+      "trois onzièmes",
+      "cinq treizièmes",
+      "sept quinzièmes",
+      "quatre neuvièmes",
+      "trois septièmes",
+      "cinq onzièmes",
+      "quatre dix-septièmes",
+      "deux quinzièmes",
+      "cinq dix-septièmes"
+    ],
+    "num_digit_2": [
+      18,
+      22,
+      14,
+      25,
+      19,
+      23,
+      31,
+      18,
+      17,
+      27
+    ],
+    "answer": [
+      33,
+      57,
+      41,
+      37,
+      27,
+      33,
+      37,
+      45,
+      61,
+      62
+    ]
+  },
+  "ic_question_template": "{name_female, Sue} a un oncle qui a acheté une fois {num_ic, 764} décorations de jardin pour son espace vert. {name_female, Sue} habite un quartier où règne la bonne humeur. Au cours d'un certain week-end, les voisins ont décidé de faire une farce à {name_female, Sue}. Le vendredi matin, ils ont placé {num_digit_1, 18} flamants roses en plastique dans le jardin de {name_female, Sue}. Le samedi matin, les voisins ont repris {num_frac_1, un tiers} des flamants roses qu'ils ont peints en blanc et replacés dans le jardin de {name_female, Sue}. Puis, le dimanche matin, ils ont ajouté {num_digit_2, 18} autres flamants roses en plastique à la collection. À midi, le dimanche, quelle quantité de flamants roses en plastique y avait-il de plus que celle des flamants blancs ?",
+  "ic_sentence": "{name_female, Sue} a un oncle qui a acheté une fois {num_ic, 764} décorations de jardin pour son espace vert."
+}

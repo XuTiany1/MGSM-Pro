@@ -1,0 +1,80 @@
+{
+  "original_question": "Pendant qu'elle achète des chaussures, Gloria tombe sur une paire de bottines qui rentre dans son budget. Toutefois, elle doit choisir entre les bottines et deux paires de talons hauts qui coûtent à elles deux cinq dollars de moins que les bottines. Si l'une des paires de talons hauts coûte 33 $ et que l'autre coûte deux fois plus, quel est, en dollar, le prix des bottines ?",
+  "original_answer": 104,
+  "question_template": "Pendant qu'elle achète des chaussures, {name_female, Gloria} tombe sur une paire de bottines qui rentre dans son budget. Toutefois, elle doit choisir entre les bottines et {num_text_1, deux} paires de talons hauts qui coûtent à elles deux {num_text_2, cinq} dollars de moins que les bottines. Si l'une des paires de talons hauts coûte {num_digit_1, 33} $ et que l'autre coûte {num_text_3, deux fois} plus, quel est, en dollar, le prix des bottines ?",
+  "question_solution": "answer = num_digit_1 * (1 + NUM(num_text_3)) + NUM(num_text_2)",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 + NUM(num_text_3)) + NUM(num_text_2)",
+    "NUM(num_text_1) == 2",
+    "num_digit_1 > 0",
+    "0 < NUM(num_text_3)",
+    "0 < NUM(num_text_2)"
+  ],
+  "variable_word_list": {
+    "name_female": "Gloria"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux"
+    ],
+    "num_text_2": [
+      "cinq",
+      "sept",
+      "neuf",
+      "dix",
+      "onze",
+      "treize",
+      "dix-sept",
+      "dix-neuf",
+      "vingt-trois",
+      "vingt-neuf"
+    ],
+    "num_digit_1": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "num_text_3": [
+      "deux fois",
+      "trois fois",
+      "quatre fois",
+      "cinq fois",
+      "six fois",
+      "sept fois",
+      "huit fois",
+      "neuf fois",
+      "dix fois",
+      "onze fois"
+    ],
+    "answer": [
+      116,
+      171,
+      224,
+      292,
+      382,
+      485,
+      566,
+      689,
+      804,
+      905
+    ]
+  },
+  "ic_question_template": "La cousine de {name_female, Gloria} vient d’acheter {num_ic, 48} paires de chaussettes à proximité. Pendant qu'elle achète des chaussures, {name_female, Gloria} tombe sur une paire de bottines qui rentre dans son budget. Toutefois, elle doit choisir entre les bottines et {num_text_1, deux} paires de talons hauts qui coûtent à elles deux {num_text_2, cinq} dollars de moins que les bottines. Si l'une des paires de talons hauts coûte {num_digit_1, 33} $ et que l'autre coûte {num_text_3, deux fois} plus, quel est, en dollar, le prix des bottines ?",
+  "ic_sentence": "La cousine de {name_female, Gloria} vient d’acheter {num_ic, 48} paires de chaussettes à proximité."
+}

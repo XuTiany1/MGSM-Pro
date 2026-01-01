@@ -1,0 +1,54 @@
+{
+  "original_question": "Une équipe de football a joué 22 matchs. Elle a gagné _ fois plus qu'elle n'a perdu. Combien de fois a-t-elle gagné ?",
+  "original_answer": 15,
+  "question_template": "Une équipe de football a joué {num_digit_1, 22} matchs. Elle a gagné {num_digit_2, 8} fois plus qu'elle n'a perdu. Combien de fois a-t-elle gagné ?",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) / 2",
+  "conditions": [
+    "int(answer) == (num_digit_1 + num_digit_2) / 2",
+    "(num_digit_1 + num_digit_2) % 2 == 0",
+    "num_digit_1 >= num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      30,
+      45,
+      51,
+      60,
+      49,
+      100,
+      123,
+      88,
+      77,
+      65
+    ],
+    "num_digit_2": [
+      10,
+      5,
+      9,
+      12,
+      7,
+      14,
+      21,
+      8,
+      3,
+      15
+    ],
+    "answer": [
+      20,
+      25,
+      30,
+      36,
+      28,
+      57,
+      72,
+      48,
+      40,
+      40
+    ]
+  },
+  "ic_question_template": "{name_male, John} oncle a assisté à {num_ic, 124} matchs cette saison. Une équipe de football a joué {num_digit_1, 22} matchs. Elle a gagné {num_digit_2, 8} fois plus qu'elle n'a perdu. Combien de fois a-t-elle gagné ?",
+  "ic_sentence": "{name_male, John} oncle a assisté à {num_ic, 124} matchs cette saison."
+}

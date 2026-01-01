@@ -1,0 +1,104 @@
+{
+  "original_question": "In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?",
+  "original_answer": 50,
+  "question_template": "In a room, there are various toys: {num_digit_1, 5} red cars, {num_digit_2, 3} action figures, and a doll. The doll cost as much as {num_digit_3, 3} action figures and one red car cost ${num_digit_4, 4}. How much are all toys worth, of an action figure costs ${num_digit_5, 5}?",
+  "question_solution": "answer = num_digit_1 * num_digit_4 + (num_digit_2 + num_digit_3) * num_digit_5",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_4 + (num_digit_2 + num_digit_3) * num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      17,
+      23,
+      31,
+      29,
+      41,
+      34,
+      47,
+      52,
+      63,
+      78
+    ],
+    "num_digit_2": [
+      13,
+      9,
+      17,
+      14,
+      22,
+      19,
+      25,
+      28,
+      32,
+      45
+    ],
+    "num_digit_3": [
+      6,
+      5,
+      8,
+      11,
+      9,
+      12,
+      14,
+      17,
+      21,
+      34
+    ],
+    "num_digit_4": [
+      11,
+      14,
+      9,
+      13,
+      18,
+      21,
+      17,
+      23,
+      29,
+      31
+    ],
+    "num_digit_5": [
+      8,
+      12,
+      15,
+      17,
+      16,
+      20,
+      19,
+      22,
+      25,
+      27
+    ],
+    "answer": [
+      339,
+      490,
+      654,
+      802,
+      1234,
+      1334,
+      1540,
+      2186,
+      3152,
+      4551
+    ],
+    "num_ic": [
+      35,
+      115,
+      107,
+      68,
+      154,
+      198,
+      29,
+      211,
+      256,
+      737
+    ]
+  },
+  "ic_question_template": "In a room, there are various toys: {num_digit_1, 5} red cars, {num_digit_2, 3} action figures, and a doll. The doll cost as much as {num_digit_3, 3} action figures and one red car cost ${num_digit_4, 4}. {name_male, Billy}'s cousin has {num_ic, 31} teddy bears. How much are all toys worth, of an action figure costs ${num_digit_5, 5}?",
+  "ic_sentence": "{name_male, Billy}'s cousin has {num_ic, 31} teddy bears."
+}

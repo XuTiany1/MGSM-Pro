@@ -1,0 +1,106 @@
+{
+  "original_question": "Mike jẹ́ ọ̀rẹ́ gègé pẹ̀lú ènìyàn márùn-ún. O dẹkun lati jẹ ọ̀rẹ́ pẹlu méjì nínú-un wọn.  Ọ̀kọ̀ọ̀kan wọn fi lẹ́tà méjì ránṣẹ́ ní ọ̀sẹ̀ kan tí ọ̀kọ̀ọ̀kan àwọn lẹ́tà náà ní ojú ìwé márùn-ún. Ó dáhùn dáadáa.  Ó lè fi ìṣẹ́jú mẹ́fà kọ ojú ìwé kan.  Wákàtí mélòó ni ó fi ń kọ ìwé ní ọ̀sẹ̀ kan?",
+  "original_answer": 3,
+  "question_template": "{name_male, Mike} jẹ́ ọ̀rẹ́ gègé pẹ̀lú ènìyàn {num_digit_1, 5}. Ó dẹ́kun láti jẹ́ ọ̀rẹ́ pẹ̀lú {num_digit_2, 2} nínú-un wọn. Ọ̀kọ̀ọ̀kan wọn fi lẹ́tà {num_digit_3, 2} ránṣẹ́ ní ọ̀sẹ̀ kan tí ọ̀kọ̀ọ̀kan àwọn lẹ́tà náà ní ojú ìwé {num_digit_4, 5}. Ó dáhùn dáadáa. Ó lè fi ìṣẹ́jú {num_digit_6, 6} kọ ojú ìwé kan. Wákàtí mélòó ni ó fi ń kọ ìwé ní ọ̀sẹ̀ kan?",
+  "question_solution": "answer = (num_digit_1 - num_digit_2) * num_digit_3 * num_digit_4 * num_digit_6 / 60",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 - num_digit_2) * num_digit_3 * num_digit_4 * num_digit_6 / 60",
+    "num_digit_1 > num_digit_2",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_6 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Mike"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      12345,
+      9876,
+      7777,
+      5555,
+      6666
+    ],
+    "num_digit_2": [
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      6172,
+      4938,
+      3888,
+      2777,
+      3333
+    ],
+    "num_digit_3": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "num_digit_4": [
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "num_digit_6": [
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60
+    ],
+    "answer": [
+      246272,
+      713728,
+      1673216,
+      4427776,
+      12591104,
+      11290417,
+      11145066,
+      10683083,
+      8481234,
+      11435523
+    ],
+    "num_ic": [
+      8927,
+      10678,
+      35054,
+      20138,
+      51664,
+      79585,
+      2319,
+      6256,
+      29663,
+      91741
+    ]
+  },
+  "ic_question_template": "Ìyá bàbá {name_male, Mike} máa ka àwọn ìwé {num_ic, 91741} ní ọdún kọọkan. {name_male, Mike} jẹ́ ọ̀rẹ́ gègé pẹ̀lú ènìyàn {num_digit_1, 5}. Ó dẹ́kun láti jẹ́ ọ̀rẹ́ pẹ̀lú {num_digit_2, 2} nínú-un wọn. Ọ̀kọ̀ọ̀kan wọn fi lẹ́tà {num_digit_3, 2} ránṣẹ́ ní ọ̀sẹ̀ kan tí ọ̀kọ̀ọ̀kan àwọn lẹ́tà náà ní ojú ìwé {num_digit_4, 5}. Ó dáhùn dáadáa. Ó lè fi ìṣẹ́jú {num_digit_6, 6} kọ ojú ìwé kan. Wákàtí mélòó ni ó fi ń kọ ìwé ní ọ̀sẹ̀ kan?",
+  "ic_sentence": "Ìyá bàbá {name_male, Mike} máa ka àwọn ìwé {num_ic, 91741} ní ọdún kọọkan."
+}

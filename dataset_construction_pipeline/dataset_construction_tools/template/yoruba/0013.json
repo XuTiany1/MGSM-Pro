@@ -1,0 +1,91 @@
+{
+  "original_question": "Melanie jẹ́ òntajà obìnrin ojúlé-sí-ojúlé. Ó ta ìdá mẹ́ta ikólẹ̀ rẹ̀ ní ilé aláwọ̀ ewé, 2 sí i fún ilé pupa, àti ààbọ̀ ohun tó kù ní ilé aláwọ̀ omi ọsàn. Tí ìkólẹ̀ Melanie bá ku 5, mélòó ní ó fi bẹ̀rẹ̀? ",
+  "original_answer": 18,
+  "question_template": "{name_female, Melanie} jẹ́ òntajà obìnrin ojúlé-sí-ojúlé. Ó ta {num_frac_1, ìdá mẹ́ta} ikólẹ̀ rẹ̀ ní ilé aláwọ̀ ewé, {num_digit_1, 2} sí i fún ilé pupa, àti {num_frac_2, ààbọ̀} ohun tó kù ní ilé aláwọ̀ omi ọsàn. Tí ìkólẹ̀ {name_female, Melanie} bá ku {num_digit_2, 5}, mélòó ní ó fi bẹ̀rẹ̀?",
+  "question_solution": "answer = ((2 * num_digit_2 + num_digit_1) * 3) / 2",
+  "conditions": [
+    "int(answer) == ((2 * num_digit_2 + num_digit_1) * 3) / 2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "(2 * num_digit_2 + num_digit_1) % 2 == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Melanie"
+  },
+  "variable_number_dictionary": {
+    "num_frac_1": [
+      "ìkẹta",
+      "ìkẹta",
+      "ìkẹta",
+      "ìkẹta",
+      "ìkẹta",
+      "ìkẹta",
+      "ìkẹta",
+      "ìkẹta",
+      "ìkẹta",
+      "ìkẹta"
+    ],
+    "num_digit_1": [
+      110,
+      118,
+      122,
+      130,
+      134,
+      142,
+      146,
+      154,
+      158,
+      166
+    ],
+    "num_frac_2": [
+      "Idaji",
+      "Idaji",
+      "Idaji",
+      "Idaji",
+      "Idaji",
+      "Idaji",
+      "Idaji",
+      "Idaji",
+      "Idaji",
+      "Idaji"
+    ],
+    "num_digit_2": [
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97,
+      101
+    ],
+    "answer": [
+      342,
+      360,
+      384,
+      408,
+      420,
+      450,
+      468,
+      498,
+      528,
+      552
+    ],
+    "num_ic": [
+      87,
+      114,
+      70,
+      61,
+      124,
+      174,
+      52,
+      123,
+      168,
+      108
+    ]
+  },
+  "ic_question_template": "Àntí {name_female, Melanie} ra aṣọ ìbọ̀ wẹ̀nù {num_ic, 112} lọ́sù tó kọjá. {name_female, Melanie} jẹ́ òntajà obìnrin ojúlé-sí-ojúlé. Ó ta {num_frac_1, ìdá mẹ́ta} ikólẹ̀ rẹ̀ ní ilé aláwọ̀ ewé, {num_digit_1, 2} sí i fún ilé pupa, àti {num_frac_2, ààbọ̀} ohun tó kù ní ilé aláwọ̀ omi ọsàn. Tí ìkólẹ̀ {name_female, Melanie} bá ku {num_digit_2, 5}, mélòó ní ó fi bẹ̀rẹ̀?",
+  "ic_sentence": "Àntí {name_female, Melanie} ra aṣọ ìbọ̀ wẹ̀nù {num_ic, 112} lọ́sù tó kọjá."
+}

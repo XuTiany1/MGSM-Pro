@@ -1,0 +1,83 @@
+{
+  "original_question": "Steve et Tim décident de voir lequel des deux rentrera le plus vite de l'école. Steve habite plus loin que Tim et a donc le droit d'utiliser son vélo. Steve habite à 3 miles de l'école et pédale à 440 pieds par minute. Tim habite à 2 miles de l'école. Si Tim se déplace en skateboard à une vitesse de 264 pieds par minute, combien de temps le gagnant attendra-t-il chez lui avant que le perdant ne termine la course ?",
+  "original_answer": 4,
+  "question_template": "{name_male_1, Steve} et {name_male_2, Tim} décident de voir lequel des deux rentrera le plus vite de l'école. {name_male_1, Steve} habite plus loin que {name_male_2, Tim} et a donc le droit d'utiliser son vélo. {name_male_1, Steve} habite à {num_digit_1, 3} miles de l'école et pédale à {num_digit_2, 440} pieds par minute. {name_male_2, Tim} habite à {num_digit_3, 2} miles de l'école. Si {name_male_2, Tim} se déplace en skateboard à une vitesse de {num_digit_4, 264} pieds par minute, combien de temps le gagnant attendra-t-il chez lui avant que le perdant ne termine la course ?",
+  "question_solution": "answer = |5280 * num_digit_1 / num_digit_2 - 5280 * num_digit_3 / num_digit_4|",
+  "conditions": [
+    "answer == abs(5280 * num_digit_1 / num_digit_2 - 5280 * num_digit_3 / num_digit_4)",
+    "num_digit_1 > num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Steve",
+    "name_male_2": "Tim"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      9,
+      10,
+      8,
+      7,
+      5,
+      8,
+      9,
+      10,
+      3,
+      10
+    ],
+    "num_digit_2": [
+      120,
+      330,
+      220,
+      160,
+      160,
+      160,
+      220,
+      264,
+      480,
+      240
+    ],
+    "num_digit_3": [
+      7,
+      7,
+      5,
+      2,
+      3,
+      4,
+      6,
+      9,
+      1,
+      6
+    ],
+    "num_digit_4": [
+      264,
+      880,
+      165,
+      264,
+      132,
+      440,
+      880,
+      120,
+      110,
+      352
+    ],
+    "answer": [
+      256,
+      118,
+      32,
+      191,
+      45,
+      216,
+      180,
+      196,
+      15,
+      130
+    ]
+  },
+  "ic_question_template": "{name_male_1, Steve} a une tante qui possède {num_ic, 34} chats. {name_male_1, Steve} et {name_male_2, Tim} décident de voir lequel des deux rentrera le plus vite de l'école. {name_male_1, Steve} habite plus loin que {name_male_2, Tim} et a donc le droit d'utiliser son vélo. {name_male_1, Steve} habite à {num_digit_1, 3} miles de l'école et pédale à {num_digit_2, 440} pieds par minute. {name_male_2, Tim} habite à {num_digit_3, 2} miles de l'école. Si {name_male_2, Tim} se déplace en skateboard à une vitesse de {num_digit_4, 264} pieds par minute, combien de temps le gagnant attendra-t-il chez lui avant que le perdant ne termine la course ?",
+  "ic_sentence": "{name_male_1, Steve} a une tante qui possède {num_ic, 34} chats."
+}

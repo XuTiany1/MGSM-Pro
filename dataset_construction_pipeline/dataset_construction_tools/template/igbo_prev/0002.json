@@ -1,0 +1,81 @@
+{
+  "original_question": "Josh na-ekpebi ireghari ụlọ. Ọ na-azụta ụlọ n'ọnụ ego $80,000 ma tinye $55,000 n'imezi ya. Nke a buliri ọnụ ego ụlọ ahụ ihe dịka 150%. Uru ego ole ka ọ ga-erita? ",
+  "original_answer": 70000,
+  "question_template": "{name_male, Josh} na-ekpebi ireghari ụlọ. Ọ zụtara ụlọ n'ọnụ ego ${num_digit_1, 80,000} ma tinye ${num_digit_2, 50,000} n'imezi ya. Nke a buliri ọnụ ego ụlọ ahụ ihe dịka {num_digit_3, 150}%. Uru ego ole ka o ritere?",
+  "question_solution": "new_value = num_digit_1 + (num_digit_1 * num_digit_3 / 100); total_investment = num_digit_1 + num_digit_2; answer = new_value - total_investment",
+  "simplified_formula": "answer = (num_digit_1 * num_digit_3 / 100) - num_digit_2",
+  "conditions": [
+    "answer == (num_digit_1 * num_digit_3 / 100) - num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "answer > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Josh"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      75000,
+      120000,
+      95000,
+      85000,
+      110000,
+      65000,
+      140000,
+      90000,
+      125000,
+      105000
+    ],
+    "num_digit_2": [
+      45000,
+      84000,
+      57000,
+      42500,
+      77000,
+      39000,
+      98000,
+      54000,
+      87500,
+      73500
+    ],
+    "num_digit_3": [
+      180,
+      145,
+      210,
+      235,
+      164,
+      276,
+      128,
+      222,
+      156,
+      190
+    ],
+    "answer": [
+      90000,
+      90000,
+      142500,
+      157250,
+      103400,
+      140400,
+      81200,
+      145800,
+      107500,
+      126000
+    ],
+    "num_ic": [
+      22897,
+      109610,
+      45884,
+      133537,
+      44476,
+      80820,
+      109051,
+      109692,
+      64153,
+      124050
+    ]
+  },
+  "ic_question_template": "Nwanne nne {name_male, Josh} rere nkụ ụlọ {num_ic, 124000} n'oge na-adịbeghị anya maka ọrụ ụlọ. {name_male, Josh} na-ekpebi ireghari ụlọ. Ọ zụtara ụlọ n'ọnụ ego ${num_digit_1, 80,000} ma tinye ${num_digit_2, 50,000} n'imezi ya. Nke a buliri ọnụ ego ụlọ ahụ ihe dịka {num_digit_3, 150}%. Uru ego ole ka o ritere?",
+  "ic_sentence": "Nwanne nne {name_male, Josh} rere nkụ ụlọ {num_ic, 124000} n'oge na-adịbeghị anya maka ọrụ ụlọ."
+}

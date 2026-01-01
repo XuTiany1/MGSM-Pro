@@ -1,0 +1,92 @@
+{
+  "original_question": "Ọnụego Eliza na otu awa ọrụrụ ọrụ n'awa iri anọ nke mbu n'izu uka ọ bụla bụ $10. Ọ na enwetakwa ugwọ irufere oge ugboro 1.2 ọnụego ọrụ awa ya. Ọ bụrụ na Eliza rụrụ ọrụ awa iri anọ na ise n'izu uka a, ego ole ka ọ rụtara n'izu uka nke a?",
+  "original_answer": 460,
+  "question_template": "Ọnụego {name_female, Eliza} na otu awa ọrụrụ ọrụ n'awa {num_digit_1, 40} nke mbu n'izu uka ọ bụla bụ ${num_digit_2, 10}. Ọ na enwetakwa ugwọ irufere oge ugboro {num_digit_3, 1.2} ọnụego ọrụ awa ya. Ọ bụrụ na {name_female, Eliza} rụrụ ọrụ awa {num_digit_4, 45} n'izu uka a, ego ole ka ọ rụtara n'izu uka nke a?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + max(0, num_digit_4 - num_digit_1) * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 + max(0, num_digit_4 - num_digit_1) * num_digit_2 * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 >= num_digit_1"
+  ],
+  "variable_word_list": {
+    "name_female": "Eliza"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      42,
+      48,
+      53,
+      58
+    ],
+    "num_digit_2": [
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "num_digit_3": [
+      1.5,
+      1.5,
+      2.0,
+      1.2,
+      1.8,
+      2.0,
+      2.0,
+      1.5,
+      2.0,
+      2.0
+    ],
+    "num_digit_4": [
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      52,
+      56,
+      59,
+      61
+    ],
+    "answer": [
+      850,
+      1045,
+      1495,
+      1798,
+      2263,
+      2960,
+      2542,
+      2580,
+      3055,
+      3392
+    ],
+    "num_ic": [
+      75,
+      111,
+      205,
+      28,
+      156,
+      223,
+      410,
+      382,
+      349,
+      328
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_female, Eliza} na-agba ahịa ahịa {num_ic, 98} n’obodo. Ọnụego {name_female, Eliza} na otu awa ọrụrụ ọrụ n'awa {num_digit_1, 40} nke mbu n'izu uka ọ bụla bụ ${num_digit_2, 10}. Ọ na enwetakwa ugwọ irufere oge ugboro {num_digit_3, 1.2} ọnụego ọrụ awa ya. Ọ bụrụ na {name_female, Eliza} rụrụ ọrụ awa {num_digit_4, 45} n'izu uka a, ego ole ka ọ rụtara n'izu uka nke a?",
+  "ic_sentence": "Nwanne nna {name_female, Eliza} na-agba ahịa ahịa {num_ic, 98} n’obodo."
+}

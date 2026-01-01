@@ -1,0 +1,81 @@
+{
+  "original_question": "霸王龙泰德计划带土豆沙拉去参加恐龙野餐。他知道，每只成年恐龙会吃掉 10 磅的土豆沙拉，每只未成年恐龙会吃掉这个量的一半。如果野餐上有 20 只成年恐龙和 5 只未成年恐龙，而且泰德希望有足够的沙拉供每只恐龙吃，他需要带多少磅的土豆沙拉？",
+  "original_answer": 225,
+  "question_template": "霸王龙 {name_dinosaur, 泰德} 计划带土豆沙拉去参加恐龙野餐。他知道，每只成年恐龙会吃掉 {num_digit_1, 10} 磅的土豆沙拉，每只未成年恐龙会吃掉这个量的 {num_frac_1, 一半}。如果野餐上有 {num_digit_2, 20} 只成年恐龙和 {num_digit_3, 5} 只未成年恐龙，而且 {name_dinosaur, 泰德} 希望有足够的沙拉供每只恐龙吃，他需要带多少磅的土豆沙拉？",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + num_digit_1 * NUM(num_frac_1) * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 + num_digit_1 * NUM(num_frac_1) * num_digit_3",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0"
+  ],
+  "variable_word_list": {
+    "name_dinosaur": "Ted"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      20,
+      30,
+      26,
+      26,
+      24,
+      15,
+      6,
+      27,
+      16,
+      10
+    ],
+    "num_frac_1": [
+      "1/2",
+      "1/2",
+      "5/6",
+      "1/2",
+      "1/4",
+      "1/4",
+      "3/4",
+      "4/5",
+      "3/4",
+      "1/6"
+    ],
+    "num_digit_2": [
+      27,
+      10,
+      17,
+      11,
+      27,
+      24,
+      21,
+      25,
+      10,
+      7
+    ],
+    "num_digit_3": [
+      11,
+      23,
+      27,
+      30,
+      19,
+      16,
+      10,
+      25,
+      25,
+      30
+    ],
+    "answer": [
+      650,
+      645,
+      1027,
+      676,
+      762,
+      420,
+      171,
+      1215,
+      460,
+      120
+    ]
+  },
+  "ic_question_template": "{name_dinosaur, 特德} 的表亲有 {num_ic, 94} 个菠萝。霸王龙 {name_dinosaur, 泰德} 计划带土豆沙拉去参加恐龙野餐。他知道，每只成年恐龙会吃掉 {num_digit_1, 10} 磅的土豆沙拉，每只未成年恐龙会吃掉这个量的 {num_frac_1, 一半}。如果野餐上有 {num_digit_2, 20} 只成年恐龙和 {num_digit_3, 5} 只未成年恐龙，而且 {name_dinosaur, 泰德} 希望有足够的沙拉供每只恐龙吃，他需要带多少磅的土豆沙拉？",
+  "ic_sentence": "{name_dinosaur, 特德} 的表亲有 {num_ic, 94} 个菠萝。"
+}

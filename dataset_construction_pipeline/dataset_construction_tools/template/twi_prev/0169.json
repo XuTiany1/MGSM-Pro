@@ -1,0 +1,67 @@
+{
+  "original_question": "Pancho nante ɛkwan aduonu da biara. Sɛ ɛnyɛ nnawɔtwe awiei a, na otwa ɛkwan edu nante so. ɛkwan dodoɔ ahe na otumi nante nnawɔtwe biara?",
+  "original_answer": 120,
+  "question_template": "{name_male, Pancho} nante ɛkwan {num_digit_1, aduonu} da biara. Sɛ ɛnyɛ nnawɔtwe awiei a, na otwa ɛkwan {num_digit_2, edu} nante so. ɛkwan dodoɔ ahe na otumi nante nnawɔtwe biara?",
+  "question_solution": "answer = num_digit_1 * 5 + num_digit_2 * 2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * 5 + num_digit_2 * 2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Pancho"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      137,
+      289,
+      523,
+      784,
+      1024,
+      2047,
+      3056,
+      4096,
+      5123,
+      10000
+    ],
+    "num_digit_2": [
+      73,
+      146,
+      289,
+      333,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384
+    ],
+    "answer": [
+      831,
+      1737,
+      3193,
+      4586,
+      6144,
+      12283,
+      19376,
+      28672,
+      41999,
+      82768
+    ],
+    "num_ic": [
+      748,
+      1931,
+      426,
+      7689,
+      1321,
+      20470,
+      750,
+      9549,
+      4122,
+      7700
+    ]
+  },
+  "ic_question_template": "{name_male, Pancho} wɔfa no wɔ kyԑw {num_ic, 302}. {name_male, Pancho} nante ɛkwan {num_digit_1, aduonu} da biara. Sɛ ɛnyɛ nnawɔtwe awiei a, na otwa ɛkwan {num_digit_2, edu} nante so. ɛkwan dodoɔ ahe na otumi nante nnawɔtwe biara?",
+  "ic_sentence": "{name_male, Pancho} wɔfa no wɔ kyԑw {num_ic, 302}."
+}

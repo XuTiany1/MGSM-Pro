@@ -1,0 +1,92 @@
+{
+  "original_question": "Gloria ԑretɔ mpaboa na n’ani twaa mpaboa bi a na ԑboɔ no yԑ adeԑ a ɔbԑtumi atɔ. Nanso, ԑwɔ sԑ ɔsi n’adwene pi wɔ mpaboa no ne mmaa mpaboa tenten mmienu ntam na mmienu no boɔ no nyinaa wɔ fam kyԑn mpaboa no $5. Sԑ mmaa mpaboa no baako yԑ $33 na baako no boɔ no yԑ yei ho mmɔho mmienu a, mpaboa no boɔ no yԑ sԑn wɔ dollars mu?",
+  "original_answer": 104,
+  "question_template": "{name_female, Gloria} ԑretɔ mpaboa na n’ani twaa mpaboa bi a na ԑboɔ no yԑ adeԑ a ɔbԑtumi atɔ. Nanso, ԑwɔ sԑ ɔsi n’adwene pi wɔ mpaboa no ne mmaa mpaboa tenten {num_text_1, mmienu} ntam na mmienu no boɔ no nyinaa wɔ fam kyԑn mpaboa no ${num_text_2, 5}. Sԑ mmaa mpaboa no baako yԑ ${num_digit_1, 33} na baako no boɔ no yԑ  yei ho {num_text_3, mmɔho mmienu} a, mpaboa no boɔ no yԑ sԑn wɔ dollars mu?",
+  "question_solution": "answer = num_digit_1 * (1 + NUM(num_text_3)) + NUM(num_text_2)",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 + NUM(num_text_3)) + NUM(num_text_2)",
+    "NUM(num_text_1) == 2",
+    "num_digit_1 > 0",
+    "0 < NUM(num_text_3)",
+    "0 < NUM(num_text_2)"
+  ],
+  "variable_word_list": {
+    "name_female": "Gloria"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "mienu",
+      "mienu",
+      "mienu",
+      "mienu",
+      "mienu",
+      "mienu",
+      "mienu",
+      "mienu",
+      "mienu",
+      "mienu"
+    ],
+    "num_text_2": [
+      "anum",
+      "Nson",
+      "nkron",
+      "du",
+      "duakoɔ baako",
+      "du-mienu",
+      "duonu nsia",
+      "du nkron",
+      "aduasa-mienu",
+      "aduonu nkron"
+    ],
+    "num_digit_1": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "num_text_3": [
+      "Mprɛn mmienu",
+      "Mmiɛnsa mpɛn",
+      "Mprɛanankron",
+      "mpɛnnum",
+      "Mmom nsia",
+      "mmɛson",
+      "mpɛnɛwotwe",
+      "mpɛn nkron",
+      "Mprɛ du",
+      "mpɛn du baako"
+    ],
+    "answer": [
+      116,
+      171,
+      224,
+      292,
+      382,
+      485,
+      566,
+      689,
+      804,
+      905
+    ],
+    "num_ic": [
+      62,
+      65,
+      20,
+      222,
+      48,
+      167,
+      133,
+      107,
+      355,
+      715
+    ]
+  },
+  "ic_question_template": "{name_female, Gloria} ԑretɔ mpaboa na n’ani twaa mpaboa bi a na ԑboɔ no yԑ adeԑ a ɔbԑtumi atɔ. Nanso, ԑwɔ sԑ ɔsi n’adwene pi wɔ mpaboa no ne mmaa mpaboa tenten {num_text_1, mmienu} ntam na mmienu no boɔ no nyinaa wɔ fam kyԑn mpaboa no ${num_text_2, 5}. Sԑ mmaa mpaboa no baako yԑ ${num_digit_1, 33} na baako no boɔ no yԑ  yei ho {num_text_3, mmɔho mmienu} a, mpaboa no boɔ no yԑ sԑn wɔ dollars mu? {name_female, Gloria} nua no atɔ sɔks mmienu {num_ic, 48} aha yi ara.",
+  "ic_sentence": "{name_female, Gloria} nua no atɔ sɔks mmienu {num_ic, 48} aha yi ara."
+}

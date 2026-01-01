@@ -1,0 +1,68 @@
+{
+  "original_question": "珍妮特为她的女儿买了一根胸针。她付了 500 美元的胸针材料费，再付 800 美元的制作费给珠宝师。之后，她付了总额的 10% 为胸针投保。她一共付了多少钱？",
+  "original_answer": 1430,
+  "question_template": "{name_female, 珍妮特} 为她的女儿买了一根胸针。她付了 {num_digit_1, 500} 美元的胸针材料费，再付 {num_digit_2, 800} 美元的制作费给珠宝师。之后，她付了总额的 {num_digit_3, 10}% 为胸针投保。她一共付了多少钱？",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) * (1 + num_digit_3/100)",
+  "conditions": [
+    "int(answer) == (num_digit_1 + num_digit_2) * (1 + num_digit_3/100)",
+    "((num_digit_1 + num_digit_2) * num_digit_3) % 100 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Janet"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      450,
+      375,
+      580,
+      610,
+      450,
+      333,
+      520,
+      1400,
+      845,
+      777
+    ],
+    "num_digit_2": [
+      650,
+      825,
+      920,
+      790,
+      1050,
+      667,
+      780,
+      600,
+      1155,
+      223
+    ],
+    "num_digit_3": [
+      10,
+      15,
+      12,
+      8,
+      20,
+      25,
+      7,
+      5,
+      18,
+      22
+    ],
+    "answer": [
+      1210,
+      1380,
+      1680,
+      1512,
+      1800,
+      1250,
+      1391,
+      2100,
+      2360,
+      1220
+    ]
+  },
+  "ic_question_template": "{name_female, 珍妮特}的叔叔在阁楼里发现了 {num_ic, 35} 枚稀有的硬币。{name_female, 珍妮特} 为她的女儿买了一根胸针。她付了 {num_digit_1, 500} 美元的胸针材料费，再付 {num_digit_2, 800} 美元的制作费给珠宝师。之后，她付了总额的 {num_digit_3, 10}% 为胸针投保。她一共付了多少钱？",
+  "ic_sentence": "{name_female, 珍妮特}的叔叔在阁楼里发现了 {num_ic, 35} 枚稀有的硬币。"
+}

@@ -1,0 +1,56 @@
+{
+  "original_question": "达克斯去他们的农场摘苹果，发现花园里的虫子数量是蚂蚁的一半。如果有 50 只蚂蚁，计算花园里昆虫的总数。",
+  "original_answer": 75,
+  "question_template": "{name_male, 达克斯} 去他们的农场摘苹果，发现花园里的虫子数量是蚂蚁的 {num_frac, 一半}。如果有 {num_digit, 50} 只蚂蚁，计算花园里昆虫的总数。",
+  "question_solution": "answer = num_digit + f * num_digit  # f is the numeric value of num_frac",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit + f * num_digit",
+    "f > 0",
+    "num_digit >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Dax"
+  },
+  "variable_number_dictionary": {
+    "num_frac": [
+      "one half",
+      "one third",
+      "one quarter",
+      "two thirds",
+      "three quarters",
+      "four fifths",
+      "three fifths",
+      "five sixths",
+      "seven eighths",
+      "nine tenths"
+    ],
+    "num_digit": [
+      1234,
+      1230,
+      1024,
+      6789,
+      3428,
+      3455,
+      2505,
+      2568,
+      2048,
+      12340
+    ],
+    "answer": [
+      1851,
+      1640,
+      1280,
+      11315,
+      5999,
+      6219,
+      4008,
+      4708,
+      3840,
+      23446
+    ]
+  },
+  "ic_question_template": "{name_male, 达克斯} 的叔叔看到有 {num_ic, 372} 只兔子在田野上奔跑。{name_male, 达克斯} 去他们的农场摘苹果，发现花园里的虫子数量是蚂蚁的 {num_frac, 一半}。如果有 {num_digit, 50} 只蚂蚁，计算花园里昆虫的总数。",
+  "ic_sentence": "{name_male, 达克斯} 的叔叔看到有 {num_ic, 372} 只兔子在田野上奔跑。"
+}

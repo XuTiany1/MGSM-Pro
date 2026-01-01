@@ -1,0 +1,81 @@
+{
+  "original_question": "John anaagiza pizza za kushiriki na marafiki zake. Kuna marafiki 20 kwa jumla, na John anahitaji kuhakikisha kila mmoja anaweza kupata vipande 4. Pizza zinauzwa zikiwa na vipande 8 pekee. John anahitaji kuagiza Pizza ngapi?",
+  "original_answer": 10,
+  "question_template": "{name_male, John} anaagiza pizza kushirikiana na marafiki zake. Kuna marafiki jumla {num_digit_1, 20}, na {name_male, John} anataka kila mmoja apate vipande {num_digit_2, 4}. Pizza huuzwa ikiwa na vipande {num_digit_3, 8} kila moja. {name_male, John} atahitaji kuagiza pizza ngapi?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 / num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 / num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      137,
+      256,
+      345,
+      462,
+      579,
+      618,
+      845,
+      963,
+      1082,
+      712
+    ],
+    "num_digit_2": [
+      9,
+      5,
+      23,
+      13,
+      21,
+      17,
+      19,
+      21,
+      25,
+      16
+    ],
+    "num_digit_3": [
+      9,
+      10,
+      15,
+      11,
+      9,
+      17,
+      5,
+      3,
+      5,
+      8
+    ],
+    "answer": [
+      137,
+      128,
+      529,
+      546,
+      1351,
+      618,
+      3211,
+      6741,
+      5410,
+      1424
+    ],
+    "num_ic": [
+      82,
+      77,
+      387,
+      934,
+      398,
+      424,
+      277,
+      978,
+      1247,
+      491
+    ]
+  },
+  "ic_question_template": "{name_male, John} anaagiza pizza kushirikiana na marafiki zake. Kuna marafiki jumla {num_digit_1, 20}, na {name_male, John} anataka kila mmoja apate vipande {num_digit_2, 4}. Pizza huuzwa ikiwa na vipande {num_digit_3, 8} kila moja. {name_male, John} atahitaji kuagiza pizza ngapi? Mjomba wa {name_male, John} ana kadi za baseball {num_ic, 712}.",
+  "ic_sentence": "Mjomba wa {name_male, John} ana kadi za baseball {num_ic, 712}."
+}

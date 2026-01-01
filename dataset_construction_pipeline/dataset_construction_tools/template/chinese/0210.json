@@ -1,0 +1,122 @@
+{
+  "original_question": "萨拉想给自己买一件新夹克和 2 双鞋。她想要的夹克售价 30 美元，每双鞋售价 20 美元。萨拉照看了邻居的孩子 4 次，每次照看他们赚取 5 美元。每次她修剪草坪，她的父母都会付给她 4 美元。如果萨拉在开始照看小孩之前已经存了 10 美元，她要修剪多少次草坪才能买得起夹克和鞋？",
+  "original_answer": 10,
+  "question_template": "{name_female, 萨拉} 想给自己买一件新夹克和 {num_digit_1, 2} 双鞋。她想要的夹克售价 {num_digit_2, 30} 美元，每双鞋售价 {num_digit_3, 20} 美元。{name_female, 萨拉} 照看了邻居的孩子 {num_digit_4, 4} 次，每次照看他们赚取 {num_digit_5, 5} 美元。每次她修剪草坪，她的父母都会付给她 {num_digit_6, 4} 美元。如果 {name_female, 萨拉} 在开始照看小孩之前已经存了 {num_digit_7, 10} 美元，她要修剪多少次草坪才能买得起夹克和鞋？",
+  "question_solution": "answer = (num_digit_2 + num_digit_1 * num_digit_3 - (num_digit_7 + num_digit_4 * num_digit_5)) / num_digit_6",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_2 + num_digit_1 * num_digit_3 - (num_digit_7 + num_digit_4 * num_digit_5)) / num_digit_6",
+    "num_digit_2 + num_digit_1 * num_digit_3 >= num_digit_7 + num_digit_4 * num_digit_5",
+    "num_digit_6 > 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "num_digit_7 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sara"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      17,
+      23,
+      19,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "num_digit_2": [
+      2364,
+      2978,
+      6440,
+      7110,
+      8746,
+      10570,
+      14088,
+      16266,
+      18864,
+      19368
+    ],
+    "num_digit_3": [
+      87,
+      101,
+      113,
+      131,
+      137,
+      149,
+      151,
+      157,
+      163,
+      167
+    ],
+    "num_digit_4": [
+      29,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71
+    ],
+    "num_digit_5": [
+      53,
+      59,
+      67,
+      71,
+      73,
+      83,
+      97,
+      103,
+      107,
+      113
+    ],
+    "num_digit_6": [
+      41,
+      73,
+      89,
+      97,
+      101,
+      113,
+      127,
+      131,
+      137,
+      139
+    ],
+    "num_digit_7": [
+      789,
+      1001,
+      1123,
+      1357,
+      1583,
+      1627,
+      1729,
+      1931,
+      1957,
+      1987
+    ],
+    "answer": [
+      37,
+      29,
+      53,
+      67,
+      79,
+      89,
+      101,
+      113,
+      127,
+      131
+    ]
+  },
+  "ic_question_template": "{name_female, 萨拉} 的叔叔曾经在打折时买了 {num_ic, 384} 顶帽子。{name_female, 萨拉} 想给自己买一件新夹克和 {num_digit_1, 2} 双鞋。她想要的夹克售价 {num_digit_2, 30} 美元，每双鞋售价 {num_digit_3, 20} 美元。{name_female, 萨拉} 照看了邻居的孩子 {num_digit_4, 4} 次，每次照看他们赚取 {num_digit_5, 5} 美元。每次她修剪草坪，她的父母都会付给她 {num_digit_6, 4} 美元。如果 {name_female, 萨拉} 在开始照看小孩之前已经存了 {num_digit_7, 10} 美元，她要修剪多少次草坪才能买得起夹克和鞋？",
+  "ic_sentence": "{name_female, 萨拉} 的叔叔曾经在打折时买了 {num_ic, 384} 顶帽子。"
+}

@@ -1,0 +1,79 @@
+{
+  "original_question": "Dan gbin igbó òdòdó róòsì 3. Igbó òdòdó róòsì kọ̀ọ̀kan ní róòsì 25. Róòsì kọ̀ọ̀kan ní ẹ̀gún 8. Ẹ̀gún mélòó ni ó wà níbẹ̀ lápapọ̀?",
+  "original_answer": 600,
+  "question_template": "{name_male, Dan} gbin igbó òdòdó róòsì {num_digit_1, 3}. Igbó òdòdó róòsì kọ̀ọ̀kan ní róòsì {num_digit_2, 25}. Róòsì kọ̀ọ̀kan ní ẹ̀gún {num_digit_3, 8}. Ẹ̀gún mélòó ni ó wà níbẹ̀ lápapọ̀?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Dan"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      5,
+      2,
+      10,
+      6,
+      4,
+      9,
+      11,
+      8,
+      15
+    ],
+    "num_digit_2": [
+      14,
+      20,
+      30,
+      11,
+      17,
+      23,
+      16,
+      13,
+      19,
+      9
+    ],
+    "num_digit_3": [
+      9,
+      12,
+      15,
+      13,
+      8,
+      7,
+      5,
+      6,
+      4,
+      3
+    ],
+    "answer": [
+      882,
+      1200,
+      900,
+      1430,
+      816,
+      644,
+      720,
+      858,
+      608,
+      405
+    ],
+    "num_ic": [
+      43,
+      137,
+      61,
+      121,
+      117,
+      110,
+      13,
+      71,
+      88,
+      115
+    ]
+  },
+  "ic_question_template": "Àntì {name_male, Dan} ní àwọn igi tomati {num_ic, 27}. {name_male, Dan} gbin igbó òdòdó róòsì {num_digit_1, 3}. Igbó òdòdó róòsì kọ̀ọ̀kan ní róòsì {num_digit_2, 25}. Róòsì kọ̀ọ̀kan ní ẹ̀gún {num_digit_3, 8}. Ẹ̀gún mélòó ni ó wà níbẹ̀ lápapọ̀?",
+  "ic_sentence": "Àntì {name_male, Dan} ní àwọn igi tomati {num_ic, 27}."
+}

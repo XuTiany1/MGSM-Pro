@@ -1,0 +1,77 @@
+{
+  "original_question": "Adua twene bi ntuma ԑnkuta mboro pounds 5000. Hyԑn kԑseԑ a ԑde amanfoɔ nneԑma mane no kuta nnaka a ԑdi nsԑ a baako biara mmuduru yԑ pounds 15, bԑfa twene no so. Sԑ wɔka hyԑnkani no ne hyԑn no a hwee nni no mu a, muduru no nyinaa yԑ pounds 3755. Nnaka dodoɔ sԑn na wɔbԑtumi de agu hyԑn no mu berԑ a wɔmboro twene no mmuduro tumi no so?",
+  "original_answer": 83,
+  "question_template": "Adua twene bi ntuma ԑnkuta mboro pounds {num_digit_1, 5000}. Hyԑn kԑseԑ a ԑde amanfoɔ nneԑma mane no kuta nnaka a ԑdi nsԑ a baako biara mmuduru yԑ pounds {num_digit_2, 15}, bԑfa twene no so. Sԑ wɔka hyԑnkani no ne hyԑn no a hwee nni no mu a, muduru no nyinaa yԑ pounds {num_digit_3, 3755}. Nnaka dodoɔ sԑn na wɔbԑtumi de agu hyԑn no mu berԑ a wɔmboro twene no mmuduro tumi no so?",
+  "question_solution": "answer = (num_digit_1 - num_digit_3) // num_digit_2",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_digit_3) // num_digit_2",
+    "(num_digit_1 - num_digit_3) % num_digit_2 == 0",
+    "num_digit_1 > num_digit_3",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      5000,
+      4835,
+      9875,
+      12000,
+      15432,
+      20005,
+      10003,
+      7500,
+      6300,
+      5123
+    ],
+    "num_digit_2": [
+      15,
+      17,
+      25,
+      13,
+      19,
+      37,
+      16,
+      21,
+      14,
+      9
+    ],
+    "num_digit_3": [
+      3755,
+      1979,
+      6375,
+      7515,
+      5704,
+      15454,
+      4003,
+      4350,
+      2800,
+      1595
+    ],
+    "answer": [
+      83,
+      168,
+      140,
+      345,
+      512,
+      123,
+      375,
+      150,
+      250,
+      392
+    ],
+    "num_ic": [
+      251,
+      12,
+      788,
+      410,
+      154,
+      880,
+      559,
+      345,
+      424,
+      203
+    ]
+  },
+  "ic_question_template": "Lɔrekafo no wɔfa de pumpkin {num_ic, 215} kɔɔ akwantu biako pɛ. Adua twene bi ntuma ԑnkuta mboro pounds {num_digit_1, 5000}. Hyԑn kԑseԑ a ԑde amanfoɔ nneԑma mane no kuta nnaka a ԑdi nsԑ a baako biara mmuduru yԑ pounds {num_digit_2, 15}, bԑfa twene no so. Sԑ wɔka hyԑnkani no ne hyԑn no a hwee nni no mu a, muduru no nyinaa yԑ pounds {num_digit_3, 3755}. Nnaka dodoɔ sԑn na wɔbԑtumi de agu hyԑn no mu berԑ a wɔmboro twene no mmuduro tumi no so?",
+  "ic_sentence": "Lɔrekafo no wɔfa de pumpkin {num_ic, 215} kɔɔ akwantu biako pɛ."
+}

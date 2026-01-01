@@ -1,0 +1,92 @@
+{
+  "original_question": "Nanabaa Jones too aprԑ paano ma wɔn a wɔdum gya no adidie nhyiamu no. Ͻtwaa paano biara mu nketewa 8 na ɔde paano num no sii pono no sԑ ahɔhoɔ no ara ԑnfa bi ndi. Annwumerԑ duuԑ no, berԑ a na ahɔhoɔ no nyinaa afa na w’adi wɔn paano no, na aka paano nketewa 14. Paano nketewa sԑn na ahɔhoɔ no faaԑ?",
+  "original_answer": 26,
+  "question_template": "Nanabaa {name_family, Jones} too aprԑ paano {num_digit_1, 5} ma wɔn a wɔdum gya no adidie nhyiamu no. Ͻtwaa paano biara mu nketewa {num_digit_2, 8} na ɔde paano {num_text_1, num} no sii pono no sԑ ahɔhoɔ no ara ԑnfa bi ndi. Annwumerԑ duuԑ no, berԑ a na ahɔhoɔ no nyinaa afa na w’adi wɔn paano no, na aka paano nketewa {num_digit_3, 14}. Paano nketewa sԑn na ahɔhoɔ no faaԑ?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 - num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 - num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_3 < num_digit_1 * num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_family": "Jones"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      5,
+      6,
+      4,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "num_text_1": [
+      "anum",
+      "nsia",
+      "ɛnān",
+      "Nson",
+      "nwɔtwe",
+      "nkron",
+      "du",
+      "duakoɔ baako",
+      "dunan",
+      "du-mienu"
+    ],
+    "num_digit_2": [
+      8,
+      10,
+      6,
+      5,
+      9,
+      12,
+      7,
+      4,
+      11,
+      6
+    ],
+    "num_digit_3": [
+      14,
+      18,
+      6,
+      8,
+      20,
+      15,
+      5,
+      7,
+      10,
+      9
+    ],
+    "answer": [
+      26,
+      42,
+      18,
+      27,
+      52,
+      93,
+      65,
+      37,
+      122,
+      69
+    ],
+    "num_ic": [
+      60,
+      86,
+      43,
+      66,
+      56,
+      74,
+      59,
+      68,
+      113,
+      128
+    ]
+  },
+  "ic_question_template": "{name_family, Jones} wɔfase barima de lemonade nkutokuo {num_ic, 93} baa adidie no so. Nanabaa {name_family, Jones} too aprԑ paano {num_digit_1, 5} ma wɔn a wɔdum gya no adidie nhyiamu no. Ͻtwaa paano biara mu nketewa {num_digit_2, 8} na ɔde paano {num_text_1, num} no sii pono no sԑ ahɔhoɔ no ara ԑnfa bi ndi. Annwumerԑ duuԑ no, berԑ a na ahɔhoɔ no nyinaa afa na w’adi wɔn paano no, na aka paano nketewa {num_digit_3, 14}. Paano nketewa sԑn na ahɔhoɔ no faaԑ?",
+  "ic_sentence": "{name_family, Jones} wɔfase barima de lemonade nkutokuo {num_ic, 93} baa adidie no so."
+}

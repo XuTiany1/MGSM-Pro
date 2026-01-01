@@ -1,0 +1,54 @@
+{
+  "original_question": "Billy is peeling and cutting potatoes in preparation for making potato salad for his big family reunion barbecue. It's a big event, so he has 60 potatoes to get through. The potatoes are roughly the same size, so it takes about the same amount of time to peel and cut each one. It takes Billy about a minute and a half to peel a potato, but only about 5 seconds to cut it up. How long will it take Billy to finish prepping the potatoes?",
+  "original_answer": 95,
+  "question_template": "{name_male, Billy} is peeling and cutting potatoes in preparation for making potato salad for his big family reunion barbecue. It's a big event, so he has {num_digit_1, 60} potatoes to get through. The potatoes are roughly the same size, so it takes about the same amount of time to peel and cut each one. It takes {name_male, Billy} about a minute and a half to peel a potato, but only about 5 seconds to cut it up. How long will it take {name_male, Billy} to finish prepping the potatoes?",
+  "question_solution": "answer = num_digit_1 * 95 / 60",
+  "conditions": [
+    "answer == num_digit_1 * 95 / 60",
+    "num_digit_1 > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Billy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      24,
+      36,
+      48,
+      72,
+      84,
+      96,
+      108,
+      120,
+      132
+    ],
+    "answer": [
+      19,
+      38,
+      57,
+      76,
+      114,
+      133,
+      152,
+      171,
+      190,
+      209
+    ],
+    "num_ic": [
+      34,
+      59,
+      85,
+      39,
+      108,
+      61,
+      116,
+      47,
+      130,
+      98
+    ]
+  },
+  "ic_question_template": "{name_male, Billy} is peeling and cutting potatoes in preparation for making potato salad for his big family reunion barbecue. It's a big event, so he has {num_digit_1, 60} potatoes to get through.  {name_male, Billy}'s aunt brought {num_ic, 63} homemade pies to the reunion. The potatoes are roughly the same size, so it takes about the same amount of time to peel and cut each one. It takes {name_male, Billy} about a minute and a half to peel a potato, but only about 5 seconds to cut it up. How long will it take {name_male, Billy}  to finish prepping the potatoes?",
+  "ic_sentence": "{name_male, Billy}'s aunt brought {num_ic, 63} homemade pies to the reunion."
+}

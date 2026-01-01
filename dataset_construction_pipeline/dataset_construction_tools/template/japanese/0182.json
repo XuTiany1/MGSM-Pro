@@ -1,0 +1,97 @@
+{
+  "original_question": "ジェーンはマークよりも2歳年上だ。2年前、マークはジャンの年の半分よりも5個上の年だった。もしジャンが30歳なら、ジェーンは何歳？",
+  "original_answer": 23,
+  "question_template": "{name_male_1, Jean}は{name_male_2, Mark}より{num_text_1, 2}歳年上です。{num_text_2, Two}年前、{name_male_2, Mark}は{name_female, Jan}の{num_digit_1, 5}歳年上でした。{name_female, Jan}が{num_digit_2, 30}歳だとすると、{name_male_1, Jean}は何歳でしょうか？",
+  "question_solution": "answer = f1 * num_digit_2 + num_digit_1 + t2 + t1   # f1 is the numeric value of num_frac_1; t1, t2 are the numeric values of num_text_1 and num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == f1 * num_digit_2 + num_digit_1 + t2 + t1",
+    "0 < f1 < 1",
+    "t1 > 0",
+    "t2 > 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Jean",
+    "name_male_2": "Mark",
+    "name_female": "Jan"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "さん",
+      "ご",
+      "七 (しち / なな)",
+      "じゅう",
+      "十二",
+      "四 (よん / yon)",
+      "ろく",
+      "九 (きゅう / kyuu)",
+      "じゅうよん",
+      "十六"
+    ],
+    "num_text_2": [
+      "四 (よん / yon)",
+      "ろく",
+      "ご",
+      "さん",
+      "八",
+      "九 (きゅう / kyuu)",
+      "十一",
+      "十二",
+      "七 (しち / なな)",
+      "ご"
+    ],
+    "num_digit_1": [
+      7,
+      9,
+      11,
+      6,
+      13,
+      8,
+      10,
+      15,
+      12,
+      14
+    ],
+    "num_frac_1": [
+      "2/5",
+      "3/8",
+      "4/9",
+      "5/12",
+      "7/10",
+      "3/7",
+      "5/11",
+      "8/13",
+      "11/14",
+      "13/17"
+    ],
+    "num_digit_2": [
+      74,
+      78,
+      41,
+      51,
+      78,
+      79,
+      99,
+      116,
+      63,
+      56
+    ],
+    "answer": [
+      38,
+      41,
+      34,
+      36,
+      74,
+      42,
+      56,
+      88,
+      70,
+      69
+    ]
+  },
+  "ic_question_template": "{name_male_1, ジャン}のおじさんは{num_ic, 82}枚の古いコインを持っています。{name_male_1, Jean}は{name_male_2, Mark}より{num_text_1, 2}歳年上です。{num_text_2, Two}年前、{name_male_2, Mark}は{name_female, Jan}の{num_digit_1, 5}歳年上でした。{name_female, Jan}が{num_digit_2, 30}歳だとすると、{name_male_1, Jean}は何歳でしょうか？",
+  "ic_sentence": "{name_male_1, ジャン}のおじさんは{num_ic, 82}枚の古いコインを持っています。"
+}

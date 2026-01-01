@@ -1,0 +1,65 @@
+{
+  "original_question": "Otu ụlọ ọrụ na-emefu $15000 na mgbasa ozi maka otu afọ, emecha ọ na-emefu ugboro atọ ego ole ahụ na mgbasa ozi maka afọ ọzọ. Kedụ ngụkọta ego ole ụlọ ọrụ ahụ mefuru na mgbasa ozi maka afọ abụọ a?",
+  "original_answer": 20000,
+  "question_template": "Otu ụlọ ọrụ na-emefu ${num_digit_1, 15000} na mgbasa ozi maka otu afọ, emecha ọ na-emefu {num_frac_1, otu n'ime atọ} ego ole ahụ na mgbasa ozi maka afọ ọzọ. Kedụ ngụkọta ego ole ụlọ ọrụ ahụ mefuru na mgbasa ozi maka afọ abụọ a?",
+  "question_solution": "answer = num_digit_1 * (1 + f1)   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 + f1)",
+    "num_digit_1 > 0",
+    "0 < f1 < 1",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15000,
+      18000,
+      14000,
+      21000,
+      16000,
+      12500,
+      28000,
+      18900,
+      24000,
+      32400
+    ],
+    "num_frac_1": [
+      "otu nke atọ",
+      "otu ụzọ n’ịgụ anọ",
+      "otu nke ise",
+      "akụkụ abụọ n’ime atọ",
+      "ọkara na otu ọnwa atọ",
+      "ịbụ ụzọ nke ise abụọ",
+      "otu n’ime ise atọ",
+      "ụlọgụ anọ n’ime asaa",
+      "ise n’ime asatọ",
+      "asaa n’ime itoolu"
+    ],
+    "answer": [
+      20000,
+      22500,
+      16800,
+      35000,
+      28000,
+      17500,
+      44800,
+      29700,
+      39000,
+      57600
+    ],
+    "num_ic": [
+      91,
+      95,
+      27,
+      218,
+      110,
+      90,
+      139,
+      56,
+      183,
+      277
+    ]
+  },
+  "ic_question_template": "Nwa Nwanne nna nke CEO nyere {num_ic, 91} pizza n'oge nzukọ kwa afọ. Otu ụlọ ọrụ na-emefu ${num_digit_1, 15000} na mgbasa ozi maka otu afọ, emecha ọ na-emefu {num_frac_1, otu n'ime atọ} ego ole ahụ na mgbasa ozi maka afọ ọzọ. Kedụ ngụkọta ego ole ụlọ ọrụ ahụ mefuru na mgbasa ozi maka afọ abụọ a?",
+  "ic_sentence": "Nwa Nwanne nna nke CEO nyere {num_ic, 91} pizza n'oge nzukọ kwa afọ."
+}

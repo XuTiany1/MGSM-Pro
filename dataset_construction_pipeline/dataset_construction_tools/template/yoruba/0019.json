@@ -1,0 +1,105 @@
+{
+  "original_question": "Marisa ń gun orí òkè máílì-12 ní ìrìn. Ó lo wákàtí 1 láti rin máílì 4 àkọ́kọ́, lẹ́yìn náà ní wákàtí mìíràn láti rin máìlì méjì tó kàn. Tí ó bá fẹ́ kí gbèdéke eré rẹ̀ ó jẹ́ máìlì 4 ní wákàtí kan, eré wo (ní máílì fún wákàtí kan) ni ó nílò láti rìn ìjìnà tó kù?",
+  "original_answer": 6,
+  "question_template": "{name_female, Marissa} ń gun orí òkè máílì-{num_digit_1, 12} ní ìrìn. Ó lo wákàtí {num_digit_2, 1} láti rin máílì {num_digit_3, 4} àkọ́kọ́, lẹ́yìn náà ní wákàtí {num_digit_2, 1} mìíràn láti rin máìlì {num_text_1, méjì} tó kàn. Tí ó bá fẹ́ kí gbèdéke eré rẹ̀ ó jẹ́ máìlì {num_digit_4, 4} ní wákàtí kan, eré wo (ní máílì fún wákàtí kan) ni ó nílò láti rìn ìjìnà tó kù?",
+  "question_solution": "answer = (num_digit_1 - (num_digit_3 + NUM(num_text_1))) / (num_digit_1 / num_digit_4 - 2 * num_digit_2)",
+  "conditions": [
+    "int(answer) == (num_digit_1 - (num_digit_3 + NUM(num_text_1))) / (num_digit_1 / num_digit_4 - 2 * num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_text_1) > 0",
+    "num_digit_3 + NUM(num_text_1) < num_digit_1",
+    "num_digit_4 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Marissa"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      147,
+      134,
+      146,
+      132,
+      44,
+      46,
+      45,
+      72,
+      130,
+      54
+    ],
+    "num_digit_2": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "num_digit_3": [
+      18,
+      16,
+      14,
+      15,
+      7,
+      14,
+      19,
+      8,
+      16,
+      7
+    ],
+    "num_text_1": [
+      "méjì",
+      "méjì",
+      "méjì",
+      "mẹtadinlogun",
+      "mẹtala",
+      "mẹtala din lọ́gbọ̀n",
+      "méjì",
+      "méjì",
+      "méjì",
+      "Meje"
+    ],
+    "num_digit_4": [
+      10,
+      9,
+      8,
+      6,
+      10,
+      10,
+      9,
+      5,
+      9,
+      7
+    ],
+    "answer": [
+      10,
+      9,
+      8,
+      5,
+      10,
+      5,
+      8,
+      5,
+      9,
+      7
+    ],
+    "num_ic": [
+      99,
+      59,
+      33,
+      46,
+      64,
+      25,
+      116,
+      127,
+      61,
+      117
+    ]
+  },
+  "ic_question_template": "Àntí {name_female, Marissa} rí odòdó igbó {num_ic, 49} lẹ́gbẹ̀ẹ́ ọ̀nà. {name_female, Marissa} ń gun orí òkè máílì-{num_digit_1, 12} ní ìrìn. Ó lo wákàtí {num_digit_2, 1} láti rin máílì {num_digit_3, 4} àkọ́kọ́, lẹ́yìn náà ní wákàtí {num_digit_2, 1} mìíràn láti rin máìlì {num_text_1, méjì} tó kàn. Tí ó bá fẹ́ kí gbèdéke eré rẹ̀ ó jẹ́ máìlì {num_digit_4, 4} ní wákàtí kan, eré wo (ní máílì fún wákàtí kan) ni ó nílò láti rìn ìjìnà tó kù?",
+  "ic_sentence": "Àntí {name_female, Marissa} rí odòdó igbó {num_ic, 49} lẹ́gbẹ̀ẹ́ ọ̀nà."
+}

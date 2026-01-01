@@ -1,0 +1,69 @@
+{
+  "original_question": "Jimmy a 2 $ de plus que le double de l'argent d'Ethel. Si Ethel a 8 $, combien d'argent a Jimmy ?",
+  "original_answer": 18,
+  "question_template": "{name_male_1, Jimmy} a {num_digit_1, 2} $ de plus que le {num_text_1, double} de l'argent de {name_male_2, Ethel}. Si {name_male_2, Ethel} a {num_digit_2, 8} $, combien d'argent a {name_male_1, Jimmy} ?",
+  "question_solution": "answer = num_digit_1 + NUM(num_text_1) * num_digit_2",
+  "conditions": [
+    "answer == num_digit_1 + NUM(num_text_1) * num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_text_1) > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Jimmy",
+    "name_male_2": "Ethel"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      5,
+      7,
+      6,
+      9,
+      10,
+      12,
+      8,
+      11,
+      14,
+      13
+    ],
+    "num_digit_2": [
+      7,
+      6,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "num_text_1": [
+      "trois fois",
+      "quatre fois",
+      "cinq fois",
+      "six fois",
+      "sept fois",
+      "huit fois",
+      "neuf fois",
+      "dix fois",
+      "onze fois",
+      "douze fois"
+    ],
+    "answer": [
+      26,
+      31,
+      46,
+      63,
+      87,
+      108,
+      125,
+      151,
+      179,
+      205
+    ]
+  },
+  "ic_question_template": "{name_male_2, Ethel} a un oncle qui a trouvé {num_ic, 33} vieilles pièces de monnaie dans son grenier. {name_male_1, Jimmy} a {num_digit_1, 2} $ de plus que le {num_text_1, double} de l'argent de {name_male_2, Ethel}. Si {name_male_2, Ethel} a {num_digit_2, 8} $, combien d'argent a {name_male_1, Jimmy} ?",
+  "ic_sentence": "{name_male_2, Ethel} a un oncle qui a trouvé {num_ic, 33} vieilles pièces de monnaie dans son grenier."
+}

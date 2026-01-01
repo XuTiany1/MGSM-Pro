@@ -1,0 +1,95 @@
+{
+  "original_question": "Carlos and Benji are at the beach. Carlos rents a canoe for $30 an hour and Benji rents a banana boat raft for $18 an hour. If Carlos uses the boat for 3 hours and Benji uses the raft for 5 hours, how much will they pay for their rentals, altogether?",
+  "original_answer": 180,
+  "question_template": "{name_male_1, Carlos} and {name_male_2, Benji} are at the beach. {name_male_1, Carlos} rents a canoe for ${num_digit_1, 30} an hour and {name_male_2, Benji} rents a banana boat raft for ${num_digit_2, 18} an hour. If {name_male_1, Carlos} uses the boat for {num_digit_3, 3} hours and {name_male_2, Benji} uses the raft for {num_digit_4, 5} hours, how much will they pay for their rentals, altogether?",
+  "question_solution": "answer = num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Carlos",
+    "name_male_2": "Benji"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      47,
+      53,
+      61,
+      72,
+      89,
+      97,
+      113,
+      128,
+      137,
+      149
+    ],
+    "num_digit_2": [
+      39,
+      45,
+      51,
+      67,
+      78,
+      84,
+      91,
+      103,
+      117,
+      121
+    ],
+    "num_digit_3": [
+      17,
+      22,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59
+    ],
+    "num_digit_4": [
+      13,
+      18,
+      21,
+      24,
+      28,
+      33,
+      36,
+      39,
+      42,
+      45
+    ],
+    "answer": [
+      1306,
+      1976,
+      2840,
+      3840,
+      5477,
+      6749,
+      8135,
+      10033,
+      12175,
+      14236
+    ],
+    "num_ic": [
+      92,
+      356,
+      130,
+      614,
+      492,
+      599,
+      795,
+      601,
+      1288,
+      1245
+    ]
+  },
+  "ic_question_template": "{name_male_1, Carlos} and {name_male_2, Benji} are at the beach. {name_male_1, Carlos} rents a canoe for ${num_digit_1, 30} an hour and {name_male_2, Benji} rents a banana boat raft for ${num_digit_2, 18} an hour. If {name_male_1, Carlos} uses the boat for {num_digit_3, 3} hours and {name_male_2, Benji} uses the raft for {num_digit_4, 5} hours, {name_male_2, Benji}'s uncle brought {num_ic, 680} towels for the group. How much will they pay for their rentals, altogether?",
+  "ic_sentence": "{name_male_2, Benji}'s uncle brought {num_ic, 680} towels for the group."
+}

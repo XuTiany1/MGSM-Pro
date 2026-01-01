@@ -1,0 +1,72 @@
+{
+  "original_question": "詹姆斯比罗伯特多 6 块糖果。约翰的糖果是罗伯特的两倍。如果约翰有 54 块糖果，约翰比詹姆斯多多少块糖果？",
+  "original_answer": 21,
+  "question_template": "{name_male_1, 詹姆斯} 比 {name_male_2, 罗伯特} 多 {num_digit_1, 6} 块糖果。{name_male_3, 约翰} 的糖果是 {name_male_2, 罗伯特} 的 {num_text_1, 两倍}。如果 {name_male_3, 约翰} 有 {num_digit_2, 54} 块糖果，{name_male_3, 约翰} 比 {name_male_1, 詹姆斯} 多多少块糖果？",
+  "question_solution": "answer = num_digit_2 - num_digit_2/f1 - num_digit_1  # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 - num_digit_2/f1 - num_digit_1",
+    "f1 > 1",
+    "num_digit_2 % f1 == 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "James",
+    "name_male_2": "Robert",
+    "name_male_3": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "num_text_1": [
+      "两次",
+      "三次",
+      "四倍",
+      "五倍",
+      "六倍",
+      "七次",
+      "八倍",
+      "九次",
+      "十倍",
+      "十一倍"
+    ],
+    "num_digit_2": [
+      242,
+      369,
+      508,
+      725,
+      732,
+      861,
+      896,
+      945,
+      1000,
+      1210
+    ],
+    "answer": [
+      115,
+      239,
+      373,
+      571,
+      600,
+      727,
+      772,
+      827,
+      886,
+      1085
+    ]
+  },
+  "ic_question_template": "{name_male_2, 罗伯特} 的姑妈最近送给了他 {num_ic, 422} 颗弹珠。{name_male_1, 詹姆斯} 比 {name_male_2, 罗伯特} 多 {num_digit_1, 6} 块糖果。{name_male_3, 约翰} 的糖果是 {name_male_2, 罗伯特} 的 {num_text_1, 两倍}。如果 {name_male_3, 约翰} 有 {num_digit_2, 54} 块糖果，{name_male_3, 约翰} 比 {name_male_1, 詹姆斯} 多多少块糖果？",
+  "ic_sentence": "{name_male_2, 罗伯特} 的姑妈最近送给了他 {num_ic, 422} 颗弹珠。"
+}

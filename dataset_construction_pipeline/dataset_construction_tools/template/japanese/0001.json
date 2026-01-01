@@ -1,0 +1,52 @@
+{
+  "original_question": "ローブを作成するには、青色の繊維を2巻分、白色の繊維をその半分用いる必要があります。全体で何巻必要ですか？",
+  "original_answer": 3,
+  "question_template": "ローブを作成するには、青色の繊維を{num_digit_1, 2}巻分、白色の繊維をその{num_frac_1, 半分}用いる必要があります。全体で何巻必要ですか？",
+  "question_solution": "answer = num_digit_1 * (1 + NUM(num_frac_1))",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 + NUM(num_frac_1))",
+    "num_digit_1 > 0",
+    "0 < NUM(num_frac_1) < 1"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      6,
+      9,
+      8,
+      10,
+      12,
+      15,
+      25,
+      24,
+      14,
+      30
+    ],
+    "num_frac_1": [
+      "3分の1",
+      "三分の二",
+      "四分の三",
+      "ごぶんのいち",
+      "ろくぶんのご",
+      "五分の三",
+      "五分の四",
+      "四分の一",
+      "半",
+      "十分の九"
+    ],
+    "answer": [
+      8,
+      15,
+      14,
+      12,
+      22,
+      24,
+      45,
+      30,
+      21,
+      57
+    ]
+  },
+  "ic_question_template": "テーラーのおじさんは昔街から{num_ic, 19}個の糸巻きを持ってきました。ローブを作成するには、青色の繊維を{num_digit_1, 2}巻分、白色の繊維をその{num_frac_1, 半分}用いる必要があります。全体で何巻必要ですか？",
+  "ic_sentence": "テーラーのおじさんは昔街から{num_ic, 19}個の糸巻きを持ってきました。"
+}

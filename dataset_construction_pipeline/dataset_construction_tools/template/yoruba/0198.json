@@ -1,0 +1,95 @@
+{
+  "original_question": "Elaine kọ́kọ́ ní káàdì Pokemon 20. Lẹ́yìn oṣù kan, ó gba ìlọ́po mẹ́ta iye yẹn. Ní oṣù kejì, ó gba káàdì 20 díẹ̀ ju àwọn tí ó gbà ní oṣù àkọ́kọ́ lọ. Ní oṣù kẹta, ó gba ìlọ́po méjì àpapọ̀ iye káàdì pokemon tí ó gbà ní oṣù àkọ́kọ́ àti kejì. Káàdì pokemon mélòó ni ó ní báyìí lápapọ̀?",
+  "original_answer": 320,
+  "question_template": "{name_female, Elaine} kọ́kọ́ ní káàdì Pokemon {num_digit_1, 20}. Lẹ́yìn oṣù kan, ó gba ìlọ́po {num_text_1, mẹ́ta} iye yẹn. Ní oṣù kejì, ó gba káàdì {num_digit_2, 20} díẹ̀ ju àwọn tí ó gbà ní oṣù àkọ́kọ́ lọ. Ní oṣù kẹta, ó gba ìlọ́po {num_text_2, méjì} àpapọ̀ iye káàdì pokemon tí ó gbà ní oṣù àkọ́kọ́ àti kejì. Káàdì pokemon mélòó ni ó ní báyìí lápapọ̀?",
+  "question_solution": "answer = num_digit_1 + f1*num_digit_1 + (f1*num_digit_1 - num_digit_2) + t2*(f1*num_digit_1 + (f1*num_digit_1 - num_digit_2))  # f1 is the numeric value of num_text_1; t2 of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + f1*num_digit_1 + (f1*num_digit_1 - num_digit_2) + t2*(f1*num_digit_1 + (f1*num_digit_1 - num_digit_2))",
+    "f1 > 0",
+    "t2 > 0",
+    "f1*num_digit_1 - num_digit_2 >= 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Elaine"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      12345,
+      9876,
+      7777,
+      5555,
+      6666
+    ],
+    "num_text_1": [
+      "Meje",
+      "mókànlá",
+      "mẹtala",
+      "mẹtadinlogun",
+      "mẹtala din lọ́gbọ̀n",
+      "ogúnlélọ́gọrin",
+      "ogún lé mẹ́sàn-án",
+      "ọgọrin-ọkan",
+      "mẹtadinlọgbọn",
+      "ogójì kọkànlélọ́ọ̀kan"
+    ],
+    "num_digit_2": [
+      1023,
+      2047,
+      4095,
+      8191,
+      16383,
+      12344,
+      9875,
+      7776,
+      5554,
+      6665
+    ],
+    "num_text_2": [
+      "ogójì àti mẹta",
+      "mẹrinlelọgọrin",
+      "ọgọrin lé mẹta",
+      "aadọta mẹsan",
+      "ogórin níkan",
+      "ogota-le-meje",
+      "aadọrin ọkan",
+      "mẹtadínláádọrin",
+      "aadọrin mẹsan",
+      "ogójì àti méta"
+    ],
+    "answer": [
+      586796,
+      2066480,
+      5533750,
+      16228412,
+      37601342,
+      37788113,
+      40541052,
+      35113229,
+      32446835,
+      45362214
+    ],
+    "num_ic": [
+      8359,
+      18988,
+      25153,
+      34730,
+      62984,
+      35179,
+      40904,
+      53983,
+      44011,
+      50564
+    ]
+  },
+  "ic_question_template": "Ẹ̀gbọ́n bàbá {name_female, Elaine} ní àwọn kàdì bésibọ́ọ̀lù {num_ic, 62984}. {name_female, Elaine} kọ́kọ́ ní káàdì Pokemon {num_digit_1, 20}. Lẹ́yìn oṣù kan, ó gba ìlọ́po {num_text_1, mẹ́ta} iye yẹn. Ní oṣù kejì, ó gba káàdì {num_digit_2, 20} díẹ̀ ju àwọn tí ó gbà ní oṣù àkọ́kọ́ lọ. Ní oṣù kẹta, ó gba ìlọ́po {num_text_2, méjì} àpapọ̀ iye káàdì pokemon tí ó gbà ní oṣù àkọ́kọ́ àti kejì. Káàdì pokemon mélòó ni ó ní báyìí lápapọ̀?",
+  "ic_sentence": "Ẹ̀gbọ́n bàbá {name_female, Elaine} ní àwọn kàdì bésibọ́ọ̀lù {num_ic, 62984}."
+}

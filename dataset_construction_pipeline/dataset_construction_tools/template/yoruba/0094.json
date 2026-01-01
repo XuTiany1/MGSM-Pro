@@ -1,0 +1,78 @@
+{
+  "original_question": "nínú àdúgbò kan, iye ehoro tó wà ní ibẹ̀ fi méjìlá kéré àpapọ̀ iye ajá àti ológbò. tí ológbò méjì bá wà pẹ̀lú ajá, iye ajá jẹ́ 60, ẹranko mélòó ní ó wà nínú àdúgbò náà?",
+  "original_answer": 348,
+  "question_template": "nínú àdúgbò kan, iye ehoro tó wà ní ibẹ̀ fi {num_text_1, méjìlá} kéré àpapọ̀ iye ajá àti ológbò. tí ológbò {num_text_2, méjì} bá wà pẹ̀lú ajá, iye ajá jẹ́ {num_digit_1, 60}, ẹranko mélòó ní ó wà nínú àdúgbò náà?",
+  "question_solution": "answer = 2*(num_digit_1 + num_digit_1 * NUM(num_text_2)) - NUM(num_text_1)",
+  "conditions": [
+    "int(answer) == 2*(num_digit_1 + num_digit_1 * NUM(num_text_2)) - NUM(num_text_1)",
+    "NUM(num_text_2) > 0",
+    "NUM(num_text_1) >= 0",
+    "num_digit_1 > 0",
+    "2*(num_digit_1 + num_digit_1 * NUM(num_text_2)) >= NUM(num_text_1)"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "mẹ́wàá",
+      "marun",
+      "mẹ́wàá láàdọ́ta",
+      "mẹjọ",
+      "ogún",
+      "mẹta",
+      "Meje",
+      "Mẹrinla",
+      "Mẹrin",
+      "mẹ́ẹ̀dógúnlélọ́gbọ̀n"
+    ],
+    "num_text_2": [
+      "mẹta",
+      "méjì",
+      "Mẹrin",
+      "marun",
+      "mẹfa",
+      "méjì",
+      "marun",
+      "Meje",
+      "Ọkan",
+      "mẹsan"
+    ],
+    "num_digit_1": [
+      50,
+      30,
+      40,
+      25,
+      60,
+      15,
+      12,
+      20,
+      33,
+      45
+    ],
+    "answer": [
+      390,
+      175,
+      388,
+      292,
+      820,
+      87,
+      137,
+      306,
+      128,
+      875
+    ],
+    "num_ic": [
+      202,
+      64,
+      197,
+      72,
+      255,
+      9,
+      42,
+      164,
+      29,
+      347
+    ]
+  },
+  "ic_question_template": "nínú àdúgbò kan, iye ehoro tó wà ní ibẹ̀ fi {num_text_1, méjìlá} kéré àpapọ̀ iye ajá àti ológbò. tí ológbò {num_text_2, méjì} bá wà pẹ̀lú ajá, iye ajá jẹ́ {num_digit_1, 60}, ẹranko mélòó ní ó wà nínú àdúgbò náà? Arákùnrin {name_female, Olivia} ní àwọn àdán {num_ic, 197}.",
+  "ic_sentence": "Arákùnrin {name_female, Olivia} ní àwọn àdán {num_ic, 197}."
+}

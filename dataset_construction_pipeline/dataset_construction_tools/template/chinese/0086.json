@@ -1,0 +1,80 @@
+{
+  "original_question": "格雷格将闹钟设为每天响三次作为提醒。当闹钟响铃时，它会一直响铃到格雷格关闭闹钟。今天它第一次响铃时响了四次。它第二次响铃的次数是第一次响铃的三倍。它第三次响铃的次数是第二次响铃的一半。闹钟一共响铃多少次？",
+  "original_answer": 22,
+  "question_template": "{name_male, 格雷格} 将闹钟设为每天响 {num_text_1, 3} 次作为提醒。当闹钟响铃时，它会一直响铃到 {name_male, 格雷格} 关闭闹钟。今天它第一次响铃时响了 {num_text_2, 4} 次。它第二次响铃的次数是第一次的 {num_text_3, 3} 倍。它第三次响铃的次数是第二次的 {num_frac_1, 一半}。闹钟一共响铃多少次？",
+  "question_solution": "answer = NUM(num_text_2) + NUM(num_text_2) * NUM(num_text_3) + NUM(num_text_2) * NUM(num_text_3) * NUM(num_frac_1)",
+  "conditions": [
+    "int(answer) == NUM(num_text_2) + NUM(num_text_2) * NUM(num_text_3) + NUM(num_text_2) * NUM(num_text_3) * NUM(num_frac_1)",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1",
+    "NUM(num_text_2) > 0",
+    "NUM(num_text_3) > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Greg"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "三",
+      "二",
+      "五",
+      "六",
+      "七",
+      "四",
+      "八",
+      "九",
+      "十",
+      "十二"
+    ],
+    "num_text_2": [
+      "四",
+      "五",
+      "七",
+      "六",
+      "九",
+      "八",
+      "十",
+      "十二",
+      "十一",
+      "十五"
+    ],
+    "num_text_3": [
+      "三",
+      "二",
+      "四",
+      "五",
+      "五",
+      "四",
+      "五",
+      "六",
+      "三",
+      "四"
+    ],
+    "num_frac_1": [
+      "1/2",
+      "1/5",
+      "1/7",
+      "2/3",
+      "1/3",
+      "3/4",
+      "1/2",
+      "1/6",
+      "2/11",
+      "1/5"
+    ],
+    "answer": [
+      22,
+      17,
+      39,
+      56,
+      69,
+      64,
+      85,
+      96,
+      50,
+      87
+    ]
+  },
+  "ic_question_template": "{name_male, 格雷格} 的姑妈刚刚买了 {num_ic, 15} 个新闹钟。{name_male, 格雷格} 将闹钟设为每天响 {num_text_1, 3} 次作为提醒。当闹钟响铃时，它会一直响铃到 {name_male, 格雷格} 关闭闹钟。今天它第一次响铃时响了 {num_text_2, 4} 次。它第二次响铃的次数是第一次的 {num_text_3, 3} 倍。它第三次响铃的次数是第二次的 {num_frac_1, 一半}。闹钟一共响铃多少次？",
+  "ic_sentence": "{name_male, 格雷格} 的姑妈刚刚买了 {num_ic, 15} 个新闹钟。"
+}

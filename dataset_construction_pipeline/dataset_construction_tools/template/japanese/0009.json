@@ -1,0 +1,80 @@
+{
+  "original_question": "エライザの時給は、週の最初の40時間は、10ドルです。残業代は通常の1.2倍の給料が支払われます。エライザが今週45時間働いたとしたら、彼女が手にできる給料はいくらでしょうか？",
+  "original_answer": 460,
+  "question_template": "{name_female, エライザ}の時給は、週の最初の{num_digit_1, 40}時間は、{num_digit_2, 10}ドルです。残業代は通常の{num_digit_3, 1.2}倍の給料が支払われます。{name_female, エライザ}が今週{num_digit_4, 45}時間働いたとしたら、彼女が手にできる給料はいくらでしょうか？",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + max(0, num_digit_4 - num_digit_1) * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 + max(0, num_digit_4 - num_digit_1) * num_digit_2 * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 >= num_digit_1"
+  ],
+  "variable_word_list": {
+    "name_female": "Eliza"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      42,
+      48,
+      53,
+      58
+    ],
+    "num_digit_2": [
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "num_digit_3": [
+      1.5,
+      1.5,
+      2.0,
+      1.2,
+      1.8,
+      2.0,
+      2.0,
+      1.5,
+      2.0,
+      2.0
+    ],
+    "num_digit_4": [
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      52,
+      56,
+      59,
+      61
+    ],
+    "answer": [
+      850,
+      1045,
+      1495,
+      1798,
+      2263,
+      2960,
+      2542,
+      2580,
+      3055,
+      3392
+    ]
+  },
+  "ic_question_template": "{name_female, イライザ}のおじは町で{num_ic, 98}軒の食料品店を経営しています。{name_female, エライザ}の時給は、週の最初の{num_digit_1, 40}時間は、{num_digit_2, 10}ドルです。残業代は通常の{num_digit_3, 1.2}倍の給料が支払われます。{name_female, エライザ}が今週{num_digit_4, 45}時間働いたとしたら、彼女が手にできる給料はいくらでしょうか？",
+  "ic_sentence": "{name_female, イライザ}のおじは町で{num_ic, 98}軒の食料品店を経営しています。"
+}

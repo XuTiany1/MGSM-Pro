@@ -1,0 +1,79 @@
+{
+  "original_question": "Jordan yana yin wasannin bidiyo gem na sa'o'i 2 a kowace rana. Yana kuma da aikin wucin gadi inda yake samun dala 10 a sa'a. Nawa ne kudin Jordan zai samu a cikin mako guda idan ya kashe lokacin wasan bidiyo yana aiki maimakonsa?",
+  "original_answer": 140,
+  "question_template": "{name_male, Jordan} yana yin wasannin bidiyo gem na sa'o'i {num_digit_1, 2} a kowace rana. Yana kuma da aikin wucin gadi inda yake samun dala ${num_digit_2, 10} a sa'a. Nawa ne kudin {name_male, Jordan} zai samu a cikin mako {num_text_1, ɗaya} idan ya kashe lokacin wasan bidiyo yana aiki maimakonsa?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * 7 * k   # k is the numeric value of num_text_1 (one→1, two→2, …)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 * 7 * k",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jordan"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "num_digit_2": [
+      10,
+      12,
+      15,
+      8,
+      9,
+      6,
+      7,
+      5,
+      4,
+      3
+    ],
+    "num_text_1": [
+      "ɗaya",
+      "biyu",
+      "uku",
+      "hudu",
+      "biyar",
+      "shida",
+      "bakwai",
+      "Takwas",
+      "tara",
+      "Goma"
+    ],
+    "answer": [
+      140,
+      504,
+      1260,
+      1120,
+      1890,
+      1764,
+      2744,
+      2520,
+      2520,
+      2310
+    ],
+    "num_ic": [
+      8,
+      72,
+      26,
+      49,
+      84,
+      31,
+      110,
+      18,
+      99,
+      22
+    ]
+  },
+  "ic_question_template": "Gwaggon {name_male, Jordan} yana da tsoffin injinan wasanni na arcade guda {num_ic, 8}. {name_male, Jordan} yana yin wasannin bidiyo gem na sa'o'i {num_digit_1, 2} a kowace rana. Yana kuma da aikin wucin gadi inda yake samun dala ${num_digit_2, 10} a sa'a. Nawa ne kudin {name_male, Jordan} zai samu a cikin mako {num_text_1, ɗaya} idan ya kashe lokacin wasan bidiyo yana aiki maimakonsa?",
+  "ic_sentence": "Gwaggon {name_male, Jordan} yana da tsoffin injinan wasanni na arcade guda {num_ic, 8}."
+}

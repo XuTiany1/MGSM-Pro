@@ -1,0 +1,80 @@
+{
+  "original_question": "格洛丽亚在买鞋时碰到一双符合她买鞋预算的靴子。然而，她必须得在靴子和两双总价只比这双靴子少 5 美元的高跟鞋之间做出选择。如果一双高跟鞋 33 美元，另一双高跟鞋的价格是这个价格的两倍，则靴子的价格是多少？",
+  "original_answer": 104,
+  "question_template": "{name_female, 格洛丽亚} 在买鞋时碰到一双符合她买鞋预算的靴子。然而，她必须在靴子和 {num_text_1, 两} 双总价只比这双靴子少 {num_text_2, 5} 美元的高跟鞋之间做出选择。如果一双高跟鞋 {num_digit_1, 33} 美元，另一双高跟鞋的价格是这个价格的 {num_text_3, 两倍}，则靴子的价格是多少？",
+  "question_solution": "answer = num_digit_1 * (1 + NUM(num_text_3)) + NUM(num_text_2)",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 + NUM(num_text_3)) + NUM(num_text_2)",
+    "NUM(num_text_1) == 2",
+    "num_digit_1 > 0",
+    "0 < NUM(num_text_3)",
+    "0 < NUM(num_text_2)"
+  ],
+  "variable_word_list": {
+    "name_female": "Gloria"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "二",
+      "二",
+      "二",
+      "二",
+      "二",
+      "二",
+      "二",
+      "二",
+      "二",
+      "二"
+    ],
+    "num_text_2": [
+      "五",
+      "七",
+      "九",
+      "十",
+      "十一",
+      "十三",
+      "十七",
+      "十九",
+      "二十三",
+      "二十九"
+    ],
+    "num_digit_1": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "num_text_3": [
+      "两次",
+      "三次",
+      "四倍",
+      "五倍",
+      "六倍",
+      "七次",
+      "八倍",
+      "九次",
+      "十倍",
+      "十一倍"
+    ],
+    "answer": [
+      116,
+      171,
+      224,
+      292,
+      382,
+      485,
+      566,
+      689,
+      804,
+      905
+    ]
+  },
+  "ic_question_template": "{name_female, 格洛丽娅} 的表亲刚刚在附近买了 {num_ic, 48} 双袜子。{name_female, 格洛丽亚} 在买鞋时碰到一双符合她买鞋预算的靴子。然而，她必须在靴子和 {num_text_1, 两} 双总价只比这双靴子少 {num_text_2, 5} 美元的高跟鞋之间做出选择。如果一双高跟鞋 {num_digit_1, 33} 美元，另一双高跟鞋的价格是这个价格的 {num_text_3, 两倍}，则靴子的价格是多少？",
+  "ic_sentence": "{name_female, 格洛丽娅} 的表亲刚刚在附近买了 {num_ic, 48} 双袜子。"
+}

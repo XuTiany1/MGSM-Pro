@@ -1,0 +1,103 @@
+{
+  "original_question": "Makanika hutoza viwango tofauti katika kukarabati tairi za malori na magari. Kwa kila tairi ya lori ambayo imekarabatiwa, makanika atatoza $60 na kwa kila tairi ya gari ambayo imekarabatiwa, makanika atatoza $40. Alhamisi, makanika huyo alikarabati tairin 6 za lori na tairi 4 za gari. Ijumaa, makanika huyo alikarabati tairi 12 za gari na hakukarabati tairi zozote za lori. Mapato zaidi ambayo makanika huyo alipata siku ambayo alipata mapato mengi zaidi ni ngapi?",
+  "original_answer": 73,
+  "question_template": "Makanika hutoza viwango tofauti katika kukarabati tairi za malori na magari. Kwa kila tairi ya lori ambayo imekarabatiwa, makanika atatoza ${num_digit_1, 78} na kwa kila tairi ya gari ambayo imekarabatiwa, makanika atatoza ${num_digit_2, 29}. Alhamisi, makanika huyo alikarabati tairi {num_digit_3, 8} za lori na tairi {num_digit_4, 9} za gari. Ijumaa, makanika huyo alikarabati tairi {num_digit_5, 28} za gari na hakukarabati tairi zozote za lori. Mapato zaidi ambayo makanika huyo alipata siku ambayo alipata mapato mengi zaidi ni ngapi?",
+  "question_solution": "answer = num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4 - num_digit_2 * num_digit_5",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4 - num_digit_2 * num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4 > num_digit_2 * num_digit_5"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      78,
+      92,
+      65,
+      87,
+      54,
+      69,
+      83,
+      95,
+      74,
+      68
+    ],
+    "num_digit_2": [
+      29,
+      37,
+      41,
+      32,
+      49,
+      58,
+      26,
+      47,
+      39,
+      44
+    ],
+    "num_digit_3": [
+      8,
+      7,
+      13,
+      11,
+      12,
+      9,
+      15,
+      6,
+      10,
+      14
+    ],
+    "num_digit_4": [
+      9,
+      14,
+      6,
+      10,
+      8,
+      7,
+      5,
+      13,
+      12,
+      9
+    ],
+    "num_digit_5": [
+      28,
+      19,
+      17,
+      27,
+      18,
+      15,
+      21,
+      22,
+      24,
+      22
+    ],
+    "answer": [
+      73,
+      459,
+      394,
+      413,
+      158,
+      157,
+      829,
+      147,
+      272,
+      380
+    ],
+    "num_ic": [
+      115,
+      89,
+      118,
+      154,
+      203,
+      97,
+      70,
+      171,
+      197,
+      112
+    ]
+  },
+  "ic_question_template": "Makanika hutoza viwango tofauti katika kukarabati tairi za malori na magari. Kwa kila tairi ya lori ambayo imekarabatiwa, makanika atatoza ${num_digit_1, 78} na kwa kila tairi ya gari ambayo imekarabatiwa, makanika atatoza ${num_digit_2, 29}. Alhamisi, makanika huyo alikarabati tairi {num_digit_3, 8} za lori na tairi {num_digit_4, 9} za gari. Ijumaa, makanika huyo alikarabati tairi {num_digit_5, 28} za gari na hakukarabati tairi zozote za lori. Mapato zaidi ambayo makanika huyo alipata siku ambayo alipata mapato mengi zaidi ni ngapi? Mpwa wa fundi ana magari ya kuchezea {num_ic, 115}.",
+  "ic_sentence": "Mpwa wa fundi ana magari ya kuchezea {num_ic, 115}."
+}

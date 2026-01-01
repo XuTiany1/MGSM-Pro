@@ -1,0 +1,57 @@
+{
+  "original_question": "Andy plante 90 géraniums et 40 pétunias de moins que les géraniums. Combien de fleurs plante-t-il au total ?",
+  "original_answer": 140,
+  "question_template": "{name_male, Andy} plante {num_digit_1, 90} géraniums et {num_digit_2, 40} pétunias de moins que les géraniums. Combien de fleurs plante-t-il au total ?",
+  "question_solution": "answer = num_digit_1 + (num_digit_1 - num_digit_2)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + (num_digit_1 - num_digit_2)",
+    "num_digit_1 >= num_digit_2",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Andy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1234,
+      5678,
+      9012,
+      3456,
+      7890,
+      2345,
+      6789,
+      34567,
+      45678,
+      56789
+    ],
+    "num_digit_2": [
+      234,
+      678,
+      912,
+      456,
+      890,
+      345,
+      789,
+      4567,
+      5678,
+      6789
+    ],
+    "answer": [
+      2234,
+      10678,
+      17112,
+      6456,
+      14890,
+      4345,
+      12789,
+      64567,
+      85678,
+      106789
+    ]
+  },
+  "ic_question_template": "{name_male, Andy} a une tante qui a acheté {num_ic, 8324} sacs de terreau la semaine dernière. {name_male, Andy} plante {num_digit_1, 90} géraniums et {num_digit_2, 40} pétunias de moins que les géraniums. Combien de fleurs plante-t-il au total ?",
+  "ic_sentence": "{name_male, Andy} a une tante qui a acheté {num_ic, 8324} sacs de terreau la semaine dernière."
+}

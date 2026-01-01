@@ -1,0 +1,94 @@
+{
+  "original_question": "Sandra, the florist around the corner, is very unhappy with Fred's incomplete order delivery. Sandra had ordered four times as many red roses as white carnations. She also ordered 200 pink calla lilies, which were five times the number of white carnations. Sandra has threatened to switch suppliers if the missing red roses are not delivered by 5 pm. To keep Sandra's business, how many red roses must Fred deliver by 5 pm?",
+  "original_answer": 160,
+  "question_template": "{name_female, Sandra}, the florist around the corner, is very unhappy with {name_male, Fred}'s incomplete order delivery. {name_female, Sandra} had ordered {num_text_1, four} times as many red roses as white carnations. She also ordered {num_digit_1, 200} pink calla lilies, which were {num_text_2, five} times the number of white carnations. {name_female, Sandra} has threatened to switch suppliers if the missing red roses are not delivered by {num_digit_2, 5} pm. To keep {name_female, Sandra}'s business, how many red roses must {name_male, Fred} deliver by {num_digit_2, 5} pm?",
+  "question_solution": "answer = f1 * (num_digit_1 / f2)   # f1 and f2 are the numeric values of num_text_1 and num_text_2 respectively",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == f1 * (num_digit_1 / f2)",
+    "f1 > 0",
+    "f2 > 0",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sandra",
+    "name_male": "Fred"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "three",
+      "four",
+      "five",
+      "six",
+      "seven",
+      "eight",
+      "nine",
+      "ten",
+      "eleven",
+      "twelve"
+    ],
+    "num_digit_1": [
+      30,
+      42,
+      63,
+      96,
+      135,
+      72,
+      60,
+      50,
+      300,
+      363
+    ],
+    "num_text_2": [
+      "five",
+      "six",
+      "seven",
+      "eight",
+      "nine",
+      "four",
+      "three",
+      "two",
+      "ten",
+      "eleven"
+    ],
+    "num_digit_2": [
+      5,
+      6,
+      4,
+      7,
+      3,
+      8,
+      2,
+      9,
+      10,
+      11
+    ],
+    "answer": [
+      18,
+      28,
+      45,
+      72,
+      105,
+      144,
+      180,
+      250,
+      330,
+      396
+    ],
+    "num_ic": [
+      38,
+      24,
+      112,
+      215,
+      15,
+      102,
+      103,
+      281,
+      291,
+      283
+    ]
+  },
+  "ic_question_template": "{name_female, Sandra}, the florist around the corner, is very unhappy with {name_male, Fred}'s incomplete order delivery. {name_female, Sandra} had ordered {num_text_1, four} times as many red roses as white carnations. She also ordered {num_digit_1, 200} pink calla lilies, which were {num_text_2, five} times the number of white carnations. {name_female, Sandra}'s uncle recently planted {num_ic, 38} tulips in his yard. {name_female, Sandra} has threatened to switch suppliers if the missing red roses are not delivered by {num_digit_2, 5} pm. To keep {name_female, Sandra}'s business, how many red roses must {name_male, Fred} deliver by {num_digit_2, 5} pm?",
+  "ic_sentence": "{name_female, Sandra}'s uncle recently planted {num_ic, 38} tulips in his yard."
+}

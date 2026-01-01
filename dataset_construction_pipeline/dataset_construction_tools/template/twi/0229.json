@@ -1,0 +1,105 @@
+{
+  "original_question": "Anamuna afuo tumi ma anamuna nketewa 120. Ashlyn kɔɔ afuo mu wɔ bosome mmienu akyi na ohuu sɛ anamuna no mu 30% adu nnɔbaetwa bere, enti ɔde kɔɔ fie. Bere a ɔsan bae nnawɔtwe mmienu akyi no, na anamuna aka no mu 3/4 ayɛ krado, enti ɔtwa nnɔbae no. Nnawɔtwe mmienu akyi no, anamuna dodoɔ ahe na  wɔbetwa?",
+  "original_answer": 21,
+  "question_template": "Anamuna afuo tumi ma anamuna nketewa {num_digit_1, 120}. {name_female, Ashlyn} kɔɔ afuo mu wɔ bosome {num_text_1, mmienu} akyi na ohuu sɛ anamuna no mu {num_digit_2, 30}% adu nnɔbaetwa bere, enti ɔde kɔɔ fie. Bere a ɔsan bae nnawɔtwe {num_text_2, mmienu} akyi no, na anamuna aka no mu {num_frac_1, 3/4} ayɛ krado, enti ɔtwa nnɔbae no. Nnawɔtwe {num_text_2, mmienu} akyi no, anamuna dodoɔ ahe na wɔbetwa?",
+  "question_solution": "answer = num_digit_1 * (1 - num_digit_2/100) * (1 - f1)   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 - num_digit_2/100) * (1 - f1)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "0 < f1 < 1",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Ashlyn"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1706,
+      1050,
+      1415,
+      1120,
+      1671,
+      600,
+      1750,
+      1728,
+      900,
+      1305
+    ],
+    "num_text_1": [
+      "Nson",
+      "nkron",
+      "duakoɔ baako",
+      "dunan",
+      "nwɔtwe",
+      "du",
+      "nsia",
+      "mmiɛnsa",
+      "ɛnān",
+      "anum"
+    ],
+    "num_digit_2": [
+      20,
+      18,
+      20,
+      30,
+      40,
+      15,
+      20,
+      20,
+      24,
+      12
+    ],
+    "num_text_2": [
+      "nsia",
+      "anum",
+      "ɛnān",
+      "mmiɛnsa",
+      "mienu",
+      "Nson",
+      "nwɔtwe",
+      "nkron",
+      "du",
+      "duakoɔ baako"
+    ],
+    "num_frac_1": [
+      "m̀miɛnsa fã ɔwɔtwe mu",
+      "mparte abien mu baako",
+      "anan num",
+      "m̀miɛnsa fã ɔwɔtwe mu",
+      "anan mu nkron so nan",
+      "baako mu enum",
+      "mmaenum abien",
+      "anan mu nkron so nan",
+      "Ankwaasonnan",
+      "anan mu nkron so nan"
+    ],
+    "answer": [
+      853,
+      287,
+      283,
+      490,
+      557,
+      408,
+      840,
+      768,
+      513,
+      638
+    ],
+    "num_ic": [
+      958,
+      1011,
+      1375,
+      3126,
+      1479,
+      246,
+      776,
+      1103,
+      505,
+      729
+    ]
+  },
+  "ic_question_template": "{name_female, Ashlyn} wɔfa tɔɔ ɔyɛ asaase yie nkotoku {num_ic, 958} de bɛhwɛ ne apple nnua no so. Anamuna afuo tumi ma anamuna nketewa {num_digit_1, 120}. {name_female, Ashlyn} kɔɔ afuo mu wɔ bosome {num_text_1, mmienu} akyi na ohuu sɛ anamuna no mu {num_digit_2, 30}% adu nnɔbaetwa bere, enti ɔde kɔɔ fie. Bere a ɔsan bae nnawɔtwe {num_text_2, mmienu} akyi no, na anamuna aka no mu {num_frac_1, 3/4} ayɛ krado, enti ɔtwa nnɔbae no. Nnawɔtwe {num_text_2, mmienu} akyi no, anamuna dodoɔ ahe na wɔbetwa?",
+  "ic_sentence": "{name_female, Ashlyn} wɔfa tɔɔ ɔyɛ asaase yie nkotoku {num_ic, 958} de bɛhwɛ ne apple nnua no so."
+}

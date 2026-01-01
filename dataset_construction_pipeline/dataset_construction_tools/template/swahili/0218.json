@@ -1,0 +1,96 @@
+{
+  "original_question": "Umri wa Adrian ni mara tatu zaidi ya umri wa Harriet, na umri wa Harriet ni nusu ya umri wa Zack. Piga hesabu ya umri wa wastani wa wote watatu baada ya miaka mitatu iwapo umri wa Harriet wa sasa ni miaka 21.",
+  "original_answer": 45,
+  "question_template": "Umri wa {name_male_1, Adrian} ni mara {num_text_1, tatu} zaidi ya umri wa {name_male_2, Harriet}, na umri wa {name_male_2, Harriet} ni {num_frac_1, nusu} ya umri wa {name_male_3, Zack}. Piga hesabu ya umri wa wastani wa wote watatu baada ya miaka {num_text_2, mitatu} iwapo umri wa {name_male_2, Harriet} wa sasa ni miaka {num_digit_1, 21}.",
+  "question_solution": "answer = (f1 * num_digit_1 + num_digit_1 + num_digit_1 / f2 + 3 * t2) / 3  # f1 is numeric value of num_text_1; f2 of num_frac_1; t2 of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (f1 * num_digit_1 + num_digit_1 + num_digit_1 / f2 + 3 * t2) / 3",
+    "f1 > 1",
+    "f2 > 0",
+    "t2 > 0",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Adrian",
+    "name_male_2": "Harriet",
+    "name_male_3": "Zack"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "nne",
+      "tano",
+      "sita",
+      "saba",
+      "nane",
+      "tisa",
+      "kumi",
+      "kumi na moja",
+      "kumi na mbili",
+      "kumi na tatu"
+    ],
+    "num_frac_1": [
+      "nusu",
+      "sehemu moja ya tatu",
+      "robo",
+      "Mmoja kwa tano",
+      "sehemu moja ya sita",
+      "sehemu moja ya saba",
+      "moja ya nane",
+      "sehemu moja ya tisa",
+      "sehemu moja ya kumi",
+      "sehemu moja ya kumi na mbili"
+    ],
+    "num_text_2": [
+      "mbili",
+      "tatu",
+      "nne",
+      "tano",
+      "sita",
+      "saba",
+      "nane",
+      "tisa",
+      "kumi",
+      "kumi na mbili"
+    ],
+    "num_digit_1": [
+      42,
+      45,
+      48,
+      60,
+      66,
+      84,
+      72,
+      81,
+      30,
+      12
+    ],
+    "answer": [
+      100,
+      138,
+      180,
+      265,
+      336,
+      483,
+      464,
+      576,
+      240,
+      116
+    ],
+    "num_ic": [
+      107,
+      363,
+      252,
+      412,
+      454,
+      149,
+      417,
+      585,
+      246,
+      31
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_male_2, Harriet} amenunua tufaha {num_ic, 107} sokoni. Umri wa {name_male_1, Adrian} ni mara {num_text_1, tatu} zaidi ya umri wa {name_male_2, Harriet}, na umri wa {name_male_2, Harriet} ni {num_frac_1, nusu} ya umri wa {name_male_3, Zack}. Piga hesabu ya umri wa wastani wa wote watatu baada ya miaka {num_text_2, mitatu} iwapo umri wa {name_male_2, Harriet} wa sasa ni miaka {num_digit_1, 21}.",
+  "ic_sentence": "Mjomba wa {name_male_2, Harriet} amenunua tufaha {num_ic, 107} sokoni."
+}

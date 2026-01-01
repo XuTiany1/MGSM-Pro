@@ -1,0 +1,68 @@
+{
+  "original_question": "坎迪斯去咖啡店上班前把 80 张便利贴放进钱包里。在上班路上，她在一家商店停下来，买了一包便利贴；工作时，她给 220 个不同咖啡杯中的每个咖啡杯都贴上一张便利贴。如果她一共剩下 23 张便利贴，她买的那包便利贴里面有多少张便利贴？",
+  "original_answer": 163,
+  "question_template": "{name_female, 坎迪斯} 去咖啡店上班前把 {num_digit_1, 80} 张便利贴放进钱包里。在上班路上，她在一家商店停下来，买了一包便利贴；工作时，她给 {num_digit_2, 220} 个不同咖啡杯中的每个都贴上一张便利贴。如果她一共剩下 {num_digit_3, 23} 张便利贴，她买的那包便利贴里面有多少张？",
+  "question_solution": "answer = num_digit_2 + num_digit_3 - num_digit_1",
+  "conditions": [
+    "int(answer) == num_digit_2 + num_digit_3 - num_digit_1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_2 + num_digit_3 > num_digit_1"
+  ],
+  "variable_word_list": {
+    "name_female": "Candice"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      80,
+      50,
+      120,
+      90,
+      100,
+      60,
+      75,
+      110,
+      95,
+      85
+    ],
+    "num_digit_2": [
+      220,
+      200,
+      300,
+      150,
+      280,
+      180,
+      260,
+      240,
+      300,
+      170
+    ],
+    "num_digit_3": [
+      23,
+      30,
+      25,
+      15,
+      12,
+      5,
+      40,
+      22,
+      10,
+      36
+    ],
+    "answer": [
+      163,
+      180,
+      205,
+      75,
+      192,
+      125,
+      225,
+      152,
+      215,
+      121
+    ]
+  },
+  "ic_question_template": "{name_female, 坎迪斯} 的叔叔家里收藏了 {num_ic, 988} 个咖啡杯。{name_female, 坎迪斯} 去咖啡店上班前把 {num_digit_1, 80} 张便利贴放进钱包里。在上班路上，她在一家商店停下来，买了一包便利贴；工作时，她给 {num_digit_2, 220} 个不同咖啡杯中的每个都贴上一张便利贴。如果她一共剩下 {num_digit_3, 23} 张便利贴，她买的那包便利贴里面有多少张？",
+  "ic_sentence": "{name_female, 坎迪斯} 的叔叔家里收藏了 {num_ic, 988} 个咖啡杯。"
+}

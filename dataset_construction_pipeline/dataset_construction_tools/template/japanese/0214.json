@@ -1,0 +1,82 @@
+{
+  "original_question": "ジェリーは2つのプールを持ち、どちらも水漏れがあり、1分に4ガロンの水が出る。4分前、大きいプールには小さいプールの2倍の水が入っていた。今、大きなプールは小さいプールの4倍の水が入っている。今、小さいプールはどれだけの水が入っている？",
+  "original_answer": 8,
+  "question_template": "{name_male, Jerry}ジェリーは2つのプールを持ち、どちらも水漏れがあり、1分に{num_digit_1, 4}ガロンの水が出る。{num_digit_2, 4}分前、大きいプールには小さいプールの{num_text_1, 2倍}の水が入っていた。今、大きなプールは小さいプールの{num_text_2, 4倍}の水が入っている。今、小さいプールはどれだけの水が入っている？",
+  "question_solution": "answer = (f1 - 1) * num_digit_1 * num_digit_2 / (f2 - f1)  # f1 and f2 are the numeric values of num_text_1 and num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (f1 - 1) * num_digit_1 * num_digit_2 / (f2 - f1)",
+    "f2 > f1",
+    "f1 > 1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jerry"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_2": [
+      5,
+      8,
+      9,
+      12,
+      15,
+      16,
+      18,
+      21,
+      24,
+      28
+    ],
+    "num_text_1": [
+      "二回",
+      "三回",
+      "４回 (yonkai)",
+      "5回",
+      "６回 (ろっかい / rokkai)",
+      "七回",
+      "8倍",
+      "九回",
+      "十倍",
+      "１１倍 (じゅういちばい, juuichi-bai)"
+    ],
+    "num_text_2": [
+      "さん",
+      "ご",
+      "七 (しち / なな)",
+      "八",
+      "九 (きゅう / kyuu)",
+      "十一",
+      "じゅうよん",
+      "十六",
+      "十八",
+      "十三"
+    ],
+    "answer": [
+      35,
+      88,
+      117,
+      272,
+      475,
+      552,
+      609,
+      744,
+      999,
+      5740
+    ]
+  },
+  "ic_question_template": "{name_male, ジェリー}のおばは毎週{num_ic, 123}個のバケツに雨水を溜めます。{name_male, Jerry}ジェリーは2つのプールを持ち、どちらも水漏れがあり、1分に{num_digit_1, 4}ガロンの水が出る。{num_digit_2, 4}分前、大きいプールには小さいプールの{num_text_1, 2倍}の水が入っていた。今、大きなプールは小さいプールの{num_text_2, 4倍}の水が入っている。今、小さいプールはどれだけの水が入っている？",
+  "ic_sentence": "{name_male, ジェリー}のおばは毎週{num_ic, 123}個のバケツに雨水を溜めます。"
+}

@@ -1,0 +1,68 @@
+{
+  "original_question": "吉恩正在用旧的纪念 T 恤缝制一条被子。他每次度假都有一件 T 恤。每件 T 恤都是被子的一片拼布。每行都由每年不同假期的拼布缝成。他每年度假 4 次，并且从 23 岁起就一直这样做。他现在 34 岁。他一共有多少片被子拼布？",
+  "original_answer": 44,
+  "question_template": "{name_male, 吉恩} 正在用旧的纪念 T 恤缝制一条被子。他每次度假都有 {num_text_1, 1} 件 T 恤。每件 T 恤都是被子的一片拼布。每行都由每年不同假期的拼布缝成。他每年度假 {num_text_2, 4} 次，并且从 {num_digit_1, 23} 岁起就一直这样做。他现在 {num_digit_2, 34} 岁。他一共有多少片被子拼布？",
+  "question_solution": "answer = (num_digit_2 - num_digit_1) * NUM(num_text_2)",
+  "conditions": [
+    "int(answer) == (num_digit_2 - num_digit_1) * NUM(num_text_2)",
+    "num_digit_2 > num_digit_1",
+    "NUM(num_text_2) > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Gene"
+  },
+  "variable_number_dictionary": {
+    "num_text_2": [
+      "三",
+      "五",
+      "六",
+      "七",
+      "二",
+      "八",
+      "九",
+      "十",
+      "十一",
+      "十二"
+    ],
+    "num_digit_1": [
+      21,
+      18,
+      25,
+      30,
+      40,
+      22,
+      19,
+      27,
+      24,
+      20
+    ],
+    "num_digit_2": [
+      35,
+      30,
+      50,
+      45,
+      55,
+      60,
+      29,
+      35,
+      65,
+      26
+    ],
+    "answer": [
+      42,
+      60,
+      150,
+      105,
+      30,
+      304,
+      90,
+      80,
+      451,
+      72
+    ]
+  },
+  "ic_question_template": "{name_male, 金} 的叔叔有 {num_ic, 44} 块彩色的补丁。{name_male, 吉恩} 正在用旧的纪念 T 恤缝制一条被子。他每次度假都有 {num_text_1, 1} 件 T 恤。每件 T 恤都是被子的一片拼布。每行都由每年不同假期的拼布缝成。他每年度假 {num_text_2, 4} 次，并且从 {num_digit_1, 23} 岁起就一直这样做。他现在 {num_digit_2, 34} 岁。他一共有多少片被子拼布？",
+  "ic_sentence": "{name_male, 金} 的叔叔有 {num_ic, 44} 块彩色的补丁。"
+}

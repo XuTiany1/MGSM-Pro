@@ -1,0 +1,81 @@
+{
+  "original_question": "Johnny were $20 ana akwu ya wee tinye $10 ọzọ na ya. O tinyeziri nchikota ego a, nke ji okpukpu atọ wee bawanye n'otu afọ. Ego ole ka o nwere mgbe otu afọ gachara?.",
+  "original_answer": 90,
+  "question_template": "{name_male, Johnny} were ${num_digit_1, 20} ana akwu ya wee tinye ${num_digit_2, 10} ọzọ na ya. O tinyeziri nchikota ego a, nke ji  {num_text_1, okpukpu atọ} wee bawanye n'otu afọ. Ego ole ka o nwere mgbe otu afọ gachara?",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) * f1   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 + num_digit_2) * f1",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "f1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Johnny"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      137,
+      246,
+      385,
+      472,
+      593,
+      610,
+      785,
+      923,
+      1050,
+      1189
+    ],
+    "num_digit_2": [
+      58,
+      142,
+      207,
+      311,
+      408,
+      512,
+      624,
+      738,
+      845,
+      977
+    ],
+    "num_text_1": [
+      "times atọ",
+      "nbàá ụzọ anọ",
+      "megharịrị abụọ",
+      "imegharị ugboro ise",
+      "imegharịrị elu isii",
+      "mgbaasị asaa",
+      "ejiwo ugboro asatọ",
+      "Nkétalịpùtarà",
+      "Ugboro iri",
+      "ụmụ iri na abụọ ugboro"
+    ],
+    "answer": [
+      585,
+      1552,
+      1184,
+      3915,
+      6006,
+      7854,
+      11272,
+      14949,
+      18950,
+      25992
+    ],
+    "num_ic": [
+      88,
+      98,
+      130,
+      651,
+      200,
+      236,
+      1646,
+      212,
+      1306,
+      3436
+    ]
+  },
+  "ic_question_template": "Nwa nwanne nna {name_male, Johnny} nwetara kaadị baseball {num_ic, 88} maka ụbọchị ọmụmụ ya. {name_male, Johnny} were ${num_digit_1, 20} ana akwu ya wee tinye ${num_digit_2, 10} ọzọ na ya. O tinyeziri nchikota ego a, nke ji  {num_text_1, okpukpu atọ} wee bawanye n'otu afọ. Ego ole ka o nwere mgbe otu afọ gachara?",
+  "ic_sentence": "Nwa nwanne nna {name_male, Johnny} nwetara kaadị baseball {num_ic, 88} maka ụbọchị ọmụmụ ya."
+}

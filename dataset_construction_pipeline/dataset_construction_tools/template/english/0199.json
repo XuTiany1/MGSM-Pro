@@ -1,0 +1,81 @@
+{
+  "original_question": "Mark is a copy-editor. He edits an equal number of sentences each week for two different publishers, who each pay him a different rate per sentence. Publisher B pays Mark twice what Publisher A pays. Mark edits a total number of 1000 sentences each week, and Publisher A pays him 5 cents per sentence. How much does Mark make in a week, in cents?",
+  "original_answer": 7500,
+  "question_template": "{name_male, Mark} is a copy-editor. He edits an equal number of sentences each week for two different publishers, who each pay him a different rate per sentence. Publisher B pays {name_male, Mark} {num_text_2, twice} what Publisher A pays. {name_male, Mark} edits a total number of {num_digit_1, 1000} sentences each week, and Publisher A pays him {num_digit_2, 5} cents per sentence. How much does {name_male, Mark} make in a week, in cents?",
+  "question_solution": "answer = (num_digit_1/2) * num_digit_2 * (1 + f2)   # f2 is the numeric value of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1/2) * num_digit_2 * (1 + f2)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "0 < f2",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Mark"
+  },
+  "variable_number_dictionary": {
+    "num_text_2": [
+      "three times",
+      "five times",
+      "twice",
+      "four times",
+      "one and a half times",
+      "three times",
+      "six times",
+      "ten times",
+      "seven times",
+      "nine times"
+    ],
+    "num_digit_1": [
+      1520,
+      2764,
+      9990,
+      24680,
+      7832,
+      3640,
+      9876,
+      1024,
+      5550,
+      8148
+    ],
+    "num_digit_2": [
+      7,
+      12,
+      9,
+      13,
+      15,
+      17,
+      11,
+      3,
+      8,
+      4
+    ],
+    "answer": [
+      21280,
+      99504,
+      134865,
+      802100,
+      146850,
+      123760,
+      380226,
+      16896,
+      177600,
+      162960
+    ],
+    "num_ic": [
+      234,
+      814,
+      3676,
+      3071,
+      527,
+      877,
+      5272,
+      242,
+      1781,
+      3600
+    ]
+  },
+  "ic_question_template": "{name_male, Mark} is a copy-editor. He edits an equal number of sentences each week for two different publishers, who each pay him a different rate per sentence. Publisher B pays {name_male, Mark} {num_text_2, twice} what Publisher A pays. {name_male, Mark} edits a total number of {num_digit_1, 1000} sentences each week, and Publisher A pays him {num_digit_2, 5} cents per sentence. {name_male, Mark}'s uncle recently read {num_ic, 3071} mystery novels. How much does {name_male, Mark} make in a week, in cents?",
+  "ic_sentence": "{name_male, Mark}'s uncle recently read {num_ic, 3071} mystery novels."
+}

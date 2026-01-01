@@ -1,0 +1,81 @@
+{
+  "original_question": "Un commerçant achète quelques sacs de blé à un agriculteur au prix de 20 $ le sac. Sachant que le transport d'un sac de la ferme à l'entrepôt coûte 2 $ et que tous les sacs ont été vendus à 30 $ le sac pour un bénéfice total de 400 $, combien de sacs a-t-il vendus ?",
+  "original_answer": 50,
+  "question_template": "Un commerçant achète quelques sacs de blé à un agriculteur au prix de {num_digit_1, 20} $ le sac. Sachant que le transport d'un sac de la ferme à l'entrepôt coûte {num_digit_2, 2} $ et que tous les sacs ont été vendus à {num_digit_4, 30} $ le sac pour un bénéfice total de {num_digit_3, 400} $, combien de sacs a-t-il vendus ?",
+  "question_solution": "answer = num_digit_3 / (num_digit_4 - num_digit_1 - num_digit_2)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_3 / (num_digit_4 - num_digit_1 - num_digit_2)",
+    "num_digit_4 - num_digit_1 - num_digit_2 > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      18,
+      22,
+      17,
+      15,
+      25,
+      30,
+      50,
+      12,
+      13,
+      17
+    ],
+    "num_digit_2": [
+      3,
+      4,
+      2,
+      5,
+      6,
+      10,
+      5,
+      3,
+      7,
+      8
+    ],
+    "num_digit_3": [
+      588,
+      1083,
+      806,
+      660,
+      1682,
+      805,
+      3015,
+      1440,
+      984,
+      539
+    ],
+    "num_digit_4": [
+      35,
+      45,
+      50,
+      40,
+      60,
+      75,
+      100,
+      25,
+      28,
+      32
+    ],
+    "answer": [
+      42,
+      57,
+      26,
+      33,
+      58,
+      23,
+      67,
+      144,
+      123,
+      77
+    ]
+  },
+  "ic_question_template": "Le cousin du commerçant possède {num_ic, 80} pommiers sur sa propriété. Un commerçant achète quelques sacs de blé à un agriculteur au prix de {num_digit_1, 20} $ le sac. Sachant que le transport d'un sac de la ferme à l'entrepôt coûte {num_digit_2, 2} $ et que tous les sacs ont été vendus à {num_digit_4, 30} $ le sac pour un bénéfice total de {num_digit_3, 400} $, combien de sacs a-t-il vendus ?",
+  "ic_sentence": "Le cousin du commerçant possède {num_ic, 80} pommiers sur sa propriété."
+}

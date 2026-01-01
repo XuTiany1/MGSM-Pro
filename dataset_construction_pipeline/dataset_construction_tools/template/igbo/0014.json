@@ -1,0 +1,77 @@
+{
+  "original_question": "Na klasị ụmụakwụkwọ egwu dị iri abụọ, 20% denyere n'ịme egwu ọgbara ọhụrụ, 25% fọrọ afọ denyere n'egwu jaz, ma ndị ọzọ denyere na egwu awantịnrọ. Pesenti ole n'ụmụakwụkwọ denyere n'egwu awantịnrọ? ",
+  "original_answer": 60,
+  "question_template": "Na klasị ụmụakwụkwọ egwu dị {num_digit_1, 20}, {num_digit_2, 20}% denyere n'ịme egwu ọgbara ọhụrụ, {num_digit_3, 25}% fọrọ afọ denyere n'egwu jaz, ma ndị ọzọ denyere na egwu awantịnrọ. Pesenti ole n'ụmụakwụkwọ denyere n'egwu awantịnrọ?",
+  "question_solution": "answer = 100 - num_digit_2 - (100 - num_digit_2) * num_digit_3 / 100",
+  "conditions": [
+    "int(answer) == 100 - num_digit_2 - (100 - num_digit_2) * num_digit_3 / 100",
+    "num_digit_1 > 0",
+    "0 <= num_digit_2 <= 100",
+    "0 <= num_digit_3 <= 100"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      47,
+      53,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97
+    ],
+    "num_digit_2": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22
+    ],
+    "num_digit_3": [
+      75,
+      50,
+      25,
+      50,
+      75,
+      50,
+      25,
+      50,
+      25,
+      50
+    ],
+    "answer": [
+      24,
+      47,
+      69,
+      45,
+      22,
+      43,
+      63,
+      41,
+      60,
+      39
+    ],
+    "num_ic": [
+      38,
+      69,
+      113,
+      161,
+      185,
+      414,
+      395,
+      489,
+      691,
+      879
+    ]
+  },
+  "ic_question_template": "Nwa nwanne onye nkuzi ahụ bịara na {num_ic, 7} mkpụrụ achịcha kọpukekụp maka otu a. Na klasị ụmụakwụkwọ egwu dị {num_digit_1, 20}, {num_digit_2, 20}% denyere n'ịme egwu ọgbara ọhụrụ, {num_digit_3, 25}% fọrọ afọ denyere n'egwu jaz, ma ndị ọzọ denyere na egwu awantịnrọ. Pesenti ole n'ụmụakwụkwọ denyere n'egwu awantịnrọ?",
+  "ic_sentence": "Nwa nwanne onye nkuzi ahụ bịara na {num_ic, 7} mkpụrụ achịcha kọpukekụp maka otu a."
+}

@@ -1,0 +1,112 @@
+{
+  "original_question": "Griffin alikuwa na chipsi 24, lakini Kyle alichukua 5. Billy alichukua mara mbili zaidi ya Kyle. Ginger alimpa Griffin chipsi kadhaa, na kisha Colby akachukua kutoka kwa Griffin chipsi 3 chini ya zile ambazo Kyle alikuwa amechukua. Ikiwa mwishoni Griffin alikuwa na chipsi 27, Ginger alimpa Griffin chipsi ngapi?",
+  "original_answer": 20,
+  "question_template": "{name_male_1, Griffin} alikuwa na chipsi za viazi {num_digit_1, 1024}, lakini {name_male_2, Kyle} alichukua {num_digit_2, 157} kati ya hizo. {name_male_3, Billy} alichukua {num_text_1, mara mbili} ya idadi ambayo {name_male_2, Kyle} alichukua. {name_male_4, Ginger} alimpa {name_male_1, Griffin} baadhi ya chipsi zake, kisha {name_male_5, Colby} alimchukulia {name_male_1, Griffin} chipsi {num_digit_3, 13} pungufu ya zile ambazo {name_male_2, Kyle} alikuwa amechukua. Ikiwa mwishowe {name_male_1, Griffin} alikuwa na chipsi {num_digit_4, 600}, {name_male_4, Ginger} alimpa chipsi ngapi {name_male_1, Griffin}?",
+  "question_solution": "answer = num_digit_4 - num_digit_1 + (f1 + 2) * num_digit_2 - num_digit_3  # f1 = {double:2, triple:3, quadruple:4, quintuple:5, sextuple:6, septuple:7, octuple:8, nonuple:9, decuple:10, undecuple:11}[num_text_1]",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_4 - num_digit_1 + (f1 + 2) * num_digit_2 - num_digit_3",
+    "f1 > 1",
+    "num_digit_2 > num_digit_3",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Griffin",
+    "name_male_2": "Kyle",
+    "name_male_3": "Billy",
+    "name_male_4": "Ginger",
+    "name_male_5": "Colby"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "Mara mbili",
+      "mara tatu",
+      "mara nne",
+      "maradufu mara tano",
+      "mara sita",
+      "saba",
+      "maradufu mara nane",
+      "mara tisa",
+      "mara kumi",
+      "mara kumi na moja"
+    ],
+    "num_digit_1": [
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      12345,
+      23456,
+      54321,
+      31415,
+      27182
+    ],
+    "num_digit_2": [
+      157,
+      211,
+      313,
+      419,
+      523,
+      631,
+      743,
+      853,
+      991,
+      1007
+    ],
+    "num_digit_3": [
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "num_digit_4": [
+      600,
+      2000,
+      5000,
+      7000,
+      16000,
+      11000,
+      22000,
+      53000,
+      30000,
+      25000
+    ],
+    "answer": [
+      191,
+      990,
+      2763,
+      1718,
+      3771,
+      4303,
+      5937,
+      8021,
+      10434,
+      10862
+    ],
+    "num_ic": [
+      289,
+      1878,
+      1974,
+      4391,
+      2276,
+      4937,
+      17460,
+      29220,
+      6781,
+      18458
+    ]
+  },
+  "ic_question_template": "Shangazi wa {name_male_2, Kyle} alileta paketi {num_ic, 18458} kwenye meza. {name_male_1, Griffin} alikuwa na chipsi za viazi {num_digit_1, 1024}, lakini {name_male_2, Kyle} alichukua {num_digit_2, 157} kati ya hizo. {name_male_3, Billy} alichukua {num_text_1, mara mbili} ya idadi ambayo {name_male_2, Kyle} alichukua. {name_male_4, Ginger} alimpa {name_male_1, Griffin} baadhi ya chipsi zake, kisha {name_male_5, Colby} alimchukulia {name_male_1, Griffin} chipsi {num_digit_3, 13} pungufu ya zile ambazo {name_male_2, Kyle} alikuwa amechukua. Ikiwa mwishowe {name_male_1, Griffin} alikuwa na chipsi {num_digit_4, 600}, {name_male_4, Ginger} alimpa chipsi ngapi {name_male_1, Griffin}?",
+  "ic_sentence": "Shangazi wa {name_male_2, Kyle} alileta paketi {num_ic, 18458} kwenye meza."
+}

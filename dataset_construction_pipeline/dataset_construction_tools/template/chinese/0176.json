@@ -1,0 +1,69 @@
+{
+  "original_question": "在一场 240 名亚洲人参加的比赛中，80 名是日本人，剩下的是中国人。如果中国队有 60 名男子队员，则中国队有多少名女子队员？",
+  "original_answer": 100,
+  "question_template": "在一场 {num_digit_1, 240} 名亚洲人参加的比赛中，{num_digit_2, 80} 名是日本人，剩下的是中国人。如果中国队有 {num_digit_3, 60} 名男子队员，则中国队有多少名女子队员？",
+  "question_solution": "answer = num_digit_1 - num_digit_2 - num_digit_3",
+  "conditions": [
+    "answer == num_digit_1 - num_digit_2 - num_digit_3",
+    "num_digit_1 > num_digit_2",
+    "num_digit_3 < (num_digit_1 - num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "answer > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      300,
+      450,
+      500,
+      320,
+      275,
+      400,
+      350,
+      600,
+      380,
+      420
+    ],
+    "num_digit_2": [
+      100,
+      150,
+      200,
+      80,
+      75,
+      90,
+      140,
+      250,
+      180,
+      60
+    ],
+    "num_digit_3": [
+      50,
+      120,
+      100,
+      120,
+      60,
+      110,
+      80,
+      200,
+      70,
+      120
+    ],
+    "answer": [
+      150,
+      180,
+      200,
+      120,
+      140,
+      200,
+      130,
+      150,
+      130,
+      240
+    ]
+  },
+  "ic_question_template": "Output: 有 {num_ic, 306} 名粉丝带着横幅到现场。在一场 {num_digit_1, 240} 名亚洲人参加的比赛中，{num_digit_2, 80} 名是日本人，剩下的是中国人。如果中国队有 {num_digit_3, 60} 名男子队员，则中国队有多少名女子队员？",
+  "ic_sentence": "Output: 有 {num_ic, 306} 名粉丝带着横幅到现场。"
+}

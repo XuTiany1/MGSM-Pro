@@ -1,0 +1,96 @@
+{
+  "original_question": "Brian's friend Bobby has 5 fewer than 3 times as many video games as Brian does. If Brian has 20 video games but lost 5 right before the comparison was made, how many does Bobby have?",
+  "original_answer": 40,
+  "question_template": "{name_male_1, Brian}'s friend {name_male_2, Bobby} has {num_digit_1, 5} fewer than {num_digit_2, 3} times as many video games as {name_male_1, Brian} does. If {name_male_1, Brian} has {num_digit_3, 20} video games but lost {num_digit_4, 5} right before the comparison was made, how many does {name_male_2, Bobby} have?",
+  "question_solution": "answer = num_digit_2 * (num_digit_3 - num_digit_4) - num_digit_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 * (num_digit_3 - num_digit_4) - num_digit_1",
+    "num_digit_3 > num_digit_4",
+    "num_digit_1 > 0",
+    "num_digit_2 > 1",
+    "num_digit_3 > 0",
+    "num_digit_4 >= 0",
+    "answer > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Brian",
+    "name_male_2": "Bobby"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      9,
+      12,
+      15,
+      8,
+      6,
+      11,
+      20,
+      5,
+      13
+    ],
+    "num_digit_2": [
+      4,
+      5,
+      6,
+      7,
+      3,
+      9,
+      8,
+      10,
+      12,
+      11
+    ],
+    "num_digit_3": [
+      35,
+      40,
+      50,
+      60,
+      28,
+      24,
+      45,
+      70,
+      42,
+      55
+    ],
+    "num_digit_4": [
+      6,
+      4,
+      10,
+      5,
+      8,
+      3,
+      9,
+      20,
+      6,
+      5
+    ],
+    "answer": [
+      109,
+      171,
+      228,
+      370,
+      52,
+      183,
+      277,
+      480,
+      427,
+      537
+    ],
+    "num_ic": [
+      16,
+      46,
+      64,
+      121,
+      83,
+      37,
+      124,
+      77,
+      93,
+      89
+    ]
+  },
+  "ic_question_template": "{name_male_1, Brian}'s friend {name_male_2, Bobby} has {num_digit_1, 5} fewer than {num_digit_2, 3} times as many video games as {name_male_1, Brian} does. If {name_male_1, Brian} has {num_digit_3, 20} video games but lost {num_digit_4, 5} right before the comparison was made, {name_male_1, Brian}'s uncle owns {num_ic, 30} comic books. How many does {name_male_2, Bobby} have?",
+  "ic_sentence": "{name_male_1, Brian}'s uncle owns {num_ic, 30} comic books."
+}

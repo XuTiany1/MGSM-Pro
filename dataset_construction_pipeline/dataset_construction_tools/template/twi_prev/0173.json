@@ -1,0 +1,93 @@
+{
+  "original_question": "Jessica ebɔ mmɔden sɛ obehu sika dodoɔ a ɔde betua ni ɛka nyinaa wɔ bosome biara. ɛsukuufoɔ bosea ho ka a otumi tua no bosome biara yɛ $300, ne ka otumi tua wɔ ne kaade so no wɔ bosome biara nso yɛ $200, ne efie ho ka a otumi tua no bosome biara yɛ $500. Sɛ Jessica pɛ sɛ ɔbɔ ka a ɛboro so 50%, sika ahe na ɔde bɛtua wɔ afe baako biara mu?",
+  "original_answer": 18000,
+  "question_template": "{name_female, Jessica} ebɔ mmɔden sɛ obehu sika dodoɔ a ɔde betua ne ɛka nyinaa wɔ bosome biara. ɛsukuufoɔ bosea ho ka a otumi tua no bosome biara yɛ ${num_digit_1, 300}, ne ka otumi tua wɔ ne kaade so no wɔ bosome biara nso yɛ ${num_digit_2, 200}, ne efie ho ka a otumi tua no bosome biara yɛ ${num_digit_3, 500}. Sɛ {name_female, Jessica} pɛ sɛ ɔbɔ ka a ɛboro so {num_digit_4, 50}%, sika ahe na ɔde bɛtua wɔ afe baako biara mu?",
+  "question_solution": "answer = 12 * (num_digit_1 + num_digit_2 + num_digit_3) * (1 + num_digit_4 / 100)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == 12 * (num_digit_1 + num_digit_2 + num_digit_3) * (1 + num_digit_4 / 100)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Jessica"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      300,
+      400,
+      250,
+      350,
+      450,
+      500,
+      600,
+      200,
+      150,
+      550
+    ],
+    "num_digit_2": [
+      200,
+      300,
+      150,
+      200,
+      250,
+      300,
+      200,
+      100,
+      180,
+      350
+    ],
+    "num_digit_3": [
+      500,
+      600,
+      400,
+      450,
+      550,
+      700,
+      800,
+      300,
+      270,
+      650
+    ],
+    "num_digit_4": [
+      50,
+      25,
+      20,
+      40,
+      60,
+      33,
+      75,
+      10,
+      80,
+      15
+    ],
+    "answer": [
+      18000,
+      19500,
+      11520,
+      16800,
+      24000,
+      23940,
+      33600,
+      7920,
+      12960,
+      21390
+    ],
+    "num_ic": [
+      58,
+      92,
+      78,
+      23,
+      44,
+      124,
+      68,
+      41,
+      77,
+      122
+    ]
+  },
+  "ic_question_template": "{name_female, Jessica} wͻfa maa no akatua krataa ntosoͻ {num_ic, 58} nnansa yi ara. {name_female, Jessica} ebɔ mmɔden sɛ obehu sika dodoɔ a ɔde betua ne ɛka nyinaa wɔ bosome biara. ɛsukuufoɔ bosea ho ka a otumi tua no bosome biara yɛ ${num_digit_1, 300}, ne ka otumi tua wɔ ne kaade so no wɔ bosome biara nso yɛ ${num_digit_2, 200}, ne efie ho ka a otumi tua no bosome biara yɛ ${num_digit_3, 500}. Sɛ {name_female, Jessica} pɛ sɛ ɔbɔ ka a ɛboro so {num_digit_4, 50}%, sika ahe na ɔde bɛtua wɔ afe baako biara mu?",
+  "ic_sentence": "{name_female, Jessica} wͻfa maa no akatua krataa ntosoͻ {num_ic, 58} nnansa yi ara."
+}

@@ -1,0 +1,42 @@
+{
+  "original_question": "Billy épluche et découpe des pommes de terre afin de préparer une salade de pommes de terre pour son grand barbecue de famille. Comme il s'agit d'un événement important, il a 60 pommes de terre à éplucher. Les pommes de terre sont à peu près de la même taille, il faut donc à peu près le même temps pour les éplucher et les découper. Il faut à Billy environ une minute et demie pour éplucher une pomme de terre, mais seulement 5 secondes pour la couper. Combien de temps faut-il à Billy pour finir de préparer les pommes de terre ?",
+  "original_answer": 95,
+  "question_template": "{name_male, Billy} épluche et découpe des pommes de terre afin de préparer une salade de pommes de terre pour son grand barbecue de famille. Comme il s'agit d'un événement important, il a {num_digit_1, 60} pommes de terre à éplucher. Les pommes de terre sont à peu près de la même taille, il faut donc à peu près le même temps pour les éplucher et les découper. Il faut à {name_male, Billy} environ une minute et demie pour éplucher une pomme de terre, mais seulement 5 secondes pour la couper. Combien de temps faut-il à {name_male, Billy} pour finir de préparer les pommes de terre ?",
+  "question_solution": "answer = num_digit_1 * 95 / 60",
+  "conditions": [
+    "answer == num_digit_1 * 95 / 60",
+    "num_digit_1 > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Billy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      24,
+      36,
+      48,
+      72,
+      84,
+      96,
+      108,
+      120,
+      132
+    ],
+    "answer": [
+      19,
+      38,
+      57,
+      76,
+      114,
+      133,
+      152,
+      171,
+      190,
+      209
+    ]
+  },
+  "ic_question_template": "{name_male, Billy} a reçu {num_ic, 63} tartes maison que sa tante a apportées à la réunion. {name_male, Billy} épluche et découpe des pommes de terre afin de préparer une salade de pommes de terre pour son grand barbecue de famille. Comme il s'agit d'un événement important, il a {num_digit_1, 60} pommes de terre à éplucher. Les pommes de terre sont à peu près de la même taille, il faut donc à peu près le même temps pour les éplucher et les découper. Il faut à {name_male, Billy} environ une minute et demie pour éplucher une pomme de terre, mais seulement 5 secondes pour la couper. Combien de temps faut-il à {name_male, Billy} pour finir de préparer les pommes de terre ?",
+  "ic_sentence": "{name_male, Billy} a reçu {num_ic, 63} tartes maison que sa tante a apportées à la réunion."
+}

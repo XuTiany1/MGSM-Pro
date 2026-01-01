@@ -1,0 +1,66 @@
+{
+  "original_question": "Deux trains partent de San Rafael au même moment. Ils se dirigent d'abord vers l'ouest et parcourent tous les deux 80 miles. Le jour suivant, ils voyagent vers le nord, couvrant 150 miles. Quelle est la distance parcourue par chaque train au cours de ces deux jours ?",
+  "original_answer": 230,
+  "question_template": "{num_text_1, Deux} trains partent de {name_town_1, San Rafael} au même moment. Ils se dirigent d'abord vers l'ouest et parcourent tous les deux {num_digit_1, 80} miles. Le jour suivant, ils voyagent vers le nord, couvrant {num_digit_2, 150} miles. Quelle est la distance parcourue par chaque train au cours de ces deux jours ?",
+  "question_solution": "answer = num_digit_1 + num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_1 + num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_town_1": "San Rafael"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "deux",
+      "trois",
+      "cinq",
+      "sept",
+      "onze",
+      "treize",
+      "dix-sept",
+      "dix-neuf",
+      "vingt-trois",
+      "vingt-neuf"
+    ],
+    "num_digit_1": [
+      101,
+      113,
+      127,
+      131,
+      137,
+      149,
+      157,
+      163,
+      173,
+      179
+    ],
+    "num_digit_2": [
+      191,
+      193,
+      197,
+      199,
+      211,
+      223,
+      227,
+      229,
+      233,
+      239
+    ],
+    "answer": [
+      292,
+      306,
+      324,
+      330,
+      348,
+      372,
+      384,
+      392,
+      406,
+      418
+    ]
+  },
+  "ic_question_template": "{name_town_1, San Rafael} a un maire qui possède {num_ic, 137} trains miniatures. {num_text_1, Deux} trains partent de {name_town_1, San Rafael} au même moment. Ils se dirigent d'abord vers l'ouest et parcourent tous les deux {num_digit_1, 80} miles. Le jour suivant, ils voyagent vers le nord, couvrant {num_digit_2, 150} miles. Quelle est la distance parcourue par chaque train au cours de ces deux jours ?",
+  "ic_sentence": "{name_town_1, San Rafael} a un maire qui possède {num_ic, 137} trains miniatures."
+}

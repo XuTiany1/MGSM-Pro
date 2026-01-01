@@ -1,0 +1,67 @@
+{
+  "original_question": "贝莉一开始领取一定数量的钱。然后她每周领取 5 美元，为期 8 周。8 周结束后，如果贝莉一共领取了 100 美元，她一开始领取的金额是多少？",
+  "original_answer": 60,
+  "question_template": "{name_male, 贝莉} 一开始领取一定数量的钱。然后她每周领取 {num_digit_1, 5} 美元，为期 {num_digit_2, 8} 周。{num_digit_2, 8} 周结束后，如果 {name_male, 贝莉} 一共领取了 {num_digit_3, 100} 美元，她一开始领取的金额是多少？",
+  "question_solution": "answer = num_digit_3 - num_digit_1 * num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_3 - num_digit_1 * num_digit_2",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= num_digit_1 * num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_male": "Bailey"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      12,
+      4,
+      9,
+      6,
+      8,
+      3,
+      10,
+      11,
+      13
+    ],
+    "num_digit_2": [
+      12,
+      9,
+      15,
+      11,
+      14,
+      13,
+      20,
+      17,
+      16,
+      18
+    ],
+    "num_digit_3": [
+      200,
+      250,
+      180,
+      300,
+      220,
+      190,
+      250,
+      350,
+      400,
+      450
+    ],
+    "answer": [
+      116,
+      142,
+      120,
+      201,
+      136,
+      86,
+      190,
+      180,
+      224,
+      216
+    ]
+  },
+  "ic_question_template": "{name_male, 贝利} 的姑妈曾经收集过 {num_ic, 56} 枚稀有硬币。{name_male, 贝莉} 一开始领取一定数量的钱。然后她每周领取 {num_digit_1, 5} 美元，为期 {num_digit_2, 8} 周。{num_digit_2, 8} 周结束后，如果 {name_male, 贝莉} 一共领取了 {num_digit_3, 100} 美元，她一开始领取的金额是多少？",
+  "ic_sentence": "{name_male, 贝利} 的姑妈曾经收集过 {num_ic, 56} 枚稀有硬币。"
+}

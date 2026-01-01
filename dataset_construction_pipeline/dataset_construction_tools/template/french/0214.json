@@ -1,0 +1,82 @@
+{
+  "original_question": "Jerry a deux piscines, toutes deux avec des fuites qui les vident à une vitesse de 4 gallons par minute. Il y a 4 minutes, la grande piscine avait deux fois plus d'eau que la petite. A présent, elle en a quatre fois plus. Quelle est la quantité d'eau de la petite piscine maintenant ?",
+  "original_answer": 8,
+  "question_template": "{name_male, Jerry} a deux piscines, toutes deux avec des fuites qui les vident à une vitesse de {num_digit_1, 4} gallons par minute. Il y a {num_digit_2, 4} minutes, la grande piscine avait {num_text_1, deux} fois plus d'eau que la petite. À présent, elle en a {num_text_2, quatre} fois plus. Quelle est la quantité d'eau de la petite piscine maintenant ?",
+  "question_solution": "answer = (f1 - 1) * num_digit_1 * num_digit_2 / (f2 - f1)  # f1 and f2 are the numeric values of num_text_1 and num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (f1 - 1) * num_digit_1 * num_digit_2 / (f2 - f1)",
+    "f2 > f1",
+    "f1 > 1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jerry"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_2": [
+      5,
+      8,
+      9,
+      12,
+      15,
+      16,
+      18,
+      21,
+      24,
+      28
+    ],
+    "num_text_1": [
+      "deux fois",
+      "trois fois",
+      "quatre fois",
+      "cinq fois",
+      "six fois",
+      "sept fois",
+      "huit fois",
+      "neuf fois",
+      "dix fois",
+      "onze fois"
+    ],
+    "num_text_2": [
+      "trois",
+      "cinq",
+      "sept",
+      "huit",
+      "neuf",
+      "onze",
+      "quatorze",
+      "seize",
+      "dix-huit",
+      "treize"
+    ],
+    "answer": [
+      35,
+      88,
+      117,
+      272,
+      475,
+      552,
+      609,
+      744,
+      999,
+      5740
+    ]
+  },
+  "ic_question_template": "{name_male, Jerry} a une tante qui remplit {num_ic, 123} seaux d'eau de pluie chaque semaine. {name_male, Jerry} a deux piscines, toutes deux avec des fuites qui les vident à une vitesse de {num_digit_1, 4} gallons par minute. Il y a {num_digit_2, 4} minutes, la grande piscine avait {num_text_1, deux} fois plus d'eau que la petite. À présent, elle en a {num_text_2, quatre} fois plus. Quelle est la quantité d'eau de la petite piscine maintenant ?",
+  "ic_sentence": "{name_male, Jerry} a une tante qui remplit {num_ic, 123} seaux d'eau de pluie chaque semaine."
+}

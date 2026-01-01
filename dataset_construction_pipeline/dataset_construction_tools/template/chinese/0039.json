@@ -1,0 +1,105 @@
+{
+  "original_question": "戴娜跑步的速度是步行速度的四倍，但她跳跃的速度是跑步速度的一半。如果她每小时能跳跃 3 英里，则在 6 小时的时间里，她用三分之一的时间跑步，用三分之二的时间步行，她完成了多长的距离？",
+  "original_answer": 18,
+  "question_template": "{name_female, 戴娜} 跑步的速度是步行速度的 {num_text_1, 4} 倍，但她跳跃的速度是跑步速度的 {num_frac_1, 1/2}。如果她每小时能跳跃 {num_digit_1, 3} 英里，则在 {num_text_2, 6} 小时的时间里，她用 {num_frac_2, 1/3} 的时间跑步，用 {num_frac_3, 2/3} 的时间步行，她完成了多长的距离？",
+  "question_solution": "answer = (num_digit_1 / NUM(num_frac_1)) * (NUM(num_frac_2) + NUM(num_frac_3) / NUM(num_text_1)) * NUM(num_text_2)",
+  "conditions": [
+    "int(answer) == (num_digit_1 / NUM(num_frac_1)) * (NUM(num_frac_2) + NUM(num_frac_3) / NUM(num_text_1)) * NUM(num_text_2)",
+    "NUM(num_text_1) > 0",
+    "NUM(num_frac_1) > 0",
+    "num_digit_1 > 0",
+    "NUM(num_text_2) > 0",
+    "NUM(num_frac_2) + NUM(num_frac_3) == 1"
+  ],
+  "variable_word_list": {
+    "name_female": "Dana"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "十七",
+      "十五",
+      "二十",
+      "十三",
+      "十二",
+      "五",
+      "十一",
+      "九",
+      "三",
+      "四"
+    ],
+    "num_frac_1": [
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半"
+    ],
+    "num_digit_1": [
+      17,
+      15,
+      10,
+      13,
+      12,
+      2,
+      3,
+      3,
+      2,
+      3
+    ],
+    "num_text_2": [
+      "五十一",
+      "四十五",
+      "六十",
+      "三十九",
+      "三十",
+      "十五",
+      "十一",
+      "九",
+      "九",
+      "六"
+    ],
+    "num_frac_2": [
+      "三分之一",
+      "三分之一",
+      "三分之一",
+      "三分之一",
+      "三分之一",
+      "三分之一",
+      "三分之一",
+      "三分之一",
+      "三分之一",
+      "三分之一"
+    ],
+    "num_frac_3": [
+      "三分之二",
+      "三分之二",
+      "三分之二",
+      "三分之二",
+      "三分之二",
+      "三分之二",
+      "三分之二",
+      "三分之二",
+      "三分之二",
+      "三分之二"
+    ],
+    "answer": [
+      646,
+      510,
+      440,
+      390,
+      280,
+      28,
+      26,
+      22,
+      20,
+      18
+    ]
+  },
+  "ic_question_template": "{name_female, 达娜} 的叔叔曾经参加过一场有 {num_ic, 106} 名参赛者的比赛。{name_female, 戴娜} 跑步的速度是步行速度的 {num_text_1, 4} 倍，但她跳跃的速度是跑步速度的 {num_frac_1, 1/2}。如果她每小时能跳跃 {num_digit_1, 3} 英里，则在 {num_text_2, 6} 小时的时间里，她用 {num_frac_2, 1/3} 的时间跑步，用 {num_frac_3, 2/3} 的时间步行，她完成了多长的距离？",
+  "ic_sentence": "{name_female, 达娜} 的叔叔曾经参加过一场有 {num_ic, 106} 名参赛者的比赛。"
+}

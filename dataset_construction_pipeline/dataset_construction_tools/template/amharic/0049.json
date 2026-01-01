@@ -1,0 +1,81 @@
+{
+  "original_question": "ሪቻርድ የሚኖረው 15 ፎቆች ባሉት አፓርትመንት ሕንጻ ውስጥ ነው። እያንዳንዱ ፎቅ 8 አፓርትመንቶችን ይይዛል፣ እና 3/4 የሕንፃው ክፍል ተይዞል። በሕንፃው ውስጥ ባዶ ያልሆኑ ክፍሎች ጠቅላላ ቁጥር ስንት ነው?",
+  "original_answer": 30,
+  "question_template": "{name_male, ሪቻርድ} የሚኖረው {num_digit_1, 15} ፎቆች ባሉት አፓርትመንት ሕንጻ ውስጥ ነው። እያንዳንዱ ፎቅ {num_digit_2, 8} አፓርትመንቶችን ይይዛል፣ እና {num_frac_1, 3/4} የሕንፃው ክፍል ተይዞል። በሕንፃው ውስጥ ባዶ ያልሆኑ ክፍሎች ጠቅላላ ቁጥር ስንት ነው?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * (1 - NUM(num_frac_1))",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 * (1 - NUM(num_frac_1))",
+    "(num_digit_1 * num_digit_2 * NUM(num_frac_1)).is_integer()",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1"
+  ],
+  "variable_word_list": {
+    "name_male": "Richard"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15,
+      16,
+      12,
+      14,
+      18,
+      20,
+      13,
+      17,
+      10,
+      9
+    ],
+    "num_digit_2": [
+      8,
+      9,
+      10,
+      5,
+      7,
+      6,
+      11,
+      4,
+      12,
+      16
+    ],
+    "num_frac_1": [
+      "3/4",
+      "5/6",
+      "7/12",
+      "2/5",
+      "4/9",
+      "3/5",
+      "1/11",
+      "1/4",
+      "7/10",
+      "2/3"
+    ],
+    "answer": [
+      30,
+      24,
+      50,
+      42,
+      70,
+      48,
+      130,
+      51,
+      36,
+      48
+    ],
+    "num_ic": [
+      74,
+      41,
+      50,
+      88,
+      43,
+      191,
+      134,
+      120,
+      60,
+      81
+    ]
+  },
+  "ic_question_template": "{name_male, ሪቻርድ} የሚኖረው {num_digit_1, 15} ፎቆች ባሉት አፓርትመንት ሕንጻ ውስጥ ነው። እያንዳንዱ ፎቅ {num_digit_2, 8} አፓርትመንቶችን ይይዛል፣ እና {num_frac_1, 3/4} የሕንፃው ክፍል ተይዞል። በሕንፃው ውስጥ ባዶ ያልሆኑ ክፍሎች ጠቅላላ ቁጥር ስንት ነው? የ{name_male, ሪቻርድ} አጎቱ የኩባያ ቤት ይቆራረጣል። በማዕከሉ {num_ic, 88} የዳቦ ምርቶች ተቀምጠው አሉ።",
+  "ic_sentence": "የ{name_male, ሪቻርድ} አጎቱ የኩባያ ቤት ይቆራረጣል። በማዕከሉ {num_ic, 88} የዳቦ ምርቶች ተቀምጠው አሉ።"
+}

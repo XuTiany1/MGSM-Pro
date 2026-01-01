@@ -1,0 +1,93 @@
+{
+  "original_question": "Brittany et sa mère vont au musée. Le prix de l'entrée est de 12 $ pour les adultes et de 10 $ pour les enfants. La mère de Brittany donne à la caissière de l'argent pour 1 billet enfant et 1 billet adulte. Si elle a reçu une différence de 8 $, combien d'argent, en dollars, a-t-elle donné à la caissière ?",
+  "original_answer": 30,
+  "question_template": "{name_female, Brittany} et sa mère vont au musée. Le prix de l'entrée est de {num_digit_1, 12} $ pour les adultes et de {num_digit_2, 10} $ pour les enfants. La mère de {name_female, Brittany} donne à la caissière de l'argent pour {num_digit_3, 1} billet enfant et {num_digit_4, 1} billet adulte. Si elle a reçu une différence de {num_digit_5, 8} $, combien d'argent, en dollars, a-t-elle donné à la caissière ?",
+  "question_solution": "answer = num_digit_1 * num_digit_4 + num_digit_2 * num_digit_3 + num_digit_5",
+  "conditions": [
+    "answer == num_digit_1 * num_digit_4 + num_digit_2 * num_digit_3 + num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Brittany"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      14,
+      15,
+      18,
+      20,
+      22,
+      25,
+      27,
+      30,
+      32,
+      35
+    ],
+    "num_digit_2": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      10,
+      16,
+      18,
+      20,
+      22
+    ],
+    "num_digit_3": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      4,
+      2,
+      3,
+      1,
+      2
+    ],
+    "num_digit_4": [
+      1,
+      1,
+      2,
+      2,
+      1,
+      3,
+      2,
+      1,
+      3,
+      2
+    ],
+    "num_digit_5": [
+      5,
+      6,
+      10,
+      8,
+      7,
+      9,
+      15,
+      20,
+      12,
+      18
+    ],
+    "answer": [
+      30,
+      45,
+      85,
+      62,
+      59,
+      124,
+      101,
+      104,
+      128,
+      132
+    ]
+  },
+  "ic_question_template": "{name_female, Brittany} a eu la visite de son oncle au musée la semaine dernière, et il a acheté {num_ic, 31} cartes postales. {name_female, Brittany} et sa mère vont au musée. Le prix de l'entrée est de {num_digit_1, 12} $ pour les adultes et de {num_digit_2, 10} $ pour les enfants. La mère de {name_female, Brittany} donne à la caissière de l'argent pour {num_digit_3, 1} billet enfant et {num_digit_4, 1} billet adulte. Si elle a reçu une différence de {num_digit_5, 8} $, combien d'argent, en dollars, a-t-elle donné à la caissière ?",
+  "ic_sentence": "{name_female, Brittany} a eu la visite de son oncle au musée la semaine dernière, et il a acheté {num_ic, 31} cartes postales."
+}

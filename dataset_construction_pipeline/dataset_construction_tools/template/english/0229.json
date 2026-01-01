@@ -1,0 +1,105 @@
+{
+  "original_question": "A watermelon farm produced 120 baby watermelons. Ashlyn went to the farm after two months and found out that 30% of the watermelons were ready for harvest, so she took them home. When she came back two weeks later, 3/4 of the remaining melons were ready, so she harvested them. How many melons were not ready to be harvested after the two weeks?",
+  "original_answer": 21,
+  "question_template": "A watermelon farm produced {num_digit_1, 120} baby watermelons. {name_female, Ashlyn} went to the farm after {num_text_1, two} months and found out that {num_digit_2, 30}% of the watermelons were ready for harvest, so she took them home. When she came back {num_text_2, two} weeks later, {num_frac_1, 3/4} of the remaining melons were ready, so she harvested them. How many melons were not ready to be harvested after the {num_text_2, two} weeks?",
+  "question_solution": "answer = num_digit_1 * (1 - num_digit_2/100) * (1 - f1)   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 - num_digit_2/100) * (1 - f1)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "0 < f1 < 1",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Ashlyn"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1706,
+      1050,
+      1415,
+      1120,
+      1671,
+      600,
+      1750,
+      1728,
+      900,
+      1305
+    ],
+    "num_text_1": [
+      "seven",
+      "nine",
+      "eleven",
+      "twelve",
+      "eight",
+      "ten",
+      "six",
+      "three",
+      "four",
+      "five"
+    ],
+    "num_digit_2": [
+      20,
+      18,
+      20,
+      30,
+      40,
+      15,
+      20,
+      20,
+      24,
+      12
+    ],
+    "num_text_2": [
+      "six",
+      "five",
+      "four",
+      "three",
+      "two",
+      "seven",
+      "eight",
+      "nine",
+      "ten",
+      "eleven"
+    ],
+    "num_frac_1": [
+      "three eighths",
+      "two thirds",
+      "three quarters",
+      "three eighths",
+      "four ninths",
+      "one fifth",
+      "two fifths",
+      "four ninths",
+      "one quarter",
+      "four ninths"
+    ],
+    "answer": [
+      853,
+      287,
+      283,
+      490,
+      557,
+      408,
+      840,
+      768,
+      513,
+      638
+    ],
+    "num_ic": [
+      958,
+      1011,
+      1375,
+      3126,
+      1479,
+      246,
+      776,
+      1103,
+      505,
+      729
+    ]
+  },
+  "ic_question_template": "A watermelon farm produced {num_digit_1, 120} baby watermelons. {name_female, Ashlyn} went to the farm after {num_text_1, two} months and found out that {num_digit_2, 30}% of the watermelons were ready for harvest, so she took them home. When she came back {num_text_2, two} weeks later, {num_frac_1, 3/4} of the remaining melons were ready, so she harvested them. {name_female, Ashlyn}'s uncle bought {num_ic, 958} bags of fertilizer for his apple trees. How many melons were not ready to be harvested after the {num_text_2, two} weeks?",
+  "ic_sentence": "{name_female, Ashlyn}'s uncle bought {num_ic, 958} bags of fertilizer for his apple trees."
+}

@@ -1,0 +1,79 @@
+{
+  "original_question": "二十打杯子的总费用比半打盘子的总费用低 1,200 美元，每个盘子售价 6,000 美元。计算购买每个杯子的总费用。",
+  "original_answer": 145,
+  "question_template": " {num_text_1, 二十} 打杯子的总费用比 {num_frac_1, 半} 打盘子的总费用低 {num_digit_1, 1,200} 美元，每个盘子售价 {num_digit_2, 6,000} 美元。计算购买每个杯子的总费用",
+  "question_solution": "answer = (f1 * 12 * num_digit_2 - num_digit_1) / (f2 * 12)   # f1 is numeric value of num_frac_1, f2 is numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (f1 * 12 * num_digit_2 - num_digit_1) / (f2 * 12)",
+    "f1 > 0",
+    "f2 > 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "二十",
+      "二十五",
+      "三十二",
+      "四十七",
+      "五十一",
+      "六十五",
+      "七十二",
+      "八十四",
+      "九十三",
+      "一百零一"
+    ],
+    "num_frac_1": [
+      "二分之一",
+      "三分之一",
+      "五分之二",
+      "七分之三",
+      "九分之四",
+      "八分之五",
+      "十三分之七",
+      "十一分之九",
+      "十四分之十一",
+      "十五分之十三"
+    ],
+    "num_digit_1": [
+      80502,
+      45948,
+      31272,
+      16200,
+      59740,
+      8490,
+      76896,
+      62928,
+      76848,
+      57356
+    ],
+    "num_digit_2": [
+      16017,
+      12462,
+      8595,
+      11704,
+      16365,
+      11740,
+      17784,
+      8360,
+      15134,
+      14605
+    ],
+    "answer": [
+      65,
+      13,
+      26,
+      78,
+      45,
+      102,
+      44,
+      19,
+      59,
+      78
+    ]
+  },
+  "ic_question_template": "{num_text_1, 二十} 打杯子被存放在仓库里，放在 {num_ic, 245} 个茶壶旁边。{num_text_1, 二十} 打杯子的总费用比 {num_frac_1, 半} 打盘子的总费用低 {num_digit_1, 1,200} 美元，每个盘子售价 {num_digit_2, 6,000} 美元。计算购买每个杯子的总费用",
+  "ic_sentence": "{num_text_1, 二十} 打杯子被存放在仓库里，放在 {num_ic, 245} 个茶壶旁边。"
+}

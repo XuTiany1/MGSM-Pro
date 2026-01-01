@@ -1,0 +1,51 @@
+{
+  "original_question": "Kyandir na narkewa da santimita 2 a kowace awa da yake ci. Santimita nawa zai ragu shi kyandir din bayan ya ci gaba da ci daga 1:00 na rana zuwa 5:00 na yamma?",
+  "original_answer": 8,
+  "question_template": "Kyandir na narkewa da santimita {num_digit_1, 2} a kowace awa da yake ci. Santimita nawa zai ragu shi kyandir din bayan ya ci gaba da ci daga 1:00 na rana zuwa 5:00 na yamma?",
+  "question_solution": "answer = num_digit_1 * 4",
+  "conditions": [
+    "int(answer) == num_digit_1 * 4",
+    "num_digit_1 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      101,
+      103,
+      107,
+      109,
+      113,
+      127,
+      131,
+      137,
+      139,
+      149
+    ],
+    "answer": [
+      404,
+      412,
+      428,
+      436,
+      452,
+      508,
+      524,
+      548,
+      556,
+      596
+    ],
+    "num_ic": [
+      176,
+      367,
+      461,
+      1126,
+      709,
+      1210,
+      627,
+      915,
+      815,
+      1187
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Emily} ya kawo tsinkayen ashana {num_ic, 63} zuwa bikin. Kyandir na narkewa da santimita {num_digit_1, 2} a kowace awa da yake ci. Santimita nawa zai ragu shi kyandir din bayan ya ci gaba da ci daga 1:00 na rana zuwa 5:00 na yamma?",
+  "ic_sentence": "Kawun {name_female, Emily} ya kawo tsinkayen ashana {num_ic, 63} zuwa bikin."
+}

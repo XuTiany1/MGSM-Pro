@@ -1,0 +1,79 @@
+{
+  "original_question": "Bailey bẹ̀rẹ̀ pẹ̀lú owó kan ní pàtó. Ó wá ń gba owó oúnjẹ $5 ní ọ̀sọ̀ọ̀sẹ̀ fún ọ̀sẹ̀ 8. Ní òpin ọ̀sẹ̀ 8 náà, tó bá ní àpapọ $100, èló ní owó tí Bailey fi bẹ̀rẹ̀?",
+  "original_answer": 60,
+  "question_template": "{name_male, Bailey} bẹ̀rẹ̀ pẹ̀lú owó kan ní pàtó. Ó wá ń gba owó oúnjẹ ${num_digit_1, 5} ní ọ̀sọ̀ọ̀sẹ̀ fún ọ̀sẹ̀ {num_digit_2, 8}. Ní òpin ọ̀sẹ̀ {num_digit_2, 8} náà, tó bá ní àpapọ ${num_digit_3, 100}, èló ní owó tí {name_male, Bailey} fi bẹ̀rẹ̀?",
+  "question_solution": "answer = num_digit_3 - num_digit_1 * num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_3 - num_digit_1 * num_digit_2",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= num_digit_1 * num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_male": "Bailey"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      12,
+      4,
+      9,
+      6,
+      8,
+      3,
+      10,
+      11,
+      13
+    ],
+    "num_digit_2": [
+      12,
+      9,
+      15,
+      11,
+      14,
+      13,
+      20,
+      17,
+      16,
+      18
+    ],
+    "num_digit_3": [
+      200,
+      250,
+      180,
+      300,
+      220,
+      190,
+      250,
+      350,
+      400,
+      450
+    ],
+    "answer": [
+      116,
+      142,
+      120,
+      201,
+      136,
+      86,
+      190,
+      180,
+      224,
+      216
+    ],
+    "num_ic": [
+      61,
+      73,
+      18,
+      128,
+      28,
+      156,
+      150,
+      95,
+      60,
+      67
+    ]
+  },
+  "ic_question_template": "Ìyá àgbà {name_male, Bailey} rákọ́pọ̀ owó ilẹ̀ yálà tó ṣòro láti rí {num_ic, 56} lẹ́ẹ̀kan ṣáájú. {name_male, Bailey} bẹ̀rẹ̀ pẹ̀lú owó kan ní pàtó. Ó wá ń gba owó oúnjẹ ${num_digit_1, 5} ní ọ̀sọ̀ọ̀sẹ̀ fún ọ̀sẹ̀ {num_digit_2, 8}. Ní òpin ọ̀sẹ̀ {num_digit_2, 8} náà, tó bá ní àpapọ ${num_digit_3, 100}, èló ní owó tí {name_male, Bailey} fi bẹ̀rẹ̀?",
+  "ic_sentence": "Ìyá àgbà {name_male, Bailey} rákọ́pọ̀ owó ilẹ̀ yálà tó ṣòro láti rí {num_ic, 56} lẹ́ẹ̀kan ṣáájú."
+}

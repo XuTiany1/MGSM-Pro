@@ -1,0 +1,66 @@
+{
+  "original_question": "Kelian ana mapishi mawili ya kuandaa milo, moja lina maelekezo 20 na la pili lina maelekezo mara tatu zaidi ya mapishi ya kwanza. Kelian anahitajika kusoma maelekezo mangapi ili kuandaa milo miwili?",
+  "original_answer": 60,
+  "question_template": "{name_male, Kelian} ana mapishi mawili ya kuandaa milo, moja lina maelekezo {num_digit_1, 20} na la pili lina maelekezo mara {num_text_1, mbili} ya yale ya kwanza. {name_male, Kelian} anahitajika kusoma maelekezo mangapi ili kuandaa milo miwili?",
+  "question_solution": "answer = num_digit_1 + num_digit_1 * NUM(num_text_1)",
+  "conditions": [
+    "int(answer) == num_digit_1 + num_digit_1 * NUM(num_text_1)",
+    "num_digit_1 > 0",
+    "NUM(num_text_1) > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Kelian"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15,
+      18,
+      22,
+      13,
+      17,
+      25,
+      30,
+      14,
+      20,
+      28
+    ],
+    "num_text_1": [
+      "Mara tatu",
+      "Mara nne",
+      "mara tano",
+      "mara sita",
+      "mara saba",
+      "Mara nane",
+      "mara tisa",
+      "mara kumi",
+      "mara kumi na moja",
+      "Mara kumi na mbili"
+    ],
+    "answer": [
+      60,
+      90,
+      132,
+      91,
+      136,
+      225,
+      300,
+      154,
+      240,
+      364
+    ],
+    "num_ic": [
+      77,
+      156,
+      82,
+      130,
+      21,
+      107,
+      97,
+      269,
+      133,
+      42
+    ]
+  },
+  "ic_question_template": "Shangazi wa {name_male, Kelian} anamiliki vitabu vya mapishi {num_ic, 77}. {name_male, Kelian} ana mapishi mawili ya kuandaa milo, moja lina maelekezo {num_digit_1, 20} na la pili lina maelekezo mara {num_text_1, mbili} ya yale ya kwanza. {name_male, Kelian} anahitajika kusoma maelekezo mangapi ili kuandaa milo miwili?",
+  "ic_sentence": "Shangazi wa {name_male, Kelian} anamiliki vitabu vya mapishi {num_ic, 77}."
+}

@@ -1,0 +1,93 @@
+{
+  "original_question": "Ngụkọta ụgwọ ọnwa Adrien bụ pasentị iri atọ karịa nke Lylah. Afọ anọ gasịrị, ụgwọ ọnwa ya mụbara, ọ na-enweta 40% karịa ihe ọ na-enweta afọ anọ gara aga. Ọ bụrụ na ụgwọ ọnwa Adrien na nke Lylah mụbara n'otu oge, na Adrien nwetara $40000 afọ anọ gara aga, gbakọọ ngụkọta ụgwọ ọnwa ha abụọ na-anata afọ anọ gasiri? ",
+  "original_answer": 95200,
+  "question_template": "Ngụkọta ụgwọ ọnwa {name_male, Adrien} bụ pasentị {num_digit_1, 30} karịa nke {name_female, Lylah}. Afọ {num_text_1, anọ} gasịrị, ụgwọ ọnwa ya mụbara, ọ na-enweta {num_digit_2, 40}% karịa ihe ọ na-enweta {num_text_1, anọ} gara aga. Ọ bụrụ na ụgwọ ọnwa {name_male, Adrien} na nke {name_female, Lylah} mụbara n'otu oge, na {name_male, Adrien} nwetara ${num_digit_3, 40000} {num_text_1, anọ} gara aga, gbakọọ ngụkọta ụgwọ ọnwa ha abụọ na-anata {num_text_1, anọ} gasịrị?",
+  "question_solution": "answer = (1 + num_digit_2 / 100) * num_digit_3 * (2 + num_digit_1 / 100) / (1 + num_digit_1 / 100)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (1 + num_digit_2 / 100) * num_digit_3 * (2 + num_digit_1 / 100) / (1 + num_digit_1 / 100)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Adrien",
+    "name_female": "Lylah"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      25,
+      20,
+      50,
+      33,
+      60,
+      75,
+      12,
+      40,
+      80,
+      10
+    ],
+    "num_digit_2": [
+      20,
+      30,
+      25,
+      40,
+      45,
+      35,
+      60,
+      15,
+      50,
+      10
+    ],
+    "num_digit_3": [
+      50000,
+      36000,
+      30000,
+      66500,
+      16000,
+      35000,
+      33600,
+      14000,
+      36000,
+      11000
+    ],
+    "num_text_1": [
+      "ise",
+      "isii",
+      "asaa",
+      "asatọ",
+      "itoolu",
+      "Iri",
+      "iri na otu",
+      "iri na abụọ",
+      "iri na atọ",
+      "iri na anọ"
+    ],
+    "answer": [
+      108000,
+      85800,
+      62500,
+      163100,
+      37700,
+      74250,
+      101760,
+      27600,
+      84000,
+      23100
+    ],
+    "num_ic": [
+      134000,
+      46500,
+      61000,
+      55300,
+      79200,
+      340000,
+      210000,
+      19400,
+      112000,
+      9500
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_female, Lylah} nwetara ego mgbakwunye ${num_ic, 134000} na ụlọ ọrụ ya n'afọ ahụ. Ngụkọta ụgwọ ọnwa {name_male, Adrien} bụ pasentị {num_digit_1, 30} karịa nke {name_female, Lylah}. Afọ {num_text_1, anọ} gasịrị, ụgwọ ọnwa ya mụbara, ọ na-enweta {num_digit_2, 40}% karịa ihe ọ na-enweta {num_text_1, anọ} gara aga. Ọ bụrụ na ụgwọ ọnwa {name_male, Adrien} na nke {name_female, Lylah} mụbara n'otu oge, na {name_male, Adrien} nwetara ${num_digit_3, 40000} {num_text_1, anọ} gara aga, gbakọọ ngụkọta ụgwọ ọnwa ha abụọ na-anata {num_text_1, anọ} gasịrị?",
+  "ic_sentence": "Nwanne nna {name_female, Lylah} nwetara ego mgbakwunye ${num_ic, 134000} na ụlọ ọrụ ya n'afọ ahụ."
+}

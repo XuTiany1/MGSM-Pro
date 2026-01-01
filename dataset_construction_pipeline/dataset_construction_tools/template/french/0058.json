@@ -1,0 +1,79 @@
+{
+  "original_question": "Stéphane a commandé des produits d'épicerie en ligne. Sa facture finale s'élève à 40,00 $. Comme il s'agissait d'un fournisseur de services de livraison, celui-ci a majoré la facture de 25 % et a ajouté 3,00 $ de frais de livraison. Stéphane a également donné un pourboire de 4,00 $. En comptant les frais supplémentaires, quel a été le prix final de la commande de Stéphane ?",
+  "original_answer": 57,
+  "question_template": "{name_male, Stéphane} a commandé des produits d'épicerie en ligne. Sa facture finale s'élève à {num_digit_1, 40.00} $. Comme il s'agissait d'un fournisseur de services de livraison, celui-ci a majoré la facture de {num_digit_2, 25} % et a ajouté {num_digit_3, 3.00} $ de frais de livraison. {name_male, Stéphane} a également donné un pourboire de {num_digit_4, 4.00} $. En comptant les frais supplémentaires, quel a été le prix final de la commande de {name_male, Stéphane} ?",
+  "question_solution": "answer = num_digit_1 * (1 + num_digit_2/100) + num_digit_3 + num_digit_4",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 + num_digit_2/100) + num_digit_3 + num_digit_4",
+    "num_digit_1 * num_digit_2 % 100 == 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Stephen"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      30,
+      40,
+      35,
+      32,
+      50,
+      45,
+      38,
+      25,
+      100,
+      75
+    ],
+    "num_digit_2": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      40,
+      50,
+      12,
+      18,
+      24
+    ],
+    "num_digit_3": [
+      5,
+      3,
+      2,
+      7,
+      9,
+      1,
+      11,
+      6,
+      8,
+      10
+    ],
+    "num_digit_4": [
+      4,
+      6,
+      8,
+      3,
+      5,
+      10,
+      2,
+      7,
+      12,
+      9
+    ],
+    "answer": [
+      42,
+      55,
+      52,
+      50,
+      79,
+      74,
+      70,
+      41,
+      138,
+      112
+    ]
+  },
+  "ic_question_template": "{name_male, Stephen} a une tante qui a acheté {num_ic, 41} bananes hier. {name_male, Stéphane} a commandé des produits d'épicerie en ligne. Sa facture finale s'élève à {num_digit_1, 40.00} $. Comme il s'agissait d'un fournisseur de services de livraison, celui-ci a majoré la facture de {num_digit_2, 25} % et a ajouté {num_digit_3, 3.00} $ de frais de livraison. {name_male, Stéphane} a également donné un pourboire de {num_digit_4, 4.00} $. En comptant les frais supplémentaires, quel a été le prix final de la commande de {name_male, Stéphane} ?",
+  "ic_sentence": "{name_male, Stephen} a une tante qui a acheté {num_ic, 41} bananes hier."
+}

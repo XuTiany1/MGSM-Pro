@@ -1,0 +1,87 @@
+{
+  "original_question": "Mandy de Benedict ka $100. Wɔnya nteaseɛ sɛ wɔbɛma no bosome biara ɔha mu nkyɛmu mmienu akatua. Sɛ Mandy etumi tua no wɔ bosome mmiɛnsa akyi a, ahe na ɛsɛ sɛ ɔde ma Benedict?",
+  "original_answer": 106,
+  "question_template": "{name_female, Mandy} de {name_male, Benedict} ka ${num_digit_1, 100}. Wɔnya nteaseɛ sɛ wɔbɛma no bosome biara ɔha mu nkyɛmu {num_digit_2, mmienu}% akatua. Sɛ {name_female, Mandy} etumi tua no wɔ bosome {num_digit_3, mmiɛnsa} akyi a, ahe na ɛsɛ sɛ ɔde ma {name_male, Benedict}?",
+  "question_solution": "answer = num_digit_1 * (1 + (num_digit_2/100) * num_digit_3)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 + (num_digit_2/100) * num_digit_3)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Mandy",
+    "name_male": "Benedict"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      100,
+      300,
+      625,
+      185,
+      230,
+      150,
+      425,
+      275,
+      135,
+      400,
+      345
+    ],
+    "num_digit_2": [
+      2,
+      3,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12,
+      9,
+      10
+    ],
+    "num_digit_3": [
+      3,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answer": [
+      106,
+      327,
+      675,
+      222,
+      299,
+      213,
+      663,
+      473,
+      297,
+      796,
+      759
+    ],
+    "num_ic": [
+      656,
+      1768,
+      338,
+      3412,
+      1819,
+      885,
+      120,
+      1862,
+      1570,
+      208,
+      968
+    ]
+  },
+  "ic_question_template": "{name_female, Mandy} wɔfa no srɛɛ sika {num_ic, 656} dollar fi onipa koro ara hɔ nkyɛn bere bi. {name_female, Mandy} de {name_male, Benedict} ka ${num_digit_1, 100}. Wɔnya nteaseɛ sɛ wɔbɛma no bosome biara ɔha mu nkyɛmu {num_digit_2, mmienu}% akatua. Sɛ {name_female, Mandy} etumi tua no wɔ bosome {num_digit_3, mmiɛnsa} akyi a, ahe na ɛsɛ sɛ ɔde ma {name_male, Benedict}?",
+  "ic_sentence": "{name_female, Mandy} wɔfa no srɛɛ sika {num_ic, 656} dollar fi onipa koro ara hɔ nkyɛn bere bi."
+}

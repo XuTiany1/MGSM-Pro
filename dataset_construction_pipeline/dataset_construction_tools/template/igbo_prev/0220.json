@@ -1,0 +1,94 @@
+{
+  "original_question": "Ọ na were Carmen nkeji iri ịji mechaa pọzụl krọswọd na nkeji ise ịji mechaa pọzụl sudoku. N'ime ngwụcha izu ụka o mere pọzụl krọswọd atọ na pọzụl sudoku asatọ. Oge ole ka ọ ga-emefu ịji na-azucha okwe ndị a? ",
+  "original_answer": 70,
+  "question_template": "Ọ na were {name_female, Carmen} nkeji {num_digit_1, 10} ịji mechaa pọzụl krọswọd na nkeji {num_digit_2, 5} ịji mechaa pọzụl sudoku. N'ime ngwụcha izu ụka o mere pọzụl krọswọd {num_digit_3, 3} na pọzụl sudoku {num_digit_4, 8}. Oge ole ka ọ ga-emefu ịji na-azucha okwe ndị a?",
+  "question_solution": "answer = num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Carmen"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      17,
+      23,
+      37,
+      42,
+      55,
+      61,
+      79,
+      88,
+      94,
+      101
+    ],
+    "num_digit_2": [
+      13,
+      29,
+      31,
+      47,
+      53,
+      67,
+      72,
+      84,
+      91,
+      100
+    ],
+    "num_digit_3": [
+      12,
+      17,
+      23,
+      29,
+      31,
+      37,
+      41,
+      44,
+      48,
+      50
+    ],
+    "num_digit_4": [
+      18,
+      22,
+      27,
+      33,
+      38,
+      42,
+      49,
+      51,
+      54,
+      60
+    ],
+    "answer": [
+      438,
+      1029,
+      1688,
+      2769,
+      3719,
+      5071,
+      6767,
+      8156,
+      9426,
+      11050
+    ],
+    "num_ic": [
+      33,
+      217,
+      337,
+      59,
+      266,
+      32,
+      280,
+      133,
+      186,
+      919
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_female, Carmen} siere achịcha {num_ic, 46} n'ụbọchị Satọdee. Ọ na were {name_female, Carmen} nkeji {num_digit_1, 10} ịji mechaa pọzụl krọswọd na nkeji {num_digit_2, 5} ịji mechaa pọzụl sudoku. N'ime ngwụcha izu ụka o mere pọzụl krọswọd {num_digit_3, 3} na pọzụl sudoku {num_digit_4, 8}. Oge ole ka ọ ga-emefu ịji na-azucha okwe ndị a?",
+  "ic_sentence": "Nwanne nna {name_female, Carmen} siere achịcha {num_ic, 46} n'ụbọchị Satọdee."
+}

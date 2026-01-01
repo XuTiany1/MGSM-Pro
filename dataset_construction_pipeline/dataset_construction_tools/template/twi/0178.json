@@ -1,0 +1,84 @@
+{
+  "original_question": "Rani wɔ nkɔtɔ dɔɔ so sen Monic, a ɔwɔ nkɔtɔ enan sen Bo. Sɛ Bo wɔ nkɔtɔ aduanan a, bu nkɔtɔ akonta dodoɔ a wɔn mmiɛnsa no nyinaa wɔ no bom.",
+  "original_answer": 122,
+  "question_template": "{name_female_1, Rani} wɔ nkɔtɔ du {num_text_1, so} sen {name_female_2, Monic}, a ɔwɔ nkɔtɔ {num_digit_1, enan} sen {name_male_1, Bo}. Sɛ {name_male_1, Bo} wɔ nkɔtɔ {num_digit_2, aduanan} a, bu nkɔtɔ akonta dodoɔ a wɔn mmiɛnsa no nyinaa wɔ no bom.",
+  "question_solution": "answer = num_digit_2 + (num_digit_2 - num_digit_1) + ((num_digit_2 - num_digit_1) + t1)   # t1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 + (num_digit_2 - num_digit_1) + ((num_digit_2 - num_digit_1) + t1)",
+    "num_digit_2 - num_digit_1 >= 0",
+    "t1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_1 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Rani",
+    "name_female_2": "Monic",
+    "name_male_1": "Bo"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "Nson",
+      "nkron",
+      "dunan",
+      "ɛnān",
+      "du-num",
+      "nwɔtwe",
+      "nsia",
+      "duakoɔ baako",
+      "du-mienu",
+      "aduonu"
+    ],
+    "num_digit_1": [
+      5,
+      7,
+      3,
+      9,
+      4,
+      2,
+      8,
+      6,
+      12,
+      10
+    ],
+    "num_digit_2": [
+      50,
+      100,
+      30,
+      60,
+      75,
+      120,
+      25,
+      90,
+      200,
+      150
+    ],
+    "answer": [
+      147,
+      295,
+      96,
+      166,
+      232,
+      364,
+      65,
+      269,
+      589,
+      450
+    ],
+    "num_ic": [
+      67,
+      216,
+      12,
+      30,
+      162,
+      108,
+      90,
+      62,
+      140,
+      200
+    ]
+  },
+  "ic_question_template": "{name_female_1, Rani} wɔ nkɔtɔ du {num_text_1, so} sen {name_female_2, Monic}, a ɔwɔ nkɔtɔ {num_digit_1, enan} sen {name_male_1, Bo}. Sɛ {name_male_1, Bo} wɔ nkɔtɔ {num_digit_2, aduanan} a, bu nkɔtɔ akonta dodoɔ a wɔn mmiɛnsa no nyinaa wɔ no bom. {name_female_2, Monic} wͻfa huu ɛpo mu adekorabea {num_ic, 88} wɔ mpoano no so.",
+  "ic_sentence": "{name_female_2, Monic} wͻfa huu ɛpo mu adekorabea {num_ic, 88} wɔ mpoano no so."
+}

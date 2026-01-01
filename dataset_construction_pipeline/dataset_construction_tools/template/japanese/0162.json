@@ -1,0 +1,81 @@
+{
+  "original_question": "ビー玉1袋が20ドルで、値段は2か月ごとに、元の価格の20%ごとに値上がりする。36か月後、ビー玉1袋はいくらになる？",
+  "original_answer": 92,
+  "question_template": "ビー玉1袋が{num_digit_1, 20}ドルで、値段は{num_digit_2, 20}%か月ごとに、元の価格の{num_text_1, two}ごとに値上がりする。{num_digit_3, 36}か月後、ビー玉1袋はいくらになる？",
+  "question_solution": "answer = num_digit_1 + (num_digit_3 / NUM(num_text_1)) * (num_digit_1 * num_digit_2 / 100)",
+  "conditions": [
+    "answer == num_digit_1 + (num_digit_3 / NUM(num_text_1)) * (num_digit_1 * num_digit_2 / 100)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "NUM(num_text_1) > 0",
+    "num_digit_3 % NUM(num_text_1) == 0",
+    "(num_digit_1 * num_digit_2) % 100 == 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      30,
+      25,
+      40,
+      18,
+      24,
+      45,
+      55,
+      48,
+      25,
+      60
+    ],
+    "num_digit_2": [
+      10,
+      20,
+      15,
+      50,
+      25,
+      20,
+      20,
+      25,
+      40,
+      10
+    ],
+    "num_text_1": [
+      "さん",
+      "ご",
+      "ろく",
+      "に (ni)",
+      "八",
+      "九 (きゅう / kyuu)",
+      "じゅう",
+      "十二",
+      "十五",
+      "十八"
+    ],
+    "num_digit_3": [
+      36,
+      45,
+      60,
+      24,
+      40,
+      45,
+      50,
+      48,
+      60,
+      72
+    ],
+    "answer": [
+      66,
+      70,
+      100,
+      126,
+      54,
+      90,
+      110,
+      96,
+      65,
+      84
+    ]
+  },
+  "ic_question_template": "店長の甥は{num_ic, 60}冊の漫画本を持っています。ビー玉1袋が{num_digit_1, 20}ドルで、値段は{num_digit_2, 20}%か月ごとに、元の価格の{num_text_1, two}ごとに値上がりする。{num_digit_3, 36}か月後、ビー玉1袋はいくらになる？",
+  "ic_sentence": "店長の甥は{num_ic, 60}冊の漫画本を持っています。"
+}

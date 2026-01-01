@@ -1,0 +1,54 @@
+{
+  "original_question": "Cody yana cin biskit din kukis linki uku na abinda Amir yake ci. Idan Amir yaci bickit din kukis 5, biskit din kukis nawa suke ci gaba daya?",
+  "original_answer": 20,
+  "question_template": "{name_male_1, Cody} yana cin biskit din kukis linki {num_text_1, uku} na abinda {name_male_2, Amir} yake ci. Idan {name_male_2, Amir} yaci biskit din kukis {num_digit_1, 5}, biskit din kukis nawa suke ci gaba daya?",
+  "question_solution": "answer = (3 + 1) * num_digit_1",
+  "conditions": [
+    "int(answer) == 4 * num_digit_1",
+    "num_digit_1 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Cody",
+    "name_male_2": "Amir"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      9,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37
+    ],
+    "answer": [
+      28,
+      36,
+      44,
+      52,
+      68,
+      76,
+      92,
+      116,
+      124,
+      148
+    ],
+    "num_ic": [
+      33,
+      81,
+      100,
+      32,
+      131,
+      255,
+      125,
+      291,
+      280,
+      369
+    ]
+  },
+  "ic_question_template": "Kawun {name_male_2, Amir} ya kawo kek ɗin brownies guda {num_ic, 20} zuwa wurin liyafa. {name_male_1, Cody} yana cin biskit din kukis linki {num_text_1, uku} na abinda {name_male_2, Amir} yake ci. Idan {name_male_2, Amir} yaci biskit din kukis {num_digit_1, 5}, biskit din kukis nawa suke ci gaba daya?",
+  "ic_sentence": "Kawun {name_male_2, Amir} ya kawo kek ɗin brownies guda {num_ic, 20} zuwa wurin liyafa."
+}

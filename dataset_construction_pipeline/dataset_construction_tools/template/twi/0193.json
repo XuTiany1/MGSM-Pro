@@ -1,0 +1,81 @@
+{
+  "original_question": "Sue te mpɔtam a ɛhɔ yɛ anika. Nnawɔtwe awiei baako no, na ofipamni fa adwene sɛ na ɔdi agorɔ ɛyɛ nsɛnkwaa fa Sue hɔ. Wɔ Fiada anɔpa no, ofipamni  no de rɔba asukɔnkɔn kɔkɔɔ 18 fii adi wɔ Sue anim. Wɔ memeneda anɔpa no, ofipamni no gyee asukɔnkɔn no mu nkyem mmiensa mu baako, hyɛɛ no fitaa, na wɔde asukɔnkɔn fitaa a wɔasiesie no foforo yi san too Sue anim. Afei, wɔsan de asukɔnkɔn kɔkɔɔ 18 kaa rɔba no ho wɔ Kwasida anɔpa. Wɔ Kwasida awiabere no, rɔba asukɔnkɔn a wɔnyɛ kɔkɔɔ no dodoɔ yɛ ahe sen rɔba asukɔnkɔn a wɔnyɛ fitaa no?",
+  "original_answer": 24,
+  "question_template": "{name_female, Sue} te mpɔtam a ɛhɔ yɛ anika. Nnawɔtwe awiei baako no, na ofipamni fa adwene sɛ na ɔdi agorɔ ɛyɛ nsɛnkwaa fa {name_female, Sue} hɔ. Wɔ Fiada anɔpa no, ofipamni no de rɔba asukɔnkɔn kɔkɔɔ {num_digit_1, 18} fii adi wɔ {name_female, Sue} anim. Wɔ memeneda anɔpa no, ofipamni no gyee asukɔnkɔn no mu {num_frac_1, nkyem mmiensa mu baako}, hyɛɛ no fitaa, na wɔde asukɔnkɔn fitaa a wɔasiesie no foforo yi san too {name_female, Sue} anim. Afei, wɔsan de asukɔnkɔn kɔkɔɔ {num_digit_2, 18} kaa rɔba no ho wɔ Kwasida anɔpa. Wɔ Kwasida awiabere no, rɔba asukɔnkɔn a wɔnyɛ kɔkɔɔ no dodoɔ yɛ ahe sen rɔba asukɔnkɔn a wɔnyɛ fitaa no?",
+  "question_solution": "answer = num_digit_1 * (1 - 2 * f1) + num_digit_2   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 - 2 * f1) + num_digit_2",
+    "0 < f1 < 1",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sue"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      35,
+      77,
+      117,
+      180,
+      72,
+      70,
+      66,
+      51,
+      60,
+      85
+    ],
+    "num_frac_1": [
+      "mmienu mu ason",
+      "mmiɛnsa mu du baako",
+      "numba enum no mu dumienu nsia",
+      "nson gu ɔha numduonu mu",
+      "anan mu nkron so nan",
+      "mpɛnason abiɛsa so ason",
+      "anum mu duɛnum",
+      "anan-nson-du-nan",
+      "mmienu gu aduɔnum",
+      "anum-nkronnanum"
+    ],
+    "num_digit_2": [
+      18,
+      22,
+      14,
+      25,
+      19,
+      23,
+      31,
+      18,
+      17,
+      27
+    ],
+    "answer": [
+      33,
+      57,
+      41,
+      37,
+      27,
+      33,
+      37,
+      45,
+      61,
+      62
+    ],
+    "num_ic": [
+      54,
+      727,
+      494,
+      939,
+      141,
+      437,
+      82,
+      84,
+      314,
+      457
+    ]
+  },
+  "ic_question_template": "{name_female, Sue} wɔfa tᴐᴐ sare so nneɛma {num_ic, 764} maa ne turo. {name_female, Sue} te mpɔtam a ɛhɔ yɛ anika. Nnawɔtwe awiei baako no, na ofipamni fa adwene sɛ na ɔdi agorɔ ɛyɛ nsɛnkwaa fa {name_female, Sue} hɔ. Wɔ Fiada anɔpa no, ofipamni no de rɔba asukɔnkɔn kɔkɔɔ {num_digit_1, 18} fii adi wɔ {name_female, Sue} anim. Wɔ memeneda anɔpa no, ofipamni no gyee asukɔnkɔn no mu {num_frac_1, nkyem mmiensa mu baako}, hyɛɛ no fitaa, na wɔde asukɔnkɔn fitaa a wɔasiesie no foforo yi san too {name_female, Sue} anim. Afei, wɔsan de asukɔnkɔn kɔkɔɔ {num_digit_2, 18} kaa rɔba no ho wɔ Kwasida anɔpa. Wɔ Kwasida awiabere no, rɔba asukɔnkɔn a wɔnyɛ kɔkɔɔ no dodoɔ yɛ ahe sen rɔba asukɔnkɔn a wɔnyɛ fitaa no?",
+  "ic_sentence": "{name_female, Sue} wɔfa tᴐᴐ sare so nneɛma {num_ic, 764} maa ne turo."
+}

@@ -1,0 +1,105 @@
+{
+  "original_question": "Brittany da mahaifiyarta suna zuwa gidan adana kayan tarihi. Kudin shiga shine $12 ga manya da $10 kuma ga yara. Mahaifiyar Brittany ta ba wa mai karbar kuɗi kuɗin tikitin yaro 1 da tikitin babba 1. Idan ta samu canjin dala 8, nawa ne a lissafin dala, ta ba mai karbar kudin?",
+  "original_answer": 30,
+  "question_template": "Output: `{name_female, Brittany} da mahaifiyarta suna zuwa gidan adana kayan tarihi. Kudin shiga shine ${num_digit_1, 12} ga manya da ${num_digit_2, 10} kuma ga yara. Mahaifiyar {name_female, Brittany} ta ba wa mai karbar kuɗi kuɗin tikitin yaro {num_digit_3, 1} da tikitin babba {num_digit_4, 1}. Idan ta samu canjin dala ${num_digit_5, 8}, nawa ne a lissafin dala, ta ba mai karbar kudin?`",
+  "question_solution": "answer = num_digit_1 * num_digit_4 + num_digit_2 * num_digit_3 + num_digit_5",
+  "conditions": [
+    "answer == num_digit_1 * num_digit_4 + num_digit_2 * num_digit_3 + num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Brittany"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      14,
+      15,
+      18,
+      20,
+      22,
+      25,
+      27,
+      30,
+      32,
+      35
+    ],
+    "num_digit_2": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      10,
+      16,
+      18,
+      20,
+      22
+    ],
+    "num_digit_3": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      4,
+      2,
+      3,
+      1,
+      2
+    ],
+    "num_digit_4": [
+      1,
+      1,
+      2,
+      2,
+      1,
+      3,
+      2,
+      1,
+      3,
+      2
+    ],
+    "num_digit_5": [
+      5,
+      6,
+      10,
+      8,
+      7,
+      9,
+      15,
+      20,
+      12,
+      18
+    ],
+    "answer": [
+      30,
+      45,
+      85,
+      62,
+      59,
+      124,
+      101,
+      104,
+      128,
+      132
+    ],
+    "num_ic": [
+      31,
+      180,
+      52,
+      46,
+      11,
+      27,
+      36,
+      74,
+      92,
+      320
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Brittany} ya ziyarci gidan kayan gargajiya a makon da ya gabata kuma ya sayi katunan wasiƙa {num_ic, 31}. {name_female, Brittany} da mahaifiyarta suna zuwa gidan adana kayan tarihi. Kudin shiga shine ${num_digit_1, 12} ga manya da ${num_digit_2, 10} kuma ga yara. Mahaifiyar {name_female, Brittany} ta ba wa mai karbar kuɗi kuɗin tikitin yaro {num_digit_3, 1} da tikitin babba {num_digit_4, 1}. Idan ta samu canjin dala ${num_digit_5, 8}, nawa ne a lissafin dala, ta ba mai karbar kudin?",
+  "ic_sentence": "Kawun {name_female, Brittany} ya ziyarci gidan kayan gargajiya a makon da ya gabata kuma ya sayi katunan wasiƙa {num_ic, 31}."
+}

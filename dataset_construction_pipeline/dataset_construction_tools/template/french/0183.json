@@ -1,0 +1,116 @@
+{
+  "original_question": "Deux équipes d'athlétisme s'affrontent dans un relais de 4 x 400 mètres, une course où chaque équipe compte quatre membres qui courent chacun 400 mètres, ou un tour de piste standard. L'une des deux équipes est très bien rodée et chacun de ses membres fait ses 400 mètres en 55 secondes exactement. L'autre équipe est moins bien rodée. Son premier coureur fait 400 mètres en 60 secondes, puis chaque coureur suivant est 3 secondes plus rapide que le précédent. Sur la base de ces informations, en combien de secondes l'équipe la plus rapide gagnera-t-elle ?",
+  "original_answer": 2,
+  "question_template": "{num_text_1, Deux} équipes d'athlétisme s'affrontent dans un relais de {num_digit_1, 4} x {num_digit_2, 400} mètres, une course où chaque équipe compte {num_text_2, quatre} membres qui courent chacun {num_digit_2, 400} mètres, ou un tour de piste standard. L'une des deux équipes est très bien rodée et chacun de ses membres fait ses {num_digit_2, 400} mètres en {num_digit_3, 55} secondes exactement. L'autre équipe est moins bien rodée. Son premier coureur fait {num_digit_2, 400} mètres en {num_digit_4, 60} secondes, puis chaque coureur suivant est {num_digit_5, 3} secondes plus rapide que le précédent. Sur la base de ces informations, en combien de secondes l'équipe la plus rapide gagnera-t-elle ?",
+  "question_solution": "answer = (num_digit_4 + (num_digit_4 - num_digit_5) + (num_digit_4 - 2*num_digit_5) + (num_digit_4 - 3*num_digit_5)) - (f2 * num_digit_3)   # f2 is the numeric value of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_4 + (num_digit_4 - num_digit_5) + (num_digit_4 - 2*num_digit_5) + (num_digit_4 - 3*num_digit_5)) - (f2 * num_digit_3)",
+    "f2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux"
+    ],
+    "num_digit_1": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "num_digit_2": [
+      400,
+      400,
+      400,
+      400,
+      400,
+      400,
+      400,
+      400,
+      400,
+      400
+    ],
+    "num_text_2": [
+      "quatre",
+      "quatre",
+      "quatre",
+      "quatre",
+      "quatre",
+      "quatre",
+      "quatre",
+      "quatre",
+      "quatre",
+      "quatre"
+    ],
+    "num_digit_3": [
+      55,
+      50,
+      52,
+      48,
+      53,
+      56,
+      57,
+      54,
+      59,
+      60
+    ],
+    "num_digit_4": [
+      60,
+      58,
+      64,
+      60,
+      62,
+      67,
+      65,
+      63,
+      68,
+      70
+    ],
+    "num_digit_5": [
+      3,
+      4,
+      5,
+      6,
+      5,
+      3,
+      4,
+      5,
+      4,
+      5
+    ],
+    "answer": [
+      2,
+      8,
+      18,
+      12,
+      6,
+      26,
+      8,
+      6,
+      12,
+      10
+    ]
+  },
+  "ic_question_template": "L’oncle d’un entraîneur a récemment acheté {num_ic, 113} nouvelles haies pour l’école. {num_text_1, Deux} équipes d'athlétisme s'affrontent dans un relais de {num_digit_1, 4} x {num_digit_2, 400} mètres, une course où chaque équipe compte {num_text_2, quatre} membres qui courent chacun {num_digit_2, 400} mètres, ou un tour de piste standard. L'une des deux équipes est très bien rodée et chacun de ses membres fait ses {num_digit_2, 400} mètres en {num_digit_3, 55} secondes exactement. L'autre équipe est moins bien rodée. Son premier coureur fait {num_digit_2, 400} mètres en {num_digit_4, 60} secondes, puis chaque coureur suivant est {num_digit_5, 3} secondes plus rapide que le précédent. Sur la base de ces informations, en combien de secondes l'équipe la plus rapide gagnera-t-elle ?",
+  "ic_sentence": "L’oncle d’un entraîneur a récemment acheté {num_ic, 113} nouvelles haies pour l’école."
+}

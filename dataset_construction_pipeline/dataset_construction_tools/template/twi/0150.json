@@ -1,0 +1,95 @@
+{
+  "original_question": "Steve ne Tim fa adwen sɛ wɔbɛhwɛ nea obetumi afi sukuu aba fie ntɛm. Na Steve te akyirikyiri paa sen Tim, enti wɔama no kwan sɛ ɔfa ne sakre no nante. Steve te baabi a ɛbɛn sukuu no kwansin 3, na otumi de ne sakre tu mmirika bɛyɛ anammɔn 440 wɔ simma biara mu. Tim te baabi a ɛnbɛn sukuu no bɛyɛ sɛ kwansen 2. Sɛ Tim betumi de ne skateboard no atu mmirika a na ne tenten yɛ anammɔn 264 wɔ simma baako mu a, ɛnde bere tenten ahe na nea odi nkonim no bɛtwɛn wɔ wɔn fie ansa na nea wadi nkoguo no awie mmirika no?",
+  "original_answer": 4,
+  "question_template": "{name_male_1, Steve} ne {name_male_2, Tim} fa adwen sɛ wɔbɛhwɛ nea obetumi afi sukuu aba fie ntɛm. Na {name_male_1, Steve} te akyirikyiri paa sen {name_male_2, Tim}, enti wɔama no kwan sɛ ɔfa ne sakre no nante. {name_male_1, Steve} te baabi a ɛbɛn sukuu no kwansin {num_digit_1, 3}, na otumi de ne sakre tu mmirika bɛyɛ anammɔn {num_digit_2, 440} wɔ simma biara mu. {name_male_2, Tim} te baabi a ɛnbɛn sukuu no bɛyɛ sɛ kwansen {num_digit_3, 2}. Sɛ {name_male_2, Tim} betumi de ne skateboard no atu mmirika a na ne tenten yɛ anammɔn {num_digit_4, 264} wɔ simma baako mu a, ɛnde bere tenten ahe na nea odi nkonim no bɛtwɛn wɔ wɔn fie ansa na nea wadi nkoguo no awie mmirika no?",
+  "question_solution": "answer = |5280 * num_digit_1 / num_digit_2 - 5280 * num_digit_3 / num_digit_4|",
+  "conditions": [
+    "answer == abs(5280 * num_digit_1 / num_digit_2 - 5280 * num_digit_3 / num_digit_4)",
+    "num_digit_1 > num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Steve",
+    "name_male_2": "Tim"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      9,
+      10,
+      8,
+      7,
+      5,
+      8,
+      9,
+      10,
+      3,
+      10
+    ],
+    "num_digit_2": [
+      120,
+      330,
+      220,
+      160,
+      160,
+      160,
+      220,
+      264,
+      480,
+      240
+    ],
+    "num_digit_3": [
+      7,
+      7,
+      5,
+      2,
+      3,
+      4,
+      6,
+      9,
+      1,
+      6
+    ],
+    "num_digit_4": [
+      264,
+      880,
+      165,
+      264,
+      132,
+      440,
+      880,
+      120,
+      110,
+      352
+    ],
+    "answer": [
+      256,
+      118,
+      32,
+      191,
+      45,
+      216,
+      180,
+      196,
+      15,
+      130
+    ],
+    "num_ic": [
+      32,
+      54,
+      11,
+      93,
+      36,
+      63,
+      17,
+      80,
+      17,
+      99
+    ]
+  },
+  "ic_question_template": "{name_male_1, Steve} sewaa no wɔ agyinamoa {num_ic, 34}. {name_male_1, Steve} ne {name_male_2, Tim} fa adwen sɛ wɔbɛhwɛ nea obetumi afi sukuu aba fie ntɛm. Na {name_male_1, Steve} te akyirikyiri paa sen {name_male_2, Tim}, enti wɔama no kwan sɛ ɔfa ne sakre no nante. {name_male_1, Steve} te baabi a ɛbɛn sukuu no kwansin {num_digit_1, 3}, na otumi de ne sakre tu mmirika bɛyɛ anammɔn {num_digit_2, 440} wɔ simma biara mu. {name_male_2, Tim} te baabi a ɛnbɛn sukuu no bɛyɛ sɛ kwansen {num_digit_3, 2}. Sɛ {name_male_2, Tim} betumi de ne skateboard no atu mmirika a na ne tenten yɛ anammɔn {num_digit_4, 264} wɔ simma baako mu a, ɛnde bere tenten ahe na nea odi nkonim no bɛtwɛn wɔ wɔn fie ansa na nea wadi nkoguo no awie mmirika no?",
+  "ic_sentence": "{name_male_1, Steve} sewaa no wɔ agyinamoa {num_ic, 34}."
+}

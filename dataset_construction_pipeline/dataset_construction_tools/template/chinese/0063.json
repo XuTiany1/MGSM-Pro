@@ -1,0 +1,80 @@
+{
+  "original_question": "亚琳娜订阅了流媒体服务，每年的费用是 140 美元。如果流媒体公司对她收取上半年费用的初始金额，然后对她下半年的费用少收 10%，请计算到年底她为流媒体服务支付的总金额。",
+  "original_answer": 1596,
+  "question_template": "{name_female, 亚琳娜} 订阅了流媒体服务，每月费用为 {num_digit_1, 140} 美元。如果流媒体公司对她收取前 {num_frac_1, 半} 年的初始金额，然后下 {num_frac_2, 半}  年的费用比之前少收 {num_digit_2, 10}%，请计算到年底她为流媒体服务支付的总金额。",
+  "question_solution": "answer = num_digit_1 * 6 + num_digit_1 * (1 - num_digit_2/100) * 6",
+  "conditions": [
+    "int(answer) == num_digit_1 * 6 + num_digit_1 * (1 - num_digit_2/100) * 6",
+    "((num_digit_1 * num_digit_2 * 6) % 100) == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_2 < 100"
+  ],
+  "variable_word_list": {
+    "name_female": "Aleena"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      160,
+      150,
+      125,
+      200,
+      180,
+      250,
+      225,
+      300,
+      125,
+      175
+    ],
+    "num_frac_1": [
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半"
+    ],
+    "num_digit_2": [
+      20,
+      15,
+      12,
+      14,
+      25,
+      30,
+      16,
+      40,
+      18,
+      22
+    ],
+    "num_frac_2": [
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半"
+    ],
+    "answer": [
+      1728,
+      1665,
+      1410,
+      2232,
+      1890,
+      2550,
+      2484,
+      2880,
+      1365,
+      1869
+    ]
+  },
+  "ic_question_template": "{name_female, 阿丽娜} 的阿姨去年买了 {num_ic, 57} 张电影海报。{name_female, 亚琳娜} 订阅了流媒体服务，每月费用为 {num_digit_1, 140} 美元。如果流媒体公司对她收取前 {num_frac_1, 半} 年的初始金额，然后下 {num_frac_2, 半}  年的费用比之前少收 {num_digit_2, 10}%，请计算到年底她为流媒体服务支付的总金额。",
+  "ic_sentence": "{name_female, 阿丽娜} 的阿姨去年买了 {num_ic, 57} 张电影海报。"
+}

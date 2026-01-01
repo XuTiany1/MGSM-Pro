@@ -1,0 +1,54 @@
+{
+  "original_question": "鸭子每周要吃 3.5 磅的昆虫才能存活。如果有一群 10 只鸭子，它们每天需要多少磅昆虫？",
+  "original_answer": 5,
+  "question_template": "鸭子每周要吃 {num_digit_1, 3.5} 磅的昆虫才能存活。如果有一群 {num_text_1, 10} 只鸭子，它们每天需要多少磅昆虫？",
+  "question_solution": "answer = num_digit_1 * f1 / 7   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * f1 / 7",
+    "num_digit_1 > 0",
+    "f1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      10.8181818182,
+      13.4615384615,
+      14.4117647059,
+      15.1052631579,
+      14.6086956522,
+      13.2758620689,
+      14.2258064516,
+      16.0810810811,
+      10.0731707317,
+      15.6279069767
+    ],
+    "num_text_1": [
+      "十一",
+      "十三",
+      "十七",
+      "十九",
+      "二十三",
+      "二十九",
+      "三十一",
+      "三十七",
+      "四十一",
+      "四十三"
+    ],
+    "answer": [
+      17,
+      25,
+      35,
+      41,
+      48,
+      55,
+      63,
+      85,
+      59,
+      96
+    ]
+  },
+  "ic_question_template": "池塘边住着 {num_ic, 144} 只青蛙。鸭子每周要吃 {num_digit_1, 3.5} 磅的昆虫才能存活。如果有一群 {num_text_1, 10} 只鸭子，它们每天需要多少磅昆虫？",
+  "ic_sentence": "池塘边住着 {num_ic, 144} 只青蛙。"
+}

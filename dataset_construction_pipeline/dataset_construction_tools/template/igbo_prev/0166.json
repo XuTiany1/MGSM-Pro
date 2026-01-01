@@ -1,0 +1,81 @@
+{
+  "original_question": "Onye agbataobi Sandra na-enye ya nkata àkwá itoolu oge ọbụla o kuru nwa ya nwaanyị. Ị ji mee Spanish flanu, ọ ga-eji àkwá atọ. Ọ bụrụ na e kenyere Sandra ọrụ ịme flanu Spanish iri na ise maka ịchụnta ego nke ụlọakwụkwọ ya, ugboro ole ka Sandra kwesiri iku nwa? ",
+  "original_answer": 5,
+  "question_template": "Onye agbataobi {name_female, Sandra} na-enye ya nkata àkwá {num_digit_1, 9} oge ọbụla o kuru nwa ya nwaanyị. Ị ji mee Spanish flanu, ọ ga-eji àkwá {num_digit_2, 3}. Ọ bụrụ na e kenyere {name_female, Sandra} ọrụ ịme flanu Spanish {num_digit_3, 15} maka ịchụnta ego nke ụlọakwụkwọ ya, ugboro ole ka {name_female, Sandra} kwesiri iku nwa?",
+  "question_solution": "answer = (num_digit_3 * num_digit_2) / num_digit_1",
+  "conditions": [
+    "answer == (num_digit_3 * num_digit_2) / num_digit_1",
+    "(num_digit_3 * num_digit_2) % num_digit_1 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sandra"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      6,
+      8,
+      10,
+      12,
+      5,
+      7,
+      4,
+      11,
+      14,
+      16
+    ],
+    "num_digit_2": [
+      2,
+      4,
+      5,
+      6,
+      3,
+      4,
+      2,
+      5,
+      7,
+      8
+    ],
+    "num_digit_3": [
+      18,
+      14,
+      22,
+      26,
+      25,
+      21,
+      34,
+      11,
+      20,
+      28
+    ],
+    "answer": [
+      6,
+      7,
+      11,
+      13,
+      15,
+      12,
+      17,
+      5,
+      10,
+      14
+    ],
+    "num_ic": [
+      36,
+      44,
+      27,
+      103,
+      49,
+      32,
+      138,
+      76,
+      52,
+      58
+    ]
+  },
+  "ic_question_template": "Nwanne nne {name_female, Sandra} wetara ụtụtụ {num_ic, 33} mangoro si ugbo ya. Onye agbataobi {name_female, Sandra} na-enye ya nkata àkwá {num_digit_1, 9} oge ọbụla o kuru nwa ya nwaanyị. Ị ji mee Spanish flanu, ọ ga-eji àkwá {num_digit_2, 3}. Ọ bụrụ na e kenyere {name_female, Sandra} ọrụ ịme flanu Spanish {num_digit_3, 15} maka ịchụnta ego nke ụlọakwụkwọ ya, ugboro ole ka {name_female, Sandra} kwesiri iku nwa?",
+  "ic_sentence": "Nwanne nne {name_female, Sandra} wetara ụtụtụ {num_ic, 33} mangoro si ugbo ya."
+}

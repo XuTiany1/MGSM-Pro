@@ -1,0 +1,82 @@
+{
+  "original_question": "Jerry yana mirgina kwado mai gefuna shida. Nawa ne (an bayyana da percentage) ya mirgina lamba fiye da 3 fiye da kuma cewa ya mirgina lambobi biyu a jere?",
+  "original_answer": 25,
+  "question_template": "{name_male, Jerry} yana mirgina kwado mai gefuna {num_text_1, shida}. Nawa ne (an bayyana da percentage) ya mirgina lamba fiye da {num_digit_1, 3} fiye da kuma cewa ya mirgina lambobi {num_text_2, biyu} a jere?",
+  "question_solution": "even_count = num_text_1 / 2  # number of even faces\nanswer = ((num_text_1 - num_digit_1) / num_text_1 - (even_count / num_text_1) ** num_text_2) * 100",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == ((num_text_1 - num_digit_1) / num_text_1 - ((num_text_1/2) / num_text_1) ** num_text_2) * 100",
+    "num_text_1 % 2 == 0",
+    "num_digit_1 < num_text_1",
+    "num_text_2 == 2",
+    "num_text_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jerry"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "ashirin da huɗu",
+      "arba’in",
+      "hamsin",
+      "ashirin",
+      "Sha takwas",
+      "Dari daya da ashirin da biyar",
+      "ashirin da biyar",
+      "Goma",
+      "hamsin",
+      "talatin"
+    ],
+    "num_text_2": [
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu"
+    ],
+    "num_digit_1": [
+      7,
+      8,
+      15,
+      3,
+      9,
+      5,
+      3,
+      1,
+      7,
+      12
+    ],
+    "answer": [
+      50,
+      55,
+      45,
+      60,
+      25,
+      71,
+      63,
+      65,
+      61,
+      35
+    ],
+    "num_ic": [
+      78,
+      180,
+      110,
+      35,
+      16,
+      210,
+      41,
+      7,
+      92,
+      48
+    ]
+  },
+  "ic_question_template": "Kawun {name_male, Jerry} ya tara duwatsun mabul {num_ic, 73}. {name_male, Jerry} yana mirgina kwado mai gefuna {num_text_1, shida}. Nawa ne (an bayyana da percentage) ya mirgina lamba fiye da {num_digit_1, 3} fiye da kuma cewa ya mirgina lambobi {num_text_2, biyu} a jere?",
+  "ic_sentence": "Kawun {name_male, Jerry} ya tara duwatsun mabul {num_ic, 73}."
+}

@@ -1,0 +1,92 @@
+{
+  "original_question": "Ọlọ́pàá aṣọ́bodè kan ní èbúté ìyanjú ẹrù Seaside ka àwọn ọkọ̀ akẹ́rù ẹrù 2 tí wọ́n kó ọkọ̀ ayọ́kẹ́lẹ́ wọlé, ọkọ̀ọ̀kan ní ọkọ̀ ayọ́kẹ́lẹ́ 5 nínú. Ní ọjọ́ Kejì, ọ̀pọ̀ ọkọ̀ akẹ́rù mìíràn ni wọ́n tún kó wọlé, èyí tí àpapọ̀ àwọn ọkọ̀ ní èbúté náà sì di 30. Ṣe ìṣirò iye ọkọ̀ akẹ́rù tí wọ́n kó wọlé ní ọjọ́ kejì, ká ní gbogbo àwọn ọkọ̀ akẹ́rù náà ní ọkọ̀ ayọ́kẹ́lẹ́ 5.",
+  "original_answer": 4,
+  "question_template": "Ọlọ́pàá aṣọ́bodè kan ní èbúté ìyanjú ẹrù Seaside ka àwọn ọkọ̀ akẹ́rù ẹrù {num_digit_1, 2} tí wọ́n kó ọkọ̀ ayọ́kẹ́lẹ́ wọlé, ọkọ̀ọ̀kan ní ọkọ̀ ayọ́kẹ́lẹ́ {num_digit_2, 5} nínú. Ní ọjọ́ Kejì, ọ̀pọ̀ ọkọ̀ akẹ́rù mìíràn ni wọ́n tún kó wọlé, èyí tí àpapọ̀ àwọn ọkọ̀ ní èbúté náà sì di {num_digit_3, 30}. Ṣe ìṣirò iye ọkọ̀ akẹ́rù tí wọ́n kó wọlé ní ọjọ́ kejì, ká ní gbogbo àwọn ọkọ̀ akẹ́rù náà ní ọkọ̀ ayọ́kẹ́lẹ́ {num_digit_4, 5}.",
+  "question_solution": "answer = (num_digit_3 - num_digit_1 * num_digit_2) / num_digit_4",
+  "conditions": [
+    "int(answer) == (num_digit_3 - num_digit_1 * num_digit_2) / num_digit_4",
+    "(num_digit_3 - num_digit_1 * num_digit_2) % num_digit_4 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > num_digit_1 * num_digit_2",
+    "num_digit_4 > 0",
+    "num_digit_2 == num_digit_4"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "num_digit_2": [
+      7,
+      6,
+      8,
+      9,
+      4,
+      3,
+      12,
+      11,
+      13,
+      10
+    ],
+    "num_digit_3": [
+      63,
+      54,
+      72,
+      126,
+      64,
+      45,
+      180,
+      165,
+      195,
+      220
+    ],
+    "num_digit_4": [
+      7,
+      6,
+      8,
+      9,
+      4,
+      3,
+      12,
+      11,
+      13,
+      10
+    ],
+    "answer": [
+      6,
+      5,
+      4,
+      8,
+      9,
+      7,
+      6,
+      5,
+      4,
+      10
+    ],
+    "num_ic": [
+      25,
+      93,
+      67,
+      45,
+      61,
+      116,
+      30,
+      69,
+      81,
+      122
+    ]
+  },
+  "ic_question_template": "Arákùnrin ọ̀ffisà náà ló ń bójú tó àpótí ẹrù {num_ic, 68} nínú ilé-itaja tó wà nítòsí. Ọlọ́pàá aṣọ́bodè kan ní èbúté ìyanjú ẹrù Seaside ka àwọn ọkọ̀ akẹ́rù ẹrù {num_digit_1, 2} tí wọ́n kó ọkọ̀ ayọ́kẹ́lẹ́ wọlé, ọkọ̀ọ̀kan ní ọkọ̀ ayọ́kẹ́lẹ́ {num_digit_2, 5} nínú. Ní ọjọ́ Kejì, ọ̀pọ̀ ọkọ̀ akẹ́rù mìíràn ni wọ́n tún kó wọlé, èyí tí àpapọ̀ àwọn ọkọ̀ ní èbúté náà sì di {num_digit_3, 30}. Ṣe ìṣirò iye ọkọ̀ akẹ́rù tí wọ́n kó wọlé ní ọjọ́ kejì, ká ní gbogbo àwọn ọkọ̀ akẹ́rù náà ní ọkọ̀ ayọ́kẹ́lẹ́ {num_digit_4, 5}.",
+  "ic_sentence": "Arákùnrin ọ̀ffisà náà ló ń bójú tó àpótí ẹrù {num_ic, 68} nínú ilé-itaja tó wà nítòsí."
+}

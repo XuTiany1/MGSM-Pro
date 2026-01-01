@@ -1,0 +1,81 @@
+{
+  "original_question": "Agba omi ti ó ní omi 120 liters ninu. Celine lo 90 litres ninu omi inú agba omi náà ṣe ọgbà kékeré rẹ̀. Lẹ́yìn náà ó ní àfààní láti gba omi òjò tí ó tó ìlọ́po méjì ohun tí ó kù. Litres omi mélòó ló wà nínú agba omi báyìí?",
+  "original_answer": 90,
+  "question_template": "Agba omi ti ó ní omi {num_digit_1, 120} liters ninu. {name_female, Celine} lo {num_digit_2, 90} litres ninu omi inú agba omi náà ṣe ọgbà kékeré rẹ̀. Lẹ́yìn náà ó ní àfààní láti gba omi òjò tí ó tó {num_text_1, ìlọ́po méjì} ohun tí ó kù. Litres omi mélòó ló wà nínú agba omi báyìí?",
+  "question_solution": "answer = (num_digit_1 - num_digit_2) * (1 + f1)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 - num_digit_2) * (1 + f1)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "f1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Celine"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      437,
+      521,
+      998,
+      743,
+      629,
+      845,
+      907,
+      377,
+      1241,
+      510
+    ],
+    "num_digit_2": [
+      139,
+      321,
+      698,
+      543,
+      329,
+      645,
+      607,
+      177,
+      941,
+      310
+    ],
+    "num_text_1": [
+      "lẹmeji",
+      "Ìkẹta",
+      "ìkẹrin",
+      "ìgbà márùn-ún",
+      "ẹ̀ẹ̀mefa",
+      "ìkẹfàláàdọrin",
+      "ìkejìlélọ́kànjọ̀jọ",
+      "Ìgbà mẹ́sàn-án",
+      "Ẹẹwàá.",
+      "ẹẹ̀gbẹ̀rin méjìlélọ́gọ́rin"
+    ],
+    "answer": [
+      894,
+      800,
+      1500,
+      1200,
+      2100,
+      1600,
+      2700,
+      2000,
+      3300,
+      2400
+    ],
+    "num_ic": [
+      388,
+      320,
+      868,
+      1164,
+      247,
+      702,
+      965,
+      738,
+      481,
+      1061
+    ]
+  },
+  "ic_question_template": "Ọmọ-èmẹ́sìn {name_female, Celine} rà {num_ic, 388} irúbulubu tulip ní orisun omi tó kọjá. Agba omi ti ó ní omi {num_digit_1, 120} liters ninu. {name_female, Celine} lo {num_digit_2, 90} litres ninu omi inú agba omi náà ṣe ọgbà kékeré rẹ̀. Lẹ́yìn náà ó ní àfààní láti gba omi òjò tí ó tó {num_text_1, ìlọ́po méjì} ohun tí ó kù. Litres omi mélòó ló wà nínú agba omi báyìí?",
+  "ic_sentence": "Ọmọ-èmẹ́sìn {name_female, Celine} rà {num_ic, 388} irúbulubu tulip ní orisun omi tó kọjá."
+}

@@ -1,0 +1,90 @@
+{
+  "original_question": "Akwai dodon kodi guda 4 a cikin akwatin kifaye daya da wasu dodon kodin 32 a wani akwatin kifayen. Bambanci tsakanin adadin dodon kodi a cikin akwatunan guda biyu shine adadin kifaye sau biyu na cikin duka akwatunan. Idan duka akatunan suna da adadin kifaye iri ɗaya a cikinsu, kifaye nawa ne a kowace akwatin kifayen?",
+  "original_answer": 7,
+  "question_template": "Akwai dodon kodi guda {num_digit_1, 4} a cikin akwatin kifaye daya da wasu dodon kodin {num_digit_2, 32} a wani akwatin kifayen. Bambanci tsakanin adadin dodon kodi a cikin akwatunan guda {num_text_1, biyu} shine adadin kifaye sau {num_text_2, biyu} na cikin duka akwatunan. Idan duka akatunan suna da adadin kifaye iri ɗaya a cikinsu, kifaye nawa ne a kowace akwatin kifayen?",
+  "question_solution": "answer = (num_digit_2 - num_digit_1) / (2 * f2)   # f2 is the numeric value of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_2 - num_digit_1) / (2 * f2)",
+    "num_digit_2 > num_digit_1",
+    "num_digit_1 >= 0",
+    "f2 > 0",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      33,
+      47,
+      25,
+      9,
+      58,
+      73,
+      101,
+      66,
+      82
+    ],
+    "num_digit_2": [
+      84,
+      129,
+      119,
+      137,
+      57,
+      154,
+      211,
+      277,
+      174,
+      202
+    ],
+    "num_text_1": [
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu"
+    ],
+    "num_text_2": [
+      "sau biyu",
+      "sau uku",
+      "sau shida",
+      "sau hudu",
+      "sau uku",
+      "sau takwas",
+      "sau uku",
+      "sau hudu",
+      "sau uku",
+      "sau biyar"
+    ],
+    "answer": [
+      18,
+      16,
+      6,
+      14,
+      8,
+      6,
+      23,
+      22,
+      18,
+      12
+    ],
+    "num_ic": [
+      22,
+      49,
+      131,
+      198,
+      13,
+      104,
+      173,
+      278,
+      92,
+      154
+    ]
+  },
+  "ic_question_template": "Ɗan'uwan {name_male, Michael} yana da guppies {num_ic, 15} a gida. Akwai dodon kodi guda {num_digit_1, 4} a cikin akwatin kifaye daya da wasu dodon kodin {num_digit_2, 32} a wani akwatin kifayen. Bambanci tsakanin adadin dodon kodi a cikin akwatunan guda {num_text_1, biyu} shine adadin kifaye sau {num_text_2, biyu} na cikin duka akwatunan. Idan duka akatunan suna da adadin kifaye iri ɗaya a cikinsu, kifaye nawa ne a kowace akwatin kifayen?",
+  "ic_sentence": "Ɗan'uwan {name_male, Michael} yana da guppies {num_ic, 15} a gida."
+}

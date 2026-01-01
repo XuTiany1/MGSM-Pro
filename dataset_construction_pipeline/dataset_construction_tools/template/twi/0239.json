@@ -1,0 +1,91 @@
+{
+  "original_question": "Na sukuufoɔ a wɔwɔ sukuu asa so dodoɔ yɛ 1,000. Na asa no so wɔ  ɛkwan mmiensa ɛyɛ A, B, ne C, a ɛno nso kyɛ apueeɛ no. Sɛ adesua bi wie a, sukuufoɔ no mu 30% fi edan no mu fa ɔkwan A so, 3/5 aka no faa ɔkwan B so, na wɔn a aka no faa ekwan C so a, susu sukuufoɔ dodoɔ a wofi ɔkwan C so no ho.",
+  "original_answer": 280,
+  "question_template": "{name_students, Sukuufoɔ} a wɔwɔ sukuu asa so dodoɔ yɛ {num_digit_1, 1000}. Na asa no so wɔ ɛkwan {num_digit_2, mmiensa} ɛyɛ A, B, ne C, a ɛno nso kyɛ apueeɛ no. Sɛ adesua bi wie a, sukuufoɔ no mu {num_digit_3, 30}% fi edan no mu fa ɔkwan A so, {num_frac_1, 3/5} aka no faa ɔkwan B so, na wɔn a aka no faa ekwan C so a, susu sukuufoɔ dodoɔ a wofi ɔkwan C so no ho.",
+  "question_solution": "answer = num_digit_1 * (1 - num_digit_3/100) * (1 - f1)   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 - num_digit_3/100) * (1 - f1)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "0 < f1 < 1",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1200,
+      1500,
+      1400,
+      1600,
+      1800,
+      1100,
+      800,
+      1300,
+      1400,
+      1500
+    ],
+    "num_digit_2": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "num_digit_3": [
+      37,
+      43,
+      29,
+      56,
+      14,
+      82,
+      67,
+      51,
+      93,
+      26
+    ],
+    "num_frac_1": [
+      "ka baako",
+      "mmaenum abien",
+      "mpɛnason abiɛsa so ason",
+      "anum mu awɔtoɔ nwɔtwe",
+      "nanson kyɛ nkron",
+      "anan nsia mu nan",
+      "nkron duodwane",
+      "du kɛseɛ baako mu du",
+      "duɔbaako mu dunan nan",
+      "du-mienu nsia-nnum"
+    ],
+    "answer": [
+      378,
+      513,
+      568,
+      264,
+      344,
+      126,
+      66,
+      147,
+      21,
+      148
+    ],
+    "num_ic": [
+      54,
+      138,
+      81,
+      128,
+      142,
+      58,
+      117,
+      125,
+      77,
+      76
+    ]
+  },
+  "ic_question_template": "akyerɛkyerεfoɔ {num_ic, 95} nyaa adesua nwoma foforɔ saa da no. Sukuufoɔ a wɔwɔ sukuu asa so dodoɔ yɛ {num_digit_1, 1000}. Na asa no so wɔ ɛkwan {num_digit_2, mmiensa} ɛyɛ A, B, ne C, a ɛno nso kyɛ apueeɛ no. Sɛ adesua bi wie a, sukuufoɔ no mu {num_digit_3, 30}% fi edan no mu fa ɔkwan A so, {num_frac_1, 3/5} aka no faa ɔkwan B so, na wɔn a aka no faa ekwan C so a, susu sukuufoɔ dodoɔ a wofi ɔkwan C so no ho.",
+  "ic_sentence": "akyerɛkyerεfoɔ {num_ic, 95} nyaa adesua nwoma foforɔ saa da no."
+}

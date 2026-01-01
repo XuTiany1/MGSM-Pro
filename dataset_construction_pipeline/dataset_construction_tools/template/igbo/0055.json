@@ -1,0 +1,79 @@
+{
+  "original_question": "Jean nwere lọlipọp iri atọ. Jean riri lọlipọp abụọ. Ya na lọlịpọp fọdụrụ, Jean chọrọ ikechi ngwugwu lọlịpọp abụọ n'ime otu akpa. Akpa ole ka Jean ga-ekpojunwu?",
+  "original_answer": 14,
+  "question_template": "{name_male, Jean} nwere lọlipọp {num_digit_1, 30}. {name_male, Jean} riri lọlipọp {num_digit_2, 2}. Ya na lọlịpọp fọdụrụ, {name_male, Jean} chọrọ ikechi ngwugwu lọlịpọp {num_digit_3, 2} n'ime otu akpa. Akpa ole ka {name_male, Jean} ga-ekpojunwu?",
+  "question_solution": "answer = (num_digit_1 - num_digit_2) / num_digit_3",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_digit_2) / num_digit_3",
+    "(num_digit_1 - num_digit_2) % num_digit_3 == 0",
+    "num_digit_1 > num_digit_2",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jean"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      53,
+      89,
+      47,
+      82,
+      96,
+      67,
+      75,
+      84,
+      98,
+      120
+    ],
+    "num_digit_2": [
+      17,
+      23,
+      5,
+      30,
+      26,
+      13,
+      15,
+      12,
+      14,
+      20
+    ],
+    "num_digit_3": [
+      4,
+      11,
+      7,
+      13,
+      5,
+      9,
+      6,
+      8,
+      12,
+      10
+    ],
+    "answer": [
+      9,
+      6,
+      6,
+      4,
+      14,
+      6,
+      10,
+      9,
+      7,
+      10
+    ],
+    "num_ic": [
+      44,
+      267,
+      100,
+      285,
+      196,
+      69,
+      42,
+      416,
+      53,
+      495
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_male, Jean} zụrụ bọlụụ {num_ic, 94} n’ụbọchị gara aga. {name_male, Jean} nwere lọlipọp {num_digit_1, 30}. {name_male, Jean} riri lọlipọp {num_digit_2, 2}. Ya na lọlịpọp fọdụrụ, {name_male, Jean} chọrọ ikechi ngwugwu lọlịpọp {num_digit_3, 2} n'ime otu akpa. Akpa ole ka {name_male, Jean} ga-ekpojunwu?",
+  "ic_sentence": "Nwanne nna {name_male, Jean} zụrụ bọlụụ {num_ic, 94} n’ụbọchị gara aga."
+}

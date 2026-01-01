@@ -1,0 +1,151 @@
+{
+  "original_question": "Sasha notices that prices for lumber have gone up 50% in the last few months after she bought some lumber. Since she has leftovers, she decides to sell them. She has leftover ten 2 × 4 × 10 boards that cost her $10 each. She also has five 4 × 4 × 10 boards she bought for $16 each. If she sells them all, how much profit does she make?",
+  "original_answer": 90,
+  "question_template": "{name_female, Sasha} notices that prices for lumber have gone up {num_digit_1, 50}% in the last few months after she bought some lumber. Since she has leftovers, she decides to sell them. She has leftover ten {num_digit_2, 2} × {num_digit_3, 4} × {num_digit_4, 10} boards that cost her ${num_digit_5, 10} each. She also has five {num_digit_6, 4} × {num_digit_7, 4} × {num_digit_8, 10} boards she bought for ${num_digit_9, 16} each. If she sells them all, how much profit does she make?",
+  "question_solution": "answer = (num_digit_1 / 100) * (10 * num_digit_5 + 5 * num_digit_9)",
+  "conditions": [
+    "answer == (num_digit_1 / 100) * (10 * num_digit_5 + 5 * num_digit_9)",
+    "num_digit_1 > 0",
+    "num_digit_5 > 0",
+    "num_digit_9 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sasha"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      45,
+      62,
+      38,
+      55,
+      70,
+      25,
+      80,
+      47,
+      33,
+      90
+    ],
+    "num_digit_2": [
+      2,
+      3,
+      2,
+      4,
+      3,
+      5,
+      2,
+      3,
+      4,
+      6
+    ],
+    "num_digit_3": [
+      4,
+      5,
+      3,
+      4,
+      6,
+      4,
+      5,
+      4,
+      3,
+      4
+    ],
+    "num_digit_4": [
+      10,
+      12,
+      8,
+      14,
+      10,
+      16,
+      12,
+      10,
+      14,
+      18
+    ],
+    "num_digit_5": [
+      11,
+      14,
+      20,
+      9,
+      13,
+      18,
+      16,
+      12,
+      15,
+      21
+    ],
+    "num_digit_6": [
+      4,
+      5,
+      6,
+      3,
+      5,
+      6,
+      4,
+      7,
+      5,
+      8
+    ],
+    "num_digit_7": [
+      4,
+      4,
+      5,
+      5,
+      6,
+      4,
+      5,
+      4,
+      5,
+      6
+    ],
+    "num_digit_8": [
+      10,
+      12,
+      8,
+      14,
+      10,
+      16,
+      12,
+      18,
+      14,
+      20
+    ],
+    "num_digit_9": [
+      19,
+      25,
+      28,
+      15,
+      22,
+      30,
+      24,
+      18,
+      20,
+      27
+    ],
+    "answer": [
+      92.25,
+      164.3,
+      129.2,
+      90.75,
+      168.0,
+      82.5,
+      224.0,
+      98.7,
+      82.5,
+      310.5
+    ],
+    "num_ic": [
+      36,
+      54,
+      52,
+      38,
+      66,
+      25,
+      73,
+      46,
+      32,
+      84
+    ]
+  },
+  "ic_question_template": "{name_female, Sasha} notices that prices for lumber have gone up {num_digit_1, 50}% in the last few months after she bought some lumber. Since she has leftovers, she decides to sell them. She has leftover ten {num_digit_2, 2} × {num_digit_3, 4} × {num_digit_4, 10} boards that cost her ${num_digit_5, 10} each. She also has five {num_digit_6, 4} × {num_digit_7, 4} × {num_digit_8, 10} boards she bought for ${num_digit_9, 16} each. {name_female, Sasha}'s uncle keeps {num_ic, 84} paintbrushes in his garage. If she sells them all, how much profit does she make?",
+  "ic_sentence": "{name_female, Sasha}'s uncle keeps {num_ic, 84} paintbrushes in his garage."
+}

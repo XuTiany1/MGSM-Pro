@@ -1,0 +1,67 @@
+{
+  "original_question": "Lloyd wɔ nkosua afuo. Ne nkokɔ no to nkosua 252 da biara na wɔtɔnn ԑmu du mmienu biara $2. Sika sԑn na Lloyd nya wɔ nkosua ho wɔ nnawɔtwe biara mu?",
+  "original_answer": 294,
+  "question_template": "{name_male, Lloyd} wɔ nkosua afuo. Ne nkokɔ no to nkosua {num_digit_1, 252} da biara na wɔtɔnn ԑmu du mmienu biara ${num_digit_2, 2}. Sika sԑn na {name_male, Lloyd} nya wɔ nkosua ho wɔ nnawɔtwe biara mu?",
+  "question_solution": "answer = (num_digit_1 * 7 * num_digit_2) / 12",
+  "conditions": [
+    "int(answer) == (num_digit_1 * 7 * num_digit_2) / 12",
+    "((num_digit_1 * 7 * num_digit_2) / 12).is_integer()",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Lloyd"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      252,
+      180,
+      216,
+      240,
+      288,
+      312,
+      348,
+      384,
+      420,
+      456
+    ],
+    "num_digit_2": [
+      2,
+      2,
+      1.5,
+      3.5,
+      1.75,
+      3.5,
+      3,
+      3.25,
+      4,
+      2.5
+    ],
+    "answer": [
+      294,
+      210,
+      189,
+      490,
+      294,
+      637,
+      609,
+      728,
+      980,
+      665
+    ],
+    "num_ic": [
+      161,
+      387,
+      226,
+      442,
+      168,
+      437,
+      249,
+      100,
+      362,
+      393
+    ]
+  },
+  "ic_question_template": "{name_male, Lloyd} wɔfa no akɔtɔ anomaa {num_ic, 105}. {name_male, Lloyd} wɔ nkosua afuo. Ne nkokɔ no to nkosua {num_digit_1, 252} da biara na wɔtɔnn ԑmu du mmienu biara ${num_digit_2, 2}. Sika sԑn na {name_male, Lloyd} nya wɔ nkosua ho wɔ nnawɔtwe biara mu?",
+  "ic_sentence": "{name_male, Lloyd} wɔfa no akɔtɔ anomaa {num_ic, 105}."
+}

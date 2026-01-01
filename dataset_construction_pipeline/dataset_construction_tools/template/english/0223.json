@@ -1,0 +1,65 @@
+{
+  "original_question": "A company spends $15000 on advertising for a year, and then spends a third of that amount on advertising for another year. What's the total amount the company spent on advertising for the two years?",
+  "original_answer": 20000,
+  "question_template": "A company spends ${num_digit_1, 15000} on advertising for a year, and then spends {num_frac_1, a third} of that amount on advertising for another year. What's the total amount the company spent on advertising for the two years?",
+  "question_solution": "answer = num_digit_1 * (1 + f1)   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 + f1)",
+    "num_digit_1 > 0",
+    "0 < f1 < 1",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15000,
+      18000,
+      14000,
+      21000,
+      16000,
+      12500,
+      28000,
+      18900,
+      24000,
+      32400
+    ],
+    "num_frac_1": [
+      "one third",
+      "one quarter",
+      "one fifth",
+      "two thirds",
+      "three quarters",
+      "two fifths",
+      "three fifths",
+      "four sevenths",
+      "five eighths",
+      "seven ninths"
+    ],
+    "answer": [
+      20000,
+      22500,
+      16800,
+      35000,
+      28000,
+      17500,
+      44800,
+      29700,
+      39000,
+      57600
+    ],
+    "num_ic": [
+      91,
+      95,
+      27,
+      218,
+      110,
+      90,
+      139,
+      56,
+      183,
+      277
+    ]
+  },
+  "ic_question_template": "A company spends ${num_digit_1, 15000} on advertising for a year, and then spends {num_frac_1, a third} of that amount on advertising for another year. The CEO's nephew delivered {num_ic, 91} pizzas during the annual meeting. What's the total amount the company spent on advertising for the two years?",
+  "ic_sentence": "The CEO's nephew delivered {num_ic, 91} pizzas during the annual meeting."
+}

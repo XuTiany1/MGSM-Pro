@@ -1,0 +1,108 @@
+{
+  "original_question": "Pour ses 30 ans, Elvira a choisi comme cadeau un nouvel ordinateur avec de nombreux accessoires. Elle dispose d'un budget de 1 500 € offert par toute sa famille et pense qu'elle pourra en garder un peu pour s'offrir un vêtement. Elle se rend dans un magasin d'informatique et choisit une appareil qui coûte 1090 € avec un écran, un clavier et une souris. Elle se procure également un scanner de 157 €, un graveur de CD de 74 € et une imprimante de 102 €. Combien d'argent lui restera-t-il pour ses vêtements ?",
+  "original_answer": 77,
+  "question_template": "Pour ses {num_digit_1, 30} ans, {name_female, Elvira} a choisi comme cadeau un nouvel ordinateur avec de nombreux accessoires. Elle dispose d'un budget de {num_digit_2, 1 500} € offert par toute sa famille et pense qu'elle pourra en garder un peu pour s'offrir un vêtement. Elle se rend dans un magasin d'informatique et choisit un appareil qui coûte {num_digit_3, 1 090} € avec un écran, un clavier et une souris. Elle se procure également un scanner de {num_digit_4, 157} €, un graveur de CD de {num_digit_5, 74} € et une imprimante de {num_digit_6, 102} €. Combien d'argent lui restera-t-il pour ses vêtements ?",
+  "question_solution": "answer = num_digit_2 - (num_digit_3 + num_digit_4 + num_digit_5 + num_digit_6)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 - (num_digit_3 + num_digit_4 + num_digit_5 + num_digit_6)",
+    "num_digit_2 > num_digit_3 + num_digit_4 + num_digit_5 + num_digit_6",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Elvira"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      30,
+      35,
+      28,
+      26,
+      32,
+      31,
+      29,
+      33,
+      27,
+      34
+    ],
+    "num_digit_2": [
+      1800,
+      2200,
+      1700,
+      2500,
+      2000,
+      3000,
+      2400,
+      2600,
+      2100,
+      1900
+    ],
+    "num_digit_3": [
+      1230,
+      1500,
+      980,
+      1850,
+      1100,
+      2250,
+      1490,
+      1580,
+      1350,
+      1000
+    ],
+    "num_digit_4": [
+      210,
+      300,
+      150,
+      275,
+      200,
+      310,
+      190,
+      210,
+      160,
+      180
+    ],
+    "num_digit_5": [
+      125,
+      120,
+      87,
+      130,
+      150,
+      140,
+      90,
+      130,
+      80,
+      75
+    ],
+    "num_digit_6": [
+      95,
+      175,
+      140,
+      90,
+      60,
+      160,
+      95,
+      120,
+      85,
+      68
+    ],
+    "answer": [
+      140,
+      105,
+      343,
+      155,
+      490,
+      140,
+      535,
+      560,
+      425,
+      577
+    ]
+  },
+  "ic_question_template": "{name_female, Elvira} a une tante qui a acheté {num_ic, 84} clés USB la semaine dernière. Pour ses {num_digit_1, 30} ans, {name_female, Elvira} a choisi comme cadeau un nouvel ordinateur avec de nombreux accessoires. Elle dispose d'un budget de {num_digit_2, 1 500} € offert par toute sa famille et pense qu'elle pourra en garder un peu pour s'offrir un vêtement. Elle se rend dans un magasin d'informatique et choisit un appareil qui coûte {num_digit_3, 1 090} € avec un écran, un clavier et une souris. Elle se procure également un scanner de {num_digit_4, 157} €, un graveur de CD de {num_digit_5, 74} € et une imprimante de {num_digit_6, 102} €. Combien d'argent lui restera-t-il pour ses vêtements ?",
+  "ic_sentence": "{name_female, Elvira} a une tante qui a acheté {num_ic, 84} clés USB la semaine dernière."
+}

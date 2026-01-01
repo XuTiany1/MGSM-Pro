@@ -1,0 +1,67 @@
+{
+  "original_question": "John afa ɔkraman bi abԑtena ne nkyԑn. Ͻfa ɔkraman no kɔ ɔsiesiefoɔ bi hɔ, na ɔtua $100. Ͻsiesiefoɔ no ma no ntesoɔ 20% esiane sԑ ɔyԑ ɔdetɔni foforɔ. Asiesie no boɔ no yԑ sԑn?",
+  "original_answer": 70,
+  "question_template": "{name_male, John} afa ɔkraman bi abԑtena ne nkyԑn. Ͻfa ɔkraman no kɔ ɔsiesiefoɔ bi hɔ, na ɔtua ${num_digit_1, 100}. Ͻsiesiefoɔ no ma no ntesoɔ {num_digit_2, 30}% esiane sԑ ɔyԑ ɔdetɔni foforɔ. Asiesie no boɔ no yԑ sԑn?",
+  "question_solution": "answer = num_digit_1 * (1 - num_digit_2/100)",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 - num_digit_2/100)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_2 < 100"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      120,
+      80,
+      250,
+      200,
+      150,
+      180,
+      175,
+      300,
+      90,
+      100
+    ],
+    "num_digit_2": [
+      25,
+      20,
+      40,
+      15,
+      20,
+      10,
+      20,
+      40,
+      10,
+      30
+    ],
+    "answer": [
+      90,
+      64,
+      150,
+      170,
+      120,
+      162,
+      140,
+      180,
+      81,
+      70
+    ],
+    "num_ic": [
+      15,
+      35,
+      17,
+      46,
+      28,
+      51,
+      63,
+      22,
+      70,
+      19
+    ]
+  },
+  "ic_question_template": "{name_male, John's} wɔfa wɔ agyinamoa {num_ic, 13}. {name_male, John} afa ɔkraman bi abԑtena ne nkyԑn. Ͻfa ɔkraman no kɔ ɔsiesiefoɔ bi hɔ, na ɔtua ${num_digit_1, 100}. Ͻsiesiefoɔ no ma no ntesoɔ {num_digit_2, 30}% esiane sԑ ɔyԑ ɔdetɔni foforɔ. Asiesie no boɔ no yԑ sԑn?",
+  "ic_sentence": "{name_male, John's} wɔfa wɔ agyinamoa {num_ic, 13}."
+}

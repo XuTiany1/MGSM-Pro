@@ -1,0 +1,106 @@
+{
+  "original_question": "John n'atụ atụmatụ ire ngwa egwuregwu ya ma were ego ahụ zụta ihe egwuregwu vidio. Ọ nwere lego iri na atọ ma ọ na-ere ha $15 otunaotu. O mechara zụta ihe egwuregwu vidio asatọ bụ $20 otunaotu ma nwee $5 fọdụrụ. Lego ole ka ọ ka nwere?",
+  "original_answer": 2,
+  "question_template": "{name_male, John} n'atụ atụmatụ ire ngwa egwuregwu ya ma were ego ahụ zụta ihe egwuregwu vidio. Ọ nwere lego {num_digit_1, 13} ma ọ na-ere ha ${num_digit_2, 15} otunaotu. O mechara zụta ihe egwuregwu vidio {num_digit_3, 8} bụ ${num_digit_4, 20} otunaotu ma nwee ${num_digit_5, 5} fọdụrụ. Lego ole ka ọ ka nwere?",
+  "question_solution": "answer = num_digit_1 - ((num_digit_3 * num_digit_4 + num_digit_5) / num_digit_2)",
+  "conditions": [
+    "int(answer) == num_digit_1 - ((num_digit_3 * num_digit_4 + num_digit_5) / num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 > 0",
+    "num_digit_5 >= 0",
+    "(num_digit_3 * num_digit_4 + num_digit_5) % num_digit_2 == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      20,
+      17,
+      12,
+      18,
+      15,
+      30,
+      19,
+      25,
+      27,
+      24
+    ],
+    "num_digit_2": [
+      19,
+      22,
+      9,
+      17,
+      23,
+      23,
+      29,
+      27,
+      19,
+      17
+    ],
+    "num_digit_3": [
+      14,
+      11,
+      5,
+      11,
+      6,
+      13,
+      5,
+      11,
+      13,
+      9
+    ],
+    "num_digit_4": [
+      20,
+      27,
+      13,
+      18,
+      21,
+      11,
+      17,
+      31,
+      27,
+      18
+    ],
+    "num_digit_5": [
+      5,
+      11,
+      7,
+      6,
+      12,
+      18,
+      2,
+      10,
+      10,
+      8
+    ],
+    "answer": [
+      5,
+      3,
+      4,
+      6,
+      9,
+      23,
+      16,
+      12,
+      8,
+      14
+    ],
+    "num_ic": [
+      32,
+      38,
+      13,
+      52,
+      67,
+      41,
+      86,
+      22,
+      49,
+      59
+    ]
+  },
+  "ic_question_template": "Nwanne nne {name_male, John} zutere mkpụrụ ihe ngosi ọgụ {num_ic, 38} n’afọ gara aga. {name_male, John} n'atụ atụmatụ ire ngwa egwuregwu ya ma were ego ahụ zụta ihe egwuregwu vidio. Ọ nwere lego {num_digit_1, 13} ma ọ na-ere ha ${num_digit_2, 15} otunaotu. O mechara zụta ihe egwuregwu vidio {num_digit_3, 8} bụ ${num_digit_4, 20} otunaotu ma nwee ${num_digit_5, 5} fọdụrụ. Lego ole ka ọ ka nwere?",
+  "ic_sentence": "Nwanne nne {name_male, John} zutere mkpụrụ ihe ngosi ọgụ {num_ic, 38} n’afọ gara aga."
+}

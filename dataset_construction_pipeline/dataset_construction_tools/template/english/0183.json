@@ -1,0 +1,128 @@
+{
+  "original_question": "Two track teams are competing against each other in a 4 by 400 meter relay; a race where each competing team has four members that each run 400 meters, or one lap, around a standard track. One of the two teams is very well-rounded and each of their members will run their 400 meter leg in precisely 55 seconds. The other team is less well-rounded; their first runner will run their 400 meter leg in 60 seconds then each subsequent runner will be 3 seconds faster than the previous runner. Using this information, how many seconds will the faster team win by?",
+  "original_answer": 2,
+  "question_template": "{num_text_1, Two} track teams are competing against each other in a {num_digit_1, 4} by {num_digit_2, 400} meter relay; a race where each competing team has {num_text_2, four} members that each run {num_digit_2, 400} meters, or one lap, around a standard track. One of the {num_text_1, two}  teams is very well-rounded and each of their members will run their {num_digit_2, 400} meter leg in precisely {num_digit_3, 55} seconds. The other team is less well-rounded; their first runner will run their {num_digit_2, 400} meter leg in {num_digit_4, 60} seconds then each subsequent runner will be {num_digit_5, 3} seconds faster than the previous runner. Using this information, how many seconds will the faster team win by?",
+  "question_solution": "answer = (num_digit_4 + (num_digit_4 - num_digit_5) + (num_digit_4 - 2*num_digit_5) + (num_digit_4 - 3*num_digit_5)) - (f2 * num_digit_3)   # f2 is the numeric value of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_4 + (num_digit_4 - num_digit_5) + (num_digit_4 - 2*num_digit_5) + (num_digit_4 - 3*num_digit_5)) - (f2 * num_digit_3)",
+    "f2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "Two",
+      "Two",
+      "Two",
+      "Two",
+      "Two",
+      "Two",
+      "Two",
+      "Two",
+      "Two",
+      "Two"
+    ],
+    "num_digit_1": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "num_digit_2": [
+      400,
+      400,
+      400,
+      400,
+      400,
+      400,
+      400,
+      400,
+      400,
+      400
+    ],
+    "num_text_2": [
+      "four",
+      "four",
+      "four",
+      "four",
+      "four",
+      "four",
+      "four",
+      "four",
+      "four",
+      "four"
+    ],
+    "num_digit_3": [
+      55,
+      50,
+      52,
+      48,
+      53,
+      56,
+      57,
+      54,
+      59,
+      60
+    ],
+    "num_digit_4": [
+      60,
+      58,
+      64,
+      60,
+      62,
+      67,
+      65,
+      63,
+      68,
+      70
+    ],
+    "num_digit_5": [
+      3,
+      4,
+      5,
+      6,
+      5,
+      3,
+      4,
+      5,
+      4,
+      5
+    ],
+    "answer": [
+      2,
+      8,
+      18,
+      12,
+      6,
+      26,
+      8,
+      6,
+      12,
+      10
+    ],
+    "num_ic": [
+      13,
+      66,
+      29,
+      92,
+      113,
+      53,
+      27,
+      83,
+      70,
+      41
+    ]
+  },
+  "ic_question_template": "{num_text_1, Two} track teams are competing against each other in a {num_digit_1, 4} by {num_digit_2, 400} meter relay; a race where each competing team has {num_text_2, four} members that each run {num_digit_2, 400} meters, or one lap, around a standard track. One of the {num_text_1, two}  teams is very well-rounded and each of their members will run their {num_digit_2, 400} meter leg in precisely {num_digit_3, 55} seconds. One coach's uncle recently bought {num_ic, 113} new hurdles for the school. The other team is less well-rounded; their first runner will run their {num_digit_2, 400} meter leg in {num_digit_4, 60} seconds then each subsequent runner will be {num_digit_5, 3} seconds faster than the previous runner. Using this information, how many seconds will the faster team win by?",
+  "ic_sentence": "One coach's uncle recently bought {num_ic, 113} new hurdles for the school."
+}

@@ -1,0 +1,81 @@
+{
+  "original_question": "Na Bere a na ɔwɔ dollar sotɔɔ hɔ no, Sloane buu nkontaa sɛ adetɔfoɔ 100 na wɔbaa hɔ. Na eda no a edi hɔ no, ɔkan adetɔfoɔ 50 a na wɔnsen da no a na edi kan no. Sɛ na adetɔfoɔ no dodoɔ yɛ 500 da a ɛto so mmiensa no a, adetɔfoɔ dodoɔ ahe na ɔkan wɔ da a ɛto so mmiensa no?",
+  "original_answer": 250,
+  "question_template": "Na Bere a na ɔwɔ dollar sotɔɔ hɔ no, {name_female, Sloane} buu nkontaa sɛ adetɔfoɔ {num_digit_1, 100} na wɔbaa hɔ. Na eda no a edi hɔ no, ɔkan adetɔfoɔ {num_digit_2, 50} a na wɔnsen da no a na edi kan no. Sɛ na adetɔfoɔ no dodoɔ yɛ {num_digit_3, 500} da a ɛto so mmiensa no a, adetɔfoɔ dodoɔ ahe na ɔkan wɔ da a ɛto so mmiensa no?",
+  "question_solution": "answer = num_digit_3 - (2 * num_digit_1 + num_digit_2)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_3 - (2 * num_digit_1 + num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sloane"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      157,
+      248,
+      369,
+      431,
+      529,
+      612,
+      703,
+      814,
+      925,
+      1134
+    ],
+    "num_digit_2": [
+      59,
+      153,
+      284,
+      312,
+      449,
+      588,
+      614,
+      733,
+      821,
+      956
+    ],
+    "num_digit_3": [
+      496,
+      1105,
+      1811,
+      1495,
+      2161,
+      2799,
+      2131,
+      2583,
+      3004,
+      3668
+    ],
+    "answer": [
+      123,
+      456,
+      789,
+      321,
+      654,
+      987,
+      111,
+      222,
+      333,
+      444
+    ],
+    "num_ic": [
+      176,
+      925,
+      1216,
+      793,
+      129,
+      615,
+      428,
+      398,
+      539,
+      1068
+    ]
+  },
+  "ic_question_template": "{name_female, Sloane} wɔfa no too blueberry pie {num_ic, 93} de kɔɔ adeto gua so. {name_female, Sloane} buu nkontaa sɛ adetɔfoɔ {num_digit_1, 100} na wɔbaa hɔ. Na eda no a edi hɔ no, ɔkan adetɔfoɔ {num_digit_2, 50} a na wɔnsen da no a na edi kan no. Sɛ na adetɔfoɔ no dodoɔ yɛ {num_digit_3, 500} da a ɛto so mmiensa no a, adetɔfoɔ dodoɔ ahe na ɔkan wɔ da a ɛto so mmiensa no?",
+  "ic_sentence": "{name_female, Sloane} wɔfa no too blueberry pie {num_ic, 93} de kɔɔ adeto gua so."
+}

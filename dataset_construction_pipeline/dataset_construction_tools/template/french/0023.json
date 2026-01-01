@@ -1,0 +1,39 @@
+{
+  "original_question": "Une bougie allumée fond et perd 2 centimètres toutes les heures. Combien de centimètres la bougie aura-t-elle perdus après avoir brûlé de 13 h à 17 h ?",
+  "original_answer": 8,
+  "question_template": "Une bougie allumée fond et perd {num_digit_1, 2} centimètres toutes les heures. Combien de centimètres la bougie aura-t-elle perdus après avoir brûlé de 13 h à 17 h ?",
+  "question_solution": "answer = num_digit_1 * 4",
+  "conditions": [
+    "int(answer) == num_digit_1 * 4",
+    "num_digit_1 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      101,
+      103,
+      107,
+      109,
+      113,
+      127,
+      131,
+      137,
+      139,
+      149
+    ],
+    "answer": [
+      404,
+      412,
+      428,
+      436,
+      452,
+      508,
+      524,
+      548,
+      556,
+      596
+    ]
+  },
+  "ic_question_template": "{name_female, Emily} a un oncle qui a apporté {num_ic, 63} allumettes à la fête. Une bougie allumée fond et perd {num_digit_1, 2} centimètres toutes les heures. Combien de centimètres la bougie aura-t-elle perdus après avoir brûlé de 13 h à 17 h ?",
+  "ic_sentence": "{name_female, Emily} a un oncle qui a apporté {num_ic, 63} allumettes à la fête."
+}

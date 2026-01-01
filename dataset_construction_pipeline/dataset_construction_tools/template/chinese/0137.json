@@ -1,0 +1,133 @@
+{
+  "original_question": "罗瑞订购了 2 份潜水艇汉堡（每份 7.50 美元）、2 包薯条（每包 1.50 美元）和 2 份曲奇饼（每份 1.00 美元）的外卖。结账时需多付 20% 的配送费，而且她想加上 5.00 美元的小费。她的这份外卖多少钱？",
+  "original_answer": 29,
+  "question_template": "{name_male, 罗瑞} 订购了 {num_digit_1, 2} 份潜水艇汉堡（每份 {num_digit_2, 7.50} 美元）、{num_digit_3, 2} 包薯条（每包 {num_digit_4, 1.50} 美元）和 {num_digit_5, 2} 份曲奇饼（每份 {num_digit_6, 1.00} 美元）的外卖。结账时需多付 {num_digit_7, 20}% 的配送费，而且她想加上 {num_digit_8, 5.00} 美元的小费。她的这份外卖多少钱？",
+  "question_solution": "answer = (num_digit_1 * num_digit_2 + num_digit_3 * num_digit_4 + num_digit_5 * num_digit_6) * (1 + num_digit_7 / 100) + num_digit_8",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 * num_digit_2 + num_digit_3 * num_digit_4 + num_digit_5 * num_digit_6) * (1 + num_digit_7 / 100) + num_digit_8",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0",
+    "num_digit_7 > 0",
+    "num_digit_8 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Rory"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      2,
+      9,
+      9,
+      7,
+      3,
+      8,
+      4,
+      3,
+      1,
+      7
+    ],
+    "num_digit_2": [
+      7,
+      8,
+      8,
+      8,
+      9,
+      6,
+      11,
+      11,
+      11,
+      7
+    ],
+    "num_digit_3": [
+      5,
+      6,
+      5,
+      4,
+      4,
+      1,
+      4,
+      5,
+      3,
+      5
+    ],
+    "num_digit_4": [
+      2,
+      1,
+      2,
+      4,
+      1,
+      4,
+      4,
+      4,
+      3,
+      1
+    ],
+    "num_digit_5": [
+      2,
+      5,
+      2,
+      6,
+      1,
+      6,
+      1,
+      5,
+      4,
+      6
+    ],
+    "num_digit_6": [
+      1,
+      2,
+      3,
+      3,
+      1,
+      2,
+      2,
+      3,
+      1,
+      1
+    ],
+    "num_digit_7": [
+      50,
+      50,
+      25,
+      30,
+      50,
+      25,
+      50,
+      50,
+      50,
+      10
+    ],
+    "num_digit_8": [
+      8,
+      8,
+      10,
+      10,
+      9,
+      10,
+      9,
+      4,
+      10,
+      7
+    ],
+    "answer": [
+      47,
+      140,
+      120,
+      127,
+      57,
+      90,
+      102,
+      106,
+      46,
+      73
+    ]
+  },
+  "ic_question_template": "{name_male, 罗里} 的姑妈每周五订购 {num_ic, 19} 份沙拉。{name_male, 罗瑞} 订购了 {num_digit_1, 2} 份潜水艇汉堡（每份 {num_digit_2, 7.50} 美元）、{num_digit_3, 2} 包薯条（每包 {num_digit_4, 1.50} 美元）和 {num_digit_5, 2} 份曲奇饼（每份 {num_digit_6, 1.00} 美元）的外卖。结账时需多付 {num_digit_7, 20}% 的配送费，而且她想加上 {num_digit_8, 5.00} 美元的小费。她的这份外卖多少钱？",
+  "ic_sentence": "{name_male, 罗里} 的姑妈每周五订购 {num_ic, 19} 份沙拉。"
+}

@@ -1,0 +1,69 @@
+{
+  "original_question": "杰姬正试图决定自己处理税务事宜，还是聘请一名会计。如果她自己处理税务事宜，她能做自由职业的工作的时间就会减少 3 小时，造成错过的收入为每小时损失 35 美元。会计的费用为 90 美元。如果她聘用会计，则会多获得多少钱？",
+  "original_answer": 15,
+  "question_template": "{name_female, 杰姬} 正试图决定自己处理税务事宜，还是聘请一名会计。如果她自己处理税务事宜，她能做自由职业的工作的时间就会减少 {num_digit_1, 3} 小时，造成错过的收入为每小时损失 {num_digit_2, 35} 美元。会计的费用为 {num_digit_3, 90} 美元。如果她聘用会计，则会多获得多少钱？",
+  "question_solution": "answer = num_digit_1 * num_digit_2 - num_digit_3",
+  "conditions": [
+    "answer == num_digit_1 * num_digit_2 - num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "answer > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Jackie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      13,
+      27,
+      32,
+      45,
+      58,
+      63,
+      74,
+      81,
+      96,
+      100
+    ],
+    "num_digit_2": [
+      57,
+      64,
+      72,
+      81,
+      93,
+      104,
+      117,
+      128,
+      139,
+      150
+    ],
+    "num_digit_3": [
+      345,
+      789,
+      1234,
+      1573,
+      2345,
+      2876,
+      3456,
+      4123,
+      4789,
+      5321
+    ],
+    "answer": [
+      396,
+      939,
+      1070,
+      2072,
+      3049,
+      3676,
+      5202,
+      6245,
+      8555,
+      9679
+    ]
+  },
+  "ic_question_template": "{name_female, 杰基} 的叔叔最近买了 {num_ic, 97} 本税务书。{name_female, 杰姬} 正试图决定自己处理税务事宜，还是聘请一名会计。如果她自己处理税务事宜，她能做自由职业的工作的时间就会减少 {num_digit_1, 3} 小时，造成错过的收入为每小时损失 {num_digit_2, 35} 美元。会计的费用为 {num_digit_3, 90} 美元。如果她聘用会计，则会多获得多少钱？",
+  "ic_sentence": "{name_female, 杰基} 的叔叔最近买了 {num_ic, 97} 本税务书。"
+}

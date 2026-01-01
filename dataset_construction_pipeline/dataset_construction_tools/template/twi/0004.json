@@ -1,0 +1,103 @@
+{
+  "original_question": "Da biara, Wendi de nkokɔ aduane kuruwa mmiԑnsa, a ԑwɔ mma, asonsono ne atosodeԑ na ԑma ne nkokɔ no na wɔnho ayԑ wɔn den. Ͻde aduane no ma nkokɔ no mprԑ dodoɔ mmiԑnsa. Anɔpa no, ɔma ne nkokɔ no aduane kuruwa 15. Awia no, ɔma nkokɔ no aduane kuruwa 25 bio. Aduane kuruwa sԑn na ɔhia sԑ ɔde bԑma nkokɔ no wɔ aduanema a ԑtwa toɔ wɔ da no mu sԑ Wendi nkokɔ no dodoɔ nyinaa yԑ 20 a?",
+  "original_answer": 20,
+  "question_template": "Da biara, {name_female, Wendi} de nkokɔ aduane kuruwa {num_text_1, mmiɛnsa}, a ԑwɔ mma, asonsono ne atosodeԑ na ԑma ne nkokɔ no na wɔnho ayԑ wɔn den. Ͻde aduane no ma nkokɔ no mprԑ dodoɔ {num_text_2, mmiɛnsa}. Anɔpa no, ɔma ne nkokɔ no aduane kuruwa {num_digit_1, 15}. Awia no, ɔma nkokɔ no aduane kuruwa {num_digit_2, 25} bio. Aduane kuruwa sԑn na ɔhia sԑ ɔde bԑma nkokɔ no wɔ aduanema a ԑtwa toɔ wɔ da no mu sԑ Wendi nkokɔ no dodoɔ nyinaa yԑ {num_digit_3, 20} a?",
+  "question_solution": "answer = num_text_1 * num_digit_3 - num_digit_1 - num_digit_2",
+  "conditions": [
+    "int(answer) == num_text_1 * num_digit_3 - num_digit_1 - num_digit_2",
+    "answer > 0",
+    "num_text_1 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Wendi"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "duakoɔ baako",
+      "du-mienu",
+      "duonu nsia",
+      "du nkron",
+      "aduasa-mienu",
+      "aduonu nkron",
+      "aduasa baako",
+      "aduasa nan",
+      "aduɔson baako",
+      "aduɔson-nsa"
+    ],
+    "num_text_2": [
+      "mmiɛnsa",
+      "mmiɛnsa",
+      "mmiɛnsa",
+      "mmiɛnsa",
+      "mmiɛnsa",
+      "mmiɛnsa",
+      "mmiɛnsa",
+      "mmiɛnsa",
+      "mmiɛnsa",
+      "mmiɛnsa"
+    ],
+    "num_digit_1": [
+      118,
+      176,
+      160,
+      231,
+      322,
+      446,
+      520,
+      672,
+      782,
+      880
+    ],
+    "num_digit_2": [
+      217,
+      322,
+      292,
+      422,
+      589,
+      816,
+      950,
+      1227,
+      1429,
+      1607
+    ],
+    "num_digit_3": [
+      47,
+      59,
+      41,
+      53,
+      61,
+      67,
+      73,
+      79,
+      83,
+      89
+    ],
+    "answer": [
+      182,
+      269,
+      245,
+      354,
+      492,
+      681,
+      793,
+      1024,
+      1192,
+      1340
+    ],
+    "num_ic": [
+      68,
+      431,
+      200,
+      136,
+      233,
+      569,
+      326,
+      743,
+      693,
+      674
+    ]
+  },
+  "ic_question_template": "{name_female, Wendi} wɔfa boaboa nkosua {num_ic, 69} firii ne dabodabo dan mu nnɛda. Da biara, {name_female, Wendi} de nkokɔ aduane kuruwa {num_text_1, mmiɛnsa}, a ԑwɔ mma, asonsono ne atosodeԑ na ԑma ne nkokɔ no na wɔnho ayԑ wɔn den. Ͻde aduane no ma nkokɔ no mprԑ dodoɔ {num_text_2, mmiɛnsa}. Anɔpa no, ɔma ne nkokɔ no aduane kuruwa {num_digit_1, 15}. Awia no, ɔma nkokɔ no aduane kuruwa {num_digit_2, 25} bio. Aduane kuruwa sԑn na ɔhia sԑ ɔde bԑma nkokɔ no wɔ aduanema a ԑtwa toɔ wɔ da no mu sԑ Wendi nkokɔ no dodoɔ nyinaa yԑ {num_digit_3, 20} a?",
+  "ic_sentence": "{name_female, Wendi} wɔfa boaboa nkosua {num_ic, 69} firii ne dabodabo dan mu nnɛda."
+}

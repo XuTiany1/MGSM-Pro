@@ -1,0 +1,80 @@
+{
+  "original_question": "Janet ra ohun ọ̀ṣọ́ fún ọmọbìnrin rẹ̀. Ó san $500 fún ohun èlò láti ṣe é àti $800 mìíràn fún aṣọ̀ṣó látí ṣe é. Lẹ́yìn náà, ó san 10% ìyẹn fún ìdójútòfò. Èló ní ó san?",
+  "original_answer": 1430,
+  "question_template": "{name_female, Janet} ra ohun ọ̀ṣọ́ fún ọmọbìnrin rẹ̀. Ó san ${num_digit_1, 500} fún ohun èlò láti ṣe é àti ${num_digit_2, 800} mìíràn fún aṣọ̀ṣó látí ṣe é. Lẹ́yìn náà, ó san {num_digit_3, 10}% ìyẹn fún ìdójútòfò. Èló ní ó san?",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) * (1 + num_digit_3/100)",
+  "conditions": [
+    "int(answer) == (num_digit_1 + num_digit_2) * (1 + num_digit_3/100)",
+    "((num_digit_1 + num_digit_2) * num_digit_3) % 100 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Janet"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      450,
+      375,
+      580,
+      610,
+      450,
+      333,
+      520,
+      1400,
+      845,
+      777
+    ],
+    "num_digit_2": [
+      650,
+      825,
+      920,
+      790,
+      1050,
+      667,
+      780,
+      600,
+      1155,
+      223
+    ],
+    "num_digit_3": [
+      10,
+      15,
+      12,
+      8,
+      20,
+      25,
+      7,
+      5,
+      18,
+      22
+    ],
+    "answer": [
+      1210,
+      1380,
+      1680,
+      1512,
+      1800,
+      1250,
+      1391,
+      2100,
+      2360,
+      1220
+    ],
+    "num_ic": [
+      26,
+      33,
+      42,
+      121,
+      99,
+      44,
+      62,
+      57,
+      128,
+      115
+    ]
+  },
+  "ic_question_template": "Arákùnrin {name_female, Janet} rí owó àtọkẹ́hìn {num_ic, 35} nínú agbárí ilé rẹ̀. {name_female, Janet} ra ohun ọ̀ṣọ́ fún ọmọbìnrin rẹ̀. Ó san ${num_digit_1, 500} fún ohun èlò láti ṣe é àti ${num_digit_2, 800} mìíràn fún aṣọ̀ṣó látí ṣe é. Lẹ́yìn náà, ó san {num_digit_3, 10}% ìyẹn fún ìdójútòfò. Èló ní ó san?",
+  "ic_sentence": "Arákùnrin {name_female, Janet} rí owó àtọkẹ́hìn {num_ic, 35} nínú agbárí ilé rẹ̀."
+}

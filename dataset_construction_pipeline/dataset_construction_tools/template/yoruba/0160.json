@@ -1,0 +1,78 @@
+{
+  "original_question": "Àgbá omi kan ní ìjìnlẹ̀ 17 feet ní ọjọ́ Ajé. Ní ọjọ́ Ìṣẹ́gun, àgbá omi náà ní ẹ̀kún-un omi 7 feet sí i. Ní ọjọ́rú, ìjìnlẹ̀ omi náà jẹ́ ìdá méjì nínú mẹ́ta ohun tí ó jẹ́ lọ́jọ́ Ìṣẹ́gun. Kí ni ìjìnlẹ̀ àgbá omi náà lọ́jọ́rú?",
+  "original_answer": 16,
+  "question_template": "Àgbá omi kan ní ìjìnlẹ̀ {num_digit_1, 17} feet ní ọjọ́ Ajé. Ní ọjọ́ Ìṣẹ́gun, àgbá omi náà ní ẹ̀kún-un omi {num_digit_2, 7} feet sí i. Ní ọjọ́rú, ìjìnlẹ̀ omi náà jẹ́ {num_frac_1, ìdá méjì nínú mẹ́ta} ohun tí ó jẹ́ lọ́jọ́ Ìṣẹ́gun. Kí ni ìjìnlẹ̀ àgbá omi náà lọ́jọ́rú?",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) * num_frac_1",
+  "conditions": [
+    "answer == (num_digit_1 + num_digit_2) * num_frac_1",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "0 < num_frac_1 && num_frac_1 < 1",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      18,
+      20,
+      15,
+      22,
+      27,
+      16,
+      21,
+      26,
+      25,
+      14
+    ],
+    "num_digit_2": [
+      6,
+      4,
+      15,
+      8,
+      3,
+      8,
+      9,
+      4,
+      5,
+      10
+    ],
+    "num_frac_1": [
+      "3/4",
+      "2/3",
+      "1/2",
+      "3/5",
+      "5/6",
+      "5/6",
+      "4/5",
+      "7/10",
+      "1/3",
+      "2/3"
+    ],
+    "answer": [
+      18,
+      16,
+      15,
+      18,
+      25,
+      20,
+      24,
+      21,
+      10,
+      16
+    ],
+    "num_ic": [
+      79,
+      112,
+      42,
+      137,
+      163,
+      94,
+      89,
+      204,
+      137,
+      118
+    ]
+  },
+  "ic_question_template": "Unkúlù {name_male, Brian} ṣàyẹ̀wò ìpele omi inú tánkì náà {num_ic, 79} ìgbà lọ́dún tó kọjá. Àgbá omi kan ní ìjìnlẹ̀ {num_digit_1, 17} feet ní ọjọ́ Ajé. Ní ọjọ́ Ìṣẹ́gun, àgbá omi náà ní ẹ̀kún-un omi {num_digit_2, 7} feet sí i. Ní ọjọ́rú, ìjìnlẹ̀ omi náà jẹ́ {num_frac_1, ìdá méjì nínú mẹ́ta} ohun tí ó jẹ́ lọ́jọ́ Ìṣẹ́gun. Kí ni ìjìnlẹ̀ àgbá omi náà lọ́jọ́rú?",
+  "ic_sentence": "Unkúlù {name_male, Brian} ṣàyẹ̀wò ìpele omi inú tánkì náà {num_ic, 79} ìgbà lọ́dún tó kọjá."
+}

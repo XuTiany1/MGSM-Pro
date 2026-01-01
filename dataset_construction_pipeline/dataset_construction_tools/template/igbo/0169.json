@@ -1,0 +1,67 @@
+{
+  "original_question": "Pancho na-aga ije mailụ iri abụọ n'ụbọchị. Ewezuga ngwụcha izu ụka mgbe ọ na-aga ije mailụ iri. Mailụ ole ka ọ na-aga n'otu izu?",
+  "original_answer": 120,
+  "question_template": "Pancho {name_male, Pancho} na-aga ije mailụ {num_digit_1, 20} n'ụbọchị. Ewezuga ngwụcha izu ụka mgbe ọ na-aga ije mailụ {num_digit_2, 10}. Mailụ ole ka ọ na-aga n'otu izu?",
+  "question_solution": "answer = num_digit_1 * 5 + num_digit_2 * 2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * 5 + num_digit_2 * 2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Pancho"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      137,
+      289,
+      523,
+      784,
+      1024,
+      2047,
+      3056,
+      4096,
+      5123,
+      10000
+    ],
+    "num_digit_2": [
+      73,
+      146,
+      289,
+      333,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384
+    ],
+    "answer": [
+      831,
+      1737,
+      3193,
+      4586,
+      6144,
+      12283,
+      19376,
+      28672,
+      41999,
+      82768
+    ],
+    "num_ic": [
+      748,
+      1931,
+      426,
+      7689,
+      1321,
+      20470,
+      750,
+      9549,
+      4122,
+      7700
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_male, Pancho} nwere okpu {num_ic, 302}. Pancho {name_male, Pancho} na-aga ije mailụ {num_digit_1, 20} n'ụbọchị. Ewezuga ngwụcha izu ụka mgbe ọ na-aga ije mailụ {num_digit_2, 10}. Mailụ ole ka ọ na-aga n'otu izu?",
+  "ic_sentence": "Nwanne nna {name_male, Pancho} nwere okpu {num_ic, 302}."
+}

@@ -1,0 +1,94 @@
+{
+  "original_question": "Àpò o Halloween candy Joe ní ṣokoléètì 25 àti apples tó ní candy 80. Ọ̀pá ṣokoléètì kọ̀ọ̀kan ní ìwọ̀n ìlọ́po méjì iye ti apple tí ó ní candy kọ̀ọ̀kan. Tí ṣokoléètì kọ̀ọ̀kan bá wúwo ní ìwọn-ọn 40g, èló ni ìwọn-ọn wíwúwo àpò candy Joe ni grams?",
+  "original_answer": 2600,
+  "question_template": "Àpò o Halloween candy {name_male, Joe} ní ṣokoléètì {num_digit_1, 25} àti apples tó ní candy {num_digit_2, 80}. Ọ̀pá ṣokoléètì kọ̀ọ̀kan ní ìwọ̀n {num_text_1, ìlọ́po méjì} iye ti apple tí ó ní candy kọ̀ọ̀kan. Tí ṣokoléètì kọ̀ọ̀kan bá wúwo ní ìwọn-ọn {num_digit_3, 40}g, èló ni ìwọn-ọn wíwúwo àpò candy {name_male, Joe} ni grams?",
+  "question_solution": "answer = num_digit_1 * num_digit_3 + num_digit_2 * (num_digit_3 / f1)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_3 + num_digit_2 * (num_digit_3 / f1)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "f1 > 0",
+    "num_digit_3 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Joe"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      116,
+      53,
+      50,
+      135,
+      66,
+      106,
+      189,
+      70,
+      175,
+      191
+    ],
+    "num_digit_2": [
+      131,
+      147,
+      413,
+      224,
+      197,
+      222,
+      329,
+      263,
+      155,
+      249
+    ],
+    "num_text_1": [
+      "Ọkan àti idaji",
+      "mẹta kọkanla",
+      "mẹta ida mẹrin",
+      "mẹrin ninu marun",
+      "marun-un idaji mẹfa",
+      "méje kìí mẹjọ",
+      "mẹsan-an lara mẹwa",
+      "mókànlá lórí mejìlá",
+      "Mẹtala lara mẹrinla",
+      "mẹtadinlogun ida mẹjọla"
+    ],
+    "num_digit_3": [
+      54,
+      91,
+      48,
+      44,
+      95,
+      35,
+      27,
+      187,
+      130,
+      68
+    ],
+    "answer": [
+      10980,
+      10556,
+      28832,
+      18260,
+      28728,
+      12590,
+      14973,
+      66742,
+      44450,
+      30916
+    ],
+    "num_ic": [
+      206,
+      93,
+      493,
+      164,
+      271,
+      164,
+      441,
+      230,
+      393,
+      304
+    ]
+  },
+  "ic_question_template": "Ẹ̀gbọ́n {name_male, Joe} rà {num_ic, 112} lollipop fún àyẹyẹ kan. Àpò o Halloween candy {name_male, Joe} ní ṣokoléètì {num_digit_1, 25} àti apples tó ní candy {num_digit_2, 80}. Ọ̀pá ṣokoléètì kọ̀ọ̀kan ní ìwọ̀n {num_text_1, ìlọ́po méjì} iye ti apple tí ó ní candy kọ̀ọ̀kan. Tí ṣokoléètì kọ̀ọ̀kan bá wúwo ní ìwọn-ọn {num_digit_3, 40}g, èló ni ìwọn-ọn wíwúwo àpò candy {name_male, Joe} ni grams?",
+  "ic_sentence": "Ẹ̀gbọ́n {name_male, Joe} rà {num_ic, 112} lollipop fún àyẹyẹ kan."
+}

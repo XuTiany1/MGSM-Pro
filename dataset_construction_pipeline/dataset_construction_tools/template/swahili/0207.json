@@ -1,0 +1,94 @@
+{
+  "original_question": "Mfuko wa Joe wa pipi za Halloween una pipi 25 za chokoleti na pipi 80 za tufaha. Kila pipi ya chokoleti ina uzani wa mara mbili zaidi ya pipi ya tufaha. Ikiwa kila pipi ya chokoleti ina uzani wa gramu 40, mfuko wa Joe wa pipi una uzani gani kwa jumla, katika gramu?",
+  "original_answer": 2600,
+  "question_template": "Mfuko wa {name_male, Joe} wa pipi za Halloween una pipi {num_digit_1, 25} za chokoleti na pipi {num_digit_2, 80} za tufaha. Kila pipi ya chokoleti ina uzani wa mara {num_text_1, mbili} zaidi ya pipi ya tufaha. Ikiwa kila pipi ya chokoleti ina uzani wa gramu {num_digit_3, 40}, mfuko wa {name_male, Joe} wa pipi una uzani gani kwa jumla, katika gramu?",
+  "question_solution": "answer = num_digit_1 * num_digit_3 + num_digit_2 * (num_digit_3 / f1)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_3 + num_digit_2 * (num_digit_3 / f1)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "f1 > 0",
+    "num_digit_3 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Joe"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      116,
+      53,
+      50,
+      135,
+      66,
+      106,
+      189,
+      70,
+      175,
+      191
+    ],
+    "num_digit_2": [
+      131,
+      147,
+      413,
+      224,
+      197,
+      222,
+      329,
+      263,
+      155,
+      249
+    ],
+    "num_text_1": [
+      "moja na nusu",
+      "mbili na theluthi",
+      "robo tatu",
+      "nne ya tano",
+      "tano ya sita",
+      "saba ya nane",
+      "thuluthi tisa",
+      "kumi na moja ya kumi na mbili",
+      "kumi na tatu kumi na nne",
+      "kumi na saba kumi na nane"
+    ],
+    "num_digit_3": [
+      54,
+      91,
+      48,
+      44,
+      95,
+      35,
+      27,
+      187,
+      130,
+      68
+    ],
+    "answer": [
+      10980,
+      10556,
+      28832,
+      18260,
+      28728,
+      12590,
+      14973,
+      66742,
+      44450,
+      30916
+    ],
+    "num_ic": [
+      206,
+      93,
+      493,
+      164,
+      271,
+      164,
+      441,
+      230,
+      393,
+      304
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_male, Joe} alinunua pipi {num_ic, 112} kwa ajili ya sherehe. Mfuko wa {name_male, Joe} wa pipi za Halloween una pipi {num_digit_1, 25} za chokoleti na pipi {num_digit_2, 80} za tufaha. Kila pipi ya chokoleti ina uzani wa mara {num_text_1, mbili} zaidi ya pipi ya tufaha. Ikiwa kila pipi ya chokoleti ina uzani wa gramu {num_digit_3, 40}, mfuko wa {name_male, Joe} wa pipi una uzani gani kwa jumla, katika gramu?",
+  "ic_sentence": "Mjomba wa {name_male, Joe} alinunua pipi {num_ic, 112} kwa ajili ya sherehe."
+}

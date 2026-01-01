@@ -1,0 +1,55 @@
+{
+  "original_question": "潘乔每天步行 20 英里。周末除外，他在周末步行 10 英里。他一周步行多少英里？",
+  "original_answer": 120,
+  "question_template": "{name_male, 潘乔} 每天步行 {num_digit_1, 20} 英里。周末除外，他在周末步行 {num_digit_2, 10} 英里。他一周步行多少英里？",
+  "question_solution": "answer = num_digit_1 * 5 + num_digit_2 * 2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * 5 + num_digit_2 * 2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Pancho"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      137,
+      289,
+      523,
+      784,
+      1024,
+      2047,
+      3056,
+      4096,
+      5123,
+      10000
+    ],
+    "num_digit_2": [
+      73,
+      146,
+      289,
+      333,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384
+    ],
+    "answer": [
+      831,
+      1737,
+      3193,
+      4586,
+      6144,
+      12283,
+      19376,
+      28672,
+      41999,
+      82768
+    ]
+  },
+  "ic_question_template": "{name_male, 潘乔} 的叔叔有 {num_ic, 302} 顶帽子。{name_male, 潘乔} 每天步行 {num_digit_1, 20} 英里。周末除外，他在周末步行 {num_digit_2, 10} 英里。他一周步行多少英里？",
+  "ic_sentence": "{name_male, 潘乔} 的叔叔有 {num_ic, 302} 顶帽子。"
+}

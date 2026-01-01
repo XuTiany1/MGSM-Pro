@@ -1,0 +1,118 @@
+{
+  "original_question": "Kim ti bẹ̀rẹ̀ òwò ìtọ́jú ilé tirẹ̀ ó sì ń ṣe ìṣirò iye èrè tí yóò rí láti ọ̀dọ̀ àwọn oníbàárà rẹ̀. Ó ti ní àwọn oníbàárà 3 tẹ́lẹ̀, ṣùgbọ́n ó ń bá àwọn oníbàárà 5 mìíràn sọ̀rọ̀ ó sì ní ìgboyà tó láti fi wọ́n sínú ìṣirò rẹ̀. Ilé oníbàárà kọ̀ọ̀kan yóò nílò ìgò bleach méjì àti ọ̀pọ̀lọpọ̀ aṣọ láti nù ú. Ìgò bleach yóò jẹ́ $2 lọ́kọ̀ọ̀kan,  àwọn aṣọ yóò jẹ́ $5 lọ́kọ̀ọ̀kan. Gbogbo ìnáwó rẹ̀ kò jù báyìí lọ. Ó ṣe ìṣirò pé gbogbo owó tí ó ń wọlé fún un ní ọ̀sọ̀ọ̀sẹ̀ yóò jẹ́ $92. Èrè jẹ́ ìyàtọ̀ láàrin gbogbo owó tí ó ń wọlé àti gbogbo ìnáwó, nítorí náà èrè èló ni Lucas yóò máa rí ní ọ̀sọ̀ọ̀sẹ̀?",
+  "original_answer": 20,
+  "question_template": "{name_male, Kim} ti bẹ̀rẹ̀ òwò ìtọ́jú ilé tirẹ̀ ó sì ń ṣe ìṣirò iye èrè tí yóò rí láti ọ̀dọ̀ àwọn oníbàárà rẹ̀. Ó ti ní àwọn oníbàárà {num_digit_1, 3} tẹ́lẹ̀, ṣùgbọ́n ó ń bá àwọn oníbàárà {num_digit_2, 5} mìíràn sọ̀rọ̀ ó sì ní ìgboyà tó láti fi wọ́n sínú ìṣirò rẹ̀. Ilé oníbàárà kọ̀ọ̀kan yóò nílò ìgò bleach {num_digit_3, 2} àti ọ̀pọ̀lọpọ̀ aṣọ láti nù ú. Ìgò bleach yóò jẹ́ ${num_digit_4, 2} lọ́kọ̀ọ̀kan, àwọn aṣọ yóò jẹ́ ${num_digit_5, 5} lọ́kọ̀ọ̀kan. Gbogbo ìnáwó rẹ̀ kò jù báyìí lọ. Ó ṣe ìṣirò pé gbogbo owó tí ó ń wọlé fún un ní ọ̀sọ̀ọ̀sẹ̀ yóò jẹ́ ${num_digit_6, 92}. Èrè jẹ́ ìyàtọ̀ láàrin gbogbo owó tí ó ń wọlé àti gbogbo ìnáwó, nítorí náà èrè èló ni {name_male, Kim} yóò máa rí ní ọ̀sọ̀ọ̀sẹ̀?",
+  "question_solution": "answer = num_digit_6 - (num_digit_1 + num_digit_2) * (num_digit_3 * num_digit_4 + num_digit_5)",
+  "conditions": [
+    "answer == num_digit_6 - (num_digit_1 + num_digit_2) * (num_digit_3 * num_digit_4 + num_digit_5)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > (num_digit_1 + num_digit_2) * (num_digit_3 * num_digit_4 + num_digit_5)"
+  ],
+  "variable_word_list": {
+    "name_male": "Kim"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      2,
+      5,
+      6,
+      8,
+      3,
+      9,
+      10,
+      1,
+      7
+    ],
+    "num_digit_2": [
+      6,
+      8,
+      5,
+      3,
+      4,
+      7,
+      6,
+      5,
+      4,
+      8
+    ],
+    "num_digit_3": [
+      3,
+      1,
+      2,
+      2,
+      1,
+      4,
+      2,
+      3,
+      2,
+      2
+    ],
+    "num_digit_4": [
+      2,
+      4,
+      3,
+      4,
+      3,
+      2,
+      3,
+      4,
+      2,
+      5
+    ],
+    "num_digit_5": [
+      5,
+      3,
+      4,
+      6,
+      2,
+      3,
+      5,
+      6,
+      4,
+      5
+    ],
+    "num_digit_6": [
+      150,
+      100,
+      140,
+      200,
+      200,
+      180,
+      250,
+      400,
+      90,
+      350
+    ],
+    "answer": [
+      40,
+      30,
+      40,
+      74,
+      140,
+      70,
+      85,
+      130,
+      50,
+      125
+    ],
+    "num_ic": [
+      12,
+      36,
+      41,
+      44,
+      78,
+      74,
+      39,
+      46,
+      51,
+      69
+    ]
+  },
+  "ic_question_template": "Output: Kòkòrò {name_male, Kim} ráníì rà {num_ic, 12} mọ́tò fà àgbàrí fún ọjà tirẹ̀. {name_male, Kim} ti bẹ̀rẹ̀ òwò ìtọ́jú ilé tirẹ̀ ó sì ń ṣe ìṣirò iye èrè tí yóò rí láti ọ̀dọ̀ àwọn oníbàárà rẹ̀. Ó ti ní àwọn oníbàárà {num_digit_1, 3} tẹ́lẹ̀, ṣùgbọ́n ó ń bá àwọn oníbàárà {num_digit_2, 5} mìíràn sọ̀rọ̀ ó sì ní ìgboyà tó láti fi wọ́n sínú ìṣirò rẹ̀. Ilé oníbàárà kọ̀ọ̀kan yóò nílò ìgò bleach {num_digit_3, 2} àti ọ̀pọ̀lọpọ̀ aṣọ láti nù ú. Ìgò bleach yóò jẹ́ ${num_digit_4, 2} lọ́kọ̀ọ̀kan, àwọn aṣọ yóò jẹ́ ${num_digit_5, 5} lọ́kọ̀ọ̀kan. Gbogbo ìnáwó rẹ̀ kò jù báyìí lọ. Ó ṣe ìṣirò pé gbogbo owó tí ó ń wọlé fún un ní ọ̀sọ̀ọ̀sẹ̀ yóò jẹ́ ${num_digit_6, 92}. Èrè jẹ́ ìyàtọ̀ láàrin gbogbo owó tí ó ń wọlé àti gbogbo ìnáwó, nítorí náà èrè èló ni {name_male, Kim} yóò máa rí ní ọ̀sọ̀ọ̀sẹ̀?",
+  "ic_sentence": "Kòkòrò {name_male, Kim} ráníì rà {num_ic, 12} mọ́tò fà àgbàrí fún ọjà tirẹ̀."
+}

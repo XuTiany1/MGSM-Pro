@@ -1,0 +1,79 @@
+{
+  "original_question": "Nissa gba àwọn òṣìṣẹ‌ tó mọ ṣẹ́ 60 láti ṣeré elves ní abúlé Santa ti ilé ìtajà rẹ‌. Ìdá mẹ‌ta àwọn elves jáwọ‌ lẹ‌yìn tí àwọn ọmọdé bì sí wọn lára, lẹ‌yìn náà mẹ‌wàá nínú àwọn elves tó kù jáwọ‌ lẹ‌yìn tí àwọn ọmọdé ta wọ́n nípàá lágbọ̀n. Elves méèló ni ó kù?",
+  "original_answer": 30,
+  "question_template": "{name_female, Nissa} gba àwọn òṣìṣẹ‌ tó mọ ṣẹ́ {num_digit_1, 60} láti ṣeré elves ní abúlé Santa ti ilé ìtajà rẹ‌. {num_frac_1, Ìdá mẹ‌ta} àwọn elves jáwọ‌ lẹ‌yìn tí àwọn ọmọdé bì sí wọn lára, lẹ‌yìn náà {num_digit_2, 10} nínú àwọn elves tó kù jáwọ‌ lẹ‌yìn tí àwọn ọmọdé ta wọ́n nípàá lágbọ̀n. Elves méèló ni ó kù?",
+  "question_solution": "answer = num_digit_1 * (1 - num_frac_1) - num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 - num_frac_1) - num_digit_2",
+    "num_digit_1 > 0",
+    "0 < num_frac_1 && num_frac_1 < 1",
+    "(num_digit_1 * (1 - num_frac_1)) > num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_female": "Nissa"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      81,
+      96,
+      110,
+      84,
+      120,
+      108,
+      90,
+      75,
+      98,
+      132
+    ],
+    "num_frac_1": [
+      "1/9",
+      "3/8",
+      "1/5",
+      "5/12",
+      "7/15",
+      "1/6",
+      "4/9",
+      "2/5",
+      "3/7",
+      "5/11"
+    ],
+    "num_digit_2": [
+      17,
+      15,
+      22,
+      13,
+      12,
+      25,
+      20,
+      9,
+      11,
+      18
+    ],
+    "answer": [
+      55,
+      45,
+      66,
+      36,
+      52,
+      65,
+      30,
+      36,
+      45,
+      54
+    ],
+    "num_ic": [
+      53,
+      113,
+      41,
+      79,
+      94,
+      69,
+      104,
+      95,
+      57,
+      118
+    ]
+  },
+  "ic_question_template": "Ẹ̀gbọ́n bàbá {name_female, Nissa} máa ń gbé igi Kérésìmesì {num_ic, 87} dé ilé itaja ní gbogbo ọdún. {name_female, Nissa} gba àwọn òṣìṣẹ‌ tó mọ ṣẹ́ {num_digit_1, 60} láti ṣeré elves ní abúlé Santa ti ilé ìtajà rẹ‌. {num_frac_1, Ìdá mẹ‌ta} àwọn elves jáwọ‌ lẹ‌yìn tí àwọn ọmọdé bì sí wọn lára, lẹ‌yìn náà {num_digit_2, 10} nínú àwọn elves tó kù jáwọ‌ lẹ‌yìn tí àwọn ọmọdé ta wọ́n nípàá lágbọ̀n. Elves méèló ni ó kù?",
+  "ic_sentence": "Ẹ̀gbọ́n bàbá {name_female, Nissa} máa ń gbé igi Kérésìmesì {num_ic, 87} dé ilé itaja ní gbogbo ọdún."
+}

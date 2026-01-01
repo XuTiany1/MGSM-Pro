@@ -1,0 +1,67 @@
+{
+  "original_question": "loyd yana da gidan kaji. Kajinsa na samar da kwai 252 a kowace rana kuma yakan sayar da su kan $2 kan kowace dozin. Nawa Lloyd ke yi akan ƙwai a kowane mako?",
+  "original_answer": 294,
+  "question_template": "{name_male, Lloyd} yana da gidan kaji. Kajinsa na samar da ƙwai {num_digit_1, 252} a kowace rana kuma yakan sayar da su kan ${num_digit_2, 2} kan kowace dozin. Nawa {name_male, Lloyd} ke yi akan ƙwai a kowane mako?",
+  "question_solution": "answer = (num_digit_1 * 7 * num_digit_2) / 12",
+  "conditions": [
+    "int(answer) == (num_digit_1 * 7 * num_digit_2) / 12",
+    "((num_digit_1 * 7 * num_digit_2) / 12).is_integer()",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Lloyd"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      252,
+      180,
+      216,
+      240,
+      288,
+      312,
+      348,
+      384,
+      420,
+      456
+    ],
+    "num_digit_2": [
+      2,
+      2,
+      1.5,
+      3.5,
+      1.75,
+      3.5,
+      3,
+      3.25,
+      4,
+      2.5
+    ],
+    "answer": [
+      294,
+      210,
+      189,
+      490,
+      294,
+      637,
+      609,
+      728,
+      980,
+      665
+    ],
+    "num_ic": [
+      161,
+      387,
+      226,
+      442,
+      168,
+      437,
+      249,
+      100,
+      362,
+      393
+    ]
+  },
+  "ic_question_template": "Kawun {name_male, Lloyd} ya sayi agwagwa {num_ic, 105} kwanan nan. {name_male, Lloyd} yana da gidan kaji. Kajinsa na samar da ƙwai {num_digit_1, 252} a kowace rana kuma yakan sayar da su kan ${num_digit_2, 2} kan kowace dozin. Nawa {name_male, Lloyd} ke yi akan ƙwai a kowane mako?",
+  "ic_sentence": "Kawun {name_male, Lloyd} ya sayi agwagwa {num_ic, 105} kwanan nan."
+}

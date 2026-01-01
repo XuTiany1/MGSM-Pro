@@ -1,0 +1,118 @@
+{
+  "original_question": "Kim ameanza biashara yake ya kunadhifisha nyumba na anapiga hesabu ya faida atapata kutoka kwa wateja. Tayari ana wateja 3, lakini anaongea na wengine 5 na anahisi ujasiri wa kutosha wa kuwaongeza katika hesabu zake. Nyumba ya kila mteja itahitaji chupa 2 za klorini na kifurushi kimoja cha vitambaa vya kupangusa. Chupa za klorini ni $2 kwa kila moja na vifurushi vya vitambaa vitagharimu $5 kila kimoja. Hizi ndizo gharama zake pekee za matumizi. Anapiga hesabu kuwa jumla ya mapato yake kwa wiki itakuwa $92. Faida ni tofauti kati ya jumla ya mapato na jumla ya gharama ya matumizi, hivyo ni faida ya kiasi gani, katika dola, Kim atapata kiwa wiki?",
+  "original_answer": 20,
+  "question_template": "{name_male, Kim} ameanzisha biashara yake ya usafi wa nyumba na anahesabu ni faida kiasi gani atakayopata kutoka kwa wateja wake. Tayari ana wateja {num_digit_1, 3}, lakini anaongea na wateja wengine watarajiwa {num_digit_2, 5} na anajisikia ana uhakika wa kuwajumuisha kwenye mahesabu yake. Nyumba ya kila mteja itahitaji chupa {num_digit_3, 2} za bleach na kifurushi cha vitambaa vya kusafishia. Chupa za bleach zitagharimu ${num_digit_4, 2} kila moja na vifurushi vya vitambaa vitagharimu ${num_digit_5, 5} kila moja. Hivi ndivyo gharama zake pekee. Anakadiria kuwa jumla ya mapato yake kila wiki yatakuwa ${num_digit_6, 92}. Faida ni tofauti kati ya mapato yote na gharama zote, kwa hiyo {name_male, Kim} atapata faida ya dola ngapi kila wiki?",
+  "question_solution": "answer = num_digit_6 - (num_digit_1 + num_digit_2) * (num_digit_3 * num_digit_4 + num_digit_5)",
+  "conditions": [
+    "answer == num_digit_6 - (num_digit_1 + num_digit_2) * (num_digit_3 * num_digit_4 + num_digit_5)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > (num_digit_1 + num_digit_2) * (num_digit_3 * num_digit_4 + num_digit_5)"
+  ],
+  "variable_word_list": {
+    "name_male": "Kim"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      2,
+      5,
+      6,
+      8,
+      3,
+      9,
+      10,
+      1,
+      7
+    ],
+    "num_digit_2": [
+      6,
+      8,
+      5,
+      3,
+      4,
+      7,
+      6,
+      5,
+      4,
+      8
+    ],
+    "num_digit_3": [
+      3,
+      1,
+      2,
+      2,
+      1,
+      4,
+      2,
+      3,
+      2,
+      2
+    ],
+    "num_digit_4": [
+      2,
+      4,
+      3,
+      4,
+      3,
+      2,
+      3,
+      4,
+      2,
+      5
+    ],
+    "num_digit_5": [
+      5,
+      3,
+      4,
+      6,
+      2,
+      3,
+      5,
+      6,
+      4,
+      5
+    ],
+    "num_digit_6": [
+      150,
+      100,
+      140,
+      200,
+      200,
+      180,
+      250,
+      400,
+      90,
+      350
+    ],
+    "answer": [
+      40,
+      30,
+      40,
+      74,
+      140,
+      70,
+      85,
+      130,
+      50,
+      125
+    ],
+    "num_ic": [
+      12,
+      36,
+      41,
+      44,
+      78,
+      74,
+      39,
+      46,
+      51,
+      69
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_male, Kim} aliwahi kununua mashine za kusafisha {num_ic, 12} kwa ajili ya biashara yake mwenyewe. {name_male, Kim} ameanzisha biashara yake ya usafi wa nyumba na anahesabu ni faida kiasi gani atakayopata kutoka kwa wateja wake. Tayari ana wateja {num_digit_1, 3}, lakini anaongea na wateja wengine watarajiwa {num_digit_2, 5} na anajisikia ana uhakika wa kuwajumuisha kwenye mahesabu yake. Nyumba ya kila mteja itahitaji chupa {num_digit_3, 2} za bleach na kifurushi cha vitambaa vya kusafishia. Chupa za bleach zitagharimu ${num_digit_4, 2} kila moja na vifurushi vya vitambaa vitagharimu ${num_digit_5, 5} kila moja. Hivi ndivyo gharama zake pekee. Anakadiria kuwa jumla ya mapato yake kila wiki yatakuwa ${num_digit_6, 92}. Faida ni tofauti kati ya mapato yote na gharama zote, kwa hiyo {name_male, Kim} atapata faida ya dola ngapi kila wiki?",
+  "ic_sentence": "Mjomba wa {name_male, Kim} aliwahi kununua mashine za kusafisha {num_ic, 12} kwa ajili ya biashara yake mwenyewe."
+}

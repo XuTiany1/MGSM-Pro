@@ -1,0 +1,95 @@
+{
+  "original_question": "Steve àti Tim pinnu láti rí ẹni tí ó lè dé ilé láti ilé-ẹ̀kọ́ tí ó yára jù. Ibi tí Steve ń gbé jìnnà ju ti Tim lọ, nítorí náà wọ́n gbà á láàyè láti gun kẹ̀kẹ́ rẹ̀. Ibi ti Steve ń gbé tó máìlì mẹ́ta sí ilé-ẹ̀kọ́ náà, ó sì lè gun kẹ̀kẹ́ ní 440 feet láàrín ìṣẹ́jú kan. Tim ń gbé ní máìlì méjì sí ilé-ẹ̀kọ́ náà. Tí Tim bá lè gun skateboard rẹ̀ ní 264 feet láàrín ìṣẹ́jú kan, báwo ni olùborí yóò ṣe pẹ́ tó ní ilé wọn kí ẹni tí ó pàdánù tó parí eré-ìje náà?",
+  "original_answer": 4,
+  "question_template": "{name_male_1, Steve} àti {name_male_2, Tim} pinnu láti rí ẹni tí ó lè dé ilé láti ilé-ẹ̀kọ́ tí ó yára jù. Ibi tí {name_male_1, Steve} ń gbé jìnnà ju ti {name_male_2, Tim} lọ, nítorí náà wọ́n gbà á láàyè láti gun kẹ̀kẹ́ rẹ̀. Ibi ti {name_male_1, Steve} ń gbé tó máìlì {num_digit_1, 3} sí ilé-ẹ̀kọ́ náà, ó sì lè gun kẹ̀kẹ́ ní {num_digit_2, 440} feet láàrín ìṣẹ́jú kan. {name_male_2, Tim} ń gbé ní máìlì {num_digit_3, 2} sí ilé-ẹ̀kọ́ náà. Tí {name_male_2, Tim} bá lè gun skateboard rẹ̀ ní {num_digit_4, 264} feet láàrín ìṣẹ́jú kan, báwo ni olùborí yóò ṣe pẹ́ tó ní ilé wọn kí ẹni tí ó pàdánù tó parí eré-ìje náà?",
+  "question_solution": "answer = |5280 * num_digit_1 / num_digit_2 - 5280 * num_digit_3 / num_digit_4|",
+  "conditions": [
+    "answer == abs(5280 * num_digit_1 / num_digit_2 - 5280 * num_digit_3 / num_digit_4)",
+    "num_digit_1 > num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Steve",
+    "name_male_2": "Tim"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      9,
+      10,
+      8,
+      7,
+      5,
+      8,
+      9,
+      10,
+      3,
+      10
+    ],
+    "num_digit_2": [
+      120,
+      330,
+      220,
+      160,
+      160,
+      160,
+      220,
+      264,
+      480,
+      240
+    ],
+    "num_digit_3": [
+      7,
+      7,
+      5,
+      2,
+      3,
+      4,
+      6,
+      9,
+      1,
+      6
+    ],
+    "num_digit_4": [
+      264,
+      880,
+      165,
+      264,
+      132,
+      440,
+      880,
+      120,
+      110,
+      352
+    ],
+    "answer": [
+      256,
+      118,
+      32,
+      191,
+      45,
+      216,
+      180,
+      196,
+      15,
+      130
+    ],
+    "num_ic": [
+      32,
+      54,
+      11,
+      93,
+      36,
+      63,
+      17,
+      80,
+      17,
+      99
+    ]
+  },
+  "ic_question_template": "{name_male_1, Steve} àti {name_male_2, Tim} pinnu láti rí ẹni tí ó lè dé ilé láti ilé-ẹ̀kọ́ tí ó yára jù. Ibi tí {name_male_1, Steve} ń gbé jìnnà ju ti {name_male_2, Tim} lọ, nítorí náà wọ́n gbà á láàyè láti gun kẹ̀kẹ́ rẹ̀. Ibi ti {name_male_1, Steve} ń gbé tó máìlì {num_digit_1, 3} sí ilé-ẹ̀kọ́ náà, ó sì lè gun kẹ̀kẹ́ ní {num_digit_2, 440} feet láàrín ìṣẹ́jú kan. {name_male_2, Tim} ń gbé ní máìlì {num_digit_3, 2} sí ilé-ẹ̀kọ́ náà. Àbúròbìnrin {name_male_1, Steve} ní àwọn ologbo {num_ic, 34}. Tí {name_male_2, Tim} bá lè gun skateboard rẹ̀ ní {num_digit_4, 264} feet láàrín ìṣẹ́jú kan, báwo ni olùborí yóò ṣe pẹ́ tó ní ilé wọn kí ẹni tí ó pàdánù tó parí eré-ìje náà?",
+  "ic_sentence": "Àbúròbìnrin {name_male_1, Steve} ní àwọn ologbo {num_ic, 34}."
+}

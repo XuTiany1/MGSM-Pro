@@ -1,0 +1,120 @@
+{
+  "original_question": "Russel anafanya kazi katika duka la wanyama wapenzi na anasambaza mirija miongoni mwa wanyama wagugunaji. Panya wamewekwa katika mabanda 3 katika vikundi vinavyotoshana na kila panya amepewa vipande 6 vya mrija. Kuna mabanda 10 ya buku ambao wamewekwa pekee yao na kila buku anapewa mirija 5. Pia kuna kundi la sungura ambapo vipande 20 vya mrija vimegawanywa miongoni mwa sungura. Hakuna mrija uliotumika kwingine tena katika duka. Iwapo vipanade 160 vya mrija vilikuwa vimesambazwa miongoni mwa wanyama wagugumizi, kuna panya wangapi katika kila banda?",
+  "original_answer": 5,
+  "question_template": "{name_male, Russell} anafanya kazi katika duka la wanyama wapenzi na anasambaza mirija miongoni mwa wanyama wagugunaji. Panya wamewekwa katika mabanda {num_digit_1, 3} katika vikundi vinavyotoshana na kila panya amepewa vipande {num_digit_2, 6} vya mrija. Kuna mabanda {num_digit_3, 10} ya buku ambao wamewekwa pekee yao na kila buku anapewa mirija {num_digit_4, 5}. Pia kuna kundi la sungura ambapo vipande {num_digit_5, 20} vya mrija vimegawanywa miongoni mwa sungura. Hakuna mrija uliotumika kwingine tena katika duka. Iwapo vipande {num_digit_6, 160} vya mrija vilikuwa vimesambazwa miongoni mwa wanyama wagugumizi, kuna panya wangapi katika kila banda?",
+  "question_solution": "answer = (num_digit_6 - num_digit_3 * num_digit_4 - num_digit_5) / (num_digit_1 * num_digit_2)   # solve for rats per cage",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_6 - num_digit_3 * num_digit_4 - num_digit_5) / (num_digit_1 * num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 > 0",
+    "num_digit_5 >= 0",
+    "num_digit_6 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Russell"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      15,
+      16
+    ],
+    "num_digit_2": [
+      5,
+      8,
+      7,
+      9,
+      12,
+      3,
+      2,
+      6,
+      5,
+      10
+    ],
+    "num_digit_3": [
+      12,
+      10,
+      8,
+      9,
+      7,
+      11,
+      14,
+      15,
+      6,
+      13
+    ],
+    "num_digit_4": [
+      3,
+      4,
+      5,
+      6,
+      4,
+      5,
+      7,
+      4,
+      8,
+      9
+    ],
+    "num_digit_5": [
+      30,
+      50,
+      60,
+      75,
+      90,
+      100,
+      120,
+      65,
+      55,
+      40
+    ],
+    "num_digit_6": [
+      206,
+      330,
+      478,
+      444,
+      502,
+      425,
+      458,
+      701,
+      1153,
+      1597
+    ],
+    "answer": [
+      7,
+      6,
+      9,
+      5,
+      4,
+      10,
+      12,
+      8,
+      14,
+      9
+    ],
+    "num_ic": [
+      39,
+      65,
+      108,
+      125,
+      87,
+      106,
+      143,
+      64,
+      150,
+      92
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_male, Russell} anatunza hua {num_ic, 82} nyumbani kwake. {name_male, Russell} anafanya kazi katika duka la wanyama wapenzi na anasambaza mirija miongoni mwa wanyama wagugunaji. Panya wamewekwa katika mabanda {num_digit_1, 3} katika vikundi vinavyotoshana na kila panya amepewa vipande {num_digit_2, 6} vya mrija. Kuna mabanda {num_digit_3, 10} ya buku ambao wamewekwa pekee yao na kila buku anapewa mirija {num_digit_4, 5}. Pia kuna kundi la sungura ambapo vipande {num_digit_5, 20} vya mrija vimegawanywa miongoni mwa sungura. Hakuna mrija uliotumika kwingine tena katika duka. Iwapo vipande {num_digit_6, 160} vya mrija vilikuwa vimesambazwa miongoni mwa wanyama wagugumizi, kuna panya wangapi katika kila banda?",
+  "ic_sentence": "Mjomba wa {name_male, Russell} anatunza hua {num_ic, 82} nyumbani kwake."
+}

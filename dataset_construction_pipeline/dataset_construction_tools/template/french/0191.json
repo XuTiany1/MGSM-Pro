@@ -1,0 +1,54 @@
+{
+  "original_question": "Les canards ont besoin de manger 3,5 livres d'insectes par semaine pour survivre. Combien de livres d'insectes faut-il par jour à un troupeau de dix canards ?",
+  "original_answer": 5,
+  "question_template": "Les canards ont besoin de manger {num_digit_1, 3.5} livres d'insectes par semaine pour survivre. Combien de livres d'insectes faut-il par jour à un troupeau de {num_text_1, dix} canards ?",
+  "question_solution": "answer = num_digit_1 * f1 / 7   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * f1 / 7",
+    "num_digit_1 > 0",
+    "f1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      10.8181818182,
+      13.4615384615,
+      14.4117647059,
+      15.1052631579,
+      14.6086956522,
+      13.2758620689,
+      14.2258064516,
+      16.0810810811,
+      10.0731707317,
+      15.6279069767
+    ],
+    "num_text_1": [
+      "onze",
+      "treize",
+      "dix-sept",
+      "dix-neuf",
+      "vingt-trois",
+      "vingt-neuf",
+      "trente et un",
+      "trente-sept",
+      "quarante et un",
+      "quarante-trois"
+    ],
+    "answer": [
+      17,
+      25,
+      35,
+      41,
+      48,
+      55,
+      63,
+      85,
+      59,
+      96
+    ]
+  },
+  "ic_question_template": "{num_ic, 144} grenouilles vivent dans l’étang à côté du champ. Les canards ont besoin de manger {num_digit_1, 3.5} livres d'insectes par semaine pour survivre. Combien de livres d'insectes faut-il par jour à un troupeau de {num_text_1, dix} canards ?",
+  "ic_sentence": "{num_ic, 144} grenouilles vivent dans l’étang à côté du champ."
+}

@@ -1,0 +1,81 @@
+{
+  "original_question": "የብራንደን አይፎን ከቤን አይፎን በአራት እጥፍ ያረጀ ነው። የቤን አይፎን ከሱዚ አይፎን በሁለት እጥፍ ያረጀ ነው። የሱዚ አይፎን 1 ዓመት ከሆነው፣ የብራንደን አይፎን ስንት ዓመቱ ነው?",
+  "original_answer": 8,
+  "question_template": "Output: የ{name_male_1, ብራንደን} አይፎን ከ{name_male_2, ቤን} አይፎን በ{num_text_1, አምስት} እጥፍ ያረጀ ነው። የ{name_male_2, ቤን} አይፎን ከ{name_female, ሱዚ} አይፎን በ{num_text_2, ሦስት} እጥፍ ያረጀ ነው። የ{name_female, ሱዚ} አይፎን {num_digit_1, 2} ዓመት ከሆነው፣ የ{name_male_1, ብራንደን} አይፎን ስንት ዓመቱ ነው?",
+  "question_solution": "answer = NUM(num_text_1) * NUM(num_text_2) * num_digit_1",
+  "conditions": [
+    "int(answer) == NUM(num_text_1) * NUM(num_text_2) * num_digit_1",
+    "NUM(num_text_1) > 0",
+    "NUM(num_text_2) > 0",
+    "num_digit_1 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Brandon",
+    "name_male_2": "Ben",
+    "name_female": "Suzy"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "አምስት",
+      "ሰባት",
+      "ስምንት",
+      "ዘጠኝ",
+      "አንደኛ ያስራ አንድ",
+      "ዓሣራ ሶስት",
+      "አርባ አራት",
+      "አስራ አምስት",
+      "ዐሥራ ስድስት",
+      "አስራ ስምንት"
+    ],
+    "num_text_2": [
+      "ሶስት",
+      "አራት",
+      "አምስት",
+      "ስድስት",
+      "ሰባት",
+      "ሁለት",
+      "ዘጠኝ",
+      "አስር",
+      "አንደኛ ያስራ አንድ",
+      "አራት"
+    ],
+    "num_digit_1": [
+      2,
+      3,
+      1,
+      4,
+      2,
+      5,
+      3,
+      1,
+      2,
+      6
+    ],
+    "answer": [
+      30,
+      84,
+      40,
+      216,
+      154,
+      130,
+      378,
+      150,
+      352,
+      432
+    ],
+    "num_ic": [
+      8,
+      76,
+      14,
+      146,
+      108,
+      156,
+      181,
+      25,
+      74,
+      28
+    ]
+  },
+  "ic_question_template": "የ{name_male_1, ብራንደን} አይፎን ከ{name_male_2, ቤን} አይፎን በ{num_text_1, አምስት} እጥፍ ያረጀ ነው። የ{name_male_2, ቤን} አይፎን ከ{name_female, ሱዚ} አይፎን በ{num_text_2, ሦስት} እጥፍ ያረጀ ነው። የ{name_female, ሱዚ} አይፎን {num_digit_1, 2} ዓመት ከሆነው፣ የ{name_male_1, ብራንደን} አይፎን ስንት ዓመቱ ነው? የ{name_male_2, ቤን} አክስቱ በቅርቡ {num_ic, 15} የስልክ መክፈያዎች ገዛች።",
+  "ic_sentence": "የ{name_male_2, ቤን} አክስቱ በቅርቡ {num_ic, 15} የስልክ መክፈያዎች ገዛች።"
+}

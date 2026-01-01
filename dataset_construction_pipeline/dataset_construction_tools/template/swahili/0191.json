@@ -1,0 +1,66 @@
+{
+  "original_question": "Bata wanahitaji kula pauni 3.5 za wadudu kila wiki ili kuweza kuishi. Ikiwa kuna kundi la bata kumi, huwa wanakula pauni ngapi za wadudu kwa jumla kwa siku?",
+  "original_answer": 5,
+  "question_template": "Bata wanahitaji kula pauni {num_digit_1, 3.5} za wadudu kila wiki ili kuweza kuishi. Ikiwa kuna kundi la bata {num_text_1, kumi}, huwa wanakula pauni ngapi za wadudu kwa jumla kwa siku?",
+  "question_solution": "answer = num_digit_1 * f1 / 7   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * f1 / 7",
+    "num_digit_1 > 0",
+    "f1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      10.8181818182,
+      13.4615384615,
+      14.4117647059,
+      15.1052631579,
+      14.6086956522,
+      13.2758620689,
+      14.2258064516,
+      16.0810810811,
+      10.0731707317,
+      15.6279069767
+    ],
+    "num_text_1": [
+      "kumi na moja",
+      "kumi na tatu",
+      "kumi na saba",
+      "kumi na tisa",
+      "ishirini na tatu",
+      "ishirini na tisa",
+      "thelathini na moja",
+      "thelathini na saba",
+      "arobaini na moja",
+      "arobaini na tatu"
+    ],
+    "answer": [
+      17,
+      25,
+      35,
+      41,
+      48,
+      55,
+      63,
+      85,
+      59,
+      96
+    ],
+    "num_ic": [
+      65,
+      68,
+      99,
+      138,
+      33,
+      111,
+      41,
+      95,
+      164,
+      93
+    ]
+  },
+  "ic_question_template": "Kuna vyura {num_ic, 144} wanaoishi katika bwawa lililo pembeni ya shamba. Bata wanahitaji kula pauni {num_digit_1, 3.5} za wadudu kila wiki ili kuweza kuishi. Ikiwa kuna kundi la bata {num_text_1, kumi}, huwa wanakula pauni ngapi za wadudu kwa jumla kwa siku?",
+  "ic_sentence": "Kuna vyura {num_ic, 144} wanaoishi katika bwawa lililo pembeni ya shamba."
+}

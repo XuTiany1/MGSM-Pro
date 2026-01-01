@@ -1,0 +1,69 @@
+{
+  "original_question": "Un réservoir d'eau contient 120 litres d'eau. Céline en a utilisé 90 litres pour arroser son petit jardin. Elle a ensuite pu récupérer l'eau de pluie qui est deux fois plus importante que ce qui restait. Combien de litres d'eau y a-t-il maintenant dans la citerne ?",
+  "original_answer": 90,
+  "question_template": "Un réservoir d'eau contient {num_digit_1, 120} litres d'eau. {name_female, Céline} en a utilisé {num_digit_2, 90} litres pour arroser son petit jardin. Elle a ensuite pu récupérer l'eau de pluie qui est {num_text_1, deux fois} plus importante que ce qui restait. Combien de litres d'eau y a-t-il maintenant dans la citerne ?",
+  "question_solution": "answer = (num_digit_1 - num_digit_2) * (1 + f1)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 - num_digit_2) * (1 + f1)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "f1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Celine"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      437,
+      521,
+      998,
+      743,
+      629,
+      845,
+      907,
+      377,
+      1241,
+      510
+    ],
+    "num_digit_2": [
+      139,
+      321,
+      698,
+      543,
+      329,
+      645,
+      607,
+      177,
+      941,
+      310
+    ],
+    "num_text_1": [
+      "deux fois",
+      "trois fois",
+      "quatre fois",
+      "cinq fois",
+      "six fois",
+      "sept fois",
+      "huit fois",
+      "neuf fois",
+      "dix fois",
+      "onze fois"
+    ],
+    "answer": [
+      894,
+      800,
+      1500,
+      1200,
+      2100,
+      1600,
+      2700,
+      2000,
+      3300,
+      2400
+    ]
+  },
+  "ic_question_template": "{name_female, Céline} a un oncle qui a acheté {num_ic, 388} bulbes de tulipes le printemps dernier. Un réservoir d'eau contient {num_digit_1, 120} litres d'eau. {name_female, Céline} en a utilisé {num_digit_2, 90} litres pour arroser son petit jardin. Elle a ensuite pu récupérer l'eau de pluie qui est {num_text_1, deux fois} plus importante que ce qui restait. Combien de litres d'eau y a-t-il maintenant dans la citerne ?",
+  "ic_sentence": "{name_female, Céline} a un oncle qui a acheté {num_ic, 388} bulbes de tulipes le printemps dernier."
+}

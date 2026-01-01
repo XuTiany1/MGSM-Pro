@@ -1,0 +1,81 @@
+{
+  "original_question": "Jimmy nwere $2 karịa ugboro abụọ ego Ethel nwere. Ọ bụrụ na Ethel nwere $8, ego ole ka Jimmy nwere? ",
+  "original_answer": 18,
+  "question_template": "{name_male_1, Jimmy} nwere ${num_digit_1, 2} karịa {num_text_1, ugboro abụọ} ego {name_male_2, Ethel} nwere. Ọ bụrụ na {name_male_2, Ethel} nwere ${num_digit_2, 8}, ego ole ka {name_male_1, Jimmy} nwere?",
+  "question_solution": "answer = num_digit_1 + NUM(num_text_1) * num_digit_2",
+  "conditions": [
+    "answer == num_digit_1 + NUM(num_text_1) * num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_text_1) > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Jimmy",
+    "name_male_2": "Ethel"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      5,
+      7,
+      6,
+      9,
+      10,
+      12,
+      8,
+      11,
+      14,
+      13
+    ],
+    "num_digit_2": [
+      7,
+      6,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "num_text_1": [
+      "Ugboro atọ",
+      "ugboro anọ",
+      "ọgụ ise",
+      "ugboro isii",
+      "ugboro asaa",
+      "ugboro asatọ",
+      "ugwu itoolu",
+      "Ugboro iri",
+      "ugboro iri na otu",
+      "ụmụ iri na abụọ ugboro"
+    ],
+    "answer": [
+      26,
+      31,
+      46,
+      63,
+      87,
+      108,
+      125,
+      151,
+      179,
+      205
+    ],
+    "num_ic": [
+      44,
+      53,
+      20,
+      61,
+      91,
+      125,
+      93,
+      25,
+      80,
+      156
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_male_2, Ethel} chọtara ego ochie {num_ic, 33} n’elu ụlọ ya. {name_male_1, Jimmy} nwere ${num_digit_1, 2} karịa {num_text_1, ugboro abụọ} ego {name_male_2, Ethel} nwere. Ọ bụrụ na {name_male_2, Ethel} nwere ${num_digit_2, 8}, ego ole ka {name_male_1, Jimmy} nwere?",
+  "ic_sentence": "Nwanne nna {name_male_2, Ethel} chọtara ego ochie {num_ic, 33} n’elu ụlọ ya."
+}

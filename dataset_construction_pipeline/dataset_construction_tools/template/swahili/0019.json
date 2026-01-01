@@ -1,0 +1,105 @@
+{
+  "original_question": "Marissa anatembea masafa marefu ya maili 12. Alitumia saa 1 kutembea maili 4 za kwanza, kisha saa nyingine moja kutembea maili mbili zinazofuata. Iwapo anataka kasi yake ya wastani iwe maili 4 kwa saa, anahitaji kutembea kwa kasi (katika maili kwa saa) gani kwa umbali unaosalia?",
+  "original_answer": 6,
+  "question_template": "{name_female, Marissa} anapanda mlima kwa umbali wa maili {num_digit_1, 12}. Alitumia saa {num_digit_2, 1} kutembea maili {num_digit_3, 4} za kwanza, kisha saa nyingine {num_digit_2, 1} kutembea maili {num_text_1, mbili} zinazofuata. Iwapo anataka kasi yake ya wastani iwe maili {num_digit_4, 4} kwa saa, anapaswa kutembea kwa kasi gani (katika maili kwa saa) kwa umbali uliosalia?",
+  "question_solution": "answer = (num_digit_1 - (num_digit_3 + NUM(num_text_1))) / (num_digit_1 / num_digit_4 - 2 * num_digit_2)",
+  "conditions": [
+    "int(answer) == (num_digit_1 - (num_digit_3 + NUM(num_text_1))) / (num_digit_1 / num_digit_4 - 2 * num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_text_1) > 0",
+    "num_digit_3 + NUM(num_text_1) < num_digit_1",
+    "num_digit_4 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Marissa"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      147,
+      134,
+      146,
+      132,
+      44,
+      46,
+      45,
+      72,
+      130,
+      54
+    ],
+    "num_digit_2": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "num_digit_3": [
+      18,
+      16,
+      14,
+      15,
+      7,
+      14,
+      19,
+      8,
+      16,
+      7
+    ],
+    "num_text_1": [
+      "mbili",
+      "mbili",
+      "mbili",
+      "kumi na saba",
+      "kumi na tatu",
+      "kumi na tisa",
+      "mbili",
+      "mbili",
+      "mbili",
+      "saba"
+    ],
+    "num_digit_4": [
+      10,
+      9,
+      8,
+      6,
+      10,
+      10,
+      9,
+      5,
+      9,
+      7
+    ],
+    "answer": [
+      10,
+      9,
+      8,
+      5,
+      10,
+      5,
+      8,
+      5,
+      9,
+      7
+    ],
+    "num_ic": [
+      99,
+      59,
+      33,
+      46,
+      64,
+      25,
+      116,
+      127,
+      61,
+      117
+    ]
+  },
+  "ic_question_template": "Shangazi wa {name_female, Marissa} aliona maua pori {num_ic, 49} kando ya njia. {name_female, Marissa} anapanda mlima kwa umbali wa maili {num_digit_1, 12}. Alitumia saa {num_digit_2, 1} kutembea maili {num_digit_3, 4} za kwanza, kisha saa nyingine {num_digit_2, 1} kutembea maili {num_text_1, mbili} zinazofuata. Iwapo anataka kasi yake ya wastani iwe maili {num_digit_4, 4} kwa saa, anapaswa kutembea kwa kasi gani (katika maili kwa saa) kwa umbali uliosalia?",
+  "ic_sentence": "Shangazi wa {name_female, Marissa} aliona maua pori {num_ic, 49} kando ya njia."
+}

@@ -1,0 +1,130 @@
+{
+  "original_question": "Artie nwere ọdọ okooko n'ebe Farmers Market. Ọ na-ere ụdịdị okooko atọ: marigold, petunia na begonia. Ọ na-adị ere karị otu ite marigold $2.74, otu ite petunia $1.87 na otu ite begonia $2.12. Artie enweghị kịrịkịrị ego taa, ya mere ọ bịara kpebie ịme ọnụ ahịa niile ka o zuo oké na dọla kachasị nọrọ nso. Ọ bụrụ na Artie e ree ite marigold iri na abụọ, ite petunia itoolu na ite begonia iri na asaa, ego ole ka ọ ga-enweta? ",
+  "original_answer": 88,
+  "question_template": "{name_male, Artie} nwere ọdọ okooko n'ebe Farmers Market. Ọ na-ere ụdịdị okooko {num_text_1, atọ}: marigold, petunia na begonia. Ọ na-adị ere karị otu ite marigold ${num_digit_1, 2.74}, otu ite petunia ${num_digit_2, 1.87} na otu ite begonia ${num_digit_3, 2.12}. {name_male, Artie} enweghị kịrịkịrị ego taa, ya mere ọ bịara kpebie ịme ọnụ ahịa niile ka o zuo oké na dọla kachasị nọrọ nso. Ọ bụrụ na {name_male, Artie} e ree ite marigold {num_digit_4, 12}, ite petunia {num_digit_5, 9} na ite begonia {num_digit_6, 17}, ego ole ka ọ ga-enweta?",
+  "question_solution": "answer = round(num_digit_1) * num_digit_4 + round(num_digit_2) * num_digit_5 + round(num_digit_3) * num_digit_6",
+  "conditions": [
+    "int(answer) == round(num_digit_1) * num_digit_4 + round(num_digit_2) * num_digit_5 + round(num_digit_3) * num_digit_6",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "num_digit_6 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Artie"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "Anọ",
+      "ise",
+      "isii",
+      "asaa",
+      "asatọ",
+      "itoolu",
+      "Iri",
+      "iri na otu",
+      "iri na abụọ",
+      "iri na atọ"
+    ],
+    "num_digit_1": [
+      3.49,
+      3.51,
+      4.01,
+      2.25,
+      5.2,
+      0.99,
+      6.49,
+      7.5,
+      10.01,
+      4.99
+    ],
+    "num_digit_2": [
+      2.1,
+      2.51,
+      3.75,
+      1.5,
+      4.49,
+      0.51,
+      4.5,
+      5.99,
+      9.49,
+      3.14
+    ],
+    "num_digit_3": [
+      1.99,
+      2.49,
+      2.5,
+      2.75,
+      3.01,
+      1.49,
+      3.99,
+      4.49,
+      8.5,
+      1.5
+    ],
+    "num_digit_4": [
+      5,
+      8,
+      15,
+      20,
+      17,
+      9,
+      23,
+      30,
+      13,
+      16
+    ],
+    "num_digit_5": [
+      10,
+      12,
+      7,
+      14,
+      18,
+      6,
+      22,
+      25,
+      11,
+      17
+    ],
+    "num_digit_6": [
+      20,
+      16,
+      18,
+      25,
+      30,
+      14,
+      19,
+      23,
+      21,
+      18
+    ],
+    "answer": [
+      75,
+      100,
+      124,
+      143,
+      247,
+      29,
+      302,
+      482,
+      397,
+      167
+    ],
+    "num_ic": [
+      21,
+      94,
+      38,
+      67,
+      85,
+      61,
+      33,
+      126,
+      112,
+      79
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_male, Artie} na-eweta mkpụrụ achịcha {num_ic, 61} maka ndị ọzọ na-ere ahịa. {name_male, Artie} nwere ọdọ okooko n'ebe Farmers Market. Ọ na-ere ụdịdị okooko {num_text_1, atọ}: marigold, petunia na begonia. Ọ na-adị ere karị otu ite marigold ${num_digit_1, 2.74}, otu ite petunia ${num_digit_2, 1.87} na otu ite begonia ${num_digit_3, 2.12}. {name_male, Artie} enweghị kịrịkịrị ego taa, ya mere ọ bịara kpebie ịme ọnụ ahịa niile ka o zuo oké na dọla kachasị nọrọ nso. Ọ bụrụ na {name_male, Artie} e ree ite marigold {num_digit_4, 12}, ite petunia {num_digit_5, 9} na ite begonia {num_digit_6, 17}, ego ole ka ọ ga-enweta?",
+  "ic_sentence": "Nwanne nna {name_male, Artie} na-eweta mkpụrụ achịcha {num_ic, 61} maka ndị ọzọ na-ere ahịa."
+}

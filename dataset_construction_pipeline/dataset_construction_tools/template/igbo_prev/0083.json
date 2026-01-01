@@ -1,0 +1,79 @@
+{
+  "original_question": "Dan kụrụ ọhịa rosu atọ.  ọhịa rosu ọ bụla nwere rosu iri abụọ na ise. Rosu ọ bụla nwere ogwu asatọ. Ogwu ole dị ebe ahu na ngụkọta?",
+  "original_answer": 600,
+  "question_template": "{name_male, Dan} kụrụ ọhịa rosu {num_digit_1, 3}.  ọhịa rosu ọ bụla nwere rosu {num_digit_2, 25}. Rosu ọ bụla nwere ogwu {num_digit_3, 8}. Ogwu ole dị ebe ahu na ngụkọta?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Dan"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      5,
+      2,
+      10,
+      6,
+      4,
+      9,
+      11,
+      8,
+      15
+    ],
+    "num_digit_2": [
+      14,
+      20,
+      30,
+      11,
+      17,
+      23,
+      16,
+      13,
+      19,
+      9
+    ],
+    "num_digit_3": [
+      9,
+      12,
+      15,
+      13,
+      8,
+      7,
+      5,
+      6,
+      4,
+      3
+    ],
+    "answer": [
+      882,
+      1200,
+      900,
+      1430,
+      816,
+      644,
+      720,
+      858,
+      608,
+      405
+    ],
+    "num_ic": [
+      43,
+      137,
+      61,
+      121,
+      117,
+      110,
+      13,
+      71,
+      88,
+      115
+    ]
+  },
+  "ic_question_template": "Nwanne nne {name_male, Dan} nwere osisi tometo {num_ic, 27}. {name_male, Dan} kụrụ ọhịa rosu {num_digit_1, 3}.  ọhịa rosu ọ bụla nwere rosu {num_digit_2, 25}. Rosu ọ bụla nwere ogwu {num_digit_3, 8}. Ogwu ole dị ebe ahu na ngụkọta?",
+  "ic_sentence": "Nwanne nne {name_male, Dan} nwere osisi tometo {num_ic, 27}."
+}

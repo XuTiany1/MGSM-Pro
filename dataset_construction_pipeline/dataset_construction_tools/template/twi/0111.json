@@ -1,0 +1,54 @@
+{
+  "original_question": "Tokuro baa Julia kodoɔ no mu berԑ a na ɔwɔ ɔtare no so. Na nsuo lita mmienu na ԑԑba kodoɔ no mu nan nsusuho du biara a ɔka bԑn asaase so. Ͻde simma dunsia na ɔkaa nan nsusuho dummienu. Na asaase no wɔ anibɔ 64 akyi. Nsuo sԑn na ԑbaa kodoɔ no mu berԑ a Julia duruu asaase so no?",
+  "original_answer": 16,
+  "question_template": "Tokuro baa {name_female, Julia} kodoɔ no mu berԑ a na ɔwɔ ɔtare no so. Na nsuo lita {num_text_1, mmienu} na ԑԑba kodoɔ no mu nan nsusuho {num_text_2, du} biara a ɔka bԑn asaase so. Ͻde simma {num_text_3, dunsia} na ɔkaa nan nsusuho {num_text_4, dummienu}. Na asaase no wɔ anibɔ {num_digit_1, 64} akyi. Nsuo sԑn na ԑbaa kodoɔ no mu berԑ a {name_female, Julia} duruu asaase so no?",
+  "question_solution": "answer = num_digit_1 / 4",
+  "conditions": [
+    "answer == num_digit_1 / 4",
+    "num_digit_1 > 0",
+    "num_digit_1 % 4 == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Julia"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      52,
+      68,
+      92,
+      120,
+      156,
+      200,
+      224,
+      260,
+      304,
+      360
+    ],
+    "answer": [
+      13,
+      17,
+      23,
+      30,
+      39,
+      50,
+      56,
+      65,
+      76,
+      90
+    ],
+    "num_ic": [
+      104,
+      156,
+      394,
+      436,
+      316,
+      52,
+      519,
+      256,
+      274,
+      448
+    ]
+  },
+  "ic_question_template": "{name_female, Julia} wɔfa wɔ mpataayi a wɔde twetwe nnam {num_ic, 444}. Tokuro baa {name_female, Julia} kodoɔ no mu berԑ a na ɔwɔ ɔtare no so no. Na nsuo lita {num_text_1, mmienu} na ԑԑba kodoɔ no mu nan nsusuho {num_text_2, du} biara a ɔka bԑn asaase so. Ͻde simma {num_text_3, dunsia} na ɔkaa nan nsusuho {num_text_4, dummienu}. Na asaase no wɔ anibɔ {num_digit_1, 64} akyi. Nsuo sԑn na ԑbaa kodoɔ no mu berԑ a {name_female, Julia} duruu asaase so no?",
+  "ic_sentence": "{name_female, Julia} wɔfa wɔ mpataayi a wɔde twetwe nnam {num_ic, 444}."
+}

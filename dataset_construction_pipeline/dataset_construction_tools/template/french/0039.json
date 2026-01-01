@@ -1,0 +1,105 @@
+{
+  "original_question": "Dana court quatre fois plus vite qu'elle ne marche, mais saute deux fois moins vite qu'elle ne court. Si elle saute à une vitesse de 3 miles par heure, combien de miles parcourt-elle en six heures, sachant qu'elle passe 1/3 du temps à courir et 2/3 à marcher ?",
+  "original_answer": 18,
+  "question_template": "{name_female, Dana} court {num_text_1, quatre} fois plus vite qu'elle ne marche, mais saute {num_frac_1, deux fois moins} vite qu'elle ne court. Si elle saute à une vitesse de {num_digit_1, 3} miles par heure, combien de miles parcourt-elle en {num_text_2, six} heures, sachant qu'elle passe {num_frac_2, 1/3} du temps à courir et {num_frac_3, 2/3} à marcher ?",
+  "question_solution": "answer = (num_digit_1 / NUM(num_frac_1)) * (NUM(num_frac_2) + NUM(num_frac_3) / NUM(num_text_1)) * NUM(num_text_2)",
+  "conditions": [
+    "int(answer) == (num_digit_1 / NUM(num_frac_1)) * (NUM(num_frac_2) + NUM(num_frac_3) / NUM(num_text_1)) * NUM(num_text_2)",
+    "NUM(num_text_1) > 0",
+    "NUM(num_frac_1) > 0",
+    "num_digit_1 > 0",
+    "NUM(num_text_2) > 0",
+    "NUM(num_frac_2) + NUM(num_frac_3) == 1"
+  ],
+  "variable_word_list": {
+    "name_female": "Dana"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "dix-sept",
+      "quinze",
+      "vingt",
+      "treize",
+      "douze",
+      "cinq",
+      "onze",
+      "neuf",
+      "trois",
+      "quatre"
+    ],
+    "num_frac_1": [
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié"
+    ],
+    "num_digit_1": [
+      17,
+      15,
+      10,
+      13,
+      12,
+      2,
+      3,
+      3,
+      2,
+      3
+    ],
+    "num_text_2": [
+      "cinquante et un",
+      "quarante-cinq",
+      "soixante",
+      "trente-neuf",
+      "trente",
+      "quinze",
+      "onze",
+      "neuf",
+      "neuf",
+      "six"
+    ],
+    "num_frac_2": [
+      "un tiers",
+      "un tiers",
+      "un tiers",
+      "un tiers",
+      "un tiers",
+      "un tiers",
+      "un tiers",
+      "un tiers",
+      "un tiers",
+      "un tiers"
+    ],
+    "num_frac_3": [
+      "deux tiers",
+      "deux tiers",
+      "deux tiers",
+      "deux tiers",
+      "deux tiers",
+      "deux tiers",
+      "deux tiers",
+      "deux tiers",
+      "deux tiers",
+      "deux tiers"
+    ],
+    "answer": [
+      646,
+      510,
+      440,
+      390,
+      280,
+      28,
+      26,
+      22,
+      20,
+      18
+    ]
+  },
+  "ic_question_template": "{name_female, Dana} a un oncle qui a déjà terminé une course avec {num_ic, 106} participants. {name_female, Dana} court {num_text_1, quatre} fois plus vite qu'elle ne marche, mais saute {num_frac_1, deux fois moins} vite qu'elle ne court. Si elle saute à une vitesse de {num_digit_1, 3} miles par heure, combien de miles parcourt-elle en {num_text_2, six} heures, sachant qu'elle passe {num_frac_2, 1/3} du temps à courir et {num_frac_3, 2/3} à marcher ?",
+  "ic_sentence": "{name_female, Dana} a un oncle qui a déjà terminé une course avec {num_ic, 106} participants."
+}

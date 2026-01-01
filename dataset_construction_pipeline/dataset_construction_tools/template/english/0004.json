@@ -1,0 +1,103 @@
+{
+  "original_question": "Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy. She gives the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 15 cups of feed. In the afternoon, she gives her chickens another 25 cups of feed. How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 20 chickens?",
+  "original_answer": 20,
+  "question_template": "Every day, {name_female, Wendi} feeds each of her chickens {num_text_1, three} cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy. She gives the chickens their feed in {num_text_2, three} separate meals. In the morning, she gives her flock of chickens {num_digit_1, 15} cups of feed. In the afternoon, she gives her chickens another {num_digit_2, 25} cups of feed. How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is {num_digit_3, 20} chickens?",
+  "question_solution": "answer = num_text_1 * num_digit_3 - num_digit_1 - num_digit_2",
+  "conditions": [
+    "int(answer) == num_text_1 * num_digit_3 - num_digit_1 - num_digit_2",
+    "answer > 0",
+    "num_text_1 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Wendi"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "eleven",
+      "thirteen",
+      "seventeen",
+      "nineteen",
+      "twenty-three",
+      "twenty-nine",
+      "thirty-one",
+      "thirty-seven",
+      "forty-one",
+      "forty-three"
+    ],
+    "num_text_2": [
+      "three",
+      "three",
+      "three",
+      "three",
+      "three",
+      "three",
+      "three",
+      "three",
+      "three",
+      "three"
+    ],
+    "num_digit_1": [
+      118,
+      176,
+      160,
+      231,
+      322,
+      446,
+      520,
+      672,
+      782,
+      880
+    ],
+    "num_digit_2": [
+      217,
+      322,
+      292,
+      422,
+      589,
+      816,
+      950,
+      1227,
+      1429,
+      1607
+    ],
+    "num_digit_3": [
+      47,
+      59,
+      41,
+      53,
+      61,
+      67,
+      73,
+      79,
+      83,
+      89
+    ],
+    "answer": [
+      182,
+      269,
+      245,
+      354,
+      492,
+      681,
+      793,
+      1024,
+      1192,
+      1340
+    ],
+    "num_ic": [
+      68,
+      431,
+      200,
+      136,
+      233,
+      569,
+      326,
+      743,
+      693,
+      674
+    ]
+  },
+  "ic_question_template": "Every day, {name_female, Wendi} feeds each of her chickens {num_text_1, three} cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy. She gives the chickens their feed in {num_text_2, three} separate meals. In the morning, she gives her flock of chickens {num_digit_1, 15} cups of feed. In the afternoon, she gives her chickens another {num_digit_2, 25} cups of feed. {name_female, Wendi}'s uncle collected {num_ic, 69} eggs from his coop yesterday. How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is {num_digit_3, 20} chickens?",
+  "ic_sentence": "{name_female, Wendi}'s uncle collected {num_ic, 69} eggs from his coop yesterday."
+}

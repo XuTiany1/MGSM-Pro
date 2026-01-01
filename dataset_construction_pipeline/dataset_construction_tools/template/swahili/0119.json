@@ -1,0 +1,93 @@
+{
+  "original_question": "Jumla ya mshahara wa Adrien ilikuwa asilimia 30 juu ya mshahara wa Lulah. Miaka minne baadaye, mshahara wake ulikuwa umeongezeka, na alikuwa anapata 40% zaidi ya mshahara ambao alikuwa anapata miaka minne iliyopita. Ikiwa mshahara wa Adrien na Lylah uliongeleza sambamba, na Adrien alikuwa anapata $40000 miaka minne iliyopita, piga hesabu ya jumla ya mshahara ambao watu hao wawili walikuwa wanapokea miaka minne baadaye?",
+  "original_answer": 95200,
+  "question_template": "Jumla ya mshahara wa {name_male, Adrien} ilikuwa asilimia {num_digit_1, 30} juu ya mshahara wa {name_female, Lylah}. Miaka {num_text_1, minne} baadaye, mshahara wake ulikuwa umeongezeka, na alikuwa anapata {num_digit_2, 40}% zaidi ya mshahara ambao alikuwa anapata miaka {num_text_1, minne} iliyopita. Ikiwa mshahara wa {name_male, Adrien} na {name_female, Lylah} uliongeleza sambamba, na {name_male, Adrien} alikuwa anapata ${num_digit_3, 40000} miaka {num_text_1, minne} iliyopita, piga hesabu ya jumla ya mshahara ambao watu hao wawili walikuwa wanapokea miaka {num_text_1, minne} baadaye?",
+  "question_solution": "answer = (1 + num_digit_2 / 100) * num_digit_3 * (2 + num_digit_1 / 100) / (1 + num_digit_1 / 100)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (1 + num_digit_2 / 100) * num_digit_3 * (2 + num_digit_1 / 100) / (1 + num_digit_1 / 100)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Adrien",
+    "name_female": "Lylah"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      25,
+      20,
+      50,
+      33,
+      60,
+      75,
+      12,
+      40,
+      80,
+      10
+    ],
+    "num_digit_2": [
+      20,
+      30,
+      25,
+      40,
+      45,
+      35,
+      60,
+      15,
+      50,
+      10
+    ],
+    "num_digit_3": [
+      50000,
+      36000,
+      30000,
+      66500,
+      16000,
+      35000,
+      33600,
+      14000,
+      36000,
+      11000
+    ],
+    "num_text_1": [
+      "tano",
+      "sita",
+      "saba",
+      "nane",
+      "tisa",
+      "kumi",
+      "kumi na moja",
+      "kumi na mbili",
+      "kumi na tatu",
+      "kuminanne"
+    ],
+    "answer": [
+      108000,
+      85800,
+      62500,
+      163100,
+      37700,
+      74250,
+      101760,
+      27600,
+      84000,
+      23100
+    ],
+    "num_ic": [
+      134000,
+      46500,
+      61000,
+      55300,
+      79200,
+      340000,
+      210000,
+      19400,
+      112000,
+      9500
+    ]
+  },
+  "ic_question_template": "Jumla ya mshahara wa {name_male, Adrien} ilikuwa asilimia {num_digit_1, 30} juu ya mshahara wa {name_female, Lylah}. Miaka {num_text_1, minne} baadaye, mshahara wake ulikuwa umeongezeka, na alikuwa anapata {num_digit_2, 40}% zaidi ya mshahara ambao alikuwa anapata miaka {num_text_1, minne} iliyopita. Ikiwa mshahara wa {name_male, Adrien} na {name_female, Lylah} uliongezeka sambamba, na {name_male, Adrien} alikuwa anapata ${num_digit_3, 40000} miaka {num_text_1, minne} iliyopita, Mjomba wa {name_female, Lylah} alipokea bonasi ya ${num_ic, 134000} katika kampuni yake mwaka huo. Piga hesabu ya jumla ya mshahara ambao watu hao wawili walikuwa wanapokea miaka {num_text_1, minne} baadaye?",
+  "ic_sentence": "Mjomba wa {name_female, Lylah} alipokea bonasi ya ${num_ic, 134000} katika kampuni yake mwaka huo."
+}

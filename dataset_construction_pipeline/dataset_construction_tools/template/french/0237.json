@@ -1,0 +1,69 @@
+{
+  "original_question": "Johnny a pris son allocation de 20 $, à laquelle il a ajouté 10 $. Il a ensuite investi cette somme, qui a triplé en un an. Combien d'argent avait-il au bout d'un an ?",
+  "original_answer": 90,
+  "question_template": "{name_male, Johnny} a pris son allocation de {num_digit_1, 20} $, à laquelle il a ajouté {num_digit_2, 10} $. Il a ensuite investi cette somme, qui a {num_text_1, triplé} en un an. Combien d'argent avait-il au bout d'un an ?",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) * f1   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 + num_digit_2) * f1",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "f1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Johnny"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      137,
+      246,
+      385,
+      472,
+      593,
+      610,
+      785,
+      923,
+      1050,
+      1189
+    ],
+    "num_digit_2": [
+      58,
+      142,
+      207,
+      311,
+      408,
+      512,
+      624,
+      738,
+      845,
+      977
+    ],
+    "num_text_1": [
+      "triplé",
+      "quadruplé",
+      "doublé",
+      "quintuplé",
+      "sextuplé",
+      "septuplé",
+      "octuplé",
+      "nonuplé",
+      "dix fois",
+      "douze fois"
+    ],
+    "answer": [
+      585,
+      1552,
+      1184,
+      3915,
+      6006,
+      7854,
+      11272,
+      14949,
+      18950,
+      25992
+    ]
+  },
+  "ic_question_template": "{name_male, Johnny} a un cousin qui a reçu {num_ic, 88} cartes de baseball pour son anniversaire. {name_male, Johnny} a pris son allocation de {num_digit_1, 20} $, à laquelle il a ajouté {num_digit_2, 10} $. Il a ensuite investi cette somme, qui a {num_text_1, triplé} en un an. Combien d'argent avait-il au bout d'un an ?",
+  "ic_sentence": "{name_male, Johnny} a un cousin qui a reçu {num_ic, 88} cartes de baseball pour son anniversaire."
+}

@@ -1,0 +1,82 @@
+{
+  "original_question": "Kylie da Robert suna jin daɗin zuwa bakin teku don tattara kwanso. A ranar Litinin, Kylie ta tattara kwanso 5 fiye da yanda Robert ya tattara, wanda ya tattara kwanso 20. A ranar Talata, Kylie ta tattara kwanso sau 2 fiye da yadda ta tara ranar Litinin. Kwanso nawa Kylie ta tattara a ranar Talata?",
+  "original_answer": 50,
+  "question_template": "Kylie da Robert suna jin daɗin zuwa bakin teku don tattara kwanso. A ranar Litinin, {name_male_1, Kylie} ta tattara kwanso {num_digit_1, 5} fiye da yanda {name_male_2, Robert} ya tattara, wanda ya tattara kwanso {num_digit_2, 20}. A ranar Talata, {name_male_1, Kylie} ta tattara kwanso sau {num_digit_3, 2} fiye da yadda ta tara ranar Litinin. Kwanso nawa {name_male_1, Kylie} ta tattara a ranar Talata?",
+  "question_solution": "answer = (num_digit_2 + num_digit_1) * num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_2 + num_digit_1) * num_digit_3",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Kylie",
+    "name_male_2": "Robert"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      137,
+      279,
+      345,
+      412,
+      563,
+      624,
+      731,
+      842,
+      915,
+      1034
+    ],
+    "num_digit_2": [
+      1583,
+      2691,
+      3745,
+      4812,
+      5984,
+      6059,
+      7123,
+      8294,
+      9365,
+      10436
+    ],
+    "num_digit_3": [
+      17,
+      13,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "answer": [
+      29240,
+      38610,
+      77710,
+      120152,
+      189863,
+      207173,
+      290598,
+      374576,
+      442040,
+      539090
+    ],
+    "num_ic": [
+      730,
+      9471,
+      8685,
+      4667,
+      10234,
+      3726,
+      5912,
+      12469,
+      12834,
+      8291
+    ]
+  },
+  "ic_question_template": "Gwaggon {name_male_2, Robert} ta samo gutsattsarin gilasan teku guda {num_ic, 8243} lokacin bazarar da ta gabata. Kylie da Robert suna jin daɗin zuwa bakin teku don tattara kwanso. A ranar Litinin, {name_male_1, Kylie} ta tattara kwanso {num_digit_1, 5} fiye da yanda {name_male_2, Robert} ya tattara, wanda ya tattara kwanso {num_digit_2, 20}. A ranar Talata, {name_male_1, Kylie} ta tattara kwanso sau {num_digit_3, 2} fiye da yadda ta tara ranar Litinin. Kwanso nawa {name_male_1, Kylie} ta tattara a ranar Talata?",
+  "ic_sentence": "Gwaggon {name_male_2, Robert} ta samo gutsattsarin gilasan teku guda {num_ic, 8243} lokacin bazarar da ta gabata."
+}

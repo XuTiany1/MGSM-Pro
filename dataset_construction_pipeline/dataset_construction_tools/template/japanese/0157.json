@@ -1,0 +1,96 @@
+{
+  "original_question": "ブレイクとケリーは15分でどちらがたくさん走れるかを競っている。彼らは100ヤードの長さのフットボール場で、競走することに決めてあ。ブレイクは、15回走って往復する。ケリーは1回往復してから、ブレイクの隣で走りたくないと決め、40ヤードラインまで走って、戻った。彼女はこれを34回行った。勝者は敗者よりどれくらい長く走ったか？",
+  "original_answer": 80,
+  "question_template": "{name_male, Blake} ブ {name_female, Kelly}レイクとケリーは15分でどちらがたくさん走れるかを競っている。彼らは{num_digit_1, 100}ヤードの長さのフ{name_male, Blake} ットボール場で、競走することに決めた。ブレイクは、{num_digit_2, 15}回走っ{name_female, Kelly}て往復する。ケリーは{num_digit_3, 1}回往復してから、ブレイ{name_male, Blake}クの隣で走りたくないと決め、{num_digit_4, 40}ヤードラインまで走って、戻った。彼女はこれを{num_digit_5, 34}回行った。勝者は敗者よりどれくらい長く走ったか？",
+  "question_solution": "answer = abs(2 * num_digit_1 * num_digit_2 - (2 * num_digit_1 * num_digit_3 + 2 * num_digit_4 * num_digit_5))",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == abs(2 * num_digit_1 * num_digit_2 - (2 * num_digit_1 * num_digit_3 + 2 * num_digit_4 * num_digit_5))",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 1",
+    "num_digit_4 > 0",
+    "num_digit_4 < num_digit_1",
+    "num_digit_5 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Blake",
+    "name_female": "Kelly"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      100,
+      120,
+      90,
+      110,
+      100,
+      150,
+      80,
+      120,
+      110,
+      95
+    ],
+    "num_digit_2": [
+      15,
+      12,
+      18,
+      10,
+      8,
+      6,
+      20,
+      5,
+      12,
+      14
+    ],
+    "num_digit_3": [
+      2,
+      3,
+      1,
+      2,
+      3,
+      1,
+      4,
+      5,
+      2,
+      3
+    ],
+    "num_digit_4": [
+      40,
+      50,
+      30,
+      70,
+      60,
+      40,
+      20,
+      60,
+      50,
+      30
+    ],
+    "num_digit_5": [
+      34,
+      24,
+      25,
+      10,
+      12,
+      10,
+      40,
+      5,
+      26,
+      30
+    ],
+    "answer": [
+      120,
+      240,
+      1560,
+      360,
+      440,
+      700,
+      960,
+      600,
+      400,
+      290
+    ]
+  },
+  "ic_question_template": "{name_male, ブレイク}のいとこは畑に{num_ic, 520}本の水のボトルを持ってきます。{name_male, Blake} ブ {name_female, Kelly}レイクとケリーは15分でどちらがたくさん走れるかを競っている。彼らは{num_digit_1, 100}ヤードの長さのフ{name_male, Blake} ットボール場で、競走することに決めた。ブレイクは、{num_digit_2, 15}回走っ{name_female, Kelly}て往復する。ケリーは{num_digit_3, 1}回往復してから、ブレイ{name_male, Blake}クの隣で走りたくないと決め、{num_digit_4, 40}ヤードラインまで走って、戻った。彼女はこれを{num_digit_5, 34}回行った。勝者は敗者よりどれくらい長く走ったか？",
+  "ic_sentence": "{name_male, ブレイク}のいとこは畑に{num_ic, 520}本の水のボトルを持ってきます。"
+}

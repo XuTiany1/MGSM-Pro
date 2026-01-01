@@ -1,0 +1,87 @@
+{
+  "original_question": "ማንዲ የቤኔዲክት $100 ዕዳ አለባት። ወርሃዊ ወለድ 2% እንዲኖራቸው ተስማምተዋል። ማንዲ ከ3 ወራት በኋላ መክፈል ከቻለች፣ለቤኔዲክት ምን ያህል መስጠት አለባት",
+  "original_answer": 106,
+  "question_template": "{name_female, ማንዲ} ለ{name_male, ቤኔዲክት} ${num_digit_1, 100} ዕዳ አለባት። ወርሃዊ ወለድ {num_digit_2, 2}% እንዲኖራቸው ተስማምተዋል። {name_female, ማንዲ} ከ{num_digit_3, 3} ወራት በኋላ መክፈል ከቻለች፣ለ{name_male, ቤኔዲክት} ምን ያህል መስጠት አለባት?",
+  "question_solution": "answer = num_digit_1 * (1 + (num_digit_2/100) * num_digit_3)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 + (num_digit_2/100) * num_digit_3)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Mandy",
+    "name_male": "Benedict"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      100,
+      300,
+      625,
+      185,
+      230,
+      150,
+      425,
+      275,
+      135,
+      400,
+      345
+    ],
+    "num_digit_2": [
+      2,
+      3,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12,
+      9,
+      10
+    ],
+    "num_digit_3": [
+      3,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answer": [
+      106,
+      327,
+      675,
+      222,
+      299,
+      213,
+      663,
+      473,
+      297,
+      796,
+      759
+    ],
+    "num_ic": [
+      656,
+      1768,
+      338,
+      3412,
+      1819,
+      885,
+      120,
+      1862,
+      1570,
+      208,
+      968
+    ]
+  },
+  "ic_question_template": "{name_female, ማንዲ} ለ{name_male, ቤኔዲክት} ${num_digit_1, 100} ዕዳ አለባት። ወርሃዊ ወለድ {num_digit_2, 2}% እንዲኖራቸው ተስማምተዋል። {name_female, ማንዲ} ከ{num_digit_3, 3} ወራት በኋላ መክፈል ከቻለች፣ለ{name_male, ቤኔዲክት} ምን ያህል መስጠት አለባት? የ{name_female, ማንዲ} አጎት አንድ ጊዜ ከአንደኛው ሰው {num_ic, 656} ዶላር ወስዷል።",
+  "ic_sentence": "የ{name_female, ማንዲ} አጎት አንድ ጊዜ ከአንደኛው ሰው {num_ic, 656} ዶላር ወስዷል።"
+}

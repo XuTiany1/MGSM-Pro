@@ -1,0 +1,80 @@
+{
+  "original_question": "Johnny ń ṣa àwọn ohun ìṣeré nílẹ̀ yàrá rẹ̀.  Ó ti ju àpótí lego tí ó ní ẹyọ 500 sí ilẹ̀, àti òmíràn tí ó ní ìlọ́po mẹ́ta àwọn oní ẹyọ 500 lọ, àti òmíràn tí ó ní 1/4 iye àwọn ẹyọ.  Ibùdó mélòó ni Johnny ń ṣà tí ó bá ṣa gbogbo àwọn legos náà?",
+  "original_answer": 2125,
+  "question_template": "{name_male, Johnny} ń ṣa àwọn ohun ìṣeré nílẹ̀ yàrá rẹ̀. Ó ti ju àpótí lego tí ó ní ẹyọ {num_digit_1, 500} sí ilẹ̀, àti òmíràn tí ó ní ìlọ́po {num_digit_2, 3} àwọn oní ẹyọ {num_digit_1, 500} lọ, àti òmíràn tí ó ní {num_frac_1, 1/4} iye àwọn ẹyọ. Ibùdó mélòó ni {name_male, Johnny} ń ṣà tí ó bá ṣa gbogbo àwọn legos náà?",
+  "question_solution": "answer = num_digit_1 + num_digit_1 * num_digit_2 + num_digit_1 * num_frac_1",
+  "conditions": [
+    "answer == num_digit_1 + num_digit_1 * num_digit_2 + num_digit_1 * num_frac_1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "0 < num_frac_1 && num_frac_1 < 1",
+    "(num_digit_1 * num_frac_1) % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Johnny"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      600,
+      750,
+      840,
+      960,
+      525,
+      900,
+      1200,
+      660,
+      1050,
+      1320
+    ],
+    "num_digit_2": [
+      4,
+      2,
+      5,
+      3,
+      4,
+      6,
+      2,
+      7,
+      3,
+      2
+    ],
+    "num_frac_1": [
+      "1/6",
+      "1/3",
+      "1/7",
+      "1/8",
+      "1/3",
+      "1/9",
+      "1/4",
+      "1/6",
+      "1/5",
+      "1/10"
+    ],
+    "answer": [
+      3100,
+      2500,
+      5160,
+      3960,
+      2800,
+      6400,
+      3900,
+      5390,
+      4410,
+      4092
+    ],
+    "num_ic": [
+      900,
+      180,
+      706,
+      1239,
+      399,
+      569,
+      773,
+      842,
+      113,
+      580
+    ]
+  },
+  "ic_question_template": "Ọ̀gá baba {name_male, Johnny} ṣẹ́ṣẹ̀ kọ ọkọ ojú omi àwòrán pẹ̀lú àwọn kékèké igi {num_ic, 318}. {name_male, Johnny} ń ṣa àwọn ohun ìṣeré nílẹ̀ yàrá rẹ̀. Ó ti ju àpótí lego tí ó ní ẹyọ {num_digit_1, 500} sí ilẹ̀, àti òmíràn tí ó ní ìlọ́po {num_digit_2, 3} àwọn oní ẹyọ {num_digit_1, 500} lọ, àti òmíràn tí ó ní {num_frac_1, 1/4} iye àwọn ẹyọ. Ibùdó mélòó ni {name_male, Johnny} ń ṣà tí ó bá ṣa gbogbo àwọn legos náà?",
+  "ic_sentence": "Ọ̀gá baba {name_male, Johnny} ṣẹ́ṣẹ̀ kọ ọkọ ojú omi àwòrán pẹ̀lú àwọn kékèké igi {num_ic, 318}."
+}

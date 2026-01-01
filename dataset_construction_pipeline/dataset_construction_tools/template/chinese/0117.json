@@ -1,0 +1,67 @@
+{
+  "original_question": "约翰为 3 个孩子各买了 2 双鞋，每双鞋 60 美元。他支付了多少钱？",
+  "original_answer": 360,
+  "question_template": "{name_male, 约翰} 为 {num_digit_2, 3} 个孩子各买了 {num_digit_1, 2} 双鞋，每双鞋 {num_digit_3, 60} 美元。他支付了多少钱？",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "num_digit_2": [
+      2,
+      4,
+      5,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "num_digit_3": [
+      45,
+      55,
+      70,
+      80,
+      90,
+      40,
+      100,
+      65,
+      75,
+      85
+    ],
+    "answer": [
+      270,
+      880,
+      700,
+      1200,
+      3240,
+      1960,
+      6400,
+      5265,
+      7500,
+      11220
+    ]
+  },
+  "ic_question_template": "{name_male, 约翰} 的叔叔曾经买过 {num_ic, 15} 顶帽子。{name_male, 约翰} 为 {num_digit_2, 3} 个孩子各买了 {num_digit_1, 2} 双鞋，每双鞋 {num_digit_3, 60} 美元。他支付了多少钱？",
+  "ic_sentence": "{name_male, 约翰} 的叔叔曾经买过 {num_ic, 15} 顶帽子。"
+}

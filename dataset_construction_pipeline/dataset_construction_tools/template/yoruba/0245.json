@@ -1,0 +1,90 @@
+{
+  "original_question": "Àwọn ìgbín mẹ́rin ló wà nínú ilé-ẹja kan àti ìgbín 32 nínú ilé-ẹja mìíràn. Ìyàtọ̀ láàárín iye awọn ìgbín ni àwọn ilé-ẹja náà jẹ́ ìlọ́po méjì iye ẹja tí ó wà nínú àwọn ilé-ẹja méjèèjì . Tí àwọn  ilé-ẹja méjèèjì bá ní iye ẹja kan náà, ẹja mélòó ni ó wà nínú ilé-ẹja kọ̀ọ̀kan?",
+  "original_answer": 7,
+  "question_template": "Àwọn ìgbín {num_digit_1, mẹ́rin} ló wà nínú ilé-ẹja kan àti ìgbín {num_digit_2, 32} nínú ilé-ẹja mìíràn. Ìyàtọ̀ láàárín iye awọn ìgbín ni àwọn ilé-ẹja {num_text_1, méjèèjì} náà jẹ́ {num_text_2, ìlọ́po méjì} iye ẹja tí ó wà nínú àwọn ilé-ẹja {num_text_1, méjèèjì}. Tí àwọn ilé-ẹja {num_text_1, méjèèjì} bá ní iye ẹja kan náà, ẹja mélòó ni ó wà nínú ilé-ẹja kọ̀ọ̀kan?",
+  "question_solution": "answer = (num_digit_2 - num_digit_1) / (2 * f2)   # f2 is the numeric value of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_2 - num_digit_1) / (2 * f2)",
+    "num_digit_2 > num_digit_1",
+    "num_digit_1 >= 0",
+    "f2 > 0",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      33,
+      47,
+      25,
+      9,
+      58,
+      73,
+      101,
+      66,
+      82
+    ],
+    "num_digit_2": [
+      84,
+      129,
+      119,
+      137,
+      57,
+      154,
+      211,
+      277,
+      174,
+      202
+    ],
+    "num_text_1": [
+      "méjì",
+      "méjì",
+      "méjì",
+      "méjì",
+      "méjì",
+      "méjì",
+      "méjì",
+      "méjì",
+      "méjì",
+      "méjì"
+    ],
+    "num_text_2": [
+      "lẹmeji",
+      "Ìkẹta",
+      "ẹ̀ẹ̀mefa",
+      "ìkẹrin",
+      "Ìkẹta",
+      "ìkejìlélọ́kànjọ̀jọ",
+      "Ìkẹta",
+      "ìkẹrin",
+      "Ìkẹta",
+      "ìgbà márùn-ún"
+    ],
+    "answer": [
+      18,
+      16,
+      6,
+      14,
+      8,
+      6,
+      23,
+      22,
+      18,
+      12
+    ],
+    "num_ic": [
+      22,
+      49,
+      131,
+      198,
+      13,
+      104,
+      173,
+      278,
+      92,
+      154
+    ]
+  },
+  "ic_question_template": "Ọmọbìnrin ará {name_male, Michael} ní {num_ic, 15} ẹja guppi ní ilé. Àwọn ìgbín {num_digit_1, mẹ́rin} ló wà nínú ilé-ẹja kan àti ìgbín {num_digit_2, 32} nínú ilé-ẹja mìíràn. Ìyàtọ̀ láàárín iye awọn ìgbín ni àwọn ilé-ẹja {num_text_1, méjèèjì} náà jẹ́ {num_text_2, ìlọ́po méjì} iye ẹja tí ó wà nínú àwọn ilé-ẹja {num_text_1, méjèèjì}. Tí àwọn ilé-ẹja {num_text_1, méjèèjì} bá ní iye ẹja kan náà, ẹja mélòó ni ó wà nínú ilé-ẹja kọ̀ọ̀kan?",
+  "ic_sentence": "Ọmọbìnrin ará {name_male, Michael} ní {num_ic, 15} ẹja guppi ní ilé."
+}

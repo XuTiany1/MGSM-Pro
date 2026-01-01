@@ -1,0 +1,93 @@
+{
+  "original_question": "Shawnda fa adwen sɛ ne mpɔtam nkwadaa no betumi de dadepɔnkɔ a wɔde yɛ adwuma. Ɔfa adwen sɛ ɔkwan a ɛyɛ sɛ ɔtua no yɛ tae. Tae emu baako biara ka yɛ 25 cents sɛ ebɛ dɔɔso. Da a edi kan no, nnipa 5 a wɔte dadepɔnkɔ so baa sɛ wɔbenya tae mmienu a ɛdɔɔso. Nnipa 3 baa yɛ sɛ wɔbɛhyehyɛ dadepɔnkɔ tae a ɛwɔsoro yie. ɛtwa toɔ no, onipa baako a ɔde dadepɔnkɔ  baako baa. Dollars dodoɔ ahe na onyaa saa da no?",
+  "original_answer": 5,
+  "question_template": "{name_female, Shawnda} fa adwen sɛ ne mpɔtam nkwadaa no betumi de dadepɔnkɔ a wɔde yɛ adwuma. Ɔfa adwen sɛ ɔkwan a ɛyɛ sɛ ɔtua no yɛ tae. Tae emu baako biara ka yɛ {num_digit_1, 25} cents sɛ ebɛ dɔɔso. Da a edi kan no, nnipa {num_digit_2, 5} a wɔte dadepɔnkɔ so baa sɛ wɔbenya tae mmienu a ɛdɔɔso. Nnipa {num_digit_3, 3} baa yɛ sɛ wɔbɛhyehyɛ dadepɔnkɔ tae a ɛwɔsoro yie. ɛtwa toɔ no, onipa {num_text_1, baako} a ɔde dadepɔnkɔ baako baa. Dollars dodoɔ ahe na onyaa saa da no?",
+  "question_solution": "answer = (num_digit_1 / 100) * (2 * num_digit_2 + 3 * num_digit_3 + k)   # k is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 / 100) * (2 * num_digit_2 + 3 * num_digit_3 + k)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "k > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Shawnda"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      25,
+      20,
+      50,
+      30,
+      15,
+      60,
+      10,
+      75,
+      5,
+      40
+    ],
+    "num_digit_2": [
+      2,
+      3,
+      2,
+      3,
+      5,
+      2,
+      3,
+      2,
+      5,
+      4
+    ],
+    "num_digit_3": [
+      1,
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      2,
+      1
+    ],
+    "num_text_1": [
+      "baako",
+      "mmiɛnsa",
+      "baako",
+      "baako",
+      "ɛnān",
+      "nwɔtwe",
+      "baako",
+      "baako",
+      "ɛnān",
+      "ɛnān"
+    ],
+    "answer": [
+      2,
+      3,
+      4,
+      3,
+      3,
+      9,
+      1,
+      6,
+      1,
+      6
+    ],
+    "num_ic": [
+      37,
+      17,
+      29,
+      12,
+      21,
+      48,
+      51,
+      44,
+      39,
+      59
+    ]
+  },
+  "ic_question_template": "{name_female, Shawnda} wɔfa tɔɔ balloon {num_ic, 37} ama aponto bi. {name_female, Shawnda} fa adwen sɛ ne mpɔtam nkwadaa no betumi de dadepɔnkɔ a wɔde yɛ adwuma. Ɔfa adwen sɛ ɔkwan a ɛyɛ sɛ ɔtua no yɛ tae. Tae emu baako biara ka yɛ {num_digit_1, 25} cents sɛ ebɛ dɔɔso. Da a edi kan no, nnipa {num_digit_2, 5} a wɔte dadepɔnkɔ so baa sɛ wɔbenya tae mmienu a ɛdɔɔso. Nnipa {num_digit_3, 3} baa yɛ sɛ wɔbɛhyehyɛ dadepɔnkɔ tae a ɛwɔsoro yie. ɛtwa toɔ no, onipa {num_text_1, baako} a ɔde dadepɔnkɔ baako baa. Dollars dodoɔ ahe na onyaa saa da no?",
+  "ic_sentence": "{name_female, Shawnda} wɔfa tɔɔ balloon {num_ic, 37} ama aponto bi."
+}

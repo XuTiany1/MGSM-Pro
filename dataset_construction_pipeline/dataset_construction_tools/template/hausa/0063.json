@@ -1,0 +1,92 @@
+{
+  "original_question": "Alena ta yi rajista da sabis ɗin yanar gizo wanda take biyan $140 kowane wata. Idan kamfanin ya caje ta biyan farko na rabin farkon shekara sannan kuma ya caji 10% na sauran rabin shekarar, kididdige adadin kuɗin da ta biya na sabis ɗin yanar gizo a ƙarshen shekara.",
+  "original_answer": 1596,
+  "question_template": "{name_female, Aleena} ta yi rajista da sabis ɗin yanar gizo wanda take biyan ${num_digit_1, 140} kowane wata. Idan kamfanin ya caje ta biyan farko na {num_frac_1, rabi}n farkon shekara sannan kuma ya caji {num_digit_2, 10}% na sauran {num_frac_2, rabi}n shekarar, kididdige adadin kuɗin da ta biya na sabis ɗin yanar gizo a ƙarshen shekara.",
+  "question_solution": "answer = num_digit_1 * 6 + num_digit_1 * (1 - num_digit_2/100) * 6",
+  "conditions": [
+    "int(answer) == num_digit_1 * 6 + num_digit_1 * (1 - num_digit_2/100) * 6",
+    "((num_digit_1 * num_digit_2 * 6) % 100) == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_2 < 100"
+  ],
+  "variable_word_list": {
+    "name_female": "Aleena"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      160,
+      150,
+      125,
+      200,
+      180,
+      250,
+      225,
+      300,
+      125,
+      175
+    ],
+    "num_frac_1": [
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa"
+    ],
+    "num_digit_2": [
+      20,
+      15,
+      12,
+      14,
+      25,
+      30,
+      16,
+      40,
+      18,
+      22
+    ],
+    "num_frac_2": [
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa",
+      "Rabinsa"
+    ],
+    "answer": [
+      1728,
+      1665,
+      1410,
+      2232,
+      1890,
+      2550,
+      2484,
+      2880,
+      1365,
+      1869
+    ],
+    "num_ic": [
+      191,
+      246,
+      22,
+      520,
+      231,
+      1776,
+      1200,
+      337,
+      80,
+      339
+    ]
+  },
+  "ic_question_template": "Gwaggon {name_female, Aleena} ta sayi hotunan talla na fim guda {num_ic, 57} bara. {name_female, Aleena} ta yi rajista da sabis ɗin yanar gizo wanda take biyan ${num_digit_1, 140} kowane wata. Idan kamfanin ya caje ta biyan farko na {num_frac_1, rabi}n farkon shekara sannan kuma ya caji {num_digit_2, 10}% na sauran {num_frac_2, rabi}n shekarar, kididdige adadin kuɗin da ta biya na sabis ɗin yanar gizo a ƙarshen shekara.",
+  "ic_sentence": "Gwaggon {name_female, Aleena} ta sayi hotunan talla na fim guda {num_ic, 57} bara."
+}

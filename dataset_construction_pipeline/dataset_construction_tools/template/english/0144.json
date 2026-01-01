@@ -1,0 +1,118 @@
+{
+  "original_question": "Kim has started his own housekeeping business and is calculating how much profit he will make from his clients. He already has 3 clients, but is talking to another 5 potential clients and feels confident enough to include them in his calculations. Each client’s home will need 2 bottles of bleach and a pack of cloths to clean. Bottles of bleach will cost $2 each and packs of cloths will cost $5 each. These are his only expenses. He calculates that his total income each week will be $92. Profit is the difference between total income and total expenses, so how much profit, in dollars, will Lucas make each week?",
+  "original_answer": 20,
+  "question_template": "{name_male, Kim} has started his own housekeeping business and is calculating how much profit he will make from his clients. He already has {num_digit_1, 3} clients, but is talking to another {num_digit_2, 5} potential clients and feels confident enough to include them in his calculations. Each client’s home will need {num_digit_3, 2} bottles of bleach and a pack of cloths to clean. Bottles of bleach will cost ${num_digit_4, 2} each and packs of cloths will cost ${num_digit_5, 5} each. These are his only expenses. He calculates that his total income each week will be ${num_digit_6, 92}. Profit is the difference between total income and total expenses, so how much profit, in dollars, will {name_male, Kim} make each week?",
+  "question_solution": "answer = num_digit_6 - (num_digit_1 + num_digit_2) * (num_digit_3 * num_digit_4 + num_digit_5)",
+  "conditions": [
+    "answer == num_digit_6 - (num_digit_1 + num_digit_2) * (num_digit_3 * num_digit_4 + num_digit_5)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > (num_digit_1 + num_digit_2) * (num_digit_3 * num_digit_4 + num_digit_5)"
+  ],
+  "variable_word_list": {
+    "name_male": "Kim"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      2,
+      5,
+      6,
+      8,
+      3,
+      9,
+      10,
+      1,
+      7
+    ],
+    "num_digit_2": [
+      6,
+      8,
+      5,
+      3,
+      4,
+      7,
+      6,
+      5,
+      4,
+      8
+    ],
+    "num_digit_3": [
+      3,
+      1,
+      2,
+      2,
+      1,
+      4,
+      2,
+      3,
+      2,
+      2
+    ],
+    "num_digit_4": [
+      2,
+      4,
+      3,
+      4,
+      3,
+      2,
+      3,
+      4,
+      2,
+      5
+    ],
+    "num_digit_5": [
+      5,
+      3,
+      4,
+      6,
+      2,
+      3,
+      5,
+      6,
+      4,
+      5
+    ],
+    "num_digit_6": [
+      150,
+      100,
+      140,
+      200,
+      200,
+      180,
+      250,
+      400,
+      90,
+      350
+    ],
+    "answer": [
+      40,
+      30,
+      40,
+      74,
+      140,
+      70,
+      85,
+      130,
+      50,
+      125
+    ],
+    "num_ic": [
+      12,
+      36,
+      41,
+      44,
+      78,
+      74,
+      39,
+      46,
+      51,
+      69
+    ]
+  },
+  "ic_question_template": "{name_male, Kim} has started his own housekeeping business and is calculating how much profit he will make from his clients. He already has {num_digit_1, 3} clients, but is talking to another {num_digit_2, 5} potential clients and feels confident enough to include them in his calculations. Each client’s home will need {num_digit_3, 2} bottles of bleach and a pack of cloths to clean. Bottles of bleach will cost ${num_digit_4, 2} each and packs of cloths will cost ${num_digit_5, 5} each. These are his only expenses. He calculates that his total income each week will be ${num_digit_6, 92}. {name_male, Kim}'s uncle once bought {num_ic, 12} vacuum cleaners for his own business. Profit is the difference between total income and total expenses, so how much profit, in dollars, will {name_male, Kim} make each week?",
+  "ic_sentence": "{name_male, Kim}'s uncle once bought {num_ic, 12} vacuum cleaners for his own business."
+}

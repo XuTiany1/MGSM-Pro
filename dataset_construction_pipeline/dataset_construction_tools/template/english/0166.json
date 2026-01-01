@@ -1,0 +1,81 @@
+{
+  "original_question": "Sandra's neighbor gives her a basket of 9 eggs every time she babysits their daughter. To make a Spanish flan, she needs 3 eggs. If Sandra has been tasked to make 15 Spanish flans for her school fundraiser, how many times does Sandra have to babysit?",
+  "original_answer": 5,
+  "question_template": "{name_female, Sandra}'s neighbor gives her a basket of {num_digit_1, 9} eggs every time she babysits their daughter. To make a Spanish flan, she needs {num_digit_2, 3} eggs. If {name_female, Sandra} has been tasked to make {num_digit_3, 15} Spanish flans for her school fundraiser, how many times does {name_female, Sandra} have to babysit?",
+  "question_solution": "answer = (num_digit_3 * num_digit_2) / num_digit_1",
+  "conditions": [
+    "answer == (num_digit_3 * num_digit_2) / num_digit_1",
+    "(num_digit_3 * num_digit_2) % num_digit_1 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sandra"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      6,
+      8,
+      10,
+      12,
+      5,
+      7,
+      4,
+      11,
+      14,
+      16
+    ],
+    "num_digit_2": [
+      2,
+      4,
+      5,
+      6,
+      3,
+      4,
+      2,
+      5,
+      7,
+      8
+    ],
+    "num_digit_3": [
+      18,
+      14,
+      22,
+      26,
+      25,
+      21,
+      34,
+      11,
+      20,
+      28
+    ],
+    "answer": [
+      6,
+      7,
+      11,
+      13,
+      15,
+      12,
+      17,
+      5,
+      10,
+      14
+    ],
+    "num_ic": [
+      36,
+      44,
+      27,
+      103,
+      49,
+      32,
+      138,
+      76,
+      52,
+      58
+    ]
+  },
+  "ic_question_template": "{name_female, Sandra}'s neighbor gives her a basket of {num_digit_1, 9} eggs every time she babysits their daughter. {name_female, Sandra}'s uncle once brought {num_ic, 33} mangoes from his farm. To make a Spanish flan, she needs {num_digit_2, 3} eggs. If {name_female, Sandra} has been tasked to make {num_digit_3, 15} Spanish flans for her school fundraiser, how many times does {name_female, Sandra} have to babysit?",
+  "ic_sentence": "{name_female, Sandra}'s uncle once brought {num_ic, 33} mangoes from his farm."
+}

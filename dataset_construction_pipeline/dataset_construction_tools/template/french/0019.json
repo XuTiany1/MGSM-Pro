@@ -1,0 +1,93 @@
+{
+  "original_question": "Marissa fait une randonnée sur un sentier d'une longueur de 12 miles. Elle a mis 1 heure pour parcourir les 4 premiers miles, puis une autre heure pour les deux miles suivants. Si elle veut que sa vitesse moyenne soit de 4 miles par heure, quelle vitesse (en miles par heure) doit-elle atteindre pour parcourir la distance restante ?",
+  "original_answer": 6,
+  "question_template": "{name_female, Marissa} fait une randonnée sur un sentier d'une longueur de {num_digit_1, 12} miles. Elle a mis {num_digit_2, 1} heure pour parcourir les {num_digit_3, 4} premiers miles, puis une autre {num_digit_2, 1} heure pour les {num_text_1, deux} miles suivants. Si elle veut que sa vitesse moyenne soit de {num_digit_4, 4} miles par heure, quelle vitesse (en miles par heure) doit-elle atteindre pour parcourir la distance restante ?",
+  "question_solution": "answer = (num_digit_1 - (num_digit_3 + NUM(num_text_1))) / (num_digit_1 / num_digit_4 - 2 * num_digit_2)",
+  "conditions": [
+    "int(answer) == (num_digit_1 - (num_digit_3 + NUM(num_text_1))) / (num_digit_1 / num_digit_4 - 2 * num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_text_1) > 0",
+    "num_digit_3 + NUM(num_text_1) < num_digit_1",
+    "num_digit_4 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Marissa"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      147,
+      134,
+      146,
+      132,
+      44,
+      46,
+      45,
+      72,
+      130,
+      54
+    ],
+    "num_digit_2": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "num_digit_3": [
+      18,
+      16,
+      14,
+      15,
+      7,
+      14,
+      19,
+      8,
+      16,
+      7
+    ],
+    "num_text_1": [
+      "deux",
+      "deux",
+      "deux",
+      "dix-sept",
+      "treize",
+      "dix-neuf",
+      "deux",
+      "deux",
+      "deux",
+      "sept"
+    ],
+    "num_digit_4": [
+      10,
+      9,
+      8,
+      6,
+      10,
+      10,
+      9,
+      5,
+      9,
+      7
+    ],
+    "answer": [
+      10,
+      9,
+      8,
+      5,
+      10,
+      5,
+      8,
+      5,
+      9,
+      7
+    ]
+  },
+  "ic_question_template": "{name_female, Marissa} a une tante qui a vu {num_ic, 49} fleurs sauvages le long du chemin. {name_female, Marissa} fait une randonnée sur un sentier d'une longueur de {num_digit_1, 12} miles. Elle a mis {num_digit_2, 1} heure pour parcourir les {num_digit_3, 4} premiers miles, puis une autre {num_digit_2, 1} heure pour les {num_text_1, deux} miles suivants. Si elle veut que sa vitesse moyenne soit de {num_digit_4, 4} miles par heure, quelle vitesse (en miles par heure) doit-elle atteindre pour parcourir la distance restante ?",
+  "ic_sentence": "{name_female, Marissa} a une tante qui a vu {num_ic, 49} fleurs sauvages le long du chemin."
+}

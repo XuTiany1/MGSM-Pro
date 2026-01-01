@@ -1,0 +1,80 @@
+{
+  "original_question": "ራያን በአትክልቱ ውስጥ በቀን 2 አበባዎችን ይተክላል። ከ 15 ቀናት በኋላ፣ 5 ካልበቀሉ ምን ያህል አበባዎች አሉት?",
+  "original_answer": 25,
+  "question_template": "{name_male, ራያን} በአትክልቱ ውስጥ በቀን {num_digit_1, 2} አበባዎችን ይተክላል። ከ{num_digit_2, 15} ቀናት በኋላ፣ {num_digit_3, 5} ካልበቀሉ ምን ያህል አበባዎች አሉት?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 - num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 - num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "answer > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Ryan"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      5,
+      4,
+      7,
+      9,
+      6,
+      8,
+      10,
+      11,
+      12
+    ],
+    "num_digit_2": [
+      12,
+      9,
+      18,
+      11,
+      13,
+      20,
+      14,
+      16,
+      17,
+      19
+    ],
+    "num_digit_3": [
+      4,
+      7,
+      6,
+      8,
+      10,
+      15,
+      12,
+      18,
+      9,
+      22
+    ],
+    "answer": [
+      32,
+      38,
+      66,
+      69,
+      107,
+      105,
+      100,
+      142,
+      178,
+      206
+    ],
+    "num_ic": [
+      23,
+      44,
+      97,
+      52,
+      68,
+      110,
+      101,
+      17,
+      130,
+      82
+    ]
+  },
+  "ic_question_template": "{name_male, ራያን} በአትክልቱ ውስጥ በቀን {num_digit_1, 2} አበባዎችን ይተክላል። ከ{num_digit_2, 15} ቀናት በኋላ፣ {num_digit_3, 5} ካልበቀሉ ምን ያህል አበባዎች አሉት? {name_male, ራያን} አጎቱ ለመትከል ቦታ {num_ic, 8} አዲስ እቃዎችን አመጣለት።",
+  "ic_sentence": "{name_male, ራያን} አጎቱ ለመትከል ቦታ {num_ic, 8} አዲስ እቃዎችን አመጣለት።"
+}

@@ -1,0 +1,91 @@
+{
+  "original_question": "Iko dọzịn iri abụọ pụtara $1200 pekaria ọkara ngụkọta ọnụego dọzin efere e rere $6000 nke ọ bụla. Gbakọọ ngụkọta ọnụ ego ọ ga-efu ịzụta iko ọ bụla.",
+  "original_answer": 145,
+  "question_template": "Iko dọzịn {num_text_1, iri abụọ} pụtara ${num_digit_1, 1200} pekaria {num_frac_1, ọkara} ngụkọta ọnụego dọzin efere e rere ${num_digit_2, 6000} nke ọ bụla. Gbakọọ ngụkọta ọnụ ego ọ ga-efu ịzụta iko ọ bụla.",
+  "question_solution": "answer = (f1 * 12 * num_digit_2 - num_digit_1) / (f2 * 12)   # f1 is numeric value of num_frac_1, f2 is numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (f1 * 12 * num_digit_2 - num_digit_1) / (f2 * 12)",
+    "f1 > 0",
+    "f2 > 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "Iri abụọ",
+      "ịrì abụọ na ise",
+      "iri atọ na abụọ",
+      "iri anọ na asaa",
+      "ịrịị atọ na otu",
+      "iri isii na ise",
+      "iri asaa na abụọ",
+      "iri asatọ na anọ",
+      "Iri itoolu na atọ",
+      "otu narị na otu"
+    ],
+    "num_frac_1": [
+      "ọkara",
+      "otu nke atọ",
+      "ịbụ ụzọ nke ise abụọ",
+      "otu n’ime asaa atọ",
+      "nke anọ n’ime itoolu",
+      "ise n’ime asatọ",
+      "nke asaa n’ime iri na atọ",
+      "iteghete n’ime iri na otu",
+      "iri na otu n’ime iri na anọ",
+      "iri na atọ n’ime iri na ise"
+    ],
+    "num_digit_1": [
+      80502,
+      45948,
+      31272,
+      16200,
+      59740,
+      8490,
+      76896,
+      62928,
+      76848,
+      57356
+    ],
+    "num_digit_2": [
+      16017,
+      12462,
+      8595,
+      11704,
+      16365,
+      11740,
+      17784,
+      8360,
+      15134,
+      14605
+    ],
+    "answer": [
+      65,
+      13,
+      26,
+      78,
+      45,
+      102,
+      44,
+      19,
+      59,
+      78
+    ],
+    "num_ic": [
+      110,
+      799,
+      49,
+      241,
+      865,
+      803,
+      482,
+      963,
+      515,
+      134
+    ]
+  },
+  "ic_question_template": "{num_text_1, Iri abụọ} iko iri na abuo ka echekwara n'akụkụ {num_ic, 245} ite tea n'ime ụlọ nkwakọba ihe. Iko dọzịn {num_text_1, iri abụọ} pụtara ${num_digit_1, 1200} pekaria {num_frac_1, ọkara} ngụkọta ọnụego dọzin efere e rere ${num_digit_2, 6000} nke ọ bụla. Gbakọọ ngụpụta ọnụ ego ọ ga-efu ịzụta iko ọ bụla.",
+  "ic_sentence": "{num_text_1, Iri abụọ} iko iri na abuo ka echekwara n'akụkụ {num_ic, 245} ite tea n'ime ụlọ nkwakọba ihe."
+}

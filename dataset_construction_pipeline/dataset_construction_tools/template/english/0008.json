@@ -1,0 +1,130 @@
+{
+  "original_question": "John drives for 3 hours at a speed of 60 mph and then turns around because he realizes he forgot something very important at home. He tries to get home in 4 hours but spends the first 2 hours in standstill traffic. He spends the next half-hour driving at a speed of 30 mph, before being able to drive the remaining time of the 4 hours going at 80 mph. How far is he from home at the end of those 4 hours?",
+  "original_answer": 45,
+  "question_template": "{name_male, John} drives for {num_digit_1, 3} hours at a speed of {num_digit_2, 60} mph and then turns around because he realizes he forgot something very important at home. He tries to get home in {num_digit_3, 4} hours but spends the first {num_digit_5, 2} hours in standstill traffic. He spends the next {num_frac_1, half}-hour driving at a speed of {num_digit_6, 30} mph, before being able to drive the remaining time of the {num_digit_3, 4} hours going at {num_digit_7, 80} mph. How far is he from home at the end of those {num_digit_3, 4} hours?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 - (NUM(num_frac_1) * num_digit_6 + (num_digit_3 - num_digit_5 - NUM(num_frac_1)) * num_digit_7)",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 - (NUM(num_frac_1) * num_digit_6 + (num_digit_3 - num_digit_5 - NUM(num_frac_1)) * num_digit_7)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > num_digit_5 + NUM(num_frac_1)",
+    "NUM(num_frac_1) > 0",
+    "num_digit_6 >= 0",
+    "num_digit_7 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      23,
+      19,
+      31,
+      29,
+      17,
+      13,
+      11,
+      41,
+      37,
+      43
+    ],
+    "num_digit_2": [
+      181,
+      157,
+      149,
+      131,
+      127,
+      120,
+      132,
+      114,
+      148,
+      176
+    ],
+    "num_digit_3": [
+      10,
+      9,
+      12,
+      8,
+      11,
+      7,
+      6,
+      13,
+      14,
+      15
+    ],
+    "num_digit_5": [
+      2,
+      1,
+      3,
+      2,
+      4,
+      1,
+      2,
+      5,
+      3,
+      4
+    ],
+    "num_frac_1": [
+      "half",
+      "half",
+      "half",
+      "half",
+      "half",
+      "half",
+      "half",
+      "half",
+      "half",
+      "half"
+    ],
+    "num_digit_6": [
+      52,
+      60,
+      74,
+      88,
+      100,
+      114,
+      126,
+      132,
+      148,
+      176
+    ],
+    "num_digit_7": [
+      64,
+      92,
+      108,
+      104,
+      156,
+      178,
+      182,
+      196,
+      208,
+      234
+    ],
+    "answer": [
+      3657,
+      2263,
+      3664,
+      3183,
+      1095,
+      524,
+      752,
+      3138,
+      3218,
+      5023
+    ],
+    "num_ic": [
+      84,
+      99,
+      110,
+      274,
+      136,
+      182,
+      315,
+      284,
+      182,
+      419
+    ]
+  },
+  "ic_question_template": "{name_male, John} drives for {num_digit_1, 3} hours at a speed of {num_digit_2, 60} mph and then turns around because he realizes he forgot something very important at home. He tries to get home in {num_digit_3, 4} hours but spends the first {num_digit_5, 2} hours in standstill traffic. He spends the next {num_frac_1, half}-hour driving at a speed of {num_digit_6, 30} mph, before being able to drive the remaining time of the {num_digit_3, 4} hours going at {num_digit_7, 80} mph. {name_male, John}'s cousin found {num_ic, 284} baseball cards in his attic. How far is he from home at the end of those {num_digit_3, 4} hours?",
+  "ic_sentence": "{name_male, John}'s cousin found {num_ic, 284} baseball cards in his attic."
+}

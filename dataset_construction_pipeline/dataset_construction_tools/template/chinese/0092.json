@@ -1,0 +1,98 @@
+{
+  "original_question": "艾米莉有 4 个孩子，名叫艾米、杰克逊、科里和詹姆斯。艾米比杰克逊大 5 岁，比科里小 2 岁。如果詹姆斯 10 岁，并且比科里小 1 岁，杰克逊几岁？",
+  "original_answer": 4,
+  "question_template": "{name_female_1, 艾米莉} 有 {num_digit_1, 4} 个孩子，名叫 {name_female_2, 艾米}、{name_male_1, 杰克逊}、{name_male_2, 科里} 和 {name_male_3, 詹姆斯}。{name_female_2, 艾米} 比 {name_male_1, 杰克逊} 大 {num_digit_2, 5} 岁，比 {name_male_2, 科里} 小 {num_digit_3, 2} 岁。如果 {name_male_3, 詹姆斯} {num_digit_4, 10} 岁，并且比 {name_male_2, 科里} 小 {num_digit_5, 1} 岁，{name_male_1, 杰克逊} 几岁？",
+  "question_solution": "answer = num_digit_4 + num_digit_5 - num_digit_3 - num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_4 + num_digit_5 - num_digit_3 - num_digit_2",
+    "num_digit_4 + num_digit_5 - num_digit_3 - num_digit_2 >= 0",
+    "num_digit_4 + num_digit_5 - num_digit_3 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 > 0",
+    "num_digit_5 >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Emily",
+    "name_female_2": "Amy",
+    "name_male_1": "Jackson",
+    "name_male_2": "Corey",
+    "name_male_3": "James"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "num_digit_2": [
+      3,
+      4,
+      2,
+      5,
+      1,
+      7,
+      8,
+      3,
+      9,
+      4
+    ],
+    "num_digit_3": [
+      2,
+      1,
+      3,
+      6,
+      1,
+      4,
+      2,
+      4,
+      7,
+      3
+    ],
+    "num_digit_4": [
+      8,
+      10,
+      12,
+      14,
+      7,
+      15,
+      12,
+      11,
+      16,
+      13
+    ],
+    "num_digit_5": [
+      2,
+      3,
+      4,
+      3,
+      1,
+      5,
+      2,
+      3,
+      4,
+      2
+    ],
+    "answer": [
+      5,
+      8,
+      11,
+      6,
+      6,
+      9,
+      4,
+      7,
+      4,
+      8
+    ]
+  },
+  "ic_question_template": "{name_female_1, 艾米丽} 的叔叔从商店买了 {num_ic, 39} 个苹果。{name_female_1, 艾米莉} 有 {num_digit_1, 4} 个孩子，名叫 {name_female_2, 艾米}、{name_male_1, 杰克逊}、{name_male_2, 科里} 和 {name_male_3, 詹姆斯}。{name_female_2, 艾米} 比 {name_male_1, 杰克逊} 大 {num_digit_2, 5} 岁，比 {name_male_2, 科里} 小 {num_digit_3, 2} 岁。如果 {name_male_3, 詹姆斯} {num_digit_4, 10} 岁，并且比 {name_male_2, 科里} 小 {num_digit_5, 1} 岁，{name_male_1, 杰克逊} 几岁？",
+  "ic_sentence": "{name_female_1, 艾米丽} 的叔叔从商店买了 {num_ic, 39} 个苹果。"
+}

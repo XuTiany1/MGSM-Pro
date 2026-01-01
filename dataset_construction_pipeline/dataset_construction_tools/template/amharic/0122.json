@@ -1,0 +1,82 @@
+{
+  "original_question": "ሳዲ ሰኞ 8 ሰዓት ተኝታለች። በቀጣዮቹ ሁለት ቀናት፣ የተወሰኑ ስራዎችን ማጠናቀቅ ስላለባት ፣ 2 ሰዓት ያነሰ ተኝታለች። በቀሪው የሳምንቱ ቀናት ከነዚህ ሁለት ቀናት በ 1 ሰዓት የበለጠ ተኛች፣ በሳምንቱ ውስጥ በጠቅላላው ስንት ሰዓት ተኝታለች?",
+  "original_answer": 48,
+  "question_template": "{name_female, ሳዲ} ሰኞ {num_digit_1, 8} ሰዓት ተኝታለች። በቀጣዮቹ {num_text_1, ሁለት} ቀናት፣ የተወሰኑ ስራዎችን ማጠናቀቅ ስላለባት ፣ {num_digit_2, 2} ሰዓት ያነሰ ተኝታለች። በቀሪው የሳምንቱ ቀናት ከነዚህ {num_text_2, ሁለት} ቀናት በ {num_digit_3, 1} ሰዓት የበለጠ ተኛች፣ በሳምንቱ ውስጥ በጠቅላላው ስንት ሰዓት ተኝታለች?",
+  "question_solution": "answer = num_digit_1 + 2*(num_digit_1 - num_digit_2) + 4*(num_digit_1 - num_digit_2 + num_digit_3)",
+  "conditions": [
+    "int(answer) == num_digit_1 + 2*(num_digit_1 - num_digit_2) + 4*(num_digit_1 - num_digit_2 + num_digit_3)",
+    "num_digit_1 > num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sadie",
+    "num_text_1": "two",
+    "num_text_2": "two"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      9,
+      10,
+      7,
+      12,
+      6,
+      11,
+      9,
+      8,
+      14,
+      10
+    ],
+    "num_digit_2": [
+      3,
+      4,
+      1,
+      4,
+      1,
+      5,
+      2,
+      1,
+      6,
+      1
+    ],
+    "num_digit_3": [
+      2,
+      3,
+      1,
+      2,
+      2,
+      1,
+      4,
+      3,
+      3,
+      5
+    ],
+    "answer": [
+      53,
+      58,
+      47,
+      68,
+      44,
+      51,
+      67,
+      62,
+      74,
+      84
+    ],
+    "num_ic": [
+      19,
+      48,
+      31,
+      108,
+      25,
+      60,
+      22,
+      84,
+      62,
+      96
+    ]
+  },
+  "ic_question_template": "{name_female, ሳዲ} ሰኞ {num_digit_1, 8} ሰዓት ተኝታለች። በቀጣዮቹ {num_text_1, ሁለት} ቀናት፣ የተወሰኑ ስራዎችን ማጠናቀቅ ስላለባት ፣ {num_digit_2, 2} ሰዓት ያነሰ ተኝታለች። በቀሪው የሳምንቱ ቀናት ከነዚህ {num_text_2, ሁለት} ቀናት በ {num_digit_3, 1} ሰዓት የበለጠ ተኛች፣ በሳምንቱ ውስጥ በጠቅላላው ስንት ሰዓት ተኝታለች? {name_female, ሳዲ} አጎቷ ባለፈው ሳምንት {num_ic, 23} ኩባያዎች ቡና ጠጣ።",
+  "ic_sentence": "{name_female, ሳዲ} አጎቷ ባለፈው ሳምንት {num_ic, 23} ኩባያዎች ቡና ጠጣ።"
+}

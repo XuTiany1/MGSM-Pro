@@ -1,0 +1,64 @@
+{
+  "original_question": "A robe takes 2 bolts of blue fiber and half that much white fiber. How many bolts in total does it take?",
+  "original_answer": 3,
+  "question_template": "{num_digit_1, 2} bolts of blue fiber are needed for a robe, and {num_frac_1, half} that much white fiber. How many bolts in total does it take?",
+  "question_solution": "answer = num_digit_1 * (1 + NUM(num_frac_1))",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 + NUM(num_frac_1))",
+    "num_digit_1 > 0",
+    "0 < NUM(num_frac_1) < 1"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      6,
+      9,
+      8,
+      10,
+      12,
+      15,
+      25,
+      24,
+      14,
+      30
+    ],
+    "num_frac_1": [
+      "one-third",
+      "two-thirds",
+      "three-fourths",
+      "one-fifth",
+      "five-sixths",
+      "three-fifths",
+      "four-fifths",
+      "one-fourth",
+      "half",
+      "nine-tenths"
+    ],
+    "answer": [
+      8,
+      15,
+      14,
+      12,
+      22,
+      24,
+      45,
+      30,
+      21,
+      57
+    ],
+    "num_ic": [
+      19,
+      26,
+      73,
+      84,
+      46,
+      133,
+      250,
+      207,
+      37,
+      245
+    ]
+  },
+  "ic_question_template": "{num_digit_1, 2} bolts of blue fiber are needed for a robe, and {num_frac_1, half} that much white fiber. The tailor's uncle once brought {num_ic, 19} spools of thread from the city. How many bolts in total does it take?",
+  "ic_sentence": "The tailor's uncle once brought {num_ic, 19} spools of thread from the city."
+}

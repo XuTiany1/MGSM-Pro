@@ -1,0 +1,82 @@
+{
+  "original_question": "Jerry na-atụ mkpụrụ okwe ịhụ isii. Kedụ otu ọzọ o nwekariri ị́ké ịtụ ya (akpọpụta ya dịka pesenti) ka ọ bụrụ ọnụọgụgụ dị ugboro atọ karịa na ọ tụrụ ọnụọgụgụ abụọ enwere ị́ké ike nhatanha? ",
+  "original_answer": 25,
+  "question_template": "{name_male, Jerry}  na-atụ mkpụrụ okwe {num_text_1, isii}. Kedụ otu ọzọ o nwekariri ị́ké ịtụ ya (akpọpụta ya dịka pesenti) ka ọ bụrụ ọnụọgụgụ dị elu karịa {num_digit_1, 3} karịa na ọ tụrụ {num_text_2, abụọ} ọnụọgụgụ abụọ enwere ị́ké ike nhatanha?",
+  "question_solution": "even_count = num_text_1 / 2  # number of even faces\nanswer = ((num_text_1 - num_digit_1) / num_text_1 - (even_count / num_text_1) ** num_text_2) * 100",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == ((num_text_1 - num_digit_1) / num_text_1 - ((num_text_1/2) / num_text_1) ** num_text_2) * 100",
+    "num_text_1 % 2 == 0",
+    "num_digit_1 < num_text_1",
+    "num_text_2 == 2",
+    "num_text_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jerry"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "iri abụọ na anọ",
+      "Iri anọ",
+      "Iri ise",
+      "Iri abụọ",
+      "iri asatọ na abụọ",
+      "ọkara narị na iri abụọ na ise",
+      "ịrì abụọ na ise",
+      "Iri",
+      "Iri ise",
+      "ịgụ atọ"
+    ],
+    "num_text_2": [
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ"
+    ],
+    "num_digit_1": [
+      7,
+      8,
+      15,
+      3,
+      9,
+      5,
+      3,
+      1,
+      7,
+      12
+    ],
+    "answer": [
+      50,
+      55,
+      45,
+      60,
+      25,
+      71,
+      63,
+      65,
+      61,
+      35
+    ],
+    "num_ic": [
+      78,
+      180,
+      110,
+      35,
+      16,
+      210,
+      41,
+      7,
+      92,
+      48
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_male, Jerry} tụkọrọ mkpụrụ ịkụ nzọ {num_ic, 73} otu ugboro. {name_male, Jerry}  na-atụ mkpụrụ okwe {num_text_1, isii}. Kedụ otu ọzọ o nwekariri ị́ké ịtụ ya (akpọpụta ya dịka pesenti) ka ọ bụrụ ọnụọgụgụ dị elu karịa {num_digit_1, 3} karịa na ọ tụrụ {num_text_2, abụọ} ọnụọgụgụ abụọ enwere ị́ké ike nhatanha?",
+  "ic_sentence": "Nwanne nna {name_male, Jerry} tụkọrọ mkpụrụ ịkụ nzọ {num_ic, 73} otu ugboro."
+}

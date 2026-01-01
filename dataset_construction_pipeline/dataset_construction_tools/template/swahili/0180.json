@@ -1,0 +1,80 @@
+{
+  "original_question": "Wagombea wawili wanagombea mwakilishi wa darasa katika shule ya Sarai. Iwapo mshindi alipata 3/4 ya kura na jumla ya idadi ya wanafunzi waliopiga kura katika darasa hilo ilikuwa 80, piga hesabu ya idadi ya kura ambazo yule aliyeshindwa alipata.",
+  "original_answer": 20,
+  "question_template": "Wagombea {num_text_1, wawili} wanagombea mwakilishi wa darasa katika shule ya {name_female, Sarai}. Iwapo mshindi alipata {num_frac_1, 3/4} ya kura na jumla ya idadi ya wanafunzi waliopiga kura katika darasa hilo ilikuwa {num_digit_1, 80}, piga hesabu ya idadi ya kura ambazo yule aliyeshindwa alipata.",
+  "question_solution": "answer = num_digit_1 * (1 - f1)   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 - f1)",
+    "0 < f1 < 1",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sarai"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "mbili",
+      "mbili",
+      "mbili",
+      "mbili",
+      "mbili",
+      "mbili",
+      "mbili",
+      "mbili",
+      "mbili",
+      "mbili"
+    ],
+    "num_frac_1": [
+      "7/12",
+      "11/13",
+      "17/20",
+      "23/29",
+      "13/17",
+      "19/24",
+      "29/30",
+      "37/41",
+      "9/14",
+      "41/44"
+    ],
+    "num_digit_1": [
+      240,
+      312,
+      380,
+      580,
+      153,
+      576,
+      870,
+      820,
+      140,
+      528
+    ],
+    "answer": [
+      100,
+      48,
+      57,
+      120,
+      36,
+      120,
+      29,
+      80,
+      50,
+      36
+    ],
+    "num_ic": [
+      186,
+      576,
+      33,
+      1955,
+      247,
+      1319,
+      1988,
+      1323,
+      828,
+      1823
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_female, Sarai} aligawa stika {num_ic, 405} wakati wa mkutano. Wagombea {num_text_1, wawili} wanagombea mwakilishi wa darasa katika shule ya {name_female, Sarai}. Iwapo mshindi alipata {num_frac_1, 3/4} ya kura na jumla ya idadi ya wanafunzi waliopiga kura katika darasa hilo ilikuwa {num_digit_1, 80}, piga hesabu ya idadi ya kura ambazo yule aliyeshindwa alipata.",
+  "ic_sentence": "Mjomba wa {name_female, Sarai} aligawa stika {num_ic, 405} wakati wa mkutano."
+}

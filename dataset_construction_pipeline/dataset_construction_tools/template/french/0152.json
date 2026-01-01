@@ -1,0 +1,81 @@
+{
+  "original_question": "Carl achète dix paquets de cookies. Chaque paquet contient six biscuits. Chaque biscuit coûte 0,10 $. Combien de monnaie reçoit Carl s'il paie avec un billet de 10 $ ?",
+  "original_answer": 4,
+  "question_template": "{name_male, Carl} achète {num_text_1, dix} paquets de cookies. Chaque paquet contient {num_text_2, six} biscuits. Chaque biscuit coûte {num_digit_1, 0.10} $. Combien de monnaie reçoit {name_male, Carl} s'il paie avec un billet de {num_digit_2, 10} $ ?",
+  "question_solution": "answer = num_digit_2 - num_text_1 * num_text_2 * num_digit_1",
+  "conditions": [
+    "answer == num_digit_2 - num_text_1 * num_text_2 * num_digit_1",
+    "answer % 1 == 0",
+    "num_text_1 > 0",
+    "num_text_2 > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > num_text_1 * num_text_2 * num_digit_1"
+  ],
+  "variable_word_list": {
+    "name_male": "Carl"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "trois",
+      "cinq",
+      "sept",
+      "six",
+      "huit",
+      "neuf",
+      "quatre",
+      "dix",
+      "onze",
+      "douze"
+    ],
+    "num_text_2": [
+      "quatre",
+      "cinq",
+      "six",
+      "cinq",
+      "dix",
+      "cinq",
+      "sept",
+      "douze",
+      "quatre",
+      "quinze"
+    ],
+    "num_digit_1": [
+      0.25,
+      0.2,
+      0.5,
+      0.1,
+      0.25,
+      0.2,
+      0.5,
+      0.1,
+      0.25,
+      0.2
+    ],
+    "num_digit_2": [
+      10,
+      20,
+      40,
+      20,
+      30,
+      25,
+      40,
+      50,
+      60,
+      100
+    ],
+    "answer": [
+      7,
+      15,
+      19,
+      17,
+      10,
+      16,
+      26,
+      38,
+      49,
+      64
+    ]
+  },
+  "ic_question_template": "{name_male, Carl} a une tante qui a apporté {num_ic, 31} muffins à la fête. {name_male, Carl} achète {num_text_1, dix} paquets de cookies. Chaque paquet contient {num_text_2, six} biscuits. Chaque biscuit coûte {num_digit_1, 0.10} $. Combien de monnaie reçoit {name_male, Carl} s'il paie avec un billet de {num_digit_2, 10} $ ?",
+  "ic_sentence": "{name_male, Carl} a une tante qui a apporté {num_ic, 31} muffins à la fête."
+}

@@ -1,0 +1,120 @@
+{
+  "original_question": "Bill too 300 bobɔ, 120 yɛ Kyokolate croissants, ne baguettes aduasa da biara. Bobɔ biara tenten yɛ anammɔn enan, croissant biara tenten yɛ anammɔn nsia, na baguette biara tenten yɛ anammɔn mmienu. Sɛ Bill de nneɛma a wɔato no nyinaa ba awiei ye a, ne nan bɛyɛ tenten bɛyɛ sɛn?",
+  "original_answer": 280,
+  "question_template": "{name_male, Bill} too {num_digit_1, 300} bobɔ, {num_digit_2, 120} yɛ Kyokolate croissants, ne baguettes {num_digit_3, 60} aduasa da biara. Bobɔ biara tenten yɛ anammɔn {num_digit_4, 4}, croissant biara tenten yɛ anammɔn {num_digit_5, 6}, na baguette biara tenten yɛ anammɔn {num_text_1, mmienu}. Sɛ {name_male, Bill} de nneɛma a wɔato no nyinaa ba awiei ye a, ne nan bɛyɛ tenten bɛyɛ sɛn?",
+  "question_solution": "answer = (num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5) / 12 + num_digit_3 * k   # k is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5) / 12 + num_digit_3 * k",
+    "(num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5) % 12 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "k > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Bill"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      252,
+      300,
+      360,
+      540,
+      372,
+      420,
+      480,
+      360,
+      324,
+      396
+    ],
+    "num_digit_2": [
+      180,
+      150,
+      210,
+      240,
+      132,
+      180,
+      240,
+      120,
+      168,
+      180
+    ],
+    "num_digit_3": [
+      90,
+      70,
+      60,
+      50,
+      40,
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "num_digit_4": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      6,
+      6,
+      6,
+      4,
+      6
+    ],
+    "num_digit_5": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "num_text_1": [
+      "mienu",
+      "mmiɛnsa",
+      "ɛnān",
+      "anum",
+      "nsia",
+      "Nson",
+      "nwɔtwe",
+      "nkron",
+      "du",
+      "duakoɔ baako"
+    ],
+    "answer": [
+      354,
+      385,
+      465,
+      550,
+      430,
+      510,
+      560,
+      420,
+      342,
+      398
+    ],
+    "num_ic": [
+      47,
+      116,
+      24,
+      104,
+      93,
+      150,
+      56,
+      145,
+      40,
+      112
+    ]
+  },
+  "ic_question_template": "{name_male, Bill} sewaa tɔ brodo {num_ic, 72} bosome biara. {name_male, Bill} too {num_digit_1, 300} bobɔ, {num_digit_2, 120} yɛ Kyokolate croissants, ne baguettes {num_digit_3, 60} aduasa da biara. Bobɔ biara tenten yɛ anammɔn {num_digit_4, 4}, croissant biara tenten yɛ anammɔn {num_digit_5, 6}, na baguette biara tenten yɛ anammɔn {num_text_1, mmienu}. Sɛ {name_male, Bill} de nneɛma a wɔato no nyinaa ba awiei ye a, ne nan bɛyɛ tenten bɛyɛ sɛn?",
+  "ic_sentence": "{name_male, Bill} sewaa tɔ brodo {num_ic, 72} bosome biara."
+}

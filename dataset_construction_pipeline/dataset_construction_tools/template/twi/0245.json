@@ -1,0 +1,90 @@
+{
+  "original_question": "Nwa enam na ɛwɔ asubura baako bi mu, nwa adusa mmienu nso wɔ asubura foforo bi mu. Nsonsonoeɛ a ɛwɔ nwa dodoɔ a ɛwɔ nsu no mu mmienu no mu yɛ mpataa dodoɔ a ɛwɔ asubura no mu mmienu no mmɔho. Sɛ nsubura mmienu yi nyinaa wɔ mpataa yɛ  pɛ a, mpataa dodoɔ ahe na ɛwɔ wɔn mu biara mu?",
+  "original_answer": 7,
+  "question_template": "Nwa enam {num_digit_1, 4} na ɛwɔ asubura baako bi mu, nwa adusa {num_digit_2, 32} nso wɔ asubura foforo bi mu. Nsonsonoeɛ a ɛwɔ nwa dodoɔ a ɛwɔ nsu no mu {num_text_1, mmienu} no mu yɛ {num_text_2, mpɛn-abien} mpataa dodoɔ a ɛwɔ asubura no mu mmienu no mmɔho. Sɛ nsubura mmienu yi nyinaa wɔ mpataa yɛ pɛ a, mpataa dodoɔ ahe na ɛwɔ wɔn mu biara mu?",
+  "question_solution": "answer = (num_digit_2 - num_digit_1) / (2 * f2)   # f2 is the numeric value of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_2 - num_digit_1) / (2 * f2)",
+    "num_digit_2 > num_digit_1",
+    "num_digit_1 >= 0",
+    "f2 > 0",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      33,
+      47,
+      25,
+      9,
+      58,
+      73,
+      101,
+      66,
+      82
+    ],
+    "num_digit_2": [
+      84,
+      129,
+      119,
+      137,
+      57,
+      154,
+      211,
+      277,
+      174,
+      202
+    ],
+    "num_text_1": [
+      "mienu",
+      "mienu",
+      "mienu",
+      "mienu",
+      "mienu",
+      "mienu",
+      "mienu",
+      "mienu",
+      "mienu",
+      "mienu"
+    ],
+    "num_text_2": [
+      "Mprɛn mmienu",
+      "Mmiɛnsa mpɛn",
+      "Mmom nsia",
+      "Mprɛanankron",
+      "Mmiɛnsa mpɛn",
+      "mpɛnɛwotwe",
+      "Mmiɛnsa mpɛn",
+      "Mprɛanankron",
+      "Mmiɛnsa mpɛn",
+      "mpɛnnum"
+    ],
+    "answer": [
+      18,
+      16,
+      6,
+      14,
+      8,
+      6,
+      23,
+      22,
+      18,
+      12
+    ],
+    "num_ic": [
+      22,
+      49,
+      131,
+      198,
+      13,
+      104,
+      173,
+      278,
+      92,
+      154
+    ]
+  },
+  "ic_question_template": "{name_male, Michael} nua no wɔ guppy nnam {num_ic, 15} wɔ fie. Nwa enam {num_digit_1, 4} na ɛwɔ asubura baako bi mu, nwa adusa {num_digit_2, 32} nso wɔ asubura foforo bi mu. Nsonsonoeɛ a ɛwɔ nwa dodoɔ a ɛwɔ nsu no mu {num_text_1, mmienu} no mu yɛ {num_text_2, mpɛn-abien} mpataa dodoɔ a ɛwɔ asubura no mu mmienu no mmɔho. Sɛ nsubura mmienu yi nyinaa wɔ mpataa yɛ pɛ a, mpataa dodoɔ ahe na ɛwɔ wɔn mu biara mu?",
+  "ic_sentence": "{name_male, Michael} nua no wɔ guppy nnam {num_ic, 15} wɔ fie."
+}

@@ -1,0 +1,93 @@
+{
+  "original_question": "En semaine, Judy donne 5 cours de danse tous les jours et 8 cours le samedi. Si chaque cours compte 15 élèves et qu'elle facture 15,00 $ par élève, combien d'argent gagne-t-elle en une semaine ?",
+  "original_answer": 7425,
+  "question_template": "En semaine, {name_female, Judy} donne {num_digit_1, 5} cours de danse tous les jours et {num_digit_2, 8} cours le samedi. Si chaque cours compte {num_digit_3, 15} élèves et qu'elle facture {num_digit_4, 15.00} $ par élève, combien d'argent gagne-t-elle en {num_digit_5, 1} semaine ?",
+  "question_solution": "answer = (num_digit_1 * 5 + num_digit_2) * num_digit_3 * num_digit_4 * num_digit_5",
+  "conditions": [
+    "int(answer) == (num_digit_1 * 5 + num_digit_2) * num_digit_3 * num_digit_4 * num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Judy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      6,
+      4,
+      7,
+      8,
+      5,
+      10,
+      12,
+      9,
+      11
+    ],
+    "num_digit_2": [
+      8,
+      5,
+      10,
+      12,
+      7,
+      4,
+      15,
+      9,
+      14,
+      6
+    ],
+    "num_digit_3": [
+      15,
+      20,
+      12,
+      16,
+      10,
+      25,
+      18,
+      30,
+      22,
+      14
+    ],
+    "num_digit_4": [
+      15,
+      12,
+      20,
+      10,
+      18,
+      22,
+      16,
+      25,
+      14,
+      30
+    ],
+    "num_digit_5": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answer": [
+      5175,
+      16800,
+      21600,
+      30080,
+      42300,
+      95700,
+      131040,
+      414000,
+      163548,
+      256200
+    ]
+  },
+  "ic_question_template": "{name_female, Judy} a un oncle qui achète {num_ic, 47} paires de chaussures de danse chaque mois. En semaine, {name_female, Judy} donne {num_digit_1, 5} cours de danse tous les jours et {num_digit_2, 8} cours le samedi. Si chaque cours compte {num_digit_3, 15} élèves et qu'elle facture {num_digit_4, 15.00} $ par élève, combien d'argent gagne-t-elle en {num_digit_5, 1} semaine ?",
+  "ic_sentence": "{name_female, Judy} a un oncle qui achète {num_ic, 47} paires de chaussures de danse chaque mois."
+}

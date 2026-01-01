@@ -1,0 +1,93 @@
+{
+  "original_question": "Ted the T-Rex yana shirin kawo salad din dankalin turawa zuwa fikin din dinosaur. Ya san cewa dinosaur balagagge zai ci  lbs10 na salad din dankalin turawa, kuma yaro zai ci rabin abin da ya fi girma. Idan za a sami manya 20 da yara 5 a wurin fikin, pounds nawa na salatin dankalin turawa Ted yake bukata ya kawo wurin fikin idan yana fatan ya sami isa ya ciyar da kowa?",
+  "original_answer": 225,
+  "question_template": "{name_dinosaur, Ted} wato T-Rex yana shirin kawo salad din dankalin turawa zuwa fikin din dinosaur. Ya san cewa dinosaur balagagge zai ci {num_digit_1, 10} lbs na salad din dankalin turawa, kuma yaro zai ci {num_frac_1, rabi}n abin da ya fi girma. Idan za a sami manya {num_digit_2, 20} da yara {num_digit_3, 5} a wurin fikin, pounds nawa na salatin dankalin turawa {name_dinosaur, Ted} yake bukata ya kawo wurin fikin idan yana fatan ya sami isa ya ciyar da kowa?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + num_digit_1 * NUM(num_frac_1) * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 + num_digit_1 * NUM(num_frac_1) * num_digit_3",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0"
+  ],
+  "variable_word_list": {
+    "name_dinosaur": "Ted"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      20,
+      30,
+      26,
+      26,
+      24,
+      15,
+      6,
+      27,
+      16,
+      10
+    ],
+    "num_frac_1": [
+      "1/2",
+      "1/2",
+      "5/6",
+      "1/2",
+      "1/4",
+      "1/4",
+      "3/4",
+      "4/5",
+      "3/4",
+      "1/6"
+    ],
+    "num_digit_2": [
+      27,
+      10,
+      17,
+      11,
+      27,
+      24,
+      21,
+      25,
+      10,
+      7
+    ],
+    "num_digit_3": [
+      11,
+      23,
+      27,
+      30,
+      19,
+      16,
+      10,
+      25,
+      25,
+      30
+    ],
+    "answer": [
+      650,
+      645,
+      1027,
+      676,
+      762,
+      420,
+      171,
+      1215,
+      460,
+      120
+    ],
+    "num_ic": [
+      53,
+      159,
+      38,
+      145,
+      104,
+      122,
+      82,
+      44,
+      65,
+      63
+    ]
+  },
+  "ic_question_template": "Ɗan kawun {name_dinosaur, Ted} yana da abarba guda {num_ic, 94}. {name_dinosaur, Ted} wato T-Rex yana shirin kawo salad din dankalin turawa zuwa fikin din dinosaur. Ya san cewa dinosaur balagagge zai ci {num_digit_1, 10} lbs na salad din dankalin turawa, kuma yaro zai ci {num_frac_1, rabi}n abin da ya fi girma. Idan za a sami manya {num_digit_2, 20} da yara {num_digit_3, 5} a wurin fikin, pounds nawa na salatin dankalin turawa {name_dinosaur, Ted} yake bukata ya kawo wurin fikin idan yana fatan ya sami isa ya ciyar da kowa?",
+  "ic_sentence": "Ɗan kawun {name_dinosaur, Ted} yana da abarba guda {num_ic, 94}."
+}

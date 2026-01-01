@@ -1,0 +1,69 @@
+{
+  "original_question": "布兰登的 iPhone 手机比本的 iPhone 手机旧三倍。本的 iPhone 手机比 苏茜的 iPhone 手机旧两倍。如果苏茜的 iPhone 手机使用了 1 年，则 布兰登的 iPhone 手机有多旧？",
+  "original_answer": 8,
+  "question_template": "{name_male_1, 布兰登} 的 iPhone 手机比 {name_male_2, 本} 的 iPhone 手机旧 {num_text_1, 三} 倍。{name_male_2, 本} 的 iPhone 手机比 {name_female, 苏茜} 的 iPhone 手机旧 {num_text_2, 两} 倍。如果 {name_female, 苏茜} 的 iPhone 手机使用了 {num_digit_1, 2} 年，则 {name_male_1, 布兰登} 的 iPhone 手机有多旧？",
+  "question_solution": "answer = NUM(num_text_1) * NUM(num_text_2) * num_digit_1",
+  "conditions": [
+    "int(answer) == NUM(num_text_1) * NUM(num_text_2) * num_digit_1",
+    "NUM(num_text_1) > 0",
+    "NUM(num_text_2) > 0",
+    "num_digit_1 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Brandon",
+    "name_male_2": "Ben",
+    "name_female": "Suzy"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "五",
+      "七",
+      "八",
+      "九",
+      "十一",
+      "十三",
+      "十四",
+      "十五",
+      "十六",
+      "十八"
+    ],
+    "num_text_2": [
+      "三",
+      "四",
+      "五",
+      "六",
+      "七",
+      "二",
+      "九",
+      "十",
+      "十一",
+      "四"
+    ],
+    "num_digit_1": [
+      2,
+      3,
+      1,
+      4,
+      2,
+      5,
+      3,
+      1,
+      2,
+      6
+    ],
+    "answer": [
+      30,
+      84,
+      40,
+      216,
+      154,
+      130,
+      378,
+      150,
+      352,
+      432
+    ]
+  },
+  "ic_question_template": "{name_male_2, 本} 的阿姨最近买了 {num_ic, 15} 个手机壳。{name_male_1, 布兰登} 的 iPhone 手机比 {name_male_2, 本} 的 iPhone 手机旧 {num_text_1, 五} 倍。{name_male_2, 本} 的 iPhone 手机比 {name_female, 苏茜} 的 iPhone 手机旧 {num_text_2, 三} 倍。如果 {name_female, 苏茜} 的 iPhone 手机使用了 {num_digit_1, 2} 年，则 {name_male_1, 布兰登} 的 iPhone 手机有多旧？",
+  "ic_sentence": "{name_male_2, 本} 的阿姨最近买了 {num_ic, 15} 个手机壳。"
+}

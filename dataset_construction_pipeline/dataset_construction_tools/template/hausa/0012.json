@@ -1,0 +1,92 @@
+{
+  "original_question": "Carlos yana dasa bishiyar lemon tsami. Za a kashe dala 90 don shukata. A kowace shekara za ta samar da lemuka 7, wanda zai iya sayar da  kowane daya akan $1.5. Ana biyan dala 3 a shekara don banruwa da taki ga bishiyar. Shekara nawa zai dauka kafin ya fara samun kudi a bishiyar lemon tsamin?",
+  "original_answer": 13,
+  "question_template": "{name_male, Carlos} yana dasa bishiyar lemon tsami. Za a kashe dala ${num_digit_1, 90} don shukata. A kowace shekara za ta samar da lemuka {num_digit_2, 7}, wanda zai iya sayar da kowane daya akan ${num_digit_3, 1.5}. Ana biyan dala ${num_digit_4, 3} a shekara don banruwa da taki ga bishiyar. Shekara nawa zai dauka kafin ya fara samun kudi a bishiyar lemon tsamin?",
+  "question_solution": "answer = num_digit_1 // (num_digit_2 * num_digit_3 - num_digit_4) + 1",
+  "conditions": [
+    "int(answer) == num_digit_1 // (num_digit_2 * num_digit_3 - num_digit_4) + 1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Carlos"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      317,
+      523,
+      799,
+      412,
+      975,
+      661,
+      830,
+      933,
+      1207,
+      1486
+    ],
+    "num_digit_2": [
+      13,
+      17,
+      19,
+      11,
+      23,
+      14,
+      16,
+      18,
+      21,
+      17
+    ],
+    "num_digit_3": [
+      2.4,
+      1.9,
+      2.7,
+      3.1,
+      1.75,
+      2.85,
+      2.2,
+      1.95,
+      2.05,
+      3.3
+    ],
+    "num_digit_4": [
+      7,
+      5,
+      8,
+      12,
+      9,
+      13,
+      11,
+      6,
+      14,
+      19
+    ],
+    "answer": [
+      14,
+      20,
+      19,
+      19,
+      32,
+      25,
+      35,
+      33,
+      42,
+      41
+    ],
+    "num_ic": [
+      86,
+      123,
+      62,
+      78,
+      117,
+      122,
+      94,
+      185,
+      148,
+      174
+    ]
+  },
+  "ic_question_template": "Ƙanen {name_male, Carlos} ya kawo lemu {num_ic, 136} zuwa liyafar iyali ta baya. {name_male, Carlos} yana dasa bishiyar lemon tsami. Za a kashe dala ${num_digit_1, 90} don shukata. A kowace shekara za ta samar da lemuka {num_digit_2, 7}, wanda zai iya sayar da kowane daya akan ${num_digit_3, 1.5}. Ana biyan dala ${num_digit_4, 3} a shekara don banruwa da taki ga bishiyar. Shekara nawa zai dauka kafin ya fara samun kudi a bishiyar lemon tsamin?",
+  "ic_sentence": "Ƙanen {name_male, Carlos} ya kawo lemu {num_ic, 136} zuwa liyafar iyali ta baya."
+}

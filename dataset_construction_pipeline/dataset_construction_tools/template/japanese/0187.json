@@ -1,0 +1,74 @@
+{
+  "original_question": "マンディはベネディクトに$100借りがあります。彼らは毎月2%の利子がつくことに同意しました。マンディが3か月後に返済できるとすると、彼女はベネディクトにいくら払えばいいですか？",
+  "original_answer": 106,
+  "question_template": "{name_female, マンディ} は {name_male, ベネディクト} に ${num_digit_1, 100} の借金があります。2人は月利 {num_digit_2, 2}% で合意しました。{name_female, マンディ} が {num_digit_3, 3} ヶ月後に返済できた場合、{name_male, ベネディクト} にいくら支払うべきでしょうか？",
+  "question_solution": "answer = num_digit_1 * (1 + (num_digit_2/100) * num_digit_3)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 + (num_digit_2/100) * num_digit_3)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Mandy",
+    "name_male": "Benedict"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      100,
+      300,
+      625,
+      185,
+      230,
+      150,
+      425,
+      275,
+      135,
+      400,
+      345
+    ],
+    "num_digit_2": [
+      2,
+      3,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12,
+      9,
+      10
+    ],
+    "num_digit_3": [
+      3,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answer": [
+      106,
+      327,
+      675,
+      222,
+      299,
+      213,
+      663,
+      473,
+      297,
+      796,
+      759
+    ]
+  },
+  "ic_question_template": "{name_female, マンディ}の叔父は以前、同じ人から{num_ic, 656}ドルを借りました。{name_female, マンディ} は {name_male, ベネディクト} に ${num_digit_1, 100} の借金があります。2人は月利 {num_digit_2, 2}% で合意しました。{name_female, マンディ} が {num_digit_3, 3} ヶ月後に返済できた場合、{name_male, ベネディクト} にいくら支払うべきでしょうか？",
+  "ic_sentence": "{name_female, マンディ}の叔父は以前、同じ人から{num_ic, 656}ドルを借りました。"
+}

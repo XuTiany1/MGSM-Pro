@@ -1,0 +1,108 @@
+{
+  "original_question": "迈克尔喜欢骑自行车。他每周至少骑 5 次，每次骑 25 公里。他这样骑了 4 周，然后他决定每周只骑自行车 2 次，但每次骑 60 公里，而且他这样骑了 3 周。迈克尔一共骑了多少公里？",
+  "original_answer": 860,
+  "question_template": "{name_male, 迈克尔} 喜欢骑自行车。他每周至少骑 {num_digit_1, 5} 次，每次骑 {num_digit_2, 25} 公里。他这样骑了 {num_text_1, 4} 周，然后他决定每周只骑自行车 {num_digit_3, 2} 次，但每次骑 {num_digit_4, 60} 公里，而且他这样骑了 {num_digit_5, 3} 周。{name_male, 迈克尔} 一共骑了多少公里？",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * t1 + num_digit_3 * num_digit_4 * num_digit_5  # t1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 * t1 + num_digit_3 * num_digit_4 * num_digit_5",
+    "t1 > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Micheal"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31
+    ],
+    "num_digit_2": [
+      45,
+      52,
+      63,
+      74,
+      85,
+      96,
+      107,
+      118,
+      129,
+      140
+    ],
+    "num_text_1": [
+      "六",
+      "七",
+      "八",
+      "九",
+      "十",
+      "十一",
+      "十二",
+      "十三",
+      "十四",
+      "十五"
+    ],
+    "num_digit_3": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "num_digit_4": [
+      75,
+      88,
+      99,
+      112,
+      125,
+      138,
+      149,
+      162,
+      175,
+      188
+    ],
+    "num_digit_5": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answer": [
+      4140,
+      7220,
+      11538,
+      17358,
+      24850,
+      34224,
+      45510,
+      59238,
+      75474,
+      94428
+    ]
+  },
+  "ic_question_template": "{name_male, 迈克尔}的叔叔有 {num_ic, 105} 张棒球卡。{name_male, 迈克尔} 喜欢骑自行车。他每周至少骑 {num_digit_1, 5} 次，每次骑 {num_digit_2, 25} 公里。他这样骑了 {num_text_1, 4} 周，然后他决定每周只骑自行车 {num_digit_3, 2} 次，但每次骑 {num_digit_4, 60} 公里，而且他这样骑了 {num_digit_5, 3} 周。{name_male, 迈克尔} 一共骑了多少公里？",
+  "ic_sentence": "{name_male, 迈克尔}的叔叔有 {num_ic, 105} 张棒球卡。"
+}

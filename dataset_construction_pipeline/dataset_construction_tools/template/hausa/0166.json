@@ -1,0 +1,81 @@
+{
+  "original_question": "Makwabciyar Sandra tana ba ta kwandon kwai 9 a duk lokacin da ta yi renon ’yarsu. Don yin Spanish flan tana buƙatar ƙwai 3. Idan an ba Sandra umarnin yin Spanish flan 15 ga tattara kuɗin makarantar ta, sau nawa Sandra za ta yi renon?",
+  "original_answer": 5,
+  "question_template": "Makwabciyar {name_female, Sandra} tana ba ta kwandon kwai {num_digit_1, 9} a duk lokacin da ta yi renon ’yarsu. Don yin Spanish flan tana buƙatar ƙwai {num_digit_2, 3}. Idan an ba {name_female, Sandra} umarnin yin Spanish flan {num_digit_3, 15} ga tattara kuɗin makarantar ta, sau nawa {name_female, Sandra} za ta yi renon?",
+  "question_solution": "answer = (num_digit_3 * num_digit_2) / num_digit_1",
+  "conditions": [
+    "answer == (num_digit_3 * num_digit_2) / num_digit_1",
+    "(num_digit_3 * num_digit_2) % num_digit_1 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sandra"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      6,
+      8,
+      10,
+      12,
+      5,
+      7,
+      4,
+      11,
+      14,
+      16
+    ],
+    "num_digit_2": [
+      2,
+      4,
+      5,
+      6,
+      3,
+      4,
+      2,
+      5,
+      7,
+      8
+    ],
+    "num_digit_3": [
+      18,
+      14,
+      22,
+      26,
+      25,
+      21,
+      34,
+      11,
+      20,
+      28
+    ],
+    "answer": [
+      6,
+      7,
+      11,
+      13,
+      15,
+      12,
+      17,
+      5,
+      10,
+      14
+    ],
+    "num_ic": [
+      36,
+      44,
+      27,
+      103,
+      49,
+      32,
+      138,
+      76,
+      52,
+      58
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Sandra} ya taɓa kawo mangwaro {num_ic, 33} daga gonarsa. Makwabciyar {name_female, Sandra} tana ba ta kwandon kwai {num_digit_1, 9} a duk lokacin da ta yi renon ’yarsu. Don yin Spanish flan tana buƙatar ƙwai {num_digit_2, 3}. Idan an ba {name_female, Sandra} umarnin yin Spanish flan {num_digit_3, 15} ga tattara kuɗin makarantar ta, sau nawa {name_female, Sandra} za ta yi renon?",
+  "ic_sentence": "Kawun {name_female, Sandra} ya taɓa kawo mangwaro {num_ic, 33} daga gonarsa."
+}

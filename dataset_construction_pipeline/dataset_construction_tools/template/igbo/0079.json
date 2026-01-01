@@ -1,0 +1,67 @@
+{
+  "original_question": "John kutere nkịta. Ọ na-akpọga nkịta ahụ na nke onye ọzụzụ, nke riri ya $100. Onye ọzụzụ ahụ wepụrụ ya 30% maka ị bụ onye ahịa ọhụrụ. Ego ole ka ọzụzụ ahụ riri?",
+  "original_answer": 70,
+  "question_template": "{name_male, John} kutere nkịta. Ọ na-akpọga nkịta ahụ na nke onye ọzụzụ, nke riri ya ${num_digit_1, 100}. Onye ọzụzụ ahụ wepụrụ ya {num_digit_2, 30}% maka ị bụ onye ahịa ọhụrụ. Ego ole ka ọzụzụ ahụ riri?",
+  "question_solution": "answer = num_digit_1 * (1 - num_digit_2/100)",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 - num_digit_2/100)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_2 < 100"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      120,
+      80,
+      250,
+      200,
+      150,
+      180,
+      175,
+      300,
+      90,
+      100
+    ],
+    "num_digit_2": [
+      25,
+      20,
+      40,
+      15,
+      20,
+      10,
+      20,
+      40,
+      10,
+      30
+    ],
+    "answer": [
+      90,
+      64,
+      150,
+      170,
+      120,
+      162,
+      140,
+      180,
+      81,
+      70
+    ],
+    "num_ic": [
+      15,
+      35,
+      17,
+      46,
+      28,
+      51,
+      63,
+      22,
+      70,
+      19
+    ]
+  },
+  "ic_question_template": "Nwanne nne {name_male, John} nwere pusi {num_ic, 13}. {name_male, John} kutere nkịta. Ọ na-akpọga nkịta ahụ na nke onye ọzụzụ, nke riri ya ${num_digit_1, 100}. Onye ọzụzụ ahụ wepụrụ ya {num_digit_2, 30}% maka ị bụ onye ahịa ọhụrụ. Ego ole ka ọzụzụ ahụ riri?",
+  "ic_sentence": "Nwanne nne {name_male, John} nwere pusi {num_ic, 13}."
+}

@@ -1,0 +1,81 @@
+{
+  "original_question": "Jackie bɔɔ mmɔden sɛ obesi gyinae sɛ ɔnoa ankasa bɛhwɛ ne ɛtoɔ so anaasɛ ɔbɛfa nkontabufoni. Sɛ ɔno ankasa etua ne ɛtoɔ a, obetumi de nnɔnhwere 3 aka adwuma a ɔnoa ankasa yɛ ho, na odi nkoguo $35/nhwere wɔ sika a onnya ye. Nkontabufoɔ no gye $90. Sɛ ɔfa no a, sika ahe na obenya?",
+  "original_answer": 15,
+  "question_template": "{name_female, Jackie} bɔɔ mmɔden sɛ obesi gyinae sɛ ɔnoa ankasa bɛhwɛ ne ɛtoɔ so anaasɛ ɔbɛfa nkontabufoni. Sɛ ɔno ankasa etua ne ɛtoɔ a, obetumi de nnɔnhwere {num_digit_1, 3} aka adwuma a ɔnoa ankasa yɛ ho, na odi nkoguo ${num_digit_2, 35}/nhwere wɔ sika a onnya ye. Nkontabufoɔ no gye ${num_digit_3, 90}. Sɛ ɔfa no a, sika ahe na obenya?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 - num_digit_3",
+  "conditions": [
+    "answer == num_digit_1 * num_digit_2 - num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "answer > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Jackie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      13,
+      27,
+      32,
+      45,
+      58,
+      63,
+      74,
+      81,
+      96,
+      100
+    ],
+    "num_digit_2": [
+      57,
+      64,
+      72,
+      81,
+      93,
+      104,
+      117,
+      128,
+      139,
+      150
+    ],
+    "num_digit_3": [
+      345,
+      789,
+      1234,
+      1573,
+      2345,
+      2876,
+      3456,
+      4123,
+      4789,
+      5321
+    ],
+    "answer": [
+      396,
+      939,
+      1070,
+      2072,
+      3049,
+      3676,
+      5202,
+      6245,
+      8555,
+      9679
+    ],
+    "num_ic": [
+      22,
+      184,
+      147,
+      407,
+      393,
+      469,
+      713,
+      543,
+      870,
+      962
+    ]
+  },
+  "ic_question_template": "{name_female, Jackie} wɔfa tɔɔ towtua ho ka nwoma {num_ic, 97} nnansa yi ara. {name_female, Jackie} bɔɔ mmɔden sɛ obesi gyinae sɛ ɔnoa ankasa bɛhwɛ ne ɛtoɔ so anaasɛ ɔbɛfa nkontabufoni. Sɛ ɔno ankasa etua ne ɛtoɔ a, obetumi de nnɔnhwere {num_digit_1, 3} aka adwuma a ɔnoa ankasa yɛ ho, na odi nkoguo ${num_digit_2, 35}/nhwere wɔ sika a onnya ye. Nkontabufoɔ no gye ${num_digit_3, 90}. Sɛ ɔfa no a, sika ahe na obenya?",
+  "ic_sentence": "{name_female, Jackie} wɔfa tɔɔ towtua ho ka nwoma {num_ic, 97} nnansa yi ara."
+}

@@ -1,0 +1,79 @@
+{
+  "original_question": "Jennie anasaidia katika ofisi ya mamake. Ana mrundo wa barua 60 zinazohitaji kutiliwa muhuri, na mrundo wa barua ambazo tayari zina muhuri. Anaweka muhuri kwenye thuluthi moja ya barua zinazohitaji muhuri. Ikiwa sasa kuna barua 30 katika mrundo wa barua zilizo na muhuri, barua ngapi zilikuwa katika mrundo huo kabla ya Jennie kuanza?",
+  "original_answer": 10,
+  "question_template": "{name_female, Jennie} anasaidia kwenye ofisi ya mamake. Ana rundo la barua {num_digit_1, 60} zinazohitaji mihuri, na rundo la barua zilizokwisha pewa mihuri. Anaweka mihuri kwenye {num_frac_1, theluthi moja} ya barua zinazohitaji mihuri. Ikiwa sasa kuna barua {num_digit_2, 30} kwenye rundo la barua zilizokwisha pewa mihuri, kulikuwa na barua ngapi kwenye rundo hilo wakati {name_female, Jennie} alianza?",
+  "question_solution": "answer = num_digit_2 - num_digit_1 * num_frac_1",
+  "conditions": [
+    "int(answer) == num_digit_2 - num_digit_1 * num_frac_1",
+    "num_digit_1 > 0",
+    "0 < num_frac_1 && num_frac_1 < 1",
+    "num_digit_2 > num_digit_1 * num_frac_1"
+  ],
+  "variable_word_list": {
+    "name_female": "Jennie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      72,
+      90,
+      84,
+      105,
+      66,
+      98,
+      120,
+      80,
+      96,
+      110
+    ],
+    "num_frac_1": [
+      "5/9",
+      "2/5",
+      "7/12",
+      "3/7",
+      "2/11",
+      "5/14",
+      "11/15",
+      "7/16",
+      "13/24",
+      "9/22"
+    ],
+    "num_digit_2": [
+      70,
+      95,
+      100,
+      120,
+      58,
+      83,
+      150,
+      97,
+      120,
+      123
+    ],
+    "answer": [
+      30,
+      59,
+      51,
+      75,
+      46,
+      48,
+      62,
+      62,
+      68,
+      78
+    ],
+    "num_ic": [
+      66,
+      78,
+      33,
+      42,
+      99,
+      81,
+      88,
+      67,
+      86,
+      57
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_female, Jennie} alipokea postikadi {num_ic, 27} kwenye siku yake ya kuzaliwa. {name_female, Jennie} anasaidia kwenye ofisi ya mamake. Ana rundo la barua {num_digit_1, 60} zinazohitaji mihuri, na rundo la barua zilizokwisha pewa mihuri. Anaweka mihuri kwenye {num_frac_1, theluthi moja} ya barua zinazohitaji mihuri. Ikiwa sasa kuna barua {num_digit_2, 30} kwenye rundo la barua zilizokwisha pewa mihuri, kulikuwa na barua ngapi kwenye rundo hilo wakati {name_female, Jennie} alianza?",
+  "ic_sentence": "Mjomba wa {name_female, Jennie} alipokea postikadi {num_ic, 27} kwenye siku yake ya kuzaliwa."
+}

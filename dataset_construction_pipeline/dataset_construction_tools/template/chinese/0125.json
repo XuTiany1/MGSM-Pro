@@ -1,0 +1,68 @@
+{
+  "original_question": "朱丽叶正在为在她家里举办的晚餐聚会做准备，她打算在晚餐上提供炖菜。她注意到塑料勺子用完了，所以她买了一包新勺子。后来，她的丈夫也买了一包 5 把新勺子，并把它们拿给朱丽叶。当朱丽叶做炖菜时，她用了 3 把勺子来试吃炖菜。后来，当她在摆放餐具时，一共有 12 把勺子。朱丽叶买的那包勺子里面有多少把勺子？",
+  "original_answer": 10,
+  "question_template": "{name_female, 朱丽叶} 正在为在她家里举办的晚餐聚会做准备，她打算在晚餐上提供炖菜。她注意到塑料勺子用完了，所以她买了一包新勺子。后来，她的丈夫也买了一包 {num_digit_1, 5} 把新勺子，并把它们拿给 {name_female, 朱丽叶}。当 {name_female, 朱丽叶} 做炖菜时，她用了 {num_text_1, 3} 把勺子来试吃炖菜。后来，当她在摆放餐具时，一共有 {num_digit_2, 12} 把勺子。{name_female, 朱丽叶} 买的那包勺子里面有多少把勺子？",
+  "question_solution": "answer = num_digit_2 + k - num_digit_1   # k is the numeric value corresponding to num_text_1 (e.g., three → 3, four → 4, …)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 + k - num_digit_1",
+    "answer > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Julia"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      8,
+      10,
+      12,
+      7,
+      20,
+      14,
+      5,
+      25,
+      18,
+      30
+    ],
+    "num_digit_2": [
+      15,
+      25,
+      30,
+      23,
+      50,
+      40,
+      20,
+      60,
+      42,
+      80
+    ],
+    "num_text_1": [
+      "四",
+      "五",
+      "六",
+      "八",
+      "十",
+      "九",
+      "六",
+      "八",
+      "七",
+      "十二"
+    ],
+    "answer": [
+      11,
+      20,
+      24,
+      24,
+      40,
+      35,
+      21,
+      43,
+      31,
+      62
+    ]
+  },
+  "ic_question_template": "{name_female, 茱莉亚} 的姨妈带来了 {num_ic, 60} 张餐巾作为礼物。{name_female, 朱丽叶} 正在为在她家里举办的晚餐聚会做准备，她打算在晚餐上提供炖菜。她注意到塑料勺子用完了，所以她买了一包新勺子。后来，她的丈夫也买了一包 {num_digit_1, 5} 把新勺子，并把它们拿给 {name_female, 朱丽叶}。当 {name_female, 朱丽叶} 做炖菜时，她用了 {num_text_1, 3} 把勺子来试吃炖菜。后来，当她在摆放餐具时，一共有 {num_digit_2, 12} 把勺子。{name_female, 朱丽叶} 买的那包勺子里面有多少把勺子？",
+  "ic_sentence": "{name_female, 茱莉亚} 的姨妈带来了 {num_ic, 60} 张餐巾作为礼物。"
+}

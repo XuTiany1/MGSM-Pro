@@ -1,0 +1,119 @@
+{
+  "original_question": "Jake ń rìn kọjá Ilé Ìṣẹ̀báyé e Entomology. Ó rí aláǹtakùn 80 tí ọ̀kọ̀ọ̀kan wọn sì ní ẹsẹ̀ mẹ́jọ, kòkòrò 90, ọ̀kọ̀ọ̀kan pẹ̀lú ẹsẹ̀ mẹ́fà, àti àwọn ẹranko ìyípadà mẹ́ta tí ó ṣọ̀wọ́n, ọ̀kọ̀ọ̀kan pẹ̀lú ẹsẹ̀ mẹ́wàá. Ẹsẹ̀ mélòó ni Jake rí lápapọ̀?",
+  "original_answer": 1210,
+  "question_template": "{name_male, Jake} ń rìn kọjá Ilé Ìṣẹ̀báyé e Entomology. Ó rí aláǹtakùn {num_digit_1, 80} tí ọ̀kọ̀ọ̀kan wọn sì ní ẹsẹ̀ {num_digit_2, 8}, kòkòrò {num_digit_3, 90}, ọ̀kọ̀ọ̀kan pẹ̀lú ẹsẹ̀ {num_digit_4, 6}, àti àwọn ẹranko ìyípadà {num_digit_5, 3} tí ó ṣọ̀wọ́n, ọ̀kọ̀ọ̀kan pẹ̀lú ẹsẹ̀ {num_digit_6, 10}. Ẹsẹ̀ mélòó ni {name_male, Jake} rí lápapọ̀?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + num_digit_3 * num_digit_4 + num_digit_5 * num_digit_6",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 + num_digit_3 * num_digit_4 + num_digit_5 * num_digit_6",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jake"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      32768,
+      65536,
+      99999,
+      12345,
+      54321
+    ],
+    "num_digit_2": [
+      128,
+      256,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      32768,
+      99999
+    ],
+    "num_digit_3": [
+      11111,
+      22222,
+      33333,
+      44444,
+      55555,
+      66666,
+      77777,
+      88888,
+      99999,
+      123456
+    ],
+    "num_digit_4": [
+      64,
+      128,
+      256,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      32768
+    ],
+    "num_digit_5": [
+      777,
+      888,
+      999,
+      1111,
+      2222,
+      3333,
+      4444,
+      5555,
+      6666,
+      7777
+    ],
+    "num_digit_6": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "answer": [
+      849946,
+      3386464,
+      10660370,
+      31588376,
+      90553852,
+      270949676,
+      855756584,
+      2366998512,
+      2043504516,
+      9478229587
+    ],
+    "num_ic": [
+      685,
+      1577,
+      81245,
+      117789,
+      399262,
+      504400,
+      930120,
+      674058,
+      113142,
+      1027899
+    ]
+  },
+  "ic_question_template": "Ìyá-ọmọbìnrin {name_male, Jake} kó àwòrán ààrẹ̀ {num_ic, 328} jọ lásìkò ooru tó kọjá. {name_male, Jake} ń rìn kọjá Ilé Ìṣẹ̀báyé e Entomology. Ó rí aláǹtakùn {num_digit_1, 80} tí ọ̀kọ̀ọ̀kan wọn sì ní ẹsẹ̀ {num_digit_2, 8}, kòkòrò {num_digit_3, 90}, ọ̀kọ̀ọ̀kan pẹ̀lú ẹsẹ̀ {num_digit_4, 6}, àti àwọn ẹranko ìyípadà {num_digit_5, 3} tí ó ṣọ̀wọ́n, ọ̀kọ̀ọ̀kan pẹ̀lú ẹsẹ̀ {num_digit_6, 10}. Ẹsẹ̀ mélòó ni {name_male, Jake} rí lápapọ̀?",
+  "ic_sentence": "Ìyá-ọmọbìnrin {name_male, Jake} kó àwòrán ààrẹ̀ {num_ic, 328} jọ lásìkò ooru tó kọjá."
+}

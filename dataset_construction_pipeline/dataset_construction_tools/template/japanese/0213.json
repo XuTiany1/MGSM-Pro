@@ -1,0 +1,69 @@
+{
+  "original_question": "1ドルストアで、ストーンは入ってくる100人の客を数えた。翌日、彼女は初日よりも50人多い客が入ってくる様子を数えた。3日のお客さんの数が全部で500人の場合、3日目には何人の客が入ってきたか？",
+  "original_answer": 250,
+  "question_template": "ストーンは1ドルストアで、{name_female, ストーン} {num_digit_1, 100}人の客を数えた。翌日、彼女は初日よりも{num_digit_2, 50}人多い客が入ってくる様子を数えた。3日のお客さんの数が全部で{num_digit_3, 500}人の場合、3日目には何人の客が入ってきたか？",
+  "question_solution": "answer = num_digit_3 - (2 * num_digit_1 + num_digit_2)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_3 - (2 * num_digit_1 + num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sloane"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      157,
+      248,
+      369,
+      431,
+      529,
+      612,
+      703,
+      814,
+      925,
+      1134
+    ],
+    "num_digit_2": [
+      59,
+      153,
+      284,
+      312,
+      449,
+      588,
+      614,
+      733,
+      821,
+      956
+    ],
+    "num_digit_3": [
+      496,
+      1105,
+      1811,
+      1495,
+      2161,
+      2799,
+      2131,
+      2583,
+      3004,
+      3668
+    ],
+    "answer": [
+      123,
+      456,
+      789,
+      321,
+      654,
+      987,
+      111,
+      222,
+      333,
+      444
+    ]
+  },
+  "ic_question_template": "{name_female, スローン}のおじさんはベイクセールのために{num_ic, 93}個のブルーベリーパイを焼きました。ストーンは1ドルストアで、{name_female, ストーン} {num_digit_1, 100}人の客を数えた。翌日、彼女は初日よりも{num_digit_2, 50}人多い客が入ってくる様子を数えた。3日のお客さんの数が全部で{num_digit_3, 500}人の場合、3日目には何人の客が入ってきたか？",
+  "ic_sentence": "{name_female, スローン}のおじさんはベイクセールのために{num_ic, 93}個のブルーベリーパイを焼きました。"
+}

@@ -1,0 +1,93 @@
+{
+  "original_question": "ካርል አስር ጥቅል ኩኪዎችን ገዛ። እያንዳንዱ የኩኪዎች ጥቅል በውስጡ ስድስት ኩኪዎች አሉት። እያንዳንዱ ኩኪ ዋጋው $0.10 ነው። ካርል $10 ሂሳብ ከከፈለ ምን ያህል መልስ ይቀበላል?",
+  "original_answer": 4,
+  "question_template": "{name_male, ካርል} {num_text_1, አስር} ጥቅል ኩኪዎችን ገዛ። እያንዳንዱ የኩኪዎች ጥቅል በውስጡ {num_text_2, ስድስት} ኩኪዎች አሉት። እያንዳንዱ ኩኪ ዋጋው ${num_digit_1, 0.10} ነው። {name_male, ካርል} ${num_digit_2, 10} ሂሳብ ከከፈለ ምን ያህል መልስ ይቀበላል?",
+  "question_solution": "answer = num_digit_2 - num_text_1 * num_text_2 * num_digit_1",
+  "conditions": [
+    "answer == num_digit_2 - num_text_1 * num_text_2 * num_digit_1",
+    "answer % 1 == 0",
+    "num_text_1 > 0",
+    "num_text_2 > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > num_text_1 * num_text_2 * num_digit_1"
+  ],
+  "variable_word_list": {
+    "name_male": "Carl"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "ሶስት",
+      "አምስት",
+      "ሰባት",
+      "ስድስት",
+      "ስምንት",
+      "ዘጠኝ",
+      "አራት",
+      "አስር",
+      "አንደኛ ያስራ አንድ",
+      "አስራ ሁለት"
+    ],
+    "num_text_2": [
+      "አራት",
+      "አምስት",
+      "ስድስት",
+      "አምስት",
+      "አስር",
+      "አምስት",
+      "ሰባት",
+      "አስራ ሁለት",
+      "አራት",
+      "አስራ አምስት"
+    ],
+    "num_digit_1": [
+      0.25,
+      0.2,
+      0.5,
+      0.1,
+      0.25,
+      0.2,
+      0.5,
+      0.1,
+      0.25,
+      0.2
+    ],
+    "num_digit_2": [
+      10,
+      20,
+      40,
+      20,
+      30,
+      25,
+      40,
+      50,
+      60,
+      100
+    ],
+    "answer": [
+      7,
+      15,
+      19,
+      17,
+      10,
+      16,
+      26,
+      38,
+      49,
+      64
+    ],
+    "num_ic": [
+      11,
+      41,
+      28,
+      38,
+      57,
+      33,
+      43,
+      76,
+      49,
+      170
+    ]
+  },
+  "ic_question_template": "{name_male, ካርል} {num_text_1, አስር} ጥቅል ኩኪዎችን ገዛ። እያንዳንዱ የኩኪዎች ጥቅል በውስጡ {num_text_2, ስድስት} ኩኪዎች አሉት። እያንዳንዱ ኩኪ ዋጋው ${num_digit_1, 0.10} ነው። {name_male, ካርል} ${num_digit_2, 10} ሂሳብ ከከፈለ ምን ያህል መልስ ይቀበላል? የ{name_male, ካርል} አክስቱ ወደ ፓርቲው {num_ic, 31} ማፊን አመጣች።",
+  "ic_sentence": "የ{name_male, ካርል} አክስቱ ወደ ፓርቲው {num_ic, 31} ማፊን አመጣች።"
+}

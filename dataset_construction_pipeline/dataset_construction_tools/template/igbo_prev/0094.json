@@ -1,0 +1,78 @@
+{
+  "original_question": "N'ịme otu agbataobi, ọnụọgụgụ oke oyibo e jiri mere anụ ụlọ ji iri na abụọ dị nta karịa ọnụọgụgụ nkịta na nwamba nọ n'ụlọ. Ọ bụrụ na e nwere nwamba abụọ nye nkịta ọbụla, na ọnụọgụgụ nkịta dị iri isii, ọnụọgụgụ anụ ụlọ ole nọ n'agbatobi ahụ? ",
+  "original_answer": 348,
+  "question_template": "N'ịme otu agbataobi, ọnụọgụgụ oke oyibo e jiri mere anụ ụlọ ji {num_text_1, twelve} dị nta karịa ọnụọgụgụ nkịta na nwamba nọ n'ụlọ. Ọ bụrụ na e nwere nwamba {num_text_2, two} nye nkịta ọbụla, na ọnụọgụgụ nkịta dị {num_digit_1, 60}, ọnụọgụgụ anụ ụlọ ole nọ n'agbatobi ahụ?",
+  "question_solution": "answer = 2*(num_digit_1 + num_digit_1 * NUM(num_text_2)) - NUM(num_text_1)",
+  "conditions": [
+    "int(answer) == 2*(num_digit_1 + num_digit_1 * NUM(num_text_2)) - NUM(num_text_1)",
+    "NUM(num_text_2) > 0",
+    "NUM(num_text_1) >= 0",
+    "num_digit_1 > 0",
+    "2*(num_digit_1 + num_digit_1 * NUM(num_text_2)) >= NUM(num_text_1)"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "Iri",
+      "ise",
+      "iri na abụọ",
+      "asatọ",
+      "Iri abụọ",
+      "Atọ",
+      "asaa",
+      "iri na anọ",
+      "Anọ",
+      "ịrì abụọ na ise"
+    ],
+    "num_text_2": [
+      "Atọ",
+      "abụọ",
+      "Anọ",
+      "ise",
+      "isii",
+      "abụọ",
+      "ise",
+      "asaa",
+      "otu",
+      "itoolu"
+    ],
+    "num_digit_1": [
+      50,
+      30,
+      40,
+      25,
+      60,
+      15,
+      12,
+      20,
+      33,
+      45
+    ],
+    "answer": [
+      390,
+      175,
+      388,
+      292,
+      820,
+      87,
+      137,
+      306,
+      128,
+      875
+    ],
+    "num_ic": [
+      202,
+      64,
+      197,
+      72,
+      255,
+      9,
+      42,
+      164,
+      29,
+      347
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_female, Olivia} nwere ànyịnya mmiri {num_ic, 197}. N'ịme otu agbataobi, ọnụọgụgụ oke oyibo e jiri mere anụ ụlọ ji {num_text_1, twelve} dị nta karịa ọnụọgụgụ nkịta na nwamba nọ n'ụlọ. Ọ bụrụ na e nwere nwamba {num_text_2, two} nye nkịta ọbụla, na ọnụọgụgụ nkịta dị {num_digit_1, 60}, ọnụọgụgụ anụ ụlọ ole nọ n'agbatobi ahụ?",
+  "ic_sentence": "Nwanne nna {name_female, Olivia} nwere ànyịnya mmiri {num_ic, 197}."
+}

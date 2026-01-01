@@ -1,0 +1,66 @@
+{
+  "original_question": "在一个街区，宠物兔的数量比宠物狗和宠物猫的总数量少 12 只。如果猫和狗的数量比是 2 比 1，而狗的数量是 60 只，则这个社区一共有多少只宠物？",
+  "original_answer": 348,
+  "question_template": "在一个街区，宠物兔的数量比宠物狗和宠物猫的总数量少 {num_text_1, 12} 只。如果猫和狗的数量比是 {num_text_2, 2} 比 1，而狗的数量是 {num_digit_1, 60} 只，则这个社区一共有多少只宠物？",
+  "question_solution": "answer = 2*(num_digit_1 + num_digit_1 * NUM(num_text_2)) - NUM(num_text_1)",
+  "conditions": [
+    "int(answer) == 2*(num_digit_1 + num_digit_1 * NUM(num_text_2)) - NUM(num_text_1)",
+    "NUM(num_text_2) > 0",
+    "NUM(num_text_1) >= 0",
+    "num_digit_1 > 0",
+    "2*(num_digit_1 + num_digit_1 * NUM(num_text_2)) >= NUM(num_text_1)"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "十",
+      "五",
+      "十二",
+      "八",
+      "二十",
+      "三",
+      "七",
+      "十四",
+      "四",
+      "二十五"
+    ],
+    "num_text_2": [
+      "三",
+      "二",
+      "四",
+      "五",
+      "六",
+      "二",
+      "五",
+      "七",
+      "一",
+      "九"
+    ],
+    "num_digit_1": [
+      50,
+      30,
+      40,
+      25,
+      60,
+      15,
+      12,
+      20,
+      33,
+      45
+    ],
+    "answer": [
+      390,
+      175,
+      388,
+      292,
+      820,
+      87,
+      137,
+      306,
+      128,
+      875
+    ]
+  },
+  "ic_question_template": "{name_female, 奥利维娅} 的叔叔有 {num_ic, 197} 只乌龟。在一个街区，宠物兔的数量比宠物狗和宠物猫的总数量少 {num_text_1, 12} 只。如果猫和狗的数量比是 {num_text_2, 2} 比 1，而狗的数量是 {num_digit_1, 60} 只，则这个社区一共有多少只宠物？",
+  "ic_sentence": "{name_female, 奥利维娅} 的叔叔有 {num_ic, 197} 只乌龟。"
+}

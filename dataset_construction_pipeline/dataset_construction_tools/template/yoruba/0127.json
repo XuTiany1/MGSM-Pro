@@ -1,0 +1,67 @@
+{
+  "original_question": "Lẹ‌yìn tí ó kó lọ sí ilé-ẹ‌kọ‌ tuntun, iye ọ̀rẹ́ Amy fi 20 ju ti Lily lọ. Tí Lily bá ní ọ̀rẹ́ 50, ọ̀rẹ́ mélòó ni Lily àti Amy ní lápapò?",
+  "original_answer": 120,
+  "question_template": "Lẹ‌yìn tí ó kó lọ sí ilé-ẹ‌kọ‌ tuntun, iye ọ̀rẹ́ {name_female_1, Amy} fi {num_digit_1, 20} ju ti {name_female_2, Lily} lọ. Tí {name_female_2, Lily} bá ní ọ̀rẹ́ {num_digit_2, 50}, ọ̀rẹ́ mélòó ni {name_female_2, Lily} àti {name_female_1, Amy} ní lápapò?",
+  "question_solution": "answer = 2 * num_digit_2 + num_digit_1",
+  "conditions": [
+    "int(answer) == 2 * num_digit_2 + num_digit_1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Amy",
+    "name_female_2": "Lily"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15,
+      30,
+      25,
+      40,
+      12,
+      33,
+      55,
+      70,
+      99,
+      11
+    ],
+    "num_digit_2": [
+      35,
+      70,
+      60,
+      80,
+      44,
+      33,
+      120,
+      150,
+      199,
+      89
+    ],
+    "answer": [
+      85,
+      170,
+      145,
+      200,
+      100,
+      99,
+      295,
+      370,
+      497,
+      189
+    ],
+    "num_ic": [
+      42,
+      262,
+      121,
+      374,
+      61,
+      46,
+      341,
+      570,
+      688,
+      108
+    ]
+  },
+  "ic_question_template": "Ọmọkùnrin bàbá {name_female_2, Lily} fún un ní àwọn ìwé àwòrán àròsọ {num_ic, 42} gẹ́gẹ́ bí ẹ̀bùn ikúrọ̀lé. Lẹ‌yìn tí ó kó lọ sí ilé-ẹ‌kọ‌ tuntun, iye ọ̀rẹ́ {name_female_1, Amy} fi {num_digit_1, 20} ju ti {name_female_2, Lily} lọ. Tí {name_female_2, Lily} bá ní ọ̀rẹ́ {num_digit_2, 50}, ọ̀rẹ́ mélòó ni {name_female_2, Lily} àti {name_female_1, Amy} ní lápapò?",
+  "ic_sentence": "Ọmọkùnrin bàbá {name_female_2, Lily} fún un ní àwọn ìwé àwòrán àròsọ {num_ic, 42} gẹ́gẹ́ bí ẹ̀bùn ikúrọ̀lé."
+}

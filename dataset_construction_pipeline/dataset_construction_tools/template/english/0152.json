@@ -1,0 +1,93 @@
+{
+  "original_question": "Carl buys ten packs of cookies. Each pack of cookies has six cookies inside. Each cookie cost $0.10. How much change does Carl receive if he pay with a $10 bill?",
+  "original_answer": 4,
+  "question_template": "{name_male, Carl} buys {num_text_1, ten} packs of cookies. Each pack of cookies has {num_text_2, six} cookies inside. Each cookie cost ${num_digit_1, 0.10}. How much change does {name_male, Carl} receive if he pay with a ${num_digit_2, 10} bill?",
+  "question_solution": "answer = num_digit_2 - num_text_1 * num_text_2 * num_digit_1",
+  "conditions": [
+    "answer == num_digit_2 - num_text_1 * num_text_2 * num_digit_1",
+    "answer % 1 == 0",
+    "num_text_1 > 0",
+    "num_text_2 > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > num_text_1 * num_text_2 * num_digit_1"
+  ],
+  "variable_word_list": {
+    "name_male": "Carl"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "three",
+      "five",
+      "seven",
+      "six",
+      "eight",
+      "nine",
+      "four",
+      "ten",
+      "eleven",
+      "twelve"
+    ],
+    "num_text_2": [
+      "four",
+      "five",
+      "six",
+      "five",
+      "ten",
+      "five",
+      "seven",
+      "twelve",
+      "four",
+      "fifteen"
+    ],
+    "num_digit_1": [
+      0.25,
+      0.2,
+      0.5,
+      0.1,
+      0.25,
+      0.2,
+      0.5,
+      0.1,
+      0.25,
+      0.2
+    ],
+    "num_digit_2": [
+      10,
+      20,
+      40,
+      20,
+      30,
+      25,
+      40,
+      50,
+      60,
+      100
+    ],
+    "answer": [
+      7,
+      15,
+      19,
+      17,
+      10,
+      16,
+      26,
+      38,
+      49,
+      64
+    ],
+    "num_ic": [
+      11,
+      41,
+      28,
+      38,
+      57,
+      33,
+      43,
+      76,
+      49,
+      170
+    ]
+  },
+  "ic_question_template": "{name_male, Carl} buys {num_text_1, ten} packs of cookies. Each pack of cookies has {num_text_2, six} cookies inside. Each cookie cost ${num_digit_1, 0.10}. {name_male, Carl}'s aunt brought {num_ic, 31} muffins to the party. How much change does {name_male, Carl} receive if he pay with a ${num_digit_2, 10} bill?",
+  "ic_sentence": "{name_male, Carl}'s aunt brought {num_ic, 31} muffins to the party."
+}

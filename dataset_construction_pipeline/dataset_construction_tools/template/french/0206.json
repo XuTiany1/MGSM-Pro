@@ -1,0 +1,108 @@
+{
+  "original_question": "Micheal adore faire du vélo. Il en fait au moins 5 fois par semaine et fait 25 kilomètres à chaque fois. Il l'a fait pendant quatre semaines, puis il a décidé de n'en faire que 2 fois par semaine, mais en parcourant 60 kilomètres à chaque fois, ce qu'il a fait pendant 3 semaines. Combien de kilomètres Micheal a-t-il fait au total ?",
+  "original_answer": 860,
+  "question_template": "{name_male, Micheal} adore faire du vélo. Il en fait au moins {num_digit_1, 5} fois par semaine et fait {num_digit_2, 25} kilomètres à chaque fois. Il l'a fait pendant {num_text_1, quatre} semaines, puis il a décidé de n'en faire que {num_digit_3, 2} fois par semaine, mais en parcourant {num_digit_4, 60} kilomètres à chaque fois, ce qu'il a fait pendant {num_digit_5, 3} semaines. Combien de kilomètres {name_male, Micheal} a-t-il fait au total ?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * t1 + num_digit_3 * num_digit_4 * num_digit_5  # t1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 * t1 + num_digit_3 * num_digit_4 * num_digit_5",
+    "t1 > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Micheal"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31
+    ],
+    "num_digit_2": [
+      45,
+      52,
+      63,
+      74,
+      85,
+      96,
+      107,
+      118,
+      129,
+      140
+    ],
+    "num_text_1": [
+      "six",
+      "sept",
+      "huit",
+      "neuf",
+      "dix",
+      "onze",
+      "douze",
+      "treize",
+      "quatorze",
+      "quinze"
+    ],
+    "num_digit_3": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "num_digit_4": [
+      75,
+      88,
+      99,
+      112,
+      125,
+      138,
+      149,
+      162,
+      175,
+      188
+    ],
+    "num_digit_5": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answer": [
+      4140,
+      7220,
+      11538,
+      17358,
+      24850,
+      34224,
+      45510,
+      59238,
+      75474,
+      94428
+    ]
+  },
+  "ic_question_template": "{name_male, Micheal} a un oncle qui possède {num_ic, 105} cartes de baseball. {name_male, Micheal} adore faire du vélo. Il en fait au moins {num_digit_1, 5} fois par semaine et fait {num_digit_2, 25} kilomètres à chaque fois. Il l'a fait pendant {num_text_1, quatre} semaines, puis il a décidé de n'en faire que {num_digit_3, 2} fois par semaine, mais en parcourant {num_digit_4, 60} kilomètres à chaque fois, ce qu'il a fait pendant {num_digit_5, 3} semaines. Combien de kilomètres {name_male, Micheal} a-t-il fait au total ?",
+  "ic_sentence": "{name_male, Micheal} a un oncle qui possède {num_ic, 105} cartes de baseball."
+}

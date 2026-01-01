@@ -1,0 +1,104 @@
+{
+  "original_question": "ọkọ̀ ti tò lọ lórí ọ̀nà mọ́tò. díẹ̀ nínú àwọn ọkọ̀ náà wọlé ní ìṣẹ́jú 15 àkọ́kọ́ nínú sún kẹrẹ fà kẹrẹ ọkọ̀, ọkọ̀ 20 tún wọlé ní ìṣẹ́jú 15 tókù nínú sún kẹrẹ fà kẹrẹ ọkọ̀. ọkọ̀ 5 nínú àwọn tó wà ní orí ìlà jáde kúrò nítorí kí wọn máa bá wọ inú sún kẹrẹ fà kẹrẹ ọkọ̀. tó bá jẹ́ ọkọ̀ 30 ló wà ní orí títì, ọkọ̀ mélòó ní ó lè kọjá nínú sún kẹrẹ fà kẹrẹ ọkọ̀ ní ìṣẹ́jú 15 àkọ́kọ́?",
+  "original_answer": 5,
+  "question_template": "ọkọ̀ ti tò lọ lórí ọ̀nà mọ́tò. díẹ̀ nínú àwọn ọkọ̀ náà wọlé ní ìṣẹ́jú {num_digit_1, 15} àkọ́kọ́ nínú sún kẹrẹ fà kẹrẹ ọkọ̀, ọkọ̀ {num_digit_2, 20} tún wọlé ní ìṣẹ́jú {num_digit_3, 15} tókù nínú sún kẹrẹ fà kẹrẹ ọkọ̀. ọkọ̀ {num_digit_4, 5} nínú àwọn tó wà ní orí ìlà jáde kúrò nítorí kí wọn máa bá wọ inú sún kẹrẹ fà kẹrẹ ọkọ̀. tó bá jẹ́ ọkọ̀ {num_digit_6, 30} ló wà ní orí títì, ọkọ̀ mélòó ní ó lè kọjá nínú sún kẹrẹ fà kẹrẹ ọkọ̀ ní ìṣẹ́jú {num_digit_1, 15} àkọ́kọ́?",
+  "question_solution": "answer = num_digit_6 - num_digit_2 - num_digit_4",
+  "conditions": [
+    "int(answer) == num_digit_6 - num_digit_2 - num_digit_4",
+    "num_digit_6 >= num_digit_2 + num_digit_4",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0",
+    "num_digit_4 >= 0",
+    "num_digit_6 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      10,
+      12,
+      8,
+      20,
+      18,
+      14,
+      15,
+      30,
+      16,
+      25
+    ],
+    "num_digit_2": [
+      15,
+      20,
+      5,
+      25,
+      20,
+      12,
+      18,
+      60,
+      8,
+      35
+    ],
+    "num_digit_3": [
+      15,
+      18,
+      12,
+      25,
+      20,
+      14,
+      10,
+      30,
+      16,
+      22
+    ],
+    "num_digit_4": [
+      8,
+      10,
+      3,
+      15,
+      7,
+      3,
+      9,
+      20,
+      4,
+      10
+    ],
+    "num_digit_6": [
+      40,
+      50,
+      25,
+      60,
+      35,
+      28,
+      45,
+      100,
+      24,
+      80
+    ],
+    "answer": [
+      17,
+      20,
+      17,
+      20,
+      8,
+      13,
+      18,
+      20,
+      12,
+      35
+    ],
+    "num_ic": [
+      38,
+      33,
+      44,
+      27,
+      56,
+      13,
+      89,
+      60,
+      18,
+      99
+    ]
+  },
+  "ic_question_template": "Arákùnrin olùṣàkóso opopona ní {num_ic, 38} ọkọ ayọ́kẹ́lẹ́ àtijọ́. ọkọ̀ ti tò lọ lórí ọ̀nà mọ́tò. díẹ̀ nínú àwọn ọkọ̀ náà wọlé ní ìṣẹ́jú {num_digit_1, 15} àkọ́kọ́ nínú sún kẹrẹ fà kẹrẹ ọkọ̀, ọkọ̀ {num_digit_2, 20} tún wọlé ní ìṣẹ́jú {num_digit_3, 15} tókù nínú sún kẹrẹ fà kẹrẹ ọkọ̀. ọkọ̀ {num_digit_4, 5} nínú àwọn tó wà ní orí ìlà jáde kúrò nítorí kí wọn máa bá wọ inú sún kẹrẹ fà kẹrẹ ọkọ̀. tó bá jẹ́ ọkọ̀ {num_digit_6, 30} ló wà ní orí títì, ọkọ̀ mélòó ní ó lè kọjá nínú sún kẹrẹ fà kẹrẹ ọkọ̀ ní ìṣẹ́jú {num_digit_1, 15} àkọ́kọ́?",
+  "ic_sentence": "Arákùnrin olùṣàkóso opopona ní {num_ic, 38} ọkọ ayọ́kẹ́lẹ́ àtijọ́."
+}

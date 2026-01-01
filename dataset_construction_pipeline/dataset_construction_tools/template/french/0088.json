@@ -1,0 +1,56 @@
+{
+  "original_question": "Le premier disque de Marilyn s'est vendu à 10 fois plus d'exemplaires que celui de Harald. S'ils ont vendu 88 000 exemplaires à eux deux, combien d'exemplaires Harald a-t-il vendus ?",
+  "original_answer": 8000,
+  "question_template": "Le premier disque de {name_male_1, Marilyn} s'est vendu à {num_digit_1, 10} fois plus d'exemplaires que celui de {name_male_2, Harald}. S'ils ont vendu {num_digit_2, 88,000} exemplaires à eux deux, combien d'exemplaires {name_male_2, Harald} a-t-il vendus ?",
+  "question_solution": "answer = num_digit_2 / (num_digit_1 + 1)",
+  "conditions": [
+    "int(answer) == num_digit_2 / (num_digit_1 + 1)",
+    "num_digit_2 % (num_digit_1 + 1) == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Marilyn",
+    "name_male_2": "Harald"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      9,
+      12,
+      3,
+      19,
+      4,
+      1,
+      24,
+      8,
+      17,
+      5
+    ],
+    "num_digit_2": [
+      70000,
+      13000,
+      20000,
+      30000,
+      22500,
+      50000,
+      40000,
+      76500,
+      16200,
+      72000
+    ],
+    "answer": [
+      7000,
+      1000,
+      5000,
+      1500,
+      4500,
+      25000,
+      1600,
+      8500,
+      900,
+      12000
+    ]
+  },
+  "ic_question_template": "{name_male_1, Marilyn} a un oncle qui a reçu {num_ic, 23,000} lettres de fans l'année dernière. Le premier disque de {name_male_1, Marilyn} s'est vendu à {num_digit_1, 10} fois plus d'exemplaires que celui de {name_male_2, Harald}. S'ils ont vendu {num_digit_2, 88,000} exemplaires à eux deux, combien d'exemplaires {name_male_2, Harald} a-t-il vendus ?",
+  "ic_sentence": "{name_male_1, Marilyn} a un oncle qui a reçu {num_ic, 23,000} lettres de fans l'année dernière."
+}

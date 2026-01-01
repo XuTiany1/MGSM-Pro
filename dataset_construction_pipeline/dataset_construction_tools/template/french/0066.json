@@ -1,0 +1,52 @@
+{
+  "original_question": "Un tournoi de basket-ball accueille quatre écoles en compétition. Chaque école a envoyé une équipe féminine et une équipe masculine, chacune comptant 5 joueurs. Les écoles ont également envoyé chacune un entraîneur. Combien de personnes les écoles ont-elles envoyées en tout ?",
+  "original_answer": 48,
+  "question_template": "Un tournoi de basket-ball accueille {num_text_1, quatre} écoles en compétition. Chaque école a envoyé une équipe féminine et une équipe masculine, chacune comptant {num_digit_1, 5} joueurs. Les écoles ont également envoyé chacune un entraîneur. Combien de personnes les écoles ont-elles envoyées en tout ?",
+  "question_solution": "answer = NUM(num_text_1) * 2 * (num_digit_1 + 1)",
+  "conditions": [
+    "int(answer) == NUM(num_text_1) * 2 * (num_digit_1 + 1)",
+    "NUM(num_text_1) > 0",
+    "num_digit_1 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "six",
+      "sept",
+      "cinq",
+      "neuf",
+      "dix",
+      "trois",
+      "huit",
+      "douze",
+      "onze",
+      "treize"
+    ],
+    "num_digit_1": [
+      7,
+      8,
+      6,
+      11,
+      4,
+      12,
+      3,
+      9,
+      6,
+      10
+    ],
+    "answer": [
+      96,
+      126,
+      70,
+      216,
+      100,
+      78,
+      64,
+      240,
+      154,
+      286
+    ]
+  },
+  "ic_question_template": "{name_male, Marcus} a un cousin qui a apporté {num_ic, 42} ballons de basket pour les équipes. Un tournoi de basket-ball accueille {num_text_1, quatre} écoles en compétition. Chaque école a envoyé une équipe féminine et une équipe masculine, chacune comptant {num_digit_1, 5} joueurs. Les écoles ont également envoyé chacune un entraîneur. Combien de personnes les écoles ont-elles envoyées en tout ?",
+  "ic_sentence": "{name_male, Marcus} a un cousin qui a apporté {num_ic, 42} ballons de basket pour les équipes."
+}

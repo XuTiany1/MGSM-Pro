@@ -1,0 +1,82 @@
+{
+  "original_question": "Jerry a un élevage de poulets. Les poules rouges produisent 3 œufs par jour, et les blanches 5 œufs par jour. Jerry ramasse chaque jour 42 œufs. S'il a deux poulets blancs de plus qu'il y en a de rouges, combien de poulets rouges a-t-il ?",
+  "original_answer": 4,
+  "question_template": "{name_male, Jerry} a un élevage de poulets. Les poules rouges produisent {num_digit_1, 3} œufs par jour, et les blanches {num_digit_2, 5} œufs par jour. {name_male, Jerry} ramasse chaque jour {num_digit_3, 42} œufs. S'il a {num_text_1, deux} poulets blancs de plus qu'il y en a de rouges, combien de poulets rouges a-t-il ?",
+  "question_solution": "answer = (num_digit_3 - f1 * num_digit_2) / (num_digit_1 + num_digit_2)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_3 - f1 * num_digit_2) / (num_digit_1 + num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "f1 > 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jerry"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      9,
+      12,
+      13,
+      5,
+      14,
+      11,
+      4,
+      16,
+      17
+    ],
+    "num_digit_2": [
+      11,
+      14,
+      8,
+      17,
+      9,
+      6,
+      10,
+      15,
+      12,
+      13
+    ],
+    "num_text_1": [
+      "trois",
+      "quatre",
+      "cinq",
+      "six",
+      "sept",
+      "huit",
+      "neuf",
+      "dix",
+      "onze",
+      "douze"
+    ],
+    "num_digit_3": [
+      267,
+      447,
+      540,
+      672,
+      371,
+      668,
+      699,
+      435,
+      888,
+      1146
+    ],
+    "answer": [
+      13,
+      17,
+      25,
+      19,
+      22,
+      31,
+      29,
+      15,
+      27,
+      33
+    ]
+  },
+  "ic_question_template": "{name_male, Jerry} a une tante qui a {num_ic, 54} canards dans sa ferme. {name_male, Jerry} a un élevage de poulets. Les poules rouges produisent {num_digit_1, 3} œufs par jour, et les blanches {num_digit_2, 5} œufs par jour. {name_male, Jerry} ramasse chaque jour {num_digit_3, 42} œufs. S'il a {num_text_1, deux} poulets blancs de plus qu'il y en a de rouges, combien de poulets rouges a-t-il ?",
+  "ic_sentence": "{name_male, Jerry} a une tante qui a {num_ic, 54} canards dans sa ferme."
+}

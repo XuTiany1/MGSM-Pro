@@ -1,0 +1,103 @@
+{
+  "original_question": "Dave a acheté un gros paquet de frites et en a mangé quatorze avant qu'une mouette affamée ne lui vole le paquet des mains. Lorsque la mouette s'est posée, elle a englouti la moitié de la quantité de frites que Dave avait mangée. Ensuite, trois pigeons ont forcé la mouette à s'éloigner de la nourriture et chacun d'eux a pu manger trois frites. Plus tard, un raton laveur a volé deux tiers des frites restantes. Les fourmis en ont emporté une dernière, abandonnant cinq frites. Combien de frites y avait-il dans le paquet lorsque Dave l'a acheté ?",
+  "original_answer": 48,
+  "question_template": "{name_male, Dave} a acheté un gros paquet de frites et en a mangé {num_text_1, quatorze} avant qu'une mouette affamée ne lui vole le paquet des mains. Lorsque la mouette s'est posée, elle a englouti la {num_frac_1, moitié} de la quantité de frites que {name_male, Dave} avait mangée. Ensuite, {num_text_2, trois} pigeons ont forcé la mouette à s'éloigner de la nourriture et chacun d'eux a pu manger {num_text_3, trois} frites. Plus tard, un raton laveur a volé {num_frac_2, deux tiers} des frites restantes. Les fourmis en ont emporté une dernière, abandonnant {num_text_4, cinq} frites. Combien de frites y avait-il dans le paquet lorsque {name_male, Dave} l'a acheté ?",
+  "question_solution": "answer = num_text_1_val + num_frac_1_val * num_text_1_val + (num_text_2_val * num_text_3_val) + (num_text_4_val + 1) / (1 - num_frac_2_val)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_text_1_val + num_frac_1_val * num_text_1_val + (num_text_2_val * num_text_3_val) + (num_text_4_val + 1) / (1 - num_frac_2_val)",
+    "num_frac_1_val > 0",
+    "0 < num_frac_2_val < 1"
+  ],
+  "variable_word_list": {
+    "name_male": "Dave"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "quatorze",
+      "douze",
+      "vingt",
+      "vingt-cinq",
+      "seize",
+      "dix-huit",
+      "vingt",
+      "trente",
+      "vingt-quatre",
+      "vingt-cinq"
+    ],
+    "num_frac_1": [
+      "moitié",
+      "un tiers",
+      "un quart",
+      "un cinquième",
+      "moitié",
+      "un tiers",
+      "trois quarts",
+      "moitié",
+      "un quart",
+      "un cinquième"
+    ],
+    "num_text_2": [
+      "trois",
+      "quatre",
+      "quatre",
+      "trois",
+      "deux",
+      "deux",
+      "quatre",
+      "cinq",
+      "trois",
+      "trois"
+    ],
+    "num_text_3": [
+      "trois",
+      "deux",
+      "trois",
+      "trois",
+      "trois",
+      "deux",
+      "trois",
+      "deux",
+      "quatre",
+      "trois"
+    ],
+    "num_frac_2": [
+      "deux tiers",
+      "trois quarts",
+      "quatre cinquièmes",
+      "cinq sixièmes",
+      "moitié",
+      "trois cinquièmes",
+      "sept dixièmes",
+      "trois quarts",
+      "moitié",
+      "un tiers"
+    ],
+    "num_text_4": [
+      "cinq",
+      "sept",
+      "neuf",
+      "cinq",
+      "sept",
+      "cinq",
+      "onze",
+      "onze",
+      "sept",
+      "cinq"
+    ],
+    "answer": [
+      48,
+      56,
+      87,
+      75,
+      46,
+      43,
+      87,
+      103,
+      58,
+      48
+    ]
+  },
+  "ic_question_template": "{name_male, Dave} a un jour vu son grand-père apporter {num_ic, 100} bouteilles de ketchup à un pique-nique. {name_male, Dave} a acheté un gros paquet de frites et en a mangé {num_text_1, quatorze} avant qu'une mouette affamée ne lui vole le paquet des mains. Lorsque la mouette s'est posée, elle a englouti la {num_frac_1, moitié} de la quantité de frites que {name_male, Dave} avait mangée. Ensuite, {num_text_2, trois} pigeons ont forcé la mouette à s'éloigner de la nourriture et chacun d'eux a pu manger {num_text_3, trois} frites. Plus tard, un raton laveur a volé {num_frac_2, deux tiers} des frites restantes. Les fourmis en ont emporté une dernière, abandonnant {num_text_4, cinq} frites. Combien de frites y avait-il dans le paquet lorsque {name_male, Dave} l'a acheté ?",
+  "ic_sentence": "{name_male, Dave} a un jour vu son grand-père apporter {num_ic, 100} bouteilles de ketchup à un pique-nique."
+}

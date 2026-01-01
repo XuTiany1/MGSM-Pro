@@ -1,0 +1,120 @@
+{
+  "original_question": "Janet nwere mkpịsị òdé na-acha ndụndụ iri abụọ na abụọ na mkpịsị òdé na-acha edoedo iri. Mgbe ahụ ọ zụtara akpa mkpịsị òdé na-acha anụnụ anụnụ na akpa mkpịsị òdé na-acha ọbara ọbara. E nwere mkpịsị òdé itoolu n'ịme ọbụla na-acha anụnụ anụnụ na mkpịsị òdé isii n'akpa mkpịsị òdé na-acha ọbara ọbara. Mkpịsị òdé ole ka Janet nwere? ",
+  "original_answer": 98,
+  "question_template": "{name_female, Janet} nwere mkpịsị òdé na-acha ndụndụ {num_digit_1, 22} na mkpịsị òdé na-acha edoedo {num_digit_2, 10}. Mgbe ahụ ọ zụtara akpa {num_digit_3, 6} mkpịsị òdé na-acha anụnụ anụnụ na akpa {num_digit_4, 2} mkpịsị òdé na-acha ọbara ọbara. E nwere mkpịsị òdé {num_digit_5, 9} n'ịme ọbụla na-acha anụnụ anụnụ na mkpịsị òdé {num_digit_6, 6} n'akpa mkpịsị òdé na-acha ọbara ọbara. Mkpịsị òdé ole ka {name_female, Janet} nwere?",
+  "question_solution": "answer = num_digit_1 + num_digit_2 + num_digit_3 * num_digit_5 + num_digit_4 * num_digit_6",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + num_digit_2 + num_digit_3 * num_digit_5 + num_digit_4 * num_digit_6",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "num_digit_6 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Janet"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1234,
+      2345,
+      3456,
+      4567,
+      5678,
+      6789,
+      7890,
+      8901,
+      9012,
+      10123
+    ],
+    "num_digit_2": [
+      987,
+      876,
+      765,
+      654,
+      543,
+      432,
+      321,
+      210,
+      109,
+      98
+    ],
+    "num_digit_3": [
+      123,
+      234,
+      345,
+      456,
+      567,
+      678,
+      789,
+      890,
+      901,
+      1012
+    ],
+    "num_digit_4": [
+      321,
+      432,
+      543,
+      654,
+      765,
+      876,
+      987,
+      1098,
+      1209,
+      1320
+    ],
+    "num_digit_5": [
+      98,
+      87,
+      76,
+      65,
+      54,
+      43,
+      32,
+      21,
+      10,
+      9
+    ],
+    "num_digit_6": [
+      123,
+      135,
+      147,
+      159,
+      168,
+      174,
+      189,
+      196,
+      210,
+      225
+    ],
+    "answer": [
+      53758,
+      81899,
+      110262,
+      138847,
+      165359,
+      188799,
+      220002,
+      243009,
+      272021,
+      316329
+    ],
+    "num_ic": [
+      700,
+      4800,
+      1000,
+      18700,
+      150,
+      3900,
+      1100,
+      2500,
+      900,
+      24200
+    ]
+  },
+  "ic_question_template": "Nwa nwanne nna {name_female, Janet} ka natara akwụkwọ akụkọ {num_ic, 700} dị ka onyinye. {name_female, Janet} nwere mkpịsị òdé na-acha ndụndụ {num_digit_1, 22} na mkpịsị òdé na-acha edoedo {num_digit_2, 10}. Mgbe ahụ ọ zụtara akpa {num_digit_3, 6} mkpịsị òdé na-acha anụnụ anụnụ na akpa {num_digit_4, 2} mkpịsị òdé na-acha ọbara ọbara. E nwere mkpịsị òdé {num_digit_5, 9} n'ịme ọbụla na-acha anụnụ anụnụ na mkpịsị òdé {num_digit_6, 6} n'akpa mkpịsị òdé na-acha ọbara ọbara. Mkpịsị òdé ole ka {name_female, Janet} nwere?",
+  "ic_sentence": "Nwa nwanne nna {name_female, Janet} ka natara akwụkwọ akụkọ {num_ic, 700} dị ka onyinye."
+}

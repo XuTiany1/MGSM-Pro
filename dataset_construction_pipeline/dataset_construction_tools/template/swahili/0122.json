@@ -1,0 +1,82 @@
+{
+  "original_question": "Sadie alilala saa 8 Jumatatu. Kwa siku mbili zinazofuata, alilala saa 2 kidogo, kila moja, kwa sababu alihitaji kukamilisha kazi zake za ziada. Ikiwa siku zilizosalia kwa wiki alilala saa 1 zaidi ya siku hizo mbili, alilala saa ngapi kwa jumla katika wiki nzima?",
+  "original_answer": 48,
+  "question_template": "{name_female, Sadie} alilala masaa {num_digit_1, 8} siku ya Jumatatu. Kwa siku {num_text_1, mbili} zilizofuata, alilala masaa {num_digit_2, 2} pungufu kila siku kwa sababu alikuwa akikamilisha kazi. Ikiwa siku zilizobaki za wiki alilala saa {num_digit_3, 1} zaidi ya zile siku {num_text_2, mbili}, alilala masaa mangapi kwa jumla katika wiki nzima?",
+  "question_solution": "answer = num_digit_1 + 2*(num_digit_1 - num_digit_2) + 4*(num_digit_1 - num_digit_2 + num_digit_3)",
+  "conditions": [
+    "int(answer) == num_digit_1 + 2*(num_digit_1 - num_digit_2) + 4*(num_digit_1 - num_digit_2 + num_digit_3)",
+    "num_digit_1 > num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sadie",
+    "num_text_1": "two",
+    "num_text_2": "two"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      9,
+      10,
+      7,
+      12,
+      6,
+      11,
+      9,
+      8,
+      14,
+      10
+    ],
+    "num_digit_2": [
+      3,
+      4,
+      1,
+      4,
+      1,
+      5,
+      2,
+      1,
+      6,
+      1
+    ],
+    "num_digit_3": [
+      2,
+      3,
+      1,
+      2,
+      2,
+      1,
+      4,
+      3,
+      3,
+      5
+    ],
+    "answer": [
+      53,
+      58,
+      47,
+      68,
+      44,
+      51,
+      67,
+      62,
+      74,
+      84
+    ],
+    "num_ic": [
+      19,
+      48,
+      31,
+      108,
+      25,
+      60,
+      22,
+      84,
+      62,
+      96
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_female, Sadie} alikunywa vikombe {num_ic, 23} vya kahawa wiki iliyopita. {name_female, Sadie} alilala masaa {num_digit_1, 8} siku ya Jumatatu. Kwa siku {num_text_1, mbili} zilizofuata, alilala masaa {num_digit_2, 2} pungufu kila siku kwa sababu alikuwa akikamilisha kazi. Ikiwa siku zilizobaki za wiki alilala saa {num_digit_3, 1} zaidi ya zile siku {num_text_2, mbili}, alilala masaa mangapi kwa jumla katika wiki nzima?",
+  "ic_sentence": "Mjomba wa {name_female, Sadie} alikunywa vikombe {num_ic, 23} vya kahawa wiki iliyopita."
+}

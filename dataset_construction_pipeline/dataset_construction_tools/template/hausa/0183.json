@@ -1,0 +1,128 @@
+{
+  "original_question": "Ƙungiyoyin tsere guda biyu suna fafatawa da juna a tseren mita 4 da 400; tseren da kowace kungiyar da ke fafatawa ke da mambobi hudu wadanda kowannensu ke gudun mita 400, ko kuma zuwa daya, a kusa da daidaitacciyar hanya daya. Ɗaya daga cikin ƙungiyoyin biyu sun kewaye juna kuma kowane memba na su zai yi tseren mita 400 a cikin dakika 55 daidai. Sauran tawagar ba su zama a kewaye sosai ba; Mai tseren su na farko zai yi gudun mita 400 a cikin dakika 60 sannan kowane mai gudu na gaba zai yi gudun dakika 3 fiye da wanda ya gabata. Ta hanyar amfani da wannan bayanin, adadin daƙiƙu nawa ne ƙungiyar da ta yi nasara zata samu?",
+  "original_answer": 2,
+  "question_template": "Ƙungiyoyin tsere guda {num_text_1, biyu} suna fafatawa da juna a tseren mita {num_digit_1, 4} da {num_digit_2, 400}; tseren da kowace kungiyar da ke fafatawa ke da mambobi {num_text_2, hudu} wadanda kowannensu ke gudun mita {num_digit_2, 400}, ko kuma zuwa daya, a kusa da daidaitacciyar hanya daya. Ɗaya daga cikin ƙungiyoyin {num_text_1, biyu} sun kewaye juna kuma kowane memba na su zai yi tseren mita {num_digit_2, 400} a cikin dakika {num_digit_3, 55} daidai. Sauran tawagar ba su zama a kewaye sosai ba; Mai tseren su na farko zai yi gudun mita {num_digit_2, 400} a cikin dakika {num_digit_4, 60} sannan kowane mai gudu na gaba zai yi gudun dakika {num_digit_5, 3} fiye da wanda ya gabata. Ta hanyar amfani da wannan bayanin, adadin daƙiƙu nawa ne ƙungiyar da ta yi nasara zata samu?",
+  "question_solution": "answer = (num_digit_4 + (num_digit_4 - num_digit_5) + (num_digit_4 - 2*num_digit_5) + (num_digit_4 - 3*num_digit_5)) - (f2 * num_digit_3)   # f2 is the numeric value of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_4 + (num_digit_4 - num_digit_5) + (num_digit_4 - 2*num_digit_5) + (num_digit_4 - 3*num_digit_5)) - (f2 * num_digit_3)",
+    "f2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu"
+    ],
+    "num_digit_1": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "num_digit_2": [
+      400,
+      400,
+      400,
+      400,
+      400,
+      400,
+      400,
+      400,
+      400,
+      400
+    ],
+    "num_text_2": [
+      "hudu",
+      "hudu",
+      "hudu",
+      "hudu",
+      "hudu",
+      "hudu",
+      "hudu",
+      "hudu",
+      "hudu",
+      "hudu"
+    ],
+    "num_digit_3": [
+      55,
+      50,
+      52,
+      48,
+      53,
+      56,
+      57,
+      54,
+      59,
+      60
+    ],
+    "num_digit_4": [
+      60,
+      58,
+      64,
+      60,
+      62,
+      67,
+      65,
+      63,
+      68,
+      70
+    ],
+    "num_digit_5": [
+      3,
+      4,
+      5,
+      6,
+      5,
+      3,
+      4,
+      5,
+      4,
+      5
+    ],
+    "answer": [
+      2,
+      8,
+      18,
+      12,
+      6,
+      26,
+      8,
+      6,
+      12,
+      10
+    ],
+    "num_ic": [
+      13,
+      66,
+      29,
+      92,
+      113,
+      53,
+      27,
+      83,
+      70,
+      41
+    ]
+  },
+  "ic_question_template": "Wani ƙanin mahaifin wani mai horarwa kwanan nan ya sayi sabon katanga {num_ic, 113} don makarantar. Ƙungiyoyin tsere guda {num_text_1, biyu} suna fafatawa da juna a tseren mita {num_digit_1, 4} da {num_digit_2, 400}; tseren da kowace kungiyar da ke fafatawa ke da mambobi {num_text_2, hudu} wadanda kowannensu ke gudun mita {num_digit_2, 400}, ko kuma zuwa daya, a kusa da daidaitacciyar hanya daya. Ɗaya daga cikin ƙungiyoyin {num_text_1, biyu} sun kewaye juna kuma kowane memba na su zai yi tseren mita {num_digit_2, 400} a cikin dakika {num_digit_3, 55} daidai. Sauran tawagar ba su zama a kewaye sosai ba; Mai tseren su na farko zai yi gudun mita {num_digit_2, 400} a cikin dakika {num_digit_4, 60} sannan kowane mai gudu na gaba zai yi gudun dakika {num_digit_5, 3} fiye da wanda ya gabata. Ta hanyar amfani da wannan bayanin, adadin daƙiƙu nawa ne ƙungiyar da ta yi nasara zata samu?",
+  "ic_sentence": "Wani ƙanin mahaifin wani mai horarwa kwanan nan ya sayi sabon katanga {num_ic, 113} don makarantar."
+}

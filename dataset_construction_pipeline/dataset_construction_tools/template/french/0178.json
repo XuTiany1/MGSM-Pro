@@ -1,0 +1,72 @@
+{
+  "original_question": "Rani a dix crabes de plus que Monique, laquelle a 4 crabes de moins que Bo. Sachant que Bo a 40 crabes, calcule le nombre total de crabes.",
+  "original_answer": 122,
+  "question_template": "{name_female_1, Rani} a {num_text_1, dix} crabes de plus que {name_female_2, Monique}, laquelle a {num_digit_1, 4} crabes de moins que {name_male_1, Bo}. Sachant que {name_male_1, Bo} a {num_digit_2, 40} crabes, calcule le nombre total de crabes.",
+  "question_solution": "answer = num_digit_2 + (num_digit_2 - num_digit_1) + ((num_digit_2 - num_digit_1) + t1)   # t1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 + (num_digit_2 - num_digit_1) + ((num_digit_2 - num_digit_1) + t1)",
+    "num_digit_2 - num_digit_1 >= 0",
+    "t1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_1 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Rani",
+    "name_female_2": "Monic",
+    "name_male_1": "Bo"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "sept",
+      "neuf",
+      "douze",
+      "quatre",
+      "quinze",
+      "huit",
+      "six",
+      "onze",
+      "treize",
+      "vingt"
+    ],
+    "num_digit_1": [
+      5,
+      7,
+      3,
+      9,
+      4,
+      2,
+      8,
+      6,
+      12,
+      10
+    ],
+    "num_digit_2": [
+      50,
+      100,
+      30,
+      60,
+      75,
+      120,
+      25,
+      90,
+      200,
+      150
+    ],
+    "answer": [
+      147,
+      295,
+      96,
+      166,
+      232,
+      364,
+      65,
+      269,
+      589,
+      450
+    ]
+  },
+  "ic_question_template": "{name_female_2, Monic} a un oncle qui a trouvé {num_ic, 88} coquillages sur la plage. {name_female_1, Rani} a {num_text_1, dix} crabes de plus que {name_female_2, Monique}, laquelle a {num_digit_1, 4} crabes de moins que {name_male_1, Bo}. Sachant que {name_male_1, Bo} a {num_digit_2, 40} crabes, calcule le nombre total de crabes.",
+  "ic_sentence": "{name_female_2, Monic} a un oncle qui a trouvé {num_ic, 88} coquillages sur la plage."
+}

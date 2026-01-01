@@ -1,0 +1,79 @@
+{
+  "original_question": "በኪራይ ከሚገኙት 20 መኪኖች 12ቱ አውቶማቲክ መኪኖች ናቸው። 4ቱ ማኑአል መኪኖች ሲሆኑ የተቀሩት ደግሞ ከፊል አውቶማቲክ ናቸው። ምን ያህል መቶኛ መኪኖቹ  ከፊል አውቶማቲክ ናቸው?",
+  "original_answer": 20,
+  "question_template": "በኪራይ ከሚገኙት {num_digit_1, 20} መኪኖች {num_digit_2, 12}ቱ አውቶማቲክ መኪኖች ናቸው። {num_digit_3, 4}ቱ ማኑአል መኪኖች ሲሆኑ የተቀሩት ደግሞ ከፊል አውቶማቲክ ናቸው። ምን ያህል መቶኛ መኪኖቹ  ከፊል አውቶማቲክ ናቸው?",
+  "question_solution": "answer = (num_digit_1 - num_digit_2 - num_digit_3) * 100 / num_digit_1",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_digit_2 - num_digit_3) * 100 / num_digit_1",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_1 >= num_digit_2 + num_digit_3",
+    "(num_digit_1 - num_digit_2 - num_digit_3) * 100 % num_digit_1 == 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      30,
+      45,
+      50,
+      60,
+      72,
+      90,
+      88,
+      96,
+      120,
+      95
+    ],
+    "num_digit_2": [
+      18,
+      24,
+      32,
+      39,
+      40,
+      50,
+      40,
+      50,
+      70,
+      53
+    ],
+    "num_digit_3": [
+      3,
+      12,
+      6,
+      9,
+      14,
+      22,
+      26,
+      22,
+      32,
+      23
+    ],
+    "answer": [
+      30,
+      20,
+      24,
+      20,
+      25,
+      20,
+      25,
+      25,
+      15,
+      20
+    ],
+    "num_ic": [
+      263,
+      43,
+      158,
+      42,
+      189,
+      69,
+      45,
+      96,
+      315,
+      202
+    ]
+  },
+  "ic_question_template": "በኪራይ ከሚገኙት {num_digit_1, 20} መኪኖች {num_digit_2, 12}ቱ አውቶማቲክ መኪኖች ናቸው። {num_digit_3, 4}ቱ ማኑአል መኪኖች ሲሆኑ የተቀሩት ደግሞ ከፊል አውቶማቲክ ናቸው። ምን ያህል መቶኛ መኪኖቹ  ከፊል አውቶማቲክ ናቸው? የኪራይ አስተዳዳሪው የእህት ልጅ ባለፈው አመት {num_ic,66} የመኪና መሸጫ ቦታዎችን ጎበኘ።",
+  "ic_sentence": "የኪራይ አስተዳዳሪው የእህት ልጅ ባለፈው አመት {num_ic,66} የመኪና መሸጫ ቦታዎችን ጎበኘ።"
+}

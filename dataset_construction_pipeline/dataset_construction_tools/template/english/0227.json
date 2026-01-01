@@ -1,0 +1,133 @@
+{
+  "original_question": "Chad ordered a build-your-own burrito for lunch. The base burrito is $6.50. He adds extra meat for $2.00, extra cheese for $1.00, avocado for $1.00 and 2 sauces for $0.25 each. He decides to upgrade his meal for an extra $3.00 which will add chips and a drink. He has a gift card for $5.00 that he uses at check out. How much does he still owe?",
+  "original_answer": 9,
+  "question_template": "{name_male, Chad} ordered a build-your-own burrito for lunch. The base burrito is ${num_digit_1, 6.50}. He adds extra meat for ${num_digit_2, 2.00}, extra cheese for ${num_digit_3, 1.00}, avocado for ${num_digit_4, 1.00} and 2 sauces for ${num_digit_5, 0.25} each. He decides to upgrade his meal for an extra ${num_digit_6, 3.00} which will add chips and a drink. He has a gift card for ${num_digit_7, 5.00} that he uses at check out. How much does he still owe?",
+  "question_solution": "answer = num_digit_1 + num_digit_2 + num_digit_3 + num_digit_4 + 2 * num_digit_5 + num_digit_6 - num_digit_7",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + num_digit_2 + num_digit_3 + num_digit_4 + 2 * num_digit_5 + num_digit_6 - num_digit_7",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "num_digit_6 >= 0",
+    "num_digit_7 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Chad"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7.5,
+      9.25,
+      11.75,
+      10.0,
+      12.25,
+      13.75,
+      9.0,
+      14.5,
+      15.75,
+      16.25
+    ],
+    "num_digit_2": [
+      2.25,
+      3.5,
+      1.75,
+      3.5,
+      3.25,
+      2.5,
+      2.25,
+      3.75,
+      2.25,
+      3.75
+    ],
+    "num_digit_3": [
+      1.75,
+      1.25,
+      0.25,
+      1.75,
+      1.25,
+      1.75,
+      1.5,
+      1.25,
+      1.0,
+      1.5
+    ],
+    "num_digit_4": [
+      1.0,
+      2.5,
+      2.25,
+      2.25,
+      2.25,
+      2.0,
+      2.75,
+      2.5,
+      2.75,
+      2.25
+    ],
+    "num_digit_5": [
+      0.25,
+      0.75,
+      0.5,
+      0.25,
+      0.25,
+      0.75,
+      0.75,
+      0.25,
+      0.5,
+      0.75
+    ],
+    "num_digit_6": [
+      3.75,
+      4.25,
+      2.75,
+      4.0,
+      3.25,
+      4.5,
+      3.25,
+      4.75,
+      4.0,
+      3.0
+    ],
+    "num_digit_7": [
+      5.75,
+      6.25,
+      5.75,
+      6.0,
+      7.75,
+      6.0,
+      5.25,
+      6.25,
+      5.75,
+      5.25
+    ],
+    "answer": [
+      11,
+      16,
+      14,
+      16,
+      15,
+      20,
+      15,
+      21,
+      21,
+      23
+    ],
+    "num_ic": [
+      19,
+      38,
+      9,
+      60,
+      25,
+      48,
+      41,
+      72,
+      34,
+      27
+    ]
+  },
+  "ic_question_template": "{name_male, Chad} ordered a build-your-own burrito for lunch. The base burrito is ${num_digit_1, 6.50}. He adds extra meat for ${num_digit_2, 2.00}, extra cheese for ${num_digit_3, 1.00}, avocado for ${num_digit_4, 1.00} and 2 sauces for ${num_digit_5, 0.25} each. He decides to upgrade his meal for an extra ${num_digit_6, 3.00} which will add chips and a drink. {name_male, Chad}'s uncle bought {num_ic, 38} burritos for his coworkers last week. He has a gift card for ${num_digit_7, 5.00} that he uses at check out. How much does he still owe?",
+  "ic_sentence": "{name_male, Chad}'s uncle bought {num_ic, 38} burritos for his coworkers last week."
+}

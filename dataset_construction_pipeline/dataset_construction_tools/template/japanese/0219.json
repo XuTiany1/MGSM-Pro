@@ -1,0 +1,98 @@
+{
+  "original_question": "ボードゲームで4人の生徒たちは全部で251ポイント獲得しました。ナオミは68ポイント得ました。ユリはナオミが得たポイントの半分よりも10多くポイントを獲得し、ブリアナはナオミよりも17ポイント多く獲得しました。ジョジョは何ポイント得ましたか？",
+  "original_answer": 54,
+  "question_template": "ボードゲームで4人の生徒たちは全部で{num_digit_1, 251}ポイント獲得しました。{name_female_1, ナオミ}は{num_digit_2, 68}ポイント得ました。{name_female_2, ユリ}はよりも{num_digit_3, 10}多くポ{num_frac_1, half}イントを獲得し{name_female_1, Naomi}、{name_female_3, ブリアナ}は{name_female_1, ナオミ}よりも{num_digit_4, 17}ポイント多く獲得しました。{name_female_4, ジョジョ}は何ポイント得ましたか？",
+  "question_solution": "answer = num_digit_1 - ( num_digit_2 + (f1 * num_digit_2 + num_digit_3) + (num_digit_2 + num_digit_4) )   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 - ( num_digit_2 + (f1 * num_digit_2 + num_digit_3) + (num_digit_2 + num_digit_4) )",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "0 < f1 < 1",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Naomi",
+    "name_female_2": "Yuri",
+    "name_female_3": "Brianna",
+    "name_female_4": "Jojo"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      395,
+      432,
+      470,
+      699,
+      755,
+      619,
+      816,
+      842,
+      1000,
+      910
+    ],
+    "num_digit_2": [
+      120,
+      135,
+      150,
+      180,
+      210,
+      168,
+      192,
+      240,
+      315,
+      270
+    ],
+    "num_digit_3": [
+      17,
+      29,
+      13,
+      47,
+      41,
+      31,
+      37,
+      23,
+      43,
+      19
+    ],
+    "num_frac_1": [
+      "三分の一",
+      "ごぶんのに",
+      "ごぶんのいち",
+      "４分の３",
+      "二分の一",
+      "三分の二",
+      "４分の３",
+      "4分の1",
+      "ごぶんのに",
+      "三分の一"
+    ],
+    "num_digit_4": [
+      23,
+      19,
+      27,
+      33,
+      39,
+      45,
+      51,
+      57,
+      63,
+      69
+    ],
+    "answer": [
+      75,
+      60,
+      100,
+      124,
+      150,
+      95,
+      200,
+      222,
+      138,
+      192
+    ]
+  },
+  "ic_question_template": "{name_female_3, ブリアナ}のおじさんはみんなのために{num_ic, 38}個のお菓子を持ってきました。ボードゲームで4人の生徒たちは全部で{num_digit_1, 251}ポイント獲得しました。{name_female_1, ナオミ}は{num_digit_2, 68}ポイント得ました。{name_female_2, ユリ}はよりも{num_digit_3, 10}多くポ{num_frac_1, half}イントを獲得し{name_female_1, Naomi}、{name_female_3, ブリアナ}は{name_female_1, ナオミ}よりも{num_digit_4, 17}ポイント多く獲得しました。{name_female_4, ジョジョ}は何ポイント得ましたか？",
+  "ic_sentence": "{name_female_3, ブリアナ}のおじさんはみんなのために{num_ic, 38}個のお菓子を持ってきました。"
+}

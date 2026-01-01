@@ -1,0 +1,121 @@
+{
+  "original_question": "查德点了一个自制卷饼当午餐。基础卷饼为 6.50 美元。他额外添加了 2.00 美元的肉、1.00 美元的奶酪、1.00 美元的牛油果和 2 份各 0.25 美元的酱汁。他决定多花 3.00 美元升级自己的餐点，添加薯条和一份饮料。他有一张价值 5.00 美元的礼品卡可在结账时使用。他还需付多少？",
+  "original_answer": 9,
+  "question_template": "{name_male, 查德} 点了一个自制卷饼当午餐。基础卷饼为 {num_digit_1, 6.50} 美元。他额外添加了 {num_digit_2, 2.00} 美元的肉、{num_digit_3, 1.00} 美元的奶酪、{num_digit_4, 1.00} 美元的牛油果和 2 份各 {num_digit_5, 0.25} 美元的酱汁。他决定多花 {num_digit_6, 3.00} 美元升级自己的餐点，添加薯条和一份饮料。他有一张价值 {num_digit_7, 5.00} 美元的礼品卡可在结账时使用。他还需付多少？",
+  "question_solution": "answer = num_digit_1 + num_digit_2 + num_digit_3 + num_digit_4 + 2 * num_digit_5 + num_digit_6 - num_digit_7",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + num_digit_2 + num_digit_3 + num_digit_4 + 2 * num_digit_5 + num_digit_6 - num_digit_7",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "num_digit_6 >= 0",
+    "num_digit_7 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Chad"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7.5,
+      9.25,
+      11.75,
+      10.0,
+      12.25,
+      13.75,
+      9.0,
+      14.5,
+      15.75,
+      16.25
+    ],
+    "num_digit_2": [
+      2.25,
+      3.5,
+      1.75,
+      3.5,
+      3.25,
+      2.5,
+      2.25,
+      3.75,
+      2.25,
+      3.75
+    ],
+    "num_digit_3": [
+      1.75,
+      1.25,
+      0.25,
+      1.75,
+      1.25,
+      1.75,
+      1.5,
+      1.25,
+      1.0,
+      1.5
+    ],
+    "num_digit_4": [
+      1.0,
+      2.5,
+      2.25,
+      2.25,
+      2.25,
+      2.0,
+      2.75,
+      2.5,
+      2.75,
+      2.25
+    ],
+    "num_digit_5": [
+      0.25,
+      0.75,
+      0.5,
+      0.25,
+      0.25,
+      0.75,
+      0.75,
+      0.25,
+      0.5,
+      0.75
+    ],
+    "num_digit_6": [
+      3.75,
+      4.25,
+      2.75,
+      4.0,
+      3.25,
+      4.5,
+      3.25,
+      4.75,
+      4.0,
+      3.0
+    ],
+    "num_digit_7": [
+      5.75,
+      6.25,
+      5.75,
+      6.0,
+      7.75,
+      6.0,
+      5.25,
+      6.25,
+      5.75,
+      5.25
+    ],
+    "answer": [
+      11,
+      16,
+      14,
+      16,
+      15,
+      20,
+      15,
+      21,
+      21,
+      23
+    ]
+  },
+  "ic_question_template": "{name_male, 查德} 的叔叔上周为同事们买了 {num_ic, 38} 个玉米卷。{name_male, 查德} 点了一个自制卷饼当午餐。基础卷饼为 {num_digit_1, 6.50} 美元。他额外添加了 {num_digit_2, 2.00} 美元的肉、{num_digit_3, 1.00} 美元的奶酪、{num_digit_4, 1.00} 美元的牛油果和 2 份各 {num_digit_5, 0.25} 美元的酱汁。他决定多花 {num_digit_6, 3.00} 美元升级自己的餐点，添加薯条和一份饮料。他有一张价值 {num_digit_7, 5.00} 美元的礼品卡可在结账时使用。他还需付多少？",
+  "ic_sentence": "{name_male, 查德} 的叔叔上周为同事们买了 {num_ic, 38} 个玉米卷。"
+}

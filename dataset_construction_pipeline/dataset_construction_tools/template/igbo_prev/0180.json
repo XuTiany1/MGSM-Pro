@@ -1,0 +1,80 @@
+{
+  "original_question": "Ndị ndọrọndọrọ ọchịchị abụọ na-azọ onye ga-anọchi anya klasị n'ụlọ akwụkwọ Sarai. Ọ bụrụ na onye meriri nwetara vootu ụzọ atọ n'ịme anọ ma ọnụọgụgụ ụmụakwụkwọ ndị niile tụrụ vootu na klasị dị iri asatọ, gbakọọ ọnụọgụgụ vootu onye daara nwetara? ",
+  "original_answer": 20,
+  "question_template": "Ndị ndọrọndọrọ ọchịchị {num_text_1, abụọ} na-azọ onye ga-anọchi anya klasị n'ụlọ akwụkwọ {name_female, Sarai}. Ọ bụrụ na onye meriri nwetara vootu {num_frac_1, 3/4} ma ọnụọgụgụ ụmụakwụkwọ ndị niile tụrụ vootu na klasị dị {num_digit_1, 80}, gbakọọ ọnụọgụgụ vootu onye daara nwetara?",
+  "question_solution": "answer = num_digit_1 * (1 - f1)   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 - f1)",
+    "0 < f1 < 1",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sarai"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ"
+    ],
+    "num_frac_1": [
+      "7/12",
+      "11/13",
+      "17/20",
+      "23/29",
+      "13/17",
+      "19/24",
+      "29/30",
+      "37/41",
+      "9/14",
+      "41/44"
+    ],
+    "num_digit_1": [
+      240,
+      312,
+      380,
+      580,
+      153,
+      576,
+      870,
+      820,
+      140,
+      528
+    ],
+    "answer": [
+      100,
+      48,
+      57,
+      120,
+      36,
+      120,
+      29,
+      80,
+      50,
+      36
+    ],
+    "num_ic": [
+      186,
+      576,
+      33,
+      1955,
+      247,
+      1319,
+      1988,
+      1323,
+      828,
+      1823
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_female, Sarai} nyere {num_ic, 405} nkịta akwa n'oge nzukọ a. Ndị ndọrọndọrọ ọchịchị {num_text_1, abụọ} na-azọ onye ga-anọchi anya klasị n'ụlọ akwụkwọ {name_female, Sarai}. Ọ bụrụ na onye meriri nwetara vootu {num_frac_1, 3/4} ma ọnụọgụgụ ụmụakwụkwọ ndị niile tụrụ vootu na klasị dị {num_digit_1, 80}, gbakọọ ọnụọgụgụ vootu onye daara nwetara?",
+  "ic_sentence": "Nwanne nna {name_female, Sarai} nyere {num_ic, 405} nkịta akwa n'oge nzukọ a."
+}

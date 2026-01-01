@@ -1,0 +1,68 @@
+{
+  "original_question": "Le téléphone de Jamal peut stocker 6 fois plus de photos que celui de Brittany. Le téléphone de Brittany peut en stocker au maximum 50 fois plus qu'il n'y a d'oiseaux sur la photo prise par Jamal, où l'on voit des canards dans le zoo. Si le téléphone de Jamal a une capacité de 1 800 photos, combien de canards peut-on voir sur la photo qu'il a prise ?",
+  "original_answer": 6,
+  "question_template": "Le téléphone de {name_male, Jamal} peut stocker {num_digit_1, 6} fois plus de photos que celui de {name_female, Brittany}. Le téléphone de {name_female, Brittany} peut en stocker au maximum {num_digit_3, 50} fois plus qu'il n'y a d'oiseaux sur la photo prise par {name_male, Jamal}, où l'on voit des canards dans le zoo. Si le téléphone de {name_male, Jamal} a une capacité de {num_digit_2, 1800} photos, combien de canards peut-on voir sur la photo qu'il a prise ?",
+  "question_solution": "answer = num_digit_2 / (num_digit_1 * num_digit_3)",
+  "conditions": [
+    "int(answer) == num_digit_2 / (num_digit_1 * num_digit_3)",
+    "num_digit_1 > 0",
+    "num_digit_3 > 0",
+    "num_digit_2 % (num_digit_1 * num_digit_3) == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jamal",
+    "name_female": "Brittany"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      7,
+      5,
+      8,
+      9,
+      12,
+      15,
+      6,
+      10,
+      11
+    ],
+    "num_digit_2": [
+      900,
+      1260,
+      1600,
+      2520,
+      2700,
+      6600,
+      1440,
+      5460,
+      4320,
+      3267
+    ],
+    "num_digit_3": [
+      25,
+      30,
+      40,
+      45,
+      60,
+      50,
+      24,
+      70,
+      36,
+      33
+    ],
+    "answer": [
+      9,
+      6,
+      8,
+      7,
+      5,
+      11,
+      4,
+      13,
+      12,
+      9
+    ]
+  },
+  "ic_question_template": "{name_male, Jamal} a un oncle qui a déjà visité {num_ic, 84} parcs nationaux. Le téléphone de {name_male, Jamal} peut stocker {num_digit_1, 6} fois plus de photos que celui de {name_female, Brittany}. Le téléphone de {name_female, Brittany} peut en stocker au maximum {num_digit_3, 50} fois plus qu'il n'y a d'oiseaux sur la photo prise par {name_male, Jamal}, où l'on voit des canards dans le zoo. Si le téléphone de {name_male, Jamal} a une capacité de {num_digit_2, 1800} photos, combien de canards peut-on voir sur la photo qu'il a prise ?",
+  "ic_sentence": "{name_male, Jamal} a un oncle qui a déjà visité {num_ic, 84} parcs nationaux."
+}

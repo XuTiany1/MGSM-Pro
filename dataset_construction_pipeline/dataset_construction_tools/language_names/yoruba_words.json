@@ -1,0 +1,10 @@
+{
+  "name_male": ["Adékúnlé", "Àdìó", "Kọ́láwọlé", "Adélékè", "Adéwùsì", "Babátúndé", "Akọ́ládé", "Akóredé", "Gbádébọ̀", "Ọlákúnlé", "Ọlátúnjí", "Fọlájìnmí", "Òjó", "Àjàyí", "Àjàgbé", "Àkàngbé", "Àkànmú", "Àlàmú", "Àrẹ̀mú", "Ọláńrewájú", "Àdìsá"],
+  "name_female": ["Adéọlá", "Adéòtí", "Awẹ́lẹ́wà", "Àṣàkẹ́", "Àṣàbí", "Àbẹ̀ní", "Àdùnní", "Àjọkẹ́", "Àwẹ̀ró", "Afọláṣadé", "Àpékẹ́", "Àbẹ̀ó", "Adétutù", "Afọlákẹ́mi", "Ọmọ́dásọ́lá", "Rọ́mọkẹ́", "Yétúndé", "Adébímpé", "Olúbùnmi", "Adétóún", "Adéjọkẹ́"],
+  "name_city": ["Ìbàdàn", "Òṣogbo", "Àkúrẹ́", "Ìṣẹ́yìn", "Èkó", "Abẹ́òkúta", "Ìlọrin", "Ògbómòṣọ́", "Ifẹ̀", "Iléṣà", "Ìwó", "Òǹdó", "Ọ̀wọ̀", "Ìgàngán", "Òkehò", "Adó-èkìtì", "Ṣàgámù", "Àgọ́-ìwòyè", "Ìkòròdú", "Ọ̀tà"],
+  "name_dragon": ["dírágónì", "gónì", "ẹyẹ alanálẹ́nu", "ẹyẹ oníná", "dírákúlà"],
+  "name_mountain": ["Òkè-Àdó", "Òkè-àrẹ̀mọ", "Òkè-Páàdì", "Òkè-ajé", "Òkè Láńgbòdó", "Òkè Sápátì", "Òkè Ẹyinjùọ́n", "Òkè Ẹbẹdí", "Òkè Atamáfọn", "Òkè Olúòfì"],
+  "name_family": ["Afọlábí", "Adéjọbí", "Oládòkun", "Ọládiípọ̀", "Anífowóṣe", "Arówólò", "Adédùntán", "Fọlárìn", "Kòsọ́kọ́", "Ìgbàlàjọbí", "Owóṣeéní", "Adéyẹrí", "Aṣúbíaró", "Tańmọ̀la", "Aníkúlápó", "Olúòtànmí", "Gbádéṣeré", "Ọpẹ́ṣadé", "Akíndélé", "Akínkúnmi"],
+  "name_cat": ["Dúdúyẹmí", "Akẹ́ranjẹ", "Ọ̀tọ̀lórìn", "Tańtọ́lọ́hun", "Ẹwà", "Afúyẹ́", "Akáwéréké", "Músù", "Olóńgbò", "Ayọ́gínní"],
+  "name_dinosaur": ["dáínò", "dáyínósọ̀", "lákátabú", "máàsì ọlọ́rùn-gígùn", "ajọ́ńgọ́lọ̀"]
+}

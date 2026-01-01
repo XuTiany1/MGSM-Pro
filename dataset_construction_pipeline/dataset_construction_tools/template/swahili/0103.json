@@ -1,0 +1,78 @@
+{
+  "original_question": "Lundo la ukungu linabingirika kutoka kwa bahari na kufunika jiji. Linachukua dakika 10 kufunika kila maili 3 za jiji. Iwapo jiji lina upana wa maili 42 kutoka ufuo wa bahari hadi ng'ambo nyingine ya nchi kavu, lundu hilo la ukungu litachukua dakika ngapi kufunika jiji zima?",
+  "original_answer": 140,
+  "question_template": "Wingu la ukungu linaingia kutoka baharini kufunika mji. Inachukua dakika {num_digit_1, 10} kufunika kila maili {num_digit_2, 3} za mji. Ikiwa mji una maili {num_digit_3, 42} kutoka ufuo wa bahari hadi ng'ambo nyingine ya nchi kavu, itachukua dakika ngapi kwa wingu la ukungu kufunika mji mzima?",
+  "question_solution": "answer = num_digit_1 * (num_digit_3 / num_digit_2)",
+  "conditions": [
+    "int(answer) == num_digit_1 * (num_digit_3 / num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_3 % num_digit_2 == 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      12,
+      9,
+      15,
+      8,
+      11,
+      13,
+      18,
+      16,
+      21
+    ],
+    "num_digit_2": [
+      4,
+      5,
+      6,
+      7,
+      9,
+      8,
+      11,
+      12,
+      20,
+      14
+    ],
+    "num_digit_3": [
+      68,
+      85,
+      108,
+      105,
+      63,
+      88,
+      99,
+      96,
+      100,
+      112
+    ],
+    "answer": [
+      119,
+      204,
+      162,
+      225,
+      56,
+      121,
+      117,
+      144,
+      80,
+      168
+    ],
+    "num_ic": [
+      87,
+      56,
+      167,
+      99,
+      75,
+      194,
+      82,
+      121,
+      163,
+      130
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_male, Billy} aliona mashua za meli {num_ic, 96} zikiondoka bandarini asubuhi hiyo. Wingu la ukungu linaingia kutoka baharini kufunika mji. Inachukua dakika {num_digit_1, 10} kufunika kila maili {num_digit_2, 3} za mji. Ikiwa mji una maili {num_digit_3, 42} kutoka ufuo wa bahari hadi ng'ambo nyingine ya nchi kavu, itachukua dakika ngapi kwa wingu la ukungu kufunika mji mzima?",
+  "ic_sentence": "Mjomba wa {name_male, Billy} aliona mashua za meli {num_ic, 96} zikiondoka bandarini asubuhi hiyo."
+}

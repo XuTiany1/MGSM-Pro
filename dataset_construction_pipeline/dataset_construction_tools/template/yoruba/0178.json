@@ -1,0 +1,84 @@
+{
+  "original_question": "Rani ní alákàn 10 ju Monic lọ, ẹni tí ó ní alákàn 4 díẹ̀ ju Bo lọ. Tí Bo bá ní akàn 40, ṣe ìṣirò iye alákàn tí àwọn mẹ́tẹ̀ẹ̀ta ní papọ̀.",
+  "original_answer": 122,
+  "question_template": "{name_female_1, Rani} ní alákàn {num_text_1, mẹ́wàá} ju {name_female_2, Monic} lọ, ẹni tí ó ní alákàn {num_digit_1, 4} díẹ̀ ju {name_male_1, Bo} lọ. Tí {name_male_1, Bo} bá ní akàn {num_digit_2, 40}, ṣe ìṣirò iye alákàn tí àwọn mẹ́tẹ̀ẹ̀ta ní papọ̀.",
+  "question_solution": "answer = num_digit_2 + (num_digit_2 - num_digit_1) + ((num_digit_2 - num_digit_1) + t1)   # t1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 + (num_digit_2 - num_digit_1) + ((num_digit_2 - num_digit_1) + t1)",
+    "num_digit_2 - num_digit_1 >= 0",
+    "t1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_1 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Rani",
+    "name_female_2": "Monic",
+    "name_male_1": "Bo"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "Meje",
+      "mẹsan",
+      "mẹ́wàá láàdọ́ta",
+      "Mẹrin",
+      "mẹ́ẹ̀dógún",
+      "mẹjọ",
+      "mẹfa",
+      "mókànlá",
+      "mẹtala",
+      "ogún"
+    ],
+    "num_digit_1": [
+      5,
+      7,
+      3,
+      9,
+      4,
+      2,
+      8,
+      6,
+      12,
+      10
+    ],
+    "num_digit_2": [
+      50,
+      100,
+      30,
+      60,
+      75,
+      120,
+      25,
+      90,
+      200,
+      150
+    ],
+    "answer": [
+      147,
+      295,
+      96,
+      166,
+      232,
+      364,
+      65,
+      269,
+      589,
+      450
+    ],
+    "num_ic": [
+      67,
+      216,
+      12,
+      30,
+      162,
+      108,
+      90,
+      62,
+      140,
+      200
+    ]
+  },
+  "ic_question_template": "{name_female_1, Rani} ní alákàn {num_text_1, mẹ́wàá} ju {name_female_2, Monic} lọ, ẹni tí ó ní alákàn {num_digit_1, 4} díẹ̀ ju {name_male_1, Bo} lọ. Tí {name_male_1, Bo} bá ní akàn {num_digit_2, 40}, ṣe ìṣirò iye alákàn tí àwọn mẹ́tẹ̀ẹ̀ta ní papọ̀. Unkí {name_female_2, Monic} rí àká {num_ic, 88} ní etí òkun.",
+  "ic_sentence": "Unkí {name_female_2, Monic} rí àká {num_ic, 88} ní etí òkun."
+}

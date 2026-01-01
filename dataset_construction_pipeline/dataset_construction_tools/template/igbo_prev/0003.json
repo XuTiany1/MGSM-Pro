@@ -1,0 +1,79 @@
+{
+  "original_question": "James na-ekpebi ịgba ụzọ ọsọ atọ ugboro atọ n'izu ụka. Ọ gbara mita iri isii n'ọsọ ọbụla. Mita ole ka ọ gbazuru n'ime izu ụka? ",
+  "original_answer": 540,
+  "question_template": "{name_male, James} na-ekpebi ịgba ọsọ {num_digit_1, 3} ugboro {num_digit_2, 3} n'izu ụka. Ọ gbara mita {num_digit_3, 60} n'ọsọ ọbụla. Mita ole ka ọ gbazuru n'ime izu ụka?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "James"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      17,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59
+    ],
+    "num_digit_2": [
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "num_digit_3": [
+      73,
+      89,
+      97,
+      113,
+      127,
+      149,
+      163,
+      181,
+      191,
+      199
+    ],
+    "answer": [
+      13651,
+      26611,
+      47821,
+      66557,
+      108077,
+      177161,
+      217279,
+      314759,
+      415043,
+      504863
+    ],
+    "num_ic": [
+      48,
+      212,
+      233,
+      113,
+      183,
+      334,
+      120,
+      491,
+      285,
+      314
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_male, James} nwere úkpa úkpa akpụkpọ ụkwụ ọsọ ọsọ {num_ic, 212}. {name_male, James} na-ekpebi ịgba ọsọ {num_digit_1, 3} ugboro {num_digit_2, 3} n'izu ụka. Ọ gbara mita {num_digit_3, 60} n'ọsọ ọbụla. Mita ole ka ọ gbazuru n'ime izu ụka?",
+  "ic_sentence": "Nwanne nna {name_male, James} nwere úkpa úkpa akpụkpọ ụkwụ ọsọ ọsọ {num_ic, 212}."
+}

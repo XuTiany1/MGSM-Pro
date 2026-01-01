@@ -1,0 +1,67 @@
+{
+  "original_question": "妮莎雇用了 60 名季节性工人在她百货商店的圣诞村扮演精灵。三分之一的精灵在孩子们吐在他们身上后辞职，然后剩下的精灵中有 10 人在孩子们踢了他们的胫骨后辞职。剩下多少个精灵？",
+  "original_answer": 30,
+  "question_template": "{name_female, 妮莎} 雇用了 {num_digit_1, 60} 名季节性工人在她百货商店的圣诞村扮演精灵。{num_frac_1, 三分之一} 的精灵在孩子们吐在他们身上后辞职，然后剩下的精灵中有 {num_digit_2, 10} 人在孩子们踢了他们的胫骨后辞职。剩下多少个精灵？",
+  "question_solution": "answer = num_digit_1 * (1 - num_frac_1) - num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 - num_frac_1) - num_digit_2",
+    "num_digit_1 > 0",
+    "0 < num_frac_1 && num_frac_1 < 1",
+    "(num_digit_1 * (1 - num_frac_1)) > num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_female": "Nissa"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      81,
+      96,
+      110,
+      84,
+      120,
+      108,
+      90,
+      75,
+      98,
+      132
+    ],
+    "num_frac_1": [
+      "1/9",
+      "3/8",
+      "1/5",
+      "5/12",
+      "7/15",
+      "1/6",
+      "4/9",
+      "2/5",
+      "3/7",
+      "5/11"
+    ],
+    "num_digit_2": [
+      17,
+      15,
+      22,
+      13,
+      12,
+      25,
+      20,
+      9,
+      11,
+      18
+    ],
+    "answer": [
+      55,
+      45,
+      66,
+      36,
+      52,
+      65,
+      30,
+      36,
+      45,
+      54
+    ]
+  },
+  "ic_question_template": "{name_female, 妮莎} 的叔叔每年会向商店运送 {num_ic, 87} 棵圣诞树。{name_female, 妮莎} 雇用了 {num_digit_1, 60} 名季节性工人在她百货商店的圣诞村扮演精灵。{num_frac_1, 三分之一} 的精灵在孩子们吐在他们身上后辞职，然后剩下的精灵中有 {num_digit_2, 10} 人在孩子们踢了他们的胫骨后辞职。剩下多少个精灵？",
+  "ic_sentence": "{name_female, 妮莎} 的叔叔每年会向商店运送 {num_ic, 87} 棵圣诞树。"
+}

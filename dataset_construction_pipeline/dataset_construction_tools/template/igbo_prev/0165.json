@@ -1,0 +1,120 @@
+{
+  "original_question": "Maka ụbọchị ọmụmụ 30th ya, Elvira họrọ kọmputa ọhụrụ nwere ọtụtụ ngwa dị ka onyinye. O nwere atumatu mmefu ego nke €1500 nke ezinụlọ ya niile nyere ya ma chee na ya ga-enwe ike idebe obere ego iji nwetanwu ákwà. Ọ gara ụlọ ahịa kọmputa wee họrọ igwe nke pụtara €1090 nke nwere screen, keyboard na mouse. O nwerekwarari scanner maka €157, ihe ọkụ CD ruru €74 yana ngwa nbipute maka €102. Ego ole ka o nwere fọdụrụ ya maka ákwà ya?",
+  "original_answer": 77,
+  "question_template": "Maka ụbọchị ọmụmụ {num_digit_1, 30}th ya, {name_female, Elvira} họrọ kọmputa ọhụrụ nwere ọtụtụ ngwa dị ka onyinye. O nwere atumatu mmefu ego nke €{num_digit_2, 1500} nke ezinụlọ ya niile nyere ya ma chee na ya ga-enwe ike idebe obere ego iji nwetanwu ákwà. Ọ gara ụlọ ahịa kọmputa wee họrọ igwe nke pụtara €{num_digit_3, 1090} nke nwere screen, keyboard na mouse. O nwerekwarari scanner maka €{num_digit_4, 157}, ihe ọkụ CD ruru €{num_digit_5, 74} yana ngwa nbipute maka €{num_digit_6, 102}. Ego ole ka o nwere fọdụrụ ya maka ákwà ya?",
+  "question_solution": "answer = num_digit_2 - (num_digit_3 + num_digit_4 + num_digit_5 + num_digit_6)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 - (num_digit_3 + num_digit_4 + num_digit_5 + num_digit_6)",
+    "num_digit_2 > num_digit_3 + num_digit_4 + num_digit_5 + num_digit_6",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Elvira"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      30,
+      35,
+      28,
+      26,
+      32,
+      31,
+      29,
+      33,
+      27,
+      34
+    ],
+    "num_digit_2": [
+      1800,
+      2200,
+      1700,
+      2500,
+      2000,
+      3000,
+      2400,
+      2600,
+      2100,
+      1900
+    ],
+    "num_digit_3": [
+      1230,
+      1500,
+      980,
+      1850,
+      1100,
+      2250,
+      1490,
+      1580,
+      1350,
+      1000
+    ],
+    "num_digit_4": [
+      210,
+      300,
+      150,
+      275,
+      200,
+      310,
+      190,
+      210,
+      160,
+      180
+    ],
+    "num_digit_5": [
+      125,
+      120,
+      87,
+      130,
+      150,
+      140,
+      90,
+      130,
+      80,
+      75
+    ],
+    "num_digit_6": [
+      95,
+      175,
+      140,
+      90,
+      60,
+      160,
+      95,
+      120,
+      85,
+      68
+    ],
+    "answer": [
+      140,
+      105,
+      343,
+      155,
+      490,
+      140,
+      535,
+      560,
+      425,
+      577
+    ],
+    "num_ic": [
+      73,
+      122,
+      133,
+      53,
+      137,
+      113,
+      109,
+      150,
+      166,
+      100
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_female, Elvira} zụtara {num_ic, 84} draịv USB izu gara aga. Maka ụbọchị ọmụmụ {num_digit_1, 30}th ya, {name_female, Elvira} họrọ kọmputa ọhụrụ nwere ọtụtụ ngwa dị ka onyinye. O nwere atumatu mmefu ego nke €{num_digit_2, 1500} nke ezinụlọ ya niile nyere ya ma chee na ya ga-enwe ike idebe obere ego iji nwetanwu ákwà. Ọ gara ụlọ ahịa kọmputa wee họrọ igwe nke pụtara €{num_digit_3, 1090} nke nwere screen, keyboard na mouse. O nwerekwarari scanner maka €{num_digit_4, 157}, ihe ọkụ CD ruru €{num_digit_5, 74} yana ngwa nbipute maka €{num_digit_6, 102}. Ego ole ka o nwere fọdụrụ ya maka ákwà ya?",
+  "ic_sentence": "Nwanne nna {name_female, Elvira} zụtara {num_ic, 84} draịv USB izu gara aga."
+}

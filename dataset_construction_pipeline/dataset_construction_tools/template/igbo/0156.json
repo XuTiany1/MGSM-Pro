@@ -1,0 +1,104 @@
+{
+  "original_question": "Onye nlekọta ebe nkiri ụmụ anụmanụ na-enye myiri mmadụ nille nọ n'ebe nkiri ụmụ anụmanụ nri. Ọ na-atụ ahịa unere niile site n'ugbo dị nso ọnwa abụọ ọbụla. Ọ bụrụ na enwe chọrọ narị unere abụọ, adaka chọrọ narị unere anọ ma utobo chọrọ narị unere kwa ọnwa, unere ole ka o kwesịrị ịzụ ka o nwee ị́ké ịnọ ọnwa abụọ? ",
+  "original_answer": 1400,
+  "question_template": "Onye nlekọta ebe nkiri ụmụ anụmanụ na-enye myiri mmadụ nille nọ n'ebe nkiri ụmụ anụmanụ nri. Ọ na-atụ ahịa unere niile site n'ugbo dị nso {num_digit_1, 2} ọnwa ọbụla. Ọ bụrụ na enwe chọrọ {num_digit_2, 200} unere, adaka chọrọ {num_digit_3, 400} unere ma utobo chọrọ {num_digit_4, 100} unere kwa ọnwa, unere ole ka o kwesịrị ịzụ ka o nwee ị́ké ịnọ {num_digit_5, 2} ọnwa?",
+  "question_solution": "answer = (num_digit_2 + num_digit_3 + num_digit_4) * num_digit_5",
+  "conditions": [
+    "answer == (num_digit_2 + num_digit_3 + num_digit_4) * num_digit_5",
+    "num_digit_1 == num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      15
+    ],
+    "num_digit_2": [
+      250,
+      180,
+      125,
+      300,
+      350,
+      275,
+      160,
+      210,
+      190,
+      225
+    ],
+    "num_digit_3": [
+      500,
+      420,
+      375,
+      450,
+      650,
+      425,
+      340,
+      390,
+      310,
+      375
+    ],
+    "num_digit_4": [
+      150,
+      200,
+      50,
+      250,
+      100,
+      175,
+      180,
+      210,
+      190,
+      225
+    ],
+    "num_digit_5": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      15
+    ],
+    "answer": [
+      2700,
+      3200,
+      2750,
+      6000,
+      7700,
+      7000,
+      6120,
+      8100,
+      8280,
+      12375
+    ],
+    "num_ic": [
+      17,
+      74,
+      6,
+      109,
+      53,
+      81,
+      89,
+      92,
+      99,
+      141
+    ]
+  },
+  "ic_question_template": "Nwa nwanne nwa nlekọta anụ ụlọ nwere {num_ic, 13} ntụtụ n'ụlọ. Onye nlekọta ebe nkiri ụmụ anụmanụ na-enye myiri mmadụ nille nọ n'ebe nkiri ụmụ anụmanụ nri. Ọ na-atụ ahịa unere niile site n'ugbo dị nso {num_digit_1, 2} ọnwa ọbụla. Ọ bụrụ na enwe chọrọ {num_digit_2, 200} unere, adaka chọrọ {num_digit_3, 400} unere ma utobo chọrọ {num_digit_4, 100} unere kwa ọnwa, unere ole ka o kwesịrị ịzụ ka o nwee ị́ké ịnọ {num_digit_5, 2} ọnwa?",
+  "ic_sentence": "Nwa nwanne nwa nlekọta anụ ụlọ nwere {num_ic, 13} ntụtụ n'ụlọ."
+}

@@ -1,0 +1,92 @@
+{
+  "original_question": "Greg gbanyere mgbịrịgba elekere ka ọ kụọ ugboro atọ n'ụbọchị dịka ncheta. Mgbe mgbịrịgba ahụ kụrụ, ọ nọ na-akụ ruo mgbe Greg gbanyụrụ ya. Oge nke mbụ ọ kụrụ taa, ọ kụrụ ugboro anọ. Oge nke abụọ ọ kụrụ, ọ kụrụ ụzọ atọ n'ịhe ọ kụrụ oge mbụ. Oge nke atọ, ọ kụrụ ọkara ịhe ọ kụrụ oge nke abụọ. Kedụ ugboro ole mgbịrịgba elekere ahụ kụrụ n'uju ya?",
+  "original_answer": 22,
+  "question_template": "{name_male, Greg} gbanyere mgbịrịgba elekere ka ọ kụọ ugboro {num_text_1, atọ} n'ụbọchị dịka ncheta. Mgbe mgbịrịgba ahụ kụrụ, ọ nọ na-akụ ruo mgbe {name_male, Greg} gbanyụrụ ya. Oge nke mbụ ọ kụrụ taa, ọ kụrụ ugboro {num_text_2, anọ}. Oge nke abụọ ọ kụrụ, ọ kụrụ ụzọ {num_text_3, atọ} n'ịhe ọ kụrụ oge mbụ. Oge nke atọ, ọ kụrụ {num_frac_1, ọkara} n'ịhe ọ kụrụ oge nke abụọ. Kedụ ugboro ole mgbịrịgba elekere ahụ kụrụ n'uju ya?",
+  "question_solution": "answer = NUM(num_text_2) + NUM(num_text_2) * NUM(num_text_3) + NUM(num_text_2) * NUM(num_text_3) * NUM(num_frac_1)",
+  "conditions": [
+    "int(answer) == NUM(num_text_2) + NUM(num_text_2) * NUM(num_text_3) + NUM(num_text_2) * NUM(num_text_3) * NUM(num_frac_1)",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1",
+    "NUM(num_text_2) > 0",
+    "NUM(num_text_3) > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Greg"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "Atọ",
+      "abụọ",
+      "ise",
+      "isii",
+      "asaa",
+      "Anọ",
+      "asatọ",
+      "itoolu",
+      "Iri",
+      "iri na abụọ"
+    ],
+    "num_text_2": [
+      "Anọ",
+      "ise",
+      "asaa",
+      "isii",
+      "itoolu",
+      "asatọ",
+      "Iri",
+      "iri na abụọ",
+      "iri na otu",
+      "iri na ise"
+    ],
+    "num_text_3": [
+      "Atọ",
+      "abụọ",
+      "Anọ",
+      "ise",
+      "ise",
+      "Anọ",
+      "ise",
+      "isii",
+      "Atọ",
+      "Anọ"
+    ],
+    "num_frac_1": [
+      "1/2",
+      "1/5",
+      "1/7",
+      "2/3",
+      "1/3",
+      "3/4",
+      "1/2",
+      "1/6",
+      "2/11",
+      "1/5"
+    ],
+    "answer": [
+      22,
+      17,
+      39,
+      56,
+      69,
+      64,
+      85,
+      96,
+      50,
+      87
+    ],
+    "num_ic": [
+      21,
+      19,
+      69,
+      37,
+      77,
+      64,
+      42,
+      31,
+      114,
+      72
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_male, Greg} zụrụạ {num_ic, 15} elekere ịdọ aka ná ntị ọhụrụ. {name_male, Greg} gbanyere mgbịrịgba elekere ka ọ kụọ ugboro {num_text_1, atọ} n'ụbọchị dịka ncheta. Mgbe mgbịrịgba ahụ kụrụ, ọ nọ na-akụ ruo mgbe {name_male, Greg} gbanyụrụ ya. Oge nke mbụ ọ kụrụ taa, ọ kụrụ ugboro {num_text_2, anọ}. Oge nke abụọ ọ kụrụ, ọ kụrụ ụzọ {num_text_3, atọ} n'ịhe ọ kụrụ oge mbụ. Oge nke atọ, ọ kụrụ {num_frac_1, ọkara} n'ịhe ọ kụrụ oge nke abụọ. Kedụ ugboro ole mgbịrịgba elekere ahụ kụrụ n'uju ya?",
+  "ic_sentence": "Nwanne nna {name_male, Greg} zụtara {num_ic, 15} elekere ịdọ aka ná ntị ọhụrụ."
+}

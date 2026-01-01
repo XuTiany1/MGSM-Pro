@@ -1,0 +1,120 @@
+{
+  "original_question": "Anakin na Locsin gara n'osimiri taa. Anakin jidere starfish iri,  ịnyịnya oké osimiri isii, na clownfish atọ. Mgbe Locsin jidere ise dị ole na ole starfish karịa Anakin, atọ dị ole na ole ịnyịnya oké osimiri karịa Anakin, na clownfish abụọ ọzọ karịa Anakin. Azụ ole ka ha nwere ike ịnwụde?",
+  "original_answer": 32,
+  "question_template": "Anwụ:{name_male_1, Anakin} na {name_male_2, Locsin} gara n'osimiri taa. {name_male_1, Anakin} jidere starfish {num_digit_1, 10}, ịnyịnya oké osimiri {num_digit_2, 6}, na clownfish {num_digit_3, 3}. Mgbe {name_male_2, Locsin} jidere starfish {num_digit_4, 5} dị ole na ole karịa {name_male_1, Anakin}, ịnyịnya oké osimiri {num_digit_6, 3} dị ole na ole karịa {name_male_1, Anakin}, na clownfish {num_digit_7, 2} ọzọ karịa {name_male_1, Anakin}. Azụ ole ka ha nwere ike ịnwụde?",
+  "question_solution": "answer = 2 * num_digit_1 + 2 * num_digit_2 + 2 * num_digit_3 - num_digit_4 - num_digit_6 + num_digit_7",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == 2 * num_digit_1 + 2 * num_digit_2 + 2 * num_digit_3 - num_digit_4 - num_digit_6 + num_digit_7",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "0 < num_digit_4 < num_digit_1",
+    "0 < num_digit_6 < num_digit_2",
+    "num_digit_7 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Anakin",
+    "name_male_2": "Locsin"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      20,
+      15,
+      25,
+      18,
+      30,
+      40,
+      22,
+      27,
+      50
+    ],
+    "num_digit_2": [
+      8,
+      10,
+      12,
+      14,
+      9,
+      15,
+      20,
+      11,
+      16,
+      18
+    ],
+    "num_digit_3": [
+      4,
+      6,
+      5,
+      8,
+      7,
+      10,
+      12,
+      5,
+      9,
+      11
+    ],
+    "num_digit_4": [
+      3,
+      5,
+      4,
+      6,
+      2,
+      10,
+      15,
+      5,
+      8,
+      20
+    ],
+    "num_digit_6": [
+      2,
+      2,
+      3,
+      4,
+      1,
+      5,
+      6,
+      3,
+      4,
+      6
+    ],
+    "num_digit_7": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      4,
+      5,
+      3,
+      2,
+      6
+    ],
+    "answer": [
+      44,
+      67,
+      60,
+      85,
+      67,
+      99,
+      128,
+      71,
+      94,
+      138
+    ],
+    "num_ic": [
+      54,
+      92,
+      31,
+      264,
+      77,
+      215,
+      249,
+      133,
+      180,
+      345
+    ]
+  },
+  "ic_question_template": "Nwanne nne {name_male_2, Locsin} chọtara mkpụrụ akpụkpọ {num_ic, 345} n'akụkụ osimiri. Anwụ:{name_male_1, Anakin} na {name_male_2, Locsin} gara n'osimiri taa. {name_male_1, Anakin} jidere starfish {num_digit_1, 10}, ịnyịnya oké osimiri {num_digit_2, 6}, na clownfish {num_digit_3, 3}. Mgbe {name_male_2, Locsin} jidere starfish {num_digit_4, 5} dị ole na ole karịa {name_male_1, Anakin}, ịnyịnya oké osimiri {num_digit_6, 3} dị ole na ole karịa {name_male_1, Anakin}, na clownfish {num_digit_7, 2} ọzọ karịa {name_male_1, Anakin}. Azụ ole ka ha nwere ike ịnwụde?",
+  "ic_sentence": "Nwanne nne {name_male_2, Locsin} chọtara mkpụrụ akpụkpọ {num_ic, 345} n'akụkụ osimiri."
+}

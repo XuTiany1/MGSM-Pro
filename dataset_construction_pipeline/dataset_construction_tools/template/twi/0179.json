@@ -1,0 +1,81 @@
+{
+  "original_question": "Lloy nya $10 wɔ dɔnhwere baako wɔ nkontabuo nkyerɛkyerɛ ho. Ɔkyerɛkyerɛɛ nnɔnhwere 5 nnawɔtwe a edi kan ne nnɔnhwere 8 wɔ nnawɔtwe a ɛto so mmienu no mu. Nnawɔtwe mmienu a edi kan no mu no, sika ahe na onyae?",
+  "original_answer": 130,
+  "question_template": "{name_male, Lloy} nya ${num_digit_1, 10} wɔ dɔnhwere baako wɔ nkontabuo nkyerɛkyerɛ ho. Ɔkyerɛkyerɛɛ nnɔnhwere {num_digit_2, 5} nnawɔtwe a edi kan ne nnɔnhwere {num_digit_3, 8} wɔ nnawɔtwe a ɛto so mmienu no mu. Nnawɔtwe mmienu a edi kan no mu no, sika ahe na onyae?",
+  "question_solution": "answer = num_digit_1 * (num_digit_2 + num_digit_3)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (num_digit_2 + num_digit_3)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Lloyd"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      8,
+      9,
+      12,
+      15,
+      13,
+      20,
+      18,
+      25,
+      11
+    ],
+    "num_digit_2": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "num_digit_3": [
+      4,
+      6,
+      9,
+      7,
+      5,
+      12,
+      8,
+      10,
+      3,
+      11
+    ],
+    "answer": [
+      49,
+      80,
+      126,
+      156,
+      180,
+      260,
+      340,
+      360,
+      350,
+      253
+    ],
+    "num_ic": [
+      16,
+      120,
+      23,
+      100,
+      7,
+      40,
+      198,
+      108,
+      220,
+      62
+    ]
+  },
+  "ic_question_template": "{name_male, Lloy} nya ${num_digit_1, 10} wɔ dɔnhwere baako wɔ nkontabuo nkyerɛkyerɛ ho. Ɔkyerɛkyerɛɛ nnɔnhwere {num_digit_2, 5} nnawɔtwe a edi kan ne nnɔnhwere {num_digit_3, 8} wɔ nnawɔtwe a ɛto so mmienu no mu. Nnawɔtwe mmienu a edi kan no mu no, sika ahe na onyae? {name_male, Lloyd} sewaa tɔɔ nwoma {num_ic, 17} maa ne sukuufo.",
+  "ic_sentence": "{name_male, Lloyd} sewaa tɔɔ nwoma {num_ic, 17} maa ne sukuufo."
+}

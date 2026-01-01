@@ -1,0 +1,103 @@
+{
+  "original_question": "Ina da Lita 10 na ruwan lemu wanda kashi biyu bisa uku ne na ruwan, inason in dada lita 15 na ruwan abarba  wato kashi uku bisa biyar naruwan. Amma da na zuba, sai na zubar da lita daya na ruwan lemu. Nawa ne ruwan ya rage  a cikin sauran lita 24?",
+  "original_answer": 15,
+  "question_template": "Ina da Lita {num_digit_1, 10} na ruwan lemu wanda kashi {num_frac_1, biyu bisa uku} ne na ruwan, inason in dada lita {num_digit_2, 15} na ruwan abarba wato kashi {num_frac_2, uku bisa biyar} naruwan. Amma da na zuba, sai na zubar da lita daya na ruwan lemu. Nawa ne ruwan ya rage a cikin sauran lita {num_digit_3, 24}?",
+  "question_solution": "answer = (num_digit_1 - 1) * NUM(num_frac_1) + num_digit_2 * NUM(num_frac_2)",
+  "conditions": [
+    "int(answer) == (num_digit_1 - 1) * NUM(num_frac_1) + num_digit_2 * NUM(num_frac_2)",
+    "num_digit_1 > 1",
+    "0 < NUM(num_frac_1) <= 1",
+    "num_digit_2 > 0",
+    "0 < NUM(num_frac_2) <= 1",
+    "num_digit_3 == num_digit_1 + num_digit_2 - 1"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      49,
+      145,
+      49,
+      81,
+      301,
+      148,
+      313,
+      253,
+      201,
+      325
+    ],
+    "num_frac_1": [
+      "rabi",
+      "biyu cikin uku",
+      "kwatanni uku",
+      "hudun biyar",
+      "biyar cikin shida",
+      "shida cikin bakwai",
+      "bakwai cikin takwas",
+      "takwas cikin tara",
+      "Tara cikin goma",
+      "biyar cikin goma sha biyu"
+    ],
+    "num_digit_2": [
+      57,
+      150,
+      176,
+      162,
+      440,
+      165,
+      600,
+      92,
+      180,
+      129
+    ],
+    "num_frac_2": [
+      "ɗaya bisa uku",
+      "biyu cikin biyar",
+      "uku cikin takwas",
+      "hud’u cikin tara",
+      "digo biyar",
+      "shida cikin goma sha ɗaya",
+      "bakwai cikin goma sha biyu",
+      "kwatanni uku",
+      "biyar cikin shida",
+      "biyu cikin uku"
+    ],
+    "num_digit_3": [
+      105,
+      294,
+      224,
+      242,
+      740,
+      312,
+      912,
+      344,
+      380,
+      453
+    ],
+    "answer": [
+      43,
+      156,
+      102,
+      136,
+      470,
+      216,
+      623,
+      293,
+      330,
+      221
+    ],
+    "num_ic": [
+      81,
+      298,
+      217,
+      53,
+      461,
+      1136,
+      101,
+      718,
+      1705,
+      630
+    ]
+  },
+  "ic_question_template": "Ɗan dan uwan {name_male, Eric} ya kawo mangwaro {num_ic, 186} zuwa liyafar. Ina da Lita {num_digit_1, 10} na ruwan lemu wanda kashi {num_frac_1, biyu bisa uku} ne na ruwan, inason in dada lita {num_digit_2, 15} na ruwan abarba wato kashi {num_frac_2, uku bisa biyar} naruwan. Amma da na zuba, sai na zubar da lita daya na ruwan lemu. Nawa ne ruwan ya rage a cikin sauran lita {num_digit_3, 24}?",
+  "ic_sentence": "Ɗan dan uwan {name_male, Eric} ya kawo mangwaro {num_ic, 186} zuwa liyafar."
+}

@@ -1,0 +1,79 @@
+{
+  "original_question": "メラニーは訪問販売員です。販売中の掃除機のうち、緑の家で3分の1、赤の家で2台、オレンジの家で残数の半分を販売しました。メラニーの手元に掃除機が5台残っている場合、販売開始時点で何台持っていたことになりますか？",
+  "original_answer": 18,
+  "question_template": "{name_female, Melanie}は訪問販売員です。販売中の掃除機のうち、緑の家で{num_frac_1, 3分の1}、赤の家で{num_digit_1, 2}台、オレンジの家で残数の{num_frac_2, 半分}を販売しました。{name_female, Melanie}の手元に掃除機が{num_digit_2, 5}台残っている場合、販売開始時点で何台持っていたことになりますか？",
+  "question_solution": "answer = ((2 * num_digit_2 + num_digit_1) * 3) / 2",
+  "conditions": [
+    "int(answer) == ((2 * num_digit_2 + num_digit_1) * 3) / 2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "(2 * num_digit_2 + num_digit_1) % 2 == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Melanie"
+  },
+  "variable_number_dictionary": {
+    "num_frac_1": [
+      "3分の1",
+      "3分の1",
+      "3分の1",
+      "3分の1",
+      "3分の1",
+      "3分の1",
+      "3分の1",
+      "3分の1",
+      "3分の1",
+      "3分の1"
+    ],
+    "num_digit_1": [
+      110,
+      118,
+      122,
+      130,
+      134,
+      142,
+      146,
+      154,
+      158,
+      166
+    ],
+    "num_frac_2": [
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半",
+      "半"
+    ],
+    "num_digit_2": [
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97,
+      101
+    ],
+    "answer": [
+      342,
+      360,
+      384,
+      408,
+      420,
+      450,
+      468,
+      498,
+      528,
+      552
+    ]
+  },
+  "ic_question_template": "{name_female, メラニー}のおばは先週{num_ic, 112}枚の食器用ふきんを買いました。{name_female, Melanie}は訪問販売員です。販売中の掃除機のうち、緑の家で{num_frac_1, 3分の1}、赤の家で{num_digit_1, 2}台、オレンジの家で残数の{num_frac_2, 半分}を販売しました。{name_female, Melanie}の手元に掃除機が{num_digit_2, 5}台残っている場合、販売開始時点で何台持っていたことになりますか？",
+  "ic_sentence": "{name_female, メラニー}のおばは先週{num_ic, 112}枚の食器用ふきんを買いました。"
+}

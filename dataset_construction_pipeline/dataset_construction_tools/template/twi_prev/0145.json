@@ -1,0 +1,81 @@
+{
+  "original_question": "John wɔ aburabi afuɔ a ne kɛse yɛ hekta edu. Aburabi ɔha biara na edu hekta. John tumi twa n'aburabi no bosome mmiɛnsa biara. Aburabi dodoɔ ahe na John betumi atete wɔ afe baako mu?",
+  "original_answer": 4000,
+  "question_template": "{name_male, John} wɔ aburabi afuɔ a ne kɛse yɛ hekta {num_digit_1, 10}. Aburabi {num_digit_2, 100} biara na edu hekta. {name_male, John} tumi twa n'aburabi no bosome {num_digit_3, mmiɛnsa} biara. Aburabi dodoɔ ahe na {name_male, John} betumi atete wɔ afe baako mu?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * 12 / num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 * 12 / num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "12 % num_digit_3 == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      20,
+      8,
+      25,
+      30,
+      12,
+      10,
+      18,
+      5,
+      40,
+      7
+    ],
+    "num_digit_2": [
+      50,
+      120,
+      40,
+      35,
+      150,
+      100,
+      90,
+      200,
+      25,
+      110
+    ],
+    "num_digit_3": [
+      2,
+      3,
+      1,
+      6,
+      3,
+      4,
+      2,
+      6,
+      12,
+      3
+    ],
+    "answer": [
+      6000,
+      3840,
+      12000,
+      2100,
+      7200,
+      3000,
+      9720,
+      2000,
+      1000,
+      3080
+    ],
+    "num_ic": [
+      110,
+      80,
+      37,
+      210,
+      120,
+      27,
+      198,
+      199,
+      315,
+      99
+    ]
+  },
+  "ic_question_template": "{name_male, John} wɔfa no tɔɔ kwadu adaka {num_ic, 210} nnawɔtwe a atwa mu. {name_male, John} wɔ aburabi afuɔ a ne kɛse yɛ hekta {num_digit_1, 10}. Aburabi {num_digit_2, 100} biara na edu hekta. {name_male, John} tumi twa n'aburabi no bosome {num_digit_3, mmiɛnsa} biara. Aburabi dodoɔ ahe na {name_male, John} betumi atete wɔ afe baako mu?",
+  "ic_sentence": "{name_male, John} wɔfa no tɔɔ kwadu adaka {num_ic, 210} nnawɔtwe a atwa mu."
+}

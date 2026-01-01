@@ -1,0 +1,81 @@
+{
+  "original_question": "マリーは熱心な演芸家です。昨日、彼女はお気に入りの育種場から18個の新しい鉢植えを受け取りました。彼女はすでに、彼女の広い田舎の家の、40の窓枠にそれぞれ2つの鉢植えを所有している。気が大きくなった彼女は、各窓枠から、1つの鉢植えを友達や家族に明日あげることにした。マリーにはいくつの鉢植えが残る？",
+  "original_answer": 58,
+  "question_template": "マリー{name_female, Mary}は熱心な演芸家です。昨日、彼女はお気に入りの育種場から{num_digit_1, 18}個の新しい鉢植えを受け取りました。彼女はすでに、彼女の広い田舎の家の、{num_digit_2, 2}の窓枠にそれぞれ{num_digit_3, 40}つの鉢植えを所有している。気が大きくなった彼女は、各窓枠から、{num_digit_4, 1}つの鉢植えを友達や家族に明日あげることにした。マリー{name_female, Mary}にはいくつの鉢植えが残る？",
+  "question_solution": "answer = num_digit_1 + num_digit_2 * num_digit_3 - num_digit_4 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 + num_digit_2 * num_digit_3 - num_digit_4 * num_digit_3",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0",
+    "num_digit_4 >= 0",
+    "num_digit_4 <= num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_female": "Mary"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      23,
+      37,
+      10,
+      50,
+      15,
+      100,
+      60,
+      42,
+      75,
+      5
+    ],
+    "num_digit_2": [
+      3,
+      4,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      1,
+      10
+    ],
+    "num_digit_3": [
+      30,
+      25,
+      40,
+      50,
+      20,
+      35,
+      45,
+      60,
+      15,
+      80
+    ],
+    "num_digit_4": [
+      1,
+      2,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      1,
+      8
+    ],
+    "answer": [
+      83,
+      87,
+      50,
+      150,
+      55,
+      170,
+      150,
+      162,
+      75,
+      165
+    ]
+  },
+  "ic_question_template": "{name_female, メアリー}の叔母はかつて{num_ic, 217}個の珍しい植木鉢を集めていました。マリー{name_female, Mary}は熱心な演芸家です。昨日、彼女はお気に入りの育種場から{num_digit_1, 18}個の新しい鉢植えを受け取りました。彼女はすでに、彼女の広い田舎の家の、{num_digit_2, 2}の窓枠にそれぞれ{num_digit_3, 40}つの鉢植えを所有している。気が大きくなった彼女は、各窓枠から、{num_digit_4, 1}つの鉢植えを友達や家族に明日あげることにした。マリー{name_female, Mary}にはいくつの鉢植えが残る？",
+  "ic_sentence": "{name_female, メアリー}の叔母はかつて{num_ic, 217}個の珍しい植木鉢を集めていました。"
+}

@@ -1,0 +1,92 @@
+{
+  "original_question": "Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+  "original_answer": 25,
+  "question_template": "{name_male, Henry} made {num_text_1, two} stops during his {num_digit_1, 60}-mile bike trip. He first stopped after {num_digit_2, 20} miles. His second stop was {num_digit_3, 15} miles before the end of the trip. How many miles did he travel between his first and second stops?",
+  "question_solution": "answer = (num_digit_1 - num_digit_3) - num_digit_2",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_digit_3) - num_digit_2",
+    "NUM(num_text_1) >= 2",
+    "num_digit_1 > num_digit_3",
+    "num_digit_3 > 0",
+    "num_digit_2 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Henry"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "two",
+      "three",
+      "five",
+      "seven",
+      "eleven",
+      "thirteen",
+      "seventeen",
+      "nineteen",
+      "twenty-three",
+      "twenty-nine"
+    ],
+    "num_digit_1": [
+      101,
+      113,
+      127,
+      131,
+      137,
+      149,
+      157,
+      163,
+      173,
+      179
+    ],
+    "num_digit_2": [
+      17,
+      23,
+      31,
+      19,
+      41,
+      13,
+      29,
+      47,
+      37,
+      17
+    ],
+    "num_digit_3": [
+      19,
+      29,
+      43,
+      37,
+      31,
+      11,
+      59,
+      53,
+      61,
+      89
+    ],
+    "answer": [
+      65,
+      61,
+      53,
+      75,
+      65,
+      125,
+      69,
+      63,
+      75,
+      73
+    ],
+    "num_ic": [
+      57,
+      51,
+      72,
+      119,
+      94,
+      171,
+      61,
+      72,
+      126,
+      134
+    ]
+  },
+  "ic_question_template": "{name_male, Henry} made {num_text_1, two} stops during his {num_digit_1, 60}-mile bike trip. He first stopped after {num_digit_2, 20} miles. His second stop was {num_digit_3, 15} miles before the end of the trip. {name_male, Henry}'s uncle has {num_ic, 85} bike helmets. How many miles did he travel between his first and second stops?",
+  "ic_sentence": "{name_male, Henry}'s uncle has {num_ic, 85} bike helmets."
+}

@@ -1,0 +1,107 @@
+{
+  "original_question": "ジョンは朝ごはん、昼ごはん、夕飯の時に1杯の水を飲むことが好きだ。最終的に、彼はベッドに行く前にも1杯飲む。ジョンは平日毎日これをするが、週末はリラックスしたいと思っており、夕飯時には代わりにソーダを飲む。彼は週に何倍の水を飲むか？",
+  "original_answer": 26,
+  "question_template": "{name_male, ジョン}は朝ごはんに{num_digit_1, 1}杯、昼ごはんに{num_digit_2, 1}杯、夕飯の時に{num_digit_3, 1}杯の水を飲むことが好きだ。最終的に、彼はベッドに行く前にも{num_digit_4, 1}杯飲む。{name_male, ジョン}は平日（{num_digit_5, 5}日間）毎日これをするが、週末（{num_digit_6, 2}日間）はリラックスしたいと思っており、夕飯時には代わりにソーダを飲む。彼は週に何杯の水を飲むか？",
+  "question_solution": "answer = (num_digit_1 + num_digit_2 + num_digit_3 + num_digit_4) * num_digit_5 + (num_digit_1 + num_digit_2 + num_digit_4) * num_digit_6",
+  "conditions": [
+    "int(answer) == (num_digit_1 + num_digit_2 + num_digit_3 + num_digit_4) * num_digit_5 + (num_digit_1 + num_digit_2 + num_digit_4) * num_digit_6",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0",
+    "num_digit_5 + num_digit_6 == 7"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1,
+      2,
+      3,
+      5,
+      2,
+      6,
+      4,
+      1,
+      4,
+      5
+    ],
+    "num_digit_2": [
+      1,
+      6,
+      3,
+      1,
+      4,
+      5,
+      5,
+      3,
+      4,
+      2
+    ],
+    "num_digit_3": [
+      1,
+      6,
+      5,
+      5,
+      6,
+      3,
+      3,
+      4,
+      5,
+      2
+    ],
+    "num_digit_4": [
+      2,
+      6,
+      1,
+      5,
+      3,
+      4,
+      0,
+      2,
+      1,
+      1
+    ],
+    "num_digit_5": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "num_digit_6": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "answer": [
+      33,
+      128,
+      74,
+      102,
+      93,
+      120,
+      78,
+      62,
+      88,
+      66
+    ]
+  },
+  "ic_question_template": "{name_male, ジョン}のおじは毎週{num_ic, 12}杯のお茶を飲みます。{name_male, ジョン}は朝ごはんに{num_digit_1, 1}杯、昼ごはんに{num_digit_2, 1}杯、夕飯の時に{num_digit_3, 1}杯の水を飲むことが好きだ。最終的に、彼はベッドに行く前にも{num_digit_4, 1}杯飲む。{name_male, ジョン}は平日（{num_digit_5, 5}日間）毎日これをするが、週末（{num_digit_6, 2}日間）はリラックスしたいと思っており、夕飯時には代わりにソーダを飲む。彼は週に何杯の水を飲むか？",
+  "ic_sentence": "{name_male, ジョン}のおじは毎週{num_ic, 12}杯のお茶を飲みます。"
+}

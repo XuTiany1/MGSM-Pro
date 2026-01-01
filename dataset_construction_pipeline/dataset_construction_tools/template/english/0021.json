@@ -1,0 +1,81 @@
+{
+  "original_question": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the age of 23. If Samantha is now 31, how many years ago was Raymond's son born?",
+  "original_answer": 14,
+  "question_template": "{name_male, Raymond} and {name_female, Samantha} are cousins. {name_male, Raymond} was born {num_digit_1, 6} years before {name_female, Samantha}. {name_male, Raymond} had a son at the age of {num_digit_2, 23}. If {name_female, Samantha} is now {num_digit_3, 31}, how many years ago was {name_male, Raymond}’s son born?",
+  "question_solution": "answer = num_digit_3 + num_digit_1 - num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_3 + num_digit_1 - num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_3 + num_digit_1 > num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_male": "Raymond",
+    "name_female": "Samantha"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "num_digit_2": [
+      29,
+      31,
+      37,
+      37,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67
+    ],
+    "num_digit_3": [
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "answer": [
+      29,
+      35,
+      39,
+      43,
+      47,
+      53,
+      51,
+      57,
+      63,
+      65
+    ],
+    "num_ic": [
+      42,
+      82,
+      16,
+      89,
+      58,
+      119,
+      64,
+      34,
+      267,
+      164
+    ]
+  },
+  "ic_question_template": "{name_male, Raymond} and {name_female, Samantha} are cousins. {name_male, Raymond} was born {num_digit_1, 6} years before {name_female, Samantha}. {name_male, Raymond} had a son at the age of {num_digit_2, 23}. {name_female, Samantha}'s uncle collects {num_ic, 77} postcards. If {name_female, Samantha} is now {num_digit_3, 31}, how many years ago was {name_male, Raymond}’s son born?",
+  "ic_sentence": "{name_female, Samantha}'s uncle collects {num_ic, 77} postcards."
+}

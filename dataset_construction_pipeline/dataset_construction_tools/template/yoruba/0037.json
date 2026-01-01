@@ -1,0 +1,106 @@
+{
+  "original_question": "John ń gbèrò láti ta àwọn ohun ìṣeré rẹ̀ kí ó sì fi owó rẹ̀ ra gémù oní fídíò. Ó ní àto lego 13 ó sì ta ọ̀kọ̀ọ̀kan wọn ní $15. Lẹ́yìn ò rẹyìn ó ra gémù oní fídíò 8 tí ẹyọ kọ̀ọ̀kan jẹ́ $20 ó tún sẹ́ku $5. Àto lego mélòó ni ó ṣì ní?",
+  "original_answer": 2,
+  "question_template": "{name_male, John} ń gbèrò láti ta àwọn ohun ìṣeré rẹ̀ kí ó sì fi owó rẹ̀ ra gémù oní fídíò. Ó ní àto lego {num_digit_1, 13} ó sì ta ọ̀kọ̀ọ̀kan wọn ní ${num_digit_2, 15}. Lẹ́yìn ò rẹyìn ó ra gémù oní fídíò {num_digit_3, 8} tí ẹyọ kọ̀ọ̀kan jẹ́ ${num_digit_4, 20} ó tún sẹ́ku ${num_digit_5, 5}. Àto lego mélòó ni ó ṣì ní?",
+  "question_solution": "answer = num_digit_1 - ((num_digit_3 * num_digit_4 + num_digit_5) / num_digit_2)",
+  "conditions": [
+    "int(answer) == num_digit_1 - ((num_digit_3 * num_digit_4 + num_digit_5) / num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 > 0",
+    "num_digit_5 >= 0",
+    "(num_digit_3 * num_digit_4 + num_digit_5) % num_digit_2 == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      20,
+      17,
+      12,
+      18,
+      15,
+      30,
+      19,
+      25,
+      27,
+      24
+    ],
+    "num_digit_2": [
+      19,
+      22,
+      9,
+      17,
+      23,
+      23,
+      29,
+      27,
+      19,
+      17
+    ],
+    "num_digit_3": [
+      14,
+      11,
+      5,
+      11,
+      6,
+      13,
+      5,
+      11,
+      13,
+      9
+    ],
+    "num_digit_4": [
+      20,
+      27,
+      13,
+      18,
+      21,
+      11,
+      17,
+      31,
+      27,
+      18
+    ],
+    "num_digit_5": [
+      5,
+      11,
+      7,
+      6,
+      12,
+      18,
+      2,
+      10,
+      10,
+      8
+    ],
+    "answer": [
+      5,
+      3,
+      4,
+      6,
+      9,
+      23,
+      16,
+      12,
+      8,
+      14
+    ],
+    "num_ic": [
+      32,
+      38,
+      13,
+      52,
+      67,
+      41,
+      86,
+      22,
+      49,
+      59
+    ]
+  },
+  "ic_question_template": "Arákùnrin {name_male, John} laipẹ yi ra àwọn eré ìṣeré ìṣègbọ́nmáṣe {num_ic, 38}. {name_male, John} ń gbèrò láti ta àwọn ohun ìṣeré rẹ̀ kí ó sì fi owó rẹ̀ ra gémù oní fídíò. Ó ní àto lego {num_digit_1, 13} ó sì ta ọ̀kọ̀ọ̀kan wọn ní ${num_digit_2, 15}. Lẹ́yìn ò rẹyìn ó ra gémù oní fídíò {num_digit_3, 8} tí ẹyọ kọ̀ọ̀kan jẹ́ ${num_digit_4, 20} ó tún sẹ́ku ${num_digit_5, 5}. Àto lego mélòó ni ó ṣì ní?",
+  "ic_sentence": "Arákùnrin {name_male, John} laipẹ yi ra àwọn eré ìṣeré ìṣègbọ́nmáṣe {num_ic, 38}."
+}

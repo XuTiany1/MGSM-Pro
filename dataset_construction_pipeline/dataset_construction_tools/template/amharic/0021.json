@@ -1,0 +1,81 @@
+{
+  "original_question": "ራይመንድ እና ሳማንታ የአጎት ልጆች ናቸው። ራይመንድ ከሳማንታ ከ6 ዓመት በፊት ተወለደ። ራይመንድ በ23 ዓመቱ ወንድ ልጅ ወለደ። ሳማንታ አሁን 31 ዓመት ከሆናት፣ የራይመንድ ልጅ የተወለደው ከስንት ዓመት በፊት ነው?",
+  "original_answer": 14,
+  "question_template": "{name_male, ራይመንድ} እና {name_female, ሳማንታ} የአጎት ልጆች ናቸው። {name_male, ራይመንድ} ከ{name_female, ሳማንታ} ከ{num_digit_1, 6} ዓመት በፊት ተወለደ። {name_male, ራይመንድ} በ{num_digit_2, 23} ዓመቱ ወንድ ልጅ ወለደ። {name_female, ሳማንታ} አሁን {num_digit_3, 31} ዓመት ከሆናት፣ የ{name_male, ራይመንድ} ልጅ የተወለደው ከስንት ዓመት በፊት ነው?",
+  "question_solution": "answer = num_digit_3 + num_digit_1 - num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_3 + num_digit_1 - num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_3 + num_digit_1 > num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_male": "Raymond",
+    "name_female": "Samantha"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "num_digit_2": [
+      29,
+      31,
+      37,
+      37,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67
+    ],
+    "num_digit_3": [
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "answer": [
+      29,
+      35,
+      39,
+      43,
+      47,
+      53,
+      51,
+      57,
+      63,
+      65
+    ],
+    "num_ic": [
+      42,
+      82,
+      16,
+      89,
+      58,
+      119,
+      64,
+      34,
+      267,
+      164
+    ]
+  },
+  "ic_question_template": "{name_male, ራይመንድ} እና {name_female, ሳማንታ} የአጎት ልጆች ናቸው። {name_male, ራይመንድ} ከ{name_female, ሳማንታ} ከ{num_digit_1, 6} ዓመት በፊት ተወለደ። {name_male, ራይመንድ} በ{num_digit_2, 23} ዓመቱ ወንድ ልጅ ወለደ። {name_female, ሳማንታ} አሁን {num_digit_3, 31} ዓመት ከሆናት፣ የ{name_male, ራይመንድ} ልጅ የተወለደው ከስንት ዓመት በፊት ነው? የ{name_female, ሳማንታ} አጎቷ {num_ic, 77} ፖስትካርዶችን ይሰበስባል።",
+  "ic_sentence": "የ{name_female, ሳማንታ} አጎቷ {num_ic, 77} ፖስትካርዶችን ይሰበስባል።"
+}

@@ -1,0 +1,92 @@
+{
+  "original_question": "Cynthia di abele baako anadwo biara. Ͻtɔ abele adaka a baako biara hyԑ mu abele 15 na adaka baako boɔ no yԑ $4.00. Nna aduosia akyi no, ԑka sԑn na ɔbԑ bɔ wɔ abele ho?",
+  "original_answer": 16,
+  "question_template": "{name_female, Cynthia} di abele {num_text_1, baako} anadwo biara. Ͻtɔ abele adaka a baako biara hyԑ mu abele {num_digit_1, 15} na adaka baako boɔ no yԑ ${num_digit_2, 4}. Nna {num_digit_3, aduosia} akyi no, ԑka sԑn na ɔbԑ bɔ wɔ abele ho?",
+  "question_solution": "answer = ((NUM(num_text_1) * num_digit_3 + num_digit_1 - 1) // num_digit_1) * num_digit_2",
+  "conditions": [
+    "int(answer) == ((NUM(num_text_1) * num_digit_3 + num_digit_1 - 1) // num_digit_1) * num_digit_2",
+    "NUM(num_text_1) > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Cynthia"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "baako",
+      "mienu",
+      "mmiɛnsa",
+      "anum",
+      "Nson",
+      "nwɔtwe",
+      "nkron",
+      "duakoɔ baako",
+      "du-mienu",
+      "du-num"
+    ],
+    "num_digit_1": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      25,
+      30,
+      35,
+      40
+    ],
+    "num_digit_2": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "num_digit_3": [
+      59,
+      63,
+      58,
+      65,
+      72,
+      49,
+      55,
+      68,
+      75,
+      82
+    ],
+    "answer": [
+      25,
+      54,
+      77,
+      152,
+      234,
+      180,
+      220,
+      300,
+      364,
+      434
+    ],
+    "num_ic": [
+      25,
+      102,
+      11,
+      120,
+      73,
+      36,
+      67,
+      278,
+      61,
+      78
+    ]
+  },
+  "ic_question_template": "{name_female, Cynthia} wɔfa wɔ sorbet ahorow {num_ic, 7} wɔ ne fridge mu. {name_female, Cynthia} di abele {num_text_1, baako} anadwo biara. Ͻtɔ abele adaka a baako biara hyԑ mu abele {num_digit_1, 15} na adaka baako boɔ no yԑ ${num_digit_2, 4}. Nna {num_digit_3, aduosia} akyi no, ԑka sԑn na ɔbԑ bɔ wɔ abele ho?",
+  "ic_sentence": "{name_female, Cynthia} wɔfa wɔ sorbet ahorow {num_ic, 7} wɔ ne fridge mu."
+}

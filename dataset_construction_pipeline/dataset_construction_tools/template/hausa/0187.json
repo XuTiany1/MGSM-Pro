@@ -1,0 +1,87 @@
+{
+  "original_question": "Mandy yana bin Benedict $100. Sun amince da samun ribar 2% kowane wata na bashin. Idan Mandy za ta iya biya bayan watanni 3, nawa za ta ba Benedict?",
+  "original_answer": 106,
+  "question_template": "{name_female, Mandy} yana bin {name_male, Benedict} ${num_digit_1, 100}. Sun amince da samun ribar {num_digit_2, 2}% kowane wata na bashin. Idan {name_female, Mandy} za ta iya biya bayan watanni {num_digit_3, 3}, nawa za ta ba {name_male, Benedict}?",
+  "question_solution": "answer = num_digit_1 * (1 + (num_digit_2/100) * num_digit_3)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 + (num_digit_2/100) * num_digit_3)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Mandy",
+    "name_male": "Benedict"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      100,
+      300,
+      625,
+      185,
+      230,
+      150,
+      425,
+      275,
+      135,
+      400,
+      345
+    ],
+    "num_digit_2": [
+      2,
+      3,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12,
+      9,
+      10
+    ],
+    "num_digit_3": [
+      3,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answer": [
+      106,
+      327,
+      675,
+      222,
+      299,
+      213,
+      663,
+      473,
+      297,
+      796,
+      759
+    ],
+    "num_ic": [
+      656,
+      1768,
+      338,
+      3412,
+      1819,
+      885,
+      120,
+      1862,
+      1570,
+      208,
+      968
+    ]
+  },
+  "ic_question_template": "Ankul ɗin {name_female, Mandy} ya taɓa aro dala {num_ic, 656} daga wurin mutum ɗaya. {name_female, Mandy} yana bin {name_male, Benedict} ${num_digit_1, 100}. Sun amince da samun ribar {num_digit_2, 2}% kowane wata na bashin. Idan {name_female, Mandy} za ta iya biya bayan watanni {num_digit_3, 3}, nawa za ta ba {name_male, Benedict}?",
+  "ic_sentence": "Ankul ɗin {name_female, Mandy} ya taɓa aro dala {num_ic, 656} daga wurin mutum ɗaya."
+}

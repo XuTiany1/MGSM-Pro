@@ -1,0 +1,80 @@
+{
+  "original_question": "Ryan dua nhwiren mmienu wɔ ne turo no mu. Wɔ nna 15 akyi no, nhwiren sԑn na ɔwɔ sԑ nhwiren 5 annyini a?",
+  "original_answer": 25,
+  "question_template": "{name_male, Ryan} dua nhwiren {num_digit_1, mmienu} wɔ ne turo no mu. Wɔ nna {num_digit_2, 15} akyi no, nhwiren sԑn na ɔwɔ sԑ nhwiren {num_digit_3, 5} annyini a?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 - num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 - num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "answer > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Ryan"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      5,
+      4,
+      7,
+      9,
+      6,
+      8,
+      10,
+      11,
+      12
+    ],
+    "num_digit_2": [
+      12,
+      9,
+      18,
+      11,
+      13,
+      20,
+      14,
+      16,
+      17,
+      19
+    ],
+    "num_digit_3": [
+      4,
+      7,
+      6,
+      8,
+      10,
+      15,
+      12,
+      18,
+      9,
+      22
+    ],
+    "answer": [
+      32,
+      38,
+      66,
+      69,
+      107,
+      105,
+      100,
+      142,
+      178,
+      206
+    ],
+    "num_ic": [
+      23,
+      44,
+      97,
+      52,
+      68,
+      110,
+      101,
+      17,
+      130,
+      82
+    ]
+  },
+  "ic_question_template": "{name_male, Ryan} wɔfa de nkuku foforo {num_ic, 8} brɛɛ mfikyiri no. {name_male, Ryan} dua nhwiren {num_digit_1, mmienu} wɔ ne turo no mu. Wɔ nna {num_digit_2, 15} akyi no, nhwiren sԑn na ɔwɔ sԑ nhwiren {num_digit_3, 5} annyini a?",
+  "ic_sentence": "{name_male, Ryan} wɔfa de nkuku foforo {num_ic, 8} brɛɛ mfikyiri no."
+}

@@ -1,0 +1,83 @@
+{
+  "original_question": "Idan Raymond yana yin rabin wankin Sarah, Sarah kuma tana yin wanki ninki hudun na David, ƙididdige bambancin adadin wanki da Raymond da David suke yi idan Sarah tana yin wankin pounds 400.        ",
+  "original_answer": 100,
+  "question_template": "Idan {name_male_1, Raymond} yana yin {num_frac_1, rabi}n wankin {name_female, Sarah}, {name_female, Sarah} kuma tana yin wanki ninki {num_digit_1, huɗu}n na {name_male_2, David}, ƙididdige bambancin adadin wanki da {name_male_1, Raymond} da {name_male_2, David} suke yi idan {name_female, Sarah} tana yin wankin pounds {num_digit_2, 400}.",
+  "question_solution": "answer = num_digit_2 * NUM(num_frac_1) - num_digit_2 / num_digit_1",
+  "conditions": [
+    "int(answer) == num_digit_2 * NUM(num_frac_1) - num_digit_2 / num_digit_1",
+    "num_digit_2 % num_digit_1 == 0",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Raymond",
+    "name_female": "Sarah",
+    "name_male_2": "David"
+  },
+  "variable_number_dictionary": {
+    "num_frac_1": [
+      "biyu cikin uku",
+      "ɗaya bisa uku",
+      "kwatanni uku",
+      "kashi ɗaya cikin huɗu",
+      "biyu cikin biyar",
+      "uku cikin biyar",
+      "Rabinsa",
+      "biyar cikin shida",
+      "hudu cikin bakwai",
+      "bakwai cikin takwas"
+    ],
+    "num_digit_1": [
+      3,
+      6,
+      5,
+      8,
+      3,
+      4,
+      3,
+      5,
+      3,
+      3
+    ],
+    "num_digit_2": [
+      360,
+      600,
+      200,
+      240,
+      150,
+      200,
+      300,
+      180,
+      84,
+      240
+    ],
+    "answer": [
+      120,
+      100,
+      110,
+      30,
+      10,
+      70,
+      50,
+      114,
+      20,
+      130
+    ],
+    "num_ic": [
+      22,
+      33,
+      16,
+      52,
+      23,
+      42,
+      26,
+      56,
+      8,
+      29
+    ]
+  },
+  "ic_question_template": "Gwaggon {name_male_1, Raymond} ta ninke tawul-tawul guda {num_ic, 52} jiya. Idan {name_male_1, Raymond} yana yin {num_frac_1, rabi}n wankin {name_female, Sarah}, {name_female, Sarah} kuma tana yin wanki ninki {num_digit_1, huɗu}n na {name_male_2, David}, ƙididdige bambancin adadin wanki da {name_male_1, Raymond} da {name_male_2, David} suke yi idan {name_female, Sarah} tana yin wankin pounds {num_digit_2, 400}.",
+  "ic_sentence": "Gwaggon {name_male_1, Raymond} ta ninke tawul-tawul guda {num_ic, 52} jiya."
+}

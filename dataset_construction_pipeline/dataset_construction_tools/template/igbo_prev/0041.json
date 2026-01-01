@@ -1,0 +1,82 @@
+{
+  "original_question": "Dragọn ahụ dị ukwuu, Perg, nọdụrụ n'elu ugwu Farbo, were ekupu ume ọkụ n'elu ihe ọbụla site n'ebe dị anya ụkwụ otu puku. Polly nwere ike itụ ya ọla edo javlin, nke bụ nanị ngwa agha amara ga-egbunwu dragọn ahụ, maka ebe dị anya ụkwụ nari anọ, ebe ọkụ dragọn ahụ na-erute kwa nke ọma. Mana mgbe Polly jidere sapphire gemstone, ọ ga-atụnwu javlin ahụ ugboro atọ dikarịa anya karịa mgbe o jighị gemstone. Ọ bụrụ na o jiri gemstone, kedụ ịdị anya na-ezi Polly ga-akwụnwu ọtọ ma tụkwa dragọn ahụ javlin ọleado?",
+  "original_answer": 200,
+  "question_template": "Dragọn ahụ dị ukwuu, {name_dragon, Perg}, nọdụrụ n'elu ugwu {name_mountain, Farbo}, were ekupu ume ọkụ n'elu ihe ọbụla site n'ebe dị anya ụkwụ {num_digit_1, 1000}. {name_female, Polly} nwere ike itụ ya ọla edo javlin, nke bụ nanị ngwa agha amara ga-egbunwu dragọn ahụ, maka ebe dị anya ụkwụ {num_digit_2, 400}, ebe ọkụ dragọn ahụ na-erute kwa nke ọma. Mana mgbe {name_female, Polly} jidere sapphire gemstone, ọ ga-atụnwu javlin ahụ ugboro {num_text_1, atọ} dikarịa anya karịa mgbe o jighị gemstone. Ọ bụrụ na o jiri gemstone, kedụ ịdị anya na-ezi {name_female, Polly} ga-akwụnwu ọtọ ma tụkwa dragọn ahụ javlin ọleado?",
+  "question_solution": "answer = num_digit_2 * NUM(num_text_1) - num_digit_1",
+  "conditions": [
+    "int(answer) == num_digit_2 * NUM(num_text_1) - num_digit_1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_text_1) > 0",
+    "num_digit_2 * NUM(num_text_1) >= num_digit_1"
+  ],
+  "variable_word_list": {
+    "name_dragon": "Perg",
+    "name_mountain": "Farbo",
+    "name_female": "Polly"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1000,
+      1500,
+      800,
+      1200,
+      900,
+      1400,
+      2000,
+      1800,
+      1600,
+      1100
+    ],
+    "num_digit_2": [
+      400,
+      600,
+      250,
+      300,
+      400,
+      350,
+      600,
+      450,
+      320,
+      275
+    ],
+    "num_text_1": [
+      "Atọ",
+      "Atọ",
+      "Anọ",
+      "ise",
+      "Atọ",
+      "ise",
+      "Anọ",
+      "ise",
+      "isii",
+      "ise"
+    ],
+    "answer": [
+      200,
+      300,
+      200,
+      300,
+      300,
+      350,
+      400,
+      450,
+      320,
+      275
+    ],
+    "num_ic": [
+      92,
+      170,
+      47,
+      134,
+      66,
+      162,
+      56,
+      124,
+      78,
+      158
+    ]
+  },
+  "ic_question_template": "Nwanne nne {name_female, Polly} anakọtaala {num_ic, 92} mkpụrụ akpụkpọ anụ dragọn dị iche iche. Dragọn ahụ dị ukwuu, {name_dragon, Perg}, nọdụrụ n'elu ugwu {name_mountain, Farbo}, were ekupu ume ọkụ n'elu ihe ọbụla site n'ebe dị anya ụkwụ {num_digit_1, 1000}. {name_female, Polly} nwere ike itụ ya ọla edo javlin, nke bụ nanị ngwa agha amara ga-egbunwu dragọn ahụ, maka ebe dị anya ụkwụ {num_digit_2, 400}, ebe ọkụ dragọn ahụ na-erute kwa nke ọma. Mana mgbe {name_female, Polly} jidere sapphire gemstone, ọ ga-atụnwu javlin ahụ ugboro {num_text_1, atọ} dikarịa anya karịa mgbe o jighị gemstone. Ọ bụrụ na o jiri gemstone, kedụ ịdị anya na-ezi {name_female, Polly} ga-akwụnwu ọtọ ma tụkwa dragọn ahụ javlin ọleado?",
+  "ic_sentence": "Nwanne nne {name_female, Polly} anakọtaala {num_ic, 92} mkpụrụ akpụkpọ anụ dragọn dị iche iche."
+}

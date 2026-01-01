@@ -1,0 +1,80 @@
+{
+  "original_question": "Terry mange 2 yaourts chaque jour. On les vend au prix de 4 yaourts pour 5,00 $. Combien d'argent dépense-t-il en yaourt sur 30 jours ?",
+  "original_answer": 75,
+  "question_template": "{name_male, Terry} mange {num_digit_1, 2} yaourts chaque jour. On les vend au prix de {num_digit_2, 4} yaourts pour {num_digit_3, 5},00 $. Combien d'argent dépense-t-il en yaourt sur {num_digit_4, 30} jours ?",
+  "question_solution": "answer = ((num_digit_1 * num_digit_4 + num_digit_2 - 1) // num_digit_2) * num_digit_3",
+  "conditions": [
+    "int(answer) == ((num_digit_1 * num_digit_4 + num_digit_2 - 1) // num_digit_2) * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Terry"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      5,
+      4,
+      7,
+      2,
+      6,
+      9,
+      1,
+      8,
+      10
+    ],
+    "num_digit_2": [
+      5,
+      7,
+      6,
+      9,
+      5,
+      8,
+      10,
+      3,
+      11,
+      12
+    ],
+    "num_digit_3": [
+      6,
+      10,
+      8,
+      12,
+      7,
+      9,
+      13,
+      4,
+      14,
+      15
+    ],
+    "num_digit_4": [
+      30,
+      31,
+      45,
+      28,
+      29,
+      40,
+      14,
+      99,
+      20,
+      60
+    ],
+    "answer": [
+      108,
+      230,
+      240,
+      264,
+      84,
+      270,
+      169,
+      132,
+      210,
+      750
+    ]
+  },
+  "ic_question_template": "{name_male, Terry} a un oncle qui a récemment acheté {num_ic, 29} cartons de jus d’orange. {name_male, Terry} mange {num_digit_1, 2} yaourts chaque jour. On les vend au prix de {num_digit_2, 4} yaourts pour {num_digit_3, 5},00 $. Combien d'argent dépense-t-il en yaourt sur {num_digit_4, 30} jours ?",
+  "ic_sentence": "{name_male, Terry} a un oncle qui a récemment acheté {num_ic, 29} cartons de jus d’orange."
+}

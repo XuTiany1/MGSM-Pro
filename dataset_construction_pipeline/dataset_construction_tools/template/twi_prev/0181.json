@@ -1,0 +1,94 @@
+{
+  "original_question": "Sandra, odwadini a ɔwɔ kokoam no hɔ no ani nnye sɛ Fred de ne nneɛma a ɔhyɛe no bɛbrɛɛ no. Na Sandra ahyɛ nhwiren kɔkɔɔ pii enan sɛ ɔdɔ fitaa. Afei nso ɔkraa nhwiren kɔkɔɔ 200 a na ne dodoɔ boro nhwiren fitaa no mmɔho enum. Sandra aka sɛ wɔn amfa nhwiren kɔkɔɔ a ayera no amma anwummere 5 pm, ɔbɛsesa wɔn a wɔde ma wɔn no. Nea ɛbɛyɛ na Sandra adwuma no akɔ so, nhwiren kɔkɔɔ dodoɔ ahe na ɛsɛ sɛ Fred de seɛ yɛ ɔyɔ  5 de ma?",
+  "original_answer": 160,
+  "question_template": "{name_female, Sandra}, odwadini a ɔwɔ kokoam no hɔ no ani nnye sɛ {name_male, Fred} de ne nneɛma a ɔhyɛe no bɛbrɛɛ no. Na {name_female, Sandra} ahyɛ nhwiren kɔkɔɔ pii {num_text_1, enan} sɛ ɔdɔ fitaa. Afei nso ɔkraa nhwiren kɔkɔɔ {num_digit_1, 200} a na ne dodoɔ boro nhwiren fitaa no mmɔho {num_text_2, enum}. {name_female, Sandra} aka sɛ wɔn amfa nhwiren kɔkɔɔ a ayera no amma anwummere {num_digit_2, 5} pm, ɔbɛsesa wɔn a wɔde ma wɔn no. Nea ɛbɛyɛ na {name_female, Sandra} adwuma no akɔ so, nhwiren kɔkɔɔ dodoɔ ahe na ɛsɛ sɛ {name_male, Fred} de seɛ yɛ ɔyɔ  {num_digit_2, 5} de ma?",
+  "question_solution": "answer = f1 * (num_digit_1 / f2)   # f1 and f2 are the numeric values of num_text_1 and num_text_2 respectively",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == f1 * (num_digit_1 / f2)",
+    "f1 > 0",
+    "f2 > 0",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sandra",
+    "name_male": "Fred"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "mmiɛnsa",
+      "ɛnān",
+      "anum",
+      "nsia",
+      "Nson",
+      "nwɔtwe",
+      "nkron",
+      "du",
+      "duakoɔ baako",
+      "dunan"
+    ],
+    "num_digit_1": [
+      30,
+      42,
+      63,
+      96,
+      135,
+      72,
+      60,
+      50,
+      300,
+      363
+    ],
+    "num_text_2": [
+      "anum",
+      "nsia",
+      "Nson",
+      "nwɔtwe",
+      "nkron",
+      "ɛnān",
+      "mmiɛnsa",
+      "mienu",
+      "du",
+      "duakoɔ baako"
+    ],
+    "num_digit_2": [
+      5,
+      6,
+      4,
+      7,
+      3,
+      8,
+      2,
+      9,
+      10,
+      11
+    ],
+    "answer": [
+      18,
+      28,
+      45,
+      72,
+      105,
+      144,
+      180,
+      250,
+      330,
+      396
+    ],
+    "num_ic": [
+      38,
+      24,
+      112,
+      215,
+      15,
+      102,
+      103,
+      281,
+      291,
+      283
+    ]
+  },
+  "ic_question_template": "{name_female, Sandra} wͻfa adua tulip {num_ic, 38} wɔ ne fie fidie. {name_female, Sandra}, odwadini a ɔwɔ kokoam no hɔ no ani nnye sɛ {name_male, Fred} de ne nneɛma a ɔhyɛe no bɛbrɛɛ no. Na {name_female, Sandra} ahyɛ nhwiren kɔkɔɔ pii {num_text_1, enan} sɛ ɔdɔ fitaa. Afei nso ɔkraa nhwiren kɔkɔɔ {num_digit_1, 200} a na ne dodoɔ boro nhwiren fitaa no mmɔho {num_text_2, enum}. {name_female, Sandra} aka sɛ wɔn amfa nhwiren kɔkɔɔ a ayera no amma anwummere {num_digit_2, 5} pm, ɔbɛsesa wɔn a wɔde ma wɔn no. Nea ɛbɛyɛ na {name_female, Sandra} adwuma no akɔ so, nhwiren kɔkɔɔ dodoɔ ahe na ɛsɛ sɛ {name_male, Fred} de seɛ yɛ ɔyɔ  {num_digit_2, 5} de ma?",
+  "ic_sentence": "{name_female, Sandra} wͻfa adua tulip {num_ic, 38} wɔ ne fie fidie."
+}

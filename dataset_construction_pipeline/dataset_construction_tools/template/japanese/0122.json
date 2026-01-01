@@ -1,0 +1,70 @@
+{
+  "original_question": "サディーは月曜日8時間寝た。次の2日間、宿題を終わらせなければならなかった彼女はそれぞれ2時間少ない時間寝た。もしも彼女が残りの週、その2日よりも1時間長く寝たら、彼女は1週間通して何時間寝たことになる？",
+  "original_answer": 48,
+  "question_template": "{name_female, グレース} の体重は{num_digit_1, 125}ポンドです。{name_male,アレックス} の体重は{name_female,グレース} の体重の{num_digit_3, 4}倍よりも{num_digit_2, 2}ポンド軽いです。彼女達の体重の合計は何ポンドですか？",
+  "question_solution": "answer = num_digit_1 + 2*(num_digit_1 - num_digit_2) + 4*(num_digit_1 - num_digit_2 + num_digit_3)",
+  "conditions": [
+    "int(answer) == num_digit_1 + 2*(num_digit_1 - num_digit_2) + 4*(num_digit_1 - num_digit_2 + num_digit_3)",
+    "num_digit_1 > num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sadie",
+    "num_text_1": "two",
+    "num_text_2": "two"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      9,
+      10,
+      7,
+      12,
+      6,
+      11,
+      9,
+      8,
+      14,
+      10
+    ],
+    "num_digit_2": [
+      3,
+      4,
+      1,
+      4,
+      1,
+      5,
+      2,
+      1,
+      6,
+      1
+    ],
+    "num_digit_3": [
+      2,
+      3,
+      1,
+      2,
+      2,
+      1,
+      4,
+      3,
+      3,
+      5
+    ],
+    "answer": [
+      53,
+      58,
+      47,
+      68,
+      44,
+      51,
+      67,
+      62,
+      74,
+      84
+    ]
+  },
+  "ic_question_template": "{name_female, サディ}のおじさんは先週{num_ic, 23}杯のコーヒーを飲みました。{name_female, グレース} の体重は{num_digit_1, 125}ポンドです。{name_male,アレックス} の体重は{name_female,グレース} の体重の{num_digit_3, 4}倍よりも{num_digit_2, 2}ポンド軽いです。彼女達の体重の合計は何ポンドですか？",
+  "ic_sentence": "{name_female, サディ}のおじさんは先週{num_ic, 23}杯のコーヒーを飲みました。"
+}

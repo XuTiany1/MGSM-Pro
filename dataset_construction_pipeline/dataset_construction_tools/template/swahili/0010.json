@@ -1,0 +1,89 @@
+{
+  "original_question": "Programu mpya ilipakuliwa mara 60 mwezi wa kwanza. Idadi ya upakuaji katika mwezi wa pili ulikuwa mara tatu ya idadi ya upakuaji katika mwezi wa kwanza, lakini ikapungua kwa 30% katika mwezi wa tatu. Programu hiyo ilipakuliwa mara ngapi kwa jumla katika miezi hiyo mitatu?",
+  "original_answer": 366,
+  "question_template": "Programu mpya ilipakuliwa mara {num_digit_1, 60} mwezi wa kwanza. Idadi ya upakuaji katika mwezi wa pili ulikuwa {num_text_1, mara tatu} ya idadi ya upakuaji katika mwezi wa kwanza, lakini ikapungua kwa {num_digit_2, 30}% katika mwezi wa tatu. Programu hiyo ilipakuliwa mara ngapi kwa jumla katika miezi hiyo {num_text_2, mitatu}?",
+  "question_solution": "answer = num_digit_1 + NUM(num_text_1) * num_digit_1 + NUM(num_text_1) * num_digit_1 * (1 - num_digit_2/100)",
+  "conditions": [
+    "int(answer) == num_digit_1 + NUM(num_text_1) * num_digit_1 + NUM(num_text_1) * num_digit_1 * (1 - num_digit_2/100)",
+    "num_digit_1 > 0",
+    "NUM(num_text_1) > 0",
+    "0 <= num_digit_2 < 100"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      47,
+      53,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97
+    ],
+    "num_text_1": [
+      "Mara nne",
+      "mara tano",
+      "mara sita",
+      "Mara nane",
+      "mara kumi",
+      "Mara kumi na mbili",
+      "mara kumi na sita",
+      "Mara ishirini",
+      "mara ishirini na nne",
+      "mara ishirini na nane"
+    ],
+    "num_digit_2": [
+      25,
+      20,
+      50,
+      25,
+      10,
+      25,
+      25,
+      10,
+      25,
+      25
+    ],
+    "num_text_2": [
+      "tatu",
+      "tatu",
+      "tatu",
+      "tatu",
+      "tatu",
+      "tatu",
+      "tatu",
+      "tatu",
+      "tatu",
+      "tatu"
+    ],
+    "answer": [
+      376,
+      530,
+      610,
+      1005,
+      1420,
+      1606,
+      2291,
+      3237,
+      3827,
+      4850
+    ],
+    "num_ic": [
+      336,
+      208,
+      496,
+      603,
+      560,
+      413,
+      387,
+      942,
+      715,
+      970
+    ]
+  },
+  "ic_question_template": "Mjomba wa msanidi programu alitengeneza meza za kompyuta {num_ic, 413} kwa ajili ya kampuni. Programu mpya ilipakuliwa mara {num_digit_1, 60} mwezi wa kwanza. Idadi ya upakuaji katika mwezi wa pili ulikuwa {num_text_1, mara tatu} ya idadi ya upakuaji katika mwezi wa kwanza, lakini ikapungua kwa {num_digit_2, 30}% katika mwezi wa tatu. Programu hiyo ilipakuliwa mara ngapi kwa jumla katika miezi hiyo {num_text_2, mitatu}?",
+  "ic_sentence": "Mjomba wa msanidi programu alitengeneza meza za kompyuta {num_ic, 413} kwa ajili ya kampuni."
+}

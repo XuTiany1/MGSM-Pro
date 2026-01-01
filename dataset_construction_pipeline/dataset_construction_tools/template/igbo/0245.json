@@ -1,0 +1,90 @@
+{
+  "original_question": "Ejula anọ ka enwere n'otu akwarium na ejula iri atọ na abụọ na akwarium ọzọ. Ịhe di iche n'etiti ọnụ ọgụgụ ejula dị n'ime akwarium abụọ ahụ bụ okpukpu abụọ nke  ọnụ ọgụgụ azụ̀ dị n'ime akwarium abụọ ahụ. Ọ bụrụ na aquarium abụọ ahụ nwere otu ọnụ ọgụgụ azụ̀ n'ime ha, azụ̀ ole ka enwere n'ime akwarium nke ọ bụla.",
+  "original_answer": 7,
+  "question_template": "Ejula {num_digit_1, 4} ka enwere n'otu akwarium na ejula {num_digit_2, 32} na akwarium ọzọ. Ịhe di iche n'etiti ọnụ ọgụgụ ejula dị n'ime akwarium {num_text_1, abụọ} ahụ bụ {num_text_2, okpukpu abụọ} nke ọnụ ọgụgụ azụ̀ dị n'ime akwarium abụọ ahụ. Ọ bụrụ na aquarium abụọ ahụ nwere otu ọnụ ọgụgụ azụ̀ n'ime ha, azụ̀ ole ka enwere n'ime akwarium nke ọ bụla.",
+  "question_solution": "answer = (num_digit_2 - num_digit_1) / (2 * f2)   # f2 is the numeric value of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_2 - num_digit_1) / (2 * f2)",
+    "num_digit_2 > num_digit_1",
+    "num_digit_1 >= 0",
+    "f2 > 0",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      33,
+      47,
+      25,
+      9,
+      58,
+      73,
+      101,
+      66,
+      82
+    ],
+    "num_digit_2": [
+      84,
+      129,
+      119,
+      137,
+      57,
+      154,
+      211,
+      277,
+      174,
+      202
+    ],
+    "num_text_1": [
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ",
+      "abụọ"
+    ],
+    "num_text_2": [
+      "Ugboro abụọ",
+      "Ugboro atọ",
+      "ugboro isii",
+      "ugboro anọ",
+      "Ugboro atọ",
+      "ugboro asatọ",
+      "Ugboro atọ",
+      "ugboro anọ",
+      "Ugboro atọ",
+      "ọgụ ise"
+    ],
+    "answer": [
+      18,
+      16,
+      6,
+      14,
+      8,
+      6,
+      23,
+      22,
+      18,
+      12
+    ],
+    "num_ic": [
+      22,
+      49,
+      131,
+      198,
+      13,
+      104,
+      173,
+      278,
+      92,
+      154
+    ]
+  },
+  "ic_question_template": "Ejula {num_digit_1, 4} ka enwere n'otu akwarium na ejula {num_digit_2, 32} na akwarium ọzọ. Ịhe di iche n'etiti ọnụ ọgụgụ ejula dị n'ime akwarium {num_text_1, abụọ} ahụ bụ {num_text_2, okpukpu abụọ} nke ọnụ ọgụgụ azụ̀ dị n'ime akwarium abụọ ahụ. Ọ bụrụ na aquarium abụọ ahụ nwere otu ọnụgụ azụ̀ n'ime ha, azụ̀ ole ka enwere n'ime akwarium nke ọ bụla. Nwanne nna nwanyị {name_male_2, Michael} bịara n’ụlọ nri na {num_ic, 15} akpa nke ketchup.",
+  "ic_sentence": "Nwanne nna nwanyị {name_male_2, Kyle} bịara n’ụlọ nri na {num_ic, 18458} akpa nke ketchup."
+}

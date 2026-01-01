@@ -1,0 +1,90 @@
+{
+  "original_question": "There are 4 snails in one aquarium and 32 snails in another aquarium. The difference between the number of snails in the two aquariums is twice the amount of fish in both aquariums. If both aquariums have the same number of fish in them, how many fish are there in each aquarium?",
+  "original_answer": 7,
+  "question_template": "There are {num_digit_1, 4} snails in one aquarium and {num_digit_2, 32} snails in another aquarium. The difference between the number of snails in the {num_text_1, two} aquariums is {num_text_2, twice} the amount of fish in both aquariums. If both aquariums have the same number of fish in them, how many fish are there in each aquarium?",
+  "question_solution": "answer = (num_digit_2 - num_digit_1) / (2 * f2)   # f2 is the numeric value of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_2 - num_digit_1) / (2 * f2)",
+    "num_digit_2 > num_digit_1",
+    "num_digit_1 >= 0",
+    "f2 > 0",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      33,
+      47,
+      25,
+      9,
+      58,
+      73,
+      101,
+      66,
+      82
+    ],
+    "num_digit_2": [
+      84,
+      129,
+      119,
+      137,
+      57,
+      154,
+      211,
+      277,
+      174,
+      202
+    ],
+    "num_text_1": [
+      "two",
+      "two",
+      "two",
+      "two",
+      "two",
+      "two",
+      "two",
+      "two",
+      "two",
+      "two"
+    ],
+    "num_text_2": [
+      "twice",
+      "three times",
+      "six times",
+      "four times",
+      "three times",
+      "eight times",
+      "three times",
+      "four times",
+      "three times",
+      "five times"
+    ],
+    "answer": [
+      18,
+      16,
+      6,
+      14,
+      8,
+      6,
+      23,
+      22,
+      18,
+      12
+    ],
+    "num_ic": [
+      22,
+      49,
+      131,
+      198,
+      13,
+      104,
+      173,
+      278,
+      92,
+      154
+    ]
+  },
+  "ic_question_template": "There are {num_digit_1, 4} snails in one aquarium and {num_digit_2, 32} snails in another aquarium. The difference between the number of snails in the {num_text_1, two} aquariums is {num_text_2, twice} the amount of fish in both aquariums. {name_male, Michael}'s cousin has {num_ic, 15} guppies at home. If both aquariums have the same number of fish in them, how many fish are there in each aquarium?",
+  "ic_sentence": "{name_male, Michael}'s cousin has {num_ic, 15} guppies at home."
+}

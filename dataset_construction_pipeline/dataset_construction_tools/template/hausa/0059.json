@@ -1,0 +1,77 @@
+{
+  "original_question": "Dajin bishiyun rasberi yana da gungu 6 kowacce tana yaya 20 sannan bishiyu guda 67 a warwatse a cikin daji. Yawan raspberries nawa ne gaba daya?",
+  "original_answer": 187,
+  "question_template": "Dajin bishiyun rasberi yana da gungu {num_digit_1, 6} kowacce tana yaya {num_digit_2, 20} sannan bishiyu guda {num_digit_3, 67} a warwatse a cikin daji. Yawan raspberries nawa ne gaba daya?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 + num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      9,
+      12,
+      15,
+      13,
+      17,
+      23,
+      8,
+      14,
+      11
+    ],
+    "num_digit_2": [
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "num_digit_3": [
+      58,
+      72,
+      101,
+      89,
+      65,
+      139,
+      127,
+      53,
+      211,
+      101
+    ],
+    "answer": [
+      149,
+      225,
+      329,
+      434,
+      442,
+      666,
+      978,
+      381,
+      813,
+      618
+    ],
+    "num_ic": [
+      74,
+      93,
+      191,
+      215,
+      163,
+      324,
+      161,
+      64,
+      327,
+      392
+    ]
+  },
+  "ic_question_template": "Ɗan ɗan’uwa na mai lambu ya dasa shukar blueberry guda {num_ic, 126} a kusa nan. Dajin bishiyun rasberi yana da gungu {num_digit_1, 6} kowacce tana yaya {num_digit_2, 20} sannan bishiyu guda {num_digit_3, 67} a warwatse a cikin daji. Yawan raspberries nawa ne gaba daya?",
+  "ic_sentence": "Ɗan ɗan’uwa na mai lambu ya dasa shukar blueberry guda {num_ic, 126} a kusa nan."
+}

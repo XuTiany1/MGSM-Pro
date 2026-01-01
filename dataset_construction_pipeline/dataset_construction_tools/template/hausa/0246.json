@@ -1,0 +1,107 @@
+{
+  "original_question": "Mai aikin kwaliya na Jean na cajin ta $250 a awa daya. Tana bukatar makeup mai tsada sosai ga fim din da take ciki kuma tana daukar awa 6 tana yin sa a kowace rana kuma tana bukatar ayi sau 4 a sati. Fim ɗin yana ɗaukar makonni 5 don kammalawa. Bayan an gama fim ɗin mai kwalliyar ya ba Jean rangwame 10% saboda yawan aikin da aka yi. Nawa Jean ta biya?",
+  "original_answer": 27000,
+  "question_template": "Mai aikin kwaliya na {name_female, Jean} na cajin ta ${num_digit_1, 250} a awa daya. Tana bukatar makeup mai tsada sosai ga fim din da take ciki kuma tana daukar awa {num_digit_2, 6} tana yin sa a kowace rana kuma tana bukatar ayi sau {num_digit_3, 4} a sati. Fim ɗin yana ɗaukar makonni {num_digit_4, 5} don kammalawa. Bayan an gama fim ɗin mai kwalliyar ya ba {name_female, Jean} rangwame {num_digit_5, 10}% saboda yawan aikin da aka yi. Nawa {name_female, Jean} ta biya?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * num_digit_3 * num_digit_4 * (1 - num_digit_5/100)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 * num_digit_3 * num_digit_4 * (1 - num_digit_5/100)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "0 <= num_digit_5 < 100",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Jean"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12300,
+      45600,
+      78900,
+      101200,
+      131400,
+      161600,
+      191800,
+      222000,
+      252200,
+      282400
+    ],
+    "num_digit_2": [
+      17,
+      23,
+      19,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "num_digit_3": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_4": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22
+    ],
+    "num_digit_5": [
+      3,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37
+    ],
+    "answer": [
+      5679156,
+      64375344,
+      138756696,
+      434056920,
+      770850216,
+      1559494944,
+      2809578464,
+      3781934280,
+      6052346040,
+      8505261072
+    ],
+    "num_ic": [
+      2313,
+      45912,
+      115381,
+      207980,
+      224091,
+      295662,
+      19694,
+      356203,
+      368078,
+      89381
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Jean} ya kawo furanni {num_ic, 368078} zuwa wurin daukar fim. Mai aikin kwaliya na {name_female, Jean} na cajin ta ${num_digit_1, 250} a awa daya. Tana bukatar makeup mai tsada sosai ga fim din da take ciki kuma tana daukar awa {num_digit_2, 6} tana yin sa a kowace rana kuma tana bukatar ayi sau {num_digit_3, 4} a sati. Fim ɗin yana ɗaukar makonni {num_digit_4, 5} don kammalawa. Bayan an gama fim ɗin mai kwalliyar ya ba {name_female, Jean} rangwame {num_digit_5, 10}% saboda yawan aikin da aka yi. Nawa {name_female, Jean} ta biya?",
+  "ic_sentence": "Kawun {name_female, Jean} ya kawo furanni {num_ic, 368078} zuwa wurin daukar fim."
+}

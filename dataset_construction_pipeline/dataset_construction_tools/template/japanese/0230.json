@@ -1,0 +1,82 @@
+{
+  "original_question": "マークは自分の会社のため12台の車を買いました。車は1台あたり20,000ドルです。マークは車の税金を10%払い、登録のために1台あたり1,000ドル支払いました。合計でいくら払いましたか？",
+  "original_answer": 276000,
+  "question_template": "{name_male, マーク}は自分の会社のため{num_digit_1, 12}台の車を買いました。車は1台あたり{num_digit_2, 20,000}ドルです。{name_male, マーク}は車の税金を{num_digit_3, 10}%払い、登録のために1台あたり{num_digit_4, 1000}ドル支払いました。合計でいくら払いましたか？",
+  "question_solution": "answer = num_digit_1 * (num_digit_2 * (1 + num_digit_3/100) + num_digit_4)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (num_digit_2 * (1 + num_digit_3/100) + num_digit_4)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Mark"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      13,
+      17,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "num_digit_2": [
+      19900,
+      20100,
+      18400,
+      22300,
+      25600,
+      19800,
+      21000,
+      23400,
+      27800,
+      31200
+    ],
+    "num_digit_3": [
+      7,
+      12,
+      15,
+      18,
+      22,
+      25,
+      28,
+      30,
+      33,
+      37
+    ],
+    "num_digit_4": [
+      1575,
+      1999,
+      2345,
+      3456,
+      4123,
+      5000,
+      6789,
+      8899,
+      9999,
+      10456
+    ],
+    "answer": [
+      297284,
+      416687,
+      540615,
+      863330,
+      1096005,
+      1100750,
+      1380429,
+      1690717,
+      2207731,
+      2819600
+    ]
+  },
+  "ic_question_template": "{name_male, マーク}のいとこは最近{num_ic, 111}台のバイクを購入しました。{name_male, マーク}は自分の会社のため{num_digit_1, 12}台の車を買いました。車は1台あたり{num_digit_2, 20,000}ドルです。{name_male, マーク}は車の税金を{num_digit_3, 10}%払い、登録のために1台あたり{num_digit_4, 1000}ドル支払いました。合計でいくら払いましたか？",
+  "ic_sentence": "{name_male, マーク}のいとこは最近{num_ic, 111}台のバイクを購入しました。"
+}

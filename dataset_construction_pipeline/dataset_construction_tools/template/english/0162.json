@@ -1,0 +1,93 @@
+{
+  "original_question": "If a bag of marbles costs $20 and the price increases by 20 % of the original price every two months, how much would a bag of marbles cost after 36 months?",
+  "original_answer": 92,
+  "question_template": "If a bag of marbles costs ${num_digit_1, 20} and the price increases by {num_digit_2, 20}% of the original price every {num_text_1, two} months, how much would a bag of marbles cost after {num_digit_3, 36} months?",
+  "question_solution": "answer = num_digit_1 + (num_digit_3 / NUM(num_text_1)) * (num_digit_1 * num_digit_2 / 100)",
+  "conditions": [
+    "answer == num_digit_1 + (num_digit_3 / NUM(num_text_1)) * (num_digit_1 * num_digit_2 / 100)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "NUM(num_text_1) > 0",
+    "num_digit_3 % NUM(num_text_1) == 0",
+    "(num_digit_1 * num_digit_2) % 100 == 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      30,
+      25,
+      40,
+      18,
+      24,
+      45,
+      55,
+      48,
+      25,
+      60
+    ],
+    "num_digit_2": [
+      10,
+      20,
+      15,
+      50,
+      25,
+      20,
+      20,
+      25,
+      40,
+      10
+    ],
+    "num_text_1": [
+      "three",
+      "five",
+      "six",
+      "two",
+      "eight",
+      "nine",
+      "ten",
+      "twelve",
+      "fifteen",
+      "eighteen"
+    ],
+    "num_digit_3": [
+      36,
+      45,
+      60,
+      24,
+      40,
+      45,
+      50,
+      48,
+      60,
+      72
+    ],
+    "answer": [
+      66,
+      70,
+      100,
+      126,
+      54,
+      90,
+      110,
+      96,
+      65,
+      84
+    ],
+    "num_ic": [
+      45,
+      215,
+      367,
+      68,
+      160,
+      433,
+      501,
+      242,
+      121,
+      323
+    ]
+  },
+  "ic_question_template": "If a bag of marbles costs ${num_digit_1, 20} and the price increases by {num_digit_2, 20}% of the original price every {num_text_1, two} months. The store manager's nephew has {num_ic, 60} comic books. How much would a bag of marbles cost after {num_digit_3, 36} months?",
+  "ic_sentence": "The store manager's nephew has {num_ic, 60} comic books."
+}

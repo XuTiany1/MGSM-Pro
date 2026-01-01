@@ -1,0 +1,69 @@
+{
+  "original_question": "240人のアジア系の人のレースで、80人が日本人で残りは中国人だった。中国人チームの男子の数が60だった場合、中国人チームの女子の数は何人？",
+  "original_answer": 100,
+  "question_template": "{num_digit_1, 240}人のアジア系の人のレースで、{num_digit_2, 80}人が日本人で残りは中国人だった。中国人チームの男子の数が{num_digit_3, 60}だった場合、中国人チームの女子の数は何人？",
+  "question_solution": "answer = num_digit_1 - num_digit_2 - num_digit_3",
+  "conditions": [
+    "answer == num_digit_1 - num_digit_2 - num_digit_3",
+    "num_digit_1 > num_digit_2",
+    "num_digit_3 < (num_digit_1 - num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "answer > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      300,
+      450,
+      500,
+      320,
+      275,
+      400,
+      350,
+      600,
+      380,
+      420
+    ],
+    "num_digit_2": [
+      100,
+      150,
+      200,
+      80,
+      75,
+      90,
+      140,
+      250,
+      180,
+      60
+    ],
+    "num_digit_3": [
+      50,
+      120,
+      100,
+      120,
+      60,
+      110,
+      80,
+      200,
+      70,
+      120
+    ],
+    "answer": [
+      150,
+      180,
+      200,
+      120,
+      140,
+      200,
+      130,
+      150,
+      130,
+      240
+    ]
+  },
+  "ic_question_template": "{num_ic, 306}人のファンがイベントにバナーを持ってきました。{num_digit_1, 240}人のアジア系の人のレースで、{num_digit_2, 80}人が日本人で残りは中国人だった。中国人チームの男子の数が{num_digit_3, 60}だった場合、中国人チームの女子の数は何人？",
+  "ic_sentence": "{num_ic, 306}人のファンがイベントにバナーを持ってきました。"
+}

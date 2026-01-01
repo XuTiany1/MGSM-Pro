@@ -1,0 +1,82 @@
+{
+  "original_question": "A cikin birnin Soda, akwai ainihin mazaunansa su 23786. Sun hada da maza 8417 da mata 9092. Sauran jama'ar kuma sun hada da yara. Yara nawa ne a Soda?",
+  "original_answer": 6277,
+  "question_template": "A cikin birnin {name_city, Soda}, akwai ainihin mazaunansa su {num_digit_1, 23786}. Sun hada da maza {num_digit_2, 8417} da mata {num_digit_3, 9092}. Sauran jama'ar kuma sun hada da yara. Yara nawa ne a {name_city, Soda}?",
+  "question_solution": "answer = num_digit_1 - num_digit_2 - num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 - num_digit_2 - num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_2 + num_digit_3 < num_digit_1",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_city": "Soda"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      52347,
+      92837,
+      100000,
+      75432,
+      86420,
+      99999,
+      120345,
+      65432,
+      88888,
+      135791
+    ],
+    "num_digit_2": [
+      18329,
+      34918,
+      45678,
+      29567,
+      12345,
+      78901,
+      45321,
+      32109,
+      44444,
+      57913
+    ],
+    "num_digit_3": [
+      21123,
+      40213,
+      32109,
+      34986,
+      23456,
+      12345,
+      56789,
+      21098,
+      22222,
+      24680
+    ],
+    "answer": [
+      12895,
+      17706,
+      22213,
+      10879,
+      50619,
+      8753,
+      18235,
+      12225,
+      22222,
+      53198
+    ],
+    "num_ic": [
+      37292,
+      192613,
+      354720,
+      57192,
+      114568,
+      191946,
+      758425,
+      40080,
+      68660,
+      938970
+    ]
+  },
+  "ic_question_template": "Magajin garin {name_city, Soda} yana da kawu wanda ya sayi bala-balan {num_ic, 174364} don bikin shekara-shekara. A cikin birnin {name_city, Soda}, akwai ainihin mazaunansa su {num_digit_1, 23786}. Sun hada da maza {num_digit_2, 8417} da mata {num_digit_3, 9092}. Sauran jama'ar kuma sun hada da yara. Yara nawa ne a {name_city, Soda}?",
+  "ic_sentence": "Magajin garin {name_city, Soda} yana da kawu wanda ya sayi bala-balan {num_ic, 174364} don bikin shekara-shekara."
+}

@@ -1,0 +1,54 @@
+{
+  "original_question": "Billy ɛtete na retwa atommo de asiesie ama atommo salad ama n'abusua kɛseɛ nkabom apontoɔ. Ɛyɛ dwumadiɛ kɛseɛ paa, enti ɔwɔ atommo 60 sɛdeɛ ɔbefa mu. Atommo dodoɔ no mu ɛyɛ pɛ, enti ɛgye bɛyɛ mmerɛ pɛ sɛ wɔtwa ne watete biara baako. Billy gyee simma bɛyɛ baako ne fa na ɔtete atommo no, nanso ɔde simma 5 pɛ na ɔtwaɛ. Bere tenten ahe na ɛbɛgye Billy ma wadi bɛtete atommo awie?",
+  "original_answer": 95,
+  "question_template": "{name_male, Billy} ɛtete na retwa atommo de asiesie ama atommo salad ama n'abusua kɛseɛ nkabom apontoɔ. Ɛyɛ dwumadiɛ kɛseɛ paa, enti ɔwɔ atommo {num_digit_1, 60} sɛdeɛ ɔbefa mu. Atommo dodoɔ no mu ɛyɛ pɛ, enti ɛgye bɛyɛ mmerɛ pɛ sɛ wɔtwa ne watete biara baako. {name_male, Billy} gyee simma bɛyɛ baako ne fa na ɔtete atommo no, nanso ɔde simma 5 pɛ na ɔtwaɛ. Bere tenten ahe na ɛbɛgye {name_male, Billy} ma wadi bɛtete atommo awie?",
+  "question_solution": "answer = num_digit_1 * 95 / 60",
+  "conditions": [
+    "answer == num_digit_1 * 95 / 60",
+    "num_digit_1 > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Billy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      24,
+      36,
+      48,
+      72,
+      84,
+      96,
+      108,
+      120,
+      132
+    ],
+    "answer": [
+      19,
+      38,
+      57,
+      76,
+      114,
+      133,
+      152,
+      171,
+      190,
+      209
+    ],
+    "num_ic": [
+      34,
+      59,
+      85,
+      39,
+      108,
+      61,
+      116,
+      47,
+      130,
+      98
+    ]
+  },
+  "ic_question_template": "{name_male, Billy} ɛtete na retwa atommo de asiesie ama atommo salad ama n'abusua kɛseɛ nkabom apontoɔ. Ɛyɛ dwumadiɛ kɛseɛ paa, enti ɔwɔ atommo {num_digit_1, 60} sɛdeɛ ɔbefa mu. Atommo dodoɔ no mu ɛyɛ pɛ, enti ɛgye bɛyɛ mmerɛ pɛ sɛ wɔtwa ne watete biara baako. {name_male, Billy} gyee simma bɛyɛ baako ne fa na ɔtete atommo no, nanso ɔde simma 5 pɛ na ɔtwaɛ. Bere tenten ahe na ɛbɛgye {name_male, Billy} ma wadi bɛtete atommo awie? {name_male, Billy} sewaa de pie a w'ayɛ wɔ fie {num_ic, 63} baa nkabom no.",
+  "ic_sentence": "{name_male, Billy} sewaa de pie a w'ayɛ wɔ fie {num_ic, 63} baa nkabom no."
+}

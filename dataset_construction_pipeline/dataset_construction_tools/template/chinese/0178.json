@@ -1,0 +1,72 @@
+{
+  "original_question": "拉尼比莫尼克多 10 只螃蟹。莫尼克比波少 4 只螃蟹。如果波有 40 只螃蟹，请计算三个人拥有的螃蟹的总数。",
+  "original_answer": 122,
+  "question_template": "{name_female_1, 拉尼} 比 {name_female_2, 莫尼克} 多 {num_text_1, 10} 只螃蟹。{name_female_2, 莫尼克} 比 {name_male_1, 波} 少 {num_digit_1, 4} 只螃蟹。如果 {name_male_1, 波} 有 {num_digit_2, 40} 只螃蟹，请计算三个人拥有的螃蟹的总数。",
+  "question_solution": "answer = num_digit_2 + (num_digit_2 - num_digit_1) + ((num_digit_2 - num_digit_1) + t1)   # t1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 + (num_digit_2 - num_digit_1) + ((num_digit_2 - num_digit_1) + t1)",
+    "num_digit_2 - num_digit_1 >= 0",
+    "t1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_1 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Rani",
+    "name_female_2": "Monic",
+    "name_male_1": "Bo"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "七",
+      "九",
+      "十二",
+      "四",
+      "十五",
+      "八",
+      "六",
+      "十一",
+      "十三",
+      "二十"
+    ],
+    "num_digit_1": [
+      5,
+      7,
+      3,
+      9,
+      4,
+      2,
+      8,
+      6,
+      12,
+      10
+    ],
+    "num_digit_2": [
+      50,
+      100,
+      30,
+      60,
+      75,
+      120,
+      25,
+      90,
+      200,
+      150
+    ],
+    "answer": [
+      147,
+      295,
+      96,
+      166,
+      232,
+      364,
+      65,
+      269,
+      589,
+      450
+    ]
+  },
+  "ic_question_template": "{name_female_2, 莫妮克} 的叔叔在海滩上捡到了 {num_ic, 88} 个贝壳。{name_female_1, 拉尼} 比 {name_female_2, 莫尼克} 多 {num_text_1, 10} 只螃蟹。{name_female_2, 莫尼克} 比 {name_male_1, 波} 少 {num_digit_1, 4} 只螃蟹。如果 {name_male_1, 波} 有 {num_digit_2, 40} 只螃蟹，请计算三个人拥有的螃蟹的总数。",
+  "ic_sentence": "{name_female_2, 莫妮克} 的叔叔在海滩上捡到了 {num_ic, 88} 个贝壳。"
+}

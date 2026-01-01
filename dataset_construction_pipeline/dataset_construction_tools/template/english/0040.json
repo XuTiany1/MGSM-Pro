@@ -1,0 +1,81 @@
+{
+  "original_question": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's iPhone. If Suzy’s iPhone is 1 year old, how old is Brandon’s iPhone?",
+  "original_answer": 8,
+  "question_template": "{name_male_1, Brandon}’s iPhone is {num_text_1, four} times as old as {name_male_2, Ben}’s iPhone. {name_male_2, Ben}’s iPhone is {num_text_2, two} times older than {name_female, Suzy}’s iPhone. If {name_female, Suzy}’s iPhone is {num_digit_1, 1} years old, how old is {name_male_1, Brandon}’s iPhone?",
+  "question_solution": "answer = NUM(num_text_1) * NUM(num_text_2) * num_digit_1",
+  "conditions": [
+    "int(answer) == NUM(num_text_1) * NUM(num_text_2) * num_digit_1",
+    "NUM(num_text_1) > 0",
+    "NUM(num_text_2) > 0",
+    "num_digit_1 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Brandon",
+    "name_male_2": "Ben",
+    "name_female": "Suzy"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "five",
+      "seven",
+      "eight",
+      "nine",
+      "eleven",
+      "thirteen",
+      "fourteen",
+      "fifteen",
+      "sixteen",
+      "eighteen"
+    ],
+    "num_text_2": [
+      "three",
+      "four",
+      "five",
+      "six",
+      "seven",
+      "two",
+      "nine",
+      "ten",
+      "eleven",
+      "four"
+    ],
+    "num_digit_1": [
+      2,
+      3,
+      1,
+      4,
+      2,
+      5,
+      3,
+      1,
+      2,
+      6
+    ],
+    "answer": [
+      30,
+      84,
+      40,
+      216,
+      154,
+      130,
+      378,
+      150,
+      352,
+      432
+    ],
+    "num_ic": [
+      8,
+      76,
+      14,
+      146,
+      108,
+      156,
+      181,
+      25,
+      74,
+      28
+    ]
+  },
+  "ic_question_template": "{name_male_1, Brandon}’s iPhone is {num_text_1, four} times as old as {name_male_2, Ben}’s iPhone. {name_male_2, Ben}’s iPhone is {num_text_2, two} times older than {name_female, Suzy}’s iPhone. {name_male_2, Ben}'s aunt recently bought {num_ic, 15} phone cases. If {name_female, Suzy}’s iPhone is {num_digit_1, 1} years old, how old is {name_male_1, Brandon}’s iPhone?",
+  "ic_sentence": "{name_male_2, Ben}'s aunt recently bought {num_ic, 15} phone cases."
+}

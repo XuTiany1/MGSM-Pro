@@ -1,0 +1,65 @@
+{
+  "original_question": "一处覆盆子树丛结出了 6 簇覆盆子，每簇 20 颗， 而且整个覆盆子树丛还散落着 67 颗覆盆子。一共有多少颗覆盆子？",
+  "original_answer": 187,
+  "question_template": "一处覆盆子树丛结出了 {num_digit_1, 6} 簇覆盆子，每簇 {num_digit_2, 20} 颗，而且整个覆盆子树丛还散落着 {num_digit_3, 67} 颗覆盆子。一共有多少颗覆盆子？",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 + num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      9,
+      12,
+      15,
+      13,
+      17,
+      23,
+      8,
+      14,
+      11
+    ],
+    "num_digit_2": [
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "num_digit_3": [
+      58,
+      72,
+      101,
+      89,
+      65,
+      139,
+      127,
+      53,
+      211,
+      101
+    ],
+    "answer": [
+      149,
+      225,
+      329,
+      434,
+      442,
+      666,
+      978,
+      381,
+      813,
+      618
+    ]
+  },
+  "ic_question_template": "园丁的侄子在附近种下了 {num_ic, 126} 棵蓝莓苗。一处覆盆子树丛结出了 {num_digit_1, 6} 簇覆盆子，每簇 {num_digit_2, 20} 颗，而且整个覆盆子树丛还散落着 {num_digit_3, 67} 颗覆盆子。一共有多少颗覆盆子？",
+  "ic_sentence": "园丁的侄子在附近种下了 {num_ic, 126} 棵蓝莓苗。"
+}

@@ -1,0 +1,94 @@
+{
+  "original_question": "Mike joue au ping-pong pendant 40 minutes. Durant les 20 premières minutes, il marque 4 points. Il marque 25 % de points supplémentaires pendant les 20 minutes suivantes. Combien de points a-t-il marqués au total ?",
+  "original_answer": 9,
+  "question_template": "{name_male, Mike} joue au ping-pong pendant {num_digit_1, 40} minutes. Durant les {num_digit_2, 20} premières minutes, il marque {num_digit_3, 16} points. Il marque {num_digit_5, 25} % de points supplémentaires pendant les {num_digit_4, 20} minutes suivantes. Combien de points a-t-il marqués au total ?",
+  "question_solution": "answer = num_digit_3 + num_digit_3 * (1 + num_digit_5 / 100)",
+  "conditions": [
+    "int(answer) == num_digit_3 + num_digit_3 * (1 + num_digit_5 / 100)",
+    "(num_digit_3 * num_digit_5) % 100 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_4 > 0",
+    "num_digit_3 > 0",
+    "num_digit_5 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Mike"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      40,
+      60,
+      80,
+      100,
+      75,
+      120,
+      90,
+      150,
+      200,
+      180
+    ],
+    "num_digit_2": [
+      20,
+      30,
+      40,
+      50,
+      30,
+      60,
+      45,
+      75,
+      100,
+      90
+    ],
+    "num_digit_3": [
+      16,
+      24,
+      30,
+      12,
+      25,
+      40,
+      28,
+      36,
+      45,
+      50
+    ],
+    "num_digit_4": [
+      20,
+      30,
+      40,
+      50,
+      30,
+      60,
+      45,
+      75,
+      100,
+      90
+    ],
+    "num_digit_5": [
+      25,
+      50,
+      20,
+      75,
+      40,
+      25,
+      50,
+      25,
+      40,
+      50
+    ],
+    "answer": [
+      36,
+      60,
+      66,
+      33,
+      60,
+      90,
+      70,
+      81,
+      108,
+      125
+    ]
+  },
+  "ic_question_template": "{name_male, Mike} a un oncle qui regarde {num_ic, 102} matchs de ping-pong chaque année. {name_male, Mike} joue au ping-pong pendant {num_digit_1, 40} minutes. Durant les {num_digit_2, 20} premières minutes, il marque {num_digit_3, 16} points. Il marque {num_digit_5, 25} % de points supplémentaires pendant les {num_digit_4, 20} minutes suivantes. Combien de points a-t-il marqués au total ?",
+  "ic_sentence": "{name_male, Mike} a un oncle qui regarde {num_ic, 102} matchs de ping-pong chaque année."
+}

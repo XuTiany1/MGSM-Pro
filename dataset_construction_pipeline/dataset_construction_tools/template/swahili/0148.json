@@ -1,0 +1,105 @@
+{
+  "original_question": "Brittany na mamake wanaenda kwenye makavazi. Gharama ya kuingia ni $12 kwa watu wazima na $10 kwa watoto. Mamake Brittany analipa pesa ya tiketi ya mtoto 1 na tiketi ya mtu mzima 1. Ikiwa alirudushiwa $8, ni pesa ngapi, katika dola, alikuwa amelipa?",
+  "original_answer": 30,
+  "question_template": "{name_female, Brittany} na mama yake wanaenda kwenye jumba la makumbusho. Gharama ya kiingilio ni ${num_digit_1, 12} kwa watu wazima na ${num_digit_2, 10} kwa watoto. Mama yake {name_female, Brittany} anampelekea mhudumu wa tiketi pesa za tiketi ya mtoto {num_digit_3, 1} na tiketi ya mtu mzima {num_digit_4, 1}. Ikiwa alipokea chenji ya ${num_digit_5, 8}, alimpa mhudumu pesa ngapi kwa jumla?",
+  "question_solution": "answer = num_digit_1 * num_digit_4 + num_digit_2 * num_digit_3 + num_digit_5",
+  "conditions": [
+    "answer == num_digit_1 * num_digit_4 + num_digit_2 * num_digit_3 + num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Brittany"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      14,
+      15,
+      18,
+      20,
+      22,
+      25,
+      27,
+      30,
+      32,
+      35
+    ],
+    "num_digit_2": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      10,
+      16,
+      18,
+      20,
+      22
+    ],
+    "num_digit_3": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      4,
+      2,
+      3,
+      1,
+      2
+    ],
+    "num_digit_4": [
+      1,
+      1,
+      2,
+      2,
+      1,
+      3,
+      2,
+      1,
+      3,
+      2
+    ],
+    "num_digit_5": [
+      5,
+      6,
+      10,
+      8,
+      7,
+      9,
+      15,
+      20,
+      12,
+      18
+    ],
+    "answer": [
+      30,
+      45,
+      85,
+      62,
+      59,
+      124,
+      101,
+      104,
+      128,
+      132
+    ],
+    "num_ic": [
+      31,
+      180,
+      52,
+      46,
+      11,
+      27,
+      36,
+      74,
+      92,
+      320
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_female, Brittany} alitembelea jumba la makumbusho wiki iliyopita na kununua kadi za posta {num_ic, 31}. {name_female, Brittany} na mama yake wanaenda kwenye jumba la makumbusho. Gharama ya kiingilio ni ${num_digit_1, 12} kwa watu wazima na ${num_digit_2, 10} kwa watoto. Mama yake {name_female, Brittany} anampelekea mhudumu wa tiketi pesa za tiketi ya mtoto {num_digit_3, 1} na tiketi ya mtu mzima {num_digit_4, 1}. Ikiwa alipokea chenji ya ${num_digit_5, 8}, alimpa mhudumu pesa ngapi kwa jumla?",
+  "ic_sentence": "Mjomba wa {name_female, Brittany} alitembelea jumba la makumbusho wiki iliyopita na kununua kadi za posta {num_ic, 31}."
+}

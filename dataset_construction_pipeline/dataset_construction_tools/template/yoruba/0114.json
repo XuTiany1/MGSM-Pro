@@ -1,0 +1,80 @@
+{
+  "original_question": "Ẹ̀rọ ìbánisọ̀rọ̀ Jamal lè gbà àwòrán ní ìgbà 6 ju ẹ̀rọ ìbánisọ̀rọ̀ Brittany lọ. Iye àwòrán tí ẹ̀rọ ìbánisọ̀rọ̀ Brittany lè gbà fi ìgbà 50 ju iye ẹyẹ orí àwòrán pẹ́pẹ́yẹ Jamal nínú ọgbà ẹranko lọ. Tí ẹ̀rọ ìbánisọ̀rọ̀ Jamal bá lè gba àwòrán 1800, pẹ́pẹ́yẹ mélòó ní a lè rí nínú àwòrán pẹ́pẹ́yẹ Jamal nínú ọgbà ẹranko?",
+  "original_answer": 6,
+  "question_template": "Ẹ̀rọ ìbánisọ̀rọ̀ {name_male, Jamal} lè gbà àwòrán ní ìgbà {num_digit_1, 6} ju ẹ̀rọ ìbánisọ̀rọ̀ {name_female, Brittany} lọ. Iye àwòrán tí ẹ̀rọ ìbánisọ̀rọ̀ {name_female, Brittany} lè gbà fi ìgbà {num_digit_3, 50} ju iye ẹyẹ orí àwòrán pẹ́pẹ́yẹ {name_male, Jamal} nínú ọgbà ẹranko lọ. Tí ẹ̀rọ ìbánisọ̀rọ̀ {name_male, Jamal} bá lè gba àwòrán {num_digit_2, 1800}, pẹ́pẹ́yẹ mélòó ní a lè rí nínú àwòrán pẹ́pẹ́yẹ {name_male, Jamal} nínú ọgbà ẹranko?",
+  "question_solution": "answer = num_digit_2 / (num_digit_1 * num_digit_3)",
+  "conditions": [
+    "int(answer) == num_digit_2 / (num_digit_1 * num_digit_3)",
+    "num_digit_1 > 0",
+    "num_digit_3 > 0",
+    "num_digit_2 % (num_digit_1 * num_digit_3) == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jamal",
+    "name_female": "Brittany"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      7,
+      5,
+      8,
+      9,
+      12,
+      15,
+      6,
+      10,
+      11
+    ],
+    "num_digit_2": [
+      900,
+      1260,
+      1600,
+      2520,
+      2700,
+      6600,
+      1440,
+      5460,
+      4320,
+      3267
+    ],
+    "num_digit_3": [
+      25,
+      30,
+      40,
+      45,
+      60,
+      50,
+      24,
+      70,
+      36,
+      33
+    ],
+    "answer": [
+      9,
+      6,
+      8,
+      7,
+      5,
+      11,
+      4,
+      13,
+      12,
+      9
+    ],
+    "num_ic": [
+      20,
+      84,
+      103,
+      48,
+      50,
+      112,
+      99,
+      93,
+      52,
+      97
+    ]
+  },
+  "ic_question_template": "Ẹ̀rọ ìbánisọ̀rọ̀ {name_male, Jamal} lè gbà àwòrán ní ìgbà {num_digit_1, 6} ju ẹ̀rọ ìbánisọ̀rọ̀ {name_female, Brittany} lọ. Iye àwòrán tí ẹ̀rọ ìbánisọ̀rọ̀ {name_female, Brittany} lè gbà fi ìgbà {num_digit_3, 50} ju iye ẹyẹ orí àwòrán pẹ́pẹ́yẹ {name_male, Jamal} nínú ọgbà ẹranko lọ. Tí ẹ̀rọ ìbánisọ̀rọ̀ {name_male, Jamal} bá lè gba àwòrán {num_digit_2, 1800}, pẹ́pẹ́yẹ mélòó ní a lè rí nínú àwòrán pẹ́pẹ́yẹ {name_male, Jamal} nínú ọgbà ẹranko? Arákùnrin {name_male, Jamal} fi ìgbà kan se àbẹ̀wò sí àwọn ọgbà orílẹ̀-èdè {num_ic, 84}.",
+  "ic_sentence": "Arákùnrin {name_male, Jamal} fi ìgbà kan se àbẹ̀wò sí àwọn ọgbà orílẹ̀-èdè {num_ic, 84}."
+}

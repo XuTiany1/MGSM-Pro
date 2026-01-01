@@ -1,0 +1,94 @@
+{
+  "original_question": "Carmen gye simma 10 ansa na watumi adi aborɔme ano ne simma 5 ansa na watumi adi aborɔme sudoku. Wɔ nnawɔtwe awiei no mu no, odii aborɔme 3 ne sudoku aborɔme 8 ano. Bere dodoɔ ahe na ɔde dii saa agoru no?",
+  "original_answer": 70,
+  "question_template": "{name_female, Carmen} gye simma {num_digit_1, 10} ansa na watumi adi aborɔme ano ne simma {num_digit_2, 5} ansa na watumi adi aborɔme sudoku. Wɔ nnawɔtwe awiei no mu no, odii aborɔme {num_digit_3, 3} ne sudoku aborɔme {num_digit_4, 8} ano. Bere dodoɔ ahe na ɔde dii saa agoru no?",
+  "question_solution": "answer = num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Carmen"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      17,
+      23,
+      37,
+      42,
+      55,
+      61,
+      79,
+      88,
+      94,
+      101
+    ],
+    "num_digit_2": [
+      13,
+      29,
+      31,
+      47,
+      53,
+      67,
+      72,
+      84,
+      91,
+      100
+    ],
+    "num_digit_3": [
+      12,
+      17,
+      23,
+      29,
+      31,
+      37,
+      41,
+      44,
+      48,
+      50
+    ],
+    "num_digit_4": [
+      18,
+      22,
+      27,
+      33,
+      38,
+      42,
+      49,
+      51,
+      54,
+      60
+    ],
+    "answer": [
+      438,
+      1029,
+      1688,
+      2769,
+      3719,
+      5071,
+      6767,
+      8156,
+      9426,
+      11050
+    ],
+    "num_ic": [
+      33,
+      217,
+      337,
+      59,
+      266,
+      32,
+      280,
+      133,
+      186,
+      919
+    ]
+  },
+  "ic_question_template": "{name_female, Carmen} wɔfa too cookies {num_ic, 46} Memeneda no. {name_female, Carmen} gye simma {num_digit_1, 10} ansa na watumi adi aborɔme ano ne simma {num_digit_2, 5} ansa na watumi adi aborɔme sudoku. Wɔ nnawɔtwe awiei no mu no, odii aborɔme {num_digit_3, 3} ne sudoku aborɔme {num_digit_4, 8} ano. Bere dodoɔ ahe na ɔde dii saa agoru no?",
+  "ic_sentence": "{name_female, Carmen} wɔfa too cookies {num_ic, 46} Memeneda no."
+}

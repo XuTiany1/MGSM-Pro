@@ -1,0 +1,120 @@
+{
+  "original_question": "Domin bikin cika shekaru 30 da haihuwa, Elvira ta zaɓi sabuwar kwamfuta tare da karin wasu kayan karau da yawa a matsayin kyauta. Tana da kasafin kuɗin €1500 da dukan danginta suka bayar kuma tana tunanin cewa za ta iya ajiye ɗan kuɗi kaɗan don siyan sutura. Ta je kantin sayar da kwamfuta ta zaɓi na'ura mai tsadar €1090 mai tare da allo, keyboard da kuma dan-beran kwamfuta. Har ila yau ta ɗauki na'urar sikana akan €157, CD burner wanda darajarsa takai €74 da na'urar fitar da rubutu akan €102. Nawa ne adadin da zata samu shaura na siyan kayan sawa?",
+  "original_answer": 77,
+  "question_template": "Domin bikin cika shekaru {num_digit_1, 30} da haihuwa, {name_female, Elvira} ta zaɓi sabuwar kwamfuta tare da karin wasu kayan karau da yawa a matsayin kyauta. Tana da kasafin kuɗin €{num_digit_2, 1500} da dukan danginta suka bayar kuma tana tunanin cewa za ta iya ajiye ɗan kuɗi kaɗan don siyan sutura. Ta je kantin sayar da kwamfuta ta zaɓi na'ura mai tsadar €{num_digit_3, 1090} mai tare da allo, keyboard da kuma dan-beran kwamfuta. Har ila yau ta ɗauki na'urar sikana akan €{num_digit_4, 157}, CD burner wanda darajarsa takai €{num_digit_5, 74} da na'urar fitar da rubutu akan €{num_digit_6, 102}. Nawa ne adadin da zata samu shaura na siyan kayan sawa?",
+  "question_solution": "answer = num_digit_2 - (num_digit_3 + num_digit_4 + num_digit_5 + num_digit_6)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 - (num_digit_3 + num_digit_4 + num_digit_5 + num_digit_6)",
+    "num_digit_2 > num_digit_3 + num_digit_4 + num_digit_5 + num_digit_6",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Elvira"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      30,
+      35,
+      28,
+      26,
+      32,
+      31,
+      29,
+      33,
+      27,
+      34
+    ],
+    "num_digit_2": [
+      1800,
+      2200,
+      1700,
+      2500,
+      2000,
+      3000,
+      2400,
+      2600,
+      2100,
+      1900
+    ],
+    "num_digit_3": [
+      1230,
+      1500,
+      980,
+      1850,
+      1100,
+      2250,
+      1490,
+      1580,
+      1350,
+      1000
+    ],
+    "num_digit_4": [
+      210,
+      300,
+      150,
+      275,
+      200,
+      310,
+      190,
+      210,
+      160,
+      180
+    ],
+    "num_digit_5": [
+      125,
+      120,
+      87,
+      130,
+      150,
+      140,
+      90,
+      130,
+      80,
+      75
+    ],
+    "num_digit_6": [
+      95,
+      175,
+      140,
+      90,
+      60,
+      160,
+      95,
+      120,
+      85,
+      68
+    ],
+    "answer": [
+      140,
+      105,
+      343,
+      155,
+      490,
+      140,
+      535,
+      560,
+      425,
+      577
+    ],
+    "num_ic": [
+      73,
+      122,
+      133,
+      53,
+      137,
+      113,
+      109,
+      150,
+      166,
+      100
+    ]
+  },
+  "ic_question_template": "Antin {name_female, Elvira} ta sayi kebul ɗin ajiya {num_ic, 84} makon da ya gabata. Domin bikin cika shekaru {num_digit_1, 30} da haihuwa, {name_female, Elvira} ta zaɓi sabuwar kwamfuta tare da karin wasu kayan karau da yawa a matsayin kyauta. Tana da kasafin kuɗin €{num_digit_2, 1500} da dukan danginta suka bayar kuma tana tunanin cewa za ta iya ajiye ɗan kuɗi kaɗan don siyan sutura. Ta je kantin sayar da kwamfuta ta zaɓi na'ura mai tsadar €{num_digit_3, 1090} mai tare da allo, keyboard da kuma dan-beran kwamfuta. Har ila yau ta ɗauki na'urar sikana akan €{num_digit_4, 157}, CD burner wanda darajarsa takai €{num_digit_5, 74} da na'urar fitar da rubutu akan €{num_digit_6, 102}. Nawa ne adadin da zata samu shaura na siyan kayan sawa?",
+  "ic_sentence": "Antin {name_female, Elvira} ta sayi kebul ɗin ajiya {num_ic, 84} makon da ya gabata."
+}

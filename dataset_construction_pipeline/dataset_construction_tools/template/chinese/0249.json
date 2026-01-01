@@ -1,0 +1,93 @@
+{
+  "original_question": "周一，苏吃的饼干是她妹妹的 4 倍。周二，她吃的饼干是她妹妹的两倍。她妹妹周一吃了 5 块饼干，第二天吃了 13 块。如果 1 块饼干含有 200 卡路里，苏比她妹妹多摄入了多少卡路里？",
+  "original_answer": 5600,
+  "question_template": "{name_female, 苏} 周一吃的饼干是她妹妹的 {num_digit_1, 4} 倍。周二，她吃的饼干是她妹妹的 {num_text_1, 两倍}。她妹妹周一吃了 {num_digit_2, 5} 块饼干，第二天吃了 {num_digit_3, 13} 块。如果 {num_digit_4, 1} 块饼干含有 {num_digit_5, 200} 卡路里，{name_female, 苏} 比她妹妹多摄入了多少卡路里？",
+  "question_solution": "answer = ((num_digit_1 * num_digit_2 + 2 * num_digit_3) - (num_digit_2 + num_digit_3)) * num_digit_5",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == ((num_digit_1 * num_digit_2 + 2 * num_digit_3) - (num_digit_2 + num_digit_3)) * num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      15
+    ],
+    "num_digit_2": [
+      3,
+      5,
+      8,
+      12,
+      15,
+      16,
+      18,
+      20,
+      22,
+      25
+    ],
+    "num_digit_3": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_4": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "num_digit_5": [
+      180,
+      190,
+      205,
+      210,
+      235,
+      250,
+      265,
+      275,
+      300,
+      325
+    ],
+    "answer": [
+      2340,
+      4940,
+      9225,
+      16170,
+      25615,
+      33750,
+      45845,
+      58025,
+      83700,
+      127075
+    ]
+  },
+  "ic_question_template": "{name_female, 苏} 的叔叔带来了 {num_ic, 15} 个馅饼到她家。{name_female, 苏} 周一吃的饼干是她妹妹的 {num_digit_1, 4} 倍。周二，她吃的饼干是她妹妹的 {num_text_1, 两倍}。她妹妹周一吃了 {num_digit_2, 5} 块饼干，第二天吃了 {num_digit_3, 13} 块。如果 {num_digit_4, 1} 块饼干含有 {num_digit_5, 200} 卡路里，{name_female, 苏} 比她妹妹多摄入了多少卡路里？",
+  "ic_sentence": "{name_female, 苏} 的叔叔带来了 {num_ic, 15} 个馅饼到她家。"
+}

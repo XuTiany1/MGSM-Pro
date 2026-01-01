@@ -1,0 +1,67 @@
+{
+  "original_question": "Gretchen ana sarafu 110. Kuna sarafu 30 za dhahabu zaidi ya sarafu za fedha. Gretchen ana sarafu ngapi za dhahabu?",
+  "original_answer": 70,
+  "question_template": "{name_female, Gretchen} ana sarafu {num_digit_1, 110}. Kuna sarafu {num_digit_2, 30} za dhahabu zaidi kuliko sarafu za fedha. {name_female, Gretchen} ana sarafu ngapi za dhahabu?",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) / 2",
+  "conditions": [
+    "int(answer) == (num_digit_1 + num_digit_2) / 2",
+    "(num_digit_1 + num_digit_2) % 2 == 0",
+    "num_digit_1 > num_digit_2",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Gretchen"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      235,
+      418,
+      301,
+      560,
+      789,
+      1000,
+      873,
+      945,
+      512,
+      389
+    ],
+    "num_digit_2": [
+      57,
+      122,
+      101,
+      48,
+      201,
+      200,
+      77,
+      189,
+      128,
+      63
+    ],
+    "answer": [
+      146,
+      270,
+      201,
+      304,
+      495,
+      600,
+      475,
+      567,
+      320,
+      226
+    ],
+    "num_ic": [
+      119,
+      226,
+      81,
+      217,
+      173,
+      930,
+      646,
+      552,
+      152,
+      356
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_female, Gretchen} anakusanya stempu adimu {num_ic, 970}. {name_female, Gretchen} ana sarafu {num_digit_1, 110}. Kuna sarafu {num_digit_2, 30} za dhahabu zaidi kuliko sarafu za fedha. {name_female, Gretchen} ana sarafu ngapi za dhahabu?",
+  "ic_sentence": "Mjomba wa {name_female, Gretchen} anakusanya stempu adimu {num_ic, 970}."
+}

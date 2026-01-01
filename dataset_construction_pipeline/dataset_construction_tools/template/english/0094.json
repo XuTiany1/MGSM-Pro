@@ -1,0 +1,78 @@
+{
+  "original_question": "In a neighborhood, the number of rabbits pets is twelve less than the combined number of pet dogs and cats. If there are two cats for every dog, and the number of dogs is 60, how many pets in total are in the neighborhood?",
+  "original_answer": 348,
+  "question_template": "In a neighborhood, the number of rabbits pets is {num_text_1, twelve} less than the combined number of pet dogs and cats. If there are {num_text_2, two} cats for every dog, and the number of dogs is {num_digit_1, 60}, how many pets in total are in the neighborhood?",
+  "question_solution": "answer = 2*(num_digit_1 + num_digit_1 * NUM(num_text_2)) - NUM(num_text_1)",
+  "conditions": [
+    "int(answer) == 2*(num_digit_1 + num_digit_1 * NUM(num_text_2)) - NUM(num_text_1)",
+    "NUM(num_text_2) > 0",
+    "NUM(num_text_1) >= 0",
+    "num_digit_1 > 0",
+    "2*(num_digit_1 + num_digit_1 * NUM(num_text_2)) >= NUM(num_text_1)"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "ten",
+      "five",
+      "twelve",
+      "eight",
+      "twenty",
+      "three",
+      "seven",
+      "fourteen",
+      "four",
+      "twenty-five"
+    ],
+    "num_text_2": [
+      "three",
+      "two",
+      "four",
+      "five",
+      "six",
+      "two",
+      "five",
+      "seven",
+      "one",
+      "nine"
+    ],
+    "num_digit_1": [
+      50,
+      30,
+      40,
+      25,
+      60,
+      15,
+      12,
+      20,
+      33,
+      45
+    ],
+    "answer": [
+      390,
+      175,
+      388,
+      292,
+      820,
+      87,
+      137,
+      306,
+      128,
+      875
+    ],
+    "num_ic": [
+      202,
+      64,
+      197,
+      72,
+      255,
+      9,
+      42,
+      164,
+      29,
+      347
+    ]
+  },
+  "ic_question_template": "In a neighborhood, the number of rabbits pets is {num_text_1, twelve} less than the combined number of pet dogs and cats. If there are {num_text_2, two} cats for every dog, and the number of dogs is {num_digit_1, 60}, {name_female, Olivia}'s uncle has {num_ic, 197} turtles. How many pets in total are in the neighborhood?",
+  "ic_sentence": "{name_female, Olivia}'s uncle has {num_ic, 197} turtles."
+}

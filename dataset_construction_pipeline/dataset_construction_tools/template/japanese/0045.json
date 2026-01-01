@@ -1,0 +1,81 @@
+{
+  "original_question": "メレディスは健康のトピックについて書き、毎日クライアントに提出することが本業の、フリーランスのブロガーです。ブログ記事は、リサーチして執筆するために平均4時間かかります。先週、月曜日に彼女は5記事書き、火曜日は月曜日の2/5倍の記事を書きました。水曜日、彼女は火曜日に書いた記事の数の倍の数を書きました。3日間で彼女は合計何時間、記事を書くことに使ったのかを計算しなさい。",
+  "original_answer": 104,
+  "question_template": "{name_female, Meredith}は健康のトピックについて書き、毎日クライアントに提出することが本業の、フリーランスのブロガーです。ブログ記事は、リサーチして執筆するために平均{num_digit_1, 4}時間かかります。先週、月曜日に彼女は{num_digit_2, 5}記事書き、火曜日は月曜日の{num_frac_1, 2/5}倍の記事を書きました。水曜日、彼女は火曜日に書いた記事の数の{num_text_1, twice} 倍の数を書きました。3日間で彼女は合計何時間、記事を書くことに使ったのかを計算しなさい。",
+  "question_solution": "answer = num_digit_1 * (num_digit_2 + num_digit_2 * (1 + NUM(num_frac_1)) + num_digit_2 * (1 + NUM(num_frac_1)) * NUM(num_text_1))",
+  "conditions": [
+    "int(answer) == num_digit_1 * (num_digit_2 + num_digit_2 * (1 + NUM(num_frac_1)) + num_digit_2 * (1 + NUM(num_frac_1)) * NUM(num_text_1))",
+    "(num_digit_2 * NUM(num_frac_1)).is_integer()",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_text_1) > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Meredith"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      3,
+      2,
+      5,
+      6,
+      2,
+      4,
+      3,
+      5,
+      6
+    ],
+    "num_digit_2": [
+      5,
+      6,
+      9,
+      4,
+      10,
+      9,
+      15,
+      12,
+      20,
+      25
+    ],
+    "num_frac_1": [
+      "2/5",
+      "1/2",
+      "1/3",
+      "3/4",
+      "4/5",
+      "2/3",
+      "3/5",
+      "1/4",
+      "1/5",
+      "2/5"
+    ],
+    "num_text_1": [
+      "二回",
+      "三度 (さんど)",
+      "４回 (yonkai)",
+      "二回",
+      "三度 (さんど)",
+      "二回",
+      "４回 (yonkai)",
+      "三度 (さんど)",
+      "二回",
+      "４回 (yonkai)"
+    ],
+    "answer": [
+      104,
+      126,
+      138,
+      125,
+      492,
+      108,
+      540,
+      216,
+      460,
+      1200
+    ]
+  },
+  "ic_question_template": "{name_female, メレディス}のおじは先月、栄養に関する本を{num_ic, 54}冊買いました。{name_female, Meredith}は健康のトピックについて書き、毎日クライアントに提出することが本業の、フリーランスのブロガーです。ブログ記事は、リサーチして執筆するために平均{num_digit_1, 4}時間かかります。先週、月曜日に彼女は{num_digit_2, 5}記事書き、火曜日は月曜日の{num_frac_1, 2/5}倍の記事を書きました。水曜日、彼女は火曜日に書いた記事の数の{num_text_1, twice} 倍の数を書きました。3日間で彼女は合計何時間、記事を書くことに使ったのかを計算しなさい。",
+  "ic_sentence": "{name_female, メレディス}のおじは先月、栄養に関する本を{num_ic, 54}冊買いました。"
+}

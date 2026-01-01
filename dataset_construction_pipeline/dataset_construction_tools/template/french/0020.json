@@ -1,0 +1,91 @@
+{
+  "original_question": "J'ai 10 litres de jus d'orange composés aux deux tiers d'eau. En voulant les mélanger à 15 litres de jus d'ananas composés aux trois quarts d'eau, je renverse un litre de jus d'orange. Quelle quantité d'eau y a-t-il dans les 24 litres restants ?",
+  "original_answer": 15,
+  "question_template": "J'ai {num_digit_1, 10} litres de jus d'orange composés aux {num_frac_1, deux tiers} d'eau. En voulant les mélanger à {num_digit_2, 15} litres de jus d'ananas composés aux {num_frac_2, trois cinquièmes} d'eau, je renverse un litre de jus d'orange. Quelle quantité d'eau y a-t-il dans les {num_digit_3, 24} litres restants ?",
+  "question_solution": "answer = (num_digit_1 - 1) * NUM(num_frac_1) + num_digit_2 * NUM(num_frac_2)",
+  "conditions": [
+    "int(answer) == (num_digit_1 - 1) * NUM(num_frac_1) + num_digit_2 * NUM(num_frac_2)",
+    "num_digit_1 > 1",
+    "0 < NUM(num_frac_1) <= 1",
+    "num_digit_2 > 0",
+    "0 < NUM(num_frac_2) <= 1",
+    "num_digit_3 == num_digit_1 + num_digit_2 - 1"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      49,
+      145,
+      49,
+      81,
+      301,
+      148,
+      313,
+      253,
+      201,
+      325
+    ],
+    "num_frac_1": [
+      "un demi",
+      "deux tiers",
+      "trois quarts",
+      "quatre cinquièmes",
+      "cinq sixièmes",
+      "six-septièmes",
+      "sept huitièmes",
+      "huit neuvièmes",
+      "neuf dixièmes",
+      "cinq douzièmes"
+    ],
+    "num_digit_2": [
+      57,
+      150,
+      176,
+      162,
+      440,
+      165,
+      600,
+      92,
+      180,
+      129
+    ],
+    "num_frac_2": [
+      "un tiers",
+      "deux cinquièmes",
+      "trois huitièmes",
+      "quatre neuvièmes",
+      "cinq dixièmes",
+      "six onzièmes",
+      "sept douzièmes",
+      "trois quarts",
+      "cinq sixièmes",
+      "deux tiers"
+    ],
+    "num_digit_3": [
+      105,
+      294,
+      224,
+      242,
+      740,
+      312,
+      912,
+      344,
+      380,
+      453
+    ],
+    "answer": [
+      43,
+      156,
+      102,
+      136,
+      470,
+      216,
+      623,
+      293,
+      330,
+      221
+    ]
+  },
+  "ic_question_template": "{name_male, Eric} a un cousin qui a apporté {num_ic, 186} mangues au pique-nique. J'ai {num_digit_1, 10} litres de jus d'orange composés aux {num_frac_1, deux tiers} d'eau. En voulant les mélanger à {num_digit_2, 15} litres de jus d'ananas composés aux {num_frac_2, trois cinquièmes} d'eau, je renverse un litre de jus d'orange. Quelle quantité d'eau y a-t-il dans les {num_digit_3, 24} litres restants ?",
+  "ic_sentence": "{name_male, Eric} a un cousin qui a apporté {num_ic, 186} mangues au pique-nique."
+}

@@ -1,0 +1,68 @@
+{
+  "original_question": "Une entreprise verse 600 $ par mois à chaque employé. Elle a pour politique d'ajouter 10 % au salaire initial de chacun de ses employés ayant cinq ans d'ancienneté. Si Sylvie vient de passer 5 ans dans l'entreprise en décembre dernier, quel sera son salaire annuel après trois années supplémentaires de service ?",
+  "original_answer": 9360,
+  "question_template": "Une entreprise verse {num_digit_1, 600} $ par mois à chaque employé. Elle a pour politique d'ajouter {num_digit_2, 10} % au salaire initial de chacun de ses employés ayant {num_text_1, cinq} ans d'ancienneté. Si {name_female, Sylvie} vient de passer {num_digit_3, 5} ans dans l'entreprise en décembre dernier, quel sera son salaire annuel après {num_text_2, trois} années supplémentaires de service ?",
+  "question_solution": "answer = num_digit_1 * (1 + NUM(num_text_2) * num_digit_2 / 100) * 12",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 + NUM(num_text_2) * num_digit_2 / 100) * 12",
+    "NUM(num_text_2) > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_2 < 100"
+  ],
+  "variable_word_list": {
+    "name_female": "Sylvie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      500,
+      550,
+      625,
+      720,
+      800,
+      825,
+      900,
+      1000,
+      1100,
+      1200
+    ],
+    "num_digit_2": [
+      5,
+      8,
+      12,
+      20,
+      25,
+      4,
+      15,
+      30,
+      50,
+      6
+    ],
+    "num_text_2": [
+      "deux",
+      "trois",
+      "quatre",
+      "six",
+      "huit",
+      "cinq",
+      "sept",
+      "neuf",
+      "dix",
+      "onze"
+    ],
+    "answer": [
+      6600,
+      8184,
+      11100,
+      19008,
+      28800,
+      11880,
+      22140,
+      44400,
+      79200,
+      23904
+    ]
+  },
+  "ic_question_template": "{name_female, Sylvie} a un oncle qui a récemment acheté {num_ic, 77} chaises de bureau. Une entreprise verse {num_digit_1, 600} $ par mois à chaque employé. Elle a pour politique d'ajouter {num_digit_2, 10} % au salaire initial de chacun de ses employés ayant {num_text_1, cinq} ans d'ancienneté. Si {name_female, Sylvie} vient de passer {num_digit_3, 5} ans dans l'entreprise en décembre dernier, quel sera son salaire annuel après {num_text_2, trois} années supplémentaires de service ?",
+  "ic_sentence": "{name_female, Sylvie} a un oncle qui a récemment acheté {num_ic, 77} chaises de bureau."
+}

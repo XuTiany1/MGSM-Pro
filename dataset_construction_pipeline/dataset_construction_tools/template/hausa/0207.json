@@ -1,0 +1,94 @@
+{
+  "original_question": "Jakar Joe ta alewar Halloween na da jerin cakulet 25 da alewa mai dandanon apples 80. Kowane cakulet na da nauyi sau biyu fiye da na alewa mai dandanon apple. Idan kowane layi na cakuleti na da nauyin giram 40, nawa ne nauyin jakar alewar, a ma'aunin giram?",
+  "original_answer": 2600,
+  "question_template": "Jakar {name_male, Joe} ta alewar Halloween na da jerin cakulet {num_digit_1, 25} da alewa mai dandanon apples {num_digit_2, 80}. Kowane cakulet na da nauyi {num_text_1, ninki biyu} fiye da na alewa mai dandanon apple. Idan kowane layi na cakuleti na da nauyin giram {num_digit_3, 40}, nawa ne nauyin jakar alewar, a ma'aunin giram?",
+  "question_solution": "answer = num_digit_1 * num_digit_3 + num_digit_2 * (num_digit_3 / f1)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_3 + num_digit_2 * (num_digit_3 / f1)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "f1 > 0",
+    "num_digit_3 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Joe"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      116,
+      53,
+      50,
+      135,
+      66,
+      106,
+      189,
+      70,
+      175,
+      191
+    ],
+    "num_digit_2": [
+      131,
+      147,
+      413,
+      224,
+      197,
+      222,
+      329,
+      263,
+      155,
+      249
+    ],
+    "num_text_1": [
+      "ɗaya da rabin",
+      "biyu da tirɗi",
+      "kwata uku",
+      "uku bisa biyar",
+      "biyar cikin shida",
+      "Bakwai cikin takwas",
+      "Tara cikin goma",
+      "goma sha ɗaya cikin goma sha biyu",
+      "Tirteenth din huɗu sha huɗu",
+      "Goma sha bakwai cikin goma sha takwas"
+    ],
+    "num_digit_3": [
+      54,
+      91,
+      48,
+      44,
+      95,
+      35,
+      27,
+      187,
+      130,
+      68
+    ],
+    "answer": [
+      10980,
+      10556,
+      28832,
+      18260,
+      28728,
+      12590,
+      14973,
+      66742,
+      44450,
+      30916
+    ],
+    "num_ic": [
+      206,
+      93,
+      493,
+      164,
+      271,
+      164,
+      441,
+      230,
+      393,
+      304
+    ]
+  },
+  "ic_question_template": "Kawun {name_male, Joe} ya sayi alewa {num_ic, 112} don liyafa. Jakar {name_male, Joe} ta alewar Halloween na da jerin cakulet {num_digit_1, 25} da alewa mai dandanon apples {num_digit_2, 80}. Kowane cakulet na da nauyi {num_text_1, ninki biyu} fiye da na alewa mai dandanon apple. Idan kowane layi na cakuleti na da nauyin giram {num_digit_3, 40}, nawa ne nauyin jakar alewar, a ma'aunin giram?",
+  "ic_sentence": "Kawun {name_male, Joe} ya sayi alewa {num_ic, 112} don liyafa."
+}

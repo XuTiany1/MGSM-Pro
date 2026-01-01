@@ -1,0 +1,68 @@
+{
+  "original_question": "莱恩每天在他的花园里种下 2 棵花。如果 5 棵不长，15 天后，他有多少棵花？",
+  "original_answer": 25,
+  "question_template": "{name_male, 莱恩} 每天在他的花园里种下 {num_digit_1, 2} 棵花。如果 {num_digit_3, 5} 棵不长，{num_digit_2, 15} 天后，他有多少棵花？",
+  "question_solution": "answer = num_digit_1 * num_digit_2 - num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 - num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "answer > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Ryan"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      5,
+      4,
+      7,
+      9,
+      6,
+      8,
+      10,
+      11,
+      12
+    ],
+    "num_digit_2": [
+      12,
+      9,
+      18,
+      11,
+      13,
+      20,
+      14,
+      16,
+      17,
+      19
+    ],
+    "num_digit_3": [
+      4,
+      7,
+      6,
+      8,
+      10,
+      15,
+      12,
+      18,
+      9,
+      22
+    ],
+    "answer": [
+      32,
+      38,
+      66,
+      69,
+      107,
+      105,
+      100,
+      142,
+      178,
+      206
+    ]
+  },
+  "ic_question_template": "{name_male, 瑞安} 的叔叔为花园带来了 {num_ic, 8} 个新花盆。{name_male, 莱恩} 每天在他的花园里种下 {num_digit_1, 2} 棵花。如果 {num_digit_3, 5} 棵不长，{num_digit_2, 15} 天后，他有多少棵花？",
+  "ic_sentence": "{name_male, 瑞安} 的叔叔为花园带来了 {num_ic, 8} 个新花盆。"
+}

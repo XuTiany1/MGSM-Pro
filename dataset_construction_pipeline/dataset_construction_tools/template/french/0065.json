@@ -1,0 +1,80 @@
+{
+  "original_question": "Jim passe 2 heures à regarder la télévision, puis décide d'aller se coucher et de lire pendant la moitié du temps qu'il passe à visionner. Il répète cela 3 fois par semaine. Combien d'heures passe-t-il à regarder la télévision et à lire en 4 semaines ?",
+  "original_answer": 36,
+  "question_template": "{name_male, Jim} passe {num_digit_1, 2} heures à regarder la télévision, puis décide d'aller se coucher et de lire pendant la {num_frac, moitié} du temps qu'il passe à visionner. Il répète cela {num_digit_2, 3} fois par semaine. Combien d'heures passe-t-il à regarder la télévision et à lire en {num_digit_3, 4} semaines ?",
+  "question_solution": "answer = num_digit_1 * (1 + NUM(num_frac)) * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 + NUM(num_frac)) * num_digit_2 * num_digit_3",
+    "NUM(num_frac) > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jim"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      15
+    ],
+    "num_frac": [
+      "2/3",
+      "3/4",
+      "1/3",
+      "4/5",
+      "5/6",
+      "3/5",
+      "2/5",
+      "3/8",
+      "7/8",
+      "1/4"
+    ],
+    "num_digit_2": [
+      1,
+      2,
+      6,
+      5,
+      6,
+      5,
+      8,
+      8,
+      10,
+      12
+    ],
+    "num_digit_3": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      5,
+      10,
+      11,
+      12
+    ],
+    "answer": [
+      10,
+      42,
+      200,
+      324,
+      539,
+      512,
+      504,
+      1100,
+      2475,
+      2700
+    ]
+  },
+  "ic_question_template": "{name_male, Jim} reçoit la visite de son oncle pendant {num_ic, 34} jours chaque année. {name_male, Jim} passe {num_digit_1, 2} heures à regarder la télévision, puis décide d'aller se coucher et de lire pendant la {num_frac, moitié} du temps qu'il passe à visionner. Il répète cela {num_digit_2, 3} fois par semaine. Combien d'heures passe-t-il à regarder la télévision et à lire en {num_digit_3, 4} semaines ?",
+  "ic_sentence": "{name_male, Jim} reçoit la visite de son oncle pendant {num_ic, 34} jours chaque année."
+}

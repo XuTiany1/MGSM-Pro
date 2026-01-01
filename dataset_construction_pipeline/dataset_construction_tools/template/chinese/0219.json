@@ -1,0 +1,98 @@
+{
+  "original_question": "四名学生在一场棋盘游戏中一共获得了 251 分。娜奥米得了 68 分。尤里的得分比娜奥米的一半多 10 分，布里安娜比娜奥米多得了 17 分。乔乔得了多少分？",
+  "original_answer": 54,
+  "question_template": "四名学生在一场棋盘游戏中一共获得了 {num_digit_1, 251} 分。{name_female_1, 娜奥米} 得了 {num_digit_2, 68} 分。{name_female_2, 尤里} 的得分比 {name_female_1, 娜奥米} 的 {num_frac_1, 一半} 多 {num_digit_3, 10} 分，{name_female_3, 布里安娜} 比 {name_female_1, 娜奥米} 多得了 {num_digit_4, 17} 分。{name_female_4, 乔乔} 得了多少分？",
+  "question_solution": "answer = num_digit_1 - ( num_digit_2 + (f1 * num_digit_2 + num_digit_3) + (num_digit_2 + num_digit_4) )   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 - ( num_digit_2 + (f1 * num_digit_2 + num_digit_3) + (num_digit_2 + num_digit_4) )",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "0 < f1 < 1",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Naomi",
+    "name_female_2": "Yuri",
+    "name_female_3": "Brianna",
+    "name_female_4": "Jojo"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      395,
+      432,
+      470,
+      699,
+      755,
+      619,
+      816,
+      842,
+      1000,
+      910
+    ],
+    "num_digit_2": [
+      120,
+      135,
+      150,
+      180,
+      210,
+      168,
+      192,
+      240,
+      315,
+      270
+    ],
+    "num_digit_3": [
+      17,
+      29,
+      13,
+      47,
+      41,
+      31,
+      37,
+      23,
+      43,
+      19
+    ],
+    "num_frac_1": [
+      "三分之一",
+      "五分之二",
+      "五分之一",
+      "四分之三",
+      "二分之一",
+      "三分之二",
+      "四分之三",
+      "四分之一",
+      "五分之二",
+      "三分之一"
+    ],
+    "num_digit_4": [
+      23,
+      19,
+      27,
+      33,
+      39,
+      45,
+      51,
+      57,
+      63,
+      69
+    ],
+    "answer": [
+      75,
+      60,
+      100,
+      124,
+      150,
+      95,
+      200,
+      222,
+      138,
+      192
+    ]
+  },
+  "ic_question_template": "{name_female_3, 布里安娜} 的叔叔给大家带来了 {num_ic, 38} 份零食。四名学生在一场棋盘游戏中一共获得了 {num_digit_1, 251} 分。{name_female_1, 娜奥米} 得了 {num_digit_2, 68} 分。{name_female_2, 尤里} 的得分比 {name_female_1, 娜奥米} 的 {num_frac_1, 一半} 多 {num_digit_3, 10} 分，{name_female_3, 布里安娜} 比 {name_female_1, 娜奥米} 多得了 {num_digit_4, 17} 分。{name_female_4, 乔乔} 得了多少分？",
+  "ic_sentence": "{name_female_3, 布里安娜} 的叔叔给大家带来了 {num_ic, 38} 份零食。"
+}

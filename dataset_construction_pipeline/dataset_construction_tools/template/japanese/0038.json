@@ -1,0 +1,81 @@
+{
+  "original_question": "ジョンは週に60マイル走ります。週に3日走ります。最初の日は3時間走り、その他の2日は半分走ります。彼の走る速度はどれくらいですか？",
+  "original_answer": 10,
+  "question_template": "{name_male, ジョン}は週に{num_digit_1, 60}マイル走ります。週に{num_digit_2, 3}日走ります。最初の日は{num_digit_3, 3}時間走り、その他の2日は{num_frac_1, 半分}走ります。彼の走る速度はどれくらいですか？",
+  "question_solution": "answer = num_digit_1 / (num_digit_3 * (1 + (num_digit_2 - 1) * NUM(num_frac_1)))",
+  "conditions": [
+    "int(answer) == num_digit_1 / (num_digit_3 * (1 + (num_digit_2 - 1) * NUM(num_frac_1)))",
+    "num_digit_1 > 0",
+    "num_digit_2 > 1",
+    "num_digit_3 > 0",
+    "NUM(num_frac_1) > 0",
+    "(num_digit_1 * DEN(NUM(num_frac_1))) % (num_digit_3 * DEN(NUM(num_frac_1)) * (1 + (num_digit_2 - 1) * NUM(num_frac_1))) == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      66,
+      110,
+      220,
+      85,
+      198,
+      175,
+      117,
+      312,
+      74,
+      130
+    ],
+    "num_digit_2": [
+      4,
+      5,
+      3,
+      6,
+      7,
+      4,
+      3,
+      5,
+      4,
+      6
+    ],
+    "num_digit_3": [
+      3,
+      2,
+      4,
+      1,
+      3,
+      5,
+      6,
+      4,
+      2,
+      2
+    ],
+    "num_frac_1": [
+      "3分の1",
+      "三分の二",
+      "五分の三",
+      "五分の四",
+      "四分の三",
+      "半",
+      "四分の一",
+      "ろくぶんのご",
+      "十分の九",
+      "三分の二"
+    ],
+    "answer": [
+      11,
+      15,
+      25,
+      17,
+      12,
+      14,
+      13,
+      18,
+      10,
+      15
+    ]
+  },
+  "ic_question_template": "{name_male, ジョン}のおじさんは{num_ic, 85}個の野球帽を持っています。{name_male, ジョン}は週に{num_digit_1, 60}マイル走ります。週に{num_digit_2, 3}日走ります。最初の日は{num_digit_3, 3}時間走り、その他の2日は{num_frac_1, 半分}走ります。彼の走る速度はどれくらいですか？",
+  "ic_sentence": "{name_male, ジョン}のおじさんは{num_ic, 85}個の野球帽を持っています。"
+}

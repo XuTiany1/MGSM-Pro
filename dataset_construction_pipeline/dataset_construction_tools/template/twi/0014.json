@@ -1,0 +1,77 @@
+{
+  "original_question": "Wɔ asa adesuakuo a ԑwɔ adesuafoɔ 20 no, emu ɔha nkyԑmu aduonu na ԑtwerԑԑ wɔn din wɔ nnԑԑmafoɔ asa mu, deԑ aka no mu ɔha aduonunum twerԑԑ wɔn din wɔ Jazz asa mu, na wɔn a aka no twerԑԑ wɔn din wɔ hip-hop asa mu. Ͻha mu nkyԑmu sԑn na wɔtwerԑԑ wɔn din wɔ hip-hop asa no mu?",
+  "original_answer": 60,
+  "question_template": "Wɔ asa adesuakuo a ԑwɔ adesuafoɔ {num_digit_1, 20} no, emu {num_digit_2, 20}% ԑtwerԑԑ wɔn din wɔ nnԑԑmafoɔ asa mu, deԑ aka no mu {num_digit_3, 25}% twerԑԑ wɔn din wɔ Jazz asa mu, na wɔn a aka no twerԑԑ wɔn din wɔ hip-hop asa mu. Ͻha mu nkyԑmu sԑn na wɔtwerԑԑ wɔn din wɔ hip-hop asa no mu?",
+  "question_solution": "answer = 100 - num_digit_2 - (100 - num_digit_2) * num_digit_3 / 100",
+  "conditions": [
+    "int(answer) == 100 - num_digit_2 - (100 - num_digit_2) * num_digit_3 / 100",
+    "num_digit_1 > 0",
+    "0 <= num_digit_2 <= 100",
+    "0 <= num_digit_3 <= 100"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      47,
+      53,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97
+    ],
+    "num_digit_2": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22
+    ],
+    "num_digit_3": [
+      75,
+      50,
+      25,
+      50,
+      75,
+      50,
+      25,
+      50,
+      25,
+      50
+    ],
+    "answer": [
+      24,
+      47,
+      69,
+      45,
+      22,
+      43,
+      63,
+      41,
+      60,
+      39
+    ],
+    "num_ic": [
+      38,
+      69,
+      113,
+      161,
+      185,
+      414,
+      395,
+      489,
+      691,
+      879
+    ]
+  },
+  "ic_question_template": "Ɔkyerɛkyerɛni no wɔfase baa de kaaki nketewaa {num_ic, 7} brɛɛ akuw no. Wɔ asa adesuakuo a ԑwɔ adesuafoɔ {num_digit_1, 20} no, emu {num_digit_2, 20}% ԑtwerԑԑ wɔn din wɔ nnԑԑmafoɔ asa mu, deԑ aka no mu {num_digit_3, 25}% twerԑԑ wɔn din wɔ Jazz asa mu, na wɔn a aka no twerԑԑ wɔn din wɔ hip-hop asa mu. Ͻha mu nkyԑmu sԑn na wɔtwerԑԑ wɔn din wɔ hip-hop asa no mu?",
+  "ic_sentence": "Ɔkyerɛkyerɛni no wɔfase baa de kaaki nketewaa {num_ic, 7} brɛɛ akuw no."
+}

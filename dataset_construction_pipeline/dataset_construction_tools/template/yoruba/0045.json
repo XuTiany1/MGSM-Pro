@@ -1,0 +1,93 @@
+{
+  "original_question": "Meredith jẹ́ akọ̀wédowó tó ń kọ nípa àwọn àkọlé ìlera tó sì máa ń fún àwọn oníbàárà lójoojúmó bí iṣẹ́ tó ń ṣe. Àkọsílẹ orí ẹ̀rọ ayélujára máa ń gbà tó ó kéré tán wákàtí 4 láti ṣe ìwádìí àti láti kọ nípa rẹ̀. Ní ọ̀sẹ̀ tó kọjá, ó kọ àkọsílẹ̀ 5 ní ọjọ́ Ajẹ́ àti àlékún àkọsílẹ̀ 2/5 ní ọjọ́ Ìṣẹ́gun ju ọjọ́ Ajé lọ. Ní Ọjọ́rú, ó kọ ìlọ́po méjì iye àkọsílẹ̀ tó kọ ní ọjọ́ Ìṣẹ́gun. Ṣe ìṣirò àpapọ̀ iye wákàtí tó lò láti kọ àkọsílẹ̀ láàrin ọjọ́ mẹ́ta náà.",
+  "original_answer": 104,
+  "question_template": "{name_female, Meredith} jẹ́ akọ̀wédowó tó ń kọ nípa àwọn àkọlé ìlera tó sì máa ń fún àwọn oníbàárà lójoojúmó bí iṣẹ́ tó ń ṣe. Àkọsílẹ orí ẹ̀rọ ayélujára máa ń gbà tó ó kéré tán wákàtí {num_digit_1, 4} láti ṣe ìwádìí àti láti kọ nípa rẹ̀. Ní ọ̀sẹ̀ tó kọjá, ó kọ àkọsílẹ̀ {num_digit_2, 5} ní ọjọ́ Ajẹ́ àti àlékún àkọsílẹ̀ {num_frac_1, 2/5} ní ọjọ́ Ìṣẹ́gun ju ọjọ́ Ajé lọ. Ní Ọjọ́rú, ó kọ {num_text_1, ìlọ́po méjì} iye àkọsílẹ̀ tó kọ ní ọjọ́ Ìṣẹ́gun. Ṣe ìṣirò àpapọ̀ iye wákàtí tó lò láti kọ àkọsílẹ̀ láàrin ọjọ́ mẹ́ta náà.",
+  "question_solution": "answer = num_digit_1 * (num_digit_2 + num_digit_2 * (1 + NUM(num_frac_1)) + num_digit_2 * (1 + NUM(num_frac_1)) * NUM(num_text_1))",
+  "conditions": [
+    "int(answer) == num_digit_1 * (num_digit_2 + num_digit_2 * (1 + NUM(num_frac_1)) + num_digit_2 * (1 + NUM(num_frac_1)) * NUM(num_text_1))",
+    "(num_digit_2 * NUM(num_frac_1)).is_integer()",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_text_1) > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Meredith"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      3,
+      2,
+      5,
+      6,
+      2,
+      4,
+      3,
+      5,
+      6
+    ],
+    "num_digit_2": [
+      5,
+      6,
+      9,
+      4,
+      10,
+      9,
+      15,
+      12,
+      20,
+      25
+    ],
+    "num_frac_1": [
+      "2/5",
+      "1/2",
+      "1/3",
+      "3/4",
+      "4/5",
+      "2/3",
+      "3/5",
+      "1/4",
+      "1/5",
+      "2/5"
+    ],
+    "num_text_1": [
+      "lẹmeji",
+      "Ẹẹ̀ta",
+      "ìkẹrin",
+      "lẹmeji",
+      "Ẹẹ̀ta",
+      "lẹmeji",
+      "ìkẹrin",
+      "Ẹẹ̀ta",
+      "lẹmeji",
+      "ìkẹrin"
+    ],
+    "answer": [
+      104,
+      126,
+      138,
+      125,
+      492,
+      108,
+      540,
+      216,
+      460,
+      1200
+    ],
+    "num_ic": [
+      54,
+      16,
+      187,
+      73,
+      141,
+      82,
+      61,
+      221,
+      118,
+      194
+    ]
+  },
+  "ic_question_template": "Arákùnrin {name_female, Meredith} ra àwọn ìwé nípa ọ̀nà jijẹ dúrópọ̀ {num_ic, 54} lọ́sẹ̀ tó kọjá. {name_female, Meredith} jẹ́ akọ̀wédowó tó ń kọ nípa àwọn àkọlé ìlera tó sì máa ń fún àwọn oníbàárà lójoojúmó bí iṣẹ́ tó ń ṣe. Àkọsílẹ orí ẹ̀rọ ayélujára máa ń gbà tó ó kéré tán wákàtí {num_digit_1, 4} láti ṣe ìwádìí àti láti kọ nípa rẹ̀. Ní ọ̀sẹ̀ tó kọjá, ó kọ àkọsílẹ̀ {num_digit_2, 5} ní ọjọ́ Ajẹ́ àti àlékún àkọsílẹ̀ {num_frac_1, 2/5} ní ọjọ́ Ìṣẹ́gun ju ọjọ́ Ajé lọ. Ní Ọjọ́rú, ó kọ {num_text_1, ìlọ́po méjì} iye àkọsílẹ̀ tó kọ ní ọjọ́ Ìṣẹ́gun. Ṣe ìṣirò àpapọ̀ iye wákàtí tó lò láti kọ àkọsílẹ̀ láàrin ọjọ́ mẹ́ta náà.",
+  "ic_sentence": "Arákùnrin {name_female, Meredith} ra àwọn ìwé nípa ọ̀nà jijẹ dúrópọ̀ {num_ic, 54} lọ́sẹ̀ tó kọjá."
+}

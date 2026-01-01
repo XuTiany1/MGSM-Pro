@@ -1,0 +1,67 @@
+{
+  "original_question": "ダンはバラの苗を3つ植えます。それぞれのバラの苗には25本のバラがあります。それぞれのバラには8個のとげがあります。全部で何個のとげがありますか？",
+  "original_answer": 600,
+  "question_template": "{name_male, ダン} はバラの苗を{num_digit_1, 3}つ植えます。それぞれのバラの苗には{num_digit_2, 25}本のバラがあります。それぞれのバラには{num_digit_3, 8}個のとげがあります。全部で何個のとげがありますか？",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Dan"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      5,
+      2,
+      10,
+      6,
+      4,
+      9,
+      11,
+      8,
+      15
+    ],
+    "num_digit_2": [
+      14,
+      20,
+      30,
+      11,
+      17,
+      23,
+      16,
+      13,
+      19,
+      9
+    ],
+    "num_digit_3": [
+      9,
+      12,
+      15,
+      13,
+      8,
+      7,
+      5,
+      6,
+      4,
+      3
+    ],
+    "answer": [
+      882,
+      1200,
+      900,
+      1430,
+      816,
+      644,
+      720,
+      858,
+      608,
+      405
+    ]
+  },
+  "ic_question_template": "{name_male, ダン}のおばは{num_ic, 27}本のトマトの苗を持っています。{name_male, ダン} はバラの苗を{num_digit_1, 3}つ植えます。それぞれのバラの苗には{num_digit_2, 25}本のバラがあります。それぞれのバラには{num_digit_3, 8}個のとげがあります。全部で何個のとげがありますか？",
+  "ic_sentence": "{name_male, ダン}のおばは{num_ic, 27}本のトマトの苗を持っています。"
+}

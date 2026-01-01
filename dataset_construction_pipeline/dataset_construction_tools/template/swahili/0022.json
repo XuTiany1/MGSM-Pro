@@ -1,0 +1,105 @@
+{
+  "original_question": "Billy huuza santuri za DVD. Ana wateja 8 Jumanne. Wateja wake 3 wa kwanza hununua DVD moja kila mmoja. Wateja wake 2 wanaofuata hununua DVD 2 kila mmoja. Wateja wake 3 wa mwisho hawanunui DVD yoyote. Billy aliuza DVD ngapi siku ya Jumanne?",
+  "original_answer": 7,
+  "question_template": "{name_male, Billy} huuza DVD. Ana wateja {num_digit_1, 8} siku ya Jumanne. Wateja wake {num_digit_2, 3} wa kwanza hununua DVD moja kila mmoja. Wateja wake {num_digit_3, 2} wanaofuata hununua DVD {num_digit_4, 2} kila mmoja. Wateja wake {num_digit_5, 3} wa mwisho hawanunui DVD yoyote. {name_male, Billy} aliuza DVD ngapi siku ya Jumanne?",
+  "question_solution": "answer = num_digit_2 + num_digit_3 * num_digit_4",
+  "conditions": [
+    "int(answer) == num_digit_2 + num_digit_3 * num_digit_4",
+    "num_digit_1 == num_digit_2 + num_digit_3 + num_digit_5",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Billy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "num_digit_2": [
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "num_digit_3": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "num_digit_4": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_5": [
+      32,
+      35,
+      36,
+      35,
+      36,
+      33,
+      32,
+      31,
+      30,
+      33
+    ],
+    "answer": [
+      39,
+      68,
+      95,
+      138,
+      175,
+      236,
+      321,
+      378,
+      485,
+      576
+    ],
+    "num_ic": [
+      18,
+      64,
+      10,
+      883,
+      374,
+      295,
+      631,
+      79,
+      161,
+      886
+    ]
+  },
+  "ic_question_template": "Shangazi wa {name_male, Billy} alileta pakiti za popcorn {num_ic, 18} kwa ajili ya kugawa. {name_male, Billy} huuza DVD. Ana wateja {num_digit_1, 8} siku ya Jumanne. Wateja wake {num_digit_2, 3} wa kwanza hununua DVD moja kila mmoja. Wateja wake {num_digit_3, 2} wanaofuata hununua DVD {num_digit_4, 2} kila mmoja. Wateja wake {num_digit_5, 3} wa mwisho hawanunui DVD yoyote. {name_male, Billy} aliuza DVD ngapi siku ya Jumanne?",
+  "ic_sentence": "Shangazi wa {name_male, Billy} alileta pakiti za popcorn {num_ic, 18} kwa ajili ya kugawa."
+}

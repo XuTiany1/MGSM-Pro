@@ -1,0 +1,81 @@
+{
+  "original_question": "汤姆的船每小时行驶 10 英里。他从下午 1 点航行到下午 4 点。然后，他以每小时 6 英里的速度返航。他返航需要多长时间？",
+  "original_answer": 20,
+  "question_template": "{name_male, 汤姆} 的船每小时行驶 {num_digit_1, 15} 英里。他从下午 {num_digit_2, 1} 点航行到下午 {num_digit_3, 9} 点。然后，他以每小时 {num_digit_4, 6} 英里的速度返航。他返航需要多长时间？",
+  "question_solution": "answer = (num_digit_3 - num_digit_2) * num_digit_1 / num_digit_4",
+  "conditions": [
+    "int(answer) == (num_digit_3 - num_digit_2) * num_digit_1 / num_digit_4",
+    "((num_digit_3 - num_digit_2) * num_digit_1) % num_digit_4 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > num_digit_2",
+    "num_digit_4 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Tom"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15,
+      14,
+      12,
+      18,
+      20,
+      16,
+      24,
+      21,
+      28,
+      30
+    ],
+    "num_digit_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "num_digit_3": [
+      9,
+      10,
+      12,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "num_digit_4": [
+      6,
+      4,
+      6,
+      3,
+      5,
+      8,
+      12,
+      7,
+      14,
+      15
+    ],
+    "answer": [
+      20,
+      28,
+      18,
+      42,
+      32,
+      16,
+      16,
+      24,
+      16,
+      16
+    ]
+  },
+  "ic_question_template": "{name_male, 汤姆} 的叔叔最近买了 {num_ic, 20} 艘模型船。{name_male, 汤姆} 的船每小时行驶 {num_digit_1, 15} 英里。他从下午 {num_digit_2, 1} 点航行到下午 {num_digit_3, 9} 点。然后，他以每小时 {num_digit_4, 6} 英里的速度返航。他返航需要多长时间？",
+  "ic_sentence": "{name_male, 汤姆} 的叔叔最近买了 {num_ic, 20} 艘模型船。"
+}

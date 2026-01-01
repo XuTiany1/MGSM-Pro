@@ -1,0 +1,81 @@
+{
+  "original_question": "John turu ahịa pizza ụfọdụ ka ya na ndi enyi ya keè. Enwere ndị enyi iri abụọ na mkpokọta, na John chọrọ ịkaba ahụ hụ na onye ọbụla nwere ike ịnweta mpekere anọ.  A na-ere Pizza naanị na mpekere ibe asatọ. Pizza ole ka John kwesịrị itu ahịa?",
+  "original_answer": 10,
+  "question_template": "{name_male, John} turu ahịa pizza ụfọdụ ka ya na ndi enyi ya keè. Enwere ndị enyi {num_digit_1, 20} na mkpokọta, na {name_male, John} chọrọ ịkaba ahụ hụ na onye ọbụla nwere ike ịnweta mpekere {num_digit_2, 4}.  A na-ere Pizza naanị na mpekere ibe {num_digit_3, 8}. Pizza ole ka {name_male, John} kwesịrị itu ahịa?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 / num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 / num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      137,
+      256,
+      345,
+      462,
+      579,
+      618,
+      845,
+      963,
+      1082,
+      712
+    ],
+    "num_digit_2": [
+      9,
+      5,
+      23,
+      13,
+      21,
+      17,
+      19,
+      21,
+      25,
+      16
+    ],
+    "num_digit_3": [
+      9,
+      10,
+      15,
+      11,
+      9,
+      17,
+      5,
+      3,
+      5,
+      8
+    ],
+    "answer": [
+      137,
+      128,
+      529,
+      546,
+      1351,
+      618,
+      3211,
+      6741,
+      5410,
+      1424
+    ],
+    "num_ic": [
+      82,
+      77,
+      387,
+      934,
+      398,
+      424,
+      277,
+      978,
+      1247,
+      491
+    ]
+  },
+  "ic_question_template": "Nwanne nne {name_male, John} nwere kaadị baseball {num_ic, 712}. {name_male, John} turu ahịa pizza ụfọdụ ka ya na ndi enyi ya keè. Enwere ndị enyi {num_digit_1, 20} na mkpokọta, na {name_male, John} chọrọ ịkaba ahụ hụ na onye ọbụla nwere ike ịnweta mpekere {num_digit_2, 4}.  A na-ere Pizza naanị na mpekere ibe {num_digit_3, 8}. Pizza ole ka {name_male, John} kwesịrị itu ahịa?",
+  "ic_sentence": "Nwanne nne {name_male, John} nwere kaadị baseball {num_ic, 712}."
+}

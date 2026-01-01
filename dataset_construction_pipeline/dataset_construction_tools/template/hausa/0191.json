@@ -1,0 +1,66 @@
+{
+  "original_question": "Agwagi suna buƙatar cin kwari na kimanin fam 3.5 a kowane mako don tsira da rayuwar su. Idan akwai garken agwagi goma, kwari na fam nawa suke bukata kowace rana?",
+  "original_answer": 5,
+  "question_template": "Agwagi suna buƙatar cin kwari na kimanin fam {num_digit_1, 3.5} a kowane mako don tsira da rayuwar su. Idan akwai garken agwagi {num_text_1, goma}, kwari na fam nawa suke bukata kowace rana?",
+  "question_solution": "answer = num_digit_1 * f1 / 7   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * f1 / 7",
+    "num_digit_1 > 0",
+    "f1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      10.8181818182,
+      13.4615384615,
+      14.4117647059,
+      15.1052631579,
+      14.6086956522,
+      13.2758620689,
+      14.2258064516,
+      16.0810810811,
+      10.0731707317,
+      15.6279069767
+    ],
+    "num_text_1": [
+      "goma sha ɗaya",
+      "Goma sha uku",
+      "sha shida da daya",
+      "sha tara",
+      "ashirin da uku",
+      "ashirin da tara",
+      "talatin da ɗaya",
+      "talatin da bakwai",
+      "arba’in da ɗaya",
+      "arba’in da uku"
+    ],
+    "answer": [
+      17,
+      25,
+      35,
+      41,
+      48,
+      55,
+      63,
+      85,
+      59,
+      96
+    ],
+    "num_ic": [
+      65,
+      68,
+      99,
+      138,
+      33,
+      111,
+      41,
+      95,
+      164,
+      93
+    ]
+  },
+  "ic_question_template": "Kwaɗi guda {num_ic, 144} suke rayuwa a tafkin da ke gefen fili. Agwagi suna buƙatar cin kwari na kimanin fam {num_digit_1, 3.5} a kowane mako don tsira da rayuwar su. Idan akwai garken agwagi {num_text_1, goma}, kwari na fam nawa suke bukata kowace rana?",
+  "ic_sentence": "Kwaɗi guda {num_ic, 144} suke rayuwa a tafkin da ke gefen fili."
+}

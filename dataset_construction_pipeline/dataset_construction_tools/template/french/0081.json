@@ -1,0 +1,94 @@
+{
+  "original_question": "Charlie avait 10 autocollants. Il en a acheté 21 autres dans un magasin du centre commercial et en a reçu 23 pour son anniversaire. Ensuite, il en a donné 9 à sa sœur et en a utilisé 28 pour décorer une carte de vœux. Combien d'autocollants lui reste-t-il ?",
+  "original_answer": 17,
+  "question_template": "{name_male, Charlie} avait {num_digit_1, 10} autocollants. Il en a acheté {num_digit_2, 21} autres dans un magasin du centre commercial et en a reçu {num_digit_3, 23} pour son anniversaire. Ensuite, il en a donné {num_digit_4, 9} à sa sœur et en a utilisé {num_digit_5, 28} pour décorer une carte de vœux. Combien d'autocollants lui reste-t-il ?",
+  "question_solution": "answer = num_digit_1 + num_digit_2 + num_digit_3 - num_digit_4 - num_digit_5",
+  "conditions": [
+    "int(answer) == num_digit_1 + num_digit_2 + num_digit_3 - num_digit_4 - num_digit_5",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "num_digit_1 + num_digit_2 + num_digit_3 >= num_digit_4 + num_digit_5"
+  ],
+  "variable_word_list": {
+    "name_male": "Charlie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      13,
+      21,
+      5,
+      40,
+      7,
+      95,
+      120,
+      200,
+      33,
+      9
+    ],
+    "num_digit_2": [
+      27,
+      44,
+      60,
+      50,
+      14,
+      105,
+      80,
+      150,
+      47,
+      11
+    ],
+    "num_digit_3": [
+      35,
+      18,
+      12,
+      25,
+      9,
+      50,
+      100,
+      25,
+      29,
+      13
+    ],
+    "num_digit_4": [
+      19,
+      37,
+      23,
+      30,
+      3,
+      75,
+      50,
+      100,
+      10,
+      5
+    ],
+    "num_digit_5": [
+      22,
+      10,
+      30,
+      20,
+      5,
+      60,
+      40,
+      75,
+      40,
+      1
+    ],
+    "answer": [
+      34,
+      36,
+      24,
+      65,
+      22,
+      115,
+      210,
+      200,
+      59,
+      27
+    ]
+  },
+  "ic_question_template": "{name_male, Charlie} a un oncle qui collectionne {num_ic, 12} timbres rares. {name_male, Charlie} avait {num_digit_1, 10} autocollants. Il en a acheté {num_digit_2, 21} autres dans un magasin du centre commercial et en a reçu {num_digit_3, 23} pour son anniversaire. Ensuite, il en a donné {num_digit_4, 9} à sa sœur et en a utilisé {num_digit_5, 28} pour décorer une carte de vœux. Combien d'autocollants lui reste-t-il ?",
+  "ic_sentence": "{name_male, Charlie} a un oncle qui collectionne {num_ic, 12} timbres rares."
+}

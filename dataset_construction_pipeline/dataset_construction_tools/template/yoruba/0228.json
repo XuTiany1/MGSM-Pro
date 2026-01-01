@@ -1,0 +1,81 @@
+{
+  "original_question": "Kalinda ń ṣiṣẹ́ lórí ìṣòro 360 pẹ̀lú ìyá rẹ̀. Kalinda lè fi awẹ́ mẹ́rin kún un ní ìṣẹ́jú kan. Ìyá rẹ lè fi ìdajì iye awẹ́ ti Kalinda ṣe kún un ní ìṣẹ́jú kan.  Wákàtí mélòó ni yóò gbà wọ́n láti parí ìṣòro yìí.",
+  "original_answer": 1,
+  "question_template": "{name_female, Kalinda} ń ṣiṣẹ́ lórí ìṣòro {num_digit_1, 360} pẹ̀lú ìyá rẹ̀. {name_female, Kalinda} lè fi awẹ́ {num_digit_2, 4} kún un ní ìṣẹ́jú kan. Ìyá rẹ lè fi {num_frac_1, ìdajì} iye awẹ́ ti {name_female, Kalinda} ṣe kún un ní ìṣẹ́jú kan. Wákàtí mélòó ni yóò gbà wọ́n láti parí ìṣòro yìí.",
+  "question_solution": "answer = num_digit_1 / ((num_digit_2 + f1 * num_digit_2) * 60)   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 / ((num_digit_2 + f1 * num_digit_2) * 60)",
+    "f1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Kalinda"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1260,
+      2400,
+      4620,
+      7020,
+      11220,
+      12768,
+      14720,
+      21924,
+      24180,
+      34595
+    ],
+    "num_digit_2": [
+      7,
+      8,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37
+    ],
+    "num_frac_1": [
+      "Idaji",
+      "ìkejìlélọ́gọ́rin",
+      "mẹta ida mẹrin",
+      "mẹrin ninu marun",
+      "marun-un idaji mẹfa",
+      "mẹta ida karun",
+      "Ìkẹta kan",
+      "Mejila ninu marun",
+      "ẹ̀ẹta lórúndín mẹ́wàá",
+      "ìdá karùn-ún lé l’ógún"
+    ],
+    "answer": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "num_ic": [
+      103,
+      140,
+      267,
+      595,
+      745,
+      822,
+      250,
+      924,
+      1329,
+      1254
+    ]
+  },
+  "ic_question_template": "Ẹ̀gbọ́n bàbá {name_female, Kalinda} ní àkójọpọ̀ jigsaw puzzles {num_ic, 103}. {name_female, Kalinda} ń ṣiṣẹ́ lórí ìṣòro {num_digit_1, 360} pẹ̀lú ìyá rẹ̀. {name_female, Kalinda} lè fi awẹ́ {num_digit_2, 4} kún un ní ìṣẹ́jú kan. Ìyá rẹ lè fi {num_frac_1, ìdajì} iye awẹ́ ti {name_female, Kalinda} ṣe kún un ní ìṣẹ́jú kan. Wákàtí mélòó ni yóò gbà wọ́n láti parí ìṣòro yìí.",
+  "ic_sentence": "Ẹ̀gbọ́n bàbá {name_female, Kalinda} ní àkójọpọ̀ jigsaw puzzles {num_ic, 103}."
+}

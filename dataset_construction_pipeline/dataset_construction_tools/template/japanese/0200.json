@@ -1,0 +1,69 @@
+{
+  "original_question": "バルダーは井戸から水を得る。彼は毎朝桶5杯の水を得て、午後は毎日6杯の水を得る。もし1桶につき5リットルの水が入っているなら、彼は毎日何リットルの水を得ているか？",
+  "original_answer": 55,
+  "question_template": "{name_male, バルダー} は井戸から水を得る。彼は毎朝桶{num_digit_1, 5}杯の水を得て、午後は毎日{num_digit_2, 6}杯の水を得る。もし1桶につき{num_digit_3, 5}リットルの水が入っているなら、彼は毎日何リットルの水を得ているか？",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) * num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 + num_digit_2) * num_digit_3",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Baldur"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      17,
+      23,
+      42,
+      31,
+      28,
+      33,
+      47,
+      52,
+      39,
+      45
+    ],
+    "num_digit_2": [
+      19,
+      37,
+      16,
+      29,
+      34,
+      13,
+      46,
+      55,
+      24,
+      41
+    ],
+    "num_digit_3": [
+      12,
+      15,
+      9,
+      11,
+      8,
+      14,
+      7,
+      13,
+      10,
+      18
+    ],
+    "answer": [
+      432,
+      900,
+      522,
+      660,
+      496,
+      644,
+      651,
+      1391,
+      630,
+      1548
+    ]
+  },
+  "ic_question_template": "{name_male, バルドル}のおじさんは{num_ic, 137}枚の木の板で納屋を建てました。{name_male, バルダー} は井戸から水を得る。彼は毎朝桶{num_digit_1, 5}杯の水を得て、午後は毎日{num_digit_2, 6}杯の水を得る。もし1桶につき{num_digit_3, 5}リットルの水が入っているなら、彼は毎日何リットルの水を得ているか？",
+  "ic_sentence": "{name_male, バルドル}のおじさんは{num_ic, 137}枚の木の板で納屋を建てました。"
+}

@@ -1,0 +1,96 @@
+{
+  "original_question": "Adrian adi mfeɛ mmɔho mmiensa sen Harriet, na Harriet adi Zack mfe fa. Sɛ Harriet adi mfeɛ 21 mprempren a, susu mfeɛ dodoɔ a wɔn mmiensa no adi wɔ  mfeɛ mmiensa mu.",
+  "original_answer": 45,
+  "question_template": "{name_male_1, Adrian} adi mfeɛ mmɔho {num_text_1, mmiensa} sen {name_male_2, Harriet}, na {name_male_2, Harriet} adi {name_male_3, Zack} mfe {num_frac_1, fa}. Sɛ {name_male_2, Harriet} adi mfeɛ {num_digit_1, 21} mprempren a, susu mfeɛ dodoɔ a wɔn mmiensa no adi wɔ mfeɛ {num_text_2, mmiensa} mu.",
+  "question_solution": "answer = (f1 * num_digit_1 + num_digit_1 + num_digit_1 / f2 + 3 * t2) / 3  # f1 is numeric value of num_text_1; f2 of num_frac_1; t2 of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (f1 * num_digit_1 + num_digit_1 + num_digit_1 / f2 + 3 * t2) / 3",
+    "f1 > 1",
+    "f2 > 0",
+    "t2 > 0",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Adrian",
+    "name_male_2": "Harriet",
+    "name_male_3": "Zack"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "ɛnān",
+      "anum",
+      "nsia",
+      "Nson",
+      "nwɔtwe",
+      "nkron",
+      "du",
+      "duakoɔ baako",
+      "dunan",
+      "du-mienu"
+    ],
+    "num_frac_1": [
+      "ka baako",
+      "baako mu mmiɛnsa",
+      "faako mu nan",
+      "baako mu enum",
+      "baako mu nsia",
+      "baako mu nsia",
+      "baako mu nwɔtwe",
+      "baako mu nkron",
+      "du mu baako",
+      "baako mu duɔson"
+    ],
+    "num_text_2": [
+      "mienu",
+      "mmiɛnsa",
+      "ɛnān",
+      "anum",
+      "nsia",
+      "Nson",
+      "nwɔtwe",
+      "nkron",
+      "du",
+      "dunan"
+    ],
+    "num_digit_1": [
+      42,
+      45,
+      48,
+      60,
+      66,
+      84,
+      72,
+      81,
+      30,
+      12
+    ],
+    "answer": [
+      100,
+      138,
+      180,
+      265,
+      336,
+      483,
+      464,
+      576,
+      240,
+      116
+    ],
+    "num_ic": [
+      107,
+      363,
+      252,
+      412,
+      454,
+      149,
+      417,
+      585,
+      246,
+      31
+    ]
+  },
+  "ic_question_template": "{name_male_2, Harriet} wɔfa tɔɔ apple {num_ic, 107} sesiaa fii dwa so. {name_male_1, Adrian} adi mfeɛ mmɔho {num_text_1, mmiensa} sen {name_male_2, Harriet}, na {name_male_2, Harriet} adi {name_male_3, Zack} mfe {num_frac_1, fa}. Sɛ {name_male_2, Harriet} adi mfeɛ {num_digit_1, 21} mprempren a, susu mfeɛ dodoɔ a wɔn mmiensa no adi wɔ mfeɛ {num_text_2, mmiensa} mu.",
+  "ic_sentence": "{name_male_2, Harriet} wɔfa tɔɔ apple {num_ic, 107} sesiaa fii dwa so."
+}

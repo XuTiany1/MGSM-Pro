@@ -1,0 +1,93 @@
+{
+  "original_question": "Ted the T-Rex alikuwa anapanga kupeleka kachumbari ya viazi kwenye mandari ya dinosaria. Anajua kuwa dinosaria mkubwa atakula lb 10 za kachumbari ya viazi, na mtoto atakula nusu ya kiwango ambacho mkubwa atakula. Iwapo kutakuwa na wakubwa 20 na watoto 5 katika mandari hiyo, Ted anahitaji kuleta pauni ngapi za kachumbari ya viazi kwenye mandari ikiwa anatarajia kulisha kila dinosaria?",
+  "original_answer": 225,
+  "question_template": "{name_dinosaur, Ted} the T-Rex alikuwa anapanga kuleta saladi ya viazi kwenye mkutano wa dinosaria. Anajua kuwa dinosaria mzima atakula pauni {num_digit_1, 10} za saladi ya viazi, na mtoto atakula {num_frac_1, nusu} ya kiasi hicho. Iwapo kutakuwa na dinosaria watu wazima {num_digit_2, 20} na watoto {num_digit_3, 5} kwenye mkutano huo, {name_dinosaur, Ted} anapaswa kuleta pauni ngapi za saladi ya viazi ili kila mmoja apate chakula cha kutosha?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + num_digit_1 * NUM(num_frac_1) * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 + num_digit_1 * NUM(num_frac_1) * num_digit_3",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0"
+  ],
+  "variable_word_list": {
+    "name_dinosaur": "Ted"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      20,
+      30,
+      26,
+      26,
+      24,
+      15,
+      6,
+      27,
+      16,
+      10
+    ],
+    "num_frac_1": [
+      "1/2",
+      "1/2",
+      "5/6",
+      "1/2",
+      "1/4",
+      "1/4",
+      "3/4",
+      "4/5",
+      "3/4",
+      "1/6"
+    ],
+    "num_digit_2": [
+      27,
+      10,
+      17,
+      11,
+      27,
+      24,
+      21,
+      25,
+      10,
+      7
+    ],
+    "num_digit_3": [
+      11,
+      23,
+      27,
+      30,
+      19,
+      16,
+      10,
+      25,
+      25,
+      30
+    ],
+    "answer": [
+      650,
+      645,
+      1027,
+      676,
+      762,
+      420,
+      171,
+      1215,
+      460,
+      120
+    ],
+    "num_ic": [
+      53,
+      159,
+      38,
+      145,
+      104,
+      122,
+      82,
+      44,
+      65,
+      63
+    ]
+  },
+  "ic_question_template": "Binamu wa {name_dinosaur, Ted} ana mananasi {num_ic, 94}. {name_dinosaur, Ted} the T-Rex alikuwa anapanga kuleta saladi ya viazi kwenye mkutano wa dinosaria. Anajua kuwa dinosaria mzima atakula pauni {num_digit_1, 10} za saladi ya viazi, na mtoto atakula {num_frac_1, nusu} ya kiasi hicho. Iwapo kutakuwa na dinosaria watu wazima {num_digit_2, 20} na watoto {num_digit_3, 5} kwenye mkutano huo, {name_dinosaur, Ted} anapaswa kuleta pauni ngapi za saladi ya viazi ili kila mmoja apate chakula cha kutosha?",
+  "ic_sentence": "Binamu wa {name_dinosaur, Ted} ana mananasi {num_ic, 94}."
+}

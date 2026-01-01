@@ -1,0 +1,42 @@
+{
+  "original_question": "科迪吃的饼干数量是阿米尔的三倍。如果阿米尔吃了 5 片饼干，他们一共吃了多少饼干？",
+  "original_answer": 20,
+  "question_template": "{name_male_1, 科迪} 吃的饼干数量是 {name_male_2, 阿米尔} 的 {num_text_1, 三} 倍。如果 {name_male_2, 阿米尔} 吃了 {num_digit_1, 5} 片饼干，他们一共吃了多少饼干？",
+  "question_solution": "answer = (3 + 1) * num_digit_1",
+  "conditions": [
+    "int(answer) == 4 * num_digit_1",
+    "num_digit_1 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Cody",
+    "name_male_2": "Amir"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      9,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37
+    ],
+    "answer": [
+      28,
+      36,
+      44,
+      52,
+      68,
+      76,
+      92,
+      116,
+      124,
+      148
+    ]
+  },
+  "ic_question_template": "{name_male_2, 阿米尔} 的叔叔带了 {num_ic, 20} 块布朗尼到聚会。{name_male_1, 科迪} 吃的饼干数量是 {name_male_2, 阿米尔} 的 {num_text_1, 三} 倍。如果 {name_male_2, 阿米尔} 吃了 {num_digit_1, 5} 片饼干，他们一共吃了多少饼干？",
+  "ic_sentence": "{name_male_2, 阿米尔} 的叔叔带了 {num_ic, 20} 块布朗尼到聚会。"
+}

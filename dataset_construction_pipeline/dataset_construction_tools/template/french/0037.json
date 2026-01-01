@@ -1,0 +1,94 @@
+{
+  "original_question": "Jean veut vendre tous ses jouets et utiliser l'argent pour s'acheter des jeux vidéos. Il possède 13 jeux de lego et les met en vente pour 15 $ chacun. Finalement, il s'achète 8 jeux vidéos au prix de 20 $ par jeu, ce qui le laisse avec 5 $. Combien lui reste-t-il de jeux de lego ?",
+  "original_answer": 2,
+  "question_template": "{name_male, Jean} veut vendre tous ses jouets et utiliser l'argent pour s'acheter des jeux vidéos. Il possède {num_digit_1, 13} jeux de lego et les met en vente pour {num_digit_2, 15} $ chacun. Finalement, il s'achète {num_digit_3, 8} jeux vidéos au prix de {num_digit_4, 20} $ par jeu, ce qui le laisse avec {num_digit_5, 5} $. Combien lui reste-t-il de jeux de lego ?",
+  "question_solution": "answer = num_digit_1 - ((num_digit_3 * num_digit_4 + num_digit_5) / num_digit_2)",
+  "conditions": [
+    "int(answer) == num_digit_1 - ((num_digit_3 * num_digit_4 + num_digit_5) / num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 > 0",
+    "num_digit_5 >= 0",
+    "(num_digit_3 * num_digit_4 + num_digit_5) % num_digit_2 == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      20,
+      17,
+      12,
+      18,
+      15,
+      30,
+      19,
+      25,
+      27,
+      24
+    ],
+    "num_digit_2": [
+      19,
+      22,
+      9,
+      17,
+      23,
+      23,
+      29,
+      27,
+      19,
+      17
+    ],
+    "num_digit_3": [
+      14,
+      11,
+      5,
+      11,
+      6,
+      13,
+      5,
+      11,
+      13,
+      9
+    ],
+    "num_digit_4": [
+      20,
+      27,
+      13,
+      18,
+      21,
+      11,
+      17,
+      31,
+      27,
+      18
+    ],
+    "num_digit_5": [
+      5,
+      11,
+      7,
+      6,
+      12,
+      18,
+      2,
+      10,
+      10,
+      8
+    ],
+    "answer": [
+      5,
+      3,
+      4,
+      6,
+      9,
+      23,
+      16,
+      12,
+      8,
+      14
+    ]
+  },
+  "ic_question_template": "{name_male, John} a un oncle qui a récemment acheté {num_ic, 38} figurines d'action. {name_male, Jean} veut vendre tous ses jouets et utiliser l'argent pour s'acheter des jeux vidéos. Il possède {num_digit_1, 13} jeux de lego et les met en vente pour {num_digit_2, 15} $ chacun. Finalement, il s'achète {num_digit_3, 8} jeux vidéos au prix de {num_digit_4, 20} $ par jeu, ce qui le laisse avec {num_digit_5, 5} $. Combien lui reste-t-il de jeux de lego ?",
+  "ic_sentence": "{name_male, John} a un oncle qui a récemment acheté {num_ic, 38} figurines d'action."
+}

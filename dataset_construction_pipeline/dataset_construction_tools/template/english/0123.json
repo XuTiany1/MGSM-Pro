@@ -1,0 +1,93 @@
+{
+  "original_question": "Rosie can run 10 miles per hour for 3 hours. After that, she runs 5 miles per hour. How many miles can she run in 7 hours?",
+  "original_answer": 50,
+  "question_template": "{name_female, Rosie} can run {num_digit_1, 10} miles per hour for {num_digit_2, 3} hours. After that, she runs {num_digit_3, 5} miles per hour. How many miles can she run in {num_digit_4, 7} hours?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + num_digit_3 * (num_digit_4 - num_digit_2)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 + num_digit_3 * (num_digit_4 - num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_female": "Rosie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      17,
+      23,
+      19,
+      16,
+      21,
+      18,
+      29,
+      14,
+      26,
+      31
+    ],
+    "num_digit_2": [
+      5,
+      7,
+      4,
+      3,
+      6,
+      2,
+      8,
+      5,
+      3,
+      4
+    ],
+    "num_digit_3": [
+      9,
+      14,
+      11,
+      13,
+      17,
+      12,
+      15,
+      16,
+      22,
+      19
+    ],
+    "num_digit_4": [
+      16,
+      13,
+      12,
+      10,
+      15,
+      9,
+      18,
+      20,
+      11,
+      14
+    ],
+    "answer": [
+      184,
+      245,
+      164,
+      139,
+      279,
+      120,
+      382,
+      310,
+      254,
+      314
+    ],
+    "num_ic": [
+      77,
+      228,
+      93,
+      35,
+      145,
+      52,
+      259,
+      200,
+      101,
+      309
+    ]
+  },
+  "ic_question_template": "{name_female, Rosie} can run {num_digit_1, 10} miles per hour for {num_digit_2, 3} hours. After that, she runs {num_digit_3, 5} miles per hour. {name_female, Rosie's} uncle once biked {num_ic, 62} miles in a single day. How many miles can she run in {num_digit_4, 7} hours?",
+  "ic_sentence": "{name_female, Rosie's} uncle once biked {num_ic, 62} miles in a single day."
+}

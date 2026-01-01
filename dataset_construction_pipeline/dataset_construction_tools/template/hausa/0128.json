@@ -1,0 +1,107 @@
+{
+  "original_question": "Mahaifiyar Well tana sayar da kankana, barkono, da lemu a dan karamin shago na da gida. Farashin kankanar ya linka na barkona sau uku.Farashin Lemu yana ƙasa da niniki 5 akan farashin kankana. An aika Dillon kantin ya sayo kankana 4, barkono 20, da lemu 10. Nawa ne jimlar kuɗin da zai kashe idan kowane farashin barkono ya kai $15?",
+  "original_answer": 880,
+  "question_template": "Mahaifiyar {name_male_1, Well} tana sayar da kankana, barkono, da lemu a dan karamin shago na da gida. Farashin kankanar ya linka na barkona sau uku. Farashin Lemu yana ƙasa da niniki {num_digit_1, 5} akan farashin kankana. An aika {name_male_2, Dillon} kantin ya sayo kankana {num_digit_2, 4}, barkono {num_digit_3, 20}, da lemu {num_digit_4, 10}. Nawa ne jimlar kuɗin da zai kashe idan kowane farashin barkono ya kai ${num_digit_5, 15}?",
+  "question_solution": "answer = num_digit_3 * num_digit_5 + num_digit_2 * (3 * num_digit_5) + num_digit_4 * (3 * num_digit_5 - num_digit_1)",
+  "conditions": [
+    "int(answer) == num_digit_3 * num_digit_5 + num_digit_2 * (3 * num_digit_5) + num_digit_4 * (3 * num_digit_5 - num_digit_1)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "3 * num_digit_5 > num_digit_1"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Well",
+    "name_male_2": "Dillon"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      12,
+      4,
+      9,
+      6,
+      8,
+      11,
+      14,
+      10,
+      3
+    ],
+    "num_digit_2": [
+      5,
+      8,
+      6,
+      3,
+      9,
+      7,
+      4,
+      12,
+      10,
+      15
+    ],
+    "num_digit_3": [
+      25,
+      30,
+      18,
+      40,
+      22,
+      35,
+      27,
+      50,
+      33,
+      45
+    ],
+    "num_digit_4": [
+      12,
+      15,
+      8,
+      20,
+      11,
+      14,
+      9,
+      25,
+      16,
+      30
+    ],
+    "num_digit_5": [
+      18,
+      21,
+      24,
+      27,
+      30,
+      33,
+      36,
+      39,
+      42,
+      45
+    ],
+    "answer": [
+      1284,
+      1899,
+      1408,
+      2763,
+      2394,
+      3122,
+      2277,
+      5929,
+      4502,
+      8010
+    ],
+    "num_ic": [
+      30,
+      68,
+      26,
+      105,
+      67,
+      110,
+      58,
+      96,
+      92,
+      72
+    ]
+  },
+  "ic_question_template": "Gwaggon {name_male_2, Dillon} ta sayi ayaba {num_ic, 92} jiya. Mahaifiyar {name_male_1, Well} tana sayar da kankana, barkono, da lemu a dan karamin shago na da gida. Farashin kankanar ya linka na barkona sau uku. Farashin Lemu yana ƙasa da niniki {num_digit_1, 5} akan farashin kankana. An aika {name_male_2, Dillon} kantin ya sayo kankana {num_digit_2, 4}, barkono {num_digit_3, 20}, da lemu {num_digit_4, 10}. Nawa ne jimlar kuɗin da zai kashe idan kowane farashin barkono ya kai ${num_digit_5, 15}?",
+  "ic_sentence": "Gwaggon {name_male_2, Dillon} ta sayi ayaba {num_ic, 92} jiya."
+}

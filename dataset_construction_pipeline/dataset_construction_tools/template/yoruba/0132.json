@@ -1,0 +1,93 @@
+{
+  "original_question": "Pam àti Fred lọ sí ibi ayẹyẹ kan. Pam gun roller coaster ní ẹ‌meèjì, nígbà tí Fred gùn-ún ní ẹ‌mẹẹ‌rin. Lẹ‌yìn ìyẹn, ọ‌kọ‌ọ‌kan wọn pinnu láti gun luge náà ní ẹ‌meèjì. Tí iye gígun ọkọ‌ kọ‌ọ‌kan bá ná tíkẹ‌ẹ‌tì 6, tíkẹ‌ẹ‌tì mélòó ni wọ‌n lò ní ọjọ‌ náà?",
+  "original_answer": 60,
+  "question_template": "{name_female, Pam} àti {name_male, Fred} lọ sí ibi ayẹyẹ kan. {name_female, Pam} gun roller coaster ní ìgbà {num_digit_1, 2}, nígbà tí {name_male, Fred} gùn-ún ní ìgbà {num_digit_2, 4}. Lẹ́yìn ìyẹn, ọkọọkan wọn pinnu láti gun luge náà ní ìgbà {num_digit_3, 2}. Tí iye gígun ọkọ kọọkan bá ná tíkẹẹtì {num_digit_4, 6}, tíkẹẹtì mélòó ni wọ́n lò ní ọjọ́ náà?",
+  "question_solution": "answer = num_digit_4 * (num_digit_1 + num_digit_2 + 2 * num_digit_3)",
+  "conditions": [
+    "int(answer) == num_digit_4 * (num_digit_1 + num_digit_2 + 2 * num_digit_3)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Pam",
+    "name_male": "Fred"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      5,
+      7,
+      8,
+      10,
+      6,
+      9,
+      12,
+      15,
+      11
+    ],
+    "num_digit_2": [
+      6,
+      8,
+      9,
+      2,
+      12,
+      7,
+      11,
+      14,
+      18,
+      13
+    ],
+    "num_digit_3": [
+      4,
+      5,
+      6,
+      3,
+      7,
+      9,
+      8,
+      10,
+      11,
+      12
+    ],
+    "num_digit_4": [
+      7,
+      9,
+      5,
+      8,
+      10,
+      12,
+      6,
+      11,
+      13,
+      4
+    ],
+    "answer": [
+      119,
+      207,
+      140,
+      128,
+      360,
+      372,
+      216,
+      506,
+      715,
+      192
+    ],
+    "num_ic": [
+      19,
+      24,
+      36,
+      57,
+      21,
+      67,
+      95,
+      89,
+      51,
+      23
+    ]
+  },
+  "ic_question_template": "Ọmọ̀kùnrin {name_male, Fred} ní baba ńlá tí ó mú àwọn búrẹ́dì ìdárayá {num_ic, 42} wá sí ayẹyẹ. {name_female, Pam} àti {name_male, Fred} lọ sí ibi ayẹyẹ kan. {name_female, Pam} gun roller coaster ní ìgbà {num_digit_1, 2}, nígbà tí {name_male, Fred} gùn-ún ní ìgbà {num_digit_2, 4}. Lẹ́yìn ìyẹn, ọkọọkan wọn pinnu láti gun luge náà ní ìgbà {num_digit_3, 2}. Tí iye gígun ọkọ kọọkan bá ná tíkẹẹtì {num_digit_4, 6}, tíkẹẹtì mélòó ni wọ́n lò ní ọjọ́ náà?",
+  "ic_sentence": "Ọmọ̀kùnrin {name_male, Fred} ní baba ńlá tí ó mú àwọn búrẹ́dì ìdárayá {num_ic, 42} wá sí ayẹyẹ."
+}

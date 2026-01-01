@@ -1,0 +1,95 @@
+{
+  "original_question": "ウェルの母親はスイカ、トウガラシ、オレンジを地元の店で売っています。スイカは各トウガラシの値段の3倍の値段です。オレンジはスイカより5安いです。ディロンは店に4つのスイカ、20個のトウガラシ、10個のオレンジを送りました。トウガラシ1つが$15の場合、全部でいくらになりますか？",
+  "original_answer": 880,
+  "question_template": "{name_male_1, Well}'s ウェルの母親はスイカ、トウガラシ、オレンジを地元の店で売っています。スイカは各トウガラシの値段の3倍の値段です。オレンジはスイカより{num_digit_1, 5}安いです。ディロ{name_male_2, Dillon}ンは店に{num_digit_2, 4}つのスイカ、 {num_digit_3, 20}個のトウガラシ、 {num_digit_4, 10}個のオレンジを送りました。トウガラシ1つが${num_digit_5, 15}の場合、全部でいくらになりますか？",
+  "question_solution": "answer = num_digit_3 * num_digit_5 + num_digit_2 * (3 * num_digit_5) + num_digit_4 * (3 * num_digit_5 - num_digit_1)",
+  "conditions": [
+    "int(answer) == num_digit_3 * num_digit_5 + num_digit_2 * (3 * num_digit_5) + num_digit_4 * (3 * num_digit_5 - num_digit_1)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "3 * num_digit_5 > num_digit_1"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Well",
+    "name_male_2": "Dillon"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      12,
+      4,
+      9,
+      6,
+      8,
+      11,
+      14,
+      10,
+      3
+    ],
+    "num_digit_2": [
+      5,
+      8,
+      6,
+      3,
+      9,
+      7,
+      4,
+      12,
+      10,
+      15
+    ],
+    "num_digit_3": [
+      25,
+      30,
+      18,
+      40,
+      22,
+      35,
+      27,
+      50,
+      33,
+      45
+    ],
+    "num_digit_4": [
+      12,
+      15,
+      8,
+      20,
+      11,
+      14,
+      9,
+      25,
+      16,
+      30
+    ],
+    "num_digit_5": [
+      18,
+      21,
+      24,
+      27,
+      30,
+      33,
+      36,
+      39,
+      42,
+      45
+    ],
+    "answer": [
+      1284,
+      1899,
+      1408,
+      2763,
+      2394,
+      3122,
+      2277,
+      5929,
+      4502,
+      8010
+    ]
+  },
+  "ic_question_template": "{name_male_2, ディロン}のおばは昨日{num_ic, 92}個のパイナップルを買いました。{name_male_1, Well}'s ウェルの母親はスイカ、トウガラシ、オレンジを地元の店で売っています。スイカは各トウガラシの値段の3倍の値段です。オレンジはスイカより{num_digit_1, 5}安いです。ディロ{name_male_2, Dillon}ンは店に{num_digit_2, 4}つのスイカ、 {num_digit_3, 20}個のトウガラシ、 {num_digit_4, 10}個のオレンジを送りました。トウガラシ1つが${num_digit_5, 15}の場合、全部でいくらになりますか？",
+  "ic_sentence": "{name_male_2, ディロン}のおばは昨日{num_ic, 92}個のパイナップルを買いました。"
+}

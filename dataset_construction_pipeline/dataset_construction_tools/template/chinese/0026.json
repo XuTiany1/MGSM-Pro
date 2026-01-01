@@ -1,0 +1,106 @@
+{
+  "original_question": "米什卡买了 3 条短裤、3 条长裤和 3 双鞋。短裤每条 16.50 美元，长裤每条 22.50 美元，鞋子每双 42 美元。米什卡购买所有这些服饰一共花了多少钱？",
+  "original_answer": 243,
+  "question_template": "{name_female, 米什卡} 买了 {num_digit_1, 3} 条短裤、{num_digit_2, 3} 条长裤和 {num_digit_3, 3} 双鞋。短裤每条 {num_digit_4, 16.50} 美元，长裤每条 {num_digit_5, 22.50} 美元，鞋子每双 {num_digit_6, 42} 美元。{name_female, 米什卡} 购买所有这些服饰一共花了多少钱？",
+  "question_solution": "answer = num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5 + num_digit_3 * num_digit_6",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5 + num_digit_3 * num_digit_6",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Mishka"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_2": [
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37
+    ],
+    "num_digit_3": [
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31
+    ],
+    "num_digit_4": [
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "num_digit_5": [
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59
+    ],
+    "num_digit_6": [
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "answer": [
+      283,
+      515,
+      835,
+      1303,
+      1751,
+      2361,
+      3071,
+      3915,
+      5093,
+      6247
+    ]
+  },
+  "ic_question_template": "{name_female, 米什卡} 的叔叔最近买了 {num_ic, 12} 顶帽子。{name_female, 米什卡} 买了 {num_digit_1, 3} 条短裤、{num_digit_2, 3} 条长裤和 {num_digit_3, 3} 双鞋。短裤每条 {num_digit_4, 16.50} 美元，长裤每条 {num_digit_5, 22.50} 美元，鞋子每双 {num_digit_6, 42} 美元。{name_female, 米什卡} 购买所有这些服饰一共花了多少钱？",
+  "ic_sentence": "{name_female, 米什卡} 的叔叔最近买了 {num_ic, 12} 顶帽子。"
+}

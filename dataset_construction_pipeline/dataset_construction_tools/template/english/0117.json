@@ -1,0 +1,79 @@
+{
+  "original_question": "John buys 2 pairs of shoes for each of his 3 children. They cost $60 each. How much did he pay?",
+  "original_answer": 360,
+  "question_template": "{name_male, John} buys {num_digit_1, 2} pairs of shoes for each of his {num_digit_2, 3} children. They cost ${num_digit_3, 60} each. How much did he pay?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "num_digit_2": [
+      2,
+      4,
+      5,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "num_digit_3": [
+      45,
+      55,
+      70,
+      80,
+      90,
+      40,
+      100,
+      65,
+      75,
+      85
+    ],
+    "answer": [
+      270,
+      880,
+      700,
+      1200,
+      3240,
+      1960,
+      6400,
+      5265,
+      7500,
+      11220
+    ],
+    "num_ic": [
+      15,
+      44,
+      6,
+      54,
+      89,
+      70,
+      28,
+      97,
+      39,
+      92
+    ]
+  },
+  "ic_question_template": "{name_male, John} buys {num_digit_1, 2} pairs of shoes for each of his {num_digit_2, 3} children. They cost ${num_digit_3, 60} each. {name_male, John}'s uncle once bought {num_ic, 15} hats. How much did he pay?",
+  "ic_sentence": "{name_male, John}'s uncle once bought {num_ic, 15} hats."
+}

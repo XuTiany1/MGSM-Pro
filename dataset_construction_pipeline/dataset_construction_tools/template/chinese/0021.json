@@ -1,0 +1,69 @@
+{
+  "original_question": "雷蒙德和萨曼莎是堂兄妹。雷蒙德比萨曼莎大 6 岁。雷蒙德有一个 23 岁的儿子。如果萨曼莎现在 31 岁，雷蒙德的儿子是多少年前出生的？",
+  "original_answer": 14,
+  "question_template": "{name_male, 雷蒙德} 和 {name_female, 萨曼莎} 是堂兄妹。{name_male, 雷蒙德} 比 {name_female, 萨曼莎} 大 {num_digit_1, 6} 岁。{name_male, 雷蒙德} 有一个在 {num_digit_2, 23} 岁时生的儿子。如果 {name_female, 萨曼莎} 现在 {num_digit_3, 31} 岁，{name_male, 雷蒙德} 的儿子是多少年前出生的？",
+  "question_solution": "answer = num_digit_3 + num_digit_1 - num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_3 + num_digit_1 - num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_3 + num_digit_1 > num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_male": "Raymond",
+    "name_female": "Samantha"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "num_digit_2": [
+      29,
+      31,
+      37,
+      37,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67
+    ],
+    "num_digit_3": [
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "answer": [
+      29,
+      35,
+      39,
+      43,
+      47,
+      53,
+      51,
+      57,
+      63,
+      65
+    ]
+  },
+  "ic_question_template": "{name_female, 萨曼莎} 的叔叔收集了 {num_ic, 77} 张明信片。{name_male, 雷蒙德} 和 {name_female, 萨曼莎} 是堂兄妹。{name_male, 雷蒙德} 比 {name_female, 萨曼莎} 大 {num_digit_1, 6} 岁。{name_male, 雷蒙德} 有一个在 {num_digit_2, 23} 岁时生的儿子。如果 {name_female, 萨曼莎} 现在 {num_digit_3, 31} 岁，{name_male, 雷蒙德} 的儿子是多少年前出生的？",
+  "ic_sentence": "{name_female, 萨曼莎} 的叔叔收集了 {num_ic, 77} 张明信片。"
+}

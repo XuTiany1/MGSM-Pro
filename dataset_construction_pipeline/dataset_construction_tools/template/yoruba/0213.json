@@ -1,0 +1,81 @@
+{
+  "original_question": "Nígbà tí ó wà ní ilé ìtajà dollar, Sloane ka àwọn oníbàárà 100 tí wọ́n wọ ilé ìtajà náà. Ní ọjọ́ kejì, ó ka oníbàárà 50 ju ọjọ́ àkọ́kọ́ lọ. Tí àpapọ̀ iye àwọn oníbàárà ní ọjọ́ kẹta bá jẹ́ 500, oníbàárà mélòó ni ó kà ní ọjọ́ kẹta?",
+  "original_answer": 250,
+  "question_template": "Nígbà tí ó wà ní ilé ìtajà dollar, {name_female, Sloane} ka àwọn oníbàárà {num_digit_1, 100} tí wọ́n wọ ilé ìtajà náà. Ní ọjọ́ kejì, ó ka oníbàárà {num_digit_2, 50} ju ọjọ́ àkọ́kọ́ lọ. Tí àpapọ̀ iye àwọn oníbàárà ní ọjọ́ kẹta bá jẹ́ {num_digit_3, 500}, oníbàárà mélòó ni ó kà ní ọjọ́ kẹta?",
+  "question_solution": "answer = num_digit_3 - (2 * num_digit_1 + num_digit_2)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_3 - (2 * num_digit_1 + num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sloane"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      157,
+      248,
+      369,
+      431,
+      529,
+      612,
+      703,
+      814,
+      925,
+      1134
+    ],
+    "num_digit_2": [
+      59,
+      153,
+      284,
+      312,
+      449,
+      588,
+      614,
+      733,
+      821,
+      956
+    ],
+    "num_digit_3": [
+      496,
+      1105,
+      1811,
+      1495,
+      2161,
+      2799,
+      2131,
+      2583,
+      3004,
+      3668
+    ],
+    "answer": [
+      123,
+      456,
+      789,
+      321,
+      654,
+      987,
+      111,
+      222,
+      333,
+      444
+    ],
+    "num_ic": [
+      176,
+      925,
+      1216,
+      793,
+      129,
+      615,
+      428,
+      398,
+      539,
+      1068
+    ]
+  },
+  "ic_question_template": "Output: Ìyá àgbà {name_female, Sloane} ṣe àwọn pàìi bòòrùbèrì {num_ic, 93} fún títà nínú títà onjẹ àkàrà. Nígbà tí ó wà ní ilé ìtajà dollar, {name_female, Sloane} ka àwọn oníbàárà {num_digit_1, 100} tí wọ́n wọ ilé ìtajà náà. Ní ọjọ́ kejì, ó ka oníbàárà {num_digit_2, 50} ju ọjọ́ àkọ́kọ́ lọ. Tí àpapọ̀ iye àwọn oníbàárà ní ọjọ́ kẹta bá jẹ́ {num_digit_3, 500}, oníbàárà mélòó ni ó kà ní ọjọ́ kẹta?",
+  "ic_sentence": "Ìyá àgbà {name_female, Sloane} ṣe àwọn pàìi bòòrùbèrì {num_ic, 93} fún títà nínú títà onjẹ àkàrà."
+}

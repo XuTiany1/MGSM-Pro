@@ -1,0 +1,67 @@
+{
+  "original_question": "Baada ya kuhamia shule mpya, Amy alipata marafiki 20 zaidi ya Lily. Iwapo Lily alipata marafiki 50, Lily na Amy wana jumla ya marafiki wangapi kwa jumla?",
+  "original_answer": 120,
+  "question_template": "Baada ya kuhamia shule mpya, {name_female_1, Amy} alipata marafiki {num_digit_1, 20} zaidi ya {name_female_2, Lily}. Iwapo {name_female_2, Lily} alipata marafiki {num_digit_2, 50}, {name_female_2, Lily} na {name_female_1, Amy} wana jumla ya marafiki wangapi kwa jumla?",
+  "question_solution": "answer = 2 * num_digit_2 + num_digit_1",
+  "conditions": [
+    "int(answer) == 2 * num_digit_2 + num_digit_1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Amy",
+    "name_female_2": "Lily"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15,
+      30,
+      25,
+      40,
+      12,
+      33,
+      55,
+      70,
+      99,
+      11
+    ],
+    "num_digit_2": [
+      35,
+      70,
+      60,
+      80,
+      44,
+      33,
+      120,
+      150,
+      199,
+      89
+    ],
+    "answer": [
+      85,
+      170,
+      145,
+      200,
+      100,
+      99,
+      295,
+      370,
+      497,
+      189
+    ],
+    "num_ic": [
+      42,
+      262,
+      121,
+      374,
+      61,
+      46,
+      341,
+      570,
+      688,
+      108
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_female_2, Lily} alimtunuku vitabu vya vichekesho {num_ic, 42} kama zawadi ya kumkaribisha. Baada ya kuhamia shule mpya, {name_female_1, Amy} alipata marafiki {num_digit_1, 20} zaidi ya {name_female_2, Lily}. Iwapo {name_female_2, Lily} alipata marafiki {num_digit_2, 50}, {name_female_2, Lily} na {name_female_1, Amy} wana jumla ya marafiki wangapi kwa jumla?",
+  "ic_sentence": "Mjomba wa {name_female_2, Lily} alimtunuku vitabu vya vichekesho {num_ic, 42} kama zawadi ya kumkaribisha."
+}

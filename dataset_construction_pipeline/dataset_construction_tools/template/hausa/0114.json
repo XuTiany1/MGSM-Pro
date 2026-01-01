@@ -1,0 +1,80 @@
+{
+  "original_question": "Wayar Jamal zata iya daukar hotuna ninki 6 na yadda ta Brittany zata iya dauka. Mafi yawan adadin hotunan da wayar Brittany zata iya dauka  sunkai ninki 50 na adadin tsuntsayen dake jikin hoton Jamal na agwagi da ya dauka agidan zu. Idan wayar Jamal za ta iya daukar hotuna 1800, agwagi nawa za a iya gani a hoton agwagin da Jamal ya yi a gidan zu?",
+  "original_answer": 6,
+  "question_template": "Wayar {name_male, Jamal} zata iya daukar hotuna ninki {num_digit_1, 6} na yadda ta {name_female, Brittany} zata iya dauka. Mafi yawan adadin hotunan da wayar {name_female, Brittany} zata iya dauka sunkai ninki {num_digit_3, 50} na adadin tsuntsayen dake jikin hoton {name_male, Jamal} na agwagi da ya dauka agidan zu. Idan wayar {name_male, Jamal} za ta iya daukar hotuna {num_digit_2, 1800}, agwagi nawa za a iya gani a hoton agwagin da {name_male, Jamal} ya yi a gidan zu?",
+  "question_solution": "answer = num_digit_2 / (num_digit_1 * num_digit_3)",
+  "conditions": [
+    "int(answer) == num_digit_2 / (num_digit_1 * num_digit_3)",
+    "num_digit_1 > 0",
+    "num_digit_3 > 0",
+    "num_digit_2 % (num_digit_1 * num_digit_3) == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jamal",
+    "name_female": "Brittany"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      7,
+      5,
+      8,
+      9,
+      12,
+      15,
+      6,
+      10,
+      11
+    ],
+    "num_digit_2": [
+      900,
+      1260,
+      1600,
+      2520,
+      2700,
+      6600,
+      1440,
+      5460,
+      4320,
+      3267
+    ],
+    "num_digit_3": [
+      25,
+      30,
+      40,
+      45,
+      60,
+      50,
+      24,
+      70,
+      36,
+      33
+    ],
+    "answer": [
+      9,
+      6,
+      8,
+      7,
+      5,
+      11,
+      4,
+      13,
+      12,
+      9
+    ],
+    "num_ic": [
+      20,
+      84,
+      103,
+      48,
+      50,
+      112,
+      99,
+      93,
+      52,
+      97
+    ]
+  },
+  "ic_question_template": "Kawun {name_male, Jamal} ya taɓa ziyartar filayen shakatawa na ƙasa har {num_ic, 84}. Wayar {name_male, Jamal} zata iya daukar hotuna ninki {num_digit_1, 6} na yadda ta {name_female, Brittany} zata iya dauka. Mafi yawan adadin hotunan da wayar {name_female, Brittany} zata iya dauka sunkai ninki {num_digit_3, 50} na adadin tsuntsayen dake jikin hoton {name_male, Jamal} na agwagi da ya dauka agidan zu. Idan wayar {name_male, Jamal} za ta iya daukar hotuna {num_digit_2, 1800}, agwagi nawa za a iya gani a hoton agwagin da {name_male, Jamal} ya yi a gidan zu?",
+  "ic_sentence": "Kawun {name_male, Jamal} ya taɓa ziyartar filayen shakatawa na ƙasa har {num_ic, 84}."
+}

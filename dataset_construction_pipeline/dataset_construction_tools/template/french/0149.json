@@ -1,0 +1,70 @@
+{
+  "original_question": "Charlie a trois fois plus d'amis Facebook que Dorothée. Jacques en a quatre fois plus que Dorothée. Si Charlie a 12 amis Facebook, combien en a Jacques ?",
+  "original_answer": 16,
+  "question_template": "{name_male_1, Charlie} a {num_text_1, trois} fois plus d'amis Facebook que {name_male_2, Dorothée}. {name_male_3, Jacques} en a {num_text_2, quatre} fois plus que {name_male_2, Dorothée}. Si {name_male_1, Charlie} a {num_digit_1, 12} amis Facebook, combien en a {name_male_3, Jacques} ?",
+  "question_solution": "answer = (k_2 / k_1) * num_digit_1   # k_1 = numeric value of num_text_1, k_2 = numeric value of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (k_2 / k_1) * num_digit_1",
+    "num_digit_1 > 0",
+    "k_1 > 0",
+    "k_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Charlie",
+    "name_male_2": "Dorothy",
+    "name_male_3": "James"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15,
+      24,
+      40,
+      18,
+      60,
+      28,
+      48,
+      54,
+      44,
+      36
+    ],
+    "num_text_1": [
+      "trois",
+      "quatre",
+      "cinq",
+      "deux",
+      "six",
+      "sept",
+      "huit",
+      "neuf",
+      "onze",
+      "douze"
+    ],
+    "num_text_2": [
+      "quatre",
+      "six",
+      "deux",
+      "sept",
+      "trois",
+      "huit",
+      "cinq",
+      "dix",
+      "treize",
+      "neuf"
+    ],
+    "answer": [
+      20,
+      36,
+      16,
+      63,
+      30,
+      32,
+      30,
+      60,
+      52,
+      27
+    ]
+  },
+  "ic_question_template": "{name_male_3, James} a une tante qui a récemment adopté {num_ic, 67} chiots. {name_male_1, Charlie} a {num_text_1, trois} fois plus d'amis Facebook que {name_male_2, Dorothée}. {name_male_3, Jacques} en a {num_text_2, quatre} fois plus que {name_male_2, Dorothée}. Si {name_male_1, Charlie} a {num_digit_1, 12} amis Facebook, combien en a {name_male_3, Jacques} ?",
+  "ic_sentence": "{name_male_3, James} a une tante qui a récemment adopté {num_ic, 67} chiots."
+}

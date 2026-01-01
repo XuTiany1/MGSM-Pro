@@ -1,0 +1,81 @@
+{
+  "original_question": "Raymond ne Samantha yԑ nuanom. Wɔwoo Raymond mfie nsia ansa na wɔɔwo Samantha. Raymond dii mfeԑ 23 no ɔwoo ba barima. Sԑ Samantha adi 31 seesei a, mfeԑ dodoɔ akyiri sԑn na ɔwoo Raymond ba barima no?",
+  "original_answer": 14,
+  "question_template": "{name_male, Raymond} ne {name_female, Samantha} yԑ nuanom. Wɔwoo {name_male, Raymond} mfie {num_digit_1, nsia} ansa na wɔɔwo {name_female, Samantha}. {name_male, Raymond} dii mfeԑ {num_digit_2, 23} no ɔwoo ba barima. Sԑ {name_female, Samantha} adi {num_digit_3, 31} seesei a, mfeԑ dodoɔ akyiri sԑn na ɔwoo {name_male, Raymond} ba barima no?",
+  "question_solution": "answer = num_digit_3 + num_digit_1 - num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_3 + num_digit_1 - num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_3 + num_digit_1 > num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_male": "Raymond",
+    "name_female": "Samantha"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "num_digit_2": [
+      29,
+      31,
+      37,
+      37,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67
+    ],
+    "num_digit_3": [
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "answer": [
+      29,
+      35,
+      39,
+      43,
+      47,
+      53,
+      51,
+      57,
+      63,
+      65
+    ],
+    "num_ic": [
+      42,
+      82,
+      16,
+      89,
+      58,
+      119,
+      64,
+      34,
+      267,
+      164
+    ]
+  },
+  "ic_question_template": "{name_female, Samantha} wɔfa boaboa {num_ic, 77} nkratoɔ krataa ano. {name_male, Raymond} ne {name_female, Samantha} yԑ nuanom. Wɔwoo {name_male, Raymond} mfie {num_digit_1, nsia} ansa na wɔɔwo {name_female, Samantha}. {name_male, Raymond} dii mfeԑ {num_digit_2, 23} no ɔwoo ba barima. Sԑ {name_female, Samantha} adi {num_digit_3, 31} seesei a, mfeԑ dodoɔ akyiri sԑn na ɔwoo {name_male, Raymond} ba barima no?",
+  "ic_sentence": "{name_female, Samantha} wɔfa boaboa {num_ic, 77} nkratoɔ krataa ano."
+}

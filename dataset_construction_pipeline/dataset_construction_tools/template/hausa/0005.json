@@ -1,0 +1,91 @@
+{
+  "original_question": "Kylar ya je kanti don  siyan gilashin sabon gidansa. Gilashi ɗaya ya kai $5, amma kowane gilashi na gaba yana tashi da kashi 60% a farashinsa kawai. Kylar yana son siyan gilashi 16. Nawa yake bukata ya biya kudin gilasan?",
+  "original_answer": 64,
+  "question_template": "{name_male, Kylar} ya je kanti don siyan gilashin sabon gidansa. Gilashi ɗaya ya kai ${num_digit_1, 5}, amma kowane gilashi na {num_text_1, na biyu} yana tashi da kashi {num_digit_2, 60}% a farashinsa kawai. {name_male, Kylar} yana son siyan gilashi {num_digit_3, 16}. Nawa yake bukata ya biya kudin gilasan?",
+  "question_solution": "answer = (num_digit_3 // 2) * num_digit_1 * (1 + num_digit_2/100) + (num_digit_3 % 2) * num_digit_1",
+  "conditions": [
+    "int(answer) == (num_digit_3 // 2) * num_digit_1 * (1 + num_digit_2/100) + (num_digit_3 % 2) * num_digit_1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Kylar"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      2,
+      5,
+      8,
+      10,
+      20,
+      25,
+      50,
+      20,
+      25
+    ],
+    "num_digit_2": [
+      75,
+      50,
+      20,
+      50,
+      30,
+      45,
+      80,
+      100,
+      65,
+      40
+    ],
+    "num_digit_3": [
+      17,
+      23,
+      31,
+      29,
+      33,
+      28,
+      35,
+      47,
+      19,
+      49
+    ],
+    "num_text_1": [
+      "na biyu",
+      "na biyu",
+      "na biyu",
+      "na biyu",
+      "na biyu",
+      "na biyu",
+      "na biyu",
+      "na biyu",
+      "na biyu",
+      "na biyu"
+    ],
+    "answer": [
+      60,
+      35,
+      95,
+      176,
+      218,
+      406,
+      790,
+      2350,
+      317,
+      865
+    ],
+    "num_ic": [
+      19,
+      111,
+      176,
+      415,
+      185,
+      318,
+      112,
+      320,
+      72,
+      333
+    ]
+  },
+  "ic_question_template": "Kwanan nan gwaggon {name_male, Kylar} ta sayi kofuna {num_ic, 25} don ofishinta. {name_male, Kylar} ya je kanti don siyan gilashin sabon gidansa. Gilashi ɗaya ya kai ${num_digit_1, 5}, amma kowane gilashi na {num_text_1, na biyu} yana tashi da kashi {num_digit_2, 60}% a farashinsa kawai. {name_male, Kylar} yana son siyan gilashi {num_digit_3, 16}. Nawa yake bukata ya biya kudin gilasan?",
+  "ic_sentence": "Kwanan nan gwaggon {name_male, Kylar} ta sayi kofuna {num_ic, 25} don ofishinta."
+}

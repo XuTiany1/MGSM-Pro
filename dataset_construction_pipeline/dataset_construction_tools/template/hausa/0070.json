@@ -1,0 +1,105 @@
+{
+  "original_question": "Judy tana koyar da azuzuwan rawa guda 5, kowace rana, a ranakun mako da kuma azuzuwa 8 a ranar Asabar. Idan kowane aji yana da dalibai 15 kuma tana karbar $15.00 ga kowane dalibi, nawa take samu a sati 1?",
+  "original_answer": 7425,
+  "question_template": "{name_female, Judy} tana koyar da azuzuwan rawa guda {num_digit_1, 5}, kowace rana, a ranakun mako da kuma azuzuwa {num_digit_2, 8} a ranar Asabar. Idan kowane aji yana da dalibai {num_digit_3, 15} kuma tana karbar ${num_digit_4, 15.00} ga kowane dalibi, nawa take samu a sati {num_digit_5, 1}?",
+  "question_solution": "answer = (num_digit_1 * 5 + num_digit_2) * num_digit_3 * num_digit_4 * num_digit_5",
+  "conditions": [
+    "int(answer) == (num_digit_1 * 5 + num_digit_2) * num_digit_3 * num_digit_4 * num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Judy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      6,
+      4,
+      7,
+      8,
+      5,
+      10,
+      12,
+      9,
+      11
+    ],
+    "num_digit_2": [
+      8,
+      5,
+      10,
+      12,
+      7,
+      4,
+      15,
+      9,
+      14,
+      6
+    ],
+    "num_digit_3": [
+      15,
+      20,
+      12,
+      16,
+      10,
+      25,
+      18,
+      30,
+      22,
+      14
+    ],
+    "num_digit_4": [
+      15,
+      12,
+      20,
+      10,
+      18,
+      22,
+      16,
+      25,
+      14,
+      30
+    ],
+    "num_digit_5": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answer": [
+      5175,
+      16800,
+      21600,
+      30080,
+      42300,
+      95700,
+      131040,
+      414000,
+      163548,
+      256200
+    ],
+    "num_ic": [
+      21,
+      48,
+      17,
+      110,
+      98,
+      65,
+      88,
+      132,
+      97,
+      85
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Judy} na sayen takalman rawa {num_ic, 47} a kowane wata. {name_female, Judy} tana koyar da azuzuwan rawa guda {num_digit_1, 5}, kowace rana, a ranakun mako da kuma azuzuwa {num_digit_2, 8} a ranar Asabar. Idan kowane aji yana da dalibai {num_digit_3, 15} kuma tana karbar ${num_digit_4, 15.00} ga kowane dalibi, nawa take samu a sati {num_digit_5, 1}?",
+  "ic_sentence": "Kawun {name_female, Judy} na sayen takalman rawa {num_ic, 47} a kowane wata."
+}

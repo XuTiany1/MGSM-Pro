@@ -1,0 +1,78 @@
+{
+  "original_question": "Two trains leave San Rafael at the same time. They begin traveling westward, both traveling for 80 miles. The next day, they travel northwards, covering 150 miles. What's the distance covered by each train in the two days?",
+  "original_answer": 230,
+  "question_template": "{num_text_1, Two} trains leave {name_town_1, San Rafael} at the same time. They begin traveling westward, both traveling for {num_digit_1, 80} miles. The next day, they travel northwards, covering {num_digit_2, 150} miles. What's the distance covered by each train in the two days?",
+  "question_solution": "answer = num_digit_1 + num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_1 + num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_town_1": "San Rafael"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "Two",
+      "Three",
+      "Five",
+      "Seven",
+      "Eleven",
+      "Thirteen",
+      "Seventeen",
+      "Nineteen",
+      "Twenty-three",
+      "Twenty-nine"
+    ],
+    "num_digit_1": [
+      101,
+      113,
+      127,
+      131,
+      137,
+      149,
+      157,
+      163,
+      173,
+      179
+    ],
+    "num_digit_2": [
+      191,
+      193,
+      197,
+      199,
+      211,
+      223,
+      227,
+      229,
+      233,
+      239
+    ],
+    "answer": [
+      292,
+      306,
+      324,
+      330,
+      348,
+      372,
+      384,
+      392,
+      406,
+      418
+    ],
+    "num_ic": [
+      108,
+      920,
+      270,
+      1332,
+      1489,
+      1660,
+      1827,
+      1039,
+      2067,
+      1400
+    ]
+  },
+  "ic_question_template": "{num_text_1, Two} trains leave {name_town_1, San Rafael} at the same time. They begin traveling westward, both traveling for {num_digit_1, 80} miles. The next day, they travel northwards, covering {num_digit_2, 150} miles. {name_town_1, San Rafael}'s mayor owns {num_ic, 137} model trains. What's the distance covered by each train in the two days?",
+  "ic_sentence": "{name_town_1, San Rafael}'s mayor owns {num_ic, 137} model trains."
+}

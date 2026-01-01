@@ -1,0 +1,80 @@
+{
+  "original_question": "Carlos veut planter un citronnier. Le coût de la plantation est de 90 $. Chaque année, l'arbre produira 7 citrons qui seront vendus au prix de 1,5 $ chacun. L'arrosage et la nutrition de l'arbre coûtent 3 $ par an. Combien d'années faudra-t-il à Carlos pour commencer à gagner de l'argent avec son citronnier ?",
+  "original_answer": 13,
+  "question_template": "{name_male, Carlos} veut planter un citronnier. Le coût de la plantation est de {num_digit_1, 90} $. Chaque année, l'arbre produira {num_digit_2, 7} citrons qui seront vendus au prix de {num_digit_3, 1.5} $ chacun. L'arrosage et la nutrition de l'arbre coûtent {num_digit_4, 3} $ par an. Combien d'années faudra-t-il à {name_male, Carlos} pour commencer à gagner de l'argent avec son citronnier ?",
+  "question_solution": "answer = num_digit_1 // (num_digit_2 * num_digit_3 - num_digit_4) + 1",
+  "conditions": [
+    "int(answer) == num_digit_1 // (num_digit_2 * num_digit_3 - num_digit_4) + 1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Carlos"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      317,
+      523,
+      799,
+      412,
+      975,
+      661,
+      830,
+      933,
+      1207,
+      1486
+    ],
+    "num_digit_2": [
+      13,
+      17,
+      19,
+      11,
+      23,
+      14,
+      16,
+      18,
+      21,
+      17
+    ],
+    "num_digit_3": [
+      2.4,
+      1.9,
+      2.7,
+      3.1,
+      1.75,
+      2.85,
+      2.2,
+      1.95,
+      2.05,
+      3.3
+    ],
+    "num_digit_4": [
+      7,
+      5,
+      8,
+      12,
+      9,
+      13,
+      11,
+      6,
+      14,
+      19
+    ],
+    "answer": [
+      14,
+      20,
+      19,
+      19,
+      32,
+      25,
+      35,
+      33,
+      42,
+      41
+    ]
+  },
+  "ic_question_template": "{name_male, Carlos} a eu son cousin qui a apporté {num_ic, 136} oranges au dernier pique-nique familial. {name_male, Carlos} veut planter un citronnier. Le coût de la plantation est de {num_digit_1, 90} $. Chaque année, l'arbre produira {num_digit_2, 7} citrons qui seront vendus au prix de {num_digit_3, 1.5} $ chacun. L'arrosage et la nutrition de l'arbre coûtent {num_digit_4, 3} $ par an. Combien d'années faudra-t-il à {name_male, Carlos} pour commencer à gagner de l'argent avec son citronnier ?",
+  "ic_sentence": "{name_male, Carlos} a eu son cousin qui a apporté {num_ic, 136} oranges au dernier pique-nique familial."
+}

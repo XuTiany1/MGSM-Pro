@@ -1,0 +1,81 @@
+{
+  "original_question": "Idadi ya wanyama vipenzi wa Jani ni mara tatu zaidi ya wale wa Marcia. Marcia ana wanyama vipenzi wawili zaidi ya Cindy. Iwapo Cindy ana wanyama vipenzi wa nne, jumla ya idadi ya wanyama vipenzi wa watu hawa watatu ni ngapi?",
+  "original_answer": 28,
+  "question_template": "{name_female_1, Jan} ana wanyama vipenzi mara {num_text_1, tatu} zaidi ya {name_female_2, Marcia}. {name_female_2, Marcia} ana wanyama vipenzi {num_text_2, wawili} zaidi ya {name_female_3, Cindy}. Iwapo {name_female_3, Cindy} ana wanyama vipenzi {num_text_3, wanne}, jumla ya wanyama vipenzi wa wote watatu ni wangapi?",
+  "question_solution": "answer = NUM(num_text_3) + (NUM(num_text_3) + NUM(num_text_2)) + NUM(num_text_1) * (NUM(num_text_3) + NUM(num_text_2))",
+  "conditions": [
+    "int(answer) == NUM(num_text_3) + (NUM(num_text_3) + NUM(num_text_2)) + NUM(num_text_1) * (NUM(num_text_3) + NUM(num_text_2))",
+    "NUM(num_text_1) > 0",
+    "NUM(num_text_2) >= 0",
+    "NUM(num_text_3) >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Jan",
+    "name_female_2": "Marcia",
+    "name_female_3": "Cindy"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "mbili",
+      "tatu",
+      "nne",
+      "tano",
+      "sita",
+      "saba",
+      "nane",
+      "tisa",
+      "kumi",
+      "kumi na moja"
+    ],
+    "num_text_2": [
+      "tatu",
+      "nne",
+      "moja",
+      "mbili",
+      "tatu",
+      "nne",
+      "tano",
+      "sita",
+      "saba",
+      "nane"
+    ],
+    "num_text_3": [
+      "tano",
+      "mbili",
+      "saba",
+      "sita",
+      "moja",
+      "tatu",
+      "mbili",
+      "nne",
+      "moja",
+      "tatu"
+    ],
+    "answer": [
+      29,
+      26,
+      47,
+      54,
+      29,
+      59,
+      65,
+      104,
+      89,
+      135
+    ],
+    "num_ic": [
+      12,
+      49,
+      21,
+      36,
+      18,
+      28,
+      27,
+      30,
+      37,
+      83
+    ]
+  },
+  "ic_question_template": "{name_female_1, Jan} ana wanyama vipenzi mara {num_text_1, tatu} zaidi ya {name_female_2, Marcia}. {name_female_2, Marcia} ana wanyama vipenzi {num_text_2, wawili} zaidi ya {name_female_3, Cindy}. Iwapo {name_female_3, Cindy} ana wanyama vipenzi {num_text_3, wanne}, jumla ya wanyama vipenzi wa wote watatu ni wangapi? Mjomba wa {name_female_2, Marcia} anamiliki ndege {num_ic, 16}.",
+  "ic_sentence": "Mjomba wa {name_female_2, Marcia} anamiliki ndege {num_ic, 16}."
+}

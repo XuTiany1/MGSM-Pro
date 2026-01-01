@@ -1,0 +1,79 @@
+{
+  "original_question": "Jennie ԑboa wɔ beaeԑ a ne maame yԑ adwuma. Ͻwɔ nkrataa 60 a ԑhia sԑ wɔde adeԑ tare so, ne nkrataa dodoɔ bi a wɔde adeԑ atare so deda. Ͻde ataredeԑ tare nkrataa a ԑhia ataredeԑ no mu mmiensa nkyԑmu baako so. Sԑ wɔwɔ nkrataa 30 a w’atare so seesei a, na sԑn na ԑwɔ hɔ ansa na Jennie hyԑԑ aseԑ?",
+  "original_answer": 10,
+  "question_template": "{name_female, Jennie} ԑboa wɔ beaeԑ a ne maame yԑ adwuma. Ͻwɔ nkrataa {num_digit_1, 60} a ԑhia sԑ wɔde adeԑ tare so, ne nkrataa dodoɔ bi a wɔde adeԑ atare so deda. Ͻde ataredeԑ tare nkrataa a ԑhia ataredeԑ no mu {num_frac_1, mmiensa nkyԑmu baako} so. Sԑ wɔwɔ nkrataa {num_digit_2, 30} a w’atare so seesei a, na sԑn na ԑwɔ hɔ ansa na {name_female, Jennie} hyԑԑ aseԑ?",
+  "question_solution": "answer = num_digit_2 - num_digit_1 * num_frac_1",
+  "conditions": [
+    "int(answer) == num_digit_2 - num_digit_1 * num_frac_1",
+    "num_digit_1 > 0",
+    "0 < num_frac_1 && num_frac_1 < 1",
+    "num_digit_2 > num_digit_1 * num_frac_1"
+  ],
+  "variable_word_list": {
+    "name_female": "Jennie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      72,
+      90,
+      84,
+      105,
+      66,
+      98,
+      120,
+      80,
+      96,
+      110
+    ],
+    "num_frac_1": [
+      "5/9",
+      "2/5",
+      "7/12",
+      "3/7",
+      "2/11",
+      "5/14",
+      "11/15",
+      "7/16",
+      "13/24",
+      "9/22"
+    ],
+    "num_digit_2": [
+      70,
+      95,
+      100,
+      120,
+      58,
+      83,
+      150,
+      97,
+      120,
+      123
+    ],
+    "answer": [
+      30,
+      59,
+      51,
+      75,
+      46,
+      48,
+      62,
+      62,
+      68,
+      78
+    ],
+    "num_ic": [
+      66,
+      78,
+      33,
+      42,
+      99,
+      81,
+      88,
+      67,
+      86,
+      57
+    ]
+  },
+  "ic_question_template": "{name_female, Jennie} wɔfa no nsa kaa nkratoɔ krataa {num_ic, 27} wɔ ne awo da no so. {name_female, Jennie} ԑboa wɔ beaeԑ a ne maame yԑ adwuma. Ͻwɔ nkrataa {num_digit_1, 60} a ԑhia sԑ wɔde adeԑ tare so, ne nkrataa dodoɔ bi a wɔde adeԑ atare so deda. Ͻde ataredeԑ tare nkrataa a ԑhia ataredeԑ no mu {num_frac_1, mmiensa nkyԑmu baako} so. Sԑ wɔwɔ nkrataa {num_digit_2, 30} a w’atare so seesei a, na sԑn na ԑwɔ hɔ ansa na {name_female, Jennie} hyԑԑ aseԑ?",
+  "ic_sentence": "{name_female, Jennie} wɔfa no nsa kaa nkratoɔ krataa {num_ic, 27} wɔ ne awo da no so."
+}

@@ -1,0 +1,79 @@
+{
+  "original_question": "ዳን 3 የሮዝ ቁጥቋጦዎችን ይተክላል። እያንዳንዱ የሮዝ ቍጥቋጦ 25 ጽጌረዳዎች አሉት፤ እያንዳንዱ ጽጌረዳ ደግሞ 8 እሾህ አለው። በአጠቃላይ ስንት እሾህ አሉ?",
+  "original_answer": 600,
+  "question_template": "{name_male, ዳን} {num_digit_1, 3} የሮዝ ቁጥቋጦዎችን ይተክላል። እያንዳንዱ የሮዝ ቍጥቋጦ {num_digit_2, 25} ጽጌረዳዎች አሉት፤ እያንዳንዱ ጽጌረዳ ደግሞ {num_digit_3, 8} እሾህ አለው። በአጠቃላይ ስንት እሾህ አሉ?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Dan"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      5,
+      2,
+      10,
+      6,
+      4,
+      9,
+      11,
+      8,
+      15
+    ],
+    "num_digit_2": [
+      14,
+      20,
+      30,
+      11,
+      17,
+      23,
+      16,
+      13,
+      19,
+      9
+    ],
+    "num_digit_3": [
+      9,
+      12,
+      15,
+      13,
+      8,
+      7,
+      5,
+      6,
+      4,
+      3
+    ],
+    "answer": [
+      882,
+      1200,
+      900,
+      1430,
+      816,
+      644,
+      720,
+      858,
+      608,
+      405
+    ],
+    "num_ic": [
+      43,
+      137,
+      61,
+      121,
+      117,
+      110,
+      13,
+      71,
+      88,
+      115
+    ]
+  },
+  "ic_question_template": "{name_male, ዳን} {num_digit_1, 3} የሮዝ ቁጥቋጦዎችን ይተክላል። እያንዳንዱ የሮዝ ቍጥቋጦ {num_digit_2, 25} ጽጌረዳዎች አሉት፤ እያንዳንዱ ጽጌረዳ ደግሞ {num_digit_3, 8} እሾህ አለው። በአጠቃላይ ስንት እሾህ አሉ? የ{name_male, ዳን} አክስቱ {num_ic, 27} የቲማቲም ተክሎች አሉአት።",
+  "ic_sentence": "የ{name_male, ዳን} አክስቱ {num_ic, 27} የቲማቲም ተክሎች አሉአት።"
+}

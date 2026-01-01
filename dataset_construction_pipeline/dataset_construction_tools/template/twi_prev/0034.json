@@ -1,0 +1,94 @@
+{
+  "original_question": "Siobhan agudeԑ no wɔ fam 2 kyԑn Aaron. Aaron wɔ agudeԑ 5 kyԑn Raymond agudeԑ no nyinaa mu fa. Sԑ Raymond wɔ agudeԑ 40 a, agudeԑ sԑn na Siobhan wɔ?",
+  "original_answer": 23,
+  "question_template": "{name_male_1, Siobhan} agudeԑ no wɔ fam {num_digit_1, 2} kyԑn {name_male_2, Aaron}. {name_male_2, Aaron} wɔ agudeԑ {num_digit_2, 5} kyԑn {name_male_3, Raymond} agudeԑ no nyinaa mu {num_frac_1, fa}. Sԑ {name_male_3, Raymond} wɔ agudeԑ {num_digit_3, 40} a, agudeԑ sԑn na {name_male_1, Siobhan} wɔ?",
+  "question_solution": "answer = num_digit_3 / 2 + num_digit_2 - num_digit_1",
+  "conditions": [
+    "int(answer) == num_digit_3 / 2 + num_digit_2 - num_digit_1",
+    "num_digit_3 % 2 == 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Siobhan",
+    "name_male_2": "Aaron",
+    "name_male_3": "Raymond"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      6,
+      7,
+      9,
+      12,
+      10,
+      11,
+      8,
+      5
+    ],
+    "num_digit_2": [
+      7,
+      9,
+      12,
+      15,
+      17,
+      10,
+      8,
+      14,
+      13,
+      6
+    ],
+    "num_digit_3": [
+      62,
+      84,
+      74,
+      100,
+      110,
+      96,
+      88,
+      120,
+      78,
+      56
+    ],
+    "num_frac_1": [
+      "faako",
+      "faako",
+      "faako",
+      "faako",
+      "faako",
+      "faako",
+      "faako",
+      "faako",
+      "faako",
+      "faako"
+    ],
+    "answer": [
+      35,
+      47,
+      43,
+      58,
+      63,
+      46,
+      42,
+      63,
+      44,
+      29
+    ],
+    "num_ic": [
+      313,
+      633,
+      593,
+      770,
+      870,
+      756,
+      641,
+      854,
+      640,
+      387
+    ]
+  },
+  "ic_question_template": "{name_male_2, Aaron} wɔfa kyɛɛ no abɔdeɛ {num_ic, 341}. {name_male_1, Siobhan} agudeԑ no wɔ fam {num_digit_1, 2} kyԑn {name_male_2, Aaron}. {name_male_2, Aaron} wɔ agudeԑ {num_digit_2, 5} kyԑn {name_male_3, Raymond} agudeԑ no nyinaa mu {num_frac_1, fa}. Sԑ {name_male_3, Raymond} wɔ agudeԑ {num_digit_3, 40} a, agudeԑ sԑn na {name_male_1, Siobhan} wɔ?",
+  "ic_sentence": "{name_male_2, Aaron} wɔfa kyɛɛ no abɔdeɛ {num_ic, 341}."
+}

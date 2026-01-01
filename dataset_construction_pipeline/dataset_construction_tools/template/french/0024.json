@@ -1,0 +1,55 @@
+{
+  "original_question": "Kyle a acheté le livre le plus vendu de l'année dernière à 19,50 $, en bénéficiant d'une remise de 25 % sur le prix initial. Quel est le prix initial du livre ?",
+  "original_answer": 26,
+  "question_template": "{name_male, Kyle} a acheté le livre le plus vendu de l'année dernière à {num_digit_1, 19.50} $, en bénéficiant d'une remise de {num_digit_2, 25} % sur le prix initial. Quel est le prix initial du livre ?",
+  "question_solution": "answer = num_digit_1 / (1 - num_digit_2/100)",
+  "conditions": [
+    "abs(answer - num_digit_1 / (1 - num_digit_2/100)) < 1e-6",
+    "num_digit_1 > 0",
+    "0 < num_digit_2 < 100",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Kyle"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      10864150,
+      7100000001,
+      740740740,
+      77773500,
+      112505700,
+      222222220,
+      49382714,
+      2104867042,
+      679570450,
+      11416783665
+    ],
+    "num_digit_2": [
+      12,
+      19,
+      25,
+      37,
+      20,
+      45,
+      60,
+      33,
+      75,
+      58
+    ],
+    "answer": [
+      12345625,
+      8765432100,
+      987654320,
+      123450000,
+      140632125,
+      404040400,
+      123456785,
+      3141592600,
+      2718281800,
+      27182818250
+    ]
+  },
+  "ic_question_template": "{name_male, Kyle} avait une tante qui lisait {num_ic, 326332763} magazines chaque année. {name_male, Kyle} a acheté le livre le plus vendu de l'année dernière à {num_digit_1, 19.50} $, en bénéficiant d'une remise de {num_digit_2, 25} % sur le prix initial. Quel est le prix initial du livre ?",
+  "ic_sentence": "{name_male, Kyle} avait une tante qui lisait {num_ic, 326332763} magazines chaque année."
+}

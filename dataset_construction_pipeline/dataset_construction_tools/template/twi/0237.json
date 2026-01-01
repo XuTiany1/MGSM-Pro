@@ -1,0 +1,81 @@
+{
+  "original_question": "Johnny faa ne mfasoɔ a na ɛyɛ $20 no de $10 kaa ho. Afei ɔde saa sika no dii adwa, na ɛkɔɔ soro mmɔho mmiɛnsa wɔ afe baako mu. So sika ahe na ɔwɔ wɔ afe baako akyi?",
+  "original_answer": 90,
+  "question_template": "{name_male, Johnny} faa ne mfasoɔ a na ɛyɛ ${num_digit_1, 20} no de ${num_digit_2, 10} kaa ho. Afei ɔde saa sika no dii adwa, na ɛkɔɔ soro {num_text_1, mmɔho mmiɛnsa} wɔ afe baako mu. So sika ahe na ɔwɔ wɔ afe baako akyi?",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) * f1   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 + num_digit_2) * f1",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "f1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Johnny"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      137,
+      246,
+      385,
+      472,
+      593,
+      610,
+      785,
+      923,
+      1050,
+      1189
+    ],
+    "num_digit_2": [
+      58,
+      142,
+      207,
+      311,
+      408,
+      512,
+      624,
+      738,
+      845,
+      977
+    ],
+    "num_text_1": [
+      "mũsa mpɛn abiɛsa",
+      "akɛseɛ mfirii nan",
+      "mpɛn abien",
+      "mpɛnnum",
+      "mpɛn nsia",
+      "apeme nsia",
+      "akɔtɔson",
+      "aɳkrondu",
+      "Mprɛ du",
+      "mpɛn dumienu"
+    ],
+    "answer": [
+      585,
+      1552,
+      1184,
+      3915,
+      6006,
+      7854,
+      11272,
+      14949,
+      18950,
+      25992
+    ],
+    "num_ic": [
+      88,
+      98,
+      130,
+      651,
+      200,
+      236,
+      1646,
+      212,
+      1306,
+      3436
+    ]
+  },
+  "ic_question_template": "{name_male, Johnny} busuani nsa kaa basebɔɔllɔ nkrataa {num_ic, 88} wɔ n'awoda no so. {name_male, Johnny} faa ne mfasoɔ a na ɛyɛ ${num_digit_1, 20} no de ${num_digit_2, 10} kaa ho. Afei ɔde saa sika no dii adwa, na ɛkɔɔ soro {num_text_1, mmɔho mmiɛnsa} wɔ afe baako mu. So sika ahe na ɔwɔ wɔ afe baako akyi?",
+  "ic_sentence": "{name_male, Johnny} busuani nsa kaa basebɔɔllɔ nkrataa {num_ic, 88} wɔ n'awoda no so."
+}

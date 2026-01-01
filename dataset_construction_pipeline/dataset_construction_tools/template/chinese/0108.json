@@ -1,0 +1,81 @@
+{
+  "original_question": "亨利正在为当地的一场烘焙竞赛制作饼干。他想比去年多做一倍。当他烤完后，他意识到自己实际上比想做的多做了 15 片饼干。在把饼干拿出去晾凉时，他掉了 5 片饼干，现在他一共有 110 片饼干。亨利去年做了多少片饼干？",
+  "original_answer": 50,
+  "question_template": "{name_male, 亨利} 正在为当地的一场烘焙竞赛制作饼干。他想比去年多做 {num_text_1, 一倍}。当他烤完后，他意识到自己实际上比想做的多做了 {num_digit_1, 15} 片饼干。在把饼干拿出去晾凉时，他掉了 {num_digit_2, 5} 片饼干，现在他一共有 {num_digit_3, 110} 片饼干。{name_male, 亨利} 去年做了多少片饼干？",
+  "question_solution": "answer = (num_digit_3 + num_digit_2 - num_digit_1) / k   # k = numeric value of num_text_1 (twice→2, thrice→3, …)",
+  "conditions": [
+    "int(answer) == answer",
+    "(num_digit_3 + num_digit_2 - num_digit_1) % k == 0",
+    "answer == (num_digit_3 + num_digit_2 - num_digit_1) / k",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Henry"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      15,
+      30,
+      15,
+      59,
+      12,
+      10,
+      30,
+      28,
+      9
+    ],
+    "num_digit_2": [
+      8,
+      5,
+      10,
+      5,
+      7,
+      8,
+      10,
+      5,
+      8,
+      6
+    ],
+    "num_digit_3": [
+      124,
+      100,
+      180,
+      260,
+      310,
+      480,
+      640,
+      700,
+      920,
+      850
+    ],
+    "num_text_1": [
+      "两次",
+      "三次",
+      "四倍",
+      "五倍",
+      "六倍",
+      "七次",
+      "八倍",
+      "九次",
+      "十倍",
+      "十一倍"
+    ],
+    "answer": [
+      60,
+      30,
+      40,
+      50,
+      43,
+      68,
+      80,
+      75,
+      90,
+      77
+    ]
+  },
+  "ic_question_template": "{name_male, 亨利}的叔叔从附近的面包店买了{num_ic, 99}个松饼。{name_male, 亨利} 正在为当地的一场烘焙竞赛制作饼干。他想比去年多做 {num_text_1, 一倍}。当他烤完后，他意识到自己实际上比想做的多做了 {num_digit_1, 15} 片饼干。在把饼干拿出去晾凉时，他掉了 {num_digit_2, 5} 片饼干，现在他一共有 {num_digit_3, 110} 片饼干。{name_male, 亨利} 去年做了多少片饼干？",
+  "ic_sentence": "{name_male, 亨利}的叔叔从附近的面包店买了{num_ic, 99}个松饼。"
+}

@@ -1,0 +1,79 @@
+{
+  "original_question": "N'ịme ụgbọala iri abụọ fọdụrụ maka mgbazinye, iri na abụọ bụ ụgbọala ọtọmatiki, anọ bụ ụgbọala manụalụ ma ndị ọzọ bụ semi-ọtọmatiki. Kedụ pesenti ụgbọala ole bụ semi-ọtọmatiki? ",
+  "original_answer": 20,
+  "question_template": "N'ịme ụgbọala {num_digit_1, 20} fọdụrụ maka mgbazinye, {num_digit_2, 12} bụ ụgbọala ọtọmatiki, {num_digit_3, 4} bụ ụgbọala manụalụ ma ndị ọzọ bụ semi-ọtọmatiki. Kedụ pesenti ụgbọala ole bụ semi-ọtọmatiki?",
+  "question_solution": "answer = (num_digit_1 - num_digit_2 - num_digit_3) * 100 / num_digit_1",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_digit_2 - num_digit_3) * 100 / num_digit_1",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_1 >= num_digit_2 + num_digit_3",
+    "(num_digit_1 - num_digit_2 - num_digit_3) * 100 % num_digit_1 == 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      30,
+      45,
+      50,
+      60,
+      72,
+      90,
+      88,
+      96,
+      120,
+      95
+    ],
+    "num_digit_2": [
+      18,
+      24,
+      32,
+      39,
+      40,
+      50,
+      40,
+      50,
+      70,
+      53
+    ],
+    "num_digit_3": [
+      3,
+      12,
+      6,
+      9,
+      14,
+      22,
+      26,
+      22,
+      32,
+      23
+    ],
+    "answer": [
+      30,
+      20,
+      24,
+      20,
+      25,
+      20,
+      25,
+      25,
+      15,
+      20
+    ],
+    "num_ic": [
+      263,
+      43,
+      158,
+      42,
+      189,
+      69,
+      45,
+      96,
+      315,
+      202
+    ]
+  },
+  "ic_question_template": "Nwa nwanne onye na-ahụ maka mgbazinye gara ileta ụlọ ahịa ụgbọala {num_ic, 66} n'afọ gara aga. N'ịme ụgbọala {num_digit_1, 20} fọdụrụ maka mgbazinye, {num_digit_2, 12} bụ ụgbọala ọtọmatiki, {num_digit_3, 4} bụ ụgbọala manụalụ ma ndị ọzọ bụ semi-ọtọmatiki. Kedụ pesenti ụgbọala ole bụ semi-ọtọmatiki?",
+  "ic_sentence": "Nwa nwanne onye na-ahụ maka mgbazinye gara ileta ụlọ ahịa ụgbọala {num_ic, 66} n'afọ gara aga."
+}

@@ -1,0 +1,133 @@
+{
+  "original_question": "Na Brinley wɔ Owura Bert akontaabu gyinapɛn. Owura Bert yɛ nsɔhwɛ ahoroɔ nsia wɔ bosome fa biara mu. Ɔma adesuafo hɔ kwan ma woyi emu aba ketewa firi adantam ɛwɔ bosome biara mu. Sɛ Brinley nyaa 89, 71, 92, 100 ne 86 wɔ nsɔhwɛ enum a edi kan, dɛn aba na ohia wɔ nsɔhwɛ a ɛto so nsia na ama wanya nkontaabu 93?",
+  "original_answer": 98,
+  "question_template": "Na {name_female, Brinley} wɔ Owura {name_family, Bert} akontaabu gyinapɛn. Owura {name_family, Bert} yɛ nsɔhwɛ ahoroɔ {num_text_1, nsia} wɔ bosome fa biara mu. Ɔma adesuafo hɔ kwan ma woyi emu aba ketewa firi adantam ɛwɔ bosome biara mu. Sɛ {name_female, Brinley} nyaa {num_digit_1, 89}, {num_digit_2, 71}, {num_digit_3, 92}, {num_digit_4, 100} ne {num_digit_5, 86} wɔ nsɔhwɛ enum a edi kan, dɛn aba na ohia wɔ nsɔhwɛ a ɛto so nsia na ama wanya nkontaabu {num_digit_6, 93}?",
+  "question_solution": "answer = (num_digit_6 * 5 + min(num_digit_1, num_digit_2, num_digit_3, num_digit_4, num_digit_5) - (num_digit_1 + num_digit_2 + num_digit_3 + num_digit_4 + num_digit_5))",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_6 * 5 + min(num_digit_1, num_digit_2, num_digit_3, num_digit_4, num_digit_5) - (num_digit_1 + num_digit_2 + num_digit_3 + num_digit_4 + num_digit_5))",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Brinley",
+    "name_family": "Bert"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "nsia",
+      "nsia",
+      "nsia",
+      "nsia",
+      "nsia",
+      "nsia",
+      "nsia",
+      "nsia",
+      "nsia",
+      "nsia"
+    ],
+    "num_digit_1": [
+      87,
+      91,
+      64,
+      55,
+      93,
+      81,
+      66,
+      97,
+      58,
+      88
+    ],
+    "num_digit_2": [
+      73,
+      82,
+      59,
+      68,
+      88,
+      76,
+      72,
+      89,
+      62,
+      84
+    ],
+    "num_digit_3": [
+      95,
+      78,
+      75,
+      72,
+      84,
+      69,
+      64,
+      94,
+      67,
+      79
+    ],
+    "num_digit_4": [
+      100,
+      88,
+      82,
+      80,
+      79,
+      74,
+      70,
+      91,
+      71,
+      82
+    ],
+    "num_digit_5": [
+      89,
+      85,
+      77,
+      90,
+      96,
+      83,
+      68,
+      90,
+      65,
+      86
+    ],
+    "num_digit_6": [
+      96,
+      94,
+      89,
+      85,
+      92,
+      90,
+      88,
+      97,
+      87,
+      93
+    ],
+    "answer": [
+      109,
+      124,
+      147,
+      115,
+      99,
+      136,
+      164,
+      113,
+      170,
+      125
+    ],
+    "num_ic": [
+      39,
+      151,
+      22,
+      15,
+      73,
+      59,
+      13,
+      179,
+      115,
+      62
+    ]
+  },
+  "ic_question_template": "Na {name_female, Brinley} wɔ Owura {name_family, Bert} akontaabu gyinapɛn. Owura {name_family, Bert} yɛ nsɔhwɛ ahoroɔ {num_text_1, nsia} wɔ bosome fa biara mu. Ɔma adesuafo hɔ kwan ma woyi emu aba ketewa firi adantam ɛwɔ bosome biara mu. Sɛ {name_female, Brinley} nyaa {num_digit_1, 89}, {num_digit_2, 71}, {num_digit_3, 92}, {num_digit_4, 100} ne {num_digit_5, 86} wɔ nsɔhwɛ enum a edi kan, dɛn aba na ohia wɔ nsɔhwɛ a ɛto so nsia na ama wanya nkontaabu {num_digit_6, 93}? {name_female, Brinley} sewaa no brɛɛ adesuakuofo no donut {num_ic, 21} sɛ wɔbɛkyɛ ama wɔn.",
+  "ic_sentence": "{name_female, Brinley} sewaa no brɛɛ adesuakuofo no donut {num_ic, 21} sɛ wɔbɛkyɛ ama wɔn."
+}

@@ -1,0 +1,103 @@
+{
+  "original_question": "Enwere m ịhe ọṅụṅụ mmiri oroma lita iri nke ụzọ abụọ n'ịme atọ ya bụ mmiri ma achọrọ m ịtinye ya lita ịhe ọṅụṅụ mmiri nkwụaba iri na ise nke nwere mmiri ụzọ atọ n'ịme ise. Mana ka m nà-awụnye ya, akwafuru m otu lita ịhe ọṅụṅụ mmiri oroma. Kedu ogo mmiri ole nọ n'ịme lita iri abụọ na anọ fọrọ? ",
+  "original_answer": 15,
+  "question_template": "Enwere m ịhe ọṅụṅụ mmiri oroma lita {num_digit_1, 10} nke {num_frac_1, abuo n'ime ụzọ atọ} ya bụ mmiri ma achọrọ m ịtinye ya lita {num_digit_2, 15} ịhe ọṅụṅụ mmiri nkwụaba nke nwere mmiri {num_frac_2, atọ n'ime ụzọ ise}. Mana ka m nà-awụnye ya, akwafuru m otu lita ịhe ọṅụṅụ mmiri oroma. Kedu ogo mmiri ole nọ n'ịme lita {num_digit_3, 24} fọrọ?",
+  "question_solution": "answer = (num_digit_1 - 1) * NUM(num_frac_1) + num_digit_2 * NUM(num_frac_2)",
+  "conditions": [
+    "int(answer) == (num_digit_1 - 1) * NUM(num_frac_1) + num_digit_2 * NUM(num_frac_2)",
+    "num_digit_1 > 1",
+    "0 < NUM(num_frac_1) <= 1",
+    "num_digit_2 > 0",
+    "0 < NUM(num_frac_2) <= 1",
+    "num_digit_3 == num_digit_1 + num_digit_2 - 1"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      49,
+      145,
+      49,
+      81,
+      301,
+      148,
+      313,
+      253,
+      201,
+      325
+    ],
+    "num_frac_1": [
+      "ọkara",
+      "ọkara na otu.",
+      "ọkara na otu-ọkara atọ",
+      "nke anọ n’ime ise",
+      "ise-nke isii",
+      "isii n’ime asaa",
+      "nke asaa n’ime asatọ",
+      "asatọ n’ime itoolu",
+      "iteghete n’ime iri",
+      "ise n’iri na abụọ"
+    ],
+    "num_digit_2": [
+      57,
+      150,
+      176,
+      162,
+      440,
+      165,
+      600,
+      92,
+      180,
+      129
+    ],
+    "num_frac_2": [
+      "otu-na-ato",
+      "nghọta abụọ n’ime ise",
+      "ọkara na otu n’ime atọ",
+      "ọnụgụgụ anọ n’ime itoolu",
+      "ọkara",
+      "isii n’ihi iri na otu",
+      "nke asaa n’ime iri na abụọ",
+      "ọkara na otu-ọkara atọ",
+      "ise-nke isii",
+      "ọkara na otu."
+    ],
+    "num_digit_3": [
+      105,
+      294,
+      224,
+      242,
+      740,
+      312,
+      912,
+      344,
+      380,
+      453
+    ],
+    "answer": [
+      43,
+      156,
+      102,
+      136,
+      470,
+      216,
+      623,
+      293,
+      330,
+      221
+    ],
+    "num_ic": [
+      81,
+      298,
+      217,
+      53,
+      461,
+      1136,
+      101,
+      718,
+      1705,
+      630
+    ]
+  },
+  "ic_question_template": "Nwanne {name_male, Eric} wetàra mangroo {num_ic, 186} na picnic. Enwere m ịhe ọṅụṅụ mmiri oroma lita {num_digit_1, 10} nke {num_frac_1, abuo n'ime atọ} ya bụ mmiri ma achọrọ m ịtinye ya lita {num_digit_2, 15} ịhe ọṅụṅụ mmiri nkwụaba nke nwere mmiri {num_frac_2, atọ n'ime ise}. Mana ka m nà-awụnye ya, akwafuru m otu lita ịhe ọṅụṅụ mmiri oroma. Kedu ogo mmiri ole nọ n'ịme lita {num_digit_3, 24} fọrọ?",
+  "ic_sentence": "Nwanne {name_male, Eric} wetàra mangroo {num_ic, 186} na picnic."
+}

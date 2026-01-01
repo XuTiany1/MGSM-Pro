@@ -1,0 +1,77 @@
+{
+  "original_question": "Ọdẹ ohun ìṣúra rí àpótí ìṣúra tí a bò mọ́lẹ̀ tí àwọn òkúta olówó iyebíye kún inú rẹ̀. Dáyámọ́ndì jẹ́ 175, rúbì tó fi 35 kéré sí dáyámọ́ndì, tó sì jẹ́ ìlọ́po méjì ẹ́mírádì ju rúbì lọ. ìṣúra mélòó ní ó wà nínú àpótí náà?",
+  "original_answer": 595,
+  "question_template": "Ọdẹ ohun ìṣúra rí àpótí ìṣúra tí a bò mọ́lẹ̀ tí àwọn òkúta olówó iyebíye kún inú rẹ̀. Dáyámọ́ndì jẹ́ {num_digit_1, 175}, rúbì tó fi {num_digit_2, 35} kéré sí dáyámọ́ndì, tó sì jẹ́ {num_text_1, ìlọ́po méjì} ẹ́mírádì ju rúbì lọ. ìṣúra mélòó ní ó wà nínú àpótí náà?",
+  "question_solution": "answer = num_digit_1 + (num_digit_1 - num_digit_2) + (num_digit_1 - num_digit_2) * NUM(num_text_1)",
+  "conditions": [
+    "int(answer) == num_digit_1 + (num_digit_1 - num_digit_2) + (num_digit_1 - num_digit_2) * NUM(num_text_1)",
+    "num_digit_1 > num_digit_2",
+    "num_digit_2 >= 0",
+    "NUM(num_text_1) > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      120,
+      150,
+      200,
+      88,
+      60,
+      180,
+      123,
+      95,
+      250,
+      140
+    ],
+    "num_digit_2": [
+      20,
+      50,
+      25,
+      22,
+      15,
+      30,
+      23,
+      5,
+      50,
+      40
+    ],
+    "num_text_1": [
+      "lẹmeji",
+      "Ẹẹ̀ta",
+      "ìkẹrin",
+      "ìgbà márùn-ún",
+      "ẹ̀ẹ̀mefa",
+      "ìkẹfàláàdọrin",
+      "ìkejìlélọ́kànjọ̀jọ",
+      "Ìgbà mẹ́sàn-án",
+      "Ẹẹwàá.",
+      "ẹẹ̀gbẹ̀rin méjìlélọ́gọ́rin"
+    ],
+    "answer": [
+      420,
+      550,
+      1075,
+      484,
+      375,
+      1380,
+      1023,
+      995,
+      2450,
+      1340
+    ],
+    "num_ic": [
+      67,
+      172,
+      589,
+      302,
+      39,
+      768,
+      186,
+      77,
+      2468,
+      720
+    ]
+  },
+  "ic_question_template": "Ọmọbìnrin/Ọmọkùnrin oníṣàwárí àrà òkunrìn rẹ̀ rí {num_ic, 632} owó ìṣàkóso atijọ́ nínú iho mìíràn lẹ́ẹ̀kan. Ọdẹ ohun ìṣúra rí àpótí ìṣúra tí a bò mọ́lẹ̀ tí àwọn òkúta olówó iyebíye kún inú rẹ̀. Dáyámọ́ndì jẹ́ {num_digit_1, 175}, rúbì tó fi {num_digit_2, 35} kéré sí dáyámọ́ndì, tó sì jẹ́ {num_text_1, ìlọ́po méjì} ẹ́mírádì ju rúbì lọ. ìṣúra mélòó ní ó wà nínú àpótí náà?",
+  "ic_sentence": "Ọmọbìnrin/Ọmọkùnrin oníṣàwárí àrà òkunrìn rẹ̀ rí {num_ic, 632} owó ìṣàkóso atijọ́ nínú iho mìíràn lẹ́ẹ̀kan."
+}

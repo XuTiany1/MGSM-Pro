@@ -1,0 +1,66 @@
+{
+  "original_question": "John ń ṣe tọ́jú ajá 10. Ajá kọ̀ọ̀kan máa ń lo wákàtí 5 lójúmọ́ láti rìn àti láti ṣe ìgbòkègbodò wọn. Wákàtí mélòó lọ́sẹ̀ ni ó ń lò láti tọ́jú àwọn ajá?",
+  "original_answer": 35,
+  "question_template": "{name_male, John} ń ṣe tọ́jú ajá {num_digit_1, 10}. Ajá kọ̀ọ̀kan máa ń lo wákàtí {num_frac_1, half} lójúmọ́ láti rìn àti láti ṣe ìgbòkègbodò wọn. Wákàtí mélòó lọ́sẹ̀ ni ó ń lò láti tọ́jú àwọn ajá?",
+  "question_solution": "answer = num_digit_1 * NUM(num_frac_1) * 7",
+  "conditions": [
+    "int(answer) == num_digit_1 * NUM(num_frac_1) * 7",
+    "num_digit_1 > 0",
+    "NUM(num_frac_1) > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      12,
+      10,
+      12,
+      10,
+      18,
+      20,
+      20,
+      24,
+      24
+    ],
+    "num_frac_1": [
+      "ìkẹta kan",
+      "ìdámẹ́rin",
+      "ìkẹta-ídín-marùn-ún",
+      "márùn-ún ìdí méfà",
+      "mẹrin-idojin",
+      "Ìkejì-idá mẹ́ta",
+      "Mẹta idaji mẹrin",
+      "Mẹsan-an látorí mẹwa",
+      "metadinlogun ninu mejila",
+      "mókànlá-láúrín"
+    ],
+    "answer": [
+      28,
+      21,
+      42,
+      70,
+      56,
+      84,
+      105,
+      126,
+      147,
+      154
+    ],
+    "num_ic": [
+      16,
+      33,
+      56,
+      95,
+      20,
+      132,
+      45,
+      156,
+      106,
+      83
+    ]
+  },
+  "ic_question_template": "Ọmọbìnrin arákùnrin {name_male, John} ní àwọn ẹyẹ ewúrẹ́ {num_ic, 19}. {name_male, John} ń ṣe tọ́jú ajá {num_digit_1, 10}. Ajá kọ̀ọ̀kan máa ń lo wákàtí {num_frac_1, half} lójúmọ́ láti rìn àti láti ṣe ìgbòkègbodò wọn. Wákàtí mélòó lọ́sẹ̀ ni ó ń lò láti tọ́jú àwọn ajá?",
+  "ic_sentence": "Ọmọbìnrin arákùnrin {name_male, John} ní àwọn ẹyẹ ewúrẹ́ {num_ic, 19}."
+}

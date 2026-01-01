@@ -1,0 +1,93 @@
+{
+  "original_question": "John tɔ abɔmenemu kɔkɔɔ mmɔho mmienu kyԑn abɔmenemu bibire. Abɔmenemu kɔkɔɔ no boɔ no yԑ ɔha nkyԑmu mmienu kyԑn abɔmenemu bibire no a na baako biara boɔ yԑ $40. Sika sԑn na ɔsԑԑe wɔ abɔmenemu no so?",
+  "original_answer": 800,
+  "question_template": "{name_male, John} tɔ abɔmenemu kɔkɔɔ mmɔho {num_text_1, mmienu} kyԑn abɔmenemu bibire. Abɔmenemu kɔkɔɔ no boɔ no yԑ {num_digit_1, 50}% nkyԑmu kyԑn abɔmenemu bibire no a na baako biara boɔ yԑ ${num_digit_3, 40}. Ɔsԑԑe ${num_digit_2, 200} wɔ abɔmenemu bibire so. Sika sԑn na ɔsԑԑe wɔ abɔmenemu no so?",
+  "question_solution": "answer = num_digit_2 + num_digit_2 * NUM(num_text_1) * (1 + num_digit_1/100)",
+  "conditions": [
+    "int(answer) == num_digit_2 + num_digit_2 * NUM(num_text_1) * (1 + num_digit_1/100)",
+    "num_digit_2 % num_digit_3 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "NUM(num_text_1) > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "Mprɛn mmienu",
+      "Mmiɛnsa",
+      "Mprɛanankron",
+      "mpɛnnum",
+      "Mmom nsia",
+      "mpɛnnum",
+      "Mprɛn mmienu",
+      "mpɛnɛwotwe",
+      "Mmiɛnsa",
+      "Mprɛn mmienu"
+    ],
+    "num_digit_1": [
+      50,
+      75,
+      20,
+      40,
+      60,
+      80,
+      100,
+      20,
+      60,
+      50
+    ],
+    "num_digit_2": [
+      200,
+      200,
+      200,
+      200,
+      210,
+      210,
+      300,
+      200,
+      180,
+      240
+    ],
+    "num_digit_3": [
+      40,
+      20,
+      25,
+      50,
+      30,
+      15,
+      60,
+      10,
+      45,
+      80
+    ],
+    "answer": [
+      800,
+      1250,
+      1160,
+      1600,
+      2226,
+      2100,
+      1500,
+      2120,
+      1044,
+      960
+    ],
+    "num_ic": [
+      56,
+      93,
+      38,
+      197,
+      144,
+      100,
+      288,
+      64,
+      114,
+      152
+    ]
+  },
+  "ic_question_template": "{name_male, John} wɔfa huu cufflinks {num_ic, 93} wɔ adan adetɔn bea bi mu. {name_male, John} tɔ abɔmenemu kɔkɔɔ mmɔho {num_text_1, mmienu} kyԑn abɔmenemu bibire. Abɔmenemu kɔkɔɔ no boɔ no yԑ {num_digit_1, 50}% nkyԑmu kyԑn abɔmenemu bibire no a na baako biara boɔ yԑ ${num_digit_3, 40}. Ɔsԑԑe ${num_digit_2, 200} wɔ abɔmenemu bibire so. Sika sԑn na ɔsԑԑe wɔ abɔmenemu no so?",
+  "ic_sentence": "{name_male, John} wɔfa huu cufflinks {num_ic, 93} wɔ adan adetɔn bea bi mu."
+}

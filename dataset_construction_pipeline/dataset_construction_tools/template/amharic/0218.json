@@ -1,0 +1,96 @@
+{
+  "original_question": "የአድሪያን እድሜ የሃሪየትን ሶስት እጥፍ ሲሆን ሃሪየት ደግሞ የዛክ እድሜ ግማሽ ነው. ሃሪየት አሁን 21 አመቷ ከሆነ የሶስቱን አማካኝ እድሜ በሶስት አመታት ውስጥ አስላ?",
+  "original_answer": 45,
+  "question_template": "የ{name_male_1, አድሪያን} እድሜ የ{name_male_2, Harriet}ን {num_text_1, ሶስት} እጥፍ ሲሆን {name_male_2, Harriet} ደግሞ የ{name_male_3, Zack} እድሜ {num_frac_1, ግማሽ} ነው. {name_male_2, Harriet} አሁን {num_digit_1, 21} አመቷ ከሆነ የሶስቱን አማካኝ እድሜ በ{num_text_2, ሶስት} አመታት ውስጥ አስላ?",
+  "question_solution": "answer = (f1 * num_digit_1 + num_digit_1 + num_digit_1 / f2 + 3 * t2) / 3  # f1 is numeric value of num_text_1; f2 of num_frac_1; t2 of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (f1 * num_digit_1 + num_digit_1 + num_digit_1 / f2 + 3 * t2) / 3",
+    "f1 > 1",
+    "f2 > 0",
+    "t2 > 0",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Adrian",
+    "name_male_2": "Harriet",
+    "name_male_3": "Zack"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "አራት",
+      "አምስት",
+      "ስድስት",
+      "ሰባት",
+      "ስምንት",
+      "ዘጠኝ",
+      "አስር",
+      "አንደኛ ያስራ አንድ",
+      "አስራ ሁለት",
+      "ዓሣራ ሶስት"
+    ],
+    "num_frac_1": [
+      "አንደኛ ግማ",
+      "የሶስት አንደኛ",
+      "አንደኛ አራትኛ",
+      "አንደኛ አምስተኛ",
+      "አንደኛ ስድስት (አንድ ስድስተኛ)",
+      "አንደኛ ሰባትኛ (አንድ ሰባትኛ)",
+      "አንደኛ ስምንተኛ",
+      "አንደኛ ዘጠኝኛ (አንድ ከዘጠኝ)",
+      "አንደኛ አሥረኛ",
+      "አንደኛ ከአስራ ሁለተኛ"
+    ],
+    "num_text_2": [
+      "ሁለት",
+      "ሶስት",
+      "አራት",
+      "አምስት",
+      "ስድስት",
+      "ሰባት",
+      "ስምንት",
+      "ዘጠኝ",
+      "አስር",
+      "አስራ ሁለት"
+    ],
+    "num_digit_1": [
+      42,
+      45,
+      48,
+      60,
+      66,
+      84,
+      72,
+      81,
+      30,
+      12
+    ],
+    "answer": [
+      100,
+      138,
+      180,
+      265,
+      336,
+      483,
+      464,
+      576,
+      240,
+      116
+    ],
+    "num_ic": [
+      107,
+      363,
+      252,
+      412,
+      454,
+      149,
+      417,
+      585,
+      246,
+      31
+    ]
+  },
+  "ic_question_template": "የ{name_male_1, አድሪያን} እድሜ የ{name_male_2, Harriet}ን {num_text_1, ሶስት} እጥፍ ሲሆን {name_male_2, Harriet} ደግሞ የ{name_male_3, Zack} እድሜ {num_frac_1, ግማሽ} ነው. {name_male_2, Harriet} አሁን {num_digit_1, 21} አመቷ ከሆነ የሶስቱን አማካኝ እድሜ በ{num_text_2, ሶስት} አመታት ውስጥ አስላ? የ{name_male_2, ሀሪየት} አጎት በገበያ {num_ic, 107} ፖም ገዛ።",
+  "ic_sentence": "የ{name_male_2, ሀሪየት} አጎት በገበያ {num_ic, 107} ፖም ገዛ።"
+}

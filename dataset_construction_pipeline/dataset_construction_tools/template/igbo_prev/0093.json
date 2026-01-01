@@ -1,0 +1,93 @@
+{
+  "original_question": "Lee na-agbabu ọsọ ihe mgbochi nari mita iri anọ  sekọndụ abụọ ọsọ ọsọ karịa ka Gerald ga-agba ihe mgbochi 400-mita. Mana Gerald gbanwere nri ya, nke jiri 10% kwalite ngwangwa ya. Ọ bụrụ na Lee na-agba ọsọ ihe mgbochi 400-mita na sekọndu iri atọ na asatọ, kedụ ngwangwa Gerald ga agbanwu, ya na nrị nkwalite ya, gbaa ọsọ ihe mgbochi 400-mita, na sekọndụ?",
+  "original_answer": 36,
+  "question_template": "{name_male_1, Lee} na-agbabu ọsọ ihe mgbochi {num_digit_1, 400}-mita sekọndụ {num_text_1, abụọ} ọsọ ọsọ karịa ka {name_male_2, Gerald} ga-agba ihe mgbochi {num_digit_1, 400}-mita. Mana {name_male_2, Gerald} gbanwere nri ya, nke jiri {num_digit_2, 10}% kwalite ngwangwa ya. Ọ bụrụ na {name_male_1, Lee} na-agba ọsọ ihe mgbochi {num_digit_1, 400}-mita na sekọndụ {num_digit_3, 38}, kedụ ngwangwa {name_male_2, Gerald} ga agbanwu, ya na nri nkwalite ya, gbaa ọsọ ihe mgbochi {num_digit_1, 400}-mita, na sekọndụ?",
+  "question_solution": "answer = (num_digit_3 + NUM(num_text_1)) * (1 - num_digit_2/100)",
+  "conditions": [
+    "int(answer) == (num_digit_3 + NUM(num_text_1)) * (1 - num_digit_2/100)",
+    "NUM(num_text_1) > 0",
+    "num_digit_2 >= 0",
+    "num_digit_2 < 100",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Lee",
+    "name_male_2": "Gerald"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      200,
+      110,
+      400,
+      800,
+      1500,
+      300,
+      100,
+      600,
+      150,
+      1200
+    ],
+    "num_text_1": [
+      "abụọ",
+      "Atọ",
+      "Anọ",
+      "ise",
+      "isii",
+      "asaa",
+      "asatọ",
+      "itoolu",
+      "Iri",
+      "iri na otu"
+    ],
+    "num_digit_2": [
+      10,
+      20,
+      25,
+      12,
+      15,
+      18,
+      5,
+      30,
+      22,
+      8
+    ],
+    "num_digit_3": [
+      28,
+      32,
+      408,
+      45,
+      14,
+      93,
+      52,
+      31,
+      90,
+      14
+    ],
+    "answer": [
+      27,
+      28,
+      309,
+      44,
+      17,
+      82,
+      57,
+      28,
+      78,
+      23
+    ],
+    "num_ic": [
+      199,
+      61,
+      486,
+      273,
+      1117,
+      194,
+      50,
+      260,
+      137,
+      669
+    ]
+  },
+  "ic_question_template": "Nwunye nwanne nna {name_male_2, Gerald} n’egosila nwa-nkịta mmiri {num_ic, 486} n’ụzọ nna ọhụrụ nso. {name_male_1, Lee} na-agbabu ọsọ ihe mgbochi {num_digit_1, 400}-mita sekọndụ {num_text_1, abụọ} ọsọ ọsọ karịa ka {name_male_2, Gerald} ga-agba ihe mgbochi {num_digit_1, 400}-mita. Mana {name_male_2, Gerald} gbanwere nri ya, nke jiri {num_digit_2, 10}% kwalite ngwangwa ya. Ọ bụrụ na {name_male_1, Lee} na-agba ọsọ ihe mgbochi {num_digit_1, 400}-mita na sekọndụ {num_digit_3, 38}, kedụ ngwangwa {name_male_2, Gerald} ga agbanwu, ya na nri nkwalite ya, gbaa ọsọ ihe mgbochi {num_digit_1, 400}-mita, na sekọndụ?",
+  "ic_sentence": "Nwunye nwanne nna {name_male_2, Gerald} n’egosila nwa-nkịta mmiri {num_ic, 486} n’ụzọ nna ọhụrụ nso."
+}

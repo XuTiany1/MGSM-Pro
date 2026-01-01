@@ -1,0 +1,56 @@
+{
+  "original_question": "ジョンは3時間桃を収穫します。彼は1分で2つの桃を収穫できます。彼はいくつの桃を収穫しますか？",
+  "original_answer": 360,
+  "question_template": "{name_male, ジョン}は{num_digit_1, 3}時間桃を収穫します。彼は1分で{num_digit_2, 2}つの桃を収穫できます。彼はいくつの桃を収穫しますか？",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * 60",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 * 60",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31
+    ],
+    "num_digit_2": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "answer": [
+      5040,
+      9900,
+      13260,
+      19380,
+      23940,
+      31740,
+      43500,
+      50220,
+      64380,
+      76260
+    ]
+  },
+  "ic_question_template": "{name_male, ジョン}のおじさんは毎朝果樹園に{num_ic, 9}個のカゴを持ってきます。{name_male, ジョン}は{num_digit_1, 3}時間桃を収穫します。彼は1分で{num_digit_2, 2}つの桃を収穫できます。彼はいくつの桃を収穫しますか？",
+  "ic_sentence": "{name_male, ジョン}のおじさんは毎朝果樹園に{num_ic, 9}個のカゴを持ってきます。"
+}

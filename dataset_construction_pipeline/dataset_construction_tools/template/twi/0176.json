@@ -1,0 +1,81 @@
+{
+  "original_question": "Wɔ ammirikatuo akansie bi a na Asianifo 240 wɔ mu no, na Japanfo yɛ 80, na wɔn a aka no yɛ Chinafo. Sɛ mmarima a wɔwɔ China kuo no yɛ 60, mmabaa ahe na na wɔwɔ China kuo no mu?",
+  "original_answer": 100,
+  "question_template": "Wɔ ammirikatuo akansie bi a na Asianifo {num_digit_1, 240} wɔ mu no, na Japanfo yɛ {num_digit_2, 80}, na wɔn a aka no yɛ Chinafo. Sɛ mmarima a wɔwɔ China kuo no yɛ {num_digit_3, 60}, mmabaa ahe na na wɔwɔ China kuo no mu?",
+  "question_solution": "answer = num_digit_1 - num_digit_2 - num_digit_3",
+  "conditions": [
+    "answer == num_digit_1 - num_digit_2 - num_digit_3",
+    "num_digit_1 > num_digit_2",
+    "num_digit_3 < (num_digit_1 - num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "answer > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      300,
+      450,
+      500,
+      320,
+      275,
+      400,
+      350,
+      600,
+      380,
+      420
+    ],
+    "num_digit_2": [
+      100,
+      150,
+      200,
+      80,
+      75,
+      90,
+      140,
+      250,
+      180,
+      60
+    ],
+    "num_digit_3": [
+      50,
+      120,
+      100,
+      120,
+      60,
+      110,
+      80,
+      200,
+      70,
+      120
+    ],
+    "answer": [
+      150,
+      180,
+      200,
+      120,
+      140,
+      200,
+      130,
+      150,
+      130,
+      240
+    ],
+    "num_ic": [
+      193,
+      94,
+      372,
+      263,
+      155,
+      201,
+      401,
+      265,
+      233,
+      239
+    ]
+  },
+  "ic_question_template": "Akyidifo {num_ic, 306} de frankaa baa dwumadie no ase. Wɔ ammirikatuo akansie bi a na Asianifo {num_digit_1, 240} wɔ mu no, na Japanfo yɛ {num_digit_2, 80}, na wɔn a aka no yɛ Chinafo. Sɛ mmarima a wɔwɔ China kuo no yɛ {num_digit_3, 60}, mmabaa ahe na na wɔwɔ China kuo no mu?",
+  "ic_sentence": "Akyidifo {num_ic, 306} de frankaa baa dwumadie no ase."
+}

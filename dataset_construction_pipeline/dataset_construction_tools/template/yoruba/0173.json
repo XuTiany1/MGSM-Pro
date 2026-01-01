@@ -1,0 +1,93 @@
+{
+  "original_question": "Jessica ń gbìyànjú láti mọ iye tí ó lè san lórí gbogbo gbèsè rẹ̀ lóṣooṣù. Ó nílò láti san ó kéré jù, $300 ní oṣooṣù fún àwọn gbèsè akẹ́kọ̀ọ́ rẹ́, ó kéré jù $200 fún káàdì ìyáwó rẹ̀, àti $500 ní oṣooṣù fún  owó ìgbéléwọ̀n. Tí Jessica bá fẹ́ san 50% ju èyí tí ó kéré jù lọ, èló ni ó san ní ọdún kan?",
+  "original_answer": 18000,
+  "question_template": "{name_female, Jessica} ń gbìyànjú láti mọ iye tí ó lè san lórí gbogbo gbèsè rẹ̀ lóṣooṣù. Ó nílò láti san ó kéré jù, ${num_digit_1, 300} ní oṣooṣù fún àwọn gbèsè akẹ́kọ̀ọ́ rẹ́, ó kéré jù ${num_digit_2, 200} fún káàdì ìyáwó rẹ̀, àti ${num_digit_3, 500} ní oṣooṣù fún owó ìgbéléwọ̀n. Tí {name_female, Jessica} bá fẹ́ san {num_digit_4, 50}% ju èyí tí ó kéré jù lọ, èló ni ó san ní ọdún kan?",
+  "question_solution": "answer = 12 * (num_digit_1 + num_digit_2 + num_digit_3) * (1 + num_digit_4 / 100)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == 12 * (num_digit_1 + num_digit_2 + num_digit_3) * (1 + num_digit_4 / 100)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Jessica"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      300,
+      400,
+      250,
+      350,
+      450,
+      500,
+      600,
+      200,
+      150,
+      550
+    ],
+    "num_digit_2": [
+      200,
+      300,
+      150,
+      200,
+      250,
+      300,
+      200,
+      100,
+      180,
+      350
+    ],
+    "num_digit_3": [
+      500,
+      600,
+      400,
+      450,
+      550,
+      700,
+      800,
+      300,
+      270,
+      650
+    ],
+    "num_digit_4": [
+      50,
+      25,
+      20,
+      40,
+      60,
+      33,
+      75,
+      10,
+      80,
+      15
+    ],
+    "answer": [
+      18000,
+      19500,
+      11520,
+      16800,
+      24000,
+      23940,
+      33600,
+      7920,
+      12960,
+      21390
+    ],
+    "num_ic": [
+      58,
+      92,
+      78,
+      23,
+      44,
+      124,
+      68,
+      41,
+      77,
+      122
+    ]
+  },
+  "ic_question_template": "{name_female, Jessica} ní ẹ̀gbọ́n bàbá rẹ̀ tó fún un ní kápọ́ọ̀nù ìdásílẹ̀ {num_ic, 58} laipẹ́ yi. {name_female, Jessica} ń gbìyànjú láti mọ iye tí ó lè san lórí gbogbo gbèsè rẹ̀ lóṣooṣù. Ó nílò láti san ó kéré jù, ${num_digit_1, 300} ní oṣooṣù fún àwọn gbèsè akẹ́kọ̀ọ́ rẹ́, ó kéré jù ${num_digit_2, 200} fún káàdì ìyáwó rẹ̀, àti ${num_digit_3, 500} ní oṣooṣù fún owó ìgbéléwọ̀n. Tí {name_female, Jessica} bá fẹ́ san {num_digit_4, 50}% ju èyí tí ó kéré jù lọ, èló ni ó san ní ọdún kan?",
+  "ic_sentence": "{name_female, Jessica} ní ẹ̀gbọ́n bàbá rẹ̀ tó fún un ní kápọ́ọ̀nù ìdásílẹ̀ {num_ic, 58} laipẹ́ yi."
+}

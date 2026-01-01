@@ -1,0 +1,94 @@
+{
+  "original_question": "Hier, Marc a passé un test de 75 questions. Il l'a passé à un rythme de 5 questions par heure. Aujourd'hui, il a passé un autre test de 100 questions au même rythme. Si Marc a pris 8 heures pour faire le premier test et 6 heures pour le deuxième, combien de questions sont restées sans réponse ?",
+  "original_answer": 105,
+  "question_template": "Hier, {name_male, Marc} a passé un test de {num_digit_1, 75} questions. Il l'a passé à un rythme de {num_digit_2, 5} questions par heure. Aujourd'hui, il a passé un autre test de {num_digit_3, 100} questions au même rythme. Si {name_male, Marc} a pris {num_digit_4, 8} heures pour faire le premier test et {num_digit_5, 6} heures pour le deuxième, combien de questions sont restées sans réponse ?",
+  "question_solution": "answer = num_digit_1 + num_digit_3 - num_digit_2 * (num_digit_4 + num_digit_5)",
+  "conditions": [
+    "int(answer) == num_digit_1 + num_digit_3 - num_digit_2 * (num_digit_4 + num_digit_5)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "num_digit_1 + num_digit_3 > num_digit_2 * (num_digit_4 + num_digit_5)"
+  ],
+  "variable_word_list": {
+    "name_male": "Mark"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      90,
+      120,
+      65,
+      140,
+      200,
+      100,
+      50,
+      175,
+      90,
+      85
+    ],
+    "num_digit_2": [
+      6,
+      4,
+      7,
+      8,
+      10,
+      12,
+      5,
+      7,
+      9,
+      6
+    ],
+    "num_digit_3": [
+      150,
+      130,
+      85,
+      160,
+      90,
+      80,
+      60,
+      125,
+      110,
+      95
+    ],
+    "num_digit_4": [
+      10,
+      12,
+      5,
+      10,
+      15,
+      4,
+      3,
+      15,
+      4,
+      6
+    ],
+    "num_digit_5": [
+      8,
+      18,
+      6,
+      9,
+      9,
+      3,
+      4,
+      5,
+      5,
+      6
+    ],
+    "answer": [
+      132,
+      130,
+      73,
+      148,
+      50,
+      96,
+      75,
+      160,
+      119,
+      108
+    ]
+  },
+  "ic_question_template": "{name_male, Mark} a reçu de son oncle {num_ic, 68} crayons porte-bonheur. Hier, {name_male, Marc} a passé un test de {num_digit_1, 75} questions. Il l'a passé à un rythme de {num_digit_2, 5} questions par heure. Aujourd'hui, il a passé un autre test de {num_digit_3, 100} questions au même rythme. Si {name_male, Marc} a pris {num_digit_4, 8} heures pour faire le premier test et {num_digit_5, 6} heures pour le deuxième, combien de questions sont restées sans réponse ?",
+  "ic_sentence": "{name_male, Mark} a reçu de son oncle {num_ic, 68} crayons porte-bonheur."
+}

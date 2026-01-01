@@ -1,0 +1,92 @@
+{
+  "original_question": "Gloria ń rà bàtà nígbà tí ó ṣe alábàpàde ẹyọ bàtà tẹkowì tó bá àpò rẹ̀ mu. Ṣùgbọ́n ó ní láti yàn láàrin bàtà tẹkowì náà àti ẹyọ bàtà gíga méjì èyí tí àpapọ̀ owó méjèèjì dín ní dọ́là márùn-ún sí bàtà tẹkowì náà. Tí ẹyọ bàtà gíga kan bá jẹ́ $33 tí ìkejì sì jẹ́ ìlọ́po méjì jù bẹ́ẹ̀ lọ, dọ́là mélòó ní bàtà tẹkowì náà?",
+  "original_answer": 104,
+  "question_template": "{name_female, Gloria} ń rà bàtà nígbà tí ó ṣe alábàpàde ẹyọ bàtà tẹkowì tó bá àpò rẹ̀ mu. Ṣùgbọ́n ó ní láti yàn láàrin bàtà tẹkowì náà àti ẹyọ bàtà gíga {num_text_1, méjì} èyí tí àpapọ̀ owó méjèèjì dín ní dọ́là {num_text_2, márùn-ún} sí bàtà tẹkowì náà. Tí ẹyọ bàtà gíga kan bá jẹ́ ${num_digit_1, 33} tí ìkejì sì jẹ́ {num_text_3, ìlọ́po méjì} jù bẹ́ẹ̀ lọ, dọ́là mélòó ní bàtà tẹkowì náà?",
+  "question_solution": "answer = num_digit_1 * (1 + NUM(num_text_3)) + NUM(num_text_2)",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 + NUM(num_text_3)) + NUM(num_text_2)",
+    "NUM(num_text_1) == 2",
+    "num_digit_1 > 0",
+    "0 < NUM(num_text_3)",
+    "0 < NUM(num_text_2)"
+  ],
+  "variable_word_list": {
+    "name_female": "Gloria"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "méjì",
+      "méjì",
+      "méjì",
+      "méjì",
+      "méjì",
+      "méjì",
+      "méjì",
+      "méjì",
+      "méjì",
+      "méjì"
+    ],
+    "num_text_2": [
+      "marun",
+      "Meje",
+      "mẹsan",
+      "mẹ́wàá",
+      "mókànlá",
+      "mẹtala",
+      "mẹtadinlogun",
+      "mẹtala din lọ́gbọ̀n",
+      "ogúnlélọ́gọrin",
+      "ogún lé mẹ́sàn-án"
+    ],
+    "num_digit_1": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "num_text_3": [
+      "lẹmeji",
+      "Ìkẹta",
+      "ìkẹrin",
+      "ìgbà márùn-ún",
+      "ẹ̀ẹ̀mefa",
+      "ìkẹfàláàdọrin",
+      "ìkejìlélọ́kànjọ̀jọ",
+      "Ìgbà mẹ́sàn-án",
+      "Ẹẹwàá.",
+      "ẹẹ̀gbẹ̀rin méjìlélọ́gọ́rin"
+    ],
+    "answer": [
+      116,
+      171,
+      224,
+      292,
+      382,
+      485,
+      566,
+      689,
+      804,
+      905
+    ],
+    "num_ic": [
+      62,
+      65,
+      20,
+      222,
+      48,
+      167,
+      133,
+      107,
+      355,
+      715
+    ]
+  },
+  "ic_question_template": "Ìbátan {name_female, Gloria} ṣẹ̀ṣẹ̀ rà àwọ̀n ibọ̀sẹ̀ àjòṣe-pọ̀ {num_ic, 48} nítòsí. {name_female, Gloria} ń rà bàtà nígbà tí ó ṣe alábàpàde ẹyọ bàtà tẹkowì tó bá àpò rẹ̀ mu. Ṣùgbọ́n ó ní láti yàn láàrin bàtà tẹkowì náà àti ẹyọ bàtà gíga {num_text_1, méjì} èyí tí àpapọ̀ owó méjèèjì dín ní dọ́là {num_text_2, márùn-ún} sí bàtà tẹkowì náà. Tí ẹyọ bàtà gíga kan bá jẹ́ ${num_digit_1, 33} tí ìkejì sì jẹ́ {num_text_3, ìlọ́po méjì} jù bẹ́ẹ̀ lọ, dọ́là mélòó ní bàtà tẹkowì náà?",
+  "ic_sentence": "Ìbátan {name_female, Gloria} ṣẹ̀ṣẹ̀ rà àwọ̀n ibọ̀sẹ̀ àjòṣe-pọ̀ {num_ic, 48} nítòsí."
+}

@@ -1,0 +1,58 @@
+{
+  "original_question": "Seth est 2 fois plus âgé que Brooke. Dans deux ans, la somme de leurs âges sera de 28 ans. Quel est l'âge de Seth ?",
+  "original_answer": 16,
+  "question_template": "{name_male, Seth} est 2 fois plus âgé que {name_female, Brooke}. Dans {num_digit_1, deux} ans, la somme de leurs âges sera de {num_digit_2, 28} ans. Quel est l'âge de {name_male, Seth} ?",
+  "question_solution": "answer = 2 * (num_digit_2 - 2 * num_digit_1) / 3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == 2 * (num_digit_2 - 2 * num_digit_1) / 3",
+    "(num_digit_2 - 2 * num_digit_1) % 3 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "answer > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Seth",
+    "name_female": "Brooke"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      5,
+      1,
+      3,
+      2,
+      4,
+      5,
+      1,
+      2
+    ],
+    "num_digit_2": [
+      36,
+      29,
+      34,
+      29,
+      45,
+      49,
+      44,
+      43,
+      35,
+      58
+    ],
+    "answer": [
+      20,
+      14,
+      16,
+      18,
+      26,
+      30,
+      24,
+      22,
+      22,
+      36
+    ]
+  },
+  "ic_question_template": "{name_male, Seth} a une tante qui vient d’acheter {num_ic, 17} billets de cinéma à prix réduit. {name_male, Seth} est 2 fois plus âgé que {name_female, Brooke}. Dans {num_digit_1, deux} ans, la somme de leurs âges sera de {num_digit_2, 28} ans. Quel est l'âge de {name_male, Seth} ?",
+  "ic_sentence": "{name_male, Seth} a une tante qui vient d’acheter {num_ic, 17} billets de cinéma à prix réduit."
+}

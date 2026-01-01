@@ -1,0 +1,68 @@
+{
+  "original_question": "John yana tattara peach na 3 hours. Yana iya tattara peach 2 a minti daya. Peach nawa yake tattarawa?",
+  "original_answer": 360,
+  "question_template": "{name_male, John} yana tattara peach na {num_digit_1, 3} hours. Yana iya tattara peach {num_digit_2, 2} a minti daya. Peach nawa yake tattarawa?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * 60",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 * 60",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31
+    ],
+    "num_digit_2": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "answer": [
+      5040,
+      9900,
+      13260,
+      19380,
+      23940,
+      31740,
+      43500,
+      50220,
+      64380,
+      76260
+    ],
+    "num_ic": [
+      14,
+      48,
+      9,
+      119,
+      107,
+      65,
+      155,
+      259,
+      124,
+      205
+    ]
+  },
+  "ic_question_template": "Kawun {name_male, John} na kawo kwanduna {num_ic, 9} zuwa gonar itatuwa kowace safiya. {name_male, John} yana tattara peach na {num_digit_1, 3} hours. Yana iya tattara peach {num_digit_2, 2} a minti daya. Peach nawa yake tattarawa?",
+  "ic_sentence": "Kawun {name_male, John} na kawo kwanduna {num_ic, 9} zuwa gonar itatuwa kowace safiya."
+}

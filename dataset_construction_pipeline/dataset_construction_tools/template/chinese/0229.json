@@ -1,0 +1,93 @@
+{
+  "original_question": "一间西瓜农场结了 120 个小西瓜。阿什琳两个月后去了这间农场，发现 30% 的西瓜已经可以摘了，所以她把它们带回了家。当她两周后回来时，剩下的瓜中有 3/4 都熟了，所以她把它们都摘了。这两周后有多少瓜还没有成熟？",
+  "original_answer": 21,
+  "question_template": "一间西瓜农场结了 {num_digit_1, 120} 个小西瓜。{name_female, 阿什琳} {num_text_1, 两}个月后去了这间农场，发现 {num_digit_2, 30}% 的西瓜已经可以摘了，所以她把它们带回了家。当她 {num_text_2, 两} 周后回来时，剩下的瓜中有 {num_frac_1, 3/4} 都熟了，所以她把它们都摘了。这 {num_text_2, 两} 周后有多少瓜还没有成熟？",
+  "question_solution": "answer = num_digit_1 * (1 - num_digit_2/100) * (1 - f1)   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 - num_digit_2/100) * (1 - f1)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "0 < f1 < 1",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Ashlyn"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1706,
+      1050,
+      1415,
+      1120,
+      1671,
+      600,
+      1750,
+      1728,
+      900,
+      1305
+    ],
+    "num_text_1": [
+      "七",
+      "九",
+      "十一",
+      "十二",
+      "八",
+      "十",
+      "六",
+      "三",
+      "四",
+      "五"
+    ],
+    "num_digit_2": [
+      20,
+      18,
+      20,
+      30,
+      40,
+      15,
+      20,
+      20,
+      24,
+      12
+    ],
+    "num_text_2": [
+      "六",
+      "五",
+      "四",
+      "三",
+      "二",
+      "七",
+      "八",
+      "九",
+      "十",
+      "十一"
+    ],
+    "num_frac_1": [
+      "八分之三",
+      "三分之二",
+      "四分之三",
+      "八分之三",
+      "九分之四",
+      "五分之一",
+      "五分之二",
+      "九分之四",
+      "四分之一",
+      "九分之四"
+    ],
+    "answer": [
+      853,
+      287,
+      283,
+      490,
+      557,
+      408,
+      840,
+      768,
+      513,
+      638
+    ]
+  },
+  "ic_question_template": "{name_female, 阿什琳} 的叔叔为他的苹果树买了 {num_ic, 958} 袋肥料。一间西瓜农场结了 {num_digit_1, 120} 个小西瓜。{name_female, 阿什琳} {num_text_1, 两}个月后去了这间农场，发现 {num_digit_2, 30}% 的西瓜已经可以摘了，所以她把它们带回了家。当她 {num_text_2, 两} 周后回来时，剩下的瓜中有 {num_frac_1, 3/4} 都熟了，所以她把它们都摘了。这 {num_text_2, 两} 周后有多少瓜还没有成熟？",
+  "ic_sentence": "{name_female, 阿什琳} 的叔叔为他的苹果树买了 {num_ic, 958} 袋肥料。"
+}

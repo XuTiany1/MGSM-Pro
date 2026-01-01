@@ -1,0 +1,81 @@
+{
+  "original_question": "Shawnda pense qu'un service de gonflage de vélos serait très utile aux enfants de son quartier. Elle choisit de facturer au pneu. Le gonflage de chaque pneu coûte 25 cents. Le premier jour, 5 personnes sont venues faire gonfler les deux pneus de chacun de leurs vélos. 3 personnes sont venues faire gonfler tous les pneus de leurs tricycles. Enfin, une personne est venue en monocycle. Combien d'argent a-t-elle gagné ce jour-là ?",
+  "original_answer": 5,
+  "question_template": "{name_female, Shawnda} pense qu'un service de gonflage de vélos serait très utile aux enfants de son quartier. Elle choisit de facturer au pneu. Le gonflage de chaque pneu coûte {num_digit_1, 25} cents. Le premier jour, {num_digit_2, 5} personnes sont venues faire gonfler les deux pneus de chacun de leurs vélos. {num_digit_3, 3} personnes sont venues faire gonfler tous les pneus de leurs tricycles. Enfin, {num_text_1, une} personne est venue en monocycle. Combien d'argent a-t-elle gagné ce jour-là ?",
+  "question_solution": "answer = (num_digit_1 / 100) * (2 * num_digit_2 + 3 * num_digit_3 + k)   # k is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 / 100) * (2 * num_digit_2 + 3 * num_digit_3 + k)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "k > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Shawnda"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      25,
+      20,
+      50,
+      30,
+      15,
+      60,
+      10,
+      75,
+      5,
+      40
+    ],
+    "num_digit_2": [
+      2,
+      3,
+      2,
+      3,
+      5,
+      2,
+      3,
+      2,
+      5,
+      4
+    ],
+    "num_digit_3": [
+      1,
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      2,
+      1
+    ],
+    "num_text_1": [
+      "un",
+      "trois",
+      "un",
+      "un",
+      "quatre",
+      "huit",
+      "un",
+      "un",
+      "quatre",
+      "quatre"
+    ],
+    "answer": [
+      2,
+      3,
+      4,
+      3,
+      3,
+      9,
+      1,
+      6,
+      1,
+      6
+    ]
+  },
+  "ic_question_template": "{name_female, Shawnda} a un oncle qui a récemment acheté {num_ic, 37} ballons pour une fête. {name_female, Shawnda} pense qu'un service de gonflage de vélos serait très utile aux enfants de son quartier. Elle choisit de facturer au pneu. Le gonflage de chaque pneu coûte {num_digit_1, 25} cents. Le premier jour, {num_digit_2, 5} personnes sont venues faire gonfler les deux pneus de chacun de leurs vélos. {num_digit_3, 3} personnes sont venues faire gonfler tous les pneus de leurs tricycles. Enfin, {num_text_1, une} personne est venue en monocycle. Combien d'argent a-t-elle gagné ce jour-là ?",
+  "ic_sentence": "{name_female, Shawnda} a un oncle qui a récemment acheté {num_ic, 37} ballons pour une fête."
+}

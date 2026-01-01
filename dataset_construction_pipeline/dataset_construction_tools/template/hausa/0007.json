@@ -1,0 +1,92 @@
+{
+  "original_question": "Carla tana dawunlodin fayil mai nauyin 200 GB. A al'ada za ta iya sauke 2GB a minti daya, amma bayan anci 40% na dawunlodin din, Window yana tilasta sake farawa don sabunta wasu manhajoji, wanda ke ɗaukar minti 20. Sannan dole ne Carla ta sake fara dawunlodin daga farkon. Giga nawa zai ci ya yi dawunlodin na wannan fayil ɗin?",
+  "original_answer": 160,
+  "question_template": "{name_female, Carla} tana dawunlodin fayil mai nauyin {num_digit_1, 200} GB. A al'ada za ta iya sauke {num_digit_2, 2}GB a minti daya, amma bayan anci {num_digit_3, 40}% na dawunlodin din, Window yana tilasta sake farawa don sabunta wasu manhajoji, wanda ke ɗaukar minti {num_digit_4, 20}. Sannan dole ne {name_female, Carla} ta sake fara dawunlodin daga farkon. Giga nawa zai ci ya yi dawunlodin na wannan fayil ɗin?",
+  "question_solution": "answer = (num_digit_1 * num_digit_3 / 100) / num_digit_2 + num_digit_4 + num_digit_1 / num_digit_2",
+  "conditions": [
+    "int(answer) == (num_digit_1 * num_digit_3 / 100) / num_digit_2 + num_digit_4 + num_digit_1 / num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Carla"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1488,
+      1040,
+      1840,
+      650,
+      1200,
+      416,
+      875,
+      700,
+      525,
+      600
+    ],
+    "num_digit_2": [
+      6,
+      13,
+      7,
+      3,
+      6,
+      13,
+      5,
+      7,
+      3,
+      5
+    ],
+    "num_digit_3": [
+      50,
+      40,
+      40,
+      92,
+      79,
+      75,
+      28,
+      27,
+      56,
+      90
+    ],
+    "num_digit_4": [
+      24,
+      22,
+      59,
+      17,
+      29,
+      20,
+      42,
+      58,
+      26,
+      41
+    ],
+    "answer": [
+      396,
+      134,
+      427,
+      433,
+      387,
+      76,
+      266,
+      185,
+      299,
+      269
+    ],
+    "num_ic": [
+      553,
+      241,
+      355,
+      48,
+      188,
+      36,
+      58,
+      286,
+      103,
+      196
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Carla} kwanan nan ya sayi sabbin kayan kwamfuta guda {num_ic, 110}. {name_female, Carla} tana dawunlodin fayil mai nauyin {num_digit_1, 200} GB. A al'ada za ta iya sauke {num_digit_2, 2}GB a minti daya, amma bayan anci {num_digit_3, 40}% na dawunlodin din, Window yana tilasta sake farawa don sabunta wasu manhajoji, wanda ke ɗaukar minti {num_digit_4, 20}. Sannan dole ne {name_female, Carla} ta sake fara dawunlodin daga farkon. Giga nawa zai ci ya yi dawunlodin na wannan fayil ɗin?",
+  "ic_sentence": "Kawun {name_female, Carla} kwanan nan ya sayi sabbin kayan kwamfuta guda {num_ic, 110}."
+}

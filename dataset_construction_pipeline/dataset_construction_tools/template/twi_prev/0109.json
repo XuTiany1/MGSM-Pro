@@ -1,0 +1,78 @@
+{
+  "original_question": "Beaeԑ a ɔbu fango no tɔnn fango no ankorԑ ketewa $3.00. Adwumakuo bi de wo sika no mu $.20 bԑsan ama wo wɔ ankorԑ ketewa biara a wobԑbu wɔ sa beaeԑ ha. Sԑ obi tɔ fango ankorԑ ketewa 10 a, ԑka sԑn na ɔbԑbɔ wɔ fango no ho sԑ ɔte sika a ne nsa bԑsan aka no firi mu a?",
+  "original_answer": 28,
+  "question_template": "Beaeԑ a ɔbu fango no tɔnn fango no ankorԑ ketewa ${num_digit_1, 3.00}. Adwumakuo bi de wo sika no mu ${num_digit_2, .20} bԑsan ama wo wɔ ankorԑ ketewa biara a wobԑbu wɔ sa beaeԑ ha. Sԑ obi tɔ fango ankorԑ ketewa {num_digit_3, 10} a, ԑka sԑn na ɔbԑbɔ wɔ fango no ho sԑ ɔte sika a ne nsa bԑsan aka no firi mu a?",
+  "question_solution": "answer = (num_digit_1 - num_digit_2) * num_digit_3",
+  "conditions": [
+    "answer == (num_digit_1 - num_digit_2) * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0",
+    "num_digit_1 > num_digit_2"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4.5,
+      5.19,
+      3.75,
+      2.99,
+      6.1,
+      3.45,
+      7.25,
+      4.99,
+      2.89,
+      5.83
+    ],
+    "num_digit_2": [
+      1.3,
+      0.89,
+      0.35,
+      0.74,
+      0.55,
+      0.15,
+      0.65,
+      0.99,
+      0.34,
+      0.33
+    ],
+    "num_digit_3": [
+      25,
+      20,
+      50,
+      16,
+      20,
+      30,
+      15,
+      13,
+      20,
+      12
+    ],
+    "answer": [
+      80,
+      86,
+      170,
+      36,
+      111,
+      99,
+      99,
+      52,
+      51,
+      66
+    ],
+    "num_ic": [
+      26,
+      33,
+      44,
+      58,
+      48,
+      22,
+      46,
+      13,
+      79,
+      41
+    ]
+  },
+  "ic_question_template": "Beaeԑ a ɔbu fango no tɔnn fango no ankorԑ ketewa ${num_digit_1, 3.00}. Adwumakuo bi de wo sika no mu ${num_digit_2, .20} bԑsan ama wo wɔ ankorԑ ketewa biara a wobԑbu wɔ sa beaeԑ ha. Sԑ obi tɔ fango ankorԑ ketewa {num_digit_3, 10} a, ԑka sԑn na ɔbԑbɔ wɔ fango no ho sԑ ɔte sika a ne nsa bԑsan aka no firi mu a? {name_male, Alex} sewaa nyaa kaa hohoro {num_ic, 39} a wonnye sika no afe a atwa no mu.",
+  "ic_sentence": "{name_male, Alex} sewaa nyaa kaa hohoro {num_ic, 39} a wonnye sika no afe a atwa no mu."
+}

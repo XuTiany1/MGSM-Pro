@@ -1,0 +1,106 @@
+{
+  "original_question": "Raphael ya je siyo kayan makaranta. Ya sayi fensir guda 4 wanda farashinsu ya kama $1.5 kowanne, litattafai 2 wanda farashinsu ya kai $4 kowanne, da kuma daurin takarda wanda kudinsu ya kai $20. Nawa ne Raphael ya kashe akan komai?",
+  "original_answer": 34,
+  "question_template": "{name_male, Raphael} ya je siyo kayan makaranta. Ya sayi fensir guda {num_digit_1, 4} wanda farashinsu ya kama ${num_digit_2, 1.5} kowanne, litattafai {num_digit_3, 2} wanda farashinsu ya kai ${num_digit_4, 4} kowanne, da kuma daurin takarda wanda kudinsu ya kai ${num_digit_5, 20}. Nawa ne {name_male, Raphael} ya kashe akan komai?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + num_digit_3 * num_digit_4 + num_digit_5",
+  "conditions": [
+    "answer == num_digit_1 * num_digit_2 + num_digit_3 * num_digit_4 + num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Raphael"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      6,
+      5,
+      8,
+      9,
+      10,
+      3,
+      12,
+      15,
+      7,
+      11
+    ],
+    "num_digit_2": [
+      1.25,
+      2.4,
+      1.75,
+      0.85,
+      1.33,
+      1.6,
+      0.95,
+      1.1,
+      1.85,
+      1.18
+    ],
+    "num_digit_3": [
+      3,
+      4,
+      2,
+      5,
+      6,
+      7,
+      8,
+      5,
+      3,
+      4
+    ],
+    "num_digit_4": [
+      3.5,
+      2.75,
+      3.25,
+      2.67,
+      2.2,
+      1.7,
+      1.45,
+      1.5,
+      2.35,
+      1.77
+    ],
+    "num_digit_5": [
+      15.0,
+      17.0,
+      19.5,
+      14.0,
+      13.5,
+      23.3,
+      17.0,
+      16.0,
+      25.0,
+      19.94
+    ],
+    "answer": [
+      33,
+      40,
+      40,
+      35,
+      40,
+      40,
+      40,
+      40,
+      45,
+      40
+    ],
+    "num_ic": [
+      18,
+      21,
+      7,
+      55,
+      32,
+      24,
+      99,
+      67,
+      42,
+      27
+    ]
+  },
+  "ic_question_template": "Kawun {name_male, Raphael} ya kawo kwalaye na crayons guda {num_ic, 19} makon da ya gabata. {name_male, Raphael} ya je siyo kayan makaranta. Ya sayi fensir guda {num_digit_1, 4} wanda farashinsu ya kama ${num_digit_2, 1.5} kowanne, litattafai {num_digit_3, 2} wanda farashinsu ya kai ${num_digit_4, 4} kowanne, da kuma daurin takarda wanda kudinsu ya kai ${num_digit_5, 20}. Nawa ne {name_male, Raphael} ya kashe akan komai?",
+  "ic_sentence": "Kawun {name_male, Raphael} ya kawo kwalaye na crayons guda {num_ic, 19} makon da ya gabata."
+}

@@ -1,0 +1,69 @@
+{
+  "original_question": "ジョニーはお小遣いの20ドルに10ドルを新たに加えた後、このお金を投資して1年間で3倍に増やしました。1年たった時点でジョニーはいくらもっていましたか？",
+  "original_answer": 90,
+  "question_template": "{name_male, ジョニー}はお小遣いの{num_digit_1, 20}ドルに{num_digit_2, 10}ドルを新たに加えた後、このお金を投資して1年間で{num_text_1, 3倍}に増やしました。1年たった時点で{name_male, ジョニー}はいくらもっていましたか？",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) * f1   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 + num_digit_2) * f1",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "f1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Johnny"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      137,
+      246,
+      385,
+      472,
+      593,
+      610,
+      785,
+      923,
+      1050,
+      1189
+    ],
+    "num_digit_2": [
+      58,
+      142,
+      207,
+      311,
+      408,
+      512,
+      624,
+      738,
+      845,
+      977
+    ],
+    "num_text_1": [
+      "3倍",
+      "4倍になった",
+      "倍増",
+      "5倍",
+      "6倍",
+      "7倍",
+      "8倍になった",
+      "九倍",
+      "十倍",
+      "12回"
+    ],
+    "answer": [
+      585,
+      1552,
+      1184,
+      3915,
+      6006,
+      7854,
+      11272,
+      14949,
+      18950,
+      25992
+    ]
+  },
+  "ic_question_template": "{name_male, ジョニー}のいとこは誕生日に{num_ic, 88}枚の野球カードをもらいました。{name_male, ジョニー}はお小遣いの{num_digit_1, 20}ドルに{num_digit_2, 10}ドルを新たに加えた後、このお金を投資して1年間で{num_text_1, 3倍}に増やしました。1年たった時点で{name_male, ジョニー}はいくらもっていましたか？",
+  "ic_sentence": "{name_male, ジョニー}のいとこは誕生日に{num_ic, 88}枚の野球カードをもらいました。"
+}

@@ -1,0 +1,66 @@
+{
+  "original_question": "Ikọ̀ ẹgbẹ́ agbábọ́ọ́lù kan gbá bọ́ọ̀lù 22. Wọ́n borí 8 ju èyí tí wọ́n pàdánù lọ. Mélòó ní wọ́n borí?",
+  "original_answer": 15,
+  "question_template": "Ikọ̀ ẹgbẹ́ agbábọ́ọ́lù kan gbá bọ́ọ̀lù {num_digit_1, 22}. Wọ́n borí {num_digit_2, 8} ju èyí tí wọ́n pàdánù lọ. Mélòó ní wọ́n borí?",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) / 2",
+  "conditions": [
+    "int(answer) == (num_digit_1 + num_digit_2) / 2",
+    "(num_digit_1 + num_digit_2) % 2 == 0",
+    "num_digit_1 >= num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      30,
+      45,
+      51,
+      60,
+      49,
+      100,
+      123,
+      88,
+      77,
+      65
+    ],
+    "num_digit_2": [
+      10,
+      5,
+      9,
+      12,
+      7,
+      14,
+      21,
+      8,
+      3,
+      15
+    ],
+    "answer": [
+      20,
+      25,
+      30,
+      36,
+      28,
+      57,
+      72,
+      48,
+      40,
+      40
+    ],
+    "num_ic": [
+      74,
+      133,
+      79,
+      299,
+      30,
+      66,
+      615,
+      234,
+      62,
+      372
+    ]
+  },
+  "ic_question_template": "Arákùnrin {name_male, John} lọ sí ìdíje bọ́ọ̀lù {num_ic, 124} lásìkò ìsẹ̀sẹ̀ yìí. Ikọ̀ ẹgbẹ́ agbábọ́ọ́lù kan gbá bọ́ọ̀lù {num_digit_1, 22}. Wọ́n borí {num_digit_2, 8} ju èyí tí wọ́n pàdánù lọ. Mélòó ní wọ́n borí?",
+  "ic_sentence": "Arákùnrin {name_male, John} lọ sí ìdíje bọ́ọ̀lù {num_ic, 124} lásìkò ìsẹ̀sẹ̀ yìí."
+}

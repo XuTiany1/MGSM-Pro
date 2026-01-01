@@ -1,0 +1,81 @@
+{
+  "original_question": "Rose lọ sí ilé ìtajà lọ́jọ́ Ajé ó sì ra àkàrà òyìnbó mẹ́rin. Ní ọjọ́ Ìṣẹ́gun ó lọ sí ilé ìtajà mìíràn ó sì ra ìlọ́po mẹ́ta iye àkàrà òyìnbó yẹn. Ní ọjọ́rú ó lọ sí ilé ìtajà mìíràn ó sì ra ìlọ́po márùn-ún iye àkàrà òyìnbó tí ó ṣe lọ́jọ́ Ìṣẹ́gun. Àkàrà òyìnbó mélòó ni ó rà lẹ́yìn gbogbo ọjọ́ mẹ́ta?",
+  "original_answer": 76,
+  "question_template": "{name_female, Rose} lọ sí ilé ìtajà lọ́jọ́ Ajé ó sì ra àkàrà òyìnbó {num_digit_1, 4}. Ní ọjọ́ Ìṣẹ́gun ó lọ sí ilé ìtajà mìíràn ó sì ra ìlọ́po {num_text_1, mẹ́ta} iye àkàrà òyìnbó yẹn. Ní ọjọ́rú ó lọ sí ilé ìtajà mìíràn ó sì ra ìlọ́po {num_digit_2, 5} iye àkàrà òyìnbó tí ó ṣe lọ́jọ́ Ìṣẹ́gun. Àkàrà òyìnbó mélòó ni ó rà lẹ́yìn gbogbo ọjọ́ mẹ́ta?",
+  "question_solution": "answer = num_digit_1 + f1 * num_digit_1 + num_digit_2 * (f1 * num_digit_1)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + f1 * num_digit_1 + num_digit_2 * (f1 * num_digit_1)",
+    "f1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_1 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Rose"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      37,
+      53,
+      64,
+      78,
+      85,
+      96,
+      111,
+      128,
+      143,
+      157
+    ],
+    "num_text_1": [
+      "Meje",
+      "mẹsan",
+      "mókànlá",
+      "mẹtala",
+      "mẹtadinlogun",
+      "mẹtala din lọ́gbọ̀n",
+      "ogúnlélọ́gọrin",
+      "ogún lé mẹ́sàn-án",
+      "ọgọrin-ọkan",
+      "mẹtadinlọgbọn"
+    ],
+    "num_digit_2": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22
+    ],
+    "answer": [
+      1332,
+      3392,
+      6400,
+      11232,
+      18870,
+      27456,
+      43512,
+      70656,
+      93236,
+      133764
+    ],
+    "num_ic": [
+      65,
+      58,
+      371,
+      171,
+      332,
+      312,
+      206,
+      103,
+      123,
+      390
+    ]
+  },
+  "ic_question_template": "Ìyáwó baba {name_female, Rose} rẹ̀ sè àkàrà oyinbo {num_ic, 85} lọ́jọ́ ìparí ọ̀sẹ̀ tó kọjá. {name_female, Rose} lọ sí ilé ìtajà lọ́jọ́ Ajé ó sì ra àkàrà òyìnbó {num_digit_1, 4}. Ní ọjọ́ Ìṣẹ́gun ó lọ sí ilé ìtajà mìíràn ó sì ra ìlọ́po {num_text_1, mẹ́ta} iye àkàrà òyìnbó yẹn. Ní ọjọ́rú ó lọ sí ilé ìtajà mìíràn ó sì ra ìlọ́po {num_digit_2, 5} iye àkàrà òyìnbó tí ó ṣe lọ́jọ́ Ìṣẹ́gun. Àkàrà òyìnbó mélòó ni ó rà lẹ́yìn gbogbo ọjọ́ mẹ́ta?",
+  "ic_sentence": "Ìyáwó baba {name_female, Rose} rẹ̀ sè àkàrà oyinbo {num_ic, 85} lọ́jọ́ ìparí ọ̀sẹ̀ tó kọjá."
+}

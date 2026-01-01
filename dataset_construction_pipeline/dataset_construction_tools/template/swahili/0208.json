@@ -1,0 +1,81 @@
+{
+  "original_question": "Rose alienda kwa duka Jumatatu na akanunua keki 4. Jumanne alienda kwa duka tofauti akanunua mara tatu ya keki alizonunua Jumatatu. Jumatano alienda kwa duka lingine na akanunua mara 5 zaidi ya keki alizonunua Jumanne. Alinunua keki ngapi kwa jumla kwa siku hizo tatu?",
+  "original_answer": 76,
+  "question_template": "{name_female, Rose} alienda dukani Jumatatu na kununua keki {num_digit_1, 4}. Jumanne alienda dukani tofauti na kununua {num_text_1, mara tatu} ya idadi hiyo ya keki. Jumatano alienda dukani nyingine na kununua keki {num_digit_2, 5} ya idadi aliyoinunua Jumanne. Ni keki ngapi alizonunua baada ya siku zote tatu?",
+  "question_solution": "answer = num_digit_1 + f1 * num_digit_1 + num_digit_2 * (f1 * num_digit_1)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + f1 * num_digit_1 + num_digit_2 * (f1 * num_digit_1)",
+    "f1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_1 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Rose"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      37,
+      53,
+      64,
+      78,
+      85,
+      96,
+      111,
+      128,
+      143,
+      157
+    ],
+    "num_text_1": [
+      "saba",
+      "tisa",
+      "kumi na moja",
+      "kumi na tatu",
+      "kumi na saba",
+      "kumi na tisa",
+      "ishirini na tatu",
+      "ishirini na tisa",
+      "thelathini na moja",
+      "thelathini na saba"
+    ],
+    "num_digit_2": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22
+    ],
+    "answer": [
+      1332,
+      3392,
+      6400,
+      11232,
+      18870,
+      27456,
+      43512,
+      70656,
+      93236,
+      133764
+    ],
+    "num_ic": [
+      65,
+      58,
+      371,
+      171,
+      332,
+      312,
+      206,
+      103,
+      123,
+      390
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_female, Rose} alioka pai {num_ic, 85} wikendi iliyopita. {name_female, Rose} alienda dukani Jumatatu na kununua keki {num_digit_1, 4}. Jumanne alienda dukani tofauti na kununua {num_text_1, mara tatu} ya idadi hiyo ya keki. Jumatano alienda dukani nyingine na kununua keki {num_digit_2, 5} ya idadi aliyoinunua Jumanne. Ni keki ngapi alizonunua baada ya siku zote tatu?",
+  "ic_sentence": "Mjomba wa {name_female, Rose} alioka pai {num_ic, 85} wikendi iliyopita."
+}

@@ -1,0 +1,91 @@
+{
+  "original_question": "Melanie bụ nwannyị onyeahịa na-aga site n'ọnụ ụzọ n'ọnụ ụzọ ere ahịa. O rere ihe atọ eji ehicha ụlọ n'ulo akwụkwọ ndụ akwụkwọ ndụ, abụọ ọzọ n'ụlọ ọbara ọbara, na okara ihe ndị ọzọ fọdụrụ n'ulo oroma. Ọ bụrụ na Melanie nwere ihe e ji ehicha ụlọ ise fọdụrụ, ole ka oọ jiri malite?",
+  "original_answer": 18,
+  "question_template": "{name_female, Melanie} bụ nwannyị onyeahịa na-aga site n'ọnụ ụzọ n'ọnụ ụzọ ere ahịa. O rere {num_frac_1, otu n'ime atọ} ihe eji ehicha ụlọ n'ulo akwụkwọ ndụ, {num_digit_1, 2} ọzọ n'ụlọ ọbara ọbara, na {num_frac_2, ọkara} ihe ndị ọzọ fọdụrụ n'ulo oroma. Ọ bụrụ na {name_female, Melanie} nwere {num_digit_2, 5} ihe e ji ehicha ụlọ fọdụrụ, ole ka oọ jiri malite",
+  "question_solution": "answer = ((2 * num_digit_2 + num_digit_1) * 3) / 2",
+  "conditions": [
+    "int(answer) == ((2 * num_digit_2 + num_digit_1) * 3) / 2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "(2 * num_digit_2 + num_digit_1) % 2 == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Melanie"
+  },
+  "variable_number_dictionary": {
+    "num_frac_1": [
+      "otu nke atọ",
+      "otu nke atọ",
+      "otu nke atọ",
+      "otu nke atọ",
+      "otu nke atọ",
+      "otu nke atọ",
+      "otu nke atọ",
+      "otu nke atọ",
+      "otu nke atọ",
+      "otu nke atọ"
+    ],
+    "num_digit_1": [
+      110,
+      118,
+      122,
+      130,
+      134,
+      142,
+      146,
+      154,
+      158,
+      166
+    ],
+    "num_frac_2": [
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara"
+    ],
+    "num_digit_2": [
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97,
+      101
+    ],
+    "answer": [
+      342,
+      360,
+      384,
+      408,
+      420,
+      450,
+      468,
+      498,
+      528,
+      552
+    ],
+    "num_ic": [
+      87,
+      114,
+      70,
+      61,
+      124,
+      174,
+      52,
+      123,
+      168,
+      108
+    ]
+  },
+  "ic_question_template": "Nwanne nna m {name_female, Melanie} zụtara ákwà esi nri {num_ic, 112} izu gara aga. {name_female, Melanie} bụ nwannyị onyeahịa na-aga site n'ọnụ ụzọ n'ọnụ ụzọ ere ahịa. O rere {num_frac_1, otu n'ime atọ} ihe eji ehicha ụlọ n'ulo akwụkwọ ndụ, {num_digit_1, 2} ọzọ n'ụlọ ọbara ọbara, na {num_frac_2, ọkara} ihe ndị ọzọ fọdụrụ n'ulo oroma. Ọ bụrụ na {name_female, Melanie} nwere {num_digit_2, 5} ihe e ji ehicha ụlọ fọdụrụ, ole ka oọ jiri malite",
+  "ic_sentence": "Nwanne nna m {name_female, Melanie} zụtara ákwà esi nri {num_ic, 112} izu gara aga."
+}

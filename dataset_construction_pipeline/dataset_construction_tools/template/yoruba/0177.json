@@ -1,0 +1,119 @@
+{
+  "original_question": "Zaid ná 1/4 nínú owó oṣù rẹ̀ lórí owó ilé, 1/3 lórí epo fun ọkọ̀ ayọ́kẹ́lẹ́, ó sì ṣe ìtọrẹ ìdajì iye tó kù fún àwọn aláàánú tí ó fẹ́ràn jù. Ó fún ọmọbìnrin rẹ̀ ní 200$ láti lò fún ìnáwó ọ̀sọ̀ọ̀sẹ̀ rẹ̀ àti 700$ fún ìyàwó rẹ̀ láti ṣe ètò ìṣúná fún àwọn ohun èlò oúnjẹ àti àwọn ọjà ilé mìíràn. Tí Zaid bá ń 6000$ gbà lóṣooṣù, èló ni yóò jù si lọ́wọ́ lẹ́yìn gbogbo ìnáwó àti ẹ̀bùn wọ̀nyí?",
+  "original_answer": 350,
+  "question_template": "{name_male, Zaid} ná {num_frac_1, 1/4} nínú owó oṣù rẹ̀ lórí owó ilé, {num_frac_2, 1/3} lórí epo fun ọkọ̀ ayọ́kẹ́lẹ́, ó sì ṣe ìtọrẹ {num_frac_3, ìdajì} iye tó kù fún àwọn aláàánú tí ó fẹ́ràn jù. Ó fún ọmọbìnrin rẹ̀ ní ${num_digit_1, 200} láti lò fún ìnáwó ọ̀sọ̀ọ̀sẹ̀ rẹ̀ àti ${num_digit_2, 700} fún ìyàwó rẹ̀ láti ṣe ètò ìṣúná fún àwọn ohun èlò oúnjẹ àti àwọn ọjà ilé mìíràn. Tí {name_male, Zaid} bá ń ${num_digit_3, 6000} gbà lóṣooṣù, èló ni yóò jù si lọ́wọ́ lẹ́yìn gbogbo ìnáwó àti ẹ̀bùn wọ̀nyí?",
+  "question_solution": "answer = num_digit_3 * (1 - f1 - f2) * (1 - f3) - num_digit_1 - num_digit_2   # f1, f2, f3 are the numeric values of num_frac_1, num_frac_2, num_frac_3 respectively",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_3 * (1 - f1 - f2) * (1 - f3) - num_digit_1 - num_digit_2",
+    "f1 + f2 < 1",
+    "0 < f3 < 1",
+    "num_digit_3 > 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Zaid"
+  },
+  "variable_number_dictionary": {
+    "num_frac_1": [
+      "ìdẹ́kẹrin",
+      "Ìkẹta kan",
+      "Mejila ninu marun",
+      "mẹta ida mẹjọ",
+      "ìdá karùn-ún lé l’ógún",
+      "ìdámẹ́ta ọdún kan",
+      "ọkan ninu mẹfa",
+      "Ìkẹta kan",
+      "ìdẹ́kẹrin",
+      "ìdámẹ́ta ọdún kan"
+    ],
+    "num_frac_2": [
+      "ìdẹ́kẹrin",
+      "ọkan ninu mẹfa",
+      "ìdámẹ́ta ọdún kan",
+      "ìdẹ́kẹrin",
+      "ọkan ninu mẹfa",
+      "meje meji ninu rẹ",
+      "ìdẹ́kẹrin",
+      "ìdámẹ́ta ọdún kan",
+      "ìdẹ́kẹrin",
+      "ìdẹ́kẹrin"
+    ],
+    "num_frac_3": [
+      "ìdẹ́kẹrin",
+      "Idaji",
+      "Ìkẹta kan",
+      "Idaji",
+      "Idaji",
+      "ẹ̀ẹta lórúndín mẹ́wàá",
+      "Idaji",
+      "Idaji",
+      "ìkejìlélọ́gọ́rin",
+      "Idaji"
+    ],
+    "num_digit_1": [
+      200,
+      300,
+      250,
+      400,
+      500,
+      150,
+      600,
+      200,
+      400,
+      200
+    ],
+    "num_digit_2": [
+      400,
+      500,
+      600,
+      800,
+      700,
+      300,
+      900,
+      500,
+      500,
+      300
+    ],
+    "num_digit_3": [
+      4800,
+      7200,
+      6000,
+      8400,
+      9600,
+      10500,
+      12000,
+      6600,
+      9000,
+      7800
+    ],
+    "answer": [
+      1200,
+      1000,
+      750,
+      375,
+      800,
+      3330,
+      2000,
+      840,
+      600,
+      1645
+    ],
+    "num_ic": [
+      32,
+      45,
+      68,
+      41,
+      19,
+      72,
+      59,
+      16,
+      81,
+      47
+    ]
+  },
+  "ic_question_template": "Ọ̀gá {name_male, Zaid} ra fìlà {num_ic, 32} látọwọ́ itaja agbègbè laipẹ̀ yìí. {name_male, Zaid} ná {num_frac_1, 1/4} nínú owó oṣù rẹ̀ lórí owó ilé, {num_frac_2, 1/3} lórí epo fun ọkọ̀ ayọ́kẹ́lẹ́, ó sì ṣe ìtọrẹ {num_frac_3, ìdajì} iye tó kù fún àwọn aláàánú tí ó fẹ́ràn jù. Ó fún ọmọbìnrin rẹ̀ ní ${num_digit_1, 200} láti lò fún ìnáwó ọ̀sọ̀ọ̀sẹ̀ rẹ̀ àti ${num_digit_2, 700} fún ìyàwó rẹ̀ láti ṣe ètò ìṣúná fún àwọn ohun èlò oúnjẹ àti àwọn ọjà ilé mìíràn. Tí {name_male, Zaid} bá ń ${num_digit_3, 6000} gbà lóṣooṣù, èló ni yóò jù si lọ́wọ́ lẹ́yìn gbogbo ìnáwó àti ẹ̀bùn wọ̀nyí?",
+  "ic_sentence": "Ọ̀gá {name_male, Zaid} ra fìlà {num_ic, 32} látọwọ́ itaja agbègbè laipẹ̀ yìí."
+}

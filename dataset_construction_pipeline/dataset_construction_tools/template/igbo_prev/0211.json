@@ -1,0 +1,94 @@
+{
+  "original_question": "Jerry nwere ìgwè ọkụkọ. Ọkụkọ ọbara-ọbara ahu n'eyi akwa atọ n'ụbọchị, na ọkụkọ ọcha n'eyi akwa ise n'ụbọchị. Ụbọchị ọ bụla Jerry na-ekpokọta akwa iri anọ na abụọ. Ọ bụrụ na o nwere ọkụkọ ọcha abụọ karịa ọkụkọ ọbara-ọbara, ọkụkọ ọbara ọbara ole ka o nwere?",
+  "original_answer": 4,
+  "question_template": "{name_male, Jerry} nwere ìgwè ọkụkọ. Ọkụkọ ọbara-ọbara ahu n'eyi akwa {num_digit_1, 3} n'ụbọchị, na ọkụkọ ọcha n'eyi akwa {num_digit_2, 5} n'ụbọchị. Ụbọchị ọ bụla {name_male, Jerry} na-ekpokọta akwa {num_digit_3, 42}. Ọ bụrụ na o nwere ọkụkọ ọcha {num_text_1, abụọ} karịa ọkụkọ ọbara-ọbara, ọkụkọ ọbara ọbara ole ka o nwere?",
+  "question_solution": "answer = (num_digit_3 - f1 * num_digit_2) / (num_digit_1 + num_digit_2)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_3 - f1 * num_digit_2) / (num_digit_1 + num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "f1 > 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jerry"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      9,
+      12,
+      13,
+      5,
+      14,
+      11,
+      4,
+      16,
+      17
+    ],
+    "num_digit_2": [
+      11,
+      14,
+      8,
+      17,
+      9,
+      6,
+      10,
+      15,
+      12,
+      13
+    ],
+    "num_text_1": [
+      "Atọ",
+      "Anọ",
+      "ise",
+      "isii",
+      "asaa",
+      "asatọ",
+      "itoolu",
+      "Iri",
+      "iri na otu",
+      "iri na abụọ"
+    ],
+    "num_digit_3": [
+      267,
+      447,
+      540,
+      672,
+      371,
+      668,
+      699,
+      435,
+      888,
+      1146
+    ],
+    "answer": [
+      13,
+      17,
+      25,
+      19,
+      22,
+      31,
+      29,
+      15,
+      27,
+      33
+    ],
+    "num_ic": [
+      72,
+      105,
+      32,
+      110,
+      86,
+      62,
+      180,
+      121,
+      144,
+      174
+    ]
+  },
+  "ic_question_template": "Nwanne nwanyị nne {name_male, Jerry} nwere ụmụ ọbọgwụ {num_ic, 54} na ugbo ya. {name_male, Jerry} nwere ìgwè ọkụkọ. Ọkụkọ ọbara-ọbara ahu n'eyi akwa {num_digit_1, 3} n'ụbọchị, na ọkụkọ ọcha n'eyi akwa {num_digit_2, 5} n'ụbọchị. Ụbọchị ọ bụla {name_male, Jerry} na-ekpokọta akwa {num_digit_3, 42}. Ọ bụrụ na o nwere ọkụkọ ọcha {num_text_1, abụọ} karịa ọkụkọ ọbara-ọbara, ọkụkọ ọbara ọbara ole ka o nwere?",
+  "ic_sentence": "Nwanne nwanyị nne {name_male, Jerry} nwere ụmụ ọbọgwụ {num_ic, 54} na ugbo ya."
+}

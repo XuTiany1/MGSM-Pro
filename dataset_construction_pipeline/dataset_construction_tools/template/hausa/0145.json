@@ -1,0 +1,81 @@
+{
+  "original_question": "John yana da kadada10 na gonar abarba. Akwai abarba 100 a kowace kadada. John na iya girbe abarba kowane wata 3. Abarba nawa John zai iya girbewa a cikin shekara guda?",
+  "original_answer": 4000,
+  "question_template": "{name_male, John} yana da kadada{num_digit_1, 10} na gonar abarba. Akwai abarba {num_digit_2, 100} a kowace kadada. {name_male, John} na iya girbe abarba kowane wata {num_digit_3, 3}. Abarba nawa {name_male, John} zai iya girbewa a cikin shekara guda?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * 12 / num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 * 12 / num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "12 % num_digit_3 == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      20,
+      8,
+      25,
+      30,
+      12,
+      10,
+      18,
+      5,
+      40,
+      7
+    ],
+    "num_digit_2": [
+      50,
+      120,
+      40,
+      35,
+      150,
+      100,
+      90,
+      200,
+      25,
+      110
+    ],
+    "num_digit_3": [
+      2,
+      3,
+      1,
+      6,
+      3,
+      4,
+      2,
+      6,
+      12,
+      3
+    ],
+    "answer": [
+      6000,
+      3840,
+      12000,
+      2100,
+      7200,
+      3000,
+      9720,
+      2000,
+      1000,
+      3080
+    ],
+    "num_ic": [
+      110,
+      80,
+      37,
+      210,
+      120,
+      27,
+      198,
+      199,
+      315,
+      99
+    ]
+  },
+  "ic_question_template": "Kawun {name_male, John} ya sayi kwalin ayaba {num_ic, 210} a makon da ya gabata. {name_male, John} yana da kadada{num_digit_1, 10} na gonar abarba. Akwai abarba {num_digit_2, 100} a kowace kadada. {name_male, John} na iya girbe abarba kowane wata {num_digit_3, 3}. Abarba nawa {name_male, John} zai iya girbewa a cikin shekara guda?",
+  "ic_sentence": "Kawun {name_male, John} ya sayi kwalin ayaba {num_ic, 210} a makon da ya gabata."
+}

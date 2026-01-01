@@ -1,0 +1,94 @@
+{
+  "original_question": "Chakula ambacho Carl anapenda zaidi ni jibini. Alikula sandwichi kila siku wiki hii wakati wa chakula cha mchana na kutumia slaisi 2 za jibini kwenye kila sandwichi. Alikula jibini na omleti za mayai wakati wa staftahi siku 3 katika wiki hiyo na omleti moja ilikuwa na slaisi moja zaidi ya jibini kuliko katika sandwichi yake. Aliandaa mlo mkubwa wa makaroni na jibini wa kumtoshea chajio kadhaa kwa wiki hiyo na akatumia slaisi 8 za jibini kwenye mlo huo. Alitumia slaisi ngapi za jibini kwa jumla?",
+  "original_answer": 31,
+  "question_template": "Chakula ambacho {name_male, Carl} anapenda zaidi ni jibini. Alikula sandwichi kila siku wiki hii wakati wa chakula cha mchana na kutumia slaisi {num_digit_1, 2} za jibini kwenye kila sandwichi. Alikula jibini na omleti za mayai wakati wa staftahi siku {num_digit_2, 3} katika wiki hiyo na omleti moja ilikuwa na slaisi {num_text_1, moja} zaidi ya jibini kuliko katika sandwichi yake. Aliandaa mlo mkubwa wa makaroni na jibini wa kumtoshea chajio kadhaa kwa wiki hiyo na akatumia slaisi {num_digit_3, 8} za jibini kwenye mlo huo. Alitumia slaisi ngapi za jibini kwa jumla?",
+  "question_solution": "answer = 7 * num_digit_1 + num_digit_2 * (num_digit_1 + f) + num_digit_3   # f is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == 7 * num_digit_1 + num_digit_2 * (num_digit_1 + f) + num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "0 < f",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Carl"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      137,
+      149,
+      163,
+      179,
+      191,
+      211,
+      227,
+      239,
+      251,
+      263
+    ],
+    "num_digit_2": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "num_text_1": [
+      "mbili",
+      "tatu",
+      "nne",
+      "tano",
+      "sita",
+      "saba",
+      "nane",
+      "tisa",
+      "kumi",
+      "kumi na moja"
+    ],
+    "num_digit_3": [
+      17,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59
+    ],
+    "answer": [
+      1393,
+      1674,
+      2005,
+      2388,
+      2753,
+      1954,
+      2337,
+      2712,
+      3115,
+      3544
+    ],
+    "num_ic": [
+      291,
+      825,
+      130,
+      54,
+      1302,
+      117,
+      2327,
+      1675,
+      322,
+      1228
+    ]
+  },
+  "ic_question_template": "Binamu wa {name_male, Carl} ameoka mafini ya blueberry {num_ic, 114} wiki hii. Chakula ambacho {name_male, Carl} anapenda zaidi ni jibini. Alikula sandwichi kila siku wiki hii wakati wa chakula cha mchana na kutumia slaisi {num_digit_1, 2} za jibini kwenye kila sandwichi. Alikula jibini na omleti za mayai wakati wa staftahi siku {num_digit_2, 3} katika wiki hiyo na omleti moja ilikuwa na slaisi {num_text_1, moja} zaidi ya jibini kuliko katika sandwichi yake. Aliandaa mlo mkubwa wa makaroni na jibini wa kumtoshea chajio kadhaa kwa wiki hiyo na akatumia slaisi {num_digit_3, 8} za jibini kwenye mlo huo. Alitumia slaisi ngapi za jibini kwa jumla?",
+  "ic_sentence": "Binamu wa {name_male, Carl} ameoka mafini ya blueberry {num_ic, 114} wiki hii."
+}

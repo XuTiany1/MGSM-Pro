@@ -1,0 +1,93 @@
+{
+  "original_question": "Carl ananunua vifurushi kumi vya biskuti. Kila kifurushi cha biskuti kina biskuti sita ndani yake. Kila biskuti inagharimu $0.10. Carl atarudushiwa pesa ngapi iwapo atalipa kwa kutumia noti ya $10?",
+  "original_answer": 4,
+  "question_template": "{name_male, Carl} ananunua pakiti {num_text_1, kumi} za biskuti. Kila pakiti ina biskuti {num_text_2, sita}. Kila biskuti inagharimu ${num_digit_1, 0.10}. {name_male, Carl} atapata chenji ya kiasi gani ikiwa atalipa kwa noti ya ${num_digit_2, 10}?",
+  "question_solution": "answer = num_digit_2 - num_text_1 * num_text_2 * num_digit_1",
+  "conditions": [
+    "answer == num_digit_2 - num_text_1 * num_text_2 * num_digit_1",
+    "answer % 1 == 0",
+    "num_text_1 > 0",
+    "num_text_2 > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > num_text_1 * num_text_2 * num_digit_1"
+  ],
+  "variable_word_list": {
+    "name_male": "Carl"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "tatu",
+      "tano",
+      "saba",
+      "sita",
+      "nane",
+      "tisa",
+      "nne",
+      "kumi",
+      "kumi na moja",
+      "kumi na mbili"
+    ],
+    "num_text_2": [
+      "nne",
+      "tano",
+      "sita",
+      "tano",
+      "kumi",
+      "tano",
+      "saba",
+      "kumi na mbili",
+      "nne",
+      "kumi na tano"
+    ],
+    "num_digit_1": [
+      0.25,
+      0.2,
+      0.5,
+      0.1,
+      0.25,
+      0.2,
+      0.5,
+      0.1,
+      0.25,
+      0.2
+    ],
+    "num_digit_2": [
+      10,
+      20,
+      40,
+      20,
+      30,
+      25,
+      40,
+      50,
+      60,
+      100
+    ],
+    "answer": [
+      7,
+      15,
+      19,
+      17,
+      10,
+      16,
+      26,
+      38,
+      49,
+      64
+    ],
+    "num_ic": [
+      11,
+      41,
+      28,
+      38,
+      57,
+      33,
+      43,
+      76,
+      49,
+      170
+    ]
+  },
+  "ic_question_template": "Shangazi wa {name_male, Carl} alileta mafini {num_ic, 31} kwenye sherehe. {name_male, Carl} ananunua pakiti {num_text_1, kumi} za biskuti. Kila pakiti ina biskuti {num_text_2, sita}. Kila biskuti inagharimu ${num_digit_1, 0.10}. {name_male, Carl} atapata chenji ya kiasi gani ikiwa atalipa kwa noti ya ${num_digit_2, 10}?",
+  "ic_sentence": "Shangazi wa {name_male, Carl} alileta mafini {num_ic, 31} kwenye sherehe."
+}

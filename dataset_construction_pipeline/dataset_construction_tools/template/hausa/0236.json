@@ -1,0 +1,68 @@
+{
+  "original_question": "Ram yana amfani da alkaluma da yawa. Ya gano cewa zai iya tara kuɗi ta hanyar haɗa tawada daga alkalama biyar da babu komai a ciki don yin cikakken alƙalami ɗaya. Idan ya sayi alkalami 25 sannan ya yi amfani da su wajen yin sabbin alkaluma lokacin da tawadar tayi kasa, jimillar alkaluma nawa zai samu?",
+  "original_answer": 31,
+  "question_template": "{name_male, Ram} yana amfani da alkaluma da yawa. Ya gano cewa zai iya tara kuɗi ta hanyar haɗa tawada daga alkalama {num_text_1, biyar} da babu komai a ciki don yin cikakken alƙalami ɗaya. Idan ya sayi alkalami {num_digit_1, 25} sannan ya yi amfani da su wajen yin sabbin alkaluma lokacin da tawadar tayi kasa, jimillar alkaluma nawa zai samu?",
+  "question_solution": "answer = num_digit_1 + (num_digit_1 - f1) / (f1 - 1)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + (num_digit_1 - f1) / (f1 - 1)",
+    "f1 > 1",
+    "num_digit_1 >= f1",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Ram"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "shida",
+      "bakwai",
+      "Takwas",
+      "tara",
+      "Goma",
+      "goma sha ɗaya",
+      "sha biyu",
+      "Goma sha uku",
+      "goma sha huɗu",
+      "goma sha biyar"
+    ],
+    "num_digit_1": [
+      1501,
+      1801,
+      2003,
+      3001,
+      5005,
+      10001,
+      12343,
+      9997,
+      13716,
+      14015
+    ],
+    "answer": [
+      1799,
+      2099,
+      2287,
+      3375,
+      5560,
+      10999,
+      13463,
+      10829,
+      14768,
+      15015
+    ],
+    "num_ic": [
+      309,
+      1367,
+      2019,
+      5053,
+      6590,
+      2287,
+      11353,
+      13408,
+      10986,
+      9108
+    ]
+  },
+  "ic_question_template": "Kawun {name_male, Ram} ya taɓa sayen litattafan rubutu {num_ic, 13408} da rahusa. {name_male, Ram} yana amfani da alkaluma da yawa. Ya gano cewa zai iya tara kuɗi ta hanyar haɗa tawada daga alkalama {num_text_1, biyar} da babu komai a ciki don yin cikakken alƙalami ɗaya. Idan ya sayi alkalami {num_digit_1, 25} sannan ya yi amfani da su wajen yin sabbin alkaluma lokacin da tawadar tayi kasa, jimillar alkaluma nawa zai samu?",
+  "ic_sentence": "Kawun {name_male, Ram} ya taɓa sayen litattafan rubutu {num_ic, 13408} da rahusa."
+}

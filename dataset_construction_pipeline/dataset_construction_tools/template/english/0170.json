@@ -1,0 +1,66 @@
+{
+  "original_question": "The marching band is ordering new uniforms. Each uniform comes with a hat that costs $25, a jacket that costs three times as much as the hat, and pants that cost the average of the costs of the hat and jacket. How much does each uniform cost total?",
+  "original_answer": 150,
+  "question_template": "The marching band is ordering new uniforms. Each uniform comes with a hat that costs ${num_digit_1, 25}, a jacket that costs {num_text_1, three} times as much as the hat, and pants that cost the average of the costs of the hat and jacket. How much does each uniform cost total?",
+  "question_solution": "answer = num_digit_1 + num_digit_1 * NUM(num_text_1) + (num_digit_1 + num_digit_1 * NUM(num_text_1)) / 2",
+  "conditions": [
+    "answer == num_digit_1 + num_digit_1 * NUM(num_text_1) + (num_digit_1 + num_digit_1 * NUM(num_text_1)) / 2",
+    "num_digit_1 > 0",
+    "NUM(num_text_1) > 0",
+    "(num_digit_1 + num_digit_1 * NUM(num_text_1)) % 2 == 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      123,
+      456,
+      789,
+      1024,
+      2048,
+      4096,
+      5123,
+      6789,
+      8192,
+      10000
+    ],
+    "num_text_1": [
+      "seven times",
+      "nine times",
+      "eleven times",
+      "thirteen times",
+      "seventeen times",
+      "nineteen times",
+      "twenty-three times",
+      "twenty-nine times",
+      "thirty-one times",
+      "thirty-seven times"
+    ],
+    "answer": [
+      1476,
+      6840,
+      14202,
+      21504,
+      55296,
+      122880,
+      184428,
+      305505,
+      393216,
+      570000
+    ],
+    "num_ic": [
+      307,
+      1650,
+      3298,
+      9472,
+      17825,
+      32179,
+      4142,
+      27155,
+      817,
+      81415
+    ]
+  },
+  "ic_question_template": "The marching band is ordering new uniforms. Each uniform comes with a hat that costs ${num_digit_1, 25}, a jacket that costs {num_text_1, three} times as much as the hat, and pants that cost the average of the costs of the hat and jacket. The band leader's cousin bought {num_ic, 517} pairs of gloves for the percussion section. How much does each uniform cost total?",
+  "ic_sentence": "The band leader's cousin bought {num_ic, 517} pairs of gloves for the percussion section."
+}

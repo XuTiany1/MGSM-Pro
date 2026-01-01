@@ -1,0 +1,93 @@
+{
+  "original_question": "የእብነበረድ ከረጢት $20  የሚያስወጣ ከሆነ እና ዋጋው በየሁለት ወሩ ከዋናው ዋጋ 20% የሚጨምር ከሆነ፣ ከ 36 ወራት በኋላ የእብነበረድ ከረጢት ምን ያህል ያስወጣል",
+  "original_answer": 92,
+  "question_template": "የእብነበረድ ከረጢት ${num_digit_1, 20} የሚያስወጣ ከሆነ እና ዋጋው በየ{num_text_1, ሁለት} ወሩ ከዋናው ዋጋ {num_digit_2, 20}% የሚጨምር ከሆነ፣ ከ {num_digit_3, 36} ወራት በኋላ የእብነበረድ ከረጢት ምን ያህል ያስወጣል",
+  "question_solution": "answer = num_digit_1 + (num_digit_3 / NUM(num_text_1)) * (num_digit_1 * num_digit_2 / 100)",
+  "conditions": [
+    "answer == num_digit_1 + (num_digit_3 / NUM(num_text_1)) * (num_digit_1 * num_digit_2 / 100)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "NUM(num_text_1) > 0",
+    "num_digit_3 % NUM(num_text_1) == 0",
+    "(num_digit_1 * num_digit_2) % 100 == 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      30,
+      25,
+      40,
+      18,
+      24,
+      45,
+      55,
+      48,
+      25,
+      60
+    ],
+    "num_digit_2": [
+      10,
+      20,
+      15,
+      50,
+      25,
+      20,
+      20,
+      25,
+      40,
+      10
+    ],
+    "num_text_1": [
+      "ሶስት",
+      "አምስት",
+      "ስድስት",
+      "ሁለት",
+      "ስምንት",
+      "ዘጠኝ",
+      "አስር",
+      "አስራ ሁለት",
+      "አስራ አምስት",
+      "አስራ ስምንት"
+    ],
+    "num_digit_3": [
+      36,
+      45,
+      60,
+      24,
+      40,
+      45,
+      50,
+      48,
+      60,
+      72
+    ],
+    "answer": [
+      66,
+      70,
+      100,
+      126,
+      54,
+      90,
+      110,
+      96,
+      65,
+      84
+    ],
+    "num_ic": [
+      45,
+      215,
+      367,
+      68,
+      160,
+      433,
+      501,
+      242,
+      121,
+      323
+    ]
+  },
+  "ic_question_template": "የእብነበረድ ከረጢት ${num_digit_1, 20} የሚያስወጣ ከሆነ እና ዋጋው በየ{num_text_1, ሁለት} ወሩ ከዋናው ዋጋ {num_digit_2, 20}% የሚጨምር ከሆነ፣ ከ {num_digit_3, 36} ወራት በኋላ የእብነበረድ ከረጢት ምን ያህል ያስወጣል የሱቅ አስተዳደሩ የእህት ልጅ {num_ic, 60} ኮሚክ መጻሕፍቶች አሉት።",
+  "ic_sentence": "የሱቅ አስተዳደሩ የእህት ልጅ {num_ic, 60} ኮሚክ መጻሕፍቶች አሉት።"
+}

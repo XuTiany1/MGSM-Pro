@@ -1,0 +1,66 @@
+{
+  "original_question": "አንድ የእግር ኳስ ቡድን 22 ጨዋታዎችን ተጫውቷል ።8 ጨዋታዎችን ከተሸነፉት በላይ አሸንፈዋል። ምን ያህል ጨዋታዎችን አሸንፈዋል?",
+  "original_answer": 15,
+  "question_template": "አንድ የእግር ኳስ ቡድን {num_digit_1, 22} ጨዋታዎችን ተጫውቷል። {num_digit_2, 8} ጨዋታዎችን ከተሸነፉት በላይ አሸንፈዋል። ምን ያህል ጨዋታዎችን አሸንፈዋል?",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) / 2",
+  "conditions": [
+    "int(answer) == (num_digit_1 + num_digit_2) / 2",
+    "(num_digit_1 + num_digit_2) % 2 == 0",
+    "num_digit_1 >= num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      30,
+      45,
+      51,
+      60,
+      49,
+      100,
+      123,
+      88,
+      77,
+      65
+    ],
+    "num_digit_2": [
+      10,
+      5,
+      9,
+      12,
+      7,
+      14,
+      21,
+      8,
+      3,
+      15
+    ],
+    "answer": [
+      20,
+      25,
+      30,
+      36,
+      28,
+      57,
+      72,
+      48,
+      40,
+      40
+    ],
+    "num_ic": [
+      74,
+      133,
+      79,
+      299,
+      30,
+      66,
+      615,
+      234,
+      62,
+      372
+    ]
+  },
+  "ic_question_template": "አንድ የእግር ኳስ ቡድን {num_digit_1, 22} ጨዋታዎችን ተጫውቷል። {num_digit_2, 8} ጨዋታዎችን ከተሸነፉት በላይ አሸንፈዋል። ምን ያህል ጨዋታዎችን አሸንፈዋል? የ{name_male, ጆን} አጎቱ በዚህ ወቅት {num_ic, 124} ጨዋታዎች ተሳትፎ አደረገ።",
+  "ic_sentence": "የ{name_male, ጆን} አጎቱ በዚህ ወቅት {num_ic, 124} ጨዋታዎች ተሳትፎ አደረገ።"
+}

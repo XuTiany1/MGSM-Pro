@@ -1,0 +1,76 @@
+{
+  "original_question": "Wɔ dɔkɔdɔkɔ afidie mu no, na aduonu mmienu wɔ hɔ a ɛyɛ osua dɔkɔdɔkɔ no mmɔho ɛnan a ɛsen bibire dɔkɔdɔkɔ. Sɛ yɛwɔ dɔkɔdɔkɔ du mmienu a ɛyɛ bibire a, dɔkɔdɔkɔ a ɛyɛ osua no dodoɔ yɛ ahe?",
+  "original_answer": 70,
+  "question_template": "In a candy machine, there are {num_digit_1, 22} more than {num_text_1, four} times the number of pink gumballs as there are blue gumballs. If there are {num_digit_2, 12} blue gumballs how many pink ones are there?  \nNative: Wɔ dɔkɔdɔkɔ afidie mu no, na aduonu mmienu wɔ hɔ a ɛyɛ osua dɔkɔdɔkɔ no mmɔho ɛnan a ɛsen bibire dɔkɔdɔkɔ. Sɛ yɛwɔ dɔkɔdɔkɔ du mmienu a ɛyɛ bibire a, dɔkɔdɔkɔ a ɛyɛ osua no dodoɔ yɛ ahe?  \nOutput:  \nWɔ dɔkɔdɔkɔ afidie mu no, na {num_digit_1, 22} wɔ hɔ a ɛyɛ osua dɔkɔdɔkɔ no mmɔho {num_text_1, ɛnan} a ɛsen bibire dɔkɔdɔkɔ. Sɛ yɛwɔ dɔkɔdɔkɔ {num_digit_2, du mmienu} a ɛyɛ bibire a, dɔkɔdɔkɔ a ɛyɛ osua no dodoɔ yɛ ahe?",
+  "question_solution": "answer = num_digit_1 + k * num_digit_2   # k is the numeric value corresponding to num_text_1 (e.g., four → 4, five → 5, …)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + k * num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      37,
+      45,
+      21,
+      80,
+      13,
+      64,
+      101,
+      9,
+      58,
+      73
+    ],
+    "num_digit_2": [
+      17,
+      8,
+      33,
+      42,
+      99,
+      50,
+      31,
+      123,
+      62,
+      81
+    ],
+    "num_text_1": [
+      "anum",
+      "nsia",
+      "Nson",
+      "nwɔtwe",
+      "nkron",
+      "du",
+      "duakoɔ baako",
+      "dunan",
+      "du-mienu",
+      "dunananan"
+    ],
+    "answer": [
+      122,
+      93,
+      252,
+      416,
+      904,
+      564,
+      442,
+      1485,
+      864,
+      1207
+    ],
+    "num_ic": [
+      147,
+      72,
+      215,
+      409,
+      30,
+      469,
+      776,
+      59,
+      593,
+      317
+    ]
+  },
+  "ic_question_template": "Wɔ dɔkɔdɔkɔ afidie mu no, na {num_digit_1, 22} wɔ hɔ a ɛyɛ osua dɔkɔdɔkɔ no mmɔho {num_text_1, ɛnan} a ɛsen bibire dɔkɔdɔkɔ. Sɛ yɛwɔ dɔkɔdɔkɔ {num_digit_2, du mmienu} a ɛyɛ bibire a, dɔkɔdɔkɔ a ɛyɛ osua no dodoɔ yɛ ahe? Mmofra {num_ic, 147} gyinaa mponua no nkyɛn saa da no.",
+  "ic_sentence": "Mmofra {num_ic, 147} gyinaa mponua no nkyɛn saa da no."
+}

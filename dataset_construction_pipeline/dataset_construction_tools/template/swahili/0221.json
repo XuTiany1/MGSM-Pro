@@ -1,0 +1,81 @@
+{
+  "original_question": "Tangi ya maji imejazwa na lita 120 ya maji. Celine alitumia lita 90 ya maji kutoka kwa tangi hiyo kunyunyuzia shamba lake. Kisha aliweza kuteka maji ya mvua ambayo ni mara mbili zaidi ya maji ambayo yalikuwa yamesalia. Kwa sasa kuna lita ngapi za maji kwenye tangi hiyo?",
+  "original_answer": 90,
+  "question_template": "Tangi ya maji imejazwa na lita {num_digit_1, 120} ya maji. {name_female, Celine} alitumia lita {num_digit_2, 90} ya maji kutoka kwa tangi hiyo kunyunyuzia shamba lake. Kisha aliweza kuteka maji ya mvua ambayo ni {num_text_1, mara mbili} zaidi ya maji ambayo yalikuwa yamesalia. Kwa sasa kuna lita ngapi za maji kwenye tangi hiyo?",
+  "question_solution": "answer = (num_digit_1 - num_digit_2) * (1 + f1)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 - num_digit_2) * (1 + f1)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "f1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Celine"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      437,
+      521,
+      998,
+      743,
+      629,
+      845,
+      907,
+      377,
+      1241,
+      510
+    ],
+    "num_digit_2": [
+      139,
+      321,
+      698,
+      543,
+      329,
+      645,
+      607,
+      177,
+      941,
+      310
+    ],
+    "num_text_1": [
+      "Mara mbili",
+      "mara tatu",
+      "Mara nne",
+      "mara tano",
+      "mara sita",
+      "mara saba",
+      "Mara nane",
+      "mara tisa",
+      "mara kumi",
+      "mara kumi na moja"
+    ],
+    "answer": [
+      894,
+      800,
+      1500,
+      1200,
+      2100,
+      1600,
+      2700,
+      2000,
+      3300,
+      2400
+    ],
+    "num_ic": [
+      388,
+      320,
+      868,
+      1164,
+      247,
+      702,
+      965,
+      738,
+      481,
+      1061
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_female, Celine} alinunua vitunguu vya tulipu {num_ic, 388} majira ya masika yaliyopita. Tangi ya maji imejazwa na lita {num_digit_1, 120} ya maji. {name_female, Celine} alitumia lita {num_digit_2, 90} ya maji kutoka kwa tangi hiyo kunyunyuzia shamba lake. Kisha aliweza kuteka maji ya mvua ambayo ni {num_text_1, mara mbili} zaidi ya maji ambayo yalikuwa yamesalia. Kwa sasa kuna lita ngapi za maji kwenye tangi hiyo?",
+  "ic_sentence": "Mjomba wa {name_female, Celine} alinunua vitunguu vya tulipu {num_ic, 388} majira ya masika yaliyopita."
+}

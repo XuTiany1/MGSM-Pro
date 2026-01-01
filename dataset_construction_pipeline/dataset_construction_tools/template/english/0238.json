@@ -1,0 +1,83 @@
+{
+  "original_question": "Mary is two years younger than Joan, who is five years older than Jessa. If Jessa is 20 years old, what is the sum of the ages of the three girls?",
+  "original_answer": 68,
+  "question_template": "{name_female_1, Mary} is {num_text_1, two} years younger than {name_female_2, Joan}, who is {num_text_2, five} years older than {name_female_3, Jessa}. If {name_female_3, Jessa} is {num_digit_1, 20} years old, what is the sum of the ages of the three girls?",
+  "question_solution": "answer = 3 * num_digit_1 + 2 * f2 - f1  # f1 is the numeric value of num_text_1; f2 of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == 3 * num_digit_1 + 2 * f2 - f1",
+    "f1 > 0",
+    "f2 > 0",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Mary",
+    "name_female_2": "Joan",
+    "name_female_3": "Jessa"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "seven",
+      "nine",
+      "eleven",
+      "thirteen",
+      "fifteen",
+      "seventeen",
+      "nineteen",
+      "twenty",
+      "twenty-three",
+      "twenty-nine"
+    ],
+    "num_text_2": [
+      "six",
+      "eight",
+      "ten",
+      "twelve",
+      "fourteen",
+      "sixteen",
+      "eighteen",
+      "twenty-five",
+      "thirty-one",
+      "thirty-seven"
+    ],
+    "num_digit_1": [
+      101,
+      137,
+      149,
+      157,
+      167,
+      179,
+      191,
+      223,
+      241,
+      269
+    ],
+    "answer": [
+      308,
+      418,
+      456,
+      482,
+      514,
+      552,
+      590,
+      699,
+      762,
+      852
+    ],
+    "num_ic": [
+      73,
+      159,
+      41,
+      267,
+      213,
+      139,
+      227,
+      70,
+      162,
+      68
+    ]
+  },
+  "ic_question_template": "{name_female_1, Mary} is {num_text_1, two} years younger than {name_female_2, Joan}, who is {num_text_2, five} years older than {name_female_3, Jessa}. {name_female_2, Joan}'s uncle has {num_ic, 73} baseball cards. If {name_female_3, Jessa} is {num_digit_1, 20} years old, what is the sum of the ages of the three girls?",
+  "ic_sentence": "{name_female_2, Joan}'s uncle has {num_ic, 73} baseball cards."
+}

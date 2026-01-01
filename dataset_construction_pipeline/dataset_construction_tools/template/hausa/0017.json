@@ -1,0 +1,105 @@
+{
+  "original_question": "Ana biyan Jill $20 a kowace awa don ta koyar, da $30 don zama mai horar da fara'a. Idan tana aiki makonni 50 a shekara, awa 35 a mako a matsayin malama da awa 15 a mako a matsayin kociya, menene albashinta na shekara?",
+  "original_answer": 57500,
+  "question_template": "Ana biyan {name_female, Jill} ${num_digit_1, 20} a kowace awa don ta koyar, da ${num_digit_2, 30} don zama mai horar da fara'a. Idan tana aiki makonni {num_digit_3, 50} a shekara, awa {num_digit_4, 35} a mako a matsayin malama da awa {num_digit_5, 15} a mako a matsayin kociya, menene albashinta na shekara?",
+  "question_solution": "answer = (num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5) * num_digit_3",
+  "conditions": [
+    "int(answer) == (num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5) * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Jill"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "num_digit_2": [
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97,
+      101,
+      103,
+      107
+    ],
+    "num_digit_3": [
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "num_digit_4": [
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "num_digit_5": [
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "answer": [
+      53016,
+      78122,
+      115286,
+      157014,
+      213060,
+      296212,
+      360182,
+      475264,
+      580668,
+      697226
+    ],
+    "num_ic": [
+      49,
+      209,
+      167,
+      314,
+      62,
+      185,
+      105,
+      230,
+      371,
+      128
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Jill} kwanan nan ya karɓi karnuka {num_ic, 127}. Ana biyan {name_female, Jill} ${num_digit_1, 20} a kowace awa don ta koyar, da ${num_digit_2, 30} don zama mai horar da fara'a. Idan tana aiki makonni {num_digit_3, 50} a shekara, awa {num_digit_4, 35} a mako a matsayin malama da awa {num_digit_5, 15} a mako a matsayin kociya, menene albashinta na shekara?",
+  "ic_sentence": "Kawun {name_female, Jill} kwanan nan ya karɓi karnuka {num_ic, 127}."
+}

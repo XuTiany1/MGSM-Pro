@@ -1,0 +1,70 @@
+{
+  "original_question": "Andrew tirimupɔ yɛ sɛ obetu kwan afi New Jersey akɔ Rochester. ɛgye nnda nsia na obi de ɛhyɛn tu kwan, na ɛgye nnda nsia na obi kaa atu kwan afiri New Jersey akɔ Rochester. Sɛ ɔhyɛ nnda de kaa kɔɔ Rochester san firi Rochester ba a, nna ahe na ɔde bɛtu kwan?",
+  "original_answer": 9,
+  "question_template": "{name_male, Andrew} tirimupɔ yɛ sɛ obetu kwan afi {name_city_1, New Jersey} akɔ {name_city_2, Rochester}. ɛgye nnda {num_digit_1, 6} na obi de ɛhyɛn tu kwan, na ɛgye nnda {num_frac_1, half} na obi kaa atu kwan afiri {name_city_1, New Jersey} akɔ {name_city_2, Rochester}. Sɛ ɔhyɛ nnda de kaa kɔɔ {name_city_2, Rochester} san firi {name_city_2, Rochester} ba a, nna ahe na ɔde bɛtu kwan?",
+  "question_solution": "answer = num_digit_1 * (1 + f1)   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 + f1)",
+    "num_digit_1 > 0",
+    "0 < f1 < 1",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Andrew",
+    "name_city_1": "New Jersey",
+    "name_city_2": "Rochester"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      84,
+      99,
+      100,
+      85,
+      91,
+      104,
+      108,
+      121,
+      169,
+      98
+    ],
+    "num_frac_1": [
+      "ka baako",
+      "baako mu mmiɛnsa",
+      "faako mu nan",
+      "mmaenum abien",
+      "mpɛnason abiɛsa so ason",
+      "anum mu awɔtoɔ nwɔtwe",
+      "nanson kyɛ nkron",
+      "anan nsia mu nan",
+      "nwɔtwe-du-mienu mu nson",
+      "duɔbaako mu dunan nan"
+    ],
+    "answer": [
+      126,
+      132,
+      125,
+      119,
+      130,
+      169,
+      192,
+      165,
+      286,
+      175
+    ],
+    "num_ic": [
+      339,
+      749,
+      183,
+      758,
+      917,
+      665,
+      352,
+      447,
+      424,
+      666
+    ]
+  },
+  "ic_question_template": "{name_male, Andrew} wɔ fa huu kaa dedaw {num_ic, 373} wɔ ahuhurow bere a atwaam mu no. {name_male, Andrew} tirimupɔ yɛ sɛ obetu kwan afi {name_city_1, New Jersey} akɔ {name_city_2, Rochester}. ɛgye nnda {num_digit_1, 6} na obi de ɛhyɛn tu kwan, na ɛgye nnda {num_frac_1, half} na obi kaa atu kwan afiri {name_city_1, New Jersey} akɔ {name_city_2, Rochester}. Sɛ ɔhyɛ nnda de kaa kɔɔ {name_city_2, Rochester} san firi {name_city_2, Rochester} ba a, nna ahe na ɔde bɛtu kwan?",
+  "ic_sentence": "{name_male, Andrew} wɔ fa huu kaa dedaw {num_ic, 373} wɔ ahuhurow bere a atwaam mu no."
+}

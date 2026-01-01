@@ -1,0 +1,81 @@
+{
+  "original_question": "Lori pɛ sɛ ɔtɔ mpaboa a ne bo yɛ $320.00 ne abɔsoɔ a ɛne no hyia a ne bo yɛ $32.00. Ɔde bere tia na ɛyɛ adwuma no a otua $8.00 dɔnhwerewbiara. Nnɔnhwere dodoɔ ahe na ɛsɛ sɛ ɔyɛ adwuma ansa na watumi atɔ ade?",
+  "original_answer": 44,
+  "question_template": "{name_female, Lori} pɛ sɛ ɔtɔ mpaboa a ne bo yɛ ${num_digit_1, 320.00} ne abɔsoɔ a ɛne no hyia a ne bo yɛ ${num_digit_2, 32.00}. Ɔde bere tia na ɛyɛ adwuma no a otua ${num_digit_3, 8.00} dɔnhwerewbiara. Nnɔnhwere dodoɔ ahe na ɛsɛ sɛ ɔyɛ adwuma ansa na watumi atɔ ade?",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) / num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 + num_digit_2) / num_digit_3",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Lori"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      387.33,
+      1294.04,
+      459.72,
+      1003.26,
+      660.2,
+      1155.58,
+      1042.67,
+      433.86,
+      242.01,
+      1217.24
+    ],
+    "num_digit_2": [
+      401.88,
+      899.71,
+      490.03,
+      279.99,
+      565.05,
+      566.92,
+      675.61,
+      198.64,
+      115.49,
+      1461.76
+    ],
+    "num_digit_3": [
+      9.99,
+      18.75,
+      7.25,
+      7.25,
+      7.25,
+      16.25,
+      9.99,
+      13.75,
+      13.75,
+      14.25
+    ],
+    "answer": [
+      79,
+      117,
+      131,
+      177,
+      169,
+      106,
+      172,
+      46,
+      26,
+      188
+    ],
+    "num_ic": [
+      47,
+      981,
+      249,
+      103,
+      92,
+      846,
+      833,
+      355,
+      156,
+      1330
+    ]
+  },
+  "ic_question_template": "{name_female, Lori} pɛ sɛ ɔtɔ mpaboa a ne bo yɛ ${num_digit_1, 320.00} ne abɔsoɔ a ɛne no hyia a ne bo yɛ ${num_digit_2, 32.00}. Ɔde bere tia na ɛyɛ adwuma no a otua ${num_digit_3, 8.00} dɔnhwerewbiara. Nnɔnhwere dodoɔ ahe na ɛsɛ sɛ ɔyɛ adwuma ansa na watumi atɔ ade? {name_female, Lori} wɔfa huu sini ho krataa a ɛyɛ dedaw {num_ic, 47} wɔ n'abansoro dan atifi.",
+  "ic_sentence": "{name_female, Lori} wɔfa huu sini ho krataa a ɛyɛ dedaw {num_ic, 47} wɔ n'abansoro dan atifi."
+}

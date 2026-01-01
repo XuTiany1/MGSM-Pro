@@ -1,0 +1,80 @@
+{
+  "original_question": "Katy po kọfí pẹ̀lú ṣúgà ṣíbí ìmu tíì ati omi ní ìdá 7:13. Tó bá lo àpapọ̀ ṣúgà ṣíbí ìmu tíì 120 àti ife omi, ṣe ìṣirò iye ṣúgà tó kún ṣíbí ìmu tíì tó kún tí ó lò.",
+  "original_answer": 42,
+  "question_template": "{name_female, Katy} po kọfí pẹ̀lú ṣúgà ṣíbí ìmu tíì ati omi ní ìdá {num_digit_1, 7}:{num_digit_2, 13}. Tó bá lo àpapọ̀ ṣúgà ṣíbí ìmu tíì {num_digit_3, 120} àti ife omi, ṣe ìṣirò iye ṣúgà tó kún ṣíbí ìmu tíì tó kún tí ó lò.",
+  "question_solution": "answer = num_digit_3 * num_digit_1 / (num_digit_1 + num_digit_2)",
+  "conditions": [
+    "int(answer) == num_digit_3 * num_digit_1 / (num_digit_1 + num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_3 % (num_digit_1 + num_digit_2) == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Katy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      17,
+      20,
+      26,
+      28,
+      31,
+      33,
+      22,
+      24,
+      29,
+      30
+    ],
+    "num_digit_2": [
+      19,
+      13,
+      14,
+      9,
+      12,
+      17,
+      16,
+      15,
+      11,
+      25
+    ],
+    "num_digit_3": [
+      360,
+      495,
+      560,
+      518,
+      860,
+      1100,
+      684,
+      507,
+      720,
+      990
+    ],
+    "answer": [
+      170,
+      300,
+      364,
+      392,
+      620,
+      726,
+      396,
+      312,
+      522,
+      540
+    ],
+    "num_ic": [
+      52,
+      36,
+      24,
+      126,
+      111,
+      182,
+      97,
+      50,
+      66,
+      88
+    ]
+  },
+  "ic_question_template": "Arákùnrin {name_female, Katy} máa ń mu ife kọfi {num_ic, 47} ní gbogbo oṣù. {name_female, Katy} po kọfí pẹ̀lú ṣúgà ṣíbí ìmu tíì ati omi ní ìdá {num_digit_1, 7}:{num_digit_2, 13}. Tó bá lo àpapọ̀ ṣúgà ṣíbí ìmu tíì {num_digit_3, 120} àti ife omi, ṣe ìṣirò iye ṣúgà tó kún ṣíbí ìmu tíì tó kún tí ó lò.",
+  "ic_sentence": "Arákùnrin {name_female, Katy} máa ń mu ife kọfi {num_ic, 47} ní gbogbo oṣù."
+}

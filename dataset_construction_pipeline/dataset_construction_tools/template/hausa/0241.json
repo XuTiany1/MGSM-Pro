@@ -1,0 +1,69 @@
+{
+  "original_question": "Dolly yana da littattafai guda biyu. Pandora yana da daya. Idan Dolly da Pandora sun karanta littattafan juna da kuma nasu, littattafai nawa za su karanta gaba daya a ƙarshe?",
+  "original_answer": 6,
+  "question_template": "{name_female_1, Dolly} yana da littattafai guda {num_text_1, biyu}. {name_female_2, Pandora} tana da {num_text_2, ɗaya}. Idan {name_female_1, Dolly} da {name_female_2, Pandora} sun karanta littattafan juna da kuma nasu, littattafai nawa za su karanta gaba daya a ƙarshe?",
+  "question_solution": "answer = 2 * (f1 + f2)   # f1 and f2 are the numeric values of num_text_1 and num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == 2 * (f1 + f2)",
+    "f1 > 0",
+    "f2 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Dolly",
+    "name_female_2": "Pandora"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "sha biyu",
+      "sha shida da daya",
+      "ashirin da uku",
+      "ashirin da tara",
+      "talatin da shida",
+      "arba’in da hudu",
+      "hamsin da ɗaya",
+      "Shekara sittin da takwas",
+      "sab’in da biyar",
+      "Tamanin da biyu"
+    ],
+    "num_text_2": [
+      "uku",
+      "biyar",
+      "goma sha ɗaya",
+      "sha tara",
+      "ashirin da bakwai",
+      "talatin da uku",
+      "arba’in",
+      "Hamsin da tara",
+      "hamsin da biyar",
+      "sabain da biyu"
+    ],
+    "answer": [
+      30,
+      44,
+      68,
+      96,
+      126,
+      154,
+      182,
+      254,
+      280,
+      308
+    ],
+    "num_ic": [
+      44,
+      90,
+      154,
+      189,
+      182,
+      390,
+      113,
+      666,
+      725,
+      674
+    ]
+  },
+  "ic_question_template": "Kawun {name_female_2, Pandora} yana da mujallu {num_ic, 674}. {name_female_1, Dolly} yana da littattafai guda {num_text_1, biyu}. {name_female_2, Pandora} tana da {num_text_2, ɗaya}. Idan {name_female_1, Dolly} da {name_female_2, Pandora} sun karanta littattafan juna da kuma nasu, littattafai nawa za su karanta gaba daya a ƙarshe?",
+  "ic_sentence": "Kawun {name_female_2, Pandora} yana da mujallu {num_ic, 674}."
+}

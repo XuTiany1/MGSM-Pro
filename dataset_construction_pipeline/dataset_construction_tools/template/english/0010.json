@@ -1,0 +1,89 @@
+{
+  "original_question": "A new program had 60 downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the program have total over the three months?",
+  "original_answer": 366,
+  "question_template": "A new program had {num_digit_1, 60} downloads in the first month. The number of downloads in the second month was {num_text_1, three times} as many as the downloads in the first month, but then reduced by {num_digit_2, 30}% in the third month. How many downloads did the program have total over the {num_text_2, three} months?",
+  "question_solution": "answer = num_digit_1 + NUM(num_text_1) * num_digit_1 + NUM(num_text_1) * num_digit_1 * (1 - num_digit_2/100)",
+  "conditions": [
+    "int(answer) == num_digit_1 + NUM(num_text_1) * num_digit_1 + NUM(num_text_1) * num_digit_1 * (1 - num_digit_2/100)",
+    "num_digit_1 > 0",
+    "NUM(num_text_1) > 0",
+    "0 <= num_digit_2 < 100"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      47,
+      53,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97
+    ],
+    "num_text_1": [
+      "four times",
+      "five times",
+      "six times",
+      "eight times",
+      "ten times",
+      "twelve times",
+      "sixteen times",
+      "twenty times",
+      "twenty-four times",
+      "twenty-eight times"
+    ],
+    "num_digit_2": [
+      25,
+      20,
+      50,
+      25,
+      10,
+      25,
+      25,
+      10,
+      25,
+      25
+    ],
+    "num_text_2": [
+      "three",
+      "three",
+      "three",
+      "three",
+      "three",
+      "three",
+      "three",
+      "three",
+      "three",
+      "three"
+    ],
+    "answer": [
+      376,
+      530,
+      610,
+      1005,
+      1420,
+      1606,
+      2291,
+      3237,
+      3827,
+      4850
+    ],
+    "num_ic": [
+      336,
+      208,
+      496,
+      603,
+      560,
+      413,
+      387,
+      942,
+      715,
+      970
+    ]
+  },
+  "ic_question_template": "A new program had {num_digit_1, 60} downloads in the first month. The number of downloads in the second month was {num_text_1, three times} as many as the downloads in the first month, but then reduced by {num_digit_2, 30}% in the third month. The developer's uncle built {num_ic, 413} computer desks for the company. How many downloads did the program have total over the {num_text_2, three} months?",
+  "ic_sentence": "The developer's uncle built {num_ic, 413} computer desks for the company."
+}

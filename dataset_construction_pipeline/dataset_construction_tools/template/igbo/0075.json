@@ -1,0 +1,80 @@
+{
+  "original_question": "Luke na-etinye oge n'akụkụ osimiri na-ewu ụlọ ájá. Ọ mechara chọpụta na ụlọ ájá ọ bụla ga-enwe ọkwa nke ọkara akụkụ anọ ha nhata ụkwụ ya dịka nke di n'okpuru ya. Ọ bụrụ na ọ ruọ ụlọ ájá ọkwa anọ ebe ọkwa nke dị n'elu nwere akụkụ anọ nhata iri na isii, gịnị bụ nkezi akụkụ anọ nhata nke otu ọkwa ya?",
+  "original_answer": 60,
+  "question_template": "{name_male, Luke} na-etinye oge n'akụkụ osimiri na-ewu ụlọ ájá. Ọ mechara chọpụta na ụlọ ájá ọ bụla ga-enwe ọkwa nke {num_frac, ọkara} akụkụ anọ ha nhata ụkwụ ya dịka nke di n'okpuru ya. Ọ bụrụ na ọ ruọ ụlọ ájá ọkwa {num_digit_1, 4} ebe ọkwa nke dị n'elu nwere akụkụ anọ nhata {num_digit_2, 16}, gịnị bụ nkezi akụkụ anọ nhata nke otu ọkwa ya?",
+  "question_solution": "answer = num_digit_2 * (((1/NUM(num_frac))**num_digit_1 - 1) / ((1/NUM(num_frac)) - 1)) / num_digit_1",
+  "conditions": [
+    "int(answer) == num_digit_2 * (((1/NUM(num_frac))**num_digit_1 - 1) / ((1/NUM(num_frac)) - 1)) / num_digit_1",
+    "NUM(num_frac) > 0",
+    "NUM(num_frac) < 1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Luke"
+  },
+  "variable_number_dictionary": {
+    "num_frac": [
+      "1/3",
+      "1/3",
+      "1/4",
+      "2/3",
+      "2/5",
+      "1/5",
+      "1/2",
+      "1/2",
+      "1/3",
+      "1/4"
+    ],
+    "num_digit_1": [
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      5,
+      3,
+      4,
+      3
+    ],
+    "num_digit_2": [
+      12,
+      7,
+      7,
+      12,
+      12,
+      12,
+      5,
+      15,
+      10,
+      10
+    ],
+    "answer": [
+      52,
+      70,
+      49,
+      19,
+      39,
+      124,
+      31,
+      35,
+      100,
+      70
+    ],
+    "num_ic": [
+      18,
+      23,
+      15,
+      25,
+      21,
+      20,
+      11,
+      27,
+      24,
+      19
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_male, Luke} bịara na {num_ic, 26} oche osimiri maka onye ọ bụla. {name_male, Luke} na-etinye oge n'akụkụ osimiri na-ewu ụlọ ájá. Ọ mechara chọpụta na ụlọ ájá ọ bụla ga-enwe ọkwa nke {num_frac, ọkara} akụkụ anọ ha nhata ụkwụ ya dịka nke di n'okpuru ya. Ọ bụrụ na ọ ruọ ụlọ ájá ọkwa {num_digit_1, 4} ebe ọkwa nke dị n'elu nwere akụkụ anọ nhata {num_digit_2, 16}, gịnị bụ nkezi akụkụ anọ nhata nke otu ọkwa ya?",
+  "ic_sentence": "Nwanne nna {name_male, Luke} bịara na {num_ic, 26} oche osimiri maka onye ọ bụla."
+}

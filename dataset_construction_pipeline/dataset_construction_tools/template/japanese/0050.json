@@ -1,0 +1,55 @@
+{
+  "original_question": "ロイドは卵牧場を持っている。彼の鶏は1日に252個の卵を作り、1ダース$2で売る。ロイドは卵で、週にいくら生み出すことができるか？",
+  "original_answer": 294,
+  "question_template": "{name_male, Lloyd}は卵牧場を持っている。彼の鶏は1日に{num_digit_1, 252}個の卵を作り、1ダース{num_digit_2, 2}ドルで売る。{name_male, Lloyd}は卵で、週にいくら生み出すことができるか？",
+  "question_solution": "answer = (num_digit_1 * 7 * num_digit_2) / 12",
+  "conditions": [
+    "int(answer) == (num_digit_1 * 7 * num_digit_2) / 12",
+    "((num_digit_1 * 7 * num_digit_2) / 12).is_integer()",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Lloyd"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      252,
+      180,
+      216,
+      240,
+      288,
+      312,
+      348,
+      384,
+      420,
+      456
+    ],
+    "num_digit_2": [
+      2,
+      2,
+      1.5,
+      3.5,
+      1.75,
+      3.5,
+      3,
+      3.25,
+      4,
+      2.5
+    ],
+    "answer": [
+      294,
+      210,
+      189,
+      490,
+      294,
+      637,
+      609,
+      728,
+      980,
+      665
+    ]
+  },
+  "ic_question_template": "{name_male, ロイド}のおじさんはちょうど{num_ic, 105}羽のガチョウを買いました。{name_male, Lloyd}は卵牧場を持っている。彼の鶏は1日に{num_digit_1, 252}個の卵を作り、1ダース{num_digit_2, 2}ドルで売る。{name_male, Lloyd}は卵で、週にいくら生み出すことができるか？",
+  "ic_sentence": "{name_male, ロイド}のおじさんはちょうど{num_ic, 105}羽のガチョウを買いました。"
+}

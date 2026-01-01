@@ -1,0 +1,81 @@
+{
+  "original_question": "フリーダがトマトの缶詰でソースを作ると、そのボリュームが半分減る。彼女が使うそれぞれ16オンスのトマト缶には3つのトマトが入っている。トマトソースの最後のバッチには32オンス入っていた。フリーダはトマトをいくつ使った？",
+  "original_answer": 12,
+  "question_template": "{name_female, フリーダ} がトマトの缶詰でソースを作ると、そのボリュームが{num_frac_1, 半分}減る。彼女が使うそれぞれ{num_digit_1, 16}オンスのトマト缶には{num_text_1, 三}つのトマトが入っている。トマトソースの最後の {name_female, フリーダ} バッチには{num_digit_2, 32}オンス入っていた。{name_female, フリーダ} はトマトをいくつ使った？",
+  "question_solution": "answer = num_digit_2 / (1 - NUM(num_frac_1)) / num_digit_1 * NUM(num_text_1)",
+  "conditions": [
+    "int(answer) == num_digit_2 / (1 - NUM(num_frac_1)) / num_digit_1 * NUM(num_text_1)",
+    "(num_digit_2 / (1 - NUM(num_frac_1))) % num_digit_1 == 0",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Freda"
+  },
+  "variable_number_dictionary": {
+    "num_frac_1": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "2/5",
+      "1/5",
+      "3/4",
+      "3/5",
+      "2/3",
+      "1/6",
+      "3/8"
+    ],
+    "num_digit_1": [
+      16,
+      9,
+      8,
+      10,
+      5,
+      20,
+      25,
+      11,
+      12,
+      16
+    ],
+    "num_text_1": [
+      "さん",
+      "四 (よん / yon)",
+      "ご",
+      "ろく",
+      "に (ni)",
+      "七 (しち / なな)",
+      "四 (よん / yon)",
+      "さん",
+      "八",
+      "じゅう"
+    ],
+    "num_digit_2": [
+      32,
+      36,
+      48,
+      30,
+      40,
+      25,
+      50,
+      33,
+      60,
+      40
+    ],
+    "answer": [
+      12,
+      24,
+      40,
+      30,
+      20,
+      35,
+      20,
+      27,
+      48,
+      40
+    ]
+  },
+  "ic_question_template": "{name_female, フリーダ}のおばは裏庭に{num_ic, 57}本のトマトの苗を持っています。{name_female, フリーダ} がトマトの缶詰でソースを作ると、そのボリュームが{num_frac_1, 半分}減る。彼女が使うそれぞれ{num_digit_1, 16}オンスのトマト缶には{num_text_1, 三}つのトマトが入っている。トマトソースの最後の {name_female, フリーダ} バッチには{num_digit_2, 32}オンス入っていた。{name_female, フリーダ} はトマトをいくつ使った？",
+  "ic_sentence": "{name_female, フリーダ}のおばは裏庭に{num_ic, 57}本のトマトの苗を持っています。"
+}

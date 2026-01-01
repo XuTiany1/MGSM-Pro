@@ -1,0 +1,105 @@
+{
+  "original_question": "Ní ọjọ́ Ajé, Sue jẹ ìlọ́po merin iye cookies tí ẹ̀gbọ́n rẹ̀ obìnrin jẹ. Ní ọjọ́ Ìṣẹ́gun, ó jẹ ìlọ́po méjì iye cookies tí ẹ̀gbọ́n rẹ̀ obìnrin jẹ. Arábìnrin rẹ̀ jẹ cookies márùn-ún ní ọjọ́ Ajé àti 13 ní ọjọ́ kejì. Tí cookies kan bá ní kálọ́rì 200, kálọ́rì mélòó ni Sue jẹ ju ẹ̀gbọ́n rẹ̀ lọ?",
+  "original_answer": 5600,
+  "question_template": "Ní ọjọ́ Ajé, {name_female, Sue} jẹ ìlọ́po {num_digit_1, merin} iye cookies tí ẹ̀gbọ́n rẹ̀ obìnrin jẹ. Ní ọjọ́ Ìṣẹ́gun, ó jẹ ìlọ́po {num_text_1, méjì} iye cookies tí ẹ̀gbọ́n rẹ̀ obìnrin jẹ. Arábìnrin rẹ̀ jẹ cookies {num_digit_2, márùn-ún} ní ọjọ́ Ajé àti {num_digit_3, 13} ní ọjọ́ kejì. Tí cookies {num_digit_4, 1} bá ní kálọ́rì {num_digit_5, 200}, kálọ́rì mélòó ni {name_female, Sue} jẹ ju ẹ̀gbọ́n rẹ̀ lọ?",
+  "question_solution": "answer = ((num_digit_1 * num_digit_2 + 2 * num_digit_3) - (num_digit_2 + num_digit_3)) * num_digit_5",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == ((num_digit_1 * num_digit_2 + 2 * num_digit_3) - (num_digit_2 + num_digit_3)) * num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      15
+    ],
+    "num_digit_2": [
+      3,
+      5,
+      8,
+      12,
+      15,
+      16,
+      18,
+      20,
+      22,
+      25
+    ],
+    "num_digit_3": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_4": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "num_digit_5": [
+      180,
+      190,
+      205,
+      210,
+      235,
+      250,
+      265,
+      275,
+      300,
+      325
+    ],
+    "answer": [
+      2340,
+      4940,
+      9225,
+      16170,
+      25615,
+      33750,
+      45845,
+      58025,
+      83700,
+      127075
+    ],
+    "num_ic": [
+      10,
+      53,
+      13,
+      81,
+      25,
+      143,
+      121,
+      77,
+      111,
+      246
+    ]
+  },
+  "ic_question_template": "Ẹ̀gbọ́n bàbá {name_female, Sue} mú àwọn pai {num_ic, 15} wá sí ilé wọn. Ní ọjọ́ Ajé, {name_female, Sue} jẹ ìlọ́po {num_digit_1, merin} iye cookies tí ẹ̀gbọ́n rẹ̀ obìnrin jẹ. Ní ọjọ́ Ìṣẹ́gun, ó jẹ ìlọ́po {num_text_1, méjì} iye cookies tí ẹ̀gbọ́n rẹ̀ obìnrin jẹ. Arábìnrin rẹ̀ jẹ cookies {num_digit_2, márùn-ún} ní ọjọ́ Ajé àti {num_digit_3, 13} ní ọjọ́ kejì. Tí cookies {num_digit_4, 1} bá ní kálọ́rì {num_digit_5, 200}, kálọ́rì mélòó ni {name_female, Sue} jẹ ju ẹ̀gbọ́n rẹ̀ lọ?",
+  "ic_sentence": "Ẹ̀gbọ́n bàbá {name_female, Sue} mú àwọn pai {num_ic, 15} wá sí ilé wọn."
+}

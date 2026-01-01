@@ -1,0 +1,83 @@
+{
+  "original_question": "Au départ, Elaine avait 20 cartes Pokemon. Elle en a collecté trois fois plus au bout d'un mois. Au cours du deuxième mois, elle a collecté 20 cartes de moins que celles collectées le premier mois. Enfin, au cours du troisième mois, elle a collecté deux fois le nombre total de cartes collecté les deux premiers mois. Combien de cartes Pokemon possède-t-elle maintenant ?",
+  "original_answer": 320,
+  "question_template": "Au départ, {name_female, Elaine} avait {num_digit_1, 20} cartes Pokemon. Elle en a collecté {num_text_1, trois} fois plus au bout d'un mois. Au cours du deuxième mois, elle a collecté {num_digit_2, 20} cartes de moins que celles collectées le premier mois. Enfin, au cours du troisième mois, elle a collecté {num_text_2, deux fois} le nombre total de cartes collecté les deux premiers mois. Combien de cartes Pokemon possède-t-elle maintenant ?",
+  "question_solution": "answer = num_digit_1 + f1*num_digit_1 + (f1*num_digit_1 - num_digit_2) + t2*(f1*num_digit_1 + (f1*num_digit_1 - num_digit_2))  # f1 is the numeric value of num_text_1; t2 of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + f1*num_digit_1 + (f1*num_digit_1 - num_digit_2) + t2*(f1*num_digit_1 + (f1*num_digit_1 - num_digit_2))",
+    "f1 > 0",
+    "t2 > 0",
+    "f1*num_digit_1 - num_digit_2 >= 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Elaine"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      12345,
+      9876,
+      7777,
+      5555,
+      6666
+    ],
+    "num_text_1": [
+      "sept",
+      "onze",
+      "treize",
+      "dix-sept",
+      "dix-neuf",
+      "vingt-trois",
+      "vingt-neuf",
+      "trente et un",
+      "trente-sept",
+      "quarante et un"
+    ],
+    "num_digit_2": [
+      1023,
+      2047,
+      4095,
+      8191,
+      16383,
+      12344,
+      9875,
+      7776,
+      5554,
+      6665
+    ],
+    "num_text_2": [
+      "quarante-trois",
+      "quarante-sept",
+      "cinquante-trois",
+      "cinquante-neuf",
+      "soixante-et-un",
+      "soixante-sept",
+      "soixante et onze",
+      "soixante-treize",
+      "soixante-dix-neuf",
+      "quatre-vingt-trois"
+    ],
+    "answer": [
+      586796,
+      2066480,
+      5533750,
+      16228412,
+      37601342,
+      37788113,
+      40541052,
+      35113229,
+      32446835,
+      45362214
+    ]
+  },
+  "ic_question_template": "{name_female, Elaine} a un oncle qui possède {num_ic, 62984} cartes de baseball. Au départ, {name_female, Elaine} avait {num_digit_1, 20} cartes Pokemon. Elle en a collecté {num_text_1, trois} fois plus au bout d'un mois. Au cours du deuxième mois, elle a collecté {num_digit_2, 20} cartes de moins que celles collectées le premier mois. Enfin, au cours du troisième mois, elle a collecté {num_text_2, deux fois} le nombre total de cartes collecté les deux premiers mois. Combien de cartes Pokemon possède-t-elle maintenant ?",
+  "ic_sentence": "{name_female, Elaine} a un oncle qui possède {num_ic, 62984} cartes de baseball."
+}

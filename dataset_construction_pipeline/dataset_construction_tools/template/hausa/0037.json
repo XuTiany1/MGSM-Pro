@@ -1,0 +1,106 @@
+{
+  "original_question": "John yana shirin sayar da dukan kayan wasansa kuma ya yi amfani da kuɗin don siyan bidiyo gem. Yana da lego guda 13 kuma ya  sayar da su akan $15 kowanne. Akarshe ya siyi bidiyo gem 8 akan $20 kowanne kuma $5 ta yi saura. Saitin lego nawa yake dasu ahalin yanzu?",
+  "original_answer": 2,
+  "question_template": "{name_male, John} yana shirin sayar da dukan kayan wasansa kuma ya yi amfani da kuɗin don siyan bidiyo gem. Yana da lego guda {num_digit_1, 13} kuma ya sayar da su akan ${num_digit_2, 15} kowanne. Akarshe ya siyi bidiyo gem {num_digit_3, 8} akan ${num_digit_4, 20} kowanne kuma ${num_digit_5, 5} ta yi saura. Saitin lego nawa yake dasu ahalin yanzu?",
+  "question_solution": "answer = num_digit_1 - ((num_digit_3 * num_digit_4 + num_digit_5) / num_digit_2)",
+  "conditions": [
+    "int(answer) == num_digit_1 - ((num_digit_3 * num_digit_4 + num_digit_5) / num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 > 0",
+    "num_digit_5 >= 0",
+    "(num_digit_3 * num_digit_4 + num_digit_5) % num_digit_2 == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      20,
+      17,
+      12,
+      18,
+      15,
+      30,
+      19,
+      25,
+      27,
+      24
+    ],
+    "num_digit_2": [
+      19,
+      22,
+      9,
+      17,
+      23,
+      23,
+      29,
+      27,
+      19,
+      17
+    ],
+    "num_digit_3": [
+      14,
+      11,
+      5,
+      11,
+      6,
+      13,
+      5,
+      11,
+      13,
+      9
+    ],
+    "num_digit_4": [
+      20,
+      27,
+      13,
+      18,
+      21,
+      11,
+      17,
+      31,
+      27,
+      18
+    ],
+    "num_digit_5": [
+      5,
+      11,
+      7,
+      6,
+      12,
+      18,
+      2,
+      10,
+      10,
+      8
+    ],
+    "answer": [
+      5,
+      3,
+      4,
+      6,
+      9,
+      23,
+      16,
+      12,
+      8,
+      14
+    ],
+    "num_ic": [
+      32,
+      38,
+      13,
+      52,
+      67,
+      41,
+      86,
+      22,
+      49,
+      59
+    ]
+  },
+  "ic_question_template": "Kwanan nan kawun {name_male, John} ya sayi mutummutumin jaruman fim guda {num_ic, 38}. {name_male, John} yana shirin sayar da dukan kayan wasansa kuma ya yi amfani da kuɗin don siyan bidiyo gem. Yana da lego guda {num_digit_1, 13} kuma ya sayar da su akan ${num_digit_2, 15} kowanne. Akarshe ya siyi bidiyo gem {num_digit_3, 8} akan ${num_digit_4, 20} kowanne kuma ${num_digit_5, 5} ta yi saura. Saitin lego nawa yake dasu ahalin yanzu?",
+  "ic_sentence": "Kwanan nan kawun {name_male, John} ya sayi mutummutumin jaruman fim guda {num_ic, 38}."
+}

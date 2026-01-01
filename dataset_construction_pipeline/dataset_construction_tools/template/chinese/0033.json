@@ -1,0 +1,55 @@
+{
+  "original_question": "格雷琴有 110 个硬币。金币比银币多 30 个。格雷琴有多少个金币？",
+  "original_answer": 70,
+  "question_template": "{name_female, 格雷琴} 有 {num_digit_1, 110} 个硬币。金币比银币多 {num_digit_2, 30} 个。{name_female, 格雷琴} 有多少个金币？",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) / 2",
+  "conditions": [
+    "int(answer) == (num_digit_1 + num_digit_2) / 2",
+    "(num_digit_1 + num_digit_2) % 2 == 0",
+    "num_digit_1 > num_digit_2",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Gretchen"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      235,
+      418,
+      301,
+      560,
+      789,
+      1000,
+      873,
+      945,
+      512,
+      389
+    ],
+    "num_digit_2": [
+      57,
+      122,
+      101,
+      48,
+      201,
+      200,
+      77,
+      189,
+      128,
+      63
+    ],
+    "answer": [
+      146,
+      270,
+      201,
+      304,
+      495,
+      600,
+      475,
+      567,
+      320,
+      226
+    ]
+  },
+  "ic_question_template": "{name_female, 格蕾琴} 的叔叔收藏了 {num_ic, 970} 枚稀有邮票。{name_female, 格雷琴} 有 {num_digit_1, 110} 个硬币。金币比银币多 {num_digit_2, 30} 个。{name_female, 格雷琴} 有多少个金币？",
+  "ic_sentence": "{name_female, 格蕾琴} 的叔叔收藏了 {num_ic, 970} 枚稀有邮票。"
+}

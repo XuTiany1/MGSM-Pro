@@ -1,0 +1,70 @@
+{
+  "original_question": "Jerry lance un dé à six faces. Quelle est la probabilité (en pourcentage) qu'il obtienne un nombre supérieur à 3 plutôt qu'un nombre pair deux fois de suite ?",
+  "original_answer": 25,
+  "question_template": "{name_male, Jerry} lance un dé à {num_text_1, six} faces. Quelle est la probabilité (en pourcentage) qu'il obtienne un nombre supérieur à {num_digit_1, 3} plutôt qu'un nombre pair {num_text_2, deux} fois de suite ?",
+  "question_solution": "even_count = num_text_1 / 2  # number of even faces\nanswer = ((num_text_1 - num_digit_1) / num_text_1 - (even_count / num_text_1) ** num_text_2) * 100",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == ((num_text_1 - num_digit_1) / num_text_1 - ((num_text_1/2) / num_text_1) ** num_text_2) * 100",
+    "num_text_1 % 2 == 0",
+    "num_digit_1 < num_text_1",
+    "num_text_2 == 2",
+    "num_text_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jerry"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "vingt-quatre",
+      "quarante",
+      "cinquante",
+      "vingt",
+      "dix-huit",
+      "cent vingt-cinq",
+      "vingt-cinq",
+      "dix",
+      "cinquante",
+      "trente"
+    ],
+    "num_text_2": [
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux"
+    ],
+    "num_digit_1": [
+      7,
+      8,
+      15,
+      3,
+      9,
+      5,
+      3,
+      1,
+      7,
+      12
+    ],
+    "answer": [
+      50,
+      55,
+      45,
+      60,
+      25,
+      71,
+      63,
+      65,
+      61,
+      35
+    ]
+  },
+  "ic_question_template": "{name_male, Jerry} a un oncle qui a déjà collectionné {num_ic, 73} billes. {name_male, Jerry} lance un dé à {num_text_1, six} faces. Quelle est la probabilité (en pourcentage) qu'il obtienne un nombre supérieur à {num_digit_1, 3} plutôt qu'un nombre pair {num_text_2, deux} fois de suite ?",
+  "ic_sentence": "{name_male, Jerry} a un oncle qui a déjà collectionné {num_ic, 73} billes."
+}

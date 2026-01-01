@@ -1,0 +1,67 @@
+{
+  "original_question": "Kyle ra ìwé tó tà jù ní ọdún tó kọjá ní $19.50. Èyí jẹ́ pẹ̀lú ẹ̀dínwó 25% yàtọ̀ sí iye rẹ̀ gangan. Èló ni iye owó ìwé náà tẹ́lẹ̀?",
+  "original_answer": 26,
+  "question_template": "{name_male, Kyle} ra ìwé tó tà jù ní ọdún tó kọjá ní ${num_digit_1, 19.50}. Èyí jẹ́ pẹ̀lú ẹ̀dínwó {num_digit_2, 25}% yàtọ̀ sí iye rẹ̀ gangan. Èló ni iye owó ìwé náà tẹ́lẹ̀?",
+  "question_solution": "answer = num_digit_1 / (1 - num_digit_2/100)",
+  "conditions": [
+    "abs(answer - num_digit_1 / (1 - num_digit_2/100)) < 1e-6",
+    "num_digit_1 > 0",
+    "0 < num_digit_2 < 100",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Kyle"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      10864150,
+      7100000001,
+      740740740,
+      77773500,
+      112505700,
+      222222220,
+      49382714,
+      2104867042,
+      679570450,
+      11416783665
+    ],
+    "num_digit_2": [
+      12,
+      19,
+      25,
+      37,
+      20,
+      45,
+      60,
+      33,
+      75,
+      58
+    ],
+    "answer": [
+      12345625,
+      8765432100,
+      987654320,
+      123450000,
+      140632125,
+      404040400,
+      123456785,
+      3141592600,
+      2718281800,
+      27182818250
+    ],
+    "num_ic": [
+      76890775,
+      790011192,
+      661247968,
+      609455173,
+      1294089409,
+      319297164,
+      141089698,
+      2250343385,
+      801324763,
+      1130534039
+    ]
+  },
+  "ic_question_template": "Ìyá àgbà {name_male, Kyle} máa ń kàwé ìwé ìròyìn {num_ic, 326332763} lówurọ̀ọdún. {name_male, Kyle} ra ìwé tó tà jù ní ọdún tó kọjá ní ${num_digit_1, 19.50}. Èyí jẹ́ pẹ̀lú ẹ̀dínwó {num_digit_2, 25}% yàtọ̀ sí iye rẹ̀ gangan. Èló ni iye owó ìwé náà tẹ́lẹ̀?",
+  "ic_sentence": "Ìyá àgbà {name_male, Kyle} máa ń kàwé ìwé ìròyìn {num_ic, 326332763} lówurọ̀ọdún."
+}

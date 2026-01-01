@@ -1,0 +1,94 @@
+{
+  "original_question": "Mike a été le correspondant de 5 personnes et a ensuite cessé de correspondre avec 2 d'entre elles. Les autres envoient chacune 2 lettres de 5 pages toutes les semaines. Il leur répond de la même façon. S'il peut écrire une page toutes les 6 minutes, combien d'heures passe-t-il à écrire par semaine ?",
+  "original_answer": 3,
+  "question_template": "{name_male, Mike} a été le correspondant de {num_digit_1, 5} personnes et a ensuite cessé de correspondre avec {num_digit_2, 2} d'entre elles. Les autres envoient chacune {num_digit_3, 2} lettres de {num_digit_4, 5} pages toutes les semaines. Il leur répond de la même façon. S'il peut écrire une page toutes les {num_digit_6, 6} minutes, combien d'heures passe-t-il à écrire par semaine ?",
+  "question_solution": "answer = (num_digit_1 - num_digit_2) * num_digit_3 * num_digit_4 * num_digit_6 / 60",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 - num_digit_2) * num_digit_3 * num_digit_4 * num_digit_6 / 60",
+    "num_digit_1 > num_digit_2",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_6 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Mike"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      12345,
+      9876,
+      7777,
+      5555,
+      6666
+    ],
+    "num_digit_2": [
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      6172,
+      4938,
+      3888,
+      2777,
+      3333
+    ],
+    "num_digit_3": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "num_digit_4": [
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "num_digit_6": [
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60
+    ],
+    "answer": [
+      246272,
+      713728,
+      1673216,
+      4427776,
+      12591104,
+      11290417,
+      11145066,
+      10683083,
+      8481234,
+      11435523
+    ]
+  },
+  "ic_question_template": "{name_male, Mike} a une tante qui lit {num_ic, 91741} livres chaque année. {name_male, Mike} a été le correspondant de {num_digit_1, 5} personnes et a ensuite cessé de correspondre avec {num_digit_2, 2} d'entre elles. Les autres envoient chacune {num_digit_3, 2} lettres de {num_digit_4, 5} pages toutes les semaines. Il leur répond de la même façon. S'il peut écrire une page toutes les {num_digit_6, 6} minutes, combien d'heures passe-t-il à écrire par semaine ?",
+  "ic_sentence": "{name_male, Mike} a une tante qui lit {num_ic, 91741} livres chaque année."
+}

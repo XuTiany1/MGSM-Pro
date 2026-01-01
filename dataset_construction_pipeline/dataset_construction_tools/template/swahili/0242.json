@@ -1,0 +1,106 @@
+{
+  "original_question": "Mike alikuwa rafiki ya watu 5. Aliacha kuwa rafiki ya 2 kati yao. Huwa wanatumiana barua 2 kila wiki na barua hizo zina urefu wa kurasa 5. Huwa anajibu kwa ukarimu. Anaweza kuandika ukurasa kwa dakika 6. Huwa anatumia saa ngapi kuandika barua kwa wiki?",
+  "original_answer": 3,
+  "question_template": "{name_male, Mike} alikuwa rafiki wa barua na watu {num_digit_1, 5}. Aliacha kuwa rafiki wa barua na {num_digit_2, 2} kati yao. Kila mmoja hutuma barua {num_digit_3, 2} kwa wiki ambazo zina kurasa {num_digit_4, 5}. Yeye hujibu vivyo hivyo. Anaweza kuandika ukurasa mmoja kila dakika {num_digit_6, 6}. Anatumia saa ngapi kuandika kwa wiki?",
+  "question_solution": "answer = (num_digit_1 - num_digit_2) * num_digit_3 * num_digit_4 * num_digit_6 / 60",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 - num_digit_2) * num_digit_3 * num_digit_4 * num_digit_6 / 60",
+    "num_digit_1 > num_digit_2",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_6 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Mike"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      12345,
+      9876,
+      7777,
+      5555,
+      6666
+    ],
+    "num_digit_2": [
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      6172,
+      4938,
+      3888,
+      2777,
+      3333
+    ],
+    "num_digit_3": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "num_digit_4": [
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "num_digit_6": [
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60
+    ],
+    "answer": [
+      246272,
+      713728,
+      1673216,
+      4427776,
+      12591104,
+      11290417,
+      11145066,
+      10683083,
+      8481234,
+      11435523
+    ],
+    "num_ic": [
+      8927,
+      10678,
+      35054,
+      20138,
+      51664,
+      79585,
+      2319,
+      6256,
+      29663,
+      91741
+    ]
+  },
+  "ic_question_template": "Shangazi wa {name_male, Mike} husoma vitabu {num_ic, 91741} kila mwaka. {name_male, Mike} alikuwa rafiki wa barua na watu {num_digit_1, 5}. Aliacha kuwa rafiki wa barua na {num_digit_2, 2} kati yao. Kila mmoja hutuma barua {num_digit_3, 2} kwa wiki ambazo zina kurasa {num_digit_4, 5}. Yeye hujibu vivyo hivyo. Anaweza kuandika ukurasa mmoja kila dakika {num_digit_6, 6}. Anatumia saa ngapi kuandika kwa wiki?",
+  "ic_sentence": "Shangazi wa {name_male, Mike} husoma vitabu {num_ic, 91741} kila mwaka."
+}

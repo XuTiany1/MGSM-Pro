@@ -1,0 +1,81 @@
+{
+  "original_question": "Sandra ofipamni ma no nkosua nkɛntɛn enan bere biara a ɔhwɛ wɔn babaa no. Sɛ ɔbɛyɛ Spainfo flan a, ohia nkosua mmiensa. Sɛ wɔde ahyɛ Sandra nsa sɛ ɔnyɛ Spainfo flans edunum mma ne sukuu ntoboa gyigye a, mpɛn ahe na ɛsɛ sɛ Sandra hwɛ mmofra no?",
+  "original_answer": 5,
+  "question_template": "{name_female, Sandra} ofipamni ma no nkosua nkɛntɛn {num_digit_1, 9} bere biara a ɔhwɛ wɔn babaa no. Sɛ ɔbɛyɛ Spainfo flan a, ohia nkosua {num_digit_2, 3}. Sɛ wɔde ahyɛ {name_female, Sandra} nsa sɛ ɔnyɛ Spainfo flans {num_digit_3, 15} mma ne sukuu ntoboa gyigye a, mpɛn ahe na ɛsɛ sɛ {name_female, Sandra} hwɛ mmofra no?",
+  "question_solution": "answer = (num_digit_3 * num_digit_2) / num_digit_1",
+  "conditions": [
+    "answer == (num_digit_3 * num_digit_2) / num_digit_1",
+    "(num_digit_3 * num_digit_2) % num_digit_1 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sandra"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      6,
+      8,
+      10,
+      12,
+      5,
+      7,
+      4,
+      11,
+      14,
+      16
+    ],
+    "num_digit_2": [
+      2,
+      4,
+      5,
+      6,
+      3,
+      4,
+      2,
+      5,
+      7,
+      8
+    ],
+    "num_digit_3": [
+      18,
+      14,
+      22,
+      26,
+      25,
+      21,
+      34,
+      11,
+      20,
+      28
+    ],
+    "answer": [
+      6,
+      7,
+      11,
+      13,
+      15,
+      12,
+      17,
+      5,
+      10,
+      14
+    ],
+    "num_ic": [
+      36,
+      44,
+      27,
+      103,
+      49,
+      32,
+      138,
+      76,
+      52,
+      58
+    ]
+  },
+  "ic_question_template": "{name_female, Sandra} wɔfa de amango {num_ic, 33} firii n'afum bae bere bi. {name_female, Sandra} ofipamni ma no nkosua nkɛntɛn {num_digit_1, 9} bere biara a ɔhwɛ wɔn babaa no. Sɛ ɔbɛyɛ Spainfo flan a, ohia nkosua {num_digit_2, 3}. Sɛ wɔde ahyɛ {name_female, Sandra} nsa sɛ ɔnyɛ Spainfo flans {num_digit_3, 15} mma ne sukuu ntoboa gyigye a, mpɛn ahe na ɛsɛ sɛ {name_female, Sandra} hwɛ mmofra no?",
+  "ic_sentence": "{name_female, Sandra} wɔfa de amango {num_ic, 33} firii n'afum bae bere bi."
+}

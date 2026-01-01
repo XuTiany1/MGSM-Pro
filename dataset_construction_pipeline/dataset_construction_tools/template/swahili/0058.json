@@ -1,0 +1,91 @@
+{
+  "original_question": "Stephen aliagiza mboga mtandaoni. Bili yake ya mwisho ilikuwa $40.00. Kwa sababu hii ilikuwa kupitia muuzaji wa kuwasilisha bidhaa, walitoza ada ya 25% kwenye jumla yake ya mwisho na kumtoza $3.00 kama ada ya uwasilishaji. Stephen pia aliongeza $4.00 ya bahshishi. Baada ya ada za ziada, bei ya mwisho ya mboga za Stephen ilikuwa ngapi?",
+  "original_answer": 57,
+  "question_template": "{name_male, Stephen} aliagiza mboga mtandaoni. Bili ya mwisho ilikuwa ${num_digit_1, 40.00}. Kwa kuwa ilipitia mkandarasi wa uwasilishaji, wakatoza ada ya {num_digit_2, 25}% juu ya jumla yake na ada ya uwasilishaji ya ${num_digit_3, 3.00}. {name_male, Stephen} pia aliongeza bahashishi ya ${num_digit_4, 4.00}. Baada ya ada hizi za ziada, bei yake ya mwisho ilikuwa ngapi?",
+  "question_solution": "answer = num_digit_1 * (1 + num_digit_2/100) + num_digit_3 + num_digit_4",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 + num_digit_2/100) + num_digit_3 + num_digit_4",
+    "num_digit_1 * num_digit_2 % 100 == 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Stephen"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      30,
+      40,
+      35,
+      32,
+      50,
+      45,
+      38,
+      25,
+      100,
+      75
+    ],
+    "num_digit_2": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      40,
+      50,
+      12,
+      18,
+      24
+    ],
+    "num_digit_3": [
+      5,
+      3,
+      2,
+      7,
+      9,
+      1,
+      11,
+      6,
+      8,
+      10
+    ],
+    "num_digit_4": [
+      4,
+      6,
+      8,
+      3,
+      5,
+      10,
+      2,
+      7,
+      12,
+      9
+    ],
+    "answer": [
+      42,
+      55,
+      52,
+      50,
+      79,
+      74,
+      70,
+      41,
+      138,
+      112
+    ],
+    "num_ic": [
+      84,
+      36,
+      343,
+      909,
+      517,
+      110,
+      296,
+      402,
+      291,
+      544
+    ]
+  },
+  "ic_question_template": "{name_male, Stephen} aliagiza mboga mtandaoni. Bili ya mwisho ilikuwa ${num_digit_1, 40.00}. Kwa kuwa ilipitia mkandarasi wa uwasilishaji, wakatoza ada ya {num_digit_2, 25}% juu ya jumla yake na ada ya uwasilishaji ya ${num_digit_3, 3.00}. {name_male, Stephen} pia aliongeza bahashishi ya ${num_digit_4, 4.00}. Shangazi wa {name_male, Stephen} alinunua ndizi {num_ic, 41} jana. Baada ya ada hizi za ziada, bei yake ya mwisho ilikuwa ngapi?",
+  "ic_sentence": "Shangazi wa {name_male, Stephen} alinunua ndizi {num_ic, 41} jana."
+}

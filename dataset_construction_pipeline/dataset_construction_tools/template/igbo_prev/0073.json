@@ -1,0 +1,93 @@
+{
+  "original_question": "Sheila zụtara ekwenti ise maka $150 nke ọbụla ikwụ ụgwọ nkeji nkeji maka ọnwa atọ. A ga-na ụma 2% maka nkeji ọbụla. Ego ole ka Sheila ga-akwu n'ọnwa ọbụla maka ọnwa atọ?",
+  "original_answer": 255,
+  "question_template": "{name_female, Shiela} zụtara ekwenti {num_text_1, ise} maka ${num_digit_1, 150} nke ọbụla ikwụ ụgwọ nkeji nkeji maka ọnwa {num_digit_2, 3}. A ga-na ụma {num_digit_3, 2}% maka nkeji ọbụla. Ego ole ka {name_female, Shiela} ga-akwu n'ọnwa ọbụla maka ọnwa {num_digit_2, 3}?",
+  "question_solution": "answer = NUM(num_text_1) * num_digit_1 * (1 + num_digit_3/100) / num_digit_2",
+  "conditions": [
+    "int(answer) == NUM(num_text_1) * num_digit_1 * (1 + num_digit_3/100) / num_digit_2",
+    "(num_digit_1 * num_digit_3) % 100 == 0",
+    "NUM(num_text_1) > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Shiela"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "isii",
+      "asatọ",
+      "itoolu",
+      "ise",
+      "iri na abụọ",
+      "iri na otu",
+      "iri na anọ",
+      "Iri",
+      "iri na atọ",
+      "iri na ise"
+    ],
+    "num_digit_1": [
+      120,
+      150,
+      200,
+      250,
+      175,
+      160,
+      220,
+      240,
+      180,
+      140
+    ],
+    "num_digit_2": [
+      4,
+      5,
+      6,
+      10,
+      9,
+      11,
+      14,
+      12,
+      8,
+      15
+    ],
+    "num_digit_3": [
+      5,
+      10,
+      15,
+      20,
+      8,
+      25,
+      25,
+      30,
+      20,
+      25
+    ],
+    "answer": [
+      189,
+      264,
+      345,
+      150,
+      252,
+      200,
+      275,
+      260,
+      351,
+      175
+    ],
+    "num_ic": [
+      58,
+      196,
+      104,
+      75,
+      134,
+      200,
+      117,
+      177,
+      126,
+      142
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_female, Shiela} natara karịsịa {num_ic, 82} flaya maka mgbasa ozi ekwentị. {name_female, Shiela} zụtara ekwenti {num_text_1, ise} maka ${num_digit_1, 150} nke ọbụla ikwụ ụgwọ nkeji nkeji maka ọnwa {num_digit_2, 3}. A ga-na ụma {num_digit_3, 2}% maka nkeji ọbụla. Ego ole ka {name_female, Shiela} ga-akwu n'ọnwa ọbụla maka ọnwa {num_digit_2, 3}?",
+  "ic_sentence": "Nwanne nna {name_female, Shiela} natara karịsịa {num_ic, 82} flaya maka mgbasa ozi ekwentị."
+}

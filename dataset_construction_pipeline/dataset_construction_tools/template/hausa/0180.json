@@ -1,0 +1,80 @@
+{
+  "original_question": "Yan takara biyu ne ke takarar neman wakilcin aji a makarantar Sarai. Idan wanda ya samu nasara ya samu kashi 3/4 na kuri’u sannan jimillar daliban da suka kada kuri’a a ajin sun kai 80, lissafta adadin kuri’un da wanda ya fadi ya samu.",
+  "original_answer": 20,
+  "question_template": "Yan takara {num_text_1, biyu} ne ke takarar neman wakilcin aji a makarantar {name_female, Sarai}. Idan wanda ya samu nasara ya samu kashi {num_frac_1, 3/4} na kuri’u sannan jimillar daliban da suka kada kuri’a a ajin sun kai {num_digit_1, 80}, lissafta adadin kuri’un da wanda ya fadi ya samu.",
+  "question_solution": "answer = num_digit_1 * (1 - f1)   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 - f1)",
+    "0 < f1 < 1",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sarai"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu",
+      "biyu"
+    ],
+    "num_frac_1": [
+      "7/12",
+      "11/13",
+      "17/20",
+      "23/29",
+      "13/17",
+      "19/24",
+      "29/30",
+      "37/41",
+      "9/14",
+      "41/44"
+    ],
+    "num_digit_1": [
+      240,
+      312,
+      380,
+      580,
+      153,
+      576,
+      870,
+      820,
+      140,
+      528
+    ],
+    "answer": [
+      100,
+      48,
+      57,
+      120,
+      36,
+      120,
+      29,
+      80,
+      50,
+      36
+    ],
+    "num_ic": [
+      186,
+      576,
+      33,
+      1955,
+      247,
+      1319,
+      1988,
+      1323,
+      828,
+      1823
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Sarai} ya raba tambari {num_ic, 405} a lokacin taron. Yan takara {num_text_1, biyu} ne ke takarar neman wakilcin aji a makarantar {name_female, Sarai}. Idan wanda ya samu nasara ya samu kashi {num_frac_1, 3/4} na kuri’u sannan jimillar daliban da suka kada kuri’a a ajin sun kai {num_digit_1, 80}, lissafta adadin kuri’un da wanda ya fadi ya samu.",
+  "ic_sentence": "Kawun {name_female, Sarai} ya raba tambari {num_ic, 405} a lokacin taron."
+}

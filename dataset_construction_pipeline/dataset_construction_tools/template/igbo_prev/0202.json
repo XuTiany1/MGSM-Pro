@@ -1,0 +1,81 @@
+{
+  "original_question": "Josie na-akọ mkpuru vain n'ugbo eka iri ya. Eka ọbụla n'amị tọnụ mkpuru vain ise kwa áfọ̀, tọnụ mkpuru vain ọbụla na-eme barelu mmanya abụọ. Barelu mmanya ole ka ugbo ya na-emepụta kwa áfọ̀? ",
+  "original_answer": 100,
+  "question_template": "{name_female, Josie} na-akọ mkpuru vain n'ugbo eka {num_digit_1, 10} ya. Eka ọbụla n'amị tọnụ mkpuru vain {num_digit_2, 5} kwa áfọ̀, tọnụ mkpuru vain ọbụla na-eme barelu mmanya {num_digit_3, 2}. Barelu mmanya ole ka ugbo ya na-emepụta kwa áfọ̀?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 * num_digit_3",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Josie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      57,
+      83,
+      47,
+      96,
+      124,
+      65,
+      89,
+      73,
+      112,
+      131
+    ],
+    "num_digit_2": [
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      43,
+      41,
+      53
+    ],
+    "num_digit_3": [
+      7,
+      5,
+      11,
+      9,
+      3,
+      15,
+      5,
+      13,
+      9,
+      17
+    ],
+    "answer": [
+      5187,
+      7055,
+      9823,
+      19872,
+      10788,
+      30225,
+      16465,
+      40807,
+      41328,
+      118031
+    ],
+    "num_ic": [
+      109,
+      277,
+      53,
+      263,
+      248,
+      191,
+      395,
+      372,
+      415,
+      1047
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_female, Josie} nwere osisi aplị {num_ic, 289} nso. {name_female, Josie} na-akọ mkpuru vain n'ugbo eka {num_digit_1, 10} ya. Eka ọbụla n'amị tọnụ mkpuru vain {num_digit_2, 5} kwa áfọ̀, tọnụ mkpuru vain ọbụla na-eme barelu mmanya {num_digit_3, 2}. Barelu mmanya ole ka ugbo ya na-emepụta kwa áfọ̀?",
+  "ic_sentence": "Nwanne nna {name_female, Josie} nwere osisi aplị {num_ic, 289} nso."
+}

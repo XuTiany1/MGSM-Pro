@@ -1,0 +1,103 @@
+{
+  "original_question": "Mfanyabiashara anataka kufanya chaguo la ununuzi kati ya mipango 2 ya ununuzi: mapambo ya kito yenye thamani ya $5,000 au vifaa vya eletroniki vyenye thamani ya $8,000. Mshauri wake wa kifedha anakadiria kuwa soko la mapambo ya kito litapanda hadi 2.5% huku soko la vifaa vya elektroniki litapanda hadi 1.2% ndani ya mwezi huo mmoja. Iwapo mfanyabiashara huyo anataka kuwa na faida za juu zaidi mwishoni mwa mwezi huu kwa kufanya chaguo, hii itakuwa faida ya kiasi gani?",
+  "original_answer": 125,
+  "question_template": "Mfanyabiashara anataka kufanya chaguo la ununuzi kati ya mipango {num_digit_1, 2} ya ununuzi: mapambo ya kito yenye thamani ya ${num_digit_2, 5,000} au vifaa vya eletroniki vyenye thamani ya ${num_digit_3, 8,000}. Mshauri wake wa kifedha anakadiria kuwa soko la mapambo ya kito litapanda hadi {num_digit_4, 2.5}% huku soko la vifaa vya elektroniki litapanda hadi {num_digit_5, 1.2}% ndani ya mwezi huo mmoja. Iwapo mfanyabiashara huyo anataka kuwa na faida za juu zaidi mwishoni mwa mwezi huu kwa kufanya chaguo, hii itakuwa faida ya kiasi gani?",
+  "question_solution": "answer = max(num_digit_2 * num_digit_4 / 100, num_digit_3 * num_digit_5 / 100)",
+  "conditions": [
+    "answer == max(num_digit_2 * num_digit_4 / 100, num_digit_3 * num_digit_5 / 100)",
+    "num_digit_1 == 2",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "0 <= num_digit_4 <= 100",
+    "0 <= num_digit_5 <= 100"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "num_digit_2": [
+      5200,
+      5600,
+      6250,
+      7100,
+      8800,
+      6400,
+      6000,
+      8800,
+      7200,
+      6400
+    ],
+    "num_digit_3": [
+      8400,
+      4200,
+      4800,
+      5900,
+      6600,
+      7200,
+      5400,
+      6200,
+      4800,
+      5200
+    ],
+    "num_digit_4": [
+      2.5,
+      3.75,
+      4.0,
+      3.0,
+      2.25,
+      3.125,
+      3.2,
+      3.5,
+      5.0,
+      6.0
+    ],
+    "num_digit_5": [
+      4.0,
+      4.5,
+      5.0,
+      5.0,
+      4.0,
+      4.25,
+      5.5,
+      4.0,
+      6.25,
+      7.0
+    ],
+    "answer": [
+      336,
+      210,
+      250,
+      295,
+      264,
+      306,
+      297,
+      308,
+      360,
+      384
+    ],
+    "num_ic": [
+      32,
+      53,
+      72,
+      11,
+      48,
+      91,
+      30,
+      73,
+      40,
+      61
+    ]
+  },
+  "ic_question_template": "Mfanyabiashara anataka kufanya chaguo la ununuzi kati ya mipango {num_digit_1, 2} ya ununuzi: mapambo ya vito yenye thamani ya ${num_digit_2, 5,000} au vifaa vya elektroniki vyenye thamani ya ${num_digit_3, 8,000}. Mshauri wake wa kifedha anakadiria kuwa soko la mapambo ya vito litapanda kwa {num_digit_4, 2.5}% huku soko la vifaa vya elektroniki likipanda kwa {num_digit_5, 1.2}% ndani ya mwezi huo mmoja. Mpwa wake alinunua vitabu vya vichekesho {num_ic, 39} hivi karibuni. Iwapo mfanyabiashara huyo anataka kuwa na faida za juu zaidi mwishoni mwa mwezi huu kwa kufanya chaguo, hii itakuwa faida ya kiasi gani?",
+  "ic_sentence": "Mjomba wa {name_female, Eliza} anamiliki maduka {num_ic, 98} ya vyakula mjini."
+}

@@ -1,0 +1,105 @@
+{
+  "original_question": "Billy tɔn DVD. Ͻwɔ adetɔfoɔ 8 Benada bi mu. N’adetɔfoɔ a ԑdi kan no biara tɔ DVD baako pԑ. Adetɔfoɔ mmienu a ԑdi so no biara tɔ DVD mmienu. N’adetɔfoɔ mmiԑnsa a ԑtwa toɔ no ԑntɔ DVD baako koraa. DVD sԑn na Billy tɔnn Benada no?",
+  "original_answer": 7,
+  "question_template": "{name_male, Billy} tɔn DVD. Ͻwɔ adetɔfoɔ {num_digit_1, 8} Benada bi mu. N’adetɔfoɔ a ԑdi kan no {num_digit_2, 3} biara tɔ DVD baako pԑ. Adetɔfoɔ {num_digit_3, 2} a ԑdi so no biara tɔ DVD {num_digit_4, 2}. N’adetɔfoɔ {num_digit_5, 3} a ԑtwa toɔ no ԑntɔ DVD baako koraa. DVD sԑn na {name_male, Billy} tɔnn Benada no?",
+  "question_solution": "answer = num_digit_2 + num_digit_3 * num_digit_4",
+  "conditions": [
+    "int(answer) == num_digit_2 + num_digit_3 * num_digit_4",
+    "num_digit_1 == num_digit_2 + num_digit_3 + num_digit_5",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Billy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "num_digit_2": [
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "num_digit_3": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "num_digit_4": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_5": [
+      32,
+      35,
+      36,
+      35,
+      36,
+      33,
+      32,
+      31,
+      30,
+      33
+    ],
+    "answer": [
+      39,
+      68,
+      95,
+      138,
+      175,
+      236,
+      321,
+      378,
+      485,
+      576
+    ],
+    "num_ic": [
+      18,
+      64,
+      10,
+      883,
+      374,
+      295,
+      631,
+      79,
+      161,
+      886
+    ]
+  },
+  "ic_question_template": "{name_male, Billy} sewaa de aburow a yakye {num_ic, 18} baeɛ de bɛkyɛɛ. {name_male, Billy} tɔn DVD. Ͻwɔ adetɔfoɔ {num_digit_1, 8} Benada bi mu. N’adetɔfoɔ a ԑdi kan no {num_digit_2, 3} biara tɔ DVD baako pԑ. Adetɔfoɔ {num_digit_3, 2} a ԑdi so no biara tɔ DVD {num_digit_4, 2}. N’adetɔfoɔ {num_digit_5, 3} a ԑtwa toɔ no ԑntɔ DVD baako koraa. DVD sԑn na {name_male, Billy} tɔnn Benada no?",
+  "ic_sentence": "{name_male, Billy} sewaa de aburow a yakye {num_ic, 18} baeɛ de bɛkyɛɛ."
+}

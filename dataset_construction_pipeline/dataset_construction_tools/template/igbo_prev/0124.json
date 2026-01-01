@@ -1,0 +1,79 @@
+{
+  "original_question": "Jennie na-enye aka n'ụlọ ọrụ nne ya. O nwere ọdọ nnukwu leta iri isii chọrọ stampụ n' ọdọ nnukwu leta ndị e suworori stampụ. O tinyere stampụ n'otu ụzọ na atọ leta ndị na-achọ stampụ. Ọ bụrụ na e nweziri leta iri atọ ugbu a n'ịme ọdọ nnukwu leta ndị e suru stampụ, kedụ leta ole nọ n'ịme ọdọ nnukwu ahụ mgbe Jennie bidoro? ",
+  "original_answer": 10,
+  "question_template": "{name_female, Jennie} na-enye aka n'ụlọ ọrụ nne ya. O nwere ọdọ nnukwu leta {num_digit_1, 60} chọrọ stampụ n' ọdọ nnukwu leta ndị e suworori stampụ. O tinyere stampụ n'{num_frac_1, otu n'ime atọ} leta ndị na-achọ stampụ. Ọ bụrụ na e nweziri leta {num_digit_2, 30} ugbu a n'ịme ọdọ nnukwu leta ndị e suru stampụ, kedụ leta ole nọ n'ịme ọdọ nnukwu ahụ mgbe {name_female, Jennie} bidoro?",
+  "question_solution": "answer = num_digit_2 - num_digit_1 * num_frac_1",
+  "conditions": [
+    "int(answer) == num_digit_2 - num_digit_1 * num_frac_1",
+    "num_digit_1 > 0",
+    "0 < num_frac_1 && num_frac_1 < 1",
+    "num_digit_2 > num_digit_1 * num_frac_1"
+  ],
+  "variable_word_list": {
+    "name_female": "Jennie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      72,
+      90,
+      84,
+      105,
+      66,
+      98,
+      120,
+      80,
+      96,
+      110
+    ],
+    "num_frac_1": [
+      "5/9",
+      "2/5",
+      "7/12",
+      "3/7",
+      "2/11",
+      "5/14",
+      "11/15",
+      "7/16",
+      "13/24",
+      "9/22"
+    ],
+    "num_digit_2": [
+      70,
+      95,
+      100,
+      120,
+      58,
+      83,
+      150,
+      97,
+      120,
+      123
+    ],
+    "answer": [
+      30,
+      59,
+      51,
+      75,
+      46,
+      48,
+      62,
+      62,
+      68,
+      78
+    ],
+    "num_ic": [
+      66,
+      78,
+      33,
+      42,
+      99,
+      81,
+      88,
+      67,
+      86,
+      57
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_female, Jennie} nwetara kaadị ozi {num_ic, 27} n'ụbọchị ọmụmụ ya. {name_female, Jennie} na-enye aka n'ụlọ ọrụ nne ya. O nwere ọdọ nnukwu leta {num_digit_1, 60} chọrọ stampụ n' ọdọ nnukwu leta ndị e suworori stampụ. O tinyere stampụ n'{num_frac_1, otu n'ime atọ} leta ndị na-achọ stampụ. Ọ bụrụ na e nweziri leta {num_digit_2, 30} ugbu a n'ịme ọdọ nnukwu leta ndị e suru stampụ, kedụ leta ole nọ n'ịme ọdọ nnukwu ahụ mgbe {name_female, Jennie} bidoro?",
+  "ic_sentence": "Nwanne nna {name_female, Jennie} nwetara kaadị ozi {num_ic, 27} n'ụbọchị ọmụmụ ya."
+}

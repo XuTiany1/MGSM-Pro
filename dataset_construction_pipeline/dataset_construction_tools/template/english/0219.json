@@ -1,0 +1,110 @@
+{
+  "original_question": "Four students scored a total of 251 points in a board game. Naomi scored 68 of the points. Yuri scored 10 more than half as many points as Naomi and Brianna scored 17 points more than Naomi. How many points did Jojo score?",
+  "original_answer": 54,
+  "question_template": "Four students scored a total of {num_digit_1, 251} points in a board game. {name_female_1, Naomi} scored {num_digit_2, 68} of the points. {name_female_2, Yuri} scored {num_digit_3, 10} more than {num_frac_1, half} as many points as {name_female_1, Naomi} and {name_female_3, Brianna} scored {num_digit_4, 17} points more than {name_female_1, Naomi}. How many points did {name_female_4, Jojo} score?",
+  "question_solution": "answer = num_digit_1 - ( num_digit_2 + (f1 * num_digit_2 + num_digit_3) + (num_digit_2 + num_digit_4) )   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 - ( num_digit_2 + (f1 * num_digit_2 + num_digit_3) + (num_digit_2 + num_digit_4) )",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "0 < f1 < 1",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Naomi",
+    "name_female_2": "Yuri",
+    "name_female_3": "Brianna",
+    "name_female_4": "Jojo"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      395,
+      432,
+      470,
+      699,
+      755,
+      619,
+      816,
+      842,
+      1000,
+      910
+    ],
+    "num_digit_2": [
+      120,
+      135,
+      150,
+      180,
+      210,
+      168,
+      192,
+      240,
+      315,
+      270
+    ],
+    "num_digit_3": [
+      17,
+      29,
+      13,
+      47,
+      41,
+      31,
+      37,
+      23,
+      43,
+      19
+    ],
+    "num_frac_1": [
+      "one third",
+      "two fifths",
+      "one fifth",
+      "three quarters",
+      "one half",
+      "two thirds",
+      "three quarters",
+      "one quarter",
+      "two fifths",
+      "one third"
+    ],
+    "num_digit_4": [
+      23,
+      19,
+      27,
+      33,
+      39,
+      45,
+      51,
+      57,
+      63,
+      69
+    ],
+    "answer": [
+      75,
+      60,
+      100,
+      124,
+      150,
+      95,
+      200,
+      222,
+      138,
+      192
+    ],
+    "num_ic": [
+      32,
+      56,
+      63,
+      21,
+      67,
+      87,
+      66,
+      61,
+      74,
+      80
+    ]
+  },
+  "ic_question_template": "Four students scored a total of {num_digit_1, 251} points in a board game. {name_female_1, Naomi} scored {num_digit_2, 68} of the points. {name_female_2, Yuri} scored {num_digit_3, 10} more than {num_frac_1, half} as many points as {name_female_1, Naomi} and {name_female_3, Brianna} scored {num_digit_4, 17} points more than {name_female_1, Naomi}. {name_female_3, Brianna}'s uncle brought {num_ic, 38} snacks for everyone. How many points did {name_female_4, Jojo} score?",
+  "ic_sentence": "{name_female_3, Brianna}'s uncle brought {num_ic, 38} snacks for everyone."
+}

@@ -1,0 +1,82 @@
+{
+  "original_question": "Sadie rahụrụ ụra awa asatọ n' ụbọchị Mọndee. N'ụbọchị abụọ ndị n'eso ya, o rahụrụ ụra awa abụọ n'ụzọ dị nta karịa, otunaotu, maka na o jiri ya mepụta ịhe ndị chere n'ihu. Ọ bụrụ n'izu ụka fọdụrụ na o jiri otu awa rahụ ụra karịa ụbọchị abụọ ndị ahụ, kedụ awa ole o rahụrụ ụra na ngụkọta n'ịme izu ụka niile ahụ? ",
+  "original_answer": 48,
+  "question_template": "{name_female, Sadie} rahụrụ ụra awa {num_digit_1, 8} n'ụbọchị Mọndee. N'ụbọchị {num_text_1, abụọ} ndị n'eso ya, o rahụrụ ụra awa {num_digit_2, 2} n'ụzọ dị nta karịa, otunaotu, maka na o jiri ya mepụta ịhe ndị chere n'ihu. Ọ bụrụ n'izu ụka fọdụrụ na o jiri awa {num_digit_3, 1} rahụ ụra karịa ụbọchị {num_text_2, abụọ} ndị ahụ, kedụ awa ole o rahụrụ ụra na ngụkọta n'ịme izu ụka niile ahụ?",
+  "question_solution": "answer = num_digit_1 + 2*(num_digit_1 - num_digit_2) + 4*(num_digit_1 - num_digit_2 + num_digit_3)",
+  "conditions": [
+    "int(answer) == num_digit_1 + 2*(num_digit_1 - num_digit_2) + 4*(num_digit_1 - num_digit_2 + num_digit_3)",
+    "num_digit_1 > num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sadie",
+    "num_text_1": "two",
+    "num_text_2": "two"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      9,
+      10,
+      7,
+      12,
+      6,
+      11,
+      9,
+      8,
+      14,
+      10
+    ],
+    "num_digit_2": [
+      3,
+      4,
+      1,
+      4,
+      1,
+      5,
+      2,
+      1,
+      6,
+      1
+    ],
+    "num_digit_3": [
+      2,
+      3,
+      1,
+      2,
+      2,
+      1,
+      4,
+      3,
+      3,
+      5
+    ],
+    "answer": [
+      53,
+      58,
+      47,
+      68,
+      44,
+      51,
+      67,
+      62,
+      74,
+      84
+    ],
+    "num_ic": [
+      19,
+      48,
+      31,
+      108,
+      25,
+      60,
+      22,
+      84,
+      62,
+      96
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_female, Sadie} ṅụrụ iko kọfị {num_ic, 23} izu gara aga. {name_female, Sadie} rahụrụ ụra awa {num_digit_1, 8} n'ụbọchị Mọndee. N'ụbọchị {num_text_1, abụọ} ndị n'eso ya, o rahụrụ ụra awa {num_digit_2, 2} n'ụzọ dị nta karịa, otunaotu, maka na o jiri ya mepụta ịhe ndị chere n'ihu. Ọ bụrụ n'izu ụka fọdụrụ na o jiri awa {num_digit_3, 1} rahụ ụra karịa ụbọchị {num_text_2, abụọ} ndị ahụ, kedụ awa ole o rahụrụ ụra na ngụkọta n'ịme izu ụka niile ahụ?",
+  "ic_sentence": "Nwanne nna {name_female, Sadie} ṅụrụ iko kọfị {num_ic, 23} izu gara aga."
+}

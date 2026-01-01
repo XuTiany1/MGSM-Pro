@@ -1,0 +1,64 @@
+{
+  "original_question": "Kuna shule nne zinazoshindana katika shindano la mpira wa kikapu. Kila shule imetuma timu ya wasichana ya mpira wa kikapu na timu ya wavulana ya mpira wa kikapu na kila timu ina wachezaji 5. Kila shule pia imetuma kocha wa kila timu. Kwa jumla, shule zote zimewatuma watu wangapi?",
+  "original_answer": 48,
+  "question_template": "Kuna shule {num_text_1, nne} zinazoshindana katika shindano la mpira wa kikapu. Kila shule imetuma timu ya wasichana ya mpira wa kikapu na timu ya wavulana ya mpira wa kikapu na kila timu ina wachezaji {num_digit_1, 5}. Kila shule pia imetuma kocha wa kila timu. Kwa jumla, shule zote zimewatuma watu wangapi?",
+  "question_solution": "answer = NUM(num_text_1) * 2 * (num_digit_1 + 1)",
+  "conditions": [
+    "int(answer) == NUM(num_text_1) * 2 * (num_digit_1 + 1)",
+    "NUM(num_text_1) > 0",
+    "num_digit_1 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "sita",
+      "saba",
+      "tano",
+      "tisa",
+      "kumi",
+      "tatu",
+      "nane",
+      "kumi na mbili",
+      "kumi na moja",
+      "kumi na tatu"
+    ],
+    "num_digit_1": [
+      7,
+      8,
+      6,
+      11,
+      4,
+      12,
+      3,
+      9,
+      6,
+      10
+    ],
+    "answer": [
+      96,
+      126,
+      70,
+      216,
+      100,
+      78,
+      64,
+      240,
+      154,
+      286
+    ],
+    "num_ic": [
+      23,
+      47,
+      10,
+      56,
+      27,
+      31,
+      82,
+      93,
+      60,
+      91
+    ]
+  },
+  "ic_question_template": "Binamu wa {name_male, Marcus} alileta mipira ya kikapu {num_ic, 42} kwa timu watumie. Kuna shule {num_text_1, nne} zinazoshindana katika shindano la mpira wa kikapu. Kila shule imetuma timu ya wasichana ya mpira wa kikapu na timu ya wavulana ya mpira wa kikapu na kila timu ina wachezaji {num_digit_1, 5}. Kila shule pia imetuma kocha wa kila timu. Kwa jumla, shule zote zimewatuma watu wangapi?",
+  "ic_sentence": "Binamu wa {name_male, Marcus} alileta mipira ya kikapu {num_ic, 42} kwa timu watumie."
+}

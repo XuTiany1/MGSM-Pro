@@ -1,0 +1,97 @@
+{
+  "original_question": "胡安和弟弟卡洛斯正在卖柠檬水。他们每制作一加仑的柠檬水，需要用掉 3 美元的柠檬和 2 美元的糖。他们每加仑能做出 20 杯，每杯卖 0.50 美元。如果他们的利润是 25 美元，他们花了多少钱买柠檬？",
+  "original_answer": 15,
+  "question_template": "{name_male_1, 胡安} 和弟弟 {name_male_2, 卡洛斯} 正在卖柠檬水。他们每制作一加仑的柠檬水，需要用掉 {num_digit_1, 3} 美元的柠檬和 {num_digit_2, 2} 美元的糖。他们每加仑能做出 {num_digit_4, 20} 杯，每杯卖 {num_digit_3, 0.50} 美元。如果他们的利润是 {num_digit_5, 25} 美元，他们花了多少钱买柠檬？",
+  "question_solution": "answer = num_digit_1 * num_digit_5 / (num_digit_3 * num_digit_4 - (num_digit_1 + num_digit_2))",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_5 / (num_digit_3 * num_digit_4 - (num_digit_1 + num_digit_2))",
+    "num_digit_3 * num_digit_4 - (num_digit_1 + num_digit_2) > 0",
+    "num_digit_5 % (num_digit_3 * num_digit_4 - (num_digit_1 + num_digit_2)) == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Juan",
+    "name_male_2": "Carlos"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      2,
+      5,
+      6,
+      3,
+      7,
+      4,
+      8,
+      9,
+      5
+    ],
+    "num_digit_2": [
+      2,
+      1,
+      3,
+      4,
+      3,
+      5,
+      1,
+      6,
+      4,
+      2
+    ],
+    "num_digit_3": [
+      0.75,
+      0.6,
+      1.0,
+      1.25,
+      0.8,
+      1.5,
+      0.55,
+      2.0,
+      1.2,
+      0.65
+    ],
+    "num_digit_4": [
+      16,
+      15,
+      12,
+      16,
+      25,
+      20,
+      40,
+      18,
+      30,
+      40
+    ],
+    "num_digit_5": [
+      48,
+      36,
+      52,
+      70,
+      84,
+      90,
+      85,
+      110,
+      92,
+      95
+    ],
+    "answer": [
+      32,
+      12,
+      65,
+      42,
+      18,
+      35,
+      20,
+      40,
+      36,
+      25
+    ]
+  },
+  "ic_question_template": "{name_male_2, 卡洛斯} 的姑妈带来了 {num_ic, 44} 块饼干来分享。{name_male_1, 胡安} 和弟弟 {name_male_2, 卡洛斯} 正在卖柠檬水。他们每制作一加仑的柠檬水，需要用掉 {num_digit_1, 3} 美元的柠檬和 {num_digit_2, 2} 美元的糖。他们每加仑能做出 {num_digit_4, 20} 杯，每杯卖 {num_digit_3, 0.50} 美元。如果他们的利润是 {num_digit_5, 25} 美元，他们花了多少钱买柠檬？",
+  "ic_sentence": "{name_male_2, 卡洛斯} 的姑妈带来了 {num_ic, 44} 块饼干来分享。"
+}

@@ -1,0 +1,84 @@
+{
+  "original_question": "Rani has ten more crabs than Monic, who has 4 fewer crabs than Bo. If Bo has 40 crabs, calculate the total number of crabs the three have together.",
+  "original_answer": 122,
+  "question_template": "{name_female_1, Rani} has {num_text_1, ten} more crabs than {name_female_2, Monic}, who has {num_digit_1, 4} fewer crabs than {name_male_1, Bo}. If {name_male_1, Bo} has {num_digit_2, 40} crabs, calculate the total number of crabs the three have together.",
+  "question_solution": "answer = num_digit_2 + (num_digit_2 - num_digit_1) + ((num_digit_2 - num_digit_1) + t1)   # t1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 + (num_digit_2 - num_digit_1) + ((num_digit_2 - num_digit_1) + t1)",
+    "num_digit_2 - num_digit_1 >= 0",
+    "t1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_1 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Rani",
+    "name_female_2": "Monic",
+    "name_male_1": "Bo"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "seven",
+      "nine",
+      "twelve",
+      "four",
+      "fifteen",
+      "eight",
+      "six",
+      "eleven",
+      "thirteen",
+      "twenty"
+    ],
+    "num_digit_1": [
+      5,
+      7,
+      3,
+      9,
+      4,
+      2,
+      8,
+      6,
+      12,
+      10
+    ],
+    "num_digit_2": [
+      50,
+      100,
+      30,
+      60,
+      75,
+      120,
+      25,
+      90,
+      200,
+      150
+    ],
+    "answer": [
+      147,
+      295,
+      96,
+      166,
+      232,
+      364,
+      65,
+      269,
+      589,
+      450
+    ],
+    "num_ic": [
+      67,
+      216,
+      12,
+      30,
+      162,
+      108,
+      90,
+      62,
+      140,
+      200
+    ]
+  },
+  "ic_question_template": "{name_female_1, Rani} has {num_text_1, ten} more crabs than {name_female_2, Monic}, who has {num_digit_1, 4} fewer crabs than {name_male_1, Bo}. If {name_male_1, Bo} has {num_digit_2, 40} crabs, {name_female_2, Monic}'s uncle found {num_ic, 88} seashells on the beach. Calculate the total number of crabs the three have together.",
+  "ic_sentence": "{name_female_2, Monic}'s uncle found {num_ic, 88} seashells on the beach."
+}

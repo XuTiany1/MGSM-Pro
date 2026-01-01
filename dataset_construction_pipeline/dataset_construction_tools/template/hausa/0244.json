@@ -1,0 +1,112 @@
+{
+  "original_question": "Griffin yana da french fries 24, amma Kyle ya ɗauki 5 daga cikinsu. Billy ya ɗauki ninki biyu na Kyle. Ginger ta ba Griffin cinkin hannu daya na fries din ta, sannan Colby ya dauki 3 kasa da na Griffin 3 kuma adadin fries da Kyle ya dauka. Idan a ƙarshe Griffin yana da suya 27, soya nawa Ginger ya ba Griffin?",
+  "original_answer": 20,
+  "question_template": "{name_male_1, Griffin} yana da french fries {num_digit_1, 1024}, amma {name_male_2, Kyle} ya ɗauki {num_digit_2, 157} daga cikinsu. {name_male_3, Billy} ya ɗauki {num_text_1, ninki biyu} na {name_male_2, Kyle}. {name_male_4, Ginger} ya ba {name_male_1, Griffin} tafin hannu daya na fries ɗin ta, sannan {name_male_5, Colby} ya ɗauki {num_digit_3, 13} kasa da adadin fries da {name_male_2, Kyle} ya dauka daga wurin {name_male_1, Griffin}. Idan a ƙarshe {name_male_1, Griffin} yana da fries {num_digit_4, 600}, fries nawa {name_male_4, Ginger} ta ba {name_male_1, Griffin}?",
+  "question_solution": "answer = num_digit_4 - num_digit_1 + (f1 + 2) * num_digit_2 - num_digit_3  # f1 = {double:2, triple:3, quadruple:4, quintuple:5, sextuple:6, septuple:7, octuple:8, nonuple:9, decuple:10, undecuple:11}[num_text_1]",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_4 - num_digit_1 + (f1 + 2) * num_digit_2 - num_digit_3",
+    "f1 > 1",
+    "num_digit_2 > num_digit_3",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Griffin",
+    "name_male_2": "Kyle",
+    "name_male_3": "Billy",
+    "name_male_4": "Ginger",
+    "name_male_5": "Colby"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "ninki biyu",
+      "uku sau uku",
+      "hudu",
+      "ninka sau biyar",
+      "sau shida",
+      "saba’in",
+      "sau takwas",
+      "sau tara",
+      "goma-gwangwani",
+      "sau goma sha ɗaya"
+    ],
+    "num_digit_1": [
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      12345,
+      23456,
+      54321,
+      31415,
+      27182
+    ],
+    "num_digit_2": [
+      157,
+      211,
+      313,
+      419,
+      523,
+      631,
+      743,
+      853,
+      991,
+      1007
+    ],
+    "num_digit_3": [
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "num_digit_4": [
+      600,
+      2000,
+      5000,
+      7000,
+      16000,
+      11000,
+      22000,
+      53000,
+      30000,
+      25000
+    ],
+    "answer": [
+      191,
+      990,
+      2763,
+      1718,
+      3771,
+      4303,
+      5937,
+      8021,
+      10434,
+      10862
+    ],
+    "num_ic": [
+      289,
+      1878,
+      1974,
+      4391,
+      2276,
+      4937,
+      17460,
+      29220,
+      6781,
+      18458
+    ]
+  },
+  "ic_question_template": "Gwaggon {name_male_2, Kyle} ta kawo jakunkunan tumatirin ketchup guda {num_ic, 18458} kan teburi. {name_male_1, Griffin} yana da french fries {num_digit_1, 1024}, amma {name_male_2, Kyle} ya ɗauki {num_digit_2, 157} daga cikinsu. {name_male_3, Billy} ya ɗauki {num_text_1, ninki biyu} na {name_male_2, Kyle}. {name_male_4, Ginger} ya ba {name_male_1, Griffin} tafin hannu daya na fries ɗin ta, sannan {name_male_5, Colby} ya ɗauki {num_digit_3, 13} kasa da adadin fries da {name_male_2, Kyle} ya dauka daga wurin {name_male_1, Griffin}. Idan a ƙarshe {name_male_1, Griffin} yana da fries {num_digit_4, 600}, fries nawa {name_male_4, Ginger} ta ba {name_male_1, Griffin}?",
+  "ic_sentence": "Gwaggon {name_male_2, Kyle} ta kawo jakunkunan tumatirin ketchup guda {num_ic, 18458} kan teburi."
+}

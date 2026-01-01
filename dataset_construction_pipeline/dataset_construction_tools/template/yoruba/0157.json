@@ -1,0 +1,108 @@
+{
+  "original_question": "Blake àti Kelly ń ní ìdíje láti mọ ẹni tí ó lè sáré jù láàrín-in ìṣẹ́jú mẹ́ẹ̀dógún. Wọ́n pinnu láti ṣe é lórí pápá bọ́ọ̀lù aláfẹsẹ̀gbá tí gígùn rẹ̀ jẹ́ 100 yards. Blake sáré lọ bọ̀ ní ìgbà 15. Kelly sáré lọ bọ̀ lẹ́ẹ̀kan, lẹ́yìn náà ó pinnu pé òun kò fẹ́ sáré lẹ́gbẹ̀ẹ́ Blake, nítorí náà ó bẹ̀rẹ̀ sí í sáré lóríi ìlà 40 yards lọ bọ̀. Ó máa ń ṣe èyí ní ìgbà 34. Báwo ni olùborí ṣe sáré tó ju ẹni tí ó pàdánù lọ?",
+  "original_answer": 80,
+  "question_template": "{name_male, Blake} àti {name_female, Kelly} ń ní ìdíje láti mọ ẹni tí ó lè sáré jù láàrín-in ìṣẹ́jú mẹ́ẹ̀dógún. Wọ́n pinnu láti ṣe é lórí pápá bọ́ọ̀lù aláfẹsẹ̀gbá tí gígùn rẹ̀ jẹ́ {num_digit_1, 100} yards. {name_male, Blake} sáré lọ bọ̀ ní ìgbà {num_digit_2, 15}. {name_female, Kelly} sáré lọ bọ̀ lẹ́ẹ̀kan ({num_digit_3, 1}), lẹ́yìn náà ó pinnu pé òun kò fẹ́ sáré lẹ́gbẹ̀ẹ́ {name_male, Blake}, nítorí náà ó bẹ̀rẹ̀ sí í sáré lóríi ìlà {num_digit_4, 40} yards lọ bọ̀. Ó máa ń ṣe èyí ní ìgbà {num_digit_5, 34}. Báwo ni olùborí ṣe sáré tó ju ẹni tí ó pàdánù lọ?",
+  "question_solution": "answer = abs(2 * num_digit_1 * num_digit_2 - (2 * num_digit_1 * num_digit_3 + 2 * num_digit_4 * num_digit_5))",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == abs(2 * num_digit_1 * num_digit_2 - (2 * num_digit_1 * num_digit_3 + 2 * num_digit_4 * num_digit_5))",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 1",
+    "num_digit_4 > 0",
+    "num_digit_4 < num_digit_1",
+    "num_digit_5 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Blake",
+    "name_female": "Kelly"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      100,
+      120,
+      90,
+      110,
+      100,
+      150,
+      80,
+      120,
+      110,
+      95
+    ],
+    "num_digit_2": [
+      15,
+      12,
+      18,
+      10,
+      8,
+      6,
+      20,
+      5,
+      12,
+      14
+    ],
+    "num_digit_3": [
+      2,
+      3,
+      1,
+      2,
+      3,
+      1,
+      4,
+      5,
+      2,
+      3
+    ],
+    "num_digit_4": [
+      40,
+      50,
+      30,
+      70,
+      60,
+      40,
+      20,
+      60,
+      50,
+      30
+    ],
+    "num_digit_5": [
+      34,
+      24,
+      25,
+      10,
+      12,
+      10,
+      40,
+      5,
+      26,
+      30
+    ],
+    "answer": [
+      120,
+      240,
+      1560,
+      360,
+      440,
+      700,
+      960,
+      600,
+      400,
+      290
+    ],
+    "num_ic": [
+      292,
+      568,
+      220,
+      896,
+      732,
+      1380,
+      184,
+      439,
+      975,
+      395
+    ]
+  },
+  "ic_question_template": "Àbúrò {name_male, Blake} mú {num_ic, 520} ìkòkò omi wá sí pápá. {name_male, Blake} àti {name_female, Kelly} ń ní ìdíje láti mọ ẹni tí ó lè sáré jù láàrín-in ìṣẹ́jú mẹ́ẹ̀dógún. Wọ́n pinnu láti ṣe é lórí pápá bọ́ọ̀lù aláfẹsẹ̀gbá tí gígùn rẹ̀ jẹ́ {num_digit_1, 100} yards. {name_male, Blake} sáré lọ bọ̀ ní ìgbà {num_digit_2, 15}. {name_female, Kelly} sáré lọ bọ̀ lẹ́ẹ̀kan ({num_digit_3, 1}), lẹ́yìn náà ó pinnu pé òun kò fẹ́ sáré lẹ́gbẹ̀ẹ́ {name_male, Blake}, nítorí náà ó bẹ̀rẹ̀ sí í sáré lóríi ìlà {num_digit_4, 40} yards lọ bọ̀. Ó máa ń ṣe èyí ní ìgbà {num_digit_5, 34}. Báwo ni olùborí ṣe sáré tó ju ẹni tí ó pàdánù lọ?",
+  "ic_sentence": "Àbúrò {name_male, Blake} mú {num_ic, 520} ìkòkò omi wá sí pápá."
+}

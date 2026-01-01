@@ -1,0 +1,95 @@
+{
+  "original_question": "Steve da Tim sun yanke shawarar ganin wanda zai fi saurin zuwa gida daga makaranta. Steve yana zaune nesa da Tim, don haka an bar shi ya hau kekensa. Steve yana zaune mil 3 daga makarantar kuma yana iya tuka keken sa a tsahon ƙafa 440 a minti ɗaya. Tim yana zaune mil 2 daga makarantar. Idan Tim zai iya hawa skateboard ɗinsa a ƙafa 264 a cikin minti ɗaya, tsahon wane lokaci ne mai nasara zai jira a gidansu kafin wanda ya yi rashin nasara ya gama nasa tseren?",
+  "original_answer": 4,
+  "question_template": "{name_male_1, Steve} da {name_male_2, Tim} sun yanke shawarar ganin wanda zai fi saurin zuwa gida daga makaranta. {name_male_1, Steve} yana zaune nesa da {name_male_2, Tim}, don haka an bar shi ya hau kekensa. {name_male_1, Steve} yana zaune mil {num_digit_1, 3} daga makarantar kuma yana iya tuka keken sa a tsahon ƙafa {num_digit_2, 440} a minti ɗaya. {name_male_2, Tim} yana zaune mil {num_digit_3, 2} daga makarantar. Idan {name_male_2, Tim} zai iya hawa skateboard ɗinsa a ƙafa {num_digit_4, 264} a cikin minti ɗaya, tsahon wane lokaci ne mai nasara zai jira a gidansu kafin wanda ya yi rashin nasara ya gama nasa tseren?",
+  "question_solution": "answer = |5280 * num_digit_1 / num_digit_2 - 5280 * num_digit_3 / num_digit_4|",
+  "conditions": [
+    "answer == abs(5280 * num_digit_1 / num_digit_2 - 5280 * num_digit_3 / num_digit_4)",
+    "num_digit_1 > num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Steve",
+    "name_male_2": "Tim"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      9,
+      10,
+      8,
+      7,
+      5,
+      8,
+      9,
+      10,
+      3,
+      10
+    ],
+    "num_digit_2": [
+      120,
+      330,
+      220,
+      160,
+      160,
+      160,
+      220,
+      264,
+      480,
+      240
+    ],
+    "num_digit_3": [
+      7,
+      7,
+      5,
+      2,
+      3,
+      4,
+      6,
+      9,
+      1,
+      6
+    ],
+    "num_digit_4": [
+      264,
+      880,
+      165,
+      264,
+      132,
+      440,
+      880,
+      120,
+      110,
+      352
+    ],
+    "answer": [
+      256,
+      118,
+      32,
+      191,
+      45,
+      216,
+      180,
+      196,
+      15,
+      130
+    ],
+    "num_ic": [
+      32,
+      54,
+      11,
+      93,
+      36,
+      63,
+      17,
+      80,
+      17,
+      99
+    ]
+  },
+  "ic_question_template": "Gwaggon {name_male_1, Steve} tana da kuliyoyi guda {num_ic, 34}. {name_male_1, Steve} da {name_male_2, Tim} sun yanke shawarar ganin wanda zai fi saurin zuwa gida daga makaranta. {name_male_1, Steve} yana zaune nesa da {name_male_2, Tim}, don haka an bar shi ya hau kekensa. {name_male_1, Steve} yana zaune mil {num_digit_1, 3} daga makarantar kuma yana iya tuka keken sa a tsahon ƙafa {num_digit_2, 440} a minti ɗaya. {name_male_2, Tim} yana zaune mil {num_digit_3, 2} daga makarantar. Idan {name_male_2, Tim} zai iya hawa skateboard ɗinsa a ƙafa {num_digit_4, 264} a cikin minti ɗaya, tsahon wane lokaci ne mai nasara zai jira a gidansu kafin wanda ya yi rashin nasara ya gama nasa tseren?",
+  "ic_sentence": "Gwaggon {name_male_1, Steve} tana da kuliyoyi guda {num_ic, 34}."
+}

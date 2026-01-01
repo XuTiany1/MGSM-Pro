@@ -1,0 +1,77 @@
+{
+  "original_question": "Un nouveau programme a été téléchargé 60 fois au cours du premier mois. Le nombre de téléchargements au cours du deuxième mois était trois fois supérieur à celui du premier mois. Il a ensuite diminué de 30 % au cours du troisième mois. Combien de fois au total le programme a-t-il été téléchargé au cours de ces trois mois ?",
+  "original_answer": 366,
+  "question_template": "Un nouveau programme a été téléchargé {num_digit_1, 60} fois au cours du premier mois. Le nombre de téléchargements au cours du deuxième mois était {num_text_1, trois fois} supérieur à celui du premier mois. Il a ensuite diminué de {num_digit_2, 30} % au cours du troisième mois. Combien de fois au total le programme a-t-il été téléchargé au cours de ces {num_text_2, trois} mois ?",
+  "question_solution": "answer = num_digit_1 + NUM(num_text_1) * num_digit_1 + NUM(num_text_1) * num_digit_1 * (1 - num_digit_2/100)",
+  "conditions": [
+    "int(answer) == num_digit_1 + NUM(num_text_1) * num_digit_1 + NUM(num_text_1) * num_digit_1 * (1 - num_digit_2/100)",
+    "num_digit_1 > 0",
+    "NUM(num_text_1) > 0",
+    "0 <= num_digit_2 < 100"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      47,
+      53,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97
+    ],
+    "num_text_1": [
+      "quatre fois",
+      "cinq fois",
+      "six fois",
+      "huit fois",
+      "dix fois",
+      "douze fois",
+      "Seize fois",
+      "vingt fois",
+      "vingt-quatre fois",
+      "vingt-huit fois"
+    ],
+    "num_digit_2": [
+      25,
+      20,
+      50,
+      25,
+      10,
+      25,
+      25,
+      10,
+      25,
+      25
+    ],
+    "num_text_2": [
+      "trois",
+      "trois",
+      "trois",
+      "trois",
+      "trois",
+      "trois",
+      "trois",
+      "trois",
+      "trois",
+      "trois"
+    ],
+    "answer": [
+      376,
+      530,
+      610,
+      1005,
+      1420,
+      1606,
+      2291,
+      3237,
+      3827,
+      4850
+    ]
+  },
+  "ic_question_template": "L'oncle du développeur a construit {num_ic, 413} bureaux d'ordinateur pour l'entreprise. Un nouveau programme a été téléchargé {num_digit_1, 60} fois au cours du premier mois. Le nombre de téléchargements au cours du deuxième mois était {num_text_1, trois fois} supérieur à celui du premier mois. Il a ensuite diminué de {num_digit_2, 30} % au cours du troisième mois. Combien de fois au total le programme a-t-il été téléchargé au cours de ces {num_text_2, trois} mois ?",
+  "ic_sentence": "L'oncle du développeur a construit {num_ic, 413} bureaux d'ordinateur pour l'entreprise."
+}

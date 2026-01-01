@@ -1,0 +1,93 @@
+{
+  "original_question": "Adrien's total salary was 30 percent higher than Lylah's. Four years later, his salary had increased, and he was earning 40% more than what he was making four years ago. If Adrien's and Lylah's salary increased simultaneously, and Adrien earned $40000 four years ago, calculate the total salary the two were receiving four years later?",
+  "original_answer": 95200,
+  "question_template": "{name_male, Adrien}'s total salary was {num_digit_1, 30}% higher than {name_female, Lylah}'s. {num_text_1, Four} years later, his salary had increased, and he was earning {num_digit_2, 40}% more than what he was making {num_text_1, four} years ago. If {name_male, Adrien}'s and {name_female, Lylah}'s salary increased simultaneously, and {name_male, Adrien} earned ${num_digit_3, 40000} {num_text_1, four} years ago, calculate the total salary the two were receiving {num_text_1, four} years later?",
+  "question_solution": "answer = (1 + num_digit_2 / 100) * num_digit_3 * (2 + num_digit_1 / 100) / (1 + num_digit_1 / 100)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (1 + num_digit_2 / 100) * num_digit_3 * (2 + num_digit_1 / 100) / (1 + num_digit_1 / 100)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Adrien",
+    "name_female": "Lylah"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      25,
+      20,
+      50,
+      33,
+      60,
+      75,
+      12,
+      40,
+      80,
+      10
+    ],
+    "num_digit_2": [
+      20,
+      30,
+      25,
+      40,
+      45,
+      35,
+      60,
+      15,
+      50,
+      10
+    ],
+    "num_digit_3": [
+      50000,
+      36000,
+      30000,
+      66500,
+      16000,
+      35000,
+      33600,
+      14000,
+      36000,
+      11000
+    ],
+    "num_text_1": [
+      "five",
+      "six",
+      "seven",
+      "eight",
+      "nine",
+      "ten",
+      "eleven",
+      "twelve",
+      "thirteen",
+      "fourteen"
+    ],
+    "answer": [
+      108000,
+      85800,
+      62500,
+      163100,
+      37700,
+      74250,
+      101760,
+      27600,
+      84000,
+      23100
+    ],
+    "num_ic": [
+      134000,
+      46500,
+      61000,
+      55300,
+      79200,
+      340000,
+      210000,
+      19400,
+      112000,
+      9500
+    ]
+  },
+  "ic_question_template": "{name_male, Adrien}'s total salary was {num_digit_1, 30}% higher than {name_female, Lylah}'s. {name_text_1, Four} years later, his salary had increased, and he was earning {num_digit_2, 40}% more than what he was making {num_text_1, four} years ago. If {name_male, Adrien}'s and {name_female, Lylah}'s salary increased simultaneously, and {name_male, Adrien} earned ${num_digit_3, 40000} {num_text_1, four} years ago, {name_female, Lylah}'s uncle received a bonus of ${num_ic, 134000} at his company that year. Calculate the total salary the two were receiving {num_text_1, four} years later?",
+  "ic_sentence": "{name_female, Lylah}'s uncle received a bonus of ${num_ic, 134000} at his company that year."
+}

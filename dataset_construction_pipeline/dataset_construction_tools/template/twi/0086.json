@@ -1,0 +1,92 @@
+{
+  "original_question": "Greg ahyehyԑ afidie a ԑbɔ nkaeԑ bi sԑ ԑmbɔ no nkaeԑ mprԑ dodoɔ mmiԑnsa wɔ da baako mu. Sԑ afidie no bɔ a, ԑbԑkɔso abɔ kɔ si sԑ Greg bԑdum no. Berԑ a ԑdi kan a afidie no bɔɔ ԑnnԑ no, ԑbɔɔ mprԑ dodoɔ nnan. Berԑ a ԑtɔ so mmienu no a ԑbɔɔԑ no, ԑbɔɔ mprԑ mmɔho mmiԑnsa kyԑn kanee no. Wɔ mprԑ a ԑtɔ so mmiԑnsa no mu no, ԑbɔɔ deԑ ԑtɔ so mmienu no mu mprԑ fa. No nyinaa mu no, mprԑ dodoɔ sԑn na afidie no bɔɔԑ?",
+  "original_answer": 22,
+  "question_template": "{name_male, Greg} ahyehyԑ afidie a ԑbɔ nkaeԑ bi sԑ ԑmbɔ no nkaeԑ mprԑ dodoɔ {num_text_1, mmiɛnsa} wɔ da baako mu. Sԑ afidie no bɔ a, ԑbԑkɔso abɔ kɔ si sԑ {name_male, Greg} bԑdum no. Berԑ a ԑdi kan a afidie no bɔɔ ԑnnԑ no, ԑbɔɔ mprԑ dodoɔ {num_text_2, nnan}. Berԑ a ԑtɔ so mmienu no a ԑbɔɔԑ no, ԑbɔɔ mprԑ mmɔho {num_text_3, mmiɛnsa} kyԑn kanee no. Wɔ mprԑ a ԑtɔ so mmiԑnsa no mu no, ԑbɔɔ deԑ ԑtɔ so mmienu no mu mprԑ {num_frac_1, fa}. No nyinaa mu no, mprԑ dodoɔ sԑn na afidie no bɔɔԑ?",
+  "question_solution": "answer = NUM(num_text_2) + NUM(num_text_2) * NUM(num_text_3) + NUM(num_text_2) * NUM(num_text_3) * NUM(num_frac_1)",
+  "conditions": [
+    "int(answer) == NUM(num_text_2) + NUM(num_text_2) * NUM(num_text_3) + NUM(num_text_2) * NUM(num_text_3) * NUM(num_frac_1)",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1",
+    "NUM(num_text_2) > 0",
+    "NUM(num_text_3) > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Greg"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "mmiɛnsa",
+      "mienu",
+      "anum",
+      "nsia",
+      "Nson",
+      "ɛnān",
+      "nwɔtwe",
+      "nkron",
+      "du",
+      "dunan"
+    ],
+    "num_text_2": [
+      "ɛnān",
+      "anum",
+      "Nson",
+      "nsia",
+      "nkron",
+      "nwɔtwe",
+      "du",
+      "dunan",
+      "duakoɔ baako",
+      "du-num"
+    ],
+    "num_text_3": [
+      "mmiɛnsa",
+      "mienu",
+      "ɛnān",
+      "anum",
+      "anum",
+      "ɛnān",
+      "anum",
+      "nsia",
+      "mmiɛnsa",
+      "ɛnān"
+    ],
+    "num_frac_1": [
+      "1/2",
+      "1/5",
+      "1/7",
+      "2/3",
+      "1/3",
+      "3/4",
+      "1/2",
+      "1/6",
+      "2/11",
+      "1/5"
+    ],
+    "answer": [
+      22,
+      17,
+      39,
+      56,
+      69,
+      64,
+      85,
+      96,
+      50,
+      87
+    ],
+    "num_ic": [
+      21,
+      19,
+      69,
+      37,
+      77,
+      64,
+      42,
+      31,
+      114,
+      72
+    ]
+  },
+  "ic_question_template": "{name_male, Greg} sewaa atɔ kɔkɔbɔ dɔn foforɔ {num_ic, 15} . {name_male, Greg} ahyehyԑ afidie a ԑbɔ nkaeԑ bi sԑ ԑmbɔ no nkaeԑ mprԑ dodoɔ {num_text_1, mmiɛnsa} wɔ da baako mu. Sԑ afidie no bɔ a, ԑbԑkɔso abɔ kɔ si sԑ {name_male, Greg} bԑdum no. Berԑ a ԑdi kan a afidie no bɔɔ ԑnnԑ no, ԑbɔɔ mprԑ dodoɔ {num_text_2, nnan}. Berԑ a ԑtɔ so mmienu no a ԑbɔɔԑ no, ԑbɔɔ mprԑ mmɔho {num_text_3, mmiɛnsa} kyԑn kanee no. Wɔ mprԑ a ԑtɔ so mmiԑnsa no mu no, ԑbɔɔ deԑ ԑtɔ so mmienu no mu mprԑ {num_frac_1, fa}. No nyinaa mu no, mprԑ dodoɔ sԑn na afidie no bɔɔԑ?",
+  "ic_sentence": "{name_male, Greg} sewaa atɔ kɔkɔbɔ dɔn foforɔ {num_ic, 15} ."
+}

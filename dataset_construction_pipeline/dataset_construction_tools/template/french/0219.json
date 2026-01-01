@@ -1,0 +1,98 @@
+{
+  "original_question": "Quatre élèves ont marqué un total de 251 points dans un jeu de société. Naomi en a marqué 68. Yuri a marqué 10 points de plus que la moitié de ceux de Naomi, et Brianna 17 de plus que Naomi. Combien de points Jojo a-t-il marqué ?",
+  "original_answer": 54,
+  "question_template": "Quatre élèves ont marqué un total de {num_digit_1, 251} points dans un jeu de société. {name_female_1, Naomi} en a marqué {num_digit_2, 68}. {name_female_2, Yuri} a marqué {num_digit_3, 10} points de plus que la {num_frac_1, moitié} de ceux de {name_female_1, Naomi}, et {name_female_3, Brianna} {num_digit_4, 17} de plus que {name_female_1, Naomi}. Combien de points {name_female_4, Jojo} a-t-il marqué ?",
+  "question_solution": "answer = num_digit_1 - ( num_digit_2 + (f1 * num_digit_2 + num_digit_3) + (num_digit_2 + num_digit_4) )   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 - ( num_digit_2 + (f1 * num_digit_2 + num_digit_3) + (num_digit_2 + num_digit_4) )",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "0 < f1 < 1",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Naomi",
+    "name_female_2": "Yuri",
+    "name_female_3": "Brianna",
+    "name_female_4": "Jojo"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      395,
+      432,
+      470,
+      699,
+      755,
+      619,
+      816,
+      842,
+      1000,
+      910
+    ],
+    "num_digit_2": [
+      120,
+      135,
+      150,
+      180,
+      210,
+      168,
+      192,
+      240,
+      315,
+      270
+    ],
+    "num_digit_3": [
+      17,
+      29,
+      13,
+      47,
+      41,
+      31,
+      37,
+      23,
+      43,
+      19
+    ],
+    "num_frac_1": [
+      "un tiers",
+      "deux cinquièmes",
+      "un cinquième",
+      "trois quarts",
+      "un demi",
+      "deux tiers",
+      "trois quarts",
+      "un quart",
+      "deux cinquièmes",
+      "un tiers"
+    ],
+    "num_digit_4": [
+      23,
+      19,
+      27,
+      33,
+      39,
+      45,
+      51,
+      57,
+      63,
+      69
+    ],
+    "answer": [
+      75,
+      60,
+      100,
+      124,
+      150,
+      95,
+      200,
+      222,
+      138,
+      192
+    ]
+  },
+  "ic_question_template": "L'oncle de {name_female_3, Brianna} a apporté {num_ic, 38} collations pour tout le monde. Quatre élèves ont marqué un total de {num_digit_1, 251} points dans un jeu de société. {name_female_1, Naomi} en a marqué {num_digit_2, 68}. {name_female_2, Yuri} a marqué {num_digit_3, 10} points de plus que la {num_frac_1, moitié} de ceux de {name_female_1, Naomi}, et {name_female_3, Brianna} {num_digit_4, 17} de plus que {name_female_1, Naomi}. Combien de points {name_female_4, Jojo} a-t-il marqué ?",
+  "ic_sentence": "L'oncle de {name_female_3, Brianna} a apporté {num_ic, 38} collations pour tout le monde."
+}

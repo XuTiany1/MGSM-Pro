@@ -1,0 +1,83 @@
+{
+  "original_question": "Tí Raymond bá fọ aṣọ ní ìdajì ti Sarah, tí Sarah sì fọ aṣọ ní ìlọ́po 4 ju bí David ṣe ń fọ aṣọ, ṣe ìṣirò ìyàtọ̀ tó wà nínú iye aṣọ tí Raymond àti David ń fọ̀ tí Sarah bá fọ póùn aṣọ 400.",
+  "original_answer": 100,
+  "question_template": "Tí {name_male_1, Raymond} bá fọ aṣọ ní {num_frac_1, ìdajì} ti {name_female, Sarah}, tí {name_female, Sarah} sì fọ aṣọ ní ìlọ́po {num_digit_1, 4} ju bí {name_male_2, David} ṣe ń fọ aṣọ, ṣe ìṣirò ìyàtọ̀ tó wà nínú iye aṣọ tí {name_male_1, Raymond} àti {name_male_2, David} ń fọ̀ tí {name_female, Sarah} bá fọ póùn aṣọ {num_digit_2, 400}.",
+  "question_solution": "answer = num_digit_2 * NUM(num_frac_1) - num_digit_2 / num_digit_1",
+  "conditions": [
+    "int(answer) == num_digit_2 * NUM(num_frac_1) - num_digit_2 / num_digit_1",
+    "num_digit_2 % num_digit_1 == 0",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Raymond",
+    "name_female": "Sarah",
+    "name_male_2": "David"
+  },
+  "variable_number_dictionary": {
+    "num_frac_1": [
+      "Ìkejì-idá mẹ́ta",
+      "ìkẹta kan",
+      "ìdámẹ́rin-un",
+      "ìdámẹ́rin",
+      "Ìkejì-lélú-karùn-ún",
+      "ìkẹta-ídín-marùn-ún",
+      "Idaji",
+      "márùn-ún ìdí méfà",
+      "mẹrin ninu meje",
+      "metadinlogun ninu mejila"
+    ],
+    "num_digit_1": [
+      3,
+      6,
+      5,
+      8,
+      3,
+      4,
+      3,
+      5,
+      3,
+      3
+    ],
+    "num_digit_2": [
+      360,
+      600,
+      200,
+      240,
+      150,
+      200,
+      300,
+      180,
+      84,
+      240
+    ],
+    "answer": [
+      120,
+      100,
+      110,
+      30,
+      10,
+      70,
+      50,
+      114,
+      20,
+      130
+    ],
+    "num_ic": [
+      22,
+      33,
+      16,
+      52,
+      23,
+      42,
+      26,
+      56,
+      8,
+      29
+    ]
+  },
+  "ic_question_template": "Àntì {name_male_1, Raymond} ka aṣọ toweli {num_ic, 52} ní àná. Tí {name_male_1, Raymond} bá fọ aṣọ ní {num_frac_1, ìdajì} ti {name_female, Sarah}, tí {name_female, Sarah} sì fọ aṣọ ní ìlọ́po {num_digit_1, 4} ju bí {name_male_2, David} ṣe ń fọ aṣọ, ṣe ìṣirò ìyàtọ̀ tó wà nínú iye aṣọ tí {name_male_1, Raymond} àti {name_male_2, David} ń fọ̀ tí {name_female, Sarah} bá fọ póùn aṣọ {num_digit_2, 400}.",
+  "ic_sentence": "Àntì {name_male_1, Raymond} ka aṣọ toweli {num_ic, 52} ní àná."
+}

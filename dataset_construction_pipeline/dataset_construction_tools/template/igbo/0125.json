@@ -1,0 +1,80 @@
+{
+  "original_question": "Julia na-akwado oriri nri abali n'ụlọ ya, ebe obu na uche ka o keé sitiu. Ọ chọpụtara na o nweghịzị ngaji plasitiki, n'ihi ya ọ zụtara ngwugwu ngaji ohụụ. E mechaa, di ya zụtakwara ngwugwu ngaji ọhụụ ise ma nye ha Julia. Mgbe Julia na-esi sitiu ahụ, o ji ngaji atọ mee nlele sitiu ya , E mecha, mgbe ọ gara idozi tebulu, o nwere ngụkọta ngaji iri na abụọ. Ngaji ole dị n'ime ngwugwu Julia zụtara?",
+  "original_answer": 10,
+  "question_template": "{name_female, Julia} na-akwado oriri nri abali n'ụlọ ya, ebe obu na uche ka o keé sitiu. Ọ chọpụtara na o nweghịzị ngaji plasitiki, n'ihi ya ọ zụtara ngwugwu ngaji ohụụ. E mechaa, di ya zụtakwara ngwugwu ngaji ọhụụ {num_digit_1, 5} ma nye ha {name_female, Julia}. Mgbe {name_female, Julia} na-esi sitiu ahụ, o ji ngaji {num_text_1, atọ} mee nlele sitiu ya. E mecha, mgbe ọ gara idozi tebulu, o nwere ngụkọta ngaji {num_digit_2, 12}. Ngaji ole dị n'ime ngwugwu {name_female, Julia} zụtara?",
+  "question_solution": "answer = num_digit_2 + k - num_digit_1   # k is the numeric value corresponding to num_text_1 (e.g., three → 3, four → 4, …)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 + k - num_digit_1",
+    "answer > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Julia"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      8,
+      10,
+      12,
+      7,
+      20,
+      14,
+      5,
+      25,
+      18,
+      30
+    ],
+    "num_digit_2": [
+      15,
+      25,
+      30,
+      23,
+      50,
+      40,
+      20,
+      60,
+      42,
+      80
+    ],
+    "num_text_1": [
+      "Anọ",
+      "ise",
+      "isii",
+      "asatọ",
+      "Iri",
+      "itoolu",
+      "isii",
+      "asatọ",
+      "asaa",
+      "iri na abụọ"
+    ],
+    "answer": [
+      11,
+      20,
+      24,
+      24,
+      40,
+      35,
+      21,
+      43,
+      31,
+      62
+    ],
+    "num_ic": [
+      19,
+      47,
+      29,
+      96,
+      185,
+      128,
+      53,
+      213,
+      152,
+      263
+    ]
+  },
+  "ic_question_template": "Nwanne nne {name_female, Julia} bịara na onyinye akwa-napkin {num_ic, 60}. {name_female, Julia} na-akwado oriri nri abali n'ụlọ ya, ebe obu na uche ka o keé sitiu. Ọ chọpụtara na o nweghịzị ngaji plasitiki, n'ihi ya ọ zụtara ngwugwu ngaji ohụụ. E mechaa, di ya zụtakwara ngwugwu ngaji ọhụụ {num_digit_1, 5} ma nye ha {name_female, Julia}. Mgbe {name_female, Julia} na-esi sitiu ahụ, o ji ngaji {num_text_1, atọ} mee nlele sitiu ya. E mecha, mgbe ọ gara idozi tebulu, o nwere ngụkọta ngaji {num_digit_2, 12}. Ngaji ole dị n'ime ngwugwu {name_female, Julia} zụtara?",
+  "ic_sentence": "Nwanne nne {name_female, Julia} bịara na onyinye akwa-napkin {num_ic, 60}."
+}

@@ -1,0 +1,91 @@
+{
+  "original_question": "Stephen ra ọjà lórí ẹ̀rọ ayélujára fún àwọn ohun tí ẹnu ń jẹ. Àpapọ̀ owó rẹ̀ kú sí $40.00. Nítorí èyí wá láti ọ̀dọ afi ọjà ránṣẹ́, wọ́n fi 25% owó kún àpapọ̀ owó rẹ̀ wọ́n sì bèrè $3.00 lọ́wọ́ rẹ̀ fún owó ìfiránṣẹ́. Stephen tún fi $4.00 owó ìjẹ kún-un. Lẹ́yìn àfikún owó náà, èlò ní pààpin iye owó ọjà tí Stephen rà?",
+  "original_answer": 57,
+  "question_template": "{name_male, Stephen} ra ọjà lórí ẹ̀rọ ayélujára fún àwọn ohun tí ẹnu ń jẹ. Àpapọ̀ owó rẹ̀ kú sí ${num_digit_1, 40.00}. Nítorí èyí wá láti ọ̀dọ afi ọjà ránṣẹ́, wọ́n fi {num_digit_2, 25}% owó kún àpapọ̀ owó rẹ̀ wọ́n sì bèrè ${num_digit_3, 3.00} lọ́wọ́ rẹ̀ fún owó ìfiránṣẹ́. Stephen tún fi ${num_digit_4, 4.00} owó ìjẹ kún-un. Lẹ́yìn àfikún owó náà, èlò ní pààpin iye owó ọjà tí {name_male, Stephen} rà?",
+  "question_solution": "answer = num_digit_1 * (1 + num_digit_2/100) + num_digit_3 + num_digit_4",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 + num_digit_2/100) + num_digit_3 + num_digit_4",
+    "num_digit_1 * num_digit_2 % 100 == 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Stephen"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      30,
+      40,
+      35,
+      32,
+      50,
+      45,
+      38,
+      25,
+      100,
+      75
+    ],
+    "num_digit_2": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      40,
+      50,
+      12,
+      18,
+      24
+    ],
+    "num_digit_3": [
+      5,
+      3,
+      2,
+      7,
+      9,
+      1,
+      11,
+      6,
+      8,
+      10
+    ],
+    "num_digit_4": [
+      4,
+      6,
+      8,
+      3,
+      5,
+      10,
+      2,
+      7,
+      12,
+      9
+    ],
+    "answer": [
+      42,
+      55,
+      52,
+      50,
+      79,
+      74,
+      70,
+      41,
+      138,
+      112
+    ],
+    "num_ic": [
+      84,
+      36,
+      343,
+      909,
+      517,
+      110,
+      296,
+      402,
+      291,
+      544
+    ]
+  },
+  "ic_question_template": "Ìyá ńlá {name_male, Stephen} ra ọ̀gẹ̀dẹ̀ {num_ic, 41} ní àná. {name_male, Stephen} ra ọjà lórí ẹ̀rọ ayélujára fún àwọn ohun tí ẹnu ń jẹ. Àpapọ̀ owó rẹ̀ kú sí ${num_digit_1, 40.00}. Nítorí èyí wá láti ọ̀dọ afi ọjà ránṣẹ́, wọ́n fi {num_digit_2, 25}% owó kún àpapọ̀ owó rẹ̀ wọ́n sì bèrè ${num_digit_3, 3.00} lọ́wọ́ rẹ̀ fún owó ìfiránṣẹ́. Stephen tún fi ${num_digit_4, 4.00} owó ìjẹ kún-un. Lẹ́yìn àfikún owó náà, èlò ní pààpin iye owó ọjà tí {name_male, Stephen} rà?",
+  "ic_sentence": "Ìyá ńlá {name_male, Stephen} ra ọ̀gẹ̀dẹ̀ {num_ic, 41} ní àná."
+}

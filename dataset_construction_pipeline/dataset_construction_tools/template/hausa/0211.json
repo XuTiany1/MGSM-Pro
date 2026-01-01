@@ -1,0 +1,94 @@
+{
+  "original_question": "Jerry yana da garken kaji. Jajayen kaji suna yin kwayaye 3 a rana, sannan fararen kaji na yin kwayaye 5 a rana. A kullum Jerry yana tara kwayaye 42. Idan yana da kaji farare guda biyu fiye da jajayen kaji, kaji nawa yake dasu?",
+  "original_answer": 4,
+  "question_template": "{name_male, Jerry} yana da garken kaji. Jajayen kaji suna yin kwayaye {num_digit_1, 3} a rana, sannan fararen kaji na yin kwayaye {num_digit_2, 5} a rana. A kullum {name_male, Jerry} yana tara kwayaye {num_digit_3, 42}. Idan yana da kaji farare guda {num_text_1, biyu} fiye da jajayen kaji, kaji nawa yake dasu?",
+  "question_solution": "answer = (num_digit_3 - f1 * num_digit_2) / (num_digit_1 + num_digit_2)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_3 - f1 * num_digit_2) / (num_digit_1 + num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "f1 > 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jerry"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      9,
+      12,
+      13,
+      5,
+      14,
+      11,
+      4,
+      16,
+      17
+    ],
+    "num_digit_2": [
+      11,
+      14,
+      8,
+      17,
+      9,
+      6,
+      10,
+      15,
+      12,
+      13
+    ],
+    "num_text_1": [
+      "uku",
+      "hudu",
+      "biyar",
+      "shida",
+      "bakwai",
+      "Takwas",
+      "tara",
+      "Goma",
+      "goma sha ɗaya",
+      "sha biyu"
+    ],
+    "num_digit_3": [
+      267,
+      447,
+      540,
+      672,
+      371,
+      668,
+      699,
+      435,
+      888,
+      1146
+    ],
+    "answer": [
+      13,
+      17,
+      25,
+      19,
+      22,
+      31,
+      29,
+      15,
+      27,
+      33
+    ],
+    "num_ic": [
+      72,
+      105,
+      32,
+      110,
+      86,
+      62,
+      180,
+      121,
+      144,
+      174
+    ]
+  },
+  "ic_question_template": "Gwaggon {name_male, Jerry} tana da agwagi {num_ic, 54} a gonarta. {name_male, Jerry} yana da garken kaji. Jajayen kaji suna yin kwayaye {num_digit_1, 3} a rana, sannan fararen kaji na yin kwayaye {num_digit_2, 5} a rana. A kullum {name_male, Jerry} yana tara kwayaye {num_digit_3, 42}. Idan yana da kaji farare guda {num_text_1, biyu} fiye da jajayen kaji, kaji nawa yake dasu?",
+  "ic_sentence": "Gwaggon {name_male, Jerry} tana da agwagi {num_ic, 54} a gonarta."
+}

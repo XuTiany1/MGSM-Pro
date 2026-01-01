@@ -1,0 +1,68 @@
+{
+  "original_question": "Ram de twerɛdua bebree di dwuma paa. Ohui sɛ obetumi de sika asie obetumi di adubiri afra twerɛdua enum a hwee nnim mu de ayɛ pɛn baako. Sɛ ɔtɔ twerɛdua bebree 25 na afei momfa wɔn nyɛ twerɛdua foforɔ berɛ a adubiri tintim no asa, twerɛdua bebree dodoɔ ahe na obenya?",
+  "original_answer": 31,
+  "question_template": "{name_male, Ram} de twerɛdua bebree di dwuma paa. Ohui sɛ obetumi de sika asie obetumi di adubiri afra twerɛdua {num_text_1, enum} a hwee nnim mu de ayɛ pɛn baako. Sɛ ɔtɔ twerɛdua bebree {num_digit_1, 25} na afei momfa wɔn nyɛ twerɛdua foforɔ berɛ a adubiri tintim no asa, twerɛdua bebree dodoɔ ahe na obenya?",
+  "question_solution": "answer = num_digit_1 + (num_digit_1 - f1) / (f1 - 1)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + (num_digit_1 - f1) / (f1 - 1)",
+    "f1 > 1",
+    "num_digit_1 >= f1",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Ram"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "nsia",
+      "Nson",
+      "nwɔtwe",
+      "nkron",
+      "du",
+      "duakoɔ baako",
+      "dunan",
+      "du-mienu",
+      "dunananan",
+      "du-num"
+    ],
+    "num_digit_1": [
+      1501,
+      1801,
+      2003,
+      3001,
+      5005,
+      10001,
+      12343,
+      9997,
+      13716,
+      14015
+    ],
+    "answer": [
+      1799,
+      2099,
+      2287,
+      3375,
+      5560,
+      10999,
+      13463,
+      10829,
+      14768,
+      15015
+    ],
+    "num_ic": [
+      309,
+      1367,
+      2019,
+      5053,
+      6590,
+      2287,
+      11353,
+      13408,
+      10986,
+      9108
+    ]
+  },
+  "ic_question_template": "{name_male, Ram} de twerɛdua bebree di dwuma paa. Ohui sɛ obetumi de sika asie obetumi di adubiri afra twerɛdua {num_text_1, enum} a hwee nnim mu de ayɛ pɛn baako. Sɛ ɔtɔ twerɛdua bebree {num_digit_1, 25} na afei momfa wɔn nyɛ twerɛdua foforɔ berɛ a adubiri tintim no asa, twerɛdua bebree dodoɔ ahe na obenya? {name_male, Ram} wɔfa tɔɔ nsɛm kyerɛw nwoma {num_ic, 13408} da koro bi a wɔ tee so maa no.",
+  "ic_sentence": "{name_male, Ram} wɔfa tɔɔ nsɛm kyerɛw nwoma {num_ic, 13408} da koro bi a wɔ tee so maa no."
+}

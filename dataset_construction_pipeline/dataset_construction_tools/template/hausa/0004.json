@@ -1,0 +1,103 @@
+{
+  "original_question": "Kowace rana Wendi tana ciyar da kowace kazar ta kofi kofi uku na gaurayen abincin kaji, mai dauke da iri, sinadarin gina jikin kaji da kayan marmari don samun lafiya. Tana ba kajin abincinsu sau uku. Da safe ta ba garken kajin abinci kofi 15. Da rana ta sake ba kajinta abinci kofi 25. Kofuna nawa na abinci take bukata dan bawa kajinta a abincin karshen rana idan girman garken Wendi ya kai kaji 20?",
+  "original_answer": 20,
+  "question_template": "Kowace rana {name_female, Wendi} tana ciyar da kowace kazar ta kofi {num_text_1, uku} na gaurayen abincin kaji, mai dauke da hatsi, tsutsotsi da kayan lambu don tabbatar lafiyarsu. Tana ba kajin abincinsu a lokuta {num_text_2, uku}. Da safe ta ba garken kajin abinci kofi {num_digit_1, 15}. Da rana ta sake ba kajinta kofuna {num_digit_2, 25} na abinci . Kofuna nawa na abinci take bukata dan bawa kajinta a abinci na ƙarshe a rana idan girman garken {name_female, Wendi} ya kai kaji {num_digit_3, 20}?",
+  "question_solution": "answer = num_text_1 * num_digit_3 - num_digit_1 - num_digit_2",
+  "conditions": [
+    "int(answer) == num_text_1 * num_digit_3 - num_digit_1 - num_digit_2",
+    "answer > 0",
+    "num_text_1 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Wendi"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "goma sha ɗaya",
+      "Goma sha uku",
+      "sha shida da daya",
+      "sha tara",
+      "ashirin da uku",
+      "ashirin da tara",
+      "talatin da ɗaya",
+      "talatin da bakwai",
+      "arba’in da ɗaya",
+      "arba’in da uku"
+    ],
+    "num_text_2": [
+      "uku",
+      "uku",
+      "uku",
+      "uku",
+      "uku",
+      "uku",
+      "uku",
+      "uku",
+      "uku",
+      "uku"
+    ],
+    "num_digit_1": [
+      118,
+      176,
+      160,
+      231,
+      322,
+      446,
+      520,
+      672,
+      782,
+      880
+    ],
+    "num_digit_2": [
+      217,
+      322,
+      292,
+      422,
+      589,
+      816,
+      950,
+      1227,
+      1429,
+      1607
+    ],
+    "num_digit_3": [
+      47,
+      59,
+      41,
+      53,
+      61,
+      67,
+      73,
+      79,
+      83,
+      89
+    ],
+    "answer": [
+      182,
+      269,
+      245,
+      354,
+      492,
+      681,
+      793,
+      1024,
+      1192,
+      1340
+    ],
+    "num_ic": [
+      68,
+      431,
+      200,
+      136,
+      233,
+      569,
+      326,
+      743,
+      693,
+      674
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Wendi} ya tattara ƙwayaye {num_ic, 69} daga akurkinsa jiya. Kowace rana {name_female, Wendi} tana ciyar da kowace kazar ta kofi {num_text_1, uku} na gaurayen abincin kaji, mai dauke da hatsi, tsutsotsi da kayan lambu don tabbatar lafiyarsu. Tana ba kajin abincinsu a lokuta {num_text_2, uku}. Da safe ta ba garken kajin abinci kofi {num_digit_1, 15}. Da rana ta sake ba kajinta kofuna {num_digit_2, 25} na abinci . Kofuna nawa na abinci take bukata dan bawa kajinta a abinci na ƙarshe a rana idan girman garken {name_female, Wendi} ya kai kaji {num_digit_3, 20}?",
+  "ic_sentence": "Kawun {name_female, Wendi} ya tattara ƙwayaye {num_ic, 69} daga akurkinsa jiya."
+}

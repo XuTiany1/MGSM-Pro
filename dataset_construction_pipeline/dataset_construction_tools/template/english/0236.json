@@ -1,0 +1,68 @@
+{
+  "original_question": "Ram uses a lot of pens. He discovered that he can save money by mixing the ink from five empty pens to make one full pen. If he buys 25 pens and then uses them to make new pens when the ink runs low, how many total pens does he get to have?",
+  "original_answer": 31,
+  "question_template": "{name_male, Ram} uses a lot of pens. He discovered that he can save money by mixing the ink from {num_text_1, five} empty pens to make one full pen. If he buys {num_digit_1, 25} pens and then uses them to make new pens when the ink runs low, how many total pens does he get to have?",
+  "question_solution": "answer = num_digit_1 + (num_digit_1 - f1) / (f1 - 1)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + (num_digit_1 - f1) / (f1 - 1)",
+    "f1 > 1",
+    "num_digit_1 >= f1",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Ram"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "six",
+      "seven",
+      "eight",
+      "nine",
+      "ten",
+      "eleven",
+      "twelve",
+      "thirteen",
+      "fourteen",
+      "fifteen"
+    ],
+    "num_digit_1": [
+      1501,
+      1801,
+      2003,
+      3001,
+      5005,
+      10001,
+      12343,
+      9997,
+      13716,
+      14015
+    ],
+    "answer": [
+      1799,
+      2099,
+      2287,
+      3375,
+      5560,
+      10999,
+      13463,
+      10829,
+      14768,
+      15015
+    ],
+    "num_ic": [
+      309,
+      1367,
+      2019,
+      5053,
+      6590,
+      2287,
+      11353,
+      13408,
+      10986,
+      9108
+    ]
+  },
+  "ic_question_template": "{name_male, Ram} uses a lot of pens. He discovered that he can save money by mixing the ink from {num_text_1, five} empty pens to make one full pen. If he buys {num_digit_1, 25} pens and then uses them to make new pens when the ink runs low, {name_male, Ram}'s uncle once bought {num_ic, 13408} notebooks at a discount. How many total pens does he get to have?",
+  "ic_sentence": "{name_male, Ram}'s uncle once bought {num_ic, 13408} notebooks at a discount."
+}

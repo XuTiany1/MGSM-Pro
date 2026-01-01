@@ -1,0 +1,69 @@
+{
+  "original_question": "Toulouse a deux fois plus de moutons que Charleston. Charleston en a 4 fois plus que Seattle. Si Seattle a 20 moutons, combien de moutons Toulouse, Charleston et Seattle ont-ils au total ?",
+  "original_answer": 260,
+  "question_template": "{name_city_1, Toulouse} a {num_text_1, deux fois} plus de moutons que {name_city_2, Charleston}. {name_city_2, Charleston} en a {num_digit_1, 4} fois plus que {name_city_3, Seattle}. Si {name_city_3, Seattle} a {num_digit_2, 20} moutons, combien de moutons {name_city_1, Toulouse}, {name_city_2, Charleston} et {name_city_3, Seattle} ont-ils au total ?",
+  "question_solution": "answer = (1 + num_digit_1 + NUM(num_text_1) * num_digit_1) * num_digit_2",
+  "conditions": [
+    "int(answer) == (1 + num_digit_1 + NUM(num_text_1) * num_digit_1) * num_digit_2",
+    "NUM(num_text_1) > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_city_1": "Toulouse",
+    "name_city_2": "Charleston",
+    "name_city_3": "Seattle"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "deux fois",
+      "trois fois",
+      "cinq fois",
+      "sept fois",
+      "six fois",
+      "quatre fois",
+      "huit fois",
+      "neuf fois",
+      "dix fois",
+      "onze fois"
+    ],
+    "num_digit_1": [
+      3,
+      5,
+      7,
+      4,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "num_digit_2": [
+      15,
+      20,
+      25,
+      13,
+      22,
+      18,
+      30,
+      17,
+      21,
+      19
+    ],
+    "answer": [
+      150,
+      420,
+      1075,
+      429,
+      946,
+      738,
+      2460,
+      1717,
+      2562,
+      2755
+    ]
+  },
+  "ic_question_template": "{name_city_2, Charleston} a une ville voisine qui élève {num_ic, 41} chèvres à proximité. {name_city_1, Toulouse} a {num_text_1, deux fois} plus de moutons que {name_city_2, Charleston}. {name_city_2, Charleston} en a {num_digit_1, 4} fois plus que {name_city_3, Seattle}. Si {name_city_3, Seattle} a {num_digit_2, 20} moutons, combien de moutons {name_city_1, Toulouse}, {name_city_2, Charleston} et {name_city_3, Seattle} ont-ils au total ?",
+  "ic_sentence": "{name_city_2, Charleston} a une ville voisine qui élève {num_ic, 41} chèvres à proximité."
+}

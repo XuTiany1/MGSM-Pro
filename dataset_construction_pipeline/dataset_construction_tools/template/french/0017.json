@@ -1,0 +1,93 @@
+{
+  "original_question": "Jill gagne 20 $ de l'heure en tant qu'enseignante et 30 $ comme entraineuse de majorettes. Si elle travaille 35 heures par semaine en tant qu'enseignante, 15 heures par semaine comme entraineuse et 50 semaines par an, quel est son salaire annuel ?",
+  "original_answer": 57500,
+  "question_template": "{name_female, Jill} gagne {num_digit_1, 20} $ de l'heure en tant qu'enseignante et {num_digit_2, 30} $ comme entraineuse de majorettes. Si elle travaille {num_digit_4, 35} heures par semaine en tant qu'enseignante, {num_digit_5, 15} heures par semaine comme entraineuse et {num_digit_3, 50} semaines par an, quel est son salaire annuel ?",
+  "question_solution": "answer = (num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5) * num_digit_3",
+  "conditions": [
+    "int(answer) == (num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5) * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Jill"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "num_digit_2": [
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97,
+      101,
+      103,
+      107
+    ],
+    "num_digit_3": [
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "num_digit_4": [
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "num_digit_5": [
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "answer": [
+      53016,
+      78122,
+      115286,
+      157014,
+      213060,
+      296212,
+      360182,
+      475264,
+      580668,
+      697226
+    ]
+  },
+  "ic_question_template": "{name_female, Jill} a un oncle qui a récemment adopté {num_ic, 127} chiots. {name_female, Jill} gagne {num_digit_1, 20} $ de l'heure en tant qu'enseignante et {num_digit_2, 30} $ comme entraineuse de majorettes. Si elle travaille {num_digit_4, 35} heures par semaine en tant qu'enseignante, {num_digit_5, 15} heures par semaine comme entraineuse et {num_digit_3, 50} semaines par an, quel est son salaire annuel ?",
+  "ic_sentence": "{name_female, Jill} a un oncle qui a récemment adopté {num_ic, 127} chiots."
+}

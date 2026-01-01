@@ -1,0 +1,82 @@
+{
+  "original_question": "乔的万圣节糖果包里面有 25 根巧克力棒和 80 颗糖渍苹果。每根巧克力棒的重量是每颗糖渍苹果的两倍。如果每根巧克力棒重 40 克，乔的糖果包重多少克？",
+  "original_answer": 2600,
+  "question_template": "{name_male, 乔} 的万圣节糖果包里面有 {num_digit_1, 25} 根巧克力棒和 {num_digit_2, 80} 颗糖渍苹果。每根巧克力棒的重量是每颗糖渍苹果的 {num_text_1, 两倍}。如果每根巧克力棒重 {num_digit_3, 40} 克，{name_male, 乔} 的糖果包重多少克？",
+  "question_solution": "answer = num_digit_1 * num_digit_3 + num_digit_2 * (num_digit_3 / f1)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_3 + num_digit_2 * (num_digit_3 / f1)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "f1 > 0",
+    "num_digit_3 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Joe"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      116,
+      53,
+      50,
+      135,
+      66,
+      106,
+      189,
+      70,
+      175,
+      191
+    ],
+    "num_digit_2": [
+      131,
+      147,
+      413,
+      224,
+      197,
+      222,
+      329,
+      263,
+      155,
+      249
+    ],
+    "num_text_1": [
+      "一又二分之一",
+      "二又三分之一",
+      "四分之三",
+      "五分之四",
+      "六分之五",
+      "八分之七",
+      "十分之九",
+      "十二分之十一",
+      "十四分之十三",
+      "十八分之十七"
+    ],
+    "num_digit_3": [
+      54,
+      91,
+      48,
+      44,
+      95,
+      35,
+      27,
+      187,
+      130,
+      68
+    ],
+    "answer": [
+      10980,
+      10556,
+      28832,
+      18260,
+      28728,
+      12590,
+      14973,
+      66742,
+      44450,
+      30916
+    ]
+  },
+  "ic_question_template": "{name_male, 乔} 的叔叔为了聚会买了 {num_ic, 112} 根棒棒糖。{name_male, 乔} 的万圣节糖果包里面有 {num_digit_1, 25} 根巧克力棒和 {num_digit_2, 80} 颗糖渍苹果。每根巧克力棒的重量是每颗糖渍苹果的 {num_text_1, 两倍}。如果每根巧克力棒重 {num_digit_3, 40} 克，{name_male, 乔} 的糖果包重多少克？",
+  "ic_sentence": "{name_male, 乔} 的叔叔为了聚会买了 {num_ic, 112} 根棒棒糖。"
+}

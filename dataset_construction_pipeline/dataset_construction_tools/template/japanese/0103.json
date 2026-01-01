@@ -1,0 +1,66 @@
+{
+  "original_question": "海から流れてくる霧堤が、街を覆う。街の3マイルを覆うごとに10分かかる。もしも街が、海辺から反対の陸の端まで42マイルなら、街全体を霧が覆うまでに何分かかる？",
+  "original_answer": 140,
+  "question_template": "海から流れてくる霧堤が、街を覆う。街の{num_digit_2, 3}マイルを覆うごとに{num_digit_1, 10}分かかる。もしも街が、海辺から反対の陸の端まで{num_digit_3, 42}マイルなら、街全体を霧が覆うまでに何分かかる？",
+  "question_solution": "answer = num_digit_1 * (num_digit_3 / num_digit_2)",
+  "conditions": [
+    "int(answer) == num_digit_1 * (num_digit_3 / num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_3 % num_digit_2 == 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      12,
+      9,
+      15,
+      8,
+      11,
+      13,
+      18,
+      16,
+      21
+    ],
+    "num_digit_2": [
+      4,
+      5,
+      6,
+      7,
+      9,
+      8,
+      11,
+      12,
+      20,
+      14
+    ],
+    "num_digit_3": [
+      68,
+      85,
+      108,
+      105,
+      63,
+      88,
+      99,
+      96,
+      100,
+      112
+    ],
+    "answer": [
+      119,
+      204,
+      162,
+      225,
+      56,
+      121,
+      117,
+      144,
+      80,
+      168
+    ]
+  },
+  "ic_question_template": "{name_male, ビリー}のおじさんはその朝、{num_ic, 96}隻のヨットが港を出ていくのを見かけました。海から流れてくる霧堤が、街を覆う。街の{num_digit_2, 3}マイルを覆うごとに{num_digit_1, 10}分かかる。もしも街が、海辺から反対の陸の端まで{num_digit_3, 42}マイルなら、街全体を霧が覆うまでに何分かかる？",
+  "ic_sentence": "{name_male, ビリー}のおじさんはその朝、{num_ic, 96}隻のヨットが港を出ていくのを見かけました。"
+}

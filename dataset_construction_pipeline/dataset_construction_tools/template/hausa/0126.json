@@ -1,0 +1,66 @@
+{
+  "original_question": "Dylan yana buƙatar niƙaƙƙen naman kaza da kifi na don yin buns a wani biki. Ya siyo niƙaƙƙen naman kaza 38 da na kifi, amma na kifin yafi na kazar da guda 6. niƙaƙƙen nama nawa Dylan ya saya duka?",
+  "original_answer": 82,
+  "question_template": "{name_male, Dylan} yana buƙatar niƙaƙƙen naman kaza da kifi na don yin buns a wani biki. Ya siyo niƙaƙƙen naman kaza {num_digit_1, 38} da na kifi, amma na kifin yafi na kazar da guda {num_digit_2, 6}. niƙaƙƙen nama nawa {name_male, Dylan} ya saya duka?",
+  "question_solution": "answer = 2 * num_text_1 + num_text_2",
+  "conditions": [
+    "int(answer) == 2 * num_text_1 + num_text_2",
+    "num_text_1 > 0",
+    "num_text_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Dylan"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      41,
+      57,
+      63,
+      75,
+      88,
+      97,
+      102,
+      119,
+      135,
+      150
+    ],
+    "num_digit_2": [
+      9,
+      13,
+      15,
+      18,
+      21,
+      27,
+      33,
+      45,
+      50,
+      60
+    ],
+    "answer": [
+      91,
+      127,
+      141,
+      168,
+      197,
+      221,
+      237,
+      283,
+      320,
+      360
+    ],
+    "num_ic": [
+      84,
+      570,
+      403,
+      96,
+      227,
+      370,
+      345,
+      623,
+      304,
+      742
+    ]
+  },
+  "ic_question_template": "Kawun {name_male, Dylan} ya kawo kwalabe {num_ic, 62} na lemun zaki. {name_male, Dylan} yana buƙatar niƙaƙƙen naman kaza da kifi na don yin buns a wani biki. Ya siyo niƙaƙƙen naman kaza {num_digit_1, 38} da na kifi, amma na kifin yafi na kazar da guda {num_digit_2, 6}. niƙaƙƙen nama nawa {name_male, Dylan} ya saya duka?",
+  "ic_sentence": "Kawun {name_male, Dylan} ya kawo kwalabe {num_ic, 62} na lemun zaki."
+}

@@ -1,0 +1,93 @@
+{
+  "original_question": "Carl na-azụta pakeeti achịcha kuki iri. Otunaotu pakeeti ndị ahụ nwere achịcha isii n'ịme. Otunaotu achịcha na-ada $0.10. Ego mgbanew ole ka Carl ga-anata ma ọ bụrụ n' o jiri akwụkwọ ego $10 kwụọ ụgwọ? ",
+  "original_answer": 4,
+  "question_template": "{name_male, Carl} na-azụta pakeeti achịcha kuki {num_text_1, iri}. Otunaotu pakeeti ndị ahụ nwere achịcha {num_text_2, isii} n'ịme. Otunaotu achịcha na-ada ${num_digit_1, 0.10}. Ego mgbanew ole ka {name_male, Carl} ga-anata ma ọ bụrụ n' o jiri akwụkwọ ego ${num_digit_2, 10} kwụọ ụgwọ?",
+  "question_solution": "answer = num_digit_2 - num_text_1 * num_text_2 * num_digit_1",
+  "conditions": [
+    "answer == num_digit_2 - num_text_1 * num_text_2 * num_digit_1",
+    "answer % 1 == 0",
+    "num_text_1 > 0",
+    "num_text_2 > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > num_text_1 * num_text_2 * num_digit_1"
+  ],
+  "variable_word_list": {
+    "name_male": "Carl"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "Atọ",
+      "ise",
+      "asaa",
+      "isii",
+      "asatọ",
+      "itoolu",
+      "Anọ",
+      "Iri",
+      "iri na otu",
+      "iri na abụọ"
+    ],
+    "num_text_2": [
+      "Anọ",
+      "ise",
+      "isii",
+      "ise",
+      "Iri",
+      "ise",
+      "asaa",
+      "iri na abụọ",
+      "Anọ",
+      "iri na ise"
+    ],
+    "num_digit_1": [
+      0.25,
+      0.2,
+      0.5,
+      0.1,
+      0.25,
+      0.2,
+      0.5,
+      0.1,
+      0.25,
+      0.2
+    ],
+    "num_digit_2": [
+      10,
+      20,
+      40,
+      20,
+      30,
+      25,
+      40,
+      50,
+      60,
+      100
+    ],
+    "answer": [
+      7,
+      15,
+      19,
+      17,
+      10,
+      16,
+      26,
+      38,
+      49,
+      64
+    ],
+    "num_ic": [
+      11,
+      41,
+      28,
+      38,
+      57,
+      33,
+      43,
+      76,
+      49,
+      170
+    ]
+  },
+  "ic_question_template": "Nwanne nne {name_male, Carl} bịara na mmemme ahụ na achịcha mọfịn {num_ic, 31}. {name_male, Carl} na-azụta pakeeti achịcha kuki {num_text_1, iri}. Otunaotu pakeeti ndị ahụ nwere achịcha {num_text_2, isii} n'ịme. Otunaotu achịcha na-ada ${num_digit_1, 0.10}. Ego mgbanew ole ka {name_male, Carl} ga-anata ma ọ bụrụ n' o jiri akwụkwọ ego ${num_digit_2, 10} kwụọ ụgwọ?",
+  "ic_sentence": "Nwanne nne {name_male, Carl} bịara na mmemme ahụ na achịcha mọfịn {num_ic, 31}."
+}

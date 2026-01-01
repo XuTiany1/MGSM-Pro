@@ -1,0 +1,69 @@
+{
+  "original_question": "Na Dolly wɔ nhoma mmienu. Pandora nso wɔ baako. Sɛ Dolly ne Pandora nyinaa kenkan wɔn ho ne wɔn ho nhoma ahoro no a, nhoma dodowɔ ahe na wɔn nyinaa bɛkenkan awie?",
+  "original_answer": 6,
+  "question_template": "Na {name_female_1, Dolly} wɔ nhoma {num_text_1, mmienu}. {name_female_2, Pandora} nso wɔ {num_text_2, baako}. Sɛ {name_female_1, Dolly} ne {name_female_2, Pandora} nyinaa kenkan wɔn ho ne wɔn ho nhoma ahoro no a, nhoma dodowɔ ahe na wɔn nyinaa bɛkenkan awie?",
+  "question_solution": "answer = 2 * (f1 + f2)   # f1 and f2 are the numeric values of num_text_1 and num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == 2 * (f1 + f2)",
+    "f1 > 0",
+    "f2 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Dolly",
+    "name_female_2": "Pandora"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "dunan",
+      "duonu nsia",
+      "aduasa-mienu",
+      "aduonu nkron",
+      "aduasa nsia",
+      "aduɔnan nan",
+      "aduhonu baako",
+      "aduɔson nwɔtwe",
+      "aduɔson num",
+      "aduɔson mmienu"
+    ],
+    "num_text_2": [
+      "mmiɛnsa",
+      "anum",
+      "duakoɔ baako",
+      "du nkron",
+      "aduonu nsia",
+      "aduasa-nson",
+      "aduɔnan",
+      "aduɔson enum",
+      "aduɔson enum",
+      "aduɔson mmienu"
+    ],
+    "answer": [
+      30,
+      44,
+      68,
+      96,
+      126,
+      154,
+      182,
+      254,
+      280,
+      308
+    ],
+    "num_ic": [
+      44,
+      90,
+      154,
+      189,
+      182,
+      390,
+      113,
+      666,
+      725,
+      674
+    ]
+  },
+  "ic_question_template": "{name_female_2, Pandora} wɔfa no wɔ nsɛmma nwoma {num_ic, 674}. {name_female_1, Dolly} wɔ nhoma {num_text_1, mmienu}. {name_female_2, Pandora} nso wɔ {num_text_2, baako}. Sɛ {name_female_1, Dolly} ne {name_female_2, Pandora} nyinaa kenkan wɔn ho ne wɔn ho nhoma ahoro no a, nhoma dodowɔ ahe na wɔn nyinaa bɛkenkan awie?",
+  "ic_sentence": "{name_female_2, Pandora} wɔfa no wɔ nsɛmma nwoma {num_ic, 674}."
+}

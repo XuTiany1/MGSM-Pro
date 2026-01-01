@@ -1,0 +1,144 @@
+{
+  "original_question": "Marie aliagiza chakula kimoja cha kuku kinachogharimu $12, pakiti 5 za maziwa zinazogharimu $3 kila moja, tufaha 4 zinazogharimu $1.50 kila moja, na maboksi mengine ya pizza. Marie alilipa jumla ya $50. Marie aliagiza maboksi mangapi ya pizza ikiwa kila boksi linagharimu $8.50?",
+  "original_answer": 2,
+  "question_template": "{name_female, Marie} aliagiza chakula {num_text_1, kimoja} cha kuku kinachogharimu ${num_digit_1, 12}, pakiti {num_digit_2, 5} za maziwa zinazogharimu ${num_digit_3, 3} kila moja, tufaha {num_digit_4, 4} zinazogharimu ${num_digit_5, 1.50} kila moja, na maboksi mengine ya pizza. {name_female, Marie} alilipa jumla ya ${num_digit_6, 50}. {name_female, Marie} aliagiza maboksi mangapi ya pizza ikiwa kila boksi linagharimu ${num_digit_7, 8.50}?",
+  "question_solution": "answer = (num_digit_6 - (NUM(num_text_1) * num_digit_1 + num_digit_2 * num_digit_3 + num_digit_4 * num_digit_5)) / num_digit_7",
+  "conditions": [
+    "int(answer) == (num_digit_6 - (NUM(num_text_1) * num_digit_1 + num_digit_2 * num_digit_3 + num_digit_4 * num_digit_5)) / num_digit_7",
+    "NUM(num_text_1) > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0",
+    "num_digit_7 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Marie"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "nane",
+      "kumi na moja",
+      "nane",
+      "tatu",
+      "tano",
+      "tisa",
+      "tisa",
+      "mbili",
+      "nne",
+      "mbili"
+    ],
+    "num_digit_1": [
+      22,
+      35,
+      25,
+      50,
+      45,
+      50,
+      12,
+      50,
+      35,
+      45
+    ],
+    "num_digit_2": [
+      5,
+      8,
+      5,
+      10,
+      6,
+      3,
+      4,
+      4,
+      4,
+      7
+    ],
+    "num_digit_3": [
+      6.5,
+      3.0,
+      4.0,
+      2.0,
+      3.0,
+      6.0,
+      3.5,
+      4.5,
+      2.0,
+      5.0
+    ],
+    "num_digit_4": [
+      3,
+      10,
+      6,
+      3,
+      8,
+      6,
+      6,
+      4,
+      7,
+      4
+    ],
+    "num_digit_5": [
+      3.0,
+      4.0,
+      1.0,
+      4.0,
+      5.0,
+      3.0,
+      3.5,
+      5.0,
+      5.0,
+      5.5
+    ],
+    "num_digit_6": [
+      257.5,
+      559.0,
+      369.0,
+      281.0,
+      393.0,
+      501.0,
+      231.0,
+      190.0,
+      273.0,
+      187.0
+    ],
+    "num_digit_7": [
+      8.0,
+      11.0,
+      13.0,
+      11.0,
+      10.0,
+      5.0,
+      8.0,
+      13.0,
+      9.0,
+      10.0
+    ],
+    "answer": [
+      5,
+      10,
+      11,
+      9,
+      11,
+      3,
+      11,
+      4,
+      10,
+      4
+    ],
+    "num_ic": [
+      11,
+      78,
+      24,
+      138,
+      33,
+      87,
+      21,
+      34,
+      120,
+      86
+    ]
+  },
+  "ic_question_template": "{name_female, Marie} aliagiza chakula {num_text_1, kimoja} cha kuku kinachogharimu ${num_digit_1, 12}, pakiti {num_digit_2, 5} za maziwa zinazogharimu ${num_digit_3, 3} kila moja, tufaha {num_digit_4, 4} zinazogharimu ${num_digit_5, 1.50} kila moja, na maboksi mengine ya pizza. {name_female, Marie} alilipa jumla ya ${num_digit_6, 50}. Binamu wa {name_female, Marie} alinunua hivi karibuni keki za vikombe {num_ic, 128}. {name_female, Marie} aliagiza maboksi mangapi ya pizza ikiwa kila boksi linagharimu ${num_digit_7, 8.50}?",
+  "ic_sentence": "Binamu wa {name_female, Marie} alinunua hivi karibuni keki za vikombe {num_ic, 128}."
+}

@@ -1,0 +1,51 @@
+{
+  "original_question": "አንድ ሻማ በየሰዓቱ በ2 ሴንቲሜትር ይቀልጣል። አንድ ሻማ 1 ፒኤም እስከ 5 ፒኤም ከተቃጠለ በኋላ ስንት ሴንቲሜትር ያነሰ ይሆናል?",
+  "original_answer": 8,
+  "question_template": "አንድ ሻማ በየሰዓቱ በ{num_digit_1, 2} ሴንቲሜትር ይቀልጣል። አንድ ሻማ 1 ፒኤም እስከ 5 ፒኤም ከተቃጠለ በኋላ ስንት ሴንቲሜትር ያነሰ ይሆናል?",
+  "question_solution": "answer = num_digit_1 * 4",
+  "conditions": [
+    "int(answer) == num_digit_1 * 4",
+    "num_digit_1 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      101,
+      103,
+      107,
+      109,
+      113,
+      127,
+      131,
+      137,
+      139,
+      149
+    ],
+    "answer": [
+      404,
+      412,
+      428,
+      436,
+      452,
+      508,
+      524,
+      548,
+      556,
+      596
+    ],
+    "num_ic": [
+      176,
+      367,
+      461,
+      1126,
+      709,
+      1210,
+      627,
+      915,
+      815,
+      1187
+    ]
+  },
+  "ic_question_template": "አንድ ሻማ በየሰዓቱ በ{num_digit_1, 2} ሴንቲሜትር ይቀልጣል። አንድ ሻማ 1 ፒኤም እስከ 5 ፒኤም ከተቃጠለ በኋላ ስንት ሴንቲሜትር ያነሰ ይሆናል? የ{name_female, ኤሚሊ} አጎቷ ወደ ፓርቲው {num_ic, 63} ጨዋታዎች አመጣ።",
+  "ic_sentence": "የ{name_female, ኤሚሊ} አጎቷ ወደ ፓርቲው {num_ic, 63} ጨዋታዎች አመጣ።"
+}

@@ -1,0 +1,97 @@
+{
+  "original_question": "Àpamọ́ Uriah tí ń wúwo jù fún-un. Ó nílò láti yọ póùn 15 kúrò nínú rẹ̀. Àwọn ìwé adẹ́rìnpani rẹ̀ kọ̀ọ̀kan wọ̀n tó póùn 1/4 nígbà tí àwọn ohun ìṣeré kọ̀ọ̀kan wọ̀n tó póùn 1/2. Tí ó bá yọ ìwé adẹ́rìnpani 30 kúrò, ohun ìṣeré mélòó ló nílò láti yọ?",
+  "original_answer": 15,
+  "question_template": "Apamo ikowesi {name_male, Uriah} tí ń wúwo jù fún-un. Ó nílò láti yọ póùn {num_digit_1, 15} kúrò nínú rẹ̀. Àwọn ìwé adẹ́rìnpani rẹ̀ kọ̀ọ̀kan wọ̀n tó póùn {num_frac_1, 1/4} nígbà tí àwọn ohun ìṣeré kọ̀ọ̀kan wọ̀n tó póùn {num_frac_2, 1/2}. Tí ó bá yọ ìwé adẹ́rìnpani {num_digit_2, 30} kúrò, ohun ìṣeré mélòó ló nílò láti yọ?",
+  "question_solution": "answer = (num_digit_1 - num_digit_2 * NUM(num_frac_1)) / NUM(num_frac_2)",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_digit_2 * NUM(num_frac_1)) / NUM(num_frac_2)",
+    "(num_digit_2 * NUM(num_frac_1)).is_integer()",
+    "((num_digit_1 - num_digit_2 * NUM(num_frac_1)) / NUM(num_frac_2)).is_integer()",
+    "num_digit_1 > num_digit_2 * NUM(num_frac_1)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1",
+    "NUM(num_frac_2) > 0",
+    "NUM(num_frac_2) < 1"
+  ],
+  "variable_word_list": {
+    "name_male": "Uriah"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15,
+      22,
+      30,
+      24,
+      28,
+      26,
+      19,
+      60,
+      36,
+      50
+    ],
+    "num_frac_1": [
+      "1/4",
+      "3/5",
+      "2/5",
+      "3/8",
+      "1/7",
+      "2/3",
+      "3/10",
+      "3/10",
+      "5/6",
+      "1/2"
+    ],
+    "num_frac_2": [
+      "1/2",
+      "1/3",
+      "2/5",
+      "3/4",
+      "1/5",
+      "1/4",
+      "2/5",
+      "2/3",
+      "1/2",
+      "2/5"
+    ],
+    "num_digit_2": [
+      30,
+      15,
+      25,
+      16,
+      21,
+      9,
+      10,
+      20,
+      12,
+      20
+    ],
+    "answer": [
+      15,
+      39,
+      50,
+      24,
+      125,
+      80,
+      40,
+      81,
+      52,
+      100
+    ],
+    "num_ic": [
+      31,
+      168,
+      98,
+      121,
+      63,
+      193,
+      22,
+      114,
+      76,
+      116
+    ]
+  },
+  "ic_question_template": "Àbúrò bàbá {name_male, Uriah} rí {num_ic, 91} bọ́ọ̀lù ní orí àtààrí ilé rẹ. Apamo ikowesi {name_male, Uriah} tí ń wúwo jù fún-un. Ó nílò láti yọ póùn {num_digit_1, 15} kúrò nínú rẹ̀. Àwọn ìwé adẹ́rìnpani rẹ̀ kọ̀ọ̀kan wọ̀n tó póùn {num_frac_1, 1/4} nígbà tí àwọn ohun ìṣeré kọ̀ọ̀kan wọ̀n tó póùn {num_frac_2, 1/2}. Tí ó bá yọ ìwé adẹ́rìnpani {num_digit_2, 30} kúrò, ohun ìṣeré mélòó ló nílò láti yọ?",
+  "ic_sentence": "Àbúrò bàbá {name_male, Uriah} rí {num_ic, 91} bọ́ọ̀lù ní orí àtààrí ilé rẹ."
+}

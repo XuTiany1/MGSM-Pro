@@ -1,0 +1,81 @@
+{
+  "original_question": "Toulouse tana da ninki biyun tumakin Charleston. Charleston yana da tumaki ninki hudun na Seattle. Tumaki nawa Toulouse, Charleston, da Seattle suke dasu idan Seattle tana da tumaki 20?",
+  "original_answer": 260,
+  "question_template": "{name_city_1, Toulouse} tana da tumaki {num_text_1, ninki biyu} na {name_city_2, Charleston}. {name_city_2, Charleston} yana da tumaki {num_digit_1, ninki huɗu} na {name_city_3, Seattle}. Tumaki nawa {name_city_1, Toulouse}, {name_city_2, Charleston}, da {name_city_3, Seattle} suke dasu idan {name_city_3, Seattle} tana da tumaki {num_digit_2, 20}?",
+  "question_solution": "answer = (1 + num_digit_1 + NUM(num_text_1) * num_digit_1) * num_digit_2",
+  "conditions": [
+    "int(answer) == (1 + num_digit_1 + NUM(num_text_1) * num_digit_1) * num_digit_2",
+    "NUM(num_text_1) > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_city_1": "Toulouse",
+    "name_city_2": "Charleston",
+    "name_city_3": "Seattle"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "sau biyu",
+      "sau uku",
+      "sau biyar",
+      "sau bakwai",
+      "sau shida",
+      "sau hudu",
+      "sau takwas",
+      "sau tara",
+      "sau goma",
+      "sau goma sha ɗaya"
+    ],
+    "num_digit_1": [
+      3,
+      5,
+      7,
+      4,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "num_digit_2": [
+      15,
+      20,
+      25,
+      13,
+      22,
+      18,
+      30,
+      17,
+      21,
+      19
+    ],
+    "answer": [
+      150,
+      420,
+      1075,
+      429,
+      946,
+      738,
+      2460,
+      1717,
+      2562,
+      2755
+    ],
+    "num_ic": [
+      41,
+      66,
+      69,
+      75,
+      14,
+      107,
+      93,
+      104,
+      89,
+      78
+    ]
+  },
+  "ic_question_template": "Garin da ke kusa da {name_city_2, Charleston} yana kiwon awaki {num_ic, 41} a wajen. {name_city_1, Toulouse} tana da tumaki {num_text_1, ninki biyu} na {name_city_2, Charleston}. {name_city_2, Charleston} yana da tumaki {num_digit_1, ninki huɗu} na {name_city_3, Seattle}. Tumaki nawa {name_city_1, Toulouse}, {name_city_2, Charleston}, da {name_city_3, Seattle} suke dasu idan {name_city_3, Seattle} tana da tumaki {num_digit_2, 20}?",
+  "ic_sentence": "Garin da ke kusa da {name_city_2, Charleston} yana kiwon awaki {num_ic, 41} a wajen."
+}

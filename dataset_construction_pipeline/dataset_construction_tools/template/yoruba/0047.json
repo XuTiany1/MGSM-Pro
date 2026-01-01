@@ -1,0 +1,93 @@
+{
+  "original_question": "John ra ìlọ́po méjì táì pupa tó pọ̀ bíi ti táì olómi aró. Táì pupa náà fi 50% wọ́n ju táì olómi aró lọ. Ó ná $200 lórí táì olómi aró náà tó tó $40 ní ẹyọ kọ̀ọ̀kan. Èló ni ó ná lórí táì?",
+  "original_answer": 800,
+  "question_template": "{name_male, John} ra {num_text_1, ìlọ́po méjì} táì pupa tó pọ̀ bíi ti táì olómi aró. Táì pupa náà fi {num_digit_1, 50}% wọ́n ju táì olómi aró lọ. Ó ná ${num_digit_2, 200} lórí táì olómi aró náà tó tó ${num_digit_3, 40} ní ẹyọ kọ̀ọ̀kan. Èló ni ó ná lórí táì?",
+  "question_solution": "answer = num_digit_2 + num_digit_2 * NUM(num_text_1) * (1 + num_digit_1/100)",
+  "conditions": [
+    "int(answer) == num_digit_2 + num_digit_2 * NUM(num_text_1) * (1 + num_digit_1/100)",
+    "num_digit_2 % num_digit_3 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "NUM(num_text_1) > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "lẹmeji",
+      "Ẹẹ̀ta",
+      "ìkẹrin",
+      "ìgbà márùn-ún",
+      "ẹ̀ẹ̀mefa",
+      "ìgbà márùn-ún",
+      "lẹmeji",
+      "ìkejìlélọ́kànjọ̀jọ",
+      "Ẹẹ̀ta",
+      "lẹmeji"
+    ],
+    "num_digit_1": [
+      50,
+      75,
+      20,
+      40,
+      60,
+      80,
+      100,
+      20,
+      60,
+      50
+    ],
+    "num_digit_2": [
+      200,
+      200,
+      200,
+      200,
+      210,
+      210,
+      300,
+      200,
+      180,
+      240
+    ],
+    "num_digit_3": [
+      40,
+      20,
+      25,
+      50,
+      30,
+      15,
+      60,
+      10,
+      45,
+      80
+    ],
+    "answer": [
+      800,
+      1250,
+      1160,
+      1600,
+      2226,
+      2100,
+      1500,
+      2120,
+      1044,
+      960
+    ],
+    "num_ic": [
+      56,
+      93,
+      38,
+      197,
+      144,
+      100,
+      288,
+      64,
+      114,
+      152
+    ]
+  },
+  "ic_question_template": "Arákùnrin {name_male, John} rí  agbọn wọlé {num_ic, 93} ní tita oúnjẹ ilẹ̀. {name_male, John} ra {num_text_1, ìlọ́po méjì} táì pupa tó pọ̀ bíi ti táì olómi aró. Táì pupa náà fi {num_digit_1, 50}% wọ́n ju táì olómi aró lọ. Ó ná ${num_digit_2, 200} lórí táì olómi aró náà tó tó ${num_digit_3, 40} ní ẹyọ kọ̀ọ̀kan. Èló ni ó ná lórí táì?",
+  "ic_sentence": "Arákùnrin {name_male, John} rí  agbọn wọlé {num_ic, 93} ní tita oúnjẹ ilẹ̀."
+}

@@ -1,0 +1,67 @@
+{
+  "original_question": "ベイリーは最初、ある程度のお金があります。それから彼女は8週間、$5の手当てを毎週受け取ります。8週間の終わりには、彼女が全部で$100持っていたとしたら、ベイリーは最初、いくら持っていましたか？",
+  "original_answer": 60,
+  "question_template": "{name_male, ベイリー}は最初、ある程度のお金があります。それから彼女は{num_digit_2, 8}週間、${num_digit_1, 5}の手当てを毎週受け取ります。{num_digit_2, 8}週間の終わりには、彼女が全部で${num_digit_3, 100}持っていたとしたら、{name_male, ベイリー}は最初、いくら持っていましたか？",
+  "question_solution": "answer = num_digit_3 - num_digit_1 * num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_3 - num_digit_1 * num_digit_2",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= num_digit_1 * num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_male": "Bailey"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      12,
+      4,
+      9,
+      6,
+      8,
+      3,
+      10,
+      11,
+      13
+    ],
+    "num_digit_2": [
+      12,
+      9,
+      15,
+      11,
+      14,
+      13,
+      20,
+      17,
+      16,
+      18
+    ],
+    "num_digit_3": [
+      200,
+      250,
+      180,
+      300,
+      220,
+      190,
+      250,
+      350,
+      400,
+      450
+    ],
+    "answer": [
+      116,
+      142,
+      120,
+      201,
+      136,
+      86,
+      190,
+      180,
+      224,
+      216
+    ]
+  },
+  "ic_question_template": "{name_male, ベイリー}のおばはかつて{num_ic, 56}枚の珍しいコインを集めていました。\n{name_male, ベイリー}は最初、ある程度のお金があります。それから彼女は{num_digit_2, 8}週間、${num_digit_1, 5}の手当てを毎週受け取ります。{num_digit_2, 8}週間の終わりには、彼女が全部で${num_digit_3, 100}持っていたとしたら、{name_male, ベイリー}は最初、いくら持っていましたか？",
+  "ic_sentence": "{name_male, ベイリー}のおばはかつて{num_ic, 56}枚の珍しいコインを集めていました。"
+}

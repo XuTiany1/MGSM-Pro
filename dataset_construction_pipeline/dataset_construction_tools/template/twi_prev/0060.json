@@ -1,0 +1,93 @@
+{
+  "original_question": "Kԑnten bi kuta ankaa 25 a ԑmu 1 asԑe, ԑmu ɔha nkyԑnu aduonu ԑmbereeԑ, mmienu ԑyԑ nnweno na deԑ aka no yԑ papa. Ankaa sԑn na ԑyԑ papa?",
+  "original_answer": 17,
+  "question_template": "Kԑnten bi kuta ankaa {num_digit_1, 25} a ԑmu {num_digit_2, 1} asԑe, ԑmu {num_digit_3, 20}% ԑmbereeԑ, {num_digit_4, 2} ԑyԑ nnweno na deԑ aka no yԑ papa. Ankaa sԑn na ԑyԑ papa?",
+  "question_solution": "answer = num_digit_1 - num_digit_2 - num_digit_1 * num_digit_3 / 100 - num_digit_4",
+  "conditions": [
+    "int(answer) == num_digit_1 - num_digit_2 - num_digit_1 * num_digit_3 / 100 - num_digit_4",
+    "(num_digit_1 * num_digit_3) % 100 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_3 < 100",
+    "num_digit_4 >= 0",
+    "num_digit_2 + num_digit_1 * num_digit_3 / 100 + num_digit_4 <= num_digit_1"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      200,
+      350,
+      120,
+      90,
+      240,
+      180,
+      125,
+      150,
+      400,
+      50
+    ],
+    "num_digit_2": [
+      7,
+      25,
+      0,
+      5,
+      24,
+      9,
+      5,
+      10,
+      8,
+      2
+    ],
+    "num_digit_3": [
+      15,
+      20,
+      25,
+      50,
+      40,
+      45,
+      20,
+      10,
+      12,
+      60
+    ],
+    "num_digit_4": [
+      13,
+      5,
+      10,
+      10,
+      20,
+      20,
+      15,
+      15,
+      12,
+      5
+    ],
+    "answer": [
+      150,
+      250,
+      80,
+      30,
+      100,
+      70,
+      80,
+      110,
+      332,
+      13
+    ],
+    "num_ic": [
+      62,
+      338,
+      39,
+      701,
+      191,
+      479,
+      70,
+      125,
+      327,
+      16
+    ]
+  },
+  "ic_question_template": "{name_female, Aria} wɔfa de apple {num_ic, 68} firii gua so baeɛ. Kԑnten bi kuta ankaa {num_digit_1, 25} a ԑmu {num_digit_2, 1} asԑe, ԑmu {num_digit_3, 20}% ԑmbereeԑ, {num_digit_4, 2} ԑyԑ nnweno na deԑ aka no yԑ papa. Ankaa sԑn na ԑyԑ papa?",
+  "ic_sentence": "{name_female, Aria} wɔfa de apple {num_ic, 68} firii gua so baeɛ."
+}

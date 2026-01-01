@@ -1,0 +1,66 @@
+{
+  "original_question": "Ẹgbẹ́ akọrin náà ń bèèrè fún aṣọ tuntun. Aṣọ kọọkan wá pẹlu fila ti o jẹ $25, iye jákẹ̀tì kan jẹ́ ìlọ́po mẹ́ta iye fìlà kan, iye ṣòkòtò sì jẹ́ ìdajì iye fìlà àti jákẹ̀tì lápapọ̀. Èlò ni iye àpapọ̀ aṣọ kọ̀ọ̀kan jẹ́?",
+  "original_answer": 150,
+  "question_template": "Ẹgbẹ́ akọrin náà ń bèèrè fún aṣọ tuntun. Aṣọ kọọkan wá pẹlu fila ti o jẹ ${num_digit_1, 25}, iye jákẹ̀tì kan jẹ́ ìlọ́po {num_text_1, mẹ́ta} iye fìlà kan, iye ṣòkòtò sì jẹ́ ìdajì iye fìlà àti jákẹ̀tì lápapọ̀. Èlò ni iye àpapọ̀ aṣọ kọ̀ọ̀kan jẹ́?",
+  "question_solution": "answer = num_digit_1 + num_digit_1 * NUM(num_text_1) + (num_digit_1 + num_digit_1 * NUM(num_text_1)) / 2",
+  "conditions": [
+    "answer == num_digit_1 + num_digit_1 * NUM(num_text_1) + (num_digit_1 + num_digit_1 * NUM(num_text_1)) / 2",
+    "num_digit_1 > 0",
+    "NUM(num_text_1) > 0",
+    "(num_digit_1 + num_digit_1 * NUM(num_text_1)) % 2 == 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      123,
+      456,
+      789,
+      1024,
+      2048,
+      4096,
+      5123,
+      6789,
+      8192,
+      10000
+    ],
+    "num_text_1": [
+      "ìkẹfàláàdọrin",
+      "Ìgbà mẹ́sàn-án",
+      "ẹẹ̀gbẹ̀rin méjìlélọ́gọ́rin",
+      "ìkẹtàlá ìgbà",
+      "ìgbà méjeleláàdọ́rin",
+      "ìkànlélógún fún igba",
+      "ìkà méjìlélógún àti mẹ́ta",
+      "ìkànlélógún ìgbà",
+      "ìkẹta-lélogún ìgbà",
+      "ìkẹta-le-mẹẹta (37) igba"
+    ],
+    "answer": [
+      1476,
+      6840,
+      14202,
+      21504,
+      55296,
+      122880,
+      184428,
+      305505,
+      393216,
+      570000
+    ],
+    "num_ic": [
+      307,
+      1650,
+      3298,
+      9472,
+      17825,
+      32179,
+      4142,
+      27155,
+      817,
+      81415
+    ]
+  },
+  "ic_question_template": "Arábìnrin ọdọ jẹ́mọ̀ olórin agbágbo ra àwọn bata ibọwọ {num_ic, 517} fún apá ìlù. Ẹgbẹ́ akọrin náà ń bèèrè fún aṣọ tuntun. Aṣọ kọọkan wá pẹlu fila ti o jẹ ${num_digit_1, 25}, iye jákẹ̀tì kan jẹ́ ìlọ́po {num_text_1, mẹ́ta} iye fìlà kan, iye ṣòkòtò sì jẹ́ ìdajì iye fìlà àti jákẹ̀tì lápapọ̀. Èlò ni iye àpapọ̀ aṣọ kọ̀ọ̀kan jẹ́?",
+  "ic_sentence": "Arábìnrin ọdọ jẹ́mọ̀ olórin agbágbo ra àwọn bata ibọwọ {num_ic, 517} fún apá ìlù."
+}

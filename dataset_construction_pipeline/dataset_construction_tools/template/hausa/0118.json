@@ -1,0 +1,92 @@
+{
+  "original_question": "Wani jami'in kwastam a babban tashar jiragen ruwa na SeaSide clearances ya kidaya kwantena 2 na ababan hawa da aka shigo da su, kowace kwantena akwai abin hawa 5 a ciki. Washegari aka kara kawo wasu kwantenoni, adadin ababan hawar da ke tashar ya zama 30.  kididdige yawan kwantenoni da aka shigo da su a rana ta biyu, dauki cewa dukkan kwantenonin na dauke da ababan hawa 5 5.",
+  "original_answer": 4,
+  "question_template": "Wani jami'in kwastam a babban tashar jiragen ruwa na SeaSide clearances ya kidaya kwantena {num_digit_1, 2} na ababan hawa da aka shigo da su, kowace kwantena akwai abin hawa {num_digit_2, 5} a ciki. Washegari aka kara kawo wasu kwantenoni, adadin ababan hawar da ke tashar ya zama {num_digit_3, 30}. Kididdige yawan kwantenoni da aka shigo da su a rana ta biyu, dauki cewa dukkan kwantenonin na dauke da ababan hawa {num_digit_4, 5}.",
+  "question_solution": "answer = (num_digit_3 - num_digit_1 * num_digit_2) / num_digit_4",
+  "conditions": [
+    "int(answer) == (num_digit_3 - num_digit_1 * num_digit_2) / num_digit_4",
+    "(num_digit_3 - num_digit_1 * num_digit_2) % num_digit_4 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > num_digit_1 * num_digit_2",
+    "num_digit_4 > 0",
+    "num_digit_2 == num_digit_4"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "num_digit_2": [
+      7,
+      6,
+      8,
+      9,
+      4,
+      3,
+      12,
+      11,
+      13,
+      10
+    ],
+    "num_digit_3": [
+      63,
+      54,
+      72,
+      126,
+      64,
+      45,
+      180,
+      165,
+      195,
+      220
+    ],
+    "num_digit_4": [
+      7,
+      6,
+      8,
+      9,
+      4,
+      3,
+      12,
+      11,
+      13,
+      10
+    ],
+    "answer": [
+      6,
+      5,
+      4,
+      8,
+      9,
+      7,
+      6,
+      5,
+      4,
+      10
+    ],
+    "num_ic": [
+      25,
+      93,
+      67,
+      45,
+      61,
+      116,
+      30,
+      69,
+      81,
+      122
+    ]
+  },
+  "ic_question_template": "Ɗan kawun jami’in ne ke gudanar da kwantenoni {num_ic, 68} a wani ɗakin ajiya da ke kusa. Wani jami'in kwastam a babban tashar jiragen ruwa na SeaSide clearances ya kidaya kwantena {num_digit_1, 2} na ababan hawa da aka shigo da su, kowace kwantena akwai abin hawa {num_digit_2, 5} a ciki. Washegari aka kara kawo wasu kwantenoni, adadin ababan hawar da ke tashar ya zama {num_digit_3, 30}. Kididdige yawan kwantenoni da aka shigo da su a rana ta biyu, dauki cewa dukkan kwantenonin na dauke da ababan hawa {num_digit_4, 5}.",
+  "ic_sentence": "Ɗan kawun jami’in ne ke gudanar da kwantenoni {num_ic, 68} a wani ɗakin ajiya da ke kusa."
+}

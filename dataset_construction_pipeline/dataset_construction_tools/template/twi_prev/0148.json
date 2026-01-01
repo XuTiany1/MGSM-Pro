@@ -1,0 +1,105 @@
+{
+  "original_question": "Na Brittany ne  maame kɔɔ tete nneɛma akoraeɛ. Akwannya a wɔde to agua no bo yɛ $12 ma mpanyimfoɔ ne $10 ma mmɔfra. Brittany maame ma sikatua dwumayɛfoɔ no sika a ɔde bɛtɔ abofra ne ɔpanyin tiketi baako. Sɛ ne nsa kaa $8 wɔ sika foforo mu, sika dodoɔ ahe na ɔde maa  sikatua dwumayɛfoɔ no?",
+  "original_answer": 30,
+  "question_template": "Na {name_female, Brittany} ne maame kɔɔ tete nneɛma akoraeɛ. Akwannya a wɔde to agua no bo yɛ ${num_digit_1, 12} ma mpanyimfoɔ ne ${num_digit_2, 10} ma mmɔfra. {name_female, Brittany} maame ma sikatua dwumayɛfoɔ no sika a ɔde bɛtɔ abofra tiketi {num_digit_3, 1} ne ɔpanyin tiketi {num_digit_4, 1} baako. Sɛ ne nsa kaa ${num_digit_5, 8} wɔ sika foforo mu, sika dodoɔ ahe na ɔde maa sikatua dwumayɛfoɔ no?",
+  "question_solution": "answer = num_digit_1 * num_digit_4 + num_digit_2 * num_digit_3 + num_digit_5",
+  "conditions": [
+    "answer == num_digit_1 * num_digit_4 + num_digit_2 * num_digit_3 + num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Brittany"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      14,
+      15,
+      18,
+      20,
+      22,
+      25,
+      27,
+      30,
+      32,
+      35
+    ],
+    "num_digit_2": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      10,
+      16,
+      18,
+      20,
+      22
+    ],
+    "num_digit_3": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      4,
+      2,
+      3,
+      1,
+      2
+    ],
+    "num_digit_4": [
+      1,
+      1,
+      2,
+      2,
+      1,
+      3,
+      2,
+      1,
+      3,
+      2
+    ],
+    "num_digit_5": [
+      5,
+      6,
+      10,
+      8,
+      7,
+      9,
+      15,
+      20,
+      12,
+      18
+    ],
+    "answer": [
+      30,
+      45,
+      85,
+      62,
+      59,
+      124,
+      101,
+      104,
+      128,
+      132
+    ],
+    "num_ic": [
+      31,
+      180,
+      52,
+      46,
+      11,
+      27,
+      36,
+      74,
+      92,
+      320
+    ]
+  },
+  "ic_question_template": "{name_female, Brittany} wɔfa kɔ sraa tete nneɛma akoraeɛ nnawɔtwe a atwa mu na ɔtɔɔ nkratoɔ krataa {num_ic, 31}. Na {name_female, Brittany} ne maame kɔɔ tete nneɛma akoraeɛ. Akwannya a wɔde to agua no bo yɛ ${num_digit_1, 12} ma mpanyimfoɔ ne ${num_digit_2, 10} ma mmɔfra. {name_female, Brittany} maame ma sikatua dwumayɛfoɔ no sika a ɔde bɛtɔ abofra tiketi {num_digit_3, 1} ne ɔpanyin tiketi {num_digit_4, 1} baako. Sɛ ne nsa kaa ${num_digit_5, 8} wɔ sika foforo mu, sika dodoɔ ahe na ɔde maa sikatua dwumayɛfoɔ no?",
+  "ic_sentence": "{name_female, Brittany} wɔfa kɔ sraa tete nneɛma akoraeɛ nnawɔtwe a atwa mu na ɔtɔɔ nkratoɔ krataa {num_ic, 31}."
+}

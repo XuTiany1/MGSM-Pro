@@ -1,0 +1,54 @@
+{
+  "original_question": "ジョンは10匹の犬の面倒を見ています。各犬のために、1日に30分かけて散歩とそれぞれの世話をする必要があります。彼は1週間に何時間、犬の面倒を見ていますか？",
+  "original_answer": 35,
+  "question_template": "{name_male, ジョン} は{num_digit_1, 10}匹の犬の面倒を見ています。各犬のために、1日に{num_frac_1, 半分}かけて散歩とそれぞれの世話をする必要があります。彼は1週間に、犬の面倒を見て何時間を費やしていますか？",
+  "question_solution": "answer = num_digit_1 * NUM(num_frac_1) * 7",
+  "conditions": [
+    "int(answer) == num_digit_1 * NUM(num_frac_1) * 7",
+    "num_digit_1 > 0",
+    "NUM(num_frac_1) > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      12,
+      10,
+      12,
+      10,
+      18,
+      20,
+      20,
+      24,
+      24
+    ],
+    "num_frac_1": [
+      "3分の1",
+      "四分の一",
+      "五分の三",
+      "ろくぶんのご",
+      "五分の四",
+      "三分の二",
+      "四分の三",
+      "十分の九",
+      "8分の7",
+      "12分の11"
+    ],
+    "answer": [
+      28,
+      21,
+      42,
+      70,
+      56,
+      84,
+      105,
+      126,
+      147,
+      154
+    ]
+  },
+  "ic_question_template": "{name_male, ジョン}の姪は{num_ic, 19}匹のウサギを飼っています。{name_male, ジョン} は{num_digit_1, 10}匹の犬の面倒を見ています。各犬のために、1日に{num_frac_1, 半分}かけて散歩とそれぞれの世話をする必要があります。彼は1週間に、犬の面倒を見て何時間を費やしていますか？",
+  "ic_sentence": "{name_male, ジョン}の姪は{num_ic, 19}匹のウサギを飼っています。"
+}

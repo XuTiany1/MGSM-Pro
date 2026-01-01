@@ -1,0 +1,93 @@
+{
+  "original_question": "Meredith ni mwanablogu huria ambaye huandika kuhusu mada za afya na kuwasilishia wateja kila siku kama kazi yake ya muda wote. Makala ya blogu huchukua wastani ya saa 4 kuyafanyia utafiti na kuandika. Wiki iliyopita, aliandika makala 5 Jumatatu na Jumanne akaandika makala mara 2/5 zaidi siku ya Jumatatu. Jumatano, aliandika makala mara mbili ya zaidi ya aliyoandika Jumanne. Piga hesabu ya jumla ya saa alitumia kuandika makala katika siku hizo tatu.",
+  "original_answer": 104,
+  "question_template": "{name_female, Meredith} ni mwanablogu wa kujitegemea anayeandika kuhusu mada za afya na kuwasilishia wateja kila siku kama kazi yake ya kudumu. Makala ya blogu huchukua wastani wa saa {num_digit_1, 4} kuyatafiti na kuyaandika. Wiki iliyopita, aliandika makala {num_digit_2, 5} Jumatatu, na Jumanne akaandika makala mara {num_frac_1, 2/5} zaidi ya alizoandika Jumatatu. Jumatano, aliandika makala mara {num_text_1, mbili} ya alizoandika Jumanne. Hesabu jumla ya saa alizotumia kuandika makala katika siku hizo tatu.",
+  "question_solution": "answer = num_digit_1 * (num_digit_2 + num_digit_2 * (1 + NUM(num_frac_1)) + num_digit_2 * (1 + NUM(num_frac_1)) * NUM(num_text_1))",
+  "conditions": [
+    "int(answer) == num_digit_1 * (num_digit_2 + num_digit_2 * (1 + NUM(num_frac_1)) + num_digit_2 * (1 + NUM(num_frac_1)) * NUM(num_text_1))",
+    "(num_digit_2 * NUM(num_frac_1)).is_integer()",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_text_1) > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Meredith"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      3,
+      2,
+      5,
+      6,
+      2,
+      4,
+      3,
+      5,
+      6
+    ],
+    "num_digit_2": [
+      5,
+      6,
+      9,
+      4,
+      10,
+      9,
+      15,
+      12,
+      20,
+      25
+    ],
+    "num_frac_1": [
+      "2/5",
+      "1/2",
+      "1/3",
+      "3/4",
+      "4/5",
+      "2/3",
+      "3/5",
+      "1/4",
+      "1/5",
+      "2/5"
+    ],
+    "num_text_1": [
+      "Mara mbili",
+      "Mara tatu",
+      "Mara nne",
+      "Mara mbili",
+      "Mara tatu",
+      "Mara mbili",
+      "Mara nne",
+      "Mara tatu",
+      "Mara mbili",
+      "Mara nne"
+    ],
+    "answer": [
+      104,
+      126,
+      138,
+      125,
+      492,
+      108,
+      540,
+      216,
+      460,
+      1200
+    ],
+    "num_ic": [
+      54,
+      16,
+      187,
+      73,
+      141,
+      82,
+      61,
+      221,
+      118,
+      194
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_female, Meredith} alinunua vitabu {num_ic, 54} kuhusu lishe mwezi uliopita. {name_female, Meredith} ni mwanablogu wa kujitegemea anayeandika kuhusu mada za afya na kuwasilishia wateja kila siku kama kazi yake ya kudumu. Makala ya blogu huchukua wastani wa saa {num_digit_1, 4} kuyatafiti na kuyaandika. Wiki iliyopita, aliandika makala {num_digit_2, 5} Jumatatu, na Jumanne akaandika makala mara {num_frac_1, 2/5} zaidi ya alizoandika Jumatatu. Jumatano, aliandika makala mara {num_text_1, mbili} ya alizoandika Jumanne. Hesabu jumla ya saa alizotumia kuandika makala katika siku hizo tatu.",
+  "ic_sentence": "Mjomba wa {name_female, Meredith} alinunua vitabu {num_ic, 54} kuhusu lishe mwezi uliopita."
+}

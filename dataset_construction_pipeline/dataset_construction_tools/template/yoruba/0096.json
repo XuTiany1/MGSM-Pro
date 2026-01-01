@@ -1,0 +1,69 @@
+{
+  "original_question": "Harry Fi wákàtí 9 sùn ní alẹ́ àná. ọ̀rẹ́ rẹ̀ James sùn ìdá méjì nínú mẹ́ta orun tí Harry sùn. wákàtí mélòó síi ní Harry Fi sùn ju James lọ?",
+  "original_answer": 3,
+  "question_template": "{name_male_1, Harry} Fi wákàtí {num_digit_1, 9} sùn ní alẹ́ àná. ọ̀rẹ́ rẹ̀ {name_male_2, James} sùn {num_frac_1, ìdá méjì nínú mẹ́ta} orun tí {name_male_1, Harry} sùn. wákàtí mélòó síi ní {name_male_1, Harry} Fi sùn ju {name_male_2, James} lọ?",
+  "question_solution": "answer = num_digit_1 - NUM(num_frac_1) * num_digit_1",
+  "conditions": [
+    "int(answer) == num_digit_1 - NUM(num_frac_1) * num_digit_1",
+    "(num_digit_1 * NUM(num_frac_1)).is_integer()",
+    "num_digit_1 > 0",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Harry",
+    "name_male_2": "James"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      9,
+      12,
+      15,
+      20,
+      16,
+      14,
+      18,
+      24,
+      25,
+      30
+    ],
+    "num_frac_1": [
+      "2/3",
+      "3/4",
+      "1/5",
+      "3/5",
+      "3/8",
+      "1/7",
+      "5/6",
+      "1/2",
+      "2/5",
+      "4/5"
+    ],
+    "answer": [
+      3,
+      3,
+      12,
+      8,
+      10,
+      12,
+      3,
+      12,
+      15,
+      6
+    ],
+    "num_ic": [
+      19,
+      43,
+      6,
+      124,
+      23,
+      53,
+      78,
+      237,
+      97,
+      261
+    ]
+  },
+  "ic_question_template": "Arákùnrin {name_male_2, James} máa ń ṣe pancakes {num_ic, 19} ní gbogbo ìparí ọ̀ṣè. {name_male_1, Harry} Fi wákàtí {num_digit_1, 9} sùn ní alẹ́ àná. ọ̀rẹ́ rẹ̀ {name_male_2, James} sùn {num_frac_1, ìdá méjì nínú mẹ́ta} orun tí {name_male_1, Harry} sùn. wákàtí mélòó síi ní {name_male_1, Harry} Fi sùn ju {name_male_2, James} lọ?",
+  "ic_sentence": "Arákùnrin {name_male_2, James} máa ń ṣe pancakes {num_ic, 19} ní gbogbo ìparí ọ̀ṣè."
+}

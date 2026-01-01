@@ -1,0 +1,83 @@
+{
+  "original_question": "Mary sen Joan mfeɛ mmienu, a ɔsen Jessa mfeɛ enum. Sɛ Jessa adi mfeɛ aduonu a, ɛnde mmbabaawa mmiɛnsa no mfeɛ dodoɔ yɛ ahe?",
+  "original_answer": 68,
+  "question_template": "{name_female_1, Mary} sen {name_female_2, Joan} mfeɛ {num_text_1, mmienu}, a ɔsen {name_female_3, Jessa} mfeɛ {num_text_2, enum}. Sɛ {name_female_3, Jessa} adi mfeɛ {num_digit_1, aduonu} a, ɛnde mmbabaawa mmiɛnsa no mfeɛ dodoɔ yɛ ahe?",
+  "question_solution": "answer = 3 * num_digit_1 + 2 * f2 - f1  # f1 is the numeric value of num_text_1; f2 of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == 3 * num_digit_1 + 2 * f2 - f1",
+    "f1 > 0",
+    "f2 > 0",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Mary",
+    "name_female_2": "Joan",
+    "name_female_3": "Jessa"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "Nson",
+      "nkron",
+      "duakoɔ baako",
+      "du-mienu",
+      "du-num",
+      "duonu nsia",
+      "du nkron",
+      "aduonu",
+      "aduasa-mienu",
+      "aduonu nkron"
+    ],
+    "num_text_2": [
+      "nsia",
+      "nwɔtwe",
+      "du",
+      "dunan",
+      "dunananan",
+      "du-nsia",
+      "duɔwɔtwe",
+      "aduɔson-num",
+      "aduasa baako",
+      "aduasa nan"
+    ],
+    "num_digit_1": [
+      101,
+      137,
+      149,
+      157,
+      167,
+      179,
+      191,
+      223,
+      241,
+      269
+    ],
+    "answer": [
+      308,
+      418,
+      456,
+      482,
+      514,
+      552,
+      590,
+      699,
+      762,
+      852
+    ],
+    "num_ic": [
+      73,
+      159,
+      41,
+      267,
+      213,
+      139,
+      227,
+      70,
+      162,
+      68
+    ]
+  },
+  "ic_question_template": "{name_female_2, Joan} wɔfa no wɔ basebɔɔllɔ nkrataa {num_ic, 73}. {name_female_1, Mary} sen {name_female_2, Joan} mfeɛ {num_text_1, mmienu}, a ɔsen {name_female_3, Jessa} mfeɛ {num_text_2, enum}. Sɛ {name_female_3, Jessa} adi mfeɛ {num_digit_1, aduonu} a, ɛnde mmbabaawa mmiɛnsa no mfeɛ dodoɔ yɛ ahe?",
+  "ic_sentence": "{name_female_2, Joan} wɔfa no wɔ basebɔɔllɔ nkrataa {num_ic, 73}."
+}

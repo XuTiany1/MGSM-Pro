@@ -1,0 +1,83 @@
+{
+  "original_question": "Iwapo Raymond hufua nguo nusu ya kiwango ambacho Sarah hufua, na Sarah hufua nguo mara 4 zaidi ya David, piga hesabu ya tofauti katika kiwango cha nguo ambazo Raymond na David hufua Sarah akifua pauni 400 za nguo.",
+  "original_answer": 100,
+  "question_template": "Iwapo {name_male_1, Raymond} hufua nguo {num_frac_1, nusu} ya kiwango ambacho {name_female, Sarah} hufua, na {name_female, Sarah} hufua nguo mara {num_digit_1, 4} zaidi ya {name_male_2, David}, piga hesabu ya tofauti katika kiwango cha nguo ambazo {name_male_1, Raymond} na {name_male_2, David} hufua {name_female, Sarah} akifua pauni {num_digit_2, 400} za nguo.",
+  "question_solution": "answer = num_digit_2 * NUM(num_frac_1) - num_digit_2 / num_digit_1",
+  "conditions": [
+    "int(answer) == num_digit_2 * NUM(num_frac_1) - num_digit_2 / num_digit_1",
+    "num_digit_2 % num_digit_1 == 0",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Raymond",
+    "name_female": "Sarah",
+    "name_male_2": "David"
+  },
+  "variable_number_dictionary": {
+    "num_frac_1": [
+      "The translation is “thuluthi mbili.”",
+      "sehemu moja ya tatu",
+      "robo tatu",
+      "Robo",
+      "mbili ya tano",
+      "thuluthi mbili",
+      "nusu",
+      "sita ya tano",
+      "nne-sehemu saba",
+      "saba ya nane"
+    ],
+    "num_digit_1": [
+      3,
+      6,
+      5,
+      8,
+      3,
+      4,
+      3,
+      5,
+      3,
+      3
+    ],
+    "num_digit_2": [
+      360,
+      600,
+      200,
+      240,
+      150,
+      200,
+      300,
+      180,
+      84,
+      240
+    ],
+    "answer": [
+      120,
+      100,
+      110,
+      30,
+      10,
+      70,
+      50,
+      114,
+      20,
+      130
+    ],
+    "num_ic": [
+      22,
+      33,
+      16,
+      52,
+      23,
+      42,
+      26,
+      56,
+      8,
+      29
+    ]
+  },
+  "ic_question_template": "Shangazi yake {name_male_1, Raymond} alikunja taulo {num_ic, 52} jana. Iwapo {name_male_1, Raymond} hufua nguo {num_frac_1, nusu} ya kiwango ambacho {name_female, Sarah} hufua, na {name_female, Sarah} hufua nguo mara {num_digit_1, 4} zaidi ya {name_male_2, David}, piga hesabu ya tofauti katika kiwango cha nguo ambazo {name_male_1, Raymond} na {name_male_2, David} hufua {name_female, Sarah} akifua pauni {num_digit_2, 400} za nguo.",
+  "ic_sentence": "Shangazi yake {name_male_1, Raymond} alikunja taulo {num_ic, 52} jana."
+}

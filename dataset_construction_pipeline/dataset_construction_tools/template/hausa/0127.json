@@ -1,0 +1,67 @@
+{
+  "original_question": "Bayan sauyawa zuwa sabuwar makaranta, Amy ta sami abokai 20 sama da yadda Lily ta samu. Idan Lily ta yi abokai 50, abokai nawa Lily da Amy suke dashi?",
+  "original_answer": 120,
+  "question_template": "Bayan sauyawa zuwa sabuwar makaranta, {name_female_1, Amy} ta sami abokai {num_digit_1, 20} sama da yadda {name_female_2, Lily} ta samu. Idan {name_female_2, Lily} ta yi abokai {num_digit_2, 50}, abokai nawa {name_female_2, Lily} da {name_female_1, Amy} suke dashi?",
+  "question_solution": "answer = 2 * num_digit_2 + num_digit_1",
+  "conditions": [
+    "int(answer) == 2 * num_digit_2 + num_digit_1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Amy",
+    "name_female_2": "Lily"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15,
+      30,
+      25,
+      40,
+      12,
+      33,
+      55,
+      70,
+      99,
+      11
+    ],
+    "num_digit_2": [
+      35,
+      70,
+      60,
+      80,
+      44,
+      33,
+      120,
+      150,
+      199,
+      89
+    ],
+    "answer": [
+      85,
+      170,
+      145,
+      200,
+      100,
+      99,
+      295,
+      370,
+      497,
+      189
+    ],
+    "num_ic": [
+      42,
+      262,
+      121,
+      374,
+      61,
+      46,
+      341,
+      570,
+      688,
+      108
+    ]
+  },
+  "ic_question_template": "Kawun {name_female_2, Lily} ya ba ta littattafan ban dariya guda {num_ic, 42} a matsayin kyautar maraba. Bayan sauyawa zuwa sabuwar makaranta, {name_female_1, Amy} ta sami abokai {num_digit_1, 20} sama da yadda {name_female_2, Lily} ta samu. Idan {name_female_2, Lily} ta yi abokai {num_digit_2, 50}, abokai nawa {name_female_2, Lily} da {name_female_1, Amy} suke dashi?",
+  "ic_sentence": "Kawun {name_female_2, Lily} ya ba ta littattafan ban dariya guda {num_ic, 42} a matsayin kyautar maraba."
+}

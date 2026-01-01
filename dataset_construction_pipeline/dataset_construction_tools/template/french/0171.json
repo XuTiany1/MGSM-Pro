@@ -1,0 +1,107 @@
+{
+  "original_question": "Jake se promène dans le musée d'entomologie. Il voit 80 araignées à 8 pattes, 90 insectes à 6 pattes, et 3 invertébrés mutants rares à 10 pattes. Combien de pattes Jake voit-il au total ?",
+  "original_answer": 1210,
+  "question_template": "{name_male, Jake} se promène dans le musée d'entomologie. Il voit {num_digit_1, 80} araignées à {num_digit_2, 8} pattes, {num_digit_3, 90} insectes à {num_digit_4, 6} pattes, et {num_digit_5, 3} invertébrés mutants rares à {num_digit_6, 10} pattes. Combien de pattes {name_male, Jake} voit-il au total ?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + num_digit_3 * num_digit_4 + num_digit_5 * num_digit_6",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 + num_digit_3 * num_digit_4 + num_digit_5 * num_digit_6",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jake"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      32768,
+      65536,
+      99999,
+      12345,
+      54321
+    ],
+    "num_digit_2": [
+      128,
+      256,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      32768,
+      99999
+    ],
+    "num_digit_3": [
+      11111,
+      22222,
+      33333,
+      44444,
+      55555,
+      66666,
+      77777,
+      88888,
+      99999,
+      123456
+    ],
+    "num_digit_4": [
+      64,
+      128,
+      256,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      32768
+    ],
+    "num_digit_5": [
+      777,
+      888,
+      999,
+      1111,
+      2222,
+      3333,
+      4444,
+      5555,
+      6666,
+      7777
+    ],
+    "num_digit_6": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "answer": [
+      849946,
+      3386464,
+      10660370,
+      31588376, 
+      90553852,
+      270949676,
+      855756584,
+      2366998512,
+      2043504516,
+      9478229587
+    ]
+  },
+  "ic_question_template": "{name_male, Jake} a une nièce qui a collecté {num_ic, 328} papillons l’été dernier. {name_male, Jake} se promène dans le musée d'entomologie. Il voit {num_digit_1, 80} araignées à {num_digit_2, 8} pattes, {num_digit_3, 90} insectes à {num_digit_4, 6} pattes, et {num_digit_5, 3} invertébrés mutants rares à {num_digit_6, 10} pattes. Combien de pattes {name_male, Jake} voit-il au total ?",
+  "ic_sentence": "{name_male, Jake} a une nièce qui a collecté {num_ic, 328} papillons l’été dernier."
+}

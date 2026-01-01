@@ -1,0 +1,39 @@
+{
+  "original_question": "蝋燭は1時間燃えるごとに、2センチ溶けます。午後1時から、午後5時までに燃えた蝋燭は、何センチ短くなるでしょう？",
+  "original_answer": 8,
+  "question_template": "{name_female, サディー} は月曜日に {num_digit_1, 8} 時間睡眠しました。その後の {num_text_1, two} 日間は、課題をこなさなければならなかったため、それぞれ {num_digit_2, 2} 時間短く睡眠しました。その週の残りの日々が、それらの {num_text_2, two} 日間よりも {num_digit_3, 1} 時間長く睡眠していたとしたら、彼女はその週を通して合計何時間睡眠したことになりますか？",
+  "question_solution": "answer = num_digit_1 * 4",
+  "conditions": [
+    "int(answer) == num_digit_1 * 4",
+    "num_digit_1 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      101,
+      103,
+      107,
+      109,
+      113,
+      127,
+      131,
+      137,
+      139,
+      149
+    ],
+    "answer": [
+      404,
+      412,
+      428,
+      436,
+      452,
+      508,
+      524,
+      548,
+      556,
+      596
+    ]
+  },
+  "ic_question_template": "{name_female, エミリー}のおじさんはパーティーに{num_ic, 63}本のマッチを持ってきました。{name_female, サディー} は月曜日に {num_digit_1, 8} 時間睡眠しました。その後の {num_text_1, two} 日間は、課題をこなさなければならなかったため、それぞれ {num_digit_2, 2} 時間短く睡眠しました。その週の残りの日々が、それらの {num_text_2, two} 日間よりも {num_digit_3, 1} 時間長く睡眠していたとしたら、彼女はその週を通して合計何時間睡眠したことになりますか？",
+  "ic_sentence": "{name_female, エミリー}のおじさんはパーティーに{num_ic, 63}本のマッチを持ってきました。"
+}

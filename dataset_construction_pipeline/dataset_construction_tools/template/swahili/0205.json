@@ -1,0 +1,133 @@
+{
+  "original_question": "Brinley yupo katika darasa la hisabati la Mr. Bert. Mr. Bert hupeana mazoezi sita kila muhula. Huwa anawaruhusu wanafunzi kuondoa alama ya chini zaidi kwenye wastani wa matokeo kila muhula. Ikiwa Brinley ana alama za 89, 71, 92, 100 na 86 kwa mazoezi matano ya kwanza, anahitaji kupata alama ngapi katika zoezi la sita ili awe na wastani wa 93?",
+  "original_answer": 98,
+  "question_template": "{name_female, Brinley} yupo katika darasa la hesabu la Bwana {name_family, Bert}. Bwana {name_family, Bert} hutoa mitihani {num_text_1, sita} kila muhula. Anaruhusu wanafunzi kuondoa alama ya chini zaidi kwenye wastani kila muhula. Ikiwa {name_female, Brinley} ana alama {num_digit_1, 89}, {num_digit_2, 71}, {num_digit_3, 92}, {num_digit_4, 100} na {num_digit_5, 86} kwenye mitihani mitano ya kwanza, atahitaji alama ngapi kwenye mtihani wa sita ili apate wastani wa {num_digit_6, 93}?",
+  "question_solution": "answer = (num_digit_6 * 5 + min(num_digit_1, num_digit_2, num_digit_3, num_digit_4, num_digit_5) - (num_digit_1 + num_digit_2 + num_digit_3 + num_digit_4 + num_digit_5))",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_6 * 5 + min(num_digit_1, num_digit_2, num_digit_3, num_digit_4, num_digit_5) - (num_digit_1 + num_digit_2 + num_digit_3 + num_digit_4 + num_digit_5))",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Brinley",
+    "name_family": "Bert"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "sita",
+      "sita",
+      "sita",
+      "sita",
+      "sita",
+      "sita",
+      "sita",
+      "sita",
+      "sita",
+      "sita"
+    ],
+    "num_digit_1": [
+      87,
+      91,
+      64,
+      55,
+      93,
+      81,
+      66,
+      97,
+      58,
+      88
+    ],
+    "num_digit_2": [
+      73,
+      82,
+      59,
+      68,
+      88,
+      76,
+      72,
+      89,
+      62,
+      84
+    ],
+    "num_digit_3": [
+      95,
+      78,
+      75,
+      72,
+      84,
+      69,
+      64,
+      94,
+      67,
+      79
+    ],
+    "num_digit_4": [
+      100,
+      88,
+      82,
+      80,
+      79,
+      74,
+      70,
+      91,
+      71,
+      82
+    ],
+    "num_digit_5": [
+      89,
+      85,
+      77,
+      90,
+      96,
+      83,
+      68,
+      90,
+      65,
+      86
+    ],
+    "num_digit_6": [
+      96,
+      94,
+      89,
+      85,
+      92,
+      90,
+      88,
+      97,
+      87,
+      93
+    ],
+    "answer": [
+      109,
+      124,
+      147,
+      115,
+      99,
+      136,
+      164,
+      113,
+      170,
+      125
+    ],
+    "num_ic": [
+      39,
+      151,
+      22,
+      15,
+      73,
+      59,
+      13,
+      179,
+      115,
+      62
+    ]
+  },
+  "ic_question_template": "Shangazi wa {name_female, Brinley} aliwahi kuleta donuts {num_ic, 21} za kushirikiana na darasa. {name_female, Brinley} yupo katika darasa la hesabu la Bwana {name_family, Bert}. Bwana {name_family, Bert} hutoa mitihani {num_text_1, sita} kila muhula. Anaruhusu wanafunzi kuondoa alama ya chini zaidi kwenye wastani kila muhula. Ikiwa {name_female, Brinley} ana alama {num_digit_1, 89}, {num_digit_2, 71}, {num_digit_3, 92}, {num_digit_4, 100} na {num_digit_5, 86} kwenye mitihani mitano ya kwanza, atahitaji alama ngapi kwenye mtihani wa sita ili apate wastani wa {num_digit_6, 93}?",
+  "ic_sentence": "Shangazi wa {name_female, Brinley} aliwahi kuleta donuts {num_ic, 21} za kushirikiana na darasa."
+}

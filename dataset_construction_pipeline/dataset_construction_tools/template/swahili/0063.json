@@ -1,0 +1,92 @@
+{
+  "original_question": "Aleena alijisajili kwenye huduma ya utiririshaji ambayo humtoza $140 kila mwezi. Iwapo kampuni ya utiririshaji ilimtoza kiwango hicho cha awali kwa nusu ya kwanza ya mwaka na kisha kumtoza kiwango kidogo kwa 10% kwa nusu nyingine ya mwaka huo, piga hesabu ya jumla ya kiwango ambacho alikuwa amelipia huduma ya utiririshaji mwishoni mwa mwaka huo.",
+  "original_answer": 1596,
+  "question_template": "{name_female, Aleena} alijisajili kwenye huduma ya utiririshaji ambayo humtoza ${num_digit_1, 140} kila mwezi. Iwapo kampuni ya utiririshaji ilimtoza kiwango hicho cha awali kwa {num_frac_1, nusu} ya kwanza ya mwaka na kisha kumtoza kiwango kidogo kwa {num_digit_2, 10}% kwa {num_frac_2, nusu} nyingine ya mwaka huo, piga hesabu ya jumla ya kiwango ambacho alikuwa amelipia huduma ya utiririshaji mwishoni mwa mwaka huo.",
+  "question_solution": "answer = num_digit_1 * 6 + num_digit_1 * (1 - num_digit_2/100) * 6",
+  "conditions": [
+    "int(answer) == num_digit_1 * 6 + num_digit_1 * (1 - num_digit_2/100) * 6",
+    "((num_digit_1 * num_digit_2 * 6) % 100) == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_2 < 100"
+  ],
+  "variable_word_list": {
+    "name_female": "Aleena"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      160,
+      150,
+      125,
+      200,
+      180,
+      250,
+      225,
+      300,
+      125,
+      175
+    ],
+    "num_frac_1": [
+      "nusu",
+      "nusu",
+      "nusu",
+      "nusu",
+      "nusu",
+      "nusu",
+      "nusu",
+      "nusu",
+      "nusu",
+      "nusu"
+    ],
+    "num_digit_2": [
+      20,
+      15,
+      12,
+      14,
+      25,
+      30,
+      16,
+      40,
+      18,
+      22
+    ],
+    "num_frac_2": [
+      "nusu",
+      "nusu",
+      "nusu",
+      "nusu",
+      "nusu",
+      "nusu",
+      "nusu",
+      "nusu",
+      "nusu",
+      "nusu"
+    ],
+    "answer": [
+      1728,
+      1665,
+      1410,
+      2232,
+      1890,
+      2550,
+      2484,
+      2880,
+      1365,
+      1869
+    ],
+    "num_ic": [
+      191,
+      246,
+      22,
+      520,
+      231,
+      1776,
+      1200,
+      337,
+      80,
+      339
+    ]
+  },
+  "ic_question_template": "Shangazi wa {name_female, Aleena} alinunua mabango ya sinema {num_ic, 57} mwaka jana. {name_female, Aleena} alijisajili kwenye huduma ya utiririshaji ambayo humtoza ${num_digit_1, 140} kila mwezi. Iwapo kampuni ya utiririshaji ilimtoza kiwango hicho cha awali kwa {num_frac_1, nusu} ya kwanza ya mwaka na kisha kumtoza kiwango kidogo kwa {num_digit_2, 10}% kwa {num_frac_2, nusu} nyingine ya mwaka huo, piga hesabu ya jumla ya kiwango ambacho alikuwa amelipia huduma ya utiririshaji mwishoni mwa mwaka huo.",
+  "ic_sentence": "Shangazi wa {name_female, Aleena} alinunua mabango ya sinema {num_ic, 57} mwaka jana."
+}

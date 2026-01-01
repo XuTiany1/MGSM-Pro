@@ -1,0 +1,67 @@
+{
+  "original_question": "ジェーンは30個の飴を持っている。ジェーンはその飴のうち2つ食べる。残りの飴で、ジェーンは1つの袋に2つの飴を入れてセットにしたいと思っています。ジェーンは何袋用意できますか？",
+  "original_answer": 14,
+  "question_template": "{name_male,Jean} ジェーンは{num_digit_1, 30}個の飴を持っている。{name_male, Jean} ジェーンはその飴のうち{num_digit_2, 2}つ食べる。残りの飴で、ジェーンは{name_male, Jean}つの袋に{num_digit_3, 2}つの飴を入れてセットにしたいと思っています。ジェーンは何袋用意 {name_male, Jean}できますか？",
+  "question_solution": "answer = (num_digit_1 - num_digit_2) / num_digit_3",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_digit_2) / num_digit_3",
+    "(num_digit_1 - num_digit_2) % num_digit_3 == 0",
+    "num_digit_1 > num_digit_2",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jean"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      53,
+      89,
+      47,
+      82,
+      96,
+      67,
+      75,
+      84,
+      98,
+      120
+    ],
+    "num_digit_2": [
+      17,
+      23,
+      5,
+      30,
+      26,
+      13,
+      15,
+      12,
+      14,
+      20
+    ],
+    "num_digit_3": [
+      4,
+      11,
+      7,
+      13,
+      5,
+      9,
+      6,
+      8,
+      12,
+      10
+    ],
+    "answer": [
+      9,
+      6,
+      6,
+      4,
+      14,
+      6,
+      10,
+      9,
+      7,
+      10
+    ]
+  },
+  "ic_question_template": "{name_male, ジャン}のおばは最近{num_ic, 94}個の風船を買いました。{name_male,Jean} ジェーンは{num_digit_1, 30}個の飴を持っている。{name_male, Jean} ジェーンはその飴のうち{num_digit_2, 2}つ食べる。残りの飴で、ジェーンは{name_male, Jean}つの袋に{num_digit_3, 2}つの飴を入れてセットにしたいと思っています。ジェーンは何袋用意 {name_male, Jean}できますか？",
+  "ic_sentence": "{name_male, ジャン}のおばは最近{num_ic, 94}個の風船を買いました。"
+}

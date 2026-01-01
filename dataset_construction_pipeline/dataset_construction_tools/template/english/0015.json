@@ -1,0 +1,103 @@
+{
+  "original_question": "A merchant wants to make a choice of purchase between 2 purchase plans: jewelry worth $5,000 or electronic gadgets worth $8,000. His financial advisor speculates that the jewelry market will go up 2.5% while the electronic gadgets market will rise 1.2% within the same month. If the merchant is looking to maximize profit at the end of this month by making a choice, how much profit would this be?",
+  "original_answer": 125,
+  "question_template": "A merchant wants to make a choice of purchase between {num_digit_1, 2} purchase plans: jewelry worth ${num_digit_2, 5,000} or electronic gadgets worth ${num_digit_3, 8,000}. His financial advisor speculates that the jewelry market will go up {num_digit_4, 2.5}% while the electronic gadgets market will rise {num_digit_5, 1.2}% within the same month. If the merchant is looking to maximize profit at the end of this month by making a choice, how much profit would this be?",
+  "question_solution": "answer = max(num_digit_2 * num_digit_4 / 100, num_digit_3 * num_digit_5 / 100)",
+  "conditions": [
+    "answer == max(num_digit_2 * num_digit_4 / 100, num_digit_3 * num_digit_5 / 100)",
+    "num_digit_1 == 2",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "0 <= num_digit_4 <= 100",
+    "0 <= num_digit_5 <= 100"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "num_digit_2": [
+      5200,
+      5600,
+      6250,
+      7100,
+      8800,
+      6400,
+      6000,
+      8800,
+      7200,
+      6400
+    ],
+    "num_digit_3": [
+      8400,
+      4200,
+      4800,
+      5900,
+      6600,
+      7200,
+      5400,
+      6200,
+      4800,
+      5200
+    ],
+    "num_digit_4": [
+      2.5,
+      3.75,
+      4.0,
+      3.0,
+      2.25,
+      3.125,
+      3.2,
+      3.5,
+      5.0,
+      6.0
+    ],
+    "num_digit_5": [
+      4.0,
+      4.5,
+      5.0,
+      5.0,
+      4.0,
+      4.25,
+      5.5,
+      4.0,
+      6.25,
+      7.0
+    ],
+    "answer": [
+      336,
+      210,
+      250,
+      295,
+      264,
+      306,
+      297,
+      308,
+      360,
+      384
+    ],
+    "num_ic": [
+      32,
+      53,
+      72,
+      11,
+      48,
+      91,
+      30,
+      73,
+      40,
+      61
+    ]
+  },
+  "ic_question_template": "A merchant wants to make a choice of purchase between {num_digit_1, 2} purchase plans: jewelry worth ${num_digit_2, 5,000} or electronic gadgets worth ${num_digit_3, 8,000}. His financial advisor speculates that the jewelry market will go up {num_digit_4, 2.5}% while the electronic gadgets market will rise {num_digit_5, 1.2}% within the same month. The merchant's nephew recently bought {num_ic, 39} comic books. If the merchant is looking to maximize profit at the end of this month by making a choice, how much profit would this be?",
+  "ic_sentence": "The merchant's nephew recently bought {num_ic, 39} comic books."
+}

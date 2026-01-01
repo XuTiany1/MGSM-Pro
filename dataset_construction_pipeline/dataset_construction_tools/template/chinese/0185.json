@@ -1,0 +1,56 @@
+{
+  "original_question": "詹娜和她妈妈从自家苹果园里摘了一些苹果。詹娜比她妈妈多摘了一半的苹果。如果她妈妈摘了 20 颗苹果，她们两个人摘了多少颗苹果？",
+  "original_answer": 30,
+  "question_template": "{name_female, 詹娜} 和她妈妈从自家苹果园里摘了一些苹果。{name_female, 詹娜} 摘了她妈妈的 {num_frac, 一半} 的苹果。如果她妈妈摘了 {num_digit_1, 20} 颗苹果，她们两个人一共摘了多少颗苹果？",
+  "question_solution": "answer = num_digit_1 * (1 + f)   # f is the numeric value of num_frac",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 + f)",
+    "0 < f < 1",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Jenna"
+  },
+  "variable_number_dictionary": {
+    "num_frac": [
+      "two sevenths",
+      "five twelfths",
+      "three eighths",
+      "seven ninths",
+      "four thirteenths",
+      "five sevenths",
+      "six elevenths",
+      "nine fourteenths",
+      "eleven sixteenths",
+      "thirteen fifteenths"
+    ],
+    "num_digit_1": [
+      35,
+      48,
+      56,
+      81,
+      65,
+      42,
+      55,
+      56,
+      48,
+      60
+    ],
+    "answer": [
+      45,
+      68,
+      77,
+      144,
+      85,
+      72,
+      85,
+      92,
+      81,
+      112
+    ]
+  },
+  "ic_question_template": "{name_female, 珍娜} 的叔叔那天早上带来了 {num_ic, 154} 瓶苹果酒到农场。{name_female, 詹娜} 和她妈妈从自家苹果园里摘了一些苹果。{name_female, 詹娜} 摘了她妈妈的 {num_frac, 一半} 的苹果。如果她妈妈摘了 {num_digit_1, 20} 颗苹果，她们两个人一共摘了多少颗苹果？",
+  "ic_sentence": "{name_f{name_female, 珍娜} 的叔叔那天早上带来了 {num_ic, 154} 瓶苹果酒到农场。"
+}

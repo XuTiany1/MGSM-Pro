@@ -1,0 +1,52 @@
+{
+  "original_question": "Une robe nécessite 2 rouleaux de fibre bleue et la moitié de cette quantité en fibre blanche. Combien faut-il de rouleaux au total ?",
+  "original_answer": 3,
+  "question_template": "Une robe nécessite {num_digit_1, 2} rouleaux de fibre bleue et la {num_frac_1, moitié} de cette quantité en fibre blanche. Combien faut-il de rouleaux au total ?",
+  "question_solution": "answer = num_digit_1 * (1 + NUM(num_frac_1))",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 + NUM(num_frac_1))",
+    "num_digit_1 > 0",
+    "0 < NUM(num_frac_1) < 1"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      6,
+      9,
+      8,
+      10,
+      12,
+      15,
+      25,
+      24,
+      14,
+      30
+    ],
+    "num_frac_1": [
+      "un tiers",
+      "deux tiers",
+      "trois quarts",
+      "un cinquième",
+      "cinq sixièmes",
+      "trois cinquièmes",
+      "quatre cinquièmes",
+      "un quart",
+      "moitié",
+      "neuf dixièmes"
+    ],
+    "answer": [
+      8,
+      15,
+      14,
+      12,
+      22,
+      24,
+      45,
+      30,
+      21,
+      57
+    ]
+  },
+  "ic_question_template": "L'oncle du tailleur a déjà apporté {num_ic, 19} bobines de fil de la ville. Une robe nécessite {num_digit_1, 2} rouleaux de fibre bleue et la {num_frac_1, moitié} de cette quantité en fibre blanche. Combien faut-il de rouleaux au total ?",
+  "ic_sentence": "L'oncle du tailleur a déjà apporté {num_ic, 19} bobines de fil de la ville."
+}

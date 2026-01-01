@@ -1,0 +1,84 @@
+{
+  "original_question": "阿德里安的年龄是哈丽特年龄的三倍，哈丽特的年龄是扎克的一半。如果哈丽特现在 21 岁，计算三年之后这三个人的平均年龄。",
+  "original_answer": 45,
+  "question_template": "{name_male_1, 阿德里安} 的年龄是 {name_male_2, 哈丽特} 年龄的 {num_text_1, 3} 倍，{name_male_2, 哈丽特} 的年龄是 {name_male_3, 扎克} 的 {num_frac_1, 一半}。如果 {name_male_2, 哈丽特} 现在 {num_digit_1, 21} 岁，计算 {num_text_2, 3} 年之后这三个人的平均年龄。",
+  "question_solution": "answer = (f1 * num_digit_1 + num_digit_1 + num_digit_1 / f2 + 3 * t2) / 3  # f1 is numeric value of num_text_1; f2 of num_frac_1; t2 of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (f1 * num_digit_1 + num_digit_1 + num_digit_1 / f2 + 3 * t2) / 3",
+    "f1 > 1",
+    "f2 > 0",
+    "t2 > 0",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Adrian",
+    "name_male_2": "Harriet",
+    "name_male_3": "Zack"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "四",
+      "五",
+      "六",
+      "七",
+      "八",
+      "九",
+      "十",
+      "十一",
+      "十二",
+      "十三"
+    ],
+    "num_frac_1": [
+      "二分之一",
+      "三分之一",
+      "四分之一",
+      "五分之一",
+      "六分之一",
+      "七分之一",
+      "八分之一",
+      "九分之一",
+      "十分之一",
+      "十二分之一"
+    ],
+    "num_text_2": [
+      "二",
+      "三",
+      "四",
+      "五",
+      "六",
+      "七",
+      "八",
+      "九",
+      "十",
+      "十二"
+    ],
+    "num_digit_1": [
+      42,
+      45,
+      48,
+      60,
+      66,
+      84,
+      72,
+      81,
+      30,
+      12
+    ],
+    "answer": [
+      100,
+      138,
+      180,
+      265,
+      336,
+      483,
+      464,
+      576,
+      240,
+      116
+    ]
+  },
+  "ic_question_template": "{name_male_2, 哈丽雅特} 的叔叔刚刚从市场买了 {num_ic, 107} 个苹果。{name_male_1, 阿德里安} 的年龄是 {name_male_2, 哈丽特} 年龄的 {num_text_1, 3} 倍，{name_male_2, 哈丽特} 的年龄是 {name_male_3, 扎克} 的 {num_frac_1, 一半}。如果 {name_male_2, 哈丽特} 现在 {num_digit_1, 21} 岁，计算 {num_text_2, 3} 年之后这三个人的平均年龄。",
+  "ic_sentence": "{name_male_2, 哈丽雅特} 的叔叔刚刚从市场买了 {num_ic, 107} 个苹果。"
+}

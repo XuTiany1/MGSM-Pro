@@ -1,0 +1,95 @@
+{
+  "original_question": "Elaine asali tana da tana da katunan Pokemon 20. Bayan wata daya ta tara adadin sau uku. A wata na biyu, ta tara guda 20 kasa da waɗanda ta tara a watan farko. A cikin wata na uku, ta tattara ninki biyu na adadin katunan pokemon da ta tattara a watannin farko da na biyu. Katin pokemon nawa take dasu yanzu gabaɗaya?",
+  "original_answer": 320,
+  "question_template": "{name_female, Elaine} asali tana da tana da katunan Pokemon {num_digit_1, 20}. Bayan wata daya ta tara adadin sau {num_text_1, uku}. A wata na biyu, ta tara guda {num_digit_2, 20} kasa da waɗanda ta tara a watan farko. A cikin wata na uku, ta tattara {num_text_2, ninki  biyu} na adadin katunan pokemon da ta tattara a watannin farko da na biyu. Katin pokemon nawa take dasu yanzu gabaɗaya?",
+  "question_solution": "answer = num_digit_1 + f1*num_digit_1 + (f1*num_digit_1 - num_digit_2) + t2*(f1*num_digit_1 + (f1*num_digit_1 - num_digit_2))  # f1 is the numeric value of num_text_1; t2 of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + f1*num_digit_1 + (f1*num_digit_1 - num_digit_2) + t2*(f1*num_digit_1 + (f1*num_digit_1 - num_digit_2))",
+    "f1 > 0",
+    "t2 > 0",
+    "f1*num_digit_1 - num_digit_2 >= 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Elaine"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      12345,
+      9876,
+      7777,
+      5555,
+      6666
+    ],
+    "num_text_1": [
+      "bakwai",
+      "goma sha ɗaya",
+      "Goma sha uku",
+      "sha shida da daya",
+      "sha tara",
+      "ashirin da uku",
+      "ashirin da tara",
+      "talatin da ɗaya",
+      "talatin da bakwai",
+      "arba’in da ɗaya"
+    ],
+    "num_digit_2": [
+      1023,
+      2047,
+      4095,
+      8191,
+      16383,
+      12344,
+      9875,
+      7776,
+      5554,
+      6665
+    ],
+    "num_text_2": [
+      "arba’in da uku",
+      "arba’in da bakwai",
+      "hamsin da uku",
+      "Hamsin da tara",
+      "shida da ɗaya",
+      "sittin da bakwai",
+      "saba’in da ɗaya",
+      "saba’in da uku",
+      "saba’in da tara",
+      "Tamanin da uku"
+    ],
+    "answer": [
+      586796,
+      2066480,
+      5533750,
+      16228412,
+      37601342,
+      37788113,
+      40541052,
+      35113229,
+      32446835,
+      45362214
+    ],
+    "num_ic": [
+      8359,
+      18988,
+      25153,
+      34730,
+      62984,
+      35179,
+      40904,
+      53983,
+      44011,
+      50564
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Elaine} yana da katunan baseball har guda {num_ic, 62984}. {name_female, Elaine} asali tana da tana da katunan Pokemon {num_digit_1, 20}. Bayan wata daya ta tara adadin sau {num_text_1, uku}. A wata na biyu, ta tara guda {num_digit_2, 20} kasa da waɗanda ta tara a watan farko. A cikin wata na uku, ta tattara {num_text_2, ninki  biyu} na adadin katunan pokemon da ta tattara a watannin farko da na biyu. Katin pokemon nawa take dasu yanzu gabaɗaya?",
+  "ic_sentence": "Kawun {name_female, Elaine} yana da katunan baseball har guda {num_ic, 62984}."
+}

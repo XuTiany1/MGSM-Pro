@@ -1,0 +1,82 @@
+{
+  "original_question": "Babba diragon ,mai sunan Peg, ya zauna a can saman dutsen Farbo yana aman wuta akan duk wani abu dai bai wuce nisan kafa 1000 ba. Polly zata iya jefa mashin zinare, makamin da aka sani kadai wanda zai iya kashe dodon, tsawon ƙafa 400, rijiya kafin zuwa inda belin wutar dodanniyar yake. Amma lokacin da Polly ta riƙe dutsen sapphire, za ta iya jefa mashin zaiyi nisan gudu ninki uku sama da gudun dazaiyi lokacin da bata riƙe da dutsen. Idan ta rike dutsen, adadin nisan ina za ta tsaya ta jefa mashin ya sami dodon batare da  belin wutar ya tabataba?",
+  "original_answer": 200,
+  "question_template": "Babba diragon, mai sunan {name_dragon, Perg}, ya zauna a can saman dutsen {name_mountain, Farbo} yana aman wuta akan duk wani abu dai bai wuce nisan kafa {num_digit_1, 1000} ba. {name_female, Polly} zata iya jefa mashin zinare, makamin da aka sani kadai wanda zai iya kashe dodon, tsawon ƙafa {num_digit_2, 400}, rijiya kafin zuwa inda belin wutar dodanniyar yake. Amma lokacin da {name_female, Polly} ta riƙe dutsen sapphire, za ta iya jefa mashin zaiyi nisan gudu ninki {num_text_1, uku} sama da gudun dazaiyi lokacin da bata riƙe da dutsen. Idan ta rike dutsen, adadin nisan ina za ta tsaya ta jefa mashin ya sami dodon batare da belin wutar ya tabataba?",
+  "question_solution": "answer = num_digit_2 * NUM(num_text_1) - num_digit_1",
+  "conditions": [
+    "int(answer) == num_digit_2 * NUM(num_text_1) - num_digit_1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_text_1) > 0",
+    "num_digit_2 * NUM(num_text_1) >= num_digit_1"
+  ],
+  "variable_word_list": {
+    "name_dragon": "Perg",
+    "name_mountain": "Farbo",
+    "name_female": "Polly"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1000,
+      1500,
+      800,
+      1200,
+      900,
+      1400,
+      2000,
+      1800,
+      1600,
+      1100
+    ],
+    "num_digit_2": [
+      400,
+      600,
+      250,
+      300,
+      400,
+      350,
+      600,
+      450,
+      320,
+      275
+    ],
+    "num_text_1": [
+      "uku",
+      "uku",
+      "hudu",
+      "biyar",
+      "uku",
+      "biyar",
+      "hudu",
+      "biyar",
+      "shida",
+      "biyar"
+    ],
+    "answer": [
+      200,
+      300,
+      200,
+      300,
+      300,
+      350,
+      400,
+      450,
+      320,
+      275
+    ],
+    "num_ic": [
+      92,
+      170,
+      47,
+      134,
+      66,
+      162,
+      56,
+      124,
+      78,
+      158
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Polly} ya tara saɓar jigare {num_ic, 92} da ba a saba ba. Babba diragon, mai sunan {name_dragon, Perg}, ya zauna a can saman dutsen {name_mountain, Farbo} yana aman wuta akan duk wani abu dai bai wuce nisan kafa {num_digit_1, 1000} ba. {name_female, Polly} zata iya jefa mashin zinare, makamin da aka sani kadai wanda zai iya kashe dodon, tsawon ƙafa {num_digit_2, 400}, rijiya kafin zuwa inda belin wutar dodanniyar yake. Amma lokacin da {name_female, Polly} ta riƙe dutsen sapphire, za ta iya jefa mashin zaiyi nisan gudu ninki {num_text_1, uku} sama da gudun dazaiyi lokacin da bata riƙe da dutsen. Idan ta rike dutsen, adadin nisan ina za ta tsaya ta jefa mashin ya sami dodon batare da belin wutar ya tabataba?",
+  "ic_sentence": "Kawun {name_female, Polly} ya tara saɓar jigare {num_ic, 92} da ba a saba ba."
+}

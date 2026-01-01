@@ -1,0 +1,105 @@
+{
+  "original_question": "Billy na-ere DVD. O nwere ndị ahịa asatọ na Tuzdee. Ndị ahịa mbụ ya atọ zụrụ otu DVD otunaotu. Ndị ahịa abụọ ọzọ zụrụ DVD abụọ otunaotu. Ndị ahịa atọ nke ikpeazụ azụghị DVD ọbụla. DVD ole ka Billy reere n'ụbọchị Tuzdee? ",
+  "original_answer": 7,
+  "question_template": "{name_male, Billy} na-ere DVD. O nwere ndị ahịa {num_digit_1, 8} na Tuzdee. Ndị ahịa mbụ ya {num_digit_2, 3} zụrụ otu DVD otunaotu. Ndị ahịa {num_digit_3, 2} ọzọ zụrụ DVD {num_digit_4, 2} otunaotu. Ndị ahịa {num_digit_5, 3} nke ikpeazụ azụghị DVD ọbụla. DVD ole ka {name_male, Billy} reere n'ụbọchị Tuzdee?",
+  "question_solution": "answer = num_digit_2 + num_digit_3 * num_digit_4",
+  "conditions": [
+    "int(answer) == num_digit_2 + num_digit_3 * num_digit_4",
+    "num_digit_1 == num_digit_2 + num_digit_3 + num_digit_5",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Billy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "num_digit_2": [
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "num_digit_3": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "num_digit_4": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_5": [
+      32,
+      35,
+      36,
+      35,
+      36,
+      33,
+      32,
+      31,
+      30,
+      33
+    ],
+    "answer": [
+      39,
+      68,
+      95,
+      138,
+      175,
+      236,
+      321,
+      378,
+      485,
+      576
+    ],
+    "num_ic": [
+      18,
+      64,
+      10,
+      883,
+      374,
+      295,
+      631,
+      79,
+      161,
+      886
+    ]
+  },
+  "ic_question_template": "Nwanne nne {name_male, Billy} bịara na akpa ọkụkọ kọpọn {num_ic, 18} ka ọ kọrọ. {name_male, Billy} na-ere DVD. O nwere ndị ahịa {num_digit_1, 8} na Tuzdee. Ndị ahịa mbụ ya {num_digit_2, 3} zụrụ otu DVD otunaotu. Ndị ahịa {num_digit_3, 2} ọzọ zụrụ DVD {num_digit_4, 2} otunaotu. Ndị ahịa {num_digit_5, 3} nke ikpeazụ azụghị DVD ọbụla. DVD ole ka {name_male, Billy} reere n'ụbọchị Tuzdee?",
+  "ic_sentence": "Nwanne nne {name_male, Billy} bịara na akpa ọkụkọ kọpọn {num_ic, 18} ka ọ kọrọ."
+}

@@ -1,0 +1,81 @@
+{
+  "original_question": "Violetta tana son siyan sabbin crayons. Tana buƙatar su cikin launuka daban-daban 5 kuma ta tanadi $20 don wannan siyan. Crayon daya farashin sa $2. Canji nawa za ta samu?",
+  "original_answer": 10,
+  "question_template": "{name_female, Violetta} tana son siyan sabbin crayons. Tana buƙatar su cikin launuka daban-daban {num_digit_1, 5} kuma ta tanadi ${num_digit_2, 20} don wannan siyan. Crayon daya farashin sa ${num_digit_3, 2}. Canji nawa za ta samu?",
+  "question_solution": "answer = num_digit_2 - num_digit_1 * num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 - num_digit_1 * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Violetta"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      13,
+      17,
+      23,
+      29,
+      31,
+      37,
+      41,
+      53,
+      67,
+      89
+    ],
+    "num_digit_2": [
+      200,
+      500,
+      345,
+      416,
+      623,
+      789,
+      1000,
+      1600,
+      2500,
+      4000
+    ],
+    "num_digit_3": [
+      3,
+      7,
+      9,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37
+    ],
+    "answer": [
+      161,
+      381,
+      138,
+      39,
+      96,
+      86,
+      57,
+      63,
+      423,
+      707
+    ],
+    "num_ic": [
+      48,
+      182,
+      61,
+      89,
+      212,
+      298,
+      301,
+      371,
+      483,
+      729
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Violetta} yana ajiye zane-zane guda {num_ic, 68} a cikin gidansa na nuni. {name_female, Violetta} tana son siyan sabbin crayons. Tana buƙatar su cikin launuka daban-daban {num_digit_1, 5} kuma ta tanadi ${num_digit_2, 20} don wannan siyan. Crayon daya farashin sa ${num_digit_3, 2}. Canji nawa za ta samu?",
+  "ic_sentence": "Kawun {name_female, Violetta} yana ajiye zane-zane guda {num_ic, 68} a cikin gidansa na nuni."
+}

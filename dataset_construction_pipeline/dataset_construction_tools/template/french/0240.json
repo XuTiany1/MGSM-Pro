@@ -1,0 +1,72 @@
+{
+  "original_question": "Jacques a 6 bonbons de plus que Robert. Jean en a deux fois plus que Robert. Si Jean a 54 bonbons, combien a-t-il de bonbons de plus que Jacques ?",
+  "original_answer": 21,
+  "question_template": "{name_male_1, Jacques} a {num_digit_1, 6} bonbons de plus que {name_male_2, Robert}. {name_male_3, Jean} en a {num_text_1, deux fois} plus que {name_male_2, Robert}. Si {name_male_3, Jean} a {num_digit_2, 54} bonbons, combien a-t-il de bonbons de plus que {name_male_1, Jacques} ?",
+  "question_solution": "answer = num_digit_2 - num_digit_2/f1 - num_digit_1  # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 - num_digit_2/f1 - num_digit_1",
+    "f1 > 1",
+    "num_digit_2 % f1 == 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "James",
+    "name_male_2": "Robert",
+    "name_male_3": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "num_text_1": [
+      "deux fois",
+      "trois fois",
+      "quatre fois",
+      "cinq fois",
+      "six fois",
+      "sept fois",
+      "huit fois",
+      "neuf fois",
+      "dix fois",
+      "onze fois"
+    ],
+    "num_digit_2": [
+      242,
+      369,
+      508,
+      725,
+      732,
+      861,
+      896,
+      945,
+      1000,
+      1210
+    ],
+    "answer": [
+      115,
+      239,
+      373,
+      571,
+      600,
+      727,
+      772,
+      827,
+      886,
+      1085
+    ]
+  },
+  "ic_question_template": "{name_male_2, Robert} a récemment reçu {num_ic, 422} billes de sa tante. {name_male_1, Jacques} a {num_digit_1, 6} bonbons de plus que {name_male_2, Robert}. {name_male_3, Jean} en a {num_text_1, deux fois} plus que {name_male_2, Robert}. Si {name_male_3, Jean} a {num_digit_2, 54} bonbons, combien a-t-il de bonbons de plus que {name_male_1, Jacques} ?",
+  "ic_sentence": "{name_male_2, Robert} a récemment reçu {num_ic, 422} billes de sa tante."
+}

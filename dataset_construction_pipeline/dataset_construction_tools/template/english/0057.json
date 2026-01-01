@@ -1,0 +1,77 @@
+{
+  "original_question": "A wooden bridge can carry no more than 5000 pounds. A delivery truck filled with identical boxes, each weighing 15 pounds, will pass over the bridge. The combined weight of the driver and the empty truck is 3755 pounds. What is the maximum number of boxes which can be loaded onto the truck while not exceeding the bridge's weight limit?",
+  "original_answer": 83,
+  "question_template": "A wooden bridge can carry no more than {num_digit_1, 5000} pounds. A delivery truck filled with identical boxes, each weighing {num_digit_2, 15} pounds, will pass over the bridge. The combined weight of the driver and the empty truck is {num_digit_3, 3755} pounds. What is the maximum number of boxes which can be loaded onto the truck while not exceeding the bridge's weight limit?",
+  "question_solution": "answer = (num_digit_1 - num_digit_3) // num_digit_2",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_digit_3) // num_digit_2",
+    "(num_digit_1 - num_digit_3) % num_digit_2 == 0",
+    "num_digit_1 > num_digit_3",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      5000,
+      4835,
+      9875,
+      12000,
+      15432,
+      20005,
+      10003,
+      7500,
+      6300,
+      5123
+    ],
+    "num_digit_2": [
+      15,
+      17,
+      25,
+      13,
+      19,
+      37,
+      16,
+      21,
+      14,
+      9
+    ],
+    "num_digit_3": [
+      3755,
+      1979,
+      6375,
+      7515,
+      5704,
+      15454,
+      4003,
+      4350,
+      2800,
+      1595
+    ],
+    "answer": [
+      83,
+      168,
+      140,
+      345,
+      512,
+      123,
+      375,
+      150,
+      250,
+      392
+    ],
+    "num_ic": [
+      251,
+      12,
+      788,
+      410,
+      154,
+      880,
+      559,
+      345,
+      424,
+      203
+    ]
+  },
+  "ic_question_template": "A wooden bridge can carry no more than {num_digit_1, 5000} pounds. A delivery truck filled with identical boxes, each weighing {num_digit_2, 15} pounds, will pass over the bridge. The combined weight of the driver and the empty truck is {num_digit_3, 3755} pounds. The truck driver's uncle once transported {num_ic, 215} pumpkins in a single trip. What is the maximum number of boxes which can be loaded onto the truck while not exceeding the bridge's weight limit?",
+  "ic_sentence": "The truck driver's uncle once transported {num_ic, 215} pumpkins in a single trip."
+}

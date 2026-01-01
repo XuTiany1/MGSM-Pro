@@ -1,0 +1,68 @@
+{
+  "original_question": "Gene confectionne une courtepointe à partir de vieux t-shirts souvenirs. Il a un t-shirt pour chaque voyage de vacances qu'il a fait. Chaque t-shirt constitue un des carrés de la courtepointe. Chaque rangée de carrés correspond à une année de vacances différente. Depuis qu'il a 23 ans, il part en voyage de vacances quatre fois par an. Il a aujourd'hui 34 ans. Combien de carrés sa courtepointe compte-t-elle au total ?",
+  "original_answer": 44,
+  "question_template": "{name_male, Gene} confectionne une courtepointe à partir de vieux t-shirts souvenirs. Il a {num_text_1, un} t-shirt pour chaque voyage de vacances qu'il a fait. Chaque t-shirt constitue un des carrés de la courtepointe. Chaque rangée de carrés correspond à une année de vacances différente. Depuis qu'il a {num_digit_1, 23} ans, il part en voyage de vacances {num_text_2, quatre} fois par an. Il a aujourd'hui {num_digit_2, 34} ans. Combien de carrés sa courtepointe compte-t-elle au total ?",
+  "question_solution": "answer = (num_digit_2 - num_digit_1) * NUM(num_text_2)",
+  "conditions": [
+    "int(answer) == (num_digit_2 - num_digit_1) * NUM(num_text_2)",
+    "num_digit_2 > num_digit_1",
+    "NUM(num_text_2) > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Gene"
+  },
+  "variable_number_dictionary": {
+    "num_text_2": [
+      "trois",
+      "cinq",
+      "six",
+      "sept",
+      "deux",
+      "huit",
+      "neuf",
+      "dix",
+      "onze",
+      "douze"
+    ],
+    "num_digit_1": [
+      21,
+      18,
+      25,
+      30,
+      40,
+      22,
+      19,
+      27,
+      24,
+      20
+    ],
+    "num_digit_2": [
+      35,
+      30,
+      50,
+      45,
+      55,
+      60,
+      29,
+      35,
+      65,
+      26
+    ],
+    "answer": [
+      42,
+      60,
+      150,
+      105,
+      30,
+      304,
+      90,
+      80,
+      451,
+      72
+    ]
+  },
+  "ic_question_template": "{name_male, Gene} a un oncle qui possède {num_ic, 44} pièces colorées. {name_male, Gene} confectionne une courtepointe à partir de vieux t-shirts souvenirs. Il a {num_text_1, un} t-shirt pour chaque voyage de vacances qu'il a fait. Chaque t-shirt constitue un des carrés de la courtepointe. Chaque rangée de carrés correspond à une année de vacances différente. Depuis qu'il a {num_digit_1, 23} ans, il part en voyage de vacances {num_text_2, quatre} fois par an. Il a aujourd'hui {num_digit_2, 34} ans. Combien de carrés sa courtepointe compte-t-elle au total ?",
+  "ic_sentence": "{name_male, Gene} a un oncle qui possède {num_ic, 44} pièces colorées."
+}

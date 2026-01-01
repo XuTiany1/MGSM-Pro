@@ -1,0 +1,69 @@
+{
+  "original_question": "Jean possède un champ d'ananas de 10 hectares. Sachant qu'il y a 100 ananas par hectare et que Jean les récolte tous les 3 mois, combien peut-il en récolter en un an ?",
+  "original_answer": 4000,
+  "question_template": "{name_male, Jean} possède un champ d'ananas de {num_digit_1, 10} hectares. Sachant qu'il y a {num_digit_2, 100} ananas par hectare et que {name_male, Jean} les récolte tous les {num_digit_3, 3} mois, combien peut-il en récolter en un an ?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * 12 / num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 * 12 / num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "12 % num_digit_3 == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      20,
+      8,
+      25,
+      30,
+      12,
+      10,
+      18,
+      5,
+      40,
+      7
+    ],
+    "num_digit_2": [
+      50,
+      120,
+      40,
+      35,
+      150,
+      100,
+      90,
+      200,
+      25,
+      110
+    ],
+    "num_digit_3": [
+      2,
+      3,
+      1,
+      6,
+      3,
+      4,
+      2,
+      6,
+      12,
+      3
+    ],
+    "answer": [
+      6000,
+      3840,
+      12000,
+      2100,
+      7200,
+      3000,
+      9720,
+      2000,
+      1000,
+      3080
+    ]
+  },
+  "ic_question_template": "{name_male, John} a un oncle qui a acheté {num_ic, 210} caisses de bananes la semaine dernière. {name_male, Jean} possède un champ d'ananas de {num_digit_1, 10} hectares. Sachant qu'il y a {num_digit_2, 100} ananas par hectare et que {name_male, Jean} les récolte tous les {num_digit_3, 3} mois, combien peut-il en récolter en un an ?",
+  "ic_sentence": "{name_male, John} a un oncle qui a acheté {num_ic, 210} caisses de bananes la semaine dernière."
+}

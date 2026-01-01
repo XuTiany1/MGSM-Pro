@@ -1,0 +1,64 @@
+{
+  "original_question": "E nwere ụlọakwụkwọ anọ na-ama aka n'asọmpị bọọlụ nkata. Ụlọakwụkwọ ọbụla ezipula otú bọọlụ nkata ụmụ nwaanyị na otú bọọlụ nkata ụmụ nwoke ma otú ọbụla nwere ndị egwuregwu ise. Ụlọakwụkwọ ọbụla ezipukwala onye nkụzi maka otu ọbụla. Na mkpokota, mmadụ ole ka ụlọakwụkwọ niile zipụrụ? ",
+  "original_answer": 48,
+  "question_template": "E nwere ụlọakwụkwọ {num_text_1, anọ} na-ama aka n'asọmpị bọọlụ nkata. Ụlọakwụkwọ ọbụla ezipula otu bọọlụ nkata ụmụ nwaanyị na otu bọọlụ nkata ụmụ nwoke ma otu ọbụla nwere ndị egwuregwu {num_digit_1, 5}. Ụlọakwụkwọ ọbụla ezipukwala onye nkụzi maka otu ọbụla. Na mkpokota, mmadụ ole ka ụlọakwụkwọ niile zipụrụ?",
+  "question_solution": "answer = NUM(num_text_1) * 2 * (num_digit_1 + 1)",
+  "conditions": [
+    "int(answer) == NUM(num_text_1) * 2 * (num_digit_1 + 1)",
+    "NUM(num_text_1) > 0",
+    "num_digit_1 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "isii",
+      "asaa",
+      "ise",
+      "itoolu",
+      "Iri",
+      "Atọ",
+      "asatọ",
+      "iri na abụọ",
+      "iri na otu",
+      "iri na atọ"
+    ],
+    "num_digit_1": [
+      7,
+      8,
+      6,
+      11,
+      4,
+      12,
+      3,
+      9,
+      6,
+      10
+    ],
+    "answer": [
+      96,
+      126,
+      70,
+      216,
+      100,
+      78,
+      64,
+      240,
+      154,
+      286
+    ],
+    "num_ic": [
+      23,
+      47,
+      10,
+      56,
+      27,
+      31,
+      82,
+      93,
+      60,
+      91
+    ]
+  },
+  "ic_question_template": "Nwa nwanne nna {name_male, Marcus} bịara na {num_ic, 42} bọl basketball ka otu ndị egwuregwu jiri. E nwere ụlọakwụkwọ {num_text_1, anọ} na-ama aka n'asọmpị bọọlụ nkata. Ụlọakwụkwọ abụọla ezipula otu bọọlụ nkata ụmụ nwaanyị na otu bọọlụ nkata ụmụ nwoke ma otu ọbụla nwere ndị egwuregwu {num_digit_1, 5}. Ụlọakwụkwọ ọbụla ezipukwala onye nkụzi maka otu ọbụla. Na mkpokota, mmadụ ole ka ụlọakwụkwọ niile zipụrụ?",
+  "ic_sentence": "Nwa nwanne nna {name_male, Marcus} bịara na {num_ic, 42} bọl basketball ka otu ndị egwuregwu jiri."
+}

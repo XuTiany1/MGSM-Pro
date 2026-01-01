@@ -1,0 +1,82 @@
+{
+  "original_question": "ጄሪ ባለ ስድስት ጎን ዳይ እያንከባለለ ነው። በተከታታይ ሁለት ቁጥሮችን ከማንከባለል ይልቅ ቁጥርን ከ3 በላይ የመንከባለሉ (በመቶኛ የተገለፀው) ምን ያህል የበለጠ ነው",
+  "original_answer": 25,
+  "question_template": "{name_male, ጄሪ} ባለ {num_text_1, ስድስት} ጎን ዳይ እያንከባለለ ነው። በተከታታይ {num_text_2, ሁለት} ቁጥሮችን ከማንከባለል ይልቅ ቁጥርን ከ{num_digit_1, 3} በላይ የመንከባለሉ (በመቶኛ የተገለፀው) ምን ያህል የበለጠ ነው",
+  "question_solution": "even_count = num_text_1 / 2  # number of even faces\nanswer = ((num_text_1 - num_digit_1) / num_text_1 - (even_count / num_text_1) ** num_text_2) * 100",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == ((num_text_1 - num_digit_1) / num_text_1 - ((num_text_1/2) / num_text_1) ** num_text_2) * 100",
+    "num_text_1 % 2 == 0",
+    "num_digit_1 < num_text_1",
+    "num_text_2 == 2",
+    "num_text_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jerry"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "ሃያ አራት",
+      "አርባ",
+      "አምሳ",
+      "ሀያ",
+      "አስራ ስምንት",
+      "መቶ ሃያ አምስት",
+      "አርባ አምስት",
+      "አስር",
+      "አምሳ",
+      "ሰላሳ"
+    ],
+    "num_text_2": [
+      "ሁለት",
+      "ሁለት",
+      "ሁለት",
+      "ሁለት",
+      "ሁለት",
+      "ሁለት",
+      "ሁለት",
+      "ሁለት",
+      "ሁለት",
+      "ሁለት"
+    ],
+    "num_digit_1": [
+      7,
+      8,
+      15,
+      3,
+      9,
+      5,
+      3,
+      1,
+      7,
+      12
+    ],
+    "answer": [
+      50,
+      55,
+      45,
+      60,
+      25,
+      71,
+      63,
+      65,
+      61,
+      35
+    ],
+    "num_ic": [
+      78,
+      180,
+      110,
+      35,
+      16,
+      210,
+      41,
+      7,
+      92,
+      48
+    ]
+  },
+  "ic_question_template": "{name_male, ጄሪ} ባለ {num_text_1, ስድስት} ጎን ዳይ እያንከባለለ ነው። በተከታታይ {num_text_2, ሁለት} ቁጥሮችን ከማንከባለል ይልቅ ቁጥርን ከ{num_digit_1, 3} በላይ የመንከባለሉ (በመቶኛ የተገለፀው) ምን ያህል የበለጠ ነው የ{name_male, ጀሪ} አጎት አንድ ጊዜ {num_ic, 73} ጠጠሮችን ሰበሰበ።",
+  "ic_sentence": "የ{name_male, ጀሪ} አጎት አንድ ጊዜ {num_ic, 73} ጠጠሮችን ሰበሰበ።"
+}

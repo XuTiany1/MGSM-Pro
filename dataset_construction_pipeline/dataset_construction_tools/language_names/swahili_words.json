@@ -1,0 +1,10 @@
+{
+  "name_male": ["Juma", "Imani", "Baraka", "Adili", "Hassan", "Shomari", "Ramadhani", "Ali", "Ibrahim", "Amani", "Salum", "Yohana", "Yusufu", "Hamisi", "Musa", "Faraji", "Fadhili", "Bakari", "Tumaini", "Kassim"],
+  "name_female": ["Asha", "Zainabu", "Halima", "Rehema", "Mariam", "Fatuma", "Zawadi", "Mwanahawa", "Farida", "Nuru", "Jamila", "Khadija", "Saida", "Zuwena", "Furaha", "Neema", "Maimuna", "Bahati", "Amina", "Mwajuma"],
+  "name_city": ["Dar es Salaam", "Zanzibar", "Tanga", "Mtwara", "Lindi", "Morogoro", "Arusha", "Moshi", "Mwanza", "Tabora", "Dodoma", "Kigoma", "Songea", "Bagamoyo", "Kilwa", "Singida", "Shinyanga", "Iringa", "Pemba", "Bukoba"],
+  "name_dragon": ["Joka Kubwa", "Mamba wa Moto", "Jini Baharini", "Joka wa Milima", "Jini wa Msituni", "Joka la Upepo", "Joka la Pwani", "Joka la Maji", "Mamba wa Lamu", "Joka la Usiku", "Ngurumbili", "Chatu wa Ajabu", "Joka la Kisiwa", "Simba Joka", "Mnyama wa Moto", "Jini la Kisiwa", "Kiumbe wa Bahari", "Mnyama wa Ajabu", "Joka la Mbingu", "Joka wa Kaskazi"],
+  "name_mountain": ["Kilimanjaro", "Meru", "Hanang", "Ol Doinyo Lengai", "Uluguru", "Usambara", "Pare", "Rungwe", "Udzungwa", "Ngorongoro"],
+  "name_family": ["Kondoro", "Nyerere", "Kikwete", "Mboya", "Msuya", "Makame", "Mataba", "Mwinyi", "Kapombe", "Mapunda"],
+  "name_cat": ["Mamba", "Bobby", "Jabali", "Koboko", "Mtemi"],
+  "name_dinosaur": ["Max", "Brown", "Mwiba", "Jabali", "Lugaluga"]
+}

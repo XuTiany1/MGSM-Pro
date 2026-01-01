@@ -1,0 +1,106 @@
+{
+  "original_question": "Vincent bԑtumi atɔ nhwiren wɔ adaka mmiԑnsa mu $2.50 anaasԑ adaka mmienu biara $1. Sika sԑn na ɔkora sԑ ɔtɔ nhwiren 18 wɔ boɔ a ԑyԑ a?",
+  "original_answer": 6,
+  "question_template": "{name_male, Vincent} bԑtumi atɔ nhwiren wɔ adaka {num_digit_1, mmiɛnsa} mu ${num_digit_2, 2.50} anaasԑ adaka {num_digit_3, mmienu} biara ${num_digit_4, 1}. Sika sԑn na ɔkora sԑ ɔtɔ nhwiren {num_digit_5, 18} wɔ boɔ a ԑyԑ a?",
+  "question_solution": "answer = num_digit_5/num_digit_1 * num_digit_2 - num_digit_5/num_digit_3 * num_digit_4",
+  "conditions": [
+    "int(answer) == num_digit_5/num_digit_1 * num_digit_2 - num_digit_5/num_digit_3 * num_digit_4",
+    "num_digit_5 % num_digit_1 == 0",
+    "num_digit_5 % num_digit_3 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Vincent"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      6,
+      3,
+      5,
+      8,
+      9,
+      7,
+      12,
+      10,
+      15
+    ],
+    "num_digit_2": [
+      5,
+      9,
+      6,
+      8,
+      14,
+      16,
+      10,
+      20,
+      18,
+      25
+    ],
+    "num_digit_3": [
+      5,
+      4,
+      7,
+      10,
+      6,
+      3,
+      5,
+      4,
+      8,
+      5
+    ],
+    "num_digit_4": [
+      3,
+      4,
+      4,
+      6,
+      9,
+      4,
+      4,
+      5,
+      10,
+      7
+    ],
+    "num_digit_5": [
+      20,
+      24,
+      21,
+      50,
+      24,
+      36,
+      35,
+      48,
+      40,
+      45
+    ],
+    "answer": [
+      13,
+      12,
+      30,
+      50,
+      6,
+      16,
+      22,
+      20,
+      22,
+      12
+    ],
+    "num_ic": [
+      40,
+      130,
+      23,
+      145,
+      78,
+      35,
+      63,
+      80,
+      107,
+      69
+    ]
+  },
+  "ic_question_template": "{name_male, Vincent} wɔfa wɔ ntoose nnua {num_ic, 23} wɔ ne nfikyiri. {name_male, Vincent} bԑtumi atɔ nhwiren wɔ adaka {num_digit_1, mmiɛnsa} mu ${num_digit_2, 2.50} anaasԑ adaka {num_digit_3, mmienu} biara ${num_digit_4, 1}. Sika sԑn na ɔkora sԑ ɔtɔ nhwiren {num_digit_5, 18} wɔ boɔ a ԑyԑ a?",
+  "ic_sentence": "{name_male, Vincent} wɔfa wɔ ntoose nnua {num_ic, 23} wɔ ne nfikyiri."
+}

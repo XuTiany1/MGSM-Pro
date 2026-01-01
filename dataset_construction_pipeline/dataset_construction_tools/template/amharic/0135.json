@@ -1,0 +1,96 @@
+{
+  "original_question": "የብሪያን ጓደኛ ቦቢ ብሪያን ካደረገው ከሶስት እጥፍ በ 5 ያነሰ የቪዲዮ ጨዋታዎች አሉት። ብሪያን 20 የቪዲዮ ጨዋታዎች ካሉት ግን ንጽጽሩ ከመደረጉ በፊት 5 ከተሸነፈ ቦቢ ስንት ነው ያለው?",
+  "original_answer": 40,
+  "question_template": "የ{name_male_1, ብሪያን} ጓደኛ {name_male_2, Bobby} {name_male_1, ብሪያን} ካደረገው ከ{num_digit_2, 3} እጥፍ በ {num_digit_1, 5} ያነሰ የቪዲዮ ጨዋታዎች አሉት። {name_male_1, Brian} {num_digit_3, 20} የቪዲዮ ጨዋታዎች ካሉት ግን ንጽጽሩ ከመደረጉ በፊት {num_digit_4, 5} ከተሸነፈ {name_male_2, ቦቢ} ስንት ነው ያለው?",
+  "question_solution": "answer = num_digit_2 * (num_digit_3 - num_digit_4) - num_digit_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 * (num_digit_3 - num_digit_4) - num_digit_1",
+    "num_digit_3 > num_digit_4",
+    "num_digit_1 > 0",
+    "num_digit_2 > 1",
+    "num_digit_3 > 0",
+    "num_digit_4 >= 0",
+    "answer > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Brian",
+    "name_male_2": "Bobby"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      9,
+      12,
+      15,
+      8,
+      6,
+      11,
+      20,
+      5,
+      13
+    ],
+    "num_digit_2": [
+      4,
+      5,
+      6,
+      7,
+      3,
+      9,
+      8,
+      10,
+      12,
+      11
+    ],
+    "num_digit_3": [
+      35,
+      40,
+      50,
+      60,
+      28,
+      24,
+      45,
+      70,
+      42,
+      55
+    ],
+    "num_digit_4": [
+      6,
+      4,
+      10,
+      5,
+      8,
+      3,
+      9,
+      20,
+      6,
+      5
+    ],
+    "answer": [
+      109,
+      171,
+      228,
+      370,
+      52,
+      183,
+      277,
+      480,
+      427,
+      537
+    ],
+    "num_ic": [
+      16,
+      46,
+      64,
+      121,
+      83,
+      37,
+      124,
+      77,
+      93,
+      89
+    ]
+  },
+  "ic_question_template": "የ{name_male_1, ብሪያን} ጓደኛ {name_male_2, Bobby} {name_male_1, ብሪያን} ካደረገው ከ{num_digit_2, 3} እጥፍ በ {num_digit_1, 5} ያነሰ የቪዲዮ ጨዋታዎች አሉት። {name_male_1, Brian} {num_digit_3, 20} የቪዲዮ ጨዋታዎች ካሉት ግን ንጽጽሩ ከመደረጉ በፊት {num_digit_4, 5} ከተሸነፈ {name_male_2, ቦቢ} ስንት ነው ያለው? የ{name_male_1, ብራያን} አጎቱ {num_ic, 30} የኮሚክ መፅሀፍት አለው።",
+  "ic_sentence": "የ{name_male_1, ብራያን} አጎቱ {num_ic, 30} የኮሚክ መፅሀፍት አለው።"
+}

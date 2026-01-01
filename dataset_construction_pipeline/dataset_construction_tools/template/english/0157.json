@@ -1,0 +1,108 @@
+{
+  "original_question": "Blake and Kelly are having a contest to see who can run the most in 15 minutes. They decide to do it on a football field that is 100 yards long. Blake runs back and forth 15 times. Kelly runs back and forth once, and then decides that she doesn't want to run next to Blake, so she starts to run to the 40-yard line and back. She does this 34 times. How much farther does the winner run than the loser?",
+  "original_answer": 80,
+  "question_template": "{name_male, Blake} and {name_female, Kelly} are having a contest to see who can run the most in 15 minutes. They decide to do it on a football field that is {num_digit_1, 100} yards long. {name_male, Blake} runs back and forth {num_digit_2, 15} times. {name_female, Kelly} runs back and forth {num_digit_3, 1} time, and then decides that she doesn't want to run next to {name_male, Blake}, so she starts to run to the {num_digit_4, 40}-yard line and back. She does this {num_digit_5, 34} times. How much farther does the winner run than the loser?",
+  "question_solution": "answer = abs(2 * num_digit_1 * num_digit_2 - (2 * num_digit_1 * num_digit_3 + 2 * num_digit_4 * num_digit_5))",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == abs(2 * num_digit_1 * num_digit_2 - (2 * num_digit_1 * num_digit_3 + 2 * num_digit_4 * num_digit_5))",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 1",
+    "num_digit_4 > 0",
+    "num_digit_4 < num_digit_1",
+    "num_digit_5 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Blake",
+    "name_female": "Kelly"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      100,
+      120,
+      90,
+      110,
+      100,
+      150,
+      80,
+      120,
+      110,
+      95
+    ],
+    "num_digit_2": [
+      15,
+      12,
+      18,
+      10,
+      8,
+      6,
+      20,
+      5,
+      12,
+      14
+    ],
+    "num_digit_3": [
+      2,
+      3,
+      1,
+      2,
+      3,
+      1,
+      4,
+      5,
+      2,
+      3
+    ],
+    "num_digit_4": [
+      40,
+      50,
+      30,
+      70,
+      60,
+      40,
+      20,
+      60,
+      50,
+      30
+    ],
+    "num_digit_5": [
+      34,
+      24,
+      25,
+      10,
+      12,
+      10,
+      40,
+      5,
+      26,
+      30
+    ],
+    "answer": [
+      120,
+      240,
+      1560,
+      360,
+      440,
+      700,
+      960,
+      600,
+      400,
+      290
+    ],
+    "num_ic": [
+      292,
+      568,
+      220,
+      896,
+      732,
+      1380,
+      184,
+      439,
+      975,
+      395
+    ]
+  },
+  "ic_question_template": "{name_male, Blake} and {name_female, Kelly} are having a contest to see who can run the most in 15 minutes. They decide to do it on a football field that is {num_digit_1, 100} yards long. {name_male, Blake} runs back and forth {num_digit_2, 15} times. {name_female, Kelly} runs back and forth {num_digit_3, 1} time, and then decides that she doesn't want to run next to {name_male, Blake}, so she starts to run to the {num_digit_4, 40}-yard line and back. She does this {num_digit_5, 34} times. {name_male, Blake}'s cousin brings {num_ic, 520} bottles of water to the field. How much farther does the winner run than the loser?",
+  "ic_sentence": "{name_male, Blake}'s cousin brings {num_ic, 520} bottles of water to the field."
+}

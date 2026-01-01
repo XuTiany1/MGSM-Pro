@@ -1,0 +1,79 @@
+{
+  "original_question": "Jean yana da alawar lollipops 30.Jean yakan sha 2 daga cikin alawar lollipops. A ragowar alwar lollipops da suka rage, Jean yana so ya kunshe alawar lollipops 2 a cikin wata jaka. Jaka nawa Jean zai iya cikawa?        ",
+  "original_answer": 14,
+  "question_template": "{name_male, Jean} yana da alawar lollipops {num_digit_1, 30}. {name_male, Jean} yakan sha {num_digit_2, 2} daga cikin alawar lollipops. A ragowar alwar lollipops da suka rage, {name_male, Jean} yana so ya kunshe alawar lollipops {num_digit_3, 2} a cikin wata jaka. Jaka nawa {name_male, Jean} zai iya cikawa?",
+  "question_solution": "answer = (num_digit_1 - num_digit_2) / num_digit_3",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_digit_2) / num_digit_3",
+    "(num_digit_1 - num_digit_2) % num_digit_3 == 0",
+    "num_digit_1 > num_digit_2",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jean"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      53,
+      89,
+      47,
+      82,
+      96,
+      67,
+      75,
+      84,
+      98,
+      120
+    ],
+    "num_digit_2": [
+      17,
+      23,
+      5,
+      30,
+      26,
+      13,
+      15,
+      12,
+      14,
+      20
+    ],
+    "num_digit_3": [
+      4,
+      11,
+      7,
+      13,
+      5,
+      9,
+      6,
+      8,
+      12,
+      10
+    ],
+    "answer": [
+      9,
+      6,
+      6,
+      4,
+      14,
+      6,
+      10,
+      9,
+      7,
+      10
+    ],
+    "num_ic": [
+      44,
+      267,
+      100,
+      285,
+      196,
+      69,
+      42,
+      416,
+      53,
+      495
+    ]
+  },
+  "ic_question_template": "Gwaggon {name_male, Jean} kwanan nan ta sayi balan-balan {num_ic, 94}. {name_male, Jean} yana da alawar lollipops {num_digit_1, 30}. {name_male, Jean} yakan sha {num_digit_2, 2} daga cikin alawar lollipops. A ragowar alwar lollipops da suka rage, {name_male, Jean} yana so ya kunshe alawar lollipops {num_digit_3, 2} a cikin wata jaka. Jaka nawa {name_male, Jean} zai iya cikawa?",
+  "ic_sentence": "Gwaggon {name_male, Jean} kwanan nan ta sayi balan-balan {num_ic, 94}."
+}

@@ -1,0 +1,91 @@
+{
+  "original_question": "Un mécanicien pratique différents tarifs de réparation des pneus de camions et de voitures. Pour chaque pneu de camion réparé il facture 60 $, et en facture 40 pour chaque pneu de voiture. Jeudi, il répare 6 pneus de camion et 4 pneus de voiture. Vendredi, il répare 12 pneus de voiture et n'en répare aucun de camion. Le jour où les revenus étaient les plus élevés, combien d'argent le mécanicien a-t-il gagné en plus ?",
+  "original_answer": 73,
+  "question_template": "Un mécanicien pratique différents tarifs de réparation des pneus de camions et de voitures. Pour chaque pneu de camion réparé il facture {num_digit_1, 78} $, et en facture {num_digit_2, 29} pour chaque pneu de voiture. Jeudi, il répare {num_digit_3, 8} pneus de camion et {num_digit_4, 9} pneus de voiture. Vendredi, il répare {num_digit_5, 28} pneus de voiture et n'en répare aucun de camion. Le jour où les revenus étaient les plus élevés, combien d'argent le mécanicien a-t-il gagné en plus ?",
+  "question_solution": "answer = num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4 - num_digit_2 * num_digit_5",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4 - num_digit_2 * num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4 > num_digit_2 * num_digit_5"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      78,
+      92,
+      65,
+      87,
+      54,
+      69,
+      83,
+      95,
+      74,
+      68
+    ],
+    "num_digit_2": [
+      29,
+      37,
+      41,
+      32,
+      49,
+      58,
+      26,
+      47,
+      39,
+      44
+    ],
+    "num_digit_3": [
+      8,
+      7,
+      13,
+      11,
+      12,
+      9,
+      15,
+      6,
+      10,
+      14
+    ],
+    "num_digit_4": [
+      9,
+      14,
+      6,
+      10,
+      8,
+      7,
+      5,
+      13,
+      12,
+      9
+    ],
+    "num_digit_5": [
+      28,
+      19,
+      17,
+      27,
+      18,
+      15,
+      21,
+      22,
+      24,
+      22
+    ],
+    "answer": [
+      73,
+      459,
+      394,
+      413,
+      158,
+      157,
+      829,
+      147,
+      272,
+      380
+    ]
+  },
+  "ic_question_template": "La nièce du mécanicien a {num_ic, 115} voitures miniatures. Un mécanicien pratique différents tarifs de réparation des pneus de camions et de voitures. Pour chaque pneu de camion réparé il facture {num_digit_1, 78} $, et en facture {num_digit_2, 29} pour chaque pneu de voiture. Jeudi, il répare {num_digit_3, 8} pneus de camion et {num_digit_4, 9} pneus de voiture. Vendredi, il répare {num_digit_5, 28} pneus de voiture et n'en répare aucun de camion. Le jour où les revenus étaient les plus élevés, combien d'argent le mécanicien a-t-il gagné en plus ?",
+  "ic_sentence": "La nièce du mécanicien a {num_ic, 115} voitures miniatures."
+}

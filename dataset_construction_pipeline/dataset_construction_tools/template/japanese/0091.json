@@ -1,0 +1,69 @@
+{
+  "original_question": "ジャンにはマルシアの3倍の数のペットを飼っています。マルシアはシンディーよりも2匹多くペットを飼っています。もしシンディーが4匹のペットを飼っているなら、3人は全部で何匹のペットを飼っていますか？",
+  "original_answer": 28,
+  "question_template": "{name_female_1, ジャン} には{name_female_2, マルシア}の{num_text_1, 三}倍の数のペットを飼っています。{name_female_2, マルシア}は{name_female_3, シンディー}よりも{num_text_2, 二}匹多くペットを飼っています。もし{name_female_3, シンディー}が{num_text_3, 四}匹のペットを飼っているなら、3人は全部で何匹のペットを飼っていますか？",
+  "question_solution": "answer = NUM(num_text_3) + (NUM(num_text_3) + NUM(num_text_2)) + NUM(num_text_1) * (NUM(num_text_3) + NUM(num_text_2))",
+  "conditions": [
+    "int(answer) == NUM(num_text_3) + (NUM(num_text_3) + NUM(num_text_2)) + NUM(num_text_1) * (NUM(num_text_3) + NUM(num_text_2))",
+    "NUM(num_text_1) > 0",
+    "NUM(num_text_2) >= 0",
+    "NUM(num_text_3) >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Jan",
+    "name_female_2": "Marcia",
+    "name_female_3": "Cindy"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "に (ni)",
+      "さん",
+      "四 (よん / yon)",
+      "ご",
+      "ろく",
+      "七 (しち / なな)",
+      "八",
+      "九 (きゅう / kyuu)",
+      "じゅう",
+      "十一"
+    ],
+    "num_text_2": [
+      "さん",
+      "四 (よん / yon)",
+      "いち",
+      "に (ni)",
+      "さん",
+      "四 (よん / yon)",
+      "ご",
+      "ろく",
+      "七 (しち / なな)",
+      "八"
+    ],
+    "num_text_3": [
+      "ご",
+      "に (ni)",
+      "七 (しち / なな)",
+      "ろく",
+      "いち",
+      "さん",
+      "に (ni)",
+      "四 (よん / yon)",
+      "いち",
+      "さん"
+    ],
+    "answer": [
+      29,
+      26,
+      47,
+      54,
+      29,
+      59,
+      65,
+      104,
+      89,
+      135
+    ]
+  },
+  "ic_question_template": "{name_female_2, マーシャ}のおじさんは{num_ic, 16}羽の鳥を飼っています。{name_female_1, ジャン} には{name_female_2, マルシア}の{num_text_1, 三}倍の数のペットを飼っています。{name_female_2, マルシア}は{name_female_3, シンディー}よりも{num_text_2, 二}匹多くペットを飼っています。もし{name_female_3, シンディー}が{num_text_3, 四}匹のペットを飼っているなら、3人は全部で何匹のペットを飼っていますか？",
+  "ic_sentence": "{name_female_2, マーシャ}のおじさんは{num_ic, 16}羽の鳥を飼っています。"
+}

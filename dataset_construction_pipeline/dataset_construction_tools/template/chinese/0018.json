@@ -1,0 +1,54 @@
+{
+  "original_question": "克莱尔每天早上用 3 颗鸡蛋做一份煎蛋饼当早餐。四周内她能吃多少打鸡蛋？",
+  "original_answer": 7,
+  "question_template": "{name_female, 克莱尔} 每天早上用 {num_digit_1, 3} 颗鸡蛋做一份煎蛋饼当早餐。{num_digit_2, 4} 周内她能吃多少打鸡蛋？",
+  "question_solution": "answer = num_digit_1 * 7 * num_digit_2 / 12",
+  "conditions": [
+    "int(answer) == num_digit_1 * 7 * num_digit_2 / 12",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Claire"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      18,
+      21,
+      27,
+      33,
+      39,
+      42,
+      45,
+      48,
+      51,
+      54
+    ],
+    "num_digit_2": [
+      4,
+      8,
+      16,
+      12,
+      20,
+      28,
+      32,
+      36,
+      40,
+      24
+    ],
+    "answer": [
+      42,
+      98,
+      252,
+      231,
+      455,
+      686,
+      840,
+      1008,
+      1190,
+      756
+    ]
+  },
+  "ic_question_template": "{name_female, 克莱尔} 的叔叔在他的农场里养了 {num_ic, 44} 只母鸡。{name_female, 克莱尔} 每天早上用 {num_digit_1, 3} 颗鸡蛋做一份煎蛋饼当早餐。{num_digit_2, 4} 周内她能吃多少打鸡蛋？",
+  "ic_sentence": "{name_female, 克莱尔} 的叔叔在他的农场里养了 {num_ic, 44} 只母鸡。"
+}

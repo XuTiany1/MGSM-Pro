@@ -1,0 +1,87 @@
+{
+  "original_question": "Mendy anadaiwa $100 na Benedict. Wamekubali kuwa na riba ya kila mwezi ya 2%. Ikiwa Mendy aliweza kulipa baada ya miezi 3, anafaa kumpa Benedict pesa ngapi?",
+  "original_answer": 106,
+  "question_template": "{name_female, Mandy} anadaiwa ${num_digit_1, 100} na {name_male, Benedict}. Wamekubalina kuwa na riba ya kila mwezi ya {num_digit_2, 2}%. Ikiwa {name_female, Mandy} atalipa baada ya miezi {num_digit_3, 3}, atamlipa {name_male, Benedict} jumla ya kiasi gani?",
+  "question_solution": "answer = num_digit_1 * (1 + (num_digit_2/100) * num_digit_3)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 + (num_digit_2/100) * num_digit_3)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Mandy",
+    "name_male": "Benedict"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      100,
+      300,
+      625,
+      185,
+      230,
+      150,
+      425,
+      275,
+      135,
+      400,
+      345
+    ],
+    "num_digit_2": [
+      2,
+      3,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12,
+      9,
+      10
+    ],
+    "num_digit_3": [
+      3,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answer": [
+      106,
+      327,
+      675,
+      222,
+      299,
+      213,
+      663,
+      473,
+      297,
+      796,
+      759
+    ],
+    "num_ic": [
+      656,
+      1768,
+      338,
+      3412,
+      1819,
+      885,
+      120,
+      1862,
+      1570,
+      208,
+      968
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_female, Mandy} aliwahi kukopa dola {num_ic, 656} kutoka kwa mtu yuleyule. {name_female, Mandy} anadaiwa ${num_digit_1, 100} na {name_male, Benedict}. Wamekubalina kuwa na riba ya kila mwezi ya {num_digit_2, 2}%. Ikiwa {name_female, Mandy} atalipa baada ya miezi {num_digit_3, 3}, atamlipa {name_male, Benedict} jumla ya kiasi gani?",
+  "ic_sentence": "Mjomba wa {name_female, Mandy} aliwahi kukopa dola {num_ic, 656} kutoka kwa mtu yuleyule."
+}

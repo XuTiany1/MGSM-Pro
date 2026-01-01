@@ -1,0 +1,72 @@
+{
+  "original_question": "ジェイムズはロバートより6つ多くキャンディをもっています。ジョンはロバートの2倍の数のキャンディをもっています。ジョンが54個のキャンディをもっている場合、ジョンはジェイムズに比べてキャンディを何個多くもっていますか？",
+  "original_answer": 21,
+  "question_template": "{name_male_1, James}はより{num_digit_1, 6}つ多くキャンディをもっています{name_male_2, Robert}. {name_male_3, John}もっている{num_text_1, twice}の数のキャンディをもっています{name_male_2, Robert}.ジ{name_male_3, John}ョンが{num_digit_2, 54}個のキャンディをもっている場合、{name_male_3, John}に比べてキャンディを何個多くもっていますか{name_male_1, James}？",
+  "question_solution": "answer = num_digit_2 - num_digit_2/f1 - num_digit_1  # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 - num_digit_2/f1 - num_digit_1",
+    "f1 > 1",
+    "num_digit_2 % f1 == 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "James",
+    "name_male_2": "Robert",
+    "name_male_3": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "num_text_1": [
+      "二回",
+      "三回",
+      "４回 (yonkai)",
+      "5回",
+      "６回 (ろっかい / rokkai)",
+      "七回",
+      "8倍",
+      "九回",
+      "十倍",
+      "１１倍 (じゅういちばい, juuichi-bai)"
+    ],
+    "num_digit_2": [
+      242,
+      369,
+      508,
+      725,
+      732,
+      861,
+      896,
+      945,
+      1000,
+      1210
+    ],
+    "answer": [
+      115,
+      239,
+      373,
+      571,
+      600,
+      727,
+      772,
+      827,
+      886,
+      1085
+    ]
+  },
+  "ic_question_template": "{name_male_2, ロバート}のおばは最近彼に{num_ic, 422}個のビー玉をくれました。{name_male_1, James}はより{num_digit_1, 6}つ多くキャンディをもっています{name_male_2, Robert}. {name_male_3, John}もっている{num_text_1, twice}の数のキャンディをもっています{name_male_2, Robert}.ジ{name_male_3, John}ョンが{num_digit_2, 54}個のキャンディをもっている場合、{name_male_3, John}に比べてキャンディを何個多くもっていますか{name_male_1, James}？",
+  "ic_sentence": "{name_male_2, ロバート}のおばは最近彼に{num_ic, 422}個のビー玉をくれました。"
+}

@@ -1,0 +1,70 @@
+{
+  "original_question": "Andrew gbèrò ìrìn-àjò láti New Jersey lọ sí Rochester. Ó gba ọjọ́ mẹ́fà láti rin ìrìn-àjò nípasẹ̀ ọkọ̀ akẹ́rù, yóò gba ọkọ ayọ́kẹ́lẹ́ ní ìdajì ọjọ́ náà láti rin ìrìn-àjò láti New Jersey lọ sí Rochester. Ọjọ́ mélòó ni yóò rin ìrìn-àjò tí ó bá gbèrò láti lọ sí Rochester pẹ̀lú u ọkọ̀ akẹ́rù kí ó sì padà wá láti Rochester pẹ̀lú ọkọ̀ ayọ́kẹ́lẹ́?",
+  "original_answer": 9,
+  "question_template": "{name_male, Andrew} gbèrò ìrìn-àjò láti {name_city_1, New Jersey} lọ sí {name_city_2, Rochester}. Ó gba ọjọ́ {num_digit_1, 6} láti rin ìrìn-àjò nípasẹ̀ ọkọ̀ akẹ́rù, yóò gba ọkọ ayọ́kẹ́lẹ́ ní {num_frac_1, ìdajì} ọjọ́ náà láti rin ìrìn-àjò láti {name_city_1, New Jersey} lọ sí {name_city_2, Rochester}. Ọjọ́ mélòó ni yóò rin ìrìn-àjò tí ó bá gbèrò láti lọ sí {name_city_2, Rochester} pẹ̀lú u ọkọ̀ akẹ́rù kí ó sì padà wá láti {name_city_2, Rochester} pẹ̀lú ọkọ̀ ayọ́kẹ́lẹ́?",
+  "question_solution": "answer = num_digit_1 * (1 + f1)   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 + f1)",
+    "num_digit_1 > 0",
+    "0 < f1 < 1",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Andrew",
+    "name_city_1": "New Jersey",
+    "name_city_2": "Rochester"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      84,
+      99,
+      100,
+      85,
+      91,
+      104,
+      108,
+      121,
+      169,
+      98
+    ],
+    "num_frac_1": [
+      "ìdá kejì",
+      "Ìkẹta kan",
+      "ìdẹ́kẹrin",
+      "Mejila ninu marun",
+      "mẹta ida meje",
+      "marun-un ida mẹjọ",
+      "Ìje méje lágún mẹ́sàn-án",
+      "mẹrin ninu mẹtala",
+      "mẹsan-un-lẹ́láàdọ́ta",
+      "mókànlá lara mẹ́rìnlá"
+    ],
+    "answer": [
+      126,
+      132,
+      125,
+      119,
+      130,
+      169,
+      192,
+      165,
+      286,
+      175
+    ],
+    "num_ic": [
+      339,
+      749,
+      183,
+      758,
+      917,
+      665,
+      352,
+      447,
+      424,
+      666
+    ]
+  },
+  "ic_question_template": "Kọ́rẹ́ {name_male, Andrew} rí {num_ic, 373} ọkọ̀ ayọ́kẹ́lẹ́ atijọ́ lọ́dún tó kọjá. {name_male, Andrew} gbèrò ìrìn-àjò láti {name_city_1, New Jersey} lọ sí {name_city_2, Rochester}. Ó gba ọjọ́ {num_digit_1, 6} láti rin ìrìn-àjò nípasẹ̀ ọkọ̀ akẹ́rù, yóò gba ọkọ ayọ́kẹ́lẹ́ ní {num_frac_1, ìdajì} ọjọ́ náà láti rin ìrìn-àjò láti {name_city_1, New Jersey} lọ sí {name_city_2, Rochester}. Ọjọ́ mélòó ni yóò rin ìrìn-àjò tí ó bá gbèrò láti lọ sí {name_city_2, Rochester} pẹ̀lú u ọkọ̀ akẹ́rù kí ó sì padà wá láti {name_city_2, Rochester} pẹ̀lú ọkọ̀ ayọ́kẹ́lẹ́?",
+  "ic_sentence": "Kọ́rẹ́ {name_male, Andrew} rí {num_ic, 373} ọkọ̀ ayọ́kẹ́lẹ́ atijọ́ lọ́dún tó kọjá."
+}

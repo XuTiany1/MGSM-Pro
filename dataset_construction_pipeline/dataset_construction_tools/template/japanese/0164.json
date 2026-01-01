@@ -1,0 +1,69 @@
+{
+  "original_question": "ジャッキーは自分で税金を処理するか、会計士を雇おうか決めようとしている。自分で行えば、彼女は3時間フリーランスの仕事を減らし、1時間に35ドルが失われる収入となる。会計士は90ドルかかる。会計士を雇えば、彼女は後いくら得ることができるか？",
+  "original_answer": 15,
+  "question_template": "{name_female, ジャッキー} は自分で税金を処理するか、会計士を雇おうか決めようとしている。自分で行えば、彼女は {num_digit_1, 3} 時間フリーランスの仕事を減らし、1時間に {num_digit_2, 35} ドルが失われる収入となる。会計士は {num_digit_3, 90} ドルかかる。会計士を雇えば、彼女は後いくら得ることができるか？",
+  "question_solution": "answer = num_digit_1 * num_digit_2 - num_digit_3",
+  "conditions": [
+    "answer == num_digit_1 * num_digit_2 - num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "answer > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Jackie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      13,
+      27,
+      32,
+      45,
+      58,
+      63,
+      74,
+      81,
+      96,
+      100
+    ],
+    "num_digit_2": [
+      57,
+      64,
+      72,
+      81,
+      93,
+      104,
+      117,
+      128,
+      139,
+      150
+    ],
+    "num_digit_3": [
+      345,
+      789,
+      1234,
+      1573,
+      2345,
+      2876,
+      3456,
+      4123,
+      4789,
+      5321
+    ],
+    "answer": [
+      396,
+      939,
+      1070,
+      2072,
+      3049,
+      3676,
+      5202,
+      6245,
+      8555,
+      9679
+    ]
+  },
+  "ic_question_template": "{name_female, ジャッキー}のおじは最近{num_ic, 97}冊の税金に関する本を買いました。{name_female, ジャッキー} は自分で税金を処理するか、会計士を雇おうか決めようとしている。自分で行えば、彼女は {num_digit_1, 3} 時間フリーランスの仕事を減らし、1時間に {num_digit_2, 35} ドルが失われる収入となる。会計士は {num_digit_3, 90} ドルかかる。会計士を雇えば、彼女は後いくら得ることができるか？",
+  "ic_sentence": "{name_female, ジャッキー}のおじは最近{num_ic, 97}冊の税金に関する本を買いました。"
+}

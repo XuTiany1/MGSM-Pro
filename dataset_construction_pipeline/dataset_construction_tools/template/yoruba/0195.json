@@ -1,0 +1,79 @@
+{
+  "original_question": "Iye tí wọ́n ń ta gègé jẹ́ àpapọ̀ iye tí wón ń tà pẹ́ńsù àti eraser. Pẹ́ńsù kan jẹ́ $1.20, eraser kan sì jẹ́ $0.30. Èló ni gègé 8 máa jẹ́?",
+  "original_answer": 12,
+  "question_template": "Iye tí wọ́n ń ta gègé jẹ́ àpapọ̀ iye tí wón ń tà pẹ́ńsù àti eraser. Pẹ́ńsù kan jẹ́ ${num_digit_1, 1.20}, eraser kan sì jẹ́ ${num_digit_2, 0.30}. Èló ni gègé {num_digit_3, 8} máa jẹ́?",
+  "question_solution": "answer = num_digit_3 * (num_digit_1 + num_digit_2)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_3 * (num_digit_1 + num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      2.37,
+      3.14,
+      1.75,
+      2.49,
+      1.33,
+      4.125,
+      5.55,
+      3.33,
+      2.05,
+      6.7
+    ],
+    "num_digit_2": [
+      0.63,
+      0.86,
+      0.25,
+      0.51,
+      0.67,
+      0.375,
+      0.45,
+      0.67,
+      0.95,
+      3.3
+    ],
+    "num_digit_3": [
+      7,
+      9,
+      11,
+      8,
+      12,
+      4,
+      5,
+      13,
+      17,
+      11
+    ],
+    "answer": [
+      21,
+      36,
+      22,
+      24,
+      24,
+      18,
+      30,
+      52,
+      51,
+      110
+    ],
+    "num_ic": [
+      13,
+      58,
+      37,
+      40,
+      31,
+      19,
+      67,
+      38,
+      67,
+      44
+    ]
+  },
+  "ic_question_template": "Notebook tuntun {num_ic, 33} dé sí ilé itaja lónìí. Iye tí wọ́n ń ta gègé jẹ́ àpapọ̀ iye tí wón ń tà pẹ́ńsù àti eraser. Pẹ́ńsù kan jẹ́ ${num_digit_1, 1.20}, eraser kan sì jẹ́ ${num_digit_2, 0.30}. Èló ni gègé {num_digit_3, 8} máa jẹ́?",
+  "ic_sentence": "Notebook tuntun {num_ic, 33} dé sí ilé itaja lónìí."
+}

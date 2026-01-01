@@ -1,0 +1,94 @@
+{
+  "original_question": "詹姆斯正在数他的宝可梦卡牌。他有 30 张火系、20 张草系和 40 张水系。如果他丢失了 8 张水系且购买了 14 张草系，一张随机选择的卡牌为水系的几率是多少（四舍五入到最接近的整数）？",
+  "original_answer": 33,
+  "question_template": "{name_male, 詹姆斯} 正在数他的宝可梦卡牌。他有 {num_digit_1, 30} 张火系、{num_digit_2, 20} 张草系和 {num_digit_3, 40} 张水系。如果他丢失了 {num_digit_4, 8} 张水系且购买了 {num_digit_5, 14} 张草系，一张随机选择的卡牌为水系的几率是多少（四舍五入到最接近的整数）？",
+  "question_solution": "answer = round((num_digit_3 - num_digit_4) / (num_digit_1 + num_digit_2 + num_digit_3 - num_digit_4 + num_digit_5) * 100)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == round((num_digit_3 - num_digit_4) / (num_digit_1 + num_digit_2 + num_digit_3 - num_digit_4 + num_digit_5) * 100)",
+    "num_digit_3 - num_digit_4 >= 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_5 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "James"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1234,
+      2345,
+      3456,
+      4567,
+      5678,
+      6789,
+      7890,
+      8901,
+      9012,
+      10123
+    ],
+    "num_digit_2": [
+      987,
+      876,
+      765,
+      654,
+      543,
+      432,
+      321,
+      210,
+      109,
+      99
+    ],
+    "num_digit_3": [
+      4321,
+      5432,
+      6543,
+      7654,
+      8765,
+      9876,
+      10987,
+      12098,
+      13209,
+      14320
+    ],
+    "num_digit_4": [
+      321,
+      432,
+      543,
+      654,
+      765,
+      876,
+      987,
+      1098,
+      1209,
+      1320
+    ],
+    "num_digit_5": [
+      123,
+      234,
+      345,
+      456,
+      567,
+      678,
+      789,
+      890,
+      901,
+      1012
+    ],
+    "answer": [
+      63,
+      59,
+      57,
+      55,
+      54,
+      53,
+      53,
+      52,
+      54,
+      54
+    ]
+  },
+  "ic_question_template": "{name_male, 詹姆斯} 的姑妈在一次车库拍卖中找到了 {num_ic, 73} 张稀有的交易卡。{name_male, 詹姆斯} 正在数他的宝可梦卡牌。他有 {num_digit_1, 30} 张火系、{num_digit_2, 20} 张草系和 {num_digit_3, 40} 张水系。如果他丢失了 {num_digit_4, 8} 张水系且购买了 {num_digit_5, 14} 张草系，一张随机选择的卡牌为水系的几率是多少（四舍五入到最接近的整数）？",
+  "ic_sentence": "{name_male, 詹姆斯} 的姑妈在一次车库拍卖中找到了 {num_ic, 73} 张稀有的交易卡。"
+}

@@ -1,0 +1,108 @@
+{
+  "original_question": "ビルは300個のロール、120個のチョコレートクロワッサン、60個のバゲットを毎日焼きます。各ロールは4インチの長さで、クロワッサンはそれぞれ6インチの長さ、バゲットはそれぞれ2フィートの長さです。ビルが焼いたものをすべて並べたら、何フィートになりますか？",
+  "original_answer": 280,
+  "question_template": "ビル{name_male, Bill}は{num_digit_1, 300}個のロール、{num_digit_2, 120}個のチョコレートクロワッサン、{num_digit_3, 60}個のバゲットを毎日焼きます。各ロールは{num_digit_4, 4}インチの長さで、クロワッサンはそれぞれ{num_digit_5, 6}インチの長さ、バゲットはそれぞれ{num_text_1, 二}フィートの長さです。{name_male, Bill}が焼いたものをすべて並べたら、何フィートになりますか？",
+  "question_solution": "answer = (num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5) / 12 + num_digit_3 * k   # k is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5) / 12 + num_digit_3 * k",
+    "(num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5) % 12 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "k > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Bill"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      252,
+      300,
+      360,
+      540,
+      372,
+      420,
+      480,
+      360,
+      324,
+      396
+    ],
+    "num_digit_2": [
+      180,
+      150,
+      210,
+      240,
+      132,
+      180,
+      240,
+      120,
+      168,
+      180
+    ],
+    "num_digit_3": [
+      90,
+      70,
+      60,
+      50,
+      40,
+      30,
+      25,
+      20,
+      15,
+      10
+    ],
+    "num_digit_4": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      6,
+      6,
+      6,
+      4,
+      6
+    ],
+    "num_digit_5": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "num_text_1": [
+      "に (ni)",
+      "さん",
+      "四 (よん / yon)",
+      "ご",
+      "ろく",
+      "七 (しち / なな)",
+      "八",
+      "九 (きゅう / kyuu)",
+      "じゅう",
+      "十一"
+    ],
+    "answer": [
+      354,
+      385,
+      465,
+      550,
+      430,
+      510,
+      560,
+      420,
+      342,
+      398
+    ]
+  },
+  "ic_question_template": "{name_male, ビル}のおばは毎月{num_ic, 72}本のパンを買います。ビル{name_male, Bill}は{num_digit_1, 300}個のロール、{num_digit_2, 120}個のチョコレートクロワッサン、{num_digit_3, 60}個のバゲットを毎日焼きます。各ロールは{num_digit_4, 4}インチの長さで、クロワッサンはそれぞれ{num_digit_5, 6}インチの長さ、バゲットはそれぞれ{num_text_1, 二}フィートの長さです。{name_male, Bill}が焼いたものをすべて並べたら、何フィートになりますか？",
+  "ic_sentence": "{name_male, ビル}のおばは毎月{num_ic, 72}本のパンを買います。"
+}

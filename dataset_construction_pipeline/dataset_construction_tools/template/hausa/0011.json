@@ -1,0 +1,118 @@
+{
+  "original_question": "Toula ta je gidan burodi ta sayi kek iri-iri. Ta sayi donot dozin 3 wanda kudinsu ya kai $68 akan kowane dozin, dozin 2 na kek wanda farashinsa yakai $80 akan kowane dozin, sai kuma dozin 6 na cizkek akan dala 55 duk dozin. Nawa ne jimlar farashin?",
+  "original_answer": 694,
+  "question_template": "{name_female, Toula} ta je gidan burodi ta sayi kek iri-iri. Ta sayi donot dozin {num_digit_1, 3} wanda kudinsu ya kai ${num_digit_2, 68} akan kowane dozin, dozin {num_digit_3, 2} na kek wanda farashinsa yakai ${num_digit_4, 80} akan kowane dozin, sai kuma dozin {num_digit_5, 6} na cizkek akan dala ${num_digit_6, 55} duk dozin. Nawa ne jimlar farashin?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + num_digit_3 * num_digit_4 + num_digit_5 * num_digit_6",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 + num_digit_3 * num_digit_4 + num_digit_5 * num_digit_6",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Toula"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_2": [
+      62,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97,
+      101,
+      103
+    ],
+    "num_digit_3": [
+      5,
+      8,
+      9,
+      12,
+      15,
+      16,
+      18,
+      21,
+      22,
+      24
+    ],
+    "num_digit_4": [
+      57,
+      61,
+      67,
+      71,
+      77,
+      83,
+      89,
+      93,
+      97,
+      101
+    ],
+    "num_digit_5": [
+      2,
+      3,
+      4,
+      6,
+      10,
+      14,
+      17,
+      19,
+      23,
+      29
+    ],
+    "num_digit_6": [
+      65,
+      69,
+      75,
+      81,
+      87,
+      93,
+      99,
+      105,
+      111,
+      117
+    ],
+    "answer": [
+      849,
+      1432,
+      1826,
+      2579,
+      3526,
+      4539,
+      5866,
+      6955,
+      8424,
+      10040
+    ],
+    "num_ic": [
+      21,
+      92,
+      267,
+      42,
+      180,
+      16,
+      217,
+      359,
+      84,
+      152
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Toula} ya umurci a kawo gurasa {num_ic, 136} domin liyafa. {name_female, Toula} ta je gidan burodi ta sayi kek iri-iri. Ta sayi donot dozin {num_digit_1, 3} wanda kudinsu ya kai ${num_digit_2, 68} akan kowane dozin, dozin {num_digit_3, 2} na kek wanda farashinsa yakai ${num_digit_4, 80} akan kowane dozin, sai kuma dozin {num_digit_5, 6} na cizkek akan dala ${num_digit_6, 55} duk dozin. Nawa ne jimlar farashin?",
+  "ic_sentence": "Kawun {name_female, Toula} ya umurci a kawo gurasa {num_ic, 136} domin liyafa."
+}

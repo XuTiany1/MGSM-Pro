@@ -1,0 +1,93 @@
+{
+  "original_question": "マリッサは12マイルにわたるハイキングをします。最初の4マイルを歩くのに1時間かかり、次の2マイルを歩くのにまた1時間かかりました。1時間あたり平均4マイルの時速で歩きたい場合、残りの距離はどれくらいの速度（1時間あたりのマイル数）で歩かないといけませんか？",
+  "original_answer": 6,
+  "question_template": "{name_female, マリッサ}は{num_digit_1, 12}マイルにわたるハイキングをします。最初の{num_digit_3, 4}マイルを歩くのに{num_digit_2, 1}時間かかり、次の{num_text_1, 二}マイルを歩くのにまた{num_digit_2, 1}時間かかりました。1時間あたり平均{num_digit_4, 4}マイルの時速で歩きたい場合、残りの距離はどれくらいの速度（1時間あたりのマイル数）で歩かないといけませんか？",
+  "question_solution": "answer = (num_digit_1 - (num_digit_3 + NUM(num_text_1))) / (num_digit_1 / num_digit_4 - 2 * num_digit_2)",
+  "conditions": [
+    "int(answer) == (num_digit_1 - (num_digit_3 + NUM(num_text_1))) / (num_digit_1 / num_digit_4 - 2 * num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_text_1) > 0",
+    "num_digit_3 + NUM(num_text_1) < num_digit_1",
+    "num_digit_4 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Marissa"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      147,
+      134,
+      146,
+      132,
+      44,
+      46,
+      45,
+      72,
+      130,
+      54
+    ],
+    "num_digit_2": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "num_digit_3": [
+      18,
+      16,
+      14,
+      15,
+      7,
+      14,
+      19,
+      8,
+      16,
+      7
+    ],
+    "num_text_1": [
+      "に (ni)",
+      "に (ni)",
+      "に (ni)",
+      "じゅうなな",
+      "十三",
+      "十九",
+      "に (ni)",
+      "に (ni)",
+      "に (ni)",
+      "七 (しち / なな)"
+    ],
+    "num_digit_4": [
+      10,
+      9,
+      8,
+      6,
+      10,
+      10,
+      9,
+      5,
+      9,
+      7
+    ],
+    "answer": [
+      10,
+      9,
+      8,
+      5,
+      10,
+      5,
+      8,
+      5,
+      9,
+      7
+    ]
+  },
+  "ic_question_template": "{name_female, マリッサ}のおばは道沿いに{num_ic, 49}本の野生の花を見かけました。{name_female, マリッサ}は{num_digit_1, 12}マイルにわたるハイキングをします。最初の{num_digit_3, 4}マイルを歩くのに{num_digit_2, 1}時間かかり、次の{num_text_1, 二}マイルを歩くのにまた{num_digit_2, 1}時間かかりました。1時間あたり平均{num_digit_4, 4}マイルの時速で歩きたい場合、残りの距離はどれくらいの速度（1時間あたりのマイル数）で歩かないといけませんか？",
+  "ic_sentence": "{name_female, マリッサ}のおばは道沿いに{num_ic, 49}本の野生の花を見かけました。"
+}

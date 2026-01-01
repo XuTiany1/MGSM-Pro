@@ -1,0 +1,93 @@
+{
+  "original_question": "Shawnda ameamua kuwa watoto wa mtaa wake wanaweza kwa kweli kutumia huduma ya kuongeza pumzi kwa baiskeli. Anaamua njia bora ya kutoza ni kwa kila tairi. Kila tairi hugharimi senti 25 kuongeza pumzi. Siku ya kwanza, watu 5 kwenye baiskeli walikuja ili kuongezewa pumzi kwenye tairi zao zote mbili kila mmoja. Watu 3 walikuja ili kuongeza pumzi kwenye tairi zao tatu kila mmoja. Hatimaye, mtu mmoja alikuja kwa baiskeli yenye tairi moja. Alipata dola ngapi hiyo siku?",
+  "original_answer": 5,
+  "question_template": "{name_female, Shawnda} anaamua kuwa watoto katika mtaa wake wanahitaji huduma ya kupulizia hewa kwenye tairi za baiskeli. Anaamua kuwa njia bora ya kutoza ni kwa tairi. Kila tairi hugharimu senti {num_digit_1, 25} kupulizia hewa. Siku ya kwanza, watu {num_digit_2, 5} waliokuwa na baiskeli walikuja kupuliziwa tairi zote mbili. Watu {num_digit_3, 3} walikuja kupuliziwa tairi zote za baiskeli tatu. Hatimaye, mtu {num_text_1, mmoja} alikuja akiwa na monocycle. Alipata dola ngapi siku hiyo?",
+  "question_solution": "answer = (num_digit_1 / 100) * (2 * num_digit_2 + 3 * num_digit_3 + k)   # k is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 / 100) * (2 * num_digit_2 + 3 * num_digit_3 + k)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "k > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Shawnda"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      25,
+      20,
+      50,
+      30,
+      15,
+      60,
+      10,
+      75,
+      5,
+      40
+    ],
+    "num_digit_2": [
+      2,
+      3,
+      2,
+      3,
+      5,
+      2,
+      3,
+      2,
+      5,
+      4
+    ],
+    "num_digit_3": [
+      1,
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      2,
+      1
+    ],
+    "num_text_1": [
+      "moja",
+      "tatu",
+      "moja",
+      "moja",
+      "nne",
+      "nane",
+      "moja",
+      "moja",
+      "nne",
+      "nne"
+    ],
+    "answer": [
+      2,
+      3,
+      4,
+      3,
+      3,
+      9,
+      1,
+      6,
+      1,
+      6
+    ],
+    "num_ic": [
+      37,
+      17,
+      29,
+      12,
+      21,
+      48,
+      51,
+      44,
+      39,
+      59
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_female, Shawnda} hivi karibuni alinunua puto {num_ic, 37} kwa ajili ya sherehe. {name_female, Shawnda} anaamua kuwa watoto katika mtaa wake wanahitaji huduma ya kupulizia hewa kwenye tairi za baiskeli. Anaamua kuwa njia bora ya kutoza ni kwa tairi. Kila tairi hugharimu senti {num_digit_1, 25} kupulizia hewa. Siku ya kwanza, watu {num_digit_2, 5} waliokuwa na baiskeli walikuja kupuliziwa tairi zote mbili. Watu {num_digit_3, 3} walikuja kupuliziwa tairi zote za baiskeli tatu. Hatimaye, mtu {num_text_1, mmoja} alikuja akiwa na monocycle. Alipata dola ngapi siku hiyo?",
+  "ic_sentence": "Mjomba wa {name_female, Shawnda} hivi karibuni alinunua puto {num_ic, 37} kwa ajili ya sherehe."
+}

@@ -1,0 +1,107 @@
+{
+  "original_question": "Mercy akifanya kazi katika kampuni moja kwa miaka 40, atapata malipo ya uzeeni ya kila mwaka ya $50,000 kwa mwaka. Kuanzia baada ya miaka 20, anakuwa na haki ya kupata 5% ya thamani ya malipo ya uzeeni kila mwaka. Akiacha kazi baada ya miaka 30, malipo yake ya uzeeni ya kila mwaka yatakuwa ngapi?",
+  "original_answer": 25000,
+  "question_template": "{name_female, Marcy} akifanya kazi katika kampuni moja kwa miaka {num_digit_1, 40}, atapata malipo ya uzeeni ya kila mwaka ya ${num_digit_2, 50,000} kwa mwaka. Kuanzia baada ya miaka {num_digit_3, 20}, anakuwa na haki ya kupata {num_digit_4, 5}% ya thamani ya malipo ya uzeeni kila mwaka. Akiacha kazi baada ya miaka {num_digit_6, 30}, malipo yake ya uzeeni ya kila mwaka yatakuwa ngapi?",
+  "question_solution": "answer = num_digit_2 * NUM(num_digit_4)/100 * (num_digit_6 - num_digit_3)",
+  "conditions": [
+    "int(answer) == num_digit_2 * NUM(num_digit_4)/100 * (num_digit_6 - num_digit_3)",
+    "num_digit_6 > num_digit_3",
+    "num_digit_6 <= num_digit_1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "NUM(num_digit_4) > 0",
+    "NUM(num_digit_4) < 100"
+  ],
+  "variable_word_list": {
+    "name_female": "Marcy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      45,
+      50,
+      60,
+      35,
+      55,
+      100,
+      75,
+      80,
+      90,
+      65
+    ],
+    "num_digit_2": [
+      40000,
+      60000,
+      55000,
+      72000,
+      33000,
+      48000,
+      51000,
+      39000,
+      100000,
+      85000
+    ],
+    "num_digit_3": [
+      25,
+      15,
+      30,
+      10,
+      18,
+      22,
+      12,
+      28,
+      16,
+      18
+    ],
+    "num_digit_4": [
+      4,
+      6,
+      3,
+      8,
+      7,
+      10,
+      12,
+      9,
+      11,
+      14
+    ],
+    "num_digit_6": [
+      35,
+      25,
+      45,
+      20,
+      30,
+      85,
+      60,
+      65,
+      26,
+      50
+    ],
+    "answer": [
+      16000,
+      36000,
+      24750,
+      57600,
+      27720,
+      302400,
+      293760,
+      129870,
+      110000,
+      380800
+    ],
+    "num_ic": [
+      191000,
+      110000,
+      462000,
+      356000,
+      854000,
+      239000,
+      964000,
+      991000,
+      593000,
+      530000
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_female, Marcy} alipokea bonasi ya ${num_ic, 315,000} mwaka uliopita. {name_female, Marcy} akifanya kazi katika kampuni moja kwa miaka {num_digit_1, 40}, atapata malipo ya uzeeni ya kila mwaka ya ${num_digit_2, 50,000} kwa mwaka. Kuanzia baada ya miaka {num_digit_3, 20}, anakuwa na haki ya kupata {num_digit_4, 5}% ya thamani ya malipo ya uzeeni kila mwaka. Akiacha kazi baada ya miaka {num_digit_6, 30}, malipo yake ya uzeeni ya kila mwaka yatakuwa ngapi?",
+  "ic_sentence": "Mjomba wa {name_female, Marcy} alipokea bonasi ya ${num_ic, 315,000} mwaka uliopita."
+}

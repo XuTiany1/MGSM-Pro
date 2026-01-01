@@ -1,0 +1,90 @@
+{
+  "original_question": "Kuna konokono 4 katika tangisamaki na konokono 32 katika tangisamaki nyingine. Tofauti kati ya idadi ya konokono katika tangisamaki hizi mbili ni mara mbili zaidi ya idadi ya samaki katika tangisamaki zote mbili. Ikiwa tangisamaki zote mbili zina idadi sawa ya samaki, kuna samaki wangapi katika kila tangisamaki?",
+  "original_answer": 7,
+  "question_template": "Kuna konokono {num_digit_1, 4} katika tangisamaki na konokono {num_digit_2, 32} katika tangisamaki nyingine. Tofauti kati ya idadi ya konokono katika tangisamaki hizi {num_text_1, mbili} ni {num_text_2, mara mbili} zaidi ya idadi ya samaki katika tangisamaki zote mbili. Ikiwa tangisamaki zote mbili zina idadi sawa ya samaki, kuna samaki wangapi katika kila tangisamaki?",
+  "question_solution": "answer = (num_digit_2 - num_digit_1) / (2 * f2)   # f2 is the numeric value of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_2 - num_digit_1) / (2 * f2)",
+    "num_digit_2 > num_digit_1",
+    "num_digit_1 >= 0",
+    "f2 > 0",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      33,
+      47,
+      25,
+      9,
+      58,
+      73,
+      101,
+      66,
+      82
+    ],
+    "num_digit_2": [
+      84,
+      129,
+      119,
+      137,
+      57,
+      154,
+      211,
+      277,
+      174,
+      202
+    ],
+    "num_text_1": [
+      "mbili",
+      "mbili",
+      "mbili",
+      "mbili",
+      "mbili",
+      "mbili",
+      "mbili",
+      "mbili",
+      "mbili",
+      "mbili"
+    ],
+    "num_text_2": [
+      "Mara mbili",
+      "mara tatu",
+      "mara sita",
+      "Mara nne",
+      "mara tatu",
+      "Mara nane",
+      "mara tatu",
+      "Mara nne",
+      "mara tatu",
+      "mara tano"
+    ],
+    "answer": [
+      18,
+      16,
+      6,
+      14,
+      8,
+      6,
+      23,
+      22,
+      18,
+      12
+    ],
+    "num_ic": [
+      22,
+      49,
+      131,
+      198,
+      13,
+      104,
+      173,
+      278,
+      92,
+      154
+    ]
+  },
+  "ic_question_template": "Binamu wa {name_male, Michael} ana samaki wa guppy {num_ic, 15} nyumbani. Kuna konokono {num_digit_1, 4} katika tangisamaki na konokono {num_digit_2, 32} katika tangisamaki nyingine. Tofauti kati ya idadi ya konokono katika tangisamaki hizi {num_text_1, mbili} ni {num_text_2, mara mbili} zaidi ya idadi ya samaki katika tangisamaki zote mbili. Ikiwa tangisamaki zote mbili zina idadi sawa ya samaki, kuna samaki wangapi katika kila tangisamaki?",
+  "ic_sentence": "Binamu wa {name_male, Michael} ana samaki wa guppy {num_ic, 15} nyumbani."
+}

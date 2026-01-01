@@ -1,0 +1,108 @@
+{
+  "original_question": "珍妮特有 22 根绿色笔和 10 根黄色笔。然后她买了 6 包蓝色笔和 2 包红色笔。每包蓝色笔里面有 9 根笔，每包红色笔里面有 6 根笔。珍妮特现在有多少根笔？",
+  "original_answer": 98,
+  "question_template": "{name_female, 珍妮特} 有 {num_digit_1, 22} 根绿色笔和 {num_digit_2, 10} 根黄色笔。然后她买了 {num_digit_3, 6} 包蓝色笔和 {num_digit_4, 2} 包红色笔。每包蓝色笔里面有 {num_digit_5, 9} 根笔，每包红色笔里面有 {num_digit_6, 6} 根笔。{name_female, 珍妮特} 现在有多少根笔？",
+  "question_solution": "answer = num_digit_1 + num_digit_2 + num_digit_3 * num_digit_5 + num_digit_4 * num_digit_6",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + num_digit_2 + num_digit_3 * num_digit_5 + num_digit_4 * num_digit_6",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "num_digit_6 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Janet"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1234,
+      2345,
+      3456,
+      4567,
+      5678,
+      6789,
+      7890,
+      8901,
+      9012,
+      10123
+    ],
+    "num_digit_2": [
+      987,
+      876,
+      765,
+      654,
+      543,
+      432,
+      321,
+      210,
+      109,
+      98
+    ],
+    "num_digit_3": [
+      123,
+      234,
+      345,
+      456,
+      567,
+      678,
+      789,
+      890,
+      901,
+      1012
+    ],
+    "num_digit_4": [
+      321,
+      432,
+      543,
+      654,
+      765,
+      876,
+      987,
+      1098,
+      1209,
+      1320
+    ],
+    "num_digit_5": [
+      98,
+      87,
+      76,
+      65,
+      54,
+      43,
+      32,
+      21,
+      10,
+      9
+    ],
+    "num_digit_6": [
+      123,
+      135,
+      147,
+      159,
+      168,
+      174,
+      189,
+      196,
+      210,
+      225
+    ],
+    "answer": [
+      53758,
+      81899,
+      110262,
+      138847,
+      165359,
+      188799,
+      220002,
+      243009,
+      272021,
+      316329
+    ]
+  },
+  "ic_question_template": "{name_female, 珍妮特}的表亲刚刚收到了 {num_ic, 700} 本笔记本作为礼物。{name_female, 珍妮特} 有 {num_digit_1, 22} 根绿色笔和 {num_digit_2, 10} 根黄色笔。然后她买了 {num_digit_3, 6} 包蓝色笔和 {num_digit_4, 2} 包红色笔。每包蓝色笔里面有 {num_digit_5, 9} 根笔，每包红色笔里面有 {num_digit_6, 6} 根笔。{name_female, 珍妮特} 现在有多少根笔？",
+  "ic_sentence": "{name_female, 珍妮特}的表亲刚刚收到了 {num_ic, 700} 本笔记本作为礼物。"
+}

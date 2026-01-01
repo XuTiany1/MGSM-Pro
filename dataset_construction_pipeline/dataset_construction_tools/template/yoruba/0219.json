@@ -1,0 +1,110 @@
+{
+  "original_question": "Àwọn akẹ́kọ̀ọ́ mẹ́rin gba àpapọ̀ àmì 251 nínú eré ìgbìmọ̀. Naomi gba àmì 68 nínú àmì náà. Yuri gba àmì mẹ́wàá ju ìdajì àmì Naomi, Brianna sì gba àmì 17 ju Naomi lọ. Àmì mélòó ni Jojo gba?",
+  "original_answer": 54,
+  "question_template": "Àwọn akẹ́kọ̀ọ́ mẹ́rin gba àpapọ̀ àmì {num_digit_1, 251} nínú eré ìgbìmọ̀. {name_female_1, Naomi} gba àmì {num_digit_2, 68} nínú àmì náà. {name_female_2, Yuri} gba àmì {num_digit_3, 10} ju {num_frac_1, ìdajì} àmì {name_female_1, Naomi}, {name_female_3, Brianna} sì gba àmì {num_digit_4, 17} ju {name_female_1, Naomi} lọ. Àmì mélòó ni {name_female_4, Jojo} gba?",
+  "question_solution": "answer = num_digit_1 - ( num_digit_2 + (f1 * num_digit_2 + num_digit_3) + (num_digit_2 + num_digit_4) )   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 - ( num_digit_2 + (f1 * num_digit_2 + num_digit_3) + (num_digit_2 + num_digit_4) )",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "0 < f1 < 1",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Naomi",
+    "name_female_2": "Yuri",
+    "name_female_3": "Brianna",
+    "name_female_4": "Jojo"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      395,
+      432,
+      470,
+      699,
+      755,
+      619,
+      816,
+      842,
+      1000,
+      910
+    ],
+    "num_digit_2": [
+      120,
+      135,
+      150,
+      180,
+      210,
+      168,
+      192,
+      240,
+      315,
+      270
+    ],
+    "num_digit_3": [
+      17,
+      29,
+      13,
+      47,
+      41,
+      31,
+      37,
+      23,
+      43,
+      19
+    ],
+    "num_frac_1": [
+      "Ìkẹta kan",
+      "Mejila ninu marun",
+      "ìdámẹ́ta ọdún kan",
+      "mẹta ida mẹrin",
+      "ìdá kejì",
+      "ìkejìlélọ́gọ́rin",
+      "mẹta ida mẹrin",
+      "Idaji mẹrin kan",
+      "Mejila ninu marun",
+      "Ìkẹta kan"
+    ],
+    "num_digit_4": [
+      23,
+      19,
+      27,
+      33,
+      39,
+      45,
+      51,
+      57,
+      63,
+      69
+    ],
+    "answer": [
+      75,
+      60,
+      100,
+      124,
+      150,
+      95,
+      200,
+      222,
+      138,
+      192
+    ],
+    "num_ic": [
+      32,
+      56,
+      63,
+      21,
+      67,
+      87,
+      66,
+      61,
+      74,
+      80
+    ]
+  },
+  "ic_question_template": "Òkò {name_female_3, Brianna} mú ọ̀pọ̀ àkàrà wa fún gbogbo ènìyàn—{num_ic, 38} gẹ́gẹ́ bí ìṣírí. Àwọn akẹ́kọ̀ọ́ mẹ́rin gba àpapọ̀ àmì {num_digit_1, 251} nínú eré ìgbìmọ̀. {name_female_1, Naomi} gba àmì {num_digit_2, 68} nínú àmì náà. {name_female_2, Yuri} gba àmì {num_digit_3, 10} ju {num_frac_1, ìdajì} àmì {name_female_1, Naomi}, {name_female_3, Brianna} sì gba àmì {num_digit_4, 17} ju {name_female_1, Naomi} lọ. Àmì mélòó ni {name_female_4, Jojo} gba?",
+  "ic_sentence": "Òkò {name_female_3, Brianna} mú ọ̀pọ̀ àkàrà wa fún gbogbo ènìyàn—{num_ic, 38} gẹ́gẹ́ bí ìṣírí."
+}

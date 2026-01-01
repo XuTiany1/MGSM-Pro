@@ -1,0 +1,122 @@
+{
+  "original_question": "サラは自分の新しいジャケットと2足の靴を買いにいった。彼女が欲しいジャケットは30ドルで、靴は1足20ドルだった。サラは近所の子供の世話を4回してそれぞれ5ドル稼いだ。彼女の両親は彼女が芝を刈るたびに4ドルくれる。もしもサラが、子供の面倒をみ始める前にすでに10ドル貯金している場合、彼女がジャケットと靴を手に入れるためには何回芝を刈る必要がある？",
+  "original_answer": 10,
+  "question_template": "{name_female, Sara}は自分の新しいジャケットと{num_digit_1, 2}足の靴を買いにいった。彼女が欲しいジャケットは{num_digit_2, 30}ドルで、靴は1足{num_digit_3, 20}ドルだった。{name_female, Sara}は近所の子供の世話を{num_digit_4, 4}回してそれぞれ{num_digit_5, 5}ドル稼いだ。彼女の両親は彼女が芝を刈るたびに{num_digit_6, 4}ドルくれる。もしも{name_female, Sara}が、子供の面倒をみ始める前にすでに{num_digit_7, 10}ドル貯金している場合、彼女がジャケットと靴を手に入れるためには何回芝を刈る必要がある？",
+  "question_solution": "answer = (num_digit_2 + num_digit_1 * num_digit_3 - (num_digit_7 + num_digit_4 * num_digit_5)) / num_digit_6",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_2 + num_digit_1 * num_digit_3 - (num_digit_7 + num_digit_4 * num_digit_5)) / num_digit_6",
+    "num_digit_2 + num_digit_1 * num_digit_3 >= num_digit_7 + num_digit_4 * num_digit_5",
+    "num_digit_6 > 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "num_digit_7 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sara"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      17,
+      23,
+      19,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "num_digit_2": [
+      2364,
+      2978,
+      6440,
+      7110,
+      8746,
+      10570,
+      14088,
+      16266,
+      18864,
+      19368
+    ],
+    "num_digit_3": [
+      87,
+      101,
+      113,
+      131,
+      137,
+      149,
+      151,
+      157,
+      163,
+      167
+    ],
+    "num_digit_4": [
+      29,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71
+    ],
+    "num_digit_5": [
+      53,
+      59,
+      67,
+      71,
+      73,
+      83,
+      97,
+      103,
+      107,
+      113
+    ],
+    "num_digit_6": [
+      41,
+      73,
+      89,
+      97,
+      101,
+      113,
+      127,
+      131,
+      137,
+      139
+    ],
+    "num_digit_7": [
+      789,
+      1001,
+      1123,
+      1357,
+      1583,
+      1627,
+      1729,
+      1931,
+      1957,
+      1987
+    ],
+    "answer": [
+      37,
+      29,
+      53,
+      67,
+      79,
+      89,
+      101,
+      113,
+      127,
+      131
+    ]
+  },
+  "ic_question_template": "{name_female, サラ}のおじさんはセールで{num_ic, 384}個の帽子を買ったことがあります。{name_female, Sara}は自分の新しいジャケットと{num_digit_1, 2}足の靴を買いにいった。彼女が欲しいジャケットは{num_digit_2, 30}ドルで、靴は1足{num_digit_3, 20}ドルだった。{name_female, Sara}は近所の子供の世話を{num_digit_4, 4}回してそれぞれ{num_digit_5, 5}ドル稼いだ。彼女の両親は彼女が芝を刈るたびに{num_digit_6, 4}ドルくれる。もしも{name_female, Sara}が、子供の面倒をみ始める前にすでに{num_digit_7, 10}ドル貯金している場合、彼女がジャケットと靴を手に入れるためには何回芝を刈る必要がある？",
+  "ic_sentence": "{name_female, サラ}のおじさんはセールで{num_ic, 384}個の帽子を買ったことがあります。"
+}

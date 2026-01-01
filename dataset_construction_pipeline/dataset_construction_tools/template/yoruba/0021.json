@@ -1,0 +1,81 @@
+{
+  "original_question": "Raymond àti Samantha jẹ́ mọ̀lẹ́bí. A bí Raymond ní ọdún 6 sẹ́yìn ṣíwájú samantha. Raymond bí ọmọ ọkùnrin kan ní ọmọ ọdún 23. Tí samantha bá jẹ́ 31 báyìí, ọdún mélòó sẹ́yìn ní a bí ọmọ Raymond?",
+  "original_answer": 14,
+  "question_template": "{name_male, Raymond} àti {name_female, Samantha} jẹ́ mọ̀lẹ́bí. A bí {name_male, Raymond} ní ọdún {num_digit_1, 6} sẹ́yìn ṣíwájú {name_female, Samantha}. {name_male, Raymond} bí ọmọ ọkùnrin kan ní ọmọ ọdún {num_digit_2, 23}. Tí {name_female, Samantha} bá jẹ́ {num_digit_3, 31} báyìí, ọdún mélòó sẹ́yìn ní a bí ọmọ {name_male, Raymond}",
+  "question_solution": "answer = num_digit_3 + num_digit_1 - num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_3 + num_digit_1 - num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_3 + num_digit_1 > num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_male": "Raymond",
+    "name_female": "Samantha"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "num_digit_2": [
+      29,
+      31,
+      37,
+      37,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67
+    ],
+    "num_digit_3": [
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "answer": [
+      29,
+      35,
+      39,
+      43,
+      47,
+      53,
+      51,
+      57,
+      63,
+      65
+    ],
+    "num_ic": [
+      42,
+      82,
+      16,
+      89,
+      58,
+      119,
+      64,
+      34,
+      267,
+      164
+    ]
+  },
+  "ic_question_template": "Arákùnrin {name_female, Samantha} ń kó kaadi-ìpò ọdẹ́ {num_ic, 77}. {name_male, Raymond} àti {name_female, Samantha} jẹ́ mọ̀lẹ́bí. A bí {name_male, Raymond} ní ọdún {num_digit_1, 6} sẹ́yìn ṣíwájú {name_female, Samantha}. {name_male, Raymond} bí ọmọ ọkùnrin kan ní ọmọ ọdún {num_digit_2, 23}. Tí {name_female, Samantha} bá jẹ́ {num_digit_3, 31} báyìí, ọdún mélòó sẹ́yìn ní a bí ọmọ {name_male, Raymond}",
+  "ic_sentence": "Arákùnrin {name_female, Samantha} ń kó kaadi-ìpò ọdẹ́ {num_ic, 77}."
+}

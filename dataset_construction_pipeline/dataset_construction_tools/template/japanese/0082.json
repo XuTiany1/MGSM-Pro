@@ -1,0 +1,69 @@
+{
+  "original_question": "グレースの体重は125ポンドです。アレックスの体重はグレースの体重の4倍よりも2ポンド軽いです。彼女達の体重の合計は何ポンドですか？",
+  "original_answer": 623,
+  "question_template": "あるスイカ農園が{num_digit_1, 120}個の実の小さいスイカを栽培しました。{name_female, アシュリン}が農園を{num_text_1, 二}か月後に訪れたところ、スイカの{num_digit_2, 30}%が収穫可能となっていたため、自宅に持って帰りました。{num_text_2, 二}週間後に訪れたところ、残りのスイカの{num_frac_1, 4分の3}が収穫可能となっていたため、刈り取りました。{num_text_2, two} 週間経っても収穫できないメロンはいくつありましたか?",
+  "question_solution": "answer = num_digit_1 + num_digit_3 * num_digit_1 - num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_1 + num_digit_3 * num_digit_1 - num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_3 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 * num_digit_1 - num_digit_2 >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Grace",
+    "name_male": "Alex"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      125,
+      100,
+      150,
+      80,
+      200,
+      90,
+      65,
+      110,
+      130,
+      95
+    ],
+    "num_digit_2": [
+      2,
+      5,
+      10,
+      7,
+      15,
+      9,
+      4,
+      30,
+      25,
+      12
+    ],
+    "num_digit_3": [
+      4,
+      3,
+      6,
+      2,
+      5,
+      7,
+      8,
+      3,
+      9,
+      4
+    ],
+    "answer": [
+      623,
+      395,
+      1040,
+      233,
+      1185,
+      711,
+      581,
+      410,
+      1275,
+      463
+    ]
+  },
+  "ic_question_template": "{name_female, グレース}のおじは最近仕事で{num_ic, 17}箱を持ち上げました。あるスイカ農園が{num_digit_1, 120}個の実の小さいスイカを栽培しました。{name_female, アシュリン}が農園を{num_text_1, 二}か月後に訪れたところ、スイカの{num_digit_2, 30}%が収穫可能となっていたため、自宅に持って帰りました。{num_text_2, 二}週間後に訪れたところ、残りのスイカの{num_frac_1, 4分の3}が収穫可能となっていたため、刈り取りました。{num_text_2, two} 週間経っても収穫できないメロンはいくつありましたか?",
+  "ic_sentence": "{name_female, グレース}のおじは最近仕事で{num_ic, 17}箱を持ち上げました。"
+}

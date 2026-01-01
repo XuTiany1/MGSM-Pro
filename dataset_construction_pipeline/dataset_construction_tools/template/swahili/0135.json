@@ -1,0 +1,96 @@
+{
+  "original_question": "Bobby rafikiye Brian ana michezo ya video ambayo ni kidogo na 5 kwa mara 3 ya michezo ya video ya Brian. Ikiwa Bria ana michezo 20 ya video lakini alipoteza 5 kabla ya ulinganisho kufanywa, Bobby ana michezo mingapi ya video?",
+  "original_answer": 40,
+  "question_template": "Rafiki yake {name_male_1, Brian} aitwaye {name_male_2, Bobby} ana michezo ya video {num_digit_1, 5} pungufu ya mara {num_digit_2, 3} ya michezo ya video ambayo {name_male_1, Brian} anayo. Ikiwa {name_male_1, Brian} ana michezo ya video {num_digit_3, 20} lakini alipoteza michezo {num_digit_4, 5} kabla ya kulinganisha kufanywa, {name_male_2, Bobby} ana michezo mingapi?",
+  "question_solution": "answer = num_digit_2 * (num_digit_3 - num_digit_4) - num_digit_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 * (num_digit_3 - num_digit_4) - num_digit_1",
+    "num_digit_3 > num_digit_4",
+    "num_digit_1 > 0",
+    "num_digit_2 > 1",
+    "num_digit_3 > 0",
+    "num_digit_4 >= 0",
+    "answer > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Brian",
+    "name_male_2": "Bobby"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      9,
+      12,
+      15,
+      8,
+      6,
+      11,
+      20,
+      5,
+      13
+    ],
+    "num_digit_2": [
+      4,
+      5,
+      6,
+      7,
+      3,
+      9,
+      8,
+      10,
+      12,
+      11
+    ],
+    "num_digit_3": [
+      35,
+      40,
+      50,
+      60,
+      28,
+      24,
+      45,
+      70,
+      42,
+      55
+    ],
+    "num_digit_4": [
+      6,
+      4,
+      10,
+      5,
+      8,
+      3,
+      9,
+      20,
+      6,
+      5
+    ],
+    "answer": [
+      109,
+      171,
+      228,
+      370,
+      52,
+      183,
+      277,
+      480,
+      427,
+      537
+    ],
+    "num_ic": [
+      16,
+      46,
+      64,
+      121,
+      83,
+      37,
+      124,
+      77,
+      93,
+      89
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_male_1, Brian} anamiliki vitabu vya vichekesho {num_ic, 30}. Rafiki yake {name_male_1, Brian} aitwaye {name_male_2, Bobby} ana michezo ya video {num_digit_1, 5} pungufu ya mara {num_digit_2, 3} ya michezo ya video ambayo {name_male_1, Brian} anayo. Ikiwa {name_male_1, Brian} ana michezo ya video {num_digit_3, 20} lakini alipoteza michezo {num_digit_4, 5} kabla ya kulinganisha kufanywa, {name_male_2, Bobby} ana michezo mingapi?",
+  "ic_sentence": "Mjomba wa {name_male_1, Brian} anamiliki vitabu vya vichekesho {num_ic, 30}."
+}

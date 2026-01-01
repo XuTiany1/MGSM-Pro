@@ -1,0 +1,80 @@
+{
+  "original_question": "海滨清关处主码头的一位海关官员清点了 2 个进口自行车集装箱，每个集装箱里面有 5 辆自行车。第二天来了更多集装箱，码头上的自行车总数达到 30 辆。假设所有集装箱各有 5 辆自行车，请计算第二天进口的集装箱数量。",
+  "original_answer": 4,
+  "question_template": "海关官员 在海滨清关处主码头清点了 {num_digit_1, 2} 个进口车辆集装箱，每个集装箱有 {num_digit_2, 5} 辆车辆。第二天又来了更多集装箱，码头上的车辆总数达到了 {num_digit_3, 30} 辆。假设所有集装箱各有 {num_digit_4, 5} 辆车辆，请计算第二天进口的集装箱数量。",
+  "question_solution": "answer = (num_digit_3 - num_digit_1 * num_digit_2) / num_digit_4",
+  "conditions": [
+    "int(answer) == (num_digit_3 - num_digit_1 * num_digit_2) / num_digit_4",
+    "(num_digit_3 - num_digit_1 * num_digit_2) % num_digit_4 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > num_digit_1 * num_digit_2",
+    "num_digit_4 > 0",
+    "num_digit_2 == num_digit_4"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "num_digit_2": [
+      7,
+      6,
+      8,
+      9,
+      4,
+      3,
+      12,
+      11,
+      13,
+      10
+    ],
+    "num_digit_3": [
+      63,
+      54,
+      72,
+      126,
+      64,
+      45,
+      180,
+      165,
+      195,
+      220
+    ],
+    "num_digit_4": [
+      7,
+      6,
+      8,
+      9,
+      4,
+      3,
+      12,
+      11,
+      13,
+      10
+    ],
+    "answer": [
+      6,
+      5,
+      4,
+      8,
+      9,
+      7,
+      6,
+      5,
+      4,
+      10
+    ]
+  },
+  "ic_question_template": "警官的表亲在附近的仓库管理着 {num_ic, 68} 个运输箱。海关官员 在海滨清关处主码头清点了 {num_digit_1, 2} 个进口车辆集装箱，每个集装箱有 {num_digit_2, 5} 辆车辆。第二天又来了更多集装箱，码头上的车辆总数达到了 {num_digit_3, 30} 辆。假设所有集装箱各有 {num_digit_4, 5} 辆车辆，请计算第二天进口的集装箱数量。",
+  "ic_sentence": "警官的表亲在附近的仓库管理着 {num_ic, 68} 个运输箱。"
+}

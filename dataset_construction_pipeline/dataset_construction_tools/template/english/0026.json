@@ -1,0 +1,118 @@
+{
+  "original_question": "Mishka bought 3 pairs of shorts, 3 pairs of pants, and 3 pairs of shoes. One pair of shorts costs $16.50. One pair of pants costs $22.50 and one pair of shoes costs $42. How many dollars did Mishka spend on all the clothing items?",
+  "original_answer": 243,
+  "question_template": "{name_female, Mishka} bought {num_digit_1, 3} pairs of shorts, {num_digit_2, 3} pairs of pants, and {num_digit_3, 3} pairs of shoes. One pair of shorts costs ${num_digit_4, 16.50}. One pair of pants costs ${num_digit_5, 22.50} and one pair of shoes costs ${num_digit_6, 42}. How many dollars did {name_female, Mishka} spend on all the clothing items?",
+  "question_solution": "answer = num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5 + num_digit_3 * num_digit_6",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5 + num_digit_3 * num_digit_6",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Mishka"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_2": [
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37
+    ],
+    "num_digit_3": [
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31
+    ],
+    "num_digit_4": [
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "num_digit_5": [
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59
+    ],
+    "num_digit_6": [
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "answer": [
+      283,
+      515,
+      835,
+      1303,
+      1751,
+      2361,
+      3071,
+      3915,
+      5093,
+      6247
+    ],
+    "num_ic": [
+      31,
+      142,
+      236,
+      501,
+      373,
+      85,
+      197,
+      417,
+      239,
+      602
+    ]
+  },
+  "ic_question_template": "{name_female, Mishka} bought {num_digit_1, 3} pairs of shorts, {num_digit_2, 3} pairs of pants, and {num_digit_3, 3} pairs of shoes. One pair of shorts costs ${num_digit_4, 16.50}. One pair of pants costs ${num_digit_5, 22.50} and one pair of shoes costs ${num_digit_6, 42}. {name_female, Mishka}'s uncle recently purchased {num_ic, 12} hats. How many dollars did {name_female, Mishka} spend on all the clothing items?",
+  "ic_sentence": "{name_female, Mishka}'s uncle recently purchased {num_ic, 12} hats."
+}

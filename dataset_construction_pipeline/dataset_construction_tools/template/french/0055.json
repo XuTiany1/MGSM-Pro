@@ -1,0 +1,67 @@
+{
+  "original_question": "Jean a 30 sucettes. Il en mange 2. Avec les sucettes restantes il veut faire des sacs de 2 sucettes chacun. Combien de sacs Jean obtiendra-t-il ?",
+  "original_answer": 14,
+  "question_template": "{name_male, Jean} a {num_digit_1, 30} sucettes. Il en mange {num_digit_2, 2}. Avec les sucettes restantes il veut faire des sacs de {num_digit_3, 2} sucettes chacun. Combien de sacs {name_male, Jean} obtiendra-t-il ?",
+  "question_solution": "answer = (num_digit_1 - num_digit_2) / num_digit_3",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_digit_2) / num_digit_3",
+    "(num_digit_1 - num_digit_2) % num_digit_3 == 0",
+    "num_digit_1 > num_digit_2",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jean"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      53,
+      89,
+      47,
+      82,
+      96,
+      67,
+      75,
+      84,
+      98,
+      120
+    ],
+    "num_digit_2": [
+      17,
+      23,
+      5,
+      30,
+      26,
+      13,
+      15,
+      12,
+      14,
+      20
+    ],
+    "num_digit_3": [
+      4,
+      11,
+      7,
+      13,
+      5,
+      9,
+      6,
+      8,
+      12,
+      10
+    ],
+    "answer": [
+      9,
+      6,
+      6,
+      4,
+      14,
+      6,
+      10,
+      9,
+      7,
+      10
+    ]
+  },
+  "ic_question_template": "{name_male, Jean} a une tante qui a récemment acheté {num_ic, 94} ballons. {name_male, Jean} a {num_digit_1, 30} sucettes. Il en mange {num_digit_2, 2}. Avec les sucettes restantes il veut faire des sacs de {num_digit_3, 2} sucettes chacun. Combien de sacs {name_male, Jean} obtiendra-t-il ?",
+  "ic_sentence": "{name_male, Jean} a une tante qui a récemment acheté {num_ic, 94} ballons."
+}

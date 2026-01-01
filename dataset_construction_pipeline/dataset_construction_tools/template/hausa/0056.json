@@ -1,0 +1,80 @@
+{
+  "original_question": "Peter yana shirin zuwa gidan kallo a wannan makon. Koyaushe yana samun tikiti akan $7 da gurguru akan $7. Idan yana da dala 42 a makon, sau nawa zai iya zuwa gidan kallon?",
+  "original_answer": 5,
+  "question_template": "{name_male, Peter} yana shirin zuwa gidan kallo a wannan makon. Koyaushe yana samun tikiti akan ${num_digit_1, 8} da gurguru akan ${num_digit_2, 6}. Idan yana da dala {num_digit_3, 70} a makon, sau nawa zai iya zuwa gidan kallon?",
+  "question_solution": "answer = num_digit_3 / (num_digit_1 + num_digit_2)",
+  "conditions": [
+    "int(answer) == num_digit_3 / (num_digit_1 + num_digit_2)",
+    "num_digit_3 % (num_digit_1 + num_digit_2) == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Peter"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      8,
+      5,
+      13,
+      17,
+      9,
+      14,
+      11,
+      24,
+      19,
+      23
+    ],
+    "num_digit_2": [
+      6,
+      7,
+      12,
+      5,
+      15,
+      9,
+      8,
+      16,
+      11,
+      17
+    ],
+    "num_digit_3": [
+      70,
+      108,
+      175,
+      88,
+      72,
+      184,
+      114,
+      80,
+      300,
+      280
+    ],
+    "answer": [
+      5,
+      9,
+      7,
+      4,
+      3,
+      8,
+      6,
+      2,
+      10,
+      7
+    ],
+    "num_ic": [
+      63,
+      109,
+      38,
+      156,
+      80,
+      191,
+      72,
+      54,
+      179,
+      228
+    ]
+  },
+  "ic_question_template": "Kawun {name_male, Peter} ya sayi hotunan fina-finai {num_ic, 63} bara. {name_male, Peter} yana shirin zuwa gidan kallo a wannan makon. Koyaushe yana samun tikiti akan ${num_digit_1, 8} da gurguru akan ${num_digit_2, 6}. Idan yana da dala {num_digit_3, 70} a makon, sau nawa zai iya zuwa gidan kallon?",
+  "ic_sentence": "Kawun {name_male, Peter} ya sayi hotunan fina-finai {num_ic, 63} bara."
+}

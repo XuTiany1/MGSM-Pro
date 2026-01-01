@@ -1,0 +1,80 @@
+{
+  "original_question": "Julia ń múra sílẹ fún patí alẹ́ ní ilé rẹ‌, níbi tí ó ti gbèrò láti se ọbẹ̀. Ó ṣe àkíyèsí pé òun ò ní ṣíbí i plastic mọ́, nítorí náà ó ra ìdí ṣíbí tuntun kan. Lẹ‌yìn náà, ọkọ rẹ‌ tún ra ìdí ṣíbí tuntun 5 ó sì kó wọ‌n fún Julia. Nígbà tí Julia ń ṣe ọbẹ‌ náà, ó lo ṣíbí mẹ‌ta láti ṣe ìtọ́wò ọbẹ‌ rẹ̀. Lẹ‌yìn náà, nígbà tí ó lọ ṣètò tábìlì náà, ó ní àpapọ‌ ṣíbí 12. Ṣíbí mélòó ló wà nínú ìdì tí Julia rà?",
+  "original_answer": 10,
+  "question_template": "{name_female, Julia} ń múra sílẹ fún patí alẹ́ ní ilé rẹ‌, níbi tí ó ti gbèrò láti se ọbẹ̀. Ó ṣe àkíyèsí pé òun ò ní ṣíbí i plastic mọ́, nítorí náà ó ra ìdí ṣíbí tuntun kan. Lẹ‌yìn náà, ọkọ rẹ‌ tún ra ìdí ṣíbí tuntun {num_digit_1, 5} ó sì kó wọ‌n fún {name_female, Julia}. Nígbà tí {name_female, Julia} ń ṣe ọbẹ‌ náà, ó lo ṣíbí {num_text_1, mẹta} láti ṣe ìtọ́wò ọbẹ‌ rẹ̀. Lẹ‌yìn náà, nígbà tí ó lọ ṣètò tábìlì náà, ó ní àpapọ‌ ṣíbí {num_digit_2, 12}. Ṣíbí mélòó ló wà nínú ìdì tí {name_female, Julia} rà?",
+  "question_solution": "answer = num_digit_2 + k - num_digit_1   # k is the numeric value corresponding to num_text_1 (e.g., three → 3, four → 4, …)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_2 + k - num_digit_1",
+    "answer > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Julia"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      8,
+      10,
+      12,
+      7,
+      20,
+      14,
+      5,
+      25,
+      18,
+      30
+    ],
+    "num_digit_2": [
+      15,
+      25,
+      30,
+      23,
+      50,
+      40,
+      20,
+      60,
+      42,
+      80
+    ],
+    "num_text_1": [
+      "Mẹrin",
+      "marun",
+      "mẹfa",
+      "mẹjọ",
+      "mẹ́wàá",
+      "mẹsan",
+      "mẹfa",
+      "mẹjọ",
+      "Meje",
+      "mẹ́wàá láàdọ́ta"
+    ],
+    "answer": [
+      11,
+      20,
+      24,
+      24,
+      40,
+      35,
+      21,
+      43,
+      31,
+      62
+    ],
+    "num_ic": [
+      19,
+      47,
+      29,
+      96,
+      185,
+      128,
+      53,
+      213,
+      152,
+      263
+    ]
+  },
+  "ic_question_template": "{name_female, Julia} ń múra sílẹ fún patí alẹ́ ní ilé rẹ‌, níbi tí ó ti gbèrò láti se ọbẹ̀. Ó ṣe àkíyèsí pé òun ò ní ṣíbí i plastic mọ́, nítorí náà ó ra ìdí ṣíbí tuntun kan. Lẹ‌yìn náà, ọkọ rẹ‌ tún ra ìdí ṣíbí tuntun {num_digit_1, 5} ó sì kó wọ‌n fún {name_female, Julia}. Nígbà tí {name_female, Julia} ń ṣe ọbẹ‌ náà, ó lo ṣíbí {num_text_1, mẹta} láti ṣe ìtọ́wò ọbẹ‌ rẹ̀. Lẹ‌yìn náà, nígbà tí ó lọ ṣètò tábìlì náà, ó ní àpapọ‌ ṣíbí {num_digit_2, 12}. Ìyá ńlá {name_female, Julia} mu {num_ic, 60} aṣọ ọwọ́ wá gẹ́gẹ́ bí ẹ̀bùn. Ṣíbí mélòó ló wà nínú ìdì tí {name_female, Julia} rà?",
+  "ic_sentence": "Ìyá ńlá {name_female, Julia} mu {num_ic, 60} aṣọ ọwọ́ wá gẹ́gẹ́ bí ẹ̀bùn."
+}

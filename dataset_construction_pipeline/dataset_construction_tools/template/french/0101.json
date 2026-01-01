@@ -1,0 +1,107 @@
+{
+  "original_question": "Solo doit lire 4 pages de son manuel de sciences, 20 pages du manuel d'études sociales, 7 pages du manuel d'histoire et 8 pages du manuel de géographie. Ce lundi, il a lu 15 pages. S'il ne lui reste que 4 jours pour terminer sa lecture, combien de pages lui faudra-t-il lire en moyenne chaque jour ?",
+  "original_answer": 6,
+  "question_template": "{name_male, Solo} doit lire {num_digit_1, 4} pages de son manuel de sciences, {num_digit_2, 20} pages du manuel d'études sociales, {num_digit_3, 7} pages du manuel d'histoire et {num_digit_4, 8} pages du manuel de géographie. Ce lundi, il a lu {num_digit_5, 15} pages. S'il ne lui reste que {num_digit_6, 4} jours pour terminer sa lecture, combien de pages lui faudra-t-il lire en moyenne chaque jour (en un jour) ?",
+  "question_solution": "answer = (num_digit_1 + num_digit_2 + num_digit_3 + num_digit_4 - num_digit_5) / num_digit_6",
+  "conditions": [
+    "int(answer) == answer",
+    "(num_digit_1 + num_digit_2 + num_digit_3 + num_digit_4 - num_digit_5) % num_digit_6 == 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "num_digit_6 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Solo"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      40,
+      30,
+      25,
+      50,
+      60,
+      10,
+      15,
+      12,
+      28,
+      40
+    ],
+    "num_digit_2": [
+      60,
+      45,
+      35,
+      70,
+      80,
+      20,
+      25,
+      36,
+      36,
+      50
+    ],
+    "num_digit_3": [
+      20,
+      15,
+      10,
+      20,
+      30,
+      5,
+      5,
+      24,
+      14,
+      20
+    ],
+    "num_digit_4": [
+      10,
+      10,
+      10,
+      30,
+      20,
+      5,
+      5,
+      8,
+      12,
+      15
+    ],
+    "num_digit_5": [
+      30,
+      25,
+      20,
+      40,
+      50,
+      10,
+      10,
+      10,
+      20,
+      4
+    ],
+    "num_digit_6": [
+      5,
+      5,
+      5,
+      10,
+      10,
+      5,
+      5,
+      7,
+      10,
+      11
+    ],
+    "answer": [
+      20,
+      15,
+      12,
+      13,
+      14,
+      6,
+      8,
+      10,
+      7,
+      11
+    ]
+  },
+  "ic_question_template": "{name_male, Solo} a une tante qui a récemment emprunté {num_ic, 65} romans policiers à la bibliothèque. {name_male, Solo} doit lire {num_digit_1, 4} pages de son manuel de sciences, {num_digit_2, 20} pages du manuel d'études sociales, {num_digit_3, 7} pages du manuel d'histoire et {num_digit_4, 8} pages du manuel de géographie. Ce lundi, il a lu {num_digit_5, 15} pages. S'il ne lui reste que {num_digit_6, 4} jours pour terminer sa lecture, combien de pages lui faudra-t-il lire en moyenne chaque jour (en un jour) ?",
+  "ic_sentence": "{name_male, Solo} a une tante qui a récemment emprunté {num_ic, 65} romans policiers à la bibliothèque."
+}

@@ -1,0 +1,93 @@
+{
+  "original_question": "Ọbọgwụ Janet yiri àkwá iri na isii kwa ụbọchị. Ọ na-eri atọ maka nri ụtụtụ ọbụla ma jiri anọ gheere ndị enyị ya achịcha mọfịn kwa ụbọchị. Ọ na-ere ndị fọrọ n'ahia ndị ọrụ ugbo kwa ụbọchị $2 maka otu àkwá ọbọgwụ. Kedụ ego dọla ole ọ na-enweta kwa ụbọchị n'ahịa ndị ọrụ ugbo? ",
+  "original_answer": 18,
+  "question_template": "Ọbọgwụ {name_female, Janet} yiri àkwá {num_digit_1, 16} kwa ụbọchị. Ọ na-eri {num_text_1, atọ} maka nri ụtụtụ ọbụla ma jiri {num_text_2, anọ} gheere ndị enyị ya achịcha mọfịn kwa ụbọchị. Ọ na-ere ndị fọrọ n'ahia ndị ọrụ ugbo kwa ụbọchị ${num_digit_2, 2} maka otu àkwá ọbọgwụ. Kedụ ego dọla ole ọ na-enweta kwa ụbọchị n'ahịa ndị ọrụ ugbo?",
+  "question_solution": "answer = (num_digit_1 - num_text_1 - num_text_2) * num_digit_2",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_text_1 - num_text_2) * num_digit_2",
+    "num_digit_1 >= 0",
+    "num_text_1 >= 0",
+    "num_text_2 >= 0",
+    "num_digit_2 > 0",
+    "(num_digit_1 - num_text_1 - num_text_2) >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Janet"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      48,
+      57,
+      63,
+      52,
+      60,
+      44,
+      68,
+      54,
+      49,
+      58
+    ],
+    "num_text_1": [
+      "asaa",
+      "itoolu",
+      "Iri",
+      "iri na atọ",
+      "iri na abụọ",
+      "isii",
+      "iri na ise",
+      "asatọ",
+      "Atọ",
+      "iri na anọ"
+    ],
+    "num_text_2": [
+      "ise",
+      "asatọ",
+      "iri na otu",
+      "itoolu",
+      "asatọ",
+      "isii",
+      "iri na anọ",
+      "asaa",
+      "ise",
+      "itoolu"
+    ],
+    "num_digit_2": [
+      6,
+      4,
+      5,
+      7,
+      6,
+      9,
+      5,
+      8,
+      7,
+      4
+    ],
+    "answer": [
+      216,
+      160,
+      210,
+      210,
+      240,
+      288,
+      195,
+      312,
+      287,
+      140
+    ],
+    "num_ic": [
+      51,
+      73,
+      37,
+      66,
+      94,
+      41,
+      91,
+      86,
+      56,
+      59
+    ]
+  },
+  "ic_question_template": "Ọbọgwụ {name_female, Janet} yiri àkwá {num_digit_1, 16} kwa ụbọchị. Ọ na-eri {num_text_1, atọ} maka nri ụtụtụ ọbụla ma jiri {num_text_2, anọ} gheere ndị enyị ya achịcha mọfịn kwa ụbọchị. Ọ na-ere ndị fọrọ n'ahia ndị ọrụ ugbo kwa ụbọchị ${num_digit_2, 2} maka otu àkwá ọbọgwụ. Nwanna nna {name_female, Janet} na-ewetara ya apụl {num_ic, 41} kwa izu. Kedụ ego dọla ole ọ na-enweta kwa ụbọchị n'ahịa ndị ọrụ ugbo?",
+  "ic_sentence": "Nwanna nna {name_female, Janet} na-ewetara ya apụl {num_ic, 41} kwa izu."
+}

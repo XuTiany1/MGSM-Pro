@@ -1,0 +1,67 @@
+{
+  "original_question": "ニッサは、サンタビレッジの彼女のデパートでエルフを演じる60人の期間従業員を雇います。3分の1のエルフが子供が彼らに吐いた後、辞めます。それから残りの10人が、子供が彼らのスネを蹴った後やめます。何人のエルフが残りますか？",
+  "original_answer": 30,
+  "question_template": "ニッサは、サンタビレッジの彼女のデパートでエルフを演じる{name_female, Nissa}が{num_digit_1, 60}人の期間従業員を雇います。{num_frac_1, 3分の1}のエルフが子供が彼らに吐いた後、辞めます。それから残りの{num_digit_2, 10}人が、子供が彼らのスネを蹴った後やめます。何人のエルフが残りますか？",
+  "question_solution": "answer = num_digit_1 * (1 - num_frac_1) - num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 - num_frac_1) - num_digit_2",
+    "num_digit_1 > 0",
+    "0 < num_frac_1 && num_frac_1 < 1",
+    "(num_digit_1 * (1 - num_frac_1)) > num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_female": "Nissa"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      81,
+      96,
+      110,
+      84,
+      120,
+      108,
+      90,
+      75,
+      98,
+      132
+    ],
+    "num_frac_1": [
+      "1/9",
+      "3/8",
+      "1/5",
+      "5/12",
+      "7/15",
+      "1/6",
+      "4/9",
+      "2/5",
+      "3/7",
+      "5/11"
+    ],
+    "num_digit_2": [
+      17,
+      15,
+      22,
+      13,
+      12,
+      25,
+      20,
+      9,
+      11,
+      18
+    ],
+    "answer": [
+      55,
+      45,
+      66,
+      36,
+      52,
+      65,
+      30,
+      36,
+      45,
+      54
+    ]
+  },
+  "ic_question_template": "{name_female, ニッサ}のおじは毎年お店に{num_ic, 87}本のクリスマスツリーを届けます。ニッサは、サンタビレッジの彼女のデパートでエルフを演じる{name_female, Nissa}が{num_digit_1, 60}人の期間従業員を雇います。{num_frac_1, 3分の1}のエルフが子供が彼らに吐いた後、辞めます。それから残りの{num_digit_2, 10}人が、子供が彼らのスネを蹴った後やめます。何人のエルフが残りますか？",
+  "ic_sentence": "{name_female, ニッサ}のおじは毎年お店に{num_ic, 87}本のクリスマスツリーを届けます。"
+}

@@ -1,0 +1,82 @@
+{
+  "original_question": "Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+  "original_answer": 50,
+  "question_template": "{name_male_1, Kylie} and {name_male_2, Robert} enjoy going to the beach to collect shells. On Monday, {name_male_1, Kylie} collects {num_digit_1, 5} more shells than {name_male_2, Robert}, who collects {num_digit_2, 20} shells. On Tuesday, {name_male_1, Kylie} collects {num_digit_3, 2} times more shells than she did on Monday. How many shells does {name_male_1, Kylie} collect on Tuesday?",
+  "question_solution": "answer = (num_digit_2 + num_digit_1) * num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_2 + num_digit_1) * num_digit_3",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Kylie",
+    "name_male_2": "Robert"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      137,
+      279,
+      345,
+      412,
+      563,
+      624,
+      731,
+      842,
+      915,
+      1034
+    ],
+    "num_digit_2": [
+      1583,
+      2691,
+      3745,
+      4812,
+      5984,
+      6059,
+      7123,
+      8294,
+      9365,
+      10436
+    ],
+    "num_digit_3": [
+      17,
+      13,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "answer": [
+      29240,
+      38610,
+      77710,
+      120152,
+      189863,
+      207173,
+      290598,
+      374576,
+      442040,
+      539090
+    ],
+    "num_ic": [
+      730,
+      9471,
+      8685,
+      4667,
+      10234,
+      3726,
+      5912,
+      12469,
+      12834,
+      8291
+    ]
+  },
+  "ic_question_template": "{name_male_1, Kylie} and {name_male_2, Robert} enjoy going to the beach to collect shells. On Monday, {name_male_1, Kylie} collects {num_digit_1, 5} more shells than {name_male_2, Robert}, who collects {num_digit_2, 20} shells. On Tuesday, {name_male_1, Kylie} collects {num_digit_3, 2} times more shells than she did on Monday. {name_male_2, Robert}'s aunt found {num_ic, 8243} pieces of sea glass last summer. How many shells does {name_male_1, Kylie} collect on Tuesday?",
+  "ic_sentence": "{name_male_2, Robert}'s aunt found {num_ic, 8243} pieces of sea glass last summer."
+}

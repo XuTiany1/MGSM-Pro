@@ -1,0 +1,100 @@
+{
+  "original_question": "Griffin avait 24 frites mais Kyle en a pris 5. Billy en a pris deux fois plus que Kyle. Ginger a donné à Griffin une poignée de ses frites, puis Colby a pris à Griffin 3 frites de moins que le nombre de frites qu'avait pris Kyle. Si, au final, Griffin disposait de 27 frites, combien de frites Ginger a-t-elle donné à Griffin ?",
+  "original_answer": 20,
+  "question_template": "{name_male_1, Griffin} avait {num_digit_1, 1024} frites mais {name_male_2, Kyle} en a pris {num_digit_2, 157}. {name_male_3, Billy} en a pris {num_text_1, deux fois} plus que {name_male_2, Kyle}. {name_male_4, Ginger} a donné à {name_male_1, Griffin} une poignée de ses frites, puis {name_male_5, Colby} a pris à {name_male_1, Griffin} {num_digit_3, 13} frites de moins que le nombre de frites qu'avait pris {name_male_2, Kyle}. Si, au final, {name_male_1, Griffin} disposait de {num_digit_4, 600} frites, combien de frites {name_male_4, Ginger} a-t-elle donné à {name_male_1, Griffin} ?",
+  "question_solution": "answer = num_digit_4 - num_digit_1 + (f1 + 2) * num_digit_2 - num_digit_3  # f1 = {double:2, triple:3, quadruple:4, quintuple:5, sextuple:6, septuple:7, octuple:8, nonuple:9, decuple:10, undecuple:11}[num_text_1]",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_4 - num_digit_1 + (f1 + 2) * num_digit_2 - num_digit_3",
+    "f1 > 1",
+    "num_digit_2 > num_digit_3",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Griffin",
+    "name_male_2": "Kyle",
+    "name_male_3": "Billy",
+    "name_male_4": "Ginger",
+    "name_male_5": "Colby"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "double",
+      "triple",
+      "quadruple",
+      "quintupler",
+      "sextuple",
+      "septuple",
+      "octuple",
+      "nonuple",
+      "décuple",
+      "undécuple"
+    ],
+    "num_digit_1": [
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      12345,
+      23456,
+      54321,
+      31415,
+      27182
+    ],
+    "num_digit_2": [
+      157,
+      211,
+      313,
+      419,
+      523,
+      631,
+      743,
+      853,
+      991,
+      1007
+    ],
+    "num_digit_3": [
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "num_digit_4": [
+      600,
+      2000,
+      5000,
+      7000,
+      16000,
+      11000,
+      22000,
+      53000,
+      30000,
+      25000
+    ],
+    "answer": [
+      191,
+      990,
+      2763,
+      1718,
+      3771,
+      4303,
+      5937,
+      8021,
+      10434,
+      10862
+    ]
+  },
+  "ic_question_template": "{name_male_2, Kyle} a vu sa tante apporter {num_ic, 18458} sachets de ketchup à la table. {name_male_1, Griffin} avait {num_digit_1, 1024} frites mais {name_male_2, Kyle} en a pris {num_digit_2, 157}. {name_male_3, Billy} en a pris {num_text_1, deux fois} plus que {name_male_2, Kyle}. {name_male_4, Ginger} a donné à {name_male_1, Griffin} une poignée de ses frites, puis {name_male_5, Colby} a pris à {name_male_1, Griffin} {num_digit_3, 13} frites de moins que le nombre de frites qu'avait pris {name_male_2, Kyle}. Si, au final, {name_male_1, Griffin} disposait de {num_digit_4, 600} frites, combien de frites {name_male_4, Ginger} a-t-elle donné à {name_male_1, Griffin} ?",
+  "ic_sentence": "{name_male_2, Kyle} a vu sa tante apporter {num_ic, 18458} sachets de ketchup à la table."
+}

@@ -1,0 +1,105 @@
+{
+  "original_question": "Three friends spent $20.25 on 3 tickets to the fair. They also spent $4.50 less on food than on the tickets. They also went on 2 different rides which costs $33 for each ride. If they agreed to split all the costs evenly, how much did each of them pay?",
+  "original_answer": 34,
+  "question_template": "Three friends spent ${num_digit_1, 20.25} on {num_digit_2, 3} tickets to the fair. They also spent ${num_digit_3, 4.50} less on food than on the tickets. They also went on {num_digit_4, 2} different rides which costs ${num_digit_5, 33} for each ride. If they agreed to split all the costs evenly, how much did each of them pay?",
+  "question_solution": "answer = (num_digit_1 + (num_digit_1 - num_digit_3) + num_digit_4 * num_digit_5) / 3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 + (num_digit_1 - num_digit_3) + num_digit_4 * num_digit_5) / 3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      23.46,
+      31.82,
+      19.99,
+      27.36,
+      45.27,
+      38.49,
+      12.88,
+      54.75,
+      33.33,
+      29.67
+    ],
+    "num_digit_2": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_3": [
+      2.34,
+      4.756,
+      2.333,
+      5.125,
+      3.999,
+      6.718,
+      1.618,
+      7.536,
+      2.891,
+      4.207
+    ],
+    "num_digit_4": [
+      5,
+      8,
+      9,
+      6,
+      4,
+      7,
+      11,
+      3,
+      10,
+      12
+    ],
+    "num_digit_5": [
+      16.284,
+      14.3895,
+      11.4836667,
+      21.2341666667,
+      64.61475,
+      25.534,
+      5.71436363636,
+      59.012,
+      6.5231,
+      12.1555833333
+    ],
+    "answer": [
+      42,
+      58,
+      47,
+      59,
+      115,
+      83,
+      29,
+      93,
+      43,
+      67
+    ],
+    "num_ic": [
+      54,
+      193,
+      15,
+      162,
+      103,
+      28,
+      63,
+      91,
+      43,
+      186
+    ]
+  },
+  "ic_question_template": "Three friends spent ${num_digit_1, 20.25} on {num_digit_2, 3} tickets to the fair. They also spent ${num_digit_3, 4.50} less on food than on the tickets. They also went on {num_digit_4, 2} different rides which costs ${num_digit_5, 33} for each ride. One of their aunts bought {num_ic, 148} raffle tickets at the fair. If they agreed to split all the costs evenly, how much did each of them pay?",
+  "ic_sentence": "One of their aunts bought {num_ic, 148} raffle tickets at the fair."
+}

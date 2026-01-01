@@ -1,0 +1,81 @@
+{
+  "original_question": "梅雷迪思是一位自由博主，每天撰写关于健康主题的博文，然后提交给客户，这是她的固定职业。一篇博文平均需要 4 小时进行研究和写作。上周，她在周一写了 5 篇博文。她在周二写的博文数量比周一多 2/5 倍。她在周三写的博文数量比周二多一倍。请计算她在这三天用于撰写博文的总时间。",
+  "original_answer": 104,
+  "question_template": "{name_female, 梅雷迪思} 是一位自由博主，每天撰写关于健康主题的博文，然后提交给客户，这是她的固定职业。一篇博文平均需要 {num_digit_1, 4} 小时进行研究和写作。上周，她在周一写了 {num_digit_2, 5} 篇博文。她在周二写的博文数量比周一多 {num_frac_1, 2/5} 倍。她在周三写的博文数量是周二 的{num_text_1, 两}倍。请计算她在这三天用于撰写博文的总时间。",
+  "question_solution": "answer = num_digit_1 * (num_digit_2 + num_digit_2 * (1 + NUM(num_frac_1)) + num_digit_2 * (1 + NUM(num_frac_1)) * NUM(num_text_1))",
+  "conditions": [
+    "int(answer) == num_digit_1 * (num_digit_2 + num_digit_2 * (1 + NUM(num_frac_1)) + num_digit_2 * (1 + NUM(num_frac_1)) * NUM(num_text_1))",
+    "(num_digit_2 * NUM(num_frac_1)).is_integer()",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_text_1) > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Meredith"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      3,
+      2,
+      5,
+      6,
+      2,
+      4,
+      3,
+      5,
+      6
+    ],
+    "num_digit_2": [
+      5,
+      6,
+      9,
+      4,
+      10,
+      9,
+      15,
+      12,
+      20,
+      25
+    ],
+    "num_frac_1": [
+      "2/5",
+      "1/2",
+      "1/3",
+      "3/4",
+      "4/5",
+      "2/3",
+      "3/5",
+      "1/4",
+      "1/5",
+      "2/5"
+    ],
+    "num_text_1": [
+      "两次",
+      "三次",
+      "四倍",
+      "两次",
+      "三次",
+      "两次",
+      "四倍",
+      "三次",
+      "两次",
+      "四倍"
+    ],
+    "answer": [
+      104,
+      126,
+      138,
+      125,
+      492,
+      108,
+      540,
+      216,
+      460,
+      1200
+    ]
+  },
+  "ic_question_template": "{name_female, 梅雷迪思} 的叔叔上个月买了 {num_ic, 54} 本关于营养的书。{name_female, 梅雷迪思} 是一位自由博主，每天撰写关于健康主题的博文，然后提交给客户，这是她的固定职业。一篇博文平均需要 {num_digit_1, 4} 小时进行研究和写作。上周，她在周一写了 {num_digit_2, 5} 篇博文。她在周二写的博文数量比周一多 {num_frac_1, 2/5} 倍。她在周三写的博文数量是周二 的{num_text_1, 两}倍。请计算她在这三天用于撰写博文的总时间。",
+  "ic_sentence": "{name_female, 梅雷迪思} 的叔叔上个月买了 {num_ic, 54} 本关于营养的书。"
+}

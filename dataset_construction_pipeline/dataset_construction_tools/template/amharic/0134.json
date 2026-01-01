@@ -1,0 +1,66 @@
+{
+  "original_question": "ቶም በወር 4 ጊዜ መኪናውን ማሳጠብ ይችላል። እያንዳንዱ የመኪና ማጠቢያ $15 ከሆነ በዓመት ውስጥ ምን ያህል ይከፍላል?",
+  "original_answer": 720,
+  "question_template": "{name_male, ቶም} በወር {num_digit_1, 4} ጊዜ መኪናውን ማሳጠብ ይችላል። እያንዳንዱ የመኪና ማጠቢያ ${num_digit_2, 15} ከሆነ በዓመት ውስጥ ምን ያህል ይከፍላል?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * 12",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 * 12",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Tom"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      18,
+      20,
+      22,
+      24
+    ],
+    "num_digit_2": [
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      35
+    ],
+    "answer": [
+      1020,
+      1596,
+      2268,
+      3036,
+      3900,
+      4860,
+      6264,
+      7440,
+      8712,
+      10080
+    ],
+    "num_ic": [
+      17,
+      26,
+      62,
+      41,
+      81,
+      151,
+      38,
+      217,
+      167,
+      108
+    ]
+  },
+  "ic_question_template": "{name_male, ቶም} በወር {num_digit_1, 4} ጊዜ መኪናውን ማሳጠብ ይችላል። እያንዳንዱ የመኪና ማጠቢያ ${num_digit_2, 15} ከሆነ በዓመት ውስጥ ምን ያህል ይከፍላል? {name_male, ቶም} ከወንድሙ ልጅ ባለፈው ሳምንት {num_ic, 14} የቶይ መኪናዎች ገዛ።",
+  "ic_sentence": "{name_male, ቶም} ከወንድሙ ልጅ ባለፈው ሳምንት {num_ic, 14} የቶይ መኪናዎች ገዛ።"
+}

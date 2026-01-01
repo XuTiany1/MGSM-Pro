@@ -1,0 +1,77 @@
+{
+  "original_question": "A classroom has a whiteboard which is shared between the 4 teachers who take turns using the classroom. Each teacher has 2 lessons per day and uses the whiteboard in each lesson. If the whiteboard is cleaned 3 times per lesson, how many times is the whiteboard cleaned in a day?",
+  "original_answer": 24,
+  "question_template": "A classroom has a whiteboard which is shared between the {num_digit_1, 4} teachers who take turns using the classroom. Each teacher has {num_digit_2, 2} lessons per day and uses the whiteboard in each lesson. If the whiteboard is cleaned {num_digit_3, 3} times per lesson, how many times is the whiteboard cleaned in a day?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      5,
+      7,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15
+    ],
+    "num_digit_2": [
+      3,
+      4,
+      5,
+      3,
+      6,
+      7,
+      8,
+      9,
+      4,
+      6
+    ],
+    "num_digit_3": [
+      4,
+      5,
+      6,
+      7,
+      3,
+      2,
+      4,
+      5,
+      9,
+      8
+    ],
+    "answer": [
+      60,
+      140,
+      180,
+      168,
+      162,
+      140,
+      352,
+      540,
+      468,
+      720
+    ],
+    "num_ic": [
+      17,
+      128,
+      70,
+      146,
+      51,
+      40,
+      94,
+      156,
+      122,
+      88
+    ]
+  },
+  "ic_question_template": "A classroom has a whiteboard which is shared between the {num_digit_1, 4} teachers who take turns using the classroom. Each teacher has {num_digit_2, 2} lessons per day and uses the whiteboard in each lesson. If the whiteboard is cleaned {num_digit_3, 3} times per lesson, the janitor's nephew brings {num_ic, 61} markers to school. How many times is the whiteboard cleaned in a day?",
+  "ic_sentence": "The janitor's nephew brings {num_ic, 61} markers to school."
+}

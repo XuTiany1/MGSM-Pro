@@ -1,0 +1,92 @@
+{
+  "original_question": "Alena debanyere aha n'ozi strimin nke na-ana ya $140 kwa ọnwa. Ọ bụrụ na ụlọ ọrụ strimin nara ya ego mbụ maka ọkara mbụ nke afọ ya na10% pekarịa ego nke ọkara afọ nke ọzọ, gbakọọ ego ngụkọta ole ọ kwụrụ maka ozi strimin na njedebe nke afọ ahụ.",
+  "original_answer": 1596,
+  "question_template": "{name_female, Aleena} debanyere aha n'ozi strimin nke na-ana ya ${num_digit_1, 140} kwa ọnwa. Ọ bụrụ na ụlọ ọrụ strimin nara ya ego mbụ maka {num_frac_1, ọkara} mbụ nke afọ ya na${num_digit_2, 10}% pekarịa ego nke {num_frac_2, ọkara} afọ nke ọzọ, gbakọọ ego ngụkọta ole ọ kwụrụ maka ozi strimin na njedebe nke afọ ahụ.",
+  "question_solution": "answer = num_digit_1 * 6 + num_digit_1 * (1 - num_digit_2/100) * 6",
+  "conditions": [
+    "int(answer) == num_digit_1 * 6 + num_digit_1 * (1 - num_digit_2/100) * 6",
+    "((num_digit_1 * num_digit_2 * 6) % 100) == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_2 < 100"
+  ],
+  "variable_word_list": {
+    "name_female": "Aleena"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      160,
+      150,
+      125,
+      200,
+      180,
+      250,
+      225,
+      300,
+      125,
+      175
+    ],
+    "num_frac_1": [
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara"
+    ],
+    "num_digit_2": [
+      20,
+      15,
+      12,
+      14,
+      25,
+      30,
+      16,
+      40,
+      18,
+      22
+    ],
+    "num_frac_2": [
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara",
+      "ọkara"
+    ],
+    "answer": [
+      1728,
+      1665,
+      1410,
+      2232,
+      1890,
+      2550,
+      2484,
+      2880,
+      1365,
+      1869
+    ],
+    "num_ic": [
+      191,
+      246,
+      22,
+      520,
+      231,
+      1776,
+      1200,
+      337,
+      80,
+      339
+    ]
+  },
+  "ic_question_template": "Nwanne nne {name_female, Aleena} zụtara posters ihe nkiri {num_ic, 57} n'afọ gara aga. {name_female, Aleena} debanyere aha n'ozi strimin nke na-ana ya ${num_digit_1, 140} kwa ọnwa. Ọ bụrụ na ụlọ ọrụ strimin nara ya ego mbụ maka {num_frac_1, ọkara} mbụ nke afọ ya na${num_digit_2, 10}% pekarịa ego nke {num_frac_2, ọkara} afọ nke ọzọ, gbakọọ ego ngụkọta ole ọ kwụrụ maka ozi strimin na njedebe nke afọ đó.",
+  "ic_sentence": "Nwanne nne {name_female, Aleena} zụtara posters ihe nkiri {num_ic, 57} n'afọ gara aga."
+}

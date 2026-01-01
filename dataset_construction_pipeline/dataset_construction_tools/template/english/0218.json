@@ -1,0 +1,96 @@
+{
+  "original_question": "Adrian's age is three times the age of Harriet, and Harriet is half the age of Zack. Calculate the average age of the three in three years if Harriet is 21 years old now.",
+  "original_answer": 45,
+  "question_template": "{name_male_1, Adrian}'s age is {num_text_1, three} times the age of {name_male_2, Harriet}, and {name_male_2, Harriet} is {num_frac_1, half} the age of {name_male_3, Zack}. Calculate the average age of the three in {num_text_2, three} years if {name_male_2, Harriet} is {num_digit_1, 21} years old now.",
+  "question_solution": "answer = (f1 * num_digit_1 + num_digit_1 + num_digit_1 / f2 + 3 * t2) / 3  # f1 is numeric value of num_text_1; f2 of num_frac_1; t2 of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (f1 * num_digit_1 + num_digit_1 + num_digit_1 / f2 + 3 * t2) / 3",
+    "f1 > 1",
+    "f2 > 0",
+    "t2 > 0",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Adrian",
+    "name_male_2": "Harriet",
+    "name_male_3": "Zack"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "four",
+      "five",
+      "six",
+      "seven",
+      "eight",
+      "nine",
+      "ten",
+      "eleven",
+      "twelve",
+      "thirteen"
+    ],
+    "num_frac_1": [
+      "one half",
+      "one third",
+      "one fourth",
+      "one fifth",
+      "one sixth",
+      "one seventh",
+      "one eighth",
+      "one ninth",
+      "one tenth",
+      "one twelfth"
+    ],
+    "num_text_2": [
+      "two",
+      "three",
+      "four",
+      "five",
+      "six",
+      "seven",
+      "eight",
+      "nine",
+      "ten",
+      "twelve"
+    ],
+    "num_digit_1": [
+      42,
+      45,
+      48,
+      60,
+      66,
+      84,
+      72,
+      81,
+      30,
+      12
+    ],
+    "answer": [
+      100,
+      138,
+      180,
+      265,
+      336,
+      483,
+      464,
+      576,
+      240,
+      116
+    ],
+    "num_ic": [
+      107,
+      363,
+      252,
+      412,
+      454,
+      149,
+      417,
+      585,
+      246,
+      31
+    ]
+  },
+  "ic_question_template": "{name_male_1, Adrian}'s age is {num_text_1, three} times the age of {name_male_2, Harriet}, and {name_male_2, Harriet} is {num_frac_1, half} the age of {name_male_3, Zack}. Calculate the average age of the three in {num_text_2, three} years if {name_male_2, Harriet} is {num_digit_1, 21} years old now. {name_male_2, Harriet}'s uncle just bought {num_ic, 107} apples from the market. ",
+  "ic_sentence": "{name_male_2, Harriet}'s uncle just bought {num_ic, 107} apples from the market."
+}

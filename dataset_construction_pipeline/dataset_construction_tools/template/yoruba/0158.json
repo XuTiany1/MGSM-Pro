@@ -1,0 +1,106 @@
+{
+  "original_question": "Raphael lọ ra àwọn ohun èlò ilé-ìwé kan. Ó ra gègé mẹ́rin tí iye ọ̀kọ̀ọ̀kan jẹ́ $1.5, ìwé méjì tí iye rẹ̀ jẹ́ $4 lọ́kọ̀ọ̀kan, àti bond paper rim kan tí iye rẹ̀ jẹ́ $20. Èló ni Raphael ná lórí gbogbo nkan?",
+  "original_answer": 34,
+  "question_template": "{name_male, Raphael} lọ ra àwọn ohun èlò ilé-ìwé kan. Ó ra gègé {num_digit_1, 4} tí iye ọ̀kọ̀ọ̀kan jẹ́ ${num_digit_2, 1.5}, ìwé {num_digit_3, 2} tí iye rẹ̀ jẹ́ ${num_digit_4, 4} lọ́kọ̀ọ̀kan, àti bond paper rim kan tí iye rẹ̀ jẹ́ ${num_digit_5, 20}. Èló ni {name_male, Raphael} ná lórí gbogbo nkan?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + num_digit_3 * num_digit_4 + num_digit_5",
+  "conditions": [
+    "answer == num_digit_1 * num_digit_2 + num_digit_3 * num_digit_4 + num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Raphael"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      6,
+      5,
+      8,
+      9,
+      10,
+      3,
+      12,
+      15,
+      7,
+      11
+    ],
+    "num_digit_2": [
+      1.25,
+      2.4,
+      1.75,
+      0.85,
+      1.33,
+      1.6,
+      0.95,
+      1.1,
+      1.85,
+      1.18
+    ],
+    "num_digit_3": [
+      3,
+      4,
+      2,
+      5,
+      6,
+      7,
+      8,
+      5,
+      3,
+      4
+    ],
+    "num_digit_4": [
+      3.5,
+      2.75,
+      3.25,
+      2.67,
+      2.2,
+      1.7,
+      1.45,
+      1.5,
+      2.35,
+      1.77
+    ],
+    "num_digit_5": [
+      15.0,
+      17.0,
+      19.5,
+      14.0,
+      13.5,
+      23.3,
+      17.0,
+      16.0,
+      25.0,
+      19.94
+    ],
+    "answer": [
+      33,
+      40,
+      40,
+      35,
+      40,
+      40,
+      40,
+      40,
+      45,
+      40
+    ],
+    "num_ic": [
+      18,
+      21,
+      7,
+      55,
+      32,
+      24,
+      99,
+      67,
+      42,
+      27
+    ]
+  },
+  "ic_question_template": "Bàbá ńlá {name_male, Raphael} mú àwọn àpótí àpẹ̀ńdá {num_ic, 19} wá lọ́sẹ̀ tó kọjá. {name_male, Raphael} lọ ra àwọn ohun èlò ilé-ìwé kan. Ó ra gègé {num_digit_1, 4} tí iye ọ̀kọ̀ọ̀kan jẹ́ ${num_digit_2, 1.5}, ìwé {num_digit_3, 2} tí iye rẹ̀ jẹ́ ${num_digit_4, 4} lọ́kọ̀ọ̀kan, àti bond paper rim kan tí iye rẹ̀ jẹ́ ${num_digit_5, 20}. Èló ni {name_male, Raphael} ná lórí gbogbo nkan?",
+  "ic_sentence": "Bàbá ńlá {name_male, Raphael} mú àwọn àpótí àpẹ̀ńdá {num_ic, 19} wá lọ́sẹ̀ tó kọjá."
+}

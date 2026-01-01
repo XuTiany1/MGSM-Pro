@@ -1,0 +1,81 @@
+{
+  "original_question": "Grace na-ada otu narị paund na iri abụọ na ise. Alex na-ada paund abụọ pụọ n'ugboro anọ n'ịhe Grace na-ada. Kedụ paund ole ha abụọ ga-ada?",
+  "original_answer": 623,
+  "question_template": "{name_female, Grace} na-ada {num_digit_1, 125} paund. {name_male, Alex} na-ada paund {num_digit_2, 2} pụọ n'ugboro {num_digit_3, 4} n'ịhe {name_female, Grace} na-ada. Kedụ paund ole ha abụọ ga-ada?",
+  "question_solution": "answer = num_digit_1 + num_digit_3 * num_digit_1 - num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_1 + num_digit_3 * num_digit_1 - num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_3 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 * num_digit_1 - num_digit_2 >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Grace",
+    "name_male": "Alex"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      125,
+      100,
+      150,
+      80,
+      200,
+      90,
+      65,
+      110,
+      130,
+      95
+    ],
+    "num_digit_2": [
+      2,
+      5,
+      10,
+      7,
+      15,
+      9,
+      4,
+      30,
+      25,
+      12
+    ],
+    "num_digit_3": [
+      4,
+      3,
+      6,
+      2,
+      5,
+      7,
+      8,
+      3,
+      9,
+      4
+    ],
+    "answer": [
+      623,
+      395,
+      1040,
+      233,
+      1185,
+      711,
+      581,
+      410,
+      1275,
+      463
+    ],
+    "num_ic": [
+      17,
+      87,
+      31,
+      52,
+      23,
+      97,
+      104,
+      94,
+      78,
+      62
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_female, Grace} na-arụ ọrụ wepụrụ igbe {num_ic, 17} n'oge na-adịbeghị anya. {name_female, Grace} na-ada {num_digit_1, 125} paund. {name_male, Alex} na-ada paund {num_digit_2, 2} pụọ n'ugboro {num_digit_3, 4} n'ịhe {name_female, Grace} na-ada. Kedụ paund ole ha abụọ ga-ada?",
+  "ic_sentence": "Nwanne nna {name_female, Grace} na-arụ ọrụ wepụrụ igbe {num_ic, 17} n'oge na-adịbeghị anya."
+}

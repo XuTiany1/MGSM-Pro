@@ -1,0 +1,67 @@
+{
+  "original_question": "ジョーダンはビデオゲームを毎日2時間プレイする。彼はまた1時間に10ドル稼ぐアルバイトもしている。彼がゲームに使う時間を代わりにアルバイトしたら、1週間にジョーダンはいくら稼ぎますか？",
+  "original_answer": 140,
+  "question_template": "{name_male, ジョーダン} はビデオゲームを毎日{num_digit_1, 2}時間プレイする。彼はまた1時間に{num_digit_2, 10}ドル稼ぐアルバイトもしている。彼がゲームに使う時間を代わりにアルバイトしたら、{num_text_1, 一}週間に{name_male, ジョーダン}はいくら稼ぎますか？",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * 7 * k   # k is the numeric value of num_text_1 (one→1, two→2, …)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 * 7 * k",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jordan"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "num_digit_2": [
+      10,
+      12,
+      15,
+      8,
+      9,
+      6,
+      7,
+      5,
+      4,
+      3
+    ],
+    "num_text_1": [
+      "いち",
+      "に (ni)",
+      "さん",
+      "四 (よん / yon)",
+      "ご",
+      "ろく",
+      "七 (しち / なな)",
+      "八",
+      "九 (きゅう / kyuu)",
+      "じゅう"
+    ],
+    "answer": [
+      140,
+      504,
+      1260,
+      1120,
+      1890,
+      1764,
+      2744,
+      2520,
+      2520,
+      2310
+    ]
+  },
+  "ic_question_template": "{name_male, ジョーダン}のおじさんは{num_ic, 8}台のビンテージアーケードマシンを持っています。{name_male, ジョーダン} はビデオゲームを毎日{num_digit_1, 2}時間プレイする。彼はまた1時間に{num_digit_2, 10}ドル稼ぐアルバイトもしている。彼がゲームに使う時間を代わりにアルバイトしたら、{num_text_1, 一}週間に{name_male, ジョーダン}はいくら稼ぎますか？",
+  "ic_sentence": "{name_male, ジョーダン}のおじさんは{num_ic, 8}台のビンテージアーケードマシンを持っています。"
+}

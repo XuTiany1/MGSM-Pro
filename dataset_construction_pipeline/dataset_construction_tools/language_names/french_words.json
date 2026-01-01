@@ -1,0 +1,10 @@
+{
+  "name_male": ["Lucas", "Hugo", "Nathan", "Louis", "Gabriel", "Arthur", "Léo", "Raphaël", "Jules", "Enzo", "Clément", "Théo", "Paul", "Antoine", "Mathis", "Baptiste", "Alexandre", "Maxime", "Noah", "Martin"],
+  "name_female": ["Emma", "Chloé", "Inès", "Léa", "Camille", "Manon", "Lucie", "Jeanne", "Clara", "Sarah", "Lola", "Juliette", "Anna", "Pauline", "Maëlys", "Margaux", "Charlotte", "Zoé", "Amandine", "Élise"],
+  "name_city": ["Paris", "Lyon", "Marseille", "Toulouse", "Nice", "Nantes", "Strasbourg", "Lille", "Grenoble", "Bordeaux", "Montpellier", "Rennes", "Rouen", "Dijon", "Avignon", "Metz", "Orléans", "Tours", "Aix-en-Provence", "Saint-Étienne"],
+  "name_dragon": ["Fafnir", "Guivre", "Vouivre", "Drac", "Tarasque", "Pendragon", "Lindworm", "Azdragon", "Basilic", "Ouroboros", "Chimère", "Griseldis", "Feuillant", "Salamandre", "Hydre", "Méléagant", "Morholt", "Mélusine", "Smaragdos", "Béowulf"],
+  "name_mountain": ["Mont Blanc", "Mont Ventoux", "Pyrénées", "Massif Central", "Jura", "Alpes", "Vosges", "Pic du Midi", "Mont Aiguille", "Puy de Dôme", "Aiguille du Midi", "Montagne Sainte-Victoire", "La Rhune", "Mont Gerbier de Jonc", "Mont Saint-Michel", "Pic d'Anie", "Mont Valier", "Mont Granier", "Dent d'Oche", "Pic du Canigou"],
+  "name_family": ["Dupont", "Martin", "Bernard", "Dubois", "Thomas", "Robert", "Petit", "Richard", "Durand", "Lefevre", "Moreau", "Simon", "Laurent", "Leroy", "Roux", "François", "Garcia", "Perrin", "Robin", "Guerin"],
+  "name_cat": ["Minou", "Chacha", "Grisou", "Félix", "Mistigri", "Pompon", "Mimine", "Tigrou", "Noisette", "Plume", "Pacha", "Chipie", "Zouzou", "Bijou", "Sacha", "Caramel", "Moustache", "Réglisse", "Zéphyr", "Ninette"],
+  "name_dinosaur": ["Rex", "Trixie", "Dino", "Petitpied", "Céra", "Grospié", "Longcou", "P’tit Bec", "Griffu", "Tricéra", "Mégalo", "Rapto", "Doudourex", "Dentelle", "Colossus", "Fripon", "Goliath", "Plumetis", "Cornu", "Plésio"]
+}

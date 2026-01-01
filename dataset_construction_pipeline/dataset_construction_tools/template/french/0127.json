@@ -1,0 +1,55 @@
+{
+  "original_question": "Après avoir été transférée dans une nouvelle école, Amy s'est fait 20 amies de plus que Lily. Si Lily s'est fait 50 amies, combien d'amies Lily et Amy ont-elles en tout ?",
+  "original_answer": 120,
+  "question_template": "Après avoir été transférée dans une nouvelle école, {name_female_1, Amy} s'est fait {num_digit_1, 20} amies de plus que {name_female_2, Lily}. Si {name_female_2, Lily} s'est fait {num_digit_2, 50} amies, combien d'amies {name_female_2, Lily} et {name_female_1, Amy} ont-elles en tout ?",
+  "question_solution": "answer = 2 * num_digit_2 + num_digit_1",
+  "conditions": [
+    "int(answer) == 2 * num_digit_2 + num_digit_1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Amy",
+    "name_female_2": "Lily"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15,
+      30,
+      25,
+      40,
+      12,
+      33,
+      55,
+      70,
+      99,
+      11
+    ],
+    "num_digit_2": [
+      35,
+      70,
+      60,
+      80,
+      44,
+      33,
+      120,
+      150,
+      199,
+      89
+    ],
+    "answer": [
+      85,
+      170,
+      145,
+      200,
+      100,
+      99,
+      295,
+      370,
+      497,
+      189
+    ]
+  },
+  "ic_question_template": "{name_female_2, Lily} a reçu {num_ic, 42} bandes dessinées de la part de son oncle comme cadeau de bienvenue. Après avoir été transférée dans une nouvelle école, {name_female_1, Amy} s'est fait {num_digit_1, 20} amies de plus que {name_female_2, Lily}. Si {name_female_2, Lily} s'est fait {num_digit_2, 50} amies, combien d'amies {name_female_2, Lily} et {name_female_1, Amy} ont-elles en tout ?",
+  "ic_sentence": "{name_female_2, Lily} a reçu {num_ic, 42} bandes dessinées de la part de son oncle comme cadeau de bienvenue."
+}

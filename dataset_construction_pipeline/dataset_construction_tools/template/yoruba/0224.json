@@ -1,0 +1,95 @@
+{
+  "original_question": "Carlos àti Benji wà ní etí òkun. Carlos máa yá ọkọ̀ ojú omi fún $30 ní wákàtí kan, Benji sì yá ọkọ̀ ojú omi irú míì fún $18 ní wákàtí kan. Tí Carlos bá lo ọkọ̀ ojú omi náà fún wákàtí mẹ́ta, tí benji sì lo ọkọ̀ ojú omi náà fún wákàtí márùn-ún, èló ni wọ́n máa san fún ìyálò wọn lápapọ̀?",
+  "original_answer": 180,
+  "question_template": "{name_male_1, Carlos} àti {name_male_2, Benji} wà ní etí òkun. {name_male_1, Carlos} máa yá ọkọ̀ ojú omi fún ${num_digit_1, 30} ní wákàtí kan, {name_male_2, Benji} sì yá ọkọ̀ ojú omi irú míì fún ${num_digit_2, 18} ní wákàtí kan. Tí {name_male_1, Carlos} bá lo ọkọ̀ ojú omi náà fún wákàtí {num_digit_3, 3}, tí {name_male_2, Benji} sì lo ọkọ̀ ojú omi náà fún wákàtí {num_digit_4, 5}, èló ni wọ́n máa san fún ìyálò wọn lápapọ̀?",
+  "question_solution": "answer = num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Carlos",
+    "name_male_2": "Benji"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      47,
+      53,
+      61,
+      72,
+      89,
+      97,
+      113,
+      128,
+      137,
+      149
+    ],
+    "num_digit_2": [
+      39,
+      45,
+      51,
+      67,
+      78,
+      84,
+      91,
+      103,
+      117,
+      121
+    ],
+    "num_digit_3": [
+      17,
+      22,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59
+    ],
+    "num_digit_4": [
+      13,
+      18,
+      21,
+      24,
+      28,
+      33,
+      36,
+      39,
+      42,
+      45
+    ],
+    "answer": [
+      1306,
+      1976,
+      2840,
+      3840,
+      5477,
+      6749,
+      8135,
+      10033,
+      12175,
+      14236
+    ],
+    "num_ic": [
+      92,
+      356,
+      130,
+      614,
+      492,
+      599,
+      795,
+      601,
+      1288,
+      1245
+    ]
+  },
+  "ic_question_template": "Ọ̀gá bàbá {name_male_2, Benji} mú aṣọ ìfọ́ {num_ic, 680} wá fún ẹgbẹ́ náà. {name_male_1, Carlos} àti {name_male_2, Benji} wà ní etí òkun. {name_male_1, Carlos} máa yá ọkọ̀ ojú omi fún ${num_digit_1, 30} ní wákàtí kan, {name_male_2, Benji} sì yá ọkọ̀ ojú omi irú míì fún ${num_digit_2, 18} ní wákàtí kan. Tí {name_male_1, Carlos} bá lo ọkọ̀ ojú omi náà fún wákàtí {num_digit_3, 3}, tí {name_male_2, Benji} sì lo ọkọ̀ ojú omi náà fún wákàtí {num_digit_4, 5}, èló ni wọ́n máa san fún ìyálò wọn lápapọ̀?",
+  "ic_sentence": "Ọ̀gá bàbá {name_male_2, Benji} mú aṣọ ìfọ́ {num_ic, 680} wá fún ẹgbẹ́ náà."
+}

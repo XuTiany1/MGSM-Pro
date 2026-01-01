@@ -1,0 +1,94 @@
+{
+  "original_question": "Mark ra ọkọ̀ ayọ́kẹ́lẹ́ 12 fún ilé ìṣe rẹ‌. Iye ọkọ kọ‌ọ‌kan jẹ‌ $20,000. Ó sàn owó-orí 10% lórí àwọn ọkọ̀ ayọ́kẹ́lẹ́ náà pẹ‌lú u $1000 míràn fún ìforúkọsílẹ‌ ọ‌kọ‌ọ‌kan wọn. Èló ló san fún gbogbo rẹ‌?",
+  "original_answer": 276000,
+  "question_template": "{name_male, Mark} ra ọkọ̀ ayọ́kẹ́lẹ́ {num_digit_1, 12} fún ilé ìṣe rẹ‌. Iye ọkọ kọ‌ọ‌kan jẹ‌ ${num_digit_2, 20,000}. Ó sàn owó-orí {num_digit_3, 10}% lórí àwọn ọkọ̀ ayọ́kẹ́lẹ́ náà pẹ‌lú u ${num_digit_4, 1000} míràn fún ìforúkọsílẹ‌ ọ‌kọ‌ọ‌kan wọn. Èló ló san fún gbogbo rẹ‌?",
+  "question_solution": "answer = num_digit_1 * (num_digit_2 * (1 + num_digit_3/100) + num_digit_4)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (num_digit_2 * (1 + num_digit_3/100) + num_digit_4)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Mark"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      13,
+      17,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "num_digit_2": [
+      19900,
+      20100,
+      18400,
+      22300,
+      25600,
+      19800,
+      21000,
+      23400,
+      27800,
+      31200
+    ],
+    "num_digit_3": [
+      7,
+      12,
+      15,
+      18,
+      22,
+      25,
+      28,
+      30,
+      33,
+      37
+    ],
+    "num_digit_4": [
+      1575,
+      1999,
+      2345,
+      3456,
+      4123,
+      5000,
+      6789,
+      8899,
+      9999,
+      10456
+    ],
+    "answer": [
+      297284,
+      416687,
+      540615,
+      863330,
+      1096005,
+      1100750,
+      1380429,
+      1690717,
+      2207731,
+      2819600
+    ],
+    "num_ic": [
+      41,
+      192,
+      375,
+      260,
+      347,
+      491,
+      90,
+      399,
+      305,
+      270
+    ]
+  },
+  "ic_question_template": "Arákùnrin {name_male, Mark} ra ọkọ ayọ́kẹ́lẹ́ aláyàrá mẹta {num_ic, 111} laipẹ́ yìí. {name_male, Mark} ra ọkọ̀ ayọ́kẹ́lẹ́ {num_digit_1, 12} fún ilé ìṣe rẹ‌. Iye ọkọ kọ‌ọ‌kan jẹ‌ ${num_digit_2, 20,000}. Ó sàn owó-orí {num_digit_3, 10}% lórí àwọn ọkọ̀ ayọ́kẹ́lẹ́ náà pẹ‌lú u ${num_digit_4, 1000} míràn fún ìforúkọsílẹ‌ ọ‌kọ‌ọ‌kan wọn. Èló ló san fún gbogbo rẹ‌?",
+  "ic_sentence": "Arákùnrin {name_male, Mark} ra ọkọ ayọ́kẹ́lẹ́ aláyàrá mẹta {num_ic, 111} laipẹ́ yìí."
+}

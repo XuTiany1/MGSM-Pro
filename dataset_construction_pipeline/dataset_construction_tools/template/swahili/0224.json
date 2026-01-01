@@ -1,0 +1,95 @@
+{
+  "original_question": "Carlos na Benji wapo kwenye ufuo. Carlos anakodisha mashua kwa $30 kila saa na Benji anakodisha mashua ya ndizi kwa $18 kila saa. Carlos akitumia mashua yake kwa saa 3 na Benji akatumia yake kwa saa 5, wote wawili watalipa jumla ya pesa ngapi?",
+  "original_answer": 180,
+  "question_template": "{name_male_1, Carlos} na {name_male_2, Benji} wako ufukweni. {name_male_1, Carlos} anakodisha mtumbwi kwa dola {num_digit_1, 30} kwa saa na {name_male_2, Benji} anakodisha boti ya ndizi kwa dola {num_digit_2, 18} kwa saa. Ikiwa {name_male_1, Carlos} atatumia mtumbwi kwa saa {num_digit_3, 3} na {name_male_2, Benji} atatumia boti kwa saa {num_digit_4, 5}, watalipa jumla ya kiasi gani?",
+  "question_solution": "answer = num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Carlos",
+    "name_male_2": "Benji"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      47,
+      53,
+      61,
+      72,
+      89,
+      97,
+      113,
+      128,
+      137,
+      149
+    ],
+    "num_digit_2": [
+      39,
+      45,
+      51,
+      67,
+      78,
+      84,
+      91,
+      103,
+      117,
+      121
+    ],
+    "num_digit_3": [
+      17,
+      22,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59
+    ],
+    "num_digit_4": [
+      13,
+      18,
+      21,
+      24,
+      28,
+      33,
+      36,
+      39,
+      42,
+      45
+    ],
+    "answer": [
+      1306,
+      1976,
+      2840,
+      3840,
+      5477,
+      6749,
+      8135,
+      10033,
+      12175,
+      14236
+    ],
+    "num_ic": [
+      92,
+      356,
+      130,
+      614,
+      492,
+      599,
+      795,
+      601,
+      1288,
+      1245
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_male_2, Benji} alileta taulo {num_ic, 680} kwa ajili ya kikundi. {name_male_1, Carlos} na {name_male_2, Benji} wako ufukweni. {name_male_1, Carlos} anakodisha mtumbwi kwa dola {num_digit_1, 30} kwa saa na {name_male_2, Benji} anakodisha boti ya ndizi kwa dola {num_digit_2, 18} kwa saa. Ikiwa {name_male_1, Carlos} atatumia mtumbwi kwa saa {num_digit_3, 3} na {name_male_2, Benji} atatumia boti kwa saa {num_digit_4, 5}, watalipa jumla ya kiasi gani?",
+  "ic_sentence": "Mjomba wa {name_male_2, Benji} alileta taulo {num_ic, 680} kwa ajili ya kikundi."
+}

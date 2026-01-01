@@ -1,0 +1,84 @@
+{
+  "original_question": "L'âge d'Adrian est trois fois supérieur à celui de Harriet, qui a quant à elle la moitié de l'âge de Zack. Calculez l'âge moyen que les trois auront dans trois ans, si Harriet a actuellement 21 ans.",
+  "original_answer": 45,
+  "question_template": "L'âge de {name_male_1, Adrian} est {num_text_1, trois} fois supérieur à celui de {name_male_2, Harriet}, qui a quant à elle la {num_frac_1, moitié} de l'âge de {name_male_3, Zack}. Calculez l'âge moyen que les trois auront dans {num_text_2, trois} ans, si {name_male_2, Harriet} a actuellement {num_digit_1, 21} ans.",
+  "question_solution": "answer = (f1 * num_digit_1 + num_digit_1 + num_digit_1 / f2 + 3 * t2) / 3  # f1 is numeric value of num_text_1; f2 of num_frac_1; t2 of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (f1 * num_digit_1 + num_digit_1 + num_digit_1 / f2 + 3 * t2) / 3",
+    "f1 > 1",
+    "f2 > 0",
+    "t2 > 0",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Adrian",
+    "name_male_2": "Harriet",
+    "name_male_3": "Zack"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "quatre",
+      "cinq",
+      "six",
+      "sept",
+      "huit",
+      "neuf",
+      "dix",
+      "onze",
+      "douze",
+      "treize"
+    ],
+    "num_frac_1": [
+      "un demi",
+      "un tiers",
+      "un quart",
+      "un cinquième",
+      "un sixième",
+      "un septième",
+      "un huitième",
+      "un neuvième",
+      "un dixième",
+      "un douzième"
+    ],
+    "num_text_2": [
+      "deux",
+      "trois",
+      "quatre",
+      "cinq",
+      "six",
+      "sept",
+      "huit",
+      "neuf",
+      "dix",
+      "douze"
+    ],
+    "num_digit_1": [
+      42,
+      45,
+      48,
+      60,
+      66,
+      84,
+      72,
+      81,
+      30,
+      12
+    ],
+    "answer": [
+      100,
+      138,
+      180,
+      265,
+      336,
+      483,
+      464,
+      576,
+      240,
+      116
+    ]
+  },
+  "ic_question_template": "{name_male_2, Harriet} a un oncle qui vient d’acheter {num_ic, 107} pommes au marché. L'âge de {name_male_1, Adrian} est {num_text_1, trois} fois supérieur à celui de {name_male_2, Harriet}, qui a quant à elle la {num_frac_1, moitié} de l'âge de {name_male_3, Zack}. Calculez l'âge moyen que les trois auront dans {num_text_2, trois} ans, si {name_male_2, Harriet} a actuellement {num_digit_1, 21} ans.",
+  "ic_sentence": "{name_male_2, Harriet} a un oncle qui vient d’acheter {num_ic, 107} pommes au marché."
+}

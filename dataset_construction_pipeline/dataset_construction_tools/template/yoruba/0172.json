@@ -1,0 +1,69 @@
+{
+  "original_question": "Àwọn ẹyẹ mẹ́rin ló wà ní Caboose náà. Sally Two dàgbà ju Granny Red pelu ọdún mẹ́ta. Ọjọ́ orí Granny Red jẹ́ ìlọ́po méjì tii ti Sally Four. Ti Sally Four ba jẹ ọjọ ori kanna pẹ̀lú Sally Thirtytwo, tí Sally Thirtytwo jẹ ọmọ ọdún mẹ́jọ, kini apapọ ọjọ ori ti awọn ẹiyẹ mẹ́rẹ̀rin?",
+  "original_answer": 51,
+  "question_template": "Àwọn ẹyẹ mẹ́rin ló wà ní Caboose náà. {female_name_1, Sally} Two dàgbà ju {female_name_2, Granny} {name_color, Red} pelu ọdún mẹ́ta. Ọjọ́ orí {female_name_2, Granny} {name_color, Red} jẹ́ ìlọ́po {num_text_1, méjì} tii ti {female_name_1, Sally} Four. Ti {female_name_1, Sally} Four ba jẹ ọjọ ori kanna pẹ̀lú {female_name_1, Sally} Thirtytwo, tí {female_name_1, Sally} Thirtytwo jẹ ọmọ ọdún {num_digit_1, 8}, kini apapọ ọjọ ori ti awọn ẹiyẹ mẹ́rẹ̀rin?",
+  "question_solution": "answer = 2 * num_digit_1 * (NUM(num_text_1) + 1) + 3",
+  "conditions": [
+    "answer == 2 * num_digit_1 * (NUM(num_text_1) + 1) + 3",
+    "num_digit_1 > 0",
+    "NUM(num_text_1) > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "female_name_1": "Sally",
+    "female_name_2": "Granny",
+    "name_color": "Red"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "méjì",
+      "mẹta",
+      "marun",
+      "mẹfa",
+      "Meje",
+      "mẹjọ",
+      "mẹsan",
+      "mẹ́wàá",
+      "mókànlá",
+      "mẹ́wàá láàdọ́ta"
+    ],
+    "num_digit_1": [
+      6,
+      7,
+      5,
+      7,
+      8,
+      9,
+      6,
+      11,
+      4,
+      10
+    ],
+    "answer": [
+      39,
+      59,
+      63,
+      101,
+      131,
+      165,
+      123,
+      245,
+      99,
+      263
+    ],
+    "num_ic": [
+      29,
+      46,
+      21,
+      38,
+      33,
+      25,
+      87,
+      93,
+      54,
+      61
+    ]
+  },
+  "ic_question_template": "Àwọn ẹyẹ mẹ́rin ló wà ní Caboose náà. {female_name_1, Sally} Two dàgbà ju {female_name_2, Granny} {name_color, Red} pelu ọdún mẹ́ta. Ọjọ́ orí {female_name_2, Granny} {name_color, Red} jẹ́ ìlọ́po {num_text_1, méjì} tii ti {female_name_1, Sally} Four. Ti {female_name_1, Sally} Four ba jẹ ọjọ ori kanna pẹ̀lú {female_name_1, Sally} Thirtytwo, tí {female_name_1, Sally} Thirtytwo jẹ ọmọ ọdún {num_digit_1, 8}, kini apapọ ọjọ ori ti awọn ẹiyẹ mẹ́rẹ̀rin? {female_name_2, Granny} {name_color, Red} ọmọ bíbí arákùnrin rẹ̀ kó àwọn bọ́ọ̀lù ayò {num_ic, 93}.",
+  "ic_sentence": "{female_name_2, Granny} {name_color, Red} ọmọ bíbí arákùnrin rẹ̀ kó àwọn bọ́ọ̀lù ayò {num_ic, 93}."
+}

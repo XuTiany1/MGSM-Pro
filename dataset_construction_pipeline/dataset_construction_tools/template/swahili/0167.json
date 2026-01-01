@@ -1,0 +1,70 @@
+{
+  "original_question": "Umri wa Seth ni mara mbili zaidi ya umri wa Brooke. Baada ya miaka 2, jumla ya umri wao utakuwa 28. Seth ana miaka mingapi?",
+  "original_answer": 16,
+  "question_template": "Umri wa {name_male, Seth} ni mara mbili zaidi ya umri wa {name_female, Brooke}. Baada ya miaka {num_digit_1, 2}, jumla ya umri wao utakuwa {num_digit_2, 28}. {name_male, Seth} ana miaka mingapi?",
+  "question_solution": "answer = 2 * (num_digit_2 - 2 * num_digit_1) / 3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == 2 * (num_digit_2 - 2 * num_digit_1) / 3",
+    "(num_digit_2 - 2 * num_digit_1) % 3 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "answer > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Seth",
+    "name_female": "Brooke"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      5,
+      1,
+      3,
+      2,
+      4,
+      5,
+      1,
+      2
+    ],
+    "num_digit_2": [
+      36,
+      29,
+      34,
+      29,
+      45,
+      49,
+      44,
+      43,
+      35,
+      58
+    ],
+    "answer": [
+      20,
+      14,
+      16,
+      18,
+      26,
+      30,
+      24,
+      22,
+      22,
+      36
+    ],
+    "num_ic": [
+      28,
+      8,
+      19,
+      5,
+      12,
+      15,
+      21,
+      33,
+      30,
+      47
+    ]
+  },
+  "ic_question_template": "Shangazi wa {name_male, Seth} alinunua tiketi za sinema za punguzo {num_ic, 17}. Umri wa {name_male, Seth} ni mara mbili zaidi ya umri wa {name_female, Brooke}. Baada ya miaka {num_digit_1, 2}, jumla ya umri wao utakuwa {num_digit_2, 28}. {name_male, Seth} ana miaka mingapi?",
+  "ic_sentence": "Shangazi wa {name_male, Seth} alinunua tiketi za sinema za punguzo {num_ic, 17}."
+}

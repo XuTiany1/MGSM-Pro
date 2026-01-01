@@ -1,0 +1,80 @@
+{
+  "original_question": "Gene yana dinka mashinfidin gado da wasu tsofaffin tishat. Yana saka rigar tishat daban a kowane hutun da ya yi. Kowace tishat na nau'in yankinta daban. Kowane layi a mashinfidin an dinka da yankunan(tishat) da yake da su na shekaru daban-daban. Yana hutu 4 a shekara kuma ya fara hutu tun yana dan shekara 23. Yanzu yana da shekara 34. Yanki  nawa nawa yake da shi gaba ɗaya?",
+  "original_answer": 44,
+  "question_template": "{name_male, Gene} yana dinka mashinfidin gado da wasu tsofaffin tishat. Yana saka rigar tishat {num_text_1, ɗaya} a kowane hutun da ya yi. Kowace tishat na nau'in yankinta daban. Kowane layi a mashinfidin an dinka da yankunan(tishat) da yake da su na shekaru daban-daban. Yana hutu {num_text_2, 4} a shekara kuma ya fara hutu tun yana dan shekara {num_digit_1, 23}. Yanzu yana da shekara {num_digit_2, 34}. Yanki nawa nawa yake da shi gaba ɗaya?",
+  "question_solution": "answer = (num_digit_2 - num_digit_1) * NUM(num_text_2)",
+  "conditions": [
+    "int(answer) == (num_digit_2 - num_digit_1) * NUM(num_text_2)",
+    "num_digit_2 > num_digit_1",
+    "NUM(num_text_2) > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Gene"
+  },
+  "variable_number_dictionary": {
+    "num_text_2": [
+      "uku",
+      "biyar",
+      "shida",
+      "bakwai",
+      "biyu",
+      "Takwas",
+      "tara",
+      "Goma",
+      "goma sha ɗaya",
+      "sha biyu"
+    ],
+    "num_digit_1": [
+      21,
+      18,
+      25,
+      30,
+      40,
+      22,
+      19,
+      27,
+      24,
+      20
+    ],
+    "num_digit_2": [
+      35,
+      30,
+      50,
+      45,
+      55,
+      60,
+      29,
+      35,
+      65,
+      26
+    ],
+    "answer": [
+      42,
+      60,
+      150,
+      105,
+      30,
+      304,
+      90,
+      80,
+      451,
+      72
+    ],
+    "num_ic": [
+      66,
+      39,
+      89,
+      132,
+      82,
+      71,
+      111,
+      200,
+      50,
+      117
+    ]
+  },
+  "ic_question_template": "Kawun {name_male, Gene} yana da launukan face-face guda {num_ic, 44}. {name_male, Gene} yana dinka mashinfidin gado da wasu tsofaffin tishat. Yana saka rigar tishat {num_text_1, ɗaya} a kowane hutun da ya yi. Kowace tishat na nau'in yankinta daban. Kowane layi a mashinfidin an dinka da yankunan(tishat) da yake da su na shekaru daban-daban. Yana hutu {num_text_2, 4} a shekara kuma ya fara hutu tun yana dan shekara {num_digit_1, 23}. Yanzu yana da shekara {num_digit_2, 34}. Yanki nawa nawa yake da shi gaba ɗaya?",
+  "ic_sentence": "Kawun {name_male, Gene} yana da launukan face-face guda {num_ic, 44}."
+}

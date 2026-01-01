@@ -1,0 +1,68 @@
+{
+  "original_question": "索菲亚正在考虑自驾游，她想知道一罐汽油能行驶多长距离。自上次加油以来，她已经行驶了 100 英里，而且她需要加 4 加仑的汽油才能再次把油箱装满。根据她汽车使用手册的说明，她汽车的油箱能装 12 加仑汽油。一罐汽油能让索菲亚行驶多长距离？",
+  "original_answer": 300,
+  "question_template": "{name_female, 索菲亚} 正在考虑自驾游，她想知道一罐汽油能行驶多长距离。自上次加油以来，她已经行驶了 {num_digit_1, 100} 英里，而且她需要加 {num_digit_2, 4} 加仑的汽油才能再次把油箱加满。根据她汽车使用手册的说明，她汽车的油箱能装 {num_digit_3, 12} 加仑汽油。一罐汽油能让 {name_female, 索菲亚} 行驶多长距离？",
+  "question_solution": "answer = num_digit_3 * num_digit_1 / num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_3 * num_digit_1 / num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "(num_digit_1 * num_digit_3) % num_digit_2 == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sophia"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      150,
+      175,
+      240,
+      198,
+      210,
+      256,
+      169,
+      180,
+      144,
+      185
+    ],
+    "num_digit_2": [
+      6,
+      5,
+      8,
+      6,
+      7,
+      8,
+      13,
+      9,
+      12,
+      5
+    ],
+    "num_digit_3": [
+      14,
+      11,
+      13,
+      15,
+      12,
+      18,
+      20,
+      17,
+      21,
+      16
+    ],
+    "answer": [
+      350,
+      385,
+      390,
+      495,
+      360,
+      576,
+      260,
+      340,
+      252,
+      592
+    ]
+  },
+  "ic_question_template": "{name_female, 索菲亚} 的叔叔曾经连续驾驶了 {num_ic, 129} 英里没有停车。{name_female, 索菲亚} 正在考虑自驾游，她想知道一罐汽油能行驶多长距离。自上次加油以来，她已经行驶了 {num_digit_1, 100} 英里，而且她需要加 {num_digit_2, 4} 加仑的汽油才能再次把油箱加满。根据她汽车使用手册的说明，她汽车的油箱能装 {num_digit_3, 12} 加仑汽油。一罐汽油能让 {name_female, 索菲亚} 行驶多长距离？",
+  "ic_sentence": "{name_female, 索菲亚} 的叔叔曾经连续驾驶了 {num_ic, 129} 英里没有停车。"
+}

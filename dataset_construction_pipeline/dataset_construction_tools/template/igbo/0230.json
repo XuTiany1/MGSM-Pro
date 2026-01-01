@@ -1,0 +1,94 @@
+{
+  "original_question": "Mark zụrụ ígwè ụgbọala iri na abụọ maka ụlọrụ ya. Otu n'ịme ụgbọala ahụ na-efu $20,000. Ọ na-akwụ ùtú 10% n'ụgbọala ndị ahụ tinyere $1000 ọzọ iji deba otu n'ịme ha. Ego ole ka ọ kwụrụ maka ịhe niile? ",
+  "original_answer": 276000,
+  "question_template": "{name_male, Mark} zụrụ ígwè ụgbọala {num_digit_1, 12} maka ụlọrụ ya. Otu n'ịme ụgbọala ahụ na-efu ${num_digit_2, 20,000}. Ọ na-akwụ ùtú {num_digit_3, 10}% n'ụgbọala ndị ahụ tinyere ${num_digit_4, 1000} ọzọ iji deba otu n'ịme ha. Ego ole ka ọ kwụrụ maka ịhe niile?",
+  "question_solution": "answer = num_digit_1 * (num_digit_2 * (1 + num_digit_3/100) + num_digit_4)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (num_digit_2 * (1 + num_digit_3/100) + num_digit_4)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Mark"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      13,
+      17,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "num_digit_2": [
+      19900,
+      20100,
+      18400,
+      22300,
+      25600,
+      19800,
+      21000,
+      23400,
+      27800,
+      31200
+    ],
+    "num_digit_3": [
+      7,
+      12,
+      15,
+      18,
+      22,
+      25,
+      28,
+      30,
+      33,
+      37
+    ],
+    "num_digit_4": [
+      1575,
+      1999,
+      2345,
+      3456,
+      4123,
+      5000,
+      6789,
+      8899,
+      9999,
+      10456
+    ],
+    "answer": [
+      297284,
+      416687,
+      540615,
+      863330,
+      1096005,
+      1100750,
+      1380429,
+      1690717,
+      2207731,
+      2819600
+    ],
+    "num_ic": [
+      41,
+      192,
+      375,
+      260,
+      347,
+      491,
+      90,
+      399,
+      305,
+      270
+    ]
+  },
+  "ic_question_template": "Nwa nwanne nna {name_male, Mark} zụtara igwe ịnya ígwè {num_ic, 111} n’anya ọhụụ. {name_male, Mark} zụrụ ígwè ụgbọala {num_digit_1, 12} maka ụlọrụ ya. Otu n'ịme ụgbọala ahụ na-efu ${num_digit_2, 20,000}. Ọ na-akwụ ùtú {num_digit_3, 10}% n'ụgbọala ndị ahụ tinyere ${num_digit_4, 1000} ọzọ iji deba otu n'ịme ha. Ego ole ka ọ kwụrụ maka ịhe niile?",
+  "ic_sentence": "Nwa nwanne nna {name_male, Mark} zụtara igwe ịnya ígwè {num_ic, 111} n’anya ọhụụ."
+}

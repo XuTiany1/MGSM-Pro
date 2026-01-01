@@ -1,0 +1,64 @@
+{
+  "original_question": "Agbádá kan máa ń gba bóótu òwú olómi aró 2 bẹ́ẹ̀ sì ni àbọ̀ òwú funfun tí ó tó iye yẹn. Iye bóótù mélòó ni ó ń gbà lápapọ̀? ",
+  "original_answer": 3,
+  "question_template": "Agbádá kan máa ń gba bóótu òwú olómi aró {num_digit_1, 2} bẹ́ẹ̀ sì ni {num_frac_1, àbọ̀} òwú funfun tí ó tó iye yẹn. Iye bóótù mélòó ni ó ń gbà lápapọ̀?",
+  "question_solution": "answer = num_digit_1 * (1 + NUM(num_frac_1))",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 + NUM(num_frac_1))",
+    "num_digit_1 > 0",
+    "0 < NUM(num_frac_1) < 1"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      6,
+      9,
+      8,
+      10,
+      12,
+      15,
+      25,
+      24,
+      14,
+      30
+    ],
+    "num_frac_1": [
+      "ìkẹta kan",
+      "Ìkejì-idá mẹ́ta",
+      "Mẹta idaji mẹrin",
+      "Idẹkan",
+      "márùn-ún ìdí méfà",
+      "ìkẹta-ídín-marùn-ún",
+      "mẹrin-idojin",
+      "ìdámẹ́rin",
+      "Idaji",
+      "Mẹsan-an látorí mẹwa"
+    ],
+    "answer": [
+      8,
+      15,
+      14,
+      12,
+      22,
+      24,
+      45,
+      30,
+      21,
+      57
+    ],
+    "num_ic": [
+      19,
+      26,
+      73,
+      84,
+      46,
+      133,
+      250,
+      207,
+      37,
+      245
+    ]
+  },
+  "ic_question_template": "Ọ̀gá aránsọ náà fi ìgbà kan mú òwú {num_ic, 19} wá láti ìlú ńlá. Agbádá kan máa ń gba bóótu òwú olómi aró {num_digit_1, 2} bẹ́ẹ̀ sì ni {num_frac_1, àbọ̀} òwú funfun tí ó tó iye yẹn. Iye bóótù mélòó ni ó ń gbà lápapọ̀?",
+  "ic_sentence": "Ọ̀gá aránsọ náà fi ìgbà kan mú òwú {num_ic, 19} wá láti ìlú ńlá."
+}

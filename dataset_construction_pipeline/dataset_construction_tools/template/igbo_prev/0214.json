@@ -1,0 +1,94 @@
+{
+  "original_question": "Jerry nwere ọdọ mmiri abụọ, ha abụọ nwere oghere na-ehipu mmiri ọ dịka galọn anọ/nkeji. Nkeji anọ gaara aga, ọdọ mmiri nke buru ibu nwere mmiri ugboro abụọ n'ịhe ọdọ mmiri nke obere nwere. Ugbu a ọdọ mmiri nke buru ibu nwere mmiri ugboro anọ n'ịhe dị n'ọdọ mmiri nke obere. Kedụ mmiri ole nọ n'ọdọ mmiri nke obere? ",
+  "original_answer": 8,
+  "question_template": "{name_male, Jerry} nwere ọdọ mmiri abụọ, ha abụọ nwere oghere na-ehipu mmiri ọ dịka galọn {num_digit_1, 4}/nkeji. Nkeji {num_digit_2, 4} gaara aga, ọdọ mmiri nke buru ibu nwere mmiri ugboro {num_text_1, ugboro abụọ} n'ịhe ọdọ mmiri nke obere nwere. Ugbu a ọdọ mmiri nke buru ibu nwere mmiri ugboro {num_text_2, anọ} n'ịhe dị n'ọdọ mmiri nke obere. Kedụ mmiri ole nọ n'ọdụ mmiri nke obere?",
+  "question_solution": "answer = (f1 - 1) * num_digit_1 * num_digit_2 / (f2 - f1)  # f1 and f2 are the numeric values of num_text_1 and num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (f1 - 1) * num_digit_1 * num_digit_2 / (f2 - f1)",
+    "f2 > f1",
+    "f1 > 1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jerry"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_2": [
+      5,
+      8,
+      9,
+      12,
+      15,
+      16,
+      18,
+      21,
+      24,
+      28
+    ],
+    "num_text_1": [
+      "Ugboro abụọ",
+      "Ugboro atọ",
+      "ugboro anọ",
+      "ọgụ ise",
+      "ugboro isii",
+      "ugboro asaa",
+      "ugboro asatọ",
+      "ugwu itoolu",
+      "Ugboro iri",
+      "ugboro iri na otu"
+    ],
+    "num_text_2": [
+      "Atọ",
+      "ise",
+      "asaa",
+      "asatọ",
+      "itoolu",
+      "iri na otu",
+      "iri na anọ",
+      "iri na isii",
+      "iri asatọ na abụọ",
+      "iri na atọ"
+    ],
+    "answer": [
+      35,
+      88,
+      117,
+      272,
+      475,
+      552,
+      609,
+      744,
+      999,
+      5740
+    ],
+    "num_ic": [
+      59,
+      281,
+      96,
+      128,
+      229,
+      63,
+      363,
+      169,
+      137,
+      244
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_male, Jerry} juputara ite mmiri {num_ic, 123} kwa izu na mmiri ozuzo. {name_male, Jerry} nwere ọdọ mmiri abụọ, ha abụọ nwere oghere na-ehipu mmiri ọ dịka galọn {num_digit_1, 4}/nkeji. Nkeji {num_digit_2, 4} gaara aga, ọdọ mmiri nke buru ibu nwere mmiri ugboro {num_text_1, ugboro abụọ} n'ịhe ọdọ mmiri nke obere nwere. Ugbu a ọdọ mmiri nke buru ibu nwere mmiri ugboro {num_text_2, anọ} n'ịhe dị n'ọdọ mmiri nke obere. Kedụ mmiri ole nọ n'ọdụ mmiri nke obere?",
+  "ic_sentence": "Nwanne nna {name_male, Jerry} juputara ite mmiri {num_ic, 123} kwa izu na mmiri ozuzo."
+}

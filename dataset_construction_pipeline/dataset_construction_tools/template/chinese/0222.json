@@ -1,0 +1,57 @@
+{
+  "original_question": "安迪种了 90 株天竺葵和比天竺葵少 40 株的矮牵牛花。他一共种了多少株花？",
+  "original_answer": 140,
+  "question_template": "{name_male, 安迪} 种了 {num_digit_1, 90} 株天竺葵和比天竺葵少 {num_digit_2, 40} 株的矮牵牛花。他一共种了多少株花？",
+  "question_solution": "answer = num_digit_1 + (num_digit_1 - num_digit_2)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + (num_digit_1 - num_digit_2)",
+    "num_digit_1 >= num_digit_2",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Andy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1234,
+      5678,
+      9012,
+      3456,
+      7890,
+      2345,
+      6789,
+      34567,
+      45678,
+      56789
+    ],
+    "num_digit_2": [
+      234,
+      678,
+      912,
+      456,
+      890,
+      345,
+      789,
+      4567,
+      5678,
+      6789
+    ],
+    "answer": [
+      2234,
+      10678,
+      17112,
+      6456,
+      14890,
+      4345,
+      12789,
+      64567,
+      85678,
+      106789
+    ]
+  },
+  "ic_question_template": "{name_male, 安迪} 的姨妈上周买了 {num_ic, 8324} 袋营养土。{name_male, 安迪} 种了 {num_digit_1, 90} 株天竺葵和比天竺葵少 {num_digit_2, 40} 株的矮牵牛花。他一共种了多少株花？",
+  "ic_sentence": "{name_male, 安迪} 的姨妈上周买了 {num_ic, 8324} 袋营养土。"
+}

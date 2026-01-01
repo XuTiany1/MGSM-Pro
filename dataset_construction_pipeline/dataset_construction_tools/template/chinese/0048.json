@@ -1,0 +1,55 @@
+{
+  "original_question": "翠西用一条长 4 英尺的金属丝给做菜园里的番茄做支撑。金属丝被剪成小段，每段长 6 英寸。她得到了多少段？",
+  "original_answer": 3,
+  "question_template": "{name_female, 翠西} 用一条长 {num_digit_1, 7.75} 英尺的金属丝给菜园里的番茄做支撑。金属丝被剪成每段 {num_digit_2, 31} 英寸的小段。她得到了多少段？",
+  "question_solution": "answer = (num_digit_1 * 12) // num_digit_2",
+  "conditions": [
+    "int(answer) == (num_digit_1 * 12) // num_digit_2",
+    "(num_digit_1 * 12) % num_digit_2 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Tracy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7.75,
+      9.5,
+      8.25,
+      10.5,
+      6.25,
+      11.75,
+      12.5,
+      13.5,
+      14.25,
+      15.5
+    ],
+    "num_digit_2": [
+      31,
+      19,
+      11,
+      7,
+      15,
+      47,
+      25,
+      27,
+      9,
+      31
+    ],
+    "answer": [
+      3,
+      6,
+      9,
+      18,
+      5,
+      3,
+      6,
+      6,
+      19,
+      6
+    ]
+  },
+  "ic_question_template": "{name_female, 翠西} 用一条长 {num_digit_1, 7.75} 英尺的金属丝给菜园里的{name_female, 特蕾西}的叔叔在温室里有 {num_ic, 52} 根番茄桩。{name_female, 翠西} 用一条长 {num_digit_1, 7.75} 英尺的金属丝给菜园里的番茄做支撑。金属丝被剪成每段 {num_digit_2, 31} 英寸的小段。她得到了多少段？",
+  "ic_sentence": "{name_female, 特蕾西}的叔叔在温室里有 {num_ic, 52} 根番茄桩。"
+}

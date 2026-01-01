@@ -1,0 +1,92 @@
+{
+  "original_question": "Mamannukwu Jones ghere pai apụl ise maka erimeri ehihie ndị mmenyụ ọ́kụ́. O gbubisiri otunaotu pai ibe na ibe asatọ ma debe pai ise n'elu tebụl nri maka ndị ọbịa ịnye onwe ha nri. Na ngwụcha oge mgbede ahụ, ka ndị ọbịa wechasiirị ma rie ibe na ibe pai nke ha, e nwere ibe na ibe pai iri na anọ fọrọ. Kedụ ibe na ibe pai ole ndị ọbịa ahụ riri? ",
+  "original_answer": 26,
+  "question_template": "Mamannukwu {name_family, Jones} ghere pai apụl {num_digit_1, 5} maka erimeri ehihie ndị mmenyụ ọ́kụ́. O gbubisiri otunaotu pai ibe na ibe {num_digit_2, 8} ma debe pai {num_text_1, ise} n'elu tebụl nri maka ndị ọbịa ịnye onwe ha nri. Na ngwụcha oge mgbede ahụ, ka ndị ọbịa wechasiirị ma rie ibe na ibe pai nke ha, e nwere ibe na ibe pai {num_digit_3, 14} fọrọ. Kedụ ibe na ibe pai ole ndị ọbịa ahụ riri?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 - num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 - num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_3 < num_digit_1 * num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_family": "Jones"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      5,
+      6,
+      4,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "num_text_1": [
+      "ise",
+      "isii",
+      "Anọ",
+      "asaa",
+      "asatọ",
+      "itoolu",
+      "Iri",
+      "iri na otu",
+      "iri na abụọ",
+      "iri na atọ"
+    ],
+    "num_digit_2": [
+      8,
+      10,
+      6,
+      5,
+      9,
+      12,
+      7,
+      4,
+      11,
+      6
+    ],
+    "num_digit_3": [
+      14,
+      18,
+      6,
+      8,
+      20,
+      15,
+      5,
+      7,
+      10,
+      9
+    ],
+    "answer": [
+      26,
+      42,
+      18,
+      27,
+      52,
+      93,
+      65,
+      37,
+      122,
+      69
+    ],
+    "num_ic": [
+      60,
+      86,
+      43,
+      66,
+      56,
+      74,
+      59,
+      68,
+      113,
+      128
+    ]
+  },
+  "ic_question_template": "Ụmụ nwanne nwoke {name_family, Jones} wetaara ite lemonade {num_ic, 93} na nri ehihie. Mamannukwu {name_family, Jones} ghere pai apụl {num_digit_1, 5} maka erimeri ehihie ndị mmenyụ ọ́kụ́. O gbubisiri otunaotu pai ibe na ibe {num_digit_2, 8} ma debe pai {num_text_1, ise} n'elu tebụl nri maka ndị ọbịa ịnye onwe ha nri. Na ngwụcha oge mgbede ahụ, ka ndị ọbịa wechasiirị ma rie ibe na ibe pai nke ha, e nwere ibe na ibe pai {num_digit_3, 14} fọrọ. Kedụ ibe na ibe pai ole ndị ọbịa ahụ riri?",
+  "ic_sentence": "Ụmụ nwanne nwoke {name_family, Jones} wetaara ite lemonade {num_ic, 93} na nri ehihie."
+}

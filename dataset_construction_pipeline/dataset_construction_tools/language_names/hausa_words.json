@@ -1,0 +1,10 @@
+{
+  "name_male": ["Abdullahi", "Abubakar", "Saddiku", "Adamu", "Ali", "Amadu","Muhammad", "Bello", "Ibrahim", "Musa", "Umar", "Usman", "Yusuf", "Garba", "Isa", "Hassan", "Usaini", "Shehu", "Baba", "Kabiru"],
+  "name_female": ["Maryam", "Halima", "Hafsa", "Amina", "Fadimatu", "Nafisa", "Asabe", "Ladidi", "Talatu", "Hasiya", "Larai", "Hadiza", "Rakiya", "Lami", "Sa'adatu", "Saudatu", "Zahra'u", "Hauwa", "Fatima", "Asma'u"],
+  "name_city": ["Kano","Katsina","Zaria","Sokoto","Gusau","Birnin Kebbi","Dutse","Hadejia","Wudil","Azare","Bauchi","Daura","Gombe","Yola","Bichi","Maiduguri","Maradi","Zinder","Funtua","Kazaure"],
+  "name_dragon": ["Ninimini", "Ninki Nanka", "Obi", "Sefu Jabal", "Duma"],
+  "name_mountain": ["Goron Dutse", "Sankwala", "Masaije", "Yakunuji", "Idanre", "Dutsen Mambila", "Dala", "kwalki", "Chappal Waddi", "Tsaunin kwalki"],
+  "name_family": ["Dantata", "Abba", "Amiinu", "Bello", "Koki", "Salga", "Rabiu", "Uba", "Hassan", "Al Alawi", "Ibrahim", "Badamasi", "Saleh", "Auwal", "Mahammad", "Alkasim","Ashiru", "Ahmad", "Sulaiman", "Hamza"],
+  "name_cat": ["Barira", "Buzuwa", "Buzu", "Lily", "Lado", "Tega", "Reza", "Mashi", "Kibiya", "Samira"],
+  "name_dinosaur": ["Dino", "Ragnar", "Kai", "Saphira", "Hadari"]
+}

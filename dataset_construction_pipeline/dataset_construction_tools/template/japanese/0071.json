@@ -1,0 +1,54 @@
+{
+  "original_question": "ケリーアンは料理の準備をするために2つのレシピがあり、1つ目は20の指示、2つ目は1つ目のレシピの2倍の指示がある。ケリーアンが2つの料理を準備するためには、どれだけの指示を読まなければいけないか？",
+  "original_answer": 60,
+  "question_template": "{name_male, ケリーアン}は料理の準備をするために2つのレシピがあり、1つ目は{num_digit_1, 20}の指示、2つ目は1つ目のレシピの{num_text_1, 2倍}の指示があります。{name_male, ケリーアン}が2つの料理を準備するためには、どれだけの指示を読まなければいけないか？",
+  "question_solution": "answer = num_digit_1 + num_digit_1 * NUM(num_text_1)",
+  "conditions": [
+    "int(answer) == num_digit_1 + num_digit_1 * NUM(num_text_1)",
+    "num_digit_1 > 0",
+    "NUM(num_text_1) > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Kelian"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15,
+      18,
+      22,
+      13,
+      17,
+      25,
+      30,
+      14,
+      20,
+      28
+    ],
+    "num_text_1": [
+      "三度 (さんど)",
+      "４回 (yonkai)",
+      "5回",
+      "６回 (ろっかい / rokkai)",
+      "七回",
+      "8倍",
+      "九回",
+      "十倍",
+      "１１倍 (じゅういちばい, juuichi-bai)",
+      "12回"
+    ],
+    "answer": [
+      60,
+      90,
+      132,
+      91,
+      136,
+      225,
+      300,
+      154,
+      240,
+      364
+    ]
+  },
+  "ic_question_template": "{name_male, ケリアン}のおばは{num_ic, 77}冊の料理本を持っています。\n{name_male, ケリーアン}は料理の準備をするために2つのレシピがあり、1つ目は{num_digit_1, 20}の指示、2つ目は1つ目のレシピの{num_text_1, 2倍}の指示があります。{name_male, ケリーアン}が2つの料理を準備するためには、どれだけの指示を読まなければいけないか？",
+  "ic_sentence": "{name_male, ケリアン}のおばは{num_ic, 77}冊の料理本を持っています。"
+}

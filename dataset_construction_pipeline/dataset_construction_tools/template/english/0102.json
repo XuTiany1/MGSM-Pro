@@ -1,0 +1,119 @@
+{
+  "original_question": "John likes to have a glass of water with breakfast, lunch and dinner. Finally, he has one before he goes to bed as well. John does this every weekday, but on the weekends he likes to relax and have a soda with dinner instead. How many glasses of water does John drink in a week?",
+  "original_answer": 26,
+  "question_template": "{name_male, John} likes to have {num_digit_1, 1} glasses of water with breakfast, {num_digit_2, 1} with lunch and {num_digit_3, 1} with dinner. Finally, he has {num_digit_4, 1} more before he goes to bed as well. {name_male, John} does this every weekday (for {num_digit_5, 5} days), but on the weekends (for {num_digit_6, 2} days) he likes to relax and have a soda with dinner instead. How many glasses of water does {name_male, John} drink in a week?",
+  "question_solution": "answer = (num_digit_1 + num_digit_2 + num_digit_3 + num_digit_4) * num_digit_5 + (num_digit_1 + num_digit_2 + num_digit_4) * num_digit_6",
+  "conditions": [
+    "int(answer) == (num_digit_1 + num_digit_2 + num_digit_3 + num_digit_4) * num_digit_5 + (num_digit_1 + num_digit_2 + num_digit_4) * num_digit_6",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0",
+    "num_digit_5 + num_digit_6 == 7"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1,
+      2,
+      3,
+      5,
+      2,
+      6,
+      4,
+      1,
+      4,
+      5
+    ],
+    "num_digit_2": [
+      1,
+      6,
+      3,
+      1,
+      4,
+      5,
+      5,
+      3,
+      4,
+      2
+    ],
+    "num_digit_3": [
+      1,
+      6,
+      5,
+      5,
+      6,
+      3,
+      3,
+      4,
+      5,
+      2
+    ],
+    "num_digit_4": [
+      2,
+      6,
+      1,
+      5,
+      3,
+      4,
+      0,
+      2,
+      1,
+      1
+    ],
+    "num_digit_5": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "num_digit_6": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "answer": [
+      33,
+      128,
+      74,
+      102,
+      93,
+      120,
+      78,
+      62,
+      88,
+      66
+    ],
+    "num_ic": [
+      9,
+      48,
+      27,
+      49,
+      16,
+      37,
+      28,
+      14,
+      15,
+      29
+    ]
+  },
+  "ic_question_template": "{name_male, John} likes to have {num_digit_1, 1} glasses of water with breakfast, {num_digit_2, 1} with lunch and {num_digit_3, 1} with dinner. Finally, he has {num_digit_4, 1} more before he goes to bed as well. {name_male, John} does this every weekday (for {num_digit_5, 5} days), but on the weekends (for {num_digit_6, 2} days) he likes to relax and have a soda with dinner instead. {name_male, John}'s uncle drinks {num_ic, 12} cups of tea every week. How many glasses of water does {name_male, John} drink in a week?",
+  "ic_sentence": "{name_male, John}'s uncle drinks {num_ic, 12} cups of tea every week."
+}

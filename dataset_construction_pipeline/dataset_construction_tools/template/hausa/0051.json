@@ -1,0 +1,93 @@
+{
+  "original_question": "Jirgin ruwan Tom yana iya tafiya a mil 10 a kowace awa. Yana tafiya daga karfe 1 zuwa 4 na yamma. Sa'an nan kuma ya dawo a kan gudun 6 mph. wane adadin lokacin ya ke bukata in zai dawo?",
+  "original_answer": 20,
+  "question_template": "Jirgin ruwan {name_male, Tom} yana iya tafiya a mil {num_digit_1, 15} a kowace awa. Yana tafiya daga karfe {num_digit_2, 1} zuwa {num_digit_3, 9} na yamma. Sa'an nan kuma ya dawo a kan gudun {num_digit_4, 6} mph. wane adadin lokacin ya ke bukata in zai dawo?",
+  "question_solution": "answer = (num_digit_3 - num_digit_2) * num_digit_1 / num_digit_4",
+  "conditions": [
+    "int(answer) == (num_digit_3 - num_digit_2) * num_digit_1 / num_digit_4",
+    "((num_digit_3 - num_digit_2) * num_digit_1) % num_digit_4 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > num_digit_2",
+    "num_digit_4 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Tom"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15,
+      14,
+      12,
+      18,
+      20,
+      16,
+      24,
+      21,
+      28,
+      30
+    ],
+    "num_digit_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "num_digit_3": [
+      9,
+      10,
+      12,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "num_digit_4": [
+      6,
+      4,
+      6,
+      3,
+      5,
+      8,
+      12,
+      7,
+      14,
+      15
+    ],
+    "answer": [
+      20,
+      28,
+      18,
+      42,
+      32,
+      16,
+      16,
+      24,
+      16,
+      16
+    ],
+    "num_ic": [
+      15,
+      45,
+      18,
+      23,
+      64,
+      25,
+      69,
+      70,
+      48,
+      30
+    ]
+  },
+  "ic_question_template": "Kawun {name_male, Tom} kwanan nan ya sayi ƙananan jiragen ruwa guda {num_ic, 20}. Jirgin ruwan {name_male, Tom} yana iya tafiya a mil {num_digit_1, 15} a kowace awa. Yana tafiya daga karfe {num_digit_2, 1} zuwa {num_digit_3, 9} na yamma. Sa'an nan kuma ya dawo a kan gudun {num_digit_4, 6} mph. wane adadin lokacin ya ke bukata in zai dawo?",
+  "ic_sentence": "Kawun {name_male, Tom} kwanan nan ya sayi ƙananan jiragen ruwa guda {num_ic, 20}."
+}

@@ -1,0 +1,93 @@
+{
+  "original_question": "Shawnda tana yanke shawarar cewa yaran unguwarta za su iya amfani da sabis na keke. Ta yanke shawarar hanya mafi kyau don caji shine ta bugawa taya iska. Kowanne taya yakai cents 25 don yin sabis din. A ranar farko, mutane 5 da ke kan kekuna suka zo domin a buga musu iska a tayoyin  biyu. Mutane 3 ne suka zo don ci gaba da buga musu iskar tayoyinsu a  adaidaita sahun su. A ƙarshe, mutum ɗaya ya zo ta kan babur. Dala nawa ta samu a ranar?",
+  "original_answer": 5,
+  "question_template": "{name_female, Shawnda} tana yanke shawarar cewa yaran unguwarta za su iya amfani da sabis na keke. Ta yanke shawarar hanya mafi kyau don caji shine ta bugawa taya iska. Kowanne taya yakai cents {num_digit_1, 25} don yin sabis din. A ranar farko, mutane {num_digit_2, 5} da ke kan kekuna suka zo domin a buga musu iska a tayoyin biyu. Mutane {num_digit_3, 3} ne suka zo don ci gaba da buga musu iskar tayoyinsu a adaidaita sahun su. A ƙarshe, mutum {num_text_1, ɗaya} ya zo ta kan babur. Dala nawa ta samu a ranar?",
+  "question_solution": "answer = (num_digit_1 / 100) * (2 * num_digit_2 + 3 * num_digit_3 + k)   # k is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 / 100) * (2 * num_digit_2 + 3 * num_digit_3 + k)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "k > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Shawnda"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      25,
+      20,
+      50,
+      30,
+      15,
+      60,
+      10,
+      75,
+      5,
+      40
+    ],
+    "num_digit_2": [
+      2,
+      3,
+      2,
+      3,
+      5,
+      2,
+      3,
+      2,
+      5,
+      4
+    ],
+    "num_digit_3": [
+      1,
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      2,
+      1
+    ],
+    "num_text_1": [
+      "ɗaya",
+      "uku",
+      "ɗaya",
+      "ɗaya",
+      "hudu",
+      "Takwas",
+      "ɗaya",
+      "ɗaya",
+      "hudu",
+      "hudu"
+    ],
+    "answer": [
+      2,
+      3,
+      4,
+      3,
+      3,
+      9,
+      1,
+      6,
+      1,
+      6
+    ],
+    "num_ic": [
+      37,
+      17,
+      29,
+      12,
+      21,
+      48,
+      51,
+      44,
+      39,
+      59
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Shawnda} kwanan nan ya sayi balan-balan {num_ic, 37} don wani liyafa. {name_female, Shawnda} tana yanke shawarar cewa yaran unguwarta za su iya amfani da sabis na keke. Ta yanke shawarar hanya mafi kyau don caji shine ta bugawa taya iska. Kowanne taya yakai cents {num_digit_1, 25} don yin sabis din. A ranar farko, mutane {num_digit_2, 5} da ke kan kekuna suka zo domin a buga musu iska a tayoyin biyu. Mutane {num_digit_3, 3} ne suka zo don ci gaba da buga musu iskar tayoyinsu a adaidaita sahun su. A ƙarshe, mutum {num_text_1, ɗaya} ya zo ta kan babur. Dala nawa ta samu a ranar?",
+  "ic_sentence": "Kawun {name_female, Shawnda} kwanan nan ya sayi balan-balan {num_ic, 37} don wani liyafa."
+}

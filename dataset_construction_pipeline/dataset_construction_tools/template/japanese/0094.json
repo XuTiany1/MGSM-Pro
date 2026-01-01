@@ -1,0 +1,66 @@
+{
+  "original_question": "近所では、ペットのウサギの数がペットの犬と猫を合わせた数よりも12匹少ない。犬1匹あたり2匹の猫がおり、犬の数は60匹だとすると、全部で近所には何匹のペットがいますか？",
+  "original_answer": 348,
+  "question_template": "近所では、ペットのウサギの数がペットの犬と猫を合わせた数よりも{num_text_1, twelve}匹少ない。犬1匹あたり{num_text_2, two}匹の猫がおり、犬の数は{num_digit_1, 60}匹だとすると、全部で近所には何匹のペットがいますか？",
+  "question_solution": "answer = 2*(num_digit_1 + num_digit_1 * NUM(num_text_2)) - NUM(num_text_1)",
+  "conditions": [
+    "int(answer) == 2*(num_digit_1 + num_digit_1 * NUM(num_text_2)) - NUM(num_text_1)",
+    "NUM(num_text_2) > 0",
+    "NUM(num_text_1) >= 0",
+    "num_digit_1 > 0",
+    "2*(num_digit_1 + num_digit_1 * NUM(num_text_2)) >= NUM(num_text_1)"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "じゅう",
+      "ご",
+      "十二",
+      "八",
+      "二十",
+      "さん",
+      "七 (しち / なな)",
+      "じゅうよん",
+      "四 (よん / yon)",
+      "二十五"
+    ],
+    "num_text_2": [
+      "さん",
+      "に (ni)",
+      "四 (よん / yon)",
+      "ご",
+      "ろく",
+      "に (ni)",
+      "ご",
+      "七 (しち / なな)",
+      "いち",
+      "九 (きゅう / kyuu)"
+    ],
+    "num_digit_1": [
+      50,
+      30,
+      40,
+      25,
+      60,
+      15,
+      12,
+      20,
+      33,
+      45
+    ],
+    "answer": [
+      390,
+      175,
+      388,
+      292,
+      820,
+      87,
+      137,
+      306,
+      128,
+      875
+    ]
+  },
+  "ic_question_template": "{name_female, オリビア}のおじは{num_ic, 197}匹のカメを飼っています。近所では、ペットのウサギの数がペットの犬と猫を合わせた数よりも{num_text_1, twelve}匹少ない。犬1匹あたり{num_text_2, two}匹の猫がおり、犬の数は{num_digit_1, 60}匹だとすると、全部で近所には何匹のペットがいますか？",
+  "ic_sentence": "{name_female, オリビア}のおじは{num_ic, 197}匹のカメを飼っています。"
+}

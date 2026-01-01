@@ -1,0 +1,82 @@
+{
+  "original_question": "Sadie sùn fún wákàtí 8 ní ọjọ́ Ajẹ́. Fún bí ọjọ́ méji,o ń sun oorun wákàtí 2 dín, ìkọ̀ọ̀kan, nítorí ó ní láti parí àwọn iṣẹ́ àṣetiléwá kọ̀ọ̀kan. Tí ó bá sun oorun wákàtí kan lé ju èyí tí ó ń sùn ní ọjọ́ méjèèjì lọ, wákàtí mélòó ní ó fi sùn lápapọ̀ ní gbogbo ọ̀sẹ̀ yìí?",
+  "original_answer": 48,
+  "question_template": "{name_female, Sadie} sùn fún wákàtí {num_digit_1, 8} ní ọjọ́ Ajẹ́. Fún bí {num_text_1, méji}, o ń sun oorun wákàtí {num_digit_2, 2} dín, ìkọ̀ọ̀kan, nítorí ó ní láti parí àwọn iṣẹ́ àṣetiléwá kọ̀ọ̀kan. Tí ó bá sun oorun wákàtí {num_digit_3, 1} kan lé ju èyí tí ó ń sùn ní ọjọ́ {num_text_2, méjèèjì} lọ, wákàtí mélòó ní ó fi sùn lápapọ̀ ní gbogbo ọ̀sẹ̀ yìí?",
+  "question_solution": "answer = num_digit_1 + 2*(num_digit_1 - num_digit_2) + 4*(num_digit_1 - num_digit_2 + num_digit_3)",
+  "conditions": [
+    "int(answer) == num_digit_1 + 2*(num_digit_1 - num_digit_2) + 4*(num_digit_1 - num_digit_2 + num_digit_3)",
+    "num_digit_1 > num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sadie",
+    "num_text_1": "two",
+    "num_text_2": "two"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      9,
+      10,
+      7,
+      12,
+      6,
+      11,
+      9,
+      8,
+      14,
+      10
+    ],
+    "num_digit_2": [
+      3,
+      4,
+      1,
+      4,
+      1,
+      5,
+      2,
+      1,
+      6,
+      1
+    ],
+    "num_digit_3": [
+      2,
+      3,
+      1,
+      2,
+      2,
+      1,
+      4,
+      3,
+      3,
+      5
+    ],
+    "answer": [
+      53,
+      58,
+      47,
+      68,
+      44,
+      51,
+      67,
+      62,
+      74,
+      84
+    ],
+    "num_ic": [
+      19,
+      48,
+      31,
+      108,
+      25,
+      60,
+      22,
+      84,
+      62,
+      96
+    ]
+  },
+  "ic_question_template": "Arákùnrin {name_female, Sadie} mu ife kọfí {num_ic, 23} lọ́sẹ̀ tó kọjá. {name_female, Sadie} sùn fún wákàtí {num_digit_1, 8} ní ọjọ́ Ajẹ́. Fún bí {num_text_1, méji}, o ń sun oorun wákàtí {num_digit_2, 2} dín, ìkọ̀ọ̀kan, nítorí ó ní láti parí àwọn iṣẹ́ àṣetiléwá kọ̀ọ̀kan. Tí ó bá sun oorun wákàtí {num_digit_3, 1} kan lé ju èyí tí ó ń sùn ní ọjọ́ {num_text_2, méjèèjì} lọ, wákàtí mélòó ní ó fi sùn lápapọ̀ ní gbogbo ọ̀sẹ̀ yìí?",
+  "ic_sentence": "Arákùnrin {name_female, Sadie} mu ife kọfí {num_ic, 23} lọ́sẹ̀ tó kọjá."
+}

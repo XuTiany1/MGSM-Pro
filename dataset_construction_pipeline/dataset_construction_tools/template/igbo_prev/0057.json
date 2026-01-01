@@ -1,0 +1,77 @@
+{
+  "original_question": "Otu àkwà osisi na ebunwu ihe na-akarịghị paụnd puku ise. Otu tụrọkụ n'eje ozi jupụtara n'igbe yiri onwe ha, nke ọbụla dị paund iri na ise n'arọ, ga-agafe àkwà ahụ. nchịkọta arọ onye na-akwọ ụgbọala na tụrọkụ ahụ ihe na-adighi bụ paụnd puku atọ nari asaa na iri ise na ise. Kedụ ọnụọgụgụ igbe ole kachasị nke enwere ike ịdọnye na tụrọkụ ahụ ma na-agaghị agafe ókè arọ àkwà ahụ?",
+  "original_answer": 83,
+  "question_template": "Otu àkwà osisi na-ebunwu ihe na-akarịghị {num_digit_1, 5000} paụnd. Otu tụrọkụ n'eje ozi jupụtara n'igbe yiri onwe ha, nke ọbụla dị {num_digit_2, 15} paụnd n'arọ, ga-agafe àkwà ahụ. Nchịkọta arọ onye na-akwọ ụgbọala na tụrọkụ ahụ ihe na-adighi bụ {num_digit_3, 3755} paụnd. Kedụ ọnụọgụgụ igbe ole kachasị nke enwere ike ịdọnye na tụrọkụ ahụ ma na-agaghị agafe ókè arọ àkwà ahụ?",
+  "question_solution": "answer = (num_digit_1 - num_digit_3) // num_digit_2",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_digit_3) // num_digit_2",
+    "(num_digit_1 - num_digit_3) % num_digit_2 == 0",
+    "num_digit_1 > num_digit_3",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      5000,
+      4835,
+      9875,
+      12000,
+      15432,
+      20005,
+      10003,
+      7500,
+      6300,
+      5123
+    ],
+    "num_digit_2": [
+      15,
+      17,
+      25,
+      13,
+      19,
+      37,
+      16,
+      21,
+      14,
+      9
+    ],
+    "num_digit_3": [
+      3755,
+      1979,
+      6375,
+      7515,
+      5704,
+      15454,
+      4003,
+      4350,
+      2800,
+      1595
+    ],
+    "answer": [
+      83,
+      168,
+      140,
+      345,
+      512,
+      123,
+      375,
+      150,
+      250,
+      392
+    ],
+    "num_ic": [
+      251,
+      12,
+      788,
+      410,
+      154,
+      880,
+      559,
+      345,
+      424,
+      203
+    ]
+  },
+  "ic_question_template": "Nwanne nna onye na-anya ụgbọala na-ebu ụgbọala kpọrọ {num_ic, 215} ụkwa n’otu njem otu oge. Otu àkwà osisi na-ebunwu ihe na-akarịrị {num_digit_1, 5000} paụnd. Otu tụrọkụ n'eje ozi jupụtara n'igbe yiri onwe ha, nke ọbụla dị {num_digit_2, 15} paụnd n'arọ, ga-agafe àkwà ahụ. Nchịkọta arọ onye na-akwọ ụgbọala na tụrọkụ ahụ ihe na-adighi bụ {num_digit_3, 3755} paụnd. Kedụ ọnụọgụgụ igbe ole kachasị nke enwere ike ịdọnye na tụrọkụ ahụ ma na-agaghị agafe ókè arọ àkwà ahụ?",
+  "ic_sentence": "Nwanne nna onye na-anya ụgbọala na-ebu ụgbọala kpọrọ {num_ic, 215} ụkwa n’otu njem otu oge."
+}

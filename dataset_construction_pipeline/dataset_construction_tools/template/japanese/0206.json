@@ -1,0 +1,108 @@
+{
+  "original_question": "マイケルは自転車に乗ることが大好きです。彼は少なくとも週に5回乗って、毎回25キロ走ります。彼はそれを4週間行い、それから週に2回だけ、しかし60キロ毎回乗ることに決めました、彼はそれを3週間続けました。マイケルは全部で何キロ走りましたか？",
+  "original_answer": 860,
+  "question_template": "マイケル{name_male, Micheal}は自転車を漕ぐことが大好きでした。最低でも週に{num_digit_1, 5}回は乗り出し、毎回{num_digit_2, 25}キロメートルの距離を走破しました。この習慣を{num_text_1, 四}週間続けた後、彼は週{num_digit_3, 2}回のみの乗車に減らしましたが、代わりに1回あたりの距離を{num_digit_4, 60}キロメートルに延長し、この新たなペースを{num_digit_5, 3}週間維持しました。さて、マイケルが走った総距離は何キロメートルになるでしょうか？",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * t1 + num_digit_3 * num_digit_4 * num_digit_5  # t1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 * t1 + num_digit_3 * num_digit_4 * num_digit_5",
+    "t1 > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Micheal"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31
+    ],
+    "num_digit_2": [
+      45,
+      52,
+      63,
+      74,
+      85,
+      96,
+      107,
+      118,
+      129,
+      140
+    ],
+    "num_text_1": [
+      "ろく",
+      "七 (しち / なな)",
+      "八",
+      "九 (きゅう / kyuu)",
+      "じゅう",
+      "十一",
+      "十二",
+      "十三",
+      "じゅうよん",
+      "十五"
+    ],
+    "num_digit_3": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "num_digit_4": [
+      75,
+      88,
+      99,
+      112,
+      125,
+      138,
+      149,
+      162,
+      175,
+      188
+    ],
+    "num_digit_5": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answer": [
+      4140,
+      7220,
+      11538,
+      17358,
+      24850,
+      34224,
+      45510,
+      59238,
+      75474,
+      94428
+    ]
+  },
+  "ic_question_template": "{name_male, ミカエル}のおじさんは{num_ic, 105}枚の野球カードを持っています。マイケル{name_male, Micheal}は自転車を漕ぐことが大好きでした。最低でも週に{num_digit_1, 5}回は乗り出し、毎回{num_digit_2, 25}キロメートルの距離を走破しました。この習慣を{num_text_1, 四}週間続けた後、彼は週{num_digit_3, 2}回のみの乗車に減らしましたが、代わりに1回あたりの距離を{num_digit_4, 60}キロメートルに延長し、この新たなペースを{num_digit_5, 3}週間維持しました。さて、マイケルが走った総距離は何キロメートルになるでしょうか？",
+  "ic_sentence": "{name_male, ミカエル}のおじさんは{num_ic, 105}枚の野球カードを持っています。"
+}

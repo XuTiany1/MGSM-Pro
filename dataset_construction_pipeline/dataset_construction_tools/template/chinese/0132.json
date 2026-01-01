@@ -1,0 +1,81 @@
+{
+  "original_question": "帕姆和弗莱德去参加狂欢节。帕姆坐了 2 次云霄飞车，而弗莱德坐了 4 次。在此之后，他们各自决定坐雪橇 2 次。如果每坐一次需要 6 张门票，他们那天用掉了多少张门票？",
+  "original_answer": 60,
+  "question_template": "{name_female, 帕姆} 和 {name_male, 弗莱德} 去参加狂欢节。{name_female, 帕姆} 坐了 {num_digit_1, 2} 次云霄飞车，而 {name_male, 弗莱德} 坐了 {num_digit_2, 4} 次。在此之后，他们各自决定坐雪橇 {num_digit_3, 2} 次。如果每坐一次需要 {num_digit_4, 6} 张门票，他们那天用掉了多少张门票？",
+  "question_solution": "answer = num_digit_4 * (num_digit_1 + num_digit_2 + 2 * num_digit_3)",
+  "conditions": [
+    "int(answer) == num_digit_4 * (num_digit_1 + num_digit_2 + 2 * num_digit_3)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Pam",
+    "name_male": "Fred"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      5,
+      7,
+      8,
+      10,
+      6,
+      9,
+      12,
+      15,
+      11
+    ],
+    "num_digit_2": [
+      6,
+      8,
+      9,
+      2,
+      12,
+      7,
+      11,
+      14,
+      18,
+      13
+    ],
+    "num_digit_3": [
+      4,
+      5,
+      6,
+      3,
+      7,
+      9,
+      8,
+      10,
+      11,
+      12
+    ],
+    "num_digit_4": [
+      7,
+      9,
+      5,
+      8,
+      10,
+      12,
+      6,
+      11,
+      13,
+      4
+    ],
+    "answer": [
+      119,
+      207,
+      140,
+      128,
+      360,
+      372,
+      216,
+      506,
+      715,
+      192
+    ]
+  },
+  "ic_question_template": "{name_male, 弗雷德} 的叔叔带了 {num_ic, 42} 个气球去嘉年华。{name_female, 帕姆} 和 {name_male, 弗莱德} 去参加狂欢节。{name_female, 帕姆} 坐了 {num_digit_1, 2} 次云霄飞车，而 {name_male, 弗莱德} 坐了 {num_digit_2, 4} 次。在此之后，他们各自决定坐雪橇 {num_digit_3, 2} 次。如果每坐一次需要 {num_digit_4, 6} 张门票，他们那天用掉了多少张门票？",
+  "ic_sentence": "{name_male, 弗雷德} 的叔叔带了 {num_ic, 42} 个气球去嘉年华。"
+}

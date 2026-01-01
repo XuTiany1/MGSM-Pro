@@ -1,0 +1,69 @@
+{
+  "original_question": "格蕾丝的体重为 125 磅。亚历克斯的体重比格蕾丝体重的四倍少 2 磅。他们的总体重是多少磅？",
+  "original_answer": 623,
+  "question_template": "{name_female, 格蕾丝} 的体重为 {num_digit_1, 125} 磅。{name_male, 亚历克斯} 的体重比 {name_female, 格蕾丝} 体重的 {num_digit_3, 4} 倍少 {num_digit_2, 2} 磅。他们的总体重是多少磅？",
+  "question_solution": "answer = num_digit_1 + num_digit_3 * num_digit_1 - num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_1 + num_digit_3 * num_digit_1 - num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_3 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 * num_digit_1 - num_digit_2 >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Grace",
+    "name_male": "Alex"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      125,
+      100,
+      150,
+      80,
+      200,
+      90,
+      65,
+      110,
+      130,
+      95
+    ],
+    "num_digit_2": [
+      2,
+      5,
+      10,
+      7,
+      15,
+      9,
+      4,
+      30,
+      25,
+      12
+    ],
+    "num_digit_3": [
+      4,
+      3,
+      6,
+      2,
+      5,
+      7,
+      8,
+      3,
+      9,
+      4
+    ],
+    "answer": [
+      623,
+      395,
+      1040,
+      233,
+      1185,
+      711,
+      581,
+      410,
+      1275,
+      463
+    ]
+  },
+  "ic_question_template": "{name_female, 格蕾丝} 的叔叔最近在工作时搬了 {num_ic, 17} 个箱子。{name_female, 格蕾丝} 的体重为 {num_digit_1, 125} 磅。{name_male, 亚历克斯} 的体重比 {name_female, 格蕾丝} 体重的 {num_digit_3, 4} 倍少 {num_digit_2, 2} 磅。他们的总体重是多少磅？",
+  "ic_sentence": "{name_female, 格蕾丝} 的叔叔最近在工作时搬了 {num_ic, 17} 个箱子。"
+}

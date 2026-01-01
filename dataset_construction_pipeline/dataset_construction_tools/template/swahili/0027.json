@@ -1,0 +1,92 @@
+{
+  "original_question": "Cynthia hukula kipande kimoja cha aiskrimu kila usiku. Yeye hununua katoni za aiskrimu zilizo na vipande 15 vya aiskrimu kwa kila katoni kwa bei ya $4.00 kwa kila katoni. Baada ya siku 60, atakuwa ametumia pesa ngapi kwenye aiskrimu?",
+  "original_answer": 16,
+  "question_template": "{name_female, Cynthia} hula sehemu {num_text_1, moja} ya aiskrimu kila usiku. Yeye hununua katoni za aiskrimu zenye sehemu {num_digit_1, 15} kwa kila katoni kwa bei ya ${num_digit_2, 4} kwa katoni. Baada ya siku {num_digit_3, 60}, atakuwa ametumia pesa ngapi kwa aiskrimu?",
+  "question_solution": "answer = ((NUM(num_text_1) * num_digit_3 + num_digit_1 - 1) // num_digit_1) * num_digit_2",
+  "conditions": [
+    "int(answer) == ((NUM(num_text_1) * num_digit_3 + num_digit_1 - 1) // num_digit_1) * num_digit_2",
+    "NUM(num_text_1) > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Cynthia"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "moja",
+      "mbili",
+      "tatu",
+      "tano",
+      "saba",
+      "nane",
+      "tisa",
+      "kumi na moja",
+      "kumi na tatu",
+      "kumi na tano"
+    ],
+    "num_digit_1": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      25,
+      30,
+      35,
+      40
+    ],
+    "num_digit_2": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "num_digit_3": [
+      59,
+      63,
+      58,
+      65,
+      72,
+      49,
+      55,
+      68,
+      75,
+      82
+    ],
+    "answer": [
+      25,
+      54,
+      77,
+      152,
+      234,
+      180,
+      220,
+      300,
+      364,
+      434
+    ],
+    "num_ic": [
+      25,
+      102,
+      11,
+      120,
+      73,
+      36,
+      67,
+      278,
+      61,
+      78
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_female, Cynthia} ana ladha {num_ic, 7} za sorbet kwenye friza yake. {name_female, Cynthia} hula sehemu {num_text_1, moja} ya aiskrimu kila usiku. Yeye hununua katoni za aiskrimu zenye sehemu {num_digit_1, 15} kwa kila katoni kwa bei ya ${num_digit_2, 4} kwa katoni. Baada ya siku {num_digit_3, 60}, atakuwa ametumia pesa ngapi kwa aiskrimu?",
+  "ic_sentence": "Mjomba wa {name_female, Cynthia} ana ladha {num_ic, 7} za sorbet kwenye friza yake."
+}

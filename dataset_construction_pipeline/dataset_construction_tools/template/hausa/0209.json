@@ -1,0 +1,91 @@
+{
+  "original_question": "Kofuna dozin ashirin sun kai $1200 kasa da rabin farashin farantai rabin dozin da kudin su ya kai $6000 kowanne. lissafa jimlar kuɗin siyan kowane kofi.",
+  "original_answer": 145,
+  "question_template": "Kofuna dozin {num_text_1, ashirin} sun kai ${num_digit_1, 1200} kasa da {num_frac_1, rabin} farashin farantai {num_frac_1, rabi}n dozin da kudin su ya kai ${num_digit_2, 6000} kowanne. lissafa jimlar kuɗin siyan kowane kofi.",
+  "question_solution": "answer = (f1 * 12 * num_digit_2 - num_digit_1) / (f2 * 12)   # f1 is numeric value of num_frac_1, f2 is numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (f1 * 12 * num_digit_2 - num_digit_1) / (f2 * 12)",
+    "f1 > 0",
+    "f2 > 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "ashirin",
+      "ashirin da biyar",
+      "talatin da biyu",
+      "arba’in da bakwai",
+      "hamsin da ɗaya",
+      "hamsin da biyar",
+      "sabain da biyu",
+      "Tamanin da hudu",
+      "Tisini da uku",
+      "ɗari ɗaya da ɗaya"
+    ],
+    "num_frac_1": [
+      "rabi",
+      "ɗaya bisa uku",
+      "biyu cikin biyar",
+      "uku cikin bakwai",
+      "hudu cikin tara",
+      "biyar cikin takwas",
+      "bakwai cikin goma sha uku",
+      "tara cikin goma sha ɗaya",
+      "goma sha ɗaya cikin goma sha huɗu",
+      "tara cikin goma sha biyar"
+    ],
+    "num_digit_1": [
+      80502,
+      45948,
+      31272,
+      16200,
+      59740,
+      8490,
+      76896,
+      62928,
+      76848,
+      57356
+    ],
+    "num_digit_2": [
+      16017,
+      12462,
+      8595,
+      11704,
+      16365,
+      11740,
+      17784,
+      8360,
+      15134,
+      14605
+    ],
+    "answer": [
+      65,
+      13,
+      26,
+      78,
+      45,
+      102,
+      44,
+      19,
+      59,
+      78
+    ],
+    "num_ic": [
+      110,
+      799,
+      49,
+      241,
+      865,
+      803,
+      482,
+      963,
+      515,
+      134
+    ]
+  },
+  "ic_question_template": "An adana kofuna dozin {num_text_1, ashirin} a gefen tukunan shayi {num_ic, 245} a cikin ɗakin adana kaya. Kofuna dozin {num_text_1, ashirin} sun kai ${num_digit_1, 1200} kasa da {num_frac_1, rabin} farashin farantai {num_frac_1, rabi}n dozin da kudin su ya kai ${num_digit_2, 6000} kowanne. lissafa jimlar kuɗin siyan kowane kofi.",
+  "ic_sentence": "An adana kofuna dozin {num_text_1, ashirin} a gefen tukunan shayi {num_ic, 245} a cikin ɗakin adana kaya."
+}

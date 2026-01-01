@@ -1,0 +1,76 @@
+{
+  "original_question": "In a candy machine, there are 22 more than four times the number of pink gumballs as there are blue gumballs. If there are 12 blue gumballs how many pink ones are there?",
+  "original_answer": 70,
+  "question_template": "In a candy machine, there are {num_digit_1, 22} more than {num_text_1, four} times the number of pink gumballs as there are blue gumballs. If there are {num_digit_2, 12} blue gumballs how many pink ones are there?",
+  "question_solution": "answer = num_digit_1 + k * num_digit_2   # k is the numeric value corresponding to num_text_1 (e.g., four → 4, five → 5, …)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + k * num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      37,
+      45,
+      21,
+      80,
+      13,
+      64,
+      101,
+      9,
+      58,
+      73
+    ],
+    "num_digit_2": [
+      17,
+      8,
+      33,
+      42,
+      99,
+      50,
+      31,
+      123,
+      62,
+      81
+    ],
+    "num_text_1": [
+      "five",
+      "six",
+      "seven",
+      "eight",
+      "nine",
+      "ten",
+      "eleven",
+      "twelve",
+      "thirteen",
+      "fourteen"
+    ],
+    "answer": [
+      122,
+      93,
+      252,
+      416,
+      904,
+      564,
+      442,
+      1485,
+      864,
+      1207
+    ],
+    "num_ic": [
+      147,
+      72,
+      215,
+      409,
+      30,
+      469,
+      776,
+      59,
+      593,
+      317
+    ]
+  },
+  "ic_question_template": "In a candy machine, there are {num_digit_1, 22} more than {num_text_1, four} times the number of pink gumballs as there are blue gumballs. {num_ic, 147} kids stopped by the machine that day. If there are {num_digit_2, 12} blue gumballs how many pink ones are there?",
+  "ic_sentence": "{num_ic, 147} kids stopped by the machine that day."
+}

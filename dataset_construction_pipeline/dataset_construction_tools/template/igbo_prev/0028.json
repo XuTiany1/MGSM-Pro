@@ -1,0 +1,92 @@
+{
+  "original_question": "Henry kwụsịrị ugboro abụọ na njem mailụ iri isii ya n'ịnyịnya ígwè. O buru ụzọ kwụsị ka ọ gafechara mailụ iri abụọ. nkwụsị ya nke abụọ bụ mailụ iri na ise tupu njem ya a bia n'isi njedebe. Mailụ ole ka ọ gaara na njem n'agbata nkwụsị nke mbụ na nke abụọ? ",
+  "original_answer": 25,
+  "question_template": "{name_male, Henry} kwụsịrị ugboro {num_text_1, abụọ} na njem mailụ {num_digit_1, 60} ya n'ịnyịnya ígwè. O buru ụzọ kwụsị ka ọ gafechara mailụ {num_digit_2, 20}. nkwụsị ya nke abụọ bụ mailụ {num_digit_3, 15} tupu njem ya a bia n'isi njedebe. Mailụ ole ka ọ gaara na njem n'agbata nkwụsị nke mbụ na nke abụọ?",
+  "question_solution": "answer = (num_digit_1 - num_digit_3) - num_digit_2",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_digit_3) - num_digit_2",
+    "NUM(num_text_1) >= 2",
+    "num_digit_1 > num_digit_3",
+    "num_digit_3 > 0",
+    "num_digit_2 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Henry"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "abụọ",
+      "Atọ",
+      "ise",
+      "asaa",
+      "iri na otu",
+      "iri na atọ",
+      "ịri na asaa",
+      "iri na itoolu",
+      "ịrịisii atọ",
+      "iri abụọ na itoolu"
+    ],
+    "num_digit_1": [
+      101,
+      113,
+      127,
+      131,
+      137,
+      149,
+      157,
+      163,
+      173,
+      179
+    ],
+    "num_digit_2": [
+      17,
+      23,
+      31,
+      19,
+      41,
+      13,
+      29,
+      47,
+      37,
+      17
+    ],
+    "num_digit_3": [
+      19,
+      29,
+      43,
+      37,
+      31,
+      11,
+      59,
+      53,
+      61,
+      89
+    ],
+    "answer": [
+      65,
+      61,
+      53,
+      75,
+      65,
+      125,
+      69,
+      63,
+      75,
+      73
+    ],
+    "num_ic": [
+      57,
+      51,
+      72,
+      119,
+      94,
+      171,
+      61,
+      72,
+      126,
+      134
+    ]
+  },
+  "ic_question_template": "Nwanna nna {name_male, Henry} nwere akpukpọ isi igwe nkwụchi {num_ic, 85}. {name_male, Henry} kwụsịrị ugboro {num_text_1, abụọ} na njem mailụ {num_digit_1, 60} ya n'ịnyịnya ígwè. O buru ụzọ kwụsị ka ọ gafechara mailụ {num_digit_2, 20}. nkwụsị ya nke abụọ bụ mailụ {num_digit_3, 15} tupu njem ya a bia n'isi njedebe. Mailụ ole ka ọ gaara na njem n'agbata nkwụsị nke mbụ na nke abụọ?",
+  "ic_sentence": "Nwanna nna {name_male, Henry} nwere akpukpọ isi igwe nkwụchi {num_ic, 85}."
+}

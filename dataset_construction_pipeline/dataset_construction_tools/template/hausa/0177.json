@@ -1,0 +1,119 @@
+{
+  "original_question": "Zaid yana kashe kaso 1/4 na albashinsa a haya, 1/3 akan man mota sannan yana bayar da rabin sauran kudin da ya rage sadaka. Yakan bai wa diyarsa $200 don yin amfani dasu wajen biyan bukatun ta na mako-mako da kuma $700 ga matarsa don yin kasafin kudin cefane da sauran kayayyakin gida. Idan Zaid yana samun 6000$ a kowane wata, nawa zai samu bayan wannan kashe-kashen kudin da gudummawar?",
+  "original_answer": 350,
+  "question_template": "{name_male, Zaid} yana kashe kaso {num_frac_1, 1/4} na albashinsa a haya, {num_frac_2, 1/3} akan man mota sannan yana bayar da {num_frac_3, rabin} sauran kudin da ya rage sadaka. Yakan bai wa diyarsa ${num_digit_1, 200} don yin amfani dasu wajen biyan bukatun ta na mako-mako da kuma ${num_digit_2, 700} ga matarsa don yin kasafin kudin cefane da sauran kayayyakin gida. Idan {name_male, Zaid} yana samun ${num_digit_3, 6000} a kowane wata, nawa zai samu bayan wannan kashe-kashen kudin da gudummawar?",
+  "question_solution": "answer = num_digit_3 * (1 - f1 - f2) * (1 - f3) - num_digit_1 - num_digit_2   # f1, f2, f3 are the numeric values of num_frac_1, num_frac_2, num_frac_3 respectively",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_3 * (1 - f1 - f2) * (1 - f3) - num_digit_1 - num_digit_2",
+    "f1 + f2 < 1",
+    "0 < f3 < 1",
+    "num_digit_3 > 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Zaid"
+  },
+  "variable_number_dictionary": {
+    "num_frac_1": [
+      "daya bisa hudu",
+      "ɗaya bisa uku",
+      "biyu cikin biyar",
+      "uku cikin takwas",
+      "biyar cikin goma sha biyu",
+      "da dari biyar",
+      "ɗaya cikin shida",
+      "ɗaya bisa uku",
+      "daya bisa hudu",
+      "da dari biyar"
+    ],
+    "num_frac_2": [
+      "daya bisa hudu",
+      "ɗaya cikin shida",
+      "da dari biyar",
+      "daya bisa hudu",
+      "ɗaya cikin shida",
+      "biyu cikin bakwai",
+      "daya bisa hudu",
+      "da dari biyar",
+      "daya bisa hudu",
+      "daya bisa hudu"
+    ],
+    "num_frac_3": [
+      "daya bisa hudu",
+      "Rabinsa",
+      "ɗaya bisa uku",
+      "Rabinsa",
+      "Rabinsa",
+      "ɗaya bisa goma",
+      "Rabinsa",
+      "Rabinsa",
+      "biyu bisa uku",
+      "Rabinsa"
+    ],
+    "num_digit_1": [
+      200,
+      300,
+      250,
+      400,
+      500,
+      150,
+      600,
+      200,
+      400,
+      200
+    ],
+    "num_digit_2": [
+      400,
+      500,
+      600,
+      800,
+      700,
+      300,
+      900,
+      500,
+      500,
+      300
+    ],
+    "num_digit_3": [
+      4800,
+      7200,
+      6000,
+      8400,
+      9600,
+      10500,
+      12000,
+      6600,
+      9000,
+      7800
+    ],
+    "answer": [
+      1200,
+      1000,
+      750,
+      375,
+      800,
+      3330,
+      2000,
+      840,
+      600,
+      1645
+    ],
+    "num_ic": [
+      32,
+      45,
+      68,
+      41,
+      19,
+      72,
+      59,
+      16,
+      81,
+      47
+    ]
+  },
+  "ic_question_template": "Kawun {name_male, Zaid} kwanan nan ya sayi huluna {num_ic, 32} daga wani shagon cikin gari. {name_male, Zaid} yana kashe kaso {num_frac_1, 1/4} na albashinsa a haya, {num_frac_2, 1/3} akan man mota sannan yana bayar da {num_frac_3, rabin} sauran kudin da ya rage sadaka. Yakan bai wa diyarsa ${num_digit_1, 200} don yin amfani dasu wajen biyan bukatun ta na mako-mako da kuma ${num_digit_2, 700} ga matarsa don yin kasafin kudin cefane da sauran kayayyakin gida. Idan {name_male, Zaid} yana samun ${num_digit_3, 6000} a kowane wata, nawa zai samu bayan wannan kashe-kashen kudin da gudummawar?",
+  "ic_sentence": "Kawun {name_male, Zaid} kwanan nan ya sayi huluna {num_ic, 32} daga wani shagon cikin gari."
+}

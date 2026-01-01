@@ -1,0 +1,82 @@
+{
+  "original_question": "Jerry is rolling a six-sided die. How much more likely is it (expressed as a percentage) that he rolls a number greater than 3 than that he rolls two even numbers in a row?",
+  "original_answer": 25,
+  "question_template": "{name_male, Jerry} is rolling a {num_text_1, six}-sided die. How much more likely is it (expressed as a percentage) that he rolls a number greater than {num_digit_1, 3} than that he rolls {num_text_2, two} even numbers in a row?",
+  "question_solution": "even_count = num_text_1 / 2  # number of even faces\nanswer = ((num_text_1 - num_digit_1) / num_text_1 - (even_count / num_text_1) ** num_text_2) * 100",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == ((num_text_1 - num_digit_1) / num_text_1 - ((num_text_1/2) / num_text_1) ** num_text_2) * 100",
+    "num_text_1 % 2 == 0",
+    "num_digit_1 < num_text_1",
+    "num_text_2 == 2",
+    "num_text_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jerry"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "twenty-four",
+      "forty",
+      "fifty",
+      "twenty",
+      "eighteen",
+      "one hundred twenty-five",
+      "twenty-five",
+      "ten",
+      "fifty",
+      "thirty"
+    ],
+    "num_text_2": [
+      "two",
+      "two",
+      "two",
+      "two",
+      "two",
+      "two",
+      "two",
+      "two",
+      "two",
+      "two"
+    ],
+    "num_digit_1": [
+      7,
+      8,
+      15,
+      3,
+      9,
+      5,
+      3,
+      1,
+      7,
+      12
+    ],
+    "answer": [
+      50,
+      55,
+      45,
+      60,
+      25,
+      71,
+      63,
+      65,
+      61,
+      35
+    ],
+    "num_ic": [
+      78,
+      180,
+      110,
+      35,
+      16,
+      210,
+      41,
+      7,
+      92,
+      48
+    ]
+  },
+  "ic_question_template": "{name_male, Jerry} is rolling a {num_text_1, six}-sided die. {name_male, Jerry}'s uncle once collected {num_ic, 73} marbles. How much more likely is it (expressed as a percentage) that he rolls a number greater than {num_digit_1, 3} than that he rolls {num_text_2, two} even numbers in a row?",
+  "ic_sentence": "{name_male, Jerry}'s uncle once collected {num_ic, 73} marbles."
+}

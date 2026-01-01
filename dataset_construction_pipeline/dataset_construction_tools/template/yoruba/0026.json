@@ -1,0 +1,118 @@
+{
+  "original_question": "Mishka ra ẹyọ ṣòkòtò kékeré 3, ẹyọ pátá 3, àti ẹyọ bàtà 3. Ẹyọ ṣòkòtò kékeré kan jẹ́ $16.50 níye. Ẹyọ pátá kan jẹ́ $22.50 nígbà tí ẹyọ bàtà kan jẹ́ $42. Dọ́là mélòó ní Mishka ná lórí gbogbo àwọn aṣọ tó rà?",
+  "original_answer": 243,
+  "question_template": "{name_female, Mishka} ra ẹyọ ṣòkòtò kékeré {num_digit_1, 3}, ẹyọ pátá {num_digit_2, 3}, àti ẹyọ bàtà {num_digit_3, 3}. Ẹyọ ṣòkòtò kékeré kan jẹ́ ${num_digit_4, 16.50} níye. Ẹyọ pátá kan jẹ́ ${num_digit_5, 22.50} nígbà tí ẹyọ bàtà kan jẹ́ ${num_digit_6, 42}. Dọ́là mélòó ní {name_female, Mishka} ná lórí gbogbo àwọn aṣọ tó rà?",
+  "question_solution": "answer = num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5 + num_digit_3 * num_digit_6",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5 + num_digit_3 * num_digit_6",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Mishka"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_2": [
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37
+    ],
+    "num_digit_3": [
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31
+    ],
+    "num_digit_4": [
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "num_digit_5": [
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59
+    ],
+    "num_digit_6": [
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "answer": [
+      283,
+      515,
+      835,
+      1303,
+      1751,
+      2361,
+      3071,
+      3915,
+      5093,
+      6247
+    ],
+    "num_ic": [
+      31,
+      142,
+      236,
+      501,
+      373,
+      85,
+      197,
+      417,
+      239,
+      602
+    ]
+  },
+  "ic_question_template": "Arákùnrin {name_female, Mishka} ra fílá tuntun {num_ic, 12} laipẹ́ yii. {name_female, Mishka} ra ẹyọ ṣòkòtò kékeré {num_digit_1, 3}, ẹyọ pátá {num_digit_2, 3}, àti ẹyọ bàtà {num_digit_3, 3}. Ẹyọ ṣòkòtò kékeré kan jẹ́ ${num_digit_4, 16.50} níye. Ẹyọ pátá kan jẹ́ ${num_digit_5, 22.50} nígbà tí ẹyọ bàtà kan jẹ́ ${num_digit_6, 42}. Dọ́là mélòó ní {name_female, Mishka} ná lórí gbogbo àwọn aṣọ tó rà?",
+  "ic_sentence": "Arákùnrin {name_female, Mishka} ra fílá tuntun {num_ic, 12} laipẹ́ yii."
+}

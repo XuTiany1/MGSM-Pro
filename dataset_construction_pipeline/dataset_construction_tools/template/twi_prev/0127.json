@@ -1,0 +1,67 @@
+{
+  "original_question": "Bere a Amy kɔɔ sukuu foforo mu no, onyaa nnamfo aduonu sen Lily. Sɛ Lily nyaa nnamfo aduonum a, nnamfo dodoɔ ahe na Lily ne Amy wɔ?",
+  "original_answer": 120,
+  "question_template": "Bere a {name_female_1, Amy} kɔɔ sukuu foforo mu no, onyaa nnamfo {num_digit_1, aduonu} sen {name_female_2, Lily}. Sɛ {name_female_2, Lily} nyaa nnamfo {num_digit_2, aduonum} a, nnamfo dodoɔ ahe na {name_female_2, Lily} ne {name_female_1, Amy} wɔ?",
+  "question_solution": "answer = 2 * num_digit_2 + num_digit_1",
+  "conditions": [
+    "int(answer) == 2 * num_digit_2 + num_digit_1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Amy",
+    "name_female_2": "Lily"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15,
+      30,
+      25,
+      40,
+      12,
+      33,
+      55,
+      70,
+      99,
+      11
+    ],
+    "num_digit_2": [
+      35,
+      70,
+      60,
+      80,
+      44,
+      33,
+      120,
+      150,
+      199,
+      89
+    ],
+    "answer": [
+      85,
+      170,
+      145,
+      200,
+      100,
+      99,
+      295,
+      370,
+      497,
+      189
+    ],
+    "num_ic": [
+      42,
+      262,
+      121,
+      374,
+      61,
+      46,
+      341,
+      570,
+      688,
+      108
+    ]
+  },
+  "ic_question_template": "{name_female_2, Lily} wɔfa maa no aseresɛm nhoma {num_ic, 42} sɛ akwaaba akyɛde. Bere a {name_female_1, Amy} kɔɔ sukuu foforo mu no, onyaa nnamfo {num_digit_1, aduonu} sen {name_female_2, Lily}. Sɛ {name_female_2, Lily} nyaa nnamfo {num_digit_2, aduonum} a, nnamfo dodoɔ ahe na {name_female_2, Lily} ne {name_female_1, Amy} wɔ?",
+  "ic_sentence": "{name_female_2, Lily} wɔfa maa no aseresɛm nhoma {num_ic, 42} sɛ akwaaba akyɛde."
+}

@@ -1,0 +1,69 @@
+{
+  "original_question": "ジョンは友達と一緒にピザを注文しました。友達は合計20人いて、1人あたり4スライス食べられるようにしたいと考えています。ピザのスライスは1枚あたり8スライスです。ジョンはピザを何枚頼む必要がありますか？",
+  "original_answer": 10,
+  "question_template": "{name_female, ローズ} は月曜日に店に行き、ケーキを{num_digit_1, 4}個買いました。火曜日、{name_female, ローズ} は違う店に行って、{num_text_1, 三}倍の数のケーキを買いました。水曜日、{name_female, ローズ} はまた別の店に行って、火曜日に買ったケーキの数の{num_digit_2, 5}倍の数のケーキを購入しました。3日間で{name_female, ローズ} は何個のケーキを購入しましたか？",
+  "question_solution": "answer = num_digit_1 * num_digit_2 / num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 / num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      137,
+      256,
+      345,
+      462,
+      579,
+      618,
+      845,
+      963,
+      1082,
+      712
+    ],
+    "num_digit_2": [
+      9,
+      5,
+      23,
+      13,
+      21,
+      17,
+      19,
+      21,
+      25,
+      16
+    ],
+    "num_digit_3": [
+      9,
+      10,
+      15,
+      11,
+      9,
+      17,
+      5,
+      3,
+      5,
+      8
+    ],
+    "answer": [
+      137,
+      128,
+      529,
+      546,
+      1351,
+      618,
+      3211,
+      6741,
+      5410,
+      1424
+    ]
+  },
+  "ic_question_template": "{name_male, ジョン}のおじさんは{num_ic, 712}枚の野球カードを持っています。{name_female, ローズ} は月曜日に店に行き、ケーキを{num_digit_1, 4}個買いました。火曜日、{name_female, ローズ} は違う店に行って、{num_text_1, 三}倍の数のケーキを買いました。水曜日、{name_female, ローズ} はまた別の店に行って、火曜日に買ったケーキの数の{num_digit_2, 5}倍の数のケーキを購入しました。3日間で{name_female, ローズ} は何個のケーキを購入しましたか？",
+  "ic_sentence": "{name_male, ジョン}のおじさんは{num_ic, 712}枚の野球カードを持っています。"
+}

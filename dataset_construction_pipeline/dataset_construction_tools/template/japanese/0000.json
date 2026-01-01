@@ -1,0 +1,81 @@
+{
+  "original_question": "ジャネットのアヒルは1日に16個の卵を生みます。ジャネットは毎朝朝食の一環で3個を消費し、毎日4個使って友達向けにマフィンを焼きます。残りを市場で1個あたり2ドルの価格で売ります。彼女は毎日市場でいくら手に入れていますか？",
+  "original_answer": 18,
+  "question_template": "{name_female, ジャネット}のアヒルは1日に{num_digit_1, 16}個の卵を生みます。彼女は毎朝朝食の一環で{num_text_1, 三}個を消費し、毎日{num_text_2, 四}個使って友達向けにマフィンを焼きます。残りを市場で1個あたり{num_digit_2, 2}ドルの価格で売ります。彼女は毎日市場でいくら手に入れていますか？",
+  "question_solution": "answer = (num_digit_1 - num_text_1 - num_text_2) * num_digit_2",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_text_1 - num_text_2) * num_digit_2",
+    "num_digit_1 >= 0",
+    "num_text_1 >= 0",
+    "num_text_2 >= 0",
+    "num_digit_2 > 0",
+    "(num_digit_1 - num_text_1 - num_text_2) >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Janet"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      48,
+      57,
+      63,
+      52,
+      60,
+      44,
+      68,
+      54,
+      49,
+      58
+    ],
+    "num_text_1": [
+      "七 (しち / なな)",
+      "九 (きゅう / kyuu)",
+      "じゅう",
+      "十三",
+      "十二",
+      "ろく",
+      "十五",
+      "八",
+      "さん",
+      "じゅうよん"
+    ],
+    "num_text_2": [
+      "ご",
+      "八",
+      "十一",
+      "九 (きゅう / kyuu)",
+      "八",
+      "ろく",
+      "じゅうよん",
+      "七 (しち / なな)",
+      "ご",
+      "九 (きゅう / kyuu)"
+    ],
+    "num_digit_2": [
+      6,
+      4,
+      5,
+      7,
+      6,
+      9,
+      5,
+      8,
+      7,
+      4
+    ],
+    "answer": [
+      216,
+      160,
+      210,
+      210,
+      240,
+      288,
+      195,
+      312,
+      287,
+      140
+    ]
+  },
+  "ic_question_template": "{name_female, ジャネット}のおじさんは毎週{num_ic, 41}個のリンゴを彼女に持ってきます。{name_female, ジャネット}のアヒルは1日に{num_digit_1, 16}個の卵を生みます。彼女は毎朝朝食の一環で{num_text_1, 三}個を消費し、毎日{num_text_2, 四}個使って友達向けにマフィンを焼きます。残りを市場で1個あたり{num_digit_2, 2}ドルの価格で売ります。彼女は毎日市場でいくら手に入れていますか？",
+  "ic_sentence": "{name_female, ジャネット}のおじさんは毎週{num_ic, 41}個のリンゴを彼女に持ってきます。"
+}

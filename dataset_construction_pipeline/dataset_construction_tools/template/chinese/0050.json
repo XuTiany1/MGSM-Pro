@@ -1,0 +1,55 @@
+{
+  "original_question": "劳埃德有一个产蛋场。他的鸡每天产 252 颗蛋，他每打鸡蛋卖 2 美元。劳埃德每周从鸡蛋赚多少钱？",
+  "original_answer": 294,
+  "question_template": "{name_male, 劳埃德} 有一个产蛋场。他的鸡每天产 {num_digit_1, 252} 颗蛋，他每打鸡蛋卖 {num_digit_2, 2} 美元。{name_male, 劳埃德} 每周从鸡蛋赚多少钱？",
+  "question_solution": "answer = (num_digit_1 * 7 * num_digit_2) / 12",
+  "conditions": [
+    "int(answer) == (num_digit_1 * 7 * num_digit_2) / 12",
+    "((num_digit_1 * 7 * num_digit_2) / 12).is_integer()",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Lloyd"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      252,
+      180,
+      216,
+      240,
+      288,
+      312,
+      348,
+      384,
+      420,
+      456
+    ],
+    "num_digit_2": [
+      2,
+      2,
+      1.5,
+      3.5,
+      1.75,
+      3.5,
+      3,
+      3.25,
+      4,
+      2.5
+    ],
+    "answer": [
+      294,
+      210,
+      189,
+      490,
+      294,
+      637,
+      609,
+      728,
+      980,
+      665
+    ]
+  },
+  "ic_question_template": "{name_male, 劳埃德}的叔叔刚买了 {num_ic, 105} 只鹅。{name_male, 劳埃德} 有一个产蛋场。他的鸡每天产 {num_digit_1, 252} 颗蛋，他每打鸡蛋卖 {num_digit_2, 2} 美元。{name_male, 劳埃德} 每周从鸡蛋赚多少钱？",
+  "ic_sentence": "{name_male, 劳埃德}的叔叔刚买了 {num_ic, 105} 只鹅。"
+}

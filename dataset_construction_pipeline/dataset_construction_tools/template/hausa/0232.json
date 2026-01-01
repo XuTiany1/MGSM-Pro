@@ -1,0 +1,68 @@
+{
+  "original_question": "Dax ya je gonarsu ya debo tuffa, ya sami rabin na adadin kwari in an hada yawan tururuwa a gonar. Idan akwai tururuwa 50, lissafta jimillar adadin kwari a gonar.",
+  "original_answer": 75,
+  "question_template": "{name_male, Dax} ya je gonarsu ya debo tuffa, ya sami {num_frac, rabi}n na adadin kwari in an hada yawan tururuwa a gonar. Idan akwai tururuwa {num_digit, 50}, lissafta jimillar adadin kwari a gonar.",
+  "question_solution": "answer = num_digit + f * num_digit  # f is the numeric value of num_frac",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit + f * num_digit",
+    "f > 0",
+    "num_digit >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Dax"
+  },
+  "variable_number_dictionary": {
+    "num_frac": [
+      "one half",
+      "one third",
+      "one quarter",
+      "two thirds",
+      "three quarters",
+      "four fifths",
+      "three fifths",
+      "five sixths",
+      "seven eighths",
+      "nine tenths"
+    ],
+    "num_digit": [
+      1234,
+      1230,
+      1024,
+      6789,
+      3428,
+      3455,
+      2505,
+      2568,
+      2048,
+      12340
+    ],
+    "answer": [
+      1851,
+      1640,
+      1280,
+      11315,
+      5999,
+      6219,
+      4008,
+      4708,
+      3840,
+      23446
+    ],
+    "num_ic": [
+      301,
+      1001,
+      376,
+      4785,
+      1471,
+      2268,
+      1239,
+      1240,
+      1683,
+      4211
+    ]
+  },
+  "ic_question_template": "Kawun {name_male, Dax} ya ga zomaye {num_ic, 372} suna keta fili da gudu. {name_male, Dax} ya je gonarsu ya debo tuffa, ya sami {num_frac, rabi}n na adadin kwari in an hada yawan tururuwa a gonar. Idan akwai tururuwa {num_digit, 50}, lissafta jimillar adadin kwari a gonar.",
+  "ic_sentence": "Kawun {name_male, Dax} ya ga zomaye {num_ic, 372} suna keta fili da gudu."
+}

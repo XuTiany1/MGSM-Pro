@@ -1,0 +1,54 @@
+{
+  "original_question": "Miguel utilise 2 cartons de papier par semaine pour son dessin. Si chaque carton contient 30 feuilles de papier, combien de feuilles de papier utilise-t-il par mois ?",
+  "original_answer": 240,
+  "question_template": "{name_male, Miguel} utilise {num_digit_1, 2} cartons de papier par semaine pour son dessin. Si chaque carton contient {num_digit_2, 30} feuilles de papier, combien de feuilles de papier utilise-t-il par mois ?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * 4",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 * 4",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Miguel"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      5,
+      7,
+      4,
+      6,
+      9,
+      8,
+      10,
+      12,
+      15
+    ],
+    "num_digit_2": [
+      25,
+      40,
+      18,
+      45,
+      32,
+      35,
+      22,
+      50,
+      28,
+      24
+    ],
+    "answer": [
+      300,
+      800,
+      504,
+      720,
+      768,
+      1260,
+      704,
+      2000,
+      1344,
+      1440
+    ]
+  },
+  "ic_question_template": "{name_male, Miguel} a un oncle qui possède {num_ic, 100} crayons de couleur dans son atelier d'art. {name_male, Miguel} utilise {num_digit_1, 2} cartons de papier par semaine pour son dessin. Si chaque carton contient {num_digit_2, 30} feuilles de papier, combien de feuilles de papier utilise-t-il par mois ?",
+  "ic_sentence": "{name_male, Miguel} a un oncle qui possède {num_ic, 100} crayons de couleur dans son atelier d'art."
+}

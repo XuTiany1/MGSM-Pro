@@ -1,0 +1,80 @@
+{
+  "original_question": "Jamal's phone can hold 6 times more photographs than can Brittany's phone. The maximum number of photographs that Brittany's phone can hold is 50 times more than the number of birds in Jamal's photograph of the ducks at the zoo. If Jamal's phone can hold 1800 photographs, how many ducks can be seen in Jamal's photograph of ducks at the zoo?",
+  "original_answer": 6,
+  "question_template": "{name_male, Jamal}'s phone can hold {num_digit_1, 6} times more photographs than can {name_female, Brittany}'s phone. The maximum number of photographs that {name_female, Brittany}'s phone can hold is {num_digit_3, 50} times more than the number of birds in {name_male, Jamal}'s photograph of the ducks at the zoo. If {name_male, Jamal}'s phone can hold {num_digit_2, 1800} photographs, how many ducks can be seen in {name_male, Jamal}'s photograph of ducks at the zoo?",
+  "question_solution": "answer = num_digit_2 / (num_digit_1 * num_digit_3)",
+  "conditions": [
+    "int(answer) == num_digit_2 / (num_digit_1 * num_digit_3)",
+    "num_digit_1 > 0",
+    "num_digit_3 > 0",
+    "num_digit_2 % (num_digit_1 * num_digit_3) == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Jamal",
+    "name_female": "Brittany"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      7,
+      5,
+      8,
+      9,
+      12,
+      15,
+      6,
+      10,
+      11
+    ],
+    "num_digit_2": [
+      900,
+      1260,
+      1600,
+      2520,
+      2700,
+      6600,
+      1440,
+      5460,
+      4320,
+      3267
+    ],
+    "num_digit_3": [
+      25,
+      30,
+      40,
+      45,
+      60,
+      50,
+      24,
+      70,
+      36,
+      33
+    ],
+    "answer": [
+      9,
+      6,
+      8,
+      7,
+      5,
+      11,
+      4,
+      13,
+      12,
+      9
+    ],
+    "num_ic": [
+      20,
+      84,
+      103,
+      48,
+      50,
+      112,
+      99,
+      93,
+      52,
+      97
+    ]
+  },
+  "ic_question_template": "{name_male, Jamal}'s phone can hold {num_digit_1, 6} times more photographs than can {name_female, Brittany}'s phone. The maximum number of photographs that {name_female, Brittany}'s phone can hold is {num_digit_3, 50} times more than the number of birds in {name_male, Jamal}'s photograph of the ducks at the zoo. {name_male, Jamal}'s uncle once visited {num_ic, 84} national parks. If {name_male, Jamal}'s phone can hold {num_digit_2, 1800} photographs, how many ducks can be seen in {name_male, Jamal}'s photograph of ducks at the zoo?",
+  "ic_sentence": "{name_male, Jamal}'s uncle once visited {num_ic, 84} national parks."
+}

@@ -1,0 +1,143 @@
+{
+  "original_question": "Debra ɛhwɛ nwowa dann ahwɛ sɛ nwowa dodoɔ ahe na ɛba da biara da. Na ohuu nwowa 30 a wofi nwowa dann wɔ nnɔnhwere 6 a edi kan, na afei ohu wɔn mu fa a wɔsan ba wɔ nnɔnhwere 6 a edi hɔ no. Ohu nwowa a na wɔn dodoɔ boro nea ohui kan no mmɔho 1/2 sɛ wofi nwowa no mu, na nwowa no tu firi mu san fi hɔ nnɔnhwere 6 a edi hɔ no. Ɛno akyi, ɔmo biara a na watwe ne ho ansa na ɔsan aba no san kɔ ɔfese no mu wɔ nnɔnhwere 6 a edi hɔ no. Nwowa dodoɔ ahe na Debra hui sɛ wɔasan aba atɛwee no mu wɔ nnɔnhwere 6 a etwaam mu?",
+  "original_answer": 75,
+  "question_template": "{name_female, Debra} ɛhwɛ nwowa dann ahwɛ sɛ nwowa dodoɔ ahe na ɛba da biara da. Na ohuu nwowa {num_digit_1, 30} a wofi nwowa dann wɔ nnɔnhwere {num_digit_2, 6} a edi kan, na afei ohu wɔn mu {num_frac_1, 1/2} a wɔsan ba wɔ nnɔnhwere {num_digit_3, 6} a edi hɔ no. Ohu nwowa a na wɔn dodoɔ boro nea ohui kan no mmɔho {num_text_1, two} sɛ wofi nwowa no mu, na nwowa no tu firi mu san fi hɔ nnɔnhwere {num_digit_4, 6} a edi hɔ no. Ɛno akyi, ɔmo biara a na watwe ne ho ansa na ɔsan aba no san kɔ ɔfese no mu wɔ nnɔnhwere {num_digit_5, 6} a edi hɔ no. Nwowa dodoɔ ahe na {name_female, Debra} hui sɛ wɔasan aba atɛwee no mu wɔ nnɔnhwere {num_digit_6, 6} a etwaam mu?",
+  "question_solution": "answer = (1 + k - f) * num_digit_1   # k = numeric value of num_text_1, f = numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (1 + k - f) * num_digit_1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Debra"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      40,
+      27,
+      36,
+      45,
+      50,
+      24,
+      60,
+      30,
+      42,
+      54
+    ],
+    "num_digit_2": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "num_digit_3": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "num_digit_4": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "num_digit_5": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "num_digit_6": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "num_frac_1": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "2/5",
+      "1/5",
+      "3/4",
+      "1/6",
+      "2/3",
+      "1/7",
+      "1/9"
+    ],
+    "num_text_1": [
+      "mmiɛnsa",
+      "mienu",
+      "ɛnān",
+      "anum",
+      "nsia",
+      "Nson",
+      "nwɔtwe",
+      "nkron",
+      "du",
+      "duakoɔ baako"
+    ],
+    "answer": [
+      140,
+      72,
+      171,
+      252,
+      340,
+      174,
+      530,
+      280,
+      456,
+      642
+    ],
+    "num_ic": [
+      222,
+      140,
+      224,
+      186,
+      120,
+      381,
+      560,
+      238,
+      414,
+      286
+    ]
+  },
+  "ic_question_template": "{name_female, Debra} ɛhwɛ nwowa dann ahwɛ sɛ nwowa dodoɔ ahe na ɛba da biara da. Na ohuu nwowa {num_digit_1, 30} a wofi nwowa dann wɔ nnɔnhwere {num_digit_2, 6} a edi kan, na afei ohu wɔn mu {num_frac_1, 1/2} a wɔsan ba wɔ nnɔnhwere {num_digit_3, 6} a edi hɔ no. Ohu nwowa a na wɔn dodoɔ boro nea ohui kan no mmɔho {num_text_1, two} sɛ wofi nwowa no mu, na nwowa no tu firi mu san fi hɔ nnɔnhwere {num_digit_4, 6} a edi hɔ no. Ɛno akyi, ɔmo biara a na watwe ne ho ansa na ɔsan aba no san kɔ ɔfese no mu wɔ nnɔnhwere {num_digit_5, 6} a edi hɔ no. Nwowa dodoɔ ahe na {name_female, Debra} hui sɛ wɔasan aba atɛwee no mu wɔ nnɔnhwere {num_digit_6, 6} a etwaam mu? {name_female, Debra} sewaa huu afafrantɔ {num_ic, 285} bɛn ha.",
+  "ic_sentence": "{name_female, Debra} sewaa huu afafrantɔ {num_ic, 285} bɛn ha."
+}

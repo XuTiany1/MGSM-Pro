@@ -1,0 +1,66 @@
+{
+  "original_question": "Ƙungiyar masu fareti ta bada odar sababbin uniform. Kowane Uniform yana zuwa ne da hular da farashinta ya kai dalar Amurka 25, jaket ɗin da farashin hula ya ninka sau uku, da kuma wando wanda ya kai matsakaicin farashin hula da jaket. Nawa ne jimillar kowane uniform?",
+  "original_answer": 150,
+  "question_template": "Ƙungiyar masu fareti ta bada odar sababbin uniform. Kowane Uniform yana zuwa ne da hular da farashinta ya kai dalar Amurka ${num_digit_1, 25}, jaket ɗin da farashin hula ya ninka sau {num_text_1, uku}, da kuma wando wanda ya kai matsakaicin farashin hula da jaket. Nawa ne jimillar kowane uniform?",
+  "question_solution": "answer = num_digit_1 + num_digit_1 * NUM(num_text_1) + (num_digit_1 + num_digit_1 * NUM(num_text_1)) / 2",
+  "conditions": [
+    "answer == num_digit_1 + num_digit_1 * NUM(num_text_1) + (num_digit_1 + num_digit_1 * NUM(num_text_1)) / 2",
+    "num_digit_1 > 0",
+    "NUM(num_text_1) > 0",
+    "(num_digit_1 + num_digit_1 * NUM(num_text_1)) % 2 == 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      123,
+      456,
+      789,
+      1024,
+      2048,
+      4096,
+      5123,
+      6789,
+      8192,
+      10000
+    ],
+    "num_text_1": [
+      "sau bakwai",
+      "sau tara",
+      "sau goma sha ɗaya",
+      "sau goma sha uku",
+      "sau goma sha bakwai",
+      "sau goma sha tara",
+      "sau ashirin da uku",
+      "sau ashirin da tara",
+      "sau talatin da ɗaya",
+      "sau talatin da bakwai"
+    ],
+    "answer": [
+      1476,
+      6840,
+      14202,
+      21504,
+      55296,
+      122880,
+      184428,
+      305505,
+      393216,
+      570000
+    ],
+    "num_ic": [
+      307,
+      1650,
+      3298,
+      9472,
+      17825,
+      32179,
+      4142,
+      27155,
+      817,
+      81415
+    ]
+  },
+  "ic_question_template": "Ɗan kawun shugaban ƙungiyar waka ya sayi safar hannu {num_ic, 517} wa sashen busa kayan kiɗa. Ƙungiyar masu fareti ta bada odar sababbin uniform. Kowane Uniform yana zuwa ne da hular da farashinta ya kai dalar Amurka ${num_digit_1, 25}, jaket ɗin da farashin hula ya ninka sau {num_text_1, uku}, da kuma wando wanda ya kai matsakaicin farashin hula da jaket. Nawa ne jimillar kowane uniform?",
+  "ic_sentence": "Ɗan kawun shugaban ƙungiyar waka ya sayi safar hannu {num_ic, 517} wa sashen busa kayan kiɗa."
+}

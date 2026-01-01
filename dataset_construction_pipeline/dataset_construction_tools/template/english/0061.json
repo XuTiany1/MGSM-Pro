@@ -1,0 +1,80 @@
+{
+  "original_question": "Janet buys a brooch for her daughter. She pays $500 for the material to make it and then another $800 for the jeweler to construct it. After that, she pays 10% of that to get it insured. How much did she pay?",
+  "original_answer": 1430,
+  "question_template": "{name_female, Janet} buys a brooch for her daughter. She pays ${num_digit_1, 500} for the material to make it and then another ${num_digit_2, 800} for the jeweler to construct it. After that, she pays {num_digit_3, 10}% of that to get it insured. How much did she pay?",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) * (1 + num_digit_3/100)",
+  "conditions": [
+    "int(answer) == (num_digit_1 + num_digit_2) * (1 + num_digit_3/100)",
+    "((num_digit_1 + num_digit_2) * num_digit_3) % 100 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Janet"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      450,
+      375,
+      580,
+      610,
+      450,
+      333,
+      520,
+      1400,
+      845,
+      777
+    ],
+    "num_digit_2": [
+      650,
+      825,
+      920,
+      790,
+      1050,
+      667,
+      780,
+      600,
+      1155,
+      223
+    ],
+    "num_digit_3": [
+      10,
+      15,
+      12,
+      8,
+      20,
+      25,
+      7,
+      5,
+      18,
+      22
+    ],
+    "answer": [
+      1210,
+      1380,
+      1680,
+      1512,
+      1800,
+      1250,
+      1391,
+      2100,
+      2360,
+      1220
+    ],
+    "num_ic": [
+      26,
+      33,
+      42,
+      121,
+      99,
+      44,
+      62,
+      57,
+      128,
+      115
+    ]
+  },
+  "ic_question_template": "{name_female, Janet} buys a brooch for her daughter. She pays ${num_digit_1, 500} for the material to make it and then another ${num_digit_2, 800} for the jeweler to construct it. After that, she pays {num_digit_3, 10}% of that to get it insured. {name_female, Janet}'s uncle found {num_ic, 35} rare coins in his attic. How much did she pay?",
+  "ic_sentence": "{name_female, Janet}'s uncle found {num_ic, 35} rare coins in his attic."
+}

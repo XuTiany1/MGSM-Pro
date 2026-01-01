@@ -1,0 +1,103 @@
+{
+  "original_question": "According to its nutritional info, a bag of chips has 250 calories per serving. If a 300g bag has 5 servings, how many grams can you eat if your daily calorie target is 2000 and you have already consumed 1800 calories?",
+  "original_answer": 48,
+  "question_template": "According to its nutritional info, a bag of chips has {num_digit_1, 250} calories per serving. If a {num_digit_2, 300}g bag has {num_digit_3, 5} servings, how many grams can you eat if your daily calorie target is {num_digit_4, 2000} and you have already consumed {num_digit_5, 1800} calories?",
+  "question_solution": "answer = ((num_digit_4 - num_digit_5) * num_digit_2) // (num_digit_1 * num_digit_3)",
+  "conditions": [
+    "int(answer) == ((num_digit_4 - num_digit_5) * num_digit_2) // (num_digit_1 * num_digit_3)",
+    "((num_digit_4 - num_digit_5) * num_digit_2) % (num_digit_1 * num_digit_3) == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > num_digit_5"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      450,
+      250,
+      400,
+      450,
+      250,
+      120,
+      200,
+      250,
+      250,
+      250
+    ],
+    "num_digit_2": [
+      180,
+      100,
+      150,
+      300,
+      500,
+      300,
+      200,
+      250,
+      330,
+      300
+    ],
+    "num_digit_3": [
+      5,
+      4,
+      5,
+      12,
+      4,
+      10,
+      5,
+      8,
+      6,
+      4
+    ],
+    "num_digit_4": [
+      2300,
+      2500,
+      2400,
+      2100,
+      2300,
+      1900,
+      2400,
+      1900,
+      2200,
+      2300
+    ],
+    "num_digit_5": [
+      1500,
+      1750,
+      1200,
+      1200,
+      1400,
+      1700,
+      1700,
+      1300,
+      1400,
+      1850
+    ],
+    "answer": [
+      64,
+      75,
+      90,
+      50,
+      450,
+      50,
+      140,
+      75,
+      176,
+      135
+    ],
+    "num_ic": [
+      133,
+      96,
+      223,
+      226,
+      343,
+      290,
+      370,
+      91,
+      292,
+      213
+    ]
+  },
+  "ic_question_template": "According to its nutritional info, a bag of chips has {num_digit_1, 250} calories per serving. If a {num_digit_2, 300}g bag has {num_digit_3, 5} servings, {name_male, Alex}'s uncle bought {num_ic, 47} bags of chips for a party. How many grams can you eat if your daily calorie target is {num_digit_4, 2000} and you have already consumed {num_digit_5, 1800} calories?",
+  "ic_sentence": "{name_male, Alex}'s uncle bought {num_ic, 47} bags of chips for a party."
+}

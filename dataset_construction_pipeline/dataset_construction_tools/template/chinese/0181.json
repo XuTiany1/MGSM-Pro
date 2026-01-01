@@ -1,0 +1,82 @@
+{
+  "original_question": "桑德拉是拐角一家花店的店主，她对弗莱德没有完成订单配送非常不满意。桑德拉订购的红玫瑰数量是白色康乃馨的 4 倍。她还订购了 200 支粉色马蹄莲，这个数量是白色康乃馨的 5 倍。桑德拉威胁道，如果漏送的红玫瑰没有在下午 5 点前送到，她就更换供应商。为了留住桑德拉的业务，弗莱德必须在下午 5 点前送来多少支红玫瑰？",
+  "original_answer": 160,
+  "question_template": "{name_female, 桑德拉} 是拐角一家花店的店主，她对 {name_male, 弗莱德} 没有完成订单配送非常不满意。{name_female, 桑德拉} 订购的红玫瑰数量是白色康乃馨的 {num_text_1, 4} 倍。她还订购了 {num_digit_1, 200} 支粉色马蹄莲，这个数量是白色康乃馨的 {num_text_2, 5} 倍。{name_female, 桑德拉} 威胁道，如果漏送的红玫瑰没有在下午 {num_digit_2, 5} 点前送到，她就更换供应商。为了留住 {name_female, 桑德拉} 的业务，{name_male, 弗莱德} 必须在下午 {num_digit_2, 5} 点前送来多少支红玫瑰？",
+  "question_solution": "answer = f1 * (num_digit_1 / f2)   # f1 and f2 are the numeric values of num_text_1 and num_text_2 respectively",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == f1 * (num_digit_1 / f2)",
+    "f1 > 0",
+    "f2 > 0",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Sandra",
+    "name_male": "Fred"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "三",
+      "四",
+      "五",
+      "六",
+      "七",
+      "八",
+      "九",
+      "十",
+      "十一",
+      "十二"
+    ],
+    "num_digit_1": [
+      30,
+      42,
+      63,
+      96,
+      135,
+      72,
+      60,
+      50,
+      300,
+      363
+    ],
+    "num_text_2": [
+      "五",
+      "六",
+      "七",
+      "八",
+      "九",
+      "四",
+      "三",
+      "二",
+      "十",
+      "十一"
+    ],
+    "num_digit_2": [
+      5,
+      6,
+      4,
+      7,
+      3,
+      8,
+      2,
+      9,
+      10,
+      11
+    ],
+    "answer": [
+      18,
+      28,
+      45,
+      72,
+      105,
+      144,
+      180,
+      250,
+      330,
+      396
+    ]
+  },
+  "ic_question_template": "{name_female, 桑德拉} 的叔叔最近在他家的院子里种了 {num_ic, 38} 朵郁金香。{name_female, 桑德拉} 是拐角一家花店的店主，她对 {name_male, 弗莱德} 没有完成订单配送非常不满意。{name_female, 桑德拉} 订购的红玫瑰数量是白色康乃馨的 {num_text_1, 4} 倍。她还订购了 {num_digit_1, 200} 支粉色马蹄莲，这个数量是白色康乃馨的 {num_text_2, 5} 倍。{name_female, 桑德拉} 威胁道，如果漏送的红玫瑰没有在下午 {num_digit_2, 5} 点前送到，她就更换供应商。为了留住 {name_female, 桑德拉} 的业务，{name_male, 弗莱德} 必须在下午 {num_digit_2, 5} 点前送来多少支红玫瑰？",
+  "ic_sentence": "{name_female, 桑德拉} 的叔叔最近在他家的院子里种了 {num_ic, 38} 朵郁金香。"
+}

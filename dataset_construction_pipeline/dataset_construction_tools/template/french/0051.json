@@ -1,0 +1,81 @@
+{
+  "original_question": "La bateau de Tom se déplace à 10 miles par heure. Il navigue de 13 h à 16 h, puis entreprend le trajet retour à la vitesse de 6 miles par heure. Combien de temps lui faudra-t-il pour rentrer ?",
+  "original_answer": 20,
+  "question_template": "La bateau de {name_male, Tom} se déplace à {num_digit_1, 15} miles par heure. Il navigue de {num_digit_2, 1} h à {num_digit_3, 9} h, puis entreprend le trajet retour à la vitesse de {num_digit_4, 6} miles par heure. Combien de temps lui faudra-t-il pour rentrer ?",
+  "question_solution": "answer = (num_digit_3 - num_digit_2) * num_digit_1 / num_digit_4",
+  "conditions": [
+    "int(answer) == (num_digit_3 - num_digit_2) * num_digit_1 / num_digit_4",
+    "((num_digit_3 - num_digit_2) * num_digit_1) % num_digit_4 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > num_digit_2",
+    "num_digit_4 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Tom"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15,
+      14,
+      12,
+      18,
+      20,
+      16,
+      24,
+      21,
+      28,
+      30
+    ],
+    "num_digit_2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "num_digit_3": [
+      9,
+      10,
+      12,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "num_digit_4": [
+      6,
+      4,
+      6,
+      3,
+      5,
+      8,
+      12,
+      7,
+      14,
+      15
+    ],
+    "answer": [
+      20,
+      28,
+      18,
+      42,
+      32,
+      16,
+      16,
+      24,
+      16,
+      16
+    ]
+  },
+  "ic_question_template": "{name_male, Tom} a un oncle qui a récemment acheté {num_ic, 20} bateaux miniatures. La bateau de {name_male, Tom} se déplace à {num_digit_1, 15} miles par heure. Il navigue de {num_digit_2, 1} h à {num_digit_3, 9} h, puis entreprend le trajet retour à la vitesse de {num_digit_4, 6} miles par heure. Combien de temps lui faudra-t-il pour rentrer ?",
+  "ic_sentence": "{name_male, Tom} a un oncle qui a récemment acheté {num_ic, 20} bateaux miniatures."
+}

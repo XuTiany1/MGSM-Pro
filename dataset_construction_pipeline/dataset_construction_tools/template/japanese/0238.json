@@ -1,0 +1,71 @@
+{
+  "original_question": "メアリーはジョーンより2歳若く、ジョーンはジェサより5歳年上です。ジェサが20歳の場合、3人の年齢の合計は何歳ですか？",
+  "original_answer": 68,
+  "question_template": "{name_female_1, メアリー}は{name_female_2, ジョーン}より{num_text_1, 二}歳若く、{name_female_2, ジョーン}は{name_female_3, ジェサ}より{num_text_2, 五}歳年上です。{name_female_3, ジェサ}が{num_digit_1, 20}歳の場合、3人の年齢の合計は何歳ですか？",
+  "question_solution": "answer = 3 * num_digit_1 + 2 * f2 - f1  # f1 is the numeric value of num_text_1; f2 of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == 3 * num_digit_1 + 2 * f2 - f1",
+    "f1 > 0",
+    "f2 > 0",
+    "num_digit_1 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Mary",
+    "name_female_2": "Joan",
+    "name_female_3": "Jessa"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "七 (しち / なな)",
+      "九 (きゅう / kyuu)",
+      "十一",
+      "十三",
+      "十五",
+      "じゅうなな",
+      "十九",
+      "二十",
+      "二十三",
+      "二十九"
+    ],
+    "num_text_2": [
+      "ろく",
+      "八",
+      "じゅう",
+      "十二",
+      "じゅうよん",
+      "十六",
+      "十八",
+      "二十五",
+      "さんじゅういち",
+      "さんじゅうなな"
+    ],
+    "num_digit_1": [
+      101,
+      137,
+      149,
+      157,
+      167,
+      179,
+      191,
+      223,
+      241,
+      269
+    ],
+    "answer": [
+      308,
+      418,
+      456,
+      482,
+      514,
+      552,
+      590,
+      699,
+      762,
+      852
+    ]
+  },
+  "ic_question_template": "{name_female_2, ジョーン}のおじさんは{num_ic, 73}枚の野球カードを持っています。{name_female_1, メアリー}は{name_female_2, ジョーン}より{num_text_1, 二}歳若く、{name_female_2, ジョーン}は{name_female_3, ジェサ}より{num_text_2, 五}歳年上です。{name_female_3, ジェサ}が{num_digit_1, 20}歳の場合、3人の年齢の合計は何歳ですか？",
+  "ic_sentence": "{name_female_2, ジョーン}のおじさんは{num_ic, 73}枚の野球カードを持っています。"
+}

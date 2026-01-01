@@ -1,0 +1,81 @@
+{
+  "original_question": "リーはかつて、ジェラルドが400メートルハードルを走るよりも、2秒速いスピードで400メートルハードルを走ることができた。だがジェラルドが彼の食事を変えて、スピードが10%改善した。もしもリーが400メートルハードルを38秒で走ることができたら、食事を改善したジェラルドは400メートルハードルを何秒で走ることができるか？",
+  "original_answer": 36,
+  "question_template": "{name_male_1, リー}はかつて、{name_male_2, ジェラルド}が{num_digit_1, 400}メートルハードルを走るよりも、{num_text_1, 二}秒速いスピードで{num_digit_1, 400}メートルハードルを走ることができた。だが{name_male_2, ジェラルド}が彼の食事を変えて、スピードが{num_digit_2, 10}%改善した。もしも{name_male_1, リー}が{num_digit_1, 400}メートルハードルを{num_digit_3, 38}秒で走ることができたら、食事を改善した{name_male_2, ジェラルド}は{num_digit_1, 400}メートルハードルを何秒で走ることができるか？",
+  "question_solution": "answer = (num_digit_3 + NUM(num_text_1)) * (1 - num_digit_2/100)",
+  "conditions": [
+    "int(answer) == (num_digit_3 + NUM(num_text_1)) * (1 - num_digit_2/100)",
+    "NUM(num_text_1) > 0",
+    "num_digit_2 >= 0",
+    "num_digit_2 < 100",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Lee",
+    "name_male_2": "Gerald"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      200,
+      110,
+      400,
+      800,
+      1500,
+      300,
+      100,
+      600,
+      150,
+      1200
+    ],
+    "num_text_1": [
+      "に (ni)",
+      "さん",
+      "四 (よん / yon)",
+      "ご",
+      "ろく",
+      "七 (しち / なな)",
+      "八",
+      "九 (きゅう / kyuu)",
+      "じゅう",
+      "十一"
+    ],
+    "num_digit_2": [
+      10,
+      20,
+      25,
+      12,
+      15,
+      18,
+      5,
+      30,
+      22,
+      8
+    ],
+    "num_digit_3": [
+      28,
+      32,
+      408,
+      45,
+      14,
+      93,
+      52,
+      31,
+      90,
+      14
+    ],
+    "answer": [
+      27,
+      28,
+      309,
+      44,
+      17,
+      82,
+      57,
+      28,
+      78,
+      23
+    ]
+  },
+  "ic_question_template": "{name_male_2, ジェラルド}のおばは最近{num_ic, 486}匹のカメを引き取りました。{name_male_1, リー}はかつて、{name_male_2, ジェラルド}が{num_digit_1, 400}メートルハードルを走るよりも、{num_text_1, 二}秒速いスピードで{num_digit_1, 400}メートルハードルを走ることができた。だが{name_male_2, ジェラルド}が彼の食事を変えて、スピードが{num_digit_2, 10}%改善した。もしも{name_male_1, リー}が{num_digit_1, 400}メートルハードルを{num_digit_3, 38}秒で走ることができたら、食事を改善した{name_male_2, ジェラルド}は{num_digit_1, 400}メートルハードルを何秒で走ることができるか？",
+  "ic_sentence": "{name_male_2, ジェラルド}のおばは最近{num_ic, 486}匹のカメを引き取りました。"
+}

@@ -1,0 +1,92 @@
+{
+  "original_question": "Plusieurs jouets sont disposés dans une chambre : 5 voitures rouges, 3 figurines et une poupée. La poupée coûte le prix des 3 figurines, et une voiture rouge coûte 4 $. Sachant qu'une figurine coûte 5 $, quelle est la valeur totale des jouets ?",
+  "original_answer": 50,
+  "question_template": "Plusieurs jouets sont disposés dans une chambre : {num_digit_1, 5} voitures rouges, {num_digit_2, 3} figurines et une poupée. La poupée coûte le prix des {num_digit_3, 3} figurines, et une voiture rouge coûte {num_digit_4, 4} $. Sachant qu'une figurine coûte {num_digit_5, 5} $, quelle est la valeur totale des jouets ?",
+  "question_solution": "answer = num_digit_1 * num_digit_4 + (num_digit_2 + num_digit_3) * num_digit_5",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_4 + (num_digit_2 + num_digit_3) * num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      17,
+      23,
+      31,
+      29,
+      41,
+      34,
+      47,
+      52,
+      63,
+      78
+    ],
+    "num_digit_2": [
+      13,
+      9,
+      17,
+      14,
+      22,
+      19,
+      25,
+      28,
+      32,
+      45
+    ],
+    "num_digit_3": [
+      6,
+      5,
+      8,
+      11,
+      9,
+      12,
+      14,
+      17,
+      21,
+      34
+    ],
+    "num_digit_4": [
+      11,
+      14,
+      9,
+      13,
+      18,
+      21,
+      17,
+      23,
+      29,
+      31
+    ],
+    "num_digit_5": [
+      8,
+      12,
+      15,
+      17,
+      16,
+      20,
+      19,
+      22,
+      25,
+      27
+    ],
+    "answer": [
+      339,
+      490,
+      654,
+      802,
+      1234,
+      1334,
+      1540,
+      2186,
+      3152,
+      4551
+    ]
+  },
+  "ic_question_template": "{name_male, Billy} a un cousin qui possède {num_ic, 31} ours en peluche. Plusieurs jouets sont disposés dans une chambre : {num_digit_1, 5} voitures rouges, {num_digit_2, 3} figurines et une poupée. La poupée coûte le prix des {num_digit_3, 3} figurines, et une voiture rouge coûte {num_digit_4, 4} $. Sachant qu'une figurine coûte {num_digit_5, 5} $, quelle est la valeur totale des jouets ?",
+  "ic_sentence": "{name_male, Billy} a un cousin qui possède {num_ic, 31} ours en peluche."
+}

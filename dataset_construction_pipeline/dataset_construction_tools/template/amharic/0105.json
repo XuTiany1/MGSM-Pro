@@ -1,0 +1,54 @@
+{
+  "original_question": "ኮዲ አሚር ከበላው በሦስት እጥፍ የሚበልጡ ኩኪዎችን ይበላል። አሚር 5 ኩኪዎችን ከበላ። ሁለቱም በአንድ ላይ ስንት ኩኪዎችን ይበላሉ?",
+  "original_answer": 20,
+  "question_template": "{name_male_1, ኮዲ} {name_male_2, አሚር} ከበላው በ{num_text_1, ሦስት} እጥፍ የሚበልጡ ኩኪዎችን ይበላል። {name_male_2, አሚር} {num_digit_1, 5} ኩኪዎችን ከበላ። ሁለቱም በአንድ ላይ ስንት ኩኪዎችን ይበላሉ?",
+  "question_solution": "answer = (3 + 1) * num_digit_1",
+  "conditions": [
+    "int(answer) == 4 * num_digit_1",
+    "num_digit_1 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Cody",
+    "name_male_2": "Amir"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      9,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37
+    ],
+    "answer": [
+      28,
+      36,
+      44,
+      52,
+      68,
+      76,
+      92,
+      116,
+      124,
+      148
+    ],
+    "num_ic": [
+      33,
+      81,
+      100,
+      32,
+      131,
+      255,
+      125,
+      291,
+      280,
+      369
+    ]
+  },
+  "ic_question_template": "{name_male_1, ኮዲ} {name_male_2, አሚር} ከበላው በ{num_text_1, ሦስት} እጥፍ የሚበልጡ ኩኪዎችን ይበላል። {name_male_2, አሚር} {num_digit_1, 5} ኩኪዎችን ከበላ። ሁለቱም በአንድ ላይ ስንት ኩኪዎችን ይበላሉ? {name_male_2, አሚር} አጎቱ ወደ ፓርቲ {num_ic, 20} ብራውኒ አመጣ።",
+  "ic_sentence": "{name_male_2, አሚር} አጎቱ ወደ ፓርቲ {num_ic, 20} ብራውኒ አመጣ።"
+}

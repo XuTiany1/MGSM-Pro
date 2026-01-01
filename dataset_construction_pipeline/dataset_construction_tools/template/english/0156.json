@@ -1,0 +1,104 @@
+{
+  "original_question": "The zookeeper feeds all the apes in the zoo. He orders all the bananas from a local farm every 2 months. If the monkeys need 200 bananas, the gorillas need 400 bananas, and the baboons need 100 bananas every month, how many bananas does he need to order to last for 2 months?",
+  "original_answer": 1400,
+  "question_template": "The zookeeper feeds all the apes in the zoo. He orders all the bananas from a local farm every {num_digit_1, 2} months. If the monkeys need {num_digit_2, 200} bananas, the gorillas need {num_digit_3, 400} bananas, and the baboons need {num_digit_4, 100} bananas every month, how many bananas does he need to order to last for {num_digit_5, 2} months?",
+  "question_solution": "answer = (num_digit_2 + num_digit_3 + num_digit_4) * num_digit_5",
+  "conditions": [
+    "answer == (num_digit_2 + num_digit_3 + num_digit_4) * num_digit_5",
+    "num_digit_1 == num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      15
+    ],
+    "num_digit_2": [
+      250,
+      180,
+      125,
+      300,
+      350,
+      275,
+      160,
+      210,
+      190,
+      225
+    ],
+    "num_digit_3": [
+      500,
+      420,
+      375,
+      450,
+      650,
+      425,
+      340,
+      390,
+      310,
+      375
+    ],
+    "num_digit_4": [
+      150,
+      200,
+      50,
+      250,
+      100,
+      175,
+      180,
+      210,
+      190,
+      225
+    ],
+    "num_digit_5": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      15
+    ],
+    "answer": [
+      2700,
+      3200,
+      2750,
+      6000,
+      7700,
+      7000,
+      6120,
+      8100,
+      8280,
+      12375
+    ],
+    "num_ic": [
+      17,
+      74,
+      6,
+      109,
+      53,
+      81,
+      89,
+      92,
+      99,
+      141
+    ]
+  },
+  "ic_question_template": "The zookeeper feeds all the apes in the zoo. He orders all the bananas from a local farm every {num_digit_1, 2} months. The zookeeper's niece has {num_ic, 13} parrots at home. If the monkeys need {num_digit_2, 200} bananas, the gorillas need {num_digit_3, 400} bananas, and the baboons need {num_digit_4, 100} bananas every month, how many bananas does he need to order to last for {num_digit_5, 2} months?",
+  "ic_sentence": "The zookeeper's niece has {num_ic, 13} parrots at home."
+}

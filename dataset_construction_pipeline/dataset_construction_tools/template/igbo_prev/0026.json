@@ -1,0 +1,118 @@
+{
+  "original_question": "Mishka zụtara nịka otu ụzọ atọ, otu ụzọ ọbante atọ, na otu ụzọ akpụkpọ ụkwụ atọ. Otu otu ụzọ nịka na-efu $16 50. Otu ụzọ ọbante na-efu $22.50 na otu ụzọ akpụkpọ ụkwụ na-efu $42. Ego dọla ole ka Mishka mefuru n'izu ákwà ndị ahụ? ",
+  "original_answer": 243,
+  "question_template": "{name_female, Mishka} zụtara nịka {num_digit_1, 3}, ọbante {num_digit_2, 3}, na akpụkpọ ụkwụ {num_digit_3, 3}. Otu nịka na-efu ${num_digit_4, 16.50}. Otu ọbante na-efu ${num_digit_5, 22.50} na otu akpụkpọ ụkwụ na-efu ${num_digit_6, 42}. Ego dọla ole ka {name_female, Mishka} mefuru n'izu ákwà ndị ahụ?",
+  "question_solution": "answer = num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5 + num_digit_3 * num_digit_6",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_4 + num_digit_2 * num_digit_5 + num_digit_3 * num_digit_6",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Mishka"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_2": [
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37
+    ],
+    "num_digit_3": [
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31
+    ],
+    "num_digit_4": [
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "num_digit_5": [
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59
+    ],
+    "num_digit_6": [
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "answer": [
+      283,
+      515,
+      835,
+      1303,
+      1751,
+      2361,
+      3071,
+      3915,
+      5093,
+      6247
+    ],
+    "num_ic": [
+      31,
+      142,
+      236,
+      501,
+      373,
+      85,
+      197,
+      417,
+      239,
+      602
+    ]
+  },
+  "ic_question_template": "nwanne nne {name_female, Mishka} zụtara {num_ic, 12} okpu na nso nso a. {name_female, Mishka} zụtara nịka {num_digit_1, 3}, ọbante {num_digit_2, 3}, na akpụkpọ ụkwụ {num_digit_3, 3}. Otu nịka na-efu ${num_digit_4, 16.50}. Otu ọbante na-efu ${num_digit_5, 22.50} na otu akpụkpọ ụkwụ na-efu ${num_digit_6, 42}. Ego dọla ole ka {name_female, Mishka} mefuru n'izu ákwà ndị ahụ?",
+  "ic_sentence": "nwanne nne {name_female, Mishka} zụtara {num_ic, 12} okpu na nso nso a."
+}

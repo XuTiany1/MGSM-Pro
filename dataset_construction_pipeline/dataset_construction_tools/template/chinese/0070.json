@@ -1,0 +1,93 @@
+{
+  "original_question": "朱迪每天和周末教授 5 节舞蹈课，周六教授 8 节舞蹈课。如果每节课有 15 个学生，而她对每个学生收取 15.00 美元的学费，则她一周能赚多少钱？",
+  "original_answer": 7425,
+  "question_template": "{name_female, 朱迪} 每天（周一到周五）教授 {num_digit_1, 5} 节舞蹈课，周六教授 {num_digit_2, 8} 节课。如果每节课有 {num_digit_3, 15} 个学生，并且她对每个学生收取 {num_digit_4, 15.00} 美元的学费，那么她在 {num_digit_5, 1} 周内能赚多少钱？",
+  "question_solution": "answer = (num_digit_1 * 5 + num_digit_2) * num_digit_3 * num_digit_4 * num_digit_5",
+  "conditions": [
+    "int(answer) == (num_digit_1 * 5 + num_digit_2) * num_digit_3 * num_digit_4 * num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Judy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      6,
+      4,
+      7,
+      8,
+      5,
+      10,
+      12,
+      9,
+      11
+    ],
+    "num_digit_2": [
+      8,
+      5,
+      10,
+      12,
+      7,
+      4,
+      15,
+      9,
+      14,
+      6
+    ],
+    "num_digit_3": [
+      15,
+      20,
+      12,
+      16,
+      10,
+      25,
+      18,
+      30,
+      22,
+      14
+    ],
+    "num_digit_4": [
+      15,
+      12,
+      20,
+      10,
+      18,
+      22,
+      16,
+      25,
+      14,
+      30
+    ],
+    "num_digit_5": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answer": [
+      5175,
+      16800,
+      21600,
+      30080,
+      42300,
+      95700,
+      131040,
+      414000,
+      163548,
+      256200
+    ]
+  },
+  "ic_question_template": "{name_female, 朱迪} 的叔叔每个月买 {num_ic, 47} 双舞鞋。{name_female, 朱迪} 每天（周一到周五）教授 {num_digit_1, 5} 节舞蹈课，周六教授 {num_digit_2, 8} 节课。如果每节课有 {num_digit_3, 15} 个学生，并且她对每个学生收取 {num_digit_4, 15.00} 美元的学费，那么她在 {num_digit_5, 1} 周内能赚多少钱？",
+  "ic_sentence": "{name_female, 朱迪} 的叔叔每个月买 {num_ic, 47} 双舞鞋。"
+}

@@ -1,0 +1,82 @@
+{
+  "original_question": "Le sac de bonbons d'Halloween de Joe contient 25 barres de chocolat et 80 pommes confites. Chaque barre de chocolat pèse deux fois plus qu'une pomme confite. Si la barre de chocolat pèse 40 g, quel est le poids, en grammes, du sac de bonbons de Joe ?",
+  "original_answer": 2600,
+  "question_template": "Le sac de bonbons d'Halloween de {name_male, Joe} contient {num_digit_1, 25} barres de chocolat et {num_digit_2, 80} pommes confites. Chaque barre de chocolat pèse {num_text_1, deux fois} plus qu'une pomme confite. Si la barre de chocolat pèse {num_digit_3, 40} g, quel est le poids, en grammes, du sac de bonbons de {name_male, Joe} ?",
+  "question_solution": "answer = num_digit_1 * num_digit_3 + num_digit_2 * (num_digit_3 / f1)   # f1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_3 + num_digit_2 * (num_digit_3 / f1)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "f1 > 0",
+    "num_digit_3 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Joe"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      116,
+      53,
+      50,
+      135,
+      66,
+      106,
+      189,
+      70,
+      175,
+      191
+    ],
+    "num_digit_2": [
+      131,
+      147,
+      413,
+      224,
+      197,
+      222,
+      329,
+      263,
+      155,
+      249
+    ],
+    "num_text_1": [
+      "un et demi",
+      "deux et un tiers",
+      "trois quarts",
+      "quatre cinquièmes",
+      "cinq sixièmes",
+      "sept huitièmes",
+      "neuf dixièmes",
+      "onze douzièmes",
+      "treize quatorzièmes",
+      "dix-sept dix-huitièmes"
+    ],
+    "num_digit_3": [
+      54,
+      91,
+      48,
+      44,
+      95,
+      35,
+      27,
+      187,
+      130,
+      68
+    ],
+    "answer": [
+      10980,
+      10556,
+      28832,
+      18260,
+      28728,
+      12590,
+      14973,
+      66742,
+      44450,
+      30916
+    ]
+  },
+  "ic_question_template": "{name_male, Joe} a un oncle qui a acheté {num_ic, 112} sucettes pour une fête. Le sac de bonbons d'Halloween de {name_male, Joe} contient {num_digit_1, 25} barres de chocolat et {num_digit_2, 80} pommes confites. Chaque barre de chocolat pèse {num_text_1, deux fois} plus qu'une pomme confite. Si la barre de chocolat pèse {num_digit_3, 40} g, quel est le poids, en grammes, du sac de bonbons de {name_male, Joe} ?",
+  "ic_sentence": "{name_male, Joe} a un oncle qui a acheté {num_ic, 112} sucettes pour une fête."
+}

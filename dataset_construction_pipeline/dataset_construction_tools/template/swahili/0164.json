@@ -1,0 +1,81 @@
+{
+  "original_question": "Jackie anajaribu kuamua kama atajifanyia ushuru wake yeye mwenyewe au amtafute mhasibu. Akijifanyia ushuru yeye mwenyewe, ataweza kufanya saa 3 chache za kazi yake ya huria, na kupoteza mapato ya $35 kila saa. Mhasibu anamtoza $90. Ataokoa pesa ngapi iwapo atampa mhasibu kazi hiyo?",
+  "original_answer": 15,
+  "question_template": "{name_female, Jackie} anajaribu kuamua kama atafanya hesabu zake za kodi mwenyewe au aajiri mhasibu. Ikiwa atafanya mwenyewe, hatakuwa na saa {num_digit_1, 3} za kazi za kujitegemea, akipoteza ${num_digit_2, 35} kwa saa katika mapato. Mhasibu anatoza ${num_digit_3, 90}. Atakuwa na pesa ngapi zaidi ikiwa ataajiri mhasibu?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 - num_digit_3",
+  "conditions": [
+    "answer == num_digit_1 * num_digit_2 - num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "answer > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Jackie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      13,
+      27,
+      32,
+      45,
+      58,
+      63,
+      74,
+      81,
+      96,
+      100
+    ],
+    "num_digit_2": [
+      57,
+      64,
+      72,
+      81,
+      93,
+      104,
+      117,
+      128,
+      139,
+      150
+    ],
+    "num_digit_3": [
+      345,
+      789,
+      1234,
+      1573,
+      2345,
+      2876,
+      3456,
+      4123,
+      4789,
+      5321
+    ],
+    "answer": [
+      396,
+      939,
+      1070,
+      2072,
+      3049,
+      3676,
+      5202,
+      6245,
+      8555,
+      9679
+    ],
+    "num_ic": [
+      22,
+      184,
+      147,
+      407,
+      393,
+      469,
+      713,
+      543,
+      870,
+      962
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_female, Jackie} alinunua vitabu vya kodi {num_ic, 97} hivi karibuni. {name_female, Jackie} anajaribu kuamua kama atafanya hesabu zake za kodi mwenyewe au aajiri mhasibu. Ikiwa atafanya mwenyewe, hatakuwa na saa {num_digit_1, 3} za kazi za kujitegemea, akipoteza ${num_digit_2, 35} kwa saa katika mapato. Mhasibu anatoza ${num_digit_3, 90}. Atakuwa na pesa ngapi zaidi ikiwa ataajiri mhasibu?",
+  "ic_sentence": "Mjomba wa {name_female, Jackie} alinunua vitabu vya kodi {num_ic, 97} hivi karibuni."
+}

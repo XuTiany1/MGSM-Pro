@@ -1,0 +1,115 @@
+{
+  "original_question": "Dave tɔɔ french fries bebree, na odii du enan ansa na mpoano anomaa a ekɔm de no wiaa no fii ne nsem. Bere a mpoano anomaa no sii fam no, na ɔde n'ani kyerɛɛ soro faako a Dave didii emu fa. Afei aborɔnoma besee hyɛɛ no ma ɔtwee no fii aduan no ho, na aborɔnoma no mu biara dii aduane no mu mmiensa. Akyi no, raccoon wia nkyɛmu mmiensa mmienu a aka no. Ntɛtea faa french fry a etwa etoɔ no, na wogya enum no wɔ hɔ. Bere a Dave tɔɔ no, french fries ahe na na ɛwɔ adaka no mu?",
+  "original_answer": 48,
+  "question_template": "{name_male, Dave} tɔɔ french fries bebree, na odii {num_text_1, du enan} ansa na mpoano anomaa a ekɔm de no wiaa no fii ne nsem. Bere a mpoano anomaa no sii fam no, na ɔde n'ani kyerɛɛ soro faako a {name_male, Dave} didii emu {num_frac_1, fa}. Afei aborɔnoma {num_text_2, mmiensa} hyɛɛ no ma ɔtwee no fii aduan no ho, na aborɔnoma no mu biara dii aduane no mu {num_text_3, mmiensa}. Akyi no, raccoon wia nkyɛmu {num_frac_2, mmiensa mmienu} a aka no. Ntɛtea faa french fry a etwa etoɔ no, na wogya {num_text_4, enum} no wɔ hɔ. Bere a {name_male, Dave} tɔɔ no, french fries ahe na na ɛwɔ adaka no mu?",
+  "question_solution": "answer = num_text_1_val + num_frac_1_val * num_text_1_val + (num_text_2_val * num_text_3_val) + (num_text_4_val + 1) / (1 - num_frac_2_val)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_text_1_val + num_frac_1_val * num_text_1_val + (num_text_2_val * num_text_3_val) + (num_text_4_val + 1) / (1 - num_frac_2_val)",
+    "num_frac_1_val > 0",
+    "0 < num_frac_2_val < 1"
+  ],
+  "variable_word_list": {
+    "name_male": "Dave"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "dunananan",
+      "dunan",
+      "aduonu",
+      "aduɔson-num",
+      "du-nsia",
+      "duɔwɔtwe",
+      "aduonu",
+      "aduasa",
+      "aduɔnan nan",
+      "aduɔson-num"
+    ],
+    "num_frac_1": [
+      "faako",
+      "baako mu mmiɛnsa",
+      "faako mu nan",
+      "baako mu enum",
+      "faako",
+      "baako mu mmiɛnsa",
+      "anan-nan mu mmiɛnsa",
+      "faako",
+      "faako mu nan",
+      "baako mu enum"
+    ],
+    "num_text_2": [
+      "mmiɛnsa",
+      "ɛnān",
+      "ɛnān",
+      "mmiɛnsa",
+      "mienu",
+      "mienu",
+      "ɛnān",
+      "anum",
+      "mmiɛnsa",
+      "mmiɛnsa"
+    ],
+    "num_text_3": [
+      "mmiɛnsa",
+      "mienu",
+      "mmiɛnsa",
+      "mmiɛnsa",
+      "mmiɛnsa",
+      "mienu",
+      "mmiɛnsa",
+      "mienu",
+      "ɛnān",
+      "mmiɛnsa"
+    ],
+    "num_frac_2": [
+      "mparte abien mu baako",
+      "anan-nan mu mmiɛnsa",
+      "anɔnum nan",
+      "anum so asia",
+      "faako",
+      "mʋnum mmiɛnsa",
+      "anan nkron",
+      "anan-nan mu mmiɛnsa",
+      "faako",
+      "baako mu mmiɛnsa"
+    ],
+    "num_text_4": [
+      "anum",
+      "Nson",
+      "nkron",
+      "anum",
+      "Nson",
+      "anum",
+      "duakoɔ baako",
+      "duakoɔ baako",
+      "Nson",
+      "anum"
+    ],
+    "answer": [
+      48,
+      56,
+      87,
+      75,
+      46,
+      43,
+      87,
+      103,
+      58,
+      48
+    ],
+    "num_ic": [
+      38,
+      80,
+      49,
+      61,
+      72,
+      49,
+      72,
+      53,
+      93,
+      99
+    ]
+  },
+  "ic_question_template": "{name_male, Dave} nanabarima no de ketchup nkotoku {num_ic, 100} baa anigyie nhyiemu no. {name_male, Dave} tɔɔ french fries bebree, na odii {num_text_1, du enan} ansa na mpoano anomaa a ekɔm de no wiaa no fii ne nsem. Bere a mpoano anomaa no sii fam no, na ɔde n'ani kyerɛɛ soro faako a {name_male, Dave} didii emu {num_frac_1, fa}. Afei aborɔnoma {num_text_2, mmiensa} hyɛɛ no ma ɔtwee no fii aduan no ho, na aborɔnoma no mu biara dii aduane no mu {num_text_3, mmiensa}. Akyi no, raccoon wia nkyɛmu {num_frac_2, mmiensa mmienu} a aka no. Ntɛtea faa french fry a etwa etoɔ no, na wogya {num_text_4, enum} no wɔ hɔ. Bere a {name_male, Dave} tɔɔ no, french fries ahe na na ɛwɔ adaka no mu?",
+  "ic_sentence": "{name_male, Dave} nanabarima no de ketchup nkotoku {num_ic, 100} baa anigyie nhyiemu no."
+}

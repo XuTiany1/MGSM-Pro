@@ -1,0 +1,94 @@
+{
+  "original_question": "Ó gba Carmen ní ìṣẹ́jú mẹ́wàá láti parí ìṣòro crossword àti ìṣẹ́jú márùn-ún láti parí ìṣòro sudoku.  Ní òpin ọ̀sẹ̀ ó yanjú àwọn ìṣòro crossword mẹ́ta àti ìṣòro sudoku mẹ́jọ. Àsìkò mélòó ni ó lò láti gbá àwọn eré yìí?",
+  "original_answer": 70,
+  "question_template": "Ó gba {name_female, Carmen} ní ìṣẹ́jú {num_digit_1, 10} láti parí ìṣòro crossword àti ìṣẹ́jú {num_digit_2, 5} láti parí ìṣòro sudoku. Ní òpin ọ̀sẹ̀ ó yanjú àwọn ìṣòro crossword {num_digit_3, 3} àti ìṣòro sudoku {num_digit_4, 8}. Àsìkò mélòó ni ó lò láti gbá àwọn eré yìí?",
+  "question_solution": "answer = num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Carmen"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      17,
+      23,
+      37,
+      42,
+      55,
+      61,
+      79,
+      88,
+      94,
+      101
+    ],
+    "num_digit_2": [
+      13,
+      29,
+      31,
+      47,
+      53,
+      67,
+      72,
+      84,
+      91,
+      100
+    ],
+    "num_digit_3": [
+      12,
+      17,
+      23,
+      29,
+      31,
+      37,
+      41,
+      44,
+      48,
+      50
+    ],
+    "num_digit_4": [
+      18,
+      22,
+      27,
+      33,
+      38,
+      42,
+      49,
+      51,
+      54,
+      60
+    ],
+    "answer": [
+      438,
+      1029,
+      1688,
+      2769,
+      3719,
+      5071,
+      6767,
+      8156,
+      9426,
+      11050
+    ],
+    "num_ic": [
+      33,
+      217,
+      337,
+      59,
+      266,
+      32,
+      280,
+      133,
+      186,
+      919
+    ]
+  },
+  "ic_question_template": "Bàbá ńlá {name_female, Carmen} sè kọ́kì {num_ic, 46} ní ọjọ́ Sátidé. Ó gba {name_female, Carmen} ní ìṣẹ́jú {num_digit_1, 10} láti parí ìṣòro crossword àti ìṣẹ́jú {num_digit_2, 5} láti parí ìṣòro sudoku. Ní òpin ọ̀sẹ̀ ó yanjú àwọn ìṣòro crossword {num_digit_3, 3} àti ìṣòro sudoku {num_digit_4, 8}. Àsìkò mélòó ni ó lò láti gbá àwọn eré yìí?",
+  "ic_sentence": "Bàbá ńlá {name_female, Carmen} sè kọ́kì {num_ic, 46} ní ọjọ́ Sátidé."
+}

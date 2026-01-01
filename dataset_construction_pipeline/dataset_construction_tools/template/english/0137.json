@@ -1,0 +1,145 @@
+{
+  "original_question": "Rory orders 2 subs for $7.50 each, 2 bags of chips for $1.50 each and 2 cookies for $1.00 each for delivery. There’s a 20% delivery fee added at check out and she wants to add a $5.00 tip. What will her delivery order cost?",
+  "original_answer": 29,
+  "question_template": "{name_male, Rory} orders {num_digit_1, 2} subs for ${num_digit_2, 7.50} each, {num_digit_3, 2} bags of chips for ${num_digit_4, 1.50} each and {num_digit_5, 2} cookies for ${num_digit_6, 1.00} each for delivery. There’s a {num_digit_7, 20}% delivery fee added at check-out and she wants to add a ${num_digit_8, 5.00} tip. What will her delivery order cost?",
+  "question_solution": "answer = (num_digit_1 * num_digit_2 + num_digit_3 * num_digit_4 + num_digit_5 * num_digit_6) * (1 + num_digit_7 / 100) + num_digit_8",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 * num_digit_2 + num_digit_3 * num_digit_4 + num_digit_5 * num_digit_6) * (1 + num_digit_7 / 100) + num_digit_8",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "num_digit_6 > 0",
+    "num_digit_7 > 0",
+    "num_digit_8 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Rory"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      2,
+      9,
+      9,
+      7,
+      3,
+      8,
+      4,
+      3,
+      1,
+      7
+    ],
+    "num_digit_2": [
+      7,
+      8,
+      8,
+      8,
+      9,
+      6,
+      11,
+      11,
+      11,
+      7
+    ],
+    "num_digit_3": [
+      5,
+      6,
+      5,
+      4,
+      4,
+      1,
+      4,
+      5,
+      3,
+      5
+    ],
+    "num_digit_4": [
+      2,
+      1,
+      2,
+      4,
+      1,
+      4,
+      4,
+      4,
+      3,
+      1
+    ],
+    "num_digit_5": [
+      2,
+      5,
+      2,
+      6,
+      1,
+      6,
+      1,
+      5,
+      4,
+      6
+    ],
+    "num_digit_6": [
+      1,
+      2,
+      3,
+      3,
+      1,
+      2,
+      2,
+      3,
+      1,
+      1
+    ],
+    "num_digit_7": [
+      50,
+      50,
+      25,
+      30,
+      50,
+      25,
+      50,
+      50,
+      50,
+      10
+    ],
+    "num_digit_8": [
+      8,
+      8,
+      10,
+      10,
+      9,
+      10,
+      9,
+      4,
+      10,
+      7
+    ],
+    "answer": [
+      47,
+      140,
+      120,
+      127,
+      57,
+      90,
+      102,
+      106,
+      46,
+      73
+    ],
+    "num_ic": [
+      10,
+      49,
+      29,
+      27,
+      14,
+      64,
+      30,
+      11,
+      65,
+      20
+    ]
+  },
+  "ic_question_template": "{name_male, Rory} orders {num_digit_1, 2} subs for ${num_digit_2, 7.50} each, {num_digit_3, 2} bags of chips for ${num_digit_4, 1.50} each and {num_digit_5, 2} cookies for ${num_digit_6, 1.00} each for delivery. There’s a {num_digit_7, 20}% delivery fee added at check-out and she wants to add a ${num_digit_8, 5.00} tip. {name_male, Rory}'s aunt orders {num_ic, 19} salads every Friday. What will her delivery order cost?",
+  "ic_sentence": "{name_male, Rory}'s aunt orders {num_ic, 19} salads every Friday."
+}

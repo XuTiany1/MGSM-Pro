@@ -1,0 +1,105 @@
+{
+  "original_question": "Wɔ ɛdwoda no, Sue dii krakase mpɛn enan sen ne nuabaa no. Wɔ ɛbenada nso, odii krakase mpɛn mmienu sen ne nuabaa no. Ne nuabaa no dii krakase enum wɔ ɛdwoda, na ade kyee no, odii krakase du mmiensa. Sɛ krakase baako wɔ sradie 200 a, sradie dodoɔ ahe na Sue dii sen ne nuabaa no?",
+  "original_answer": 5600,
+  "question_template": " Wɔ ɛdwoda no, {name_female, Sue} dii krakase mpɛn {num_digit_1, enan} sen ne nuabaa no. Wɔ ɛbenada nso, odii krakase mpɛn {num_text_1, mmienu} sen ne nuabaa no. Ne nuabaa no dii krakase {num_digit_2, enum} wɔ ɛdwoda, na ade kyee no, odii krakase {num_digit_3, du mmiensa}. Sɛ krakase {num_digit_4, baako} wɔ sradie {num_digit_5, 200} a, sradie dodoɔ ahe na {name_female, Sue} dii sen ne nuabaa no?",
+  "question_solution": "answer = ((num_digit_1 * num_digit_2 + 2 * num_digit_3) - (num_digit_2 + num_digit_3)) * num_digit_5",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == ((num_digit_1 * num_digit_2 + 2 * num_digit_3) - (num_digit_2 + num_digit_3)) * num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      15
+    ],
+    "num_digit_2": [
+      3,
+      5,
+      8,
+      12,
+      15,
+      16,
+      18,
+      20,
+      22,
+      25
+    ],
+    "num_digit_3": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_4": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "num_digit_5": [
+      180,
+      190,
+      205,
+      210,
+      235,
+      250,
+      265,
+      275,
+      300,
+      325
+    ],
+    "answer": [
+      2340,
+      4940,
+      9225,
+      16170,
+      25615,
+      33750,
+      45845,
+      58025,
+      83700,
+      127075
+    ],
+    "num_ic": [
+      10,
+      53,
+      13,
+      81,
+      25,
+      143,
+      121,
+      77,
+      111,
+      246
+    ]
+  },
+  "ic_question_template": "{name_female, Sue} wɔfa de pie {num_ic, 15} baa wɔn fie. Wɔ ɛdwoda no, {name_female, Sue} dii krakase mpɛn {num_digit_1, enan} sen ne nuabaa no. Wɔ ɛbenada nso, odii krakase mpɛn {num_text_1, mmienu} sen ne nuabaa no. Ne nuabaa no dii krakase {num_digit_2, enum} wɔ ɛdwoda, na ade kyee no, odii krakase {num_digit_3, du mmiensa}. Sɛ krakase {num_digit_4, baako} wɔ sradie {num_digit_5, 200} a, sradie dodoɔ ahe na {name_female, Sue} dii sen ne nuabaa no?",
+  "ic_sentence": "{name_female, Sue} wɔfa de pie {num_ic, 15} baa wɔn fie."
+}

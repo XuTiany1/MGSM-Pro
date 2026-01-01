@@ -1,0 +1,93 @@
+{
+  "original_question": "Odwadini bi tɔ hwiiti nkotokuo bi fi okuani bi hɔ wɔ $20 kotokuo biara ho. Sɛ ɛka no $2 sɛ wɔde kotokuo biara fi afum no mu kɔ adetɔnbea hɔ, na odwadini no nyaa mfasoɔ $400 bere a ɔtɔn kotokuo no nyinaa wɔ $30 kotoku0 biara bo mu no a, kotoku0 dodoɔ ahe na ɔtɔn yɛ?",
+  "original_answer": 50,
+  "question_template": "Odwadini bi tɔ hwiiti nkotokuo bi fi okuani bi hɔ wɔ ${num_digit_1, 20} kotokuo biara ho. Sɛ ɛka no ${num_digit_2, 2} sɛ wɔde kotokuo biara fi afum no mu kɔ adetɔnbea hɔ, na odwadini no nyaa mfasoɔ ${num_digit_3, 400} bere a ɔtɔn kotokuo no nyinaa wɔ ${num_digit_4, 30} kotokuo biara bo mu no a, kotokuo dodoɔ ahe na ɔtɔn yɛ?",
+  "question_solution": "answer = num_digit_3 / (num_digit_4 - num_digit_1 - num_digit_2)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_3 / (num_digit_4 - num_digit_1 - num_digit_2)",
+    "num_digit_4 - num_digit_1 - num_digit_2 > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      18,
+      22,
+      17,
+      15,
+      25,
+      30,
+      50,
+      12,
+      13,
+      17
+    ],
+    "num_digit_2": [
+      3,
+      4,
+      2,
+      5,
+      6,
+      10,
+      5,
+      3,
+      7,
+      8
+    ],
+    "num_digit_3": [
+      588,
+      1083,
+      806,
+      660,
+      1682,
+      805,
+      3015,
+      1440,
+      984,
+      539
+    ],
+    "num_digit_4": [
+      35,
+      45,
+      50,
+      40,
+      60,
+      75,
+      100,
+      25,
+      28,
+      32
+    ],
+    "answer": [
+      42,
+      57,
+      26,
+      33,
+      58,
+      23,
+      67,
+      144,
+      123,
+      77
+    ],
+    "num_ic": [
+      24,
+      174,
+      16,
+      56,
+      46,
+      131,
+      319,
+      49,
+      188,
+      89
+    ]
+  },
+  "ic_question_template": "Ɔdeɛyɛfo no nua wɔ apple dua {num_ic, 80} wɔ n'asaase so. Odwadini bi tɔ hwiiti nkotokuo bi fi okuani bi hɔ wɔ ${num_digit_1, 20} kotokuo biara ho. Sɛ ɛka no ${num_digit_2, 2} sɛ wɔde kotokuo biara fi afum no mu kɔ adetɔnbea hɔ, na odwadini no nyaa mfasoɔ ${num_digit_3, 400} bere a ɔtɔn kotokuo no nyinaa wɔ ${num_digit_4, 30} kotokuo biara bo mu no a, kotokuo dodoɔ ahe na ɔtɔn yɛ?",
+  "ic_sentence": "Ɔdeɛyɛfo no nua wɔ apple dua {num_ic, 80} wɔ n'asaase so."
+}

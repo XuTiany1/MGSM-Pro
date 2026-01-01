@@ -1,0 +1,67 @@
+{
+  "original_question": "Il y a 36 pingouins qui prennent un bain de soleil dans la neige. Un tiers d'entre eux plongent et nagent dans l'océan. Un autre tiers va à l'intérieur de la grotte pour y manger son dîner. Combien de pingouins continuent à prendre le bain de soleil ?",
+  "original_answer": 12,
+  "question_template": "Il y a {num_digit_1, 36} pingouins qui prennent un bain de soleil dans la neige. {num_frac_1, Un tiers} d'entre eux plongent et nagent dans l'océan. Un autre {num_frac_2, tiers} va à l'intérieur de la grotte pour y manger son dîner. Combien de pingouins continuent à prendre le bain de soleil ?",
+  "question_solution": "answer = num_digit_1 * (1 - f1 - f2)   # f1 and f2 are the numeric values of num_frac_1 and num_frac_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 - f1 - f2)",
+    "num_digit_1 > 0",
+    "0 < f1 < 1",
+    "0 < f2 < 1",
+    "f1 + f2 < 1",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      840,
+      560,
+      420,
+      1680,
+      980,
+      630,
+      770,
+      1120,
+      672,
+      384
+    ],
+    "num_frac_1": [
+      "un cinquième",
+      "deux-septièmes",
+      "trois dixièmes",
+      "deux huitièmes",
+      "un demi",
+      "trois septièmes",
+      "un septième",
+      "trois-septièmes",
+      "un sixième",
+      "cinq douzièmes"
+    ],
+    "num_frac_2": [
+      "un septième",
+      "un huitième",
+      "un sixième",
+      "trois dixièmes",
+      "un cinquième",
+      "un neuvième",
+      "trois cinquièmes",
+      "deux huitièmes",
+      "trois-septièmes",
+      "un huitième"
+    ],
+    "answer": [
+      552,
+      330,
+      224,
+      756,
+      294,
+      290,
+      198,
+      360,
+      272,
+      176
+    ]
+  },
+  "ic_question_template": "L'un des oncles des manchots a récemment aperçu {num_ic, 57} phoques en train de se prélasser à proximité. Il y a {num_digit_1, 36} pingouins qui prennent un bain de soleil dans la neige. {num_frac_1, Un tiers} d'entre eux plongent et nagent dans l'océan. Un autre {num_frac_2, tiers} va à l'intérieur de la grotte pour y manger son dîner. Combien de pingouins continuent à prendre le bain de soleil ?",
+  "ic_sentence": "L'un des oncles des manchots a récemment aperçu {num_ic, 57} phoques en train de se prélasser à proximité."
+}

@@ -1,0 +1,85 @@
+{
+  "original_question": "Le sac d'Uriah devient trop lourd pour lui. Il doit réduire son poids de 15 livres. Chacune de ses bandes dessinées pèse 1/4 de livre et chacun de ses jouets 1/2 livre. S'il enlève 30 bandes dessinées, combien lui faudra-t-il enlever de jouets ?",
+  "original_answer": 15,
+  "question_template": "Le sac de {name_male, Uriah} devient trop lourd pour lui. Il doit réduire son poids de {num_digit_1, 15} livres. Chacune de ses bandes dessinées pèse {num_frac_1, 1/4} de livre et chacun de ses jouets {num_frac_2, 1/2} livre. S'il enlève {num_digit_2, 30} bandes dessinées, combien lui faudra-t-il enlever de jouets ?",
+  "question_solution": "answer = (num_digit_1 - num_digit_2 * NUM(num_frac_1)) / NUM(num_frac_2)",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_digit_2 * NUM(num_frac_1)) / NUM(num_frac_2)",
+    "(num_digit_2 * NUM(num_frac_1)).is_integer()",
+    "((num_digit_1 - num_digit_2 * NUM(num_frac_1)) / NUM(num_frac_2)).is_integer()",
+    "num_digit_1 > num_digit_2 * NUM(num_frac_1)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1",
+    "NUM(num_frac_2) > 0",
+    "NUM(num_frac_2) < 1"
+  ],
+  "variable_word_list": {
+    "name_male": "Uriah"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15,
+      22,
+      30,
+      24,
+      28,
+      26,
+      19,
+      60,
+      36,
+      50
+    ],
+    "num_frac_1": [
+      "1/4",
+      "3/5",
+      "2/5",
+      "3/8",
+      "1/7",
+      "2/3",
+      "3/10",
+      "3/10",
+      "5/6",
+      "1/2"
+    ],
+    "num_frac_2": [
+      "1/2",
+      "1/3",
+      "2/5",
+      "3/4",
+      "1/5",
+      "1/4",
+      "2/5",
+      "2/3",
+      "1/2",
+      "2/5"
+    ],
+    "num_digit_2": [
+      30,
+      15,
+      25,
+      16,
+      21,
+      9,
+      10,
+      20,
+      12,
+      20
+    ],
+    "answer": [
+      15,
+      39,
+      50,
+      24,
+      125,
+      80,
+      40,
+      81,
+      52,
+      100
+    ]
+  },
+  "ic_question_template": "{name_male, Uriah} a une tante qui a trouvé {num_ic, 91} billes dans son grenier. Le sac de {name_male, Uriah} devient trop lourd pour lui. Il doit réduire son poids de {num_digit_1, 15} livres. Chacune de ses bandes dessinées pèse {num_frac_1, 1/4} de livre et chacun de ses jouets {num_frac_2, 1/2} livre. S'il enlève {num_digit_2, 30} bandes dessinées, combien lui faudra-t-il enlever de jouets ?",
+  "ic_sentence": "{name_male, Uriah} a une tante qui a trouvé {num_ic, 91} billes dans son grenier."
+}

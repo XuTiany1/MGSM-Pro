@@ -1,0 +1,69 @@
+{
+  "original_question": "Jackie se demande si elle doit faire ses déclarations d'impôts elle-même ou engager un comptable. En le faisant elle-même, elle pourra faire 3 heures de freelance en moins, ce qui représente un manque à gagner de 35 $ par heure. Le comptable lui demande 90 $. Combien d'argent aura-t-elle en plus si elle l'engage ?",
+  "original_answer": 15,
+  "question_template": "{name_female, Jackie} se demande si elle doit faire ses déclarations d'impôts elle-même ou engager un comptable. En le faisant elle-même, elle pourra faire {num_digit_1, 3} heures de freelance en moins, ce qui représente un manque à gagner de {num_digit_2, 35} $ par heure. Le comptable lui demande {num_digit_3, 90} $. Combien d'argent aura-t-elle en plus si elle l'engage ?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 - num_digit_3",
+  "conditions": [
+    "answer == num_digit_1 * num_digit_2 - num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "answer > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Jackie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      13,
+      27,
+      32,
+      45,
+      58,
+      63,
+      74,
+      81,
+      96,
+      100
+    ],
+    "num_digit_2": [
+      57,
+      64,
+      72,
+      81,
+      93,
+      104,
+      117,
+      128,
+      139,
+      150
+    ],
+    "num_digit_3": [
+      345,
+      789,
+      1234,
+      1573,
+      2345,
+      2876,
+      3456,
+      4123,
+      4789,
+      5321
+    ],
+    "answer": [
+      396,
+      939,
+      1070,
+      2072,
+      3049,
+      3676,
+      5202,
+      6245,
+      8555,
+      9679
+    ]
+  },
+  "ic_question_template": "{name_female, Jackie} a un oncle qui a récemment acheté {num_ic, 97} livres de fiscalité. {name_female, Jackie} se demande si elle doit faire ses déclarations d'impôts elle-même ou engager un comptable. En le faisant elle-même, elle pourra faire {num_digit_1, 3} heures de freelance en moins, ce qui représente un manque à gagner de {num_digit_2, 35} $ par heure. Le comptable lui demande {num_digit_3, 90} $. Combien d'argent aura-t-elle en plus si elle l'engage ?",
+  "ic_sentence": "{name_female, Jackie} a un oncle qui a récemment acheté {num_ic, 97} livres de fiscalité."
+}

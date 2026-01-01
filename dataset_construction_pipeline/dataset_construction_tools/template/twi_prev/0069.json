@@ -1,0 +1,79 @@
+{
+  "original_question": "Bailey de sika dodoɔ bi na ԑhyԑ ase. Na nnawɔtwe biara no wɔtua no $5 saa nnawɔtwe awɔtwe. Nnawɔtwe awɔtwe akyi no, ne sika nyinaa yԑ $100, sika sԑn na Bailey de hyԑԑ ase?",
+  "original_answer": 60,
+  "question_template": "{name_male, Bailey} de sika dodoɔ bi na ԑhyԑ ase. Na nnawɔtwe biara no wɔtua no ${num_digit_1, 5} saa nnawɔtwe {num_digit_2, 8}. Nnawɔtwe {num_digit_2, 8} akyi no, ne sika nyinaa yԑ ${num_digit_3, 100}, sika sԑn na {name_male, Bailey} de hyԑԑ ase?",
+  "question_solution": "answer = num_digit_3 - num_digit_1 * num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_3 - num_digit_1 * num_digit_2",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= num_digit_1 * num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_male": "Bailey"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      12,
+      4,
+      9,
+      6,
+      8,
+      3,
+      10,
+      11,
+      13
+    ],
+    "num_digit_2": [
+      12,
+      9,
+      15,
+      11,
+      14,
+      13,
+      20,
+      17,
+      16,
+      18
+    ],
+    "num_digit_3": [
+      200,
+      250,
+      180,
+      300,
+      220,
+      190,
+      250,
+      350,
+      400,
+      450
+    ],
+    "answer": [
+      116,
+      142,
+      120,
+      201,
+      136,
+      86,
+      190,
+      180,
+      224,
+      216
+    ],
+    "num_ic": [
+      61,
+      73,
+      18,
+      128,
+      28,
+      156,
+      150,
+      95,
+      60,
+      67
+    ]
+  },
+  "ic_question_template": "{name_male, Bailey} de sika dodoɔ bi na ԑhyԑ ase. Na nnawɔtwe biara no wɔtua no ${num_digit_1, 5} saa nnawɔtwe {num_digit_2, 8}. Nnawɔtwe {num_digit_2, 8} akyi no, ne sika nyinaa yԑ ${num_digit_3, 100}, sika sԑn na {name_male, Bailey} de hyԑԑ ase? {name_male, Bailey} sewaa boaboa sika a wɔntaa nhu {num_ic, 56} da koro bi.",
+  "ic_sentence": "{name_male, Bailey} sewaa boaboa sika a wɔntaa nhu {num_ic, 56} da koro bi."
+}

@@ -1,0 +1,77 @@
+{
+  "original_question": "Otu dinta àkụ̀ chọtara igbe àkụ̀ e liri nke juputara na Jem. E nwere dayamọndụ 175, rubi 35 pere mpe karịa dayamọndụ, na okpukpu abụọ ọnụ ọgụgụ emeradi karịa rubi. Jem ole dị na igbe ahụ?",
+  "original_answer": 595,
+  "question_template": "Otu dinta àkụ̀ chọtara igbe àkụ̀ e liri nke juputara na Jem. E nwere dayamọndụ {num_digit_1, 175}, rubi {num_digit_2, 35} pere mpe karịa dayamọndụ, na {num_text_1, okpukpu abụọ} ọnụ ọgụgụ emeradi karịa rubi. Jem ole dị na igbe ahụ?",
+  "question_solution": "answer = num_digit_1 + (num_digit_1 - num_digit_2) + (num_digit_1 - num_digit_2) * NUM(num_text_1)",
+  "conditions": [
+    "int(answer) == num_digit_1 + (num_digit_1 - num_digit_2) + (num_digit_1 - num_digit_2) * NUM(num_text_1)",
+    "num_digit_1 > num_digit_2",
+    "num_digit_2 >= 0",
+    "NUM(num_text_1) > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      120,
+      150,
+      200,
+      88,
+      60,
+      180,
+      123,
+      95,
+      250,
+      140
+    ],
+    "num_digit_2": [
+      20,
+      50,
+      25,
+      22,
+      15,
+      30,
+      23,
+      5,
+      50,
+      40
+    ],
+    "num_text_1": [
+      "Ugboro abụọ",
+      "Ugboro atọ",
+      "ugboro anọ",
+      "ọgụ ise",
+      "ugboro isii",
+      "ugboro asaa",
+      "ugboro asatọ",
+      "ugwu itoolu",
+      "Ugboro iri",
+      "ugboro iri na otu"
+    ],
+    "answer": [
+      420,
+      550,
+      1075,
+      484,
+      375,
+      1380,
+      1023,
+      995,
+      2450,
+      1340
+    ],
+    "num_ic": [
+      67,
+      172,
+      589,
+      302,
+      39,
+      768,
+      186,
+      77,
+      2468,
+      720
+    ]
+  },
+  "ic_question_template": "Nwanne nna onye na-achọ akụ rịọla aka chọta mkpụrụ ego oge ochie {num_ic, 632} na oghere ọzọ. Otu dinta àkụ̀ chọtara igbe àkụ̀ e liri nke juputara na Jem. E nwere dayamọndụ {num_digit_1, 175}, rubi {num_digit_2, 35} pere mpe karịa dayamọndụ, na {num_text_1, okpukpu abụọ} ọnụ ọgụgụ emeradi karịa rubi. Jem ole dị na igbe ahụ?",
+  "ic_sentence": "Nwanne nna onye na-achọ akụ rịọla aka chọta mkpụrụ ego oge ochie {num_ic, 632} na oghere ọzọ."
+}

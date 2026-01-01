@@ -1,0 +1,65 @@
+{
+  "original_question": "一位寻宝人找到了一个埋藏的百宝箱。百宝箱里面装满了宝石，有 175 颗钻石，比钻石数量少 35 颗的红宝石，比红宝石数量多一倍的绿宝石。百宝箱里有多少颗宝石？",
+  "original_answer": 595,
+  "question_template": "一位寻宝人找到了一个埋藏的百宝箱。百宝箱里面装满了宝石，有 {num_digit_1, 175} 颗钻石，比钻石数量少 {num_digit_2, 35} 颗的红宝石，比红宝石数量 {num_text_1, 一倍} 的绿宝石。百宝箱里有多少颗宝石？",
+  "question_solution": "answer = num_digit_1 + (num_digit_1 - num_digit_2) + (num_digit_1 - num_digit_2) * NUM(num_text_1)",
+  "conditions": [
+    "int(answer) == num_digit_1 + (num_digit_1 - num_digit_2) + (num_digit_1 - num_digit_2) * NUM(num_text_1)",
+    "num_digit_1 > num_digit_2",
+    "num_digit_2 >= 0",
+    "NUM(num_text_1) > 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      120,
+      150,
+      200,
+      88,
+      60,
+      180,
+      123,
+      95,
+      250,
+      140
+    ],
+    "num_digit_2": [
+      20,
+      50,
+      25,
+      22,
+      15,
+      30,
+      23,
+      5,
+      50,
+      40
+    ],
+    "num_text_1": [
+      "两次",
+      "三次",
+      "四倍",
+      "五倍",
+      "六倍",
+      "七次",
+      "八倍",
+      "九次",
+      "十倍",
+      "十一倍"
+    ],
+    "answer": [
+      420,
+      550,
+      1075,
+      484,
+      375,
+      1380,
+      1023,
+      995,
+      2450,
+      1340
+    ]
+  },
+  "ic_question_template": " 这位寻宝者的叔叔曾经在另一座洞穴里发现过 {num_ic, 632} 枚古钱币。一位寻宝人找到了一个埋藏的百宝箱。百宝箱里面装满了宝石，有 {num_digit_1, 175} 颗钻石，比钻石数量少 {num_digit_2, 35} 颗的红宝石，比红宝石数量 {num_text_1, 一倍} 的绿宝石。百宝箱里有多少颗宝石？",
+  "ic_sentence": "{num_ic, 632}  \n这位寻宝者的叔叔曾经在另一座洞穴里发现过 {num_ic, 632} 枚古钱币。"
+}

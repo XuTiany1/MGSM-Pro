@@ -1,0 +1,81 @@
+{
+  "original_question": "Mark jẹ‌ copy-editor. Ó máa ń ṣe àtúnṣe iye gbolohun kan náà ní ọ‌sọ‌ọ‌sẹ‌ fún àwọn atẹ‌wé méjì ọ‌tọ‌ọ‌tọ‌, tí ọ‌kọ‌ọ‌kan wọn máa ń san iye tó yàtọ‌ fún gbólóhùn kọ‌ọ‌kan fún un. Olùtẹ‌wé B san ìlọ‌po méjì ohun tí Atẹ‌wé A san fún Mark. Mark máa ń ṣe àtúnṣe àpapọ‌ gbólóhùn 1000 ní ọ‌sọ‌ọ‌sẹ‌, atẹ‌wé A sì máa ń san 5 cents fún gbólóhùn kan fún un. Èló ni Mark máa ń rí ní ọ‌sẹ‌ kan, ní cent?",
+  "original_answer": 7500,
+  "question_template": "{name_male, Mark} jẹ‌ copy-editor. Ó máa ń ṣe àtúnṣe iye gbolohun kan náà ní ọ‌sọ‌ọ‌sẹ‌ fún àwọn atẹ‌wé méjì ọ‌tọ‌ọ‌tọ‌, tí ọ‌kọ‌ọ‌kan wọn máa ń san iye tó yàtọ‌ fún gbólóhùn kọ‌ọ‌kan fún un. Olùtẹ‌wé B san {num_text_2, ìlọ‌po méjì} ohun tí Atẹ‌wé A san fún {name_male, Mark}. {name_male, Mark} máa ń ṣe àtúnṣe àpapọ‌ gbólóhùn {num_digit_1, 1000} ní ọ‌sọ‌ọ‌sẹ‌, atẹ‌wé A sì máa ń san {num_digit_2, 5} cents fún gbólóhùn kan fún un. Èló ni {name_male, Mark} máa ń rí ní ọ‌sẹ‌ kan, ní cent?",
+  "question_solution": "answer = (num_digit_1/2) * num_digit_2 * (1 + f2)   # f2 is the numeric value of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1/2) * num_digit_2 * (1 + f2)",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "0 < f2",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Mark"
+  },
+  "variable_number_dictionary": {
+    "num_text_2": [
+      "Ìkẹta",
+      "ìgbà márùn-ún",
+      "lẹmeji",
+      "ìkẹrin",
+      "Ẹẹkan ati idaji",
+      "Ìkẹta",
+      "ẹ̀ẹ̀mefa",
+      "Ẹẹwàá.",
+      "ìkẹfàláàdọrin",
+      "Ìgbà mẹ́sàn-án"
+    ],
+    "num_digit_1": [
+      1520,
+      2764,
+      9990,
+      24680,
+      7832,
+      3640,
+      9876,
+      1024,
+      5550,
+      8148
+    ],
+    "num_digit_2": [
+      7,
+      12,
+      9,
+      13,
+      15,
+      17,
+      11,
+      3,
+      8,
+      4
+    ],
+    "answer": [
+      21280,
+      99504,
+      134865,
+      802100,
+      146850,
+      123760,
+      380226,
+      16896,
+      177600,
+      162960
+    ],
+    "num_ic": [
+      234,
+      814,
+      3676,
+      3071,
+      527,
+      877,
+      5272,
+      242,
+      1781,
+      3600
+    ]
+  },
+  "ic_question_template": "Kẹ́kèké {name_male, Mark} ka àwọn ìtàn àròsọ ìṣírí {num_ic, 3071} laipẹ́ yi. {name_male, Mark} jẹ‌ copy-editor. Ó máa ń ṣe àtúnṣe iye gbolohun kan náà ní ọ‌sọ‌ọ‌sẹ‌ fún àwọn atẹ‌wé méjì ọ‌tọ‌ọ‌tọ‌, tí ọ‌kọ‌ọ‌kan wọn máa ń san iye tó yàtọ‌ fún gbólóhùn kọ‌ọ‌kan fún un. Olùtẹ‌wé B san {num_text_2, ìlọ‌po méjì} ohun tí Atẹ‌wé A san fún {name_male, Mark}. {name_male, Mark} máa ń ṣe àtúnṣe àpapọ‌ gbólóhùn {num_digit_1, 1000} ní ọ‌sọ‌ọ‌sẹ‌, atẹ‌wé A sì máa ń san {num_digit_2, 5} cents fún gbólóhùn kan fún un. Èló ni {name_male, Mark} máa ń rí ní ọ‌sẹ‌ kan, ní cent?",
+  "ic_sentence": "Kẹ́kèké {name_male, Mark} ka àwọn ìtàn àròsọ ìṣírí {num_ic, 3071} laipẹ́ yi."
+}

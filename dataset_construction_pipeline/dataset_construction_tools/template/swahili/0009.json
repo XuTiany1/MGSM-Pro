@@ -1,0 +1,92 @@
+{
+  "original_question": "Kiwango cha Eliza kila saa kwa saa 40 za kwanza anazofanya kazi kila wiki ni $10. Pia anapokea malipo ya muda wa ziada ya mara 1.2 ya malipo yake ya kawaida ya saa. Iwapo Eliza alifanya kazi kwa saa 45 wiki hii, mapato yake ya wiki hii ni ngapi?",
+  "original_answer": 460,
+  "question_template": "Kiwango cha malipo kwa saa cha {name_female, Eliza} kwa saa {num_digit_1, 40} za mwanzo anazofanya kazi kila wiki ni ${num_digit_2, 10}. Pia hupokea malipo ya ziada ya muda wa {num_digit_3, 1.2} ya kiwango chake cha kawaida. Ikiwa {name_female, Eliza} alifanya kazi kwa saa {num_digit_4, 45} wiki hii, atapata kiasi gani jumla?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + max(0, num_digit_4 - num_digit_1) * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 + max(0, num_digit_4 - num_digit_1) * num_digit_2 * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 >= num_digit_1"
+  ],
+  "variable_word_list": {
+    "name_female": "Eliza"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      42,
+      48,
+      53,
+      58
+    ],
+    "num_digit_2": [
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "num_digit_3": [
+      1.5,
+      1.5,
+      2.0,
+      1.2,
+      1.8,
+      2.0,
+      2.0,
+      1.5,
+      2.0,
+      2.0
+    ],
+    "num_digit_4": [
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      52,
+      56,
+      59,
+      61
+    ],
+    "answer": [
+      850,
+      1045,
+      1495,
+      1798,
+      2263,
+      2960,
+      2542,
+      2580,
+      3055,
+      3392
+    ],
+    "num_ic": [
+      75,
+      111,
+      205,
+      28,
+      156,
+      223,
+      410,
+      382,
+      349,
+      328
+    ]
+  },
+  "ic_question_template": "{name_female, Eliza} ana mjomba anayemiliki maduka ya vyakula {num_ic, 98} mjini. Kiwango cha malipo kwa saa cha {name_female, Eliza} kwa saa {num_digit_1, 40} za mwanzo anazofanya kazi kila wiki ni ${num_digit_2, 10}. Pia hupokea malipo ya ziada ya muda wa {num_digit_3, 1.2} ya kiwango chake cha kawaida. Ikiwa {name_female, Eliza} alifanya kazi kwa saa {num_digit_4, 45} wiki hii, atapata kiasi gani jumla?",
+  "ic_sentence": "{name_female, Eliza} ana mjomba anayemiliki maduka ya vyakula {num_ic, 98} mjini."
+}

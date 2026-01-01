@@ -1,0 +1,103 @@
+{
+  "original_question": "Onye ọrụ ụgbọala na-ana ụgwọ dị iche iche were arụzi taya tụrọkụ na ụgbọala. Taya tụrọkụ ọbụla ọ rụziri, onye ọrụ ụgbọala na-ana ụgwọ $60 na taya ụgbọala ọbụla ọ rụziri, onye ọrụ ụgbọala na-ana ụgwọ $40. Ụbọchị tọzdee, onye ọrụ ụgbọala rụziri taya tụrọkụ isii na taya ụgbọala anọ. N'ubọchị fraidee, onye ọrụ ụgbọala rụziri taya ụgbọala iri na abụọ ma ọ dịghị arụzi taya tụrọkụ ọbụla. Ego nweta ole karịa ka onye ọrụ ụgbọala ga-enweta n'ụbọchị o nwetakariri nweghachi ?",
+  "original_answer": 73,
+  "question_template": "Onye ọrụ ụgbọala na-ana ụgwọ dị iche iche were arụzi taya tụrọkụ na ụgbọala. Taya tụrọkụ ọbụla ọ rụziri, onye ọrụ ụgbọala na-ana ụgwọ ${num_digit_1, 78} na taya ụgbọala ọbụla ọ rụziri, onye ọrụ ụgbọala na-ana ụgwọ ${num_digit_2, 29}. Ụbọchị tọzdee, onye ọrụ ụgbọala rụziri taya tụrọkụ {num_digit_3, 8} na taya ụgbọala {num_digit_4, 9}. N'ụbọchị fraidee, onye ọrụ ụgbọala rụziri taya ụgbọala {num_digit_5, 28} ma ọ dịghị arụzi taya tụrọkụ ọbụla. Ego nweta ole karịa ka onye ọrụ ụgbọala ga-enweta n'ụbọchị o nwetakarịri nweghachi?",
+  "question_solution": "answer = num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4 - num_digit_2 * num_digit_5",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4 - num_digit_2 * num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "num_digit_1 * num_digit_3 + num_digit_2 * num_digit_4 > num_digit_2 * num_digit_5"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      78,
+      92,
+      65,
+      87,
+      54,
+      69,
+      83,
+      95,
+      74,
+      68
+    ],
+    "num_digit_2": [
+      29,
+      37,
+      41,
+      32,
+      49,
+      58,
+      26,
+      47,
+      39,
+      44
+    ],
+    "num_digit_3": [
+      8,
+      7,
+      13,
+      11,
+      12,
+      9,
+      15,
+      6,
+      10,
+      14
+    ],
+    "num_digit_4": [
+      9,
+      14,
+      6,
+      10,
+      8,
+      7,
+      5,
+      13,
+      12,
+      9
+    ],
+    "num_digit_5": [
+      28,
+      19,
+      17,
+      27,
+      18,
+      15,
+      21,
+      22,
+      24,
+      22
+    ],
+    "answer": [
+      73,
+      459,
+      394,
+      413,
+      158,
+      157,
+      829,
+      147,
+      272,
+      380
+    ],
+    "num_ic": [
+      115,
+      89,
+      118,
+      154,
+      203,
+      97,
+      70,
+      171,
+      197,
+      112
+    ]
+  },
+  "ic_question_template": "Nwa nwanne nna onye nrụzi nwere ụgbọ ala egwuregwu {num_ic, 115}. Onye ọrụ ụgbọala na-ana ụgwọ dị iche iche were arụzi taya tụrọkụ na ụgbọala. Taya tụrọkụ ọbụla ọ rụziri, onye ọrụ ụgbọala na-ana ụgwọ ${num_digit_1, 78} na taya ụgbọala ọbụla ọ rụziri, onye ọrụ ụgbọala na-ana ụgwọ ${num_digit_2, 29}. Ụbọchị tọzdee, onye ọrụ ụgbọala rụziri taya tụrọkụ {num_digit_3, 8} na taya ụgbọala {num_digit_4, 9}. N'ụbọchị fraidee, onye ọrụ ụgbọala rụziri taya ụgbọala {num_digit_5, 28} ma ọ dịghị arụzi taya tụrọkụ ọbụla. Ego nweta ole karịa ka onye ọrụ ụgbọala ga-enweta n'ụbọchị o nwetakarịri nweghachi?",
+  "ic_sentence": "Nwa nwanne nna onye nrụzi nwere ụgbọ ala egwuregwu {num_ic, 115}."
+}

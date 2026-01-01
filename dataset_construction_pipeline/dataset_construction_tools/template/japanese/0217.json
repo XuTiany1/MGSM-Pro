@@ -1,0 +1,54 @@
+{
+  "original_question": "花瓶には4本のバラがあります。花瓶に薔薇よりも7本多いダリアが入っています。花瓶には全部で何本の花が入っていますか？",
+  "original_answer": 15,
+  "question_template": "花瓶には{num_digit_1, 4}本のバラがあります。花瓶に薔薇よりも{num_digit_2, 7}本多いダリアが入っています。花瓶には全部で何本の花が入っていますか？",
+  "question_solution": "answer = 2 * num_digit_1 + num_digit_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == 2 * num_digit_1 + num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      1379,
+      2851,
+      3927,
+      4102,
+      5281,
+      6397,
+      7513,
+      8629,
+      9745,
+      10861
+    ],
+    "num_digit_2": [
+      1583,
+      2674,
+      3745,
+      4816,
+      5987,
+      6059,
+      7123,
+      8294,
+      9365,
+      10436
+    ],
+    "answer": [
+      4341,
+      8376,
+      11599,
+      13020,
+      16549,
+      18853,
+      22149,
+      25552,
+      28855,
+      32158
+    ]
+  },
+  "ic_question_template": "{name_female, エミリー}のおばは温室で{num_ic, 1490}本のチューリップを所有しています。花瓶には{num_digit_1, 4}本のバラがあります。花瓶に薔薇よりも{num_digit_2, 7}本多いダリアが入っています。花瓶には全部で何本の花が入っていますか？",
+  "ic_sentence": "{name_female, エミリー}のおばは温室で{num_ic, 1490}本のチューリップを所有しています。"
+}

@@ -1,0 +1,93 @@
+{
+  "original_question": "Christina ń ṣètò ayẹyẹ ọjọ́ ìbí ó sì nílò àwọn àpamọ ẹ̀bùn 75 fún àwọn àwọn àlejò kọ̀ọ̀kan tí ó fìwé pè, nítorí 1/4 àwọn tó ń bọ̀ ni kò yọjú. Ó fìwé pe àwọn ọ̀rẹ́ 16. Àwọn àpamọ ẹ̀bùn jẹ́ $2 ẹyọkan. Èló ní yóò ná?",
+  "original_answer": 24,
+  "question_template": "{name_female, Christina} ń ṣètò ayẹyẹ ọjọ́ ìbí ó sì nílò àwọn àpamọ ẹ̀bùn {num_digit_1, .75} fún àwọn àlejò kọ̀ọ̀kan tí ó fìwé pè, nítorí {num_frac_1, 1/4} àwọn tó ń bọ̀ ni kò yọjú. Ó fìwé pe àwọn ọ̀rẹ́ {num_digit_2, 16}. Àwọn àpamọ ẹ̀bùn jẹ́ ${num_digit_3, 2} ẹyọkan. Èló ní yóò ná?",
+  "question_solution": "answer = num_digit_2 * num_digit_1 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_2 * num_digit_1 * num_digit_3",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1",
+    "num_digit_1 == 1 - NUM(num_frac_1)",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Christina"
+  },
+  "variable_number_dictionary": {
+    "num_frac_1": [
+      "1/4",
+      "1/5",
+      "1/2",
+      "2/5",
+      "3/10",
+      "1/8",
+      "1/10",
+      "1/20",
+      "3/5",
+      "3/20"
+    ],
+    "num_digit_1": [
+      0.75,
+      0.8,
+      0.5,
+      0.6,
+      0.7,
+      0.875,
+      0.9,
+      0.95,
+      0.4,
+      0.85
+    ],
+    "num_digit_2": [
+      20,
+      25,
+      14,
+      30,
+      10,
+      24,
+      20,
+      40,
+      25,
+      20
+    ],
+    "num_digit_3": [
+      3,
+      2,
+      4,
+      5,
+      6,
+      4,
+      7,
+      10,
+      7,
+      3
+    ],
+    "answer": [
+      45,
+      40,
+      28,
+      90,
+      42,
+      84,
+      126,
+      380,
+      70,
+      51
+    ],
+    "num_ic": [
+      54,
+      32,
+      102,
+      153,
+      30,
+      98,
+      187,
+      44,
+      105,
+      89
+    ]
+  },
+  "ic_question_template": "Àbúrò ìyá {name_female, Christina} mú àwọn kẹ́kùpọ̀n {num_ic, 89} wá fún ayẹyẹ náà. {name_female, Christina} ń ṣètò ayẹyẹ ọjọ́ ìbí ó sì nílò àwọn àpamọ ẹ̀bùn {num_digit_1, .75} fún àwọn àlejò kọ̀ọ̀kan tí ó fìwé pè, nítorí {num_frac_1, 1/4} àwọn tó ń bọ̀ ni kò yọjú. Ó fìwé pe àwọn ọ̀rẹ́ {num_digit_2, 16}. Àwọn àpamọ ẹ̀bùn jẹ́ ${num_digit_3, 2} ẹyọkan. Èló ní yóò ná?",
+  "ic_sentence": "Àbúrò ìyá {name_female, Christina} mú àwọn kẹ́kùpọ̀n {num_ic, 89} wá fún ayẹyẹ náà."
+}

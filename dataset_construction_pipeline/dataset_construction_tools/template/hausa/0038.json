@@ -1,0 +1,93 @@
+{
+  "original_question": "John yana gudun mil 60 a mako. Yana gudun kwanaki 3 a mako. Yana gudun awa 3 a rana ta farko sai yayi gudun rabin wannan lokacin a sauran kwanaki biyun da yake gudu. Yaya saurin gudunsa yake?",
+  "original_answer": 10,
+  "question_template": "Output:  \n{name_male, John} yana gudun mil {num_digit_1, 60} a mako. Yana gudun kwanaki {num_digit_2, 3} a mako. Yana gudun awa {num_digit_3, 3} a rana ta farko sai yayi gudun {num_frac_1, rabin} wannan lokacin a sauran kwanaki biyun da yake gudu. Yaya saurin gudunsa yake?",
+  "question_solution": "answer = num_digit_1 / (num_digit_3 * (1 + (num_digit_2 - 1) * NUM(num_frac_1)))",
+  "conditions": [
+    "int(answer) == num_digit_1 / (num_digit_3 * (1 + (num_digit_2 - 1) * NUM(num_frac_1)))",
+    "num_digit_1 > 0",
+    "num_digit_2 > 1",
+    "num_digit_3 > 0",
+    "NUM(num_frac_1) > 0",
+    "(num_digit_1 * DEN(NUM(num_frac_1))) % (num_digit_3 * DEN(NUM(num_frac_1)) * (1 + (num_digit_2 - 1) * NUM(num_frac_1))) == 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      66,
+      110,
+      220,
+      85,
+      198,
+      175,
+      117,
+      312,
+      74,
+      130
+    ],
+    "num_digit_2": [
+      4,
+      5,
+      3,
+      6,
+      7,
+      4,
+      3,
+      5,
+      4,
+      6
+    ],
+    "num_digit_3": [
+      3,
+      2,
+      4,
+      1,
+      3,
+      5,
+      6,
+      4,
+      2,
+      2
+    ],
+    "num_frac_1": [
+      "ɗaya bisa uku",
+      "biyu cikin uku",
+      "uku cikin biyar",
+      "hudun biyar",
+      "ukun-hudu",
+      "Rabinsa",
+      "kashi ɗaya cikin huɗu",
+      "biyar cikin shida",
+      "Tara cikin goma",
+      "biyu cikin uku"
+    ],
+    "answer": [
+      11,
+      15,
+      25,
+      17,
+      12,
+      14,
+      13,
+      18,
+      10,
+      15
+    ],
+    "num_ic": [
+      23,
+      39,
+      128,
+      66,
+      144,
+      87,
+      55,
+      141,
+      33,
+      54
+    ]
+  },
+  "ic_question_template": "Kawun {name_male, John} yana da hulunan baseball {num_ic, 85}. {name_male, John} yana gudun mil {num_digit_1, 60} a mako. Yana gudun kwanaki {num_digit_2, 3} a mako. Yana gudun awa {num_digit_3, 3} a rana ta farko sai yayi gudun {num_frac_1, rabin} wannan lokacin a sauran kwanaki biyun da yake gudu. Yaya saurin gudunsa yake?",
+  "ic_sentence": "Kawun {name_male, John} yana da hulunan baseball {num_ic, 85}."
+}

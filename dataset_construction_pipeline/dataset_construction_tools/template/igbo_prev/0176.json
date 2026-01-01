@@ -1,0 +1,81 @@
+{
+  "original_question": "N'ọsọ ndị Asia narị abụọ na iri anọ, mmadụ iri asatọ bụ ndị Japan, ma ndị ọzọ bụ ndị China. Ọ bụrụ na ọnụọgụgụ ụmụntakịrị nwoke n'otú ndị China bụ iri isii, ụmụntakịrị nwaanyị ole nọ n'otu ndị China? ",
+  "original_answer": 100,
+  "question_template": "N'ọsọ ndị Asia {num_digit_1, 240}, mmadụ {num_digit_2, 80} bụ ndị Japan, ma ndị ọzọ bụ ndị China. Ọ bụrụ na ọnụọgụgụ ụmụntakịrị nwoke n'otú ndị China bụ {num_digit_3, 60}, ụmụntakịrị nwaanyị ole nọ n'otu ndị China?",
+  "question_solution": "answer = num_digit_1 - num_digit_2 - num_digit_3",
+  "conditions": [
+    "answer == num_digit_1 - num_digit_2 - num_digit_3",
+    "num_digit_1 > num_digit_2",
+    "num_digit_3 < (num_digit_1 - num_digit_2)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "answer > 0",
+    "answer % 1 == 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      300,
+      450,
+      500,
+      320,
+      275,
+      400,
+      350,
+      600,
+      380,
+      420
+    ],
+    "num_digit_2": [
+      100,
+      150,
+      200,
+      80,
+      75,
+      90,
+      140,
+      250,
+      180,
+      60
+    ],
+    "num_digit_3": [
+      50,
+      120,
+      100,
+      120,
+      60,
+      110,
+      80,
+      200,
+      70,
+      120
+    ],
+    "answer": [
+      150,
+      180,
+      200,
+      120,
+      140,
+      200,
+      130,
+      150,
+      130,
+      240
+    ],
+    "num_ic": [
+      193,
+      94,
+      372,
+      263,
+      155,
+      201,
+      401,
+      265,
+      233,
+      239
+    ]
+  },
+  "ic_question_template": "{num_ic, 306} ndị na-akwado wetara ọkọlọtọ na mmemme ahụ. N'ọsọ ndị Asia {num_digit_1, 240}, mmadụ {num_digit_2, 80} bụ ndị Japan, ma ndị ọzọ bụ ndị China. Ọ bụrụ na ọnụọgụgụ ụmụntakịrị nwoke n'otú ndị China bụ {num_digit_3, 60}, ụmụntakịrị nwaanyị ole nọ n'otu ndị China?",
+  "ic_sentence": "{num_ic, 306} ndị na-akwado wetara ọkọlọtọ na mmemme ahụ."
+}

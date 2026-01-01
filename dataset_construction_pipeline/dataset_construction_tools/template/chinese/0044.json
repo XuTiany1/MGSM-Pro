@@ -1,0 +1,93 @@
+{
+  "original_question": "查理想销售蜂蜡蜡烛。每磅蜂蜡他能做出 10 根锥形蜡烛。一磅蜂蜡和所需蜡烛芯的供应成本是 10.00 美元。如果他每根蜡烛卖 2.00 美元，而且他制作并销售 20 根蜡烛，能获得多少净利润？",
+  "original_answer": 20,
+  "question_template": "{name_male, 查理} 想销售蜂蜡蜡烛。每磅蜂蜡他能做出 {num_digit_1, 10} 根锥形蜡烛。{num_text_1, 一} 磅蜂蜡和所需蜡烛芯的供应成本是 {num_digit_2, 10.00} 美元。如果他每根蜡烛卖 {num_digit_3, 2.00} 美元，而且他制作并销售 {num_digit_4, 20} 根蜡烛，能获得多少净利润？",
+  "question_solution": "answer = num_digit_4 * num_digit_3 - (num_digit_4 // num_digit_1) * num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_4 * num_digit_3 - (num_digit_4 // num_digit_1) * num_digit_2",
+    "num_digit_4 % num_digit_1 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Charlie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      10,
+      8,
+      12,
+      5,
+      16,
+      10,
+      20,
+      15,
+      6,
+      24
+    ],
+    "num_text_1": [
+      "一",
+      "一",
+      "一",
+      "一",
+      "一",
+      "一",
+      "一",
+      "一",
+      "一",
+      "一"
+    ],
+    "num_digit_2": [
+      10,
+      12,
+      15,
+      6,
+      20,
+      8,
+      25,
+      18,
+      9,
+      30
+    ],
+    "num_digit_3": [
+      2,
+      3,
+      4,
+      2,
+      5,
+      1,
+      3,
+      4,
+      2,
+      5
+    ],
+    "num_digit_4": [
+      20,
+      24,
+      36,
+      25,
+      32,
+      30,
+      60,
+      45,
+      18,
+      48
+    ],
+    "answer": [
+      20,
+      36,
+      99,
+      20,
+      120,
+      6,
+      105,
+      126,
+      9,
+      180
+    ]
+  },
+  "ic_question_template": "{name_male, 查理}的叔叔有 {num_ic, 37} 个蜂箱。{name_male, 查理} 想销售蜂蜡蜡烛。每磅蜂蜡他能做出 {num_digit_1, 10} 根锥形蜡烛。{num_text_1, 一} 磅蜂蜡和所需蜡烛芯的供应成本是 {num_digit_2, 10.00} 美元。如果他每根蜡烛卖 {num_digit_3, 2.00} 美元，而且他制作并销售 {num_digit_4, 20} 根蜡烛，能获得多少净利润？",
+  "ic_sentence": "{name_male, 查理}的叔叔有 {num_ic, 37} 个蜂箱。"
+}

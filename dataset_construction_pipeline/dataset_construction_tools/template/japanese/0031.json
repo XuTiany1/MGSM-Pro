@@ -1,0 +1,80 @@
+{
+  "original_question": "ガンターは瓶のジェリービーンズを数えようとしています。友達に、いくつ瓶に入っていると思うか聞きます。ある人は、80と答えます。別の人は、1人目の答えの半分よりも、20多いと答えます。3番目の人は、1人目の回答の25%増だと言います。3人の予想の平均値は何ですか？",
+  "original_answer": 80,
+  "question_template": "{name_male, ガンター}は瓶のジェリービーンズを数えようとしています。友達に、いくつ瓶に入っていると思うか聞きます。ある人は、{num_digit_1, 80}と答えます。別の人は、1人目の答えの{num_frac_1, 半分}よりも、{num_digit_2, 20}多いと答えます。3番目の人は、1人目の回答の{num_digit_3, 25}%増だと言います。3人の予想の平均値は何ですか？",
+  "question_solution": "answer = (num_digit_1 + (num_digit_2 + NUM(num_frac_1) * num_digit_1) + num_digit_1 * (1 + num_digit_3 / 100)) / 3",
+  "conditions": [
+    "int(answer) == (num_digit_1 + (num_digit_2 + NUM(num_frac_1) * num_digit_1) + num_digit_1 * (1 + num_digit_3 / 100)) / 3",
+    "(num_digit_1 * num_digit_3) % 100 == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Gunter"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      80,
+      60,
+      120,
+      90,
+      70,
+      48,
+      100,
+      180,
+      84,
+      96
+    ],
+    "num_digit_2": [
+      20,
+      13,
+      15,
+      9,
+      4,
+      5,
+      2,
+      6,
+      3,
+      6
+    ],
+    "num_frac_1": [
+      "半",
+      "3分の1",
+      "四分の一",
+      "半",
+      "半",
+      "3分の1",
+      "半",
+      "3分の1",
+      "四分の一",
+      "半"
+    ],
+    "num_digit_3": [
+      25,
+      20,
+      50,
+      30,
+      40,
+      25,
+      15,
+      10,
+      50,
+      75
+    ],
+    "answer": [
+      80,
+      55,
+      115,
+      87,
+      69,
+      43,
+      89,
+      148,
+      78,
+      106
+    ]
+  },
+  "ic_question_template": "{name_male, グンター}のおばは、かつてパーティーに{num_ic, 392}個のジェリービーンズを持ってきました。\n{name_male, ガンター}は瓶のジェリービーンズを数えようとしています。友達に、いくつ瓶に入っていると思うか聞きます。ある人は、{num_digit_1, 80}と答えます。別の人は、1人目の答えの{num_frac_1, 半分}よりも、{num_digit_2, 20}多いと答えます。3番目の人は、1人目の回答の{num_digit_3, 25}%増だと言います。3人の予想の平均値は何ですか？",
+  "ic_sentence": "{name_male, グンター}のおばは、かつてパーティーに{num_ic, 392}個のジェリービーンズを持ってきました。"
+}

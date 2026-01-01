@@ -1,0 +1,80 @@
+{
+  "original_question": "シンシアは毎晩アイスを一食分食べます。彼女は1カートン15食分入りのアイスクリームを、1カートンあたり$4で買いました。彼女は60日後、アイスクリームにいくら使うことになりますか？",
+  "original_answer": 16,
+  "question_template": "{name_female, シンシア}は毎晩アイスを{num_text_1, 一}食分食べます。彼女は1カートン{num_digit_1, 15}食分入りのアイスクリームを、1カートンあたり${num_digit_2, 4}で買いました。彼女は{num_digit_3, 60}日後、アイスクリームにいくら使うことになりますか？",
+  "question_solution": "answer = ((NUM(num_text_1) * num_digit_3 + num_digit_1 - 1) // num_digit_1) * num_digit_2",
+  "conditions": [
+    "int(answer) == ((NUM(num_text_1) * num_digit_3 + num_digit_1 - 1) // num_digit_1) * num_digit_2",
+    "NUM(num_text_1) > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Cynthia"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "いち",
+      "に (ni)",
+      "さん",
+      "ご",
+      "七 (しち / なな)",
+      "八",
+      "九 (きゅう / kyuu)",
+      "十一",
+      "十三",
+      "十五"
+    ],
+    "num_digit_1": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      25,
+      30,
+      35,
+      40
+    ],
+    "num_digit_2": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "num_digit_3": [
+      59,
+      63,
+      58,
+      65,
+      72,
+      49,
+      55,
+      68,
+      75,
+      82
+    ],
+    "answer": [
+      25,
+      54,
+      77,
+      152,
+      234,
+      180,
+      220,
+      300,
+      364,
+      434
+    ]
+  },
+  "ic_question_template": "{name_female, シンシア}のおじさんは冷凍庫に{num_ic, 7}種類のソルベを持っています。{name_female, シンシア}は毎晩アイスを{num_text_1, 一}食分食べます。彼女は1カートン{num_digit_1, 15}食分入りのアイスクリームを、1カートンあたり${num_digit_2, 4}で買いました。彼女は{num_digit_3, 60}日後、アイスクリームにいくら使うことになりますか？",
+  "ic_sentence": "{name_female, シンシア}のおじさんは冷凍庫に{num_ic, 7}種類のソルベを持っています。"
+}

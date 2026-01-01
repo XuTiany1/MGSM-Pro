@@ -1,0 +1,78 @@
+{
+  "original_question": "Il y a 4 escargots dans un aquarium et 32 dans un autre. La différence entre les quantités d'escargots dans les deux aquariums est égale à deux fois la somme des poissons dans les deux aquariums. Si les deux aquariums contiennent le même nombre de poissons, combien de poissons y a-t-il dans chaque aquarium ?",
+  "original_answer": 7,
+  "question_template": "Il y a {num_digit_1, 4} escargots dans un aquarium et {num_digit_2, 32} dans un autre. La différence entre les quantités d'escargots dans les {num_text_1, deux} aquariums est égale à {num_text_2, deux fois} la somme des poissons dans les deux aquariums. Si les deux aquariums contiennent le même nombre de poissons, combien de poissons y a-t-il dans chaque aquarium ?",
+  "question_solution": "answer = (num_digit_2 - num_digit_1) / (2 * f2)   # f2 is the numeric value of num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_2 - num_digit_1) / (2 * f2)",
+    "num_digit_2 > num_digit_1",
+    "num_digit_1 >= 0",
+    "f2 > 0",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      33,
+      47,
+      25,
+      9,
+      58,
+      73,
+      101,
+      66,
+      82
+    ],
+    "num_digit_2": [
+      84,
+      129,
+      119,
+      137,
+      57,
+      154,
+      211,
+      277,
+      174,
+      202
+    ],
+    "num_text_1": [
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux",
+      "deux"
+    ],
+    "num_text_2": [
+      "deux fois",
+      "trois fois",
+      "six fois",
+      "quatre fois",
+      "trois fois",
+      "huit fois",
+      "trois fois",
+      "quatre fois",
+      "trois fois",
+      "cinq fois"
+    ],
+    "answer": [
+      18,
+      16,
+      6,
+      14,
+      8,
+      6,
+      23,
+      22,
+      18,
+      12
+    ]
+  },
+  "ic_question_template": "{name_male, Michael} a un cousin qui possède {num_ic, 15} guppys chez lui. Il y a {num_digit_1, 4} escargots dans un aquarium et {num_digit_2, 32} dans un autre. La différence entre les quantités d'escargots dans les {num_text_1, deux} aquariums est égale à {num_text_2, deux fois} la somme des poissons dans les deux aquariums. Si les deux aquariums contiennent le même nombre de poissons, combien de poissons y a-t-il dans chaque aquarium ?",
+  "ic_sentence": "{name_male, Michael} a un cousin qui possède {num_ic, 15} guppys chez lui."
+}

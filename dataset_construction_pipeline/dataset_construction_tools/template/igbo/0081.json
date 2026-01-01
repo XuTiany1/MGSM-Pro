@@ -1,0 +1,106 @@
+{
+  "original_question": "Charlie nwere akwụkwọ mmado iri. Ọ zụtara akwụkwọ mmado iri abụọ na otu n'ụlọ ahịa dị na nnukwu ụlọ ahịa ma nweta akwụkwọ mmado iri abụọ na atọ maka ụbọchị ọmụmụ ya. Mgbe ahụ Charlie nyere nwanne ya nwanyị akwụkwọ mmado itoolu ahụ ma jiri iri abụọ na asatọ chọọ kaadị ekele mma. Ihe mmado ole ka Charlie nwere fọdụrụ?",
+  "original_answer": 17,
+  "question_template": "{name_male, Charlie} nwere akwụkwọ mmado {num_digit_1, 10}. Ọ zụtara akwụkwọ mmado {num_digit_2, 21} n'ụlọ ahịa dị na nnukwu ụlọ ahịa ma nweta akwụkwọ mmado {num_digit_3, 23} maka ụbọchị ọmụmụ ya. Mgbe ahụ Charlie nyere nwanne ya nwanyị akwụkwọ mmado {num_digit_4, 9} ahụ ma jiri {num_digit_5, 28} chọọ kaadị ekele mma. Ihe mmado ole ka {name_male, Charlie} nwere fọdụrụ?",
+  "question_solution": "answer = num_digit_1 + num_digit_2 + num_digit_3 - num_digit_4 - num_digit_5",
+  "conditions": [
+    "int(answer) == num_digit_1 + num_digit_2 + num_digit_3 - num_digit_4 - num_digit_5",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "num_digit_1 + num_digit_2 + num_digit_3 >= num_digit_4 + num_digit_5"
+  ],
+  "variable_word_list": {
+    "name_male": "Charlie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      13,
+      21,
+      5,
+      40,
+      7,
+      95,
+      120,
+      200,
+      33,
+      9
+    ],
+    "num_digit_2": [
+      27,
+      44,
+      60,
+      50,
+      14,
+      105,
+      80,
+      150,
+      47,
+      11
+    ],
+    "num_digit_3": [
+      35,
+      18,
+      12,
+      25,
+      9,
+      50,
+      100,
+      25,
+      29,
+      13
+    ],
+    "num_digit_4": [
+      19,
+      37,
+      23,
+      30,
+      3,
+      75,
+      50,
+      100,
+      10,
+      5
+    ],
+    "num_digit_5": [
+      22,
+      10,
+      30,
+      20,
+      5,
+      60,
+      40,
+      75,
+      40,
+      1
+    ],
+    "answer": [
+      34,
+      36,
+      24,
+      65,
+      22,
+      115,
+      210,
+      200,
+      59,
+      27
+    ],
+    "num_ic": [
+      30,
+      130,
+      81,
+      68,
+      104,
+      685,
+      724,
+      1118,
+      263,
+      73
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_male, Charlie} na-anakọta {num_ic, 12} ihe mkpụrụ akwụkwọ posi dị ụkọ. {name_male, Charlie} nwere akwụkwọ mmado {num_digit_1, 10}. Ọ zụtara akwụkwọ mmado {num_digit_2, 21} n'ụlọ ahịa dị na nnukwu ụlọ ahịa ma nweta akwụkwọ mmado {num_digit_3, 23} maka ụbọchị ọmụmụ ya. Mgbe ahụ Charlie nyere nwanne ya nwanyị akwụkwọ mmado {num_digit_4, 9} ahụ ma jiri {num_digit_5, 28} chọọ kaadị ekele mma. Ihe mmado ole ka {name_male, Charlie} nwere fọdụrụ?",
+  "ic_sentence": "Nwanne nna {name_male, Charlie} na-anakọta {num_ic, 12} ihe mkpụrụ akwụkwọ posi dị ụkọ."
+}

@@ -1,0 +1,91 @@
+{
+  "original_question": "温迪每天给她的每只鸡喂 3 杯含有种子、黄粉虫和蔬菜的混合鸡饲料，以帮助它们保持健康。她给鸡喂 3 顿饲料。上午，她给鸡群喂 15 杯饲料。下午，她给鸡喂 25 杯饲料。如果温迪的鸡群规模达到 20 只，则在一天中的最后一顿，她需要给鸡喂多少杯饲料？",
+  "original_answer": 20,
+  "question_template": "{name_female, 温迪} 每天给她的每只鸡喂 {num_text_1, 3} 杯含有种子、黄粉虫和蔬菜的混合鸡饲料，以帮助它们保持健康。她给鸡喂 {num_text_2, 3} 顿饲料。上午，她给鸡群喂 {num_digit_1, 15} 杯饲料。下午，她给鸡喂 {num_digit_2, 25} 杯饲料。如果{name_female, 温迪} 的鸡群规模达到 {num_digit_3, 20} 只，则在一天中的最后一顿，她需要给鸡喂多少杯饲料？",
+  "question_solution": "answer = num_text_1 * num_digit_3 - num_digit_1 - num_digit_2",
+  "conditions": [
+    "int(answer) == num_text_1 * num_digit_3 - num_digit_1 - num_digit_2",
+    "answer > 0",
+    "num_text_1 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Wendi"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "十一",
+      "十三",
+      "十七",
+      "十九",
+      "二十三",
+      "二十九",
+      "三十一",
+      "三十七",
+      "四十一",
+      "四十三"
+    ],
+    "num_text_2": [
+      "三",
+      "三",
+      "三",
+      "三",
+      "三",
+      "三",
+      "三",
+      "三",
+      "三",
+      "三"
+    ],
+    "num_digit_1": [
+      118,
+      176,
+      160,
+      231,
+      322,
+      446,
+      520,
+      672,
+      782,
+      880
+    ],
+    "num_digit_2": [
+      217,
+      322,
+      292,
+      422,
+      589,
+      816,
+      950,
+      1227,
+      1429,
+      1607
+    ],
+    "num_digit_3": [
+      47,
+      59,
+      41,
+      53,
+      61,
+      67,
+      73,
+      79,
+      83,
+      89
+    ],
+    "answer": [
+      182,
+      269,
+      245,
+      354,
+      492,
+      681,
+      793,
+      1024,
+      1192,
+      1340
+    ]
+  },
+  "ic_question_template": "{name_female, 温迪} 的叔叔昨天从鸡舍里收集了 {num_ic, 69} 个鸡蛋。{name_female, 温迪} 每天给她的每只鸡喂 {num_text_1, 3} 杯含有种子、黄粉虫和蔬菜的混合鸡饲料，以帮助它们保持健康。她给鸡喂 {num_text_2, 3} 顿饲料。上午，她给鸡群喂 {num_digit_1, 15} 杯饲料。下午，她给鸡喂 {num_digit_2, 25} 杯饲料。如果{name_female, 温迪} 的鸡群规模达到 {num_digit_3, 20} 只，则在一天中的最后一顿，她需要给鸡喂多少杯饲料？",
+  "ic_sentence": "{name_female, 温迪} 的叔叔昨天从鸡舍里收集了 {num_ic, 69} 个鸡蛋。"
+}

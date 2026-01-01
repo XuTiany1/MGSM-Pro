@@ -1,0 +1,85 @@
+{
+  "original_question": "ユーライアの本用の鞄は彼にとって重すぎになっている。彼は15ポンド底から取り除く必要がある。彼の漫画本はそれぞれ1/4ポンドで、おもちゃはそれぞれ1/2ポンドだ。彼が30冊の漫画本を取り除いたら、おもちゃはいくつ取り除く必要があるか？",
+  "original_answer": 15,
+  "question_template": "{name_male, Uriah}の本用の鞄は彼にとって重すぎになっている。彼は{num_digit_1, 15}ポンド底から取り除く必要がある。彼の漫画本はそれぞれ{num_frac_1, 1/4}ポンドで、おもちゃはそれぞれ{num_frac_2, 1/2}ポンドだ。彼が{num_digit_2, 30}冊の漫画本を取り除いたら、おもちゃはいくつ取り除く必要があるか？",
+  "question_solution": "answer = (num_digit_1 - num_digit_2 * NUM(num_frac_1)) / NUM(num_frac_2)",
+  "conditions": [
+    "int(answer) == (num_digit_1 - num_digit_2 * NUM(num_frac_1)) / NUM(num_frac_2)",
+    "(num_digit_2 * NUM(num_frac_1)).is_integer()",
+    "((num_digit_1 - num_digit_2 * NUM(num_frac_1)) / NUM(num_frac_2)).is_integer()",
+    "num_digit_1 > num_digit_2 * NUM(num_frac_1)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1",
+    "NUM(num_frac_2) > 0",
+    "NUM(num_frac_2) < 1"
+  ],
+  "variable_word_list": {
+    "name_male": "Uriah"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15,
+      22,
+      30,
+      24,
+      28,
+      26,
+      19,
+      60,
+      36,
+      50
+    ],
+    "num_frac_1": [
+      "1/4",
+      "3/5",
+      "2/5",
+      "3/8",
+      "1/7",
+      "2/3",
+      "3/10",
+      "3/10",
+      "5/6",
+      "1/2"
+    ],
+    "num_frac_2": [
+      "1/2",
+      "1/3",
+      "2/5",
+      "3/4",
+      "1/5",
+      "1/4",
+      "2/5",
+      "2/3",
+      "1/2",
+      "2/5"
+    ],
+    "num_digit_2": [
+      30,
+      15,
+      25,
+      16,
+      21,
+      9,
+      10,
+      20,
+      12,
+      20
+    ],
+    "answer": [
+      15,
+      39,
+      50,
+      24,
+      125,
+      80,
+      40,
+      81,
+      52,
+      100
+    ]
+  },
+  "ic_question_template": "{name_male, ユーライア}のおばは屋根裏部屋で{num_ic, 91}個のビー玉を見つけました。{name_male, Uriah}の本用の鞄は彼にとって重すぎになっている。彼は{num_digit_1, 15}ポンド底から取り除く必要がある。彼の漫画本はそれぞれ{num_frac_1, 1/4}ポンドで、おもちゃはそれぞれ{num_frac_2, 1/2}ポンドだ。彼が{num_digit_2, 30}冊の漫画本を取り除いたら、おもちゃはいくつ取り除く必要があるか？",
+  "ic_sentence": "{name_male, ユーライア}のおばは屋根裏部屋で{num_ic, 91}個のビー玉を見つけました。"
+}

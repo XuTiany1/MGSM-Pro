@@ -1,0 +1,109 @@
+{
+  "original_question": "Jean adi mfeɛ mmienu sen Mark. Mfeɛ mmienu a atwam no, na Mark adi mfeɛ enum sen Jan fa mfeɛ. Sɛ Jan adi mfe aduasa a, ɛnde na Jean adi mfeɛ ahe?",
+  "original_answer": 23,
+  "question_template": "{name_male_1, Jean} adi mfeɛ {num_text_1, mmienu} sen {name_male_2, Mark}. Mfeɛ {num_text_2, mmienu} a atwam no, na {name_male_2, Mark} adi mfeɛ {num_digit_1, enum} sen  {name_female, Jan} {num_frac_1, fa} mfeɛ. Sɛ {name_female, Jan} adi mfeɛ {num_digit_2, aduasa} a, ɛnde na {name_male_1, Jean} adi mfeɛ ahe?",
+  "question_solution": "answer = f1 * num_digit_2 + num_digit_1 + t2 + t1   # f1 is the numeric value of num_frac_1; t1, t2 are the numeric values of num_text_1 and num_text_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == f1 * num_digit_2 + num_digit_1 + t2 + t1",
+    "0 < f1 < 1",
+    "t1 > 0",
+    "t2 > 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Jean",
+    "name_male_2": "Mark",
+    "name_female": "Jan"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "mmiɛnsa",
+      "anum",
+      "Nson",
+      "du",
+      "dunan",
+      "ɛnān",
+      "nsia",
+      "nkron",
+      "dunananan",
+      "du-nsia"
+    ],
+    "num_text_2": [
+      "ɛnān",
+      "nsia",
+      "anum",
+      "mmiɛnsa",
+      "nwɔtwe",
+      "nkron",
+      "duakoɔ baako",
+      "dunan",
+      "Nson",
+      "anum"
+    ],
+    "num_digit_1": [
+      7,
+      9,
+      11,
+      6,
+      13,
+      8,
+      10,
+      15,
+      12,
+      14
+    ],
+    "num_frac_1": [
+      "2/5",
+      "3/8",
+      "4/9",
+      "5/12",
+      "7/10",
+      "3/7",
+      "5/11",
+      "8/13",
+      "11/14",
+      "13/17"
+    ],
+    "num_digit_2": [
+      74,
+      78,
+      41,
+      51,
+      78,
+      79,
+      99,
+      116,
+      63,
+      56
+    ],
+    "answer": [
+      38,
+      41,
+      34,
+      36,
+      74,
+      42,
+      56,
+      88,
+      70,
+      69
+    ],
+    "num_ic": [
+      22,
+      33,
+      41,
+      77,
+      97,
+      52,
+      67,
+      115,
+      134,
+      120
+    ]
+  },
+  "ic_question_template": "{name_male_1, Jean} wͻfa no wɔ sika tutu dedaw {num_ic, 82}. {name_male_1, Jean} adi mfeɛ {num_text_1, mmienu} sen {name_male_2, Mark}. Mfeɛ {num_text_2, mmienu} a atwam no, na {name_male_2, Mark} adi mfeɛ {num_digit_1, enum} sen  {name_female, Jan} {num_frac_1, fa} mfeɛ. Sɛ {name_female, Jan} adi mfeɛ {num_digit_2, aduasa} a, ɛnde na {name_male_1, Jean} adi mfeɛ ahe?",
+  "ic_sentence": "{name_male_1, Jean} wͻfa no wɔ sika tutu dedaw {num_ic, 82}."
+}

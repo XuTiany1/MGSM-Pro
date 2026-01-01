@@ -1,0 +1,67 @@
+{
+  "original_question": "ジョンは彼の3人の子供に2足の靴をそれぞれ購入します。それぞれ$60します。彼はいくら払いましたか？",
+  "original_answer": 360,
+  "question_template": "{name_male, ジョン}のおじさんはかつて{num_ic, 15}個の帽子を買いました。{name_male, ジョン}は彼の{num_digit_1, 2}人の子供に{num_digit_2, 3}足の靴をそれぞれ購入します。それぞれ${num_digit_3, 60}します。彼はいくら払いましたか？",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 * num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "John"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "num_digit_2": [
+      2,
+      4,
+      5,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "num_digit_3": [
+      45,
+      55,
+      70,
+      80,
+      90,
+      40,
+      100,
+      65,
+      75,
+      85
+    ],
+    "answer": [
+      270,
+      880,
+      700,
+      1200,
+      3240,
+      1960,
+      6400,
+      5265,
+      7500,
+      11220
+    ]
+  },
+  "ic_question_template": "{name_male, ジョン}のおじさんはかつて{num_ic, 15}個の帽子を買いました。{name_male, ジョン}は彼の{num_digit_1, 2}人の子供に{num_digit_2, 3}足の靴をそれぞれ購入します。それぞれ${num_digit_3, 60}します。彼はいくら払いましたか？",
+  "ic_sentence": "{name_male, ジョン}のおじさんはかつて{num_ic, 15}個の帽子を買いました。"
+}

@@ -1,0 +1,91 @@
+{
+  "original_question": "Bei ya dazeni ishirini za vikombe ni $1200 kidogo kwa jumla ya gharama ya nusu dazeni ya sahani zinazouzwa $6000 kila moja. Piga hesabu ya jumla ya bei ya kila kikombe.",
+  "original_answer": 145,
+  "question_template": "Bei ya dazeni {num_text_1, ishirini} za vikombe ni ${num_digit_1, 1200} kidogo kwa jumla ya gharama ya {num_frac_1, nusu} dazeni ya sahani zinazouzwa ${num_digit_2, 6000} kila moja. Piga hesabu ya jumla ya bei ya kila kikombe.",
+  "question_solution": "answer = (f1 * 12 * num_digit_2 - num_digit_1) / (f2 * 12)   # f1 is numeric value of num_frac_1, f2 is numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (f1 * 12 * num_digit_2 - num_digit_1) / (f2 * 12)",
+    "f1 > 0",
+    "f2 > 0",
+    "num_digit_1 >= 0",
+    "num_digit_2 > 0",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "ishirini",
+      "ishirini na tano",
+      "thelathini na mbili",
+      "arobaini na saba",
+      "hamsini na moja",
+      "sitini na tano",
+      "sabini na mbili",
+      "themanini na nne",
+      "Tisini na tatu",
+      "mia moja na moja"
+    ],
+    "num_frac_1": [
+      "nusu",
+      "sehemu moja ya tatu",
+      "mbili ya tano",
+      "asilimia tatu kwa saba",
+      "nne kwa tisa",
+      "thumni tano",
+      "saba kwa kumi na tatu",
+      "tisa ya kumi na moja",
+      "kumi na moja kumi na nne",
+      "kumi na tatu kati ya kumi na tano"
+    ],
+    "num_digit_1": [
+      80502,
+      45948,
+      31272,
+      16200,
+      59740,
+      8490,
+      76896,
+      62928,
+      76848,
+      57356
+    ],
+    "num_digit_2": [
+      16017,
+      12462,
+      8595,
+      11704,
+      16365,
+      11740,
+      17784,
+      8360,
+      15134,
+      14605
+    ],
+    "answer": [
+      65,
+      13,
+      26,
+      78,
+      45,
+      102,
+      44,
+      19,
+      59,
+      78
+    ],
+    "num_ic": [
+      110,
+      799,
+      49,
+      241,
+      865,
+      803,
+      482,
+      963,
+      515,
+      134
+    ]
+  },
+  "ic_question_template": "Dozeni {num_text_1, ishirini} za vikombe viliwekwa karibu na birika vya chai {num_ic, 245} kwenye ghala. Bei ya dazeni {num_text_1, ishirini} za vikombe ni ${num_digit_1, 1200} kidogo kwa jumla ya gharama ya {num_frac_1, nusu} dazeni ya sahani zinazouzwa ${num_digit_2, 6000} kila moja. Piga hesabu ya jumla ya bei ya kila kikombe.",
+  "ic_sentence": "Dozeni {num_text_1, ishirini} za vikombe viliwekwa karibu na birika vya chai {num_ic, 245} kwenye ghala."
+}

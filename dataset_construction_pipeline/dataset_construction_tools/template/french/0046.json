@@ -1,0 +1,68 @@
+{
+  "original_question": "Avant d'aller travailler au café, Candice a mis 80 pense-bêtes dans son sac à main. En chemin, elle s'est arrêtée pour acheter un paquet de pense-bêtes au magasin. Arrivée au travail, elle a placé un pense-bête sur chacune des 220 tasses de café. Si par la suite il ne lui restait plus que 23 pense-bêtes, combien y avait-il de pense-bêtes dans le paquet qu'elle a acheté ?",
+  "original_answer": 163,
+  "question_template": "Avant d'aller travailler au café, {name_female, Candice} a mis {num_digit_1, 80} pense-bêtes dans son sac à main. En chemin, elle s'est arrêtée pour acheter un paquet de pense-bêtes au magasin. Arrivée au travail, elle a placé un pense-bête sur chacune des {num_digit_2, 220} tasses de café. Si par la suite il ne lui restait plus que {num_digit_3, 23} pense-bêtes, combien y avait-il de pense-bêtes dans le paquet qu'elle a acheté ?",
+  "question_solution": "answer = num_digit_2 + num_digit_3 - num_digit_1",
+  "conditions": [
+    "int(answer) == num_digit_2 + num_digit_3 - num_digit_1",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_2 + num_digit_3 > num_digit_1"
+  ],
+  "variable_word_list": {
+    "name_female": "Candice"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      80,
+      50,
+      120,
+      90,
+      100,
+      60,
+      75,
+      110,
+      95,
+      85
+    ],
+    "num_digit_2": [
+      220,
+      200,
+      300,
+      150,
+      280,
+      180,
+      260,
+      240,
+      300,
+      170
+    ],
+    "num_digit_3": [
+      23,
+      30,
+      25,
+      15,
+      12,
+      5,
+      40,
+      22,
+      10,
+      36
+    ],
+    "answer": [
+      163,
+      180,
+      205,
+      75,
+      192,
+      125,
+      225,
+      152,
+      215,
+      121
+    ]
+  },
+  "ic_question_template": "{name_female, Candice} a un oncle qui collectionne {num_ic, 988} mugs à café chez lui. Avant d'aller travailler au café, {name_female, Candice} a mis {num_digit_1, 80} pense-bêtes dans son sac à main. En chemin, elle s'est arrêtée pour acheter un paquet de pense-bêtes au magasin. Arrivée au travail, elle a placé un pense-bête sur chacune des {num_digit_2, 220} tasses de café. Si par la suite il ne lui restait plus que {num_digit_3, 23} pense-bêtes, combien y avait-il de pense-bêtes dans le paquet qu'elle a acheté ?",
+  "ic_sentence": "{name_female, Candice} a un oncle qui collectionne {num_ic, 988} mugs à café chez lui."
+}

@@ -1,0 +1,56 @@
+{
+  "original_question": "约瑟夫在 5 月份的支出为 500 美元。6 月份，他的支出少了 60 美元。他在这两个月的支出总额是多少？",
+  "original_answer": 940,
+  "question_template": "{name_male, 约瑟夫} 在 5 月份的支出为 {num_digit_1, 500} 美元。6 月份，他的支出少了 {num_digit_2, 60} 美元。他在这两个月的支出总额是多少？",
+  "question_solution": "answer = 2 * num_digit_1 - num_digit_2",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == 2 * num_digit_1 - num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_2 < num_digit_1"
+  ],
+  "variable_word_list": {
+    "name_male": "Joseph"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      750,
+      920,
+      1350,
+      420,
+      1111,
+      888,
+      1010,
+      627,
+      999,
+      1500
+    ],
+    "num_digit_2": [
+      130,
+      240,
+      555,
+      57,
+      321,
+      222,
+      303,
+      158,
+      437,
+      666
+    ],
+    "answer": [
+      1370,
+      1600,
+      2145,
+      783,
+      1901,
+      1554,
+      1717,
+      1096,
+      1561,
+      2334
+    ]
+  },
+  "ic_question_template": "{name_male, 约瑟夫} 的姑妈上个月收到了一份{num_ic, 412}美元的礼物。{name_male, 约瑟夫} 在 5 月份的支出为 {num_digit_1, 500} 美元。6 月份，他的支出少了 {num_digit_2, 60} 美元。他在这两个月的支出总额是多少？",
+  "ic_sentence": "{name_male, 约瑟夫} 的姑妈上个月收到了一份{num_ic, 412}美元的礼物。"
+}

@@ -1,0 +1,120 @@
+{
+  "original_question": "Michael ani gye dadepɔnkɔ ka ho. Na ɔtaa ka no bɛyɛ mpɛn 5 nnawɔtwe biara, na otwa kwasene 25 bere biara. Na ɔyɛɛ saa nnawɔtwe nnan, na afei ɔfaa adwene sɛ, ɔbɛka  dadepɔnkɔ no 2 pɛ wɔ nnawɔtwe biara, nanso na ɛyɛ nkwansin 60 biara, na ɔyɛɛ no wɔ nnawɔtwe biara mu. Akwasin dodoɔ ahe na Michael tutuu wɔ nyinaa?",
+  "original_answer": 860,
+  "question_template": "{name_male, Micheal} ani gye dadepɔnkɔ ka ho. Na ɔtaa ka no bɛyɛ mpɛn {num_digit_1, 5} nnawɔtwe biara, na otwa kwasene {num_digit_2, 25} bere biara. Na ɔyɛɛ saa nnawɔtwe {num_text_1, nnan}, na afei ɔfaa adwene sɛ, ɔbɛka dadepɔnkɔ no {num_digit_3, 2} pɛ wɔ nnawɔtwe biara, nanso na ɛyɛ nkwansin {num_digit_4, 60} biara, na ɔyɛɛ no wɔ nnawɔtwe {num_digit_5, 3} mu. Akwasin dodoɔ ahe na {name_male, Micheal} tutuu wɔ nyinaa?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * t1 + num_digit_3 * num_digit_4 * num_digit_5  # t1 is the numeric value of num_text_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * num_digit_2 * t1 + num_digit_3 * num_digit_4 * num_digit_5",
+    "t1 > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "num_digit_5 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Micheal"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      12,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31
+    ],
+    "num_digit_2": [
+      45,
+      52,
+      63,
+      74,
+      85,
+      96,
+      107,
+      118,
+      129,
+      140
+    ],
+    "num_text_1": [
+      "nsia",
+      "Nson",
+      "nwɔtwe",
+      "nkron",
+      "du",
+      "duakoɔ baako",
+      "dunan",
+      "du-mienu",
+      "dunananan",
+      "du-num"
+    ],
+    "num_digit_3": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "num_digit_4": [
+      75,
+      88,
+      99,
+      112,
+      125,
+      138,
+      149,
+      162,
+      175,
+      188
+    ],
+    "num_digit_5": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answer": [
+      4140,
+      7220,
+      11538,
+      17358,
+      24850,
+      34224,
+      45510,
+      59238,
+      75474,
+      94428
+    ],
+    "num_ic": [
+      65,
+      272,
+      94,
+      346,
+      450,
+      563,
+      188,
+      1036,
+      581,
+      280
+    ]
+  },
+  "ic_question_template": "{name_male, Micheal} wɔfa wɔ basebɔɔllɔ krataa {num_ic, 105}. {name_male, Micheal} ani gye dadepɔnkɔ ka ho. Na ɔtaa ka no bɛyɛ mpɛn {num_digit_1, 5} nnawɔtwe biara, na otwa kwasene {num_digit_2, 25} bere biara. Na ɔyɛɛ saa nnawɔtwe {num_text_1, nnan}, na afei ɔfaa adwene sɛ, ɔbɛka dadepɔnkɔ no {num_digit_3, 2} pɛ wɔ nnawɔtwe biara, nanso na ɛyɛ nkwansin {num_digit_4, 60} biara, na ɔyɛɛ no wɔ nnawɔtwe {num_digit_5, 3} mu. Akwasin dodoɔ ahe na {name_male, Micheal} tutuu wɔ nyinaa?",
+  "ic_sentence": "{name_male, Micheal} wɔfa wɔ basebɔɔllɔ krataa {num_ic, 105}."
+}

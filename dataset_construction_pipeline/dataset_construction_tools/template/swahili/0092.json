@@ -1,0 +1,110 @@
+{
+  "original_question": "Emily ana watoto 4 wanaojulikana kama Amy, Jackson, Corey, na James. Ami ana miaka 5 zaidi ya Jackson na miaka 2 mdogo kwa Corey. Iwapo James ana miaka 10 na ni mdogo kwa Corey kwa mwaka 1, Jackson ana umri wa miaka mingapi?",
+  "original_answer": 4,
+  "question_template": "{name_female_1, Emily} ana watoto {num_digit_1, 4} wanaoitwa {name_female_2, Amy}, {name_male_1, Jackson}, {name_male_2, Corey}, na {name_male_3, James}. {name_female_2, Amy} ana miaka {num_digit_2, 5} zaidi ya {name_male_1, Jackson} na miaka {num_digit_3, 2} chini ya {name_male_2, Corey}. Iwapo {name_male_3, James} ana miaka {num_digit_4, 10} na ana miaka {num_digit_5, 1} chini ya {name_male_2, Corey}, {name_male_1, Jackson} ana umri wa miaka mingapi?",
+  "question_solution": "answer = num_digit_4 + num_digit_5 - num_digit_3 - num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_4 + num_digit_5 - num_digit_3 - num_digit_2",
+    "num_digit_4 + num_digit_5 - num_digit_3 - num_digit_2 >= 0",
+    "num_digit_4 + num_digit_5 - num_digit_3 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 > 0",
+    "num_digit_5 >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Emily",
+    "name_female_2": "Amy",
+    "name_male_1": "Jackson",
+    "name_male_2": "Corey",
+    "name_male_3": "James"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "num_digit_2": [
+      3,
+      4,
+      2,
+      5,
+      1,
+      7,
+      8,
+      3,
+      9,
+      4
+    ],
+    "num_digit_3": [
+      2,
+      1,
+      3,
+      6,
+      1,
+      4,
+      2,
+      4,
+      7,
+      3
+    ],
+    "num_digit_4": [
+      8,
+      10,
+      12,
+      14,
+      7,
+      15,
+      12,
+      11,
+      16,
+      13
+    ],
+    "num_digit_5": [
+      2,
+      3,
+      4,
+      3,
+      1,
+      5,
+      2,
+      3,
+      4,
+      2
+    ],
+    "answer": [
+      5,
+      8,
+      11,
+      6,
+      6,
+      9,
+      4,
+      7,
+      4,
+      8
+    ],
+    "num_ic": [
+      31,
+      39,
+      49,
+      10,
+      33,
+      73,
+      12,
+      66,
+      61,
+      39
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_female_1, Emily} alinunua tufaha {num_ic, 39} kutoka dukani. {name_female_1, Emily} ana watoto {num_digit_1, 4} wanaoitwa {name_female_2, Amy}, {name_male_1, Jackson}, {name_male_2, Corey}, na {name_male_3, James}. {name_female_2, Amy} ana miaka {num_digit_2, 5} zaidi ya {name_male_1, Jackson} na miaka {num_digit_3, 2} chini ya {name_male_2, Corey}. Iwapo {name_male_3, James} ana miaka {num_digit_4, 10} na ana miaka {num_digit_5, 1} chini ya {name_male_2, Corey}, {name_male_1, Jackson} ana umri wa miaka mingapi?",
+  "ic_sentence": "Mjomba wa {name_female_1, Emily} alinunua tufaha {num_ic, 39} kutoka dukani."
+}

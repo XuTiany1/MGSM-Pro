@@ -1,0 +1,53 @@
+{
+  "original_question": "Une entreprise dépense 15 000 dollars en publicité pendant un an, puis dépense un tiers de cette somme en publicité pendant une autre année. Quel est le montant total que l'entreprise a dépensé en publicité au cours de ces deux années ?",
+  "original_answer": 20000,
+  "question_template": "Une entreprise dépense {num_digit_1, 15 000} dollars en publicité pendant un an, puis dépense {num_frac_1, un tiers} de cette somme en publicité pendant une autre année. Quel est le montant total que l'entreprise a dépensé en publicité au cours de ces deux années ?",
+  "question_solution": "answer = num_digit_1 * (1 + f1)   # f1 is the numeric value of num_frac_1",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (1 + f1)",
+    "num_digit_1 > 0",
+    "0 < f1 < 1",
+    "answer >= 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      15000,
+      18000,
+      14000,
+      21000,
+      16000,
+      12500,
+      28000,
+      18900,
+      24000,
+      32400
+    ],
+    "num_frac_1": [
+      "un tiers",
+      "un quart",
+      "un cinquième",
+      "deux tiers",
+      "trois quarts",
+      "deux cinquièmes",
+      "trois cinquièmes",
+      "quatre septièmes",
+      "cinq huitièmes",
+      "sept neuvièmes"
+    ],
+    "answer": [
+      20000,
+      22500,
+      16800,
+      35000,
+      28000,
+      17500,
+      44800,
+      29700,
+      39000,
+      57600
+    ]
+  },
+  "ic_question_template": "Le neveu du PDG a livré {num_ic, 91} pizzas lors de la réunion annuelle. Une entreprise dépense {num_digit_1, 15 000} dollars en publicité pendant un an, puis dépense {num_frac_1, un tiers} de cette somme en publicité pendant une autre année. Quel est le montant total que l'entreprise a dépensé en publicité au cours de ces deux années ?",
+  "ic_sentence": "Le neveu du PDG a livré {num_ic, 91} pizzas lors de la réunion annuelle."
+}

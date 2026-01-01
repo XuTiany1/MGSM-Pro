@@ -1,0 +1,105 @@
+{
+  "original_question": "A ranar Litinin, Sue ta ci ninki sau 4 na biskit fiye da 'yar uwarta. A ranar Talata ta ci ninki biyun na ƴar uwarta. 'Yar uwarta ta ci biskit 5 ranar Litinin da 13 washegari. Idan biskit 1 yana da adadin calories 200, ƙarin adadin calories nawa Sue ta cinye sama da na 'yar uwarta?",
+  "original_answer": 5600,
+  "question_template": "A ranar Litinin, {name_female, Sue} ta ci ninki sau {num_digit_1, 4} na biskit fiye da 'yar uwarta. A ranar Talata ta ci ninki {num_text_1, biyu}n na ƴar uwarta. 'Yar uwarta ta ci biskit {num_digit_2, 5} ranar Litinin da {num_digit_3, 13} washegari. Idan biskit {num_digit_4, 1} yana da adadin calories {num_digit_5, 200}, ƙarin adadin calories nawa {name_female, Sue} ta cinye sama da na 'yar uwarta?",
+  "question_solution": "answer = ((num_digit_1 * num_digit_2 + 2 * num_digit_3) - (num_digit_2 + num_digit_3)) * num_digit_5",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == ((num_digit_1 * num_digit_2 + 2 * num_digit_3) - (num_digit_2 + num_digit_3)) * num_digit_5",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      15
+    ],
+    "num_digit_2": [
+      3,
+      5,
+      8,
+      12,
+      15,
+      16,
+      18,
+      20,
+      22,
+      25
+    ],
+    "num_digit_3": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_4": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "num_digit_5": [
+      180,
+      190,
+      205,
+      210,
+      235,
+      250,
+      265,
+      275,
+      300,
+      325
+    ],
+    "answer": [
+      2340,
+      4940,
+      9225,
+      16170,
+      25615,
+      33750,
+      45845,
+      58025,
+      83700,
+      127075
+    ],
+    "num_ic": [
+      10,
+      53,
+      13,
+      81,
+      25,
+      143,
+      121,
+      77,
+      111,
+      246
+    ]
+  },
+  "ic_question_template": "Kawun {name_female, Sue} ya kawo mitifai guda {num_ic, 15} gidansu. A ranar Litinin, {name_female, Sue} ta ci ninki sau {num_digit_1, 4} na biskit fiye da 'yar uwarta. A ranar Talata ta ci ninki {num_text_1, biyu}n na ƴar uwarta. 'Yar uwarta ta ci biskit {num_digit_2, 5} ranar Litinin da {num_digit_3, 13} washegari. Idan biskit {num_digit_4, 1} yana da adadin calories {num_digit_5, 200}, ƙarin adadin calories nawa {name_female, Sue} ta cinye sama da na 'yar uwarta?",
+  "ic_sentence": "Kawun {name_female, Sue} ya kawo mitifai guda {num_ic, 15} gidansu."
+}

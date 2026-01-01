@@ -1,0 +1,79 @@
+{
+  "original_question": "一家医院每天接诊 500 人。每位患者的看诊时长平均为 24 分钟。医生对医院收费每小时 150 美元，医院对患者收费每小时 200 美元。医院从这些就诊中获得多少利润？",
+  "original_answer": 10000,
+  "question_template": "一家医院 每天接诊 {num_digit_1, 500} 人。每位患者平均看诊 {num_digit_2, 24} 分钟。医生向医院收费每小时 {num_digit_3, 150} 美元，医院向患者收费每小时 {num_digit_4, 200} 美元。医院从这些就诊中获得多少利润？",
+  "question_solution": "answer = (num_digit_4 - num_digit_3) * num_digit_1 * num_digit_2 / 60",
+  "conditions": [
+    "answer == (num_digit_4 - num_digit_3) * num_digit_1 * num_digit_2 / 60",
+    "int(answer) == answer",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > num_digit_3"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      400,
+      550,
+      300,
+      750,
+      620,
+      480,
+      1000,
+      540,
+      660,
+      900
+    ],
+    "num_digit_2": [
+      15,
+      30,
+      36,
+      24,
+      18,
+      45,
+      12,
+      50,
+      40,
+      60
+    ],
+    "num_digit_3": [
+      100,
+      120,
+      130,
+      90,
+      150,
+      140,
+      120,
+      140,
+      150,
+      115
+    ],
+    "num_digit_4": [
+      160,
+      200,
+      250,
+      180,
+      300,
+      200,
+      200,
+      250,
+      225,
+      200
+    ],
+    "answer": [
+      6000,
+      22000,
+      21600,
+      27000,
+      27900,
+      21600,
+      16000,
+      49500,
+      33000,
+      76500
+    ]
+  },
+  "ic_question_template": "院长的表亲为候诊区带来了 {num_ic, 64} 本杂志。一家医院 每天接诊 {num_digit_1, 500} 人。每位患者平均看诊 {num_digit_2, 24} 分钟。医生向医院收费每小时 {num_digit_3, 150} 美元，医院向患者收费每小时 {num_digit_4, 200} 美元。医院从这些就诊中获得多少利润？",
+  "ic_sentence": "院长的表亲为候诊区带来了 {num_ic, 64} 本杂志。"
+}

@@ -1,0 +1,81 @@
+{
+  "original_question": "Lori chọrọ ịzụta akpụkpọ ụkwụ $320.00 na eriri nke dabara nke bụ $32.00. Ọrụ nchere oge ya na-akwụ ya $8.00 kwa awa. Awa ole ka ọ ga-arụ ọrụ tụtụ o nwe ike izuta ihe ?",
+  "original_answer": 44,
+  "question_template": "{name_female, Lori} chọrọ ịzụta akpụkpọ ụkwụ ${num_digit_1, 320.00} na eriri nke dabara nke bụ ${num_digit_2, 32.00}. Ọrụ nchere oge ya na-akwụ ya ${num_digit_3, 8.00} kwa awa. Awa ole ka ọ ga-arụ ọrụ tụtụ o nwe ike izuta ihe?",
+  "question_solution": "answer = (num_digit_1 + num_digit_2) / num_digit_3",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == (num_digit_1 + num_digit_2) / num_digit_3",
+    "num_digit_1 >= 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 > 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_female": "Lori"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      387.33,
+      1294.04,
+      459.72,
+      1003.26,
+      660.2,
+      1155.58,
+      1042.67,
+      433.86,
+      242.01,
+      1217.24
+    ],
+    "num_digit_2": [
+      401.88,
+      899.71,
+      490.03,
+      279.99,
+      565.05,
+      566.92,
+      675.61,
+      198.64,
+      115.49,
+      1461.76
+    ],
+    "num_digit_3": [
+      9.99,
+      18.75,
+      7.25,
+      7.25,
+      7.25,
+      16.25,
+      9.99,
+      13.75,
+      13.75,
+      14.25
+    ],
+    "answer": [
+      79,
+      117,
+      131,
+      177,
+      169,
+      106,
+      172,
+      46,
+      26,
+      188
+    ],
+    "num_ic": [
+      47,
+      981,
+      249,
+      103,
+      92,
+      846,
+      833,
+      355,
+      156,
+      1330
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_female, Lori} chọtara {num_ic, 47} akwụkwọ mgbasa ozi ihe nkiri ochie n'elu ụlọ ya. {name_female, Lori} chọrọ ịzụta akpụkpọ ụkwụ ${num_digit_1, 320.00} na eriri nke dabara nke bụ ${num_digit_2, 32.00}. Ọrụ nchere oge ya na-akwụ ya ${num_digit_3, 8.00} kwa awa. Awa ole ka ọ ga-arụ ọrụ tụtụ o nwe ike izuta ihe?",
+  "ic_sentence": "Nwanne nna {name_female, Lori} chọtara {num_ic, 47} akwụkwọ mgbasa ozi ihe nkiri ochie n'elu ụlọ ya."
+}

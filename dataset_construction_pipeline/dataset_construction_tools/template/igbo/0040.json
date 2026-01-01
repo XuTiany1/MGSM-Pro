@@ -1,0 +1,81 @@
+{
+  "original_question": "iPhone Brandon mere ochie ukpo anọ dịka iPhone nke Ben. iPhone nke Ben dị ochie ugboro abụọ karịa iPhone Suzy. Ọ bụrụ na iPhone Suzy dị otu áfọ̀, kedụ áfọ̀ ole iPhone Brandon di? ",
+  "original_answer": 8,
+  "question_template": "iPhone {name_male_1, Brandon} mere ochie ukpo {num_text_1, anọ} dịka iPhone nke {name_male_2, Ben}. iPhone nke {name_male_2, Ben} dị ochie ugboro {num_text_2, atọ} karịa iPhone {name_female, Suzy}. Ọ bụrụ na iPhone {name_female, Suzy} dị {num_digit_1, 2} áfọ̀, kedụ áfọ̀ ole iPhone {name_male_1, Brandon} di?",
+  "question_solution": "answer = NUM(num_text_1) * NUM(num_text_2) * num_digit_1",
+  "conditions": [
+    "int(answer) == NUM(num_text_1) * NUM(num_text_2) * num_digit_1",
+    "NUM(num_text_1) > 0",
+    "NUM(num_text_2) > 0",
+    "num_digit_1 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Brandon",
+    "name_male_2": "Ben",
+    "name_female": "Suzy"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "ise",
+      "asaa",
+      "asatọ",
+      "itoolu",
+      "iri na otu",
+      "iri na atọ",
+      "iri na anọ",
+      "iri na ise",
+      "iri na isii",
+      "iri asatọ na abụọ"
+    ],
+    "num_text_2": [
+      "Atọ",
+      "Anọ",
+      "ise",
+      "isii",
+      "asaa",
+      "abụọ",
+      "itoolu",
+      "Iri",
+      "iri na otu",
+      "Anọ"
+    ],
+    "num_digit_1": [
+      2,
+      3,
+      1,
+      4,
+      2,
+      5,
+      3,
+      1,
+      2,
+      6
+    ],
+    "answer": [
+      30,
+      84,
+      40,
+      216,
+      154,
+      130,
+      378,
+      150,
+      352,
+      432
+    ],
+    "num_ic": [
+      8,
+      76,
+      14,
+      146,
+      108,
+      156,
+      181,
+      25,
+      74,
+      28
+    ]
+  },
+  "ic_question_template": "Nwanne nna {name_male_2, Ben} zụrụ akpa ekwentị ọhụrụ {num_ic, 15} n’afọ na-adịbeghị anya. iPhone {name_male_1, Brandon} mere ochie ukpo {num_text_1, anọ} dịka iPhone nke {name_male_2, Ben}. iPhone nke {name_male_2, Ben} dị ochie ugboro {num_text_2, atọ} karịa iPhone {name_female, Suzy}. Ọ bụrụ na iPhone {name_female, Suzy} dị {num_digit_1, 2} áfọ̀, kedụ áfọ̀ ole iPhone {name_male_1, Brandon} di?",
+  "ic_sentence": "Nwanne nna {name_male_2, Ben} zụrụ akpa ekwentị ọhụrụ {num_ic, 15} n’afọ na-adịbeghị anya."
+}

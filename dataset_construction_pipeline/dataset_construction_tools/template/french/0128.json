@@ -1,0 +1,95 @@
+{
+  "original_question": "La mère de Well vend des pastèques, des poivrons et des oranges au magasin du quartier. Une pastèque coûte trois fois plus cher qu'un poivron et une orange 5 fois moins qu'une pastèque. Dillon est envoyé au magasin pour acheter 4pastèques, 20 poivrons et 10 oranges. Quelle somme totale dépensera-t-il si chaque poivron coûte 15 $ ?",
+  "original_answer": 880,
+  "question_template": "La mère de {name_male_1, Well} vend des pastèques, des poivrons et des oranges au magasin du quartier. Une pastèque coûte trois fois plus cher qu'un poivron et une orange {num_digit_1, 5} fois moins qu'une pastèque. {name_male_2, Dillon} est envoyé au magasin pour acheter {num_digit_2, 4} pastèques, {num_digit_3, 20} poivrons et {num_digit_4, 10} oranges. Quelle somme totale dépensera-t-il si chaque poivron coûte {num_digit_5, 15} $ ?",
+  "question_solution": "answer = num_digit_3 * num_digit_5 + num_digit_2 * (3 * num_digit_5) + num_digit_4 * (3 * num_digit_5 - num_digit_1)",
+  "conditions": [
+    "int(answer) == num_digit_3 * num_digit_5 + num_digit_2 * (3 * num_digit_5) + num_digit_4 * (3 * num_digit_5 - num_digit_1)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 > 0",
+    "3 * num_digit_5 > num_digit_1"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Well",
+    "name_male_2": "Dillon"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      12,
+      4,
+      9,
+      6,
+      8,
+      11,
+      14,
+      10,
+      3
+    ],
+    "num_digit_2": [
+      5,
+      8,
+      6,
+      3,
+      9,
+      7,
+      4,
+      12,
+      10,
+      15
+    ],
+    "num_digit_3": [
+      25,
+      30,
+      18,
+      40,
+      22,
+      35,
+      27,
+      50,
+      33,
+      45
+    ],
+    "num_digit_4": [
+      12,
+      15,
+      8,
+      20,
+      11,
+      14,
+      9,
+      25,
+      16,
+      30
+    ],
+    "num_digit_5": [
+      18,
+      21,
+      24,
+      27,
+      30,
+      33,
+      36,
+      39,
+      42,
+      45
+    ],
+    "answer": [
+      1284,
+      1899,
+      1408,
+      2763,
+      2394,
+      3122,
+      2277,
+      5929,
+      4502,
+      8010
+    ]
+  },
+  "ic_question_template": "{name_male_2, Dillon} a une tante qui a acheté {num_ic, 92} ananas hier. La mère de {name_male_1, Well} vend des pastèques, des poivrons et des oranges au magasin du quartier. Une pastèque coûte trois fois plus cher qu'un poivron et une orange {num_digit_1, 5} fois moins qu'une pastèque. {name_male_2, Dillon} est envoyé au magasin pour acheter {num_digit_2, 4} pastèques, {num_digit_3, 20} poivrons et {num_digit_4, 10} oranges. Quelle somme totale dépensera-t-il si chaque poivron coûte {num_digit_5, 15} $ ?",
+  "ic_sentence": "{name_male_2, Dillon} a une tante qui a acheté {num_ic, 92} ananas hier."
+}

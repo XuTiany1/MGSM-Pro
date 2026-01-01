@@ -1,0 +1,82 @@
+{
+  "original_question": "马克为他的公司买了一支由 12 辆车组成的车队。每辆车售价 20,000 美元。他为这些车付了 10% 的税，又为每辆车交了 1,000 美元的注册费。他为这一切花了多少钱？",
+  "original_answer": 276000,
+  "question_template": "{name_male, 马克} 为他的公司买了一支由 {num_digit_1, 12} 辆车组成的车队。每辆车售价 {num_digit_2, 20,000} 美元。他为这些车付了 {num_digit_3, 10}% 的税，又为每辆车交了 {num_digit_4, 1000} 美元的注册费。他为这一切花了多少钱？",
+  "question_solution": "answer = num_digit_1 * (num_digit_2 * (1 + num_digit_3/100) + num_digit_4)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 * (num_digit_2 * (1 + num_digit_3/100) + num_digit_4)",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_4 >= 0",
+    "answer >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Mark"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      13,
+      17,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "num_digit_2": [
+      19900,
+      20100,
+      18400,
+      22300,
+      25600,
+      19800,
+      21000,
+      23400,
+      27800,
+      31200
+    ],
+    "num_digit_3": [
+      7,
+      12,
+      15,
+      18,
+      22,
+      25,
+      28,
+      30,
+      33,
+      37
+    ],
+    "num_digit_4": [
+      1575,
+      1999,
+      2345,
+      3456,
+      4123,
+      5000,
+      6789,
+      8899,
+      9999,
+      10456
+    ],
+    "answer": [
+      297284,
+      416687,
+      540615,
+      863330,
+      1096005,
+      1100750,
+      1380429,
+      1690717,
+      2207731,
+      2819600
+    ]
+  },
+  "ic_question_template": "{name_male, 马克} 的堂兄最近买了 {num_ic, 111} 辆摩托车。{name_male, 马克} 为他的公司买了一支由 {num_digit_1, 12} 辆车组成的车队。每辆车售价 {num_digit_2, 20,000} 美元。他为这些车付了 {num_digit_3, 10}% 的税，又为每辆车交了 {num_digit_4, 1000} 美元的注册费。他为这一切花了多少钱？",
+  "ic_sentence": "{name_male, 马克} 的堂兄最近买了 {num_ic, 111} 辆摩托车。"
+}

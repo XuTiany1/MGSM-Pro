@@ -1,0 +1,81 @@
+{
+  "original_question": "Jan yana da adadin dabbobi sau uku kamar Marcia. Marcia tana da ƙarin dabbobi biyu fiye da Cindy. Idan Cindy tana da dabbobi hudu, jimillar dabbobi nawa ukun suke da su?",
+  "original_answer": 28,
+  "question_template": "{name_female_1, Jan} yana da adadin dabbobi sau {num_text_1, uku} kamar {name_female_2, Marcia}. {name_female_2, Marcia} tana da ƙarin dabbobi {num_text_2, biyu} fiye da {name_female_3, Cindy}. Idan {name_female_3, Cindy} tana da dabbobi {num_text_3, huɗu}, jimillar dabbobi nawa ukun suke da su?",
+  "question_solution": "answer = NUM(num_text_3) + (NUM(num_text_3) + NUM(num_text_2)) + NUM(num_text_1) * (NUM(num_text_3) + NUM(num_text_2))",
+  "conditions": [
+    "int(answer) == NUM(num_text_3) + (NUM(num_text_3) + NUM(num_text_2)) + NUM(num_text_1) * (NUM(num_text_3) + NUM(num_text_2))",
+    "NUM(num_text_1) > 0",
+    "NUM(num_text_2) >= 0",
+    "NUM(num_text_3) >= 0"
+  ],
+  "variable_word_list": {
+    "name_female_1": "Jan",
+    "name_female_2": "Marcia",
+    "name_female_3": "Cindy"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "biyu",
+      "uku",
+      "hudu",
+      "biyar",
+      "shida",
+      "bakwai",
+      "Takwas",
+      "tara",
+      "Goma",
+      "goma sha ɗaya"
+    ],
+    "num_text_2": [
+      "uku",
+      "hudu",
+      "ɗaya",
+      "biyu",
+      "uku",
+      "hudu",
+      "biyar",
+      "shida",
+      "bakwai",
+      "Takwas"
+    ],
+    "num_text_3": [
+      "biyar",
+      "biyu",
+      "bakwai",
+      "shida",
+      "ɗaya",
+      "uku",
+      "biyu",
+      "hudu",
+      "ɗaya",
+      "uku"
+    ],
+    "answer": [
+      29,
+      26,
+      47,
+      54,
+      29,
+      59,
+      65,
+      104,
+      89,
+      135
+    ],
+    "num_ic": [
+      12,
+      49,
+      21,
+      36,
+      18,
+      28,
+      27,
+      30,
+      37,
+      83
+    ]
+  },
+  "ic_question_template": "Kawun {name_female_2, Marcia} yana da tsuntsaye {num_ic, 16}. {name_female_1, Jan} yana da adadin dabbobi sau {num_text_1, uku} kamar {name_female_2, Marcia}. {name_female_2, Marcia} tana da ƙarin dabbobi {num_text_2, biyu} fiye da {name_female_3, Cindy}. Idan {name_female_3, Cindy} tana da dabbobi {num_text_3, huɗu}, jimillar dabbobi nawa ukun suke da su?",
+  "ic_sentence": "Kawun {name_female_2, Marcia} yana da tsuntsaye {num_ic, 16}."
+}

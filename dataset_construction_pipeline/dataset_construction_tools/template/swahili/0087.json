@@ -1,0 +1,80 @@
+{
+  "original_question": "Kampuni hulipa kila mmoja wa wafanyakazi wake $600 kwa mwezi. Kampuni hiyo ina sera ya kuongeza mishahara ya kila mfanyakazi kwa 10% ya mshahara wa awali kila mwaka kwa wale ambao wamekaa kwenye kampuni hiyo kwa miaka mitano. Ikiwa Sylvie alifikisha miaka 5 katika kampuni hiyo Desemba iliyopita, mshahara wake wa kila mwaka baada ya miaka mitatu zaidi ya kuhudumia kampuni hiyo ni ngapi?",
+  "original_answer": 9360,
+  "question_template": "Kampuni hulipa kila mmoja wa wafanyakazi wake ${num_digit_1, 600} kwa mwezi. Kampuni hiyo ina sera ya kuongeza mishahara ya kila mfanyakazi kwa {num_digit_2, 10}% ya mshahara wa awali kila mwaka kwa wale ambao wamekaa kwenye kampuni hiyo kwa {num_text_1, mitano} miaka. Ikiwa {name_female, Sylvie} alifikisha miaka {num_digit_3, 5} katika kampuni hiyo Desemba iliyopita, mshahara wake wa kila mwaka baada ya {num_text_2, mitatu} miaka zaidi ya kuhudumia kampuni hiyo ni ngapi?",
+  "question_solution": "answer = num_digit_1 * (1 + NUM(num_text_2) * num_digit_2 / 100) * 12",
+  "conditions": [
+    "int(answer) == num_digit_1 * (1 + NUM(num_text_2) * num_digit_2 / 100) * 12",
+    "NUM(num_text_2) > 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_2 < 100"
+  ],
+  "variable_word_list": {
+    "name_female": "Sylvie"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      500,
+      550,
+      625,
+      720,
+      800,
+      825,
+      900,
+      1000,
+      1100,
+      1200
+    ],
+    "num_digit_2": [
+      5,
+      8,
+      12,
+      20,
+      25,
+      4,
+      15,
+      30,
+      50,
+      6
+    ],
+    "num_text_2": [
+      "mbili",
+      "tatu",
+      "nne",
+      "sita",
+      "nane",
+      "tano",
+      "saba",
+      "tisa",
+      "kumi",
+      "kumi na moja"
+    ],
+    "answer": [
+      6600,
+      8184,
+      11100,
+      19008,
+      28800,
+      11880,
+      22140,
+      44400,
+      79200,
+      23904
+    ],
+    "num_ic": [
+      35,
+      98,
+      72,
+      312,
+      226,
+      87,
+      356,
+      45,
+      274,
+      73
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_female, Sylvie} hivi karibuni alinunua viti vya ofisi {num_ic, 77}. Kampuni hulipa kila mmoja wa wafanyakazi wake ${num_digit_1, 600} kwa mwezi. Kampuni hiyo ina sera ya kuongeza mishahara ya kila mfanyakazi kwa {num_digit_2, 10}% ya mshahara wa awali kila mwaka kwa wale ambao wamekaa kwenye kampuni hiyo kwa {num_text_1, mitano} miaka. Ikiwa {name_female, Sylvie} alifikisha miaka {num_digit_3, 5} katika kampuni hiyo Desemba iliyopita, mshahara wake wa kila mwaka baada ya {num_text_2, mitatu} miaka zaidi ya kuhudumia kampuni hiyo ni ngapi?",
+  "ic_sentence": "Mjomba wa {name_female, Sylvie} hivi karibuni alinunua viti vya ofisi {num_ic, 77}."
+}

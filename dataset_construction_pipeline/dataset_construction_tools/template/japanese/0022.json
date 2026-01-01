@@ -1,0 +1,93 @@
+{
+  "original_question": "ビリーはDVDを売ります。彼は火曜日に8人のお客様がいます。彼の最初の3人のお客様はそれぞれ1枚のDVDを購入します。彼の翌日の2人の顧客は2枚のDVDをそれぞれ購入しました。の最後の3人のお客様はDVDを購入しません。ビリーは火曜日に何枚のDVDを売りましたか？",
+  "original_answer": 7,
+  "question_template": "{name_male, ビリー} はDVDを売ります。彼は火曜日に{num_digit_1, 8}人のお客様がいます。彼の最初の{num_digit_2, 3}人のお客様はそれぞれ1枚のDVDを購入します。彼の次の{num_digit_3, 2}人の顧客は{num_digit_4, 2}枚のDVDをそれぞれ購入しました。最後の{num_digit_5, 3}人のお客様はDVDを購入しません。{name_male, ビリー} は火曜日に何枚のDVDを売りましたか？",
+  "question_solution": "answer = num_digit_2 + num_digit_3 * num_digit_4",
+  "conditions": [
+    "int(answer) == num_digit_2 + num_digit_3 * num_digit_4",
+    "num_digit_1 == num_digit_2 + num_digit_3 + num_digit_5",
+    "num_digit_2 > 0",
+    "num_digit_3 > 0",
+    "num_digit_4 > 0",
+    "num_digit_5 >= 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Billy"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "num_digit_2": [
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "num_digit_3": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "num_digit_4": [
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "num_digit_5": [
+      32,
+      35,
+      36,
+      35,
+      36,
+      33,
+      32,
+      31,
+      30,
+      33
+    ],
+    "answer": [
+      39,
+      68,
+      95,
+      138,
+      175,
+      236,
+      321,
+      378,
+      485,
+      576
+    ]
+  },
+  "ic_question_template": "{name_male, ビリー}のおばさんは{num_ic, 18}個のポップコーンバッグを持ってきて、みんなと分けました。{name_male, ビリー} はDVDを売ります。彼は火曜日に{num_digit_1, 8}人のお客様がいます。彼の最初の{num_digit_2, 3}人のお客様はそれぞれ1枚のDVDを購入します。彼の次の{num_digit_3, 2}人の顧客は{num_digit_4, 2}枚のDVDをそれぞれ購入しました。最後の{num_digit_5, 3}人のお客様はDVDを購入しません。{name_male, ビリー} は火曜日に何枚のDVDを売りましたか？",
+  "ic_sentence": "{name_male, ビリー}のおばさんは{num_ic, 18}個のポップコーンバッグを持ってきて、みんなと分けました。"
+}

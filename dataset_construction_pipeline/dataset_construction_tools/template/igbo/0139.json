@@ -1,0 +1,76 @@
+{
+  "original_question": "N'ime igwe kandi, enwere iri abụọ na abụọ karịa ugboro anọ ọnụ ọgụgụ gọmbọọlụ pịnkị dịka enwere gọmboolụ anụnụ anụnụ. Ọ bụrụ na enwere gọmbọọlụ anụnụ anụnụ iri na abụọ nke pịnkị ole di ebe ahụ?",
+  "original_answer": 70,
+  "question_template": "N'ime igwe kandi, enwere {num_digit_1, 22} karịa ugboro {num_text_1, anọ} ọnụ ọgụgụ gọmbọọlụ pịnkị dịka enwere gọmboolụ anụnụ anụnụ. Ọ bụrụ na enwere gọmbọọlụ anụnụ anụnụ {num_digit_2, 12}, nke pịnkị ole di ebe ahụ?",
+  "question_solution": "answer = num_digit_1 + k * num_digit_2   # k is the numeric value corresponding to num_text_1 (e.g., four → 4, five → 5, …)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + k * num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      37,
+      45,
+      21,
+      80,
+      13,
+      64,
+      101,
+      9,
+      58,
+      73
+    ],
+    "num_digit_2": [
+      17,
+      8,
+      33,
+      42,
+      99,
+      50,
+      31,
+      123,
+      62,
+      81
+    ],
+    "num_text_1": [
+      "ise",
+      "isii",
+      "asaa",
+      "asatọ",
+      "itoolu",
+      "Iri",
+      "iri na otu",
+      "iri na abụọ",
+      "iri na atọ",
+      "iri na anọ"
+    ],
+    "answer": [
+      122,
+      93,
+      252,
+      416,
+      904,
+      564,
+      442,
+      1485,
+      864,
+      1207
+    ],
+    "num_ic": [
+      147,
+      72,
+      215,
+      409,
+      30,
+      469,
+      776,
+      59,
+      593,
+      317
+    ]
+  },
+  "ic_question_template": "Ụmụaka {num_ic, 147} kwụsịrị n’akụkụ igwe ahụ n’ụbọchị ahụ. N'ime igwe kandi, enwere {num_digit_1, 22} karịa ugboro {num_text_1, anọ} ọnụ ọgụgụ gọmbọọlụ pịnkị dịka enwere gọmboolụ anụnụ anụnụ. Ọ bụrụ na enwere gọmbọọlụ anụnụ anụnụ {num_digit_2, 12}, nke pịnkị ole di ebe ahụ?",
+  "ic_sentence": "Ụmụaka {num_ic, 147} kwụsịrị n’akụkụ igwe ahụ n’ụbọchị ahụ."
+}

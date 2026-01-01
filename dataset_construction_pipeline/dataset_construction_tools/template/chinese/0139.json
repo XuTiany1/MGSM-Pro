@@ -1,0 +1,64 @@
+{
+  "original_question": "在一台糖果机中，粉色口香糖球的数量比蓝色口香糖球数量的四倍多 22 颗。如果有 12 颗蓝色口香糖球，粉色口香糖球有多少颗？",
+  "original_answer": 70,
+  "question_template": "在一台糖果机中，粉色口香糖球的数量比蓝色口香糖球数量的 {num_text_1, 四} 倍多 {num_digit_1, 22} 颗。如果有 {num_digit_2, 12} 颗蓝色口香糖球，粉色口香糖球有多少颗？",
+  "question_solution": "answer = num_digit_1 + k * num_digit_2   # k is the numeric value corresponding to num_text_1 (e.g., four → 4, five → 5, …)",
+  "conditions": [
+    "int(answer) == answer",
+    "answer == num_digit_1 + k * num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      37,
+      45,
+      21,
+      80,
+      13,
+      64,
+      101,
+      9,
+      58,
+      73
+    ],
+    "num_digit_2": [
+      17,
+      8,
+      33,
+      42,
+      99,
+      50,
+      31,
+      123,
+      62,
+      81
+    ],
+    "num_text_1": [
+      "五",
+      "六",
+      "七",
+      "八",
+      "九",
+      "十",
+      "十一",
+      "十二",
+      "十三",
+      "十四"
+    ],
+    "answer": [
+      122,
+      93,
+      252,
+      416,
+      904,
+      564,
+      442,
+      1485,
+      864,
+      1207
+    ]
+  },
+  "ic_question_template": "{num_ic, 147} 个孩子那天在机器旁停留。在一台糖果机中，粉色口香糖球的数量比蓝色口香糖球数量的 {num_text_1, 四} 倍多 {num_digit_1, 22} 颗。如果有 {num_digit_2, 12} 颗蓝色口香糖球，粉色口香糖球有多少颗？",
+  "ic_sentence": "{num_ic, 147} 个孩子那天在机器旁停留。"
+}

@@ -1,0 +1,80 @@
+{
+  "original_question": "Finn hwɛ sɛ konkontiba dubaako dware wɔ ɔtare no mu. Prɛko pɛ ohu wɔn mu nsia sɛ wɔresɔre afi baabi a ɔtetɛ wɔn ho wɔ nhwiren no ase, na afei ohu wɔn mu mmiensu sɛ wɔretetɛ wɔn ho wɔ ɔbotan bi ase. Konkontiba dodoɔ ahe na Finn tumi hu wɔ ɔtare no mu seesei?",
+  "original_answer": 15,
+  "question_template": "{name_male, Finn} hwɛ sɛ konkontiba {num_digit_1, dubaako} dware wɔ ɔtare no mu. Prɛko pɛ ohu wɔn mu {num_digit_2, nsia} sɛ wɔresɔre afi baabi a ɔtetɛ wɔn ho wɔ nhwiren no ase, na afei ohu wɔn mu {num_digit_3, mmiensu} sɛ wɔretetɛ wɔn ho wɔ ɔbotan bi ase. Konkontiba dodoɔ ahe na {name_male, Finn} tumi hu wɔ ɔtare no mu seesei?",
+  "question_solution": "answer = num_digit_1 + num_digit_2 - num_digit_3",
+  "conditions": [
+    "answer == num_digit_1 + num_digit_2 - num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0",
+    "answer > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Finn"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      23,
+      45,
+      17,
+      80,
+      60,
+      30,
+      55,
+      100,
+      73,
+      90
+    ],
+    "num_digit_2": [
+      12,
+      20,
+      8,
+      15,
+      25,
+      10,
+      30,
+      40,
+      12,
+      5
+    ],
+    "num_digit_3": [
+      5,
+      7,
+      4,
+      20,
+      10,
+      6,
+      12,
+      25,
+      9,
+      30
+    ],
+    "answer": [
+      30,
+      58,
+      21,
+      75,
+      75,
+      34,
+      73,
+      115,
+      76,
+      65
+    ],
+    "num_ic": [
+      82,
+      330,
+      45,
+      269,
+      209,
+      97,
+      456,
+      871,
+      217,
+      683
+    ]
+  },
+  "ic_question_template": "{name_male, Finn} wɔfa huu apɔtrɔ {num_ic, 87} wɔ ɔtare foforo bi anɔpa yi. {name_male, Finn} hwɛ sɛ konkontiba {num_digit_1, dubaako} dware wɔ ɔtare no mu. Prɛko pɛ ohu wɔn mu {num_digit_2, nsia} sɛ wɔresɔre afi baabi a ɔtetɛ wɔn ho wɔ nhwiren no ase, na afei ohu wɔn mu {num_digit_3, mmiensu} sɛ wɔretetɛ wɔn ho wɔ ɔbotan bi ase. Konkontiba dodoɔ ahe na {name_male, Finn} tumi hu wɔ ɔtare no mu seesei?",
+  "ic_sentence": "{name_male, Finn} wɔfa huu apɔtrɔ {num_ic, 87} wɔ ɔtare foforo bi anɔpa yi."
+}

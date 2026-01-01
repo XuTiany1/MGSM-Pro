@@ -1,0 +1,42 @@
+{
+  "original_question": "コディーはアミールが食べる量の3倍のクッキーを食べます。アミールがもしも5枚のクッキーを食べるとすると、彼らは二人で何枚のクッキーを食べますか？",
+  "original_answer": 20,
+  "question_template": "{name_male_1, コディー}は{name_male_2, アミール}が食べる量の{num_text_1, 三}倍のクッキーを食べます。{name_male_2, アミール}がもしも{num_digit_1, 5}**枚のクッキーを食べるとすると、彼らは二人で何枚のクッキーを食べますか？",
+  "question_solution": "answer = (3 + 1) * num_digit_1",
+  "conditions": [
+    "int(answer) == 4 * num_digit_1",
+    "num_digit_1 > 0"
+  ],
+  "variable_word_list": {
+    "name_male_1": "Cody",
+    "name_male_2": "Amir"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      7,
+      9,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37
+    ],
+    "answer": [
+      28,
+      36,
+      44,
+      52,
+      68,
+      76,
+      92,
+      116,
+      124,
+      148
+    ]
+  },
+  "ic_question_template": "{name_male_2, アミール}のおじさんがパーティーに{num_ic, 20}個のブラウニーを持ってきました。{name_male_1, コディー}は{name_male_2, アミール}が食べる量の{num_text_1, 三}倍のクッキーを食べます。{name_male_2, アミール}がもしも{num_digit_1, 5}**枚のクッキーを食べるとすると、彼らは二人で何枚のクッキーを食べますか？",
+  "ic_sentence": "{name_male_2, アミール}のおじさんがパーティーに{num_ic, 20}個のブラウニーを持ってきました。"
+}

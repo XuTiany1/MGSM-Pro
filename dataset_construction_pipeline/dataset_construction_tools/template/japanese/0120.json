@@ -1,0 +1,54 @@
+{
+  "original_question": "ミゲルは、彼の絵に週に2パッドの紙を使う。もしも1パッドの紙に30枚入っているとすると、彼は毎月何枚の紙を使う？",
+  "original_answer": 240,
+  "question_template": "{name_male, ミゲル} は、彼の絵に週に{num_digit_1, 2}パッドの紙を使う。もしも1パッドの紙に{num_digit_2, 30}枚入っているとすると、彼は毎月何枚の紙を使う？",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * 4",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 * 4",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Miguel"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      5,
+      7,
+      4,
+      6,
+      9,
+      8,
+      10,
+      12,
+      15
+    ],
+    "num_digit_2": [
+      25,
+      40,
+      18,
+      45,
+      32,
+      35,
+      22,
+      50,
+      28,
+      24
+    ],
+    "answer": [
+      300,
+      800,
+      504,
+      720,
+      768,
+      1260,
+      704,
+      2000,
+      1344,
+      1440
+    ]
+  },
+  "ic_question_template": "{name_male, ミゲル}のおじさんのアトリエには{num_ic, 100}本の色鉛筆があります。{name_male, ミゲル} は、彼の絵に週に{num_digit_1, 2}パッドの紙を使う。もしも1パッドの紙に{num_digit_2, 30}枚入っているとすると、彼は毎月何枚の紙を使う？",
+  "ic_sentence": "{name_male, ミゲル}のおじさんのアトリエには{num_ic, 100}本の色鉛筆があります。"
+}

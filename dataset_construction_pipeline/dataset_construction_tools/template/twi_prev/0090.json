@@ -1,0 +1,93 @@
+{
+  "original_question": "Na Ted, T-Rex no ԑԑyԑ nhyehyԑeԑ sԑ wɔde atommo ԑԑba dinosaur aduanedie no mu. Ͻnim sԑ dinosaur panin biara bԑdi atommo 10 lbs, na akwadaa biara bԑdi deԑ panin bԑdi no mu fa. Sԑ mpaninfoɔ`20 ne mmɔfra 5 na ԑbԑba aduanedie nhyiamu yi ase a, atommo emu-duru sԑn na ԑwɔ sԑ Ted de ba aduanedie nhyiamu no ase sԑ ɔpԑ sԑ ɔnya bebree a ɔde bԑma oibara a?",
+  "original_answer": 225,
+  "question_template": "Na {name_dinosaur, Ted}, T-Rex no ԑԑyԑ nhyehyԑeԑ sԑ wɔde atommo ԑԑba dinosaur aduanedie no mu. Ͻnim sԑ dinosaur panin biara bԑdi atommo {num_digit_1, 10} lbs, na akwadaa biara bԑdi deԑ panin bԑdi no mu {num_frac_1, fa}. Sԑ mpaninfoɔ {num_digit_2, 20} ne mmɔfra {num_digit_3, 5} na ԑbԑba aduanedie nhyiamu yi ase a, atommo emu-duru sԑn na ԑwɔ sԑ {name_dinosaur, Ted} de ba aduanedie nhyiamu no ase sԑ ɔpԑ sԑ ɔnya bebree a ɔde bԑma oibara a?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 + num_digit_1 * NUM(num_frac_1) * num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 + num_digit_1 * NUM(num_frac_1) * num_digit_3",
+    "NUM(num_frac_1) > 0",
+    "NUM(num_frac_1) < 1",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_3 >= 0"
+  ],
+  "variable_word_list": {
+    "name_dinosaur": "Ted"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      20,
+      30,
+      26,
+      26,
+      24,
+      15,
+      6,
+      27,
+      16,
+      10
+    ],
+    "num_frac_1": [
+      "1/2",
+      "1/2",
+      "5/6",
+      "1/2",
+      "1/4",
+      "1/4",
+      "3/4",
+      "4/5",
+      "3/4",
+      "1/6"
+    ],
+    "num_digit_2": [
+      27,
+      10,
+      17,
+      11,
+      27,
+      24,
+      21,
+      25,
+      10,
+      7
+    ],
+    "num_digit_3": [
+      11,
+      23,
+      27,
+      30,
+      19,
+      16,
+      10,
+      25,
+      25,
+      30
+    ],
+    "answer": [
+      650,
+      645,
+      1027,
+      676,
+      762,
+      420,
+      171,
+      1215,
+      460,
+      120
+    ],
+    "num_ic": [
+      53,
+      159,
+      38,
+      145,
+      104,
+      122,
+      82,
+      44,
+      65,
+      63
+    ]
+  },
+  "ic_question_template": "Na {name_dinosaur, Ted}, T-Rex no ԑԑyԑ nhyehyԑeԑ sԑ wɔde atommo ԑԑba dinosaur aduanedie no mu. Ͻnim sԑ dinosaur panin biara bԑdi atommo {num_digit_1, 10} lbs, na akwadaa biara bԑdi deԑ panin bԑdi no mu {num_frac_1, fa}. Sԑ mpaninfoɔ {num_digit_2, 20} ne mmɔfra {num_digit_3, 5} na ԑbԑba aduanedie nhyiamu yi ase a, atommo emu-duru sԑn na ԑwɔ sԑ {name_dinosaur, Ted} de ba aduanedie nhyiamu no ase sԑ ɔpԑ sԑ ɔnya bebree a ɔde bԑma oibara a? {name_dinosaur, Ted} nua no wɔ aborɔbɛ {num_ic, 94}.",
+  "ic_sentence": "{name_dinosaur, Ted} nua no wɔ aborɔbɛ {num_ic, 94}."
+}

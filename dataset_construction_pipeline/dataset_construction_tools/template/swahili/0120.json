@@ -1,0 +1,66 @@
+{
+  "original_question": "Miguel hutumia pedi 2 za karatasi kwa wiki katika uchoraji wake. Ikiwa kuna kurasa 30 za karatasi kwenye pedi moja ya karatasi, huwa anatumia kurasa ngapi za karatasi kila mwezi?",
+  "original_answer": 240,
+  "question_template": "{name_male, Miguel} hutumia mabuku {num_digit_1, 2} ya karatasi kila wiki kwa michoro yake. Ikiwa kuna kurasa {num_digit_2, 30} kwenye kila buku, anatumia kurasa ngapi kila mwezi?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 * 4",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 * 4",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_male": "Miguel"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      3,
+      5,
+      7,
+      4,
+      6,
+      9,
+      8,
+      10,
+      12,
+      15
+    ],
+    "num_digit_2": [
+      25,
+      40,
+      18,
+      45,
+      32,
+      35,
+      22,
+      50,
+      28,
+      24
+    ],
+    "answer": [
+      300,
+      800,
+      504,
+      720,
+      768,
+      1260,
+      704,
+      2000,
+      1344,
+      1440
+    ],
+    "num_ic": [
+      23,
+      69,
+      60,
+      105,
+      98,
+      86,
+      50,
+      80,
+      104,
+      143
+    ]
+  },
+  "ic_question_template": "Mjomba wa {name_male, Miguel} ana penseli za rangi {num_ic, 100} katika studio yake ya sanaa. {name_male, Miguel} hutumia mabuku {num_digit_1, 2} ya karatasi kila wiki kwa michoro yake. Ikiwa kuna kurasa {num_digit_2, 30} kwenye kila buku, anatumia kurasa ngapi kila mwezi?",
+  "ic_sentence": "Mjomba wa {name_male, Miguel} ana penseli za rangi {num_ic, 100} katika studio yake ya sanaa."
+}

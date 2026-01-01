@@ -1,0 +1,92 @@
+{
+  "original_question": "Grandma Jones baked 5 apple pies for the fireman's luncheon. She cut each pie into 8 pieces and set the five pies out on the buffet table for the guests to serve themselves. At the end of the evening, after the guests had taken and eaten their pieces of pie, there were 14 pieces of pie remaining. How many pieces were taken by the guests?",
+  "original_answer": 26,
+  "question_template": "Grandma {name_family, Jones} baked {num_digit_1, 5} apple pies for the fireman's luncheon. She cut each pie into {num_digit_2, 8} pieces and set the {num_text_1, five} pies out on the buffet table for the guests to serve themselves. At the end of the evening, after the guests had taken and eaten their pieces of pie, there were {num_digit_3, 14} pieces of pie remaining. How many pieces were taken by the guests?",
+  "question_solution": "answer = num_digit_1 * num_digit_2 - num_digit_3",
+  "conditions": [
+    "int(answer) == num_digit_1 * num_digit_2 - num_digit_3",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0",
+    "num_digit_3 >= 0",
+    "num_digit_3 < num_digit_1 * num_digit_2"
+  ],
+  "variable_word_list": {
+    "name_family": "Jones"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      5,
+      6,
+      4,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "num_text_1": [
+      "five",
+      "six",
+      "four",
+      "seven",
+      "eight",
+      "nine",
+      "ten",
+      "eleven",
+      "twelve",
+      "thirteen"
+    ],
+    "num_digit_2": [
+      8,
+      10,
+      6,
+      5,
+      9,
+      12,
+      7,
+      4,
+      11,
+      6
+    ],
+    "num_digit_3": [
+      14,
+      18,
+      6,
+      8,
+      20,
+      15,
+      5,
+      7,
+      10,
+      9
+    ],
+    "answer": [
+      26,
+      42,
+      18,
+      27,
+      52,
+      93,
+      65,
+      37,
+      122,
+      69
+    ],
+    "num_ic": [
+      60,
+      86,
+      43,
+      66,
+      56,
+      74,
+      59,
+      68,
+      113,
+      128
+    ]
+  },
+  "ic_question_template": "Grandma {name_family, Jones} baked {num_digit_1, 5} apple pies for the fireman's luncheon. She cut each pie into {num_digit_2, 8} pieces and set the {num_text_1, five} pies out on the buffet table for the guests to serve themselves. At the end of the evening, after the guests had taken and eaten their pieces of pie, there were {num_digit_3, 14} pieces of pie remaining. {name_family, Jones}'s nephew brought {num_ic, 93} bottles of lemonade to the luncheon. How many pieces were taken by the guests?",
+  "ic_sentence": "{name_family, Jones}'s nephew brought {num_ic, 93} bottles of lemonade to the luncheon."
+}

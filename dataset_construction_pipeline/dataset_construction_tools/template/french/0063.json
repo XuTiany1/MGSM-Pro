@@ -1,0 +1,80 @@
+{
+  "original_question": "Aleena s'est abonnée à un service de streaming qui lui facture 140 $ par mois. Si la société de streaming a facturé ce montant pendant la première moitié de l'année, puis 10 % de moins durant l'autre moitié de l'année, calculez le montant total qu'elle a payé pour le service de streaming à la fin de l'année.",
+  "original_answer": 1596,
+  "question_template": "{name_female, Aleena} s'est abonnée à un service de streaming qui lui facture {num_digit_1, 140} $ par mois. Si la société de streaming a facturé ce montant pendant la {num_frac_1, première moitié} de l'année, puis {num_digit_2, 10} % de moins durant l'{num_frac_2, autre moitié} de l'année, calculez le montant total qu'elle a payé pour le service de streaming à la fin de l'année.",
+  "question_solution": "answer = num_digit_1 * 6 + num_digit_1 * (1 - num_digit_2/100) * 6",
+  "conditions": [
+    "int(answer) == num_digit_1 * 6 + num_digit_1 * (1 - num_digit_2/100) * 6",
+    "((num_digit_1 * num_digit_2 * 6) % 100) == 0",
+    "num_digit_1 > 0",
+    "num_digit_2 >= 0",
+    "num_digit_2 < 100"
+  ],
+  "variable_word_list": {
+    "name_female": "Aleena"
+  },
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      160,
+      150,
+      125,
+      200,
+      180,
+      250,
+      225,
+      300,
+      125,
+      175
+    ],
+    "num_frac_1": [
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié"
+    ],
+    "num_digit_2": [
+      20,
+      15,
+      12,
+      14,
+      25,
+      30,
+      16,
+      40,
+      18,
+      22
+    ],
+    "num_frac_2": [
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié",
+      "moitié"
+    ],
+    "answer": [
+      1728,
+      1665,
+      1410,
+      2232,
+      1890,
+      2550,
+      2484,
+      2880,
+      1365,
+      1869
+    ]
+  },
+  "ic_question_template": "{name_female, Aleena} a tante a acheté {num_ic, 57} affiches de films l'année dernière. {name_female, Aleena} s'est abonnée à un service de streaming qui lui facture {num_digit_1, 140} $ par mois. Si la société de streaming a facturé ce montant pendant la {num_frac_1, première moitié} de l'année, puis {num_digit_2, 10} % de moins durant l'{num_frac_2, autre moitié} de l'année, calculez le montant total qu'elle a payé pour le service de streaming à la fin de l'année.",
+  "ic_sentence": "{name_female, Aleena} a tante a acheté {num_ic, 57} affiches de films l'année dernière."
+}

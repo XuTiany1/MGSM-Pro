@@ -1,0 +1,78 @@
+{
+  "original_question": "Ụgbọoloko abụọ hapụrụ San Rafael n'otu oge. Ha bidoro njem ọdịda anyanwụ, ha abụọ na-aga mailụ iri asatọ. N'echi ya, ha gaara mgbago ugwu, weere gaa mailụ otu narị na iri ise. Ụzọ ole ka otu n'ime ụgbọoloko ahụ gaara n'ụbọchị abụọ? ",
+  "original_answer": 230,
+  "question_template": "Ụgbọoloko {num_text_1, abụọ} hapụrụ {name_town_1, San Rafael} n'otu oge. Ha bidoro njem ọdịda anyanwụ, ha abụọ na-aga mailụ {num_digit_1, 80}. N'echi ya, ha gaara mgbago ugwu, weere gaa mailụ {num_digit_2, 150}. Ụzọ ole ka otu n'ime ụgbọ oloko ahụ gaara n'ụbọchị abụọ?",
+  "question_solution": "answer = num_digit_1 + num_digit_2",
+  "conditions": [
+    "int(answer) == num_digit_1 + num_digit_2",
+    "num_digit_1 > 0",
+    "num_digit_2 > 0"
+  ],
+  "variable_word_list": {
+    "name_town_1": "San Rafael"
+  },
+  "variable_number_dictionary": {
+    "num_text_1": [
+      "abụọ",
+      "Atọ",
+      "ise",
+      "asaa",
+      "iri na otu",
+      "iri na atọ",
+      "ịri na asaa",
+      "iri na itoolu",
+      "ịrịisii atọ",
+      "iri abụọ na itoolu"
+    ],
+    "num_digit_1": [
+      101,
+      113,
+      127,
+      131,
+      137,
+      149,
+      157,
+      163,
+      173,
+      179
+    ],
+    "num_digit_2": [
+      191,
+      193,
+      197,
+      199,
+      211,
+      223,
+      227,
+      229,
+      233,
+      239
+    ],
+    "answer": [
+      292,
+      306,
+      324,
+      330,
+      348,
+      372,
+      384,
+      392,
+      406,
+      418
+    ],
+    "num_ic": [
+      108,
+      920,
+      270,
+      1332,
+      1489,
+      1660,
+      1827,
+      1039,
+      2067,
+      1400
+    ]
+  },
+  "ic_question_template": "Onye isi obodo {name_town_1, San Rafael} nwere ụgbọ oloko nlereanya {num_ic, 137}. Ụgbọoloko {num_text_1, abụọ} hapụrụ {name_town_1, San Rafael} n'otu oge. Ha bidoro njem ọdịda anyanwụ, ha abụọ na-aga mailụ {num_digit_1, 80}. N'echi ya, ha gaara mgbago ugwu, weere gaa mailụ {num_digit_2, 150}. Ụzọ ole ka otu n'ime ụgbọ oloko ahụ gaara n'ụbọchị abụọ?",
+  "ic_sentence": "Onye isi obodo {name_town_1, San Rafael} nwere ụgbọ oloko nlereanya {num_ic, 137}."
+}

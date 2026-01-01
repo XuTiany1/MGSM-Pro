@@ -1,0 +1,77 @@
+{
+  "original_question": "Ní kíláásì ijó àwọn akẹ́kọ̀ọ́ 20, 20% forúkọsílẹ̀ fún ijó òde òní, 25% nínú àwọn tókù forúkọsílẹ̀ fún ijó jáásì, nígbà tí àwọn tókù forúkọsílẹ̀ fún ijó tàka súfèé. kínní ìdá gbogbo àwọn akẹ́kọ̀ọ́ tí wọ́n forúkọsílẹ̀ fún ijó tàka súfèé?",
+  "original_answer": 60,
+  "question_template": "Ní kíláásì ijó àwọn akẹ́kọ̀ọ́ {num_digit_1, 20}, {num_digit_2, 20}% forúkọsílẹ̀ fún ijó òde òní, {num_digit_3, 25}% nínú àwọn tókù forúkọsílẹ̀ fún ijó jáásì, nígbà tí àwọn tókù forúkọsílẹ̀ fún ijó tàka súfèé. kínní ìdá gbogbo àwọn akẹ́kọ̀ọ́ tí wọ́n forúkọsílẹ̀ fún ijó tàka súfèé?",
+  "question_solution": "answer = 100 - num_digit_2 - (100 - num_digit_2) * num_digit_3 / 100",
+  "conditions": [
+    "int(answer) == 100 - num_digit_2 - (100 - num_digit_2) * num_digit_3 / 100",
+    "num_digit_1 > 0",
+    "0 <= num_digit_2 <= 100",
+    "0 <= num_digit_3 <= 100"
+  ],
+  "variable_word_list": {},
+  "variable_number_dictionary": {
+    "num_digit_1": [
+      47,
+      53,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89,
+      97
+    ],
+    "num_digit_2": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22
+    ],
+    "num_digit_3": [
+      75,
+      50,
+      25,
+      50,
+      75,
+      50,
+      25,
+      50,
+      25,
+      50
+    ],
+    "answer": [
+      24,
+      47,
+      69,
+      45,
+      22,
+      43,
+      63,
+      41,
+      60,
+      39
+    ],
+    "num_ic": [
+      38,
+      69,
+      113,
+      161,
+      185,
+      414,
+      395,
+      489,
+      691,
+      879
+    ]
+  },
+  "ic_question_template": "Ọmọ-ìyá olùkọ́ náà mú kọ́ọ̀kì àkàrà òyìnbó {num_ic, 7} wá fún ẹgbẹ́ náà. Ní kíláásì ijó àwọn akẹ́kọ̀ọ́ {num_digit_1, 20}, {num_digit_2, 20}% forúkọsílẹ̀ fún ijó òde òní, {num_digit_3, 25}% nínú àwọn tókù forúkọsílẹ̀ fún ijó jáásì, nígbà tí àwọn tókù forúkọsílẹ̀ fún ijó tàka súfèé. kínní ìdá gbogbo àwọn akẹ́kọ̀ọ́ tí wọ́n forúkọsílẹ̀ fún ijó tàka súfèé?",
+  "ic_sentence": "Ọmọ-ìyá olùkọ́ náà mú kọ́ọ̀kì àkàrà òyìnbó {num_ic, 7} wá fún ẹgbẹ́ náà."
+}
