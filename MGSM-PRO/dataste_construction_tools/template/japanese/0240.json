@@ -1,0 +1,8 @@
+{
+  "original_question": "ジェイムズはロバートより6つ多くキャンディをもっています。ジョンはロバートの2倍の数のキャンディをもっています。ジョンが54個のキャンディをもっている場合、ジョンはジェイムズに比べてキャンディを何個多くもっていますか？",
+  "original_answer": 21,
+  "symbolic_template": "{name_male_1, James}はより{num_digit_1, 6}つ多くキャンディをもっています{name_male_2, Robert}. {name_male_3, John}もっているtwiceの数のキャンディをもっています{name_male_2, Robert}.ジ{name_male_3, John}ョンが{num_digit_2, 54}個のキャンディをもっている場合、{name_male_3, John}に比べてキャンディを何個多くもっていますか{name_male_1, James}？",
+  "ic_sentence_template": "{name_male_2, ロバート}のおばは最近彼に{num_ic, 422}個のビー玉をくれました。",
+  "ic_template": "{name_male_2, ロバート}のおばは最近彼に{num_ic, 422}個のビー玉をくれました。{name_male_1, James}はより{num_digit_1, 6}つ多くキャンディをもっています{name_male_2, Robert}. {name_male_3, John}もっているtwiceの数のキャンディをもっています{name_male_2, Robert}.ジ{name_male_3, John}ョンが{num_digit_2, 54}個のキャンディをもっている場合、{name_male_3, John}に比べてキャンディを何個多くもっていますか{name_male_1, James}？",
+  "equation": "UPDATE HERE"
+}

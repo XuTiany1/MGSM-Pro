@@ -1,0 +1,8 @@
+{
+  "original_question": "Mélanie fait de la vente à domicile. Lors de son passage à la maison verte, elle a vendu un tiers de ses aspirateurs, puis 2 autres à la maison rouge, et enfin la moitié de ce qui restait à la maison orange. S'il reste à Mélanie 5 aspirateurs, de combien d'aspirateurs disposait-elle au départ ?",
+  "original_answer": 18,
+  "symbolic_template": "{name_female, Mélanie} fait de la vente à domicile. Lors de son passage à la maison verte, elle a vendu un tiers de ses aspirateurs, puis {num_digit_1, 2} autres à la maison rouge, et enfin la moitié de ce qui restait à la maison orange. S'il reste à {name_female, Mélanie} {num_digit_2, 5} aspirateurs, de combien d'aspirateurs disposait-elle au départ ?",
+  "ic_sentence_template": "{name_female, Melanie} a une tante qui a acheté {num_ic, 112} torchons la semaine dernière.",
+  "ic_template": "{name_female, Melanie} a une tante qui a acheté {num_ic, 112} torchons la semaine dernière. {name_female, Mélanie} fait de la vente à domicile. Lors de son passage à la maison verte, elle a vendu un tiers de ses aspirateurs, puis {num_digit_1, 2} autres à la maison rouge, et enfin la moitié de ce qui restait à la maison orange. S'il reste à {name_female, Mélanie} {num_digit_2, 5} aspirateurs, de combien d'aspirateurs disposait-elle au départ ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "The marching band is ordering new uniforms. Each uniform comes with a hat that costs $25, a jacket that costs three times as much as the hat, and pants that cost the average of the costs of the hat and jacket. How much does each uniform cost total?",
+  "original_answer": 150,
+  "symbolic_template": "Nsradom no rekra wɔn ntaade foforɔ. Ataade biara ne ɛkyɛ a ɛka ho no boɔ yɛ ${num_digit_1, 25}. ɛngusoɔ no boɔ no yɛ ɛkyɛ no boɔ mmɔho miɛnsa, na nhyɛ aseɛ no boɔ no yɛ ɛkyɛ no ne ngusoɔ no boɔ a w'akyɛ mu. Ataadeɛ no boɔ yɛ sɛn ?",
+  "ic_sentence_template": "Nnwontokuo no panyin nua tɔɔ adeɛ yɛde hyɛ nsa {num_ic, 517} maa nkɔmbɔfoɔ no.",
+  "ic_template": "Nnwontokuo no panyin nua tɔɔ adeɛ yɛde hyɛ nsa {num_ic, 517} maa nkɔmbɔfoɔ no. Nsradom no rekra wɔn ntaade foforɔ. Ataade biara ne ɛkyɛ a ɛka ho no boɔ yɛ ${num_digit_1, 25}. ɛngusoɔ no boɔ no yɛ ɛkyɛ no boɔ mmɔho miɛnsa, na nhyɛ aseɛ no boɔ no yɛ ɛkyɛ no ne ngusoɔ no boɔ a w'akyɛ mu. Ataadeɛ no boɔ yɛ sɛn ?",
+  "equation": "UPDATE HERE"
+}

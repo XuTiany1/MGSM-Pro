@@ -1,0 +1,8 @@
+{
+  "original_question": "Àwo orin Marilyn àkọ́kọ́ tà ní ìlọ́po 10 ẹ̀dà ju tí Harald lọ. Tí wọ́n bá ta ẹ̀dà 88,000 ní àpapọ̀, ẹ̀dà mélòó ni Harald tà?",
+  "original_answer": 8000,
+  "symbolic_template": "Àwo orin {name_male_1, Marilyn} àkọ́kọ́ tà ní ìlọ́po {num_digit_1, 10} ẹ̀dà ju tí {name_male_2, Harald} lọ. Tí wọ́n bá ta ẹ̀dà {num_digit_2, 88,000} ní àpapọ̀, ẹ̀dà mélòó ni {name_male_2, Harald} tà?",
+  "ic_sentence_template": "Arákùnrin {name_male_1, Marilyn} gba lẹ́tà àfẹ́fẹ́ {num_ic, 23,000} lọ́dún tó kọjá.",
+  "ic_template": "Arákùnrin {name_male_1, Marilyn} gba lẹ́tà àfẹ́fẹ́ {num_ic, 23,000} lọ́dún tó kọjá. Àwo orin {name_male_1, Marilyn} àkọ́kọ́ tà ní ìlọ́po {num_digit_1, 10} ẹ̀dà ju tí {name_male_2, Harald} lọ. Tí wọ́n bá ta ẹ̀dà {num_digit_2, 88,000} ní àpapọ̀, ẹ̀dà mélòó ni {name_male_2, Harald} tà?",
+  "equation": "UPDATE HERE"
+}

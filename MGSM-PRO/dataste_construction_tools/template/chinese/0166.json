@@ -1,0 +1,8 @@
+{
+  "original_question": "每次桑德拉给她邻居的女儿当临时保姆，她邻居都会给她一篮 9 颗鸡蛋。为了制作西班牙果馅饼，她需要 3 颗鸡蛋。如果桑德拉的任务是为她学校的筹款活动制作 15 个西班牙果馅饼，桑德拉必须当多少次临时保姆？",
+  "original_answer": 5,
+  "symbolic_template": "{name_female, 桑德拉} 每次给她邻居的女儿当临时保姆，她邻居都会给她一篮 {num_digit_1, 9} 颗鸡蛋。为了制作西班牙果馅饼，她需要 {num_digit_2, 3} 颗鸡蛋。如果 {name_female, 桑德拉} 的任务是为她学校的筹款活动制作 {num_digit_3, 15} 个西班牙果馅饼，{name_female, 桑德拉} 必须当多少次临时保姆？",
+  "ic_sentence_template": "{name_female, 桑德拉} 的叔叔曾从农场带来过 {num_ic, 33} 个芒果。",
+  "ic_template": "{name_female, 桑德拉} 的叔叔曾从农场带来过 {num_ic, 33} 个芒果。{name_female, 桑德拉} 每次给她邻居的女儿当临时保姆，她邻居都会给她一篮 {num_digit_1, 9} 颗鸡蛋。为了制作西班牙果馅饼，她需要 {num_digit_2, 3} 颗鸡蛋。如果 {name_female, 桑德拉} 的任务是为她学校的筹款活动制作 {num_digit_3, 15} 个西班牙果馅饼，{name_female, 桑德拉} 必须当多少次临时保姆？",
+  "equation": "UPDATE HERE"
+}

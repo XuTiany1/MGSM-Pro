@@ -1,0 +1,8 @@
+{
+  "original_question": "John anapanga kuuza wanasesere wake wote na kutumia pesa hizo kununua michezo ya video. Ana seti 13 za lego na anaziuza kwa $15 kwa kila seti. Anafanikiwa kununua michezo 8 ya video kwa $20 kila moja na kusalia na $5. Bado ana seti ngapi za lego?",
+  "original_answer": 2,
+  "symbolic_template": "{name_male, John} anapanga kuuza seti zake zote za lego na kutumia pesa hizo kununua michezo ya video. Ana seti {num_digit_1, 13} na anauza kila moja kwa ${num_digit_2, 15}. Ananunua michezo ya video {num_digit_3, 8} kwa ${num_digit_4, 20} kila moja na kubaki na ${num_digit_5, 5}. Bado ana seti ngapi za lego?",
+  "ic_sentence_template": "Mjomba wa {name_male, John} hivi karibuni alinunua sanamu za mashujaa {num_ic, 38}",
+  "ic_template": "Mjomba wa {name_male, John} hivi karibuni alinunua sanamu za mashujaa {num_ic, 38} {name_male, John} anapanga kuuza seti zake zote za lego na kutumia pesa hizo kununua michezo ya video. Ana seti {num_digit_1, 13} na anauza kila moja kwa ${num_digit_2, 15}. Ananunua michezo ya video {num_digit_3, 8} kwa ${num_digit_4, 20} kila moja na kubaki na ${num_digit_5, 5}. Bado ana seti ngapi za lego?",
+  "equation": "UPDATE HERE"
+}

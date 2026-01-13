@@ -1,0 +1,8 @@
+{
+  "original_question": "Ryan plants 2 flowers a day in his garden. After 15 days, how many flowers does he have if 5 did not grow?",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Ryan} plants {num_digit_1, 2} flowers a day in his garden. After {num_digit_2, 15} days, how many flowers does he have if {num_digit_3, 5} did not grow?",
+  "ic_sentence_template": "{name_male, Ryan}'s uncle brought {num_ic, 8} new pots for the garden.",
+  "ic_template": "{name_male, Ryan} plants {num_digit_1, 2} flowers a day in his garden. After {num_digit_2, 15} days, how many flowers does he have if {num_digit_3, 5} did not grow? {name_male, Ryan}'s uncle brought {num_ic, 8} new pots for the garden.",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Jim spends 2 hours watching TV and then decides to go to bed and reads for half as long. He does this 3 times a week. How many hours does he spend on TV and reading in 4 weeks?",
+  "original_answer": 36,
+  "symbolic_template": "{name_male, Jim} spends {num_digit_1, 2} hours watching TV and then decides to go to bed and reads for half as long. He does this {num_digit_2, 3} times a week. How many hours does he spend on TV and reading in {num_digit_3, 4} weeks?",
+  "ic_sentence_template": "{name_male, Jim}'s uncle visits him for {num_ic, 34} days every year.",
+  "ic_template": "{name_male, Jim} spends {num_digit_1, 2} hours watching TV and then decides to go to bed and reads for half as long. He does this {num_digit_2, 3} times a week. {name_male, Jim}'s uncle visits him for {num_ic, 34} days every year. How many hours does he spend on TV and reading in {num_digit_3, 4} weeks?",
+  "equation": "UPDATE HERE"
+}

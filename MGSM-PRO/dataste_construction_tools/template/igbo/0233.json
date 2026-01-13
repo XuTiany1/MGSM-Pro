@@ -1,0 +1,8 @@
+{
+  "original_question": "Enwere penguin iri atọ na isii na-anya anwụ na snow. Otu ụzọ n'ime ụzọ atọ ha na-amabanye ma na-egwu mmiri n'oké osimiri. Otu ụzọ n'ime ụzọ atọ ọzọ na-abanye n'ime ọgba iji rie nri abalị ha. Penguin ole ka fọdụrụ na-anyara anwụ ?",
+  "original_answer": 12,
+  "symbolic_template": "Enwere penguin {num_digit_1, 36} na-anya anwụ na snow. otu n'ime atọ ha na-amabanye ma na-egwu mmiri n'oké osimiri. otu n'ime atọ ọzọ na-abanye n'ime ọgba iji rie nri abalị ha. Penguin ole ka fọdụrụ na-anyara anwụ?",
+  "ic_sentence_template": "Otu n’ime ndị nwanne nna pengwin ahụ na nso nso a hụrụ mme {num_ic, 57} nọ n’ụlọ ebe dị nso.",
+  "ic_template": "Otu n’ime ndị nwanne nna pengwin ahụ na nso nso a hụrụ mme {num_ic, 57} nọ n’ụlọ ebe dị nso. Enwere penguin {num_digit_1, 36} na-anya anwụ na snow. otu n'ime atọ ha na-amabanye ma na-egwu mmiri n'oké osimiri. otu n'ime atọ ọzọ na-abanye n'ime ọgba iji rie nri abalị ha. Penguin ole ka fọdụrụ na-anyara anwụ?",
+  "equation": "UPDATE HERE"
+}

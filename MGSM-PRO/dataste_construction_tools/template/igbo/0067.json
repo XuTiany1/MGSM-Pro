@@ -1,0 +1,8 @@
+{
+  "original_question": "Otu dinta àkụ̀ chọtara igbe àkụ̀ e liri nke juputara na Jem. E nwere dayamọndụ 175, rubi 35 pere mpe karịa dayamọndụ, na okpukpu abụọ ọnụ ọgụgụ emeradi karịa rubi. Jem ole dị na igbe ahụ?",
+  "original_answer": 595,
+  "symbolic_template": "Otu dinta àkụ̀ chọtara igbe àkụ̀ e liri nke juputara na Jem. E nwere dayamọndụ {num_digit_1, 175}, rubi {num_digit_2, 35} pere mpe karịa dayamọndụ, na okpukpu abụọ ọnụ ọgụgụ emeradi karịa rubi. Jem ole dị na igbe ahụ?",
+  "ic_sentence_template": "Nwanne nna onye na-achọ akụ rịọla aka chọta mkpụrụ ego oge ochie {num_ic, 632} na oghere ọzọ.",
+  "ic_template": "Nwanne nna onye na-achọ akụ rịọla aka chọta mkpụrụ ego oge ochie {num_ic, 632} na oghere ọzọ. Otu dinta àkụ̀ chọtara igbe àkụ̀ e liri nke juputara na Jem. E nwere dayamọndụ {num_digit_1, 175}, rubi {num_digit_2, 35} pere mpe karịa dayamọndụ, na okpukpu abụọ ọnụ ọgụgụ emeradi karịa rubi. Jem ole dị na igbe ahụ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "辛西娅每天晚上吃一份冰淇淋。她买了数盒冰淇淋，每盒有 15 份冰淇淋，每盒 4.00 美元。60 天后，她买冰淇淋花了多少钱？",
+  "original_answer": 16,
+  "symbolic_template": "{name_female, 辛西娅} 每天晚上吃 一 份冰淇淋。她买了数盒冰淇淋，每盒有 {num_digit_1, 15} 份冰淇淋，每盒 {num_digit_2, 4} 美元。{num_digit_3, 60} 天后，她买冰淇淋花了多少钱？",
+  "ic_sentence_template": "{name_female, 辛西亚} 的叔叔冰箱里有 {num_ic, 7} 种口味的雪葩。",
+  "ic_template": "{name_female, 辛西亚} 的叔叔冰箱里有 {num_ic, 7} 种口味的雪葩。{name_female, 辛西娅} 每天晚上吃 一 份冰淇淋。她买了数盒冰淇淋，每盒有 {num_digit_1, 15} 份冰淇淋，每盒 {num_digit_2, 4} 美元。{num_digit_3, 60} 天后，她买冰淇淋花了多少钱？",
+  "equation": "UPDATE HERE"
+}

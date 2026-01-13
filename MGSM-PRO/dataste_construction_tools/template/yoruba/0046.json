@@ -1,0 +1,8 @@
+{
+  "original_question": "Candice fi ìwé fi-ránṣẹ́ 80 sínú àpamọ́wọ́ rẹ̀ ṣíwájú kó tó jáde lọ sí ibi iṣẹ́ ní ìsọ kọfí náà. Nígbà tó ń lọ, ó dúró ní ilé ìtajà náà ó sì ra èdìdì ìwé fi-ránṣẹ́; Ní ibi iṣẹ́, ó to ẹyọ ìwé fi-ránṣẹ́ kan sórí ọ̀kọ̀ọ̀kan oríṣiríṣi 220 àwọn ife kọfí. Tó bá jẹ́ ìwé fi-ránṣẹ́ 23 ló bá ṣẹ́kù lápapọ̀, mélòó ni ìwé fi-ránṣẹ́ tó wà nínú èdìdì tó rà?",
+  "original_answer": 163,
+  "symbolic_template": "{name_female, Candice}  fi ìwé fi-ránṣẹ́ {num_digit_1, 80} sínú àpamọ́wọ́ rẹ̀ ṣíwájú kó tó jáde lọ sí ibi iṣẹ́ ní ìsọ kọfí náà. Nígbà tó ń lọ, ó dúró ní ilé ìtajà náà ó sì ra èdìdì ìwé fi-ránṣẹ́; Ní ibi iṣẹ́, ó to ẹyọ ìwé fi-ránṣẹ́ kan sórí ọ̀kọ̀ọ̀kan oríṣiríṣi {num_digit_2, 220} àwọn ife kọfí. Tó bá jẹ́ ìwé fi-ránṣẹ́ {num_digit_3, 23} ló bá ṣẹ́kù lápapọ̀, mélòó ni ìwé fi-ránṣẹ́ tó wà nínú èdìdì tó rà?",
+  "ic_sentence_template": "Arákùnrin {name_female, Candice} gba ife kọfí {num_ic, 988} ní ilé rẹ́.",
+  "ic_template": "Arákùnrin {name_female, Candice} gba ife kọfí {num_ic, 988} ní ilé rẹ́. {name_female, Candice}  fi ìwé fi-ránṣẹ́ {num_digit_1, 80} sínú àpamọ́wọ́ rẹ̀ ṣíwájú kó tó jáde lọ sí ibi iṣẹ́ ní ìsọ kọfí náà. Nígbà tó ń lọ, ó dúró ní ilé ìtajà náà ó sì ra èdìdì ìwé fi-ránṣẹ́; Ní ibi iṣẹ́, ó to ẹyọ ìwé fi-ránṣẹ́ kan sórí ọ̀kọ̀ọ̀kan oríṣiríṣi {num_digit_2, 220} àwọn ife kọfí. Tó bá jẹ́ ìwé fi-ránṣẹ́ {num_digit_3, 23} ló bá ṣẹ́kù lápapọ̀, mélòó ni ìwé fi-ránṣẹ́ tó wà nínú èdìdì tó rà?",
+  "equation": "UPDATE HERE"
+}

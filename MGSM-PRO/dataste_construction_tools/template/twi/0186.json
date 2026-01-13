@@ -1,0 +1,8 @@
+{
+  "original_question": "Russell yɛɛ adwuma wɔ baabi a wɔtɔn mmoa na ɔkyekyɛ nwora ma nkekaboa. Na wͻdi nkusie 3 no guu ebuo wɔye akuo pɛ na wͻma nkusie biara 6. Nkura ahoroͻ 10 wɔ ebuo ahoroͻ a nko ara, na wɔma nkura biara nwura nketenkete 5. Afei nso, wɔwɔ ndanko dan bi a wɔkyekyɛ ntɛtɛwa 20 ma ndanko no nwora. Wɔmfa nwura nni dwuma wɔ sotɔɔ no mu baabiara. Sɛ wɔakyekyɛ ntɛtɛwa 160 mu ama nkekaboa nketete no a, nkusie ahe na ɛwɔ dan biara mu?",
+  "original_answer": 5,
+  "symbolic_template": "{name_male, Russell} yɛɛ adwuma wɔ baabi a wɔtɔn mmoa na ɔkyekyɛ nwora ma nkekaboa. Na wͻdi nkusie {num_digit_1, 3} no guu ebuo wɔye akuo pɛ na wͻma nkusie biara {num_digit_2, 6}. Nkura ahoroͻ {num_digit_3, 10} wɔ ebuo ahoroͻ a nko ara, na wɔma nkura biara nwura nketenkete {num_digit_4, 5}. Afei nso, wɔwɔ ndanko dan bi a wɔkyekyɛ ntɛtɛwa {num_digit_5, 20} ma ndanko no nwora. Wɔmfa nwura nni dwuma wɔ sotɔɔ no mu baabiara. Sɛ wɔakyekyɛ ntɛtɛwa {num_digit_6, 160} mu ama nkekaboa nketete no a, nkusie ahe na ɛwɔ dan biara mu?",
+  "ic_sentence_template": "{name_male, Russell} wɔfa hwɛ aburuburo {num_ic, 82} wɔ ne fie.",
+  "ic_template": "{name_male, Russell} wɔfa hwɛ aburuburo {num_ic, 82} wɔ ne fie. {name_male, Russell} yɛɛ adwuma wɔ baabi a wɔtɔn mmoa na ɔkyekyɛ nwora ma nkekaboa. Na wͻdi nkusie {num_digit_1, 3} no guu ebuo wɔye akuo pɛ na wͻma nkusie biara {num_digit_2, 6}. Nkura ahoroͻ {num_digit_3, 10} wɔ ebuo ahoroͻ a nko ara, na wɔma nkura biara nwura nketenkete {num_digit_4, 5}. Afei nso, wɔwɔ ndanko dan bi a wɔkyekyɛ ntɛtɛwa {num_digit_5, 20} ma ndanko no nwora. Wɔmfa nwura nni dwuma wɔ sotɔɔ no mu baabiara. Sɛ wɔakyekyɛ ntɛtɛwa {num_digit_6, 160} mu ama nkekaboa nketete no a, nkusie ahe na ɛwɔ dan biara mu?",
+  "equation": "UPDATE HERE"
+}

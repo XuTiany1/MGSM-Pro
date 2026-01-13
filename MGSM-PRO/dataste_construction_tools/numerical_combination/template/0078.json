@@ -1,0 +1,38 @@
+{
+    "problem_id": "0078",
+    "generation_order": ["num_digit_1", "num_digit_3", "num_digit_5", "num_digit_2", "num_digit_4", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [3, 6]},
+        "num_digit_3": {"type": "int", "range": [2, 3]},
+        "num_digit_5": {"type": "int", "range": [12, 60]},
+        "num_digit_2": {"type": "float", "range": [2.00, 10.00], "precision": 2},
+        "num_digit_4": {"type": "float", "range": [1.00, 5.00], "precision": 2},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_5": [
+            "packs_a = num_digit_5 / num_digit_1",
+            "packs_b = num_digit_5 / num_digit_3"
+        ],
+        "num_digit_4": [
+            "total_a = packs_a * num_digit_2",
+            "total_b = packs_b * num_digit_4",
+            "ans = abs(total_a - total_b)"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_5": [
+            "num_digit_5 % num_digit_1 == 0",
+            "num_digit_5 % num_digit_3 == 0"
+        ],
+        "num_digit_4": [
+            "total_a % 1 == 0",
+            "total_b % 1 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

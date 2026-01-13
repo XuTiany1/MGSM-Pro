@@ -1,0 +1,8 @@
+{
+  "original_question": "Richard bi n'otu ọnụ ụlọ nke ụlọ nwere ala iri na ise. Ala ụlọ ọbụla nwere yuniti asatọ, ma e birila na atọ n'ime anọ ụlọ ahụ. Kedụ ngụkọta ọnụọgụgụ yuniti e bighị na ya?",
+  "original_answer": 30,
+  "symbolic_template": "{name_male, Richard} bi n'otu ọnụ ụlọ nke ụlọ nwere ala {num_digit_1, 15}. Ala ụlọ ọbụla nwere yuniti {num_digit_2, 8}, ma e birila na 3/4 ụlọ ahụ. Kedụ ngụkọta ọnụọgụgụ yuniti e bighị na ya?",
+  "ic_sentence_template": "Nwanne nna {name_male, Richard} na-agba ụlọ achịcha nwere {num_ic, 88} mkpụrụ achịcha na-egosipụta.",
+  "ic_template": "Nwanne nna {name_male, Richard} na-agba ụlọ achịcha nwere {num_ic, 88} mkpụrụ achịcha na-egosipụta. {name_male, Richard} bi n'otu ọnụ ụlọ nke ụlọ nwere ala {num_digit_1, 15}. Ala ụlọ ọbụla nwere yuniti {num_digit_2, 8}, ma e birila na 3/4 ụlọ ahụ. Kedụ ngụkọta ọnụọgụgụ yuniti e bighị na ya?",
+  "equation": "UPDATE HERE"
+}

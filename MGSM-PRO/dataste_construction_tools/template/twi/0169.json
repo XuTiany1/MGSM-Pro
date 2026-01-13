@@ -1,0 +1,8 @@
+{
+  "original_question": "Pancho nante ɛkwan aduonu da biara. Sɛ ɛnyɛ nnawɔtwe awiei a, na otwa ɛkwan edu nante so. ɛkwan dodoɔ ahe na otumi nante nnawɔtwe biara?",
+  "original_answer": 120,
+  "symbolic_template": "{name_male, Pancho} nante ɛkwan {num_digit_1, aduonu} da biara. Sɛ ɛnyɛ nnawɔtwe awiei a, na otwa ɛkwan {num_digit_2, edu} nante so. ɛkwan dodoɔ ahe na otumi nante nnawɔtwe biara?",
+  "ic_sentence_template": "{name_male, Pancho} wɔfa no wɔ kyԑw {num_ic, 302}.",
+  "ic_template": "{name_male, Pancho} wɔfa no wɔ kyԑw {num_ic, 302}. {name_male, Pancho} nante ɛkwan {num_digit_1, aduonu} da biara. Sɛ ɛnyɛ nnawɔtwe awiei a, na otwa ɛkwan {num_digit_2, edu} nante so. ɛkwan dodoɔ ahe na otumi nante nnawɔtwe biara?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Rani ana kaa kumi zaidi ya Monic, ambaye ana kaa 4 chache zaidi ya kaa wa Bo. Iwapo Bo ana kaa 40, piga hesabu ya jumla ya kaa ambao watu hao watatu nako nao.",
+  "original_answer": 122,
+  "symbolic_template": "{name_female_1, Rani} ana kaa kumi zaidi ya {name_female_2, Monic}, ambaye ana kaa {num_digit_1, 4} wachache kuliko {name_male_1, Bo}. Ikiwa {name_male_1, Bo} ana kaa {num_digit_2, 40}, jumla ya kaa walizo nazo wote watatu ni ngapi?",
+  "ic_sentence_template": "Mjomba wa {name_female_2, Monic} alipata maganda ya baharini {num_ic, 88} ufukweni.",
+  "ic_template": "Mjomba wa {name_female_2, Monic} alipata maganda ya baharini {num_ic, 88} ufukweni. {name_female_1, Rani} ana kaa kumi zaidi ya {name_female_2, Monic}, ambaye ana kaa {num_digit_1, 4} wachache kuliko {name_male_1, Bo}. Ikiwa {name_male_1, Bo} ana kaa {num_digit_2, 40}, jumla ya kaa walizo nazo wote watatu ni ngapi?",
+  "equation": "UPDATE HERE"
+}

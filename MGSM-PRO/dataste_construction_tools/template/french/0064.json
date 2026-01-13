@@ -1,0 +1,8 @@
+{
+  "original_question": "Sophie envisage un voyage en voiture et se demande quelle distance elle peut parcourir avec un seul plein d'essence. Elle a fait 100 miles depuis le dernier plein et a dû rajouter 4 gallons d'essence pour remplir à nouveau le réservoir. Le manuel d'utilisation indique que son réservoir a une capacité de 12 galons d'essence. Combien de miles Sophie peut-elle parcourir avec un seul plein d'essence ?",
+  "original_answer": 300,
+  "symbolic_template": "{name_female, Sophie} envisage un voyage en voiture et se demande quelle distance elle peut parcourir avec un seul plein d'essence. Elle a fait {num_digit_1, 100} miles depuis le dernier plein et a dû rajouter {num_digit_2, 4} gallons d'essence pour remplir à nouveau le réservoir. Le manuel d'utilisation indique que son réservoir a une capacité de {num_digit_3, 12} gallons d'essence. Combien de miles {name_female, Sophie} peut-elle parcourir avec un seul plein d'essence ?",
+  "ic_sentence_template": "{name_female, Sophia} a un oncle qui a déjà parcouru {num_ic, 129} miles sans s'arrêter.",
+  "ic_template": "{name_female, Sophia} a un oncle qui a déjà parcouru {num_ic, 129} miles sans s'arrêter. {name_female, Sophie} envisage un voyage en voiture et se demande quelle distance elle peut parcourir avec un seul plein d'essence. Elle a fait {num_digit_1, 100} miles depuis le dernier plein et a dû rajouter {num_digit_2, 4} gallons d'essence pour remplir à nouveau le réservoir. Le manuel d'utilisation indique que son réservoir a une capacité de {num_digit_3, 12} gallons d'essence. Combien de miles {name_female, Sophie} peut-elle parcourir avec un seul plein d'essence ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "In the city of Soda, there are exactly 23786 inhabitants. They include 8417 men and 9092 women. The rest of the population is made up of children. How many kids are there in Soda?",
+  "original_answer": 55,
+  "symbolic_template": "{name_male, Baldur} nya nsuo fi bura mu. Onya nsuo pail {num_digit_1, 5} anɔpa biara na awia biara onya nsuo pail {num_digit_2, 6}. Sɛ pail biara tumi kura nsuo ma {num_digit_3, 5} liters, nsuo litres sɛn na onya da biara?",
+  "ic_sentence_template": "{name_male, Baldur} wɔfa sii mmoa adidibea {num_ic, 137} nnua hyɛn.",
+  "ic_template": "{name_male, Baldur} wɔfa sii mmoa adidibea {num_ic, 137} nnua hyɛn. {name_male, Baldur} nya nsuo fi bura mu. Onya nsuo pail {num_digit_1, 5} anɔpa biara na awia biara onya nsuo pail {num_digit_2, 6}. Sɛ pail biara tumi kura nsuo ma {num_digit_3, 5} liters, nsuo litres sɛn na onya da biara?",
+  "equation": "UPDATE HERE"
+}

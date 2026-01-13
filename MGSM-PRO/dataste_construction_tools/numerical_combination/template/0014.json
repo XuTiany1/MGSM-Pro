@@ -1,0 +1,31 @@
+{
+    "problem_id": "0014",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [20, 100]},
+        "num_digit_2": {"type": "int", "range": [10, 50]},
+        "num_digit_3": {"type": "int", "range": [10, 50]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [],
+        "num_digit_2": [
+            "remaining_after_first = 100 - num_digit_2"
+        ],
+        "num_digit_3": [
+            "jazz_percent_of_total = (num_digit_3 / 100) * remaining_after_first",
+            "ans = remaining_after_first - jazz_percent_of_total"
+        ],
+        "num_ic": []
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_3": [
+            "jazz_percent_of_total % 1 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

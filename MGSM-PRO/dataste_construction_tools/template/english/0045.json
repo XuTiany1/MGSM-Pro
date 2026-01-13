@@ -1,0 +1,8 @@
+{
+  "original_question": "Meredith is a freelance blogger who writes about health topics and submits to clients each day as her permanent job. A blog article takes an average of 4 hours to research and write about. Last week, she wrote 5 articles on Monday and 2/5 times more articles on Tuesday than on Monday. On Wednesday, she wrote twice the number of articles she wrote on Tuesday. Calculate the total number of hours she spent writing articles in the three days.",
+  "original_answer": 104,
+  "symbolic_template": "{name_female, Meredith} is a freelance blogger who writes about health topics and submits to clients each day as her permanent job. A blog article takes an average of {num_digit_1, 4} hours to research and write about. Last week, she wrote {num_digit_2, 5} articles on Monday and 2/5 times more articles on Tuesday than on Monday. On Wednesday, she wrote twice the number of articles she wrote on Tuesday. Calculate the total number of hours she spent writing articles in the three days.",
+  "ic_sentence_template": "{name_female, Meredith}'s uncle bought {num_ic, 54} books about nutrition last month.",
+  "ic_template": "{name_female, Meredith} is a freelance blogger who writes about health topics and submits to clients each day as her permanent job. A blog article takes an average of {num_digit_1, 4} hours to research and write about. Last week, she wrote {num_digit_2, 5} articles on Monday and 2/5 times more articles on Tuesday than on Monday. On Wednesday, she wrote twice the number of articles she wrote on Tuesday. {name_female, Meredith}'s uncle bought {num_ic, 54} books about nutrition last month. Calculate the total number of hours she spent writing articles in the three days.",
+  "equation": "UPDATE HERE"
+}

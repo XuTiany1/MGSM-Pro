@@ -1,0 +1,8 @@
+{
+  "original_question": "James anahesabu kadi zake za Pokemon. Ana aina 30 za moto, aina 20 za nyasi, na aina 40 za maji. Akipoteza aina 8 za maji na kununua aina 14 za nyasi, asilimia ya nafasi ya kuokota kinasibu kadi ya aina ya maji itakuwa ngapi (ikiwa katika nambari kamili ya karibu)?",
+  "original_answer": 33,
+  "symbolic_template": "{name_male, James} anahesabu kadi zake za Pokemon. Ana kadi za aina ya moto {num_digit_1, 30}, aina ya nyasi {num_digit_2, 20}, na aina ya maji {num_digit_3, 40}. Akiwa amepoteza kadi za maji {num_digit_4, 8} na kununua kadi za nyasi {num_digit_5, 14}, ni asilimia ngapi (iliyozungushwa hadi namba kamili) kwamba kadi iliyochaguliwa kwa bahati nasibu itakuwa ya aina ya maji?",
+  "ic_sentence_template": "{name_male, James} shangazi yake alipata kadi {num_ic, 73} adimu za biashara katika uuzaji wa vitu vya nyumbani.",
+  "ic_template": "{name_male, James} shangazi yake alipata kadi {num_ic, 73} adimu za biashara katika uuzaji wa vitu vya nyumbani. {name_male, James} anahesabu kadi zake za Pokemon. Ana kadi za aina ya moto {num_digit_1, 30}, aina ya nyasi {num_digit_2, 20}, na aina ya maji {num_digit_3, 40}. Akiwa amepoteza kadi za maji {num_digit_4, 8} na kununua kadi za nyasi {num_digit_5, 14}, ni asilimia ngapi (iliyozungushwa hadi namba kamili) kwamba kadi iliyochaguliwa kwa bahati nasibu itakuwa ya aina ya maji?",
+  "equation": "UPDATE HERE"
+}

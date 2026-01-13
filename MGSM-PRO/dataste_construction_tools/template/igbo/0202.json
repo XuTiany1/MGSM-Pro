@@ -1,0 +1,8 @@
+{
+  "original_question": "Josie na-akọ mkpuru vain n'ugbo eka iri ya. Eka ọbụla n'amị tọnụ mkpuru vain ise kwa áfọ̀, tọnụ mkpuru vain ọbụla na-eme barelu mmanya abụọ. Barelu mmanya ole ka ugbo ya na-emepụta kwa áfọ̀? ",
+  "original_answer": 100,
+  "symbolic_template": "{name_female, Josie} na-akọ mkpuru vain n'ugbo eka {num_digit_1, 10} ya. Eka ọbụla n'amị tọnụ mkpuru vain {num_digit_2, 5} kwa áfọ̀, tọnụ mkpuru vain ọbụla na-eme barelu mmanya {num_digit_3, 2}. Barelu mmanya ole ka ugbo ya na-emepụta kwa áfọ̀?",
+  "ic_sentence_template": "Nwanne nna {name_female, Josie} nwere osisi aplị {num_ic, 289} nso.",
+  "ic_template": "Nwanne nna {name_female, Josie} nwere osisi aplị {num_ic, 289} nso. {name_female, Josie} na-akọ mkpuru vain n'ugbo eka {num_digit_1, 10} ya. Eka ọbụla n'amị tọnụ mkpuru vain {num_digit_2, 5} kwa áfọ̀, tọnụ mkpuru vain ọbụla na-eme barelu mmanya {num_digit_3, 2}. Barelu mmanya ole ka ugbo ya na-emepụta kwa áfọ̀?",
+  "equation": "UPDATE HERE"
+}

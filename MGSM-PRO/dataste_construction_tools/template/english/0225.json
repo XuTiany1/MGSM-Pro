@@ -1,0 +1,8 @@
+{
+  "original_question": "Andrew plans a road trip from New Jersey to Rochester. It takes 6 days to travel by bus and half as many days to travel by car from New Jersey to Rochester. How many days will he travel if he plans to go to Rochester by bus and return from Rochester by car?",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, Andrew} plans a road trip from {name_city_1, New Jersey} to {name_city_2, Rochester}. It takes {num_digit_1, 6} days to travel by bus and half as many days to travel by car from {name_city_1, New Jersey} to {name_city_2, Rochester}. How many days will he travel if he plans to go to {name_city_2, Rochester} by bus and return from {name_city_2, Rochester} by car?",
+  "ic_sentence_template": "{name_male, Andrew}'s uncle saw {num_ic, 373} vintage cars last summer.",
+  "ic_template": "{name_male, Andrew} plans a road trip from {name_city_1, New Jersey} to {name_city_2, Rochester}. It takes {num_digit_1, 6} days to travel by bus and half as many days to travel by car from {name_city_1, New Jersey} to {name_city_2, Rochester}. {name_male, Andrew}'s uncle saw {num_ic, 373} vintage cars last summer. How many days will he travel if he plans to go to {name_city_2, Rochester} by bus and return from {name_city_2, Rochester} by car?",
+  "equation": "UPDATE HERE"
+}

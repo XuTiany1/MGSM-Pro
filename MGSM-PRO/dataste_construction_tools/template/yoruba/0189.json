@@ -1,0 +1,8 @@
+{
+  "original_question": "Àwọn ọ̀rẹ́ mẹ́ta kan ná $20.25 lórí tíkẹ́ẹ̀tì mẹ́ta sí ìpàtẹ náà. Iye tí wọ́n ná lórí oúnjẹ fi $4.50 kéré ju iye tí wọ́n ná lórí tíkẹ́ẹ̀tì lọ. Wọ́n tún lọ sí orí ìrìn-àjò ọ̀tọ̀ọ̀tọ̀ méjì tí iye rẹ̀ jẹ́ $33 fún ọkọ̀ kọ̀ọ̀kan. Tí wọ́n bá gbà láti pín iye gbogbo owó náà dọ́gba-dọ́gba, èló ni ọ̀kọ̀ọ̀kan wọn san?",
+  "original_answer": 34,
+  "symbolic_template": "Àwọn ọ̀rẹ́ mẹ́ta kan ná ${num_digit_1, 20.25} lórí tíkẹ́ẹ̀tì {num_digit_2, 3} sí ìpàtẹ náà. Iye tí wọ́n ná lórí oúnjẹ fi ${num_digit_3, 4.50} kéré ju iye tí wọ́n ná lórí tíkẹ́ẹ̀tì lọ. Wọ́n tún lọ sí orí ìrìn-àjò ọ̀tọ̀ọ̀tọ̀ {num_digit_4, 2} tí iye rẹ̀ jẹ́ ${num_digit_5, 33} fún ọkọ̀ kọ̀ọ̀kan. Tí wọ́n bá gbà láti pín iye gbogbo owó náà dọ́gba-dọ́gba, èló ni ọ̀kọ̀ọ̀kan wọn san?",
+  "ic_sentence_template": "Ọ̀kan lára àwọn àbúrò bàbá tàbí ìyá wọn ra tikẹ́ẹ̀tì rafu {num_ic, 148} ní àyẹyẹ náà.",
+  "ic_template": "Ọ̀kan lára àwọn àbúrò bàbá tàbí ìyá wọn ra tikẹ́ẹ̀tì rafu {num_ic, 148} ní àyẹyẹ náà. Àwọn ọ̀rẹ́ mẹ́ta kan ná ${num_digit_1, 20.25} lórí tíkẹ́ẹ̀tì {num_digit_2, 3} sí ìpàtẹ náà. Iye tí wọ́n ná lórí oúnjẹ fi ${num_digit_3, 4.50} kéré ju iye tí wọ́n ná lórí tíkẹ́ẹ̀tì lọ. Wọ́n tún lọ sí orí ìrìn-àjò ọ̀tọ̀ọ̀tọ̀ {num_digit_4, 2} tí iye rẹ̀ jẹ́ ${num_digit_5, 33} fún ọkọ̀ kọ̀ọ̀kan. Tí wọ́n bá gbà láti pín iye gbogbo owó náà dọ́gba-dọ́gba, èló ni ọ̀kọ̀ọ̀kan wọn san?",
+  "equation": "UPDATE HERE"
+}

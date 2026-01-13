@@ -1,0 +1,8 @@
+{
+  "original_question": "John na-akwọ ụgbọala awa atọ na mgbakọ ọsọ 60mph ma tụgharịa maka na ọ chọpụtara na o chefuru ịhe dị oké mkpa n'ụlọ. Ọ chọọ ka o ruo ụlọ n'ime awa anọ mana ọ nọrọ awa abụọ nke mbụ kwuru otu ebe n'ime ahịrị ọtụtụ ụgbọala. Ọ nọrọ ọkara awa ọzọ na ị kwọ ụgbọala na mgbakọ ọsọ 30mph, tupu o weere oge fọrọ n'ime awa anọ ahụ na-agba mgbakọ ọsọ 80mph. Kedụ ogo oteáká ọ nọ n'ime ngwụcha awa anọ ndị ahụ? ",
+  "original_answer": 45,
+  "symbolic_template": "{name_male, John} na-akwọ ụgbọala awa {num_digit_1, 3} na mgbakọ ọsọ {num_digit_2, 60}mph ma tụgharịa maka na ọ chọpụtara na o chefuru ihe dị oké mkpa n'ụlọ. Ọ chọọ ka o ruo ụlọ n'ime awa {num_digit_3, 4} mana ọ nọrọ awa {num_digit_5, 2} nke mbụ kwuru otu ebe n'ime ahịrị ọtụtụ ụgbọala. Ọ nọrọ ọkara awa ọzọ na ị kwọ ụgbọala na mgbakọ ọsọ {num_digit_6, 30}mph, tupu o weere oge fọrọ n'ime awa {num_digit_3, 4} ahụ na-agba mgbakọ ọsọ {num_digit_7, 80}mph. Kedụ ogo oteáká ọ nọ n'ime ngwụcha awa {num_digit_3, 4} ndị ahụ?",
+  "ic_sentence_template": "Nwanne {name_male, John} hụrụ kaadi baseball {num_ic, 284} n’ụlọ elu ya.",
+  "ic_template": "Nwanne {name_male, John} hụrụ kaadi baseball {num_ic, 284} n’ụlọ elu ya. {name_male, John} na-akwọ ụgbọala awa {num_digit_1, 3} na mgbakọ ọsọ {num_digit_2, 60}mph ma tụgharịa maka na ọ chọpụtara na o chefuru ihe dị oké mkpa n'ụlọ. Ọ chọọ ka o ruo ụlọ n'ime awa {num_digit_3, 4} mana ọ nọrọ awa {num_digit_5, 2} nke mbụ kwụ otu ebe n'ime ahịrị ọtụtụ ụgbọala. Ọ nọrọ ọkara awa ọzọ na ị kwọ ụgbọala na mgbakọ ọsọ {num_digit_6, 30}mph, tupu o weere oge fọrọ n'ime awa {num_digit_3, 4} ahụ na-agba mgbakọ ọsọ {num_digit_7, 80}mph. Kedụ ogo oteáká ọ nọ n'ime ngwụcha awa {num_digit_3, 4} ndị ahụ?",
+  "equation": "UPDATE HERE"
+}

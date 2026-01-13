@@ -1,0 +1,8 @@
+{
+  "original_question": "Pancho walks 20 miles a day. Except on weekends when he walks 10 miles. How many miles does he walk in a week?",
+  "original_answer": 120,
+  "symbolic_template": "{name_male, Pancho} walks {num_digit_1, 20} miles a day. Except on weekends when he walks {num_digit_2, 10} miles. How many miles does he walk in a week?",
+  "ic_sentence_template": "{name_male, Pancho}'s uncle owns {num_ic, 302} hats.",
+  "ic_template": "{name_male, Pancho} walks {num_digit_1, 20} miles a day. Except on weekends when he walks {num_digit_2, 10} miles. {name_male, Pancho}'s uncle owns {num_ic, 302} hats. How many miles does he walk in a week?",
+  "equation": "UPDATE HERE"
+}

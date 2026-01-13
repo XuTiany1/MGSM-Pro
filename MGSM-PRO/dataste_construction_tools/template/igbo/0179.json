@@ -1,0 +1,8 @@
+{
+  "original_question": "Lloyd na enweta $10 n'otu awa nkuzi maasị. Ọ kuziri awa ise n'izu ụka nke mbụ na awa asatọ n'izu ụka nke abụọ. Ego ole ka o nwetara maka izu ụka abụọ nke mbu?",
+  "original_answer": 130,
+  "symbolic_template": "{name_male, Lloyd} na enweta ${num_digit_1, 10} n'otu awa nkuzi maasị. Ọ kuziri awa {num_digit_2, 5} n'izu ụka nke mbụ na awa {num_digit_3, 8} n'izu ụka nke abụọ. Ego ole ka o nwetara maka izu ụka abụọ nke mbu?",
+  "ic_sentence_template": "Nwanne nne {name_male, Lloyd} zụrụ akwụkwọ edetu {num_ic, 17} maka ụmụ akwụkwọ ya.",
+  "ic_template": "Nwanne nne {name_male, Lloyd} zụrụ akwụkwọ edetu {num_ic, 17} maka ụmụ akwụkwọ ya. {name_male, Lloyd} na enweta ${num_digit_1, 10} n'otu awa nkuzi maasị. Ọ kuziri awa {num_digit_2, 5} n'izu ụka nke mbụ na awa {num_digit_3, 8} n'izu ụka nke abụọ. Ego ole ka o nwetara maka izu ụka abụọ nke mbu?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Vincent bԑtumi atɔ nhwiren wɔ adaka mmiԑnsa mu $2.50 anaasԑ adaka mmienu biara $1. Sika sԑn na ɔkora sԑ ɔtɔ nhwiren 18 wɔ boɔ a ԑyԑ a?",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, Vincent} bԑtumi atɔ nhwiren wɔ adaka {num_digit_1, mmiɛnsa} mu ${num_digit_2, 2.50} anaasԑ adaka {num_digit_3, mmienu} biara ${num_digit_4, 1}. Sika sԑn na ɔkora sԑ ɔtɔ nhwiren {num_digit_5, 18} wɔ boɔ a ԑyԑ a?",
+  "ic_sentence_template": "{name_male, Vincent} wɔfa wɔ ntoose nnua {num_ic, 23} wɔ ne nfikyiri.",
+  "ic_template": "{name_male, Vincent} wɔfa wɔ ntoose nnua {num_ic, 23} wɔ ne nfikyiri. {name_male, Vincent} bԑtumi atɔ nhwiren wɔ adaka {num_digit_1, mmiɛnsa} mu ${num_digit_2, 2.50} anaasԑ adaka {num_digit_3, mmienu} biara ${num_digit_4, 1}. Sika sԑn na ɔkora sԑ ɔtɔ nhwiren {num_digit_5, 18} wɔ boɔ a ԑyԑ a?",
+  "equation": "UPDATE HERE"
+}

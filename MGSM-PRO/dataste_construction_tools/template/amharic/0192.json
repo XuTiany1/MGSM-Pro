@@ -1,0 +1,8 @@
+{
+  "original_question": "ቶም በ አመት 10 ዛፍ ይተክላል።በየ አመቱ 2 ዛፎች ባመት ይቆርጣል። በ 50 ዛፎች ነው የጀመረው።ከ 10 አመት በኋላ 30% የሚሆኑት ዛፎች ሞቱ።ምን ያህል ዛፎች ቀሩት",
+  "original_answer": 91,
+  "symbolic_template": "{name_male, ቶም} በ አመት {num_digit_1, 10} ዛፍ ይተክላል። በየ አመቱ {num_digit_2, 2} ዛፎች ባመት ይቆርጣል። በ {num_digit_3, 50} ዛፎች ነው የጀመረው። ከ {num_digit_4, 10} አመት በኋላ {num_digit_5, 30}% የሚሆኑት ዛፎች ሞቱ። ምን ያህል ዛፎች ቀሩት",
+  "ic_sentence_template": "የ{name_male, ቶም} አክስት በቅርብ ጊዜ {num_ic, 164} የአበባ ሳህኖች ገዛች።",
+  "ic_template": "{name_male, ቶም} በ አመት {num_digit_1, 10} ዛፍ ይተክላል። በየ አመቱ {num_digit_2, 2} ዛፎች ባመት ይቆርጣል። በ {num_digit_3, 50} ዛፎች ነው የጀመረው። ከ {num_digit_4, 10} አመት በኋላ {num_digit_5, 30}% የሚሆኑት ዛፎች ሞቱ። ምን ያህል ዛፎች ቀሩት የ{name_male, ቶም} አክስት በቅርብ ጊዜ {num_ic, 164} የአበባ ሳህኖች ገዛች።",
+  "equation": "UPDATE HERE"
+}

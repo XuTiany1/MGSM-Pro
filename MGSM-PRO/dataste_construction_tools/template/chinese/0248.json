@@ -1,0 +1,8 @@
+{
+  "original_question": "一位厨师买了 4 袋洋葱。每袋重 50 磅。一磅洋葱售价 1.50 美元。这位厨师花了多少钱？",
+  "original_answer": 300,
+  "symbolic_template": "一位厨师买了 {num_digit_1, 4} 袋洋葱。每袋重 {num_digit_2, 50} 磅。一磅洋葱售价 {num_digit_3, 1.50} 美元。这位厨师花了多少钱？",
+  "ic_sentence_template": "{name_female, 厨师的姑妈} 每年在她的花园里种植 {num_ic, 38} 个西红柿。",
+  "ic_template": "厨师的姑妈 每年在她的花园里种植 {num_ic, 38} 个西红柿。一位厨师买了 {num_digit_1, 4} 袋洋葱。每袋重 {num_digit_2, 50} 磅。一磅洋葱售价 {num_digit_3, 1.50} 美元。这位厨师花了多少钱？",
+  "equation": "UPDATE HERE"
+}

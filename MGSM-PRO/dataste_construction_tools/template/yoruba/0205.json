@@ -1,0 +1,8 @@
+{
+  "original_question": "Brinley wà ní kíláàsì ìṣirò Mr Bert. Mr Bert máa ń ṣe ìdánrawò mẹ́fà ní sáà kọ̀ọ̀kan. Ó máa ń jẹ́ kí àwọn akẹ́kọ̀ọ́ yọ máàkì tó kéré jù kúrò ní àpapọ̀ sáà kọ̀ọ̀kan. Tí Brinley bá ní máàkì 89, 71, 92, 100 àti 86 lórí àwọn ìdánrawò márùn-ún àkọ́kọ́, máàkì mélòó ni ó nílò lórí ìdánrawò kẹfà láti gba àpapọ̀ 93?",
+  "original_answer": 98,
+  "symbolic_template": "{name_female, Brinley} wà ní kíláàsì ìṣirò Mr {name_family, Bert}. Mr {name_family, Bert} máa ń ṣe ìdánrawò mẹ́fà ní sáà kọ̀ọ̀kan. Ó máa ń jẹ́ kí àwọn akẹ́kọ̀ọ́ yọ máàkì tó kéré jù kúrò ní àpapọ̀ sáà kọ̀ọ̀kan. Tí {name_female, Brinley} bá ní máàkì {num_digit_1, 89}, {num_digit_2, 71}, {num_digit_3, 92}, {num_digit_4, 100} àti {num_digit_5, 86} lórí àwọn ìdánrawò márùn-ún àkọ́kọ́, máàkì mélòó ni ó nílò lórí ìdánrawò kẹfà láti gba àpapọ̀ {num_digit_6, 93}?",
+  "ic_sentence_template": "Ìyá ńlá {name_female, Brinley} kan rọ̀ọ̀jọ́ mú àwọn dónùtì {num_ic, 21} wá láti pín fún kíláàsì.",
+  "ic_template": "Ìyá ńlá {name_female, Brinley} kan rọ̀ọ̀jọ́ mú àwọn dónùtì {num_ic, 21} wá láti pín fún kíláàsì. {name_female, Brinley} wà ní kíláàsì ìṣirò Mr {name_family, Bert}. Mr {name_family, Bert} máa ń ṣe ìdánrawò mẹ́fà ní sáà kọ̀ọ̀kan. Ó máa ń jẹ́ kí àwọn akẹ́kọ̀ọ́ yọ máàkì tó kéré jù kúrò ní àpapọ̀ sáà kọ̀ọ̀kan. Tí {name_female, Brinley} bá ní máàkì {num_digit_1, 89}, {num_digit_2, 71}, {num_digit_3, 92}, {num_digit_4, 100} àti {num_digit_5, 86} lórí àwọn ìdánrawò márùn-ún àkọ́kọ́, máàkì mélòó ni ó nílò lórí ìdánrawò kẹfà láti gba àpapọ̀ {num_digit_6, 93}?",
+  "equation": "UPDATE HERE"
+}

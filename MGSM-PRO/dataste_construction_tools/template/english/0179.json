@@ -1,0 +1,8 @@
+{
+  "original_question": "Lloyd earns $10 an hour on Math tutoring. He tutored 5 hours for the first week and 8 hours for the second week. How much did he earn for the first two weeks?",
+  "original_answer": 130,
+  "symbolic_template": "{name_male, Lloyd} earns ${num_digit_1, 10} an hour on Math tutoring. He tutored {num_digit_2, 5} hours for the first week and {num_digit_3, 8} hours for the second week. How much did he earn for the first two weeks?",
+  "ic_sentence_template": "{name_male, Lloyd}'s aunt bought {num_ic, 17} notebooks for her students.",
+  "ic_template": "{name_male, Lloyd} earns ${num_digit_1, 10} an hour on Math tutoring. He tutored {num_digit_2, 5} hours for the first week and {num_digit_3, 8} hours for the second week. {name_male, Lloyd}'s aunt bought {num_ic, 17} notebooks for her students. How much did he earn for the first two weeks?",
+  "equation": "UPDATE HERE"
+}

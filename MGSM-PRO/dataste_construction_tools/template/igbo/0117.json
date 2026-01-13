@@ -1,0 +1,8 @@
+{
+  "original_question": "John zụtara akpụkpụ ukwụ abụọ otunaotu maka ụmụ ya atọ. Ọnụ ego nke ọ bụla bụ $60. Ego ole ka ọ kwụrụ?",
+  "original_answer": 360,
+  "symbolic_template": "{name_male, John} zụtara akpụkpụ ukwụ {num_digit_1, 2} otunaotu maka ụmụ ya {num_digit_2, 3}. Ọnụ ego nke ọ bụla bụ ${num_digit_3, 60}. Ego ole ka ọ kwụrụ?",
+  "ic_sentence_template": "Nwanne nna {name_male, John} zụtara okpu {num_ic, 15} otu oge.",
+  "ic_template": "Nwanne nna {name_male, John} zụtara okpu {num_ic, 15} otu oge. {name_male, John} zụtara akpụkpụ ukwụ {num_digit_1, 2} otunaotu maka ụmụ ya {num_digit_2, 3}. Ọnụ ego nke ọ bụla bụ ${num_digit_3, 60}. Ego ole ka ọ kwụrụ?",
+  "equation": "UPDATE HERE"
+}

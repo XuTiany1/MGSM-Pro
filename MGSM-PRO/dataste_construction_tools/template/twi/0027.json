@@ -1,0 +1,8 @@
+{
+  "original_question": "Cynthia di abele baako anadwo biara. Ͻtɔ abele adaka a baako biara hyԑ mu abele 15 na adaka baako boɔ no yԑ $4.00. Nna aduosia akyi no, ԑka sԑn na ɔbԑ bɔ wɔ abele ho?",
+  "original_answer": 16,
+  "symbolic_template": "{name_female, Cynthia} di abele baako anadwo biara. Ͻtɔ abele adaka a baako biara hyԑ mu abele {num_digit_1, 15} na adaka baako boɔ no yԑ ${num_digit_2, 4}. Nna {num_digit_3, aduosia} akyi no, ԑka sԑn na ɔbԑ bɔ wɔ abele ho?",
+  "ic_sentence_template": "{name_female, Cynthia} wɔfa wɔ sorbet ahorow {num_ic, 7} wɔ ne fridge mu.",
+  "ic_template": "{name_female, Cynthia} wɔfa wɔ sorbet ahorow {num_ic, 7} wɔ ne fridge mu. {name_female, Cynthia} di abele baako anadwo biara. Ͻtɔ abele adaka a baako biara hyԑ mu abele {num_digit_1, 15} na adaka baako boɔ no yԑ ${num_digit_2, 4}. Nna {num_digit_3, aduosia} akyi no, ԑka sԑn na ɔbԑ bɔ wɔ abele ho?",
+  "equation": "UPDATE HERE"
+}

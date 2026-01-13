@@ -1,0 +1,8 @@
+{
+  "original_question": "Otu mkpisi odee n'erikari ego karia dị ka pensụl na nchicha jikọta ọnụ. Otu pensụl n'efu $1.20 na nchicha n'efu $0.30. Ego ole ka mkpịsi odee asatọ ga-efu?",
+  "original_answer": 12,
+  "symbolic_template": "Otu mkpịsi odee n'erikari ego karia dị ka pensụl na nchicha jikọta ọnụ. Otu pensụl n'efu ${num_digit_1, 1.20} na nchicha n'efu ${num_digit_2, 0.30}. Ego ole ka mkpịsi odee {num_digit_3, 8} ga-efu?",
+  "ic_sentence_template": "Akwụkwọ edetu ọhụrụ {num_ic, 33} bịarutere n'ụlọ ahịa taa.",
+  "ic_template": "Akwụkwọ edetu ọhụrụ {num_ic, 33} bịarutere n'ụlọ ahịa taa. Otu mkpịsi odee n'erikari ego karia dị ka pensụl na nchicha jikọta ọnụ. Otu pensụl n'efu ${num_digit_1, 1.20} na nchicha n'efu ${num_digit_2, 0.30}. Ego ole ka mkpịsi odee {num_digit_3, 8} ga-efu?",
+  "equation": "UPDATE HERE"
+}

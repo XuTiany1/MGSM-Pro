@@ -1,0 +1,8 @@
+{
+  "original_question": "Jan nwere peti ugboro atọ karia Marcia. Marcia nwere peti abụọ ọzọ karịa Cindy. Ọ bụrụ na Cindy nwere peti anọ, peti ole ka ha atọ nwere na ngụkọta?",
+  "original_answer": 28,
+  "symbolic_template": "{name_female_1, Jan} nwere peti ugboro atọ karia {name_female_2, Marcia}. {name_female_2, Marcia} nwere peti abụọ ọzọ karịa {name_female_3, Cindy}. Ọ bụrụ na {name_female_3, Cindy} nwere peti anọ, peti ole ka ha atọ nwere na ngụkọta?",
+  "ic_sentence_template": "Nwanne nna {name_female_2, Marcia} nwere nnụnụ {num_ic, 16}.",
+  "ic_template": "Nwanne nna {name_female_2, Marcia} nwere nnụnụ {num_ic, 16}. {name_female_1, Jan} nwere peti ugboro atọ karia {name_female_2, Marcia}. {name_female_2, Marcia} nwere peti abụọ ọzọ karia {name_female_3, Cindy}. Ọ bụrụ na {name_female_3, Cindy} nwere peti anọ, peti ole ka ha atọ nwere na ngụkọta?",
+  "equation": "UPDATE HERE"
+}

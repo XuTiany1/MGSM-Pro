@@ -1,0 +1,8 @@
+{
+  "original_question": "nínú àdúgbò kan, iye ehoro tó wà ní ibẹ̀ fi méjìlá kéré àpapọ̀ iye ajá àti ológbò. tí ológbò méjì bá wà pẹ̀lú ajá, iye ajá jẹ́ 60, ẹranko mélòó ní ó wà nínú àdúgbò náà?",
+  "original_answer": 348,
+  "symbolic_template": "nínú àdúgbò kan, iye ehoro tó wà ní ibẹ̀ fi méjìlá kéré àpapọ̀ iye ajá àti ológbò. tí ológbò méjì bá wà pẹ̀lú ajá, iye ajá jẹ́ {num_digit_1, 60}, ẹranko mélòó ní ó wà nínú àdúgbò náà?",
+  "ic_sentence_template": "Arákùnrin {name_female, Olivia} ní àwọn àdán {num_ic, 197}.",
+  "ic_template": "nínú àdúgbò kan, iye ehoro tó wà ní ibẹ̀ fi méjìlá kéré àpapọ̀ iye ajá àti ológbò. tí ológbò méjì bá wà pẹ̀lú ajá, iye ajá jẹ́ {num_digit_1, 60}, ẹranko mélòó ní ó wà nínú àdúgbò náà? Arákùnrin {name_female, Olivia} ní àwọn àdán {num_ic, 197}.",
+  "equation": "UPDATE HERE"
+}

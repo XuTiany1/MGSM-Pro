@@ -1,0 +1,8 @@
+{
+  "original_question": "Ohun èlò ìmúṣiṣẹ́ kan ní ìgbàsílẹ̀ 60 ní oṣù àkọ́kọ́. Ònkà ìgbàsílẹ̀ náà ní oṣù kejì fi ìlọ́po mẹ́ta pọ̀ ju èyí ti ìgbàsílẹ̀ ní oṣù àkọ́kọ́ lọ, ṣùgbọ́n ó tún dínkù pẹ̀lú 30% ní oṣù kẹta. Mélòó ni iye ìgbàsílẹ̀ tí ètò náà ní lápapọ̀ ní kárí àwọn oṣù mẹ́ta náà?",
+  "original_answer": 366,
+  "symbolic_template": "Ohun èlò ìmúṣiṣẹ́ kan ní ìgbàsílẹ̀ {num_digit_1, 60} ní oṣù àkọ́kọ́. Ònkà ìgbàsílẹ̀ náà ní oṣù kejì fi ìlọ́po mẹ́ta pọ̀ ju èyí ti ìgbàsílẹ̀ ní oṣù àkọ́kọ́ lọ, ṣùgbọ́n ó tún dínkù pẹ̀lú {num_digit_2, 30}% ní oṣù kẹta. Mélòó ni iye ìgbàsílẹ̀ tí ètò náà ní lápapọ̀ ní kárí àwọn oṣù mẹ́ta náà?",
+  "ic_sentence_template": "Arákùnrin olùgbéejáde na kọ́ títa tábìlì kọ̀mpútà {num_ic, 413} fún ilé-iṣẹ́ náà.",
+  "ic_template": "Arákùnrin olùgbéejáde na kọ́ títa tábìlì kọ̀mpútà {num_ic, 413} fún ilé-iṣẹ́ náà. Ohun èlò ìmúṣiṣẹ́ kan ní ìgbàsílẹ̀ {num_digit_1, 60} ní oṣù àkọ́kọ́. Ònkà ìgbàsílẹ̀ náà ní oṣù kejì fi ìlọ́po mẹ́ta pọ̀ ju èyí ti ìgbàsílẹ̀ ní oṣù àkọ́kọ́ lọ, ṣùgbọ́n ó tún dínkù pẹ̀lú {num_digit_2, 30}% ní oṣù kẹta. Mélòó ni iye ìgbàsílẹ̀ tí ètò náà ní lápapọ̀ ní kárí àwọn oṣù mẹ́ta náà?",
+  "equation": "UPDATE HERE"
+}

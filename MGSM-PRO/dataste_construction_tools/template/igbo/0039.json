@@ -1,0 +1,8 @@
+{
+  "original_question": "Dana na-agbanwu ọsọ n'ọnụ nha ngwangwa dị ugboro anọ ọsịsọ karịa ka ọ ga-aganwu ije, mana ọ ga-awulinwu elu n'ọnụ nha dị ngwangwa ji ọkara di ọsọ dika ọ na-agbanwu ọsọ. Ọ bụrụ na ọ na-awulinwu elu maili atọ kwa awa, maili ole ka ọ ga-eme njem n'ime awa isii ma ọ bụrụ na o jiri otu n'ime atọ oge nke ọ na-agba ọsọ na abụọ n'ime atọ oge nke ọ na-aga ije?",
+  "original_answer": 18,
+  "symbolic_template": "{name_female, Dana} na-agbanwu ọsọ n'ọnụ nha ngwangwa dị ugboro anọ ọsịsọ karịa ka ọ ga-aganwu ije, mana ọ ga-awulinwu elu n'ọnụ nha dị ngwangwa ji ọkara di ọsọ dika ọ na-agbanwu ọsọ. Ọ bụrụ na ọ na-awulinwu elu maili {num_digit_1, 3} kwa awa, maili ole ka ọ ga-eme njem n'ime awa isii ma ọ bụrụ na o jiri otu n'ime atọ oge nke ọ na-agba ọsọ na abụọ n'ime atọ oge nke ọ na-aga ije?",
+  "ic_sentence_template": "Nwanne nne {name_female, Dana} mechara emechaa gwuo ọsọ ebe a nwere ndị sonyere ruru {num_ic, 106}.",
+  "ic_template": "Nwanne nne {name_female, Dana} mechara emechaa gwuo ọsọ ebe a nwere ndị sonyere ruru {num_ic, 106}. {name_female, Dana} na-agbanwu ọsọ n'ọnụ nha ngwangwa dị ugboro anọ ọsịsọ karịa ka ọ ga-aganwu ije, mana ọ ga-awulinwu elu n'ọnụ nha dị ngwangwa ji ọkara di ọsọ dika ọ na-agbanwu ọsọ. Ọ bụrụ na ọ na-awulinwu elu maili {num_digit_1, 3} kwa awa, maili ole ka ọ ga-eme njem n'ime awa isii ma ọ bụrụ na o jiri otu n'ime atọ oge nke ọ na-agba ọsọ na abụọ n'ime atọ oge nke ọ na-aga ije?",
+  "equation": "UPDATE HERE"
+}

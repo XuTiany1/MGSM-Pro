@@ -1,0 +1,8 @@
+{
+  "original_question": "Gene anashona mfarishi kwa kutumia tisheti za kale za ukumbusho. Ana shati moja kutoka kwa kila likizo aliyowahi kwenda. Kila shati ni pande kubwa la mfarishi wake. Kila safu imeundwa kwa pande kubwa kutoka mwaka tofauti wa likizo. Huwa anaenda likizo nne kwa mwaka na amekuwa akienda likizo tangu alipokuwa na umri wa miaka 23. Sasa ana umri wa miaka 34. Ana pande kubwa za mfarishi ngapi kwa jumla?",
+  "original_answer": 44,
+  "symbolic_template": "{name_male, Gene} anashona mfarishi kwa kutumia tisheti za kale za ukumbusho. Ana shati moja kutoka kwa kila likizo aliyowahi kwenda. Kila shati ni kipande cha mfarishi wake. Kila safu imeundwa kwa vipande kutoka mwaka tofauti wa likizo. Huwa anaenda likizo nne kwa mwaka na amekuwa akienda likizo tangu alipokuwa na umri wa miaka {num_digit_1, 23}. Sasa ana umri wa miaka {num_digit_2, 34}. Ana vipande vya mfarishi vingapi kwa jumla?",
+  "ic_sentence_template": "Mjomba wa {name_male, Gene} ana viraka vyenye rangi {num_ic, 44}",
+  "ic_template": "Mjomba wa {name_male, Gene} ana viraka vyenye rangi {num_ic, 44} {name_male, Gene} anashona mfarishi kwa kutumia tisheti za kale za ukumbusho. Ana shati moja kutoka kwa kila likizo aliyowahi kwenda. Kila shati ni kipande cha mfarishi wake. Kila safu imeundwa kwa vipande kutoka mwaka tofauti wa likizo. Huwa anaenda likizo nne kwa mwaka na amekuwa akienda likizo tangu alipokuwa na umri wa miaka {num_digit_1, 23}. Sasa ana umri wa miaka {num_digit_2, 34}. Ana vipande vya mfarishi vingapi kwa jumla?",
+  "equation": "UPDATE HERE"
+}

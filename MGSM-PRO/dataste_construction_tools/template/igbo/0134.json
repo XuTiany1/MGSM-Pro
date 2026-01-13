@@ -1,0 +1,8 @@
+{
+  "original_question": "Tom na-enweta ọ̀sị́sà ụgbọala ugboro anọ n'ọnwa. Ọ bụrụ na ụgbọala ọbụla ọ saara na-efu $15 kedụ ego ole ọ na-emefu n'àfọ́? ",
+  "original_answer": 720,
+  "symbolic_template": "{name_male, Tom} na-enweta ọ̀sị́sà ụgbọala ugboro {num_digit_1, 4} n'ọnwa. Ọ bụrụ na ụgbọala ọbụla ọ saara na-efu ${num_digit_2, 15} kedụ ego ole ọ na-emefu n'àfọ́?",
+  "ic_sentence_template": "Nwa Nwanne nna {name_male, Tom} zụtara ụgbọala egwuregwu {num_ic, 14} izu gara aga.",
+  "ic_template": "Nwa Nwanne nna {name_male, Tom} zụtara ụgbọala egwuregwu {num_ic, 14} izu gara aga. {name_male, Tom} na-enweta ọ̀sị́sà ụgbọala ugboro {num_digit_1, 4} n'ọnwa. Ọ bụrụ na ụgbọala ọbụla ọ saara na-efu ${num_digit_2, 15} kedụ ego ole ọ na-emefu n'àfọ́?",
+  "equation": "UPDATE HERE"
+}

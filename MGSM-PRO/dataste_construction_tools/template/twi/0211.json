@@ -1,0 +1,8 @@
+{
+  "original_question": "Na Jerry wɔ nkokɔ bebree. Na nkokɔ kɔkɔɔ no bɔ nkosua 3 da baako biara, na nkokɔ fitaa nso bɔ nkosua 5 da baako baira. Na da biara nso Jerry boaboa nkosua 42 ano. Sɛ ɔwɔ nkokɔ fitaa mmienu sen nkokɔ kɔkɔɔ a, nkokɔ kɔkɔɔ ahe na ɔwɔ?",
+  "original_answer": 4,
+  "symbolic_template": "Na {name_male, Jerry} wɔ nkokɔ bebree. Na nkokɔ kɔkɔɔ no bɔ nkosua {num_digit_1, 3} da baako biara, na nkokɔ fitaa nso bɔ nkosua {num_digit_2, 5} da baako biara. Na da biara nso {name_male, Jerry} boaboa nkosua {num_digit_3, 42} ano. Sɛ ɔwɔ nkokɔ fitaa mmienu sen nkokɔ kɔkɔɔ a, nkokɔ kɔkɔɔ ahe na ɔwɔ?",
+  "ic_sentence_template": "{name_male, Jerry} sewaa wɔ nnabodabo {num_ic, 54} wɔ ne mfuw so.",
+  "ic_template": "{name_male, Jerry} sewaa wɔ nnabodabo {num_ic, 54} wɔ ne mfuw so. Na {name_male, Jerry} wɔ nkokɔ bebree. Na nkokɔ kɔkɔɔ no bɔ nkosua {num_digit_1, 3} da baako biara, na nkokɔ fitaa nso bɔ nkosua {num_digit_2, 5} da baako biara. Na da biara nso {name_male, Jerry} boaboa nkosua {num_digit_3, 42} ano. Sɛ ɔwɔ nkokɔ fitaa mmienu sen nkokɔ kɔkɔɔ a, nkokɔ kɔkɔɔ ahe na ɔwɔ?",
+  "equation": "UPDATE HERE"
+}

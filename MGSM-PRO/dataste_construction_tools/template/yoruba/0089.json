@@ -1,0 +1,8 @@
+{
+  "original_question": "Christina ń ṣètò ayẹyẹ ọjọ́ ìbí ó sì nílò àwọn àpamọ ẹ̀bùn 75 fún àwọn àwọn àlejò kọ̀ọ̀kan tí ó fìwé pè, nítorí 1/4 àwọn tó ń bọ̀ ni kò yọjú. Ó fìwé pe àwọn ọ̀rẹ́ 16. Àwọn àpamọ ẹ̀bùn jẹ́ $2 ẹyọkan. Èló ní yóò ná?",
+  "original_answer": 24,
+  "symbolic_template": "{name_female, Christina} ń ṣètò ayẹyẹ ọjọ́ ìbí ó sì nílò àwọn àpamọ ẹ̀bùn {num_digit_1, .75} fún àwọn àlejò kọ̀ọ̀kan tí ó fìwé pè, nítorí 1/4 àwọn tó ń bọ̀ ni kò yọjú. Ó fìwé pe àwọn ọ̀rẹ́ {num_digit_2, 16}. Àwọn àpamọ ẹ̀bùn jẹ́ ${num_digit_3, 2} ẹyọkan. Èló ní yóò ná?",
+  "ic_sentence_template": "Àbúrò ìyá {name_female, Christina} mú àwọn kẹ́kùpọ̀n {num_ic, 89} wá fún ayẹyẹ náà.",
+  "ic_template": "Àbúrò ìyá {name_female, Christina} mú àwọn kẹ́kùpọ̀n {num_ic, 89} wá fún ayẹyẹ náà. {name_female, Christina} ń ṣètò ayẹyẹ ọjọ́ ìbí ó sì nílò àwọn àpamọ ẹ̀bùn {num_digit_1, .75} fún àwọn àlejò kọ̀ọ̀kan tí ó fìwé pè, nítorí 1/4 àwọn tó ń bọ̀ ni kò yọjú. Ó fìwé pe àwọn ọ̀rẹ́ {num_digit_2, 16}. Àwọn àpamọ ẹ̀bùn jẹ́ ${num_digit_3, 2} ẹyọkan. Èló ní yóò ná?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "A merchant wants to make a choice of purchase between 2 purchase plans: jewelry worth $5,000 or electronic gadgets worth $8,000. His financial advisor speculates that the jewelry market will go up 2.5% while the electronic gadgets market will rise 1.2% within the same month. If the merchant is looking to maximize profit at the end of this month by making a choice, how much profit would this be?",
+  "original_answer": 125,
+  "symbolic_template": "A merchant wants to make a choice of purchase between {num_digit_1, 2} purchase plans: jewelry worth ${num_digit_2, 5,000} or electronic gadgets worth ${num_digit_3, 8,000}. His financial advisor speculates that the jewelry market will go up {num_digit_4, 2.5}% while the electronic gadgets market will rise {num_digit_5, 1.2}% within the same month. If the merchant is looking to maximize profit at the end of this month by making a choice, how much profit would this be?",
+  "ic_sentence_template": "The merchant's nephew recently bought {num_ic, 39} comic books.",
+  "ic_template": "A merchant wants to make a choice of purchase between {num_digit_1, 2} purchase plans: jewelry worth ${num_digit_2, 5,000} or electronic gadgets worth ${num_digit_3, 8,000}. His financial advisor speculates that the jewelry market will go up {num_digit_4, 2.5}% while the electronic gadgets market will rise {num_digit_5, 1.2}% within the same month. The merchant's nephew recently bought {num_ic, 39} comic books. If the merchant is looking to maximize profit at the end of this month by making a choice, how much profit would this be?",
+  "equation": "UPDATE HERE"
+}

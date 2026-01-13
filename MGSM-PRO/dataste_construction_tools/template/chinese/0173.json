@@ -1,0 +1,8 @@
+{
+  "original_question": "杰西卡试图弄清楚自己每个月需要为所有债务偿还多少钱。她学生贷款的每月最低还款额为 300 美元，信用卡的每月最低还款额为 200 美元，抵押贷款的每月最低还款额为 500 美元。如果杰西卡想比最低还款额多还款 50%，她一年还款多少金额？",
+  "original_answer": 18000,
+  "symbolic_template": "{name_female, 杰西卡} 试图弄清楚自己每个月需要为所有债务偿还多少钱。她学生贷款的每月最低还款额为 {num_digit_1, 300} 美元，信用卡的每月最低还款额为 {num_digit_2, 200} 美元，抵押贷款的每月最低还款额为 {num_digit_3, 500} 美元。如果 {name_female, 杰西卡} 想比最低还款额多还款 {num_digit_4, 50}% ，她一年还款多少金额？",
+  "ic_sentence_template": "{name_female, 杰西卡}的叔叔最近送给她 {num_ic, 58} 张优惠券。",
+  "ic_template": "{name_female, 杰西卡}的叔叔最近送给她 {num_ic, 58} 张优惠券。{name_female, 杰西卡} 试图弄清楚自己每个月需要为所有债务偿还多少钱。她学生贷款的每月最低还款额为 {num_digit_1, 300} 美元，信用卡的每月最低还款额为 {num_digit_2, 200} 美元，抵押贷款的每月最低还款额为 {num_digit_3, 500} 美元。如果 {name_female, 杰西卡} 想比最低还款额多还款 {num_digit_4, 50}% ，她一年还款多少金额？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Grace pèse 125 livres. Alex en pèse 2 de moins que 4 fois le poids de Grace. Quelle est, en livres, la somme de leurs deux poids ?",
+  "original_answer": 623,
+  "symbolic_template": "{name_female, Grace} pèse {num_digit_1, 125} livres. {name_male, Alex} en pèse {num_digit_2, 2} de moins que {num_digit_3, 4} fois le poids de {name_female, Grace}. Quelle est, en livres, la somme de leurs deux poids ?",
+  "ic_sentence_template": "{name_female, Grace} a un oncle qui a récemment soulevé {num_ic, 17} cartons au travail.",
+  "ic_template": "{name_female, Grace} a un oncle qui a récemment soulevé {num_ic, 17} cartons au travail. {name_female, Grace} pèse {num_digit_1, 125} livres. {name_male, Alex} en pèse {num_digit_2, 2} de moins que {num_digit_3, 4} fois le poids de {name_female, Grace}. Quelle est, en livres, la somme de leurs deux poids ?",
+  "equation": "UPDATE HERE"
+}

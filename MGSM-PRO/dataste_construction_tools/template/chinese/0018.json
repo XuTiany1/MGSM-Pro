@@ -1,0 +1,8 @@
+{
+  "original_question": "克莱尔每天早上用 3 颗鸡蛋做一份煎蛋饼当早餐。四周内她能吃多少打鸡蛋？",
+  "original_answer": 7,
+  "symbolic_template": "{name_female, 克莱尔} 每天早上用 {num_digit_1, 3} 颗鸡蛋做一份煎蛋饼当早餐。{num_digit_2, 4} 周内她能吃多少打鸡蛋？",
+  "ic_sentence_template": "{name_female, 克莱尔} 的叔叔在他的农场里养了 {num_ic, 44} 只母鸡。",
+  "ic_template": "{name_female, 克莱尔} 的叔叔在他的农场里养了 {num_ic, 44} 只母鸡。{name_female, 克莱尔} 每天早上用 {num_digit_1, 3} 颗鸡蛋做一份煎蛋饼当早餐。{num_digit_2, 4} 周内她能吃多少打鸡蛋？",
+  "equation": "UPDATE HERE"
+}

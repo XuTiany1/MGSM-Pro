@@ -1,0 +1,8 @@
+{
+  "original_question": "Charlie alikuwa na vibandiko 10. Alinunua vibandiko 21 kwenye duka katika jengo la maduka na kupata vibandiko 23 vya siku yake ya kuzaliwa. Kisha Charlie alimpa dadake vibandiko 9 na akatumia 28 kupamba kadi ya salamu. Charlie amesalia na vibandiko vingapi?",
+  "original_answer": 17,
+  "symbolic_template": "{name_male, Charlie} alikuwa na vibandiko {num_digit_1, 10}. Alinunua vibandiko {num_digit_2, 21} kutoka duka lililoko kwenye jengo la maduka na akapokea vibandiko {num_digit_3, 23} kwa ajili ya siku yake ya kuzaliwa. Kisha {name_male, Charlie} alimpa dada yake vibandiko {num_digit_4, 9} na akatumia vibandiko {num_digit_5, 28} kupamba kadi ya salamu. {name_male, Charlie} amebaki na vibandiko vingapi?",
+  "ic_sentence_template": "Mjomba wa {name_male, Charlie} hukusanya stempu adimu {num_ic, 12}.",
+  "ic_template": "{name_male, Charlie} alikuwa na vibandiko {num_digit_1, 10}. Alinunua vibandiko {num_digit_2, 21} kutoka duka lililoko kwenye jengo la maduka na akapokea vibandiko {num_digit_3, 23} kwa ajili ya siku yake ya kuzaliwa. Kisha {name_male, Charlie} alimpa dada yake vibandiko {num_digit_4, 9} na akatumia vibandiko {num_digit_5, 28} kupamba kadi ya salamu. Mjomba wa {name_male, Charlie} hukusanya stempu adimu {num_ic, 12}. {name_male, Charlie} amebaki na vibandiko vingapi?",
+  "equation": "UPDATE HERE"
+}

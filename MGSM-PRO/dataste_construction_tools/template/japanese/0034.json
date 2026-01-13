@@ -1,0 +1,8 @@
+{
+  "original_question": "シヴォーンが持つ宝石の数は、アーロンよりも2個少ないです。アーロンはレイモンドよりも、5個多く宝石を持っています。もしもレイモンドが40個の宝石を持っている場合、シヴォーンはいくつ宝石を持っていますか？",
+  "original_answer": 23,
+  "symbolic_template": "{name_male_1, Siobhan} が持つ宝石の数は、よりも{num_digit_1, 2}個少ないです。{name_male_2, Aaron}. {name_male_2, Aaron} は{name_male_3, Raymond}ドの宝石の半分よりも{num_digit_2, 5}個多く宝石を持っています。もしも{name_male_3, Raymond}ドが{num_digit_3, 40}個の宝石を持っている場合、{name_male_1, Siobhan}はいくつ宝石を持っていますか？",
+  "ic_sentence_template": "{name_male_2, アーロン}のおじさんは彼に一度{num_ic, 341}個のビー玉をプレゼントしました。",
+  "ic_template": "{name_male_2, アーロン}のおじさんは彼に一度{num_ic, 341}個のビー玉をプレゼントしました。{name_male_1, Siobhan} が持つ宝石の数は、よりも{num_digit_1, 2}個少ないです。{name_male_2, Aaron}. {name_male_2, Aaron} は{name_male_3, Raymond}ドの宝石の半分よりも{num_digit_2, 5}個多く宝石を持っています。もしも{name_male_3, Raymond}ドが{num_digit_3, 40}個の宝石を持っている場合、{name_male_1, Siobhan}はいくつ宝石を持っていますか？",
+  "equation": "UPDATE HERE"
+}

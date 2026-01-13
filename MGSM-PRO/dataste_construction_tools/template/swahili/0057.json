@@ -1,0 +1,8 @@
+{
+  "original_question": "Daraja la mbao linaweza kubeba pauni zisizozidi 5000. Lori la uwasilishaji lililojaa na maboksi yanayofanana, kila boksi likiwa na uzani wa pauni 15, litapita juu ya daraja hilo. Jumla ya uzani wa dereva na lori tupu ni pauni 3755. Idadi ya juu zaidi ya maboksi yanayoweza kupakiwa kwenye lori bila kuzidi kikomo cha uzani wa daraja hilo ni ngapi?",
+  "original_answer": 83,
+  "symbolic_template": "Daraja la mbao linaweza kubeba pauni zisizozidi {num_digit_1, 5000}. Lori la uwasilishaji lililojaa na maboksi yanayofanana, kila boksi likiwa na uzani wa pauni {num_digit_2, 15}, litapita juu ya daraja hilo. Jumla ya uzani wa dereva na lori tupu ni pauni {num_digit_3, 3755}. Idadi ya juu zaidi ya maboksi yanayoweza kupakiwa kwenye lori bila kuzidi kikomo cha uzani wa daraja hilo ni ngapi?",
+  "ic_sentence_template": "Mjomba wa dereva wa lori aliwahi kusafirisha maboga {num_ic, 215} katika safari moja.",
+  "ic_template": "Mjomba wa dereva wa lori aliwahi kusafirisha maboga {num_ic, 215} katika safari moja. Daraja la mbao linaweza kubeba pauni zisizozidi {num_digit_1, 5000}. Lori la uwasilishaji lililojaa na maboksi yanayofanana, kila boksi likiwa na uzani wa pauni {num_digit_2, 15}, litapita juu ya daraja hilo. Jumla ya uzani wa dereva na lori tupu ni pauni {num_digit_3, 3755}. Idadi ya juu zaidi ya maboksi yanayoweza kupakiwa kwenye lori bila kuzidi kikomo cha uzani wa daraja hilo ni ngapi?",
+  "equation": "UPDATE HERE"
+}

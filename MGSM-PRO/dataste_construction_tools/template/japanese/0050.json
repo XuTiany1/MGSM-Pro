@@ -1,0 +1,8 @@
+{
+  "original_question": "ロイドは卵牧場を持っている。彼の鶏は1日に252個の卵を作り、1ダース$2で売る。ロイドは卵で、週にいくら生み出すことができるか？",
+  "original_answer": 294,
+  "symbolic_template": "{name_male, Lloyd}は卵牧場を持っている。彼の鶏は1日に{num_digit_1, 252}個の卵を作り、1ダース{num_digit_2, 2}ドルで売る。{name_male, Lloyd}は卵で、週にいくら生み出すことができるか？",
+  "ic_sentence_template": "{name_male, ロイド}のおじさんはちょうど{num_ic, 105}羽のガチョウを買いました。",
+  "ic_template": "{name_male, ロイド}のおじさんはちょうど{num_ic, 105}羽のガチョウを買いました。{name_male, Lloyd}は卵牧場を持っている。彼の鶏は1日に{num_digit_1, 252}個の卵を作り、1ダース{num_digit_2, 2}ドルで売る。{name_male, Lloyd}は卵で、週にいくら生み出すことができるか？",
+  "equation": "UPDATE HERE"
+}

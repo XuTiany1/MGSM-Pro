@@ -1,0 +1,8 @@
+{
+  "original_question": "Brittany àti ìyá rẹ̀ lọ sí ilé ìṣúra ohun ìṣẹ̀ǹbáyé. Iye owo ìwọlé jẹ $12 fún àwọn àgbàlagbà ati $10 fún àwọn ọmọdé. Ìyá Brittany fún akápò ní owó fún tíkẹ́ẹ̀tì ọmọdé 1 àti tíkẹ́ẹ̀tì àgbàlagbà 1. Tí ó bá gba $8 ní ṣéǹjì, èló ní dọ́là ni ó fún akápò náà?",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, Brittany} àti ìyá rẹ̀ lọ sí ilé ìṣúra ohun ìṣẹ̀ǹbáyé. Iye owo ìwọlé jẹ ${num_digit_1, 12} fún àwọn àgbàlagbà ati ${num_digit_2, 10} fún àwọn ọmọdé. Ìyá {name_female, Brittany} fún akápò ní owó fún tíkẹ́ẹ̀tì ọmọdé {num_digit_3, 1} àti tíkẹ́ẹ̀tì àgbàlagbà {num_digit_4, 1}. Tí ó bá gba ${num_digit_5, 8} ní ṣéǹjì, èló ní dọ́là ni ó fún akápò náà?",
+  "ic_sentence_template": "Kúròbàbá {name_female, Brittany} ṣàbẹ̀wò ilé ọnọ̀ lọ́sẹ̀ tó kọjá ó sì rà káàdì àfídánrò {num_ic, 31}.",
+  "ic_template": "Kúròbàbá {name_female, Brittany} ṣàbẹ̀wò ilé ọnọ̀ lọ́sẹ̀ tó kọjá ó sì rà káàdì àfídánrò {num_ic, 31}. {name_female, Brittany} àti ìyá rẹ̀ lọ sí ilé ìṣúra ohun ìṣẹ̀ǹbáyé. Iye owo ìwọlé jẹ ${num_digit_1, 12} fún àwọn àgbàlagbà ati ${num_digit_2, 10} fún àwọn ọmọdé. Ìyá {name_female, Brittany} fún akápò ní owó fún tíkẹ́ẹ̀tì ọmọdé {num_digit_3, 1} àti tíkẹ́ẹ̀tì àgbàlagbà {num_digit_4, 1}. Tí ó bá gba ${num_digit_5, 8} ní ṣéǹjì, èló ní dọ́là ni ó fún akápò náà?",
+  "equation": "UPDATE HERE"
+}

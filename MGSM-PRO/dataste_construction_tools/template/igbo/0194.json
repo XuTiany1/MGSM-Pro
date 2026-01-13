@@ -1,0 +1,8 @@
+{
+  "original_question": "Violetta chọrọ ịzụta oteji ọhụrụ. Ọ chọrọ ha n'agba ịse dị iche iche ma kwado $20 maka ịzụta nke a. Otu oteji na-ada $2.  Ego ụfọ ole ka ọ ga-anata? ",
+  "original_answer": 10,
+  "symbolic_template": "{name_female, Violetta} chọrọ ịzụta oteji ọhụrụ. Ọ chọrọ ha n'agba {num_digit_1, 5} dị iche iche ma kwado ${num_digit_2, 20} maka ịzụta nke a. Otu oteji na-ada ${num_digit_3, 2}.  Ego ụfọ ole ka ọ ga-anata?",
+  "ic_sentence_template": "Nwanne nna {name_female, Violetta} na-echekwa ihe osise {num_ic, 68} na ụlọ ngosi nka ya.",
+  "ic_template": "Nwanne nna {name_female, Violetta} na-echekwa ihe osise {num_ic, 68} na ụlọ ngosi nka ya. {name_female, Violetta} chọrọ ịzụta oteji ọhụrụ. Ọ chọrọ ha n'agba {num_digit_1, 5} dị iche iche ma kwado ${num_digit_2, 20} maka ịzụta nke a. Otu oteji na-ada ${num_digit_3, 2}.  Ego ụfọ ole ka ọ ga-anata?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Harry rahuru ụra awa itoolu n'abalị gaara aga. Enyị ya James rahuru naanị ụzọ abụọ n'ịme atọ n'ụra Harry rahuru. Awa ole ka Harry rahuru ụra karịa James? ",
+  "original_answer": 3,
+  "symbolic_template": "{name_male_1, Harry} rahuru ụra awa {num_digit_1, 9} n'abalị gaara aga. Enyị ya {name_male_2, James} rahuru naanị 2/3 n'ụra {name_male_1, Harry} rahuru. Awa ole ka {name_male_1, Harry} rahuru ụra karịa {name_male_2, James}?",
+  "ic_sentence_template": "Nwanne Nna {name_male_2, James} na-eme pancakes iri na itoolu ({num_ic, 19}) kwa ngwụsị izu.",
+  "ic_template": "Nwanne Nna {name_male_2, James} na-eme pancakes iri na itoolu ({num_ic, 19}) kwa ngwụsị izu. {name_male_1, Harry} rahuru ụra awa {num_digit_1, 9} n'abalị gaara aga. Enyị ya {name_male_2, James} rahuru naanị 2/3 n'ụra {name_male_1, Harry} rahuru. Awa ole ka {name_male_1, Harry} rahuru ụra karịa {name_male_2, James}?",
+  "equation": "UPDATE HERE"
+}

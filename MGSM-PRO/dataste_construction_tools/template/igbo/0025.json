@@ -1,0 +1,8 @@
+{
+  "original_question": "Marie tụrụ ahịa otu nri ọkụkọ nke ọnụ ahia ya bụ $12, mkpọ mmiri ara ise nke ọnụ ahia ya bụ $3 otunaotu, apụl anọ nke ọnụ ahia ya bụ $1.50 otunaotu, na ụfọdụ igbe piza. Marie kwụrụ na ngụkọta $50. Igbe piza ole ka Marie tụrụ ahịa ya maọbụrụ na ọnụ ahia igbe ọbụla bụ $8.50?",
+  "original_answer": 2,
+  "symbolic_template": "{name_female, Marie} tụrụ ahịa otu nri ọkụkọ nke ọnụ ahia ya bụ ${num_digit_1, 12}, mkpọ mmiri ara {num_digit_2, 5} nke ọnụ ahia ya bụ ${num_digit_3, 3} otunaotu, apụl {num_digit_4, 4} nke ọnụ ahia ya bụ ${num_digit_5, 1.50} otunaotu, na ụfọdụ igbe piza. {name_female, Marie} kwụrụ na ngụkọta ${num_digit_6, 50}. Igbe piza ole ka {name_female, Marie} tụrụ ahịa ya maọbụrụ na ọnụ ahia igbe ọbụla bụ ${num_digit_7, 8.50}?",
+  "ic_sentence_template": "Nwa nwanne nna {name_female, Marie} zutere mkpụrụ achịcha {num_ic, 128} na nso nso a.",
+  "ic_template": "Nwa nwanne nna {name_female, Marie} zutere mkpụrụ achịcha {num_ic, 128} na nso nso a. {name_female, Marie} tụrụ ahịa otu nri ọkụkọ nke ọnụ ahia ya bụ ${num_digit_1, 12}, mkpọ mmiri ara {num_digit_2, 5} nke ọnụ ahia ya bụ ${num_digit_3, 3} otunaotu, apụl {num_digit_4, 4} nke ọnụ ahia ya bụ ${num_digit_5, 1.50} otunaotu, na ụfọdụ igbe piza. {name_female, Marie} kwụrụ na ngụkọta ${num_digit_6, 50}. Igbe piza ole ka {name_female, Marie} tụrụ ahịa ya maọbụrụ na ọnụ ahia igbe ọbụla bụ ${num_digit_7, 8.50}?",
+  "equation": "UPDATE HERE"
+}

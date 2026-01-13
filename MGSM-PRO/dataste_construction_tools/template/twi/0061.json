@@ -1,0 +1,8 @@
+{
+  "original_question": "Janet tɔɔ nhwiren a w’ahyehyԑ maa ne ba baa. Ͻtuaa $500 wɔ ntomatam a ɔde bԑyԑ no ana $800 bio wɔ agudeԑ a ɔde bԑyԑ no. Yei nyinaa akyi no, ɔtuaa ɔha nkyemu du sԑ ɔbԑ ma y’abɔ ho ban. Sԑn na ɔtuaaԑ?",
+  "original_answer": 1430,
+  "symbolic_template": "{name_female, Janet} tɔɔ nhwiren a w’ahyehyԑ maa ne ba baa. Ͻtuaa ${num_digit_1, 500} wɔ ntomatam a ɔde bԑyԑ no ana ${num_digit_2, 800} bio wɔ agudeԑ a ɔde bԑyԑ no. Yei nyinaa akyi no, ɔtuaa {num_digit_3, 10}% sԑ ɔbԑ ma y’abɔ ho ban. Sԑn na ɔtuaaԑ?",
+  "ic_sentence_template": "{name_female, Janet} wɔfa huu sika a wɔntaa nhu {num_ic, 35} wɔ n'abansoro dan atifi.",
+  "ic_template": "{name_female, Janet} tɔɔ nhwiren a w’ahyehyԑ maa ne ba baa. Ͻtuaa ${num_digit_1, 500} wɔ ntomatam a ɔde bԑyԑ no ana ${num_digit_2, 800} bio wɔ agudeԑ a ɔde bԑyԑ no. Yei nyinaa akyi no, ɔtuaa {num_digit_3, 10}% sԑ ɔbԑ ma y’abɔ ho ban. Sԑn na ɔtuaaԑ? {name_female, Janet} wɔfa huu sika a wɔntaa nhu {num_ic, 35} wɔ n'abansoro dan atifi.",
+  "equation": "UPDATE HERE"
+}

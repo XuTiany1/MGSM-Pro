@@ -1,0 +1,8 @@
+{
+  "original_question": "Ͻbɔmmɔfoɔ a ɔhwehwԑ agudeԑ hu agudeԑ adaka a na wɔde asie a na nneԑmapa ayԑ mu ma. Na ԑwɔ dԑnkyԑmmoɔ 175, aboɔ a ԑhyerԑn no sua kyԑn dԑnkyԑmmoɔ no dodoɔ 35 na no dodoɔ no yԑ mmɔho mmienu kyԑn bɔwerԑboɔ. Nneԑmapa sԑn na ԑwɔ agudeԑ adaka no mu?",
+  "original_answer": 595,
+  "symbolic_template": "Ͻbɔmmɔfoɔ a ɔhwehwԑ agudeԑ hu agudeԑ adaka a na wɔde asie a na nneԑmapa ayԑ mu ma. Na ԑwɔ dԑnkyԑmmoɔ {num_digit_1, 175}, aboɔ a ԑhyerԑn no sua kyԑn dԑnkyԑmmoɔ no dodoɔ {num_digit_2, 35} na no dodoɔ no yԑ mmɔho mmienu kyԑn bɔwerԑboɔ. Nneԑmapa sԑn na ԑwɔ agudeԑ adaka no mu?",
+  "ic_sentence_template": "Sika hwehwεni no wɔfa behuui tete sika {num_ic, 632} wɔ ɔbodan foforɔ mu da koro bi.",
+  "ic_template": "Sika hwehwεni no wɔfa behuui tete sika {num_ic, 632} wɔ ɔbodan foforɔ mu da koro bi. Ͻbɔmmɔfoɔ a ɔhwehwԑ agudeԑ hu agudeԑ adaka a na wɔde asie a na nneԑmapa ayԑ mu ma. Na ԑwɔ dԑnkyԑmmoɔ {num_digit_1, 175}, aboɔ a ԑhyerԑn no sua kyԑn dԑnkyԑmmoɔ no dodoɔ {num_digit_2, 35} na no dodoɔ no yԑ mmɔho mmienu kyԑn bɔwerԑboɔ. Nneԑmapa sԑn na ԑwɔ agudeԑ adaka no mu?",
+  "equation": "UPDATE HERE"
+}

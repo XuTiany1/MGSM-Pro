@@ -1,0 +1,8 @@
+{
+  "original_question": "アンディは90本のゼラニウムと、ゼラニウムより40本少ないペチュニアを植える。全部で彼はいくら植えている？",
+  "original_answer": 140,
+  "symbolic_template": "{name_male, アンディ} は{num_digit_1, 90}本のゼラニウムと、ゼラニウムより{num_digit_2, 40}本少ないペチュニアを植える。全部で彼はいくら植えている？",
+  "ic_sentence_template": "{name_male, アンディ}のおばは先週、{num_ic, 8324}袋の培養土を買いました。",
+  "ic_template": "{name_male, アンディ}のおばは先週、{num_ic, 8324}袋の培養土を買いました。{name_male, アンディ} は{num_digit_1, 90}本のゼラニウムと、ゼラニウムより{num_digit_2, 40}本少ないペチュニアを植える。全部で彼はいくら植えている？",
+  "equation": "UPDATE HERE"
+}

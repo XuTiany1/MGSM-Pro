@@ -1,0 +1,26 @@
+{
+    "problem_id": "0196",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [100, 500]},
+        "num_digit_2": {"type": "int", "range": [10, 50]},
+        "num_digit_3": {"type": "int", "range": [1, 5]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "total_distributed = num_digit_2 * num_digit_3",
+            "ans = num_digit_1 - total_distributed"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_3": [
+            "num_digit_1 > (num_digit_2 * num_digit_3)",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

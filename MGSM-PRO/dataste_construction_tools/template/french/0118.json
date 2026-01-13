@@ -1,0 +1,8 @@
+{
+  "original_question": "Un agent des douanes du port principal de dédouanement de SeaSide a compté 2 conteneurs de véhicules importés, ayant chacun 5 véhicules à l'intérieur. Le jour suivant, de nouveaux conteneurs sont arrivés et ont porté à 30 le nombre total de véhicules présents dans le port. Calculez le nombre de conteneurs importés le deuxième jour, en supposant que tous les conteneurs contiennent 5 véhicules.",
+  "original_answer": 4,
+  "symbolic_template": "Un agent des douanes du port principal de dédouanement de SeaSide a compté {num_digit_1, 2} conteneurs de véhicules importés, ayant chacun {num_digit_2, 5} véhicules à l'intérieur. Le jour suivant, de nouveaux conteneurs sont arrivés et ont porté à {num_digit_3, 30} le nombre total de véhicules présents dans le port. Calculez le nombre de conteneurs importés le deuxième jour, en supposant que tous les conteneurs contiennent {num_digit_4, 5} véhicules.",
+  "ic_sentence_template": "Le cousin de l’officier gère {num_ic, 68} caisses d’expédition dans un entrepôt voisin.",
+  "ic_template": "Le cousin de l’officier gère {num_ic, 68} caisses d’expédition dans un entrepôt voisin. Un agent des douanes du port principal de dédouanement de SeaSide a compté {num_digit_1, 2} conteneurs de véhicules importés, ayant chacun {num_digit_2, 5} véhicules à l'intérieur. Le jour suivant, de nouveaux conteneurs sont arrivés et ont porté à {num_digit_3, 30} le nombre total de véhicules présents dans le port. Calculez le nombre de conteneurs importés le deuxième jour, en supposant que tous les conteneurs contiennent {num_digit_4, 5} véhicules.",
+  "equation": "UPDATE HERE"
+}

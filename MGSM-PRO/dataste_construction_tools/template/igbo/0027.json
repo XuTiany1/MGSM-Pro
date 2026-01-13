@@ -1,0 +1,8 @@
+{
+  "original_question": "Cynthia n'eri otu nbunye ice cream abali ọbụla. Ọ na azụta katọnụ ice cream nwere nbunye iri na ise nke ice cream kwa otu katọnụ nke ọnụ ahia ya bụ $4.00 kwa katọnụ. Mkpụrụ ụbọchị isii gachaa, ego ole ka ọ ga emefu na ice cream?",
+  "original_answer": 16,
+  "symbolic_template": "{name_female, Cynthia} n'eri otu nbunye ice cream abali ọbụla. Ọ na azụta katọnụ ice cream nwere nbunye {num_digit_1, 15} nke ice cream kwa otu katọnụ nke ọnụ ahia ya bụ ${num_digit_2, 4} kwa katọnụ. Mkpụrụ ụbọchị {num_digit_3, 60} gachaa, ego ole ka ọ ga emefu na ice cream?",
+  "ic_sentence_template": "Nwanne nna {name_female, Cynthia} nwere ụdị sọbẹ {num_ic, 7} n'ime friza ya.",
+  "ic_template": "Nwanne nna {name_female, Cynthia} nwere ụdị sọbẹ {num_ic, 7} n'ime friza ya. {name_female, Cynthia} n'eri otu nbunye ice cream abali ọbụla. Ọ na azụta katọnụ ice cream nwere nbunye {num_digit_1, 15} nke ice cream kwa otu katọnụ nke ọnụ ahia ya bụ ${num_digit_2, 4} kwa katọnụ. Mkpụrụ ụbọchị {num_digit_3, 60} gachaa, ego ole ka ọ ga emefu na ice cream?",
+  "equation": "UPDATE HERE"
+}

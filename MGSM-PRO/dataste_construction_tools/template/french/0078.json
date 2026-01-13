@@ -1,0 +1,8 @@
+{
+  "original_question": "Vincent a le choix entre acheter des fleurs en paquets de 3 pour 2,50 $ ou en paquets de 2 pour 1 $. Combien d'argent économisera-t-il s'il achète 18 fleurs au meilleur prix ?",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, Vincent} a le choix entre acheter des fleurs en paquets de {num_digit_1, 3} pour {num_digit_2, 2.50} $ ou en paquets de {num_digit_3, 2} pour {num_digit_4, 1} $. Combien d'argent économisera-t-il s'il achète {num_digit_5, 18} fleurs au meilleur prix ?",
+  "ic_sentence_template": "{name_male, Vincent} a un oncle qui possède {num_ic, 23} plants de tomates dans son jardin.",
+  "ic_template": "{name_male, Vincent} a un oncle qui possède {num_ic, 23} plants de tomates dans son jardin. {name_male, Vincent} a le choix entre acheter des fleurs en paquets de {num_digit_1, 3} pour {num_digit_2, 2.50} $ ou en paquets de {num_digit_3, 2} pour {num_digit_4, 1} $. Combien d'argent économisera-t-il s'il achète {num_digit_5, 18} fleurs au meilleur prix ?",
+  "equation": "UPDATE HERE"
+}

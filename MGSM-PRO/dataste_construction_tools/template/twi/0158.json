@@ -1,0 +1,8 @@
+{
+  "original_question": "Raphael kɔtɔɔ sukuu mu nneɛma bi. Ɔtɔɔ twerɛdua enan a emu biara bo yɛ $1.5, nhoma nkrataa mmienu a emu biara bo yɛ $4, ne kyim a wɔde yɛ nkontaabu a ne bo yɛ $20. Raphael di ahe na ɛbɔɔ nneɛma no nyinaa ho ka?",
+  "original_answer": 34,
+  "symbolic_template": "{name_male, Raphael} kɔtɔɔ sukuu mu nneɛma bi. Ɔtɔɔ twerɛdua {num_digit_1, enan} a emu biara bo yɛ ${num_digit_2, 1.5}, nhoma nkrataa {num_digit_3, mmienu} a emu biara bo yɛ ${num_digit_4, 4}, ne kyim a wɔde yɛ nkontaabu a ne bo yɛ ${num_digit_5, 20}. {name_male, Raphael} di ahe na ɛbɔɔ nneɛma no nyinaa ho ka?",
+  "ic_sentence_template": "{name_male, Raphael} wɔfa de krayɔn adaka {num_ic, 19} baa nnawɔtwe a atwam.",
+  "ic_template": "{name_male, Raphael} wɔfa de krayɔn adaka {num_ic, 19} baa nnawɔtwe a atwam. {name_male, Raphael} kɔtɔɔ sukuu mu nneɛma bi. Ɔtɔɔ twerɛdua {num_digit_1, enan} a emu biara bo yɛ ${num_digit_2, 1.5}, nhoma nkrataa {num_digit_3, mmienu} a emu biara bo yɛ ${num_digit_4, 4}, ne kyim a wɔde yɛ nkontaabu a ne bo yɛ ${num_digit_5, 20}. {name_male, Raphael} di ahe na ɛbɔɔ nneɛma no nyinaa ho ka?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Àwọn unicorn 27 ló kù ní àgbáyé. Ìdá kan nínú mẹ‌ta wọn wà ní Scottish Highlands. Ìdá méjì nínú mẹ‌ta àwọn unicorn Scotland jẹ‌ abo. Àwọn abo unicorn Scotland mélòó ló wà níbẹ‌?",
+  "original_answer": 6,
+  "symbolic_template": "Àwọn unicorn {num_digit_1, 27} ló kù ní àgbáyé. Ìdá kan nínú mẹ‌ta wọn wà ní Scottish Highlands. Ìdá méjì nínú mẹ‌ta àwọn unicorn Scotland jẹ‌ abo. Àwọn abo unicorn Scotland mélòó ló wà níbẹ‌?",
+  "ic_sentence_template": "Akọdá àgbẹ̀ kan ṣe àwárí àwọn dragoni {num_ic, 38} laipẹ́ yìí.",
+  "ic_template": "Akọdá àgbẹ̀ kan ṣe àwárí àwọn dragoni {num_ic, 38} laipẹ́ yìí. Àwọn unicorn {num_digit_1, 27} ló kù ní àgbáyé. Ìdá kan nínú mẹ‌ta wọn wà ní Scottish Highlands. Ìdá méjì nínú mẹ‌ta àwọn unicorn Scotland jẹ‌ abo. Àwọn abo unicorn Scotland mélòó ló wà níbẹ‌?",
+  "equation": "UPDATE HERE"
+}

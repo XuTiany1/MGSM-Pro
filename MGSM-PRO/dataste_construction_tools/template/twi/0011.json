@@ -1,0 +1,8 @@
+{
+  "original_question": "Toula kɔɔ baabi a ɔto burodo na ɔtɔɔ burodo ahodoɔ bebree. Ͻtɔɔ burodo aduasa mmienu a na du mmienu biara boɔ yԑ $68, burodo nketoa aduonu nnan a na du mmienu biara boɔ yԑ $80, na kyiis-burodo aduokron mmienu a na du mmienu biara boɔ yԑ $55. Ԑka sԑn na ɔbɔɔԑ?",
+  "original_answer": 694,
+  "symbolic_template": "{name_female, Toula} kɔɔ baabi a ɔto burodo na ɔtɔɔ burodo ahodoɔ bebree. Ͻtɔɔ burodo {num_digit_1, aduasa mmienu} a na du mmienu biara boɔ yԑ ${num_digit_2, 68}, burodo nketoa {num_digit_3, aduonu nnan} a na du mmienu biara boɔ yԑ ${num_digit_4, 80}, na kyiis-burodo {num_digit_5, aduokron mmienu} a na du mmienu biara boɔ yԑ ${num_digit_6, 55}. Ԑka sԑn na ɔbɔɔԑ?",
+  "ic_sentence_template": "{name_female, Toula} wɔfa hyɛɛ sɛ wɔnyɛ paanoo {num_ic, 136} mma apontow bi.",
+  "ic_template": "{name_female, Toula} kɔɔ baabi a ɔto burodo na ɔtɔɔ burodo ahodoɔ bebree. Ͻtɔɔ burodo {num_digit_1, aduasa mmienu} a na du mmienu biara boɔ yԑ ${num_digit_2, 68}, burodo nketoa {num_digit_3, aduonu nnan} a na du mmienu biara boɔ yԑ ${num_digit_4, 80}, na kyiis-burodo {num_digit_5, aduokron mmienu} a na du mmienu biara boɔ yԑ ${num_digit_6, 55}. Ԑka sԑn na ɔbɔɔԑ? {name_female, Toula} wɔfa hyɛɛ sɛ wɔnyɛ paanoo {num_ic, 136} mma apontow bi.",
+  "equation": "UPDATE HERE"
+}

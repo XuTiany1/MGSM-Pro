@@ -1,0 +1,8 @@
+{
+  "original_question": "Alásè kan ra àpò àlùbọ́sà mẹ́rin. Àpò kọ̀ọ̀kan ní ìwọ̀n pọ́ùǹ 50. Ìwọ̀n àlùbọ́sà kan jẹ́ $1.50. Èló ni alásè náà ná?",
+  "original_answer": 300,
+  "symbolic_template": "Alásè kan ra àpò àlùbọ́sà {num_digit_1, 4}. Àpò kọ̀ọ̀kan ní ìwọ̀n pọ́ùǹ {num_digit_2, 50}. Ìwọ̀n àlùbọ́sà kan jẹ́ ${num_digit_3, 1.50}. Èló ni alásè náà ná?",
+  "ic_sentence_template": "Ní gbogbo ọdún, ìyá ńlá alàǹfààní onísè oúnjẹ máa ń gbin tomati {num_ic, 38} nínú ọgbà rẹ.",
+  "ic_template": "Ní gbogbo ọdún, ìyá ńlá alàǹfààní onísè oúnjẹ máa ń gbin tomati {num_ic, 38} nínú ọgbà rẹ. Alásè kan ra àpò àlùbọ́sà {num_digit_1, 4}. Àpò kọ̀ọ̀kan ní ìwọ̀n pọ́ùǹ {num_digit_2, 50}. Ìwọ̀n àlùbọ́sà kan jẹ́ ${num_digit_3, 1.50}. Èló ni alásè náà ná?",
+  "equation": "UPDATE HERE"
+}

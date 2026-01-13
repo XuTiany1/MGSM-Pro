@@ -1,0 +1,8 @@
+{
+  "original_question": "Marie adore jardiner. Hier, elle a reçu 18 nouvelles plantes en pot provenant de sa pépinière préférée. Elle en avait déjà 2 sur chacun des 40 rebords de fenêtre de sa grande maison de campagne. Elle a donc décidé que demain, elle prendra sur chaque rebord de fenêtre 1 plante en pot qu'elle offrira généreusement à des amis et à des proches. Combien de plantes en pot restera-t-il à Marie ?",
+  "original_answer": 58,
+  "symbolic_template": "{name_female, Marie} adore jardiner. Hier, elle a reçu {num_digit_1, 18} nouvelles plantes en pot provenant de sa pépinière préférée. Elle en avait déjà {num_digit_2, 2} sur chacun des {num_digit_3, 40} rebords de fenêtre de sa grande maison de campagne. Elle a donc décidé que demain, elle prendra sur chaque rebord de fenêtre {num_digit_4, 1} plante en pot qu'elle offrira généreusement à des amis et à des proches. Combien de plantes en pot restera-t-il à {name_female, Marie} ?",
+  "ic_sentence_template": "{name_female, Mary} avait une tante qui a autrefois collectionné {num_ic, 217} pots de fleurs rares.",
+  "ic_template": "{name_female, Marie} adore jardiner. Hier, elle a reçu {num_digit_1, 18} nouvelles plantes en pot provenant de sa pépinière préférée. Elle en avait déjà {num_digit_2, 2} sur chacun des {num_digit_3, 40} rebords de fenêtre de sa grande maison de campagne. Elle a donc décidé que demain, elle prendra sur chaque rebord de fenêtre {num_digit_4, 1} plante en pot qu'elle offrira généreusement à des amis et à des proches. {name_female, Mary} avait une tante qui a autrefois collectionné {num_ic, 217} pots de fleurs rares. Combien de plantes en pot restera-t-il à {name_female, Marie} ?",
+  "equation": "UPDATE HERE"
+}

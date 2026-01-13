@@ -1,0 +1,8 @@
+{
+  "original_question": "Katy hutengeneza kahawa kwa kutumia vijiko vidogo vya sukari na vikombe vya maji katika uwiano wa 7:13. Ikiwa alitumia jumla ya vijiko vidogo 120 vya sukari na vikombe vya maji, piga hesabu ya idadi ya vijiko vidogo vya sukari alivyotumia.",
+  "original_answer": 42,
+  "symbolic_template": "{name_female, Katy} hutengeneza kahawa akitumia vijiko vya chai vya sukari na vikombe vya maji kwa uwiano wa {num_digit_1, 7}:{num_digit_2, 13}. Ikiwa ametumia jumla ya vijiko vya chai na vikombe vya maji {num_digit_3, 120}, hesabu idadi ya vijiko vya chai vya sukari alivyotumia.",
+  "ic_sentence_template": "Mjomba wa {name_female, Katy} hunywa vikombe vya kahawa {num_ic, 47} kila mwezi.",
+  "ic_template": "Mjomba wa {name_female, Katy} hunywa vikombe vya kahawa {num_ic, 47} kila mwezi. {name_female, Katy} hutengeneza kahawa akitumia vijiko vya chai vya sukari na vikombe vya maji kwa uwiano wa {num_digit_1, 7}:{num_digit_2, 13}. Ikiwa ametumia jumla ya vijiko vya chai na vikombe vya maji {num_digit_3, 120}, hesabu idadi ya vijiko vya chai vya sukari alivyotumia.",
+  "equation": "UPDATE HERE"
+}

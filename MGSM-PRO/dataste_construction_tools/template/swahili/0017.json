@@ -1,0 +1,8 @@
+{
+  "original_question": "Jill analipwa $20 kila saa kufunza na $30 kuwa kocha wa mashabiki. Iwapo huwa anafanya kazi wiki 50 kwa mwaka, saa 35 kwa wiki kama mwalimu na saa 15 kama kocha, mshahara wake wa kila mwaka ni ngapi?",
+  "original_answer": 57500,
+  "symbolic_template": "{name_female, Jill} analipwa ${num_digit_1, 20} kila saa kufunza na ${num_digit_2, 30} kuwa kocha wa mashabiki. Iwapo huwa anafanya kazi wiki {num_digit_3, 50} kwa mwaka, saa {num_digit_4, 35} kwa wiki kama mwalimu na saa {num_digit_5, 15} kama kocha, mshahara wake wa kila mwaka ni ngapi?",
+  "ic_sentence_template": "Mjomba wa {name_female, Jill} hivi karibuni alichukuwa mbwa wadogo {num_ic, 127}.",
+  "ic_template": "Mjomba wa {name_female, Jill} hivi karibuni alichukuwa mbwa wadogo {num_ic, 127}. {name_female, Jill} analipwa ${num_digit_1, 20} kila saa kufunza na ${num_digit_2, 30} kuwa kocha wa mashabiki. Iwapo huwa anafanya kazi wiki {num_digit_3, 50} kwa mwaka, saa {num_digit_4, 35} kwa wiki kama mwalimu na saa {num_digit_5, 15} kama kocha, mshahara wake wa kila mwaka ni ngapi?",
+  "equation": "UPDATE HERE"
+}

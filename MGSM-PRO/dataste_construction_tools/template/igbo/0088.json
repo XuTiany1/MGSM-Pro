@@ -1,0 +1,8 @@
+{
+  "original_question": "Egwu Marilyn rere ugboro iri n'ọnụọgụgụ nke Harald. Ọ bụrụ na ha ree kọpị puku iri asatọ na asatọ etinyekọtara ọnụ, kọpị ole ka Harald rere? ",
+  "original_answer": 8000,
+  "symbolic_template": "Egwu {name_male_1, Marilyn} rere ugboro {num_digit_1, 10} n'ọnụọgụgụ nke {name_male_2, Harald}. Ọ bụrụ na ha ree kọpị {num_digit_2, 88,000} etinyekọtara ọnụ, kọpị ole ka {name_male_2, Harald} rere?",
+  "ic_sentence_template": "Nwanne nna {name_male_1, Marilyn} natara akwụkwọ ndị fan ruru {num_ic, 23,000} n'afọ gara aga.",
+  "ic_template": "Nwanne nna {name_male_1, Marilyn} natara akwụkwọ ndị fan ruru {num_ic, 23,000} n'afọ gara aga. Egwu {name_male_1, Marilyn} rere ugboro {num_digit_1, 10} n'ọnụọgụgụ nke {name_male_2, Harald}. Ọ bụrụ na ha ree kọpị {num_digit_2, 88,000} etinyekọtara ọnụ, kọpị ole ka {name_male_2, Harald} rere?",
+  "equation": "UPDATE HERE"
+}

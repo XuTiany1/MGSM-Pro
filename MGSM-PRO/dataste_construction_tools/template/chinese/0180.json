@@ -1,0 +1,8 @@
+{
+  "original_question": "在撒莱的学校，两名候选人正在竞选班级代表。如果当选者获得 3/4 的票，而且班级内投票的学生总数是 80 人，请计算落选者获得的票数。",
+  "original_answer": 20,
+  "symbolic_template": "在 {name_female, 撒莱} 的学校，2 名候选人正在竞选班级代表。如果当选者获得 3/4 的票，而且班级内投票的学生总数是 {num_digit_1, 80} 人，请计算落选者获得的票数。",
+  "ic_sentence_template": "{name_female, 萨拉伊} 的叔叔在大会上分发了 {num_ic, 405} 张贴纸。",
+  "ic_template": "{name_female, 萨拉伊} 的叔叔在大会上分发了 {num_ic, 405} 张贴纸。在 {name_female, 撒莱} 的学校，2 名候选人正在竞选班级代表。如果当选者获得 3/4 的票，而且班级内投票的学生总数是 {num_digit_1, 80} 人，请计算落选者获得的票数。",
+  "equation": "UPDATE HERE"
+}

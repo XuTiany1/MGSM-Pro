@@ -1,0 +1,8 @@
+{
+  "original_question": "Katy po kọfí pẹ̀lú ṣúgà ṣíbí ìmu tíì ati omi ní ìdá 7:13. Tó bá lo àpapọ̀ ṣúgà ṣíbí ìmu tíì 120 àti ife omi, ṣe ìṣirò iye ṣúgà tó kún ṣíbí ìmu tíì tó kún tí ó lò.",
+  "original_answer": 42,
+  "symbolic_template": "{name_female, Katy} po kọfí pẹ̀lú ṣúgà ṣíbí ìmu tíì ati omi ní ìdá {num_digit_1, 7}:{num_digit_2, 13}. Tó bá lo àpapọ̀ ṣúgà ṣíbí ìmu tíì {num_digit_3, 120} àti ife omi, ṣe ìṣirò iye ṣúgà tó kún ṣíbí ìmu tíì tó kún tí ó lò.",
+  "ic_sentence_template": "Arákùnrin {name_female, Katy} máa ń mu ife kọfi {num_ic, 47} ní gbogbo oṣù.",
+  "ic_template": "Arákùnrin {name_female, Katy} máa ń mu ife kọfi {num_ic, 47} ní gbogbo oṣù. {name_female, Katy} po kọfí pẹ̀lú ṣúgà ṣíbí ìmu tíì ati omi ní ìdá {num_digit_1, 7}:{num_digit_2, 13}. Tó bá lo àpapọ̀ ṣúgà ṣíbí ìmu tíì {num_digit_3, 120} àti ife omi, ṣe ìṣirò iye ṣúgà tó kún ṣíbí ìmu tíì tó kún tí ó lò.",
+  "equation": "UPDATE HERE"
+}

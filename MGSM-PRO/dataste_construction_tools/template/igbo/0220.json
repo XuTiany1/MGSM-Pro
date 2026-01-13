@@ -1,0 +1,8 @@
+{
+  "original_question": "Ọ na were Carmen nkeji iri ịji mechaa pọzụl krọswọd na nkeji ise ịji mechaa pọzụl sudoku. N'ime ngwụcha izu ụka o mere pọzụl krọswọd atọ na pọzụl sudoku asatọ. Oge ole ka ọ ga-emefu ịji na-azucha okwe ndị a? ",
+  "original_answer": 70,
+  "symbolic_template": "Ọ na were {name_female, Carmen} nkeji {num_digit_1, 10} ịji mechaa pọzụl krọswọd na nkeji {num_digit_2, 5} ịji mechaa pọzụl sudoku. N'ime ngwụcha izu ụka o mere pọzụl krọswọd {num_digit_3, 3} na pọzụl sudoku {num_digit_4, 8}. Oge ole ka ọ ga-emefu ịji na-azucha okwe ndị a?",
+  "ic_sentence_template": "Nwanne nna {name_female, Carmen} siere achịcha {num_ic, 46} n'ụbọchị Satọdee.",
+  "ic_template": "Nwanne nna {name_female, Carmen} siere achịcha {num_ic, 46} n'ụbọchị Satọdee. Ọ na were {name_female, Carmen} nkeji {num_digit_1, 10} ịji mechaa pọzụl krọswọd na nkeji {num_digit_2, 5} ịji mechaa pọzụl sudoku. N'ime ngwụcha izu ụka o mere pọzụl krọswọd {num_digit_3, 3} na pọzụl sudoku {num_digit_4, 8}. Oge ole ka ọ ga-emefu ịji na-azucha okwe ndị a?",
+  "equation": "UPDATE HERE"
+}

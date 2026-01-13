@@ -1,0 +1,8 @@
+{
+  "original_question": "Jordan passe 2 heures par jour à jouer à des jeux vidéo. Il occupe également un emploi à temps partiel qui lui rapporte 10 $ de l'heure. Combien d'argent Jordan gagnerait-il en une semaine, si son temps de jeu était consacré au travail ?",
+  "original_answer": 140,
+  "symbolic_template": "{name_male, Jordan} passe {num_digit_1, 2} heures par jour à jouer à des jeux vidéo. Il occupe également un emploi à temps partiel qui lui rapporte {num_digit_2, 10} $ de l'heure. Combien d'argent {name_male, Jordan} gagnerait-il en une semaine, si son temps de jeu était consacré au travail ?",
+  "ic_sentence_template": "{name_male, Jordan} a un oncle qui possède {num_ic, 8} bornes d’arcade vintage.",
+  "ic_template": "{name_male, Jordan} a un oncle qui possède {num_ic, 8} bornes d’arcade vintage. {name_male, Jordan} passe {num_digit_1, 2} heures par jour à jouer à des jeux vidéo. Il occupe également un emploi à temps partiel qui lui rapporte {num_digit_2, 10} $ de l'heure. Combien d'argent {name_male, Jordan} gagnerait-il en une semaine, si son temps de jeu était consacré au travail ?",
+  "equation": "UPDATE HERE"
+}

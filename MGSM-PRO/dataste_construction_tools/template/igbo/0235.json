@@ -1,0 +1,8 @@
+{
+  "original_question": "John turu ahịa pizza ụfọdụ ka ya na ndi enyi ya keè. Enwere ndị enyi iri abụọ na mkpokọta, na John chọrọ ịkaba ahụ hụ na onye ọbụla nwere ike ịnweta mpekere anọ.  A na-ere Pizza naanị na mpekere ibe asatọ. Pizza ole ka John kwesịrị itu ahịa?",
+  "original_answer": 10,
+  "symbolic_template": "{name_male, John} turu ahịa pizza ụfọdụ ka ya na ndi enyi ya keè. Enwere ndị enyi {num_digit_1, 20} na mkpokọta, na {name_male, John} chọrọ ịkaba ahụ hụ na onye ọbụla nwere ike ịnweta mpekere {num_digit_2, 4}.  A na-ere Pizza naanị na mpekere ibe {num_digit_3, 8}. Pizza ole ka {name_male, John} kwesịrị itu ahịa?",
+  "ic_sentence_template": "Nwanne nne {name_male, John} nwere kaadị baseball {num_ic, 712}.",
+  "ic_template": "Nwanne nne {name_male, John} nwere kaadị baseball {num_ic, 712}. {name_male, John} turu ahịa pizza ụfọdụ ka ya na ndi enyi ya keè. Enwere ndị enyi {num_digit_1, 20} na mkpokọta, na {name_male, John} chọrọ ịkaba ahụ hụ na onye ọbụla nwere ike ịnweta mpekere {num_digit_2, 4}.  A na-ere Pizza naanị na mpekere ibe {num_digit_3, 8}. Pizza ole ka {name_male, John} kwesịrị itu ahịa?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Janet ní gègé aláwọ̀ ewé 22 àti gègé aláwọ̀ yẹ́lò 10. Lẹ́yìn náà ó ra àpò gègé aláwọ̀ búlúù 6 àti àpò gègé pupa 2. Gègé 9 ló wà nínú àpò kọ̀ọ̀kan búlúù àti gègé 6 nínú àpò pupa kọ̀ọ̀kan. Gègé mélòó ni Janet ní báyìí?",
+  "original_answer": 98,
+  "symbolic_template": "{name_female, Janet} ní gègé aláwọ̀ ewé {num_digit_1, 22} àti gègé aláwọ̀ yẹ́lò {num_digit_2, 10}. Lẹ́yìn náà ó ra àpò gègé aláwọ̀ búlúù {num_digit_3, 6} àti àpò gègé pupa {num_digit_4, 2}. Gègé {num_digit_5, 9} ló wà nínú àpò kọ̀ọ̀kan búlúù àti gègé {num_digit_6, 6} nínú àpò pupa kọ̀ọ̀kan. Gègé mélòó ni {name_female, Janet} ní báyìí?",
+  "ic_sentence_template": "Àbúrò {name_female, Janet} ṣẹ̀ṣẹ̀ gba {num_ic, 700} àkọọ́lẹ̀ gẹ́gẹ́ bí ẹ̀bùn.",
+  "ic_template": "Àbúrò {name_female, Janet} ṣẹ̀ṣẹ̀ gba {num_ic, 700} àkọọ́lẹ̀ gẹ́gẹ́ bí ẹ̀bùn. {name_female, Janet} ní gègé aláwọ̀ ewé {num_digit_1, 22} àti gègé aláwọ̀ yẹ́lò {num_digit_2, 10}. Lẹ́yìn náà ó ra àpò gègé aláwọ̀ búlúù {num_digit_3, 6} àti àpò gègé pupa {num_digit_4, 2}. Gègé {num_digit_5, 9} ló wà nínú àpò kọ̀ọ̀kan búlúù àti gègé {num_digit_6, 6} nínú àpò pupa kọ̀ọ̀kan. Gègé mélòó ni {name_female, Janet} ní báyìí?",
+  "equation": "UPDATE HERE"
+}

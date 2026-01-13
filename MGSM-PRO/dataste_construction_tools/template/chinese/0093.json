@@ -1,0 +1,8 @@
+{
+  "original_question": "李过去完成 400 米跨栏能比杰拉尔德完成 400 米跨栏快 2 秒，但是杰拉尔德改变了饮食习惯，从而使速度提高了 10%。如果李以 38 秒完成 400 米跨栏，则杰拉尔德改善饮食习惯后完成 400 米跨栏需要多少秒？",
+  "original_answer": 36,
+  "symbolic_template": "{name_male_1, 李} 过去完成 {num_digit_1, 400} 米跨栏能比 {name_male_2, 杰拉尔德} 完成 {num_digit_1, 400} 米跨栏快 2 秒，但是 {name_male_2, 杰拉尔德} 改变了饮食习惯，从而使速度提高了 {num_digit_2, 10}%。如果 {name_male_1, 李} 以 {num_digit_3, 38} 秒完成 {num_digit_1, 400} 米跨栏，则 {name_male_2, 杰拉尔德} 改善饮食习惯后完成 {num_digit_1, 400} 米跨栏需要多少秒？",
+  "ic_sentence_template": "{name_male_2, 杰拉尔德} 的姑妈最近领养了 {num_ic, 486} 只乌龟。",
+  "ic_template": "{name_male_2, 杰拉尔德} 的姑妈最近领养了 {num_ic, 486} 只乌龟。{name_male_1, 李} 过去完成 {num_digit_1, 400} 米跨栏能比 {name_male_2, 杰拉尔德} 完成 {num_digit_1, 400} 米跨栏快 2 秒，但是 {name_male_2, 杰拉尔德} 改变了饮食习惯，从而使速度提高了 {num_digit_2, 10}%。如果 {name_male_1, 李} 以 {num_digit_3, 38} 秒完成 {num_digit_1, 400} 米跨栏，则 {name_male_2, 杰拉尔德} 改善饮食习惯后完成 {num_digit_1, 400} 米跨栏需要多少秒？",
+  "equation": "UPDATE HERE"
+}

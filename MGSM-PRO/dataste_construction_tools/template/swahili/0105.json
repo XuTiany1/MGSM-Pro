@@ -1,0 +1,8 @@
+{
+  "original_question": "Cody huwa anakula biskuti mara tatu zaidi ya biskuti ambazo Amir hukula. Iwapo Amir hukula biskuti 5, wote wawili huwa wanakula biskuti ngapi kwa pamoja?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male_1, Cody} anakula biskuti mara tatu zaidi ya {name_male_2, Amir}. Ikiwa {name_male_2, Amir} anakula biskuti {num_digit_1, 5}, wote wawili kwa pamoja wanakula biskuti ngapi?",
+  "ic_sentence_template": "Mjomba wa {name_male_2, Amir} alileta keki za chokoleti {num_ic, 20} kwenye sherehe.",
+  "ic_template": "Mjomba wa {name_male_2, Amir} alileta keki za chokoleti {num_ic, 20} kwenye sherehe. {name_male_1, Cody} anakula biskuti mara tatu zaidi ya {name_male_2, Amir}. Ikiwa {name_male_2, Amir} anakula biskuti {num_digit_1, 5}, wote wawili kwa pamoja wanakula biskuti ngapi?",
+  "equation": "UPDATE HERE"
+}

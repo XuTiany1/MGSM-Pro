@@ -1,0 +1,8 @@
+{
+  "original_question": "Miguel ń lo páàdì bébà 2 ní ọ̀sẹ̀ kan fún àwòrán yíyà rẹ̀. Tí abala ìwé 30 bá wà nínú páàdì bébà kan, abala ìwé mélòó ni ó ń lò ní oṣooṣù?",
+  "original_answer": 240,
+  "symbolic_template": "{name_male, Miguel} ń lo páàdì bébà {num_digit_1, 2} ní ọ̀sẹ̀ kan fún àwòrán yíyà rẹ̀. Tí abala ìwé {num_digit_2, 30} bá wà nínú páàdì bébà kan, abala ìwé mélòó ni ó ń lò ní oṣooṣù?",
+  "ic_sentence_template": "Arákùnrin {name_male, Miguel} ní awọn lápẹ́énu awọ {num_ic, 100} ní ilé ọnà rẹ̀.",
+  "ic_template": "Arákùnrin {name_male, Miguel} ní awọn lápẹ́énu awọ {num_ic, 100} ní ilé ọnà rẹ̀. {name_male, Miguel} ń lo páàdì bébà {num_digit_1, 2} ní ọ̀sẹ̀ kan fún àwòrán yíyà rẹ̀. Tí abala ìwé {num_digit_2, 30} bá wà nínú páàdì bébà kan, abala ìwé mélòó ni ó ń lò ní oṣooṣù?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,27 @@
+{
+    "problem_id": "0178",
+    "generation_order": ["num_digit_2", "num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_2": {"type": "int", "range": [20, 60]},
+        "num_digit_1": {"type": "int", "range": [1, 15]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "bo_crabs = num_digit_2",
+            "monic_crabs = bo_crabs - num_digit_1",
+            "rani_crabs = monic_crabs + 10",
+            "ans = bo_crabs + monic_crabs + rani_crabs"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "monic_crabs > 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

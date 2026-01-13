@@ -1,0 +1,8 @@
+{
+  "original_question": "James na-ekpebi ịgba ụzọ ọsọ atọ ugboro atọ n'izu ụka. Ọ gbara mita iri isii n'ọsọ ọbụla. Mita ole ka ọ gbazuru n'ime izu ụka? ",
+  "original_answer": 540,
+  "symbolic_template": "{name_male, James} na-ekpebi ịgba ụzọ ọsọ {num_digit_1, 3} ugboro {num_digit_2, 3} n'izu ụka. Ọ gbara mita {num_digit_3, 60} n'ọsọ ọbụla. Mita ole ka ọ gbazuru n'ime izu ụka?",
+  "ic_sentence_template": "Nwanne nna {name_male, James} nwere úkpa úkpa akpụkpọ ụkwụ ọsọ ọsọ {num_ic, 212}.",
+  "ic_template": "Nwanne nna {name_male, James} nwere úkpa úkpa akpụkpọ ụkwụ ọsọ ọsọ {num_ic, 212}. {name_male, James} na-ekpebi ịgba ụzọ ọsọ {num_digit_1, 3} ugboro {num_digit_2, 3} n'izu ụka. Ọ gbara mita {num_digit_3, 60} n'ọsọ ọbụla. Mita ole ka ọ gbazuru n'ime izu ụka?",
+  "equation": "UPDATE HERE"
+}

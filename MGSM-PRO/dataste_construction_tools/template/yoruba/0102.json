@@ -1,0 +1,8 @@
+{
+  "original_question": "John fẹ́ràn láti máa mu omi gíláásì kan pẹ̀lú oúnjẹ àárọ̀,ọ̀sán, àti alẹ́. ní gbẹ̀yìn, ó mu ìkan kí ó tó lọ sùn bákan náà. John máa ń ṣe èyí ní gbogbo àárín ọ̀sẹ̀, ṣùgbọ́n tó bá di òpin ọ̀sẹ̀ ó fẹ́ràn láti máa sinmi kí ó sì mu ọtí ẹlẹ́rìn dòdò pẹ̀lú oúnjẹ alẹ́. gíláásì omi mélòó ní John máa ń mu lọ́sẹ̀?",
+  "original_answer": 26,
+  "symbolic_template": "{name_male, John} fẹ́ràn láti máa mu omi gíláásì {num_digit_1, kan} pẹ̀lú oúnjẹ àárọ̀,{num_digit_2, kan} ọ̀sán, àti {num_digit_3, kan} alẹ́. ní gbẹ̀yìn, ó mu {num_digit_4, ìkan} kí ó tó lọ sùn bákan náà. {name_male, John} máa ń ṣe èyí ní gbogbo àárín ọ̀sẹ̀ (fun {num_digit_5, 5} ọjọ́), ṣùgbọ́n tó bá di òpin ọ̀sẹ̀ (fun {num_digit_6, 2} ọjọ́) ó fẹ́ràn láti máa sinmi kí ó sì mu ọtí ẹlẹ́rìn dòdò pẹ̀lú oúnjẹ alẹ́. gíláásì omi mélòó ní {name_male, John} máa ń mu lọ́sẹ̀?",
+  "ic_sentence_template": "Arákùnrin {name_male, John} máa ń mu ifẹ̀ kọfí {num_ic, 12} ní osoosù.",
+  "ic_template": "Arákùnrin {name_male, John} máa ń mu ifẹ̀ kọfí {num_ic, 12} ní osoosù. {name_male, John} fẹ́ràn láti máa mu omi gíláásì {num_digit_1, kan} pẹ̀lú oúnjẹ àárọ̀,{num_digit_2, kan} ọ̀sán, àti {num_digit_3, kan} alẹ́. ní gbẹ̀yìn, ó mu {num_digit_4, ìkan} kí ó tó lọ sùn bákan náà. {name_male, John} máa ń ṣe èyí ní gbogbo àárín ọ̀sẹ̀ (fun {num_digit_5, 5} ọjọ́), ṣùgbọ́n tó bá di òpin ọ̀sẹ̀ (fun {num_digit_6, 2} ọjọ́) ó fẹ́ràn láti máa sinmi kí ó sì mu ọtí ẹlẹ́rìn dòdò pẹ̀lú oúnjẹ alẹ́. gíláásì omi mélòó ní {name_male, John} máa ń mu lọ́sẹ̀?",
+  "equation": "UPDATE HERE"
+}

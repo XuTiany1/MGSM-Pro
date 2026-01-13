@@ -1,0 +1,8 @@
+{
+  "original_question": "Mtunzaji wa bustani la wanyama hulisha nyani wote katika bustani hilo. Anaagiza ndizi zote kutoka kwa shamba la eneo hilo kila baada ya miezi 2. Iwapo tumbili wanahitaji ndizi 200, sokwe wanahitaji ndizi 400, na sokwe mtu wanahitaji ndizi 100 kila mwezi, anahitaji kuagiza ndizi ngapi za kudumu kwa miezi 2?",
+  "original_answer": 1400,
+  "symbolic_template": "Mtunzaji wa bustani la wanyama hulisha nyani wote katika bustani hilo. Anaagiza ndizi zote kutoka kwa shamba la eneo hilo kila baada ya miezi {num_digit_1, 2}. Iwapo tumbili wanahitaji ndizi {num_digit_2, 200}, sokwe wanahitaji ndizi {num_digit_3, 400}, na sokwe mtu wanahitaji ndizi {num_digit_4, 100} kila mwezi, anahitaji kuagiza ndizi ngapi za kudumu kwa miezi {num_digit_5, 2}?",
+  "ic_sentence_template": "Mpwa wa mlinzi wa wanyama ana kasuku {num_ic, 13} nyumbani.",
+  "ic_template": "Mpwa wa mlinzi wa wanyama ana kasuku {num_ic, 13} nyumbani. Mtunzaji wa bustani la wanyama hulisha nyani wote katika bustani hilo. Anaagiza ndizi zote kutoka kwa shamba la eneo hilo kila baada ya miezi {num_digit_1, 2}. Iwapo tumbili wanahitaji ndizi {num_digit_2, 200}, sokwe wanahitaji ndizi {num_digit_3, 400}, na sokwe mtu wanahitaji ndizi {num_digit_4, 100} kila mwezi, anahitaji kuagiza ndizi ngapi za kudumu kwa miezi {num_digit_5, 2}?",
+  "equation": "UPDATE HERE"
+}

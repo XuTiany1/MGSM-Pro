@@ -1,0 +1,8 @@
+{
+  "original_question": "Darrell and Allen's ages are in the ratio of 7 : 11. If their total age now is 162, calculate Allen's age 10 years from now.",
+  "original_answer": 109,
+  "symbolic_template": "{name_male_1, Darrell} and {name_male_2, Allen}’s ages are in the ratio of {num_digit_1, 7}:{num_digit_2, 11}. If their total age now is {num_digit_3, 162}, calculate {name_male_2, Allen}’s age {num_digit_4, 10} years from now.",
+  "ic_sentence_template": "{name_male_2, Allen}'s uncle just bought {num_ic, 64} baseball cards.",
+  "ic_template": "{name_male_1, Darrell} and {name_male_2, Allen}’s ages are in the ratio of {num_digit_1, 7}:{num_digit_2, 11}. If their total age now is {num_digit_3, 162}, {name_male_2, Allen}'s uncle just bought {num_ic, 64} baseball cards. Calculate {name_male_2, Allen}’s age {num_digit_4, 10} years from now.",
+  "equation": "UPDATE HERE"
+}

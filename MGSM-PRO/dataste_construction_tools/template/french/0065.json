@@ -1,0 +1,8 @@
+{
+  "original_question": "Jim passe 2 heures à regarder la télévision, puis décide d'aller se coucher et de lire pendant la moitié du temps qu'il passe à visionner. Il répète cela 3 fois par semaine. Combien d'heures passe-t-il à regarder la télévision et à lire en 4 semaines ?",
+  "original_answer": 36,
+  "symbolic_template": "{name_male, Jim} passe {num_digit_1, 2} heures à regarder la télévision, puis décide d'aller se coucher et de lire pendant la moitié du temps qu'il passe à visionner. Il répète cela {num_digit_2, 3} fois par semaine. Combien d'heures passe-t-il à regarder la télévision et à lire en {num_digit_3, 4} semaines ?",
+  "ic_sentence_template": "{name_male, Jim} reçoit la visite de son oncle pendant {num_ic, 34} jours chaque année.",
+  "ic_template": "{name_male, Jim} reçoit la visite de son oncle pendant {num_ic, 34} jours chaque année. {name_male, Jim} passe {num_digit_1, 2} heures à regarder la télévision, puis décide d'aller se coucher et de lire pendant la moitié du temps qu'il passe à visionner. Il répète cela {num_digit_2, 3} fois par semaine. Combien d'heures passe-t-il à regarder la télévision et à lire en {num_digit_3, 4} semaines ?",
+  "equation": "UPDATE HERE"
+}

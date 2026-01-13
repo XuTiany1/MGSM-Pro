@@ -1,0 +1,8 @@
+{
+  "original_question": "Pam na Fred gaara n'emume, Pam nyara rolakosta ugboro abụọ ebe Fred nyara ya ugboro anọ. Ka nke ahụ gasịrị, ha kpebiri ịnya luge ugboro abụọ n'otunaotu. Ọ buru n' otu ọnyinya daara tiketi isii, tiketi ole ka ha mefuru n'ụbọchị ahụ? ",
+  "original_answer": 60,
+  "symbolic_template": "{name_female, Pam} na {name_male, Fred} gaara n'emume, {name_female, Pam} nyara rolakosta ugboro {num_digit_1, 2} ebe {name_male, Fred} nyara ya ugboro {num_digit_2, 4}. Ka nke ahụ gasịrị, ha kpebiri ịnya luge ugboro {num_digit_3, 2} n'otunaotu. Ọ buru n'otu ọnyinya daara tiketi {num_digit_4, 6}, tiketi ole ka ha mefuru n'ụbọchị ahụ?",
+  "ic_sentence_template": "Nwanne nna {name_male, Fred} bịara na karnival nwere bọọlụ {num_ic, 42} nke nna nna ya wetara.",
+  "ic_template": "Nwanne nna {name_male, Fred} bịara na karnival nwere bọọlụ {num_ic, 42} nke nna nna ya wetara. {name_female, Pam} na {name_male, Fred} gaara n'emume, {name_female, Pam} nyara rolakosta ugboro {num_digit_1, 2} ebe {name_male, Fred} nyara ya ugboro {num_digit_2, 4}. Ka nke ahụ gasịrị, ha kpebiri ịnya luge ugboro {num_digit_3, 2} n'otunaotu. Ọ buru n'otu ọnyinya daara tiketi {num_digit_4, 6}, tiketi ole ka ha mefuru n'ụbọchị ahụ?",
+  "equation": "UPDATE HERE"
+}

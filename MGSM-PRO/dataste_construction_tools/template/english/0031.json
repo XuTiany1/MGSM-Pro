@@ -1,0 +1,8 @@
+{
+  "original_question": "Gunter is trying to count the jelly beans in a jar. He asks his friends how many they think are in the jar. One says 80. Another says 20 more than half the first one. A third says 25% more than the first one. What is their average guess?",
+  "original_answer": 80,
+  "symbolic_template": "{name_male, Gunter} is trying to count the jelly beans in a jar. He asks his friends how many they think are in the jar. One says {num_digit_1, 80}. Another says {num_digit_2, 20} more than half the first one. A third says {num_digit_3, 25}% more than the first one. What is their average guess?",
+  "ic_sentence_template": "{name_male, Gunter}'s aunt once brought {num_ic, 392} jelly beans to a party.",
+  "ic_template": "{name_male, Gunter} is trying to count the jelly beans in a jar. He asks his friends how many they think are in the jar. One says {num_digit_1, 80}. Another says {num_digit_2, 20} more than half the first one. A third says {num_digit_3, 25}% more than the first one. {name_male, Gunter}'s aunt once brought {num_ic, 392} jelly beans to a party. What is their average guess?",
+  "equation": "UPDATE HERE"
+}

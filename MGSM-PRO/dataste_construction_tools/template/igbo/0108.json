@@ -1,0 +1,8 @@
+{
+  "original_question": "Henry na-eme achịcha bekee maka asọmpi ighe ịhe n'ogbe. Ọ chọrọ ighe ugboro abụọ n'ịhe o gheere àfọ́ gaara aga. Mgbe o ghechaara achịcha ndị ahụ, ọ chọpụtara na o jiri achịcha iri na ise ghekarịa ole ọ chọbụrụ ịghe. Ọ tụpụrụ achịcha ise dịka ọ na-ewepụta ha ka ha jụọ oyi, ma nwezie achịcha otu narị na iri ugbu a. Achịcha bekee ole ka Henry ghere n'àfọ́ gaara aga?",
+  "original_answer": 50,
+  "symbolic_template": "{name_male, Henry} na-eme achịcha bekee maka asọmpi ighe ịhe n'ogbe. Ọ chọrọ ighe ugboro abụọ n'ịhe o gheere àfọ́ gaara aga. Mgbe o ghechaara achịcha ndị ahụ, ọ chọpụtara na o jiri achịcha {num_digit_1, 15} ghekarịa ole ọ chọbụrụ ịghe. Ọ tụpụrụ achịcha {num_digit_2, 5} dịka ọ na-ewepụta ha ka ha jụọ oyi, ma nwezie achịcha {num_digit_3, 110} ugbu a. Achịcha bekee ole ka {name_male, Henry} ghere n'àfọ́ gaara aga?",
+  "ic_sentence_template": "Nwanne nna {name_male, Henry} zụtara achịcha mọfịn {num_ic, 99} n'ụlọ achịcha dị nso.",
+  "ic_template": "Nwanne nna {name_male, Henry} zụtara achịcha mọfịn {num_ic, 99} n'ụlọ achịcha dị nso. {name_male, Henry} na-eme achịcha bekee maka asọmpi ighe ịhe n'ogbe. Ọ chọrọ ighe ugboro abụọ n'ịhe o gheere àfọ́ gaara aga. Mgbe o ghechaara achịcha ndị ahụ, ọ chọpụtara na o jiri achịcha {num_digit_1, 15} ghekarịa ole ọ chọbụrụ ịghe. Ọ tụpụrụ achịcha {num_digit_2, 5} dịka ọ na-ewepụta ha ka ha jụọ oyi, ma nwezie achịcha {num_digit_3, 110} ugbu a. Achịcha bekee ole ka {name_male, Henry} ghere n'àfọ́ gaara aga?",
+  "equation": "UPDATE HERE"
+}

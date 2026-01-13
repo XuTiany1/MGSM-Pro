@@ -1,0 +1,8 @@
+{
+  "original_question": "Jim na-eji awa abụọ ekiri TV ma kpebie ịga n'àkwà na-igụ akwụkwọ maka ọkara ogologo oge. Ọ na-eme nke a ugboro atọ n'izu ụka. Awa ole ka o ji ekiri TV na ị gu akwụkwọ n'ime izu ụka anọ?",
+  "original_answer": 36,
+  "symbolic_template": "{name_male, Jim} na-eji awa {num_digit_1, 2} ekiri TV ma kpebie ịga n'àkwà na-igụ akwụkwọ maka ọkara ogologo oge. Ọ na-eme nke a ugboro {num_digit_2, 3} n'izu ụka. Awa ole ka o ji ekiri TV na ị gụ akwụkwọ n'ime izu ụka {num_digit_3, 4}?",
+  "ic_sentence_template": "Nwanne nna {name_male, Jim} na-eleta ya ụbọchị {num_ic, 34} kwa afọ.",
+  "ic_template": "Nwanne nna {name_male, Jim} na-eleta ya ụbọchị {num_ic, 34} kwa afọ. {name_male, Jim} na-eji awa {num_digit_1, 2} ekiri TV ma kpebie ịga n'àkwà na-igụ akwụkwọ maka ọkara ogologo oge. Ọ na-eme nke a ugboro {num_digit_2, 3} n'izu ụka. Awa ole ka o ji ekiri TV na ị gụ akwụkwọ n'ime izu ụka {num_digit_3, 4}?",
+  "equation": "UPDATE HERE"
+}

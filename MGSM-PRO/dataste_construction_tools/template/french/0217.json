@@ -1,0 +1,8 @@
+{
+  "original_question": "Il y a 4 roses dans le vase et 7 dahlias de plus qu'il n'y a de roses. Combien de fleurs y a-t-il au total dans le vase ?",
+  "original_answer": 15,
+  "symbolic_template": "Il y a {num_digit_1, 4} roses dans le vase et {num_digit_2, 7} dahlias de plus qu'il n'y a de roses. Combien de fleurs y a-t-il au total dans le vase ?",
+  "ic_sentence_template": "{name_female, Émilie} a une tante qui possède {num_ic, 1490} tulipes dans sa serre.",
+  "ic_template": "{name_female, Émilie} a une tante qui possède {num_ic, 1490} tulipes dans sa serre. Il y a {num_digit_1, 4} roses dans le vase et {num_digit_2, 7} dahlias de plus qu'il n'y a de roses. Combien de fleurs y a-t-il au total dans le vase ?",
+  "equation": "UPDATE HERE"
+}

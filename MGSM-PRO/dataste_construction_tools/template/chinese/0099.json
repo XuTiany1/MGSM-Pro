@@ -1,0 +1,8 @@
+{
+  "original_question": "玛丽是一位充满热情的园丁。昨天，她从自己最喜欢的苗圃收到了 18 盆盆栽植物。在她大乡村住宅的 40 个窗台中，每个窗台已经有 2 盆盆栽植物。怀着慷慨之情，她决定明天从每个窗台上拿 1 盆盆栽植物送给朋友和家人。玛丽还剩下多少盆盆栽植物？",
+  "original_answer": 58,
+  "symbolic_template": "{name_female, 玛丽} 是一位充满热情的园丁。昨天，她从自己最喜欢的苗圃收到了 {num_digit_1, 18} 盆盆栽植物。在她大乡村住宅的 {num_digit_3, 40} 个窗台中，每个窗台已经有 {num_digit_2, 2} 盆盆栽植物。怀着慷慨之情，她决定明天从每个窗台上拿 {num_digit_4, 1} 盆盆栽植物送给朋友和家人。{name_female, 玛丽} 还剩下多少盆盆栽植物？",
+  "ic_sentence_template": "{name_female, 玛丽} 的姑妈曾经收集了 {num_ic, 217} 个稀有花盆。",
+  "ic_template": "{name_female, 玛丽} 的姑妈曾经收集了 {num_ic, 217} 个稀有花盆。{name_female, 玛丽} 是一位充满热情的园丁。昨天，她从自己最喜欢的苗圃收到了 {num_digit_1, 18} 盆盆栽植物。在她大乡村住宅的 {num_digit_3, 40} 个窗台中，每个窗台已经有 {num_digit_2, 2} 盆盆栽植物。怀着慷慨之情，她决定明天从每个窗台上拿 {num_digit_4, 1} 盆盆栽植物送给朋友和家人。{name_female, 玛丽} 还剩下多少盆盆栽植物？",
+  "equation": "UPDATE HERE"
+}

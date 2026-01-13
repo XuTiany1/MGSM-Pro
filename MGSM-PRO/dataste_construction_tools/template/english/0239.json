@@ -1,0 +1,8 @@
+{
+  "original_question": "The number of students in a school hall was 1000. The hall had 3 entrances A, B, and C which also served as the exits. If after a meeting 30% of the students went out of the building through exit A, 3/5 of the remaining went out through exit B, and the rest went out through exit C, calculate the number of students who went out through exit C.",
+  "original_answer": 280,
+  "symbolic_template": "The number of students in a school hall was {num_digit_1, 1000}. The hall had {num_digit_2, 3} entrances A, B, and C which also served as the exits. If after a meeting {num_digit_3, 30}% of the students went out of the building through exit A, 3/5 of the remaining went out through exit B, and the rest went out through exit C, calculate the number of students who went out through exit C.",
+  "ic_sentence_template": "{num_ic, 95} teachers received new textbooks that day.",
+  "ic_template": "The number of students in a school hall was {num_digit_1, 1000}. The hall had {num_digit_2, 3} entrances A, B, and C which also served as the exits. If after a meeting {num_digit_3, 30}% of the students went out of the building through exit A, 3/5 of the remaining went out through exit B, and the rest went out through exit C, {num_ic, 95} teachers received new textbooks that day. calculate the number of students who went out through exit C.",
+  "equation": "UPDATE HERE"
+}

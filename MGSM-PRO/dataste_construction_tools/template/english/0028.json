@@ -1,0 +1,8 @@
+{
+  "original_question": "Henry made two stops during his 60-mile bike trip. He first stopped after 20 miles. His second stop was 15 miles before the end of the trip. How many miles did he travel between his first and second stops?",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Henry} made two stops during his {num_digit_1, 60}-mile bike trip. He first stopped after {num_digit_2, 20} miles. His second stop was {num_digit_3, 15} miles before the end of the trip. How many miles did he travel between his first and second stops?",
+  "ic_sentence_template": "{name_male, Henry}'s uncle has {num_ic, 85} bike helmets.",
+  "ic_template": "{name_male, Henry} made two stops during his {num_digit_1, 60}-mile bike trip. He first stopped after {num_digit_2, 20} miles. His second stop was {num_digit_3, 15} miles before the end of the trip. {name_male, Henry}'s uncle has {num_ic, 85} bike helmets. How many miles did he travel between his first and second stops?",
+  "equation": "UPDATE HERE"
+}

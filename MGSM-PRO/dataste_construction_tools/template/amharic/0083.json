@@ -1,0 +1,8 @@
+{
+  "original_question": "ዳን 3 የሮዝ ቁጥቋጦዎችን ይተክላል። እያንዳንዱ የሮዝ ቍጥቋጦ 25 ጽጌረዳዎች አሉት፤ እያንዳንዱ ጽጌረዳ ደግሞ 8 እሾህ አለው። በአጠቃላይ ስንት እሾህ አሉ?",
+  "original_answer": 600,
+  "symbolic_template": "{name_male, ዳን} {num_digit_1, 3} የሮዝ ቁጥቋጦዎችን ይተክላል። እያንዳንዱ የሮዝ ቍጥቋጦ {num_digit_2, 25} ጽጌረዳዎች አሉት፤ እያንዳንዱ ጽጌረዳ ደግሞ {num_digit_3, 8} እሾህ አለው። በአጠቃላይ ስንት እሾህ አሉ?",
+  "ic_sentence_template": "የ{name_male, ዳን} አክስቱ {num_ic, 27} የቲማቲም ተክሎች አሉአት።",
+  "ic_template": "{name_male, ዳን} {num_digit_1, 3} የሮዝ ቁጥቋጦዎችን ይተክላል። እያንዳንዱ የሮዝ ቍጥቋጦ {num_digit_2, 25} ጽጌረዳዎች አሉት፤ እያንዳንዱ ጽጌረዳ ደግሞ {num_digit_3, 8} እሾህ አለው። በአጠቃላይ ስንት እሾህ አሉ? የ{name_male, ዳን} አክስቱ {num_ic, 27} የቲማቲም ተክሎች አሉአት።",
+  "equation": "UPDATE HERE"
+}

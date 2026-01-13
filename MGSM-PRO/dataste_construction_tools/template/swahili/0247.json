@@ -1,0 +1,8 @@
+{
+  "original_question": "Isabelle alinunua vifaa vya sherehe kwa ajili ya sherehe ya siku ya kuzaliwa ya dadake mdogo. Alitumia $12 kununua viambato vya keki, $43 kununua zawadi za siku ya kuzaliwa, $15 kununua mapambo, $4 kufanya mialiko, na $22 kununua mifuko ya zawadi ya wageni. Anagawanya gharama hivyo sawasawa mara tatu na wazazi wake wawili. Kila mmoja alilipa dola ngapi?",
+  "original_answer": 32,
+  "symbolic_template": "{name_female, Isabelle} alinunua vifaa vya sherehe kwa ajili ya sherehe ya siku ya kuzaliwa ya dadake mdogo. Alitumia ${num_digit_1, 12} kununua viambato vya keki, ${num_digit_2, 43} kununua zawadi za siku ya kuzaliwa, ${num_digit_3, 15} kununua mapambo, ${num_digit_4, 4} kufanya mialiko, na ${num_digit_5, 22} kununua mifuko ya zawadi ya wageni. Anagawanya gharama hivyo sawasawa mara tatu na wazazi wake wawili. Kila mmoja alilipa dola ngapi?",
+  "ic_sentence_template": "Binamu wa {name_female, Isabelle} alileta puto {num_ic, 1042}.",
+  "ic_template": "Binamu wa {name_female, Isabelle} alileta puto {num_ic, 1042}. {name_female, Isabelle} alinunua vifaa vya sherehe kwa ajili ya sherehe ya siku ya kuzaliwa ya dadake mdogo. Alitumia ${num_digit_1, 12} kununua viambato vya keki, ${num_digit_2, 43} kununua zawadi za siku ya kuzaliwa, ${num_digit_3, 15} kununua mapambo, ${num_digit_4, 4} kufanya mialiko, na ${num_digit_5, 22} kununua mifuko ya zawadi ya wageni. Anagawanya gharama hivyo sawasawa mara tatu na wazazi wake wawili. Kila mmoja alilipa dola ngapi?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Dylan alihitaji soseji za kukua na soseji za samaki ili kuandaa mandazi ya soseji katika sherehe. Alinunua soseji 38 za kuku na soseji 6 za samaki zaidi ya za kuku. Dylan alinunua soseji ngapi kwa jumla?",
+  "original_answer": 82,
+  "symbolic_template": "{name_male, Dylan} alihitaji soseji za kuku na soseji za samaki ili kutengeneza mikate ya soseji kwenye sherehe. Alinunua soseji za kuku {num_digit_1, 38} na soseji za samaki {num_digit_2, 6} zaidi ya zile za kuku. Kwa jumla {name_male, Dylan} alinunua soseji ngapi?",
+  "ic_sentence_template": "Mjomba wa {name_male, Dylan} alileta chupa za limau {num_ic, 62}.",
+  "ic_template": "Mjomba wa {name_male, Dylan} alileta chupa za limau {num_ic, 62}. {name_male, Dylan} alihitaji soseji za kuku na soseji za samaki ili kutengeneza mikate ya soseji kwenye sherehe. Alinunua soseji za kuku {num_digit_1, 38} na soseji za samaki {num_digit_2, 6} zaidi ya zile za kuku. Kwa jumla {name_male, Dylan} alinunua soseji ngapi?",
+  "equation": "UPDATE HERE"
+}

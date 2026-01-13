@@ -1,0 +1,8 @@
+{
+  "original_question": "Brinley nọ na klaasị maasị Mr. Bert. Mr. Bert na-enye nwale isii na simesta ọ bụla. Ọ na-enye ụmụ akwụkwọ ohere iwepụ akara pekarịchara na nkezi na simesta ọ bụla. Ọ bụrụ na Brinley nwere akara 89, 71, 92, 100 na 86 na nwale ise nke mbụ, kedụ akara ọ ga-achọ na nwale nke isii iji nweta nkezi 93?",
+  "original_answer": 98,
+  "symbolic_template": "{name_female, Brinley} nọ na klaasị maasị Mr. {name_family, Bert}. Mr. {name_family, Bert} na-enye nwale isii na simesta ọ bụla. Ọ na-enye ụmụ akwụkwọ ohere iwepụ akara pekarịchara na nkezi na simesta ọ bụla. Ọ bụrụ na {name_female, Brinley} nwere akara {num_digit_1, 89}, {num_digit_2, 71}, {num_digit_3, 92}, {num_digit_4, 100} na {num_digit_5, 86} na nwale ise nke mbụ, kedụ akara ọ ga-achọ na nwale nke isii iji nweta nkezi {num_digit_6, 93}?",
+  "ic_sentence_template": "Nwanne nne {name_female, Brinley} bịara otu ụbọchị kpọrọ donut {num_ic, 21} ka o kekọrịta na klas.",
+  "ic_template": "Nwanne nne {name_female, Brinley} bịara otu ụbọchị kpọrọ donut {num_ic, 21} ka o kekọrịta na klas. {name_female, Brinley} nọ na klaasị maasị Mr. {name_family, Bert}. Mr. {name_family, Bert} na-enye nwale isii na simesta ọ bụla. Ọ na-enye ụmụ akwụkwọ ohere iwepụ akara pekarịchara na nkezi na simesta ọ bụla. Ọ bụrụ na {name_female, Brinley} nwere akara {num_digit_1, 89}, {num_digit_2, 71}, {num_digit_3, 92}, {num_digit_4, 100} na {num_digit_5, 86} na nwale ise nke mbụ, kedụ akara ọ ga-achọ na nwale nke isii iji nweta nkezi {num_digit_6, 93}?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,32 @@
+{
+    "problem_id": "0010",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [20, 200]},
+        "num_digit_2": {"type": "int", "range": [1, 99]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "month_1 = num_digit_1",
+            "month_2 = month_1 * 3"
+        ],
+        "num_digit_2": [
+            "reduction_multiplier = num_digit_2 / 100",
+            "reduction_amount = month_2 * reduction_multiplier",
+            "month_3 = month_2 - reduction_amount",
+            "ans = month_1 + month_2 + month_3"
+        ],
+        "num_ic": []
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 5}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "month_3 % 1 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

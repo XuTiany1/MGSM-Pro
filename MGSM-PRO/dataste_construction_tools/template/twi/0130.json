@@ -1,0 +1,8 @@
+{
+  "original_question": "Nissa faa adwumayɛfo aduosia a wɔde bere no yɛ adwuma sɛ mmoatia wɔ n'adwumayɛbea no Santa akuraase. Mmoatia no nkyemu mmiensa mu baako gyaee bere a mmofra no hwie guu wɔn so no, afei mmoatia noa waka no mu edu gyaee bere a mmofra no bɔ wɔn nkotodwe no. Mmoatia dodoɔ ahe na aka?",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, Nissa} faa adwumayɛfo {num_digit_1, 60} a wɔde bere no yɛ adwuma sɛ mmoatia wɔ n'adwumayɛbea no Santa akuraase. Mmoatia no nkyemu mmiensa mu baako gyaee bere a mmofra no hwie guu wɔn so no, afei mmoatia noa waka no mu {num_digit_2, edu} gyaee bere a mmofra no bɔ wɔn nkotodwe no. Mmoatia dodoɔ ahe na aka?",
+  "ic_sentence_template": "{name_female, Nissa} wͻfa de bronya dua {num_ic, 87} kͻ sotͻͻ no afe biara.",
+  "ic_template": "{name_female, Nissa} faa adwumayɛfo {num_digit_1, 60} a wɔde bere no yɛ adwuma sɛ mmoatia wɔ n'adwumayɛbea no Santa akuraase. Mmoatia no nkyemu mmiensa mu baako gyaee bere a mmofra no hwie guu wɔn so no, afei mmoatia noa waka no mu {num_digit_2, edu} gyaee bere a mmofra no bɔ wɔn nkotodwe no. Mmoatia dodoɔ ahe na aka? {name_female, Nissa} wͻfa de bronya dua {num_ic, 87} kͻ sotͻͻ no afe biara.",
+  "equation": "UPDATE HERE"
+}

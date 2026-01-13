@@ -1,0 +1,8 @@
+{
+  "original_question": "ጄና እና እናቷ ከፖም እርሻቸው የተወሰኑ ፖሞችን ወሰዱ ጄና ከእናቷ በግማሽ የሚበልጥ ፖም አነሳች፣እናቷ 20 ፖሞች ካሏት፣ሁለቱም ምን ያህል ፖሞች አነሱ",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, ጄና} እና እናቷ ከፖም እርሻቸው የተወሰኑ ፖሞችን ወሰዱ {name_female, ጄና} ከእናቷ በግማሽ የሚበልጥ ፖም አነሳች፣እናቷ {num_digit_1, 20} ፖሞች ካሏት፣ሁለቱም ምን ያህል ፖሞች አነሱ",
+  "ic_sentence_template": "የ{name_female, ጀና} አጎት ዛሬ ጠዋት ወደ ግቢ ለመሬት {num_ic, 154} የፖም ሳይደር ቦቶሎች አመጣ።",
+  "ic_template": "{name_female, ጄና} እና እናቷ ከፖም እርሻቸው የተወሰኑ ፖሞችን ወሰዱ {name_female, ጄና} ከእናቷ በግማሽ የሚበልጥ ፖም አነሳች፣እናቷ {num_digit_1, 20} ፖሞች ካሏት፣ሁለቱም ምን ያህል ፖሞች አነሱ የ{name_female, ጀና} አጎት ዛሬ ጠዋት ወደ ግቢ ለመሬት {num_ic, 154} የፖም ሳይደር ቦቶሎች አመጣ።",
+  "equation": "UPDATE HERE"
+}

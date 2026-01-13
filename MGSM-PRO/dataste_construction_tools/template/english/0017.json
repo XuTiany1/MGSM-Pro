@@ -1,0 +1,8 @@
+{
+  "original_question": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary?",
+  "original_answer": 57500,
+  "symbolic_template": "{name_female, Jill} gets paid ${num_digit_1, 20} per hour to teach and ${num_digit_2, 30} to be a cheerleading coach. If she works {num_digit_3, 50} weeks a year, {num_digit_4, 35} hours a week as a teacher and {num_digit_5, 15} hours a week as a coach, what's her annual salary?",
+  "ic_sentence_template": "{name_female, Jill}'s uncle recently adopted {num_ic, 127} puppies.",
+  "ic_template": "{name_female, Jill} gets paid ${num_digit_1, 20} per hour to teach and ${num_digit_2, 30} to be a cheerleading coach. If she works {num_digit_3, 50} weeks a year, {num_digit_4, 35} hours a week as a teacher and {num_digit_5, 15} hours a week as a coach, {name_female, Jill}'s uncle recently adopted {num_ic, 127} puppies. what's her annual salary?",
+  "equation": "UPDATE HERE"
+}

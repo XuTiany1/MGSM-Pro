@@ -1,0 +1,8 @@
+{
+  "original_question": "文森特可以花 2.50 美元买一束 3 支装的鲜花或花 1 美元买一束 2 支装的鲜花。如果他以更好的价格购买 18 支花，他能省多少钱？",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, 文森特} 可以花 {num_digit_2, 2.50} 美元买一束 {num_digit_1, 3} 支装的鲜花，或花 {num_digit_4, 1} 美元买一束 {num_digit_3, 2} 支装的鲜花。如果他以更好的价格购买 {num_digit_5, 18} 支花，他能省多少钱？",
+  "ic_sentence_template": "{name_male, 文森特} 的叔叔在他的花园里种了 {num_ic, 23} 棵番茄。",
+  "ic_template": "{name_male, 文森特} 的叔叔在他的花园里种了 {num_ic, 23} 棵番茄。{name_male, 文森特} 可以花 {num_digit_2, 2.50} 美元买一束 {num_digit_1, 3} 支装的鲜花，或花 {num_digit_4, 1} 美元买一束 {num_digit_3, 2} 支装的鲜花。如果他以更好的价格购买 {num_digit_5, 18} 支花，他能省多少钱？",
+  "equation": "UPDATE HERE"
+}

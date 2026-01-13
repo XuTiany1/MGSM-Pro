@@ -1,0 +1,8 @@
+{
+  "original_question": "两列火车同时离开圣拉斐尔。它们开始向西行驶，并且都行驶了 80 英里。第二天，它们向北行驶，行驶了 150 英里。在这两天中，每列火车行驶了多长距离？",
+  "original_answer": 230,
+  "symbolic_template": "   \n两 列火车同时离开 {name_town_1, 圣拉斐尔}。它们开始向西行驶，并且都行驶了 {num_digit_1, 80} 英里。第二天，它们向北行驶，行驶了 {num_digit_2, 150} 英里。在这两天中，每列火车行驶了多长距离？",
+  "ic_sentence_template": "{name_town_1, 圣拉斐尔} 的市长拥有 {num_ic, 137} 辆模型火车。",
+  "ic_template": "{name_town_1, 圣拉斐尔} 的市长拥有 {num_ic, 137} 辆模型火车。两 列火车同时离开 {name_town_1, 圣拉斐尔}。它们开始向西行驶，并且都行驶了 {num_digit_1, 80} 英里。第二天，它们向北行驶，行驶了 {num_digit_2, 150} 英里。在这两天中，每列火车行驶了多长距离？",
+  "equation": "UPDATE HERE"
+}

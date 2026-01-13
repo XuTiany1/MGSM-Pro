@@ -1,0 +1,8 @@
+{
+  "original_question": "Mark yɛ nsɔhwɛ bi a na ɛyɛ nsɛmmisa 75. Na ɔwie nsɛmmisa 5 wɔ dɔnhwere baako mu wɔ nsɔhwɛ. \nƐnnɛ, ɔyɛɛ nsɔhwɛ foforo a nsɛmmisa 100 wom wɔ bere baako mu. Sɛ na Mark wɔ nnɔnhwere 8 a ɔde wiee nsɔhwɛ a edi kan no na ɔwɔ nnɔnhwere 6 a ɔde wiee nea ɛto so mmienu no a, nsɛmmisa ahe na na ɔnwiee?",
+  "original_answer": 105,
+  "symbolic_template": "{name_male, Mark} yɛ nsɔhwɛ bi a na ɛyɛ nsɛmmisa {num_digit_1, 75}. Na ɔwie nsɛmmisa {num_digit_2, 5} wɔ dɔnhwere baako mu wɔ nsɔhwɛ. \nƐnnɛ, ɔyɛɛ nsɔhwɛ foforo a nsɛmmisa {num_digit_3, 100} wom wɔ bere baako mu. Sɛ na {name_male, Mark} wɔ nnɔnhwere {num_digit_4, 8} a ɔde wiee nsɔhwɛ a edi kan no na ɔwɔ nnɔnhwere {num_digit_5, 6} a ɔde wiee nea ɛto so mmienu no a, nsɛmmisa ahe na na ɔnwiee?",
+  "ic_sentence_template": "{name_male, Mark} no wͻfa de pɛnsere {num_ic, 68} berɛɛ no sɛnea obɛnya mfasoͻ pa.",
+  "ic_template": "{name_male, Mark} no wͻfa de pɛnsere {num_ic, 68} berɛɛ no sɛnea obɛnya mfasoͻ pa. Ɛnnɛ, ɔyɛɛ nsɔhwɛ foforo a nsɛmmisa {num_digit_3, 100} wom wɔ bere baako mu. {name_male, Mark} yɛ nsɔhwɛ bi a na ɛyɛ nsɛmmisa {num_digit_1, 75}. Na ɔwie nsɛmmisa {num_digit_2, 5} wɔ dɔnhwere baako mu wɔ nsɔhwɛ. Sɛ na {name_male, Mark} wɔ nnɔnhwere {num_digit_4, 8} a ɔde wiee nsɔhwɛ a edi kan no na ɔwɔ nnɔnhwere {num_digit_5, 6} a ɔde wiee nea ɛto so mmienu no a, nsɛmmisa ahe na na ɔnwiee?",
+  "equation": "UPDATE HERE"
+}

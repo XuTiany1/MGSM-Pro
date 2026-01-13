@@ -1,0 +1,8 @@
+{
+  "original_question": "Janeth borrowed $2000 and promised to return it with an additional 10% of the amount. If she is going to pay $165 a month for 12 months, how much will be Janeth's remaining balance by then?",
+  "original_answer": 220,
+  "symbolic_template": "{name_female, Janeth} borrowed ${num_digit_1, 2000} and promised to return it with an additional {num_digit_2, 10}% of the amount. If she is going to pay ${num_digit_3, 165} a month for {num_digit_4, 12} months, how much will be {name_female, Janeth}'s remaining balance by then?",
+  "ic_sentence_template": "{name_female, Janeth}'s uncle received {num_ic, 93000} lottery tickets last year.",
+  "ic_template": "{name_female, Janeth} borrowed ${num_digit_1, 2000} and promised to return it with an additional {num_digit_2, 10}% of the amount. If she is going to pay ${num_digit_3, 165} a month for {num_digit_4, 12} months, {name_female, Janeth}'s uncle received {num_ic, 93000} lottery tickets last year. How much will be {name_female, Janeth}'s remaining balance by then?",
+  "equation": "UPDATE HERE"
+}

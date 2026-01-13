@@ -1,0 +1,8 @@
+{
+  "original_question": "Un réservoir d'eau a une profondeur de 17 pieds le lundi. Le mardi, le réservoir contient 7 pieds d'eau en plus. Le mercredi, la profondeur de l'eau représente les deux tiers de ce qu'elle était le mardi. Quelle est la profondeur de l'eau du réservoir le mercredi ?",
+  "original_answer": 16,
+  "symbolic_template": "Un réservoir d'eau a une profondeur de {num_digit_1, 17} pieds le lundi. Le mardi, le réservoir contient {num_digit_2, 7} pieds d'eau en plus. Le mercredi, la profondeur de l'eau représente les deux tiers de ce qu'elle était le mardi. Quelle est la profondeur de l'eau du réservoir le mercredi ?",
+  "ic_sentence_template": "{name_male, Brian} a un oncle qui a vérifié le niveau d'eau du réservoir {num_ic, 79} fois l'année dernière.",
+  "ic_template": "{name_male, Brian} a un oncle qui a vérifié le niveau d'eau du réservoir {num_ic, 79} fois l'année dernière. Un réservoir d'eau a une profondeur de {num_digit_1, 17} pieds le lundi. Le mardi, le réservoir contient {num_digit_2, 7} pieds d'eau en plus. Le mercredi, la profondeur de l'eau représente les deux tiers de ce qu'elle était le mardi. Quelle est la profondeur de l'eau du réservoir le mercredi ?",
+  "equation": "UPDATE HERE"
+}

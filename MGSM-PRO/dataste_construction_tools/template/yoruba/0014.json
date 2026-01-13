@@ -1,0 +1,8 @@
+{
+  "original_question": "Ní kíláásì ijó àwọn akẹ́kọ̀ọ́ 20, 20% forúkọsílẹ̀ fún ijó òde òní, 25% nínú àwọn tókù forúkọsílẹ̀ fún ijó jáásì, nígbà tí àwọn tókù forúkọsílẹ̀ fún ijó tàka súfèé. kínní ìdá gbogbo àwọn akẹ́kọ̀ọ́ tí wọ́n forúkọsílẹ̀ fún ijó tàka súfèé?",
+  "original_answer": 60,
+  "symbolic_template": "Ní kíláásì ijó àwọn akẹ́kọ̀ọ́ {num_digit_1, 20}, {num_digit_2, 20}% forúkọsílẹ̀ fún ijó òde òní, {num_digit_3, 25}% nínú àwọn tókù forúkọsílẹ̀ fún ijó jáásì, nígbà tí àwọn tókù forúkọsílẹ̀ fún ijó tàka súfèé. kínní ìdá gbogbo àwọn akẹ́kọ̀ọ́ tí wọ́n forúkọsílẹ̀ fún ijó tàka súfèé?",
+  "ic_sentence_template": "Ọmọ-ìyá olùkọ́ náà mú kọ́ọ̀kì àkàrà òyìnbó {num_ic, 7} wá fún ẹgbẹ́ náà.",
+  "ic_template": "Ọmọ-ìyá olùkọ́ náà mú kọ́ọ̀kì àkàrà òyìnbó {num_ic, 7} wá fún ẹgbẹ́ náà. Ní kíláásì ijó àwọn akẹ́kọ̀ọ́ {num_digit_1, 20}, {num_digit_2, 20}% forúkọsílẹ̀ fún ijó òde òní, {num_digit_3, 25}% nínú àwọn tókù forúkọsílẹ̀ fún ijó jáásì, nígbà tí àwọn tókù forúkọsílẹ̀ fún ijó tàka súfèé. kínní ìdá gbogbo àwọn akẹ́kọ̀ọ́ tí wọ́n forúkọsílẹ̀ fún ijó tàka súfèé?",
+  "equation": "UPDATE HERE"
+}

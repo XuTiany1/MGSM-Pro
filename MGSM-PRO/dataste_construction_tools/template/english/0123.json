@@ -1,0 +1,8 @@
+{
+  "original_question": "Rosie can run 10 miles per hour for 3 hours. After that, she runs 5 miles per hour. How many miles can she run in 7 hours?",
+  "original_answer": 50,
+  "symbolic_template": "{name_female, Rosie} can run {num_digit_1, 10} miles per hour for {num_digit_2, 3} hours. After that, she runs {num_digit_3, 5} miles per hour. How many miles can she run in {num_digit_4, 7} hours?",
+  "ic_sentence_template": "{name_female, Rosie's} uncle once biked {num_ic, 62} miles in a single day.",
+  "ic_template": "{name_female, Rosie} can run {num_digit_1, 10} miles per hour for {num_digit_2, 3} hours. After that, she runs {num_digit_3, 5} miles per hour. {name_female, Rosie's} uncle once biked {num_ic, 62} miles in a single day. How many miles can she run in {num_digit_4, 7} hours?",
+  "equation": "UPDATE HERE"
+}

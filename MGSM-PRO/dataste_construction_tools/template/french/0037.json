@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean veut vendre tous ses jouets et utiliser l'argent pour s'acheter des jeux vidéos. Il possède 13 jeux de lego et les met en vente pour 15 $ chacun. Finalement, il s'achète 8 jeux vidéos au prix de 20 $ par jeu, ce qui le laisse avec 5 $. Combien lui reste-t-il de jeux de lego ?",
+  "original_answer": 2,
+  "symbolic_template": "{name_male, Jean} veut vendre tous ses jouets et utiliser l'argent pour s'acheter des jeux vidéos. Il possède {num_digit_1, 13} jeux de lego et les met en vente pour {num_digit_2, 15} $ chacun. Finalement, il s'achète {num_digit_3, 8} jeux vidéos au prix de {num_digit_4, 20} $ par jeu, ce qui le laisse avec {num_digit_5, 5} $. Combien lui reste-t-il de jeux de lego ?",
+  "ic_sentence_template": "{name_male, John} a un oncle qui a récemment acheté {num_ic, 38} figurines d'action.",
+  "ic_template": "{name_male, John} a un oncle qui a récemment acheté {num_ic, 38} figurines d'action. {name_male, Jean} veut vendre tous ses jouets et utiliser l'argent pour s'acheter des jeux vidéos. Il possède {num_digit_1, 13} jeux de lego et les met en vente pour {num_digit_2, 15} $ chacun. Finalement, il s'achète {num_digit_3, 8} jeux vidéos au prix de {num_digit_4, 20} $ par jeu, ce qui le laisse avec {num_digit_5, 5} $. Combien lui reste-t-il de jeux de lego ?",
+  "equation": "UPDATE HERE"
+}

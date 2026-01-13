@@ -1,0 +1,8 @@
+{
+  "original_question": "Andy dua geraniums 90 ne petunias 40 eye ketewa sen geranium nnua. Nhwiren dodo ahe na odua?",
+  "original_answer": 140,
+  "symbolic_template": "{name_male, Andy} dua geraniums {num_digit_1, 90} ne petunias {num_digit_2, 40} eye ketewa sen geranium nnua. Nhwiren dodo ahe na odua?",
+  "ic_sentence_template": "{name_male, Andy} sewaa tɔɔ anwea kokou {num_ic, 8324} nnawɔtwe a atwa mu.",
+  "ic_template": "{name_male, Andy} sewaa tɔɔ anwea kokou {num_ic, 8324} nnawɔtwe a atwa mu. {name_male, Andy} dua geraniums {num_digit_1, 90} ne petunias {num_digit_2, 40} eye ketewa sen geranium nnua. Nhwiren dodo ahe na odua?",
+  "equation": "UPDATE HERE"
+}

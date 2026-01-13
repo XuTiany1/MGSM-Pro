@@ -1,0 +1,8 @@
+{
+  "original_question": "The Doubtfire sisters are driving home with 7 kittens adopted from the local animal shelter when their mother calls to inform them that their two house cats have just had kittens. She says that Patchy, the first cat, has had thrice the number of adopted kittens, while Trixie, the other cat, has had 12. How many kittens does the Doubtfire family now have?",
+  "original_answer": 40,
+  "symbolic_template": "The {name_family, Doubtfire} sisters are driving home with {num_digit_1, 7} kittens adopted from the local animal shelter when their mother calls to inform them that their house cats have just had kittens. She says that {name_cat_1, Patchy}, the first cat, has had thrice the number of adopted kittens, while {name_cat_2, Trixie}, the other cat, has had {num_digit_2, 12}. How many kittens does the {name_family, Doubtfire} family now have?",
+  "ic_sentence_template": "{name_family, Doubtfire}'s uncle recently moved {num_ic, 41} miles away.",
+  "ic_template": "The {name_family, Doubtfire} sisters are driving home with {num_digit_1, 7} kittens adopted from the local animal shelter when their mother calls to inform them that their house cats have just had kittens. She says that {name_cat_1, Patchy}, the first cat, has had thrice the number of adopted kittens, while {name_cat_2, Trixie}, the other cat, has had {num_digit_2, 12}. {name_family, Doubtfire}'s uncle recently moved {num_ic, 41} miles away. How many kittens does the {name_family, Doubtfire} family now have?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Lundi, Rose est allée acheter 4 gâteaux dans un magasin. Mardi, elle a acheté trois fois plus de gâteaux dans un magasin différent. Mercredi, elle s'est rendue dans un autre magasin et a acheté 5 fois la quantité de gâteaux achetée mardi. Combien de gâteaux a-t-elle acheté au total durant ces trois jours ?",
+  "original_answer": 76,
+  "symbolic_template": "Lundi, {name_female, Rose} est allée acheter {num_digit_1, 4} gâteaux dans un magasin. Mardi, elle a acheté trois fois plus de gâteaux dans un magasin différent. Mercredi, elle s'est rendue dans un autre magasin et a acheté {num_digit_2, 5} fois la quantité de gâteaux achetée mardi. Combien de gâteaux a-t-elle acheté au total durant ces trois jours ?",
+  "ic_sentence_template": "{name_female, Rose} a un oncle qui a fait cuire {num_ic, 85} tartes le week-end dernier.",
+  "ic_template": "{name_female, Rose} a un oncle qui a fait cuire {num_ic, 85} tartes le week-end dernier. Lundi, {name_female, Rose} est allée acheter {num_digit_1, 4} gâteaux dans un magasin. Mardi, elle a acheté trois fois plus de gâteaux dans un magasin différent. Mercredi, elle s'est rendue dans un autre magasin et a acheté {num_digit_2, 5} fois la quantité de gâteaux achetée mardi. Combien de gâteaux a-t-elle acheté au total durant ces trois jours ?",
+  "equation": "UPDATE HERE"
+}

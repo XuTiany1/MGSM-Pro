@@ -1,0 +1,8 @@
+{
+  "original_question": "Rory ameagiza apelekewe sandwichi 2 kwa $7.50 kila moja, mifuko 2 ya chipsi kwa $1.50 kila moja na biskuti 2 kwa $1.00 kila moja. Kuna ada ya uwasilishaji ya 20% iliyoongezwa wakati wa malipo na anataka kuongeza bahshishi ya $5.00. Jumla ya gharama yake itakuwa pesa ngapi?",
+  "original_answer": 29,
+  "symbolic_template": "{name_male, Rory} anaagiza sandwich {num_digit_1, 2} kwa ${num_digit_2, 7.50} kila moja, mifuko ya crisps {num_digit_3, 2} kwa ${num_digit_4, 1.50} kila moja na biskuti {num_digit_5, 2} kwa ${num_digit_6, 1.00} kila moja kwa huduma ya kufikishiwa. Kuna ada ya huduma ya kufikisha ya {num_digit_7, 20}% inayoongezwa wakati wa kulipia, na anataka kuongeza bakshishi ya ${num_digit_8, 5.00}. Agizo lake la kufikishiwa litagharimu kiasi gani?",
+  "ic_sentence_template": "Shangazi wa {name_male, Rory} huagiza saladi {num_ic, 19} kila Ijumaa.",
+  "ic_template": "Shangazi wa {name_male, Rory} huagiza saladi {num_ic, 19} kila Ijumaa. {name_male, Rory} anaagiza sandwich {num_digit_1, 2} kwa ${num_digit_2, 7.50} kila moja, mifuko ya crisps {num_digit_3, 2} kwa ${num_digit_4, 1.50} kila moja na biskuti {num_digit_5, 2} kwa ${num_digit_6, 1.00} kila moja kwa huduma ya kufikishiwa. Kuna ada ya huduma ya kufikisha ya {num_digit_7, 20}% inayoongezwa wakati wa kulipia, na anataka kuongeza bakshishi ya ${num_digit_8, 5.00}. Agizo lake la kufikishiwa litagharimu kiasi gani?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Sadie sùn fún wákàtí 8 ní ọjọ́ Ajẹ́. Fún bí ọjọ́ méji,o ń sun oorun wákàtí 2 dín, ìkọ̀ọ̀kan, nítorí ó ní láti parí àwọn iṣẹ́ àṣetiléwá kọ̀ọ̀kan. Tí ó bá sun oorun wákàtí kan lé ju èyí tí ó ń sùn ní ọjọ́ méjèèjì lọ, wákàtí mélòó ní ó fi sùn lápapọ̀ ní gbogbo ọ̀sẹ̀ yìí?",
+  "original_answer": 48,
+  "symbolic_template": "{name_female, Sadie} sùn fún wákàtí {num_digit_1, 8} ní ọjọ́ Ajẹ́. Fún bí méji, o ń sun oorun wákàtí {num_digit_2, 2} dín, ìkọ̀ọ̀kan, nítorí ó ní láti parí àwọn iṣẹ́ àṣetiléwá kọ̀ọ̀kan. Tí ó bá sun oorun wákàtí {num_digit_3, 1} kan lé ju èyí tí ó ń sùn ní ọjọ́ méjèèjì lọ, wákàtí mélòó ní ó fi sùn lápapọ̀ ní gbogbo ọ̀sẹ̀ yìí?",
+  "ic_sentence_template": "Arákùnrin {name_female, Sadie} mu ife kọfí {num_ic, 23} lọ́sẹ̀ tó kọjá.",
+  "ic_template": "Arákùnrin {name_female, Sadie} mu ife kọfí {num_ic, 23} lọ́sẹ̀ tó kọjá. {name_female, Sadie} sùn fún wákàtí {num_digit_1, 8} ní ọjọ́ Ajẹ́. Fún bí méji, o ń sun oorun wákàtí {num_digit_2, 2} dín, ìkọ̀ọ̀kan, nítorí ó ní láti parí àwọn iṣẹ́ àṣetiléwá kọ̀ọ̀kan. Tí ó bá sun oorun wákàtí {num_digit_3, 1} kan lé ju èyí tí ó ń sùn ní ọjọ́ méjèèjì lọ, wákàtí mélòó ní ó fi sùn lápapọ̀ ní gbogbo ọ̀sẹ̀ yìí?",
+  "equation": "UPDATE HERE"
+}

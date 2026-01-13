@@ -1,0 +1,8 @@
+{
+  "original_question": "Kylie et Robert aiment aller ramasser des coquillages à la plage. Lundi, Kylie ramasse 5 coquillages de plus que Robert qui lui, en ramasse 20. Mardi, Kylie ramasse 2 fois plus de coquillages qu'elle en a ramassé lundi. Combien de coquillages Kylie a-t-elle ramassés mardi ?",
+  "original_answer": 50,
+  "symbolic_template": "{name_male_1, Kylie} et {name_male_2, Robert} aiment aller ramasser des coquillages à la plage. Lundi, {name_male_1, Kylie} ramasse {num_digit_1, 5} coquillages de plus que {name_male_2, Robert} qui lui, en ramasse {num_digit_2, 20}. Mardi, {name_male_1, Kylie} ramasse {num_digit_3, 2} fois plus de coquillages qu'elle en a ramassé lundi. Combien de coquillages {name_male_1, Kylie} a-t-elle ramassés mardi ?",
+  "ic_sentence_template": "La tante de {name_male_2, Robert} a trouvé {num_ic, 8243} morceaux de verre de mer l'été dernier.",
+  "ic_template": "La tante de {name_male_2, Robert} a trouvé {num_ic, 8243} morceaux de verre de mer l'été dernier. {name_male_1, Kylie} et {name_male_2, Robert} aiment aller ramasser des coquillages à la plage. Lundi, {name_male_1, Kylie} ramasse {num_digit_1, 5} coquillages de plus que {name_male_2, Robert} qui lui, en ramasse {num_digit_2, 20}. Mardi, {name_male_1, Kylie} ramasse {num_digit_3, 2} fois plus de coquillages qu'elle en a ramassé lundi. Combien de coquillages {name_male_1, Kylie} a-t-elle ramassés mardi ?",
+  "equation": "UPDATE HERE"
+}

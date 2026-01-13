@@ -1,0 +1,8 @@
+{
+  "original_question": "Mike joue au ping-pong pendant 40 minutes. Durant les 20 premières minutes, il marque 4 points. Il marque 25 % de points supplémentaires pendant les 20 minutes suivantes. Combien de points a-t-il marqués au total ?",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, Mike} joue au ping-pong pendant {num_digit_1, 40} minutes. Durant les {num_digit_2, 20} premières minutes, il marque {num_digit_3, 16} points. Il marque {num_digit_5, 25} % de points supplémentaires pendant les {num_digit_4, 20} minutes suivantes. Combien de points a-t-il marqués au total ?",
+  "ic_sentence_template": "{name_male, Mike} a un oncle qui regarde {num_ic, 102} matchs de ping-pong chaque année.",
+  "ic_template": "{name_male, Mike} a un oncle qui regarde {num_ic, 102} matchs de ping-pong chaque année. {name_male, Mike} joue au ping-pong pendant {num_digit_1, 40} minutes. Durant les {num_digit_2, 20} premières minutes, il marque {num_digit_3, 16} points. Il marque {num_digit_5, 25} % de points supplémentaires pendant les {num_digit_4, 20} minutes suivantes. Combien de points a-t-il marqués au total ?",
+  "equation": "UPDATE HERE"
+}

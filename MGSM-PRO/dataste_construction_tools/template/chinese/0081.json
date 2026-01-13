@@ -1,0 +1,8 @@
+{
+  "original_question": "查理有 10 张贴纸。他从商场的商店买了 21 张贴纸，并在生日上收到了 23 张贴纸。然后查理把其中 9 张贴纸给了他妹妹，并用 28 张贴纸装饰贺卡。查理还剩下多少张贴纸？",
+  "original_answer": 17,
+  "symbolic_template": "{name_male, 查理} 有 {num_digit_1, 10} 张贴纸。他从商场的商店买了 {num_digit_2, 21} 张贴纸，并在生日上收到了 {num_digit_3, 23} 张贴纸。然后 {name_male, 查理} 把其中 {num_digit_4, 9} 张贴纸给了他妹妹，并用 {num_digit_5, 28} 张贴纸装饰贺卡。{name_male, 查理} 还剩下多少张贴纸？",
+  "ic_sentence_template": "{name_male, 查理} 的叔叔收藏了 {num_ic, 12} 张稀有邮票。",
+  "ic_template": "{name_male, 查理} 的叔叔收藏了 {num_ic, 12} 张稀有邮票。{name_male, 查理} 有 {num_digit_1, 10} 张贴纸。他从商场的商店买了 {num_digit_2, 21} 张贴纸，并在生日上收到了 {num_digit_3, 23} 张贴纸。然后 {name_male, 查理} 把其中 {num_digit_4, 9} 张贴纸给了他妹妹，并用 {num_digit_5, 28} 张贴纸装饰贺卡。{name_male, 查理} 还剩下多少张贴纸？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "一个水箱装有 120 升水。席琳用水箱里的 90 升水给她的小花园浇水。她之后收集到剩余水量两倍的雨水。现在水箱里有多少升水？",
+  "original_answer": 90,
+  "symbolic_template": "{num_digit_1, 120} 升水装在一个水箱里。{name_female, 席琳} 用水箱里的 {num_digit_2, 90} 升水给她的小花园浇水。她之后收集到剩余水量 两倍 的雨水。现在水箱里有多少升水？",
+  "ic_sentence_template": "{name_female, 席琳} 的叔叔去年春天买了 {num_ic, 388} 颗郁金香球茎。",
+  "ic_template": "{name_female, 席琳} 的叔叔去年春天买了 {num_ic, 388} 颗郁金香球茎。{num_digit_1, 120} 升水装在一个水箱里。{name_female, 席琳} 用水箱里的 {num_digit_2, 90} 升水给她的小花园浇水。她之后收集到剩余水量 两倍 的雨水。现在水箱里有多少升水？",
+  "equation": "UPDATE HERE"
+}

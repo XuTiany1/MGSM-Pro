@@ -1,0 +1,8 @@
+{
+  "original_question": "nínú 200 àwọn ọmọ kíláásì 5 akékọ̀ọ́, ìdá méjì nínú márùn-ún jẹ́ ọkùnrin nígbàtí ìdá méjì nínú mẹ́ta obìnrin wà nínú síkáòtù, obìnrin mélòó ní kò sí nínú síkáòtù?",
+  "original_answer": 40,
+  "symbolic_template": "nínú {num_digit_1, 200} àwọn ọmọ kíláásì 5 akékọ̀ọ́, ìdá méjì nínú márùn-ún jẹ́ ọkùnrin nígbàtí ìdá méjì nínú mẹ́ta obìnrin wà nínú síkáòtù, obìnrin mélòó ní kò sí nínú síkáòtù?",
+  "ic_sentence_template": "Ọmọbìnrin olùdarí ilé-ẹ̀kọ́ ní pẹ́sùlù {num_ic, 41}.",
+  "ic_template": "Ọmọbìnrin olùdarí ilé-ẹ̀kọ́ ní pẹ́sùlù {num_ic, 41}. nínú {num_digit_1, 200} àwọn ọmọ kíláásì 5 akékọ̀ọ́, ìdá méjì nínú márùn-ún jẹ́ ọkùnrin nígbàtí ìdá méjì nínú mẹ́ta obìnrin wà nínú síkáòtù, obìnrin mélòó ní kò sí nínú síkáòtù?",
+  "equation": "UPDATE HERE"
+}

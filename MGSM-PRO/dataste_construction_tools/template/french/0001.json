@@ -1,0 +1,8 @@
+{
+  "original_question": "Une robe nécessite 2 rouleaux de fibre bleue et la moitié de cette quantité en fibre blanche. Combien faut-il de rouleaux au total ?",
+  "original_answer": 3,
+  "symbolic_template": "Une robe nécessite {num_digit_1, 2} rouleaux de fibre bleue et la moitié de cette quantité en fibre blanche. Combien faut-il de rouleaux au total ?",
+  "ic_sentence_template": "L'oncle du tailleur a déjà apporté {num_ic, 19} bobines de fil de la ville.",
+  "ic_template": "L'oncle du tailleur a déjà apporté {num_ic, 19} bobines de fil de la ville. Une robe nécessite {num_digit_1, 2} rouleaux de fibre bleue et la moitié de cette quantité en fibre blanche. Combien faut-il de rouleaux au total ?",
+  "equation": "UPDATE HERE"
+}

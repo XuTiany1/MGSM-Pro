@@ -1,0 +1,8 @@
+{
+  "original_question": "John boaboa aduaba bi ano nnɔnhwere mmiɛnsa. Na ɔbetumi atɔ aduaba mmienu wɔ simma baako biara. Mpɛn ahe na ɔboaboaa nduaba no ano?",
+  "original_answer": 360,
+  "symbolic_template": "{name_male, John} boaboa aduaba bi ano nnɔnhwere {num_digit_1, mmiɛnsa}. Na ɔbetumi atɔ aduaba {num_digit_2, mmienu} wɔ simma baako biara. Mpɛn ahe na ɔboaboaa nduaba no ano?",
+  "ic_sentence_template": "{name_male, John} wɔfa de kenten {num_ic, 9} ba nuaba turo hɔ anɔpa biara.",
+  "ic_template": "{name_male, John} wɔfa de kenten {num_ic, 9} ba nuaba turo hɔ anɔpa biara. {name_male, John} boaboa aduaba bi ano nnɔnhwere {num_digit_1, mmiɛnsa}. Na ɔbetumi atɔ aduaba {num_digit_2, mmienu} wɔ simma baako biara. Mpɛn ahe na ɔboaboaa nduaba no ano?",
+  "equation": "UPDATE HERE"
+}

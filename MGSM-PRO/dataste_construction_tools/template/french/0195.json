@@ -1,0 +1,8 @@
+{
+  "original_question": "Un stylo coûte autant qu'un crayon et une gomme réunis. Si un crayon coûte 1,20 $ et une gomme 0,30 $, quel sera le prix de 8 stylos ?",
+  "original_answer": 12,
+  "symbolic_template": "Un stylo coûte autant qu'un crayon et une gomme réunis. Si un crayon coûte {num_digit_1, 1.20} $ et une gomme {num_digit_2, 0.30} $, quel sera le prix de {num_digit_3, 8} stylos ?",
+  "ic_sentence_template": "{num_ic, 33} nouveaux cahiers sont arrivés au magasin aujourd’hui.",
+  "ic_template": "{num_ic, 33} nouveaux cahiers sont arrivés au magasin aujourd’hui. Un stylo coûte autant qu'un crayon et une gomme réunis. Si un crayon coûte {num_digit_1, 1.20} $ et une gomme {num_digit_2, 0.30} $, quel sera le prix de {num_digit_3, 8} stylos ?",
+  "equation": "UPDATE HERE"
+}

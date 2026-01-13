@@ -1,0 +1,8 @@
+{
+  "original_question": "Stephen tụrụ ahịa maka ịhe oriri n'ịntaneti. Ego nille ọ ga-akwụ pụtara $40.00. Maka na ịhe na-abịa site n'aka onye na-ewelata ahịa, ha tinyere 25% n'ego ikpeazụ ọ ga-akwụ ma naa ya $3.00 n'ego ịweta ahịa. Stephen tinyekwara onyinye afọ ofufo $4.00. Ka ego mgbakwunye ahụ gasịrị, gịnị bụ ego ole Stephen jiri zụọ ihe oriri?",
+  "original_answer": 57,
+  "symbolic_template": "{name_male, Stephen} tụrụ ahịa maka ịhe oriri n'ịntaneti. Ego nille ọ ga-akwụ pụtara ${num_digit_1, 40.00}. Maka na ịhe na-abịa site n'aka onye na-ewelata ahịa, ha tinyere {num_digit_2, 25}% n'ego ikpeazụ ọ ga-akwụ ma naa ya ${num_digit_3, 3.00} n'ego ịweta ahịa. {name_male, Stephen} tinyekwara onyinye afọ ofufo ${num_digit_4, 4.00}. Ka ego mgbakwunye ahụ gasịrị, gịnị bụ ego ole {name_male, Stephen} jiri zụọ ihe oriri?",
+  "ic_sentence_template": "Nwanne nne {name_male, Stephen} zụrụ ọka banana {num_ic, 41} ụnyahụ.",
+  "ic_template": "Nwanne nne {name_male, Stephen} zụrụ ọka banana {num_ic, 41} ụnyahụ. {name_male, Stephen} tụrụ ahịa maka ịhe oriri n'ịntaneti. Ego nille ọ ga-akwụ pụtara ${num_digit_1, 40.00}. Maka na ịhe na-abịa site n'aka onye na-ewelata ahịa, ha tinyere {num_digit_2, 25}% n'ego ikpeazụ ọ ga-akwụ ma naa ya ${num_digit_3, 3.00} n'ego ịweta ahịa. {name_male, Stephen} tinyekwara onyinye afọ ofufo ${num_digit_4, 4.00}. Ka ego mgbakwunye ahụ gasịrị, gịnị bụ ego ole {name_male, Stephen} jiri zụọ ihe oriri?",
+  "equation": "UPDATE HERE"
+}

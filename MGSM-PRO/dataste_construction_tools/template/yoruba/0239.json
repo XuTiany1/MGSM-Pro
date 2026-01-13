@@ -1,0 +1,8 @@
+{
+  "original_question": "Iye àwọn akẹ‌kọ‌ọ‌ tí ó wà nínú gbọ‌ngàn ilé-ìwé kan jẹ‌ 1000. Gbọ‌ngàn náà ní àbáwọlé mẹ‌ta A, B, àti C tí wọ‌n sì jẹ‌ àbájáde náà. Tí ó bá jẹ‌ wípé lẹ‌yìn ìpàdé kán 30% àwọn akẹ‌kọ‌ọ‌ náà gbà àbájáde A kúrò nínú ilé náà, tí 3/5 àwọn tí ó kù gba àbájáde B, tí àwọn tí ó kú gba àbájáde C, ṣe ìṣirò iye àwọn akẹ‌kọ‌ọ‌ tí ó gba àbájáde C jáde.",
+  "original_answer": 280,
+  "symbolic_template": "Iye àwọn akẹ‌kọ‌ọ‌ tí ó wà nínú gbọ‌ngàn ilé-ìwé kan jẹ‌ {num_digit_1, 1000}. Gbọ‌ngàn náà ní àbáwọlé {num_digit_2, 3} A, B, àti C tí wọ‌n sì jẹ‌ àbájáde náà. Tí ó bá jẹ‌ wípé lẹ‌yìn ìpàdé kán {num_digit_3, 30}% àwọn akẹ‌kọ‌ọ‌ náà gbà àbájáde A kúrò nínú ilé náà, tí 3/5 àwọn tí ó kù gba àbájáde B, tí àwọn tí ó kú gba àbájáde C, ṣe ìṣirò iye àwọn akẹ‌kọ‌ọ‌ tí ó gba àbájáde C jáde.",
+  "ic_sentence_template": "Àwọn olùkọ́ {num_ic, 95} ni wọ́n gba ìwé kéékèèké tuntun ní ọjọ́ yẹn.",
+  "ic_template": "Àwọn olùkọ́ {num_ic, 95} ni wọ́n gba ìwé kéékèèké tuntun ní ọjọ́ yẹn. Iye àwọn akẹ‌kọ‌ọ‌ tí ó wà nínú gbọ‌ngàn ilé-ìwé kan jẹ‌ {num_digit_1, 1000}. Gbọ‌ngàn náà ní àbáwọlé {num_digit_2, 3} A, B, àti C tí wọ‌n sì jẹ‌ àbájáde náà. Tí ó bá jẹ‌ wípé lẹ‌yìn ìpàdé kán {num_digit_3, 30}% àwọn akẹ‌kọ‌ọ‌ náà gbà àbájáde A kúrò nínú ilé náà, tí 3/5 àwọn tí ó kù gba àbájáde B, tí àwọn tí ó kú gba àbájáde C, ṣe ìṣirò iye àwọn akẹ‌kọ‌ọ‌ tí ó gba àbájáde C jáde.",
+  "equation": "UPDATE HERE"
+}

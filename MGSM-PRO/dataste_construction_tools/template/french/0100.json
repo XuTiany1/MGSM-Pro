@@ -1,0 +1,8 @@
+{
+  "original_question": "Un jour, 4 amis ont rendu visite à Jérôme. Le premier a appuyé sur la sonnette 20 fois avant que Jérôme n'ouvre, le deuxième 1/4 de fois plus que le premier, et le troisième 10 fois plus que le quatrième. Sachant que le quatrième ami a appuyé 60 fois, combien de fois au total la sonnette a-t-elle retenti ?",
+  "original_answer": 175,
+  "symbolic_template": "Un jour, {num_digit_1, 4} amis ont rendu visite à {name_male, Jérôme}. Le premier a appuyé sur la sonnette {num_digit_2, 20} fois avant que {name_male, Jérôme} n'ouvre, le deuxième 1/4 de fois plus que le premier, et le troisième {num_digit_3, 10} fois plus que le quatrième. Sachant que le quatrième ami a appuyé {num_digit_4, 60} fois, combien de fois au total la sonnette a-t-elle retenti ?",
+  "ic_sentence_template": "{name_male, Jerome} a un oncle qui a une fois acheté {num_ic, 136} cartes postales comme souvenirs.",
+  "ic_template": "{name_male, Jerome} a un oncle qui a une fois acheté {num_ic, 136} cartes postales comme souvenirs. Un jour, {num_digit_1, 4} amis ont rendu visite à {name_male, Jérôme}. Le premier a appuyé sur la sonnette {num_digit_2, 20} fois avant que {name_male, Jérôme} n'ouvre, le deuxième 1/4 de fois plus que le premier, et le troisième {num_digit_3, 10} fois plus que le quatrième. Sachant que le quatrième ami a appuyé {num_digit_4, 60} fois, combien de fois au total la sonnette a-t-elle retenti ?",
+  "equation": "UPDATE HERE"
+}

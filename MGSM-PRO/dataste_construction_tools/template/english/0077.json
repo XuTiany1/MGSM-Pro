@@ -1,0 +1,8 @@
+{
+  "original_question": "If Raymond does half as much laundry as Sarah, and Sarah does 4 times as much laundry as David, calculate the difference in the amount of laundry Raymond and David do if Sarah does 400 pounds of laundry.",
+  "original_answer": 100,
+  "symbolic_template": "If {name_male_1, Raymond} does half as much laundry as {name_female, Sarah}, and {name_female, Sarah} does {num_digit_1, 4} times as much laundry as {name_male_2, David}, calculate the difference in the amount of laundry {name_male_1, Raymond} and {name_male_2, David} do if {name_female, Sarah} does {num_digit_2, 400} pounds of laundry.",
+  "ic_sentence_template": "{name_male_1, Raymond}'s aunt folded {num_ic, 52} towels yesterday.",
+  "ic_template": "If {name_male_1, Raymond} does half as much laundry as {name_female, Sarah}, and {name_female, Sarah} does {num_digit_1, 4} times as much laundry as {name_male_2, David}, {name_male_1, Raymond}'s aunt folded {num_ic, 52} towels yesterday. Calculate the difference in the amount of laundry {name_male_1, Raymond} and {name_male_2, David} do if {name_female, Sarah} does {num_digit_2, 400} pounds of laundry.",
+  "equation": "UPDATE HERE"
+}

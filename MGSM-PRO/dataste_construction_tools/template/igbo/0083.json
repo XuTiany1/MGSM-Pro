@@ -1,0 +1,8 @@
+{
+  "original_question": "Dan kụrụ ọhịa rosu atọ.  ọhịa rosu ọ bụla nwere rosu iri abụọ na ise. Rosu ọ bụla nwere ogwu asatọ. Ogwu ole dị ebe ahu na ngụkọta?",
+  "original_answer": 600,
+  "symbolic_template": "{name_male, Dan} kụrụ ọhịa rosu {num_digit_1, 3}.  ọhịa rosu ọ bụla nwere rosu {num_digit_2, 25}. Rosu ọ bụla nwere ogwu {num_digit_3, 8}. Ogwu ole dị ebe ahu na ngụkọta?",
+  "ic_sentence_template": "Nwanne nne {name_male, Dan} nwere osisi tometo {num_ic, 27}.",
+  "ic_template": "Nwanne nne {name_male, Dan} nwere osisi tometo {num_ic, 27}. {name_male, Dan} kụrụ ọhịa rosu {num_digit_1, 3}.  ọhịa rosu ọ bụla nwere rosu {num_digit_2, 25}. Rosu ọ bụla nwere ogwu {num_digit_3, 8}. Ogwu ole dị ebe ahu na ngụkọta?",
+  "equation": "UPDATE HERE"
+}

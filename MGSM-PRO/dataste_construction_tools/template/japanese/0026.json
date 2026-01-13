@@ -1,0 +1,8 @@
+{
+  "original_question": "ミシュカは半ズボンを3本、長ズボンを3本、靴を3足買いました。半ズボンは1本$16.50でした。長ズボンは1本$22.50で、靴は1足$42でした。すべての衣類にいくら使いましたか？",
+  "original_answer": 243,
+  "symbolic_template": "{name_female, Mishka}は半ズボンを{num_digit_1, 3}本、長ズボンを{num_digit_2, 3}本、靴を{num_digit_3, 3}足買いました。半ズボンは1本${num_digit_4, 16.50}でした。長ズボンは1本${num_digit_5, 22.50}で、靴は1足${num_digit_6, 42}でした。すべての衣類にいくら使いましたか？",
+  "ic_sentence_template": "{name_female, ミシュカ}のおじさんは最近{num_ic, 12}個の帽子を購入しました。",
+  "ic_template": "{name_female, ミシュカ}のおじさんは最近{num_ic, 12}個の帽子を購入しました。{name_female, Mishka}は半ズボンを{num_digit_1, 3}本、長ズボンを{num_digit_2, 3}本、靴を{num_digit_3, 3}足買いました。半ズボンは1本${num_digit_4, 16.50}でした。長ズボンは1本${num_digit_5, 22.50}で、靴は1足${num_digit_6, 42}でした。すべての衣類にいくら使いましたか？",
+  "equation": "UPDATE HERE"
+}

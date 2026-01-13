@@ -1,0 +1,8 @@
+{
+  "original_question": "ジョンは3箱持っています。それぞれの箱は5インチ×6インチ×4インチです。壁は1インチの暑さです。3箱全部の内容量はどれくらいですか？",
+  "original_answer": 72,
+  "symbolic_template": "{name_male, ジョン}は{num_digit_1, 3}個の箱を持っています。それぞれの箱は{num_digit_2, 5}インチ×{num_digit_3, 6}インチ×{num_digit_4, 4}インチです。箱の壁の厚さは{num_digit_5, 1}インチです。すべての{num_digit_1, 3}個の箱の内側の体積の合計はどれくらいですか？",
+  "ic_sentence_template": "{name_male, ジョン}のおばは最近屋根裏部屋のために{num_ic, 49}箱を追加で買いました。",
+  "ic_template": "{name_male, ジョン}のおばは最近屋根裏部屋のために{num_ic, 49}箱を追加で買いました。{name_male, ジョン}は{num_digit_1, 3}個の箱を持っています。それぞれの箱は{num_digit_2, 5}インチ×{num_digit_3, 6}インチ×{num_digit_4, 4}インチです。箱の壁の厚さは{num_digit_5, 1}インチです。すべての{num_digit_1, 3}個の箱の内側の体積の合計はどれくらいですか？",
+  "equation": "UPDATE HERE"
+}

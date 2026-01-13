@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerry lance un dé à six faces. Quelle est la probabilité (en pourcentage) qu'il obtienne un nombre supérieur à 3 plutôt qu'un nombre pair deux fois de suite ?",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Jerry} lance un dé à six faces. Quelle est la probabilité (en pourcentage) qu'il obtienne un nombre supérieur à {num_digit_1, 3} plutôt qu'un nombre pair deux fois de suite ?",
+  "ic_sentence_template": "{name_male, Jerry} a un oncle qui a déjà collectionné {num_ic, 73} billes.",
+  "ic_template": "{name_male, Jerry} a un oncle qui a déjà collectionné {num_ic, 73} billes. {name_male, Jerry} lance un dé à six faces. Quelle est la probabilité (en pourcentage) qu'il obtienne un nombre supérieur à {num_digit_1, 3} plutôt qu'un nombre pair deux fois de suite ?",
+  "equation": "UPDATE HERE"
+}

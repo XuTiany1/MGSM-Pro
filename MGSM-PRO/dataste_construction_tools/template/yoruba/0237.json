@@ -1,0 +1,8 @@
+{
+  "original_question": "Johnny gba owó rẹ‌ tí ó jé $20, ó sì fi $10 kún-un. Ó wá ṣe ìdókòwò pẹ̀lú owó yìí, tí ó di ìlọ́po mẹ́ta láàrín-in ọdún kan. Èló ni owó tí ó rí lẹ́yìn ọdún kan?",
+  "original_answer": 90,
+  "symbolic_template": "{name_male, Johnny} gba owó rẹ‌ tí ó jé ${num_digit_1, 20}, ó sì fi ${num_digit_2, 10} kún-un. Ó wá ṣe ìdókòwò pẹ̀lú owó yìí, tí ó di ìlọ́po mẹ́ta láàrín-in ọdún kan. Èló ni owó tí ó rí lẹ́yìn ọdún kan?",
+  "ic_sentence_template": "Arákùnrin {name_male, Johnny} gba kaadi bésibọ́ọ̀lù {num_ic, 88} gẹ́gẹ́ bí ẹ̀bùn ọjọ́-ìbí rẹ.",
+  "ic_template": "Arákùnrin {name_male, Johnny} gba kaadi bésibọ́ọ̀lù {num_ic, 88} gẹ́gẹ́ bí ẹ̀bùn ọjọ́-ìbí rẹ. {name_male, Johnny} gba owó rẹ‌ tí ó jé ${num_digit_1, 20}, ó sì fi ${num_digit_2, 10} kún-un. Ó wá ṣe ìdókòwò pẹ̀lú owó yìí, tí ó di ìlọ́po mẹ́ta láàrín-in ọdún kan. Èló ni owó tí ó rí lẹ́yìn ọdún kan?",
+  "equation": "UPDATE HERE"
+}

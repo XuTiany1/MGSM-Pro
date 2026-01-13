@@ -1,0 +1,8 @@
+{
+  "original_question": "Otu ụlọ ọgwụ na-ahụ mmadụ nari ise kwa ụbọchị. Onye ọrịa ọ bụla  bu nke a na-ahụ maka nkezi nke nkeji iri abụọ na anọ. Ndị dọkịta na-ana $150 otu awa n'ụlọ ọgwụ na ụlọ ọgwụ na-ana ndị ọrịa $200 otu awa. Uru ego ole ka ụlọ ọgwụ na-enweta site na ọbịbịa ndị a?",
+  "original_answer": 10000,
+  "symbolic_template": "Otu ụlọ ọgwụ na-ahụ mmadụ {num_digit_1, 500} kwa ụbọchị. Onye ọrịa ọ bụla bu nke a na-ahụ maka nkezi nke nkeji {num_digit_2, 24}. Ndị dọkịta na-ana ${num_digit_3, 150} otu awa n'ụlọ ọgwụ na ụlọ ọgwụ na-ana ndị ọrịa ${num_digit_4, 200} otu awa. Uru ego ole ka ụlọ ọgwụ na-enweta site na ọbịbịa ndị a?",
+  "ic_sentence_template": "Nwa nwanne nna onye isi ụlọọgwụ bịara na {num_ic, 64} akwụkwọ akụkọ maka ebe ichere.",
+  "ic_template": "Nwa nwanne nna onye isi ụlọọgwụ bịara na {num_ic, 64} akwụkwọ akụkọ maka ebe ichere. Otu ụlọ ọgwụ na-ahụ mmadụ {num_digit_1, 500} kwa ụbọchị. Onye ọrịa ọ bụla bu nke a na-ahụ maka nkezi nke nkeji {num_digit_2, 24}. Ndị dọkịta na-ana ${num_digit_3, 150} otu awa n'ụlọ ọgwụ na ụlọ ọgwụ na-ana ndị ọrịa ${num_digit_4, 200} otu awa. Uru ego ole ka ụlọ ọgwụ na-enweta site na ọbịbịa ndị a?",
+  "equation": "UPDATE HERE"
+}

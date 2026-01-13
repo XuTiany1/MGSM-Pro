@@ -1,0 +1,8 @@
+{
+  "original_question": "图卢兹的绵羊数量是查尔斯顿的两倍。查尔斯顿的绵羊数量是西雅图的 4 倍。如果西雅图有 20 只绵羊，图卢兹、查尔斯顿和西雅图一共有多少只绵羊？",
+  "original_answer": 260,
+  "symbolic_template": "{name_city_1, 图卢兹} 的绵羊数量是 {name_city_2, 查尔斯顿} 的 两倍。{name_city_2, 查尔斯顿} 的绵羊数量是 {name_city_3, 西雅图} 的 {num_digit_1, 4} 倍。如果 {name_city_3, 西雅图} 有 {num_digit_2, 20} 只绵羊，{name_city_1, 图卢兹}、{name_city_2, 查尔斯顿} 和 {name_city_3, 西雅图} 一共有多少只绵羊？",
+  "ic_sentence_template": "{name_city_2, 查尔斯顿} 附近的小镇养了 {num_ic, 41} 只山羊。",
+  "ic_template": "{name_city_2, 查尔斯顿} 附近的小镇养了 {num_ic, 41} 只山羊。{name_city_1, 图卢兹} 的绵羊数量是 {name_city_2, 查尔斯顿} 的 两倍。{name_city_2, 查尔斯顿} 的绵羊数量是 {name_city_3, 西雅图} 的 {num_digit_1, 4} 倍。如果 {name_city_3, 西雅图} 有 {num_digit_2, 20} 只绵羊，{name_city_1, 图卢兹}、{name_city_2, 查尔斯顿} 和 {name_city_3, 西雅图} 一共有多少只绵羊？",
+  "equation": "UPDATE HERE"
+}

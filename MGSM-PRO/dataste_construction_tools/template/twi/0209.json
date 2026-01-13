@@ -1,0 +1,8 @@
+{
+  "original_question": "Nkuruwa aduonu a na ɛyɛ du mmienu no bo yɛ $1200, na taforabɔtɔ ketewa bo a ɔtɔn yɛ $6000 a ɛyɛ du mmienu. Susu sika dodoɔ a wode bɛtɔ kuruwa biara ho.",
+  "original_answer": 145,
+  "symbolic_template": "Nkuruwa aduonu a na ɛyɛ du mmienu no bo yɛ ${num_digit_1, 1200} ketewa fa kyɛn taforabɔtɔ bo a ɔtɔn yɛ ${num_digit_2, 6000} a ɛyɛ du mmienu. Susu sika dodoɔ a wode bɛtɔ kuruwa biara ho.",
+  "ic_sentence_template": "Kɔpɔ du- mmienu Aduonu wɔ hɔ na wɔde sii tii kukuo{num_ic, 245} ho wɔ adaka dan no mu.",
+  "ic_template": "Kɔpɔ du- mmienu Aduonu wɔ hɔ na wɔde sii tii kukuo{num_ic, 245} ho wɔ adaka dan no mu. Nkuruwa aduonu a na ɛyɛ du mmienu no bo yɛ ${num_digit_1, 1200} ketewa fa kyɛn taforabɔtɔ bo a ɛyɛ ${num_digit_2, 6000} a ɛyɛ du mmienu. Susu sika dodoɔ a wode bɛtɔ kuruwa biara ho.",
+  "equation": "UPDATE HERE"
+}

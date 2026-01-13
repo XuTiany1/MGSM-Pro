@@ -1,0 +1,8 @@
+{
+  "original_question": "吉尔担任老师的时薪是 20 美元，担任啦啦队教练的时薪是 30 美元。如果她每年工作 50 周，担任老师每周工作 35 小时，担任教练每周工作 15 小时，则她的年薪是多少？",
+  "original_answer": 57500,
+  "symbolic_template": "{name_female, 吉尔} 担任老师的时薪是 {num_digit_1, 20} 美元，担任啦啦队教练的时薪是 {num_digit_2, 30} 美元。如果她每年工作 {num_digit_3, 50} 周，担任老师每周工作 {num_digit_4, 35} 小时，担任教练每周工作 {num_digit_5, 15} 小时，则她的年薪是多少？",
+  "ic_sentence_template": "{name_female, 吉尔} 的叔叔最近收养了 {num_ic, 127} 只小狗。",
+  "ic_template": "{name_female, 吉尔} 的叔叔最近收养了 {num_ic, 127} 只小狗。{name_female, 吉尔} 担任老师的时薪是 {num_digit_1, 20} 美元，担任啦啦队教练的时薪是 {num_digit_2, 30} 美元。如果她每年工作 {num_digit_3, 50} 周，担任老师每周工作 {num_digit_4, 35} 小时，担任教练每周工作 {num_digit_5, 15} 小时，则她的年薪是多少？",
+  "equation": "UPDATE HERE"
+}

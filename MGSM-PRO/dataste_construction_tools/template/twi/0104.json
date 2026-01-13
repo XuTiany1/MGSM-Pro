@@ -1,0 +1,8 @@
+{
+  "original_question": "Poppy ԑԑpԑ ahyehyԑadeԑ agodie a ԑwɔ afa 1000 ano mmuaeԑ. Ͻde nkyemu anan mu baako na ԑto pono no so, na ne maame de deԑ aka no nkyemu mmiԑnsa no to hɔ. Ahyehyԑdeԑ afa sԑn na aka sԑ wɔde bԑgu hɔ?",
+  "original_answer": 500,
+  "symbolic_template": "{name_female, Poppy} ԑԑpԑ ahyehyԑadeԑ agodie a ԑwɔ afa {num_digit_1, 1000} ano mmuaeԑ. Ͻde nkyemu anan mu baako na ԑto pono no so, na ne maame de deԑ aka no nkyemu mmiɛnsa mu baako no to hɔ. Ahyehyԑdeԑ afa sԑn na aka sԑ wɔde bԑgu hɔ?",
+  "ic_sentence_template": "{name_female, Poppy} wɔfa no wɔ ntonto agorɔ {num_ic, 98}.",
+  "ic_template": "{name_female, Poppy} wɔfa no wɔ ntonto agorɔ {num_ic, 98}. {name_female, Poppy} ԑԑpԑ ahyehyԑadeԑ agodie a ԑwɔ afa {num_digit_1, 1000} ano mmuaeԑ. Ͻde nkyemu anan mu baako na ԑto pono no so, na ne maame de deԑ aka no nkyemu mmiɛnsa mu baako no to hɔ. Ahyehyԑdeԑ afa sԑn na aka sԑ wɔde bԑgu hɔ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Joho hutumia komeo 2 za ufumwele wa buluu na nusu ya kiasi hicho cha ufumwele mweupe. Huwa inatumia jumla ya komeo ngapi?",
+  "original_answer": 3,
+  "symbolic_template": "Joho hutumia komeo {num_digit_1, 2} za ufumwele wa buluu na nusu ya kiasi hicho cha ufumwele mweupe. Huwa inatumia jumla ya komeo ngapi?",
+  "ic_sentence_template": "Mjomba wa fundi cherehani aliwahi kuleta viroba vya uzi {num_ic, 19} kutoka mjini.",
+  "ic_template": "Mjomba wa fundi cherehani aliwahi kuleta viroba vya uzi {num_ic, 19} kutoka mjini. Joho hutumia komeo {num_digit_1, 2} za ufumwele wa buluu na nusu ya kiasi hicho cha ufumwele mweupe. Huwa inatumia jumla ya komeo ngapi?",
+  "equation": "UPDATE HERE"
+}

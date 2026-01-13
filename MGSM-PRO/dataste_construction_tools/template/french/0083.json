@@ -1,0 +1,8 @@
+{
+  "original_question": "Dan plante 3 rosiers. Chaque rosier compte 25 roses et chaque rose 8 épines. Combien d'épines y a-t-il en tout ?",
+  "original_answer": 600,
+  "symbolic_template": "{name_male, Dan} plante {num_digit_1, 3} rosiers. Chaque rosier compte {num_digit_2, 25} roses et chaque rose {num_digit_3, 8} épines. Combien d'épines y a-t-il en tout ?",
+  "ic_sentence_template": "{name_male, Dan} a une tante qui possède {num_ic, 27} plants de tomates.",
+  "ic_template": "{name_male, Dan} a une tante qui possède {num_ic, 27} plants de tomates. {name_male, Dan} plante {num_digit_1, 3} rosiers. Chaque rosier compte {num_digit_2, 25} roses et chaque rose {num_digit_3, 8} épines. Combien d'épines y a-t-il en tout ?",
+  "equation": "UPDATE HERE"
+}

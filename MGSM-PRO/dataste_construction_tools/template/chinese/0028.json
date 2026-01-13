@@ -1,0 +1,8 @@
+{
+  "original_question": "在一场 60 英里的自行车旅行中，亨利停下来两次。他在骑完 20 英里后第一次停下来，在旅程结束前 15 英里，第二次停下来。在第一次停下来和第二次停下来之间，他骑行了多少英里？",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, 亨利} 在一场 {num_digit_1, 60} 英里的自行车旅行中停下来 两 次。他在骑完 {num_digit_2, 20} 英里后第一次停下来，在旅程结束前 {num_digit_3, 15} 英里第二次停下来。在第一次和第二次停下来之间，他骑行了多少英里？",
+  "ic_sentence_template": "{name_male, 亨利} 的叔叔有 {num_ic, 85} 个自行车头盔。",
+  "ic_template": "{name_male, 亨利} 的叔叔有 {num_ic, 85} 个自行车头盔。{name_male, 亨利} 在一场 {num_digit_1, 60} 英里的自行车旅行中停下来 两 次。他在骑完 {num_digit_2, 20} 英里后第一次停下来，在旅程结束前 {num_digit_3, 15} 英里第二次停下来。在第一次和第二次停下来之间，他骑行了多少英里？",
+  "equation": "UPDATE HERE"
+}

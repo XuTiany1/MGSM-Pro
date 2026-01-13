@@ -1,0 +1,8 @@
+{
+  "original_question": "Emily wɔ nkwadaa 4 a wɔn din ne Amy, Jackson, Corey ne James. Amy anyini kyԑn Jackson mfeԑ 5 na ɔsua kyԑn Corey mfeԑ 2. Sԑ James adi 10 na ɔsua kyԑn Corey mfeԑ 1 a, Jackson adi sԑn?",
+  "original_answer": 4,
+  "symbolic_template": "{name_female_1, Emily} wɔ nkwadaa {num_digit_1, 4} a wɔn din ne {name_female_2, Amy}, {name_male_1, Jackson}, {name_male_2, Corey} ne {name_male_3, James}. {name_female_2, Amy} anyini kyԑn {name_male_1, Jackson} mfeԑ {num_digit_2, 5} na ɔsua kyԑn {name_male_2, Corey} mfeԑ {num_digit_3, 2}. Sԑ {name_male_3, James} adi {num_digit_4, 10} na ɔsua kyԑn {name_male_2, Corey} mfeԑ {num_digit_5, 1} a, {name_male_1, Jackson} adi sԑn?",
+  "ic_sentence_template": "{name_female_1, Emily} wᴐfa tɔɔ apples {num_ic, 39} fi sotᴐᴐ no mu.",
+  "ic_template": "{name_female_1, Emily} wᴐfa tɔɔ apples {num_ic, 39} fi sotᴐᴐ no mu. {name_female_1, Emily} wɔ nkwadaa {num_digit_1, 4} a wɔn din ne {name_female_2, Amy}, {name_male_1, Jackson}, {name_male_2, Corey} ne {name_male_3, James}. {name_female_2, Amy} anyini kyԑn {name_male_1, Jackson} mfeԑ {num_digit_2, 5} na ɔsua kyԑn {name_male_2, Corey} mfeԑ {num_digit_3, 2}. Sԑ {name_male_3, James} adi {num_digit_4, 10} na ɔsua kyԑn {name_male_2, Corey} mfeԑ {num_digit_5, 1} a, {name_male_1, Jackson} adi sԑn?",
+  "equation": "UPDATE HERE"
+}

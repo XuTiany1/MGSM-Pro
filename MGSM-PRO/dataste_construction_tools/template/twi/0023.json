@@ -1,0 +1,8 @@
+{
+  "original_question": "Kyԑnere bi nane 2 mita-ɔha  dɔnhwere baako biara a ԑhyerԑn no. Mita-ɔha tiawa sԑn na kyԑnere biara tenten bԑyԑ sԑ ԑhyerԑ firi awia 1:00 kɔ si anwummerԑ 5:00 a?",
+  "original_answer": 8,
+  "symbolic_template": "Kyԑnere bi nane {num_digit_1, 2} mita-ɔha dɔnhwere baako biara a ԑhyerԑn no. Mita-ɔha tiawa sԑn na kyԑnere biara tenten bԑyԑ sԑ ԑhyerԑ firi awia 1:00 kɔ si anwummerԑ 5:00 a?",
+  "ic_sentence_template": "{name_female, Emily} wɔfa de nsɛsoɔ {num_ic, 63} baa apontoɔ no.",
+  "ic_template": "{name_female, Emily} wɔfa de nsɛsoɔ {num_ic, 63} baa apontoɔ no. Kyԑnere bi nane {num_digit_1, 2} mita-ɔha dɔnhwere baako biara a ԑhyerԑn no. Mita-ɔha tiawa sԑn na kyԑnere biara tenten bԑyԑ sԑ ԑhyerԑ firi awia 1:00 kɔ si anwummerԑ 5:00 a?",
+  "equation": "UPDATE HERE"
+}

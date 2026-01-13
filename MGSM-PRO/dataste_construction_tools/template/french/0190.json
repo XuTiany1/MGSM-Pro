@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean cueille des pêches pendant 3 heures. Il ramasse 2 pêches par minute. Combien de pêches a-t-il ramassé ?",
+  "original_answer": 360,
+  "symbolic_template": "{name_male, Jean} cueille des pêches pendant {num_digit_1, 3} heures. Il ramasse {num_digit_2, 2} pêches par minute. Combien de pêches a-t-il ramassé ?",
+  "ic_sentence_template": "{name_male, John} a un oncle qui apporte {num_ic, 9} paniers au verger chaque matin.",
+  "ic_template": "{name_male, John} a un oncle qui apporte {num_ic, 9} paniers au verger chaque matin. {name_male, Jean} cueille des pêches pendant {num_digit_1, 3} heures. Il ramasse {num_digit_2, 2} pêches par minute. Combien de pêches a-t-il ramassé ?",
+  "equation": "UPDATE HERE"
+}

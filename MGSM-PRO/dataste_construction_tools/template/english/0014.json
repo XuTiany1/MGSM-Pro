@@ -1,0 +1,8 @@
+{
+  "original_question": "In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the remaining enrolled in jazz dance, and the rest enrolled in hip-hop dance. What percentage of the entire students enrolled in hip-hop dance?",
+  "original_answer": 60,
+  "symbolic_template": "In a dance class of {num_digit_1, 20} students, {num_digit_2, 20}% enrolled in contemporary dance, {num_digit_3, 25}% of the remaining enrolled in jazz dance, and the rest enrolled in hip-hop dance. What percentage of the entire students enrolled in hip-hop dance?",
+  "ic_sentence_template": "The instructor's niece brought in {num_ic, 7} cupcakes for the group.",
+  "ic_template": "In a dance class of {num_digit_1, 20} students, {num_digit_2, 20}% enrolled in contemporary dance, {num_digit_3, 25}% of the remaining enrolled in jazz dance, and the rest enrolled in hip-hop dance. The instructor's niece brought in {num_ic, 7} cupcakes for the group. What percentage of the entire students enrolled in hip-hop dance?",
+  "equation": "UPDATE HERE"
+}

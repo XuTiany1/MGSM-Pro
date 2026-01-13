@@ -1,0 +1,8 @@
+{
+  "original_question": "Mary yԑ obi a n’ani gye sԑ ɔbԑhwԑ turo so. Ԑnnora, ɔnyaa afudeԑ a ԑwɔ kukuo mu afoforɔ 18 firi beaeԑ a wɔdua nnua a n’ani gye ho paa no. Ͻwɔ nnua a ԑwɔ kukuo mu mmienu deda wɔ mpoma 40 biara a ԑwɔ ne fie kԑseԑ no mu ano. Ͻwɔ ahummɔbrɔ nti, w’ayԑ n’adwene sԑ ɔde adua a ԑwɔ kukuo mu baako a ԑwɔ mpoma n’ano bԑma nnanfonom ne abusuafoɔ ɔkyena. Nnua a ԑwɔ kukuo mu sԑn na ԑbԑka Mary nkyԑn?",
+  "original_answer": 58,
+  "symbolic_template": "{name_female, Mary} yԑ obi a n’ani gye sԑ ɔbԑhwԑ turo so. Ԑnnora, ɔnyaa afudeԑ a ԑwɔ kukuo mu afoforɔ {num_digit_1, 18} firi beaeԑ a wɔdua nnua a n’ani gye ho paa no. Ͻwɔ nnua a ԑwɔ kukuo mu {num_digit_2, mmienu} deda wɔ mpoma {num_digit_3, 40} biara a ԑwɔ ne fie kԑseԑ no mu ano. Ͻwɔ ahummɔbrɔ nti, w’ayԑ n’adwene sԑ ɔde adua a ԑwɔ kukuo mu {num_digit_4, baako} a ԑwɔ mpoma n’ano bԑma nnanfonom ne abusuafoɔ ɔkyena. Nnua a ԑwɔ kukuo mu sԑn na ԑbԑka {name_female, Mary} nkyԑn?",
+  "ic_sentence_template": "{name_female, Mary's} sewaa boaboa nhwiren kuku {num_ic, 217} a wɔntaa nhu.",
+  "ic_template": "{name_female, Mary} yԑ obi a n’ani gye sԑ ɔbԑhwԑ turo so. Ԑnnora, ɔnyaa afudeԑ a ԑwɔ kukuo mu afoforɔ {num_digit_1, 18} firi beaeԑ a wɔdua nnua a n’ani gye ho paa no. Ͻwɔ nnua a ԑwɔ kukuo mu {num_digit_2, mmienu} deda wɔ mpoma {num_digit_3, 40} biara a ԑwɔ ne fie kԑseԑ no mu ano. Ͻwɔ ahummɔbrɔ nti, w’ayԑ n’adwene sԑ ɔde adua a ԑwɔ kukuo mu {num_digit_4, baako} a ԑwɔ mpoma n’ano bԑma nnanfonom ne abusuafoɔ ɔkyena. Nnua a ԑwɔ kukuo mu sԑn na ԑbԑka {name_female, Mary} nkyԑn? {name_female, Mary's} sewaa boaboa nhwiren kuku {num_ic, 217} a wɔntaa nhu.",
+  "equation": "UPDATE HERE"
+}

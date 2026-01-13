@@ -1,0 +1,8 @@
+{
+  "original_question": "Ekwentị Jamal nwere ị́ké ijide foto ugboro isii karịa nke Brittany. Ọkachasị n'ọnụọgụgụ foto ekwentị Brittany nwere ị́ké ijide dị ugboro iri ise karịa ọnụọgụgụ nnụnụ nọ na foto Jamal seere ọbọgwụ n'ebe nlere anụmanụ. Ọ bụrụ na ekwentị Jamal nwere ị́ké ijide foto otu puku na narị asatọ, kedụ ọbọgwụ ole ị nwere ị́ké ịhụ na foto ọbọgwụ Jamal seere n'ebe nlere anụmanụ? ",
+  "original_answer": 6,
+  "symbolic_template": "Ekwentị {name_male, Jamal} nwere ị́ké ijide foto ugboro {num_digit_1, 6} karịa nke {name_female, Brittany}. Ọkachasị n'ọnụọgụgụ foto ekwentị {name_female, Brittany} nwere ị́ké ijide dị ugboro {num_digit_3, 50} karịa ọnụọgụgụ nnụnụ nọ na foto {name_male, Jamal} seere ọbọgwụ n'ebe nlere anụmanụ. Ọ bụrụ na ekwentị {name_male, Jamal} nwere ị́ké ijide foto {num_digit_2, 1800}, kedụ ọbọgwụ ole ị nwere ị́ké ịhụ na foto ọbọgwụ {name_male, Jamal} seere n'ebe nlere anụmanụ?",
+  "ic_sentence_template": "Nwanne nna {name_male, Jamal} gara nweta {num_ic, 84} ogige mba otu ugboro.",
+  "ic_template": "Nwanne nna {name_male, Jamal} gara nweta {num_ic, 84} ogige mba otu ugboro. Ekwentị {name_male, Jamal} nwere ị́ké ijide foto ugboro {num_digit_1, 6} karịa nke {name_female, Brittany}. Ọkachasị n'ọnụọgụgụ foto ekwentị {name_female, Brittany} nwere ị́ké ijide dị ugboro {num_digit_3, 50} karịa ọnụọgụgụ nnụnụ nọ na foto {name_male, Jamal} seere ọbọgwụ n'ebe nlere anụmanụ. Ọ bụrụ na ekwentị {name_male, Jamal} nwere ị́ké ijide foto {num_digit_2, 1800}, kedụ ọbọgwụ ole ị nwere ị́ké ịhụ na foto ọbọgwụ {name_male, Jamal} seere n'ebe nlere anụmanụ?",
+  "equation": "UPDATE HERE"
+}

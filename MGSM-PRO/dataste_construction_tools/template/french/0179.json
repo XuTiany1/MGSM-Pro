@@ -1,0 +1,8 @@
+{
+  "original_question": "Lloyd gagne 10 $ de l'heure en donnant des cours particuliers de mathématiques. Il a donné 5 heures de cours la première semaine et 8 heures la semaine suivante. Combien a-t-il gagné pour les deux premières semaines ?",
+  "original_answer": 130,
+  "symbolic_template": "{name_male, Lloyd} gagne {num_digit_1, 10} $ de l'heure en donnant des cours particuliers de mathématiques. Il a donné {num_digit_2, 5} heures de cours la première semaine et {num_digit_3, 8} heures la semaine suivante. Combien a-t-il gagné pour les deux premières semaines ?",
+  "ic_sentence_template": "{name_male, Lloyd} a une tante qui a acheté {num_ic, 17} cahiers pour ses élèves.",
+  "ic_template": "{name_male, Lloyd} a une tante qui a acheté {num_ic, 17} cahiers pour ses élèves. {name_male, Lloyd} gagne {num_digit_1, 10} $ de l'heure en donnant des cours particuliers de mathématiques. Il a donné {num_digit_2, 5} heures de cours la première semaine et {num_digit_3, 8} heures la semaine suivante. Combien a-t-il gagné pour les deux premières semaines ?",
+  "equation": "UPDATE HERE"
+}

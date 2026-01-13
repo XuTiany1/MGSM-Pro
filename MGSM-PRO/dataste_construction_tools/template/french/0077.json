@@ -1,0 +1,8 @@
+{
+  "original_question": "Raymond fait deux fois moins de lessive que Sara, et Sara fait 4 fois plus de lessive que David. Sachant que Sara fait 400 livres de lessive, calculez la différence entre la quantité de lessive de Raymond et celle de David.",
+  "original_answer": 100,
+  "symbolic_template": "{name_male_1, Raymond} fait deux fois moins de lessive que {name_female, Sara}, et {name_female, Sara} fait {num_digit_1, 4} fois plus de lessive que {name_male_2, David}. Sachant que {name_female, Sara} fait {num_digit_2, 400} livres de lessive, calculez la différence entre la quantité de lessive de {name_male_1, Raymond} et celle de {name_male_2, David}.",
+  "ic_sentence_template": "{name_male_1, Raymond} a une tante qui a plié {num_ic, 52} serviettes hier.",
+  "ic_template": "{name_male_1, Raymond} a une tante qui a plié {num_ic, 52} serviettes hier. {name_male_1, Raymond} fait deux fois moins de lessive que {name_female, Sara}, et {name_female, Sara} fait {num_digit_1, 4} fois plus de lessive que {name_male_2, David}. Sachant que {name_female, Sara} fait {num_digit_2, 400} livres de lessive, calculez la différence entre la quantité de lessive de {name_male_1, Raymond} et celle de {name_male_2, David}.",
+  "equation": "UPDATE HERE"
+}

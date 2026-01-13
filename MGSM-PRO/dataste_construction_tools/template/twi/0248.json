@@ -1,0 +1,8 @@
+{
+  "original_question": "Aduanenoani bi tɔɔ gyeene nkotokuo ɛnan. Na kotokuo biara mu duru yɛ 50 pounds. Gyeene pound baako bo yɛ $1.50. Ɛdɛn na ɔsraani aduanenoani no de sika no yɛe?",
+  "original_answer": 300,
+  "symbolic_template": "Aduanenoani bi tɔɔ gyeene nkotokuo {num_digit_1, ɛnan}. Na kotokuo biara mu duru yɛ {num_digit_2, 50} pounds. Gyeene pound baako bo yɛ ${num_digit_3, 1.50}. Ɛdɛn na ɔsraani aduanenoani no de sika no yɛe?",
+  "ic_sentence_template": "Afe biara no, aduanenoafoɔ no sewaa dua ntoose {num_ic, 38} wɔ ne turo mu.",
+  "ic_template": "Afe biara no, aduanenoafoɔ no sewaa dua ntoose {num_ic, 38} wɔ ne turo mu. Aduanenoani tɔɔ gyeene nkotokuo {num_digit_1, ɛnan}. Na kotokuo biara mu duru yɛ {num_digit_2, 50} pounds. Gyeene pound baako bo yɛ ${num_digit_3, 1.50}. Ɛdɛn na ɔsraani aduanenoani no de sika no yɛe?",
+  "equation": "UPDATE HERE"
+}

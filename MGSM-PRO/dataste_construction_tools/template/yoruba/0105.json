@@ -1,0 +1,8 @@
+{
+  "original_question": "Cody máa ń jẹ ìgbà mẹ́ta kúkìsì bí ti amir máa ń jẹ. ti amir bá jẹ kúkìsì 5, kúkìsì mélòó ní àwọn méjèèjì jẹ lápapọ̀?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male_1, Cody} máa ń jẹ ìgbà mẹ́ta kúkìsì bí ti {name_male_2, amir} máa ń jẹ. ti {name_male_2, amir} bá jẹ kúkìsì {num_digit_1, 5}, kúkìsì mélòó ní àwọn méjèèjì jẹ lápapọ̀?",
+  "ic_sentence_template": "Arákùnrin {name_male_2, Amir} mú {num_ic, 20} brownies wá sípàdé ayẹyẹ náà.",
+  "ic_template": "Arákùnrin {name_male_2, Amir} mú {num_ic, 20} brownies wá sípàdé ayẹyẹ náà. {name_male_1, Cody} máa ń jẹ ìgbà mẹ́ta kúkìsì bí ti {name_male_2, amir} máa ń jẹ. ti {name_male_2, amir} bá jẹ kúkìsì {num_digit_1, 5}, kúkìsì mélòó ní àwọn méjèèjì jẹ lápapọ̀?",
+  "equation": "UPDATE HERE"
+}

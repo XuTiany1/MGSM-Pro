@@ -1,0 +1,8 @@
+{
+  "original_question": "Kylar lọ sí ilé ìtàjà náà láti ra gílásì fún ilé rẹ̀ tuntun. Gílásì kan tó $5, sùgbọ́n gbogbo gílásì kejì jẹ́ 60% iye owó náà. Kylar fẹ́ ra gílásì 16. Èló ni ó nílò láti sọ fún wọn? ",
+  "original_answer": 64,
+  "symbolic_template": "{name_male, Kylar} lọ sí ilé ìtàjà náà láti ra gílásì fún ilé rẹ̀ tuntun. Gílásì kan tó ${num_digit_1, 5}, sùgbọ́n gbogbo gílásì kejì jẹ́ {num_digit_2, 60}% iye owó náà. {name_male, Kylar} fẹ́ ra gílásì {num_digit_3, 16}. Èló ni ó nílò láti san fún wọn?",
+  "ic_sentence_template": "Àbúròbìnrin {name_male, Kylar} ra àgọ mug {num_ic, 25} fún ọ́fíìsì rẹ̀ laipẹ́ yìí.",
+  "ic_template": "Àbúròbìnrin {name_male, Kylar} ra àgọ mug {num_ic, 25} fún ọ́fíìsì rẹ̀ laipẹ́ yìí. {name_male, Kylar} lọ sí ilé ìtàjà náà láti ra gílásì fún ilé rẹ̀ tuntun. Gílásì kan tó ${num_digit_1, 5}, sùgbọ́n gbogbo gílásì kejì jẹ́ {num_digit_2, 60}% iye owó náà. {name_male, Kylar} fẹ́ ra gílásì {num_digit_3, 16}. Èló ni ó nílò láti san fún wọn?",
+  "equation": "UPDATE HERE"
+}

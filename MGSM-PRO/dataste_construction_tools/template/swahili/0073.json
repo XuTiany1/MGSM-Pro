@@ -1,0 +1,8 @@
+{
+  "original_question": "Shiela alinunua simu tano za mkononi kwa $150 kwa kila moja kwa malipo ya polepole ya miezi 3. Riba ya 2% itatozwa kwa kila simu. Sheila atalipa pesa ngapi kila mwezi kwa miezi 3?",
+  "original_answer": 255,
+  "symbolic_template": "{name_female, Shiela} alinunua simu tano kwa ${num_digit_1, 150} kila moja kwa mpango wa malipo ya miezi {num_digit_2, 3}. Riba ya {num_digit_3, 2}% itatozwa kwa kila kifaa. {name_female, Shiela} atalipa kiasi gani kila mwezi kwa miezi {num_digit_2, 3}?",
+  "ic_sentence_template": "Mjomba wa {name_female, Shiela} amepokea vipeperushi vya matangazo ya simu {num_ic, 82}.",
+  "ic_template": "Mjomba wa {name_female, Shiela} amepokea vipeperushi vya matangazo ya simu {num_ic, 82}. {name_female, Shiela} alinunua simu tano kwa ${num_digit_1, 150} kila moja kwa mpango wa malipo ya miezi {num_digit_2, 3}. Riba ya {num_digit_3, 2}% itatozwa kwa kila kifaa. {name_female, Shiela} atalipa kiasi gani kila mwezi kwa miezi {num_digit_2, 3}?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Il y a quatre oiseaux au Caboose. Sally Two a trois ans de plus que Granny Red. Granny Red est deux fois plus âgée que Sally Four. Si Sally Four a le même âge que Sally Thirtytwo, et que Sally Thirtytwo a 8 ans, quel est l'âge total des quatre oiseaux ?",
+  "original_answer": 51,
+  "symbolic_template": "Il y a quatre oiseaux au Caboose. {name_female_1, Sally} Two a trois ans de plus que {name_female_2, Granny} {name_color, Red}. {name_female_2, Granny Red} est deux fois plus âgée que {name_female_1, Sally} Four. Si {name_female_1, Sally} Four a le même âge que {name_female_1, Sally} Thirtytwo, et que {name_female_1, Sally} Thirtytwo a {num_digit_1, 8} ans, quel est l'âge total des quatre oiseaux ?",
+  "ic_sentence_template": "{name_female_2, Mère-Grand} {name_color, Rouge} a un neveu qui collectionne {num_ic, 93} billes.",
+  "ic_template": "{name_female_2, Mère-Grand} {name_color, Rouge} a un neveu qui collectionne {num_ic, 93} billes. Il y a quatre oiseaux au Caboose. {name_female_1, Sally} Two a trois ans de plus que {name_female_2, Granny} {name_color, Red}. {name_female_2, Granny Red} est deux fois plus âgée que {name_female_1, Sally} Four. Si {name_female_1, Sally} Four a le même âge que {name_female_1, Sally} Thirtytwo, et que {name_female_1, Sally} Thirtytwo a {num_digit_1, 8} ans, quel est l'âge total des quatre oiseaux ?",
+  "equation": "UPDATE HERE"
+}

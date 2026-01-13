@@ -1,0 +1,8 @@
+{
+  "original_question": "Charlie wants to sell beeswax candles. For every pound of beeswax, he can make 10 tapered candles. One pound of beeswax and the wicks cost $10.00 in supplies. If he sells each candle for $2.00 each, what is his net profit if he makes and sells 20 candles?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male, Charlie} wants to sell beeswax candles. For every pound of beeswax, he can make {num_digit_1, 10} tapered candles. one pound of beeswax and the wicks cost ${num_digit_2, 10.00} in supplies. If he sells each candle for ${num_digit_3, 2.00} each, what is his net profit if he makes and sells {num_digit_4, 20} candles?",
+  "ic_sentence_template": "{name_male, Charlie}'s uncle has {num_ic, 37} beehives.",
+  "ic_template": "{name_male, Charlie} wants to sell beeswax candles. For every pound of beeswax, he can make {num_digit_1, 10} tapered candles. one pound of beeswax and the wicks cost ${num_digit_2, 10.00} in supplies. If he sells each candle for ${num_digit_3, 2.00} each, {name_male, Charlie}'s uncle has {num_ic, 37} beehives. what is his net profit if he makes and sells {num_digit_4, 20} candles?",
+  "equation": "UPDATE HERE"
+}

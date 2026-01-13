@@ -1,0 +1,23 @@
+{
+    "problem_id": "0120",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [1, 5]},
+        "num_digit_2": {"type": "int", "range": [20, 100]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "weekly_sheets = num_digit_1 * num_digit_2",
+            "ans = weekly_sheets * 4"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 4}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "ans > 0"
+        ]
+    }
+}

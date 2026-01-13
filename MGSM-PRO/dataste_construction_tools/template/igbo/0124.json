@@ -1,0 +1,8 @@
+{
+  "original_question": "Jennie na-enye aka n'ụlọ ọrụ nne ya. O nwere ọdọ nnukwu leta iri isii chọrọ stampụ n' ọdọ nnukwu leta ndị e suworori stampụ. O tinyere stampụ n'otu ụzọ na atọ leta ndị na-achọ stampụ. Ọ bụrụ na e nweziri leta iri atọ ugbu a n'ịme ọdọ nnukwu leta ndị e suru stampụ, kedụ leta ole nọ n'ịme ọdọ nnukwu ahụ mgbe Jennie bidoro? ",
+  "original_answer": 10,
+  "symbolic_template": "{name_female, Jennie} na-enye aka n'ụlọ ọrụ nne ya. O nwere ọdọ nnukwu leta {num_digit_1, 60} chọrọ stampụ n' ọdọ nnukwu leta ndị e suworori stampụ. O tinyere stampụ n'otu n'ime atọ leta ndị na-achọ stampụ. Ọ bụrụ na e nweziri leta {num_digit_2, 30} ugbu a n'ịme ọdọ nnukwu leta ndị e suru stampụ, kedụ leta ole nọ n'ịme ọdọ nnukwu ahụ mgbe {name_female, Jennie} bidoro?",
+  "ic_sentence_template": "Nwanne nna {name_female, Jennie} nwetara kaadị ozi {num_ic, 27} n'ụbọchị ọmụmụ ya.",
+  "ic_template": "Nwanne nna {name_female, Jennie} nwetara kaadị ozi {num_ic, 27} n'ụbọchị ọmụmụ ya. {name_female, Jennie} na-enye aka n'ụlọ ọrụ nne ya. O nwere ọdọ nnukwu leta {num_digit_1, 60} chọrọ stampụ n' ọdọ nnukwu leta ndị e suworori stampụ. O tinyere stampụ n'otu n'ime atọ leta ndị na-achọ stampụ. Ọ bụrụ na e nweziri leta {num_digit_2, 30} ugbu a n'ịme ọdọ nnukwu leta ndị e suru stampụ, kedụ leta ole nọ n'ịme ọdọ nnukwu ahụ mgbe {name_female, Jennie} bidoro?",
+  "equation": "UPDATE HERE"
+}

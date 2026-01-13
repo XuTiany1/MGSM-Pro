@@ -1,0 +1,8 @@
+{
+  "original_question": "Baldur puise de l'eau d'un puits. Il en tire 5 seaux le matin et 6 seaux l'après-midi. Si chaque seau contient 5 litres d'eau, combien de litres d'eau récupère-t-il chaque jour ?",
+  "original_answer": 55,
+  "symbolic_template": "{name_male, Baldur} puise de l'eau d'un puits. Il en tire {num_digit_1, 5} seaux le matin et {num_digit_2, 6} seaux l'après-midi. Si chaque seau contient {num_digit_3, 5} litres d'eau, combien de litres d'eau récupère-t-il chaque jour ?",
+  "ic_sentence_template": "{name_male, Baldur} a un oncle qui a construit une grange avec {num_ic, 137} planches en bois.",
+  "ic_template": "{name_male, Baldur} a un oncle qui a construit une grange avec {num_ic, 137} planches en bois. {name_male, Baldur} puise de l'eau d'un puits. Il en tire {num_digit_1, 5} seaux le matin et {num_digit_2, 6} seaux l'après-midi. Si chaque seau contient {num_digit_3, 5} litres d'eau, combien de litres d'eau récupère-t-il chaque jour ?",
+  "equation": "UPDATE HERE"
+}

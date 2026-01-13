@@ -1,0 +1,8 @@
+{
+  "original_question": "Micheal fẹ́ràn láti máa gun kẹ̀kẹ́. Ó gùn-ún ní ẹ́maàrún ní ọ̀sọ̀ọ̀sẹ̀, ó sì máa ń lọ kìlómítà 25 ní gbogbo ìgbà. Ó ṣe ìyẹn fún ọ̀sẹ̀ mẹ́rin, lẹ́yìn náà ó pinnu, láti gun kẹ̀kẹ́ náà ní ìgbà méjì péré ní ọ̀sẹ̀ kan, ṣùgbọ́n fún kìlómítà 60 ní gbogbo ìgbà, ó sì ṣe ìyẹn fún ọ̀sẹ̀ mẹ́ta. Kìlómítà mélòó ni Micheal rìn lápapọ̀?",
+  "original_answer": 860,
+  "symbolic_template": "{name_male, Micheal} fẹ́ràn láti máa gun kẹ̀kẹ́. Ó gùn-ún ní {num_digit_1, 5} ní ọ̀sọ̀ọ̀sẹ̀, ó sì máa ń lọ kìlómítà {num_digit_2, 25} ní gbogbo ìgbà. Ó ṣe ìyẹn fún ọ̀sẹ̀ mẹ́rin, lẹ́yìn náà ó pinnu, láti gun kẹ̀kẹ́ náà ní ìgbà {num_digit_3, 2} péré ní ọ̀sẹ̀ kan, ṣùgbọ́n fún kìlómítà {num_digit_4, 60} ní gbogbo ìgbà, ó sì ṣe ìyẹn fún ọ̀sẹ̀ {num_digit_5, 3}. Kìlómítà mélòó ni {name_male, Micheal} rìn lápapọ̀?",
+  "ic_sentence_template": "Kékèké baba {name_male, Micheal} ní {num_ic, 105} kàádì bésibọ́ọ̀lù.",
+  "ic_template": "Kékèké baba {name_male, Micheal} ní {num_ic, 105} kàádì bésibọ́ọ̀lù. {name_male, Micheal} fẹ́ràn láti máa gun kẹ̀kẹ́. Ó gùn-ún ní {num_digit_1, 5} ní ọ̀sọ̀ọ̀sẹ̀, ó sì máa ń lọ kìlómítà {num_digit_2, 25} ní gbogbo ìgbà. Ó ṣe ìyẹn fún ọ̀sẹ̀ mẹ́rin, lẹ́yìn náà ó pinnu, láti gun kẹ̀kẹ́ náà ní ìgbà {num_digit_3, 2} péré ní ọ̀sẹ̀ kan, ṣùgbọ́n fún kìlómítà {num_digit_4, 60} ní gbogbo ìgbà, ó sì ṣe ìyẹn fún ọ̀sẹ̀ {num_digit_5, 3}. Kìlómítà mélòó ni {name_male, Micheal} rìn lápapọ̀?",
+  "equation": "UPDATE HERE"
+}

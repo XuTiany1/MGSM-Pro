@@ -1,0 +1,8 @@
+{
+  "original_question": "花瓶里有 4 朵玫瑰。花瓶里的大丽花比玫瑰多 7 朵。花瓶里共有多少朵花？",
+  "original_answer": 15,
+  "symbolic_template": "花瓶里有 {num_digit_1, 4} 朵玫瑰。花瓶里的大丽花比玫瑰多 {num_digit_2, 7} 朵。花瓶里共有多少朵花？",
+  "ic_sentence_template": "{name_female, 艾米丽} 的姨妈在她的温室里拥有 {num_ic, 1490} 朵郁金香。",
+  "ic_template": "{name_female, 艾米丽} 的姨妈在她的温室里拥有 {num_ic, 1490} 朵郁金香。花瓶里有 {num_digit_1, 4} 朵玫瑰。花瓶里的大丽花比玫瑰多 {num_digit_2, 7} 朵。花瓶里共有多少朵花？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "John zụtara mmiri ara maka dọla abụọ, àkwá maka dọla atọ, ọkụ bọlbụ maka dọla atọ, iko maka dọla atọ, ma ọ́nyà ọchịcha maka dọla anọ. Ọ bụrụ na-enwere ụtụ isi 10% n'elu ihe ndị abụghị nri ego ole ka ihe niile bụ?",
+  "original_answer": 16,
+  "symbolic_template": "{name_male, John} zụtara mmiri ara maka dọla {num_digit_1, 2}, àkwá maka dọla {num_digit_2, 3}, ọkụ bọlbụ maka dọla {num_digit_3, 3}, iko maka dọla {num_digit_4, 3}, ma ọ́nyà ọchịcha maka dọla {num_digit_5, 4}. Ọ bụrụ na-enwere ụtụ isi {num_digit_6, 10}% n'elu ihe ndị abụghị nri ego ole ka ihe niile bụ?",
+  "ic_sentence_template": "Nwa nwanne {name_male, John} chọtara mkpọrọgwụ {num_ic, 16} n'azụ ụlọ.",
+  "ic_template": "Nwa nwanne {name_male, John} chọtara mkpọrọgwụ {num_ic, 16} n'azụ ụlọ. {name_male, John} zụtara mmiri ara maka dọla {num_digit_1, 2}, àkwá maka dọla {num_digit_2, 3}, ọkụ bọlbụ maka dọla {num_digit_3, 3}, iko maka dọla {num_digit_4, 3}, ma ọ́nyà ọchịcha maka dọla {num_digit_5, 4}. Ọ bụrụ na-enwere ụtụ isi {num_digit_6, 10}% n'elu ihe ndị abụghị nri ego ole ka ihe niile bụ?",
+  "equation": "UPDATE HERE"
+}

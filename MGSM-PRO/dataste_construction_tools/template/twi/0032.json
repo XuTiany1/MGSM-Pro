@@ -1,0 +1,8 @@
+{
+  "original_question": "John hwԑ nkraman 10 so. Kraman biara nnante dɔnhwere .5 da biara na w’agya wɔn nan. Dɔnhwere sԑn wɔ nnawɔtwe biara mu na ɔde hwԑ nkraman no?",
+  "original_answer": 35,
+  "symbolic_template": "{name_male, John} hwԑ nkraman {num_digit_1, 10} so. Kraman biara nnante dɔnhwere .5 da biara na w’agya wɔn nan. Dɔnhwere sԑn wɔ nnawɔtwe biara mu na ɔde hwԑ nkraman no?",
+  "ic_sentence_template": "{name_male, John} wɔfase baa wɔ adanko {num_ic, 19}.",
+  "ic_template": "{name_male, John} wɔfase baa wɔ adanko {num_ic, 19}. {name_male, John} hwԑ nkraman {num_digit_1, 10} so. Kraman biara nnante dɔnhwere .5 da biara na w’agya wɔn nan. Dɔnhwere sԑn wɔ nnawɔtwe biara mu na ɔde hwԑ nkraman no?",
+  "equation": "UPDATE HERE"
+}

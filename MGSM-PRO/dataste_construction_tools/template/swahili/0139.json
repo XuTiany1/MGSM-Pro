@@ -1,0 +1,8 @@
+{
+  "original_question": "Katika mashine ya pipi, kuna pipi za pinki 22 zaidi ya mara nne ya pipi za buluu. Ikiwa kuna pipi 12 za buluu, kuna pipi ngapi za pinki?",
+  "original_answer": 70,
+  "symbolic_template": "Katika mashine ya pipi, kuna pipi za pinki {num_digit_1, 22} zaidi ya mara nne ya pipi za buluu. Ikiwa kuna pipi {num_digit_2, 12} za buluu, kuna pipi ngapi za pinki?",
+  "ic_sentence_template": "Watoto {num_ic, 147} walipita kwenye mashine siku hiyo.",
+  "ic_template": "Watoto {num_ic, 147} walipita kwenye mashine siku hiyo. Katika mashine ya pipi, kuna pipi za pinki {num_digit_1, 22} zaidi ya mara nne ya pipi za buluu. Ikiwa kuna pipi {num_digit_2, 12} za buluu, kuna pipi ngapi za pinki?",
+  "equation": "UPDATE HERE"
+}

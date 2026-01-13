@@ -1,0 +1,8 @@
+{
+  "original_question": "Rory commande 2 sous-marins à 7,50 $ chacun, 2 paquets de frites à 1,50 $ chacun et 2 biscuits à 1,00 $ chacun. Des frais de livraison de 20 % sont facturés à la caisse et Rory ajoute un pourboire de 5,00 $. Quel sera le coût de sa commande de livraison ?",
+  "original_answer": 29,
+  "symbolic_template": "{name_male, Rory} commande {num_digit_1, 2} sous-marins à {num_digit_2, 7.50} $ chacun, {num_digit_3, 2} paquets de frites à {num_digit_4, 1.50} $ chacun et {num_digit_5, 2} biscuits à {num_digit_6, 1.00} $ chacun. Des frais de livraison de {num_digit_7, 20} % sont facturés à la caisse et {name_male, Rory}  ajoute un pourboire de {num_digit_8, 5.00} $. Quel sera le coût de sa commande de livraison ?",
+  "ic_sentence_template": "{name_male, Rory} a une tante qui commande {num_ic, 19} salades tous les vendredis.",
+  "ic_template": "{name_male, Rory} a une tante qui commande {num_ic, 19} salades tous les vendredis. {name_male, Rory} commande {num_digit_1, 2} sous-marins à {num_digit_2, 7.50} $ chacun, {num_digit_3, 2} paquets de frites à {num_digit_4, 1.50} $ chacun et {num_digit_5, 2} biscuits à {num_digit_6, 1.00} $ chacun. Des frais de livraison de {num_digit_7, 20} % sont facturés à la caisse et {name_male, Rory}  ajoute un pourboire de {num_digit_8, 5.00} $. Quel sera le coût de sa commande de livraison ?",
+  "equation": "UPDATE HERE"
+}

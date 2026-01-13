@@ -1,0 +1,8 @@
+{
+  "original_question": "Adrian adi mfeɛ mmɔho mmiensa sen Harriet, na Harriet adi Zack mfe fa. Sɛ Harriet adi mfeɛ 21 mprempren a, susu mfeɛ dodoɔ a wɔn mmiensa no adi wɔ  mfeɛ mmiensa mu.",
+  "original_answer": 45,
+  "symbolic_template": "{name_male_1, Adrian} adi mfeɛ mmɔho mmiensa sen {name_male_2, Harriet}, na {name_male_2, Harriet} adi {name_male_3, Zack} mfe fa. Sɛ {name_male_2, Harriet} adi mfeɛ {num_digit_1, 21} mprempren a, susu mfeɛ dodoɔ a wɔn mmiensa no adi wɔ mfeɛ mmiensa mu.",
+  "ic_sentence_template": "{name_male_2, Harriet} wɔfa tɔɔ apple {num_ic, 107} sesiaa fii dwa so.",
+  "ic_template": "{name_male_2, Harriet} wɔfa tɔɔ apple {num_ic, 107} sesiaa fii dwa so. {name_male_1, Adrian} adi mfeɛ mmɔho mmiensa sen {name_male_2, Harriet}, na {name_male_2, Harriet} adi {name_male_3, Zack} mfe fa. Sɛ {name_male_2, Harriet} adi mfeɛ {num_digit_1, 21} mprempren a, susu mfeɛ dodoɔ a wɔn mmiensa no adi wɔ mfeɛ mmiensa mu.",
+  "equation": "UPDATE HERE"
+}

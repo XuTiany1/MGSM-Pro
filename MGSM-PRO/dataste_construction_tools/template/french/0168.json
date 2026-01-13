@@ -1,0 +1,8 @@
+{
+  "original_question": "Jimmy a 2 $ de plus que le double de l'argent d'Ethel. Si Ethel a 8 $, combien d'argent a Jimmy ?",
+  "original_answer": 18,
+  "symbolic_template": "{name_male_1, Jimmy} a {num_digit_1, 2} $ de plus que le double de l'argent de {name_male_2, Ethel}. Si {name_male_2, Ethel} a {num_digit_2, 8} $, combien d'argent a {name_male_1, Jimmy} ?",
+  "ic_sentence_template": "{name_male_2, Ethel} a un oncle qui a trouvé {num_ic, 33} vieilles pièces de monnaie dans son grenier.",
+  "ic_template": "{name_male_2, Ethel} a un oncle qui a trouvé {num_ic, 33} vieilles pièces de monnaie dans son grenier. {name_male_1, Jimmy} a {num_digit_1, 2} $ de plus que le double de l'argent de {name_male_2, Ethel}. Si {name_male_2, Ethel} a {num_digit_2, 8} $, combien d'argent a {name_male_1, Jimmy} ?",
+  "equation": "UPDATE HERE"
+}

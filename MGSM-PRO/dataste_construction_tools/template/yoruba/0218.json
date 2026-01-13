@@ -1,0 +1,8 @@
+{
+  "original_question": "Ọjọ́ orí Adrian jẹ́ ìlọ́po mẹ́ta ọjọ́ orí Harriet, Harriet sì jẹ́ ìdajì ọjọ́ orí Zack. Ṣe ìṣirò àpapọ̀ ọjọ́ orí àwọn mẹ́ta ní ọdún mẹ́ta tí Harriet bá jẹ́ ọmọ ọdún 21 báyìí.",
+  "original_answer": 45,
+  "symbolic_template": "Ọjọ́ orí {name_male_1, Adrian} jẹ́ ìlọ́po mẹ́ta ọjọ́ orí {name_male_2, Harriet}, {name_male_2, Harriet} sì jẹ́ ìdajì ọjọ́ orí {name_male_3, Zack}. Ṣe ìṣirò àpapọ̀ ọjọ́ orí àwọn mẹ́ta ní ọdún mẹ́ta tí {name_male_2, Harriet} bá jẹ́ ọmọ ọdún {num_digit_1, 21} báyìí.",
+  "ic_sentence_template": "Ìyá-ìkà {name_male_2, Harriet} ra àpùlù {num_ic, 107} láti ọjà lẹ́yìn náà.",
+  "ic_template": "Ìyá-ìkà {name_male_2, Harriet} ra àpùlù {num_ic, 107} láti ọjà lẹ́yìn náà. Ọjọ́ orí {name_male_1, Adrian} jẹ́ ìlọ́po mẹ́ta ọjọ́ orí {name_male_2, Harriet}, {name_male_2, Harriet} sì jẹ́ ìdajì ọjọ́ orí {name_male_3, Zack}. Ṣe ìṣirò àpapọ̀ ọjọ́ orí àwọn mẹ́ta ní ọdún mẹ́ta tí {name_male_2, Harriet} bá jẹ́ ọmọ ọdún {num_digit_1, 21} báyìí.",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "So na ne maame tɔn watermelons, mako, ne ankaa wɔ sotɔɔ no mu. Watermelon baako boɔ yɛ mmɔho mmiɛnsa sen mako boɔ. Na ankaa bo nyɛ enum sen nea watermelon bo yɛ den. Wɔ soma Dillon kɔ sotɔɔ no mu sɛ nkɔtɔ watermelon enan ne mako aduonu ne ankaa du. Sɛ mako biara bo yɛ 15$ a, sika bɛn na obenya?",
+  "original_answer": 880,
+  "symbolic_template": "{name_male_1, Well} na ne maame tɔn watermelons, mako, ne ankaa wɔ sotɔɔ no mu. Watermelon baako boɔ yɛ mmɔho mmiɛnsa sen mako boɔ. Na ankaa bo nyɛ {num_digit_1, enum} sen nea watermelon bo yɛ den. Wɔ soma {name_male_2, Dillon} kɔ sotɔɔ no mu sɛ nkɔtɔ watermelon {num_digit_2, enan} ne mako {num_digit_3, aduonu} ne ankaa {num_digit_4, du}. Sɛ mako biara bo yɛ {num_digit_5, 15}$ a, sika bɛn na obenya?",
+  "ic_sentence_template": "{name_male_2, Dillon} sewaa no tɔɔ aborɔbɛ {num_ic, 92} nnora.",
+  "ic_template": "{name_male_2, Dillon} sewaa no tɔɔ aborɔbɛ {num_ic, 92} nnora. {name_male_1, Well} na ne maame tɔn watermelons, mako, ne ankaa wɔ sotɔɔ no mu. Watermelon baako boɔ yɛ mmɔho mmiɛnsa sen mako boɔ. Na ankaa bo nyɛ {num_digit_1, enum} sen nea watermelon bo yɛ den. Wɔ soma {name_male_2, Dillon} kɔ sotɔɔ no mu sɛ nkɔtɔ watermelon {num_digit_2, enan} ne mako {num_digit_3, aduonu} ne ankaa {num_digit_4, du}. Sɛ mako biara bo yɛ {num_digit_5, 15}$ a, sika bɛn na obenya?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Tom huoshewa gari mara 4 kwa mwezi. Ikiwa kila akioshewa gari yeye hulipa $15, huwa analipa pesa ngapi kwa mwaka kuoshewa gari?",
+  "original_answer": 720,
+  "symbolic_template": "{name_male, Tom} hupata huduma ya kuosha gari {num_digit_1, 4} kwa mwezi. Ikiwa kila huduma ya kuosha gari inagharimu ${num_digit_2, 15}, analipa kiasi gani kwa mwaka?",
+  "ic_sentence_template": "Binamu wa {name_male, Tom} alinunua magari ya kuchezea {num_ic, 14} wiki iliyopita.",
+  "ic_template": "Binamu wa {name_male, Tom} alinunua magari ya kuchezea {num_ic, 14} wiki iliyopita. {name_male, Tom} hupata huduma ya kuosha gari {num_digit_1, 4} kwa mwezi. Ikiwa kila huduma ya kuosha gari inagharimu ${num_digit_2, 15}, analipa kiasi gani kwa mwaka?",
+  "equation": "UPDATE HERE"
+}

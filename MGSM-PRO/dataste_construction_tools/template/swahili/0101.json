@@ -1,0 +1,8 @@
+{
+  "original_question": "Solo anahitajika kusoma kurasa 4 kutoka kwa kitabu chake cha kiada cha Sayansi, kurasa 20 kutoka kwa kitabu chake cha kiada cha Masomo ya Kijamii, kurasa 7 kutoka kwa kitabu chake cha kiada cha Historia na kurasa 8 kutoka kitabu chake cha kiada cha Jiografia. Solo alisoma kurasa 15 siku ya Jumatatu. Ikiwa ana siku 4 zaidi za kukamilisha kurasa zote za kusoma, kwa wastani anahitaji kusoma kurasa ngapi kwa siku?",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, Solo} anatakiwa kusoma kurasa {num_digit_1, 4} kutoka kitabu chake cha Sayansi, kurasa {num_digit_2, 20} kutoka kitabu cha Masomo ya Jamii, kurasa {num_digit_3, 7} kutoka kitabu cha Historia na kurasa {num_digit_4, 8} kutoka kitabu cha Jiografia. {name_male, Solo} alisoma kurasa {num_digit_5, 15} siku ya Jumatatu. Ikiwa ana siku {num_digit_6, 4} zaidi kumaliza kusoma vyote, atahitaji kusoma wastani wa kurasa ngapi kwa siku?",
+  "ic_sentence_template": "Shangazi wa {name_male, Solo} hivi karibuni amekopa riwaya za siri {num_ic, 65} kutoka maktaba.",
+  "ic_template": "Shangazi wa {name_male, Solo} hivi karibuni amekopa riwaya za siri {num_ic, 65} kutoka maktaba. {name_male, Solo} anatakiwa kusoma kurasa {num_digit_1, 4} kutoka kitabu chake cha Sayansi, kurasa {num_digit_2, 20} kutoka kitabu cha Masomo ya Jamii, kurasa {num_digit_3, 7} kutoka kitabu cha Historia na kurasa {num_digit_4, 8} kutoka kitabu cha Jiografia. {name_male, Solo} alisoma kurasa {num_digit_5, 15} siku ya Jumatatu. Ikiwa ana siku {num_digit_6, 4} zaidi kumaliza kusoma vyote, atahitaji kusoma wastani wa kurasa ngapi kwa siku?",
+  "equation": "UPDATE HERE"
+}

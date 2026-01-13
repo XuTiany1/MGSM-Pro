@@ -1,0 +1,8 @@
+{
+  "original_question": "Cynthia eats one serving of ice cream every night. She buys cartons of ice cream with 15 servings of ice cream per carton at a cost of $4.00 per carton. After 60 days, how much will she spend on ice cream?",
+  "original_answer": 16,
+  "symbolic_template": "{name_female, Cynthia} eats one serving of ice cream every night. She buys cartons of ice cream with {num_digit_1, 15} servings of ice cream per carton at a cost of ${num_digit_2, 4} per carton. After {num_digit_3, 60} days, how much will she spend on ice cream?",
+  "ic_sentence_template": "{name_female, Cynthia}'s uncle has {num_ic, 7} flavors of sorbet in his freezer.",
+  "ic_template": "{name_female, Cynthia} eats one serving of ice cream every night. She buys cartons of ice cream with {num_digit_1, 15} servings of ice cream per carton at a cost of ${num_digit_2, 4} per carton. {name_female, Cynthia}'s uncle has {num_ic, 7} flavors of sorbet in his freezer. After {num_digit_3, 60} days, how much will she spend on ice cream?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "John buys 2 pairs of shoes for each of his 3 children. They cost $60 each. How much did he pay?",
+  "original_answer": 360,
+  "symbolic_template": "{name_male, John} buys {num_digit_1, 2} pairs of shoes for each of his {num_digit_2, 3} children. They cost ${num_digit_3, 60} each. How much did he pay?",
+  "ic_sentence_template": "{name_male, John}'s uncle once bought {num_ic, 15} hats.",
+  "ic_template": "{name_male, John} buys {num_digit_1, 2} pairs of shoes for each of his {num_digit_2, 3} children. They cost ${num_digit_3, 60} each. {name_male, John}'s uncle once bought {num_ic, 15} hats. How much did he pay?",
+  "equation": "UPDATE HERE"
+}

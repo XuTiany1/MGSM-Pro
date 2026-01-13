@@ -1,0 +1,8 @@
+{
+  "original_question": "John na-elekọta nkịta iri. Otunaotu n'ịme ha na-ewe awa ise kwa ụbọchị iji kpọrọ ya gaa ije ma lekọta azụmahịa ha. Awa ole ka ọ na-ewe ya iji lekọta nkịta ndị ahụ? ",
+  "original_answer": 35,
+  "symbolic_template": "{name_male, John} na-elekọta nkịta {num_digit_1, 10}. Otunaotu n'ịme ha na-ewe awa ọkara kwa ụbọchị iji kpọrọ ya gaa ije ma lekọta azụmahịa ha. Awa ole ka ọ na-ewe ya iji lekọta nkịta ndị ahụ?",
+  "ic_sentence_template": "Nwa nwanne {name_male, John} nwere ehi osisi {num_ic, 19}.",
+  "ic_template": "Nwa nwanne {name_male, John} nwere ehi osisi {num_ic, 19}. {name_male, John} na-elekọta nkịta {num_digit_1, 10}. Otunaotu n'ịme ha na-ewe awa ọkara kwa ụbọchị iji kpọrọ ya gaa ije ma lekọta azụmahịa ha. Awa ole ka ọ na-ewe ya iji lekọta nkịta ndị ahụ?",
+  "equation": "UPDATE HERE"
+}

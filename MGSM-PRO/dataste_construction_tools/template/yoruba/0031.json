@@ -1,0 +1,8 @@
+{
+  "original_question": "Gunter ń gbìyànjú láti ka àwọn èwà inú ìgò kan. Ó bèrè lọ́wọ́ àwọn ọ̀rẹ́ rẹ̀ iye tí wọ́n rò wí pé yóò wà nínú ìgò náà. Ọ̀kan sọ pé 80. Òmíràn sọ pé ó fi 20 ju ààbọ̀ ti àkọ́kọ́ lọ. Ẹ̀kẹta sọ pé ó fi 25% ju ti àkọ́kọ́ lọ. Kínní ìdajì èro wọn?",
+  "original_answer": 80,
+  "symbolic_template": "{name_male, Gunter} ń gbìyànjú láti ka àwọn èwà inú ìgò kan. Ó bèrè lọ́wọ́ àwọn ọ̀rẹ́ rẹ̀ iye tí wọ́n rò wí pé yóò wà nínú ìgò náà. Ọ̀kan sọ pé {num_digit_1, 80}. Òmíràn sọ pé ó fi {num_digit_2, 20} ju ààbọ̀ ti àkọ́kọ́ lọ. Ẹ̀kẹta sọ pé ó fi {num_digit_3, 25}% ju ti àkọ́kọ́ lọ. Kínní ìdajì èro wọn?",
+  "ic_sentence_template": "Àntí {name_male, Gunter} fi ìgbà kan ra jelly beans {num_ic, 392} lọ sí ibi ayẹyẹ kan.",
+  "ic_template": "Àntí {name_male, Gunter} fi ìgbà kan ra jelly beans {num_ic, 392} lọ sí ibi ayẹyẹ kan. {name_male, Gunter} ń gbìyànjú láti ka àwọn èwà inú ìgò kan. Ó bèrè lọ́wọ́ àwọn ọ̀rẹ́ rẹ̀ iye tí wọ́n rò wí pé yóò wà nínú ìgò náà. Ọ̀kan sọ pé {num_digit_1, 80}. Òmíràn sọ pé ó fi {num_digit_2, 20} ju ààbọ̀ ti àkọ́kọ́ lọ. Ẹ̀kẹta sọ pé ó fi {num_digit_3, 25}% ju ti àkọ́kọ́ lọ. Kínní ìdajì èro wọn?",
+  "equation": "UPDATE HERE"
+}

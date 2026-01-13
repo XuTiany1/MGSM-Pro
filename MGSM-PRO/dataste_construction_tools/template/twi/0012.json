@@ -1,0 +1,8 @@
+{
+  "original_question": "Carlos ԑredua akankaa dua bi. Ԑka a ɔbԑbɔ na w’atumi adua dua no yԑ $90. Afe biara, ԑbԑso akankaa 7 a ɔbԑtumi atɔn baako biara $1.5. Ͻsԑi sika $3 afe biara na w’atumi de nsuo agu dua no so. Afe dodoɔ sԑn na ԑbedi ansa na w’anya sika wɔ akankaa dua no mu?",
+  "original_answer": 13,
+  "symbolic_template": "{name_male, Carlos} ԑredua akankaa dua bi. Ԑka a ɔbԑbɔ na w’atumi adua dua no yԑ ${num_digit_1, 90}. Afe biara, ԑbԑso akankaa {num_digit_2, 7} a ɔbԑtumi atɔn baako biara ${num_digit_3, 1.5}. Ͻsԑi sika ${num_digit_4, 3} afe biara na w’atumi de nsuo agu dua no so. Afe dodoɔ sԑn na ԑbedi ansa na w’anya sika wɔ akankaa dua no mu?",
+  "ic_sentence_template": "{name_male, Carlos} nua de ankaa/akutuo {num_ic, 136} baa abusua anigye nhyiaemu a etwa mu no.",
+  "ic_template": "{name_male, Carlos} nua de ankaa/akutuo {num_ic, 136} baa abusua anigye nhyiaemu a etwa mu no. {name_male, Carlos} ԑredua akankaa dua bi. Ԑka a ɔbԑbɔ na w’atumi adua dua no yԑ ${num_digit_1, 90}. Afe biara, ԑbԑso akankaa {num_digit_2, 7} a ɔbԑtumi atɔn baako biara ${num_digit_3, 1.5}. Ͻsԑi sika ${num_digit_4, 3} afe biara na w’atumi de nsuo agu dua no so. Afe dodoɔ sԑn na ԑbedi ansa na w’anya sika wɔ akankaa dua no mu?",
+  "equation": "UPDATE HERE"
+}

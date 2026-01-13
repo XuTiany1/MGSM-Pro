@@ -1,0 +1,8 @@
+{
+  "original_question": "Ram uses a lot of pens. He discovered that he can save money by mixing the ink from five empty pens to make one full pen. If he buys 25 pens and then uses them to make new pens when the ink runs low, how many total pens does he get to have?",
+  "original_answer": 31,
+  "symbolic_template": "{name_male, Ram} uses a lot of pens. He discovered that he can save money by mixing the ink from five empty pens to make one full pen. If he buys {num_digit_1, 25} pens and then uses them to make new pens when the ink runs low, how many total pens does he get to have?",
+  "ic_sentence_template": "{name_male, Ram}'s uncle once bought {num_ic, 13408} notebooks at a discount.",
+  "ic_template": "{name_male, Ram} uses a lot of pens. He discovered that he can save money by mixing the ink from five empty pens to make one full pen. If he buys {num_digit_1, 25} pens and then uses them to make new pens when the ink runs low, {name_male, Ram}'s uncle once bought {num_ic, 13408} notebooks at a discount. How many total pens does he get to have?",
+  "equation": "UPDATE HERE"
+}

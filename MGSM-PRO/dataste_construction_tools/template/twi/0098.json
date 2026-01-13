@@ -1,0 +1,8 @@
+{
+  "original_question": "Ahyԑn ato santene wɔ kwantenpɔn no so. Ahyԑn no bi twi fa trafiki no mu wɔ simma 15 a ԑdi kan no mu, na ahyԑn 20 bio twi fa trafiki no mu wɔ simma 15 a aka no mu. Ahyԑn 5 pue firi santene no mu sԑneԑ wɔnntwi mfa trafiki no mu. Na ahyԑn 30 ankasa na ԑwɔ kwantenpɔn no so a, ahyԑn sԑn na ԑtwi faa trafiki no mu wɔ simma 15 a ԑdi kan no mu?",
+  "original_answer": 5,
+  "symbolic_template": "Ahyԑn ato santene wɔ kwantenpɔn no so. Ahyԑn no bi twi fa trafiki no mu wɔ simma {num_digit_1, 15} a ԑdi kan no mu, na ahyԑn {num_digit_2, 20} bio twi fa trafiki no mu wɔ simma {num_digit_3, 15} a aka no mu. Ahyԑn {num_digit_4, 5} pue firi santene no mu sԑneԑ wɔnntwi mfa trafiki no mu. Na ahyԑn {num_digit_6, 30} ankasa na ԑwɔ kwantenpɔn no so a, ahyԑn sԑn na ԑtwi faa trafiki no mu wɔ simma {num_digit_1, 15} a ԑdi kan no mu?",
+  "ic_sentence_template": "kaa akwan ho ɔpanyin no wɔfa wɔ kaa adedaw {num_ic, 38}.",
+  "ic_template": "Ahyԑn ato santene wɔ kwantenpɔn no so. Ahyԑn no bi twi fa trafiki no mu wɔ simma {num_digit_1, 15} a ԑdi kan no mu, na ahyԑn {num_digit_2, 20} bio twi fa trafiki no mu wɔ simma {num_digit_3, 15} a aka no mu. Ahyԑn {num_digit_4, 5} pue firi santene no mu sԑneԑ wɔnntwi mfa trafiki no mu. Na ahyԑn {num_digit_6, 30} ankasa na ԑwɔ kwantenpɔn no so a, ahyԑn sԑn na ԑtwi faa trafiki no mu wɔ simma {num_digit_1, 15} a ԑdi kan no mu? kaa akwan ho ɔpanyin no wɔfa wɔ kaa adedaw {num_ic, 38}.",
+  "equation": "UPDATE HERE"
+}

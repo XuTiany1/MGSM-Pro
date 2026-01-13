@@ -1,0 +1,8 @@
+{
+  "original_question": "Les garçons sont deux fois plus nombreux que les filles à l'école du Docteur Wertz. S'il y a 60 filles et 5 élèves par professeur, combien de professeurs y a-t-il ?",
+  "original_answer": 36,
+  "symbolic_template": "Les garçons sont deux fois plus nombreux que les filles à l'école du Docteur Wertz. S'il y a {num_digit_1, 60} filles et {num_digit_2, 5} élèves par professeur, combien de professeurs y a-t-il ?",
+  "ic_sentence_template": "{num_ic, 222} nouveaux livres ont été livrés cette année à la bibliothèque scolaire du Dr Wertz.",
+  "ic_template": "{num_ic, 222} nouveaux livres ont été livrés cette année à la bibliothèque scolaire du Dr Wertz. Les garçons sont deux fois plus nombreux que les filles à l'école du Docteur Wertz. S'il y a {num_digit_1, 60} filles et {num_digit_2, 5} élèves par professeur, combien de professeurs y a-t-il ?",
+  "equation": "UPDATE HERE"
+}

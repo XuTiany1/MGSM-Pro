@@ -1,0 +1,8 @@
+{
+  "original_question": "Andrew gbèrò ìrìn-àjò láti New Jersey lọ sí Rochester. Ó gba ọjọ́ mẹ́fà láti rin ìrìn-àjò nípasẹ̀ ọkọ̀ akẹ́rù, yóò gba ọkọ ayọ́kẹ́lẹ́ ní ìdajì ọjọ́ náà láti rin ìrìn-àjò láti New Jersey lọ sí Rochester. Ọjọ́ mélòó ni yóò rin ìrìn-àjò tí ó bá gbèrò láti lọ sí Rochester pẹ̀lú u ọkọ̀ akẹ́rù kí ó sì padà wá láti Rochester pẹ̀lú ọkọ̀ ayọ́kẹ́lẹ́?",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, Andrew} gbèrò ìrìn-àjò láti {name_city_1, New Jersey} lọ sí {name_city_2, Rochester}. Ó gba ọjọ́ {num_digit_1, 6} láti rin ìrìn-àjò nípasẹ̀ ọkọ̀ akẹ́rù, yóò gba ọkọ ayọ́kẹ́lẹ́ ní ìdajì ọjọ́ náà láti rin ìrìn-àjò láti {name_city_1, New Jersey} lọ sí {name_city_2, Rochester}. Ọjọ́ mélòó ni yóò rin ìrìn-àjò tí ó bá gbèrò láti lọ sí {name_city_2, Rochester} pẹ̀lú u ọkọ̀ akẹ́rù kí ó sì padà wá láti {name_city_2, Rochester} pẹ̀lú ọkọ̀ ayọ́kẹ́lẹ́?",
+  "ic_sentence_template": "Kọ́rẹ́ {name_male, Andrew} rí {num_ic, 373} ọkọ̀ ayọ́kẹ́lẹ́ atijọ́ lọ́dún tó kọjá.",
+  "ic_template": "Kọ́rẹ́ {name_male, Andrew} rí {num_ic, 373} ọkọ̀ ayọ́kẹ́lẹ́ atijọ́ lọ́dún tó kọjá. {name_male, Andrew} gbèrò ìrìn-àjò láti {name_city_1, New Jersey} lọ sí {name_city_2, Rochester}. Ó gba ọjọ́ {num_digit_1, 6} láti rin ìrìn-àjò nípasẹ̀ ọkọ̀ akẹ́rù, yóò gba ọkọ ayọ́kẹ́lẹ́ ní ìdajì ọjọ́ náà láti rin ìrìn-àjò láti {name_city_1, New Jersey} lọ sí {name_city_2, Rochester}. Ọjọ́ mélòó ni yóò rin ìrìn-àjò tí ó bá gbèrò láti lọ sí {name_city_2, Rochester} pẹ̀lú u ọkọ̀ akẹ́rù kí ó sì padà wá láti {name_city_2, Rochester} pẹ̀lú ọkọ̀ ayọ́kẹ́lẹ́?",
+  "equation": "UPDATE HERE"
+}

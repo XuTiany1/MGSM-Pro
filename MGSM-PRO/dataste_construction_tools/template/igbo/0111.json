@@ -1,0 +1,8 @@
+{
+  "original_question": "Ụgbọ mmiri Julia malitere ihiehi mgbe ọ pụrụ n'ọdọ mmiri. Ụgbọ mmiri ahụ na ewere lita mmiri abụọ na ụkwụ iri ọbụla ọkpụrụ azụ iga na ọnụala ọdọ mmiri. O were ya sekọndụ iri na isii ikpụta ụkwụ iri abụọ. Ọnụala ahụ ji sekọndụ 64 dị anya . Mmiri ole ka ụgbọ mmiri ahụ na ewere mgbe Julia ruru na ọnụala?",
+  "original_answer": 16,
+  "symbolic_template": "Ụgbọ mmiri {name_female, Julia} malitere ihiehi mgbe ọ pụrụ n'ọdọ mmiri. Ụgbọ mmiri ahụ na ewere lita mmiri abụọ na ụkwụ iri ọbụla ọkpụrụ azụ iga na ọnụala ọdọ mmiri. O were ya sekọndụ iri na isii ikpụta ụkwụ iri abụọ. Ọnụala ahụ ji sekọndụ {num_digit_1, 64} dị anya. Mmiri ole ka ụgbọ mmiri ahụ na ewere mgbe {name_female, Julia} ruru na ọnụala?",
+  "ic_sentence_template": "Nwanne nna {name_female, Julia} nwere ihe eji azụ azụ {num_ic, 444}.",
+  "ic_template": "Nwanne nna {name_female, Julia} nwere ihe eji azụ azụ {num_ic, 444}. Ụgbọ mmiri {name_female, Julia} malitere ihiehi mgbe ọ pụrụ n'ọdọ mmiri. Ụgbọ mmiri ahụ na ewere lita mmiri abụọ na ụkwụ iri ọbụla ọkpụrụ azụ iga na ọnụala ọdọ mmiri. O were ya sekọndụ iri na isii ikpụta ụkwụ iri abụọ. Ọnụala ahụ ji sekọndụ {num_digit_1, 64} dị anya. Mmiri ole ka ụgbọ mmiri ahụ na ewere mgbe {name_female, Julia} ruru na ọnụala?",
+  "equation": "UPDATE HERE"
+}

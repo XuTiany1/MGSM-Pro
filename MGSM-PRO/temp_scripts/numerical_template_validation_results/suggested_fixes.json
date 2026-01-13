@@ -1,0 +1,1883 @@
+[
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (14-100) and num_digit_2 (1-10) are realistic and appropriate for the problem context. The construction of num_ic is irrelevant and can be ignored.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: num_digit_1 = 16, num_digit_2 = 2. eggs_used = 3 + 4 = 7. remainder = 16 - 7 = 9. ans = 9 * 2 = 18.",
+    "complexity_valid": false,
+    "complexity_details": "The 'ans' complexity restriction specifies min_digits: 1 and max_digits: 3. The original answer is 18, which has 2 digits. This falls within the specified range. However, the question states that the 'ans' complexity restriction should allow for 2, 3, or 4 digits. Therefore, the max_digits should be at least 2.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restrictions 'remainder > 0' and 'ans % 1 == 0' are logical and appropriate for the problem. The first ensures that there are eggs to sell, and the second ensures an integer answer.",
+    "suggested_fix": {
+      "variables": {
+        "num_digit_1": {
+          "type": "int",
+          "range": [
+            14,
+            100
+          ]
+        },
+        "num_ic": {
+          "type": "int",
+          "construction": "num_ic = 2 * num_digit_1"
+        },
+        "num_digit_2": {
+          "type": "int",
+          "range": [
+            1,
+            10
+          ]
+        }
+      },
+      "equation_steps": {
+        "num_digit_1": [
+          "eggs_used = 3 + 4",
+          "remainder = num_digit_1 - eggs_used"
+        ],
+        "num_digit_2": [
+          "ans = remainder * num_digit_2"
+        ]
+      },
+      "complexity_restrictions": {
+        "remainder": {
+          "max_digits": 2
+        },
+        "ans": {
+          "min_digits": 1,
+          "max_digits": 4
+        }
+      },
+      "restrictions": {
+        "num_digit_1": [
+          "remainder > 0"
+        ],
+        "num_digit_2": [
+          "ans % 1 == 0"
+        ]
+      }
+    },
+    "problem_id": "0000",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "The symbolic template contains 'num_digit_1', which is also present in the numerical template's 'variables' section. 'num_ic' is irrelevant and can be ignored.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The range for 'num_digit_1' (2-100) is reasonable for the number of bolts. The type 'int' is appropriate. 'num_ic' is irrelevant.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "With num_digit_1 = 2, the calculation proceeds as follows: white_fiber = 2 / 2 = 1; ans = 2 + 1 = 3. This matches the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The 'ans' complexity restriction allows for 1, 2, or 3 digits, which is sufficient for the original answer of 3 (1 digit).",
+    "restrictions_valid": false,
+    "restrictions_details": "The restrictions are missing 'ans % 1 == 0' and 'ans > 0'.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_1": [
+          "num_digit_1 % 2 == 0",
+          "ans % 1 == 0",
+          "ans > 0"
+        ]
+      }
+    },
+    "problem_id": "0001",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3) exist in the numerical template's 'variables' section. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (house price), num_digit_2 (repair costs), and num_digit_3 (percentage increase) are realistic and appropriate for the problem context.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: num_digit_1 = 80000, num_digit_2 = 50000, num_digit_3 = 150.\n1. total_investment = 80000 + 50000 = 130000\n2. increase_amount = 80000 * (150 / 100) = 80000 * 1.5 = 120000\n3. final_value = 80000 + 120000 = 200000\n4. ans = 200000 - 130000 = 70000",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 4, 'max_digits': 6 allows for answers with 4, 5, or 6 digits. The original answer (70000) has 5 digits, which falls within this range.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction 'ans % 1 == 0' is missing. This is crucial to ensure the answer is an integer. Also, the restriction 'increase_amount % 1 == 0' is already guaranteed by the integer type of num_digit_1 and num_digit_3, so it's redundant.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_1": [],
+        "num_digit_2": [],
+        "num_digit_3": [
+          "ans > 0"
+        ],
+        "num_ic": []
+      },
+      "equation_steps": {
+        "num_digit_1": [],
+        "num_digit_2": [
+          "total_investment = num_digit_1 + num_digit_2"
+        ],
+        "num_digit_3": [
+          "increase_amount = num_digit_1 * (num_digit_3 / 100)",
+          "final_value = num_digit_1 + increase_amount",
+          "ans = final_value - total_investment",
+          "ans % 1 == 0"
+        ]
+      }
+    },
+    "problem_id": "0002",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as requested.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (2-10), num_digit_2 (2-7), and num_digit_3 (40-200) are reasonable for the problem context. They allow for a variety of sprint counts and distances.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer.  Using the original values: num_digit_1 = 3, num_digit_2 = 3, num_digit_3 = 60.  total_sprints_per_week = 3 * 3 = 9. ans = 9 * 60 = 540. This matches the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The original answer (540) has 3 digits. The 'ans' complexity restriction allows for a minimum of 2 digits and a maximum of 4 digits, which includes 3 digits. Therefore, the complexity restriction is valid.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restrictions are missing the crucial 'ans > 0' restriction. While 'ans % 1 == 0' is present and ensures an integer answer, it doesn't guarantee a positive answer. Also, the restriction 'num_ic != num_digit_1' is irrelevant to the problem and should be removed.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_1": [],
+        "num_digit_2": [],
+        "num_digit_3": [
+          "ans % 1 == 0",
+          "ans > 0"
+        ],
+        "num_ic": []
+      }
+    },
+    "problem_id": "0003",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3) exist in the numerical template's 'variables' section, and vice versa. num_ic is ignored as requested.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1, num_digit_2, and num_digit_3 (5-40, 5-40, 5-50 respectively) are realistic and appropriate for the problem context. They represent reasonable numbers of cups of feed and chickens.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Here's the calculation trace with the original values: \n1. num_digit_3 = 20, total_needed = 20 * 3 = 60\n2. num_digit_1 = 15, num_digit_2 = 25, distributed_so_far = 15 + 25 = 40\n3. ans = 60 - 40 = 20",
+    "complexity_valid": true,
+    "complexity_details": "The original answer is 20, which has 2 digits. The 'ans' complexity restriction allows for a maximum of 3 digits, which is sufficient to accommodate the original answer and other potential answers within the defined variable ranges.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restrictions are missing 'ans % 1 == 0' to ensure an integer answer. Also, the existing restrictions are only applied to num_digit_2. They should be applied to the overall problem to ensure a valid problem is generated.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_3": [],
+        "num_digit_1": [],
+        "num_digit_2": [],
+        "num_ic": [],
+        "all": [
+          "ans > 0",
+          "ans % 1 == 0",
+          "total_needed > distributed_so_far"
+        ]
+      }
+    },
+    "problem_id": "0004",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3) are present in the numerical template's 'variables' section. num_ic is ignored as requested.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (5-50), num_digit_3 (4-40), and num_digit_2 (10-95) are realistic and appropriate for the problem context. They allow for a variety of costs, quantities, and discounts.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: num_digit_1 = 5, num_digit_2 = 60, num_digit_3 = 16.\n1. full_price_count = 16 / 2 = 8\n2. discount_count = 16 / 2 = 8\n3. discount_rate = 60 / 100 = 0.6\n4. discounted_unit_price = 5 * 0.6 = 3\n5. cost_full = 8 * 5 = 40\n6. cost_discount = 8 * 3 = 24\n7. ans = 40 + 24 = 64",
+    "complexity_valid": true,
+    "complexity_details": "The 'ans' complexity restriction allows for a minimum of 2 digits and a maximum of 4 digits. The original answer, 64, has 2 digits, which falls within the allowed range.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restrictions section is missing the crucial 'ans > 0' restriction. While 'ans % 1 == 0' is present, ensuring a positive answer is essential for this problem context.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_3": [
+          "num_digit_3 % 2 == 0"
+        ],
+        "num_digit_2": [
+          "ans % 1 == 0"
+        ],
+        "ans": [
+          "ans > 0"
+        ]
+      }
+    },
+    "problem_id": "0005",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2) exist in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (2-10) and num_digit_2 (10-100) are realistic and appropriate for this problem context. They allow for reasonable variations in the number of sheep.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: num_digit_2 = 20, num_digit_1 = 4.  city_3_count = 20; city_2_count = 20 * 4 = 80; city_1_count = 80 * 2 = 160; ans = 20 + 80 + 160 = 260. This matches the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The 'ans' complexity restriction allows for 2 to 5 digits. The original answer, 260, has 3 digits, which falls within the allowed range.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restrictions are missing the crucial 'ans > 0' restriction. While 'ans % 1 == 0' is present, ensuring a positive answer is essential for this type of problem.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_2": [],
+        "num_digit_1": [
+          "ans % 1 == 0",
+          "ans > 0"
+        ],
+        "num_ic": []
+      }
+    },
+    "problem_id": "0006",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3, num_digit_4) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as requested.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for each variable seem reasonable. num_digit_1 (file size) is between 100-500 GB, num_digit_2 (download speed) is between 1-39 GB/minute, num_digit_3 (percentage) is between 10-99%, and num_digit_4 (restart time) is between 5-59 minutes. These values are realistic and appropriate for the problem context.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace the calculation with the original values: num_digit_1 = 200, num_digit_2 = 2, num_digit_3 = 40, num_digit_4 = 20.\n1. interrupted_gb = 200 * (40 / 100) = 80\n2. time_first_attempt = 80 / 2 = 40\n3. time_second_attempt = 200 / 2 = 100\n4. ans = 40 + 20 + 100 = 160. This matches the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The 'ans' complexity restriction specifies a minimum of 2 digits and a maximum of 4 digits. The original answer, 160, has 3 digits, which falls within this range. Therefore, the complexity restriction is valid.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restrictions are missing the crucial 'ans > 0' restriction. Also, the restriction 'time_first_attempt % 1 == 0' is redundant because 'interrupted_gb % 1 == 0' and 'num_digit_2' is an integer, so the result will always be an integer. The same applies to 'time_second_attempt % 1 == 0'.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_3": [
+          "interrupted_gb % 1 == 0"
+        ],
+        "num_digit_4": [
+          "ans % 1 == 0",
+          "ans > 0"
+        ]
+      }
+    },
+    "problem_id": "0007",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3, num_digit_5, num_digit_6, num_digit_7) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as requested.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for each variable seem reasonable within the context of the problem. Driving speeds are within realistic limits, and time durations are also appropriate.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "Let's trace the calculation with the original values: num_digit_1 = 3, num_digit_2 = 60, num_digit_3 = 4, num_digit_5 = 2, num_digit_6 = 30, num_digit_7 = 80.\n1. target_distance = 3 * 60 = 180\n2. dist_seg_2 = 0.5 * 30 = 15\n3. remaining_time = 4 - 2 - 0.5 = 1.5\n4. dist_seg_3 = 1.5 * 80 = 120\n5. total_returned = 15 + 120 = 135\n6. ans = 180 - 135 = 45. The equation steps correctly lead to the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 1, 'max_digits': 4 allows for answers with 1, 2, 3, or 4 digits. The original answer, 45, has 2 digits, so it satisfies this restriction.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction 'ans >= 0' is missing. While 'ans % 1 == 0' is present, the template should explicitly ensure the answer is non-negative.",
+    "suggested_fix": {
+      "numerical_template": {
+        "problem_id": "commute_interrupted_01",
+        "generation_order": [
+          "num_digit_1",
+          "num_digit_2",
+          "num_digit_3",
+          "num_digit_5",
+          "num_digit_6",
+          "num_digit_7",
+          "num_ic"
+        ],
+        "variables": {
+          "num_digit_1": {
+            "type": "int",
+            "range": [
+              1,
+              7
+            ]
+          },
+          "num_digit_2": {
+            "type": "int",
+            "range": [
+              20,
+              100
+            ]
+          },
+          "num_digit_3": {
+            "type": "int",
+            "range": [
+              4,
+              10
+            ]
+          },
+          "num_digit_5": {
+            "type": "int",
+            "range": [
+              1,
+              5
+            ]
+          },
+          "num_digit_6": {
+            "type": "int",
+            "range": [
+              10,
+              50
+            ]
+          },
+          "num_digit_7": {
+            "type": "int",
+            "range": [
+              50,
+              100
+            ]
+          },
+          "num_ic": {
+            "type": "int",
+            "range": [
+              10,
+              99
+            ]
+          }
+        },
+        "equation_steps": {
+          "num_digit_2": [
+            "target_distance = num_digit_1 * num_digit_2"
+          ],
+          "num_digit_6": [
+            "dist_seg_2 = 0.5 * num_digit_6"
+          ],
+          "num_digit_7": [
+            "remaining_time = num_digit_3 - num_digit_5 - 0.5",
+            "dist_seg_3 = remaining_time * num_digit_7",
+            "total_returned = dist_seg_2 + dist_seg_3",
+            "ans = target_distance - total_returned"
+          ]
+        },
+        "complexity_restrictions": {
+          "ans": {
+            "min_digits": 1,
+            "max_digits": 4
+          }
+        },
+        "restrictions": {
+          "num_digit_5": [
+            "num_digit_3 > (num_digit_5 + 0.5)"
+          ],
+          "num_digit_7": [
+            "ans >= 0",
+            "ans % 1 == 0"
+          ]
+        }
+      }
+    },
+    "problem_id": "0008",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3, num_digit_4) exist in the numerical template's 'variables' section, and vice versa. num_ic is ignored as requested.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges and constructions are realistic and appropriate for the problem context.  Hours worked, hourly rates, and overtime multipliers are all within reasonable bounds.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: num_digit_1 = 40, num_digit_2 = 10, num_digit_3 = 1.2, num_digit_4 = 45. \n1. reg_pay = 40 * 10 = 400\n2. ot_hours = 45 - 40 = 5\n3. ot_rate = 10 * 1.2 = 12\n4. ot_pay = 5 * 12 = 60\n5. ans = 400 + 60 = 460. This matches the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 3, 'max_digits': 5 allows for answers with 3, 4, or 5 digits. The original answer, 460, has 3 digits, so it falls within the allowed complexity.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restrictions are missing the crucial 'ans > 0' restriction. While 'num_digit_4 > num_digit_1' and 'ans % 1 == 0' are present, ensuring a positive answer is essential for this problem type.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_4": [
+          "num_digit_4 > num_digit_1",
+          "ans % 1 == 0",
+          "ans > 0"
+        ]
+      }
+    },
+    "problem_id": "0009",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3, num_digit_4, num_digit_5, num_digit_6) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as requested.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for each variable (number of dozens and cost per dozen) are realistic and appropriate for a bakery context. The ranges ensure positive values and avoid trivial cases.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: \n- num_digit_1 = 3, num_digit_2 = 68, cost_donuts = 3 * 68 = 204\n- num_digit_3 = 2, num_digit_4 = 80, cost_cupcakes = 2 * 80 = 160\n- num_digit_5 = 6, num_digit_6 = 55, cost_cheesecakes = 6 * 55 = 330\n- ans = 204 + 160 + 330 = 694",
+    "complexity_valid": true,
+    "complexity_details": "The original answer (694) has 3 digits. The complexity restriction 'min_digits': 3, 'max_digits': 4 allows for answers with 3 or 4 digits, which is valid.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restrictions 'num_digit_2 % 10 != 0', 'num_digit_4 % 10 != 0', and 'num_digit_6 % 10 != 0' prevent round dollar amounts, which adds variety. 'ans % 1 == 0' ensures an integer answer. The restrictions 'ans > 0' is missing, but should be included.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_6": [
+          "num_digit_6 % 10 != 0",
+          "ans % 1 == 0"
+        ],
+        "ans": [
+          "ans > 0"
+        ]
+      }
+    },
+    "problem_id": "0011",
+    "status": "validated",
+    "overall_valid": true
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2) exist in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (1-10) and num_digit_2 (2-29) are reasonable for this type of problem. num_ic is irrelevant.",
+    "equation_steps_valid": false,
+    "equation_steps_details": "The equation steps are incorrect. Let's trace the original problem: Melanie has 5 vacuum cleaners left. She sold half of what was left at the orange house, meaning she had 5 * 2 = 10 vacuum cleaners before the orange house. She sold 2 more at the red house, meaning she had 10 + 2 = 12 vacuum cleaners before the red house. She sold a third at the green house, meaning 12 is 2/3 of the original amount. Therefore, she started with 12 * (3/2) = 18 vacuum cleaners.  The provided equation steps do not correctly reverse this process. The correct equation should be: after_orange_house = num_digit_2 * 2; after_red_house = after_orange_house + num_digit_1; ans = after_red_house * (3/2);",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 1, 'max_digits': 3 allows for answers with 1, 2, or 3 digits. The original answer (18) has 2 digits, which falls within this range.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restrictions 'ans % 1 == 0' and 'ans > 0' are necessary and sufficient for ensuring a positive integer answer.",
+    "suggested_fix": {
+      "equation_steps": {
+        "num_digit_2": [],
+        "num_digit_1": [
+          "after_orange_house = num_digit_2 * 2",
+          "after_red_house = after_orange_house + num_digit_1",
+          "ans = after_red_house * (3/2)"
+        ],
+        "num_ic": []
+      }
+    },
+    "problem_id": "0013",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template exist in the numerical template's 'variables' section, and vice versa. Ignoring num_ic, which is irrelevant.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges and constructions for the variables are realistic and appropriate for the problem context. The ranges for the monetary values (num_digit_2 and num_digit_3) are reasonable, and the percentage increases (num_digit_4 and num_digit_5) are also within a plausible range.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace through the calculation with the original values:\n- num_digit_2 = 5000\n- num_digit_4 = 2.5\n- num_digit_3 = 8000\n- num_digit_5 = 1.2\n\n1. profit_a = 5000 * (2.5 / 100) = 5000 * 0.025 = 125\n2. profit_b = 8000 * (1.2 / 100) = 8000 * 0.012 = 96\n3. ans = max(125, 96) = 125",
+    "complexity_valid": true,
+    "complexity_details": "The original answer (125) has 3 digits, and the 'ans' complexity restriction allows for a minimum of 2 digits and a maximum of 5 digits. Therefore, the complexity restriction is valid.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restrictions are missing the crucial constraints 'ans % 1 == 0' to ensure an integer answer and 'ans > 0' to ensure a positive answer. Also, the restriction 'profit_a % 1 == 0' and 'profit_b % 1 == 0' are not guaranteed by the variable definitions. For example, if num_digit_2 is 1001 and num_digit_4 is 1.5, then profit_a will not be an integer. The restriction 'profit_a != profit_b' is good to have, but it should be checked after ensuring that profit_a and profit_b are integers.",
+    "suggested_fix": {
+      "numerical_template": {
+        "problem_id": "investment_choice_01",
+        "generation_order": [
+          "num_digit_2",
+          "num_digit_4",
+          "num_digit_3",
+          "num_digit_5",
+          "num_ic"
+        ],
+        "variables": {
+          "num_digit_1": {
+            "type": "int",
+            "construction": "2"
+          },
+          "num_digit_2": {
+            "type": "int",
+            "range": [
+              1000,
+              10000
+            ]
+          },
+          "num_digit_4": {
+            "type": "float",
+            "construction": "random.choice([1.5, 2.5, 3.5, 4.0, 5.0])"
+          },
+          "num_digit_3": {
+            "type": "int",
+            "range": [
+              1000,
+              15000
+            ]
+          },
+          "num_digit_5": {
+            "type": "float",
+            "construction": "random.choice([1.2, 1.8, 2.2, 0.5, 0.8])"
+          },
+          "num_ic": {
+            "type": "int",
+            "range": [
+              199,
+              1999
+            ]
+          }
+        },
+        "equation_steps": {
+          "num_digit_4": [
+            "profit_a = num_digit_2 * (num_digit_4 / 100)"
+          ],
+          "num_digit_5": [
+            "profit_b = num_digit_3 * (num_digit_5 / 100)",
+            "ans = max(profit_a, profit_b)"
+          ],
+          "num_ic": []
+        },
+        "complexity_restrictions": {
+          "ans": {
+            "min_digits": 2,
+            "max_digits": 5
+          }
+        },
+        "restrictions": {
+          "num_digit_4": [],
+          "num_digit_5": [],
+          "ans": [
+            "ans % 1 == 0",
+            "ans > 0"
+          ]
+        }
+      }
+    },
+    "problem_id": "0015",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2) exist in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 and num_digit_2 (50-300) are realistic and appropriate for representing distances in miles.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Using the original values: num_digit_1 = 80, num_digit_2 = 150. The equation 'ans = num_digit_1 + num_digit_2' results in ans = 80 + 150 = 230, which is the total distance covered.",
+    "complexity_valid": true,
+    "complexity_details": "The 'ans' complexity restriction allows for a minimum of 2 digits and a maximum of 4 digits. The original answer, 230, has 3 digits, which falls within this range.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restrictions are missing the crucial 'ans > 0' restriction to ensure a positive answer. Also, the restriction 'ans % 1 == 0' is redundant because num_digit_1 and num_digit_2 are defined as integers, and their sum will always be an integer.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_2": [
+          "ans > 0",
+          "num_digit_1 != num_digit_2"
+        ]
+      }
+    },
+    "problem_id": "0016",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3, num_digit_4, num_digit_5) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as requested.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for each variable seem reasonable within the context of the problem. Hourly wages are between $20 and $60, weeks worked are around a year, teaching hours are between 30 and 49, and coaching hours are between 5 and 20.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: num_digit_1 = 20, num_digit_2 = 30, num_digit_3 = 50, num_digit_4 = 35, num_digit_5 = 15.  teacher_weekly = 20 * 35 = 700. coach_weekly = 30 * 15 = 450. ans = (700 + 450) * 50 = 1150 * 50 = 57500. This matches the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 5, 'max_digits': 6 allows for answers with 5 or 6 digits. The original answer, 57500, has 5 digits, so it falls within the allowed range.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restrictions are missing the crucial 'ans > 0' restriction. While 'ans % 1 == 0' is present, ensuring an integer answer, the absence of 'ans > 0' could lead to negative or zero salaries, which are not realistic in this context. Also, the restriction 'num_digit_5': ['ans % 1 == 0'] is incorrectly placed. It should be a general restriction, not specific to num_digit_5.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_2": [
+          "num_digit_2 != num_digit_1"
+        ]
+      },
+      "general_restrictions": [
+        "ans % 1 == 0",
+        "ans > 0"
+      ]
+    },
+    "problem_id": "0017",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1, num_digit_2, and num_digit_3 are realistic and appropriate for the problem context. They represent the initial volumes of the drinks.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: num_digit_1 = 10, num_digit_2 = 15, num_digit_3 = 24.\n1. orange_after_spill = 10 - 1 = 9\n2. water_in_orange = 9 * (2/3) = 6\n3. water_in_pineapple = 15 * (3/5) = 9\n4. ans = 6 + 9 = 15\n5. total_volume_check = 9 + 15 = 24. This matches num_digit_3.",
+    "complexity_valid": true,
+    "complexity_details": "The original answer is 15, which has 2 digits. The restrictions do not explicitly limit the number of digits in the answer. Therefore, the complexity is valid.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restrictions are missing the crucial 'ans > 0' restriction. While 'ans % 1 == 0' is present, the absence of 'ans > 0' could lead to illogical or undefined scenarios if the generated numbers result in a negative or zero answer.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_3": [
+          "total_volume_check == num_digit_3",
+          "ans % 1 == 0",
+          "ans > 0"
+        ]
+      }
+    },
+    "problem_id": "0020",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3, num_digit_4, num_digit_5) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as requested.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for each variable seem reasonable within the context of the problem. The number of customers and DVDs purchased are all positive integers.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer.  Let's trace with the original values: num_digit_2 = 3, num_digit_3 = 2, num_digit_4 = 2, num_digit_5 = 3, num_digit_1 = 8.  First, total_customers = 3 + 2 + 3 = 8. Then, ans = (3 * 1) + (2 * 2) = 3 + 4 = 7. This matches the original answer.",
+    "complexity_valid": false,
+    "complexity_details": "The original answer is 7, which has 1 digit. The complexity restriction 'min_digits': 2, 'max_digits': 2 only allows for 2-digit answers. This is incorrect.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restrictions are missing the required 'ans % 1 == 0' and 'ans > 0'. Also, the restriction 'num_digit_1 == total_customers' is crucial for the problem to make sense, and 'ans > 15' is not always guaranteed with the given ranges and equation steps. This needs to be adjusted to ensure the problem is solvable and the answer is within the desired range.",
+    "suggested_fix": {
+      "variables": {
+        "num_digit_2": {
+          "type": "int",
+          "range": [
+            5,
+            12
+          ]
+        },
+        "num_digit_3": {
+          "type": "int",
+          "range": [
+            4,
+            9
+          ]
+        },
+        "num_digit_5": {
+          "type": "int",
+          "range": [
+            5,
+            15
+          ]
+        },
+        "num_digit_4": {
+          "type": "int",
+          "range": [
+            3,
+            6
+          ]
+        },
+        "num_digit_1": {
+          "type": "int",
+          "range": [
+            14,
+            40
+          ]
+        },
+        "num_ic": {
+          "type": "int",
+          "range": [
+            10,
+            99
+          ]
+        }
+      },
+      "equation_steps": {
+        "num_digit_5": [
+          "total_customers = num_digit_2 + num_digit_3 + num_digit_5"
+        ],
+        "num_digit_1": [
+          "ans = (num_digit_2 * 1) + (num_digit_3 * num_digit_4)"
+        ]
+      },
+      "complexity_restrictions": {
+        "ans": {
+          "min_digits": 1,
+          "max_digits": 2
+        }
+      },
+      "restrictions": {
+        "num_digit_1": [
+          "num_digit_1 == total_customers",
+          "ans % 1 == 0",
+          "ans > 0"
+        ]
+      }
+    },
+    "problem_id": "0022",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "The symbolic template uses 'num_digit_1', and the numerical template defines 'num_digit_1'. 'num_ic' is irrelevant and can be ignored.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The range [3, 9] for 'num_digit_1' is reasonable for the problem context, representing the number of centimeters the candle melts per hour. It avoids very small or very large values that might make the problem less engaging.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The problem asks for the total centimeters melted between 1:00 PM and 5:00 PM, which is 4 hours. The equation 'ans = num_digit_1 * 4' correctly calculates the total melted centimeters. For example, if num_digit_1 = 3, then ans = 3 * 4 = 12.",
+    "complexity_valid": false,
+    "complexity_details": "The original answer is 8, which has 1 digit. The complexity restriction specifies that the answer must have between 2 and 2 digits. This is incorrect. It should allow for 1 or 2 digits.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restriction 'ans > 10' ensures that the answer has at least two digits, which aligns with the complexity restriction. The implicit restrictions 'ans % 1 == 0' and 'ans > 0' are also necessary and appropriate.",
+    "suggested_fix": {
+      "complexity_restrictions": {
+        "ans": {
+          "min_digits": 1,
+          "max_digits": 2
+        }
+      }
+    },
+    "problem_id": "0023",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (price) and num_digit_2 (discount percentage) are realistic and appropriate for the problem context. Discount percentages between 10% and 40% are common, and prices between $15 and $45 are reasonable for a book.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: num_digit_1 = 19.50, num_digit_2 = 25.  discount_decimal = 1 - (25 / 100) = 1 - 0.25 = 0.75. ans = 19.50 / 0.75 = 26.00. This matches the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 2, 'max_digits': 3 allows for answers with 2 or 3 digits. The original answer, 26, has 2 digits, so it falls within the allowed complexity.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction 'ans % 1 == 0' is present, ensuring an integer answer. However, the restriction 'ans > 0' is missing. Also, the restriction 'ans > num_digit_1' is present, which is logical in this context (original price should be higher than discounted price).",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_1": [
+          "ans % 1 == 0",
+          "ans > 0",
+          "ans > num_digit_1"
+        ]
+      }
+    },
+    "problem_id": "0024",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3, num_digit_4, num_digit_5, num_digit_6) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as requested.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for the number of pairs of clothing items (num_digit_1, num_digit_2, num_digit_3) are reasonable (3-6 and 2-5). The price ranges for the clothing items (num_digit_4, num_digit_5, num_digit_6) are also realistic.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Using the original values: shorts_total = 3 * 16.50 = 49.50; pants_total = 3 * 22.50 = 67.50; shoes_total = 3 * 42 = 126; ans = 49.50 + 67.50 + 126 = 243. The steps correctly calculate the total cost.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'ans' with min_digits: 3 and max_digits: 3 allows for answers with exactly 3 digits, which is correct for the original answer of 243.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction 'ans % 1 == 0' is present, ensuring an integer answer. However, the restriction 'ans > 150' is present, but the implicit restriction 'ans > 0' is missing. Also, the restriction is on num_digit_6 instead of ans.",
+    "suggested_fix": {
+      "variables": {
+        "num_ic": {
+          "type": "int",
+          "range": [
+            10,
+            99
+          ]
+        }
+      },
+      "restrictions": {
+        "ans": [
+          "ans % 1 == 0",
+          "ans > 150"
+        ]
+      }
+    },
+    "problem_id": "0026",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3) are present in the numerical template's 'variables' section. The numerical template does not contain any extra num_* variables beyond those in the symbolic template (excluding num_ic which is irrelevant).",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (10-25 servings per carton), num_digit_2 ($4-$15 per carton), and num_digit_3 (30-150 days) are realistic and appropriate for the problem context. The range for num_ic is irrelevant and can be ignored.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: num_digit_1 = 15, num_digit_2 = 4, num_digit_3 = 60.  cartons_needed = 60 / 15 = 4. ans = 4 * 4 = 16.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 1, 'max_digits': 3 allows for answers with 1, 2, or 3 digits. The original answer of 16 has 2 digits, which falls within this range.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restrictions 'ans % 1 == 0' ensures an integer answer, and 'cartons_needed % 1 == 0' ensures that the number of cartons needed is a whole number, which is logical for the problem. The template is missing the restriction 'ans > 0'.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_3": [
+          "cartons_needed % 1 == 0"
+        ],
+        "num_digit_2": [
+          "ans % 1 == 0",
+          "ans > 0"
+        ]
+      }
+    },
+    "problem_id": "0027",
+    "status": "validated",
+    "overall_valid": true
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3, num_digit_4, num_digit_5) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as requested.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for each variable seem reasonable within the context of the problem. Prices are within a plausible range, and the number of items are also within a plausible range.",
+    "equation_steps_valid": false,
+    "equation_steps_details": "The equation steps are incorrect. The problem asks how many lego sets John *still* has. The equation steps incorrectly calculate the number of sets sold. The correct calculation should be:\n1. Calculate the total money needed for video games and the remaining amount: money_needed = (num_digit_3 * num_digit_4) + num_digit_5\n2. Calculate how much money John made from selling his lego sets: money_made = num_digit_1 * num_digit_2\n3. Calculate the number of lego sets John still has: ans = num_digit_1 - 0 (since he sold all his lego sets, the answer is always 0. The problem is flawed.)\n\nUsing the original values: num_digit_1 = 13, num_digit_2 = 15, num_digit_3 = 8, num_digit_4 = 20, num_digit_5 = 5\n1. money_needed = (8 * 20) + 5 = 165\n2. sets_sold = 165 / 15 = 11\n3. ans = 13 - 11 = 2\n\nHowever, the problem states that John sells *all* his lego sets. Therefore, the answer should always be 0. The current equation steps and the problem statement are contradictory.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 1, 'max_digits': 2 allows for answers with 1 or 2 digits. The original answer of 2 has 1 digit, so it satisfies the restriction.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction 'money_needed % num_digit_2 == 0' is crucial for ensuring an integer number of sets sold. However, the problem statement says John sells *all* his lego sets. Therefore, the answer should always be 0. The current restrictions and the problem statement are contradictory. Also, the equation steps are incorrect, so the restrictions are based on incorrect logic.",
+    "suggested_fix": {
+      "problem_id": "0037",
+      "generation_order": [
+        "num_digit_2",
+        "num_digit_3",
+        "num_digit_4",
+        "num_digit_5",
+        "num_digit_1",
+        "num_ic"
+      ],
+      "variables": {
+        "num_digit_2": {
+          "type": "int",
+          "range": [
+            10,
+            25
+          ]
+        },
+        "num_digit_3": {
+          "type": "int",
+          "range": [
+            5,
+            15
+          ]
+        },
+        "num_digit_4": {
+          "type": "int",
+          "range": [
+            20,
+            50
+          ]
+        },
+        "num_digit_5": {
+          "type": "int",
+          "range": [
+            5,
+            15
+          ]
+        },
+        "num_digit_1": {
+          "type": "int",
+          "range": [
+            15,
+            40
+          ]
+        },
+        "num_ic": {
+          "type": "int",
+          "range": [
+            10,
+            99
+          ]
+        }
+      },
+      "equation_steps": {
+        "num_digit_1": [
+          "ans = 0"
+        ]
+      },
+      "complexity_restrictions": {
+        "ans": {
+          "min_digits": 1,
+          "max_digits": 1
+        }
+      },
+      "restrictions": {
+        "num_digit_1": [
+          "ans == 0"
+        ]
+      }
+    },
+    "problem_id": "0037",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3) are present in the numerical template's 'variables' section. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (50-150), num_digit_2 (150-300), and num_digit_3 (10-50) are realistic and appropriate for the problem context. They represent the number of post-it notes Candice starts with, the number of coffees she puts notes on, and the number of notes she has remaining, respectively.",
+    "equation_steps_valid": false,
+    "equation_steps_details": "The equation steps are incorrect. The problem asks for the number of post-it notes in the package she purchased. The correct equation should be: package_size = num_digit_2 + num_digit_3 - num_digit_1.  Therefore, the equation step should calculate 'ans' as num_digit_2 + num_digit_3 - num_digit_1. Using the original values: 220 + 23 - 80 = 163. The current equation calculates ans = num_digit_3 + num_digit_2 - num_digit_1 which is the same, but the description says the equation is for num_digit_3, which is incorrect.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'ans' with min_digits: 2 and max_digits: 3 is valid because the original answer (163) has 3 digits, which falls within the specified range.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restrictions 'ans > 0' and 'ans % 1 == 0' are valid. 'ans > 0' ensures a positive answer, and 'ans % 1 == 0' ensures an integer answer, which is necessary for the context of counting post-it notes.",
+    "suggested_fix": {
+      "equation_steps": {
+        "num_digit_3": [
+          "ans = num_digit_2 + num_digit_3 - num_digit_1"
+        ]
+      }
+    },
+    "problem_id": "0046",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_digit_1, num_digit_2, and num_digit_3 variables in the symbolic template are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for each variable seem reasonable within the context of the problem. The weight of the bridge (num_digit_1) is between 4000 and 6000 pounds, the weight of each box (num_digit_2) is between 10 and 25 pounds, and the weight of the truck and driver (num_digit_3) is between 3000 and 3900 pounds. These values are realistic.",
+    "equation_steps_valid": false,
+    "equation_steps_details": "The equation steps are incorrect. The available capacity is calculated correctly as num_digit_1 - num_digit_3. However, the calculation of 'ans' should involve integer division (floor division) to find the maximum number of boxes. The current template does not guarantee an integer answer without the restrictions. Using the original values: num_digit_1 = 5000, num_digit_2 = 15, num_digit_3 = 3755. available_capacity = 5000 - 3755 = 1245. ans = 1245 / 15 = 83. The current restrictions ensure an integer answer, but the equation steps should explicitly use floor division to be more robust.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 1, 'max_digits': 3 allows for answers with 1, 2, or 3 digits. The original answer of 83 has 2 digits, which falls within this range.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restrictions are generally good. 'ans % 1 == 0' ensures an integer answer, 'ans > 0' ensures a positive answer, and 'available_capacity > 0' is a logical constraint. 'available_capacity % num_digit_2 == 0' is a strong restriction that guarantees an integer answer, but it might be too restrictive and limit the possible problem variations. It is better to use floor division in the equation steps and remove this restriction.",
+    "suggested_fix": {
+      "equation_steps": {
+        "num_digit_3": [
+          "available_capacity = num_digit_1 - num_digit_3"
+        ],
+        "num_digit_2": [
+          "ans = floor(available_capacity / num_digit_2)"
+        ]
+      },
+      "restrictions": {
+        "num_digit_3": [
+          "available_capacity > 0"
+        ],
+        "num_digit_2": [
+          "ans > 0",
+          "ans % 1 == 0"
+        ]
+      }
+    },
+    "problem_id": "0057",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": false,
+    "variable_correspondence_details": "The symbolic template contains 'num_digit_1' which is missing from the numerical template. The numerical template contains 'num_ic' which is not in the symbolic template and should be ignored.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for each variable seem reasonable within the context of the problem. The number of years worked, percentage, and pension amounts are all within plausible ranges.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: num_digit_3 = 20, num_digit_6 = 30, num_digit_4 = 5, num_digit_2 = 50000.  years_accrued = 30 - 20 = 10. total_percentage = 10 * 5 = 50. ans = 50000 * (50 / 100) = 25000.",
+    "complexity_valid": true,
+    "complexity_details": "The original answer (25000) has 5 digits. The complexity restriction 'min_digits': 4, 'max_digits': 6 allows for answers with 4, 5, or 6 digits, which is sufficient.",
+    "restrictions_valid": true,
+    "restrictions_details": "All restrictions are logical and necessary. 'num_digit_6 > num_digit_3' ensures a positive number of years accrued. '(num_digit_2 * total_percentage) % 100 == 0' ensures the pension calculation results in a whole number. 'ans > 0' ensures a positive pension amount. 'ans % 1 == 0' ensures the answer is an integer.",
+    "suggested_fix": {
+      "variables": {
+        "num_digit_1": {
+          "type": "int",
+          "range": [
+            30,
+            50
+          ]
+        },
+        "num_digit_3": {
+          "type": "int",
+          "range": [
+            10,
+            25
+          ]
+        },
+        "num_digit_6": {
+          "type": "int",
+          "range": [
+            26,
+            39
+          ]
+        },
+        "num_digit_4": {
+          "type": "int",
+          "range": [
+            2,
+            10
+          ]
+        },
+        "num_digit_2": {
+          "type": "int",
+          "range": [
+            30000,
+            80000
+          ]
+        }
+      },
+      "generation_order": [
+        "num_digit_3",
+        "num_digit_6",
+        "num_digit_4",
+        "num_digit_2",
+        "num_digit_1"
+      ]
+    },
+    "problem_id": "0062",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (8-24) and num_digit_2 (16-64) seem reasonable within the context of the problem. They allow for a variety of can sizes and sauce amounts.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps are logically sound. Let's trace with the original values: num_digit_1 = 16, num_digit_2 = 32. \n1. original_volume = 32 * 2 = 64\n2. number_of_cans = 64 / 16 = 4\n3. ans = 4 * 3 = 12. This matches the original answer.",
+    "complexity_valid": false,
+    "complexity_details": "The complexity restriction 'ans': { 'min_digits': 1, 'max_digits': 2 } only allows for answers with 1 or 2 digits. The original answer is 12, which has 2 digits. However, the problem generation should allow for more variation. The original answer is 12, which has 2 digits. The complexity restriction is valid for the original answer, but it is too restrictive for generating new problems. It should allow for more digits.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restrictions are appropriate. 'ans % 1 == 0' ensures an integer answer, 'ans > 0' ensures a positive answer, and '(num_digit_2 * 2) % num_digit_1 == 0' ensures that the number of cans is an integer.",
+    "suggested_fix": {
+      "complexity_restrictions": {
+        "ans": {
+          "min_digits": 1,
+          "max_digits": 3
+        }
+      }
+    },
+    "problem_id": "0097",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3, num_digit_4, num_digit_6) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for each variable seem reasonable within the context of the problem. The number of cars should be positive and within a plausible range.",
+    "equation_steps_valid": false,
+    "equation_steps_details": "The equation steps are incorrect. The problem asks for the number of cars that drove through in the *first* 15 minutes, which is represented by `num_digit_1`. The provided equation steps calculate something else entirely. Using the original values: remaining_after_exit = 30 - 5 = 25; ans = 25 - 20 = 5. This is not the number of cars that drove through in the first 15 minutes (which should be 15).",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'ans' allows for 1 to 3 digits, which is appropriate given the ranges of the input variables and the intended calculation.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restrictions are logical. 'ans % 1 == 0' ensures an integer answer, 'ans > 0' ensures a positive answer, and 'num_digit_6 > (num_digit_4 + num_digit_2)' ensures that the number of cars remaining after the exit and the second group driving through is positive.",
+    "suggested_fix": {
+      "equation_steps": {
+        "num_digit_1": [
+          "ans = num_digit_1"
+        ]
+      }
+    },
+    "problem_id": "0098",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3, num_digit_4) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as requested.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for each variable seem reasonable within the context of the problem. num_digit_1 is fixed at 4, which represents the number of friends. num_digit_2, num_digit_3, and num_digit_4 have ranges that allow for a variety of doorbell ring counts.",
+    "equation_steps_valid": false,
+    "equation_steps_details": "The equation steps are incorrect. The problem states that the first friend pressed the doorbell num_digit_2 times, the second friend pressed it 1/4 *more* than the first, the third friend pressed it num_digit_3 *more* than the fourth, and the fourth friend pressed it num_digit_4 times. The total number of rings should be the sum of all these rings. The current equation only sums the rings of the first, second, third, and fourth friends. It does not account for the number of friends Jerome has. The number of friends is num_digit_1, which is 4. The equation should calculate the total number of rings as f1 + f2 + f3 + f4. Using the original values: num_digit_2 = 20, num_digit_4 = 60, num_digit_3 = 10. f1 = 20, f2 = 20 * 1.25 = 25, f4 = 60, f3 = 60 + 10 = 70. ans = 20 + 25 + 70 + 60 = 175. However, the problem states that Jerome has 4 friends. The equation steps only account for the doorbell rings of the first, second, third, and fourth friends. The problem asks for the total number of doorbell rings, which is the sum of the rings from each friend. The current equation steps are correct for the given problem statement, but the problem statement is misleading. The problem statement should be changed to reflect that only 4 friends rang the doorbell.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 2, 'max_digits': 4 allows for answers with 2, 3, or 4 digits. The original answer, 175, has 3 digits, so it falls within the allowed range.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restrictions 'ans > 0' and 'ans % 1 == 0' are necessary and appropriate to ensure a positive integer answer. The restriction 'num_digit_2 % 4 == 0' is also appropriate as it ensures that 1/4 of num_digit_2 is an integer.",
+    "suggested_fix": {
+      "equation_steps": {
+        "num_digit_2": [
+          "f1 = num_digit_2",
+          "f2 = f1 * 1.25"
+        ],
+        "num_digit_4": [
+          "f4 = num_digit_4"
+        ],
+        "num_digit_3": [
+          "f3 = f4 + num_digit_3",
+          "ans = f1 + f2 + f3 + f4"
+        ]
+      }
+    },
+    "problem_id": "0100",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3, num_digit_4, num_digit_5) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as requested.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for each variable seem reasonable. The dimensions of the boxes (num_digit_2, num_digit_3, num_digit_4) are between 6 and 20 inches, the wall thickness (num_digit_5) is 1 or 2 inches, and the number of boxes (num_digit_1) is between 2 and 10. These values are realistic for the problem context.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace the calculation with the original values: num_digit_1 = 3, num_digit_2 = 5, num_digit_3 = 6, num_digit_4 = 4, num_digit_5 = 1.\n\ninner_l = 5 - (2 * 1) = 3\ninner_w = 6 - (2 * 1) = 4\ninner_h = 4 - (2 * 1) = 2\nvol_one = 3 * 4 * 2 = 24\nans = 3 * 24 = 72\n\nThe calculation matches the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 1, 'max_digits': 5 allows for answers with 1, 2, 3, 4, or 5 digits. The original answer of 72 has 2 digits, so it falls within the allowed range.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restrictions 'num_digit_2 > (2 * num_digit_5)', 'num_digit_3 > (2 * num_digit_5)', 'num_digit_4 > (2 * num_digit_5)' ensure that the inner dimensions are positive. The restriction 'ans > 0' ensures a positive answer. The implicit restriction 'ans % 1 == 0' is also necessary to ensure an integer answer, but it is not explicitly included. It should be added.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_5": [
+          "num_digit_2 > (2 * num_digit_5)",
+          "num_digit_3 > (2 * num_digit_5)",
+          "num_digit_4 > (2 * num_digit_5)",
+          "ans > 0",
+          "ans % 1 == 0"
+        ]
+      }
+    },
+    "problem_id": "0106",
+    "status": "validated",
+    "overall_valid": true
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3) are present in the numerical template's 'variables' section. The num_ic variable is correctly ignored.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for the variables are realistic and appropriate for the problem context. Gas prices between $2.50 and $5.00 are reasonable, cashback between $0.10 and $0.50 is also reasonable, and buying between 10 and 30 gallons of gas is a plausible scenario.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Using the original values: num_digit_1 = 3.00, num_digit_2 = 0.20, num_digit_3 = 10.  net_price_per_gallon = 3.00 - 0.20 = 2.80. ans = 2.80 * 10 = 28.00. The steps are correct.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'ans': {'min_digits': 1, 'max_digits': 3} is valid because the original answer, 28, has 2 digits, which falls within the allowed range.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction '((num_digit_1 - num_digit_2) * num_digit_3) % 1 == 0' is not sufficient to guarantee an integer answer. While it ensures the result is a whole number, it doesn't guarantee it will be an integer. The correct restriction should be 'ans % 1 == 0'. Also, the restriction is under the wrong key. It should be under 'ans' not 'num_digit_3'.",
+    "suggested_fix": {
+      "restrictions": {
+        "ans": [
+          "ans % 1 == 0",
+          "ans > 0"
+        ]
+      },
+      "restrictions_details": "Move the restrictions to the 'ans' key and ensure 'ans % 1 == 0' is included."
+    },
+    "problem_id": "0109",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template are present in the numerical template's 'variables' section, and vice versa (excluding num_ic).",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for each variable seem reasonable within the context of the problem. The lumber price increase percentage is between 10% and 100%. The costs of the boards are also within a plausible range.",
+    "equation_steps_valid": false,
+    "equation_steps_details": "The equation steps are incorrect. The problem asks for the profit, which is the selling price minus the cost. The provided steps only calculate the increase in value, not the actual profit.  Using the original values: total_cost = (10 * 10) + (5 * 16) = 100 + 80 = 180. ans = 180 * (50 / 100) = 90. This only calculates the increase in value, not the profit. The problem doesn't specify a selling price, only the percentage increase in lumber prices. To calculate the profit, we need to assume Sasha sells the lumber at the increased price. The correct equation should be: total_cost = (10 * 10) + (5 * 16) = 180. selling_price = total_cost * (1 + (num_digit_1 / 100)). profit = selling_price - total_cost = total_cost * (num_digit_1 / 100).",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction allows for 1 to 3 digits. The original answer has 2 digits, so it falls within the allowed range.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction 'ans % 1 == 0' is missing. This is crucial to ensure the answer is an integer. Also, the current restrictions are not sufficient to guarantee a valid problem. The restriction '(total_cost * num_digit_1) % 100 == 0' is good for ensuring an integer answer, but it's already implied by the equation steps and the 'ans % 1 == 0' restriction. The restriction 'ans > 0' is already included.",
+    "suggested_fix": {
+      "variables": {
+        "num_digit_1": {
+          "type": "int",
+          "range": [
+            10,
+            100
+          ]
+        },
+        "num_digit_5": {
+          "type": "int",
+          "range": [
+            5,
+            20
+          ]
+        },
+        "num_digit_9": {
+          "type": "int",
+          "range": [
+            10,
+            30
+          ]
+        },
+        "num_digit_2": {
+          "type": "int",
+          "range": [
+            2,
+            2
+          ]
+        },
+        "num_digit_3": {
+          "type": "int",
+          "range": [
+            4,
+            4
+          ]
+        },
+        "num_digit_4": {
+          "type": "int",
+          "range": [
+            8,
+            12
+          ]
+        },
+        "num_digit_6": {
+          "type": "int",
+          "range": [
+            4,
+            4
+          ]
+        },
+        "num_digit_7": {
+          "type": "int",
+          "range": [
+            4,
+            4
+          ]
+        },
+        "num_digit_8": {
+          "type": "int",
+          "range": [
+            8,
+            12
+          ]
+        },
+        "num_ic": {
+          "type": "int",
+          "range": [
+            10,
+            99
+          ]
+        }
+      },
+      "equation_steps": {
+        "num_digit_1": [
+          "total_cost = (10 * num_digit_5) + (5 * num_digit_9)",
+          "ans = total_cost * (num_digit_1 / 100)"
+        ]
+      },
+      "complexity_restrictions": {
+        "ans": {
+          "min_digits": 1,
+          "max_digits": 3
+        }
+      },
+      "restrictions": {
+        "num_digit_1": [
+          "ans % 1 == 0",
+          "ans > 0"
+        ]
+      }
+    },
+    "problem_id": "0115",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3) exist in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (1-3), num_digit_2 (2-5), and num_digit_3 (40-120) are realistic and appropriate for the problem context. The number of pairs of shoes, number of children, and cost per pair are all within reasonable bounds.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Using the original values: num_digit_1 = 2, num_digit_2 = 3, num_digit_3 = 60.  total_pairs = 2 * 3 = 6. ans = 6 * 60 = 360. This matches the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'ans' with min_digits: 2 and max_digits: 4 allows for answers with 2, 3, or 4 digits. The original answer of 360 has 3 digits, which falls within this range.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restriction 'ans > 0' is included and ensures a positive answer. The implicit restriction 'ans % 1 == 0' is not explicitly included, but should be to ensure an integer answer.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_3": [
+          "ans > 0",
+          "ans % 1 == 0"
+        ]
+      }
+    },
+    "problem_id": "0117",
+    "status": "validated",
+    "overall_valid": true
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (4-15) and num_digit_2 (10-30) are reasonable for the problem context. They represent the number of spoons bought and the total number of spoons, respectively.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: num_digit_1 = 5, num_digit_2 = 12.  subtotal_with_used = 12 + 3 = 15. ans = 15 - 5 = 10. This matches the original answer.",
+    "complexity_valid": false,
+    "complexity_details": "The complexity restriction 'ans': { 'min_digits': 1, 'max_digits': 2 } only allows for answers with 1 or 2 digits. The original answer is 10 which has 2 digits, so this is correct. However, the prompt states 'The original answer is 10 which has 2 digits. The 'ans' complexity restriction should allow for 2, 3, or 4 digits. Does it?' This is incorrect. The complexity restriction is correct for the original answer, but the prompt is asking if it allows for 2, 3, or 4 digits, which it does not.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restrictions are valid. 'ans % 1 == 0' ensures an integer answer, 'ans > 0' ensures a positive answer, and 'subtotal_with_used > num_digit_1' ensures that the number of spoons Julia bought is less than the total number of spoons after using some and receiving more from her husband, which is logical. 'ans > 0' is also necessary to ensure a valid number of spoons.",
+    "suggested_fix": {
+      "complexity_restrictions": {
+        "ans": {
+          "min_digits": 1,
+          "max_digits": 2
+        }
+      }
+    },
+    "problem_id": "0125",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "The symbolic template uses 'num_digit_1', and the numerical template defines 'num_digit_1'. 'num_ic' is irrelevant and can be ignored.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The range for num_digit_1 (9-99) is reasonable for the problem context. It represents the total number of unicorns.",
+    "equation_steps_valid": false,
+    "equation_steps_details": "The equation steps are incorrect. The original problem states that one third of the unicorns are in the Scottish Highlands, and two thirds of *those* are female. The current steps calculate two thirds of the *total* number of unicorns.  Using the original value of 27: scottish_unicorns = 27 / 3 = 9. ans = 9 * (2 / 3) = 6. This happens to work with the original answer, but the logic is flawed.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 1, 'max_digits': 2 allows for answers with 1 or 2 digits, which is appropriate for the original answer of 6.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restrictions are logical. 'num_digit_1 % 9 == 0' ensures that the number of unicorns is divisible by 3 and then by 3 again, resulting in an integer answer. 'ans > 0' ensures a positive answer. 'ans % 1 == 0' ensures an integer answer.",
+    "suggested_fix": {
+      "equation_steps": {
+        "num_digit_1": [
+          "scottish_unicorns = num_digit_1 / 3",
+          "female_scottish_unicorns = scottish_unicorns * (2 / 3)",
+          "ans = female_scottish_unicorns"
+        ]
+      }
+    },
+    "problem_id": "0136",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1 to num_digit_8) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges and constructions for each variable appear reasonable within the context of the problem. The prices and quantities are realistic.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: num_digit_1 = 2, num_digit_2 = 7.50, num_digit_3 = 2, num_digit_4 = 1.50, num_digit_5 = 2, num_digit_6 = 1.00, num_digit_7 = 20, num_digit_8 = 5.00. \n1. subtotal = (2 * 7.50) + (2 * 1.50) + (2 * 1.00) = 15 + 3 + 2 = 20\n2. delivery_fee = 20 * (20 / 100) = 20 * 0.2 = 4\n3. ans = 20 + 4 + 5 = 29. This matches the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'ans' with min_digits: 1 and max_digits: 3 allows for answers with 1, 2, or 3 digits. The original answer, 29, has 2 digits, so it satisfies the restriction.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction 'delivery_fee % 0.5 == 0' is present, which is good. The restriction 'ans % 0.5 == 0' is present, which is good. The restriction 'ans > 0' is present, which is good. However, the problem involves money, so it is important to ensure the answer is an integer or has at most two decimal places. The restriction 'ans % 1 == 0' is missing. This should be added to ensure the answer is a whole number.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_8": [
+          "delivery_fee % 0.5 == 0",
+          "ans % 0.5 == 0",
+          "ans > 0",
+          "ans % 1 == 0"
+        ]
+      }
+    },
+    "problem_id": "0137",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3, num_digit_4, num_digit_5, num_digit_6) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as requested.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for each variable seem reasonable within the context of the problem. Prices for milk and eggs are low, while prices for light bulbs, cups, and roach traps are higher. The tax percentage is also within a plausible range.",
+    "equation_steps_valid": false,
+    "equation_steps_details": "The equation steps are incorrect. Using the original values: num_digit_1 = 2, num_digit_2 = 3, num_digit_3 = 3, num_digit_4 = 3, num_digit_5 = 4, num_digit_6 = 10.  food_cost = 2 + 3 = 5. non_food_cost = 3 + 3 + 4 = 10. tax_amount = (10 * 10) / 100 = 1. ans = 5 + 10 + 1 = 16. This matches the original answer. However, the restriction (non_food_cost * num_digit_6) % 100 == 0 is not always true. For example, if num_digit_3 = 2, num_digit_4 = 3, num_digit_5 = 4, and num_digit_6 = 7, then non_food_cost = 9, and (9 * 7) % 100 = 63 != 0. The restriction should be modified to ensure the tax amount is an integer.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 1, 'max_digits': 3 allows for answers with 1, 2, or 3 digits. The original answer, 16, has 2 digits, which falls within this range.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction (non_food_cost * num_digit_6) % 100 == 0 is too restrictive and prevents many valid combinations. It should be changed to ensure the tax amount is an integer, but not necessarily a whole number of dollars. A better restriction would be (non_food_cost * num_digit_6) % 100 == 0 or (non_food_cost * num_digit_6) % 100 != 0",
+    "suggested_fix": {
+      "variables": {
+        "num_digit_1": {
+          "type": "int",
+          "range": [
+            1,
+            5
+          ]
+        },
+        "num_digit_2": {
+          "type": "int",
+          "range": [
+            1,
+            5
+          ]
+        },
+        "num_digit_3": {
+          "type": "int",
+          "range": [
+            2,
+            10
+          ]
+        },
+        "num_digit_4": {
+          "type": "int",
+          "range": [
+            2,
+            10
+          ]
+        },
+        "num_digit_5": {
+          "type": "int",
+          "range": [
+            2,
+            10
+          ]
+        },
+        "num_digit_6": {
+          "type": "int",
+          "range": [
+            5,
+            25
+          ]
+        },
+        "num_ic": {
+          "type": "int",
+          "range": [
+            10,
+            99
+          ]
+        }
+      },
+      "equation_steps": {
+        "num_digit_6": [
+          "food_cost = num_digit_1 + num_digit_2",
+          "non_food_cost = num_digit_3 + num_digit_4 + num_digit_5",
+          "tax_amount = (non_food_cost * num_digit_6) / 100",
+          "ans = food_cost + non_food_cost + tax_amount"
+        ]
+      },
+      "complexity_restrictions": {
+        "ans": {
+          "min_digits": 1,
+          "max_digits": 3
+        }
+      },
+      "restrictions": {
+        "num_digit_6": [
+          "ans > 0",
+          "ans % 1 == 0"
+        ]
+      }
+    },
+    "problem_id": "0143",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3) are present in the numerical template's 'variables' section. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (100-1000), num_digit_2 (1-10), and num_digit_3 (2-12) are realistic and appropriate for the problem context. They allow for reasonable variations in the loan amount, interest rate, and repayment period.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: num_digit_1 = 100, num_digit_2 = 2, num_digit_3 = 3. \n1. monthly_interest_rate = 2 / 100 = 0.02\n2. total_interest = 100 * 0.02 * 3 = 6\n3. ans = 100 + 6 = 106. This matches the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 3, 'max_digits': 5 allows for answers with 3, 4, or 5 digits. The original answer (106) has 3 digits, so it satisfies the complexity restriction.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction 'ans > num_digit_1' is present and logical. The restriction '(num_digit_1 * num_digit_2 * num_digit_3) % 100 == 0' is present and problem-specific. The restriction 'ans % 1 == 0' is present and ensures an integer answer. However, the restriction 'ans > 0' is missing. This is a crucial restriction to ensure a positive answer, which is necessary for this problem context.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_3": [
+          "(num_digit_1 * num_digit_2 * num_digit_3) % 100 == 0",
+          "ans > num_digit_1",
+          "ans % 1 == 0",
+          "ans > 0"
+        ]
+      }
+    },
+    "problem_id": "0187",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": false,
+    "variable_correspondence_details": "The symbolic template uses num_digit_1, num_digit_2, num_digit_3, num_digit_4, and num_digit_5. The numerical template defines num_digit_1, num_digit_3, num_digit_4, and num_digit_5, but is missing num_digit_2. num_ic is irrelevant and can be ignored.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1, num_digit_3, num_digit_4, and num_digit_5 seem reasonable within the context of the problem. The precisions are also appropriate.",
+    "equation_steps_valid": false,
+    "equation_steps_details": "The equation steps are incorrect. The problem states that three friends spent ${num_digit_1, 20.25} *in total* on tickets. The current equation assumes that ${num_digit_1, 20.25} is the cost per ticket. The correct equation should be: ticket_cost = num_digit_1; food_cost = num_digit_1 - num_digit_3; ride_cost = num_digit_4 * num_digit_5; total_cost = ticket_cost + food_cost + ride_cost; ans = total_cost / 3. Using the original values: ticket_cost = 20.25; food_cost = 20.25 - 4.50 = 15.75; ride_cost = 2 * 33 = 66; total_cost = 20.25 + 15.75 + 66 = 102; ans = 102 / 3 = 34.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 1, 'max_digits': 3 allows for answers with 1, 2, or 3 digits. The original answer is 34, which has 2 digits, so the complexity restriction is valid.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction 'ticket_cost > num_digit_3' is incorrect. It should be 'num_digit_1 > num_digit_3' or 'ticket_cost > food_cost'. Also, the restriction 'total_cost % 3 == 0' is good, but it should be checked *before* calculating the answer to avoid generating unsolvable problems. The restriction should be on the variables themselves, not on derived values.",
+    "suggested_fix": {
+      "problem_id": "0189",
+      "generation_order": [
+        "num_digit_1",
+        "num_digit_3",
+        "num_digit_4",
+        "num_digit_5",
+        "num_ic"
+      ],
+      "variables": {
+        "num_digit_1": {
+          "type": "float",
+          "range": [
+            15.0,
+            45.0
+          ],
+          "precision": 2
+        },
+        "num_digit_3": {
+          "type": "float",
+          "range": [
+            2.0,
+            10.0
+          ],
+          "precision": 2
+        },
+        "num_digit_4": {
+          "type": "int",
+          "range": [
+            2,
+            5
+          ]
+        },
+        "num_digit_5": {
+          "type": "int",
+          "range": [
+            5,
+            40
+          ]
+        },
+        "num_ic": {
+          "type": "int",
+          "range": [
+            10,
+            99
+          ]
+        }
+      },
+      "equation_steps": {
+        "num_digit_5": [
+          "ticket_cost = num_digit_1",
+          "food_cost = num_digit_1 - num_digit_3",
+          "ride_cost = num_digit_4 * num_digit_5",
+          "total_cost = ticket_cost + food_cost + ride_cost",
+          "ans = total_cost / 3"
+        ]
+      },
+      "complexity_restrictions": {
+        "ans": {
+          "min_digits": 1,
+          "max_digits": 3
+        }
+      },
+      "restrictions": {
+        "num_digit_5": [
+          "num_digit_1 > num_digit_3",
+          "(num_digit_1 + (num_digit_1 - num_digit_3) + (num_digit_4 * num_digit_5)) % 3 == 0",
+          "ans > 0",
+          "ans % 1 == 0"
+        ]
+      }
+    },
+    "problem_id": "0189",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for the variables are realistic and appropriate for the problem context. The cost of a pencil and eraser are within reasonable bounds, and the number of pens purchased is also within a sensible range.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Using the original values: pen_price = 1.20 + 0.30 = 1.50. ans = 1.50 * 8 = 12.00. The steps correctly calculate the total cost of the pens.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'ans' with min_digits=1 and max_digits=3 allows for answers with 1, 2, or 3 digits. The original answer of 12 has 2 digits, which falls within the allowed range.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction '((num_digit_1 + num_digit_2) * num_digit_3) % 1 == 0' is present, and 'ans > 0' is also present. However, the template is missing the crucial restriction 'ans % 1 == 0' to ensure the final answer is an integer. While the existing restriction ensures the intermediate calculation (pen_price * num_digit_3) is an integer, it doesn't guarantee that the final answer, 'ans', is an integer if further calculations were to be added in the future.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_3": [
+          "((num_digit_1 + num_digit_2) * num_digit_3) % 1 == 0",
+          "ans > 0"
+        ],
+        "ans": [
+          "ans % 1 == 0"
+        ]
+      }
+    },
+    "problem_id": "0195",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3) exist in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (100-500), num_digit_2 (10-50), and num_digit_3 (1-5) are realistic and appropriate for the problem context. They represent the total pounds of carrots, the number of restaurants, and the pounds of carrots per restaurant, respectively.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Using the original values: total_distributed = 40 * 2 = 80. ans = 200 - 80 = 120. This matches the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'ans': {'min_digits': 1, 'max_digits': 3} allows for answers with 1, 2, or 3 digits. The original answer, 120, has 3 digits, so the complexity restriction is valid.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction 'ans >= 0' is present, but 'ans > 0' is not explicitly included. While 'ans >= 0' is present, it's better to explicitly state 'ans > 0' to ensure a strictly positive answer. Also, the restriction 'ans % 1 == 0' is present, ensuring an integer answer.",
+    "suggested_fix": {
+      "variables": {
+        "num_digit_1": {
+          "type": "int",
+          "range": [
+            100,
+            500
+          ]
+        },
+        "num_digit_2": {
+          "type": "int",
+          "range": [
+            10,
+            50
+          ]
+        },
+        "num_digit_3": {
+          "type": "int",
+          "range": [
+            1,
+            5
+          ]
+        },
+        "num_ic": {
+          "type": "int",
+          "range": [
+            10,
+            99
+          ]
+        }
+      },
+      "equation_steps": {
+        "num_digit_3": [
+          "total_distributed = num_digit_2 * num_digit_3",
+          "ans = num_digit_1 - total_distributed"
+        ]
+      },
+      "complexity_restrictions": {
+        "ans": {
+          "min_digits": 1,
+          "max_digits": 3
+        }
+      },
+      "restrictions": {
+        "num_digit_3": [
+          "num_digit_1 > (num_digit_2 * num_digit_3)",
+          "ans > 0",
+          "ans % 1 == 0"
+        ]
+      }
+    },
+    "problem_id": "0196",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (500-3000) and num_digit_2 (2000-8000) seem reasonable in the context of the problem. They allow for a variety of costs for plates and discounts for cups.",
+    "equation_steps_valid": false,
+    "equation_steps_details": "The equation steps are incorrect. The problem states that the cups cost LESS than the plates. Therefore, the total cost of the cups should be calculated by subtracting the discount from the total cost of the plates. The final step should divide the cost of the cups by the number of cups (240) to find the cost of each cup.  Using the original values: total_plates = 6 * 6000 = 36000; total_cups_cost = 36000 - 1200 = 34800; ans = 34800 / 240 = 145. The current equation calculates the total cost of the cups instead of the cost of each cup.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'ans' allows for a minimum of 3 digits and a maximum of 4 digits. The original answer, 145, has 3 digits, which falls within the allowed range.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction list is missing the crucial 'ans % 1 == 0' restriction to ensure an integer answer. Also, the current restrictions are placed under 'num_digit_1' which is incorrect. They should be under the 'restrictions' key.",
+    "suggested_fix": {
+      "equation_steps": {
+        "num_digit_1": [
+          "total_plates = 6 * num_digit_2",
+          "total_cups_cost = total_plates - num_digit_1",
+          "ans = total_cups_cost / 240"
+        ]
+      },
+      "restrictions": {
+        "all": [
+          "(6 * num_digit_2 - num_digit_1) % 240 == 0",
+          "total_plates = 6 * num_digit_2",
+          "total_plates > num_digit_1",
+          "ans > 0",
+          "ans % 1 == 0"
+        ]
+      }
+    },
+    "problem_id": "0209",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3, num_digit_4, num_digit_5, num_digit_6, num_digit_7) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for each variable seem reasonable within the context of the problem. The cost of items and earnings from babysitting/mowing are within plausible ranges.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: num_digit_1 = 2, num_digit_2 = 30, num_digit_3 = 20, num_digit_4 = 4, num_digit_5 = 5, num_digit_6 = 4, num_digit_7 = 10. \n1. total_expenses = 30 + (2 * 20) = 30 + 40 = 70\n2. current_funds = 10 + (4 * 5) = 10 + 20 = 30\n3. amount_needed = 70 - 30 = 40\n4. ans = 40 / 4 = 10. This matches the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'max_digits': 2 allows for answers with 1 or 2 digits. The original answer of 10 has 2 digits, so the restriction is valid.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restrictions are missing the required 'ans % 1 == 0' and 'ans > 0'. While the existing restrictions are problem-specific and logical, the two mandatory restrictions are absent.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_6": [
+          "total_expenses > current_funds",
+          "amount_needed % num_digit_6 == 0",
+          "ans >= 0",
+          "ans % 1 == 0",
+          "ans > 0"
+        ]
+      }
+    },
+    "problem_id": "0210",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (0.5-5.0 miles), num_digit_2 (2-10 miles), and num_digit_3 (2-5 miles/hour) are realistic and appropriate for the problem context. Using a float for num_digit_1 is also appropriate.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer.  Let's trace with the original values: num_digit_1 = 1.5, num_digit_2 = 6, num_digit_3 = 3.  perimeter = 2 * (1.5 + 6) = 2 * 7.5 = 15. ans = 15 / 3 = 5. This matches the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The original answer is 5, which has 1 digit. The complexity restriction 'min_digits': 1, 'max_digits': 3 allows for answers with 1, 2, or 3 digits, so it is valid.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction `(2 * (num_digit_1 + num_digit_2)) % num_digit_3 == 0` is present, and `ans > 0` is present. However, the crucial restriction `ans % 1 == 0` (ensuring an integer answer) is missing. This is important because the problem asks for the number of *hours* spent walking, which should be a whole number in this context.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_3": [
+          "(2 * (num_digit_1 + num_digit_2)) % num_digit_3 == 0",
+          "ans > 0",
+          "ans % 1 == 0"
+        ]
+      }
+    },
+    "problem_id": "0212",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2) exist in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (2-10) and num_digit_2 (2-15) are reasonable for the problem context. They represent the leak rate in gallons/minute and the time elapsed in minutes, respectively. The range for num_ic is irrelevant.",
+    "equation_steps_valid": false,
+    "equation_steps_details": "The equation steps are incorrect. The problem states that the big pool had twice as much water as the small pool 'num_digit_2' minutes ago, and now has four times as much. Let 's' be the current amount of water in the small pool, and 'b' be the current amount of water in the big pool. We know b = 4s. 'num_digit_1' is the leak rate for both pools. The amount of water leaked from the small pool in 'num_digit_2' minutes is num_digit_1 * num_digit_2. The amount of water leaked from the big pool in 'num_digit_2' minutes is also num_digit_1 * num_digit_2. 'num_digit_2' minutes ago, the small pool had s + (num_digit_1 * num_digit_2) water, and the big pool had b + (num_digit_1 * num_digit_2) water. We know that b + (num_digit_1 * num_digit_2) = 2 * (s + (num_digit_1 * num_digit_2)). Substituting b = 4s, we get 4s + (num_digit_1 * num_digit_2) = 2s + 2 * (num_digit_1 * num_digit_2). This simplifies to 2s = num_digit_1 * num_digit_2, so s = (num_digit_1 * num_digit_2) / 2.  With the original values, num_digit_1 = 4 and num_digit_2 = 4.  s = (4 * 4) / 2 = 8. The current equation steps do lead to the correct answer for the original values, but the logic is not explained in the context of the problem. The equation steps should be updated to reflect the problem's logic.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 1, 'max_digits': 3 allows for answers with 1, 2, or 3 digits. The original answer, 8, has 1 digit, so it satisfies the restriction.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restrictions include '(num_digit_1 * num_digit_2) % 2 == 0' which ensures that the answer is an integer, and 'ans > 0' which ensures a positive answer. These are appropriate.",
+    "suggested_fix": {
+      "equation_steps": {
+        "num_digit_2": [
+          "leak_total = num_digit_1 * num_digit_2",
+          "ans = leak_total / 2"
+        ]
+      }
+    },
+    "problem_id": "0214",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3, num_digit_4) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for each variable seem reasonable within the context of the problem. The borrowed amount (num_digit_1) is between $1000 and $5000, the interest rate (num_digit_2) is between 5% and 20%, the monthly payment (num_digit_3) is between $100 and $400, and the number of months (num_digit_4) is between 6 and 24.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: num_digit_1 = 2000, num_digit_2 = 10, num_digit_3 = 165, num_digit_4 = 12. \n1. total_debt = 2000 * (1 + 10/100) = 2000 * 1.1 = 2200\n2. total_paid = 165 * 12 = 1980\n3. ans = 2200 - 1980 = 220. This matches the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 3, 'max_digits': 4 allows for answers with 3 or 4 digits. The original answer (220) has 3 digits, so it falls within the allowed complexity.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction 'ans > 0' is present, but 'ans % 1 == 0' is missing. Also, the restriction '(num_digit_1 * num_digit_2) % 100 == 0' is not always necessary and might overly restrict the possible values. It seems intended to ensure the interest calculation results in a whole number, but this is already implicitly handled by the integer type of num_digit_1 and num_digit_2 and the final answer being an integer.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_3": [
+          "ans > 0",
+          "total_debt > total_paid"
+        ],
+        "ans": [
+          "ans % 1 == 0"
+        ]
+      }
+    },
+    "problem_id": "0216",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "The symbolic template uses 'num_digit_1', and the numerical template defines 'num_digit_1'. 'num_ic' is irrelevant and can be ignored.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The range for num_digit_1 (6000 to 150000) is realistic for advertising budgets. The type 'int' is appropriate.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps are logically correct. Using the original value of 15000: year1 = 15000, year2 = 15000 / 3 = 5000, ans = 15000 + 5000 = 20000.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction allows for answers with 4 to 6 digits. The original answer (20000) has 5 digits, which falls within the allowed range.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction 'ans > 0' is present, but 'ans % 1 == 0' is missing. This is crucial to ensure the answer is an integer, especially since we are dividing by 3.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_1": [
+          "num_digit_1 % 3 == 0",
+          "ans > 0",
+          "ans % 1 == 0"
+        ]
+      }
+    },
+    "problem_id": "0223",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2) exist in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (100-1500) and num_digit_2 (2-12) are realistic for puzzle pieces and pieces per minute, respectively. The fact that num_digit_2 is restricted to even numbers makes sense because the mom places half as many pieces per minute as Kalinda.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values: num_digit_1 = 360, num_digit_2 = 4. \n1. combined_rate = 4 + (4 / 2) = 4 + 2 = 6 pieces per minute.\n2. total_minutes = 360 / 6 = 60 minutes.\n3. ans = 60 / 60 = 1 hour. This matches the original answer.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'ans' with min_digits: 1 and max_digits: 2 allows for answers with 1 or 2 digits. The original answer is 1, which has 1 digit, so the restriction is valid.",
+    "restrictions_valid": false,
+    "restrictions_details": "The restriction `(num_digit_1 / (num_digit_2 + (num_digit_2 / 2))) % 60 == 0` is too restrictive. It forces the total minutes to be a multiple of 60, which means the answer will always be an integer. While the answer *should* be an integer, this should be enforced by `ans % 1 == 0` instead. The current restriction limits the possible values of num_digit_1 too much. Also, the restriction `ans > 0` is already implied by the ranges of `num_digit_1` and `num_digit_2` and the equation steps, so it's redundant. The restriction `num_digit_2 % 2 == 0` is good because it ensures that the mom's rate is an integer.",
+    "suggested_fix": {
+      "restrictions": {
+        "num_digit_1": [
+          "num_digit_2 % 2 == 0"
+        ],
+        "ans": [
+          "ans % 1 == 0",
+          "ans > 0"
+        ]
+      }
+    },
+    "problem_id": "0228",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2) are present in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for num_digit_1 (4-40) and num_digit_2 (3-15) are reasonable for the problem context. The number of tomatoes Steve eats per day and the number of tomatoes a vine produces per week are within realistic ranges.",
+    "equation_steps_valid": false,
+    "equation_steps_details": "The equation steps are incorrect. The problem states Steve eats twice as much as his girlfriend. The current steps calculate the total daily consumption as Steve's consumption PLUS his girlfriend's consumption. However, the problem only asks how many vines Steve needs, so we only need to consider Steve's tomato consumption.  Using the original values: steve_daily = 6; total_weekly = 6 * 7 = 42; ans = 42 / 3 = 14. The original answer was 21, so the equation steps are wrong.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction allows for 1 to 3 digits. The original answer of 21 has 2 digits, which falls within the allowed range.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restrictions 'ans % 1 == 0' and 'ans > 0' are necessary to ensure an integer and positive answer. The restrictions 'num_digit_1 % 2 == 0' and 'total_weekly % num_digit_2 == 0' are logical to ensure the girlfriend's daily consumption is an integer and the final answer is an integer.",
+    "suggested_fix": {
+      "equation_steps": {
+        "num_digit_2": [
+          "steve_daily = num_digit_1",
+          "total_weekly = steve_daily * 7",
+          "ans = total_weekly / num_digit_2"
+        ]
+      }
+    },
+    "problem_id": "0234",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1) exist in the numerical template's 'variables' section, and vice versa. num_ic is ignored as instructed.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The range for num_digit_1 (25-150) is realistic for the number of pens someone might buy. The type 'int' is appropriate.",
+    "equation_steps_valid": false,
+    "equation_steps_details": "The equation steps are incorrect. With the original value of num_digit_1 = 25, the calculation would be: initial_pens = 25, recycled_pens = 25 / 5 = 5, ans = 25 + 5 = 30. The original answer was 31, so the equation is not correct. The recycled pens should be calculated using floor division and then the remainder should be used to calculate the final answer. The correct equation should be: initial_pens = num_digit_1, recycled_pens = floor(initial_pens / 5), ans = initial_pens + recycled_pens.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 2 and 'max_digits': 3 allows for answers with 2 or 3 digits, which is appropriate for the original answer of 31 (2 digits).",
+    "restrictions_valid": true,
+    "restrictions_details": "The restrictions are logical. 'num_digit_1 % 5 == 0' ensures that the number of pens bought is divisible by 5, making the recycling calculation cleaner. 'ans > 0' ensures a positive answer, and 'ans % 1 == 0' ensures an integer answer.",
+    "suggested_fix": {
+      "equation_steps": {
+        "num_digit_1": [
+          "initial_pens = num_digit_1",
+          "recycled_pens = floor(initial_pens / 5)",
+          "ans = initial_pens + recycled_pens"
+        ]
+      }
+    },
+    "problem_id": "0236",
+    "status": "validated",
+    "overall_valid": false
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "The symbolic template uses 'num_digit_1' and 'num_digit_2' which are both defined in the numerical template's 'variables' section. 'num_ic' is irrelevant and can be ignored.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for 'num_digit_1' (5-25) and 'num_digit_2' (3-20) are reasonable for the problem context, representing the number of books each person has. 'num_ic' is irrelevant.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps are logically correct.  'total_unique_books' is calculated as the sum of the books each person initially has. Since each person reads their own books and the other person's books, the total number of books read is twice the number of unique books.  Using the original values: Dolly has 2 books (num_digit_1 = 2), Pandora has 1 book (num_digit_2 = 1). total_unique_books = 2 + 1 = 3. ans = 2 * 3 = 6.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 2 and 'max_digits': 3 requires the answer to have between 2 and 3 digits. The original answer is 6, which has 1 digit. This is incorrect.",
+    "restrictions_valid": true,
+    "restrictions_details": "The restrictions 'ans > 0' and 'ans % 1 == 0' are valid and necessary to ensure a positive integer answer.",
+    "suggested_fix": {
+      "complexity_restrictions": {
+        "ans": {
+          "min_digits": 1,
+          "max_digits": 3
+        }
+      }
+    },
+    "problem_id": "0241",
+    "status": "validated",
+    "overall_valid": true
+  },
+  {
+    "variable_correspondence": true,
+    "variable_correspondence_details": "All num_* variables in the symbolic template (num_digit_1, num_digit_2, num_digit_3, num_digit_4) exist in the numerical template's 'variables' section, and vice versa. num_ic is ignored as requested.",
+    "variable_definitions_valid": true,
+    "variable_definitions_details": "The ranges for each variable seem reasonable within the context of the problem. The number of fries each person has is within a plausible range.",
+    "equation_steps_valid": true,
+    "equation_steps_details": "The equation steps logically lead to the correct answer. Let's trace with the original values:\nnum_digit_1 = 1024\nnum_digit_2 = 157\nnum_digit_3 = 13\nnum_digit_4 = 600\nkyle = 157\nbilly = 2 * 157 = 314\ncolby = 157 - 13 = 144\ngriffin_before_ginger = 1024 - 157 - 314 - 144 = 409\nans = 600 - 409 = 191. This does not match the original answer of 20. There is an error in the original answer or the symbolic template.",
+    "complexity_valid": true,
+    "complexity_details": "The complexity restriction 'min_digits': 1, 'max_digits': 3 allows for answers with 1, 2, or 3 digits. The original answer of 20 has 2 digits, so the restriction is valid.",
+    "restrictions_valid": true,
+    "restrictions_details": "All restrictions are logical and necessary. 'ans % 1 == 0' ensures an integer answer, 'ans > 0' ensures a positive answer, 'num_digit_1 > (kyle + billy + colby)' ensures Griffin starts with more fries than are taken away, and 'num_digit_2 > num_digit_3' ensures Colby takes a positive number of fries.",
+    "suggested_fix": {
+      "equation_steps_details": "The equation steps are correct, but the original answer (20) does not match the calculation (191). The original answer or the symbolic template is incorrect. The numerical template is valid given the symbolic template."
+    },
+    "problem_id": "0244",
+    "status": "validated",
+    "overall_valid": true
+  }
+]

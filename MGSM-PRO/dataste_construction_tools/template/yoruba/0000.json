@@ -1,0 +1,8 @@
+{
+  "original_question": "Àwọn pẹ́pẹ́yẹ Janet máa ń yé ẹyin 16 lọ́jọ́ kan. Ó máa ń jẹ mẹ́ta fún oúnjẹ àárọ̀ láràárọ̀ ó sì máa ń dín àkàrà òyìnbó fún àwọn ọ̀rẹ́ rẹ̀ lójoojúmó pẹ̀lú mẹ́rin. Ó máa ń ta èyí tó kù ní ọjà àgbẹ̀ lójoojúmó fún $2 fún ẹyin pẹ́pẹ́yẹ oòjọ́. Èló ló ń pa ní dọ́là lójoojúmọ́ ní ọjà àgbẹ̀?",
+  "original_answer": 18,
+  "symbolic_template": "Àwọn pẹ́pẹ́yẹ {name_female, Janet} máa ń yé ẹyin {num_digit_1, 16} lọ́jọ́ kan. Ó máa ń jẹ mẹ́ta fún oúnjẹ àárọ̀ láràárọ̀ ó sì máa ń dín àkàrà òyìnbó fún àwọn ọ̀rẹ́ rẹ̀ lójoojúmó pẹ̀lú mẹ́rin. Ó máa ń ta èyí tó kù ní ọjà àgbẹ̀ lójoojúmó fún ${num_digit_2, 2} fún ẹyin pẹ́pẹ́yẹ oòjọ́. Èló ló ń pa ní dọ́là lójoojúmọ́ ní ọjà àgbẹ̀?",
+  "ic_sentence_template": "Arákùnrin bàbá {name_female, Janet} máa ń mú àpùlù {num_ic, 41} wá fún un lósù kọọkan.",
+  "ic_template": "Àwọn pẹ́pẹ́yẹ {name_female, Janet} máa ń yé ẹyin {num_digit_1, 16} lọ́jọ́ kan. Ó máa ń jẹ mẹ́ta fún oúnjẹ àárọ̀ láràárọ̀ ó sì máa ń dín àkàrà òyìnbó fún àwọn ọ̀rẹ́ rẹ̀ lójoojúmó pẹ̀lú mẹ́rin. Ó máa ń ta èyí tó kù ní ọjà àgbẹ̀ lójoojúmó fún ${num_digit_2, 2} fún ẹyin pẹ́pẹ́yẹ oòjọ́. Èló ló ń pa ní dọ́là lójoojúmọ́ ní ọjà àgbẹ̀? Arákùnrin bàbá {name_female, Janet} máa ń mú àpùlù {num_ic, 41} wá fún un lósù kọọkan.",
+  "equation": "UPDATE HERE"
+}

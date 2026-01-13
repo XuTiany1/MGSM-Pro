@@ -1,0 +1,8 @@
+{
+  "original_question": "Ọnụego Eliza na otu awa ọrụrụ ọrụ n'awa iri anọ nke mbu n'izu uka ọ bụla bụ $10. Ọ na enwetakwa ugwọ irufere oge ugboro 1.2 ọnụego ọrụ awa ya. Ọ bụrụ na Eliza rụrụ ọrụ awa iri anọ na ise n'izu uka a, ego ole ka ọ rụtara n'izu uka nke a?",
+  "original_answer": 460,
+  "symbolic_template": "Ọnụego {name_female, Eliza} na otu awa ọrụrụ ọrụ n'awa {num_digit_1, 40} nke mbu n'izu uka ọ bụla bụ ${num_digit_2, 10}. Ọ na enwetakwa ugwọ irufere oge ugboro {num_digit_3, 1.2} ọnụego ọrụ awa ya. Ọ bụrụ na {name_female, Eliza} rụrụ ọrụ awa {num_digit_4, 45} n'izu uka a, ego ole ka ọ rụtara n'izu uka nke a?",
+  "ic_sentence_template": "Nwanne nna {name_female, Eliza} na-agba ahịa ahịa {num_ic, 98} n’obodo.",
+  "ic_template": "Nwanne nna {name_female, Eliza} na-agba ahịa ahịa {num_ic, 98} n’obodo. Ọnụego {name_female, Eliza} na otu awa ọrụrụ ọrụ n'awa {num_digit_1, 40} nke mbu n'izu uka ọ bụla bụ ${num_digit_2, 10}. Ọ na enwetakwa ugwọ irufere oge ugboro {num_digit_3, 1.2} ọnụego ọrụ awa ya. Ọ bụrụ na {name_female, Eliza} rụrụ ọrụ awa {num_digit_4, 45} n'izu uka a, ego ole ka ọ rụtara n'izu uka nke a?",
+  "equation": "UPDATE HERE"
+}

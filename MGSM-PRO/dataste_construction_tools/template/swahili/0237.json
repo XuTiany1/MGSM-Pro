@@ -1,0 +1,8 @@
+{
+  "original_question": "Johnny alichukua marupurupu yake ya $20 na kuongeza $10 ya ziada. Kisha akawekeza jumla ya pesa hii, ambayo iliongezeka mara tatu baada ya mwaka. Alikuwa na pesa ngapi baada ya mwaka moja?",
+  "original_answer": 90,
+  "symbolic_template": "{name_male, Johnny} alichukua posho yake ya dola {num_digit_1, 20} na kuongeza dola {num_digit_2, 10} zaidi. Kisha akawekeza jumla hiyo ya pesa, ambayo iliongezeka mara tatu kwa mwaka mmoja. Alikuwa na pesa ngapi baada ya mwaka mmoja?",
+  "ic_sentence_template": "Binamu wa {name_male, Johnny} alipokea kadi za besiboli {num_ic, 88} kwa ajili ya siku yake ya kuzaliwa.",
+  "ic_template": "Binamu wa {name_male, Johnny} alipokea kadi za besiboli {num_ic, 88} kwa ajili ya siku yake ya kuzaliwa. {name_male, Johnny} alichukua posho yake ya dola {num_digit_1, 20} na kuongeza dola {num_digit_2, 10} zaidi. Kisha akawekeza jumla hiyo ya pesa, ambayo iliongezeka mara tatu kwa mwaka mmoja. Alikuwa na pesa ngapi baada ya mwaka mmoja?",
+  "equation": "UPDATE HERE"
+}

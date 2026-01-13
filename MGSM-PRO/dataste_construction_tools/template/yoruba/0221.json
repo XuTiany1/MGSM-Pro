@@ -1,0 +1,8 @@
+{
+  "original_question": "Agba omi ti ó ní omi 120 liters ninu. Celine lo 90 litres ninu omi inú agba omi náà ṣe ọgbà kékeré rẹ̀. Lẹ́yìn náà ó ní àfààní láti gba omi òjò tí ó tó ìlọ́po méjì ohun tí ó kù. Litres omi mélòó ló wà nínú agba omi báyìí?",
+  "original_answer": 90,
+  "symbolic_template": "Agba omi ti ó ní omi {num_digit_1, 120} liters ninu. {name_female, Celine} lo {num_digit_2, 90} litres ninu omi inú agba omi náà ṣe ọgbà kékeré rẹ̀. Lẹ́yìn náà ó ní àfààní láti gba omi òjò tí ó tó ìlọ́po méjì ohun tí ó kù. Litres omi mélòó ló wà nínú agba omi báyìí?",
+  "ic_sentence_template": "Ọmọ-èmẹ́sìn {name_female, Celine} rà {num_ic, 388} irúbulubu tulip ní orisun omi tó kọjá.",
+  "ic_template": "Ọmọ-èmẹ́sìn {name_female, Celine} rà {num_ic, 388} irúbulubu tulip ní orisun omi tó kọjá. Agba omi ti ó ní omi {num_digit_1, 120} liters ninu. {name_female, Celine} lo {num_digit_2, 90} litres ninu omi inú agba omi náà ṣe ọgbà kékeré rẹ̀. Lẹ́yìn náà ó ní àfààní láti gba omi òjò tí ó tó ìlọ́po méjì ohun tí ó kù. Litres omi mélòó ló wà nínú agba omi báyìí?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Harry a dormi 9 heures la nuit dernière. Son ami Jacques n'a dormi que 2/3 de ce temps. Comparé à Jacques, combien d'heures en plus Harry a-t-il dormi ?",
+  "original_answer": 3,
+  "symbolic_template": "{name_male_1, Harry} a dormi {num_digit_1, 9} heures la nuit dernière. Son ami {name_male_2, Jacques} n'a dormi que 2/3 de ce temps. Comparé à {name_male_2, Jacques}, combien d'heures en plus {name_male_1, Harry} a-t-il dormi ?",
+  "ic_sentence_template": "{name_male_2, James} a un oncle qui prépare {num_ic, 19} crêpes chaque week-end.",
+  "ic_template": "{name_male_2, James} a un oncle qui prépare {num_ic, 19} crêpes chaque week-end. {name_male_1, Harry} a dormi {num_digit_1, 9} heures la nuit dernière. Son ami {name_male_2, Jacques} n'a dormi que 2/3 de ce temps. Comparé à {name_male_2, Jacques}, combien d'heures en plus {name_male_1, Harry} a-t-il dormi ?",
+  "equation": "UPDATE HERE"
+}

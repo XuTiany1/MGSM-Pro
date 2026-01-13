@@ -1,0 +1,30 @@
+{
+    "problem_id": "0171",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_5", "num_digit_6", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [50, 150]},
+        "num_digit_2": {"type": "int", "range": [8, 8]},
+        "num_digit_3": {"type": "int", "range": [50, 150]},
+        "num_digit_4": {"type": "int", "range": [6, 6]},
+        "num_digit_5": {"type": "int", "range": [2, 10]},
+        "num_digit_6": {"type": "int", "range": [10, 20]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_6": [
+            "spider_legs = num_digit_1 * num_digit_2",
+            "insect_legs = num_digit_3 * num_digit_4",
+            "mutant_legs = num_digit_5 * num_digit_6",
+            "ans = spider_legs + insect_legs + mutant_legs"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 4, "max_digits": 5}
+    },
+    "restrictions": {
+        "num_digit_6": [
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

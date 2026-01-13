@@ -1,0 +1,8 @@
+{
+  "original_question": "ሺላ አምስት ተንቀሳቃሽ ስልኮችን እያንዳንዳቸው በ 150 ዶላር በ 3 ወር ክፍያ ገዝቶዋል። ለእያንዳንዱ ክፍል 2% ወለድ ይከፍላል። ሺላ ለ 3 ወራት በየ ወሩ ምን ያህል ይከፍላል?",
+  "original_answer": 255,
+  "symbolic_template": "{name_female, ሺላ}  አምስት ተንቀሳቃሽ ስልኮችን እያንዳንዳቸው በ${num_digit_1, 150} ዶላር በ{num_digit_2, 3} ወር ክፍያ ገዝቶዋል። ለእያንዳንዱ ክፍል {num_digit_3, 2}% ወለድ ይከፍላል። {name_female, ሺላ} ለ{num_digit_2, 3} ወራት በየወሩ ምን ያህል ይከፍላል?",
+  "ic_sentence_template": "የ{name_female, ሺላ} አክስቱ ለስልክ የሚደረግ ማስታወቂያ የሚገኙትን {num_ic, 82} ፍላየሮች ተቀብሏል።",
+  "ic_template": "{name_female, ሺላ}  አምስት ተንቀሳቃሽ ስልኮችን እያንዳንዳቸው በ${num_digit_1, 150} ዶላር በ{num_digit_2, 3} ወር ክፍያ ገዝቶዋል። ለእያንዳንዱ ክፍል {num_digit_3, 2}% ወለድ ይከፍላል። {name_female, ሺላ} ለ{num_digit_2, 3} ወራት በየወሩ ምን ያህል ይከፍላል? የ{name_female, ሺላ} አክስቱ ለስልክ የሚደረግ ማስታወቂያ የሚገኙትን {num_ic, 82} ፍላየሮች ተቀብሏል።",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Steve fa adwen sɛ obefi ase adi nɛnkyemɔɔno bebree, na ɔfa adwen sɛ ɔnoa ankasa bɛdua nɛnkyemɔɔno no. Odidi mmɔho mmienu sen ne kankyema. Odidi 6 da biara. Sɛ bobesa dua betumi ama nɛnkyemɔɔno 3 nnawutwe biara a, bobesa no dodoɔ ahe na ohia?",
+  "original_answer": 21,
+  "symbolic_template": "{name_male, Steve} fa adwen sɛ obefi ase adi nɛnkyemɔɔno bebree, na ɔfa adwen sɛ ɔnoa ankasa bɛdua nɛnkyemɔɔno no. Odidi mmɔho mmienu sen ne kankyema. Odidi {num_digit_1, 6} da biara. Sɛ bobesa dua betumi ama nɛnkyemɔɔno {num_digit_2, 3} nnawutwe biara a, bobesa no dodoɔ ahe na ohia?",
+  "ic_sentence_template": "{name_male, Steve} wɔfa no dua mɛkɔ {num_ic, 1531} ahuhurow bere biara.",
+  "ic_template": "{name_male, Steve} wɔfa no dua mɛkɔ {num_ic, 1531} ahuhurow bere biara. {name_male, Steve} fa adwen sɛ obefi ase adi nɛnkyemɔɔno bebree, na ɔfa adwen sɛ ɔnoa ankasa bɛdua nɛnkyemɔɔno no. Odidi mmɔho mmienu sen ne kankyema. Odidi {num_digit_1, 6} da biara. Sɛ bobesa dua betumi ama nɛnkyemɔɔno {num_digit_2, 3} nnawutwe biara a, bobesa no dodoɔ ahe na ohia?",
+  "equation": "UPDATE HERE"
+}

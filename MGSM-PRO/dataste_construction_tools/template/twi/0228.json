@@ -1,0 +1,8 @@
+{
+  "original_question": "Na Kalinda ne ne maame ɛdi adwuma a aborɔme a ɛyɛ 360 ɛfa. Kalinda tumi de simma 4 nketenkete ka ho biara. Ne maame tumi de ɛfa a Kalinda tumi hyehyɛ no wɔ simma biara mu. Ɛbɛgye wɔn nnɔnhwere dodoɔ ahe na wɔ wiee saa nsɛmmisa no yi?",
+  "original_answer": 1,
+  "symbolic_template": "Na {name_female, Kalinda} ne ne maame ɛdi adwuma a aborɔme a ɛyɛ {num_digit_1, 360} ɛfa. {name_female, Kalinda} tumi de simma {num_digit_2, 4} nketenkete ka ho biara. Ne maame tumi de ɛfa a {name_female, Kalinda} tumi hyehyɛ no wɔ simma biara mu. Ɛbɛgye wɔn nnɔnhwere dodoɔ ahe na wɔ wiee saa nsɛmmisa no yi?",
+  "ic_sentence_template": "{name_female, Kalinda} wɔfa wɔ ahyehyԑadeԑ agorodie adaka {num_ic, 103} .",
+  "ic_template": "{name_female, Kalinda} wɔfa wɔ ahyehyԑadeԑ agorodie adaka {num_ic, 103} . Na {name_female, Kalinda} ne ne maame ɛdi adwuma a aborɔme a ɛyɛ {num_digit_1, 360} ɛfa. {name_female, Kalinda} tumi de simma {num_digit_2, 4} nketenkete ka ho biara. Ne maame tumi de ɛfa a {name_female, Kalinda} tumi hyehyɛ no wɔ simma biara mu. Ɛbɛgye wɔn nnɔnhwere dodoɔ ahe na wɔ wiee saa nsɛmmisa no yi?",
+  "equation": "UPDATE HERE"
+}

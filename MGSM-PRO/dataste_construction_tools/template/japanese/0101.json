@@ -1,0 +1,8 @@
+{
+  "original_question": "ソロは科学の教科書を4ページ、社会学の教科書を20ページ、歴史の教科書を7ページ、地理の教科書を8ページ読まねばならい。ソロは月曜日15ページ読んだ。彼が読み終わるまでに後4日ある場合、平均で1日に何ページ読む必要がある？",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, ソロ}は科学の教科書を{num_digit_1, 4}ページ、社会学の教科書を{num_digit_2, 20}ページ、歴史の教科書を{num_digit_3, 7}ページ、地理の教科書を{num_digit_4, 8}ページ読まねばならない。{name_male, ソロ}は月曜日に{num_digit_5, 15}ページ読んだ。彼が読み終わるまでにあと{num_digit_6, 4}日ある場合、平均で一日に何ページ読む必要がある？",
+  "ic_sentence_template": "{name_male, ソロ}のおばは最近図書館から{num_ic, 65}冊のミステリー小説を借りました。",
+  "ic_template": "{name_male, ソロ}のおばは最近図書館から{num_ic, 65}冊のミステリー小説を借りました。{name_male, ソロ}は科学の教科書を{num_digit_1, 4}ページ、社会学の教科書を{num_digit_2, 20}ページ、歴史の教科書を{num_digit_3, 7}ページ、地理の教科書を{num_digit_4, 8}ページ読まねばならない。{name_male, ソロ}は月曜日に{num_digit_5, 15}ページ読んだ。彼が読み終わるまでにあと{num_digit_6, 4}日ある場合、平均で一日に何ページ読む必要がある？",
+  "equation": "UPDATE HERE"
+}

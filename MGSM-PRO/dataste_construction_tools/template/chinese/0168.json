@@ -1,0 +1,8 @@
+{
+  "original_question": "吉米的钱比埃塞尔的两倍多 2 美元。如果埃塞尔有 8 美元，则吉米现在有多少钱？",
+  "original_answer": 18,
+  "symbolic_template": "{name_male_1, 吉米} 的钱比 {name_male_2, 埃塞尔} 的 两倍 多 {num_digit_1, 2} 美元。如果 {name_male_2, 埃塞尔} 有 {num_digit_2, 8} 美元，则 {name_male_1, 吉米} 现在有多少钱？",
+  "ic_sentence_template": "{name_male_2, 埃塞尔} 的叔叔在阁楼里发现了 {num_ic, 33} 枚古老的硬币。",
+  "ic_template": "{name_male_2, 埃塞尔} 的叔叔在阁楼里发现了 {num_ic, 33} 枚古老的硬币。{name_male_1, 吉米} 的钱比 {name_male_2, 埃塞尔} 的 两倍 多 {num_digit_1, 2} 美元。如果 {name_male_2, 埃塞尔} 有 {num_digit_2, 8} 美元，则 {name_male_1, 吉米} 现在有多少钱？",
+  "equation": "UPDATE HERE"
+}

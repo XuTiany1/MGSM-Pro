@@ -1,0 +1,8 @@
+{
+  "original_question": "Jenna et sa mère ont cueilli des pommes dans leur ferme. Jenna a ramassé deux fois moins de pommes que sa mère. Si sa mère en a ramassé 20, combien de pommes ont-elles ramassé en tout ?",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, Jenna} et sa mère ont cueilli des pommes dans leur ferme. {name_female, Jenna} a ramassé deux fois moins de pommes que sa mère. Si sa mère en a ramassé {num_digit_1, 20}, combien de pommes ont-elles ramassé en tout ?",
+  "ic_sentence_template": "{name_female, Jenna} avait un oncle qui a apporté {num_ic, 154} bouteilles de cidre à la ferme ce matin-là.",
+  "ic_template": "{name_female, Jenna} avait un oncle qui a apporté {num_ic, 154} bouteilles de cidre à la ferme ce matin-là. {name_female, Jenna} et sa mère ont cueilli des pommes dans leur ferme. {name_female, Jenna} a ramassé deux fois moins de pommes que sa mère. Si sa mère en a ramassé {num_digit_1, 20}, combien de pommes ont-elles ramassé en tout ?",
+  "equation": "UPDATE HERE"
+}

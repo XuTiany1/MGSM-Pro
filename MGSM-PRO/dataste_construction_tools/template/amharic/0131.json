@@ -1,0 +1,8 @@
+{
+  "original_question": "ግንቦት ወር የዮሴፍ ወጪ $500  ነበር። በሰኔ ወር ወጪው በ $60 ያነሰ ነበር። በእነዚያ ሁለት ወራት አጠቃላይ ወጪው ስንት ነበር?",
+  "original_answer": 940,
+  "symbolic_template": "ግንቦት ወር የ{name_male, ዮሴፍ} ወጪ ${num_digit_1, 500} ነበር። በሰኔ ወር ወጪው በ ${num_digit_2, 60} ያነሰ ነበር። በእነዚያ ሁለት ወራት አጠቃላይ ወጪው ስንት ነበር?",
+  "ic_sentence_template": "የ{name_male, ጆሴፍ} አክስቱ ባለፈው ወር {num_ic, 412} ዶላር እንደ ስጦታ ተቀበለች።",
+  "ic_template": "ግንቦት ወር የ{name_male, ዮሴፍ} ወጪ ${num_digit_1, 500} ነበር። በሰኔ ወር ወጪው በ ${num_digit_2, 60} ያነሰ ነበር። የ{name_male, ጆሴፍ} አክስቱ ባለፈው ወር {num_ic, 412} ዶላር እንደ ስጦታ ተቀበለች። በእነዚያ ሁለት ወራት አጠቃላይ ወጪው ስንት ነበር?",
+  "equation": "UPDATE HERE"
+}

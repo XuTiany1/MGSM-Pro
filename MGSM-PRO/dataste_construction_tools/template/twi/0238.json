@@ -1,0 +1,8 @@
+{
+  "original_question": "Mary sen Joan mfeɛ mmienu, a ɔsen Jessa mfeɛ enum. Sɛ Jessa adi mfeɛ aduonu a, ɛnde mmbabaawa mmiɛnsa no mfeɛ dodoɔ yɛ ahe?",
+  "original_answer": 68,
+  "symbolic_template": "{name_female_1, Mary} sen {name_female_2, Joan} mfeɛ mmienu, a ɔsen {name_female_3, Jessa} mfeɛ enum. Sɛ {name_female_3, Jessa} adi mfeɛ {num_digit_1, aduonu} a, ɛnde mmbabaawa mmiɛnsa no mfeɛ dodoɔ yɛ ahe?",
+  "ic_sentence_template": "{name_female_2, Joan} wɔfa no wɔ basebɔɔllɔ nkrataa {num_ic, 73}.",
+  "ic_template": "{name_female_2, Joan} wɔfa no wɔ basebɔɔllɔ nkrataa {num_ic, 73}. {name_female_1, Mary} sen {name_female_2, Joan} mfeɛ mmienu, a ɔsen {name_female_3, Jessa} mfeɛ enum. Sɛ {name_female_3, Jessa} adi mfeɛ {num_digit_1, aduonu} a, ɛnde mmbabaawa mmiɛnsa no mfeɛ dodoɔ yɛ ahe?",
+  "equation": "UPDATE HERE"
+}

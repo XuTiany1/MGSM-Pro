@@ -1,0 +1,8 @@
+{
+  "original_question": "Raymond na Samantha ni binamu. Raymond alizaliwa miaka 6 kabla ya Samantha. Raymond alipata mwana akiwa na umri wa miaka 23. Iwapo Samantha sasa ana umri wa miaka 31, mwana wa Raymond alizaliwa miaka mingapi iliyopita?",
+  "original_answer": 14,
+  "symbolic_template": "{name_male, Raymond} na {name_female, Samantha} ni binamu. {name_male, Raymond} alizaliwa miaka {num_digit_1, 6} kabla ya {name_female, Samantha}. {name_male, Raymond} alipata mtoto wa kiume akiwa na umri wa miaka {num_digit_2, 23}. Iwapo {name_female, Samantha} sasa ana umri wa miaka {num_digit_3, 31}, mtoto wa {name_male, Raymond} alizaliwa miaka mingapi iliyopita?",
+  "ic_sentence_template": "Mjomba wa {name_female, Samantha} hukusanya kadi za posta {num_ic, 77}.",
+  "ic_template": "Mjomba wa {name_female, Samantha} hukusanya kadi za posta {num_ic, 77}. {name_male, Raymond} na {name_female, Samantha} ni binamu. {name_male, Raymond} alizaliwa miaka {num_digit_1, 6} kabla ya {name_female, Samantha}. {name_male, Raymond} alipata mtoto wa kiume akiwa na umri wa miaka {num_digit_2, 23}. Iwapo {name_female, Samantha} sasa ana umri wa miaka {num_digit_3, 31}, mtoto wa {name_male, Raymond} alizaliwa miaka mingapi iliyopita?",
+  "equation": "UPDATE HERE"
+}

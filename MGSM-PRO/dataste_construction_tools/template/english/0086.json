@@ -1,0 +1,8 @@
+{
+  "original_question": "Greg has an alarm set to ring three times a day as a reminder. When the alarm goes off, it continues to ring until Greg turns it off. The first time it went off today, it rang four times. The second time it went off, it rang for three times as long as the first time. The third time, it rang for half as long as the second time. How many times did the alarm ring in all?",
+  "original_answer": 22,
+  "symbolic_template": "{name_male, Greg} has an alarm set to ring three times a day as a reminder. When the alarm goes off, it continues to ring until {name_male, Greg} turns it off. The first time it went off today, it rang four times. The second time it went off, it rang for three times as long as the first time. The third time, it rang for half as long as the second time. How many times did the alarm ring in all?",
+  "ic_sentence_template": "{name_male, Greg}'s aunt just bought {num_ic, 15} new alarm clocks.",
+  "ic_template": "{name_male, Greg} has an alarm set to ring three times a day as a reminder. When the alarm goes off, it continues to ring until {name_male, Greg} turns it off. The first time it went off today, it rang four times. The second time it went off, it rang for three times as long as the first time. The third time, it rang for half as long as the second time. {name_male, Greg}'s aunt just bought {num_ic, 15} new alarm clocks. How many times did the alarm ring in all?",
+  "equation": "UPDATE HERE"
+}

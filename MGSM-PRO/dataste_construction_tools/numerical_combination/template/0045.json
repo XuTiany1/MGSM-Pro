@@ -1,0 +1,32 @@
+{
+    "problem_id": "0045",
+    "generation_order": ["num_digit_2", "num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_2": {"type": "int", "range": [5, 20]},
+        "num_digit_1": {"type": "int", "range": [2, 6]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "monday_articles = num_digit_2",
+            "tuesday_articles = monday_articles + (2/5 * monday_articles)",
+            "wednesday_articles = tuesday_articles * 2",
+            "total_articles = monday_articles + tuesday_articles + wednesday_articles"
+        ],
+        "num_digit_1": [
+            "ans = total_articles * num_digit_1"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "monday_articles % 5 == 0"
+        ],
+        "num_digit_1": [
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

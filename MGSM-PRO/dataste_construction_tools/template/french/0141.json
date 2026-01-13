@@ -1,0 +1,8 @@
+{
+  "original_question": "Une ruche compte 700 abeilles. Il y a deux fois plus d'abeilles ouvrières que de bébés abeilles et deux fois plus de bébés que de reines. Combien d'abeilles ouvrières y a-t-il ?",
+  "original_answer": 400,
+  "symbolic_template": "Une ruche compte {num_digit_1, 700} abeilles. Il y a deux fois plus d'abeilles ouvrières que de bébés abeilles et deux fois plus de bébés que de reines. Combien d'abeilles ouvrières y a-t-il ?",
+  "ic_sentence_template": "{name_male, Henry} a un oncle qui a {num_ic, 62} pots de miel stockés dans sa cabane.",
+  "ic_template": "{name_male, Henry} a un oncle qui a {num_ic, 62} pots de miel stockés dans sa cabane. Une ruche compte {num_digit_1, 700} abeilles. Il y a deux fois plus d'abeilles ouvrières que de bébés abeilles et deux fois plus de bébés que de reines. Combien d'abeilles ouvrières y a-t-il ?",
+  "equation": "UPDATE HERE"
+}

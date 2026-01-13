@@ -1,0 +1,8 @@
+{
+  "original_question": "多莉有两本书。潘多拉有一本。如果多莉和潘多拉都读对方的书和自己的书，到最后她们一共会读多少本书？",
+  "original_answer": 6,
+  "symbolic_template": "{name_female_1, 多莉} 有 2 本书。{name_female_2, 潘多拉} 有 1 本。如果 {name_female_1, 多莉} 和 {name_female_2, 潘多拉} 都读对方的书和自己的书，到最后她们一共会读多少本书？",
+  "ic_sentence_template": "{name_female_2, 潘多拉} 的叔叔拥有 {num_ic, 674} 本杂志。",
+  "ic_template": "{name_female_2, 潘多拉} 的叔叔拥有 {num_ic, 674} 本杂志。{name_female_1, 多莉} 有 2 本书。{name_female_2, 潘多拉} 有 1 本。如果 {name_female_1, 多莉} 和 {name_female_2, 潘多拉} 都读对方的书和自己的书，到最后她们一共会读多少本书？",
+  "equation": "UPDATE HERE"
+}

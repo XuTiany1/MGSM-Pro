@@ -1,0 +1,8 @@
+{
+  "original_question": "Charlie wɔ adeԑ a yԑde tare 10. Ͻtɔɔ adeԑ a yԑde tare 21 firii adetɔnbea wɔ dwa kԑseԑ no mu na ɔnyaa adeԑ a yԑde tare no 23 maa n’awoda no. Na Charlie de adeԑ a yԑde tare no mu 9 maa ne nuabaa na ɔde mu 28 siesiee krataa a wɔde to nkyea. Adeԑ a yԑde tare sԑn na Charlie wɔ a aka?",
+  "original_answer": 17,
+  "symbolic_template": "{name_male, Charlie} wɔ adeԑ a yԑde tare {num_digit_1, 10}. Ͻtɔɔ adeԑ a yԑde tare {num_digit_2, 21} firii adetɔnbea wɔ dwa kԑseԑ no mu na ɔnyaa adeԑ a yԑde tare no {num_digit_3, 23} maa n’awoda no. Na Charlie de adeԑ a yԑde tare no mu {num_digit_4, 9} maa ne nuabaa na ɔde mu {num_digit_5, 28} siesiee krataa a wɔde to nkyea. Adeԑ a yԑde tare sԑn na {name_male, Charlie} wɔ a aka?",
+  "ic_sentence_template": "{name_male, Charlie} wɔfa boaboa adwinnua {num_ic, 12} a wɔntaa nhu.",
+  "ic_template": "{name_male, Charlie} wɔfa boaboa adwinnua {num_ic, 12} a wɔntaa nhu. {name_male, Charlie} wɔ adeԑ a yԑde tare {num_digit_1, 10}. Ͻtɔɔ adeԑ a yԑde tare {num_digit_2, 21} firii adetɔnbea wɔ dwa kԑseԑ no mu na ɔnyaa adeԑ a yԑde tare no {num_digit_3, 23} maa n’awoda no. Na Charlie de adeԑ a yԑde tare no mu {num_digit_4, 9} maa ne nuabaa na ɔde mu {num_digit_5, 28} siesiee krataa a wɔde to nkyea. Adeԑ a yԑde tare sԑn na {name_male, Charlie} wɔ a aka?",
+  "equation": "UPDATE HERE"
+}

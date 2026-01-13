@@ -1,0 +1,8 @@
+{
+  "original_question": "Ram máa ń lọ pen púpọ‌. Ó ṣàwárí pé òun lè din owó kù tí ó bá da íǹkì inú pen márùn-ún tí ó ti tán yóò di ẹkùn ẹyọ ọkàn. Tí ó bá ra pen 25, tí ó sì lò wọ‌n láti rí àwọn odidi pen tí íǹkì wọn bá tán, pen mélòó ni yóò ní lápàapọ‌?",
+  "original_answer": 31,
+  "symbolic_template": "{name_male, Ram} máa ń lọ pen púpọ‌. Ó ṣàwárí pé òun lè din owó kù tí ó bá da íǹkì inú pen márùn-ún tí ó ti tán yóò di ẹkùn ẹyọ ọkàn. Tí ó bá ra pen {num_digit_1, 25}, tí ó sì lò wọ‌n láti rí àwọn odidi pen tí íǹkì wọn bá tán, pen mélòó ni yóò ní lápàapọ‌?",
+  "ic_sentence_template": "Kòkòrò {name_male, Ram} ra ìwé-àkọọ́lẹ̀ {num_ic, 13408} ní ìdíje kan lẹ́ẹ̀kan.",
+  "ic_template": "Kòkòrò {name_male, Ram} ra ìwé-àkọọ́lẹ̀ {num_ic, 13408} ní ìdíje kan lẹ́ẹ̀kan. {name_male, Ram} máa ń lọ pen púpọ‌. Ó ṣàwárí pé òun lè din owó kù tí ó bá da íǹkì inú pen márùn-ún tí ó ti tán yóò di ẹkùn ẹyọ ọkàn. Tí ó bá ra pen {num_digit_1, 25}, tí ó sì lò wọ‌n láti rí àwọn odidi pen tí íǹkì wọn bá tán, pen mélòó ni yóò ní lápàapọ‌?",
+  "equation": "UPDATE HERE"
+}

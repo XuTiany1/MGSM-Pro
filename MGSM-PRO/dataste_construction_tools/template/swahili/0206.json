@@ -1,0 +1,8 @@
+{
+  "original_question": "Micheal anapenda kuendesha baiskeli. Aliiendesha angalau mara 5 kwa wiki na kwenda umbali wa kilomita 25 mila mara. Alifanya hiyo kwa wiki nne, na kisha akaamua kuendesha baiskeli mara 2 pekee kwa wiki, lakini kwa kilomita 60 kila mara, na alifanya hiyo kwa wiki 3. Micheal alifanya kilomita ngapi kwa jumla?",
+  "original_answer": 860,
+  "symbolic_template": "{name_male, Micheal} anapenda kuendesha baiskeli. Aliendesha angalau mara {num_digit_1, 5} kwa wiki na kila safari ilikuwa kilomita {num_digit_2, 25}. Alifanya hivyo kwa wiki nne, kisha akaamua kuendesha baiskeli mara {num_digit_3, 2} tu kwa wiki, lakini kwa kilomita {num_digit_4, 60} kila safari, na akafanya hivyo kwa wiki {num_digit_5, 3}. Je, {name_male, Micheal} alifanya kilomita ngapi jumla?",
+  "ic_sentence_template": "Mjomba wa {name_male, Micheal} ana kadi za besiboli {num_ic, 105}.",
+  "ic_template": "Mjomba wa {name_male, Micheal} ana kadi za besiboli {num_ic, 105}. {name_male, Micheal} anapenda kuendesha baiskeli. Aliendesha angalau mara {num_digit_1, 5} kwa wiki na kila safari ilikuwa kilomita {num_digit_2, 25}. Alifanya hivyo kwa wiki nne, kisha akaamua kuendesha baiskeli mara {num_digit_3, 2} tu kwa wiki, lakini kwa kilomita {num_digit_4, 60} kila safari, na akafanya hivyo kwa wiki {num_digit_5, 3}. Je, {name_male, Micheal} alifanya kilomita ngapi jumla?",
+  "equation": "UPDATE HERE"
+}

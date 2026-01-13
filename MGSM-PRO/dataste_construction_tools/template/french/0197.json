@@ -1,0 +1,8 @@
+{
+  "original_question": "Dans la ville de Soda, il y a exactement 23 786 habitants. 8 417 d'entre eux sont des hommes et 9 092 des femmes. Le reste de la population est composé d'enfants. Combien d'enfants y a-t-il à Soda ?",
+  "original_answer": 6277,
+  "symbolic_template": "Dans la ville de {name_city, Soda}, il y a exactement {num_digit_1, 23 786} habitants. {num_digit_2, 8 417} d'entre eux sont des hommes et {num_digit_3, 9 092} des femmes. Le reste de la population est composé d'enfants. Combien d'enfants y a-t-il à {name_city, Soda} ?",
+  "ic_sentence_template": "{name_city, Soda} a un oncle du maire qui a acheté {num_ic, 174364} ballons pour un festival.",
+  "ic_template": "{name_city, Soda} a un oncle du maire qui a acheté {num_ic, 174364} ballons pour un festival. Dans la ville de {name_city, Soda}, il y a exactement {num_digit_1, 23 786} habitants. {num_digit_2, 8 417} d'entre eux sont des hommes et {num_digit_3, 9 092} des femmes. Le reste de la population est composé d'enfants. Combien d'enfants y a-t-il à {name_city, Soda} ?",
+  "equation": "UPDATE HERE"
+}

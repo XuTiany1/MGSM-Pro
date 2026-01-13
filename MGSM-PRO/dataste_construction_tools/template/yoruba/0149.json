@@ -1,0 +1,8 @@
+{
+  "original_question": "Charlie ní ìlọ́po mẹ́ta iye ọ̀rẹ́ tí Dorothy ní lórí Facebook. James ní ìlọ́po mẹ́rin iye ọ̀rẹ́ tí Dorothy ní lórí Facebook. Tí Charlie bá ní ọ̀rẹ́ méjìlá lórí Facebook, ọ̀rẹ́ Facebook mélòó ni James ní?",
+  "original_answer": 16,
+  "symbolic_template": "{name_male_1, Charlie} ní ìlọ́po mẹ́ta iye ọ̀rẹ́ tí {name_male_2, Dorothy} ní lórí Facebook. {name_male_3, James} ní ìlọ́po mẹ́rin iye ọ̀rẹ́ tí {name_male_2, Dorothy} ní lórí Facebook. Tí {name_male_1, Charlie} bá ní ọ̀rẹ́ {num_digit_1, méjìlá} lórí Facebook, ọ̀rẹ́ Facebook mélòó ni {name_male_3, James} ní?",
+  "ic_sentence_template": "Àbúrò ìyá {name_male_3, James} ṣẹ̀ṣẹ̀ gba àwọn ọmọ ajá {num_ic, 67} sílẹ̀ laipẹ́.",
+  "ic_template": "Àbúrò ìyá {name_male_3, James} ṣẹ̀ṣẹ̀ gba àwọn ọmọ ajá {num_ic, 67} sílẹ̀ laipẹ́. {name_male_1, Charlie} ní ìlọ́po mẹ́ta iye ọ̀rẹ́ tí {name_male_2, Dorothy} ní lórí Facebook. {name_male_3, James} ní ìlọ́po mẹ́rin iye ọ̀rẹ́ tí {name_male_2, Dorothy} ní lórí Facebook. Tí {name_male_1, Charlie} bá ní ọ̀rẹ́ {num_digit_1, méjìlá} lórí Facebook, ọ̀rẹ́ Facebook mélòó ni {name_male_3, James} ní?",
+  "equation": "UPDATE HERE"
+}

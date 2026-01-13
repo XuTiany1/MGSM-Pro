@@ -1,0 +1,8 @@
+{
+  "original_question": "Dax alienda katika shamba lao kuokota tufaha na chungu ambao ni nusu ya idadi ya siafu katika shamba. Ikiwa kulikuwa na siafu 50, piga hesabu ya wadudu wote kwa jumla katika shamba hilo.",
+  "original_answer": 75,
+  "symbolic_template": "{name_male, Dax} alienda shambani kuvuna maapulo na akakuta wadudu nusu ya idadi ya siafu walioko bustanini. Ikiwa kulikuwa na siafu {num_digit, 50}, hesabu jumla ya wadudu wote bustanini.",
+  "ic_sentence_template": "Mjomba wa {name_male, Dax} aliona sungura {num_ic, 372} wakikimbia kwenye uwanja.",
+  "ic_template": "{name_male, Dax} alienda shambani kuvuna maapulo na akakuta wadudu nusu ya idadi ya siafu walioko bustanini. Ikiwa kulikuwa na siafu {num_digit, 50}, hesabu jumla ya wadudu wote bustanini. Mjomba wa {name_male, Dax} aliona sungura {num_ic, 372} wakikimbia kwenye uwanja.",
+  "equation": "UPDATE HERE"
+}

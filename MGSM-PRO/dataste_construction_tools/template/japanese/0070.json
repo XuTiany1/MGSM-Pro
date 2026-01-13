@@ -1,0 +1,8 @@
+{
+  "original_question": "ジュディは、平日は毎日5つのダンスのクラスを教えており、土曜日は8クラス教えています。もしも各クラスに15人の生徒がおり、1人に$15請求しているとしたら、彼女は1週間でいくら稼ぎますか？",
+  "original_answer": 7425,
+  "symbolic_template": "{name_female, ジュディ} は、平日は毎日 {num_digit_1, 5} つのダンスのクラスを教えており、土曜日は {num_digit_2, 8} クラス教えています。もしも各クラスに {num_digit_3, 15} 人の生徒がおり、1人に ${num_digit_4, 15.00} 請求しているとしたら、彼女は {num_digit_5, 1} 週間でいくら稼ぎますか？",
+  "ic_sentence_template": "{name_female, ジュディ}のおじは毎月{num_ic, 47}足のダンスシューズを買います。",
+  "ic_template": "{name_female, ジュディ}のおじは毎月{num_ic, 47}足のダンスシューズを買います。{name_female, ジュディ} は、平日は毎日 {num_digit_1, 5} つのダンスのクラスを教えており、土曜日は {num_digit_2, 8} クラス教えています。もしも各クラスに {num_digit_3, 15} 人の生徒がおり、1人に ${num_digit_4, 15.00} 請求しているとしたら、彼女は {num_digit_5, 1} 週間でいくら稼ぎますか？",
+  "equation": "UPDATE HERE"
+}

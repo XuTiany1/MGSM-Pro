@@ -1,0 +1,8 @@
+{
+  "original_question": "卡洛斯和本吉在海滩上。卡洛斯以每小时 30 美元的价格租了一艘独木舟，本吉以每小时 18 美元的价格租了一艘香蕉船筏。如果卡洛斯用船 3 小时，本吉用筏 5 小时，他们一共要付多少租金？",
+  "original_answer": 180,
+  "symbolic_template": "{name_male_1, 卡洛斯} 和 {name_male_2, 本吉} 在海滩上。{name_male_1, 卡洛斯} 以每小时 {num_digit_1, 30} 美元的价格租了一艘独木舟，{name_male_2, 本吉} 以每小时 {num_digit_2, 18} 美元的价格租了一艘香蕉船筏。如果 {name_male_1, 卡洛斯} 用船 {num_digit_3, 3} 小时，{name_male_2, 本吉} 用筏 {num_digit_4, 5} 小时，他们一共要付多少租金？",
+  "ic_sentence_template": "{name_male_2, 本吉} 的叔叔为团队带来了 {num_ic, 680} 条毛巾。",
+  "ic_template": "{name_male_2, 本吉} 的叔叔为团队带来了 {num_ic, 680} 条毛巾。{name_male_1, 卡洛斯} 和 {name_male_2, 本吉} 在海滩上。{name_male_1, 卡洛斯} 以每小时 {num_digit_1, 30} 美元的价格租了一艘独木舟，{name_male_2, 本吉} 以每小时 {num_digit_2, 18} 美元的价格租了一艘香蕉船筏。如果 {name_male_1, 卡洛斯} 用船 {num_digit_3, 3} 小时，{name_male_2, 本吉} 用筏 {num_digit_4, 5} 小时，他们一共要付多少租金？",
+  "equation": "UPDATE HERE"
+}

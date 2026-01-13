@@ -1,0 +1,8 @@
+{
+  "original_question": "Kylar gaara n'ọnụ ụlọahia ịzụta ugegbe maka ụlọ ọhụrụ ya. Otu ugegbe dara ọnụ ego $5, mana nke abụọ ọbụla dara ọnụ ego bụ naanị 60% ego nke mbụ. Kylar na-achọ ịzụ ugegbe iri na isii. Ego ole ka o kwesịrị ịkwụ maka ha? ",
+  "original_answer": 64,
+  "symbolic_template": "{name_male, Kylar}  gaara n'ọnụ ụlọahia ịzụta ugegbe maka ụlọ ọhụrụ ya. Otu ugegbe dara ọnụ ego ${num_digit_1, 5}, mana nke abụọ ọbụla dara ọnụ ego bụ naanị {num_digit_2, 60}% ego nke mbụ. {name_male, Kylar}  na-achọ ịzụ ugegbe {num_digit_3, iri na isii}. Ego ole ka o kwesịrị ịkwụ maka ha?",
+  "ic_sentence_template": "Nwanne nne {name_male, Kylar} nwere nso zụtara iko {num_ic, 25} maka office ya.",
+  "ic_template": "Nwanne nne {name_male, Kylar} nwere nso zụtara iko {num_ic, 25} maka office ya. {name_male, Kylar}  gaara n'ọnụ ụlọahia ịzụta ugegbe maka ụlọ ọhụrụ ya. Otu ugegbe dara ọnụ ego ${num_digit_1, 5}, mana nke abụọ ọbụla dara ọnụ ego bụ naanị {num_digit_2, 60}% ego nke mbụ. {name_male, Kylar}  na-achọ ịzụ ugegbe {num_digit_3, iri na isii}. Ego ole ka o kwesịrị ịkwụ maka ha?",
+  "equation": "UPDATE HERE"
+}

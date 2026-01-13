@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean s'occupe de 10 chiens. Chaque chien a besoin de 0,5 heure par jour pour se promener et faire d'autres choses. Combien d'heures Jean passe-t-il par semaine à s'occuper des chiens ?",
+  "original_answer": 35,
+  "symbolic_template": "{name_male, Jean} s'occupe de {num_digit_1, 10} chiens. Chaque chien a besoin de 0,5 heure par jour pour se promener et faire d'autres choses. Combien d'heures {name_male, Jean} passe-t-il par semaine à s'occuper des chiens ?",
+  "ic_sentence_template": "{name_male, John} a une nièce qui a {num_ic, 19} lapins.",
+  "ic_template": "{name_male, John} a une nièce qui a {num_ic, 19} lapins. {name_male, Jean} s'occupe de {num_digit_1, 10} chiens. Chaque chien a besoin de 0,5 heure par jour pour se promener et faire d'autres choses. Combien d'heures {name_male, Jean} passe-t-il par semaine à s'occuper des chiens ?",
+  "equation": "UPDATE HERE"
+}

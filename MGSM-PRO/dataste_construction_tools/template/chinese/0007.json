@@ -1,0 +1,8 @@
+{
+  "original_question": "卡拉正在下载一个 200 GB 的文件。正常情况下，她每分钟可以下载 2 GB，但在下载了 40% 的时候，Windows 强制重新启动以安装更新，而这个过程需要 20 分钟。然后卡拉不得不从头重新下载。下载这份文件需要多长时间？",
+  "original_answer": 160,
+  "symbolic_template": "{name_female, 卡拉} 正在下载一个 {num_digit_1, 200} GB 的文件。正常情况下，她每分钟可以下载 {num_digit_2, 2} GB，但在下载了 {num_digit_3, 40}% 的时候，Windows 强制重新启动以安装更新，而这个过程需要 {num_digit_4, 20} 分钟。然后 {name_female, 卡拉} 不得不从头重新下载。下载这份文件需要多长时间？",
+  "ic_sentence_template": "{name_female, 卡拉} 的叔叔最近买了 {num_ic, 110} 个新的电脑零件。",
+  "ic_template": "{name_female, 卡拉} 的叔叔最近买了 {num_ic, 110} 个新的电脑零件。{name_female, 卡拉} 正在下载一个 {num_digit_1, 200} GB 的文件。正常情况下，她每分钟可以下载 {num_digit_2, 2} GB，但在下载了 {num_digit_3, 40}% 的时候，Windows 强制重新启动以安装更新，而这个过程需要 {num_digit_4, 20} 分钟。然后 {name_female, 卡拉} 不得不从头重新下载。下载这份文件需要多长时间？",
+  "equation": "UPDATE HERE"
+}

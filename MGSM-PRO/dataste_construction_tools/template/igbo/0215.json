@@ -1,0 +1,8 @@
+{
+  "original_question": "Lori chọrọ ịzụta akpụkpọ ụkwụ $320.00 na eriri nke dabara nke bụ $32.00. Ọrụ nchere oge ya na-akwụ ya $8.00 kwa awa. Awa ole ka ọ ga-arụ ọrụ tụtụ o nwe ike izuta ihe ?",
+  "original_answer": 44,
+  "symbolic_template": "{name_female, Lori} chọrọ ịzụta akpụkpọ ụkwụ ${num_digit_1, 320.00} na eriri nke dabara nke bụ ${num_digit_2, 32.00}. Ọrụ nchere oge ya na-akwụ ya ${num_digit_3, 8.00} kwa awa. Awa ole ka ọ ga-arụ ọrụ tụtụ o nwe ike izuta ihe?",
+  "ic_sentence_template": "Nwanne nna {name_female, Lori} chọtara {num_ic, 47} akwụkwọ mgbasa ozi ihe nkiri ochie n'elu ụlọ ya.",
+  "ic_template": "Nwanne nna {name_female, Lori} chọtara {num_ic, 47} akwụkwọ mgbasa ozi ihe nkiri ochie n'elu ụlọ ya. {name_female, Lori} chọrọ ịzụta akpụkpọ ụkwụ ${num_digit_1, 320.00} na eriri nke dabara nke bụ ${num_digit_2, 32.00}. Ọrụ nchere oge ya na-akwụ ya ${num_digit_3, 8.00} kwa awa. Awa ole ka ọ ga-arụ ọrụ tụtụ o nwe ike izuta ihe?",
+  "equation": "UPDATE HERE"
+}

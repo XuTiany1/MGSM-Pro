@@ -1,0 +1,8 @@
+{
+  "original_question": "Tanki mmiri nwere ogbu dị fiiti iri na asaa n'ụbọchị Mọndee. N' ụbọchị Tuzdee tanki mmiri ahụ nwekwuru fiiti mmiri asaa ọzọ. N' ụbọchị Wenezdee, ogbu mmiri bụ ụzọ abụọ n'ịme atọ ihe ọ bụ na Tuzdee. Kedụ ogbu mmiri tanki ahụ na Wenezdee? ",
+  "original_answer": 16,
+  "symbolic_template": "Tanki mmiri nwere ogbu dị fiiti {num_digit_1, 17} n'ụbọchị Mọndee. N'ụbọchị Tuzdee tanki mmiri ahụ nwekwuru fiiti mmiri {num_digit_2, 7} ọzọ. N'ụbọchị Wenezdee, ogbu mmiri bụ ụzọ abụọ n'ịme atọ ihe ọ bụ na Tuzdee. Kedụ ogbu mmiri tanki ahụ na Wenezdee?",
+  "ic_sentence_template": "Nwanne nna {name_male, Brian} nyochara ogo mmiri dị na tankị ugboro {num_ic, 79} n'afọ gara aga.",
+  "ic_template": "Nwanne nna {name_male, Brian} nyochara ogo mmiri dị na tankị ugboro {num_ic, 79} n'afọ gara aga. Tanki mmiri nwere ogbu dị fiiti {num_digit_1, 17} n'ụbọchị Mọndee. N'ụbọchị Tuzdee tanki mmiri ahụ nwekwuru fiiti mmiri {num_digit_2, 7} ọzọ. N'ụbọchị Wenezdee, ogbu mmiri bụ ụzọ abụọ n'ịme atọ ihe ọ bụ na Tuzdee. Kedụ ogbu mmiri tanki ahụ na Wenezdee?",
+  "equation": "UPDATE HERE"
+}

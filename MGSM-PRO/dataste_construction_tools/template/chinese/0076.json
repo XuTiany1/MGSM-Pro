@@ -1,0 +1,8 @@
+{
+  "original_question": "塞西莉亚刚买了一只小狗。按照兽医的医嘱，在前 180 天，她必须每天喂小狗 1 杯狗粮。然后在小狗剩下的生命中，她必须每天喂小狗 2 杯狗粮。如果 1 袋狗粮有 110 杯狗粮，则塞西莉亚会在第一年用掉多少袋狗粮？",
+  "original_answer": 5,
+  "symbolic_template": "{name_female, 塞西莉亚} 刚买了一只小狗。按照兽医的医嘱，在前 {num_digit_2, 180} 天，她必须每天喂小狗 {num_digit_1, 1} 杯狗粮。然后在小狗剩下的生命中，她必须每天喂小狗 {num_digit_3, 2} 杯狗粮。如果一袋狗粮有 {num_digit_4, 110} 杯狗粮，{name_female, 塞西莉亚} 会在第一年用掉多少袋狗粮？",
+  "ic_sentence_template": "{name_female, 西西莉亚} 的阿姨曾经以折扣价购买了 {num_ic, 112} 罐猫粮。",
+  "ic_template": "{name_female, 西西莉亚} 的阿姨曾经以折扣价购买了 {num_ic, 112} 罐猫粮。{name_female, 塞西莉亚} 刚买了一只小狗。按照兽医的医嘱，在前 {num_digit_2, 180} 天，她必须每天喂小狗 {num_digit_1, 1} 杯狗粮。然后在小狗剩下的生命中，她必须每天喂小狗 {num_digit_3, 2} 杯狗粮。如果一袋狗粮有 {num_digit_4, 110} 杯狗粮，{name_female, 塞西莉亚} 会在第一年用掉多少袋狗粮？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "乔丹每天玩电子游戏 2 小时。他还有一份时薪 10 美元的兼职工作。如果乔丹把玩游戏的时间用来工作，他一周能赚多少钱？",
+  "original_answer": 140,
+  "symbolic_template": "{name_male, 乔丹} 每天玩电子游戏 {num_digit_1, 2} 小时。他还有一份时薪 {num_digit_2, 10} 美元的兼职工作。如果 {name_male, 乔丹} 把玩游戏的时间用来工作，他 一 周能赚多少钱？",
+  "ic_sentence_template": "{name_male, 乔丹} 的叔叔有 {num_ic, 8} 台老式街机。",
+  "ic_template": "{name_male, 乔丹} 的叔叔有 {num_ic, 8} 台老式街机。{name_male, 乔丹} 每天玩电子游戏 {num_digit_1, 2} 小时。他还有一份时薪 {num_digit_2, 10} 美元的兼职工作。如果 {name_male, 乔丹} 把玩游戏的时间用来工作，他 一 周能赚多少钱？",
+  "equation": "UPDATE HERE"
+}

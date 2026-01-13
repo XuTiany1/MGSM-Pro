@@ -1,0 +1,8 @@
+{
+  "original_question": "Sheila zụtara ekwenti ise maka $150 nke ọbụla ikwụ ụgwọ nkeji nkeji maka ọnwa atọ. A ga-na ụma 2% maka nkeji ọbụla. Ego ole ka Sheila ga-akwu n'ọnwa ọbụla maka ọnwa atọ?",
+  "original_answer": 255,
+  "symbolic_template": "{name_female, Shiela} zụtara ekwenti ise maka ${num_digit_1, 150} nke ọbụla ikwụ ụgwọ nkeji nkeji maka ọnwa {num_digit_2, 3}. A ga-na ụma {num_digit_3, 2}% maka nkeji ọbụla. Ego ole ka {name_female, Shiela} ga-akwu n'ọnwa ọbụla maka ọnwa {num_digit_2, 3}?",
+  "ic_sentence_template": "Nwanne nna {name_female, Shiela} natara karịsịa {num_ic, 82} flaya maka mgbasa ozi ekwentị.",
+  "ic_template": "Nwanne nna {name_female, Shiela} natara karịsịa {num_ic, 82} flaya maka mgbasa ozi ekwentị. {name_female, Shiela} zụtara ekwenti ise maka ${num_digit_1, 150} nke ọbụla ikwụ ụgwọ nkeji nkeji maka ọnwa {num_digit_2, 3}. A ga-na ụma {num_digit_3, 2}% maka nkeji ọbụla. Ego ole ka {name_female, Shiela} ga-akwu n'ọnwa ọbụla maka ọnwa {num_digit_2, 3}?",
+  "equation": "UPDATE HERE"
+}

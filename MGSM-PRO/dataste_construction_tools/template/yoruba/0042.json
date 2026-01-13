@@ -1,0 +1,8 @@
+{
+  "original_question": "ìyá àgbà Jones ṣe páì oní ápù 5 fún oúnjẹ ọ̀sán àwọn panápaná. Ó gé páì kọ̀ọ̀kan sí ọ̀nà 8 nígbàtí ó sì to àwọn páì márùn-ún sórí tábìlì oúnje fún àwọn àlejò náà láti bù fúnra wọn. Nígbà tí ìrọ̀lẹ́ yóò fi rọ̀, lẹ́yìn tí àwọn àlejò ti mú tí wọ́n sì ti jẹ ẹyọ páì tiwọn, ó ṣẹ́kù páì 14. Ẹyọ mélòó ni àwọn àlejò náà mú?",
+  "original_answer": 26,
+  "symbolic_template": "ìyá àgbà {name_family, Jones} ṣe páì oní ápù {num_digit_1, 5} fún oúnjẹ ọ̀sán àwọn panápaná. Ó gé páì kọ̀ọ̀kan sí ọ̀nà {num_digit_2, 8} nígbàtí ó sì to àwọn páì márùn-ún sórí tábìlì oúnje fún àwọn àlejò náà láti bù fúnra wọn. Nígbà tí ìrọ̀lẹ́ yóò fi rọ̀, lẹ́yìn tí àwọn àlejò ti mú tí wọ́n sì ti jẹ ẹyọ páì tiwọn, ó ṣẹ́kù páì {num_digit_3, 14}. Ẹyọ mélòó ni àwọn àlejò náà mú?",
+  "ic_sentence_template": "Ọmọkùnrin arábìnrin tàbí arákùnrin {name_family, Jones} mú {num_ic, 93} ìkòkò omi ilẹ̀monì wá síbi oúnjẹ ọ̀sán.",
+  "ic_template": "Ọmọkùnrin arábìnrin tàbí arákùnrin {name_family, Jones} mú {num_ic, 93} ìkòkò omi ilẹ̀monì wá síbi oúnjẹ ọ̀sán. ìyá àgbà {name_family, Jones} ṣe páì oní ápù {num_digit_1, 5} fún oúnjẹ ọ̀sán àwọn panápaná. Ó gé páì kọ̀ọ̀kan sí ọ̀nà {num_digit_2, 8} nígbàtí ó sì to àwọn páì márùn-ún sórí tábìlì oúnje fún àwọn àlejò náà láti bù fúnra wọn. Nígbà tí ìrọ̀lẹ́ yóò fi rọ̀, lẹ́yìn tí àwọn àlejò ti mú tí wọ́n sì ti jẹ ẹyọ páì tiwọn, ó ṣẹ́kù páì {num_digit_3, 14}. Ẹyọ mélòó ni àwọn àlejò náà mú?",
+  "equation": "UPDATE HERE"
+}

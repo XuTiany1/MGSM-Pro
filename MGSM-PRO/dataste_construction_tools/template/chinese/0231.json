@@ -1,0 +1,8 @@
+{
+  "original_question": "凯莉和罗伯特喜欢去海滩收集贝壳。周一，凯莉比罗伯特多收集了 5 枚贝壳，罗伯特收集了 20 枚贝壳。周二，凯莉收集的贝壳比她周一收集的多出 2 倍。凯莉周二收集了多少贝壳？",
+  "original_answer": 50,
+  "symbolic_template": "{name_male_1, 凯莉} 和 {name_male_2, 罗伯特} 喜欢去海滩收集贝壳。周一，{name_male_1, 凯莉} 比 {name_male_2, 罗伯特} 多收集了 {num_digit_1, 5} 枚贝壳，{name_male_2, 罗伯特} 收集了 {num_digit_2, 20} 枚贝壳。周二，{name_male_1, 凯莉} 收集的贝壳比她周一收集的多出 {num_digit_3, 2} 倍。{name_male_1, 凯莉} 周二收集了多少贝壳？",
+  "ic_sentence_template": "{name_male_2, 罗伯特} 的姑妈去年夏天找到 {num_ic, 8243} 块海玻璃。",
+  "ic_template": "{name_male_2, 罗伯特} 的姑妈去年夏天找到 {num_ic, 8243} 块海玻璃。{name_male_1, 凯莉} 和 {name_male_2, 罗伯特} 喜欢去海滩收集贝壳。周一，{name_male_1, 凯莉} 比 {name_male_2, 罗伯特} 多收集了 {num_digit_1, 5} 枚贝壳，{name_male_2, 罗伯特} 收集了 {num_digit_2, 20} 枚贝壳。周二，{name_male_1, 凯莉} 收集的贝壳比她周一收集的多出 {num_digit_3, 2} 倍。{name_male_1, 凯莉} 周二收集了多少贝壳？",
+  "equation": "UPDATE HERE"
+}

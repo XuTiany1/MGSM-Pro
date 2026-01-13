@@ -1,0 +1,8 @@
+{
+  "original_question": "Mike was a pen pal with 5 people.  He stopped being penpals with 2 of them.  They each send 2 letters a week that are 5 pages long.  He responds in kind.  He can write a page every 6 minutes.  How many hours does he spend writing a week?",
+  "original_answer": 3,
+  "symbolic_template": "{name_male, Mike} was a pen pal with {num_digit_1, 5} people. He stopped being penpals with {num_digit_2, 2} of them. They each send {num_digit_3, 2} letters a week that are {num_digit_4, 5} pages long. He responds in kind. He can write a page every {num_digit_6, 6} minutes. How many hours does he spend writing a week?",
+  "ic_sentence_template": "{name_male, Mike}'s aunt reads {num_ic, 91741} books each year.",
+  "ic_template": "{name_male, Mike} was a pen pal with {num_digit_1, 5} people. He stopped being penpals with {num_digit_2, 2} of them. They each send {num_digit_3, 2} letters a week that are {num_digit_4, 5} pages long. He responds in kind. He can write a page every {num_digit_6, 6} minutes. {name_male, Mike}'s aunt reads {num_ic, 91741} books each year. How many hours does he spend writing a week?",
+  "equation": "UPDATE HERE"
+}

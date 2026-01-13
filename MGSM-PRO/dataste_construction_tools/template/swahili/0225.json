@@ -1,0 +1,8 @@
+{
+  "original_question": "Andrew anapanga safari kutoka New Jersey kwenda Rochester. Huwa inachukua siku 6 kusafiri kwa basi na nusu ya siku hizo kusafiri kwa gari kutoka New Jersey kwenda Rochester.Atasafiri kwa siku ngapi ikiwa anapanga kwenda Rochester kwa basi na kurudi kutoka Rochester kwa gari?",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, Andrew} anapanga safari ya barabara kutoka {name_city_1, New Jersey} hadi {name_city_2, Rochester}. Inachukua siku {num_digit_1, 6} kusafiri kwa basi na nusu ya siku hizo kusafiri kwa gari kutoka {name_city_1, New Jersey} hadi {name_city_2, Rochester}. Atasafiri siku ngapi jumla ikiwa ataenda {name_city_2, Rochester} kwa basi na kurudi kwa gari?",
+  "ic_sentence_template": "Mjomba wa {name_male, Andrew} aliona magari ya kale {num_ic, 373} majira ya joto yaliyopita.",
+  "ic_template": "{name_male, Andrew} anapanga safari ya barabara kutoka {name_city_1, New Jersey} hadi {name_city_2, Rochester}. Inachukua siku {num_digit_1, 6} kusafiri kwa basi na nusu ya siku hizo kusafiri kwa gari kutoka {name_city_1, New Jersey} hadi {name_city_2, Rochester}. Mjomba wa {name_male, Andrew} aliona magari ya kale {num_ic, 373} majira ya joto yaliyopita. Atasafiri siku ngapi jumla ikiwa ataenda {name_city_2, Rochester} kwa basi na kurudi kwa gari?",
+  "equation": "UPDATE HERE"
+}

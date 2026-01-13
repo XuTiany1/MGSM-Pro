@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerry has two pools, both with leaks emptying them out at 4 gallons/minute. 4 minutes ago, the big pool had twice as much water as the small pool. Now the big pool has four times as much water as the small pool. How much water does the small pool have now?",
+  "original_answer": 8,
+  "symbolic_template": "{name_male, Jerry} has two pools, both with leaks emptying them out at {num_digit_1, 4} gallons/minute. {num_digit_2, 4} minutes ago, the big pool had twice as much water as the small pool. Now the big pool has four times as much water as the small pool. How much water does the small pool have now?",
+  "ic_sentence_template": "{name_male, Jerry}'s aunt fills {num_ic, 123} buckets with rainwater every week.",
+  "ic_template": "{name_male, Jerry} has two pools, both with leaks emptying them out at {num_digit_1, 4} gallons/minute. {num_digit_2, 4} minutes ago, the big pool had twice as much water as the small pool. Now the big pool has four times as much water as the small pool. {name_male, Jerry}'s aunt fills {num_ic, 123} buckets with rainwater every week. How much water does the small pool have now?",
+  "equation": "UPDATE HERE"
+}

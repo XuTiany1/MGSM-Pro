@@ -1,0 +1,8 @@
+{
+  "original_question": "Bendi ya wanaojipanga inaagiza sare mpya. Kila sare huja na kofia ambayo bei yake ni $25, jaketi ambayo bei yake ni mara tatu zaidi ya bei ya kofia, na suruali ambayo bei yake ni wastani ya bei ya kofia na jaketi. Bei ya kila sare kwa jumla ni pesa ngapi?",
+  "original_answer": 150,
+  "symbolic_template": "Bendi ya gwaride inaagiza sare mpya. Kila sare inakuja na kofia inayogharimu ${num_digit_1, 25}, koti linalogharimu mara tatu ya bei ya kofia, na suruali inayogharimu wastani wa bei ya kofia na koti. Sare moja inagharimu jumla ya kiasi gani?",
+  "ic_sentence_template": "Binamu wa kiongozi wa bendi alinunua jozi {num_ic, 517} za glavu kwa ajili ya kitengo cha wapigaji.",
+  "ic_template": "Binamu wa kiongozi wa bendi alinunua jozi {num_ic, 517} za glavu kwa ajili ya kitengo cha wapigaji. Bendi ya gwaride inaagiza sare mpya. Kila sare inakuja na kofia inayogharimu ${num_digit_1, 25}, koti linalogharimu mara tatu ya bei ya kofia, na suruali inayogharimu wastani wa bei ya kofia na koti. Sare moja inagharimu jumla ya kiasi gani?",
+  "equation": "UPDATE HERE"
+}

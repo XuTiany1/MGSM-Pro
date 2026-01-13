@@ -1,0 +1,8 @@
+{
+  "original_question": "Ọ‌rẹ‌ Brian, Bobby ní eré fídíò tí ó fi 5 kéré sí ìlọ‌po mẹ‌ta iye tí Brian ní. Tí Brian bá ní eré fídíò 20 ṣùgbọ‌n tí ó pàdánù 5 kí wọ‌n tó ṣe àfiwé náà, mélòó ni Bobby ní?",
+  "original_answer": 40,
+  "symbolic_template": "Ọrẹ {name_male_1, Brian}, {name_male_2, Bobby} ní eré fídíò tí ó fi {num_digit_1, 5} kéré sí ìlopo {num_digit_2, 3} iye tí {name_male_1, Brian} ní. Tí {name_male_1, Brian} bá ní eré fídíò {num_digit_3, 20} ṣùgbọ́n tí ó pàdánù {num_digit_4, 5} kí wọ́n tó ṣe àfiwé náà, mélòó ni {name_male_2, Bobby} ní?",
+  "ic_sentence_template": "Ọmọkùnrin {name_male_1, Brian} ní bí baba rẹ̀ ṣe ní ìkàwé àwọn ìtàn aláwòrán {num_ic, 30}.",
+  "ic_template": "Ọmọkùnrin {name_male_1, Brian} ní bí baba rẹ̀ ṣe ní ìkàwé àwọn ìtàn aláwòrán {num_ic, 30}. Ọrẹ {name_male_1, Brian}, {name_male_2, Bobby} ní eré fídíò tí ó fi {num_digit_1, 5} kéré sí ìlopo {num_digit_2, 3} iye tí {name_male_1, Brian} ní. Tí {name_male_1, Brian} bá ní eré fídíò {num_digit_3, 20} ṣùgbọ́n tí ó pàdánù {num_digit_4, 5} kí wọ́n tó ṣe àfiwé náà, mélòó ni {name_male_2, Bobby} ní?",
+  "equation": "UPDATE HERE"
+}

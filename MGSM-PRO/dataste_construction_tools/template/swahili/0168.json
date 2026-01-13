@@ -1,0 +1,8 @@
+{
+  "original_question": "Jimmy ana $2 zaidi ya mara mbili ya pesa za Ethel. Iwapo Ethel ana $8, Jimmy ana pesa ngapi?",
+  "original_answer": 18,
+  "symbolic_template": "{name_male_1, Jimmy} ana ${num_digit_1, 2} zaidi ya mara mbili ya pesa alizo nazo {name_male_2, Ethel}. Ikiwa {name_male_2, Ethel} ana ${num_digit_2, 8}, {name_male_1, Jimmy} ana kiasi gani cha pesa?",
+  "ic_sentence_template": "Mjomba wa {name_male_2, Ethel} alipata sarafu za zamani {num_ic, 33} kwenye dari lake.",
+  "ic_template": "Mjomba wa {name_male_2, Ethel} alipata sarafu za zamani {num_ic, 33} kwenye dari lake. {name_male_1, Jimmy} ana ${num_digit_1, 2} zaidi ya mara mbili ya pesa alizo nazo {name_male_2, Ethel}. Ikiwa {name_male_2, Ethel} ana ${num_digit_2, 8}, {name_male_1, Jimmy} ana kiasi gani cha pesa?",
+  "equation": "UPDATE HERE"
+}

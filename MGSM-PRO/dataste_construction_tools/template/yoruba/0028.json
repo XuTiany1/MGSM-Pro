@@ -1,0 +1,8 @@
+{
+  "original_question": "Henry dúró ní ìgbà méjì lásìkò ìrìnàjò alùpùpù oní máílì-60 rẹ̀. Ó kọ́kọ́ dúró lẹ́yìn máìlì 20. Ìdúró ẹlẹ́ẹ̀kejì rẹ̀ jẹ́ máìlì 15 ṣíwájú òpin ìrìnàjò náà. Máìlì mélòó ló rìn láàrín ìdúró rẹ̀ àkọ́kọ́ àti ẹ̀kejì?",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Henry} dúró ní ìgbà méjì lásìkò ìrìnàjò alùpùpù oní máílì-{num_digit_1, 60} rẹ̀. Ó kọ́kọ́ dúró lẹ́yìn máìlì {num_digit_2, 20}. Ìdúró ẹlẹ́ẹ̀kejì rẹ̀ jẹ́ máìlì {num_digit_3, 15} ṣíwájú òpin ìrìnàjò náà. Máìlì mélòó ló rìn láàrín ìdúró rẹ̀ àkọ́kọ́ àti ẹ̀kejì?",
+  "ic_sentence_template": "Arákùnrin {name_male, Henry} ní ìbàdí {num_ic, 85} fíákẹ́tì káńgà.",
+  "ic_template": "{name_male, Henry} dúró ní ìgbà méjì lásìkò ìrìnàjò alùpùpù oní máílì-{num_digit_1, 60} rẹ̀. Ó kọ́kọ́ dúró lẹ́yìn máìlì {num_digit_2, 20}. Ìdúró ẹlẹ́ẹ̀kejì rẹ̀ jẹ́ máìlì {num_digit_3, 15} ṣíwájú òpin ìrìnàjò náà. Máìlì mélòó ló rìn láàrín ìdúró rẹ̀ àkọ́kọ́ àti ẹ̀kejì? Arákùnrin {name_male, Henry} ní ìbàdí {num_ic, 85} fíákẹ́tì káńgà.",
+  "equation": "UPDATE HERE"
+}

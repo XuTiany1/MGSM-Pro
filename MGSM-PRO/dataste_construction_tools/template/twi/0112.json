@@ -1,0 +1,8 @@
+{
+  "original_question": "Adesuadan bi wɔ pono fitaa a akyerԑkyerԑfoɔ 4 di adaneԑ na wɔde adesuadan no adi adwuma. Ͻkyerԑkyerԑni biara wɔ adekyerԑ mmienu da koro biara na ɔde pono fitaa no di dwuma wɔ adekyerԑ biara mu. Sԑ wɔpepa pono fitaa no so mprԑ mmiԑnsa adekyerԑ biara a, mprԑ dodɔ sԑn na wɔpepa pono fitaa no so wɔ da baako mu?",
+  "original_answer": 24,
+  "symbolic_template": "Adesuadan bi wɔ pono fitaa a akyerԑkyerԑfoɔ {num_digit_1, 4} di adaneԑ na wɔde adesuadan no adi adwuma. Ͻkyerԑkyerԑni biara wɔ adekyerԑ {num_digit_2, 2} da koro biara na ɔde pono fitaa no di dwuma wɔ adekyerԑ biara mu. Sԑ wɔpepa pono fitaa no so mprԑ {num_digit_3, 3} adekyerԑ biara a, mprԑ dodɔ sԑn na wɔpepa pono fitaa no so wɔ da baako mu?",
+  "ic_sentence_template": "ɔdansifo a ɔhwɛ nneɛma so no wɔfa de twerɛ dua {num_ic, 61} brɛ sukuu.",
+  "ic_template": "ɔdansifo a ɔhwɛ nneɛma so no wɔfa de twerɛ dua {num_ic, 61} brɛ sukuu. Adesuadan bi wɔ pono fitaa a akyerԑkyerԑfoɔ {num_digit_1, 4} di adaneԑ na wɔde adesuadan no adi adwuma. Ͻkyerԑkyerԑni biara wɔ adekyerԑ {num_digit_2, 2} da koro biara na ɔde pono fitaa no di dwuma wɔ adekyerԑ biara mu. Sԑ wɔpepa pono fitaa no so mprԑ {num_digit_3, 3} adekyerԑ biara a, mprԑ dodɔ sԑn na wɔpepa pono fitaa no so wɔ da baako mu?",
+  "equation": "UPDATE HERE"
+}

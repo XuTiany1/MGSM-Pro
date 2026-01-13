@@ -1,0 +1,8 @@
+{
+  "original_question": "Ní ìlú Soda, àwọn olùgbé 23786 gẹ́lẹ́ ló wà. Wọ́n pẹ̀lú àwọn ọkùnrin 8417 àti obìnrin 9092. Awọn iyokù jẹ àwọn  ọmọdé. Ọmọdé méèló ni ó wà nínú Sódà?",
+  "original_answer": 6277,
+  "symbolic_template": "Ní ìlú {name_city, Soda}, àwọn olùgbé {num_digit_1, 23786} gẹ́lẹ́ ló wà. Wọ́n pẹ̀lú àwọn ọkùnrin {num_digit_2, 8417} àti obìnrin {num_digit_3, 9092}. Awọn iyokù jẹ àwọn ọmọdé. Ọmọdé méèló ni ó wà nínú {name_city, Sódà}?",
+  "ic_sentence_template": "Ọmọ ẹ̀gbẹ́ mẹ́kúnrin gomina ìlú {name_city, Soda} ra bọ́lùúnù {num_ic, 174364} fún ajọdún kan.",
+  "ic_template": "Ọmọ ẹ̀gbẹ́ mẹ́kúnrin gomina ìlú {name_city, Soda} ra bọ́lùúnù {num_ic, 174364} fún ajọdún kan. Ní ìlú {name_city, Soda}, àwọn olùgbé {num_digit_1, 23786} gẹ́lẹ́ ló wà. Wọ́n pẹ̀lú àwọn ọkùnrin {num_digit_2, 8417} àti obìnrin {num_digit_3, 9092}. Awọn iyokù jẹ àwọn ọmọdé. Ọmọdé méèló ni ó wà nínú {name_city, Sódà}?",
+  "equation": "UPDATE HERE"
+}

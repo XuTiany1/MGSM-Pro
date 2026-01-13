@@ -1,0 +1,8 @@
+{
+  "original_question": "エミリーはエイミー、ジャクソン、コリー、ジェームスという名前の4人の子供がいる。エイミーはジャクソンより5歳年上で、コリーより2歳若い。ジェームスが10歳で、コリーより1年若い場合、ジャクソンは何歳？",
+  "original_answer": 4,
+  "symbolic_template": "{name_female_1, エミリー}は{name_female_2, エイミー}、{name_male_1, ジャクソン}、{name_male_2, コリー}、{name_male_3, ジェームス}という名前の{num_digit_1, 4}人の子供がいる。{name_female_2, エイミー}は{name_male_1, ジャクソン}より{num_digit_2, 5}歳年上で、{name_male_2, コリー}より{num_digit_3, 2}歳若い。{name_male_3, ジェームス}が{num_digit_4, 10}歳で、{name_male_2, コリー}より{num_digit_5, 1}年若い場合、{name_male_1, ジャクソン}は何歳？",
+  "ic_sentence_template": "{name_female_1, エミリー}のおじはお店で{num_ic, 39}個のりんごを買いました。",
+  "ic_template": "{name_female_1, エミリー}のおじはお店で{num_ic, 39}個のりんごを買いました。{name_female_1, エミリー}は{name_female_2, エイミー}、{name_male_1, ジャクソン}、{name_male_2, コリー}、{name_male_3, ジェームス}という名前の{num_digit_1, 4}人の子供がいる。{name_female_2, エイミー}は{name_male_1, ジャクソン}より{num_digit_2, 5}歳年上で、{name_male_2, コリー}より{num_digit_3, 2}歳若い。{name_male_3, ジェームス}が{num_digit_4, 10}歳で、{name_male_2, コリー}より{num_digit_5, 1}年若い場合、{name_male_1, ジャクソン}は何歳？",
+  "equation": "UPDATE HERE"
+}

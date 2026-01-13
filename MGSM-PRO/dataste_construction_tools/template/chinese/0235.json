@@ -1,0 +1,8 @@
+{
+  "original_question": "约翰点了一些披萨和他的朋友分享。一共有 20 位朋友，约翰想确保每个人都能吃到 4 块。披萨只能切成 8 块出售。约翰需要点多少披萨？",
+  "original_answer": 10,
+  "symbolic_template": "{name_male, 约翰} 点了一些披萨和他的朋友分享。一共有 {num_digit_1, 20} 位朋友，{name_male, 约翰} 想确保每个人都能吃到 {num_digit_2, 4} 块。披萨只能切成 {num_digit_3, 8} 块出售。{name_male, 约翰} 需要点多少披萨？",
+  "ic_sentence_template": "{name_male, 约翰} 的叔叔有 {num_ic, 712} 张棒球卡。",
+  "ic_template": "{name_male, 约翰} 的叔叔有 {num_ic, 712} 张棒球卡。{name_male, 约翰} 点了一些披萨和他的朋友分享。一共有 {num_digit_1, 20} 位朋友，{name_male, 约翰} 想确保每个人都能吃到 {num_digit_2, 4} 块。披萨只能切成 {num_digit_3, 8} 块出售。{name_male, 约翰} 需要点多少披萨？",
+  "equation": "UPDATE HERE"
+}

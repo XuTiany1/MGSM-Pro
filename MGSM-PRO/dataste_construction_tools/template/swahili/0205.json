@@ -1,0 +1,8 @@
+{
+  "original_question": "Brinley yupo katika darasa la hisabati la Mr. Bert. Mr. Bert hupeana mazoezi sita kila muhula. Huwa anawaruhusu wanafunzi kuondoa alama ya chini zaidi kwenye wastani wa matokeo kila muhula. Ikiwa Brinley ana alama za 89, 71, 92, 100 na 86 kwa mazoezi matano ya kwanza, anahitaji kupata alama ngapi katika zoezi la sita ili awe na wastani wa 93?",
+  "original_answer": 98,
+  "symbolic_template": "{name_female, Brinley} yupo katika darasa la hesabu la Bwana {name_family, Bert}. Bwana {name_family, Bert} hutoa mitihani sita kila muhula. Anaruhusu wanafunzi kuondoa alama ya chini zaidi kwenye wastani kila muhula. Ikiwa {name_female, Brinley} ana alama {num_digit_1, 89}, {num_digit_2, 71}, {num_digit_3, 92}, {num_digit_4, 100} na {num_digit_5, 86} kwenye mitihani mitano ya kwanza, atahitaji alama ngapi kwenye mtihani wa sita ili apate wastani wa {num_digit_6, 93}?",
+  "ic_sentence_template": "Shangazi wa {name_female, Brinley} aliwahi kuleta donuts {num_ic, 21} za kushirikiana na darasa.",
+  "ic_template": "Shangazi wa {name_female, Brinley} aliwahi kuleta donuts {num_ic, 21} za kushirikiana na darasa. {name_female, Brinley} yupo katika darasa la hesabu la Bwana {name_family, Bert}. Bwana {name_family, Bert} hutoa mitihani sita kila muhula. Anaruhusu wanafunzi kuondoa alama ya chini zaidi kwenye wastani kila muhula. Ikiwa {name_female, Brinley} ana alama {num_digit_1, 89}, {num_digit_2, 71}, {num_digit_3, 92}, {num_digit_4, 100} na {num_digit_5, 86} kwenye mitihani mitano ya kwanza, atahitaji alama ngapi kwenye mtihani wa sita ili apate wastani wa {num_digit_6, 93}?",
+  "equation": "UPDATE HERE"
+}

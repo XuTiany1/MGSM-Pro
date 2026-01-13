@@ -1,0 +1,8 @@
+{
+  "original_question": "Cecilia ṣẹ̀ṣẹ̀ ra ọmọ ajá tuntun. Gẹ́gẹ́ bí olùtọ́jú ẹranko rẹ̀, ó níláti fún ọmọ ajá náà ní ife oúnjẹ ajá 1 lójoojúmọ́ fún ọjọ́ 180 àkọ́kọ́. Lẹ́yìn náà ó ní láti fún ọmọ ajá náà ní ife oúnjẹ ajá 2 lójoojúmọ́ fún gbogbo ọjọ́ ayé rẹ̀. Tí àpò oúnjẹ ajá kan bá ní ife 110, àpò oúnjẹ ajá mélòó ni Cecilia yóò lo ní ọdún àkọ́kọ́?",
+  "original_answer": 5,
+  "symbolic_template": "{name_female, Cecilia} ṣẹ̀ṣẹ̀ ra ọmọ ajá tuntun. Gẹ́gẹ́ bí olùtọ́jú ẹranko rẹ̀, ó níláti fún ọmọ ajá náà ní ife oúnjẹ ajá {num_digit_1, 1} lójoojúmọ́ fún ọjọ́ {num_digit_2, 180} àkọ́kọ́. Lẹ́yìn náà ó ní láti fún ọmọ ajá náà ní ife oúnjẹ ajá {num_digit_3, 2} lójoojúmọ́ fún gbogbo ọjọ́ ayé rẹ̀. Tí àpò oúnjẹ ajá kan bá ní ife {num_digit_4, 110}, àpò oúnjẹ ajá mélòó ni {name_female, Cecilia} yóò lo ní ọdún àkọ́kọ́?",
+  "ic_sentence_template": "Ìyá ńlá {name_female, Cecilia} rà awọn kánù {num_ic, 112} onjẹ ologbo ní ẹdinwo ní ìgbà kan.",
+  "ic_template": "Ìyá ńlá {name_female, Cecilia} rà awọn kánù {num_ic, 112} onjẹ ologbo ní ẹdinwo ní ìgbà kan. {name_female, Cecilia} ṣẹ̀ṣẹ̀ ra ọmọ ajá tuntun. Gẹ́gẹ́ bí olùtọ́jú ẹranko rẹ̀, ó níláti fún ọmọ ajá náà ní ife oúnjẹ ajá {num_digit_1, 1} lójoojúmọ́ fún ọjọ́ {num_digit_2, 180} àkọ́kọ́. Lẹ́yìn náà ó ní láti fún ọmọ ajá náà ní ife oúnjẹ ajá {num_digit_3, 2} lójoojúmọ́ fún gbogbo ọjọ́ ayé rẹ̀. Tí àpò oúnjẹ ajá kan bá ní ife {num_digit_4, 110}, àpò oúnjẹ ajá mélòó ni {name_female, Cecilia} yóò lo ní ọdún àkọ́kọ́?",
+  "equation": "UPDATE HERE"
+}

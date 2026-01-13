@@ -1,0 +1,8 @@
+{
+  "original_question": "Carmen gye simma 10 ansa na watumi adi aborɔme ano ne simma 5 ansa na watumi adi aborɔme sudoku. Wɔ nnawɔtwe awiei no mu no, odii aborɔme 3 ne sudoku aborɔme 8 ano. Bere dodoɔ ahe na ɔde dii saa agoru no?",
+  "original_answer": 70,
+  "symbolic_template": "{name_female, Carmen} gye simma {num_digit_1, 10} ansa na watumi adi aborɔme ano ne simma {num_digit_2, 5} ansa na watumi adi aborɔme sudoku. Wɔ nnawɔtwe awiei no mu no, odii aborɔme {num_digit_3, 3} ne sudoku aborɔme {num_digit_4, 8} ano. Bere dodoɔ ahe na ɔde dii saa agoru no?",
+  "ic_sentence_template": "{name_female, Carmen} wɔfa too cookies {num_ic, 46} Memeneda no.",
+  "ic_template": "{name_female, Carmen} wɔfa too cookies {num_ic, 46} Memeneda no. {name_female, Carmen} gye simma {num_digit_1, 10} ansa na watumi adi aborɔme ano ne simma {num_digit_2, 5} ansa na watumi adi aborɔme sudoku. Wɔ nnawɔtwe awiei no mu no, odii aborɔme {num_digit_3, 3} ne sudoku aborɔme {num_digit_4, 8} ano. Bere dodoɔ ahe na ɔde dii saa agoru no?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Pancho na-aga ije mailụ iri abụọ n'ụbọchị. Ewezuga ngwụcha izu ụka mgbe ọ na-aga ije mailụ iri. Mailụ ole ka ọ na-aga n'otu izu?",
+  "original_answer": 120,
+  "symbolic_template": "Pancho {name_male, Pancho} na-aga ije mailụ {num_digit_1, 20} n'ụbọchị. Ewezuga ngwụcha izu ụka mgbe ọ na-aga ije mailụ {num_digit_2, 10}. Mailụ ole ka ọ na-aga n'otu izu?",
+  "ic_sentence_template": "Nwanne nna {name_male, Pancho} nwere okpu {num_ic, 302}.",
+  "ic_template": "Nwanne nna {name_male, Pancho} nwere okpu {num_ic, 302}. Pancho {name_male, Pancho} na-aga ije mailụ {num_digit_1, 20} n'ụbọchị. Ewezuga ngwụcha izu ụka mgbe ọ na-aga ije mailụ {num_digit_2, 10}. Mailụ ole ka ọ na-aga n'otu izu?",
+  "equation": "UPDATE HERE"
+}

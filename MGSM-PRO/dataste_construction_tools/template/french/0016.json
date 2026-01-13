@@ -1,0 +1,8 @@
+{
+  "original_question": "Deux trains partent de San Rafael au même moment. Ils se dirigent d'abord vers l'ouest et parcourent tous les deux 80 miles. Le jour suivant, ils voyagent vers le nord, couvrant 150 miles. Quelle est la distance parcourue par chaque train au cours de ces deux jours ?",
+  "original_answer": 230,
+  "symbolic_template": "Deux trains partent de {name_town_1, San Rafael} au même moment. Ils se dirigent d'abord vers l'ouest et parcourent tous les deux {num_digit_1, 80} miles. Le jour suivant, ils voyagent vers le nord, couvrant {num_digit_2, 150} miles. Quelle est la distance parcourue par chaque train au cours de ces deux jours ?",
+  "ic_sentence_template": "{name_town_1, San Rafael} a un maire qui possède {num_ic, 137} trains miniatures.",
+  "ic_template": "{name_town_1, San Rafael} a un maire qui possède {num_ic, 137} trains miniatures. Deux trains partent de {name_town_1, San Rafael} au même moment. Ils se dirigent d'abord vers l'ouest et parcourent tous les deux {num_digit_1, 80} miles. Le jour suivant, ils voyagent vers le nord, couvrant {num_digit_2, 150} miles. Quelle est la distance parcourue par chaque train au cours de ces deux jours ?",
+  "equation": "UPDATE HERE"
+}

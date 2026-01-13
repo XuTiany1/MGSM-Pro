@@ -1,0 +1,8 @@
+{
+  "original_question": "Avant d'aller travailler au café, Candice a mis 80 pense-bêtes dans son sac à main. En chemin, elle s'est arrêtée pour acheter un paquet de pense-bêtes au magasin. Arrivée au travail, elle a placé un pense-bête sur chacune des 220 tasses de café. Si par la suite il ne lui restait plus que 23 pense-bêtes, combien y avait-il de pense-bêtes dans le paquet qu'elle a acheté ?",
+  "original_answer": 163,
+  "symbolic_template": "Avant d'aller travailler au café, {name_female, Candice} a mis {num_digit_1, 80} pense-bêtes dans son sac à main. En chemin, elle s'est arrêtée pour acheter un paquet de pense-bêtes au magasin. Arrivée au travail, elle a placé un pense-bête sur chacune des {num_digit_2, 220} tasses de café. Si par la suite il ne lui restait plus que {num_digit_3, 23} pense-bêtes, combien y avait-il de pense-bêtes dans le paquet qu'elle a acheté ?",
+  "ic_sentence_template": "{name_female, Candice} a un oncle qui collectionne {num_ic, 988} mugs à café chez lui.",
+  "ic_template": "{name_female, Candice} a un oncle qui collectionne {num_ic, 988} mugs à café chez lui. Avant d'aller travailler au café, {name_female, Candice} a mis {num_digit_1, 80} pense-bêtes dans son sac à main. En chemin, elle s'est arrêtée pour acheter un paquet de pense-bêtes au magasin. Arrivée au travail, elle a placé un pense-bête sur chacune des {num_digit_2, 220} tasses de café. Si par la suite il ne lui restait plus que {num_digit_3, 23} pense-bêtes, combien y avait-il de pense-bêtes dans le paquet qu'elle a acheté ?",
+  "equation": "UPDATE HERE"
+}

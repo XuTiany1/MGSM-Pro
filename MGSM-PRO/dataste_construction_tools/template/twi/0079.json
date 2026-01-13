@@ -1,0 +1,8 @@
+{
+  "original_question": "John afa ɔkraman bi abԑtena ne nkyԑn. Ͻfa ɔkraman no kɔ ɔsiesiefoɔ bi hɔ, na ɔtua $100. Ͻsiesiefoɔ no ma no ntesoɔ 20% esiane sԑ ɔyԑ ɔdetɔni foforɔ. Asiesie no boɔ no yԑ sԑn?",
+  "original_answer": 70,
+  "symbolic_template": "{name_male, John} afa ɔkraman bi abԑtena ne nkyԑn. Ͻfa ɔkraman no kɔ ɔsiesiefoɔ bi hɔ, na ɔtua ${num_digit_1, 100}. Ͻsiesiefoɔ no ma no ntesoɔ {num_digit_2, 30}% esiane sԑ ɔyԑ ɔdetɔni foforɔ. Asiesie no boɔ no yԑ sԑn?",
+  "ic_sentence_template": "{name_male, John's} wɔfa wɔ agyinamoa {num_ic, 13}.",
+  "ic_template": "{name_male, John's} wɔfa wɔ agyinamoa {num_ic, 13}. {name_male, John} afa ɔkraman bi abԑtena ne nkyԑn. Ͻfa ɔkraman no kɔ ɔsiesiefoɔ bi hɔ, na ɔtua ${num_digit_1, 100}. Ͻsiesiefoɔ no ma no ntesoɔ {num_digit_2, 30}% esiane sԑ ɔyԑ ɔdetɔni foforɔ. Asiesie no boɔ no yԑ sԑn?",
+  "equation": "UPDATE HERE"
+}

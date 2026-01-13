@@ -1,0 +1,8 @@
+{
+  "original_question": "吉恩有 30 根棒棒糖。吉恩吃掉了其中 2 根棒棒糖。对于剩下的棒棒糖，吉恩想 2 根装一包。吉恩能装几包？",
+  "original_answer": 14,
+  "symbolic_template": "{name_male, 吉恩} 有 {num_digit_1, 30} 根棒棒糖。{name_male, 吉恩} 吃掉了其中 {num_digit_2, 2} 根棒棒糖。对于剩下的棒棒糖，{name_male, 吉恩} 想 {num_digit_3, 2} 根装一包。{name_male, 吉恩} 能装几包？",
+  "ic_sentence_template": "{name_male, 让} 的姑妈最近买了 {num_ic, 94} 个气球。",
+  "ic_template": "{name_male, 让} 的姑妈最近买了 {num_ic, 94} 个气球。{name_male, 吉恩} 有 {num_digit_1, 30} 根棒棒糖。{name_male, 吉恩} 吃掉了其中 {num_digit_2, 2} 根棒棒糖。对于剩下的棒棒糖，{name_male, 吉恩} 想 {num_digit_3, 2} 根装一包。{name_male, 吉恩} 能装几包？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "卡尔买了 10 包曲奇饼。每包曲奇饼里面有 6 片曲奇饼。每片曲奇饼 0.10 美元。如果卡尔用 10 美元的钞票付款，他会收到多少零钱？",
+  "original_answer": 4,
+  "symbolic_template": "{name_male, 卡尔} 买了 10 包曲奇饼。每包曲奇饼里面有 6 片曲奇饼。每片曲奇饼 {num_digit_1, 0.10} 美元。如果 {name_male, 卡尔} 用 {num_digit_2, 10} 美元的钞票付款，他会收到多少零钱？",
+  "ic_sentence_template": "{name_male, 卡尔} 的姨妈带了 {num_ic, 31} 个松饼来参加聚会。",
+  "ic_template": "{name_male, 卡尔} 的姨妈带了 {num_ic, 31} 个松饼来参加聚会。{name_male, 卡尔} 买了 10 包曲奇饼。每包曲奇饼里面有 6 片曲奇饼。每片曲奇饼 {num_digit_1, 0.10} 美元。如果 {name_male, 卡尔} 用 {num_digit_2, 10} 美元的钞票付款，他会收到多少零钱？",
+  "equation": "UPDATE HERE"
+}

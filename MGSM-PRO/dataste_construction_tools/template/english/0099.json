@@ -1,0 +1,8 @@
+{
+  "original_question": "Mary is an avid gardener. Yesterday, she received 18 new potted plants from her favorite plant nursery. She already has 2 potted plants on each of the 40 window ledges of her large country home. Feeling generous, she has decided that she will give 1 potted plant from each ledge to friends and family tomorrow. How many potted plants will Mary remain with?",
+  "original_answer": 58,
+  "symbolic_template": "{name_female, Mary} is an avid gardener. Yesterday, she received {num_digit_1, 18} new potted plants from her favorite plant nursery. She already has {num_digit_2, 2} potted plants on each of the {num_digit_3, 40} window ledges of her large country home. Feeling generous, she has decided that she will give {num_digit_4, 1} potted plant from each ledge to friends and family tomorrow. How many potted plants will {name_female, Mary} remain with?",
+  "ic_sentence_template": "{name_female, Mary's} aunt once collected {num_ic, 217} rare flowerpots.",
+  "ic_template": "{name_female, Mary} is an avid gardener. Yesterday, she received {num_digit_1, 18} new potted plants from her favorite plant nursery. She already has {num_digit_2, 2} potted plants on each of the {num_digit_3, 40} window ledges of her large country home. {name_female, Mary's} aunt once collected {num_ic, 217} rare flowerpots. Feeling generous, she has decided that she will give {num_digit_4, 1} potted plant from each ledge to friends and family tomorrow. How many potted plants will {name_female, Mary} remain with?",
+  "equation": "UPDATE HERE"
+}

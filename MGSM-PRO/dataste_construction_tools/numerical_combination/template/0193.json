@@ -1,0 +1,27 @@
+{
+    "problem_id": "0193",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [6, 60]},
+        "num_digit_2": {"type": "int", "range": [5, 50]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "white_flamingos = num_digit_1 / 3",
+            "pink_remaining_sat = num_digit_1 - white_flamingos",
+            "pink_total_sun = pink_remaining_sat + num_digit_2",
+            "ans = pink_total_sun - white_flamingos"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "num_digit_1 % 3 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

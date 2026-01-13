@@ -1,0 +1,8 @@
+{
+  "original_question": "Josie cultive des raisins dans sa ferme de 10 acres. Elle y produit 5 tonnes de raisin par an sur chaque acre, et chaque tonne de raisin produit 2 barils de vin. Combien de barils de vin sa ferme produit-elle par an ?",
+  "original_answer": 100,
+  "symbolic_template": "{name_female, Josie} cultive des raisins dans sa ferme de {num_digit_1, 10} acres. Elle y produit {num_digit_2, 5} tonnes de raisin par an sur chaque acre, et chaque tonne de raisin produit {num_digit_3, 2} barils de vin. Combien de barils de vin sa ferme produit-elle par an ?",
+  "ic_sentence_template": "{name_female, Josie} a un oncle qui possède {num_ic, 289} pommiers à proximité.",
+  "ic_template": "{name_female, Josie} a un oncle qui possède {num_ic, 289} pommiers à proximité. {name_female, Josie} cultive des raisins dans sa ferme de {num_digit_1, 10} acres. Elle y produit {num_digit_2, 5} tonnes de raisin par an sur chaque acre, et chaque tonne de raisin produit {num_digit_3, 2} barils de vin. Combien de barils de vin sa ferme produit-elle par an ?",
+  "equation": "UPDATE HERE"
+}

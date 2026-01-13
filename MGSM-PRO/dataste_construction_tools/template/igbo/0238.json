@@ -1,0 +1,8 @@
+{
+  "original_question": "Mary jiri áfọ̀ abụọ dị nta karịa Joan, onye jiri áfọ̀ ise tọọ Jessa. Ọ bụrụ na Jessa dị áfọ̀ iri abụọ, kedụ mgbakọta áfọ̀ ụmụ nwaanyị atọ ndị a?",
+  "original_answer": 68,
+  "symbolic_template": "{name_female_1, Mary} jiri áfọ̀ abụọ dị nta karịa {name_female_2, Joan}, onye jiri áfọ̀ ise tọọ {name_female_3, Jessa}. Ọ bụrụ na {name_female_3, Jessa} dị áfọ̀ {num_digit_1, 20}, kedụ mgbakọta áfọ̀ ụmụ nwaanyị atọ ndị a?",
+  "ic_sentence_template": "Nwanne nna {name_female_2, Joan} nwere kaadị baseball {num_ic, 73}.",
+  "ic_template": "Nwanne nna {name_female_2, Joan} nwere kaadị baseball {num_ic, 73}. {name_female_1, Mary} jiri áfọ̀ abụọ dị nta karịa {name_female_2, Joan}, onye jiri áfọ̀ ise tọọ {name_female_3, Jessa}. Ọ bụrụ na {name_female_3, Jessa} dị áfọ̀ {num_digit_1, 20}, kedụ mgbakọta áfọ̀ ụmụ nwaanyị atọ ndị a?",
+  "equation": "UPDATE HERE"
+}

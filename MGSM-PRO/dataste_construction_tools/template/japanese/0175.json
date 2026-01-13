@@ -1,0 +1,8 @@
+{
+  "original_question": "ホアンと兄弟のカルロスは、レモネードを売っている。1ガロンあたり、3ドルのレモンと2ドルの砂糖を消費する。1杯あたり0.50ドルで売り1ガロンあたり20杯作れる。25ドルの儲けがでた場合、レモンにいくら使ったことになる？",
+  "original_answer": 15,
+  "symbolic_template": "ホアン{name_male_1, Juan}と兄弟のカルロス{name_male_2, Carlos}は、レモネードを売っている。1ガロンあたり、{num_digit_1, 3}ドルのレモンと{num_digit_2, 2}ドルの砂糖を消費する。1杯あたり{num_digit_3, 0.50}ドルで売り1ガロンあたり{num_digit_4, 20}杯作れる。{num_digit_5, 25}ドルの儲けがでた場合、レモンにいくら使ったことになる？",
+  "ic_sentence_template": "{name_male_2, カルロス}のおばさんは{num_ic, 44}枚のクッキーを持ってきてみんなと分けました。",
+  "ic_template": "{name_male_2, カルロス}のおばさんは{num_ic, 44}枚のクッキーを持ってきてみんなと分けました。ホアン{name_male_1, Juan}と兄弟のカルロス{name_male_2, Carlos}は、レモネードを売っている。1ガロンあたり、{num_digit_1, 3}ドルのレモンと{num_digit_2, 2}ドルの砂糖を消費する。1杯あたり{num_digit_3, 0.50}ドルで売り1ガロンあたり{num_digit_4, 20}杯作れる。{num_digit_5, 25}ドルの儲けがでた場合、レモンにいくら使ったことになる？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Kélian prépare des plats sur la base de deux recettes, l'une avec 20 instructions et l'autre avec deux fois plus d'instructions que la première. Combien d'instructions Kélian doit-il lire pour préparer les deux plats ?",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Kélian} prépare des plats sur la base de deux recettes, l'une avec {num_digit_1, 20} instructions et l'autre avec deux fois plus d'instructions que la première. Combien d'instructions {name_male, Kélian} doit-il lire pour préparer les deux plats ?",
+  "ic_sentence_template": "{name_male, Kelian} a une tante qui possède {num_ic, 77} livres de cuisine.",
+  "ic_template": "{name_male, Kelian} a une tante qui possède {num_ic, 77} livres de cuisine. {name_male, Kélian} prépare des plats sur la base de deux recettes, l'une avec {num_digit_1, 20} instructions et l'autre avec deux fois plus d'instructions que la première. Combien d'instructions {name_male, Kélian} doit-il lire pour préparer les deux plats ?",
+  "equation": "UPDATE HERE"
+}

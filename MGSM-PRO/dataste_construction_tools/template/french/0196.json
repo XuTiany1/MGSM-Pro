@@ -1,0 +1,8 @@
+{
+  "original_question": "Il faut distribuer 200 livres de carottes à 40 restaurants d'une certaine ville. Si chaque restaurant doit recevoir 2 livres de carottes, combien de livres de carottes ne seront pas utilisées ?",
+  "original_answer": 120,
+  "symbolic_template": "Il faut distribuer {num_digit_1, 200} livres de carottes à {num_digit_2, 40} restaurants d'une certaine ville. Si chaque restaurant doit recevoir {num_digit_3, 2} livres de carottes, combien de livres de carottes ne seront pas utilisées ?",
+  "ic_sentence_template": "{num_ic, 22} chefs de la ville essaient une nouvelle recette de soupe.",
+  "ic_template": "{num_ic, 22} chefs de la ville essaient une nouvelle recette de soupe. Il faut distribuer {num_digit_1, 200} livres de carottes à {num_digit_2, 40} restaurants d'une certaine ville. Si chaque restaurant doit recevoir {num_digit_3, 2} livres de carottes, combien de livres de carottes ne seront pas utilisées ?",
+  "equation": "UPDATE HERE"
+}

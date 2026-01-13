@@ -1,0 +1,8 @@
+{
+  "original_question": "Jordan na-egwu egwuregwu vidiyo awa abụọ kwa ụbọchị. Ọ nwekwara ọrụ nchere oge ebe ọ na-enweta $10 n'otu awa. Ego ole ka Jordan ga-enweta n'otu izu ụka ma o were oge egwuregwu vidiyo na-arụ ọrụ?",
+  "original_answer": 140,
+  "symbolic_template": "{name_male, Jordan} na-egwu egwuregwu vidiyo awa {num_digit_1, 2} kwa ụbọchị. Ọ nwekwara ọrụ nchere oge ebe ọ na-enweta ${num_digit_2, 10} n'otu awa. Ego ole ka {name_male, Jordan} ga-enweta n' otu  izu ụka ma o were oge egwuregwu vidiyo na-arụ ọrụ?",
+  "ic_sentence_template": "Nwanne nna {name_male, Jordan} nwere igwe arcade ochie {num_ic, 8}.",
+  "ic_template": "Nwanne nna {name_male, Jordan} nwere igwe arcade ochie {num_ic, 8}. {name_male, Jordan} na-egwu egwuregwu vidiyo awa {num_digit_1, 2} kwa ụbọchị. Ọ nwekwara ọrụ nchere oge ebe ọ na-enweta ${num_digit_2, 10} n'otu awa. Ego ole ka {name_male, Jordan} ga-enweta n' otu  izu ụka ma o were oge egwuregwu vidiyo na-arụ ọrụ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Carlos na Benji nọ n'osimiri. Carlos kwụrụ $30 otu awa maka ịnya ụgbọamala ma Benji kwụrụ $18 otu awa maka ịnya ụgbọepepe unere.  Ọ bụrụ na Carlos nyara ụgbọ ahụ awa atọ ma Benji nyaa awa ise, ego ole ka ha ga-akwụkọta maka ịnya ụgbọ? ",
+  "original_answer": 180,
+  "symbolic_template": "{name_male_1, Carlos} na {name_male_2, Benji} nọ n'osimiri. {name_male_1, Carlos} kwụrụ ${num_digit_1, 30} otu awa maka ịnya ụgbọamala ma {name_male_2, Benji} kwụrụ ${num_digit_2, 18} otu awa maka ịnya ụgbọepepe unere. Ọ bụrụ na {name_male_1, Carlos} nyara ụgbọ ahụ awa {num_digit_3, 3} ma {name_male_2, Benji} nyaa awa {num_digit_4, 5}, ego ole ka ha ga-akwụkọta maka ịnya ụgbọ?",
+  "ic_sentence_template": "Nwanne nna {name_male_2, Benji} bịara na ákwà nhicha {num_ic, 680} maka otu ndị ahụ.",
+  "ic_template": "Nwanne nna {name_male_2, Benji} bịara na ákwà nhicha {num_ic, 680} maka otu ndị ahụ. {name_male_1, Carlos} na {name_male_2, Benji} nọ n'osimiri. {name_male_1, Carlos} kwụrụ ${num_digit_1, 30} otu awa maka ịnya ụgbọamala ma {name_male_2, Benji} kwụrụ ${num_digit_2, 18} otu awa maka ịnya ụgbọepepe unere. Ọ bụrụ na {name_male_1, Carlos} nyara ụgbọ ahụ awa {num_digit_3, 3} ma {name_male_2, Benji} nyaa awa {num_digit_4, 5}, ego ole ka ha ga-akwụkọta maka ịnya ụgbọ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,25 @@
+{
+    "problem_id": "0232",
+    "generation_order": ["num_digit", "num_ic"],
+    "variables": {
+        "num_digit": {"type": "int", "range": [20, 150]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit": [
+            "ants = num_digit",
+            "bugs = ants / 2",
+            "ans = ants + bugs"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit": [
+            "num_digit % 2 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

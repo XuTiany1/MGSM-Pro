@@ -1,0 +1,8 @@
+{
+  "original_question": "Gary fẹ́ràn láti máa rìn káàkiri etí ọgbà kan tí ó wà ní àyíká, èyí tí ó jẹ́ onígun mẹ́rin tí ó ní ìwọ̀n 1.5 miles  sí 6. Tí ó bá rìn  3 hours ni wákàtí kan, wákàtí mélòó ni ó fi rìn lápapò?",
+  "original_answer": 5,
+  "symbolic_template": "{name_male, Gary} fẹ́ràn láti máa rìn káàkiri etí ọgbà kan tí ó wà ní àyíká, èyí tí ó jẹ́ onígun mẹ́rin tí ó ní ìwọ̀n {num_digit_1, 1.5} miles sí {num_digit_2, 6}. Tí ó bá rìn {num_digit_3, 3} miles ni wákàtí kan, wákàtí mélòó ni ó fi rìn lápapò?",
+  "ic_sentence_template": "Ìyá ńlá {name_male, Gary} máa ń gùn kẹ̀kẹ́ rẹ̀ fún máìlì {num_ic, 32} ní gbogbo ìparí ọ̀sẹ̀.",
+  "ic_template": "Ìyá ńlá {name_male, Gary} máa ń gùn kẹ̀kẹ́ rẹ̀ fún máìlì {num_ic, 32} ní gbogbo ìparí ọ̀sẹ̀. {name_male, Gary} fẹ́ràn láti máa rìn káàkiri etí ọgbà kan tí ó wà ní àyíká, èyí tí ó jẹ́ onígun mẹ́rin tí ó ní ìwọ̀n {num_digit_1, 1.5} miles sí {num_digit_2, 6}. Tí ó bá rìn {num_digit_3, 3} miles ni wákàtí kan, wákàtí mélòó ni ó fi rìn lápapò?",
+  "equation": "UPDATE HERE"
+}

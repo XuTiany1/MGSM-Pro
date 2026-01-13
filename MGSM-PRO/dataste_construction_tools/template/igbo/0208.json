@@ -1,0 +1,8 @@
+{
+  "original_question": "Rose gaara n'ọnụ ụlọahia na Mọndee ma zụta keeki anọ. Tuzdee ọ gaara ụlọahia dị iche iche ma zụta ugboro atọ n'ọnụọgụgụ keeki ahụ. Na Wenezdee ọ gaara ụlọahia ọzọ ma zụta ugboro ise n'ọnụọgụgụ keeki ọ zụrụ na Tuzdee. Kedụ keeki ole ọ zụrụ ka ụbọchị atọ ndị ahụ niile gachara? ",
+  "original_answer": 76,
+  "symbolic_template": "{name_female, Rose} gaara n'ọnụ ụlọahia na Mọndee ma zụta keeki {num_digit_1, 4}. Tuzdee ọ gaara ụlọahia dị iche iche ma zụta ugboro three n'ọnụọgụgụ keeki ahụ. Na Wenezdee ọ gaara ụlọahia ọzọ ma zụta ugboro {num_digit_2, 5} n'ọnụọgụgụ keeki ọ zụrụ na Tuzdee. Kedụ keeki ole ọ zụrụ ka ụbọchị atọ ndị ahụ niile gachara?",
+  "ic_sentence_template": "Nwanne nna {name_female, Rose} gwakwara achịcha {num_ic, 85} izu ụka gara aga.",
+  "ic_template": "Nwanne nna {name_female, Rose} gwakwara achịcha {num_ic, 85} izu ụka gara aga. {name_female, Rose} gaara n'ọnụ ụlọahia na Mọndee ma zụta keeki {num_digit_1, 4}. Tuzdee ọ gaara ụlọahia dị iche iche ma zụta ugboro three n'ọnụọgụgụ keeki ahụ. Na Wenezdee ọ gaara ụlọahia ọzọ ma zụta ugboro {num_digit_2, 5} n'ọnụọgụgụ keeki ọ zụrụ na Tuzdee. Kedụ keeki ole ọ zụrụ ka ụbọchị atọ ndị ahụ niile gachara?",
+  "equation": "UPDATE HERE"
+}

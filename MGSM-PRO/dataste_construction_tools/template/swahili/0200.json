@@ -1,0 +1,8 @@
+{
+  "original_question": "Baldur hupata maji kutoka kwa kisima. Huwa anateka ndoo 5 za maji kila asubuhi na ndoo 6 za maji kila alasiri. Ikiwa kila ndoo ina lita 5 za maji, huwa anapata lita ngapi za maji kila siku?",
+  "original_answer": 55,
+  "symbolic_template": "{name_male, Baldur} hupata maji kutoka kisimani. Anateka ndoo {num_digit_1, 5} za maji kila asubuhi na ndoo {num_digit_2, 6} za maji kila alasiri. Ikiwa kila ndoo ina lita {num_digit_3, 5} za maji, anapata lita ngapi za maji kila siku?",
+  "ic_sentence_template": "Mjomba wa {name_male, Baldur} alijenga ghala kwa kutumia mbao {num_ic, 137}.",
+  "ic_template": "Mjomba wa {name_male, Baldur} alijenga ghala kwa kutumia mbao {num_ic, 137}. {name_male, Baldur} hupata maji kutoka kisimani. Anateka ndoo {num_digit_1, 5} za maji kila asubuhi na ndoo {num_digit_2, 6} za maji kila alasiri. Ikiwa kila ndoo ina lita {num_digit_3, 5} za maji, anapata lita ngapi za maji kila siku?",
+  "equation": "UPDATE HERE"
+}

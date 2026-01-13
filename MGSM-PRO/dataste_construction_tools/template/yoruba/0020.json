@@ -1,0 +1,8 @@
+{
+  "original_question": "Mo ní jálá olómi ọsàn 10 èyí tó jẹ́ ìdá méjì nínú mẹ́ta omi ó sì wùn mí kí n dà á sínú jálá olómi ọ̀pẹ̀ òyìnbó 15 tó jẹ́ ìdá mẹ́ta nínú márùn-ún omi. Ṣùgbọ́n bí mo ṣe ń dà á, mo da jálá olómi ọsàn kan sílẹ̀. Omi mélòó ló kù nínú jálá 24 tókù?",
+  "original_answer": 15,
+  "symbolic_template": "Mo ní jálá olómi ọsàn {num_digit_1, 10} èyí tó jẹ́ ìdá méjì nínú mẹ́ta omi ó sì wùn mí kí n dà á sínú jálá olómi ọ̀pẹ̀ òyìnbó {num_digit_2, 15} tó jẹ́ ìdá mẹ́ta nínú márùn-ún omi. Ṣùgbọ́n bí mo ṣe ń dà á, mo da jálá olómi ọsàn kan sílẹ̀. Omi mélòó ló kù nínú jálá {num_digit_3, 24} tókù?",
+  "ic_sentence_template": "Arábìnrin {name_male, Eric} mú ẹ̀yà mango {num_ic, 186} wá sí píkníkì.",
+  "ic_template": "Arábìnrin {name_male, Eric} mú ẹ̀yà mango {num_ic, 186} wá sí píkníkì. Mo ní jálá olómi ọsàn {num_digit_1, 10} èyí tó jẹ́ ìdá méjì nínú mẹ́ta omi ó sì wùn mí kí n dà á sínú jálá olómi ọ̀pẹ̀ òyìnbó {num_digit_2, 15} tó jẹ́ ìdá mẹ́ta nínú márùn-ún omi. Ṣùgbọ́n bí mo ṣe ń dà á, mo da jálá olómi ọsàn kan sílẹ̀. Omi mélòó ló kù nínú jálá {num_digit_3, 24} tókù?",
+  "equation": "UPDATE HERE"
+}

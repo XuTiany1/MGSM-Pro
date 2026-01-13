@@ -1,0 +1,8 @@
+{
+  "original_question": "J'ai 10 litres de jus d'orange composés aux deux tiers d'eau. En voulant les mélanger à 15 litres de jus d'ananas composés aux trois quarts d'eau, je renverse un litre de jus d'orange. Quelle quantité d'eau y a-t-il dans les 24 litres restants ?",
+  "original_answer": 15,
+  "symbolic_template": "J'ai {num_digit_1, 10} litres de jus d'orange composés aux deux tiers d'eau. En voulant les mélanger à {num_digit_2, 15} litres de jus d'ananas composés aux trois cinquièmes d'eau, je renverse un litre de jus d'orange. Quelle quantité d'eau y a-t-il dans les {num_digit_3, 24} litres restants ?",
+  "ic_sentence_template": "{name_male, Eric} a un cousin qui a apporté {num_ic, 186} mangues au pique-nique.",
+  "ic_template": "{name_male, Eric} a un cousin qui a apporté {num_ic, 186} mangues au pique-nique. J'ai {num_digit_1, 10} litres de jus d'orange composés aux deux tiers d'eau. En voulant les mélanger à {num_digit_2, 15} litres de jus d'ananas composés aux trois cinquièmes d'eau, je renverse un litre de jus d'orange. Quelle quantité d'eau y a-t-il dans les {num_digit_3, 24} litres restants ?",
+  "equation": "UPDATE HERE"
+}

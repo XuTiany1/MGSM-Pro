@@ -1,0 +1,8 @@
+{
+  "original_question": "Le sac de bonbons d'Halloween de Joe contient 25 barres de chocolat et 80 pommes confites. Chaque barre de chocolat pèse deux fois plus qu'une pomme confite. Si la barre de chocolat pèse 40 g, quel est le poids, en grammes, du sac de bonbons de Joe ?",
+  "original_answer": 2600,
+  "symbolic_template": "Le sac de bonbons d'Halloween de {name_male, Joe} contient {num_digit_1, 25} barres de chocolat et {num_digit_2, 80} pommes confites. Chaque barre de chocolat pèse deux fois plus qu'une pomme confite. Si la barre de chocolat pèse {num_digit_3, 40} g, quel est le poids, en grammes, du sac de bonbons de {name_male, Joe} ?",
+  "ic_sentence_template": "{name_male, Joe} a un oncle qui a acheté {num_ic, 112} sucettes pour une fête.",
+  "ic_template": "{name_male, Joe} a un oncle qui a acheté {num_ic, 112} sucettes pour une fête. Le sac de bonbons d'Halloween de {name_male, Joe} contient {num_digit_1, 25} barres de chocolat et {num_digit_2, 80} pommes confites. Chaque barre de chocolat pèse deux fois plus qu'une pomme confite. Si la barre de chocolat pèse {num_digit_3, 40} g, quel est le poids, en grammes, du sac de bonbons de {name_male, Joe} ?",
+  "equation": "UPDATE HERE"
+}

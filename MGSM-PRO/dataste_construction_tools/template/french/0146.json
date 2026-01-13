@@ -1,0 +1,8 @@
+{
+  "original_question": "Johnny ramasse les jouets qui traînent dans sa chambre. Il a fait tomber un jeu de lego de 500 pièces, un autre avec 3 fois plus de pièces, ainsi qu'un dernier comptant 1/4 du nombre de pièces. Combien de pièces Johnny ramasse-t-il en tout ?",
+  "original_answer": 2125,
+  "symbolic_template": "{name_male, Johnny} ramasse les jouets qui traînent dans sa chambre. Il a fait tomber un jeu de lego de {num_digit_1, 500} pièces, un autre avec {num_digit_2, 3} fois plus de pièces, ainsi qu'un dernier comptant 1/4 du nombre de pièces. Combien de pièces {name_male, Johnny} ramasse-t-il en tout ?",
+  "ic_sentence_template": "{name_male, Johnny} a un oncle qui a récemment construit un modèle de bateau avec {num_ic, 318} petites pièces en bois.",
+  "ic_template": "{name_male, Johnny} a un oncle qui a récemment construit un modèle de bateau avec {num_ic, 318} petites pièces en bois. {name_male, Johnny} ramasse les jouets qui traînent dans sa chambre. Il a fait tomber un jeu de lego de {num_digit_1, 500} pièces, un autre avec {num_digit_2, 3} fois plus de pièces, ainsi qu'un dernier comptant 1/4 du nombre de pièces. Combien de pièces {name_male, Johnny} ramasse-t-il en tout ?",
+  "equation": "UPDATE HERE"
+}

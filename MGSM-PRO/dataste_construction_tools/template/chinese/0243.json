@@ -1,0 +1,8 @@
+{
+  "original_question": "杰森每月有 1,000 分钟的手机套餐。他每天都要和老板打 15 分钟的电话，这个月他已经与其他人额外通话了 300 分钟。如果这个月有 30 天，杰森还剩多少分钟？",
+  "original_answer": 250,
+  "symbolic_template": "{name_male, 杰森} 每月有 {num_digit_1, 1000} 分钟的手机套餐。 他每天都要和老板打 {num_digit_2, 15} 分钟的电话，这个月他已经与其他人额外通话了 {num_digit_3, 300} 分钟。 如果这个月有 {num_digit_4, 30} 天，{name_male, 杰森} 还剩多少分钟？",
+  "ic_sentence_template": "{name_male, 杰森}的叔叔有一个月曾经讲了 {num_ic, 1043} 分钟的话。",
+  "ic_template": "{name_male, 杰森}的叔叔有一个月曾经讲了 {num_ic, 1043} 分钟的话。{name_male, 杰森} 每月有 {num_digit_1, 1000} 分钟的手机套餐。 他每天都要和老板打 {num_digit_2, 15} 分钟的电话，这个月他已经与其他人额外通话了 {num_digit_3, 300} 分钟。 如果这个月有 {num_digit_4, 30} 天，{name_male, 杰森} 还剩多少分钟？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Emily ana watoto 4 wanaojulikana kama Amy, Jackson, Corey, na James. Ami ana miaka 5 zaidi ya Jackson na miaka 2 mdogo kwa Corey. Iwapo James ana miaka 10 na ni mdogo kwa Corey kwa mwaka 1, Jackson ana umri wa miaka mingapi?",
+  "original_answer": 4,
+  "symbolic_template": "{name_female_1, Emily} ana watoto {num_digit_1, 4} wanaoitwa {name_female_2, Amy}, {name_male_1, Jackson}, {name_male_2, Corey}, na {name_male_3, James}. {name_female_2, Amy} ana miaka {num_digit_2, 5} zaidi ya {name_male_1, Jackson} na miaka {num_digit_3, 2} chini ya {name_male_2, Corey}. Iwapo {name_male_3, James} ana miaka {num_digit_4, 10} na ana miaka {num_digit_5, 1} chini ya {name_male_2, Corey}, {name_male_1, Jackson} ana umri wa miaka mingapi?",
+  "ic_sentence_template": "Mjomba wa {name_female_1, Emily} alinunua tufaha {num_ic, 39} kutoka dukani.",
+  "ic_template": "Mjomba wa {name_female_1, Emily} alinunua tufaha {num_ic, 39} kutoka dukani. {name_female_1, Emily} ana watoto {num_digit_1, 4} wanaoitwa {name_female_2, Amy}, {name_male_1, Jackson}, {name_male_2, Corey}, na {name_male_3, James}. {name_female_2, Amy} ana miaka {num_digit_2, 5} zaidi ya {name_male_1, Jackson} na miaka {num_digit_3, 2} chini ya {name_male_2, Corey}. Iwapo {name_male_3, James} ana miaka {num_digit_4, 10} na ana miaka {num_digit_5, 1} chini ya {name_male_2, Corey}, {name_male_1, Jackson} ana umri wa miaka mingapi?",
+  "equation": "UPDATE HERE"
+}

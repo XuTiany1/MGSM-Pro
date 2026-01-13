@@ -1,0 +1,8 @@
+{
+  "original_question": "迈克曾是 5 个人的笔友。他和其中 2 个不再是笔友了。他们每个人每周寄 2 封 5 页长的信。他以相同的方式回应。他每 6 分钟能写一页。他一周花多少小时写信？",
+  "original_answer": 3,
+  "symbolic_template": "{name_male, 迈克} 曾是 {num_digit_1, 5} 个人的笔友。他和其中 {num_digit_2, 2} 个不再是笔友了。他们每个人每周寄 {num_digit_3, 2} 封 {num_digit_4, 5} 页长的信。他以相同的方式回应。他每 {num_digit_6, 6} 分钟能写一页。他一周花多少小时写信？",
+  "ic_sentence_template": "{name_male, 迈克} 的姑妈每年读 {num_ic, 91741} 本书。",
+  "ic_template": "{name_male, 迈克} 的姑妈每年读 {num_ic, 91741} 本书。{name_male, 迈克} 曾是 {num_digit_1, 5} 个人的笔友。他和其中 {num_digit_2, 2} 个不再是笔友了。他们每个人每周寄 {num_digit_3, 2} 封 {num_digit_4, 5} 页长的信。他以相同的方式回应。他每 {num_digit_6, 6} 分钟能写一页。他一周花多少小时写信？",
+  "equation": "UPDATE HERE"
+}

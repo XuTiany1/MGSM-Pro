@@ -1,0 +1,8 @@
+{
+  "original_question": "Penguine 36 ló wà nínú yìnyín tí wọ́n ń fara yá oòrùn. Ìdá kan nínú mẹta wọn fò sínú òkun láti wẹ̀. Ìdá kan nínú mẹta mìíràn wọ́ inú Ihò àpáta. Penguine mélòó ló kù tí ó ń fara yá oòrùn?",
+  "original_answer": 12,
+  "symbolic_template": "Penguin {num_digit_1, 36} ló wà nínú yìnyín tí wọ́n ń fara yá oòrùn. Ìdá kan nínú mẹta wọn fò sínú òkun láti wẹ̀. Ìdá kan nínú mẹta mìíràn wọ́ inú Ihò àpáta. Penguin mélòó ló kù tí ó ń fara yá oòrùn?",
+  "ic_sentence_template": "Ọkan lára àwọn baba-nla àwọn pẹ́ngwínì náà ṣẹ́ṣẹ̀ rí {num_ic, 57} ẹja omi tí wọ́n ń sinmi nítòsí laipẹ́ yi.",
+  "ic_template": "Ọkan lára àwọn baba-nla àwọn pẹ́ngwínì náà ṣẹ́ṣẹ̀ rí {num_ic, 57} ẹja omi tí wọ́n ń sinmi nítòsí laipẹ́ yi. Penguin {num_digit_1, 36} ló wà nínú yìnyín tí wọ́n ń fara yá oòrùn. Ìdá kan nínú mẹta wọn fò sínú òkun láti wẹ̀. Ìdá kan nínú mẹta mìíràn wọ́ inú Ihò àpáta. Penguin mélòó ló kù tí ó ń fara yá oòrùn?",
+  "equation": "UPDATE HERE"
+}

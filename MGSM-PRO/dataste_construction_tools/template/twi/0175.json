@@ -1,0 +1,8 @@
+{
+  "original_question": "Juan ne ne nuaberima Carlos tɔn lemonade. Wɔ akoradeɛ biara mu no, akankaa no bo yɛ $3 na asikyire no bo yɛ $2. Wɔn tɔn tɔmmɛ biara $0.50 na wonya tɔmmɛ 20 wɔ akoradeɛ biara mu. Sɛ wonyaa mfaso $25 a, ɛnde sika ahe na wɔde tɔa akantaa?",
+  "original_answer": 15,
+  "symbolic_template": "{name_male_1, Juan} ne ne nuaberima {name_male_2, Carlos} tɔn lemonade. Wɔ akoradeɛ biara mu no, akankaa no bo yɛ ${num_digit_1, 3} na asikyire no bo yɛ ${num_digit_2, 2}. Wɔn tɔn tɔmmɛ biara ${num_digit_3, 0.50} na wonya tɔmmɛ {num_digit_4, 20} wɔ akoradeɛ biara mu. Sɛ wonyaa mfaso ${num_digit_5, 25} a, ɛnde sika ahe na wɔde tɔa akantaa?",
+  "ic_sentence_template": "{name_male_2, Carlos} sewaa brɛɛ cookies {num_ic, 44} sɛ wɔnkyɛ.",
+  "ic_template": "{name_male_1, Juan} ne ne nuaberima {name_male_2, Carlos} tɔn lemonade. Wɔ akoradeɛ biara mu no, akankaa no bo yɛ ${num_digit_1, 3} na asikyire no bo yɛ ${num_digit_2, 2}. Wɔn tɔn tɔmmɛ biara ${num_digit_3, 0.50} na wonya tɔmmɛ {num_digit_4, 20} wɔ akoradeɛ biara mu. Sɛ wonyaa mfaso ${num_digit_5, 25} a, ɛnde sika ahe na wɔde tɔa akankaa no? {name_male_2, Carlos} sewaa brɛɛ cookies {num_ic, 44} sɛ wɔnkyɛ.",
+  "equation": "UPDATE HERE"
+}

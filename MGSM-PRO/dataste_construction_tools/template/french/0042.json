@@ -1,0 +1,8 @@
+{
+  "original_question": "Grand-mère Jones a préparé 5 tartes aux pommes pour le déjeuner des pompiers. Elle a ensuite coupé chaque tarte en 8 parts et a disposé les cinq tartes sur la table de buffet pour que chacun se serve. À la fin de la soirée, après que tous les invités aient pris et mangé leurs tartes, il en est resté 14 parts. Combien les invités ont-ils pris de parts ?",
+  "original_answer": 26,
+  "symbolic_template": "Grand-mère {name_family, Jones} a préparé {num_digit_1, 5} tartes aux pommes pour le déjeuner des pompiers. Elle a ensuite coupé chaque tarte en {num_digit_2, 8} parts et a disposé les cinq tartes sur la table de buffet pour que chacun se serve. À la fin de la soirée, après que tous les invités aient pris et mangé leurs tartes, il en est resté {num_digit_3, 14} parts. Combien les invités ont-ils pris de parts ?",
+  "ic_sentence_template": "{name_family, Jones} a un neveu qui a apporté {num_ic, 93} bouteilles de limonade au déjeuner.",
+  "ic_template": "{name_family, Jones} a un neveu qui a apporté {num_ic, 93} bouteilles de limonade au déjeuner. Grand-mère {name_family, Jones} a préparé {num_digit_1, 5} tartes aux pommes pour le déjeuner des pompiers. Elle a ensuite coupé chaque tarte en {num_digit_2, 8} parts et a disposé les cinq tartes sur la table de buffet pour que chacun se serve. À la fin de la soirée, après que tous les invités aient pris et mangé leurs tartes, il en est resté {num_digit_3, 14} parts. Combien les invités ont-ils pris de parts ?",
+  "equation": "UPDATE HERE"
+}

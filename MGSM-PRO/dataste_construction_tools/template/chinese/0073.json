@@ -1,0 +1,8 @@
+{
+  "original_question": "席拉买了 5 部手机，每部 150 美元。她采用了 3 个月分期付款，每期的利率为 2%。在这三个月，席拉每个月要支付多少钱？",
+  "original_answer": 255,
+  "symbolic_template": "{name_female, 席拉} 买了 5 部手机，每部 {num_digit_1, 150} 美元。她采用了 {num_digit_2, 3} 个月分期付款，每期的利率为 {num_digit_3, 2}%。在这 {num_digit_2, 3} 个月，{name_female, 席拉} 每个月要支付多少钱？",
+  "ic_sentence_template": "{name_female, 希拉} 的叔叔刚刚收到 {num_ic, 82} 张电话促销传单。",
+  "ic_template": "{name_female, 希拉} 的叔叔刚刚收到 {num_ic, 82} 张电话促销传单。{name_female, 席拉} 买了 5 部手机，每部 {num_digit_1, 150} 美元。她采用了 {num_digit_2, 3} 个月分期付款，每期的利率为 {num_digit_3, 2}%。在这 {num_digit_2, 3} 个月，{name_female, 席拉} 每个月要支付多少钱？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Josie dua bobe aba wɔ n'afuom a ne kɛse yɛ 10-acre. Afe biara, wotwa bobe aba 5 tons wɔ akron biara so, na bobe aba biara yɛ ankora 2 bobesa. Bobesa ankora dodoɔ ahe na n'afuo no nya afe biara?",
+  "original_answer": 100,
+  "symbolic_template": "{name_female, Josie} dua bobe aba wɔ n'afuom a ne kɛse yɛ {num_digit_1, 10}-acre. Afe biara, wotwa bobe aba {num_digit_2, 5} tons wɔ akron biara so, na bobe aba biara yɛ ankora {num_digit_3, 2} bobesa. Bobesa ankora dodoɔ ahe na n'afuo no nya afe biara?",
+  "ic_sentence_template": "{name_female, Josie} wɔfa wɔ apple dua {num_ic, 289} bɛn ha.",
+  "ic_template": "{name_female, Josie} wɔfa wɔ apple dua {num_ic, 289} bɛn ha. {name_female, Josie} dua bobe aba wɔ n'afuom a ne kɛse yɛ {num_digit_1, 10}-acre. Afe biara, wotwa bobe aba {num_digit_2, 5} tons wɔ akron biara so, na bobe aba biara yɛ ankora {num_digit_3, 2} bobesa. Bobesa ankora dodoɔ ahe na n'afuo no nya afe biara?",
+  "equation": "UPDATE HERE"
+}

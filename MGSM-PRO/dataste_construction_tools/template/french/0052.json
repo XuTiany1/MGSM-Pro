@@ -1,0 +1,8 @@
+{
+  "original_question": "Le sac d'Uriah devient trop lourd pour lui. Il doit réduire son poids de 15 livres. Chacune de ses bandes dessinées pèse 1/4 de livre et chacun de ses jouets 1/2 livre. S'il enlève 30 bandes dessinées, combien lui faudra-t-il enlever de jouets ?",
+  "original_answer": 15,
+  "symbolic_template": "Le sac de {name_male, Uriah} devient trop lourd pour lui. Il doit réduire son poids de {num_digit_1, 15} livres. Chacune de ses bandes dessinées pèse 1/4 de livre et chacun de ses jouets 1/2 livre. S'il enlève {num_digit_2, 30} bandes dessinées, combien lui faudra-t-il enlever de jouets ?",
+  "ic_sentence_template": "{name_male, Uriah} a une tante qui a trouvé {num_ic, 91} billes dans son grenier.",
+  "ic_template": "{name_male, Uriah} a une tante qui a trouvé {num_ic, 91} billes dans son grenier. Le sac de {name_male, Uriah} devient trop lourd pour lui. Il doit réduire son poids de {num_digit_1, 15} livres. Chacune de ses bandes dessinées pèse 1/4 de livre et chacun de ses jouets 1/2 livre. S'il enlève {num_digit_2, 30} bandes dessinées, combien lui faudra-t-il enlever de jouets ?",
+  "equation": "UPDATE HERE"
+}

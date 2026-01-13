@@ -1,0 +1,8 @@
+{
+  "original_question": "布列塔尼和她的妈妈去博物馆。门票费用是成人 12 美元，儿童 10 美元。布列塔尼的妈妈给收银员 1 张儿童票和 1 张成人票的钱。如果她收到 8 美元的找零，则她给了收银员多少美元？",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, 布列塔尼} 和她的妈妈去博物馆。门票费用是成人 {num_digit_1, 12} 美元，儿童 {num_digit_2, 10} 美元。{name_female, 布列塔尼} 的妈妈给收银员 {num_digit_3, 1} 张儿童票和 {num_digit_4, 1} 张成人票的钱。如果她收到 {num_digit_5, 8} 美元的找零，则她给了收银员多少美元？",
+  "ic_sentence_template": "{name_female, 布列塔尼} 的叔叔上周参观了博物馆，还买了 {num_ic, 31} 张明信片。",
+  "ic_template": "{name_female, 布列塔尼} 的叔叔上周参观了博物馆，还买了 {num_ic, 31} 张明信片。{name_female, 布列塔尼} 和她的妈妈去博物馆。门票费用是成人 {num_digit_1, 12} 美元，儿童 {num_digit_2, 10} 美元。{name_female, 布列塔尼} 的妈妈给收银员 {num_digit_3, 1} 张儿童票和 {num_digit_4, 1} 张成人票的钱。如果她收到 {num_digit_5, 8} 美元的找零，则她给了收银员多少美元？",
+  "equation": "UPDATE HERE"
+}

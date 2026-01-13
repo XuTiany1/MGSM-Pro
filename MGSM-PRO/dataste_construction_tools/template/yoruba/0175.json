@@ -1,0 +1,8 @@
+{
+  "original_question": "Juan àti arákùnrin rẹ̀ Carlos ń ta lemonade. Fún gallon kọ̀ọ̀kan wọ́n ń tà á ní $3 fún lẹ́mọ́nì àti $2 fún ṣúgà. Wọ́n máa ń ta ìgò kọ̀ọ̀kan ni $0.50, wọ́n sì máa ń rí ìgò 20 fún gallon kan. Tí wọ́n bá rí $25 nínú èrè, èló ni wọ́n ná lórí lẹ́mọ́nì?",
+  "original_answer": 15,
+  "symbolic_template": "{name_male_1, Juan} àti arákùnrin rẹ̀ {name_male_1, Carlos} ń ta lemonade. Fún gallon kọ̀ọ̀kan wọ́n ń tà á ní ${num_digit_1, 3} fún lẹ́mọ́nì àti ${num_digit_2, 2} fún ṣúgà. Wọ́n máa ń ta ìgò kọ̀ọ̀kan ni ${num_digit_3, 0.50}, wọ́n sì máa ń rí ìgò {num_digit_4, 20} fún gallon kan. Tí wọ́n bá rí ${num_digit_5, 25} nínú èrè, èló ni wọ́n ná lórí lẹ́mọ́nì?",
+  "ic_sentence_template": "Àbúrò bàbá {name_male_2, Carlos} mu àkàrà oyinbo {num_ic, 44} wá láti pín.",
+  "ic_template": "Àbúrò bàbá {name_male_2, Carlos} mu àkàrà oyinbo {num_ic, 44} wá láti pín. {name_male_1, Juan} àti arákùnrin rẹ̀ {name_male_1, Carlos} ń ta lemonade. Fún gallon kọ̀ọ̀kan wọ́n ń tà á ní ${num_digit_1, 3} fún lẹ́mọ́nì àti ${num_digit_2, 2} fún ṣúgà. Wọ́n máa ń ta ìgò kọ̀ọ̀kan ni ${num_digit_3, 0.50}, wọ́n sì máa ń rí ìgò {num_digit_4, 20} fún gallon kan. Tí wọ́n bá rí ${num_digit_5, 25} nínú èrè, èló ni wọ́n ná lórí lẹ́mọ́nì?",
+  "equation": "UPDATE HERE"
+}

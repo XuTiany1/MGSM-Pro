@@ -1,0 +1,8 @@
+{
+  "original_question": "Christina anapanga sherehe ya siku ya kuzaliwa na anahitaji mikoba .75 ya zawadi kwa kila mgeni aliyealikwa, kwa sababu 1/4 ya wahudhuriaji hawakuhudhuria. Alialika marafiki 16. Mikoba ya zawadi ni $2 kila moja. Atatumia pesa ngapi?",
+  "original_answer": 24,
+  "symbolic_template": "{name_female, Christina} anapanga sherehe ya siku ya kuzaliwa na anahitaji mikoba ya zawadi {num_digit_1, .75} kwa kila mgeni aliyealikwa, kwa sababu 1/4 ya wageni hawatahudhuria. Amealika marafiki {num_digit_2, 16}. Mikoba ya zawadi ni ${num_digit_3, 2} kila moja. Atatumia pesa ngapi?",
+  "ic_sentence_template": "Shangazi wa {name_female, Christina} alileta keki ndogo {num_ic, 89} kwa ajili ya sherehe.",
+  "ic_template": "Shangazi wa {name_female, Christina} alileta keki ndogo {num_ic, 89} kwa ajili ya sherehe. {name_female, Christina} anapanga sherehe ya siku ya kuzaliwa na anahitaji mikoba ya zawadi {num_digit_1, .75} kwa kila mgeni aliyealikwa, kwa sababu 1/4 ya wageni hawatahudhuria. Amealika marafiki {num_digit_2, 16}. Mikoba ya zawadi ni ${num_digit_3, 2} kila moja. Atatumia pesa ngapi?",
+  "equation": "UPDATE HERE"
+}

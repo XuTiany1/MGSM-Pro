@@ -1,0 +1,8 @@
+{
+  "original_question": "Oníṣòwò kan ra àpò àlìkámà díẹ̀ láti ọ̀dọ̀ ọ àgbẹ̀ kan ní òṣùwọ̀n $20 fún àpò kan. Tí ó bá jẹ́ $2 láti gbé àpò kọ̀ọ̀kan láti oko lọ sí ilé ìtajà, ti oníṣòwò náà sì jẹ ère $400 ní àpapọ̀  lẹ́hìn tí ó ta gbogbo àwọn àpò ní òṣùwọ̀n $30 fún ọ̀kọ̀ọ̀kan, àpò mélòó ni ó tà?",
+  "original_answer": 50,
+  "symbolic_template": "Oníṣòwò kan ra àpò àlìkámà díẹ̀ láti ọ̀dọ̀ ọ àgbẹ̀ kan ní òṣùwọ̀n ${num_digit_1, 20} fún àpò kan. Tí ó bá jẹ́ ${num_digit_2, 2} láti gbé àpò kọ̀ọ̀kan láti oko lọ sí ilé ìtajà, ti oníṣòwò náà sì jẹ ère ${num_digit_3, 400} ní àpapọ̀ lẹ́hìn tí ó ta gbogbo àwọn àpò ní òṣùwọ̀n ${num_digit_4, 30} fún ọ̀kọ̀ọ̀kan, àpò mélòó ni ó tà?",
+  "ic_sentence_template": "Arákùnrin alájọṣepọ̀ oníṣòwò náà ní {num_ic, 80} igi àpùlù lórí ilé rẹ̀.",
+  "ic_template": "Arákùnrin alájọṣepọ̀ oníṣòwò náà ní {num_ic, 80} igi àpùlù lórí ilé rẹ̀. Oníṣòwò kan ra àpò àlìkámà díẹ̀ láti ọ̀dọ̀ ọ àgbẹ̀ kan ní òṣùwọ̀n ${num_digit_1, 20} fún àpò kan. Tí ó bá jẹ́ ${num_digit_2, 2} láti gbé àpò kọ̀ọ̀kan láti oko lọ sí ilé ìtajà, ti oníṣòwò náà sì jẹ ère ${num_digit_3, 400} ní àpapọ̀ lẹ́hìn tí ó ta gbogbo àwọn àpò ní òṣùwọ̀n ${num_digit_4, 30} fún ọ̀kọ̀ọ̀kan, àpò mélòó ni ó tà?",
+  "equation": "UPDATE HERE"
+}

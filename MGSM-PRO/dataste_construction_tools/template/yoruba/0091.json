@@ -1,0 +1,8 @@
+{
+  "original_question": "Jan ní ẹ̀ẹ̀mẹta iye ẹranko ìkẹ́ bí ti Marcia. Marcia ní ẹranko ìkẹ́ méjì ju Cindy. tí Cindy bá ní ẹranko ìké mẹ́rin, ẹranko ìkẹ́ mélòó ní àwọn mẹ́tẹ̀ẹ̀ta ní?",
+  "original_answer": 28,
+  "symbolic_template": "{name_female_1, Jan} ní ẹ̀ẹ̀mẹta iye ẹranko ìkẹ́ bí ti {name_female_2, Marcia}. {name_female_2, Marcia} ní ẹranko ìkẹ́ méjì ju {name_female_3, Cindy}. tí {name_female_3, Cindy} bá ní ẹranko ìké mẹ́rin, ẹranko ìkẹ́ mélòó ní àwọn mẹ́tẹ̀ẹ̀ta ní?",
+  "ic_sentence_template": "Arákùnrin {name_female_2, Marcia} ní àwọn ẹyẹ {num_ic, 16}.",
+  "ic_template": "Arákùnrin {name_female_2, Marcia} ní àwọn ẹyẹ {num_ic, 16}. {name_female_1, Jan} ní ẹ̀ẹ̀mẹta iye ẹranko ìkẹ́ bí ti {name_female_2, Marcia}. {name_female_2, Marcia} ní ẹranko ìkẹ́ méjì ju {name_female_3, Cindy}. tí {name_female_3, Cindy} bá ní ẹranko ìké mẹ́rin, ẹranko ìkẹ́ mélòó ní àwọn mẹ́tẹ̀ẹ̀ta ní?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Tí àpò àwọn òkúta marble bá jẹ́ $20, tí iye owó náà sì pọ̀ sí i pẹ̀lú ú 20% iye owó ìpilẹ̀ṣẹ̀ ní oṣù méjì, èló ni àpò àwọn òkúta marble yóò jẹ́ lẹ́yìn oṣù 36?",
+  "original_answer": 92,
+  "symbolic_template": "Tí àpò àwọn òkúta marble bá jẹ́ ${num_digit_1, 20}, tí iye owó náà sì pọ̀ sí i pẹ̀lú ú {num_digit_2, 20}% iye owó ìpilẹ̀ṣẹ̀ ní oṣù méjì, èló ni àpò àwọn òkúta marble yóò jẹ́ lẹ́yìn oṣù {num_digit_3, 36}?",
+  "ic_sentence_template": "Ọmọkùnrin arákùnrin alákóso ilé itaja ní {num_ic, 60} ìwé apanilẹrin.",
+  "ic_template": "Ọmọkùnrin arákùnrin alákóso ilé itaja ní {num_ic, 60} ìwé apanilẹrin. Tí àpò àwọn òkúta marble bá jẹ́ ${num_digit_1, 20}, tí iye owó náà sì pọ̀ sí i pẹ̀lú ú {num_digit_2, 20}% iye owó ìpilẹ̀ṣẹ̀ ní oṣù méjì, èló ni àpò àwọn òkúta marble yóò jẹ́ lẹ́yìn oṣù {num_digit_3, 36}?",
+  "equation": "UPDATE HERE"
+}

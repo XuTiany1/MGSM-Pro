@@ -1,0 +1,8 @@
+{
+  "original_question": "Johnny is picking up the toys on the floor of his room. He'd dumped a lego boxed set with 500 pieces on the floor, and another one that had 3 times more pieces than the 500 piece one, and another one that had 1/4 the number of pieces. How many blocks does Johnny pick up if he picks up all the legos?",
+  "original_answer": 2125,
+  "symbolic_template": "{name_male, Johnny} is picking up the toys on the floor of his room. He'd dumped a lego boxed set with {num_digit_1, 500} pieces on the floor, and another one that had {num_digit_2, 3} times more pieces than the {num_digit_1, 500} piece one, and another one that had 1/4 the number of pieces. How many blocks does {name_male, Johnny} pick up if he picks up all the legos?",
+  "ic_sentence_template": "{name_male, Johnny}'s uncle recently built a model ship with {num_ic, 318} tiny wooden parts.",
+  "ic_template": "{name_male, Johnny} is picking up the toys on the floor of his room. He'd dumped a lego boxed set with {num_digit_1, 500} pieces on the floor, and another one that had {num_digit_2, 3} times more pieces than the {num_digit_1, 500} piece one, and another one that had 1/4 the number of pieces. {name_male, Johnny}'s uncle recently built a model ship with {num_ic, 318} tiny wooden parts. How many blocks does {name_male, Johnny} pick up if he picks up all the legos?",
+  "equation": "UPDATE HERE"
+}

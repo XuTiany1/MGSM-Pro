@@ -1,0 +1,8 @@
+{
+  "original_question": "チャーリーはFacebookの友達がドロシーの3倍いる。ジェームズはドロシーの4倍、Facebookの友達がいる。チャーリーに12人、Facebookの友達がいある場合、ジェームズは何人のFacebook友達がいる？",
+  "original_answer": 16,
+  "symbolic_template": "チャーリー{name_male_1, Charlie} threeはFacebookの友達が{name_male_2, Dorothy}の三倍いる。{name_male_3, James}は{name_male_2, Dorothy}の四倍、Facebookの友達がいる。チャーリー{name_male_1, Charlie}に{num_digit_1, 12}人、Facebookの友達がいる場合、{name_male_3, James}は何人のFacebook友達がいる？",
+  "ic_sentence_template": "{name_male_3, ジェームズ}のおばは最近{num_ic, 67}匹の子犬を引き取りました。",
+  "ic_template": "{name_male_3, ジェームズ}のおばは最近{num_ic, 67}匹の子犬を引き取りました。チャーリー{name_male_1, Charlie} threeはFacebookの友達が{name_male_2, Dorothy}の三倍いる。{name_male_3, James}は{name_male_2, Dorothy}の四倍、Facebookの友達がいる。チャーリー{name_male_1, Charlie}に{num_digit_1, 12}人、Facebookの友達がいる場合、{name_male_3, James}は何人のFacebook友達がいる？",
+  "equation": "UPDATE HERE"
+}

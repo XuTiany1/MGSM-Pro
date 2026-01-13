@@ -1,0 +1,8 @@
+{
+  "original_question": "サディーは月曜日8時間寝た。次の2日間、宿題を終わらせなければならなかった彼女はそれぞれ2時間少ない時間寝た。もしも彼女が残りの週、その2日よりも1時間長く寝たら、彼女は1週間通して何時間寝たことになる？",
+  "original_answer": 48,
+  "symbolic_template": "{name_female, グレース} の体重は{num_digit_1, 125}ポンドです。{name_male,アレックス} の体重は{name_female,グレース} の体重の{num_digit_3, 4}倍よりも{num_digit_2, 2}ポンド軽いです。彼女達の体重の合計は何ポンドですか？",
+  "ic_sentence_template": "{name_female, サディ}のおじさんは先週{num_ic, 23}杯のコーヒーを飲みました。",
+  "ic_template": "{name_female, サディ}のおじさんは先週{num_ic, 23}杯のコーヒーを飲みました。{name_female, グレース} の体重は{num_digit_1, 125}ポンドです。{name_male,アレックス} の体重は{name_female,グレース} の体重の{num_digit_3, 4}倍よりも{num_digit_2, 2}ポンド軽いです。彼女達の体重の合計は何ポンドですか？",
+  "equation": "UPDATE HERE"
+}

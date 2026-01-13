@@ -1,0 +1,8 @@
+{
+  "original_question": "Lori wants to buy a $320.00 pair of shoes and a matching belt that is $32.00. Her part-time job pays her $8.00 an hour. How many hours will she have to work before she can make her purchase?",
+  "original_answer": 44,
+  "symbolic_template": "{name_female, Lori} wants to buy a ${num_digit_1, 320.00} pair of shoes and a matching belt that is ${num_digit_2, 32.00}. Her part-time job pays her ${num_digit_3, 8.00} an hour. How many hours will she have to work before she can make her purchase?",
+  "ic_sentence_template": "{name_female, Lori}'s uncle found {num_ic, 47} vintage movie posters in his attic.",
+  "ic_template": "{name_female, Lori} wants to buy a ${num_digit_1, 320.00} pair of shoes and a matching belt that is ${num_digit_2, 32.00}. Her part-time job pays her ${num_digit_3, 8.00} an hour. {name_female, Lori}'s uncle found {num_ic, 47} vintage movie posters in his attic. How many hours will she have to work before she can make her purchase?",
+  "equation": "UPDATE HERE"
+}

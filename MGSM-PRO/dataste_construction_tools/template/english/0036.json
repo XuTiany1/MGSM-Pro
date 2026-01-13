@@ -1,0 +1,8 @@
+{
+  "original_question": "Terry eats 2 yogurts a day. They are currently on sale at 4 yogurts for $5.00. How much does he spend on yogurt over 30 days?",
+  "original_answer": 75,
+  "symbolic_template": "{name_male, Terry} eats {num_digit_1, 2} yogurts a day. They are currently on sale at {num_digit_2, 4} yogurts for ${num_digit_3, 5}.00. How much does he spend on yogurt over {num_digit_4, 30} days?",
+  "ic_sentence_template": "{name_male, Terry}'s uncle recently bought {num_ic, 29} cartons of orange juice.",
+  "ic_template": "{name_male, Terry} eats {num_digit_1, 2} yogurts a day. They are currently on sale at {num_digit_2, 4} yogurts for ${num_digit_3, 5}.00. {name_male, Terry}'s uncle recently bought {num_ic, 29} cartons of orange juice. How much does he spend on yogurt over {num_digit_4, 30} days?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Lloyd wɔ nkosua afuo. Ne nkokɔ no to nkosua 252 da biara na wɔtɔnn ԑmu du mmienu biara $2. Sika sԑn na Lloyd nya wɔ nkosua ho wɔ nnawɔtwe biara mu?",
+  "original_answer": 294,
+  "symbolic_template": "{name_male, Lloyd} wɔ nkosua afuo. Ne nkokɔ no to nkosua {num_digit_1, 252} da biara na wɔtɔnn ԑmu du mmienu biara ${num_digit_2, 2}. Sika sԑn na {name_male, Lloyd} nya wɔ nkosua ho wɔ nnawɔtwe biara mu?",
+  "ic_sentence_template": "{name_male, Lloyd} wɔfa no akɔtɔ anomaa {num_ic, 105}.",
+  "ic_template": "{name_male, Lloyd} wɔfa no akɔtɔ anomaa {num_ic, 105}. {name_male, Lloyd} wɔ nkosua afuo. Ne nkokɔ no to nkosua {num_digit_1, 252} da biara na wɔtɔnn ԑmu du mmienu biara ${num_digit_2, 2}. Sika sԑn na {name_male, Lloyd} nya wɔ nkosua ho wɔ nnawɔtwe biara mu?",
+  "equation": "UPDATE HERE"
+}

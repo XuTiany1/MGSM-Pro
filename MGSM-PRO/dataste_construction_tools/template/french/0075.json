@@ -1,0 +1,8 @@
+{
+  "original_question": "Luc passe du temps à construire des châteaux de sable sur la plage. Il remarque que chaque étage d'un château de sable a la moitié de la surface de l'étage inférieur. Quelle est la superficie moyenne d'un étage, sachant que le château de sable en compte 4 et que l'étage le plus élevé a une superficie de 16 pieds carrés ?",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Luc} passe du temps à construire des châteaux de sable sur la plage. Il remarque que chaque étage d'un château de sable a la moitié de la surface de l'étage inférieur. Quelle est la superficie moyenne d'un étage, sachant que le château de sable en compte {num_digit_1, 4} et que l'étage le plus élevé a une superficie de {num_digit_2, 16} pieds carrés ?",
+  "ic_sentence_template": "{name_male, Luke} a un oncle qui a apporté {num_ic, 26} chaises de plage pour tout le monde.",
+  "ic_template": "{name_male, Luke} a un oncle qui a apporté {num_ic, 26} chaises de plage pour tout le monde. {name_male, Luc} passe du temps à construire des châteaux de sable sur la plage. Il remarque que chaque étage d'un château de sable a la moitié de la surface de l'étage inférieur. Quelle est la superficie moyenne d'un étage, sachant que le château de sable en compte {num_digit_1, 4} et que l'étage le plus élevé a une superficie de {num_digit_2, 16} pieds carrés ?",
+  "equation": "UPDATE HERE"
+}

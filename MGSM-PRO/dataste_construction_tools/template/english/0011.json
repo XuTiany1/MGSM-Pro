@@ -1,0 +1,8 @@
+{
+  "original_question": "Toula went to the bakery and bought various types of pastries. She bought 3 dozen donuts which cost $68 per dozen, 2 dozen mini cupcakes which cost $80 per dozen, and 6 dozen mini cheesecakes for $55 per dozen. How much was the total cost?",
+  "original_answer": 694,
+  "symbolic_template": "{name_female, Toula} went to the bakery and bought various types of pastries. She bought {num_digit_1, 3} dozen donuts which cost ${num_digit_2, 68} per dozen, {num_digit_3, 2} dozen mini cupcakes which cost ${num_digit_4, 80} per dozen, and {num_digit_5, 6} dozen mini cheesecakes for ${num_digit_6, 55} per dozen. How much was the total cost?",
+  "ic_sentence_template": "{name_female, Toula}'s uncle ordered {num_ic, 136} loaves of bread for a party.",
+  "ic_template": "{name_female, Toula} went to the bakery and bought various types of pastries. She bought {num_digit_1, 3} dozen donuts which cost ${num_digit_2, 68} per dozen, {num_digit_3, 2} dozen mini cupcakes which cost ${num_digit_4, 80} per dozen, and {num_digit_5, 6} dozen mini cheesecakes for ${num_digit_6, 55} per dozen. {name_female, Toula}'s uncle ordered {num_ic, 136} loaves of bread for a party. How much was the total cost?",
+  "equation": "UPDATE HERE"
+}

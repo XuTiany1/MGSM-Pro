@@ -1,0 +1,8 @@
+{
+  "original_question": "ジェナと母親は、りんご農場からりんごをいくつか摘んだ。ジェナは母親の半分の数を摘んだ。彼女の母親が20個のりんごを摘んだ場合、二人でいくつのりんごを摘んだ？",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, ジェナ} と母親は、りんご農場からりんごをいくつか摘んだ。{name_female, ジェナ} は母親の 半分 の数を摘んだ。{name_female, ジェナ} の母親が {num_digit_1, 20} 個のりんごを摘んだ場合、二人でいくつのりんごを摘んだ？",
+  "ic_sentence_template": "{name_female, ジェナ}のおじはその朝、農場に{num_ic, 154}本のリンゴ酒を持ってきました。",
+  "ic_template": "{name_female, ジェナ}のおじはその朝、農場に{num_ic, 154}本のリンゴ酒を持ってきました。{name_female, ジェナ} と母親は、りんご農場からりんごをいくつか摘んだ。{name_female, ジェナ} は母親の 半分 の数を摘んだ。{name_female, ジェナ} の母親が {num_digit_1, 20} 個のりんごを摘んだ場合、二人でいくつのりんごを摘んだ？",
+  "equation": "UPDATE HERE"
+}

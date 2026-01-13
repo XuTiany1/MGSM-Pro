@@ -1,0 +1,8 @@
+{
+  "original_question": "トミーは1スライス$3のブラウニーと、$4のチーズケーキを売って、自分のチャリティーの費用を集めている。もしもトミーが43個のブラウニーと、23個のチーズケーキを売れば、トミーはいくら集められますか？",
+  "original_answer": 221,
+  "symbolic_template": "{name_male, トミー}は1スライス${num_digit_1, 3}のブラウニーと、${num_digit_2, 4}のチーズケーキを売って、自分のチャリティーの費用を集めている。もしも{name_male, トミー}が{num_digit_3, 43}個のブラウニーと、{num_digit_4, 23}個のチーズケーキを売れば、{name_male, トミー}はいくら集めら��ますか？",
+  "ic_sentence_template": "{name_male, トミー}のおばさんは最近、地域のイベントのために{num_ic, 164}本のパンを焼きました。",
+  "ic_template": "{name_male, トミー}のおばさんは最近、地域のイベントのために{num_ic, 164}本のパンを焼きました。{name_male, トミー}は1スライス${num_digit_1, 3}のブラウニーと、${num_digit_2, 4}のチーズケーキを売って、自分のチャリティーの費用を集めている。もしも{name_male, トミー}が{num_digit_3, 43}個のブラウニーと、{num_digit_4, 23}個のチーズケーキを売れば、{name_male, トミー}はいくら集められますか？",
+  "equation": "UPDATE HERE"
+}

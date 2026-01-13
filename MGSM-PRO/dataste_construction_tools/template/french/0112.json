@@ -1,0 +1,8 @@
+{
+  "original_question": "Une salle de classe dispose d'un tableau blanc partagé entre les 4 enseignants qui utilisent la salle à tour de rôle. Chacun d'eux donne 2 cours par jour et utilise le tableau blanc à chaque fois. Si le tableau est nettoyé 3 fois par leçon, combien de fois le nettoie-t-on en une journée ?",
+  "original_answer": 24,
+  "symbolic_template": "Une salle de classe dispose d'un tableau blanc partagé entre les {num_digit_1, 4} enseignants qui utilisent la salle à tour de rôle. Chacun d'eux donne {num_digit_2, 2} cours par jour et utilise le tableau blanc à chaque fois. Si le tableau est nettoyé {num_digit_3, 3} fois par leçon, combien de fois le nettoie-t-on en une journée ?",
+  "ic_sentence_template": "Le neveu du concierge apporte {num_ic, 61} marqueurs à l'école.",
+  "ic_template": "Le neveu du concierge apporte {num_ic, 61} marqueurs à l'école. Une salle de classe dispose d'un tableau blanc partagé entre les {num_digit_1, 4} enseignants qui utilisent la salle à tour de rôle. Chacun d'eux donne {num_digit_2, 2} cours par jour et utilise le tableau blanc à chaque fois. Si le tableau est nettoyé {num_digit_3, 3} fois par leçon, combien de fois le nettoie-t-on en une journée ?",
+  "equation": "UPDATE HERE"
+}

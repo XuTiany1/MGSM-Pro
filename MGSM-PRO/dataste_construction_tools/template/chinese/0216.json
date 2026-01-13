@@ -1,0 +1,8 @@
+{
+  "original_question": "珍妮丝借了 2,000 美元并承诺额外返还该金额的 10%。如果她打算 12 个月每月支付 165 美元，到那时珍妮丝剩余的欠款为多少？",
+  "original_answer": 220,
+  "symbolic_template": "{name_female, 珍妮丝} 借了 {num_digit_1, 2,000} 美元并承诺额外返还该金额的 {num_digit_2, 10}%。如果她打算 {num_digit_4, 12} 个月每月支付 {num_digit_3, 165} 美元，到那时 {name_female, 珍妮丝} 剩余的欠款为多少？",
+  "ic_sentence_template": "{name_female, 贾妮丝} 的叔叔去年收到 {num_ic, 93000} 张彩票。",
+  "ic_template": "{name_female, 贾妮丝} 的叔叔去年收到 {num_ic, 93000} 张彩票。{name_female, 珍妮丝} 借了 {num_digit_1, 2,000} 美元并承诺额外返还该金额的 {num_digit_2, 10}%。如果她打算 {num_digit_4, 12} 个月每月支付 {num_digit_3, 165} 美元，到那时 {name_female, 珍妮丝} 剩余的欠款为多少？",
+  "equation": "UPDATE HERE"
+}

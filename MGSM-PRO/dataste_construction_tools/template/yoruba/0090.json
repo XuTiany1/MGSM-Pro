@@ -1,0 +1,8 @@
+{
+  "original_question": "Ted ń gbìyànjú láti mú Isu sàladì wá síbi àpèjẹ ẹranko dìánísọ̀. ó mọ̀ pé àgbà ẹranko dìánísọ̀ máa ń jẹ 10 ibs iṣu sàladì nígbàtí ọmọ yóò jẹ àbọ̀ tí àwọn àgbà ń jẹ. tí àgbàlagbà 20 àti ọmọdé 5 bá wà níbí àpèjẹ náà, ìwọ̀n iṣu sàladì mélòó ní Ted ní láti mú dání wá sí àpèjẹ tó bá lérò láti ní ọ̀pọ̀ láti bọ́ gbogbo ènìyàn ",
+  "original_answer": 225,
+  "symbolic_template": "{name_dinosaur, Ted} ń gbìyànjú láti mú Isu sàladì wá síbi àpèjẹ ẹranko dìánísọ̀. ó mọ̀ pé àgbà ẹranko dìánísọ̀ máa ń jẹ {num_digit_1, 10} ibs iṣu sàladì nígbàtí ọmọ yóò jẹ àbọ̀ tí àwọn àgbà ń jẹ. tí àgbàlagbà {num_digit_2, 20} àti ọmọdé {num_digit_3, 5} bá wà níbí àpèjẹ náà, ìwọ̀n iṣu sàladì mélòó ní {name_dinosaur, Ted} ní láti mú dání wá sí àpèjẹ tó bá lérò láti ní ọ̀pọ̀ láti bọ́ gbogbo ènìyàn",
+  "ic_sentence_template": "Ọmọbìnrin àbúrò {name_dinosaur, Ted} ní òpé oyinbó {num_ic, 94}.",
+  "ic_template": "Ọmọbìnrin àbúrò {name_dinosaur, Ted} ní òpé oyinbó {num_ic, 94}. {name_dinosaur, Ted} ń gbìyànjú láti mú Isu sàladì wá síbi àpèjẹ ẹranko dìánísọ̀. ó mọ̀ pé àgbà ẹranko dìánísọ̀ máa ń jẹ {num_digit_1, 10} ibs iṣu sàladì nígbàtí ọmọ yóò jẹ àbọ̀ tí àwọn àgbà ń jẹ. tí àgbàlagbà {num_digit_2, 20} àti ọmọdé {num_digit_3, 5} bá wà níbí àpèjẹ náà, ìwọ̀n iṣu sàladì mélòó ní {name_dinosaur, Ted} ní láti mú dání wá sí àpèjẹ tó bá lérò láti ní ọ̀pọ̀ láti bọ́ gbogbo ènìyàn",
+  "equation": "UPDATE HERE"
+}

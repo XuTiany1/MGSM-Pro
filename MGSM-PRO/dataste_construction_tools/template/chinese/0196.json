@@ -1,0 +1,8 @@
+{
+  "original_question": "200 磅胡萝卜要分配给某座城市的 40 家餐厅。每家餐厅会收到 2 磅胡萝卜。有多少磅胡萝卜不会用到？",
+  "original_answer": 120,
+  "symbolic_template": "{num_digit_1, 200} 磅胡萝卜要分配给某座城市的 {num_digit_2, 40} 家餐厅。每家餐厅会收到 {num_digit_3, 2} 磅胡萝卜。有多少磅胡萝卜不会用到？",
+  "ic_sentence_template": "   \n城市里有 {num_ic, 22} 位厨师正在尝试一种新的汤食谱。",
+  "ic_template": "城市里有 {num_ic, 22} 位厨师正在尝试一种新的汤食谱。{num_digit_1, 200} 磅胡萝卜要分配给某座城市的 {num_digit_2, 40} 家餐厅。每家餐厅会收到 {num_digit_3, 2} 磅胡萝卜。有多少磅胡萝卜不会用到？",
+  "equation": "UPDATE HERE"
+}

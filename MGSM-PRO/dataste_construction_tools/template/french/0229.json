@@ -1,0 +1,8 @@
+{
+  "original_question": "Une ferme de pastèques a produit 120 bébés pastèques. Ashlyn s'est rendue à la ferme après deux mois et a constaté que 30 % des pastèques étaient prêtes à être récoltées et les a donc ramenées chez elle. À son retour, deux semaines plus tard, 3/4 des pastèques restantes étant prêtes, elle les a récoltées. Combien de pastèques n'étaient pas encore prêtes pour la récolte après ces deux semaines ?",
+  "original_answer": 21,
+  "symbolic_template": "Une ferme de pastèques a produit {num_digit_1, 120} bébés pastèques. {name_female, Ashlyn} s'est rendue à la ferme après deux mois et a constaté que {num_digit_2, 30}% des pastèques étaient prêtes à être récoltées et les a donc ramenées chez elle. À son retour, deux semaines plus tard, 3/4 des pastèques restantes étant prêtes, elle les a récoltées. Combien de pastèques n'étaient pas encore prêtes pour la récolte après ces deux semaines ?",
+  "ic_sentence_template": "{name_female, Ashlyn} a un oncle qui a acheté {num_ic, 958} sacs d'engrais pour ses pommiers.",
+  "ic_template": "{name_female, Ashlyn} a un oncle qui a acheté {num_ic, 958} sacs d'engrais pour ses pommiers. Une ferme de pastèques a produit {num_digit_1, 120} bébés pastèques. {name_female, Ashlyn} s'est rendue à la ferme après deux mois et a constaté que {num_digit_2, 30}% des pastèques étaient prêtes à être récoltées et les a donc ramenées chez elle. À son retour, deux semaines plus tard, 3/4 des pastèques restantes étant prêtes, elle les a récoltées. Combien de pastèques n'étaient pas encore prêtes pour la récolte après ces deux semaines ?",
+  "equation": "UPDATE HERE"
+}

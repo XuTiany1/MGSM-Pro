@@ -1,0 +1,8 @@
+{
+  "original_question": "Kuna shule nne zinazoshindana katika shindano la mpira wa kikapu. Kila shule imetuma timu ya wasichana ya mpira wa kikapu na timu ya wavulana ya mpira wa kikapu na kila timu ina wachezaji 5. Kila shule pia imetuma kocha wa kila timu. Kwa jumla, shule zote zimewatuma watu wangapi?",
+  "original_answer": 48,
+  "symbolic_template": "Kuna shule nne zinazoshindana katika shindano la mpira wa kikapu. Kila shule imetuma timu ya wasichana ya mpira wa kikapu na timu ya wavulana ya mpira wa kikapu na kila timu ina wachezaji {num_digit_1, 5}. Kila shule pia imetuma kocha wa kila timu. Kwa jumla, shule zote zimewatuma watu wangapi?",
+  "ic_sentence_template": "Binamu wa {name_male, Marcus} alileta mipira ya kikapu {num_ic, 42} kwa timu watumie.",
+  "ic_template": "Binamu wa {name_male, Marcus} alileta mipira ya kikapu {num_ic, 42} kwa timu watumie. Kuna shule nne zinazoshindana katika shindano la mpira wa kikapu. Kila shule imetuma timu ya wasichana ya mpira wa kikapu na timu ya wavulana ya mpira wa kikapu na kila timu ina wachezaji {num_digit_1, 5}. Kila shule pia imetuma kocha wa kila timu. Kwa jumla, shule zote zimewatuma watu wangapi?",
+  "equation": "UPDATE HERE"
+}

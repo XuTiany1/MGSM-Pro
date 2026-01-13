@@ -1,0 +1,8 @@
+{
+  "original_question": "Marafiki watatu walitumia $20.25 kununua tikiti 3 za onesho. Pia walinunua chakula na bei ya tikiti ilikuwa imeshinda bei ya chakula na $4.50. Pia walienda kwenye safari 2 tofauti kwa bei ya $33 kwa kila safari. Ikiwa walikubali kugawanya gharama zote kwa usawa, kila mmoja wao alilipa pesa ngapi?",
+  "original_answer": 34,
+  "symbolic_template": "Marafiki watatu walitumia ${num_digit_1, 20.25} kununua tikiti {num_digit_2, 3} za onesho. Pia walinunua chakula na bei ya tikiti ilikuwa imeshinda bei ya chakula na ${num_digit_3, 4.50}. Pia walienda kwenye safari {num_digit_4, 2} tofauti kwa bei ya ${num_digit_5, 33} kwa kila safari. Ikiwa walikubali kugawanya gharama zote kwa usawa, kila mmoja wao alilipa pesa ngapi?",
+  "ic_sentence_template": "Mmoja wa mashangazi zao alinunua tiketi za bahati nasibu {num_ic, 148} kwenye tamasha.",
+  "ic_template": "Marafiki watatu walitumia ${num_digit_1, 20.25} kununua tikiti {num_digit_2, 3} za onesho. Pia walinunua chakula na bei ya tikiti ilikuwa imeshinda bei ya chakula na ${num_digit_3, 4.50}. Pia walienda kwenye safari {num_digit_4, 2} tofauti kwa bei ya ${num_digit_5, 33} kwa kila safari. Ikiwa walikubali kugawanya gharama zote kwa usawa, kila mmoja wao alilipa pesa ngapi? Mmoja wa mashangazi zao alinunua tiketi za bahati nasibu {num_ic, 148} kwenye tamasha.",
+  "equation": "UPDATE HERE"
+}

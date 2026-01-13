@@ -1,0 +1,8 @@
+{
+  "original_question": "Nissa anaajiri wafanyakazi 60 wa kimsimu kucheza mchezo wa elvu katika kijiji cha Santa cha idara ya duka lake. Theluthi moja yao wanaondoka baada ya watoto kuwatapikia, kisha 10 kati ya waliosalia wanaondoka baada ya watoto kuwapiga teke. Wangapi wamesalia?",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, Nissa} huajiri wafanyakazi wa muda {num_digit_1, 60} ili kucheza kama mashetani kwenye kijiji cha Santa cha duka lake kubwa. Theluthi moja ya mashetani huacha kazi baada ya watoto kuwatapikia, kisha {num_digit_2, 10} kati ya waliobaki huacha kazi baada ya watoto kuwapiga teke. Ni mashetani wangapi wanasalia?",
+  "ic_sentence_template": "Mjomba wa {name_female, Nissa} huleta miti ya Krismasi {num_ic, 87} dukani kila mwaka.",
+  "ic_template": "Mjomba wa {name_female, Nissa} huleta miti ya Krismasi {num_ic, 87} dukani kila mwaka. {name_female, Nissa} huajiri wafanyakazi wa muda {num_digit_1, 60} ili kucheza kama mashetani kwenye kijiji cha Santa cha duka lake kubwa. Theluthi moja ya mashetani huacha kazi baada ya watoto kuwatapikia, kisha {num_digit_2, 10} kati ya waliobaki huacha kazi baada ya watoto kuwapiga teke. Ni mashetani wangapi wanasalia?",
+  "equation": "UPDATE HERE"
+}

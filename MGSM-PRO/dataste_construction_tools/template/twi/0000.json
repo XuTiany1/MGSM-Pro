@@ -1,0 +1,8 @@
+{
+  "original_question": "Janet nnabodabo no to nkosua 16 da biara. Ͻdi mmiԑnsa anɔpa biara na ɔde nnan ato burodo ama ne nnamfonom da biara. Ͻtɔn deԑ aka no, dabodabo kosua mono biara $2 wɔ akuafoɔ dwam da biara. Sika sԑn wɔ dollars mu na ɔnya dabia wɔ akuafoɔ dwam hɔ?",
+  "original_answer": 18,
+  "symbolic_template": "{name_female, Janet} nnabodabo no to nkosua {num_digit_1, 16} da biara. Ͻdi mmiɛnsa anɔpa biara na ɔde nnan ato burodo ama ne nnamfonom da biara. Ͻtɔn deԑ aka no, dabodabo kosua mono biara ${num_digit_2, 2} wɔ akuafoɔ dwam da biara. Sika sԑn wɔ dollars mu na ɔnya dabia wɔ akuafoɔ dwam hɔ?",
+  "ic_sentence_template": "{name_female, Janet} wɔfa de apples {num_ic, 41} brɛ no nnawɔtwe biara.",
+  "ic_template": "{name_female, Janet} wɔfa de apples {num_ic, 41} brɛ no nnawɔtwe biara. {name_female, Janet} nnabodabo no to nkosua {num_digit_1, 16} da biara. Ͻdi mmiɛnsa anɔpa biara na ɔde nnan ato burodo ama ne nnamfonom da biara. Ͻtɔn deԑ aka no, dabodabo kosua mono biara ${num_digit_2, 2} wɔ akuafoɔ dwam da biara. Sika sԑn wɔ dollars mu na ɔnya dabia wɔ akuafoɔ dwam hɔ?",
+  "equation": "UPDATE HERE"
+}

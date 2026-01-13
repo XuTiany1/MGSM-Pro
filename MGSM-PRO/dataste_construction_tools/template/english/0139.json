@@ -1,0 +1,8 @@
+{
+  "original_question": "In a candy machine, there are 22 more than four times the number of pink gumballs as there are blue gumballs. If there are 12 blue gumballs how many pink ones are there?",
+  "original_answer": 70,
+  "symbolic_template": "In a candy machine, there are {num_digit_1, 22} more than four times the number of pink gumballs as there are blue gumballs. If there are {num_digit_2, 12} blue gumballs how many pink ones are there?",
+  "ic_sentence_template": "{num_ic, 147} kids stopped by the machine that day.",
+  "ic_template": "In a candy machine, there are {num_digit_1, 22} more than four times the number of pink gumballs as there are blue gumballs. {num_ic, 147} kids stopped by the machine that day. If there are {num_digit_2, 12} blue gumballs how many pink ones are there?",
+  "equation": "UPDATE HERE"
+}

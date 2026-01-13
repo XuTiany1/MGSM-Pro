@@ -1,0 +1,8 @@
+{
+  "original_question": "አንድ ቅርጫት 25 ብርቱካኖዎችን ይይዛል ከእነዚህ ውስጥ 1 የተበላሸ ነው፣ 20% ያልበሰሉ ናቸው፣ 2 ሆምጣጤ ናቸው እና የተቀሩት ጥሩ ናቸው። ስንት ብርቱካኖዎች ጥሩ ናቸው?",
+  "original_answer": 17,
+  "symbolic_template": "አንድ ቅርጫት {num_digit_1, 25} ብርቱካኖዎችን ይይዛል ከእነዚህ ውስጥ {num_digit_2, 1} የተበላሸ ነው፣ {num_digit_3, 20}% ያልበሰሉ ናቸው፣ {num_digit_4, 2} ሆምጣጤ ናቸው እና የተቀሩት ጥሩ ናቸው። ስንት ብርቱካኖዎች ጥሩ ናቸው?",
+  "ic_sentence_template": "የ{name_female, አርያ} አጎቷ ከገበያ {num_ic, 68} ፖሞ አመጣ።",
+  "ic_template": "አንድ ቅርጫት {num_digit_1, 25} ብርቱካኖዎችን ይይዛል ከእነዚህ ውስጥ {num_digit_2, 1} የተበላሸ ነው፣ {num_digit_3, 20}% ያልበሰሉ ናቸው፣ {num_digit_4, 2} ሆምጣጤ ናቸው እና የተቀሩት ጥሩ ናቸው። ስንት ብርቱካኖዎች ጥሩ ናቸው? የ{name_female, አርያ} አጎቷ ከገበያ {num_ic, 68} ፖሞ አመጣ።",
+  "equation": "UPDATE HERE"
+}

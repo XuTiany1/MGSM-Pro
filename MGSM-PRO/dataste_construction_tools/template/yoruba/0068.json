@@ -1,0 +1,8 @@
+{
+  "original_question": "Ó tó ìlọ́po méjì àwọn ọmọkùnrin ju àwọn ọmọbìnrin ní ilé ìwé Dr Wertz, To bá jẹ́ obìnrin 60 àti akẹ́kọ̀ọ́ 5 fún olùkọ́ kọ̀ọ̀kan, olùkọ́ mélòó ní ó wà níbẹ̀?",
+  "original_answer": 36,
+  "symbolic_template": "Ó tó ìlọ́po méjì àwọn ọmọkùnrin ju àwọn ọmọbìnrin ní ilé ìwé Dr Wertz, To bá jẹ́ obìnrin {num_digit_1, 60} àti akẹ́kọ̀ọ́ {num_digit_2, 5} fún olùkọ́ kọ̀ọ̀kan, olùkọ́ mélòó ní ó wà níbẹ̀?",
+  "ic_sentence_template": "A fi àwọn ìwé tuntun {num_ic, 222} ránṣẹ́ sí ìkàwé ilé ẹ̀kọ́ Dókítà Wertz lọ́dún yìí.",
+  "ic_template": "A fi àwọn ìwé tuntun {num_ic, 222} ránṣẹ́ sí ìkàwé ilé ẹ̀kọ́ Dókítà Wertz lọ́dún yìí. Ó tó ìlọ́po méjì àwọn ọmọkùnrin ju àwọn ọmọbìnrin ní ilé ìwé Dr Wertz, To bá jẹ́ obìnrin {num_digit_1, 60} àti akẹ́kọ̀ọ́ {num_digit_2, 5} fún olùkọ́ kọ̀ọ̀kan, olùkọ́ mélòó ní ó wà níbẹ̀?",
+  "equation": "UPDATE HERE"
+}

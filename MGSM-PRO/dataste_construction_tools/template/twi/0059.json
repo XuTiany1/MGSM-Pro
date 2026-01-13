@@ -1,0 +1,8 @@
+{
+  "original_question": "Raspberry nwura bi wɔ mmɔho nsia a baako bia wɔ aduaba 20 na nnuaba mmaako mmaako 67 a apete wɔ nwura no mu. Rasperries dodoɔ sԑn na ԑwɔ hɔ?",
+  "original_answer": 187,
+  "symbolic_template": "Raspberry nwura bi wɔ mmɔho {num_digit_1, 6} a baako bia wɔ aduaba {num_digit_2, 20} na nnuaba mmaako mmaako {num_digit_3, 67} a apete wɔ nwura no mu. Rasperries dodoɔ sԑn na ԑwɔ hɔ?",
+  "ic_sentence_template": "Turoyɛfo no wɔfase barima no duaa blueberry nnua {num_ic, 126} bɛn ha.",
+  "ic_template": "Raspberry nwura bi wɔ mmɔho {num_digit_1, 6} a baako bia wɔ aduaba {num_digit_2, 20} na nnuaba mmaako mmaako {num_digit_3, 67} a apete wɔ nwura no mu. Rasperries dodoɔ sԑn na ԑwɔ hɔ? Turoyɛfo no wɔfase barima no duaa blueberry nnua {num_ic, 126} bɛn ha.",
+  "equation": "UPDATE HERE"
+}

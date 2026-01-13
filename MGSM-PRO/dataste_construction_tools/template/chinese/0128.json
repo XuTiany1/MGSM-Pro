@@ -1,0 +1,8 @@
+{
+  "original_question": "威尔的妈妈在当地商店卖西瓜、辣椒和橙子。西瓜的价格是辣椒价格的三倍。橙子的价格比西瓜的价格少 5 美元。狄龙被派去这家店购买 4 颗西瓜、20 根辣椒和 10 颗橙子。如果每根辣椒 15 美元，他一共要花多少钱？",
+  "original_answer": 880,
+  "symbolic_template": "{name_male_1, 威尔} 的妈妈在当地商店卖西瓜、辣椒和橙子。西瓜的价格是辣椒价格的三倍。橙子的价格比西瓜的价格少 {num_digit_1, 5} 美元。{name_male_2, 狄龙} 被派去这家店购买 {num_digit_2, 4} 颗西瓜、{num_digit_3, 20} 根辣椒和 {num_digit_4, 10} 颗橙子。如果每根辣椒 {num_digit_5, 15} 美元，他一共要花多少钱？",
+  "ic_sentence_template": "{name_male_2, 迪伦} 的姨妈昨天买了 {num_ic, 92} 个菠萝。",
+  "ic_template": "{name_male_2, 迪伦} 的姨妈昨天买了 {num_ic, 92} 个菠萝。{name_male_1, 威尔} 的妈妈在当地商店卖西瓜、辣椒和橙子。西瓜的价格是辣椒价格的三倍。橙子的价格比西瓜的价格少 {num_digit_1, 5} 美元。{name_male_2, 狄龙} 被派去这家店购买 {num_digit_2, 4} 颗西瓜、{num_digit_3, 20} 根辣椒和 {num_digit_4, 10} 颗橙子。如果每根辣椒 {num_digit_5, 15} 美元，他一共要花多少钱？",
+  "equation": "UPDATE HERE"
+}

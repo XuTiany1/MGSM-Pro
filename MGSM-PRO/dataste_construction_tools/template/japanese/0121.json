@@ -1,0 +1,8 @@
+{
+  "original_question": "モリセットとケイルは、フルーツを持ってくるよう頼まれた。モリセットは5個のリンゴと8個のオレンジ、一方ケイルはモリセットの2倍の数のリンゴと半分の数のオレンジを持ってきた。彼らは全部でいくつフルーツを持っている？",
+  "original_answer": 27,
+  "symbolic_template": "{name_female, モリセット}と{name_male, ケイル}は、フルーツを持ってくるよう頼まれた。{name_female, モリセット} は{num_digit_1, 5}個のリンゴと{num_digit_2, 8}個のオレンジ、一方{name_male, ケイル}はモリセットの2倍の数のリンゴと半分の数のオレンジを持ってきた。彼らは全部でいくつフルーツを持っている？",
+  "ic_sentence_template": "{name_male, カエル}の叔母は自分の木から{num_ic, 29}個の大根を取りました。",
+  "ic_template": "{name_male, カエル}の叔母は自分の木から{num_ic, 29}個の大根を取りました。{name_female, モリセット}と{name_male, ケイル}は、フルーツを持ってくるよう頼まれた。{name_female, モリセット} は{num_digit_1, 5}個のリンゴと{num_digit_2, 8}個のオレンジ、一方{name_male, ケイル}はモリセットの2倍の数のリンゴと半分の数のオレンジを持ってきた。彼らは全部でいくつフルーツを持っている？",
+  "equation": "UPDATE HERE"
+}

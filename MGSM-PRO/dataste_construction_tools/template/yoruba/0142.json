@@ -1,0 +1,8 @@
+{
+  "original_question": "Jordan máa ń gbá eré orí fídíò fún wákàtí méjì lójoojúmọ́. Ó tún ní iṣẹ́ kékeré kan níbi tí ó ti ń rí $10 ní wákàtí kan. Èló ni Jordan máa rí ní ọ̀sẹ̀ kan tí ó bá lo àkókò eré fídíò rẹ̀ láti ṣiṣẹ́?",
+  "original_answer": 140,
+  "symbolic_template": "{name_male, Jordan} máa ń gbá eré orí fídíò fún wákàtí {num_digit_1, 2} lójoojúmọ́. Ó tún ní iṣẹ́ kékeré kan níbi tí ó ti ń rí ${num_digit_2, 10} ní wákàtí kan. Èló ni {name_male, Jordan} máa rí ní ọ̀sẹ̀ kan tí ó bá lo àkókò eré fídíò rẹ̀ láti ṣiṣẹ́?",
+  "ic_sentence_template": "Ọ̀gá àwọn {name_male, Jordan} ní {num_ic, 8} ẹ̀rọ arcade atijọ́.",
+  "ic_template": "Ọ̀gá àwọn {name_male, Jordan} ní {num_ic, 8} ẹ̀rọ arcade atijọ́. {name_male, Jordan} máa ń gbá eré orí fídíò fún wákàtí {num_digit_1, 2} lójoojúmọ́. Ó tún ní iṣẹ́ kékeré kan níbi tí ó ti ń rí ${num_digit_2, 10} ní wákàtí kan. Èló ni {name_male, Jordan} máa rí ní ọ̀sẹ̀ kan tí ó bá lo àkókò eré fídíò rẹ̀ láti ṣiṣẹ́?",
+  "equation": "UPDATE HERE"
+}

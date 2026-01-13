@@ -1,0 +1,8 @@
+{
+  "original_question": "在索达市，居民的确切人数是 23,786。他们包括 8,417 个男性和 9,092 个女性。其他人口由儿童构成。索达市有多少儿童？",
+  "original_answer": 6277,
+  "symbolic_template": "{name_city, 索达}市，居民的确切人数是 {num_digit_1, 23,786}。他们包括 {num_digit_2, 8,417} 个男性和 {num_digit_3, 9,092} 个女性。其他人口由儿童构成。{name_city, 索达}市有多少儿童？",
+  "ic_sentence_template": "{name_city, 苏达}市长的叔叔为一次节日买了 {num_ic, 174364} 个气球。",
+  "ic_template": "{name_city, 苏达}市长的叔叔为一次节日买了 {num_ic, 174364} 个气球。{name_city, 索达}市，居民的确切人数是 {num_digit_1, 23,786}。他们包括 {num_digit_2, 8,417} 个男性和 {num_digit_3, 9,092} 个女性。其他人口由儿童构成。{name_city, 索达}市有多少儿童？",
+  "equation": "UPDATE HERE"
+}

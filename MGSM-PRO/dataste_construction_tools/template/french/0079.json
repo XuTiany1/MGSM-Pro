@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean adopte un chien et l'emmène chez le toiletteur pour la somme de 100 $. Le toiletteur lui offre une réduction de 30 %, comme c'est un nouveau client. Combien coûte finalement le toilettage ?",
+  "original_answer": 70,
+  "symbolic_template": "{name_male, Jean} adopte un chien et l'emmène chez le toiletteur pour la somme de {num_digit_1, 100} $. Le toiletteur lui offre une réduction de {num_digit_2, 30} %, comme c'est un nouveau client. Combien coûte finalement le toilettage ?",
+  "ic_sentence_template": "{name_male, John} a un oncle qui a {num_ic, 13} chats.",
+  "ic_template": "{name_male, John} a un oncle qui a {num_ic, 13} chats. {name_male, Jean} adopte un chien et l'emmène chez le toiletteur pour la somme de {num_digit_1, 100} $. Le toiletteur lui offre une réduction de {num_digit_2, 30} %, comme c'est un nouveau client. Combien coûte finalement le toilettage ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Carlos anapanda mlimau. Mti huo utagharimu $90 kuupanda. Kila mwaka utazaa limau 7, anazoweza kuuza kwa $1.5 kila moja. Gharama ya kunyunyiza maji na kulisha mti huo kila mwaka ni $3. Itachukua miaka mingapi kabla ya yeye kuanza kupata mapato kutoka kwa mlimau huo?",
+  "original_answer": 13,
+  "symbolic_template": "{name_male, Carlos} anapanda mlimau. Mti huo utagharimu ${num_digit_1, 90} kuupanda. Kila mwaka utazaa limau {num_digit_2, 7}, anazoweza kuuza kwa ${num_digit_3, 1.5} kila moja. Gharama ya kunyunyiza maji na kulisha mti huo kila mwaka ni ${num_digit_4, 3}. Itachukua miaka mingapi kabla ya yeye kuanza kupata mapato kutoka kwa mlimau huo?",
+  "ic_sentence_template": "Binamu wa {name_male, Carlos} alileta machungwa {num_ic, 136} kwenye pikniki ya mwisho ya familia.",
+  "ic_template": "Binamu wa {name_male, Carlos} alileta machungwa {num_ic, 136} kwenye pikniki ya mwisho ya familia. {name_male, Carlos} anapanda mlimau. Mti huo utagharimu ${num_digit_1, 90} kuupanda. Kila mwaka utazaa limau {num_digit_2, 7}, anazoweza kuuza kwa ${num_digit_3, 1.5} kila moja. Gharama ya kunyunyiza maji na kulisha mti huo kila mwaka ni ${num_digit_4, 3}. Itachukua miaka mingapi kabla ya yeye kuanza kupata mapato kutoka kwa mlimau huo?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Juan et son frère Carlos vendent de la limonade. Pour chaque gallon ils dépensent 3 $ en citrons et 2 $ en sucre. Ils obtiennent 20 verres de limonade et les vendent à 0,50 $ le verre. S'ils ont réalisé un bénéfice de 25 $, combien ont-ils dépensé pour les citrons ?",
+  "original_answer": 15,
+  "symbolic_template": "{name_male_1, Juan} et son frère {name_male_2, Carlos} vendent de la limonade. Pour chaque gallon ils dépensent {num_digit_1, 3} $ en citrons et {num_digit_2, 2} $ en sucre. Ils obtiennent {num_digit_4, 20} verres de limonade et les vendent à {num_digit_3, 0.50} $ le verre. S'ils ont réalisé un bénéfice de {num_digit_5, 25} $, combien ont-ils dépensé pour les citrons ?",
+  "ic_sentence_template": "{name_male_2, Carlos} a une tante qui a apporté {num_ic, 44} cookies à partager.",
+  "ic_template": "{name_male_2, Carlos} a une tante qui a apporté {num_ic, 44} cookies à partager. {name_male_1, Juan} et son frère {name_male_2, Carlos} vendent de la limonade. Pour chaque gallon ils dépensent {num_digit_1, 3} $ en citrons et {num_digit_2, 2} $ en sucre. Ils obtiennent {num_digit_4, 20} verres de limonade et les vendent à {num_digit_3, 0.50} $ le verre. S'ils ont réalisé un bénéfice de {num_digit_5, 25} $, combien ont-ils dépensé pour les citrons ?",
+  "equation": "UPDATE HERE"
+}

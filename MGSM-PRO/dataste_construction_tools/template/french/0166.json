@@ -1,0 +1,8 @@
+{
+  "original_question": "La voisine de Sandra lui remet un panier de 9 œufs chaque fois qu'elle garde sa fille. Pour faire un flan espagnol, Sandra a besoin de 3 œufs. Si elle a été chargée de faire 15 gâteaux à la crème pour la collecte de fonds de son école, combien de fois doit-elle garder l'enfant ?",
+  "original_answer": 5,
+  "symbolic_template": "La voisine de {name_female, Sandra} lui remet un panier de {num_digit_1, 9} œufs chaque fois qu'elle garde sa fille. Pour faire un flan espagnol, {name_female, Sandra} a besoin de {num_digit_2, 3} œufs. Si {name_female, Sandra} a été chargée de faire {num_digit_3, 15} gâteaux à la crème pour la collecte de fonds de son école, combien de fois doit-elle garder l'enfant ?",
+  "ic_sentence_template": "{name_female, Sandra} a un jour reçu {num_ic, 33} mangues que son oncle a rapportées de sa ferme.",
+  "ic_template": "{name_female, Sandra} a un jour reçu {num_ic, 33} mangues que son oncle a rapportées de sa ferme. La voisine de {name_female, Sandra} lui remet un panier de {num_digit_1, 9} œufs chaque fois qu'elle garde sa fille. Pour faire un flan espagnol, {name_female, Sandra} a besoin de {num_digit_2, 3} œufs. Si {name_female, Sandra} a été chargée de faire {num_digit_3, 15} gâteaux à la crème pour la collecte de fonds de son école, combien de fois doit-elle garder l'enfant ?",
+  "equation": "UPDATE HERE"
+}

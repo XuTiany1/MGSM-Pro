@@ -1,0 +1,8 @@
+{
+  "original_question": "ベイリーは最初、ある程度のお金があります。それから彼女は8週間、$5の手当てを毎週受け取ります。8週間の終わりには、彼女が全部で$100持っていたとしたら、ベイリーは最初、いくら持っていましたか？",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, ベイリー}は最初、ある程度のお金があります。それから彼女は{num_digit_2, 8}週間、${num_digit_1, 5}の手当てを毎週受け取ります。{num_digit_2, 8}週間の終わりには、彼女が全部で${num_digit_3, 100}持っていたとしたら、{name_male, ベイリー}は最初、いくら持っていましたか？",
+  "ic_sentence_template": "{name_male, ベイリー}のおばはかつて{num_ic, 56}枚の珍しいコインを集めていました。",
+  "ic_template": "{name_male, ベイリー}のおばはかつて{num_ic, 56}枚の珍しいコインを集めていました。\n{name_male, ベイリー}は最初、ある程度のお金があります。それから彼女は{num_digit_2, 8}週間、${num_digit_1, 5}の手当てを毎週受け取ります。{num_digit_2, 8}週間の終わりには、彼女が全部で${num_digit_3, 100}持っていたとしたら、{name_male, ベイリー}は最初、いくら持っていましたか？",
+  "equation": "UPDATE HERE"
+}

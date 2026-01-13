@@ -1,0 +1,8 @@
+{
+  "original_question": "パンチョは1日に20マイル歩きます。彼は週末のみ、10マイル歩きます。彼は週に何マイル歩きますか？",
+  "original_answer": 120,
+  "symbolic_template": "{name_male, パンチョ}は1日に{num_digit_1, 20}マイル歩きます。彼は週末のみ、{num_digit_2, 10}マイル歩きます。彼は週に何マイル歩きますか？",
+  "ic_sentence_template": "{name_male, パンチョ}のおじさんは{num_ic, 302}個の帽子を持っています。",
+  "ic_template": "{name_male, パンチョ}のおじさんは{num_ic, 302}個の帽子を持っています。{name_male, パンチョ}は1日に{num_digit_1, 20}マイル歩きます。彼は週末のみ、{num_digit_2, 10}マイル歩きます。彼は週に何マイル歩きますか？",
+  "equation": "UPDATE HERE"
+}

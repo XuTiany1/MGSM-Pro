@@ -1,0 +1,8 @@
+{
+  "original_question": "Doubtfire nuammaa no kuta ɔkramma 7 a ɔfa firii beaeԑ a ɔhwԑ mmoa so no ԑreka wɔn hyԑn no akɔ fie na wɔn maame ferԑ bɔɔ wɔn ammaneԑ sԑ wɔn nkra mmienu a wɔwɔ wɔ fie no awɔ ɔkramma. Ͻse Patchy, ɔkra a ɔdi kan no woo nkra mmoho mmiԑnsa kyԑn ɔkramma a wɔfaaԑ no, na Trixie, ɔkra baako no nyaa 12. Nkra sԑn na Doubtfire abusua no wɔ siisie?",
+  "original_answer": 40,
+  "symbolic_template": "{name_family, Doubtfire} nuammaa no kuta ɔkramma {num_digit_1, 7} a ɔfa firii beaeԑ a ɔhwԑ mmoa so no ԑreka wɔn hyԑn no akɔ fie na wɔn maame ferԑ bɔɔ wɔn ammaneԑ sԑ wɔn nkra mmienu a wɔwɔ wɔ fie no awɔ ɔkramma. Ͻse {name_cat_1, Patchy}, ɔkra a ɔdi kan no woo nkra mmoho mmiɛnsa kyԑn ɔkramma a wɔfaaԑ no, na {name_cat_2, Trixie}, ɔkra baako no nyaa {num_digit_2, 12}. Nkra sԑn na {name_family, Doubtfire} abusua no wɔ siisie?",
+  "ic_sentence_template": "{name_family, Doubtfire} wɔfase akɔtena akyirikyiri bɛyɛ kwansini {num_ic, 41}.",
+  "ic_template": "{name_family, Doubtfire} wɔfase akɔtena akyirikyiri bɛyɛ kwansini {num_ic, 41}. {name_family, Doubtfire} nuammaa no kuta ɔkramma {num_digit_1, 7} a ɔfa firii beaeԑ a ɔhwԑ mmoa so no ԑreka wɔn hyԑn no akɔ fie na wɔn maame ferԑ bɔɔ wɔn ammaneԑ sԑ wɔn nkra mmienu a wɔwɔ wɔ fie no awɔ ɔkramma. Ͻse {name_cat_1, Patchy}, ɔkra a ɔdi kan no woo nkra mmoho mmiɛnsa kyԑn ɔkramma a wɔfaaԑ no, na {name_cat_2, Trixie}, ɔkra baako no nyaa {num_digit_2, 12}. Nkra sԑn na {name_family, Doubtfire} abusua no wɔ siisie?",
+  "equation": "UPDATE HERE"
+}

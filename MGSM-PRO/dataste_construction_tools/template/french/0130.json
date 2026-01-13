@@ -1,0 +1,8 @@
+{
+  "original_question": "Nissa embauche 60 saisonniers pour jouer les lutins dans le village du Père Noël de son grand magasin. Un tiers des lutins démissionnent après que des enfants leur ont vomi dessus, puis 10 des lutins restants démissionnent après que des enfants leur ont donné des coups de pied dans le tibia. Combien de lutins reste-t-il ?",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, Nissa} embauche {num_digit_1, 60} saisonniers pour jouer les lutins dans le village du Père Noël de son grand magasin. Un tiers des lutins démissionnent après que des enfants leur ont vomi dessus, puis {num_digit_2, 10} des lutins restants démissionnent après que des enfants leur ont donné des coups de pied dans le tibia. Combien de lutins reste-t-il ?",
+  "ic_sentence_template": "L'oncle de {name_female, Nissa} livre {num_ic, 87} sapins de Noël au magasin chaque année.",
+  "ic_template": "L'oncle de {name_female, Nissa} livre {num_ic, 87} sapins de Noël au magasin chaque année. {name_female, Nissa} embauche {num_digit_1, 60} saisonniers pour jouer les lutins dans le village du Père Noël de son grand magasin. Un tiers des lutins démissionnent après que des enfants leur ont vomi dessus, puis {num_digit_2, 10} des lutins restants démissionnent après que des enfants leur ont donné des coups de pied dans le tibia. Combien de lutins reste-t-il ?",
+  "equation": "UPDATE HERE"
+}

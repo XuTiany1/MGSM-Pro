@@ -1,0 +1,8 @@
+{
+  "original_question": "Jimmy has $2 more than twice the money Ethel has. If Ethal has $8, how much money is Jimmy having?",
+  "original_answer": 18,
+  "symbolic_template": "{name_male_1, Jimmy} has ${num_digit_1, 2} more than twice the money {name_male_2, Ethel} has. If {name_male_2, Ethel} has ${num_digit_2, 8}, how much money is {name_male_1, Jimmy} having?",
+  "ic_sentence_template": "{name_male_2, Ethel}'s uncle found {num_ic, 33} old coins in his attic.",
+  "ic_template": "{name_male_1, Jimmy} has ${num_digit_1, 2} more than twice the money {name_male_2, Ethel} has. If {name_male_2, Ethel} has ${num_digit_2, 8}, {name_male_2, Ethel}'s uncle found {num_ic, 33} old coins in his attic. How much money is {name_male_1, Jimmy} having?",
+  "equation": "UPDATE HERE"
+}

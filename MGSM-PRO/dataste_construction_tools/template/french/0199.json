@@ -1,0 +1,8 @@
+{
+  "original_question": "Marc est un réviseur. Il révise le même nombre de phrases chaque semaine pour deux éditeurs différents, qui le paient chacun à un taux différent. L'éditeur B paie Marc deux fois plus que l'éditeur A. Marc édite un total de 1 000 phrases par semaine, tandis que l'éditeur A lui verse 5 cents par phrase. Combien Marc gagne-t-il en une semaine, en centimes ?",
+  "original_answer": 7500,
+  "symbolic_template": "{name_male, Marc} est un réviseur. Il révise le même nombre de phrases chaque semaine pour deux éditeurs différents, qui le paient chacun à un taux différent. L'éditeur B paie {name_male, Marc} deux fois plus que l'éditeur A. {name_male, Marc} édite un total de {num_digit_1, 1 000} phrases par semaine, tandis que l'éditeur A lui verse {num_digit_2, 5} cents par phrase. Combien {name_male, Marc} gagne-t-il en une semaine, en centimes ?",
+  "ic_sentence_template": "{name_male, Mark} a un oncle qui a récemment lu {num_ic, 3071} romans policiers.",
+  "ic_template": "{name_male, Mark} a un oncle qui a récemment lu {num_ic, 3071} romans policiers. {name_male, Marc} est un réviseur. Il révise le même nombre de phrases chaque semaine pour deux éditeurs différents, qui le paient chacun à un taux différent. L'éditeur B paie {name_male, Marc} deux fois plus que l'éditeur A. {name_male, Marc} édite un total de {num_digit_1, 1 000} phrases par semaine, tandis que l'éditeur A lui verse {num_digit_2, 5} cents par phrase. Combien {name_male, Marc} gagne-t-il en une semaine, en centimes ?",
+  "equation": "UPDATE HERE"
+}

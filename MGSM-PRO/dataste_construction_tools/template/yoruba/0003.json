@@ -1,0 +1,8 @@
+{
+  "original_question": "James pinnu láti sá eré ọ̀gbọrangandan 3 ní ìgbà 3 lọ́sẹ̀. Ó sá mítà 60 ní ọ̀gbọrangandan kọ̀ọ̀kan. Iye àpapọ̀ mítà mélòó ni ó máa ń sá lọ́sẹ̀?",
+  "original_answer": 540,
+  "symbolic_template": "{name_male, James} pinnu láti sá eré ọ̀gbọrangandan {num_digit_1, 3} ní ìgbà {num_digit_2, 3} lọ́sẹ̀. Ó sá mítà {num_digit_3, 60} ní ọ̀gbọrangandan kọ̀ọ̀kan. Iye àpapọ̀ mítà mélòó ni ó máa ń sá lọ́sẹ̀?",
+  "ic_sentence_template": "Ọ̀gà {name_male, James} ní {num_ic, 212} pọ́ọ̀ méjì àtàwọ́n bàtà irin.",
+  "ic_template": "Ọ̀gà {name_male, James} ní {num_ic, 212} pọ́ọ̀ méjì àtàwọ́n bàtà irin. {name_male, James} pinnu láti sá eré ọ̀gbọrangandan {num_digit_1, 3} ní ìgbà {num_digit_2, 3} lọ́sẹ̀. Ó sá mítà {num_digit_3, 60} ní ọ̀gbọrangandan kọ̀ọ̀kan. Iye àpapọ̀ mítà mélòó ni ó máa ń sá lọ́sẹ̀?",
+  "equation": "UPDATE HERE"
+}

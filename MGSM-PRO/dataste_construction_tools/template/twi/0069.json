@@ -1,0 +1,8 @@
+{
+  "original_question": "Bailey de sika dodoɔ bi na ԑhyԑ ase. Na nnawɔtwe biara no wɔtua no $5 saa nnawɔtwe awɔtwe. Nnawɔtwe awɔtwe akyi no, ne sika nyinaa yԑ $100, sika sԑn na Bailey de hyԑԑ ase?",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Bailey} de sika dodoɔ bi na ԑhyԑ ase. Na nnawɔtwe biara no wɔtua no ${num_digit_1, 5} saa nnawɔtwe {num_digit_2, 8}. Nnawɔtwe {num_digit_2, 8} akyi no, ne sika nyinaa yԑ ${num_digit_3, 100}, sika sԑn na {name_male, Bailey} de hyԑԑ ase?",
+  "ic_sentence_template": "{name_male, Bailey} sewaa boaboa sika a wɔntaa nhu {num_ic, 56} da koro bi.",
+  "ic_template": "{name_male, Bailey} de sika dodoɔ bi na ԑhyԑ ase. Na nnawɔtwe biara no wɔtua no ${num_digit_1, 5} saa nnawɔtwe {num_digit_2, 8}. Nnawɔtwe {num_digit_2, 8} akyi no, ne sika nyinaa yԑ ${num_digit_3, 100}, sika sԑn na {name_male, Bailey} de hyԑԑ ase? {name_male, Bailey} sewaa boaboa sika a wɔntaa nhu {num_ic, 56} da koro bi.",
+  "equation": "UPDATE HERE"
+}

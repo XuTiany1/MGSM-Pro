@@ -1,0 +1,8 @@
+{
+  "original_question": "Katy prépare du café en utilisant des cuillères à café de sucre et des tasses d'eau dans un ratio de 7 : 13. Calculez le nombre de cuillères à café qu'elle a versées, sachant qu'elle a utilisé un total de 120 cuillères à café de sucre et de tasses d'eau.",
+  "original_answer": 42,
+  "symbolic_template": "{name_female, Katy} prépare du café en utilisant des cuillères à café de sucre et des tasses d'eau dans un ratio de {num_digit_1, 7} : {num_digit_2, 13}. Calculez le nombre de cuillères à café qu'elle a versées, sachant qu'elle a utilisé un total de {num_digit_3, 120} cuillères à café de sucre et de tasses d'eau.",
+  "ic_sentence_template": "{name_female, Katy} a un oncle qui boit {num_ic, 47} tasses de café chaque mois.",
+  "ic_template": "{name_female, Katy} a un oncle qui boit {num_ic, 47} tasses de café chaque mois. {name_female, Katy} prépare du café en utilisant des cuillères à café de sucre et des tasses d'eau dans un ratio de {num_digit_1, 7} : {num_digit_2, 13}. Calculez le nombre de cuillères à café qu'elle a versées, sachant qu'elle a utilisé un total de {num_digit_3, 120} cuillères à café de sucre et de tasses d'eau.",
+  "equation": "UPDATE HERE"
+}

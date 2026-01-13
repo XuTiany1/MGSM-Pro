@@ -1,0 +1,8 @@
+{
+  "original_question": "A hospital sees 500 people a day. Each patient is seen for an average of 24 minutes. The doctors charge $150 an hour to the hospital and the hospital charges the patients $200 an hour. How much profit does the hospital make from these visits?",
+  "original_answer": 10000,
+  "symbolic_template": "A hospital sees {num_digit_1, 500} people a day. Each patient is seen for an average of {num_digit_2, 24} minutes. The doctors charge ${num_digit_3, 150} an hour to the hospital and the hospital charges the patients ${num_digit_4, 200} an hour. How much profit does the hospital make from these visits?",
+  "ic_sentence_template": "The hospital director's cousin brought {num_ic, 64} magazines for the waiting area.",
+  "ic_template": "A hospital sees {num_digit_1, 500} people a day. Each patient is seen for an average of {num_digit_2, 24} minutes. The doctors charge ${num_digit_3, 150} an hour to the hospital and the hospital charges the patients ${num_digit_4, 200} an hour. The hospital director's cousin brought {num_ic, 64} magazines for the waiting area. How much profit does the hospital make from these visits?",
+  "equation": "UPDATE HERE"
+}

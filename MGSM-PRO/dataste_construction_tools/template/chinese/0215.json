@@ -1,0 +1,8 @@
+{
+  "original_question": "洛莉想买一双 320.00 美元的鞋子和一条 32.00 美元的配套皮带。她的兼职工作每小时挣 8.00 美元。她需要工作多少小时才能购买？",
+  "original_answer": 44,
+  "symbolic_template": "{name_female, 洛莉} 想买一双 {num_digit_1, 320.00} 美元的鞋子和一条 {num_digit_2, 32.00} 美元的配套皮带。她的兼职工作每小时挣 {num_digit_3, 8.00} 美元。她需要工作多少小时才能购买？",
+  "ic_sentence_template": "{name_female, 洛丽} 的叔叔在阁楼里发现了 {num_ic, 47} 张老电影海报。",
+  "ic_template": "{name_female, 洛丽} 的叔叔在阁楼里发现了 {num_ic, 47} 张老电影海报。{name_female, 洛莉} 想买一双 {num_digit_1, 320.00} 美元的鞋子和一条 {num_digit_2, 32.00} 美元的配套皮带。她的兼职工作每小时挣 {num_digit_3, 8.00} 美元。她需要工作多少小时才能购买？",
+  "equation": "UPDATE HERE"
+}

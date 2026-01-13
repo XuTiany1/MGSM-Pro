@@ -1,0 +1,8 @@
+{
+  "original_question": "约翰照顾 10 条狗。每条狗每天的事务处理和遛狗所需的时间是 0.5 小时。他每周要花多少时间来照顾这些狗？",
+  "original_answer": 35,
+  "symbolic_template": "{name_male, 约翰} 照顾 {num_digit_1, 10} 条狗。每条狗每天的事务处理和遛狗所需的时间是 0.5 小时。他每周要花多少时间来照顾这些狗？",
+  "ic_sentence_template": "{name_male, 约翰} 的侄女有 {num_ic, 19} 只兔子。",
+  "ic_template": "{name_male, 约翰} 的侄女有 {num_ic, 19} 只兔子。{name_male, 约翰} 照顾 {num_digit_1, 10} 条狗。每条狗每天的事务处理和遛狗所需的时间是 0.5 小时。他每周要花多少时间来照顾这些狗？",
+  "equation": "UPDATE HERE"
+}

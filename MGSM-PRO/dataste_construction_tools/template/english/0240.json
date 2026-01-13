@@ -1,0 +1,8 @@
+{
+  "original_question": "James has 6 more candies than Robert. John has twice as many candies as Robert. If John has 54 candies, how many more candies does John have than James?",
+  "original_answer": 21,
+  "symbolic_template": "{name_male_1, James} has {num_digit_1, 6} more candies than {name_male_2, Robert}. {name_male_3, John} has twice as many candies as {name_male_2, Robert}. If {name_male_3, John} has {num_digit_2, 54} candies, how many more candies does {name_male_3, John} have than {name_male_1, James}?",
+  "ic_sentence_template": "{name_male_2, Robert}'s aunt recently gave him {num_ic, 422} marbles.",
+  "ic_template": "{name_male_1, James} has {num_digit_1, 6} more candies than {name_male_2, Robert}. {name_male_3, John} has twice as many candies as {name_male_2, Robert}. If {name_male_3, John} has {num_digit_2, 54} candies, {name_male_2, Robert}'s aunt recently gave him {num_ic, 422} marbles. How many more candies does {name_male_3, John} have than {name_male_1, James}?",
+  "equation": "UPDATE HERE"
+}

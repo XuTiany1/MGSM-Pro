@@ -1,0 +1,8 @@
+{
+  "original_question": "Gretchen ana sarafu 110. Kuna sarafu 30 za dhahabu zaidi ya sarafu za fedha. Gretchen ana sarafu ngapi za dhahabu?",
+  "original_answer": 70,
+  "symbolic_template": "{name_female, Gretchen} ana sarafu {num_digit_1, 110}. Kuna sarafu {num_digit_2, 30} za dhahabu zaidi kuliko sarafu za fedha. {name_female, Gretchen} ana sarafu ngapi za dhahabu?",
+  "ic_sentence_template": "Mjomba wa {name_female, Gretchen} anakusanya stempu adimu {num_ic, 970}.",
+  "ic_template": "Mjomba wa {name_female, Gretchen} anakusanya stempu adimu {num_ic, 970}. {name_female, Gretchen} ana sarafu {num_digit_1, 110}. Kuna sarafu {num_digit_2, 30} za dhahabu zaidi kuliko sarafu za fedha. {name_female, Gretchen} ana sarafu ngapi za dhahabu?",
+  "equation": "UPDATE HERE"
+}

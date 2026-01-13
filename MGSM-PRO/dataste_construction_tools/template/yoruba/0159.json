@@ -1,0 +1,8 @@
+{
+  "original_question": "Finn ń wo àwọn ọmọ ọ̀pọ̀lọ́ 11 tí ó ń lúwẹ̀ẹ́ nínú adágún omi.  Lójijì ó rí mẹ́fà nínú wọn tí wọ́n jáde láti ibi tí wọ́n sá pamọ́ sí lábẹ́ páàdì lily, lẹ́yìn náà ó rí méjì nínú wọn tí wọ́n fi ara pamọ́ lábẹ́ àpáta.  Ọmọ ọ̀pọ̀lọ́ mélòó ni Finn lè rí nínú adágún omi náà?",
+  "original_answer": 15,
+  "symbolic_template": "{name_male, Finn} ń wo àwọn ọmọ ọ̀pọ̀lọ́ {num_digit_1, 11} tí ó ń lúwẹ̀ẹ́ nínú adágún omi. Lójijì ó rí {num_digit_2, 6} nínú wọn tí wọ́n jáde láti ibi tí wọ́n sá pamọ́ sí lábẹ́ páàdì lily, lẹ́yìn náà ó rí {num_digit_3, 2} nínú wọn tí wọ́n fi ara pamọ́ lábẹ́ àpáta. Ọmọ ọ̀pọ̀lọ́ mélòó ni {name_male, Finn} lè rí nínú adágún omi náà?",
+  "ic_sentence_template": "Ìyàwó bàbá {name_male, Finn} rí àwọ̀n àdẹ̀kọ̀ {num_ic, 87} ní àdágún míì ní òwúrọ̀ yìí.",
+  "ic_template": "Ìyàwó bàbá {name_male, Finn} rí àwọ̀n àdẹ̀kọ̀ {num_ic, 87} ní àdágún míì ní òwúrọ̀ yìí. {name_male, Finn} ń wo àwọn ọmọ ọ̀pọ̀lọ́ {num_digit_1, 11} tí ó ń lúwẹ̀ẹ́ nínú adágún omi. Lójijì ó rí {num_digit_2, 6} nínú wọn tí wọ́n jáde láti ibi tí wọ́n sá pamọ́ sí lábẹ́ páàdì lily, lẹ́yìn náà ó rí {num_digit_3, 2} nínú wọn tí wọ́n fi ara pamọ́ lábẹ́ àpáta. Ọmọ ọ̀pọ̀lọ́ mélòó ni {name_male, Finn} lè rí nínú adágún omi náà?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "珍妮特为她的女儿买了一根胸针。她付了 500 美元的胸针材料费，再付 800 美元的制作费给珠宝师。之后，她付了总额的 10% 为胸针投保。她一共付了多少钱？",
+  "original_answer": 1430,
+  "symbolic_template": "{name_female, 珍妮特} 为她的女儿买了一根胸针。她付了 {num_digit_1, 500} 美元的胸针材料费，再付 {num_digit_2, 800} 美元的制作费给珠宝师。之后，她付了总额的 {num_digit_3, 10}% 为胸针投保。她一共付了多少钱？",
+  "ic_sentence_template": "{name_female, 珍妮特}的叔叔在阁楼里发现了 {num_ic, 35} 枚稀有的硬币。",
+  "ic_template": "{name_female, 珍妮特}的叔叔在阁楼里发现了 {num_ic, 35} 枚稀有的硬币。{name_female, 珍妮特} 为她的女儿买了一根胸针。她付了 {num_digit_1, 500} 美元的胸针材料费，再付 {num_digit_2, 800} 美元的制作费给珠宝师。之后，她付了总额的 {num_digit_3, 10}% 为胸针投保。她一共付了多少钱？",
+  "equation": "UPDATE HERE"
+}

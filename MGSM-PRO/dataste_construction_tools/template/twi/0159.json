@@ -1,0 +1,8 @@
+{
+  "original_question": "Finn hwɛ sɛ konkontiba dubaako dware wɔ ɔtare no mu. Prɛko pɛ ohu wɔn mu nsia sɛ wɔresɔre afi baabi a ɔtetɛ wɔn ho wɔ nhwiren no ase, na afei ohu wɔn mu mmiensu sɛ wɔretetɛ wɔn ho wɔ ɔbotan bi ase. Konkontiba dodoɔ ahe na Finn tumi hu wɔ ɔtare no mu seesei?",
+  "original_answer": 15,
+  "symbolic_template": "{name_male, Finn} hwɛ sɛ konkontiba {num_digit_1, dubaako} dware wɔ ɔtare no mu. Prɛko pɛ ohu wɔn mu {num_digit_2, nsia} sɛ wɔresɔre afi baabi a ɔtetɛ wɔn ho wɔ nhwiren no ase, na afei ohu wɔn mu {num_digit_3, mmiensu} sɛ wɔretetɛ wɔn ho wɔ ɔbotan bi ase. Konkontiba dodoɔ ahe na {name_male, Finn} tumi hu wɔ ɔtare no mu seesei?",
+  "ic_sentence_template": "{name_male, Finn} wɔfa huu apɔtrɔ {num_ic, 87} wɔ ɔtare foforo bi anɔpa yi.",
+  "ic_template": "{name_male, Finn} wɔfa huu apɔtrɔ {num_ic, 87} wɔ ɔtare foforo bi anɔpa yi. {name_male, Finn} hwɛ sɛ konkontiba {num_digit_1, dubaako} dware wɔ ɔtare no mu. Prɛko pɛ ohu wɔn mu {num_digit_2, nsia} sɛ wɔresɔre afi baabi a ɔtetɛ wɔn ho wɔ nhwiren no ase, na afei ohu wɔn mu {num_digit_3, mmiensu} sɛ wɔretetɛ wɔn ho wɔ ɔbotan bi ase. Konkontiba dodoɔ ahe na {name_male, Finn} tumi hu wɔ ɔtare no mu seesei?",
+  "equation": "UPDATE HERE"
+}

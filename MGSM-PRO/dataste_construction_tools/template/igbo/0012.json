@@ -1,0 +1,8 @@
+{
+  "original_question": "Carlos na-akụ osisi oroma nkirisi. Osisi ahụ ga-efu ego dị $90 ịkụ. Kwa áfọ̀ ọ ga-eto oroma nkirisi asaa, nke o nwere ị́ké ire otu $1.5. Ọ na-efu $3 kwa áfọ̀ ịgba ya mmiri na ị nye osisi nri. Áfọ̀ ole ka ọ ga-ewe tupu o bido nwetawa ego n'osisi oroma nkirisi ahụ? ",
+  "original_answer": 13,
+  "symbolic_template": "{name_male, Carlos} na-akụ osisi oroma nkirisi. Osisi ahụ ga-efu ego dị ${num_digit_1, 90} ịkụ. Kwa áfọ̀ ọ ga-eto oroma nkirisi {num_digit_2, 7}, nke o nwere ị́ké ire otu ${num_digit_3, 1.5}. Ọ na-efu ${num_digit_4, 3} kwa áfọ̀ ịgba ya mmiri na ị nye osisi nri. Áfọ̀ ole ka ọ ga-ewe tupu o bido nwetawa ego n'osisi oroma nkirisi ahụ?",
+  "ic_sentence_template": "Nwanne nna {name_male, Carlos} bịara na mkpụrụ oroma {num_ic, 136} na mmemme ezinụlọ gara aga.",
+  "ic_template": "Nwanne nna {name_male, Carlos} bịara na mkpụrụ oroma {num_ic, 136} na mmemme ezinụlọ gara aga. {name_male, Carlos} na-akụ osisi oroma nkirisi. Osisi ahụ ga-efu ego dị ${num_digit_1, 90} ịkụ. Kwa áfọ̀ ọ ga-eto oroma nkirisi {num_digit_2, 7}, nke o nwere ị́ké ire otu ${num_digit_3, 1.5}. Ọ na-efu ${num_digit_4, 3} kwa áfọ̀ ịgba ya mmiri na ị nye osisi nri. Áfọ̀ ole ka ọ ga-ewe tupu o bido nwetawa ego n'osisi oroma nkirisi ahụ?",
+  "equation": "UPDATE HERE"
+}

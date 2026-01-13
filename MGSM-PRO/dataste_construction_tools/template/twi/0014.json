@@ -1,0 +1,8 @@
+{
+  "original_question": "Wɔ asa adesuakuo a ԑwɔ adesuafoɔ 20 no, emu ɔha nkyԑmu aduonu na ԑtwerԑԑ wɔn din wɔ nnԑԑmafoɔ asa mu, deԑ aka no mu ɔha aduonunum twerԑԑ wɔn din wɔ Jazz asa mu, na wɔn a aka no twerԑԑ wɔn din wɔ hip-hop asa mu. Ͻha mu nkyԑmu sԑn na wɔtwerԑԑ wɔn din wɔ hip-hop asa no mu?",
+  "original_answer": 60,
+  "symbolic_template": "Wɔ asa adesuakuo a ԑwɔ adesuafoɔ {num_digit_1, 20} no, emu {num_digit_2, 20}% ԑtwerԑԑ wɔn din wɔ nnԑԑmafoɔ asa mu, deԑ aka no mu {num_digit_3, 25}% twerԑԑ wɔn din wɔ Jazz asa mu, na wɔn a aka no twerԑԑ wɔn din wɔ hip-hop asa mu. Ͻha mu nkyԑmu sԑn na wɔtwerԑԑ wɔn din wɔ hip-hop asa no mu?",
+  "ic_sentence_template": "Ɔkyerɛkyerɛni no wɔfase baa de kaaki nketewaa {num_ic, 7} brɛɛ akuw no.",
+  "ic_template": "Ɔkyerɛkyerɛni no wɔfase baa de kaaki nketewaa {num_ic, 7} brɛɛ akuw no. Wɔ asa adesuakuo a ԑwɔ adesuafoɔ {num_digit_1, 20} no, emu {num_digit_2, 20}% ԑtwerԑԑ wɔn din wɔ nnԑԑmafoɔ asa mu, deԑ aka no mu {num_digit_3, 25}% twerԑԑ wɔn din wɔ Jazz asa mu, na wɔn a aka no twerԑԑ wɔn din wɔ hip-hop asa mu. Ͻha mu nkyԑmu sԑn na wɔtwerԑԑ wɔn din wɔ hip-hop asa no mu?",
+  "equation": "UPDATE HERE"
+}

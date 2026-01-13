@@ -1,0 +1,8 @@
+{
+  "original_question": "E nwere ịnyịnya puru iche iri abụọ na asaa fọrọ n'ịme ụwa. Otu n'ịme atọ n'ịme ha nọ n'ịme Scottish Highlands. Abụọ n'ịme atọ ịnyịnya puru iche Scott bụ nwaanyị. Kedụ ịnyịnya puru iche nwaanyịScott ole nọ ebe ahụ? ",
+  "original_answer": 6,
+  "symbolic_template": "E nwere ịnyịnya puru iche {num_digit_1, 27} fọrọ n'ịme ụwa. Otu n'ịme atọ n'ịme ha nọ n'ịme Scottish Highlands. Abụọ n'ịme atọ ịnyịnya puru iche Scott bụ nwaanyị. Kedụ ịnyịnya puru iche nwaanyịScott ole nọ ebe ahụ?",
+  "ic_sentence_template": "A chọpụtara dragọn {num_ic, 38} ọhụrụ site n'aka onye ọrụ ugbo obodo.",
+  "ic_template": "A chọpụtara dragọn {num_ic, 38} ọhụrụ site n'aka onye ọrụ ugbo obodo. E nwere ịnyịnya puru iche {num_digit_1, 27} fọrọ n'ịme ụwa. Otu n'ịme atọ n'ịme ha nọ n'ịme Scottish Highlands. Abụọ n'ịme atọ ịnyịnya puru iche Scott bụ nwaanyị. Kedụ ịnyịnya puru iche nwaanyịScott ole nọ ebe ahụ?",
+  "equation": "UPDATE HERE"
+}

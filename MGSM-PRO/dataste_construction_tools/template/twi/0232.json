@@ -1,0 +1,8 @@
+{
+  "original_question": "Dax kɔɔ wɔn afuo mu sɛ ɔrekɔti aprɛ, na ohui sɛ nkaboa pii wɔ afikyifuo no mu sen ntɛtea no fa. Sɛ ntɛtea aduonum na wɔwɔ afikyifuo no mu a, susu akoekoeboa a wɔwɔ mu no nyinaa dodoɔ ho hwɛ.",
+  "original_answer": 75,
+  "symbolic_template": "{name_male, Dax} kɔɔ wɔn afuo mu sɛ ɔrekɔti aprɛ, na ohui sɛ nkaboa pii wɔ afikyifuo no mu sen ntɛtea no half. Sɛ ntɛtea {num_digit, 50} na wɔwɔ afikyifuo no mu a, susu akoekoeboa a wɔwɔ mu no nyinaa dodoɔ ho hwɛ.",
+  "ic_sentence_template": "{name_male, Dax} wɔfa huu adanko {num_ic, 372} a wɔretu mmirika atwa agoprama no so.",
+  "ic_template": "{name_male, Dax} wɔfa huu adanko {num_ic, 372} a wɔretu mmirika atwa agoprama no so. {name_male, Dax} kɔɔ wɔn afuo mu sɛ ɔrekɔti aprɛ, na ohui sɛ nkaboa pii wɔ afikyifuo no mu sen ntɛtea no half. Sɛ ntɛtea {num_digit, 50} na wɔwɔ afikyifuo no mu a, susu akoekoeboa a wɔwɔ mu no nyinaa dodoɔ ho hwɛ.",
+  "equation": "UPDATE HERE"
+}

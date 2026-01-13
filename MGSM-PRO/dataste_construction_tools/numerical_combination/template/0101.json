@@ -1,0 +1,36 @@
+{
+    "problem_id": "0101",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_5", "num_digit_6", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [5, 15]},
+        "num_digit_2": {"type": "int", "range": [10, 30]},
+        "num_digit_3": {"type": "int", "range": [5, 15]},
+        "num_digit_4": {"type": "int", "range": [5, 15]},
+        "num_digit_5": {"type": "int", "range": [10, 25]},
+        "num_digit_6": {"type": "int", "range": [2, 6]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_4": [
+            "total_assigned = num_digit_1 + num_digit_2 + num_digit_3 + num_digit_4"
+        ],
+        "num_digit_5": [
+            "pages_left = total_assigned - num_digit_5"
+        ],
+        "num_digit_6": [
+            "ans = pages_left / num_digit_6"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_5": [
+            "total_assigned > num_digit_5"
+        ],
+        "num_digit_6": [
+            "pages_left % num_digit_6 == 0",
+            "ans > 0"
+        ]
+    }
+}

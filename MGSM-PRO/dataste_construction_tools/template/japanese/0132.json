@@ -1,0 +1,8 @@
+{
+  "original_question": "パムとフレッドはカーニバルに行った。パムはジェットコースターに2回乗り、フレッドは4回乗った。その後、それぞれリュージュに2回乗った。それぞれ乗るために6チケット使うなら、彼らはその日何枚のチケットを使った？",
+  "original_answer": 60,
+  "symbolic_template": "{name_female, パム} と {name_male, フレッド} はカーニバルに行った。{name_female, パム} はジェットコースターに{num_digit_1, 2}回乗り、{name_male, フレッド} は{num_digit_2, 4}回乗った。その後、それぞれリュージュに{num_digit_3, 2}回乗った。それぞれ乗るために{num_digit_4, 6}チケット使うなら、彼らはその日何枚のチケットを使った？",
+  "ic_sentence_template": "{name_male, フレッド}のおじさんはカーニバルに{num_ic, 42}個の風船を持ってきました。",
+  "ic_template": "{name_male, フレッド}のおじさんはカーニバルに{num_ic, 42}個の風船を持ってきました。{name_female, パム} と {name_male, フレッド} はカーニバルに行った。{name_female, パム} はジェットコースターに{num_digit_1, 2}回乗り、{name_male, フレッド} は{num_digit_2, 4}回乗った。その後、それぞれリュージュに{num_digit_3, 2}回乗った。それぞれ乗るために{num_digit_4, 6}チケット使うなら、彼らはその日何枚のチケットを使った？",
+  "equation": "UPDATE HERE"
+}

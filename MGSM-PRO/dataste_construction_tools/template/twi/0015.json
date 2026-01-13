@@ -1,0 +1,8 @@
+{
+  "original_question": "Ͻdetɔnni bi pԑ sԑ ɔfa adwene wɔ adetɔ nhyehyԑeԑ mmienu ho: agudeԑ a ne boɔ yԑ $5,000 na anyinam mfidie a ne boɔ yԑ $8,000. Ne sikasԑm ho fotufoɔ susu ho sԑ agudeԑ dwa no bԑkɔ soro 2.5% na anyinam mfidie dwa no bԑkɔ soro 1.2% wɔ bosome koro no ara mu. Sԑ ɔdetɔnni no pԑ sԑ ɔfa adwene bi a ɔbԑnya mfasoɔ kԑseԑ wɔ bosome n’awieԑ no mu a, mfasoɔ sԑn na yei bԑ yԑ?",
+  "original_answer": 125,
+  "symbolic_template": "Ͻdetɔnni bi pԑ sԑ ɔfa adwene wɔ adetɔ nhyehyԑeԑ {num_digit_1, 2} ho: agudeԑ a ne boɔ yԑ ${num_digit_2, 5,000} na anyinam mfidie a ne boɔ yԑ ${num_digit_3, 8,000}. Ne sikasԑm ho fotufoɔ susu ho sԑ agudeԑ dwa no bԑkɔ soro {num_digit_4, 2.5}% na anyinam mfidie dwa no bԑkɔ soro {num_digit_5, 1.2}% wɔ bosome koro no ara mu. Sԑ ɔdetɔnni no pԑ sԑ ɔfa adwene bi a ɔbԑnya mfasoɔ kԑseԑ wɔ bosome n’awieԑ no mu a, mfasoɔ sԑn na yei bԑ yԑ?",
+  "ic_sentence_template": "Ɔdehye no wɔfase barima atɔ aseresɛm nhoma ahorow {num_ic, 39} nnansa yi ara.",
+  "ic_template": "Ͻdetɔnni bi pԑ sԑ ɔfa adwene wɔ adetɔ nhyehyԑeԑ {num_digit_1, 2} ho: agudeԑ a ne boɔ yԑ ${num_digit_2, 5,000} na anyinam mfidie a ne boɔ yԑ ${num_digit_3, 8,000}. Ne sikasԑm ho fotufoɔ susu ho sԑ agudeԑ dwa no bԑkɔ soro {num_digit_4, 2.5}% na anyinam mfidie dwa no bԑkɔ soro {num_digit_5, 1.2}% wɔ bosome koro no ara mu. Sԑ ɔdetɔnni no pԑ sԑ ɔfa adwene bi a ɔbԑnya mfasoɔ kԑseԑ wɔ bosome n’awieԑ no mu a, mfasoɔ sԑn na yei bԑ yԑ? Ɔdehye no wɔfase barima atɔ aseresɛm nhoma ahorow {num_ic, 39} nnansa yi ara.",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "ビー玉1袋が20ドルで、値段は2か月ごとに、元の価格の20%ごとに値上がりする。36か月後、ビー玉1袋はいくらになる？",
+  "original_answer": 92,
+  "symbolic_template": "ビー玉1袋が{num_digit_1, 20}ドルで、値段は{num_digit_2, 20}%か月ごとに、元の価格のtwoごとに値上がりする。{num_digit_3, 36}か月後、ビー玉1袋はいくらになる？",
+  "ic_sentence_template": "店長の甥は{num_ic, 60}冊の漫画本を持っています。",
+  "ic_template": "店長の甥は{num_ic, 60}冊の漫画本を持っています。ビー玉1袋が{num_digit_1, 20}ドルで、値段は{num_digit_2, 20}%か月ごとに、元の価格のtwoごとに値上がりする。{num_digit_3, 36}か月後、ビー玉1袋はいくらになる？",
+  "equation": "UPDATE HERE"
+}

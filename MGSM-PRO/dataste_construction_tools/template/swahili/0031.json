@@ -1,0 +1,8 @@
+{
+  "original_question": "Gunter anajaribu kuhesabu peremende zilizo kwenye chupa kubwa. Anawauliza marafiki zake kuwa wanadhani peremende ngapi zipo kwenye chupa hiyo kubwa. Mmoja anasema 80. Mwingine anasema 20 zaidi ya nusu ya ile wa kwanza alisema. Wa tatu anasema 25% zaidi ya wa kwanza. Wastani ya kisio lao ni ngapi?",
+  "original_answer": 80,
+  "symbolic_template": "{name_male, Gunter} anajaribu kuhesabu peremende zilizo kwenye chupa. Anawauliza marafiki zake wanadhani kuna peremende ngapi kwenye chupa. Mmoja anasema {num_digit_1, 80}. Mwingine anasema {num_digit_2, 20} zaidi ya nusu ya aliyosema wa kwanza. Wa tatu anasema {num_digit_3, 25}% zaidi ya aliyosema wa kwanza. Wastani wa makisio yao ni upi?",
+  "ic_sentence_template": "Shangazi wa {name_male, Gunter} aliwahi kuleta pipi za jelly {num_ic, 392} kwenye sherehe.",
+  "ic_template": "Shangazi wa {name_male, Gunter} aliwahi kuleta pipi za jelly {num_ic, 392} kwenye sherehe. {name_male, Gunter} anajaribu kuhesabu peremende zilizo kwenye chupa. Anawauliza marafiki zake wanadhani kuna peremende ngapi kwenye chupa. Mmoja anasema {num_digit_1, 80}. Mwingine anasema {num_digit_2, 20} zaidi ya nusu ya aliyosema wa kwanza. Wa tatu anasema {num_digit_3, 25}% zaidi ya aliyosema wa kwanza. Wastani wa makisio yao ni upi?",
+  "equation": "UPDATE HERE"
+}

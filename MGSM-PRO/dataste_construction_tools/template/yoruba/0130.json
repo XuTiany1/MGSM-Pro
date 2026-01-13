@@ -1,0 +1,8 @@
+{
+  "original_question": "Nissa gba àwọn òṣìṣẹ‌ tó mọ ṣẹ́ 60 láti ṣeré elves ní abúlé Santa ti ilé ìtajà rẹ‌. Ìdá mẹ‌ta àwọn elves jáwọ‌ lẹ‌yìn tí àwọn ọmọdé bì sí wọn lára, lẹ‌yìn náà mẹ‌wàá nínú àwọn elves tó kù jáwọ‌ lẹ‌yìn tí àwọn ọmọdé ta wọ́n nípàá lágbọ̀n. Elves méèló ni ó kù?",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, Nissa} gba àwọn òṣìṣẹ‌ tó mọ ṣẹ́ {num_digit_1, 60} láti ṣeré elves ní abúlé Santa ti ilé ìtajà rẹ‌. Ìdá mẹ‌ta àwọn elves jáwọ‌ lẹ‌yìn tí àwọn ọmọdé bì sí wọn lára, lẹ‌yìn náà {num_digit_2, 10} nínú àwọn elves tó kù jáwọ‌ lẹ‌yìn tí àwọn ọmọdé ta wọ́n nípàá lágbọ̀n. Elves méèló ni ó kù?",
+  "ic_sentence_template": "Ẹ̀gbọ́n bàbá {name_female, Nissa} máa ń gbé igi Kérésìmesì {num_ic, 87} dé ilé itaja ní gbogbo ọdún.",
+  "ic_template": "Ẹ̀gbọ́n bàbá {name_female, Nissa} máa ń gbé igi Kérésìmesì {num_ic, 87} dé ilé itaja ní gbogbo ọdún. {name_female, Nissa} gba àwọn òṣìṣẹ‌ tó mọ ṣẹ́ {num_digit_1, 60} láti ṣeré elves ní abúlé Santa ti ilé ìtajà rẹ‌. Ìdá mẹ‌ta àwọn elves jáwọ‌ lẹ‌yìn tí àwọn ọmọdé bì sí wọn lára, lẹ‌yìn náà {num_digit_2, 10} nínú àwọn elves tó kù jáwọ‌ lẹ‌yìn tí àwọn ọmọdé ta wọ́n nípàá lágbọ̀n. Elves méèló ni ó kù?",
+  "equation": "UPDATE HERE"
+}

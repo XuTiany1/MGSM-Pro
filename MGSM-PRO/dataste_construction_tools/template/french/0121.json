@@ -1,0 +1,8 @@
+{
+  "original_question": "Il a été demandé à Morisette et Kael d'apporter des fruits. Morisette a apporté 5 pommes et 8 oranges, tandis que Kael a apporté deux fois plus de pommes et la moitié moins d'oranges que Morisette. Combien de fruits ont-ils apporté en tout ?",
+  "original_answer": 27,
+  "symbolic_template": "Il a été demandé à {name_female, Morisette} et {name_male, Kael} d'apporter des fruits. {name_female, Morisette} a apporté {num_digit_1, 5} pommes et {num_digit_2, 8} oranges, tandis que {name_male, Kael} a apporté deux fois plus de pommes et la moitié moins d'oranges que {name_female, Morisette}. Combien de fruits ont-ils apporté en tout ?",
+  "ic_sentence_template": "{name_male, Kael} a une tante qui a cueilli {num_ic, 29} radis blanc.",
+  "ic_template": "{name_male, Kael} a une tante qui a cueilli {num_ic, 29} radis blanc. Il a été demandé à {name_female, Morisette} et {name_male, Kael} d'apporter des fruits. {name_female, Morisette} a apporté {num_digit_1, 5} pommes et {num_digit_2, 8} oranges, tandis que {name_male, Kael} a apporté deux fois plus de pommes et la moitié moins d'oranges que {name_female, Morisette}. Combien de fruits ont-ils apporté en tout ?",
+  "equation": "UPDATE HERE"
+}

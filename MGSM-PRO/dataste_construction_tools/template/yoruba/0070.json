@@ -1,0 +1,8 @@
+{
+  "original_question": "Judy ń kọ kíláásì ijó 5 lójoojúmọ́, ní àárín ọ̀sẹ̀ àti kílásì 8 ní ọjọ́ Àbámẹ́ta. Tí kíláásì kọ̀ọ̀kan bá ní akẹ́kọ̀ọ́ 15 tó sì ń gba $15.00 lọ́wọ́ ọmọ kọ̀ọ̀kan, èló ni owó tó ń pa ní ọ̀sẹ̀ kan?",
+  "original_answer": 7425,
+  "symbolic_template": "{name_female, Judy} ń kọ kíláásì ijó {num_digit_1, 5} lójoojúmọ́, ní àárín ọ̀sẹ̀ àti kílásì {num_digit_2, 8} ní ọjọ́ Àbámẹ́ta. Tí kíláásì kọ̀ọ̀kan bá ní akẹ́kọ̀ọ́ {num_digit_3, 15} tó sì ń gba ${num_digit_4, 15.00} lọ́wọ́ ọmọ kọ̀ọ̀kan, èló ni owó tó ń pa ní {num_digit_5, 1} ọ̀sẹ̀ kan?",
+  "ic_sentence_template": "Ẹ̀gbọ́n bàbá {name_female, Judy} máa ń ra bàtà ìjo {num_ic, 47} lósù kọọkan.",
+  "ic_template": "Ẹ̀gbọ́n bàbá {name_female, Judy} máa ń ra bàtà ìjo {num_ic, 47} lósù kọọkan. {name_female, Judy} ń kọ kíláásì ijó {num_digit_1, 5} lójoojúmọ́, ní àárín ọ̀sẹ̀ àti kílásì {num_digit_2, 8} ní ọjọ́ Àbámẹ́ta. Tí kíláásì kọ̀ọ̀kan bá ní akẹ́kọ̀ọ́ {num_digit_3, 15} tó sì ń gba ${num_digit_4, 15.00} lọ́wọ́ ọmọ kọ̀ọ̀kan, èló ni owó tó ń pa ní {num_digit_5, 1} ọ̀sẹ̀ kan?",
+  "equation": "UPDATE HERE"
+}

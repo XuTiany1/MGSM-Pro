@@ -1,0 +1,8 @@
+{
+  "original_question": "Umri wa Darrel na Allen upo katika uwiano wa 7:11. Iwapo jumla ya umri wao wa sasa ni miaka 162, piga hesabu ya umri wa Allen miaka 10 ijayo kutoka sasa.",
+  "original_answer": 109,
+  "symbolic_template": "Umri wa {name_male_1, Darrell} na {name_male_2, Allen} upo katika uwiano wa {num_digit_1, 7}:{num_digit_2, 11}. Iwapo jumla ya umri wao wa sasa ni miaka {num_digit_3, 162}, piga hesabu ya umri wa {name_male_2, Allen} miaka {num_digit_4, 10} ijayo kutoka sasa.",
+  "ic_sentence_template": "Mjomba wa {name_male_2, Allen} amenunua kadi za besiboli {num_ic, 64}.",
+  "ic_template": "Mjomba wa {name_male_2, Allen} amenunua kadi za besiboli {num_ic, 64}. Umri wa {name_male_1, Darrell} na {name_male_2, Allen} upo katika uwiano wa {num_digit_1, 7}:{num_digit_2, 11}. Iwapo jumla ya umri wao wa sasa ni miaka {num_digit_3, 162}, piga hesabu ya umri wa {name_male_2, Allen} miaka {num_digit_4, 10} ijayo kutoka sasa.",
+  "equation": "UPDATE HERE"
+}

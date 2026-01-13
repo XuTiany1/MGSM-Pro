@@ -1,0 +1,32 @@
+{
+    "problem_id": "0249",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_5", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [3, 6]},
+        "num_digit_2": {"type": "int", "range": [4, 15]},
+        "num_digit_3": {"type": "int", "range": [10, 25]},
+        "num_digit_4": {"type": "int", "range": [1, 1]},
+        "num_digit_5": {"type": "int", "range": [150, 300]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_5": [
+            "sister_total = num_digit_2 + num_digit_3",
+            "sue_monday = num_digit_1 * num_digit_2",
+            "sue_tuesday = 2 * num_digit_3",
+            "sue_total = sue_monday + sue_tuesday",
+            "cookie_diff = sue_total - sister_total",
+            "ans = cookie_diff * num_digit_5"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 4, "max_digits": 5}
+    },
+    "restrictions": {
+        "num_digit_5": [
+            "sue_total > sister_total",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

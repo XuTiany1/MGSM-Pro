@@ -1,0 +1,8 @@
+{
+  "original_question": "Luke na-etinye oge n'akụkụ osimiri na-ewu ụlọ ájá. Ọ mechara chọpụta na ụlọ ájá ọ bụla ga-enwe ọkwa nke ọkara akụkụ anọ ha nhata ụkwụ ya dịka nke di n'okpuru ya. Ọ bụrụ na ọ ruọ ụlọ ájá ọkwa anọ ebe ọkwa nke dị n'elu nwere akụkụ anọ nhata iri na isii, gịnị bụ nkezi akụkụ anọ nhata nke otu ọkwa ya?",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Luke} na-etinye oge n'akụkụ osimiri na-ewu ụlọ ájá. Ọ mechara chọpụta na ụlọ ájá ọ bụla ga-enwe ọkwa nke ọkara akụkụ anọ ha nhata ụkwụ ya dịka nke di n'okpuru ya. Ọ bụrụ na ọ ruọ ụlọ ájá ọkwa {num_digit_1, 4} ebe ọkwa nke dị n'elu nwere akụkụ anọ nhata {num_digit_2, 16}, gịnị bụ nkezi akụkụ anọ nhata nke otu ọkwa ya?",
+  "ic_sentence_template": "Nwanne nna {name_male, Luke} bịara na {num_ic, 26} oche osimiri maka onye ọ bụla.",
+  "ic_template": "Nwanne nna {name_male, Luke} bịara na {num_ic, 26} oche osimiri maka onye ọ bụla. {name_male, Luke} na-etinye oge n'akụkụ osimiri na-ewu ụlọ ájá. Ọ mechara chọpụta na ụlọ ájá ọ bụla ga-enwe ọkwa nke ọkara akụkụ anọ ha nhata ụkwụ ya dịka nke di n'okpuru ya. Ọ bụrụ na ọ ruọ ụlọ ájá ọkwa {num_digit_1, 4} ebe ọkwa nke dị n'elu nwere akụkụ anọ nhata {num_digit_2, 16}, gịnị bụ nkezi akụkụ anọ nhata nke otu ọkwa ya?",
+  "equation": "UPDATE HERE"
+}

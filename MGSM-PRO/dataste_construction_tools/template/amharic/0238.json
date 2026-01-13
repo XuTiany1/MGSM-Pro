@@ -1,0 +1,8 @@
+{
+  "original_question": "ሜሪ ከ ጆኣን በ ሁለት አመት ታንሳለች, ከ ጀሳ በ አምስት አመት ከምትበልጠው, ጀሳ 20  አመቷ ቢሆን የ ሶስቱ ሴቶች የ እድሜ ድምር ስንት ይሆናል?",
+  "original_answer": 68,
+  "symbolic_template": "{name_female_1, ሜሪ} ከ{name_female_2, ጆኣን} በሁለት አመት ታንሳለች, ከ{name_female_3, ጀሳ} በአምስት አመት ከምትበልጠው, {name_female_3, ጀሳ} {num_digit_1, 20} አመቷ ቢሆን የሶስቱ ሴቶች የእድሜ ድምር ስንት ይሆናል?",
+  "ic_sentence_template": "የ{name_female_2, ጆዋን} አጎት {num_ic, 73} የቤዝቦል ካርዶች አሏት።",
+  "ic_template": "{name_female_1, ሜሪ} ከ{name_female_2, ጆኣን} በሁለት አመት ታንሳለች, ከ{name_female_3, ጀሳ} በአምስት አመት ከምትበልጠው, {name_female_3, ጀሳ} {num_digit_1, 20} አመቷ ቢሆን የሶስቱ ሴቶች የእድሜ ድምር ስንት ይሆናል? የ{name_female_2, ጆዋን} አጎት {num_ic, 73} የቤዝቦል ካርዶች አሏት።",
+  "equation": "UPDATE HERE"
+}

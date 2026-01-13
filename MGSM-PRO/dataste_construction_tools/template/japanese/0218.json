@@ -1,0 +1,8 @@
+{
+  "original_question": "エイドリアンの年齢はハリエットの年齢の3倍で、ハリエットはザックの年齢の半分の年齢です。もしもハリエットが今21歳だとしたら、3年後3人の平均年齢はいくつになりますか。",
+  "original_answer": 45,
+  "symbolic_template": "{name_male_1, エイドリアン} の年齢は {name_male_2, ハリエット} の年齢の 三 倍で、{name_male_2, ハリエット} は {name_male_3, ザック} の年齢の 半分 の年齢です。もしも {name_male_2, ハリエット} が今 {num_digit_1, 21} 歳だとしたら、三 年後 3 人の平均年齢はいくつになりますか。",
+  "ic_sentence_template": "{name_male_2, ハリエット}のおじさんは市場で{num_ic, 107}個のりんごを買ったばかりです。",
+  "ic_template": "{name_male_2, ハリエット}のおじさんは市場で{num_ic, 107}個のりんごを買ったばかりです。{name_male_1, エイドリアン} の年齢は {name_male_2, ハリエット} の年齢の 三 倍で、{name_male_2, ハリエット} は {name_male_3, ザック} の年齢の 半分 の年齢です。もしも {name_male_2, ハリエット} が今 {num_digit_1, 21} 歳だとしたら、三 年後 3 人の平均年齢はいくつになりますか。",
+  "equation": "UPDATE HERE"
+}

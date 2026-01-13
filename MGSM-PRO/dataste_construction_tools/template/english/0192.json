@@ -1,0 +1,8 @@
+{
+  "original_question": "Tom plants 10 trees a year.  Every year he also chops down 2 trees a year.  He starts with 50 trees.  After 10 years 30% of the trees die.  How many trees does he have left?",
+  "original_answer": 91,
+  "symbolic_template": "{name_male, Tom} plants {num_digit_1, 10} trees a year. Every year he also chops down {num_digit_2, 2} trees a year. He starts with {num_digit_3, 50} trees. After {num_digit_4, 10} years {num_digit_5, 30}% of the trees die. How many trees does he have left?",
+  "ic_sentence_template": "{name_male, Tom}'s aunt recently bought {num_ic, 164} flower pots.",
+  "ic_template": "{name_male, Tom} plants {num_digit_1, 10} trees a year. Every year he also chops down {num_digit_2, 2} trees a year. He starts with {num_digit_3, 50} trees. After {num_digit_4, 10} years {num_digit_5, 30}% of the trees die. {name_male, Tom}'s aunt recently bought {num_ic, 164} flower pots. How many trees does he have left?",
+  "equation": "UPDATE HERE"
+}

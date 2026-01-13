@@ -1,0 +1,28 @@
+{
+    "problem_id": "0018",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [2, 6]},
+        "num_digit_2": {"type": "int", "range": [2, 49]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [],
+        "num_digit_2": [
+            "total_days = num_digit_2 * 7",
+            "total_eggs = num_digit_1 * total_days",
+            "ans = total_eggs / 12"
+        ],
+        "num_ic": []
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "ans > 0",
+            "ans % 1 == 0",
+            "ans > 0"
+        ]
+    }
+}

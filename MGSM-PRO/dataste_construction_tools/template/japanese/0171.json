@@ -1,0 +1,8 @@
+{
+  "original_question": "ジェイクは昆虫博物館まで歩いている。彼は8本足の蜘蛛を80匹、6本足の虫を90匹、それぞれ10本の足がある希少な変異体の無脊椎動物を見る。ジェイクは全部で何本の足を見る？",
+  "original_answer": 1210,
+  "symbolic_template": "{name_male, ジェイク}は昆虫博物館を歩いている。彼は{num_digit_2, 8}本足の蜘蛛を{num_digit_1, 80}匹、{num_digit_4, 6}本足の虫を{num_digit_3, 90}匹、そして{num_digit_6, 10}本足の希少な変異体の無脊椎動物を{num_digit_5, 3}匹見る。{name_male, ジェイク}は全部で何本の足を見る？",
+  "ic_sentence_template": "{name_male, ジェイク}の姪は昨年の夏に{num_ic, 328}匹のチョウを集めました。",
+  "ic_template": "{name_male, ジェイク}の姪は昨年の夏に{num_ic, 328}匹のチョウを集めました。{name_male, ジェイク}は昆虫博物館を歩いている。彼は{num_digit_2, 8}本足の蜘蛛を{num_digit_1, 80}匹、{num_digit_4, 6}本足の虫を{num_digit_3, 90}匹、そして{num_digit_6, 10}本足の希少な変異体の無脊椎動物を{num_digit_5, 3}匹見る。{name_male, ジェイク}は全部で何本の足を見る？",
+  "equation": "UPDATE HERE"
+}

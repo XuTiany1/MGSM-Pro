@@ -1,0 +1,8 @@
+{
+  "original_question": "ジェイムズは週に3回、毎回3本のスプリントを走ることに決めました。スプリントごとに60メートル走ります。ジェイムズは1週間で何メートル走るでしょうか？",
+  "original_answer": 540,
+  "symbolic_template": "{name_male, ジェイムズ}は週に{num_digit_2, 3}回、毎回{num_digit_1, 3}本のスプリントを走ることに決めました。スプリントごとに{num_digit_3, 60}メートル走ります。{name_male, ジェイムズ}は1週間で何メートル走るでしょうか？",
+  "ic_sentence_template": "{name_male, ジェームズ}のおじさんは{num_ic, 212}足のランニングシューズを持っています。",
+  "ic_template": "{name_male, ジェームズ}のおじさんは{num_ic, 212}足のランニングシューズを持っています。{name_male, ジェイムズ}は週に{num_digit_2, 3}回、毎回{num_digit_1, 3}本のスプリントを走ることに決めました。スプリントごとに{num_digit_3, 60}メートル走ります。{name_male, ジェイムズ}は1週間で何メートル走るでしょうか？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Jenna na nne ya tụtụtara apụl ụfọdụ n'ubi apụl ha. Jenna tụtụtara ọkara  ọtụtụ apụl dị ka nne ya . Ọ bụrụ na nne ya nwetara apụl iri abụọ, apụl ole ka ha abụọ tụtụrụ?",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, Jenna}  na nne ya tụtụtara apụl ụfọdụ n'ubi apụl ha. {name_female, Jenna} tụtụtara ọkara ọtụtụ apụl dị ka nne ya. Ọ bụrụ na nne ya nwetara apụl {num_digit_1, 20}, apụl ole ka ha abụọ tụtụrụ?",
+  "ic_sentence_template": "Nwanne nna {name_female, Jenna} wetara igo cider apụl {num_ic, 154} bịara ugbo n’ụtụtụ ahụ.",
+  "ic_template": "Nwanne nna {name_female, Jenna} wetara igo cider apụl {num_ic, 154} bịara ugbo n’ụtụtụ ahụ. {name_female, Jenna}  na nne ya tụtụtara apụl ụfọdụ n'ubi apụl ha. {name_female, Jenna} tụtụtara ọkara ọtụtụ apụl dị ka nne ya. Ọ bụrụ na nne ya nwetara apụl {num_digit_1, 20}, apụl ole ka ha abụọ tụtụrụ?",
+  "equation": "UPDATE HERE"
+}

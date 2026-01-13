@@ -1,0 +1,8 @@
+{
+  "original_question": "Sophia n ronú láti rìnrìnàjò lójú pópó nínú ọkọ̀ rẹ̀, ó sì fẹ́ mọ bó ṣe jìnà sí láti wa ọkọ̀ pẹ̀lú epo tánki kan. Ó ti rinìrìnàjò máìlì 100 láti ìgbà tó ti rọ epo kún ọkọ̀ rẹ̀ gbẹ̀yìn, ó sì nílò láti rọ epo gálọ̀nù 4 kó lè kún padà. Ìwé ìwa ọkọ̀ fún ọkọ̀ rẹ̀ sọ wí pé táǹkì rẹ̀ lè gba gálọ̀nù 12 epo. Máìlì mélòó ní Sophia lè wà pẹ̀lú epo táǹkì kan?",
+  "original_answer": 300,
+  "symbolic_template": "{name_female, Sophia} n ronú láti rìnrìnàjò lójú pópó nínú ọkọ̀ rẹ̀, ó sì fẹ́ mọ bó ṣe jìnà sí láti wa ọkọ̀ pẹ̀lú epo tánki kan. Ó ti rinìrìnàjò máìlì {num_digit_1, 100} láti ìgbà tó ti rọ epo kún ọkọ̀ rẹ̀ gbẹ̀yìn, ó sì nílò láti rọ epo gálọ̀nù {num_digit_2, 4} kó lè kún padà. Ìwé ìwa ọkọ̀ fún ọkọ̀ rẹ̀ sọ wí pé táǹkì rẹ̀ lè gba gálọ̀nù {num_digit_3, 12} epo. Máìlì mélòó ní {name_female, Sophia} lè wà pẹ̀lú epo táǹkì kan?",
+  "ic_sentence_template": "Arákùnrin {name_female, Sophia} fi ìgbà kan rin máílì {num_ic, 129} lái dúró.",
+  "ic_template": "{name_female, Sophia} n ronú láti rìnrìnàjò lójú pópó nínú ọkọ̀ rẹ̀, ó sì fẹ́ mọ bó ṣe jìnà sí láti wa ọkọ̀ pẹ̀lú epo tánki kan. Ó ti rinìrìnàjò máìlì {num_digit_1, 100} láti ìgbà tó ti rọ epo kún ọkọ̀ rẹ̀ gbẹ̀yìn, ó sì nílò láti rọ epo gálọ̀nù {num_digit_2, 4} kó lè kún padà. Ìwé ìwa ọkọ̀ fún ọkọ̀ rẹ̀ sọ wí pé táǹkì rẹ̀ lè gba gálọ̀nù {num_digit_3, 12} epo. Máìlì mélòó ní {name_female, Sophia} lè wà pẹ̀lú epo táǹkì kan? Arákùnrin {name_female, Sophia} fi ìgbà kan rin máílì {num_ic, 129} lái dúró.",
+  "equation": "UPDATE HERE"
+}

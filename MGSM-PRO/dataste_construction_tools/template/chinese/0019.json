@@ -1,0 +1,8 @@
+{
+  "original_question": "玛丽莎正在一条长 12 英里的小径上徒步旅行。她用了 1 小时走完前面 4 英里，然后再用一小时走完 2 英里。如果她希望平均速度达到每小时 4 英里，则要走完剩下的距离，她的速度需要达到多少（以英里每小时为单位）？",
+  "original_answer": 6,
+  "symbolic_template": "{name_female, 玛丽莎} 正在一条长 {num_digit_1, 12} 英里的小径上徒步旅行。她用了 {num_digit_2, 1} 小时走完前面 {num_digit_3, 4} 英里，然后再用 {num_digit_2, 1} 小时走完 2 英里。如果她希望平均速度达到每小时 {num_digit_4, 4} 英里，则要走完剩下的距离，她的速度需要达到多少（以英里每小时为单位）？",
+  "ic_sentence_template": "{name_female, 玛丽莎} 的姑妈在小路边看到了 {num_ic, 49} 朵野花。",
+  "ic_template": "{name_female, 玛丽莎} 的姑妈在小路边看到了 {num_ic, 49} 朵野花。{name_female, 玛丽莎} 正在一条长 {num_digit_1, 12} 英里的小径上徒步旅行。她用了 {num_digit_2, 1} 小时走完前面 {num_digit_3, 4} 英里，然后再用 {num_digit_2, 1} 小时走完 2 英里。如果她希望平均速度达到每小时 {num_digit_4, 4} 英里，则要走完剩下的距离，她的速度需要达到多少（以英里每小时为单位）？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Violetta anataka kununua krayoni mpya. Anahitaji ziwe za rangi 5 tofauti na akawa tayari na $20 kufanya ununuzi huu. Bei ya krayoni moja ni $2. Atarudishiwa salio la pesa ngapi?",
+  "original_answer": 10,
+  "symbolic_template": "{name_female, Violetta} anataka kununua kalamu za rangi mpya. Anahitaji katika rangi tofauti {num_digit_1, 5} na ameandaa ${num_digit_2, 20} kwa ajili ya ununuzi huu. Kalamu moja ya rangi inagharimu ${num_digit_3, 2}. Atabaki na chenji ya kiasi gani?",
+  "ic_sentence_template": "Mjomba wa {name_female, Violetta} anaweka picha {num_ic, 68} kwenye nyumba yake ya sanaa.",
+  "ic_template": "{name_female, Violetta} anataka kununua kalamu za rangi mpya. Anahitaji rangi tofauti {num_digit_1, 5} na ameandaa ${num_digit_2, 20} kwa ajili ya ununuzi huu. Kalamu moja ya rangi inagharimu ${num_digit_3, 2}. Mjomba wa {name_female, Violetta} anaweka picha {num_ic, 68} kwenye nyumba yake ya sanaa. Atabaki na chenji ya kiasi gani?",
+  "equation": "UPDATE HERE"
+}

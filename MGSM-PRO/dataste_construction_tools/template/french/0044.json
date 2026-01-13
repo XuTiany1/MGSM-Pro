@@ -1,0 +1,8 @@
+{
+  "original_question": "Charlie veut vendre des bougies en cire d'abeille. Chaque livre de cire d'abeille lui permet de produire 10 bougies effilées. Une livre de cire d'abeille et de mèches est livrée au prix de 10,00 $. S'il produit et vend 20 bougies, quel est son bénéfice net, sachant que chaque bougie est vendu à 2,00 $ ?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male, Charlie} veut vendre des bougies en cire d'abeille. Chaque livre de cire d'abeille lui permet de produire {num_digit_1, 10} bougies effilées. Une livre de cire d'abeille et de mèches est livrée au prix de {num_digit_2, 10.00} $. S'il produit et vend {num_digit_4, 20} bougies, quel est son bénéfice net, sachant que chaque bougie est vendue à {num_digit_3, 2.00} $ ?",
+  "ic_sentence_template": "{name_male, Charlie} a un oncle qui possède {num_ic, 37} ruches.",
+  "ic_template": "{name_male, Charlie} a un oncle qui possède {num_ic, 37} ruches. {name_male, Charlie} veut vendre des bougies en cire d'abeille. Chaque livre de cire d'abeille lui permet de produire {num_digit_1, 10} bougies effilées. Une livre de cire d'abeille et de mèches est livrée au prix de {num_digit_2, 10.00} $. S'il produit et vend {num_digit_4, 20} bougies, quel est son bénéfice net, sachant que chaque bougie est vendue à {num_digit_3, 2.00} $ ?",
+  "equation": "UPDATE HERE"
+}

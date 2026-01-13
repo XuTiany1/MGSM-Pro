@@ -1,0 +1,8 @@
+{
+  "original_question": "Jimmy nwere $2 karịa ugboro abụọ ego Ethel nwere. Ọ bụrụ na Ethel nwere $8, ego ole ka Jimmy nwere? ",
+  "original_answer": 18,
+  "symbolic_template": "{name_male_1, Jimmy} nwere ${num_digit_1, 2} karịa ugboro abụọ ego {name_male_2, Ethel} nwere. Ọ bụrụ na {name_male_2, Ethel} nwere ${num_digit_2, 8}, ego ole ka {name_male_1, Jimmy} nwere?",
+  "ic_sentence_template": "Nwanne nna {name_male_2, Ethel} chọtara ego ochie {num_ic, 33} n’elu ụlọ ya.",
+  "ic_template": "Nwanne nna {name_male_2, Ethel} chọtara ego ochie {num_ic, 33} n’elu ụlọ ya. {name_male_1, Jimmy} nwere ${num_digit_1, 2} karịa ugboro abụọ ego {name_male_2, Ethel} nwere. Ọ bụrụ na {name_male_2, Ethel} nwere ${num_digit_2, 8}, ego ole ka {name_male_1, Jimmy} nwere?",
+  "equation": "UPDATE HERE"
+}

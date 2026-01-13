@@ -1,0 +1,8 @@
+{
+  "original_question": "Cecilia ka zuchara nwa nkịta ọhụrụ. Dịka dọkịta anụmanụ ya siri kwuo, ọ ga na-enye nwa nkịta ahụ otu iko nri nkịta kwa ụbọchị ruo ụbọchị narị iri asatọ nke mbụ. Mgbe ahụ ọ ga-ebido na-enye nwa nkịta ahụ iko nri nkịta abụọ ụbọchị ọbụla ruo oge niile nke ndụ ya. Ọ bụrụ na otu akpa nri nkịta nwere otu narị iko na iri, akpa nri nkịta ole ka Cecilia ga-eji mee ịhe n'àfọ́ nke mbụ? ",
+  "original_answer": 5,
+  "symbolic_template": "{name_female, Cecilia} ka zuchara nwa nkịta ọhụrụ. Dịka dọkịta anụmanụ ya siri kwuo, ọ ga na-enye nwa nkịta ahụ {num_digit_1, 1} iko nri nkịta kwa ụbọchị ruo ụbọchị {num_digit_2, 180} nke mbụ. Mgbe ahụ ọ ga-ebido na-enye nwa nkịta ahụ {num_digit_3, 2} iko nri nkịta ụbọchị ọbụla ruo oge niile nke ndụ ya. Ọ bụrụ na otu akpa nri nkịta nwere {num_digit_4, 110} iko na iri, akpa nri nkịta ole ka {name_female, Cecilia} ga-eji mee ịhe n'àfọ́ nke mbụ?",
+  "ic_sentence_template": "Nwanne nne {name_female, Cecilia} zụrụ otu oge {num_ic, 112} ite nri pusi na mbelata ọnụahịa.",
+  "ic_template": "Nwanne nne {name_female, Cecilia} zụrụ otu oge {num_ic, 112} ite nri pusi na mbelata ọnụahịa. {name_female, Cecilia} ka zuchara nwa nkịta ọhụrụ. Dịka dọkịta anụmanụ ya siri kwuo, ọ ga na-enye nwa nkịta ahụ {num_digit_1, 1} iko nri nkịta kwa ụbọchị ruo ụbọchị {num_digit_2, 180} nke mbụ. Mgbe ahụ ọ ga-ebido na-enye nwa nkịta ahụ {num_digit_3, 2} iko nri nkịta ụbọchị ọbụla ruo oge niile nke ndụ ya. Ọ bụrụ na otu akpa nri nkịta nwere {num_digit_4, 110} iko na iri, akpa nri nkịta ole ka {name_female, Cecilia} ga-eji mee ịhe n'àfọ́ nke mbụ?",
+  "equation": "UPDATE HERE"
+}

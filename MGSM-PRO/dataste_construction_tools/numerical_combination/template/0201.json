@@ -1,0 +1,28 @@
+{
+    "problem_id": "0201",
+    "generation_order": ["num_digit_4", "num_digit_3", "num_digit_2", "num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_4": {"type": "int", "range": [500, 3000]},
+        "num_digit_3": {"type": "int", "range": [1, 15]},
+        "num_digit_2": {"type": "int", "range": [1000, 10000]},
+        "num_digit_1": {"type": "int", "range": [1, 1]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "annual_base = num_digit_4 * 52",
+            "raise_amount = annual_base * (num_digit_3 / 100)",
+            "ans = annual_base + raise_amount + num_digit_2"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 5, "max_digits": 7}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "(num_digit_4 * 52 * num_digit_3) % 100 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

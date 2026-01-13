@@ -1,0 +1,8 @@
+{
+  "original_question": "ọkọ̀ ti tò lọ lórí ọ̀nà mọ́tò. díẹ̀ nínú àwọn ọkọ̀ náà wọlé ní ìṣẹ́jú 15 àkọ́kọ́ nínú sún kẹrẹ fà kẹrẹ ọkọ̀, ọkọ̀ 20 tún wọlé ní ìṣẹ́jú 15 tókù nínú sún kẹrẹ fà kẹrẹ ọkọ̀. ọkọ̀ 5 nínú àwọn tó wà ní orí ìlà jáde kúrò nítorí kí wọn máa bá wọ inú sún kẹrẹ fà kẹrẹ ọkọ̀. tó bá jẹ́ ọkọ̀ 30 ló wà ní orí títì, ọkọ̀ mélòó ní ó lè kọjá nínú sún kẹrẹ fà kẹrẹ ọkọ̀ ní ìṣẹ́jú 15 àkọ́kọ́?",
+  "original_answer": 5,
+  "symbolic_template": "ọkọ̀ ti tò lọ lórí ọ̀nà mọ́tò. díẹ̀ nínú àwọn ọkọ̀ náà wọlé ní ìṣẹ́jú {num_digit_1, 15} àkọ́kọ́ nínú sún kẹrẹ fà kẹrẹ ọkọ̀, ọkọ̀ {num_digit_2, 20} tún wọlé ní ìṣẹ́jú {num_digit_3, 15} tókù nínú sún kẹrẹ fà kẹrẹ ọkọ̀. ọkọ̀ {num_digit_4, 5} nínú àwọn tó wà ní orí ìlà jáde kúrò nítorí kí wọn máa bá wọ inú sún kẹrẹ fà kẹrẹ ọkọ̀. tó bá jẹ́ ọkọ̀ {num_digit_6, 30} ló wà ní orí títì, ọkọ̀ mélòó ní ó lè kọjá nínú sún kẹrẹ fà kẹrẹ ọkọ̀ ní ìṣẹ́jú {num_digit_1, 15} àkọ́kọ́?",
+  "ic_sentence_template": "Arákùnrin olùṣàkóso opopona ní {num_ic, 38} ọkọ ayọ́kẹ́lẹ́ àtijọ́.",
+  "ic_template": "Arákùnrin olùṣàkóso opopona ní {num_ic, 38} ọkọ ayọ́kẹ́lẹ́ àtijọ́. ọkọ̀ ti tò lọ lórí ọ̀nà mọ́tò. díẹ̀ nínú àwọn ọkọ̀ náà wọlé ní ìṣẹ́jú {num_digit_1, 15} àkọ́kọ́ nínú sún kẹrẹ fà kẹrẹ ọkọ̀, ọkọ̀ {num_digit_2, 20} tún wọlé ní ìṣẹ́jú {num_digit_3, 15} tókù nínú sún kẹrẹ fà kẹrẹ ọkọ̀. ọkọ̀ {num_digit_4, 5} nínú àwọn tó wà ní orí ìlà jáde kúrò nítorí kí wọn máa bá wọ inú sún kẹrẹ fà kẹrẹ ọkọ̀. tó bá jẹ́ ọkọ̀ {num_digit_6, 30} ló wà ní orí títì, ọkọ̀ mélòó ní ó lè kọjá nínú sún kẹrẹ fà kẹrẹ ọkọ̀ ní ìṣẹ́jú {num_digit_1, 15} àkọ́kọ́?",
+  "equation": "UPDATE HERE"
+}

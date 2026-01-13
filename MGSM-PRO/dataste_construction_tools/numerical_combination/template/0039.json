@@ -1,0 +1,27 @@
+{
+    "problem_id": "0039",
+    "generation_order": ["num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [2, 50]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "run_speed = num_digit_1 * 2",
+            "walk_speed = run_speed / 4",
+            "dist_run = run_speed * 2",
+            "dist_walk = walk_speed * 4",
+            "ans = dist_run + dist_walk"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "num_digit_1 % 2 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

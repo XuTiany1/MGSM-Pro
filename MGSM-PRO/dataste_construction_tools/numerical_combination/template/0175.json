@@ -1,0 +1,36 @@
+{
+    "problem_id": "0175",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_5", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [2, 5]},
+        "num_digit_2": {"type": "int", "range": [1, 3]},
+        "num_digit_3": {"type": "float", "construction": "random.choice([0.25, 0.50, 0.75, 1.0])"},
+        "num_digit_4": {"type": "int", "range": [10, 20]},
+        "num_digit_5": {"type": "int", "range": [10, 50]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_4": [
+            "cost_per_gallon = num_digit_1 + num_digit_2",
+            "revenue_per_gallon = num_digit_4 * num_digit_3",
+            "profit_per_gallon = revenue_per_gallon - cost_per_gallon"
+        ],
+        "num_digit_5": [
+            "num_gallons = num_digit_5 / profit_per_gallon",
+            "ans = num_gallons * num_digit_1"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_4": [
+            "revenue_per_gallon > cost_per_gallon"
+        ],
+        "num_digit_5": [
+            "num_digit_5 % profit_per_gallon == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

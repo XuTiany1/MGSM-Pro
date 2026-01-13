@@ -1,0 +1,8 @@
+{
+  "original_question": "Jennie is helping at her mom's office. She has a pile of 60 letters needing stamps, and a pile of letters already stamped. She puts stamps on one-third of the letters needing stamps. If there are now 30 letters in the pile of already-stamped letters, how many were in that pile when Jennie began?",
+  "original_answer": 10,
+  "symbolic_template": "{name_female, Jennie} is helping at her mom's office. She has a pile of {num_digit_1, 60} letters needing stamps, and a pile of letters already stamped. She puts stamps on one-third of the letters needing stamps. If there are now {num_digit_2, 30} letters in the pile of already-stamped letters, how many were in that pile when {name_female, Jennie} began?",
+  "ic_sentence_template": "{name_female, Jennie}'s uncle received {num_ic, 27} postcards on his birthday.",
+  "ic_template": "{name_female, Jennie} is helping at her mom's office. She has a pile of {num_digit_1, 60} letters needing stamps, and a pile of letters already stamped. She puts stamps on one-third of the letters needing stamps. {name_female, Jennie}'s uncle received {num_ic, 27} postcards on his birthday. If there are now {num_digit_2, 30} letters in the pile of already-stamped letters, how many were in that pile when {name_female, Jennie} began?",
+  "equation": "UPDATE HERE"
+}

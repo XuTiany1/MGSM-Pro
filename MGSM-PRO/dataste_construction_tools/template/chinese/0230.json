@@ -1,0 +1,8 @@
+{
+  "original_question": "马克为他的公司买了一支由 12 辆车组成的车队。每辆车售价 20,000 美元。他为这些车付了 10% 的税，又为每辆车交了 1,000 美元的注册费。他为这一切花了多少钱？",
+  "original_answer": 276000,
+  "symbolic_template": "{name_male, 马克} 为他的公司买了一支由 {num_digit_1, 12} 辆车组成的车队。每辆车售价 {num_digit_2, 20,000} 美元。他为这些车付了 {num_digit_3, 10}% 的税，又为每辆车交了 {num_digit_4, 1000} 美元的注册费。他为这一切花了多少钱？",
+  "ic_sentence_template": "{name_male, 马克} 的堂兄最近买了 {num_ic, 111} 辆摩托车。",
+  "ic_template": "{name_male, 马克} 的堂兄最近买了 {num_ic, 111} 辆摩托车。{name_male, 马克} 为他的公司买了一支由 {num_digit_1, 12} 辆车组成的车队。每辆车售价 {num_digit_2, 20,000} 美元。他为这些车付了 {num_digit_3, 10}% 的税，又为每辆车交了 {num_digit_4, 1000} 美元的注册费。他为这一切花了多少钱？",
+  "equation": "UPDATE HERE"
+}

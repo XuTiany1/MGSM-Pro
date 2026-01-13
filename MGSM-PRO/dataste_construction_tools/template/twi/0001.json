@@ -1,0 +1,8 @@
+{
+  "original_question": "Ntoma bi hia ahomatia anoboa bibire mmienu na ahomatia fitaa anoboa saa mu fa.  Anoboa dodoɔ sԑn na ɔhia?",
+  "original_answer": 3,
+  "symbolic_template": "Ntoma bi hia ahomatia anoboa bibire {num_digit_1, 2} na ahomatia fitaa anoboa saa mu fa.  Anoboa dodoɔ sԑn na ɔhia?",
+  "ic_sentence_template": "Taylɔ no wɔfa de ahoma ntama {num_ic, 19} fi kurow no mu brɛɛ no brebi.",
+  "ic_template": "Taylɔ no wɔfa de ahoma ntama {num_ic, 19} fi kurow no mu brɛɛ no brebi. Ntoma bi hia ahomatia anoboa bibire {num_digit_1, 2} na ahomatia fitaa anoboa saa mu fa.  Anoboa dodoɔ sԑn na ɔhia?",
+  "equation": "UPDATE HERE"
+}

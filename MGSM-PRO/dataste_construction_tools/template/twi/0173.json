@@ -1,0 +1,8 @@
+{
+  "original_question": "Jessica ebɔ mmɔden sɛ obehu sika dodoɔ a ɔde betua ni ɛka nyinaa wɔ bosome biara. ɛsukuufoɔ bosea ho ka a otumi tua no bosome biara yɛ $300, ne ka otumi tua wɔ ne kaade so no wɔ bosome biara nso yɛ $200, ne efie ho ka a otumi tua no bosome biara yɛ $500. Sɛ Jessica pɛ sɛ ɔbɔ ka a ɛboro so 50%, sika ahe na ɔde bɛtua wɔ afe baako biara mu?",
+  "original_answer": 18000,
+  "symbolic_template": "{name_female, Jessica} ebɔ mmɔden sɛ obehu sika dodoɔ a ɔde betua ne ɛka nyinaa wɔ bosome biara. ɛsukuufoɔ bosea ho ka a otumi tua no bosome biara yɛ ${num_digit_1, 300}, ne ka otumi tua wɔ ne kaade so no wɔ bosome biara nso yɛ ${num_digit_2, 200}, ne efie ho ka a otumi tua no bosome biara yɛ ${num_digit_3, 500}. Sɛ {name_female, Jessica} pɛ sɛ ɔbɔ ka a ɛboro so {num_digit_4, 50}%, sika ahe na ɔde bɛtua wɔ afe baako biara mu?",
+  "ic_sentence_template": "{name_female, Jessica} wͻfa maa no akatua krataa ntosoͻ {num_ic, 58} nnansa yi ara.",
+  "ic_template": "{name_female, Jessica} wͻfa maa no akatua krataa ntosoͻ {num_ic, 58} nnansa yi ara. {name_female, Jessica} ebɔ mmɔden sɛ obehu sika dodoɔ a ɔde betua ne ɛka nyinaa wɔ bosome biara. ɛsukuufoɔ bosea ho ka a otumi tua no bosome biara yɛ ${num_digit_1, 300}, ne ka otumi tua wɔ ne kaade so no wɔ bosome biara nso yɛ ${num_digit_2, 200}, ne efie ho ka a otumi tua no bosome biara yɛ ${num_digit_3, 500}. Sɛ {name_female, Jessica} pɛ sɛ ɔbɔ ka a ɛboro so {num_digit_4, 50}%, sika ahe na ɔde bɛtua wɔ afe baako biara mu?",
+  "equation": "UPDATE HERE"
+}

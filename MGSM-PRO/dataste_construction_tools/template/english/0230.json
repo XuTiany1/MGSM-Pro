@@ -1,0 +1,8 @@
+{
+  "original_question": "Mark buys a fleet of 12 cars for his company.  Each car sells for $20,000.  He pays 10% tax on the cars and then another $1000 for registration on each of them.  How much does he pay for everything?",
+  "original_answer": 276000,
+  "symbolic_template": "{name_male, Mark} buys a fleet of {num_digit_1, 12} cars for his company. Each car sells for ${num_digit_2, 20,000}. He pays {num_digit_3, 10}% tax on the cars and then another ${num_digit_4, 1000} for registration on each of them. How much does he pay for everything?",
+  "ic_sentence_template": "{name_male, Mark}'s cousin recently purchased {num_ic, 111} motorcycles.",
+  "ic_template": "{name_male, Mark} buys a fleet of {num_digit_1, 12} cars for his company. Each car sells for ${num_digit_2, 20,000}. He pays {num_digit_3, 10}% tax on the cars and then another ${num_digit_4, 1000} for registration on each of them. {name_male, Mark}'s cousin recently purchased {num_ic, 111} motorcycles. How much does he pay for everything?",
+  "equation": "UPDATE HERE"
+}

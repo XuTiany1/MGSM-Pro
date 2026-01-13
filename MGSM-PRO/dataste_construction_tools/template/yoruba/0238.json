@@ -1,0 +1,8 @@
+{
+  "original_question": "Joan gba ọdún méjì lọ‌wọ‌ Mary, ó sì gba ọdún márùn-ún lọ‌wọ‌ Jessa. Tí Jessa bá jẹ ọmọ ọdún-un 20. Ọmọ ọdún mélòó ni àwọn obìnrin mẹ‌tẹ‌ẹ‌ta náà lápapò?",
+  "original_answer": 68,
+  "symbolic_template": "{name_female_2, Joan} gba ọdún méjì lọ‌wọ‌ {name_female_1, Mary}, ó sì gba ọdún márùn-ún lọ‌wọ‌ {name_female_3, Jessa}. Tí {name_female_3, Jessa} bá jẹ ọmọ ọdún-un {num_digit_1, 20}. Ọmọ ọdún mélòó ni àwọn obìnrin mẹ‌tẹ‌ẹ‌ta náà lápapò?",
+  "ic_sentence_template": "Kékèké {name_female_2, Joan} ní baba ńlá tó ní kárìka béésìbọ́ọ̀lù {num_ic, 73}.",
+  "ic_template": "Kékèké {name_female_2, Joan} ní baba ńlá tó ní kárìka béésìbọ́ọ̀lù {num_ic, 73}. {name_female_2, Joan} gba ọdún méjì lọ‌wọ‌ {name_female_1, Mary}, ó sì gba ọdún márùn-ún lọ‌wọ‌ {name_female_3, Jessa}. Tí {name_female_3, Jessa} bá jẹ ọmọ ọdún-un {num_digit_1, 20}. Ọmọ ọdún mélòó ni àwọn obìnrin mẹ‌tẹ‌ẹ‌ta náà lápapò?",
+  "equation": "UPDATE HERE"
+}

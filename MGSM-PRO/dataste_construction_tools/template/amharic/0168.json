@@ -1,0 +1,8 @@
+{
+  "original_question": "ጂሚ ኢቴል ካለው ገንዘብ እጥፍ ተጨማሪ $2 አለው፣ ኢቴል $8 ካለው ጂሚ ምን ያህል ገንዘብ አለው?",
+  "original_answer": 18,
+  "symbolic_template": "{name_male_1, ጂሚ} {name_male_2, ኢቴል} ካለው ገንዘብ እጥፍ ተጨማሪ ${num_digit_1, 2} አለው፣ {name_male_2, ኢቴል} ${num_digit_2, 8} ካለው {name_male_1, ጂሚ} ምን ያህል ገንዘብ አለው?",
+  "ic_sentence_template": "የ{name_male_2, ኤተል} አጎት በጣኦቱ ውስጥ {num_ic, 33} የዕድሜ ያላቸው ገንዘቦችን አገኘ።",
+  "ic_template": "{name_male_1, ጂሚ} {name_male_2, ኢቴል} ካለው ገንዘብ እጥፍ ተጨማሪ ${num_digit_1, 2} አለው፣ {name_male_2, ኢቴል} ${num_digit_2, 8} ካለው {name_male_1, ጂሚ} ምን ያህል ገንዘብ አለው? የ{name_male_2, ኤተል} አጎት በጣኦቱ ውስጥ {num_ic, 33} የዕድሜ ያላቸው ገንዘቦችን አገኘ።",
+  "equation": "UPDATE HERE"
+}

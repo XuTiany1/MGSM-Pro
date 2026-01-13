@@ -1,0 +1,8 @@
+{
+  "original_question": "Tommy ԑregye ntoboa ama ne mmoakuo no na ɔtɔn paano sini baako $3 na kyiisi paano sini baako $4. Sԑ Tommy tɔn paano 43 na kyiisi paano sini 23 a, sika sԑn na Tommy tumi nyaaԑ?",
+  "original_answer": 221,
+  "symbolic_template": "{name_male, Tommy} ԑregye ntoboa ama ne mmoakuo no na ɔtɔn paano sini baako ${num_digit_1, 3} na kyiisi paano sini baako ${num_digit_2, 4}. Sԑ {name_male, Tommy} tɔn paano {num_digit_3, 43} na kyiisi paano sini {num_digit_4, 23} a, sika sԑn na {name_male, Tommy} tumi nyaaԑ?",
+  "ic_sentence_template": "{name_male, Tommy} sewaa too paanoo {num_ic, 164} maa mpɔtam hɔ adeyɛ nnansa yi ara.",
+  "ic_template": "{name_male, Tommy} sewaa too paanoo {num_ic, 164} maa mpɔtam hɔ adeyɛ nnansa yi ara. {name_male, Tommy} ԑregye ntoboa ama ne mmoakuo no na ɔtɔn paano sini baako ${num_digit_1, 3} na kyiisi paano sini baako ${num_digit_2, 4}. Sԑ {name_male, Tommy} tɔn paano {num_digit_3, 43} na kyiisi paano sini {num_digit_4, 23} a, sika sԑn na {name_male, Tommy} tumi nyaaԑ?",
+  "equation": "UPDATE HERE"
+}

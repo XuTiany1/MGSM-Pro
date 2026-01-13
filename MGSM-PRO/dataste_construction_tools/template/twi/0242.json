@@ -1,0 +1,8 @@
+{
+  "original_question": "Mike ne nnipa enum di nkrataakyerɛ. Ɔne wɔn mu mmienu gyaee nkrataa a ɔde mane wɔn ho no. Wɔn mu biara de nkrataa mmienu a emu biara kura nkratafa enum to nsa nnawɔtwe biara. Ɔdi ayamye mu bua. Ɔbetumi akyerɛw kratafa baako simma nsia biara. Ɔde nnɔnhwerew dodoɔ ahe na ɛkyerɛw nsɛm nnawɔtwe  biara?",
+  "original_answer": 3,
+  "symbolic_template": "{name_male, Mike} ne nnipa {num_digit_1, 5} di nkrataakyerɛ. Ɔne wɔn mu {num_digit_2, 2} gyaee nkrataa a ɔde mane wɔn ho no. Wɔn mu biara de nkrataa {num_digit_3, 2} a emu biara kura nkratafa {num_digit_4, 5} to nsa nnawɔtwe biara. Ɔdi ayamye mu bua. Ɔbetumi akyerɛw kratafa baako simma {num_digit_6, 6} biara. Ɔde nnɔnhwerew dodoɔ ahe na ɛkyerɛw nsɛm nnawɔtwe biara?",
+  "ic_sentence_template": "{name_male, Mike} no sewaa kenkan nhoma {num_ic, 91741} afe biara.",
+  "ic_template": "{name_male, Mike} no sewaa kenkan nhoma {num_ic, 91741} afe biara. {name_male, Mike} ne nnipa {num_digit_1, 5} di nkrataakyerɛ. Ɔne wɔn mu {num_digit_2, 2} gyaee nkrataa a ɔde mane wɔn ho no. Wɔn mu biara de nkrataa {num_digit_3, 2} a emu biara kura nkratafa {num_digit_4, 5} to nsa nnawɔtwe biara. Ɔdi ayamye mu bua. Ɔbetumi akyerɛw kratafa baako simma {num_digit_6, 6} biara. Ɔde nnɔnhwerew dodoɔ ahe na ɛkyerɛw nsɛm nnawɔtwe biara?",
+  "equation": "UPDATE HERE"
+}

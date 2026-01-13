@@ -1,0 +1,8 @@
+{
+  "original_question": "Le téléphone de Jamal peut stocker 6 fois plus de photos que celui de Brittany. Le téléphone de Brittany peut en stocker au maximum 50 fois plus qu'il n'y a d'oiseaux sur la photo prise par Jamal, où l'on voit des canards dans le zoo. Si le téléphone de Jamal a une capacité de 1 800 photos, combien de canards peut-on voir sur la photo qu'il a prise ?",
+  "original_answer": 6,
+  "symbolic_template": "Le téléphone de {name_male, Jamal} peut stocker {num_digit_1, 6} fois plus de photos que celui de {name_female, Brittany}. Le téléphone de {name_female, Brittany} peut en stocker au maximum {num_digit_3, 50} fois plus qu'il n'y a d'oiseaux sur la photo prise par {name_male, Jamal}, où l'on voit des canards dans le zoo. Si le téléphone de {name_male, Jamal} a une capacité de {num_digit_2, 1800} photos, combien de canards peut-on voir sur la photo qu'il a prise ?",
+  "ic_sentence_template": "{name_male, Jamal} a un oncle qui a déjà visité {num_ic, 84} parcs nationaux.",
+  "ic_template": "{name_male, Jamal} a un oncle qui a déjà visité {num_ic, 84} parcs nationaux. Le téléphone de {name_male, Jamal} peut stocker {num_digit_1, 6} fois plus de photos que celui de {name_female, Brittany}. Le téléphone de {name_female, Brittany} peut en stocker au maximum {num_digit_3, 50} fois plus qu'il n'y a d'oiseaux sur la photo prise par {name_male, Jamal}, où l'on voit des canards dans le zoo. Si le téléphone de {name_male, Jamal} a une capacité de {num_digit_2, 1800} photos, combien de canards peut-on voir sur la photo qu'il a prise ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Henry alisimama mara mbili wakati wa safari yake ya maili 60 kwa baiskeli. Alisimama mara ya kwanza baada ya maili 20. Alisimama mara ya pili akiwa amebakisha maili 15 ili amalize safari hiyo. Alisafiri maili ngapi kati ya kusimama mara ya kwanza na ya pili?",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Henry} alisimama mara mbili wakati wa safari yake ya maili {num_digit_1, 60} kwa baiskeli. Alisimama mara ya kwanza baada ya maili {num_digit_2, 20}. Alisimama mara ya pili akiwa amebakisha maili {num_digit_3, 15} ili amalize safari hiyo. Alisafiri maili ngapi kati ya kusimama mara ya kwanza na ya pili?",
+  "ic_sentence_template": "Mjomba wa {name_male, Henry} ana kofia za baiskeli {num_ic, 85}.",
+  "ic_template": "Mjomba wa {name_male, Henry} ana kofia za baiskeli {num_ic, 85}. {name_male, Henry} alisimama mara mbili wakati wa safari yake ya maili {num_digit_1, 60} kwa baiskeli. Alisimama mara ya kwanza baada ya maili {num_digit_2, 20}. Alisimama mara ya pili akiwa amebakisha maili {num_digit_3, 15} ili amalize safari hiyo. Alisafiri maili ngapi kati ya kusimama mara ya kwanza na ya pili?",
+  "equation": "UPDATE HERE"
+}

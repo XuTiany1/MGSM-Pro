@@ -1,0 +1,8 @@
+{
+  "original_question": "Pancho hutembea maili 20 kwa siku. Isipokuwa siku za wikendi ambapo huwa anatembea maili 10. Huwa anatembea maili ngapi kwa jumla kwa wiki?",
+  "original_answer": 120,
+  "symbolic_template": "{name_male, Pancho} hutembea maili {num_digit_1, 20} kwa siku, isipokuwa wikendi ambapo hutembea maili {num_digit_2, 10}. Hutembea maili ngapi kwa wiki?",
+  "ic_sentence_template": "Mjomba wa {name_male, Pancho} anamiliki kofia {num_ic, 302}.",
+  "ic_template": "Mjomba wa {name_male, Pancho} anamiliki kofia {num_ic, 302}. {name_male, Pancho} hutembea maili {num_digit_1, 20} kwa siku, isipokuwa wikendi ambapo hutembea maili {num_digit_2, 10}. Hutembea maili ngapi kwa wiki?",
+  "equation": "UPDATE HERE"
+}

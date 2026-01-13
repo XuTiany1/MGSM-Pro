@@ -1,0 +1,8 @@
+{
+  "original_question": "Steve kpebiri na ọ ga-ebido riwekwuo tomato ma kpebie izu cherị tomato nke ya. Ọ na-eri ugboro abụọ karịa enyi ya nwaanyị. Ọ na-eri 6 kwa ụbọchị. Ọ bụrụ na ubi vaịn ga-amịpụta tomato 3 kwa izu ụka kedụ ubi vaịn ole o kwesịrị ị nwe? ",
+  "original_answer": 21,
+  "symbolic_template": "{name_male, Steve} kpebiri na ọ ga-ebido riwekwuo tomato ma kpebie izu cherị tomato nke ya. Ọ na-eri ugboro abụọ karịa enyi ya nwaanyị. Ọ na-eri {num_digit_1, 6} kwa ụbọchị. Ọ bụrụ na ubi vaịn ga-amịpụta tomato {num_digit_2, 3} kwa izu ụka kedụ ubi vaịn ole o kwesịrị ị nwe?",
+  "ic_sentence_template": "Nwanne nne {name_male, Steve} na-akọ ose {num_ic, 1531} kwa ọkọchị.",
+  "ic_template": "Nwanne nne {name_male, Steve} na-akọ ose {num_ic, 1531} kwa ọkọchị. {name_male, Steve} kpebiri na ọ ga-ebido riwekwuo tomato ma kpebie izu cherị tomato nke ya. Ọ na-eri ugboro abụọ karịa enyi ya nwaanyị. Ọ na-eri {num_digit_1, 6} kwa ụbọchị. Ọ bụrụ na ubi vaịn ga-amịpụta tomato {num_digit_2, 3} kwa izu ụka kedụ ubi vaịn ole o kwesịrị ị nwe?",
+  "equation": "UPDATE HERE"
+}

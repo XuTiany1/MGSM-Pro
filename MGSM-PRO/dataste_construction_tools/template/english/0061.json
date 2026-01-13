@@ -1,0 +1,8 @@
+{
+  "original_question": "Janet buys a brooch for her daughter. She pays $500 for the material to make it and then another $800 for the jeweler to construct it. After that, she pays 10% of that to get it insured. How much did she pay?",
+  "original_answer": 1430,
+  "symbolic_template": "{name_female, Janet} buys a brooch for her daughter. She pays ${num_digit_1, 500} for the material to make it and then another ${num_digit_2, 800} for the jeweler to construct it. After that, she pays {num_digit_3, 10}% of that to get it insured. How much did she pay?",
+  "ic_sentence_template": "{name_female, Janet}'s uncle found {num_ic, 35} rare coins in his attic.",
+  "ic_template": "{name_female, Janet} buys a brooch for her daughter. She pays ${num_digit_1, 500} for the material to make it and then another ${num_digit_2, 800} for the jeweler to construct it. After that, she pays {num_digit_3, 10}% of that to get it insured. {name_female, Janet}'s uncle found {num_ic, 35} rare coins in his attic. How much did she pay?",
+  "equation": "UPDATE HERE"
+}

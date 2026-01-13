@@ -1,0 +1,8 @@
+{
+  "original_question": "Marc achète une flotte de 12 voitures pour son entreprise. Chaque voiture se vend 20 000 $. Il paie 10 % de taxe sur les voitures, puis 1 000 $ de plus pour l'immatriculation de chacune d'elles. Combien dépense-t-il en tout ?",
+  "original_answer": 276000,
+  "symbolic_template": "{name_male, Marc} achète une flotte de {num_digit_1, 12} voitures pour son entreprise. Chaque voiture se vend {num_digit_2, 20,000} $. Il paie {num_digit_3, 10} % de taxe sur les voitures, puis {num_digit_4, 1000} $ de plus pour l'immatriculation de chacune d'elles. Combien dépense-t-il en tout ?",
+  "ic_sentence_template": "{name_male, Mark} a un cousin qui a récemment acheté {num_ic, 111} motos.",
+  "ic_template": "{name_male, Mark} a un cousin qui a récemment acheté {num_ic, 111} motos. {name_male, Marc} achète une flotte de {num_digit_1, 12} voitures pour son entreprise. Chaque voiture se vend {num_digit_2, 20,000} $. Il paie {num_digit_3, 10} % de taxe sur les voitures, puis {num_digit_4, 1000} $ de plus pour l'immatriculation de chacune d'elles. Combien dépense-t-il en tout ?",
+  "equation": "UPDATE HERE"
+}

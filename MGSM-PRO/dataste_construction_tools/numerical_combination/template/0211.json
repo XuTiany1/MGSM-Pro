@@ -1,0 +1,27 @@
+{
+    "problem_id": "0211",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [2, 6]},
+        "num_digit_2": {"type": "int", "range": [2, 8]},
+        "num_digit_3": {"type": "int", "range": [20, 100]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "rate_sum = num_digit_1 + num_digit_2",
+            "white_excess_eggs = 2 * num_digit_2",
+            "ans = (num_digit_3 - white_excess_eggs) / rate_sum"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_3": [
+            "num_digit_3 > (2 * num_digit_2)",
+            "(num_digit_3 - (2 * num_digit_2)) % (num_digit_1 + num_digit_2) == 0",
+            "ans > 0"
+        ]
+    }
+}

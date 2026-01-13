@@ -1,0 +1,8 @@
+{
+  "original_question": "John twi ne hyԑn no dɔnhwere 3 wɔ mmirika 60 mph so na ɔdane ne ho efisԑ neho ba ne neho so sԑ ne werԑ ԑfiri biribi a ԑsom bo wɔ fie. Ͻyԑ sԑ ɔbԑsan akɔ fie wɔ dɔnhwere 4 mu nanso ԑmu mmienu a ԑdi kan no, ɔdi wɔ trafiki mu. Ͻde dɔnhwere fa a ԑdi soɔ no dwane 30mph, ansa na ɔde mmerԑ no a aka wɔ dɔnhwere nnan no mu ԑԑkɔ 80 mph. Kwan a ԑda ɔne no fie no ntam dɔnhwere nnan yi akyi yԑ sԑn?",
+  "original_answer": 45,
+  "symbolic_template": "{name_male, John} twi ne hyԑn no dɔnhwere {num_digit_1, 3} wɔ mmirika {num_digit_2, 60} mph so na ɔdane ne ho efisԑ neho ba ne neho so sԑ ne werԑ ԑfiri biribi a ԑsom bo wɔ fie. Ͻyԑ sԑ ɔbԑsan akɔ fie wɔ dɔnhwere {num_digit_3, 4} mu nanso ԑmu {num_digit_5, 2} a ԑdi kan no, ɔdi wɔ trafiki mu. Ͻde dɔnhwere fa a ԑdi soɔ no dwane {num_digit_6, 30} mph, ansa na ɔde mmerԑ no a aka wɔ dɔnhwere {num_digit_3, 4} no mu ԑԑkɔ {num_digit_7, 80} mph. Kwan a ԑda ɔne no fie no ntam dɔnhwere {num_digit_3, 4} yi akyi yԑ sԑn?",
+  "ic_sentence_template": "{name_male, John} nua huu basebɔɔllɔ krataa {num_ic, 284} wɔ ne dan no atifi.",
+  "ic_template": "{name_male, John} nua huu basebɔɔllɔ krataa {num_ic, 284} wɔ ne dan no atifi. {name_male, John} twi ne hyԑn no dɔnhwere {num_digit_1, 3} wɔ mmirika {num_digit_2, 60} mph so na ɔdane ne ho efisԑ neho ba ne neho so sԑ ne werԑ ԑfiri biribi a ԑsom bo wɔ fie. Ͻyԑ sԑ ɔbԑsan akɔ fie wɔ dɔnhwere {num_digit_3, 4} mu nanso ԑmu {num_digit_5, 2} a ԑdi kan no, ɔdi wɔ trafiki mu. Ͻde dɔnhwere fa a ԑdi soɔ no dwane {num_digit_6, 30} mph, ansa na ɔde mmerԑ no a aka wɔ dɔnhwere {num_digit_3, 4} no mu ԑԑkɔ {num_digit_7, 80} mph. Kwan a ԑda ɔne no fie no ntam dɔnhwere {num_digit_3, 4} yi akyi yԑ sԑn?",
+  "equation": "UPDATE HERE"
+}

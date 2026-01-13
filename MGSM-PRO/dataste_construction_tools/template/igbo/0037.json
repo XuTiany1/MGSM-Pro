@@ -1,0 +1,8 @@
+{
+  "original_question": "John n'atụ atụmatụ ire ngwa egwuregwu ya ma were ego ahụ zụta ihe egwuregwu vidio. Ọ nwere lego iri na atọ ma ọ na-ere ha $15 otunaotu. O mechara zụta ihe egwuregwu vidio asatọ bụ $20 otunaotu ma nwee $5 fọdụrụ. Lego ole ka ọ ka nwere?",
+  "original_answer": 2,
+  "symbolic_template": "{name_male, John} n'atụ atụmatụ ire ngwa egwuregwu ya ma were ego ahụ zụta ihe egwuregwu vidio. Ọ nwere lego {num_digit_1, 13} ma ọ na-ere ha ${num_digit_2, 15} otunaotu. O mechara zụta ihe egwuregwu vidio {num_digit_3, 8} bụ ${num_digit_4, 20} otunaotu ma nwee ${num_digit_5, 5} fọdụrụ. Lego ole ka ọ ka nwere?",
+  "ic_sentence_template": "Nwanne nne {name_male, John} zutere mkpụrụ ihe ngosi ọgụ {num_ic, 38} n’afọ gara aga.",
+  "ic_template": "Nwanne nne {name_male, John} zutere mkpụrụ ihe ngosi ọgụ {num_ic, 38} n’afọ gara aga. {name_male, John} n'atụ atụmatụ ire ngwa egwuregwu ya ma were ego ahụ zụta ihe egwuregwu vidio. Ọ nwere lego {num_digit_1, 13} ma ọ na-ere ha ${num_digit_2, 15} otunaotu. O mechara zụta ihe egwuregwu vidio {num_digit_3, 8} bụ ${num_digit_4, 20} otunaotu ma nwee ${num_digit_5, 5} fọdụrụ. Lego ole ka ọ ka nwere?",
+  "equation": "UPDATE HERE"
+}

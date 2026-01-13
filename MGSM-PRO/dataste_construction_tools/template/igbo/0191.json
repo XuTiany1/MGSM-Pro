@@ -1,0 +1,8 @@
+{
+  "original_question": "Ọbọgwụ kwesịrị iri arụrụ paụnds atọ kpọm ise n'izu ụka ọ bụla iji wee dị ndụ. Ọ bụrụ n'enwere igwe ọbọgwụ iri, paụnds arụrụ ole ka ha kwesiri iri n'ụbọchị ọ bụla?",
+  "original_answer": 5,
+  "symbolic_template": "Ọbọgwụ kwesịrị iri arụrụ paụnds {num_digit_1, 3.5} n'izu ụka ọ bụla iji wee dị ndụ. Ọ bụrụ n'enwere igwe ọbọgwụ iri, paụnds arụrụ ole ka ha kwesiri iri n'ụbọchị ọ bụla?",
+  "ic_sentence_template": "Ebe a nwere {num_ic, 144} amị na-ebi n'ime ọdọ mmiri dị n'akụkụ ubi.",
+  "ic_template": "Ebe a nwere {num_ic, 144} amị na-ebi n'ime ọdọ mmiri dị n'akụkụ ubi. Ọbọgwụ kwesịrị iri arụrụ paụnds {num_digit_1, 3.5} n'izu ụka ọ bụla iji wee dị ndụ. Ọ bụrụ n'enwere igwe ọbọgwụ iri, paụnds arụrụ ole ka ha kwesiri iri n'ụbọchị ọ bụla?",
+  "equation": "UPDATE HERE"
+}

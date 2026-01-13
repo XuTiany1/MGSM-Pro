@@ -1,0 +1,8 @@
+{
+  "original_question": "Tom's ship can travel at 15 miles per hour. He is sailing from 1 to 9 PM. He then travels back at a rate of 6 mph. How long does it take him to get back?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male, Tom}'s ship can travel at {num_digit_1, 15} miles per hour. He is sailing from {num_digit_2, 1} to {num_digit_3, 9} PM. He then travels back at a rate of {num_digit_4, 6} mph. How long does it take him to get back?",
+  "ic_sentence_template": "{name_male, Tom}'s uncle recently bought {num_ic, 20} model boats.",
+  "ic_template": "{name_male, Tom}'s ship can travel at {num_digit_1, 15} miles per hour. He is sailing from {num_digit_2, 1} to {num_digit_3, 9} PM. He then travels back at a rate of {num_digit_4, 6} mph. {name_male, Tom}'s uncle recently bought {num_ic, 20} model boats. How long does it take him to get back?",
+  "equation": "UPDATE HERE"
+}

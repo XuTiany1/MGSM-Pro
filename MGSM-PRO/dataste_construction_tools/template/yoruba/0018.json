@@ -1,0 +1,8 @@
+{
+  "original_question": "Claire ṣe ómúlẹ̀tì ẹyin 3 ní àràárọ̀ fún oúnjẹ àárọ̀. Ẹyin dọ́sínì mélòó ní yóò jẹ ní ọ̀sẹ̀ 4?",
+  "original_answer": 7,
+  "symbolic_template": "{name_female, Claire} ṣe ómúlẹ̀tì ẹyin {num_digit_1, 3} ní àràárọ̀ fún oúnjẹ àárọ̀. Ẹyin dọ́sínì mélòó ní yóò jẹ ní ọ̀sẹ̀ {num_digit_2, 4}?",
+  "ic_sentence_template": "Arákùnrin {name_female, Claire} ní adìẹ {num_ic, 44} lóko rẹ̀.",
+  "ic_template": "Arákùnrin {name_female, Claire} ní adìẹ {num_ic, 44} lóko rẹ̀. {name_female, Claire} ṣe ómúlẹ̀tì ẹyin {num_digit_1, 3} ní àràárọ̀ fún oúnjẹ àárọ̀. Ẹyin dọ́sínì mélòó ní yóò jẹ ní ọ̀sẹ̀ {num_digit_2, 4}?",
+  "equation": "UPDATE HERE"
+}

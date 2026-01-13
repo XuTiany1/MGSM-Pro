@@ -1,0 +1,8 @@
+{
+  "original_question": "Mike bɔ bɔɔlo a wɔbɔ wɔ pono so simma 40. Wɔ simma 20 a ԑdi kan no, ɔhyԑ osiwieeԑ 4. Wɔ simma 20 a ԑdi soɔ no, ɔhyԑԑ osiwieeԑ ɔha mu nkyԑmu aduonunum kyԑn kanee no. Osiwieeԑ dodoɔ sԑn na ɔhyԑԑeԑ?",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, Mike} bɔ bɔɔlo a wɔbɔ wɔ pono so simma {num_digit_1, 40}. Wɔ simma {num_digit_2, 20} a ԑdi kan no, ɔhyԑ osiwieeԑ {num_digit_3, 16}. Wɔ simma {num_digit_4, 20} a ԑdi soɔ no, ɔhyԑԑ osiwieeԑ {num_digit_5, 25}% kyԑn kanee no. Osiwieeԑ dodoɔ sԑn na ɔhyԑԑeԑ?",
+  "ic_sentence_template": "{name_male, Mike} wɔfa no hwɛ ping pong mpɛnsɛmpɛnsɛm {num_ic, 102} afe biara.",
+  "ic_template": "{name_male, Mike} bɔ bɔɔlo a wɔbɔ wɔ pono so simma {num_digit_1, 40}. Wɔ simma {num_digit_2, 20} a ԑdi kan no, ɔhyԑ osiwieeԑ {num_digit_3, 16}. Wɔ simma {num_digit_4, 20} a ԑdi soɔ no, ɔhyԑԑ osiwieeԑ {num_digit_5, 25}% kyԑn kanee no. Osiwieeԑ dodoɔ sԑn na ɔhyԑԑeԑ? {name_male, Mike} wɔfa no hwɛ ping pong mpɛnsɛmpɛnsɛm {num_ic, 102} afe biara.",
+  "equation": "UPDATE HERE"
+}

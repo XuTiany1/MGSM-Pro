@@ -1,0 +1,8 @@
+{
+  "original_question": "Lloyd nwere otu ugbo àkwá. Ọkụkọ ndị o nwere na-eyi àkwá narị abụọ, iri ise na abụọ kwa ụbọchị ma ọ na-ere ha $2 otu dọzinụ. Ego ole ka Lloyd na-enweta n'àkwá kwa izu ụka? ",
+  "original_answer": 294,
+  "symbolic_template": "{name_male, Lloyd} nwere otu ugbo àkwá. Ọkụkọ ndị o nwere na-eyi àkwá {num_digit_1, 252} kwa ụbọchị ma ọ na-ere ha ${num_digit_2, 2} otu dọzinụ. Ego ole ka {name_male, Lloyd} na-enweta n'àkwá kwa izu ụka?",
+  "ic_sentence_template": "Nwanne nna {name_male, Lloyd} zụtara nnụnụ ọdụgbọsị {num_ic, 105} ugbu a.",
+  "ic_template": "Nwanne nna {name_male, Lloyd} zụtara nnụnụ ọdụgbọsị {num_ic, 105} ugbu a. {name_male, Lloyd} nwere otu ugbo àkwá. Ọkụkọ ndị o nwere na-eyi àkwá {num_digit_1, 252} kwa ụbọchị ma ọ na-ere ha ${num_digit_2, 2} otu dọzinụ. Ego ole ka {name_male, Lloyd} na-enweta n'àkwá kwa izu ụka?",
+  "equation": "UPDATE HERE"
+}

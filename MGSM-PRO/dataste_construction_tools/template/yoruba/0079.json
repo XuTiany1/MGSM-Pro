@@ -1,0 +1,8 @@
+{
+  "original_question": "John gba ajá kan tọ́. Ó mú ajá náà lọ sí ọ̀dọ́ olùtọ́jú, èyí tó ná a tó $100. Olùtọ́jú náà fún-un ní ọ̀diwọ̀n 30% nítorí ó jẹ́ oníbàárà tuntun. Èló ní owó ìtọjú náà jẹ́?",
+  "original_answer": 70,
+  "symbolic_template": "{name_male, John} gba ajá kan tọ́. Ó mú ajá náà lọ sí ọ̀dọ́ olùtọ́jú, èyí tó ná a tó ${num_digit_1, 100}. Olùtọ́jú náà fún-un ní ọ̀diwọ̀n {num_digit_2, 30}% nítorí ó jẹ́ oníbàárà tuntun. Èló ní owó ìtọjú náà jẹ́?",
+  "ic_sentence_template": "Arákùnrin {name_male, John} ní àwọn ọ̀yà {num_ic, 13}.",
+  "ic_template": "Arákùnrin {name_male, John} ní àwọn ọ̀yà {num_ic, 13}. {name_male, John} gba ajá kan tọ́. Ó mú ajá náà lọ sí ọ̀dọ́ olùtọ́jú, èyí tó ná a tó ${num_digit_1, 100}. Olùtọ́jú náà fún-un ní ọ̀diwọ̀n {num_digit_2, 30}% nítorí ó jẹ́ oníbàárà tuntun. Èló ní owó ìtọjú náà jẹ́?",
+  "equation": "UPDATE HERE"
+}

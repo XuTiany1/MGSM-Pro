@@ -1,0 +1,8 @@
+{
+  "original_question": "Les canes de Janet pondent 16 œufs par jour. Chaque matin, elle en mange trois au petit déjeuner et en utilise quatre autres pour préparer des muffins pour ses amis. Ce qui reste, elle le vend quotidiennement au marché fermier, au prix de 2 $ l'œuf de cane frais. Combien (en dollars) gagne-t-elle chaque jour au marché fermier ?",
+  "original_answer": 18,
+  "symbolic_template": "Les canes de {name_female, Janet} pondent {num_digit_1, 16} œufs par jour. Chaque matin, elle en mange trois au petit déjeuner et en utilise quatre autres pour préparer des muffins pour ses amis. Ce qui reste, elle le vend quotidiennement au marché fermier, au prix de {num_digit_2, 2} $ l'œuf de cane frais. Combien (en dollars) gagne-t-elle chaque jour au marché fermier ?",
+  "ic_sentence_template": "{name_female, Janet} reçoit {num_ic, 41} pommes de son oncle chaque semaine.",
+  "ic_template": "{name_female, Janet} reçoit {num_ic, 41} pommes de son oncle chaque semaine. Les canes de {name_female, Janet} pondent {num_digit_1, 16} œufs par jour. Chaque matin, elle en mange trois au petit déjeuner et en utilise quatre autres pour préparer des muffins pour ses amis. Ce qui reste, elle le vend quotidiennement au marché fermier, au prix de {num_digit_2, 2} $ l'œuf de cane frais. Combien (en dollars) gagne-t-elle chaque jour au marché fermier ?",
+  "equation": "UPDATE HERE"
+}

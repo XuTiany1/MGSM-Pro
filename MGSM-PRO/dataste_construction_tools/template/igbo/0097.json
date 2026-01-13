@@ -1,0 +1,8 @@
+{
+  "original_question": "Mgbe Freda na-esi mkpọ tomato banye na sọọsụ, ọkara volum na-efunahụ ha. Mkpọ tomato ounce 16 ọ bụla nwere tomato atọ. Sọọsụ tomato nke ịkpeazụ Freda mere metara sọọsu ounce 32. Tomato ole ka Freda jiri mee ya?",
+  "original_answer": 12,
+  "symbolic_template": "Mgbe {name_female, Freda} na-esi mkpọ tomato banye na sọọsụ, ọkara volum na-efunahụ ha. Mkpọ tomato ounce {num_digit_1, 16} ọ bụla nwere tomato atọ. Sọọsụ tomato nke ịkpeazụ {name_female, Freda} mere metara sọọsu ounce {num_digit_2, 32}. Tomato ole ka {name_female, Freda} jiri mee ya?",
+  "ic_sentence_template": "Nwanne nne {name_female, Freda} nwere osisi tomaatị {num_ic, 57} n'azụ ụlọ ya.",
+  "ic_template": "Nwanne nne {name_female, Freda} nwere osisi tomaatị {num_ic, 57} n'azụ ụlọ ya. Mgbe {name_female, Freda} na-esi mkpọ tomato banye na sọọsụ, ọkara volum na-efunahụ ha. Mkpọ tomato ounce {num_digit_1, 16} ọ bụla nwere tomato atọ. Sọọsụ tomato nke ịkpeazụ {name_female, Freda} mere metara sọọsu ounce {num_digit_2, 32}. Tomato ole ka {name_female, Freda} jiri mee ya?",
+  "equation": "UPDATE HERE"
+}

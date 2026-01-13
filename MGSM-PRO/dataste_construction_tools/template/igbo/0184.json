@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerry na-atụ mkpụrụ okwe ịhụ isii. Kedụ otu ọzọ o nwekariri ị́ké ịtụ ya (akpọpụta ya dịka pesenti) ka ọ bụrụ ọnụọgụgụ dị ugboro atọ karịa na ọ tụrụ ọnụọgụgụ abụọ enwere ị́ké ike nhatanha? ",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Jerry}  na-atụ mkpụrụ okwe ịhụ isii. Kedụ otu ọzọ o nwekariri ị́ké ịtụ ya (akpọpụta ya dịka pesenti) ka ọ bụrụ ọnụọgụgụ dị elu karịa {num_digit_1, 3} karịa na ọ tụrụ abụọ ọnụọgụgụ abụọ enwere ị́ké ike nhatanha?",
+  "ic_sentence_template": "Nwanne nna {name_male, Jerry} tụkọrọ mkpụrụ ịkụ nzọ {num_ic, 73} otu ugboro.",
+  "ic_template": "Nwanne nna {name_male, Jerry} tụkọrọ mkpụrụ ịkụ nzọ {num_ic, 73} otu ugboro. {name_male, Jerry}  na-atụ mkpụrụ okwe ịhụ isii. Kedụ otu ọzọ o nwekariri ị́ké ịtụ ya (akpọpụta ya dịka pesenti) ka ọ bụrụ ọnụọgụgụ dị elu karịa {num_digit_1, 3} karịa na ọ tụrụ abụọ ọnụọgụgụ abụọ enwere ị́ké ike nhatanha?",
+  "equation": "UPDATE HERE"
+}

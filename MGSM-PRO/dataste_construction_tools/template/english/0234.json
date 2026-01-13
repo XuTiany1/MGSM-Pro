@@ -1,0 +1,8 @@
+{
+  "original_question": "Steve decides to start eating more tomatoes and decides to grows his own cherry tomatoes.  He eats twice as much as his girlfriend.  He eats 6 per day.  If a vine can produce 3 tomatoes per week how many vines does he need?",
+  "original_answer": 21,
+  "symbolic_template": "{name_male, Steve} decides to start eating more tomatoes and decides to grow his own cherry tomatoes. He eats twice as much as his girlfriend. He eats {num_digit_1, 6} per day. If a vine can produce {num_digit_2, 3} tomatoes per week how many vines does he need?",
+  "ic_sentence_template": "{name_male, Steve}'s aunt grows {num_ic, 1531} peppers every summer.",
+  "ic_template": "{name_male, Steve} decides to start eating more tomatoes and decides to grow his own cherry tomatoes. He eats twice as much as his girlfriend. He eats {num_digit_1, 6} per day. {name_male, Steve}'s aunt grows {num_ic, 1531} peppers every summer. If a vine can produce {num_digit_2, 3} tomatoes per week how many vines does he need?",
+  "equation": "UPDATE HERE"
+}

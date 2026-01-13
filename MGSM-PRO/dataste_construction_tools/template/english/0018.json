@@ -1,0 +1,8 @@
+{
+  "original_question": "Claire makes a 3 egg omelet every morning for breakfast. How many dozens of eggs will she eat in 4 weeks?",
+  "original_answer": 7,
+  "symbolic_template": "{name_female, Claire} makes a {num_digit_1, 3} egg omelet every morning for breakfast. How many dozens of eggs will she eat in {num_digit_2, 4} weeks?",
+  "ic_sentence_template": "{name_female, Claire}'s uncle has {num_ic, 44} hens on his farm.",
+  "ic_template": "{name_female, Claire} makes a {num_digit_1, 3} egg omelet every morning for breakfast. {name_female, Claire}'s uncle has {num_ic, 44} hens on his farm. How many dozens of eggs will she eat in {num_digit_2, 4} weeks?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "ጆን ለእያንዳንዱ 3 ልጆቹ 2 ጥንድ ጫማ ይገዛል። ጫማዎቹ 60 ዶላር ያስከፍላሉ። ምን ያህል ከፍሏል?",
+  "original_answer": 360,
+  "symbolic_template": "{name_male, ጆን} ለእያንዳንዱ {num_digit_2, 3} ልጆቹ {num_digit_1, 2} ጥንድ ጫማ ይገዛል። ጫማዎቹ ${num_digit_3, 60} ዶላር ያስከፍላሉ። ምን ያህል ከፍሏል?",
+  "ic_sentence_template": "{name_male, ጆን} አጎቱ አንድ ጊዜ {num_ic, 15} ባርኔጣዎች ገዛ።",
+  "ic_template": "{name_male, ጆን} ለእያንዳንዱ {num_digit_2, 3} ልጆቹ {num_digit_1, 2} ጥንድ ጫማ ይገዛል። ጫማዎቹ ${num_digit_3, 60} ዶላር ያስከፍላሉ። ምን ያህል ከፍሏል? {name_male, ጆን} አጎቱ አንድ ጊዜ {num_ic, 15} ባርኔጣዎች ገዛ።",
+  "equation": "UPDATE HERE"
+}

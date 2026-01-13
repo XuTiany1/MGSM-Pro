@@ -1,0 +1,8 @@
+{
+  "original_question": "ケイティはコーヒーを、小さじ数杯の砂糖と数杯のお湯を7:13の割合で作ります。全部で小さじ120杯の砂糖とお湯を使った場合、彼女が使った砂糖が小さじ何杯になるかを計算しなさい。",
+  "original_answer": 42,
+  "symbolic_template": "{name_female, ケイティ} はコーヒーを、小さじ数杯の砂糖と数杯のお湯を{num_digit_1, 7}:{num_digit_2, 13}の割合で作ります。全部で小さじ{num_digit_3, 120}杯の砂糖とお湯を使った場合、彼女が使った砂糖が小さじ何杯になるかを計算しなさい。",
+  "ic_sentence_template": "{name_female, ケイティ}のおじは毎月{num_ic, 47}杯のコーヒーを飲みます。",
+  "ic_template": "{name_female, ケイティ}のおじは毎月{num_ic, 47}杯のコーヒーを飲みます。{name_female, ケイティ} はコーヒーを、小さじ数杯の砂糖と数杯のお湯を{num_digit_1, 7}:{num_digit_2, 13}の割合で作ります。全部で小さじ{num_digit_3, 120}杯の砂糖とお湯を使った場合、彼女が使った砂糖が小さじ何杯になるかを計算しなさい。",
+  "equation": "UPDATE HERE"
+}

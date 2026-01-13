@@ -1,0 +1,8 @@
+{
+  "original_question": "Alena debanyere aha n'ozi strimin nke na-ana ya $140 kwa ọnwa. Ọ bụrụ na ụlọ ọrụ strimin nara ya ego mbụ maka ọkara mbụ nke afọ ya na10% pekarịa ego nke ọkara afọ nke ọzọ, gbakọọ ego ngụkọta ole ọ kwụrụ maka ozi strimin na njedebe nke afọ ahụ.",
+  "original_answer": 1596,
+  "symbolic_template": "{name_female, Aleena} debanyere aha n'ozi strimin nke na-ana ya ${num_digit_1, 140} kwa ọnwa. Ọ bụrụ na ụlọ ọrụ strimin nara ya ego mbụ maka ọkara mbụ nke afọ ya na{num_digit_2, 10}% pekarịa ego nke ọkara afọ nke ọzọ, gbakọọ ego ngụkọta ole ọ kwụrụ maka ozi strimin na njedebe nke afọ ahụ.",
+  "ic_sentence_template": "Nwanne nne {name_female, Aleena} zụtara posters ihe nkiri {num_ic, 57} n'afọ gara aga.",
+  "ic_template": "Nwanne nne {name_female, Aleena} zụtara posters ihe nkiri {num_ic, 57} n'afọ gara aga. {name_female, Aleena} debanyere aha n'ozi strimin nke na-ana ya ${num_digit_1, 140} kwa ọnwa. Ọ bụrụ na ụlọ ọrụ strimin nara ya ego mbụ maka ọkara mbụ nke afọ ya na{num_digit_2, 10}% pekarịa ego nke ọkara afọ nke ọzọ, gbakọọ ego ngụkọta ole ọ kwụrụ maka ozi strimin na njedebe nke afọ đó.",
+  "equation": "UPDATE HERE"
+}

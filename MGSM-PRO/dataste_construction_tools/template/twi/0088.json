@@ -1,0 +1,8 @@
+{
+  "original_question": "Marilyn apaawa a ԑdi kan no tɔnn mprԑ mmɔho du kyԑn Harry deԑ no. Sԑ wɔn nyinaa tɔnn apaawa 88,000 a, apaawa dodoɔ sԑn na Harry tɔnneԑ?",
+  "original_answer": 8000,
+  "symbolic_template": "{name_male_1, Marilyn} apaawa a ԑdi kan no tɔnn mprԑ mmɔho {num_digit_1, du} kyԑn {name_male_2, Harry} deԑ no. Sԑ wɔn nyinaa tɔnn apaawa {num_digit_2, 88,000} a, apaawa dodoɔ sԑn na {name_male_2, Harry} tɔnneԑ?",
+  "ic_sentence_template": "{name_male_1, Marilyn} wͻfa nyaa akyitaafoɔ krataa {num_ic, 23,000} afe a atwa mu.",
+  "ic_template": "{name_male_1, Marilyn} wͻfa nyaa akyitaafoɔ krataa {num_ic, 23,000} afe a atwa mu. {name_male_1, Marilyn} apaawa a ԑdi kan no tɔnn mprԑ mmɔho {num_digit_1, du} kyԑn {name_male_2, Harry} deԑ no. Sԑ wɔn nyinaa tɔnn apaawa {num_digit_2, 88,000} a, apaawa dodoɔ sԑn na {name_male_2, Harry} tɔnneԑ?",
+  "equation": "UPDATE HERE"
+}

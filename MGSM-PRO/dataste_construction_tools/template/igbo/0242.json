@@ -1,0 +1,8 @@
+{
+  "original_question": "Mike bụ odeakwụkwọ enyị nye mmadụ ise. Ọ kwụsịrị ịbụ odeakwụkwọ enyị nye mmadụ abụọ n'ịme ha. Ha dum na-eziga leta abụọ kwa izu ụka nke dị ibe akwụkwọ ise. Ọ na-asaghachikwa ha otu ahụ. O nwere ike ide otu ibe akwụkwọ kwa nkeji ise. Awa ole ka ọ na-ewe ya ide ịhe kwa izu ụka?",
+  "original_answer": 3,
+  "symbolic_template": "{name_male, Mike} bụ odeakwụkwọ enyị nye mmadụ {num_digit_1, ise}. Ọ kwụsịrị ịbụ odeakwụkwọ enyị nye mmadụ {num_digit_2, 2} n'ịme ha. Ha dum na-eziga leta {num_digit_3, 2} kwa izu ụka nke dị ibe akwụkwọ {num_digit_4, 5}. Ọ na-asaghachikwa ha otu ahụ. O nwere ike ide otu ibe akwụkwọ kwa nkeji {num_digit_6, 6}. Awa ole ka ọ na-ewe ya ide ihe kwa izu ụka?",
+  "ic_sentence_template": "Nwanne nne {name_male, Mike} na-agụ akwụkwọ {num_ic, 91741} kwa afọ.",
+  "ic_template": "Nwanne nne {name_male, Mike} na-agụ akwụkwọ {num_ic, 91741} kwa afọ. {name_male, Mike} bụ odeakwụkwọ enyị nye mmadụ {num_digit_1, ise}. Ọ kwụsịrị ịbụ odeakwụkwọ enyị nye mmadụ {num_digit_2, 2} n'ịme ha. Ha dum na-eziga leta {num_digit_3, 2} kwa izu ụka nke dị ibe akwụkwọ {num_digit_4, 5}. Ọ na-asaghachikwa ha otu ahụ. O nwere ike ide otu ibe akwụkwọ kwa nkeji {num_digit_6, 6}. Awa ole ka ọ na-ewe ya ide ihe kwa izu ụka?",
+  "equation": "UPDATE HERE"
+}

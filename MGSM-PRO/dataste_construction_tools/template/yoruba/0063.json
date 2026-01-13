@@ -1,0 +1,8 @@
+{
+  "original_question": "Aleena san àsaánlẹ̀ owó sí ìpèsè iṣẹ́ ìwo nǹkan lórí ẹ̀rọ ayélujára tó ń gba $140 lọ́wọ́ rẹ̀ lóṣù. Tí ilé iṣẹ́ ìwo nǹkan lórí ẹ̀rọ ayélujára náà bá gba àkọ́kọ́ san owó fún ìdajì ọdún àkọ́kọ́ tí wọ́n tún dín-in ní 10% nínú owó fún ìdajì ọdún tó kù, ṣe ìṣirò àpapọ̀ iye owó tó ti san fún ilé iṣẹ́ ìwo nǹkan lórí ẹ̀rọ ayélujára náà ní ìparí ọdún.",
+  "original_answer": 1596,
+  "symbolic_template": "{name_female, Aleena} san àsaánlẹ̀ owó sí ìpèsè iṣẹ́ ìwo nǹkan lórí ẹ̀rọ ayélujára tó ń gba ${num_digit_1, 140} lọ́wọ́ rẹ̀ lóṣù. Tí ilé iṣẹ́ ìwo nǹkan lórí ẹ̀rọ ayélujára náà bá gba àkọ́kọ́ san owó fún ìdajì ọdún àkọ́kọ́ tí wọ́n tún dín-in ní {num_digit_2, 10}% nínú owó fún ìdajì ọdún tó kù, ṣe ìṣirò àpapọ̀ iye owó tó ti san fún ilé iṣẹ́ ìwo nǹkan lórí ẹ̀rọ ayélujára náà ní ìparí ọdún.",
+  "ic_sentence_template": "Ìyá ńlá {name_female, Aleena} rà àwọn àwòrán fíìmù {num_ic, 57} lọ́dún tó kọjá.",
+  "ic_template": "Ìyá ńlá {name_female, Aleena} rà àwọn àwòrán fíìmù {num_ic, 57} lọ́dún tó kọjá. {name_female, Aleena} san àsaánlẹ̀ owó sí ìpèsè iṣẹ́ ìwo nǹkan lórí ẹ̀rọ ayélujára tó ń gba ${num_digit_1, 140} lọ́wọ́ rẹ̀ lóṣù. Tí ilé iṣẹ́ ìwo nǹkan lórí ẹ̀rọ ayélujára náà bá gba àkọ́kọ́ san owó fún ìdajì ọdún àkọ́kọ́ tí wọ́n tún dín-in ní {num_digit_2, 10}% nínú owó fún ìdajì ọdún tó kù, ṣe ìṣirò àpapọ̀ iye owó tó ti san fún ilé iṣẹ́ ìwo nǹkan lórí ẹ̀rọ ayélujára náà ní ìparí ọdún.",
+  "equation": "UPDATE HERE"
+}

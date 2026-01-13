@@ -1,0 +1,8 @@
+{
+  "original_question": "Raphael went to buy some school supplies. He bought 4 pens which cost $1.5 each, 2 notebooks which cost $4 each, and a rim of bond paper which cost $20. How much did Raphael spend on everything?",
+  "original_answer": 34,
+  "symbolic_template": "{name_male, Raphael} went to buy some school supplies. He bought {num_digit_1, 4} pens which cost ${num_digit_2, 1.5} each, {num_digit_3, 2} notebooks which cost ${num_digit_4, 4} each, and a rim of bond paper which cost ${num_digit_5, 20}. How much did {name_male, Raphael} spend on everything?",
+  "ic_sentence_template": "{name_male, Raphael}'s uncle brought {num_ic, 19} boxes of crayons last week.",
+  "ic_template": "{name_male, Raphael} went to buy some school supplies. He bought {num_digit_1, 4} pens which cost ${num_digit_2, 1.5} each, {num_digit_3, 2} notebooks which cost ${num_digit_4, 4} each, and a rim of bond paper which cost ${num_digit_5, 20}. {name_male, Raphael}'s uncle brought {num_ic, 19} boxes of crayons last week. How much did {name_male, Raphael} spend on everything?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Charlie has three times as many Facebook friends as Dorothy. James has four times as many friends on Facebook as Dorothy. If Charlie has 12 friends on Facebook, how many Facebook friends does James have?",
+  "original_answer": 16,
+  "symbolic_template": "{name_male_1, Charlie} has three times as many Facebook friends as {name_male_2, Dorothy}. {name_male_3, James} has four times as many friends on Facebook as {name_male_2, Dorothy}. If {name_male_1, Charlie} has {num_digit_1, 12} friends on Facebook, how many Facebook friends does {name_male_3, James} have?",
+  "ic_sentence_template": "{name_male_3, James}'s aunt recently adopted {num_ic, 67} puppies.",
+  "ic_template": "{name_male_1, Charlie} has three times as many Facebook friends as {name_male_2, Dorothy}. {name_male_3, James} has four times as many friends on Facebook as {name_male_2, Dorothy}. {name_male_3, James}'s aunt recently adopted {num_ic, 67} puppies. If {name_male_1, Charlie} has {num_digit_1, 12} friends on Facebook, how many Facebook friends does {name_male_3, James} have?",
+  "equation": "UPDATE HERE"
+}

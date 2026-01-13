@@ -1,0 +1,8 @@
+{
+  "original_question": "Mkoba wa kitabu wa Uriah unakuwa mzito sana kwake. Anahitaji kuondoa pauni 15 kwenye mkoba huo. Vitabu vyake vya futuhi vina uzani wa pauni 1/4 kila kimoja na wanasesere wake wana uzani wa pauni 1/2 kila mmoja. Akiondoa vitabu 30 vya futuhi, anahitaji kuondoa wanasesere wangapi?",
+  "original_answer": 15,
+  "symbolic_template": "Mkoba wa kitabu wa {name_male, Uriah} unakuwa mzito sana kwake. Anahitaji kuondoa pauni {num_digit_1, 15} kwenye mkoba huo. Vitabu vyake vya futuhi vina uzani wa pauni 1/4 kila kimoja na wanasesere wake wana uzani wa pauni 1/2 kila mmoja. Akiondoa vitabu {num_digit_2, 30} vya futuhi, anahitaji kuondoa wanasesere wangapi?",
+  "ic_sentence_template": "Shangazi wa {name_male, Uriah} alipata marumaru {num_ic, 91} kwenye dari la nyumba yake.",
+  "ic_template": "Shangazi wa {name_male, Uriah} alipata marumaru {num_ic, 91} kwenye dari la nyumba yake. Mkoba wa kitabu wa {name_male, Uriah} unakuwa mzito sana kwake. Anahitaji kuondoa pauni {num_digit_1, 15} kwenye mkoba huo. Vitabu vyake vya futuhi vina uzani wa pauni 1/4 kila kimoja na wanasesere wake wana uzani wa pauni 1/2 kila mmoja. Akiondoa vitabu {num_digit_2, 30} vya futuhi, anahitaji kuondoa wanasesere wangapi?",
+  "equation": "UPDATE HERE"
+}

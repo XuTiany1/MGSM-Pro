@@ -1,0 +1,8 @@
+{
+  "original_question": "Ram utilise de nombreux stylos. Il a découvert qu'il pouvait économiser de l'argent en mélangeant l'encre de cinq stylos vides pour fabriquer un stylo plein. S'il achète 25 stylos qu'il utilise pour fabriquer de nouveaux stylos lorsque l'encre est épuisée, combien de stylos obtiendra-t-il au total ?",
+  "original_answer": 31,
+  "symbolic_template": "{name_male, Ram} utilise de nombreux stylos. Il a découvert qu'il pouvait économiser de l'argent en mélangeant l'encre de cinq stylos vides pour fabriquer un stylo plein. S'il achète {num_digit_1, 25} stylos qu'il utilise pour fabriquer de nouveaux stylos lorsque l'encre est épuisée, combien de stylos obtiendra-t-il au total ?",
+  "ic_sentence_template": "{name_male, Ram} a un oncle qui a acheté une fois {num_ic, 13408} cahiers à prix réduit.",
+  "ic_template": "{name_male, Ram} a un oncle qui a acheté une fois {num_ic, 13408} cahiers à prix réduit. {name_male, Ram} utilise de nombreux stylos. Il a découvert qu'il pouvait économiser de l'argent en mélangeant l'encre de cinq stylos vides pour fabriquer un stylo plein. S'il achète {num_digit_1, 25} stylos qu'il utilise pour fabriquer de nouveaux stylos lorsque l'encre est épuisée, combien de stylos obtiendra-t-il au total ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,10 @@
+{
+  "name_male": ["Akachukwu", "Arinze", "Azụbuike", "Ahamefuna", "Chibụeze", "Chibuike", "Chukwuma", "Chigọzie", "Chinonso", "Ebuka", "Emeka", "Ifeanyi", "Ikenna", "Kenechukuwu", "Mmadụabụchi", "Olisa", "Onyebuchi", "Obinna", "Obiora", "Ugochukwu"],
+  "name_female": ["Adaeze", "Akụnna", "Adaobi", "Adakụ", "Amaka", "Akụabata", "Chinwendụ", "Gịnịka", "Chidimma", "Chiasọka", "Chika", "Chiọma", "Chiamaka", "Chizọba", "Mmesoọma", "Nnenna", "Ogechukwu", "Ifeọma", "Ịfụnanya", "Ngozi"],
+  "name_town": ["Onitsha", "Aba", "Nnewi", "Awka", "Enugu", "Owerri", "Umuahia", "Abakaliki", "Afikpo", "Nsukka", "Umunze", "Ekwulobia", "Orlu", "Okigwe", "Ihiala", "Obigbo", "Agbor", "Agbani", "Okija", "Nkalagu"],
+  "name_dragon": ["Drogo"],
+  "name_mountain": ["Udi Hills", "Afi", "Obudu Plateau", "Sankwala Mountains"],
+  "name_family": ["Achebe", "Adichie", "Amadi", "Edochie", "Ejiofor", "Ezeani", "Mbanefo", "Nduka", "Nnadi", "Nwosu", "Okafor", "Okeke", "Okonkwo", "Onyewelu", "Onochie", "Orji", "Ozoemena", "Ukaegbu", "Umeh", "Uzoebgulam"],
+  "name_cat": ["Nwologbo", "Nwa mba", "Ologbo" ],
+  "name_dinosaur": ["Dino"]
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Jenna na mamake waliokota tufaha kutoka kwa shamba lao la tufaha. Jenna aliokota nusu ya tufaha ambazo mamake aliokota. Ikiwa mamake alipata tufaha 20, wote wawili waliokota tufaha ngapi?",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, Jenna} na mama yake waliokota tufaha kutoka kwa shamba lao la tufaha. {name_female, Jenna} aliokota nusu ya tufaha ambazo mamake aliokota. Ikiwa mamake alipata tufaha {num_digit_1, 20}, wote wawili waliokota tufaha ngapi?",
+  "ic_sentence_template": "Mjomba wa {name_female, Jenna} alileta chupa za juisi ya tufaha {num_ic, 154} shambani asubuhi hiyo.",
+  "ic_template": "Mjomba wa {name_female, Jenna} alileta chupa za juisi ya tufaha {num_ic, 154} shambani asubuhi hiyo. {name_female, Jenna} na mama yake waliokota tufaha kutoka kwa shamba lao la tufaha. {name_female, Jenna} aliokota nusu ya tufaha ambazo mamake aliokota. Ikiwa mamake alipata tufaha {num_digit_1, 20}, wote wawili waliokota tufaha ngapi?",
+  "equation": "UPDATE HERE"
+}

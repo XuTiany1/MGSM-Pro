@@ -1,0 +1,8 @@
+{
+  "original_question": "贝莉一开始领取一定数量的钱。然后她每周领取 5 美元，为期 8 周。8 周结束后，如果贝莉一共领取了 100 美元，她一开始领取的金额是多少？",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, 贝莉} 一开始领取一定数量的钱。然后她每周领取 {num_digit_1, 5} 美元，为期 {num_digit_2, 8} 周。{num_digit_2, 8} 周结束后，如果 {name_male, 贝莉} 一共领取了 {num_digit_3, 100} 美元，她一开始领取的金额是多少？",
+  "ic_sentence_template": "{name_male, 贝利} 的姑妈曾经收集过 {num_ic, 56} 枚稀有硬币。",
+  "ic_template": "{name_male, 贝利} 的姑妈曾经收集过 {num_ic, 56} 枚稀有硬币。{name_male, 贝莉} 一开始领取一定数量的钱。然后她每周领取 {num_digit_1, 5} 美元，为期 {num_digit_2, 8} 周。{num_digit_2, 8} 周结束后，如果 {name_male, 贝莉} 一共领取了 {num_digit_3, 100} 美元，她一开始领取的金额是多少？",
+  "equation": "UPDATE HERE"
+}

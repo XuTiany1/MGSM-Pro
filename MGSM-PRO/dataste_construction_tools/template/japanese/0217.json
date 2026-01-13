@@ -1,0 +1,8 @@
+{
+  "original_question": "花瓶には4本のバラがあります。花瓶に薔薇よりも7本多いダリアが入っています。花瓶には全部で何本の花が入っていますか？",
+  "original_answer": 15,
+  "symbolic_template": "花瓶には{num_digit_1, 4}本のバラがあります。花瓶に薔薇よりも{num_digit_2, 7}本多いダリアが入っています。花瓶には全部で何本の花が入っていますか？",
+  "ic_sentence_template": "{name_female, エミリー}のおばは温室で{num_ic, 1490}本のチューリップを所有しています。",
+  "ic_template": "{name_female, エミリー}のおばは温室で{num_ic, 1490}本のチューリップを所有しています。花瓶には{num_digit_1, 4}本のバラがあります。花瓶に薔薇よりも{num_digit_2, 7}本多いダリアが入っています。花瓶には全部で何本の花が入っていますか？",
+  "equation": "UPDATE HERE"
+}

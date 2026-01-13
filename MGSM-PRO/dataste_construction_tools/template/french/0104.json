@@ -1,0 +1,8 @@
+{
+  "original_question": "Poppy tente de résoudre un puzzle de 1 000 pièces. Elle place un quart des pièces sur le plateau, puis sa mère place un tiers des pièces restantes. Combien de pièces de puzzle reste-t-il à placer ?",
+  "original_answer": 500,
+  "symbolic_template": "{name_female, Poppy} tente de résoudre un puzzle de {num_digit_1, 1000} pièces. Elle place un quart des pièces sur le plateau, puis sa mère place un tiers des pièces restantes. Combien de pièces de puzzle reste-t-il à placer ?",
+  "ic_sentence_template": "{name_female, Poppy} a un oncle qui possède {num_ic, 98} jeux de société.",
+  "ic_template": "{name_female, Poppy} a un oncle qui possède {num_ic, 98} jeux de société. {name_female, Poppy} tente de résoudre un puzzle de {num_digit_1, 1000} pièces. Elle place un quart des pièces sur le plateau, puis sa mère place un tiers des pièces restantes. Combien de pièces de puzzle reste-t-il à placer ?",
+  "equation": "UPDATE HERE"
+}

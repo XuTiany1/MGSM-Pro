@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean adi mfeɛ mmienu sen Mark. Mfeɛ mmienu a atwam no, na Mark adi mfeɛ enum sen Jan fa mfeɛ. Sɛ Jan adi mfe aduasa a, ɛnde na Jean adi mfeɛ ahe?",
+  "original_answer": 23,
+  "symbolic_template": "{name_male_1, Jean} adi mfeɛ mmienu sen {name_male_2, Mark}. Mfeɛ mmienu a atwam no, na {name_male_2, Mark} adi mfeɛ {num_digit_1, enum} sen  {name_female, Jan} fa mfeɛ. Sɛ {name_female, Jan} adi mfeɛ {num_digit_2, aduasa} a, ɛnde na {name_male_1, Jean} adi mfeɛ ahe?",
+  "ic_sentence_template": "{name_male_1, Jean} wͻfa no wɔ sika tutu dedaw {num_ic, 82}.",
+  "ic_template": "{name_male_1, Jean} wͻfa no wɔ sika tutu dedaw {num_ic, 82}. {name_male_1, Jean} adi mfeɛ mmienu sen {name_male_2, Mark}. Mfeɛ mmienu a atwam no, na {name_male_2, Mark} adi mfeɛ {num_digit_1, enum} sen  {name_female, Jan} fa mfeɛ. Sɛ {name_female, Jan} adi mfeɛ {num_digit_2, aduasa} a, ɛnde na {name_male_1, Jean} adi mfeɛ ahe?",
+  "equation": "UPDATE HERE"
+}

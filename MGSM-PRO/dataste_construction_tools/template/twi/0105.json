@@ -1,0 +1,8 @@
+{
+  "original_question": "Cody di nkrakase mmɔhɔ mmiԑnsa kyԑn nkrakase dodoɔ a Amir di. Sԑ Amir di nkrakase 5 a, nkrakase dodoɔ sԑn na wɔn nyinaa di bɔ mu?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male_1, Cody} di nkrakase mmɔhɔ mmiɛnsa kyɛn nkrakase dodoɔ a {name_male_2, Amir} di. Sԑ {name_male_2, Amir} di nkrakase {num_digit_1, 5} a, nkrakase dodoɔ sԑn na wɔn nyinaa di bɔ mu?",
+  "ic_sentence_template": "{name_male_2, Amir} wɔfa de brownies {num_ic, 20} baeɛ apontow no ase.",
+  "ic_template": "{name_male_2, Amir} wɔfa de brownies {num_ic, 20} baeɛ apontow no ase. {name_male_1, Cody} di nkrakase mmɔhɔ mmiɛnsa kyɛn nkrakase dodoɔ a {name_male_2, Amir} di. Sԑ {name_male_2, Amir} di nkrakase {num_digit_1, 5} a, nkrakase dodoɔ sԑn na wɔn nyinaa di bɔ mu?",
+  "equation": "UPDATE HERE"
+}

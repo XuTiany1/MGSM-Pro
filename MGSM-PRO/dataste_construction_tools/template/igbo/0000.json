@@ -1,0 +1,8 @@
+{
+  "original_question": "Ọbọgwụ Janet yiri àkwá iri na isii kwa ụbọchị. Ọ na-eri atọ maka nri ụtụtụ ọbụla ma jiri anọ gheere ndị enyị ya achịcha mọfịn kwa ụbọchị. Ọ na-ere ndị fọrọ n'ahia ndị ọrụ ugbo kwa ụbọchị $2 maka otu àkwá ọbọgwụ. Kedụ ego dọla ole ọ na-enweta kwa ụbọchị n'ahịa ndị ọrụ ugbo? ",
+  "original_answer": 18,
+  "symbolic_template": "Ọbọgwụ {name_female, Janet} yiri àkwá {num_digit_1, 16} kwa ụbọchị. Ọ na-eri atọ maka nri ụtụtụ ọbụla ma jiri anọ gheere ndị enyị ya achịcha mọfịn kwa ụbọchị. Ọ na-ere ndị fọrọ n'ahia ndị ọrụ ugbo kwa ụbọchị ${num_digit_2, 2} maka otu àkwá ọbọgwụ. Kedụ ego dọla ole ọ na-enweta kwa ụbọchị n'ahịa ndị ọrụ ugbo?",
+  "ic_sentence_template": "Nwanna nna {name_female, Janet} na-ewetara ya apụl {num_ic, 41} kwa izu.",
+  "ic_template": "Ọbọgwụ {name_female, Janet} yiri àkwá {num_digit_1, 16} kwa ụbọchị. Ọ na-eri atọ maka nri ụtụtụ ọbụla ma jiri anọ gheere ndị enyị ya achịcha mọfịn kwa ụbọchị. Ọ na-ere ndị fọrọ n'ahia ndị ọrụ ugbo kwa ụbọchị ${num_digit_2, 2} maka otu àkwá ọbọgwụ. Nwanna nna {name_female, Janet} na-ewetara ya apụl {num_ic, 41} kwa izu. Kedụ ego dọla ole ọ na-enweta kwa ụbọchị n'ahịa ndị ọrụ ugbo?",
+  "equation": "UPDATE HERE"
+}

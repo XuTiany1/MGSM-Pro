@@ -1,0 +1,8 @@
+{
+  "original_question": "Tom gets 4 car washes a month. If each car wash costs $15 how much does he pay in a year?",
+  "original_answer": 720,
+  "symbolic_template": "{name_male, Tom} gets {num_digit_1, 4} car washes a month. If each car wash costs ${num_digit_2, 15} how much does he pay in a year?",
+  "ic_sentence_template": "{name_male, Tom}'s cousin bought {num_ic, 14} toy cars last week.",
+  "ic_template": "{name_male, Tom} gets {num_digit_1, 4} car washes a month. {name_male, Tom}'s cousin bought {num_ic, 14} toy cars last week. If each car wash costs ${num_digit_2, 15} how much does he pay in a year?",
+  "equation": "UPDATE HERE"
+}

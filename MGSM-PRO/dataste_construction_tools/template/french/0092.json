@@ -1,0 +1,8 @@
+{
+  "original_question": "Émilie a 4 enfants qui s'appellent Amy, Jackson, Corey et Jacques. Amy a 5 ans de plus que Jackson et 2 ans de moins que Corey. Si Jacques a 10 ans et 1 an de moins que Corey, quel est l'âge de Jackson ?",
+  "original_answer": 4,
+  "symbolic_template": "{name_female_1, Émilie} a {num_digit_1, 4} enfants qui s'appellent {name_female_2, Amy}, {name_male_1, Jackson}, {name_male_2, Corey} et {name_male_3, Jacques}. {name_female_2, Amy} a {num_digit_2, 5} ans de plus que {name_male_1, Jackson} et {num_digit_3, 2} ans de moins que {name_male_2, Corey}. Si {name_male_3, Jacques} a {num_digit_4, 10} ans et {num_digit_5, 1} an de moins que {name_male_2, Corey}, quel est l'âge de {name_male_1, Jackson} ?",
+  "ic_sentence_template": "{name_female_1, Emily} a un oncle qui a acheté {num_ic, 39} pommes au magasin.",
+  "ic_template": "{name_female_1, Emily} a un oncle qui a acheté {num_ic, 39} pommes au magasin. {name_female_1, Émilie} a {num_digit_1, 4} enfants qui s'appellent {name_female_2, Amy}, {name_male_1, Jackson}, {name_male_2, Corey} et {name_male_3, Jacques}. {name_female_2, Amy} a {num_digit_2, 5} ans de plus que {name_male_1, Jackson} et {num_digit_3, 2} ans de moins que {name_male_2, Corey}. Si {name_male_3, Jacques} a {num_digit_4, 10} ans et {num_digit_5, 1} an de moins que {name_male_2, Corey}, quel est l'âge de {name_male_1, Jackson} ?",
+  "equation": "UPDATE HERE"
+}

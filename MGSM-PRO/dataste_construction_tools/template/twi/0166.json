@@ -1,0 +1,8 @@
+{
+  "original_question": "Sandra ofipamni ma no nkosua nkɛntɛn enan bere biara a ɔhwɛ wɔn babaa no. Sɛ ɔbɛyɛ Spainfo flan a, ohia nkosua mmiensa. Sɛ wɔde ahyɛ Sandra nsa sɛ ɔnyɛ Spainfo flans edunum mma ne sukuu ntoboa gyigye a, mpɛn ahe na ɛsɛ sɛ Sandra hwɛ mmofra no?",
+  "original_answer": 5,
+  "symbolic_template": "{name_female, Sandra} ofipamni ma no nkosua nkɛntɛn {num_digit_1, 9} bere biara a ɔhwɛ wɔn babaa no. Sɛ ɔbɛyɛ Spainfo flan a, ohia nkosua {num_digit_2, 3}. Sɛ wɔde ahyɛ {name_female, Sandra} nsa sɛ ɔnyɛ Spainfo flans {num_digit_3, 15} mma ne sukuu ntoboa gyigye a, mpɛn ahe na ɛsɛ sɛ {name_female, Sandra} hwɛ mmofra no?",
+  "ic_sentence_template": "{name_female, Sandra} wɔfa de amango {num_ic, 33} firii n'afum bae bere bi.",
+  "ic_template": "{name_female, Sandra} wɔfa de amango {num_ic, 33} firii n'afum bae bere bi. {name_female, Sandra} ofipamni ma no nkosua nkɛntɛn {num_digit_1, 9} bere biara a ɔhwɛ wɔn babaa no. Sɛ ɔbɛyɛ Spainfo flan a, ohia nkosua {num_digit_2, 3}. Sɛ wɔde ahyɛ {name_female, Sandra} nsa sɛ ɔnyɛ Spainfo flans {num_digit_3, 15} mma ne sukuu ntoboa gyigye a, mpɛn ahe na ɛsɛ sɛ {name_female, Sandra} hwɛ mmofra no?",
+  "equation": "UPDATE HERE"
+}

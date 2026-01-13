@@ -1,0 +1,8 @@
+{
+  "original_question": "Siobhan ana vito 2 chache zaidi ya vya Aaron. Aaron ana vito 5 zaidi ya nusu ya vito vya Raymond. Ikiwa Raymond ana vito 40, Siobhan ana vito vingapi?",
+  "original_answer": 23,
+  "symbolic_template": "{name_male_1, Siobhan} ana vito {num_digit_1, 2} pungufu kuliko {name_male_2, Aaron}. {name_male_2, Aaron} ana vito {num_digit_2, 5} zaidi ya nusu ya vito vya {name_male_3, Raymond}. Ikiwa {name_male_3, Raymond} ana vito {num_digit_3, 40}, {name_male_1, Siobhan} ana vito vingapi?",
+  "ic_sentence_template": "Mjomba wa {name_male, Aaron} aliwahi kumzawadia marumaru {num_ic, 341}.",
+  "ic_template": "{name_male_1, Siobhan} ana vito {num_digit_1, 2} pungufu kuliko {name_male_2, Aaron}. {name_male_2, Aaron} ana vito {num_digit_2, 5} zaidi ya nusu ya vito vya {name_male_3, Raymond}. Ikiwa {name_male_3, Raymond} ana vito {num_digit_3, 40}, {name_male_2, Aaron} aliwahi kuzawadiwa marumaru {num_ic, 341} na mjomba wake. {name_male_1, Siobhan} ana vito vingapi?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Ԑbɔ bi firi ԑpo no mu bԑkata kuro bi so. Ԑde simma 10 na ԑkata kuro no kwansini 3 biara so. Sԑ kuro no yԑ kwansini 42 firis ԑpo ano no kɔsi asaase ano a ԑne no bɔ abira no a, simma sԑn na ԑbɔ no de bԑkata kuro no nyinaa so?",
+  "original_answer": 140,
+  "symbolic_template": "Ԑbɔ bi firi ԑpo no mu bԑkata kuro bi so. Ԑde simma {num_digit_1, 10} na ԑkata kuro no kwansini {num_digit_2, 3} biara so. Sԑ kuro no yԑ kwansini {num_digit_3, 42} firis ԑpo ano no kɔsi asaase ano a ԑne no bɔ abira no a, simma sԑn na ԑbɔ no de bԑkata kuro no nyinaa so?",
+  "ic_sentence_template": "{name_male, Billy} wɔfa huu mframa nkɔmɔdeɛ abaako {num_ic, 96} a wogyae po no anɔpa no.",
+  "ic_template": "{name_male, Billy} wɔfa huu mframa nkɔmɔdeɛ abaako {num_ic, 96} a wogyae po no anɔpa no. Ԑbɔ bi firi ԑpo no mu bԑkata kuro bi so. Ԑde simma {num_digit_1, 10} na ԑkata kuro no kwansini {num_digit_2, 3} biara so. Sԑ kuro no yԑ kwansini {num_digit_3, 42} firis ԑpo ano no kɔsi asaase ano a ԑne no bɔ abira no a, simma sԑn na ԑbɔ no de bԑkata kuro no nyinaa so?",
+  "equation": "UPDATE HERE"
+}

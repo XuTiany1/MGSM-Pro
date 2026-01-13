@@ -1,0 +1,8 @@
+{
+  "original_question": "Kylie na Robert wanafurahia kwenda kwenye ufuo kukusanya kombe. Jumatatu, Kylie anakusanya kombe 5 zaidi ya Robert, aliyekusanya kombe 20. Jumanne, Kylie anakusanya kombe mara 2 zaidi ya alizokusanya Jumatatu. Kylie alikusanya kombe ngapi siku ya Jumanne?",
+  "original_answer": 50,
+  "symbolic_template": "{name_male_1, Kylie} na {name_male_2, Robert} wanapenda kwenda ufukweni kukusanya magamba. Jumatatu, {name_male_1, Kylie} alikusanya magamba {num_digit_1, 5} zaidi kuliko {name_male_2, Robert}, ambaye alikusanya magamba {num_digit_2, 20}. Jumanne, {name_male_1, Kylie} alikusanya magamba mara {num_digit_3, 2} ya aliyokusanya Jumatatu. {name_male_1, Kylie} alikusanya magamba mangapi Jumanne?",
+  "ic_sentence_template": "Shangazi wa {name_male_2, Robert} alipata vipande vya glasi ya baharini {num_ic, 8243} majira ya joto yaliyopita.",
+  "ic_template": "{name_male_1, Kylie} na {name_male_2, Robert} wanapenda kwenda ufukweni kukusanya magamba. Jumatatu, {name_male_1, Kylie} alikusanya magamba {num_digit_1, 5} zaidi kuliko {name_male_2, Robert}, ambaye alikusanya magamba {num_digit_2, 20}. Jumanne, {name_male_1, Kylie} alikusanya magamba mara {num_digit_3, 2} ya aliyokusanya Jumatatu. Shangazi wa {name_male_2, Robert} alipata vipande vya glasi ya baharini {num_ic, 8243} majira ya joto yaliyopita. {name_male_1, Kylie} alikusanya magamba mangapi Jumanne?",
+  "equation": "UPDATE HERE"
+}

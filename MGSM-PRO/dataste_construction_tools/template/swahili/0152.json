@@ -1,0 +1,8 @@
+{
+  "original_question": "Carl ananunua vifurushi kumi vya biskuti. Kila kifurushi cha biskuti kina biskuti sita ndani yake. Kila biskuti inagharimu $0.10. Carl atarudushiwa pesa ngapi iwapo atalipa kwa kutumia noti ya $10?",
+  "original_answer": 4,
+  "symbolic_template": "{name_male, Carl} ananunua pakiti kumi za biskuti. Kila pakiti ina biskuti sita. Kila biskuti inagharimu ${num_digit_1, 0.10}. {name_male, Carl} atapata chenji ya kiasi gani ikiwa atalipa kwa noti ya ${num_digit_2, 10}?",
+  "ic_sentence_template": "Shangazi wa {name_male, Carl} alileta mafini {num_ic, 31} kwenye sherehe.",
+  "ic_template": "Shangazi wa {name_male, Carl} alileta mafini {num_ic, 31} kwenye sherehe. {name_male, Carl} ananunua pakiti kumi za biskuti. Kila pakiti ina biskuti sita. Kila biskuti inagharimu ${num_digit_1, 0.10}. {name_male, Carl} atapata chenji ya kiasi gani ikiwa atalipa kwa noti ya ${num_digit_2, 10}?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Nri Carl kacha nwe mmasị bụ chiizi. Ọ riri otu Sanwichi kwa ụbọchị n'izu ụka a maka nri ehihie na-ewere iberibe chiizi abụọ na sanwichi ọ bụla. O riri chiizi na omeleti maka nri ụtụtụ ụbọchị atọ n'izu ụka jiri otu iberibe ọzọ kwa omeleti karịa sanwichi. O siri nnukwu nri nke makaroni na chiizi ka o zuoro ya nri abali maka izu uka ahụ ma jiri iberibe chiizi 8 n'ime ya. Iberibe chiizi ole ka o jiri mee ihe?",
+  "original_answer": 31,
+  "symbolic_template": "Nri {name_male, Carl} kacha nwe mmasị bụ chiizi. Ọ riri otu Sanwichi kwa ụbọchị n'izu ụka a maka nri ehihie na-ewere iberibe chiizi {num_digit_1, 2} na sanwichi ọ bụla. O riri chiizi na omeleti maka nri ụtụtụ ụbọchị {num_digit_2, 3} n'izu ụka jiri otu iberibe ọzọ kwa omeleti karịa sanwichi. O siri nnukwu nri nke makaroni na chiizi ka o zuoro ya nri abali maka izu uka ahụ ma jiri iberibe chiizi {num_digit_3, 8} n'ime ya. Iberibe chiizi ole ka o jiri mee ihe?",
+  "ic_sentence_template": "Nwanne nna {name_male, Carl} chiri achịcha mọfịn bluberi {num_ic, 114} izu a.",
+  "ic_template": "Nwanne nna {name_male, Carl} chiri achịcha mọfịn bluberi {num_ic, 114} izu a. Nri {name_male, Carl} kacha nwe mmasị bụ chiizi. Ọ riri otu Sanwichi kwa ụbọchị n'izu ụka a maka nri ehihie na-ewere iberibe chiizi {num_digit_1, 2} na sanwichi ọ bụla. O riri chiizi na omeleti maka nri ụtụtụ ụbọchị {num_digit_2, 3} n'izu ụka jiri otu iberibe ọzọ kwa omeleti karịa sanwichi. O siri nnukwu nri nke makaroni na chiizi ka o zuoro ya nri abali maka izu uka ahụ ma jiri iberibe chiizi {num_digit_3, 8} n'ime ya. Iberibe chiizi ole ka o jiri mee ihe?",
+  "equation": "UPDATE HERE"
+}

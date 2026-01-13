@@ -1,0 +1,8 @@
+{
+  "original_question": "Lee alikuwa anaweza kukimbia mbio ya viunzi vya mita 400 sekunde mbili haraka zaidi ya jinsi ambavyo Gerald angekimbia viunzi vya mita 400. Lakini Gerald alibadilisha mlo wake, ulioboresha kasi yake kwa 10%. Iwapo Lee hukimbia viunzi vya mita 400 kwa sekunde 38, Gerald, kwa lishe yake iliyoboreshwa, anaweza kukimbia viunzi vya mita 400 kwa sekunde ngapi?",
+  "original_answer": 36,
+  "symbolic_template": "{name_male_1, Lee} alikuwa anaweza kukimbia mbio za kuruka viunzi za {num_digit_1, 400} mita kwa sekunde mbili haraka zaidi ya {name_male_2, Gerald} anavyoweza kukimbia mbio hizo za {num_digit_1, 400} mita. Lakini {name_male_2, Gerald} alibadilisha lishe yake, jambo lililoongeza kasi yake kwa {num_digit_2, 10}%. Ikiwa {name_male_1, Lee} anakimbia mbio za {num_digit_1, 400} mita kwa sekunde {num_digit_3, 38}, je, {name_male_2, Gerald} anaweza kukimbia mbio hizo kwa muda gani baada ya kuboresha lishe yake?",
+  "ic_sentence_template": "Shangazi wa {name_male_2, Gerald} hivi karibuni alichukua kasa {num_ic, 486}.",
+  "ic_template": "{name_male_1, Lee} alikuwa anaweza kukimbia mbio za kuruka viunzi za {num_digit_1, 400} mita kwa sekunde mbili haraka zaidi ya {name_male_2, Gerald} anavyoweza kukimbia mbio hizo za {num_digit_1, 400} mita. Lakini {name_male_2, Gerald} alibadilisha lishe yake, jambo lililoongeza kasi yake kwa {num_digit_2, 10}%. Shangazi wa {name_male_2, Gerald} hivi karibuni alichukua kasa {num_ic, 486}. Ikiwa {name_male_1, Lee} anakimbia mbio za {num_digit_1, 400} mita kwa sekunde {num_digit_3, 38}, je, {name_male_2, Gerald} anaweza kukimbia mbio hizo kwa muda gani baada ya kuboresha lishe yake?",
+  "equation": "UPDATE HERE"
+}

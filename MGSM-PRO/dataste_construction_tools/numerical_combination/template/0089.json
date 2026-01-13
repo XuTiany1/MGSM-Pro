@@ -1,0 +1,30 @@
+{
+    "problem_id": "0089",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "float", "range": [0.5, 0.9], "precision": 2},
+        "num_digit_2": {"type": "int", "range": [10, 40]},
+        "num_digit_3": {"type": "int", "range": [2, 10]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "bags_needed = num_digit_2 * num_digit_1"
+        ],
+        "num_digit_3": [
+            "ans = bags_needed * num_digit_3"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "(num_digit_2 * num_digit_1) % 1 == 0"
+        ],
+        "num_digit_3": [
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

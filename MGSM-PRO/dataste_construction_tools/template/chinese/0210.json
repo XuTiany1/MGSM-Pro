@@ -1,0 +1,8 @@
+{
+  "original_question": "萨拉想给自己买一件新夹克和 2 双鞋。她想要的夹克售价 30 美元，每双鞋售价 20 美元。萨拉照看了邻居的孩子 4 次，每次照看他们赚取 5 美元。每次她修剪草坪，她的父母都会付给她 4 美元。如果萨拉在开始照看小孩之前已经存了 10 美元，她要修剪多少次草坪才能买得起夹克和鞋？",
+  "original_answer": 10,
+  "symbolic_template": "{name_female, 萨拉} 想给自己买一件新夹克和 {num_digit_1, 2} 双鞋。她想要的夹克售价 {num_digit_2, 30} 美元，每双鞋售价 {num_digit_3, 20} 美元。{name_female, 萨拉} 照看了邻居的孩子 {num_digit_4, 4} 次，每次照看他们赚取 {num_digit_5, 5} 美元。每次她修剪草坪，她的父母都会付给她 {num_digit_6, 4} 美元。如果 {name_female, 萨拉} 在开始照看小孩之前已经存了 {num_digit_7, 10} 美元，她要修剪多少次草坪才能买得起夹克和鞋？",
+  "ic_sentence_template": "{name_female, 萨拉} 的叔叔曾经在打折时买了 {num_ic, 384} 顶帽子。",
+  "ic_template": "{name_female, 萨拉} 的叔叔曾经在打折时买了 {num_ic, 384} 顶帽子。{name_female, 萨拉} 想给自己买一件新夹克和 {num_digit_1, 2} 双鞋。她想要的夹克售价 {num_digit_2, 30} 美元，每双鞋售价 {num_digit_3, 20} 美元。{name_female, 萨拉} 照看了邻居的孩子 {num_digit_4, 4} 次，每次照看他们赚取 {num_digit_5, 5} 美元。每次她修剪草坪，她的父母都会付给她 {num_digit_6, 4} 美元。如果 {name_female, 萨拉} 在开始照看小孩之前已经存了 {num_digit_7, 10} 美元，她要修剪多少次草坪才能买得起夹克和鞋？",
+  "equation": "UPDATE HERE"
+}

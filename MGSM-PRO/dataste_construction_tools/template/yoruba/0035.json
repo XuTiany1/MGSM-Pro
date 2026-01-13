@@ -1,0 +1,8 @@
+{
+  "original_question": "Mike gbá píǹgì pọ́ọ́gì fún ìṣẹ́jú 40. Ní ìṣẹ́jú 20 àkọ́kọ́, ó ní àmì ayò 4. Ní ìṣẹ́jú 20 kejì, ó ní àmì ayò 25% síi. Àmì ayò mélòó ló gbà ní àpapọ̀?",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, Mike} gbá píǹgì pọ́ọ́gì fún ìṣẹ́jú {num_digit_1, 40}. Ní ìṣẹ́jú {num_digit_2, 20} àkọ́kọ́, ó ní àmì ayò {num_digit_3, 16}. Ní ìṣẹ́jú {num_digit_4, 20} kejì, ó ní àmì ayò {num_digit_5, 25}% síi. Àmì ayò mélòó ló gbà ní àpapọ̀?",
+  "ic_sentence_template": "Arákùnrin {name_male, Mike} máa ń wo eré bọ́ọlu fúntí {num_ic, 102} lòdún kọọkan.",
+  "ic_template": "Arákùnrin {name_male, Mike} máa ń wo eré bọ́ọlu fúntí {num_ic, 102} lòdún kọọkan. {name_male, Mike} gbá píǹgì pọ́ọ́gì fún ìṣẹ́jú {num_digit_1, 40}. Ní ìṣẹ́jú {num_digit_2, 20} àkọ́kọ́, ó ní àmì ayò {num_digit_3, 16}. Ní ìṣẹ́jú {num_digit_4, 20} kejì, ó ní àmì ayò {num_digit_5, 25}% síi. Àmì ayò mélòó ló gbà ní àpapọ̀?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Isabel tɔɔ apontoɔ maa ne nuabaa ketewa no awoda apontoɔ no. Ɔde $12 totɔɔ nneɛma a wɔde yɛ keeki no,$43  wɔ nawoda ho ayɛyɛdeɛ, $15 wɔ asiesiedeɛ,  $4 wɔ to nsa frɛ, ne  $22 wɔ nkotokuɔ nneɛma a wɔde bɛma apontofoɔ no ho ahɔho no so. Ɔne n'awofoɔ mmienu no kyekyɛɛ sika no mu mmiensa. Sika dɔla ahe na onipa biara tua yɛ?",
+  "original_answer": 32,
+  "symbolic_template": "{name_female, Isabel} tɔɔ apontoɔ maa ne nuabaa ketewa no awoda apontoɔ no. Ɔde ${num_digit_1, 12} totɔɔ nneɛma a wɔde yɛ keeki no, ${num_digit_2, 43} wɔ nawoda ho ayɛyɛdeɛ, ${num_digit_3, 15} wɔ asiesiedeɛ, ${num_digit_4, 4} wɔ to nsa frɛ, ne ${num_digit_5, 22} wɔ nkotokuɔ nneɛma a wɔde bɛma apontofoɔ no ho ahɔho no so. Ɔne n'awofoɔ mmienu no kyekyɛɛ sika no mu mmiensa. Sika dɔla ahe na onipa biara tua yɛ?",
+  "ic_sentence_template": "{name_female, Isabelle} nua de balloons {num_ic, 1042} bae.",
+  "ic_template": "{name_female, Isabelle} nua de balloons {num_ic, 1042} bae. {name_female, Isabel} tɔɔ apontoɔ maa ne nuabaa ketewa no awoda apontoɔ no. Ɔde ${num_digit_1, 12} totɔɔ nneɛma a wɔde yɛ keeki no, ${num_digit_2, 43} wɔ nawoda ho ayɛyɛdeɛ, ${num_digit_3, 15} wɔ asiesiedeɛ, ${num_digit_4, 4} wɔ to nsa frɛ, ne ${num_digit_5, 22} wɔ nkotokuɔ nneɛma a wɔde bɛma apontofoɔ no ho ahɔho no so. Ɔne n'awofoɔ mmienu no kyekyɛɛ sika no mu mmiensa. Sika dɔla ahe na onipa biara tua yɛ?",
+  "equation": "UPDATE HERE"
+}

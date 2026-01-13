@@ -1,0 +1,8 @@
+{
+  "original_question": "Vincent anaweza kununua maua katika vifurushi vya 3 kwa $2.50 au katika vifurushi 2 vya $1. Huwa anaokoa pesa ngapi kwa kununua maua 18 kwa bei bora?",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, Vincent} anaweza kununua maua katika vifurushi vya {num_digit_1, 3} kwa ${num_digit_2, 2.50} au katika vifurushi vya {num_digit_3, 2} kwa ${num_digit_4, 1}. Anaokoa pesa ngapi kwa kununua maua {num_digit_5, 18} kwa bei bora?",
+  "ic_sentence_template": "Mjomba wa {name_male, Vincent} ana miche ya nyanya {num_ic, 23} kwenye bustani yake.",
+  "ic_template": "Mjomba wa {name_male, Vincent} ana miche ya nyanya {num_ic, 23} kwenye bustani yake. {name_male, Vincent} anaweza kununua maua katika vifurushi vya {num_digit_1, 3} kwa ${num_digit_2, 2.50} au katika vifurushi vya {num_digit_3, 2} kwa ${num_digit_4, 1}. Anaokoa pesa ngapi kwa kununua maua {num_digit_5, 18} kwa bei bora?",
+  "equation": "UPDATE HERE"
+}

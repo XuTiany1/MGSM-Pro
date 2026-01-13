@@ -1,0 +1,27 @@
+{
+    "problem_id": "0220",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [8, 20]},
+        "num_digit_2": {"type": "int", "range": [3, 12]},
+        "num_digit_3": {"type": "int", "range": [2, 6]},
+        "num_digit_4": {"type": "int", "range": [4, 12]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_4": [
+            "crossword_time = num_digit_1 * num_digit_3",
+            "sudoku_time = num_digit_2 * num_digit_4",
+            "ans = crossword_time + sudoku_time"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_4": [
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

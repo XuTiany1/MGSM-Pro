@@ -1,0 +1,8 @@
+{
+  "original_question": "Au magasin à un dollar, Sloane compte 100 clients qui entrent dans le magasin. Le lendemain, elle en compte 50 de plus que le premier jour. Si le troisième jour, le nombre total de clients était de 500, combien de clients a-t-elle comptés ce jour-là ?",
+  "original_answer": 250,
+  "symbolic_template": "Au magasin à un dollar, {name_female, Sloane} compte {num_digit_1, 100} clients qui entrent dans le magasin. Le lendemain, elle en compte {num_digit_2, 50} de plus que le premier jour. Si le troisième jour, le nombre total de clients était de {num_digit_3, 500}, combien de clients a-t-elle comptés ce jour-là ?",
+  "ic_sentence_template": "{name_female, Sloane} a un oncle qui a préparé {num_ic, 93} tartes aux myrtilles pour une vente de pâtisseries.",
+  "ic_template": "{name_female, Sloane} a un oncle qui a préparé {num_ic, 93} tartes aux myrtilles pour une vente de pâtisseries. Au magasin à un dollar, {name_female, Sloane} compte {num_digit_1, 100} clients qui entrent dans le magasin. Le lendemain, elle en compte {num_digit_2, 50} de plus que le premier jour. Si le troisième jour, le nombre total de clients était de {num_digit_3, 500}, combien de clients a-t-elle comptés ce jour-là ?",
+  "equation": "UPDATE HERE"
+}

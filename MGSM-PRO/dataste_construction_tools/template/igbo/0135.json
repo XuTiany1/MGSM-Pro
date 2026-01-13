@@ -1,0 +1,8 @@
+{
+  "original_question": "Enyi Brian Bobby nwere ihe egwuregwu vidio ise pekaria ugboro atọ dị ka Brian nwere. Ọ bụrụ na Brian nwere ihe egwuregwu vidio iri abụọ mana ise furu tupu e mee ntule a, ole ka Bobby nwere?",
+  "original_answer": 40,
+  "symbolic_template": "Enyi {name_male_1, Brian} {name_male_2, Bobby} nwere ihe egwuregwu vidio {num_digit_1, 5} pekaria ugboro {num_digit_2, 3} dị ka {name_male_1, Brian} nwere. Ọ bụrụ na {name_male_1, Brian} nwere ihe egwuregwu vidio {num_digit_3, 20} mana {num_digit_4, 5} furu tupu e mee ntule a, ole ka {name_male_2, Bobby} nwere?",
+  "ic_sentence_template": "Nwanne nna {name_male_1, Brian} nwere {num_ic, 30} akwụkwọ nnọchia.",
+  "ic_template": "Nwanne nna {name_male_1, Brian} nwere {num_ic, 30} akwụkwọ nnọchia. Enyi {name_male_1, Brian} {name_male_2, Bobby} nwere ihe egwuregwu vidio {num_digit_1, 5} pekaria ugboro {num_digit_2, 3} dị ka {name_male_1, Brian} nwere. Ọ bụrụ na {name_male_1, Brian} nwere ihe egwuregwu vidio {num_digit_3, 20} mana {num_digit_4, 5} furu tupu e mee ntule a, ole ka {name_male_2, Bobby} nwere?",
+  "equation": "UPDATE HERE"
+}

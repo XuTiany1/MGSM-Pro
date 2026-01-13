@@ -1,0 +1,8 @@
+{
+  "original_question": "ማሪ አንድ የዶሮ ምግብ 12 ዶላር፣ 5 ጥቅል ወተት እያንዳንዳቸው 3 ዶላር፣ 4 ፖም እያንዳንዳቸው 1.50 ዶላር፣ እና አንዳንድ የፒዛ ሳጥኖች አዘዘች። ማሪ በድምሩ 50 ዶላር ከፍላለች። እያንዳንዱ ሣጥን 8.50 ዶላር ከሆነ ማሪ ስንት የፒዛ ሳጥኖች አዘዘች?",
+  "original_answer": 2,
+  "symbolic_template": "{name_female, ማሪ} አንድ የዶሮ ምግብ ${num_digit_1, 12} ዶላር፣ {num_digit_2, 5} ጥቅል ወተት እያንዳንዳቸው ${num_digit_3, 3} ዶላር፣ {num_digit_4, 4} ፖም እያንዳንዳቸው ${num_digit_5, 1.50} ዶላር፣ እና አንዳንድ የፒዛ ሳጥኖች አዘዘች። {name_female, ማሪ} በድምሩ ${num_digit_6, 50} ዶላር ከፍላለች። እያንዳንዱ ሣጥን ${num_digit_7, 8.50} ዶላር ከሆነ {name_female, ማሪ} ስንት የፒዛ ሳጥኖች አዘዘች?",
+  "ic_sentence_template": "የ{name_female, ማሪ} አይደለችኝ የሆነችው ከወንድም ልጅዋ በቅርቡ {num_ic, 128} ኬክ ገዛች।",
+  "ic_template": "{name_female, ማሪ} አንድ የዶሮ ምግብ ${num_digit_1, 12} ዶላር፣ {num_digit_2, 5} ጥቅል ወተት እያንዳንዳቸው ${num_digit_3, 3} ዶላር፣ {num_digit_4, 4} ፖም እያንዳንዳቸው ${num_digit_5, 1.50} ዶላር፣ እና አንዳንድ የፒዛ ሳጥኖች አዘዘች። {name_female, ማሪ} በድምሩ ${num_digit_6, 50} ዶላር ከፍላለች። እያንዳንዱ ሣጥን ${num_digit_7, 8.50} ዶላር ከሆነ {name_female, ማሪ} ስንት የፒዛ ሳጥኖች አዘዘች? የ{name_female, ማሪ} አይደለችኝ የሆነችው ከወንድም ልጅዋ በቅርቡ {num_ic, 128} ኬክ ገዛች።",
+  "equation": "UPDATE HERE"
+}

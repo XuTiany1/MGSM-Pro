@@ -1,0 +1,8 @@
+{
+  "original_question": "Tracy alitumia kipande cha waya wenye urefu wa futi 4 kushikilia mimea ya nyanya kwenye shamba. Waya huo ulikatwa katika vipande vyenye urefu wa inchi 6. Alipata vipande vingapi?",
+  "original_answer": 3,
+  "symbolic_template": "{name_female, Tracy} alitumia kipande cha waya wenye urefu wa futi {num_digit_1, 7.75} kushikilia mimea ya nyanya shambani. Waya huo ulikatwa vipande vyenye urefu wa inchi {num_digit_2, 31}. Alipata vipande vingapi?",
+  "ic_sentence_template": "Mjomba wa {name_female, Tracy} ana vigingi vya nyanya {num_ic, 52} kwenye chumba chake cha nyumba ya kioo.",
+  "ic_template": "Mjomba wa {name_female, Tracy} ana vigingi vya nyanya {num_ic, 52} kwenye chumba chake cha nyumba ya kioo. {name_female, Tracy} alitumia kipande cha waya wenye urefu wa futi {num_digit_1, 7.75} kushikilia mimea ya nyanya shambani. Waya huo ulikatwa vipande vyenye urefu wa inchi {num_digit_2, 31}. Alipata vipande vingapi?",
+  "equation": "UPDATE HERE"
+}

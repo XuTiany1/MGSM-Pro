@@ -1,0 +1,8 @@
+{
+  "original_question": "Une fuite s'est produite dans le bateau de Julia alors qu'elle se trouvait sur le lac. Le bateau a commencé à prendre deux litres d'eau tous les dix pieds ramés en direction de la rive. Il lui a fallu seize secondes pour parcourir vingt pieds. La rive étant à 64 secondes, combien le bateau avait-il pris d'eau quand Julia a atteint la rive ?",
+  "original_answer": 16,
+  "symbolic_template": "Une fuite s'est produite dans le bateau de {name_female, Julia} alors qu'elle se trouvait sur le lac. Le bateau a commencé à prendre deux litres d'eau tous les dix pieds ramés en direction de la rive. Il lui a fallu seize secondes pour parcourir vingt pieds. La rive étant à {num_digit_1, 64} secondes, combien le bateau avait-il pris d'eau quand {name_female, Julia} a atteint la rive ?",
+  "ic_sentence_template": "{name_female, Julia} a un oncle qui possède {num_ic, 444} leurres de pêche.",
+  "ic_template": "{name_female, Julia} a un oncle qui possède {num_ic, 444} leurres de pêche. Une fuite s'est produite dans le bateau de {name_female, Julia} alors qu'elle se trouvait sur le lac. Le bateau a commencé à prendre deux litres d'eau tous les dix pieds ramés en direction de la rive. Il lui a fallu seize secondes pour parcourir vingt pieds. La rive étant à {num_digit_1, 64} secondes, combien le bateau avait-il pris d'eau quand {name_female, Julia} a atteint la rive ?",
+  "equation": "UPDATE HERE"
+}

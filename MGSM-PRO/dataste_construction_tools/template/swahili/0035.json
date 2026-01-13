@@ -1,0 +1,8 @@
+{
+  "original_question": "Mike anacheza tenisi kwa dakika 40. Katika dakika 20 za kwanza, anafunga alama 4. Katika dakika 20 za pili, anafunga alama 25% zaidi. Alifunga jumla ya alama ngapi?",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, Mike} anacheza tenisi ya mezani kwa dakika {num_digit_1, 40}. Katika dakika {num_digit_2, 20} za kwanza, anafunga alama {num_digit_3, 16}. Katika dakika {num_digit_4, 20} za pili, anafunga alama {num_digit_5, 25}% zaidi. Alifunga jumla ya alama ngapi?",
+  "ic_sentence_template": "Mjomba wa {name_male, Mike} hutazama mechi za ping pong {num_ic, 102} kila mwaka.",
+  "ic_template": "Mjomba wa {name_male, Mike} hutazama mechi za ping pong {num_ic, 102} kila mwaka. {name_male, Mike} anacheza tenisi ya mezani kwa dakika {num_digit_1, 40}. Katika dakika {num_digit_2, 20} za kwanza, anafunga alama {num_digit_3, 16}. Katika dakika {num_digit_4, 20} za pili, anafunga alama {num_digit_5, 25}% zaidi. Alifunga jumla ya alama ngapi?",
+  "equation": "UPDATE HERE"
+}

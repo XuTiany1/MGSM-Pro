@@ -1,0 +1,8 @@
+{
+  "original_question": "Elaine wɔ Pokemon nkrataa 20 wɔ ahyɛaseɛ. Wɔ bosome baako no akyi, ɔboaboaa saa dodoɔ no mmiensa. Wɔ bosome mmienu no mu, ɔboaboa nkrataa 20 a ɛyɛ ketewa bi a ɔboaboaa ano wɔ bosome edi kan no mu. Wɔ bosome a ɛto so mmiensa no mu, ɔboaboaa pokemon nkrataa dodoɔ a ɔboaboaa ano wɔ bosome edi kan ne nea ɛto so mmienu no mu ano mmɔho mmienu. Pokemon nkrataa dodoɔ ahe na ɔwɔ mprempren?",
+  "original_answer": 320,
+  "symbolic_template": "{name_female, Elaine} wɔ Pokemon nkrataa {num_digit_1, 20} wɔ ahyɛaseɛ. Wɔ bosome baako no akyi, ɔboaboaa saa dodoɔ no mmiensa. Wɔ bosome mmienu no mu, ɔboaboa nkrataa {num_digit_2, 20} a ɛyɛ ketewa bi a ɔboaboaa ano wɔ bosome edi kan no mu. Wɔ bosome a ɛto so mmiensa no mu, ɔboaboaa pokemon nkrataa dodoɔ a ɔboaboaa ano wɔ bosome edi kan ne nea ɛto so mmienu no mu ano mmɔho mmienu. Pokemon nkrataa dodoɔ ahe na ɔwɔ mprempren?",
+  "ic_sentence_template": "{name_female, Elaine} wɔfa no wɔ basebɔɔllɔ nkrataa {num_ic, 62984}.",
+  "ic_template": "{name_female, Elaine} wɔfa no wɔ basebɔɔllɔ nkrataa {num_ic, 62984}. {name_female, Elaine} wɔ Pokemon nkrataa {num_digit_1, 20} wɔ ahyɛaseɛ. Wɔ bosome baako no akyi, ɔboaboaa saa dodoɔ no mmiensa. Wɔ bosome mmienu no mu, ɔboaboa nkrataa {num_digit_2, 20} a ɛyɛ ketewa bi a ɔboaboaa ano wɔ bosome edi kan no mu. Wɔ bosome a ɛto so mmiensa no mu, ɔboaboaa pokemon nkrataa dodoɔ a ɔboaboaa ano wɔ bosome edi kan ne nea ɛto so mmienu no mu ano mmɔho mmienu. Pokemon nkrataa dodoɔ ahe na ɔwɔ mprempren?",
+  "equation": "UPDATE HERE"
+}

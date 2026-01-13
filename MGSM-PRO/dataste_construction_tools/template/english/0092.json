@@ -1,0 +1,8 @@
+{
+  "original_question": "Emily has 4 kids named Amy, Jackson, Corey, and James. Amy is 5 years older than Jackson and 2 years younger than Corey. If James is 10 and is 1 year younger than Corey, how old is Jackson?",
+  "original_answer": 4,
+  "symbolic_template": "{name_female_1, Emily} has {num_digit_1, 4} kids named {name_female_2, Amy}, {name_male_1, Jackson}, {name_male_2, Corey}, and {name_male_3, James}. {name_female_2, Amy} is {num_digit_2, 5} years older than {name_male_1, Jackson} and {num_digit_3, 2} years younger than {name_male_2, Corey}. If {name_male_3, James} is {num_digit_4, 10} and is {num_digit_5, 1} year younger than {name_male_2, Corey}, how old is {name_male_1, Jackson}?",
+  "ic_sentence_template": "{name_female_1, Emily}'s uncle bought {num_ic, 39} apples from the store.",
+  "ic_template": "{name_female_1, Emily} has {num_digit_1, 4} kids named {name_female_2, Amy}, {name_male_1, Jackson}, {name_male_2, Corey}, and {name_male_3, James}. {name_female_2, Amy} is {num_digit_2, 5} years older than {name_male_1, Jackson} and {num_digit_3, 2} years younger than {name_male_2, Corey}. If {name_male_3, James} is {num_digit_4, 10} and is {num_digit_5, 1} year younger than {name_male_2, Corey}, {name_female_1, Emily}'s uncle bought {num_ic, 39} apples from the store. How old is {name_male_1, Jackson}?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "周一，一个水箱水深 17 英尺。周二，这个水箱里的水又深了 7 英尺。周三，水的深度是周二水的深度的三分之二。周三水箱里的水有多深？",
+  "original_answer": 16,
+  "symbolic_template": "周一，一个水箱水深 {num_digit_1, 17} 英尺。周二，这个水箱里的水又深了 {num_digit_2, 7} 英尺。周三，水的深度是周二水的深度的 三分之二。周三水箱里的水有多深？",
+  "ic_sentence_template": "{name_male, 布莱恩} 的叔叔去年检查了水箱的水位 {num_ic, 79} 次。",
+  "ic_template": "{name_male, 布莱恩} 的叔叔去年检查了水箱的水位 {num_ic, 79} 次。周一，一个水箱水深 {num_digit_1, 17} 英尺。周二，这个水箱里的水又深了 {num_digit_2, 7} 英尺。周三，水的深度是周二水的深度的 三分之二。周三水箱里的水有多深？",
+  "equation": "UPDATE HERE"
+}

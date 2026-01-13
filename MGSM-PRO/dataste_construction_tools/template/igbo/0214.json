@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerry nwere ọdọ mmiri abụọ, ha abụọ nwere oghere na-ehipu mmiri ọ dịka galọn anọ/nkeji. Nkeji anọ gaara aga, ọdọ mmiri nke buru ibu nwere mmiri ugboro abụọ n'ịhe ọdọ mmiri nke obere nwere. Ugbu a ọdọ mmiri nke buru ibu nwere mmiri ugboro anọ n'ịhe dị n'ọdọ mmiri nke obere. Kedụ mmiri ole nọ n'ọdọ mmiri nke obere? ",
+  "original_answer": 8,
+  "symbolic_template": "{name_male, Jerry} nwere ọdọ mmiri abụọ, ha abụọ nwere oghere na-ehipu mmiri ọ dịka galọn {num_digit_1, 4}/nkeji. Nkeji {num_digit_2, 4} gaara aga, ọdọ mmiri nke buru ibu nwere mmiri ugboro ugboro abụọ n'ịhe ọdọ mmiri nke obere nwere. Ugbu a ọdọ mmiri nke buru ibu nwere mmiri ugboro anọ n'ịhe dị n'ọdọ mmiri nke obere. Kedụ mmiri ole nọ n'ọdọ mmiri nke obere?",
+  "ic_sentence_template": "Nwanne nna {name_male, Jerry} juputara ite mmiri {num_ic, 123} kwa izu na mmiri ozuzo.",
+  "ic_template": "Nwanne nna {name_male, Jerry} juputara ite mmiri {num_ic, 123} kwa izu na mmiri ozuzo. {name_male, Jerry} nwere ọdọ mmiri abụọ, ha abụọ nwere oghere na-ehipu mmiri ọ dịka galọn {num_digit_1, 4}/nkeji. Nkeji {num_digit_2, 4} gaara aga, ọdọ mmiri nke buru ibu nwere mmiri ugboro ugboro abụọ n'ịhe ọdọ mmiri nke obere nwere. Ugbu a ọdọ mmiri nke buru ibu nwere mmiri ugboro anọ n'ịhe dị n'ọdọ mmiri nke obere. Kedụ mmiri ole nọ n'ọdọ mmiri nke obere?",
+  "equation": "UPDATE HERE"
+}

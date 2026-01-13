@@ -1,0 +1,8 @@
+{
+  "original_question": "ジョンは牛乳を2ドルで、卵を3ドルで、電球を3ドルで、カップを3ドルで、4ドルでゴキブリ用の罠を購入する。食べ物以外には10%の税金が課される場合、すべてでいくらになりましたか。",
+  "original_answer": 16,
+  "symbolic_template": "{name_male,ジョン}は牛乳を{num_digit_1, 2}ドルで、卵を{num_digit_2, 3}ドルで、電球を{num_digit_3, 3}ドルで、カップを{num_digit_4, 3}ドルで、{num_digit_5, 4}ドルでゴキブリ用の罠を購入する。食べ物以外には{num_digit_6, 10}%の税金が課される場合、すべてでいくらになりましたか。",
+  "ic_sentence_template": "{name_male, ジョン}の姪は裏庭で{num_ic, 16}個のビー玉を見つけました。",
+  "ic_template": "{name_male, ジョン}の姪は裏庭で{num_ic, 16}個のビー玉を見つけました。{name_male,ジョン}は牛乳を{num_digit_1, 2}ドルで、卵を{num_digit_2, 3}ドルで、電球を{num_digit_3, 3}ドルで、カップを{num_digit_4, 3}ドルで、{num_digit_5, 4}ドルでゴキブリ用の罠を購入する。食べ物以外には{num_digit_6, 10}%の税金が課される場合、すべてでいくらになりましたか。",
+  "equation": "UPDATE HERE"
+}

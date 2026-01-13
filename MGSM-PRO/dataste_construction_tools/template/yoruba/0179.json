@@ -1,0 +1,8 @@
+{
+  "original_question": "Lloyd máa ń rí $10 gbà ní wákàtí kan lórí ìdánilẹ́kọ̀ọ́ Ìṣirò.  Ó kọ́ wákàtí márùn-ún fún ọ̀sẹ̀ àkọ́kọ́ àti wákàtí mẹ́jọ fún ọ̀sẹ̀ kejì. Èló ni ó pa ni ọ̀sẹ̀ méjì àkọ́kọ́ yìí?",
+  "original_answer": 130,
+  "symbolic_template": "{name_male, Lloyd} máa ń rí ${num_digit_1, 10} gbà ní wákàtí kan lórí ìdánilẹ́kọ̀ọ́ Ìṣirò. Ó kọ́ wákàtí {num_digit_2, 5} fún ọ̀sẹ̀ àkọ́kọ́ àti wákàtí {num_digit_3, 8} fún ọ̀sẹ̀ kejì. Èló ni ó pa ni ọ̀sẹ̀ méjì àkọ́kọ́ yìí?",
+  "ic_sentence_template": "Àntì {name_male, Lloyd} rá {num_ic, 17} ìwé fún àwọn akẹ́kọ̀ọ́ rẹ.",
+  "ic_template": "Àntì {name_male, Lloyd} rá {num_ic, 17} ìwé fún àwọn akẹ́kọ̀ọ́ rẹ. {name_male, Lloyd} máa ń rí ${num_digit_1, 10} gbà ní wákàtí kan lórí ìdánilẹ́kọ̀ọ́ Ìṣirò. Ó kọ́ wákàtí {num_digit_2, 5} fún ọ̀sẹ̀ àkọ́kọ́ àti wákàtí {num_digit_3, 8} fún ọ̀sẹ̀ kejì. Èló ni ó pa ni ọ̀sẹ̀ méjì àkọ́kọ́ yìí?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerome nweere ndị enyị anọ ndị bịara ileta ya n'otu ụbọchị. Enyị nke mbụ pịrị mgbịrịgba ọnụ ụzọ ugboro iri abụọ tupu Jerome e mepee ụzọ, enyị nke abụọ jiri otu ụzọ n'ịme anọ pikarịa ugboro ole enyi Jerome nke mbụ pịrị mgbịrịgba ọnụ ụzọ ahụ. Enyị nke atọ jiri ugboro iri pịa mgbịrịgba ọnụ ụzọ ahụ karịa enyi nke anọ. Ọ bụrụ na enyi nke anọ pịrị ọnụ ụzọ ahụ ugboro iri isii, kedụ ụda ole mgbịrịgba ọnụ ụzọ ahụ daara?",
+  "original_answer": 175,
+  "symbolic_template": "{name_male, Jerome} nweere ndị enyị {num_digit_1, 4} ndị bịara ileta ya n'otu ụbọchị. Enyị nke mbụ pịrị mgbịrịgba ọnụ ụzọ ugboro {num_digit_2, 20} tupu {name_male, Jerome} e mepee ụzọ, enyị nke abụọ jiri 1/4 pikarịa ugboro ole enyi {name_male, Jerome} nke mbụ pịrị mgbịrịgba ọnụ ụzọ ahụ. Enyị nke atọ jiri ugboro {num_digit_3, 10} pịa mgbịrịgba ọnụ ụzọ ahụ karịa enyi nke anọ. Ọ bụrụ na enyi nke anọ pịrị ọnụ ụzọ ahụ ugboro {num_digit_4, 60}, kedụ ụda ole mgbịrịgba ọnụ ụzọ ahụ daara?",
+  "ic_sentence_template": "Nwanne nna {name_male, Jerome} zụtara kaadị ekele ncheta {num_ic, 136} otu ugboro.",
+  "ic_template": "{name_male, Jerome} nweere ndị enyị {num_digit_1, 4} ndị bịara ileta ya n'otu ụbọchị. Enyị nke mbụ pịrị mgbịrịgba ọnụ ụzọ ugboro {num_digit_2, 20} tupu {name_male, Jerome} e mepee ụzọ, enyị nke abụọ jiri 1/4 pikarịa ugboro ole enyi {name_male, Jerome} nke mbụ pịrị mgbịrịgba ọnụ ụzọ ahụ. Enyị nke atọ jiri ugboro {num_digit_3, 10} pịa mgbịrịgba ọnụ ụzọ ahụ karịa enyi nke anọ. Ọ bụrụ na enyi nke anọ pịrị ọnụ ụzọ ahụ ugboro {num_digit_4, 60}, kedụ ụda ole mgbịrịgba ọnụ ụzọ ahụ daara? Nwanne nna {name_male, Jerome} zụtara kaadị ekele ncheta {num_ic, 136} otu ugboro.",
+  "equation": "UPDATE HERE"
+}

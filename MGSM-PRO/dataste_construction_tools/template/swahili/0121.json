@@ -1,0 +1,8 @@
+{
+  "original_question": "Morisette na Kael waliambiwa walete matunda. Morisette alileta tufaha 5 na machungwa 8, huku Kael alileta mara mbili ya idadi ya tufaha na nusu ya idadi ya machungwa ambayo Morisette alileta. Wana matunda ngapi kwa jumla?",
+  "original_answer": 27,
+  "symbolic_template": "{name_female, Morisette} na {name_male, Kael} waliombwa kuleta matunda. {name_female, Morisette} alileta tufaha {num_digit_1, 5} na machungwa {num_digit_2, 8}, wakati {name_male, Kael} alileta mara mbili ya idadi ya tufaha na nusu ya idadi ya machungwa aliyoleta {name_female, Morisette}. Wana matunda mangapi kwa jumla?",
+  "ic_sentence_template": "Shangazi wa {name_male, Kael} alivuna radishi {num_ic, 29}.",
+  "ic_template": "{name_female, Morisette} na {name_male, Kael} waliombwa kuleta matunda. {name_female, Morisette} alileta tufaha {num_digit_1, 5} na machungwa {num_digit_2, 8}, wakati {name_male, Kael} alileta mara mbili ya idadi ya tufaha na nusu ya idadi ya machungwa aliyoleta {name_female, Morisette}. Wana matunda mangapi kwa jumla? Shangazi wa {name_male, Kael} alivuna radishi {num_ic, 29}.",
+  "equation": "UPDATE HERE"
+}

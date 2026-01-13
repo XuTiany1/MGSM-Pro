@@ -1,0 +1,8 @@
+{
+  "original_question": "Idadi ya wanyama vipenzi wa Jani ni mara tatu zaidi ya wale wa Marcia. Marcia ana wanyama vipenzi wawili zaidi ya Cindy. Iwapo Cindy ana wanyama vipenzi wa nne, jumla ya idadi ya wanyama vipenzi wa watu hawa watatu ni ngapi?",
+  "original_answer": 28,
+  "symbolic_template": "{name_female_1, Jan} ana wanyama vipenzi mara tatu zaidi ya {name_female_2, Marcia}. {name_female_2, Marcia} ana wanyama vipenzi wawili zaidi ya {name_female_3, Cindy}. Iwapo {name_female_3, Cindy} ana wanyama vipenzi wanne, jumla ya wanyama vipenzi wa wote watatu ni wangapi?",
+  "ic_sentence_template": "Mjomba wa {name_female_2, Marcia} anamiliki ndege {num_ic, 16}.",
+  "ic_template": "{name_female_1, Jan} ana wanyama vipenzi mara tatu zaidi ya {name_female_2, Marcia}. {name_female_2, Marcia} ana wanyama vipenzi wawili zaidi ya {name_female_3, Cindy}. Iwapo {name_female_3, Cindy} ana wanyama vipenzi wanne, jumla ya wanyama vipenzi wa wote watatu ni wangapi? Mjomba wa {name_female_2, Marcia} anamiliki ndege {num_ic, 16}.",
+  "equation": "UPDATE HERE"
+}

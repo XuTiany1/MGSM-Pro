@@ -1,0 +1,8 @@
+{
+  "original_question": "Shiela a acheté cinq téléphones portables au prix de 150 $ chacun, payable en 3 mensualités. Un intérêt de 2 % sera facturé pour chaque unité. Quel montant Shiela devra-t-elle verser chaque mois pendant 3 mois ?",
+  "original_answer": 255,
+  "symbolic_template": "{name_female, Shiela} a acheté cinq téléphones portables au prix de {num_digit_1, 150} $ chacun, payable en {num_digit_2, 3} mensualités. Un intérêt de {num_digit_3, 2} % sera facturé pour chaque unité. Quel montant {name_female, Shiela} devra-t-elle verser chaque mois pendant {num_digit_2, 3} mois ?",
+  "ic_sentence_template": "{name_female, Shiela} vient de voir son oncle recevoir {num_ic, 82} prospectus pour une promotion de téléphones.",
+  "ic_template": "{name_female, Shiela} vient de voir son oncle recevoir {num_ic, 82} prospectus pour une promotion de téléphones. {name_female, Shiela} a acheté cinq téléphones portables au prix de {num_digit_1, 150} $ chacun, payable en {num_digit_2, 3} mensualités. Un intérêt de {num_digit_3, 2} % sera facturé pour chaque unité. Quel montant {name_female, Shiela} devra-t-elle verser chaque mois pendant {num_digit_2, 3} mois ?",
+  "equation": "UPDATE HERE"
+}

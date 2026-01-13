@@ -1,0 +1,8 @@
+{
+  "original_question": "Richard lives in an apartment building with 15 floors. Each floor contains 8 units, and 3/4 of the building is occupied. What's the total number of unoccupied units in the building?",
+  "original_answer": 30,
+  "symbolic_template": "{name_male, Richard} lives in an apartment building with {num_digit_1, 15} floors. Each floor contains {num_digit_2, 8} units, and 3/4 of the building is occupied. What's the total number of unoccupied units in the building?",
+  "ic_sentence_template": "{name_male, Richard}'s uncle runs a bakery with {num_ic, 88} loaves of bread on display.",
+  "ic_template": "{name_male, Richard} lives in an apartment building with {num_digit_1, 15} floors. Each floor contains {num_digit_2, 8} units, and 3/4 of the building is occupied. {name_male, Richard}'s uncle runs a bakery with {num_ic, 88} loaves of bread on display. What's the total number of unoccupied units in the building?",
+  "equation": "UPDATE HERE"
+}

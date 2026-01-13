@@ -1,0 +1,8 @@
+{
+  "original_question": "Oníṣòwò kan fẹ́ ṣe àṣàyàn nínú rírà láàrin ètò ọjà rírà 2: ẹ̀ṣọ́ tó tó $5,000 níye tàbí àwọn ohun èlò tó ń loná tó tó $8,000 níye. Olùdámọ̀ràn nípa ìṣúná rẹ̀ sọ àsọtẹ́lẹ̀ pé ọjà ẹ̀ṣọ́ náà yóò lọ sókè pẹ̀lú 2.5% nígbà tí ọjà àwọn ohun èlò tó ń loná yóò lọ sókè pẹ̀lú 1.2% láàrín oṣù kan náà. Tí oníṣòwò náà bá fẹ́ láti jèrè tó pọ̀ ní ìparí oṣù yìí nípa ṣíṣe àsàyàn, èló ni iye èrè tí èyí yòó jẹ́?",
+  "original_answer": 125,
+  "symbolic_template": "Oníṣòwò kan fẹ́ ṣe àṣàyàn nínú rírà láàrin ètò ọjà rírà {num_digit_1, 2}: ẹ̀ṣọ́ tó tó ${num_digit_2, 5,000} níye tàbí àwọn ohun èlò tó ń loná tó tó ${num_digit_3, 8,000} níye. Olùdámọ̀ràn nípa ìṣúná rẹ̀ sọ àsọtẹ́lẹ̀ pé ọjà ẹ̀ṣọ́ náà yóò lọ sókè pẹ̀lú {num_digit_4, 2.5}% nígbà tí ọjà àwọn ohun èlò tó ń loná yóò lọ sókè pẹ̀lú {num_digit_5, 1.2}% láàrín oṣù kan náà. Tí oníṣòwò náà bá fẹ́ láti jèrè tó pọ̀ ní ìparí oṣù yìí nípa ṣíṣe àsàyàn, èló ni iye èrè tí èyí yòó jẹ́?",
+  "ic_sentence_template": "Ọmọkùnrin ará onísìn náà ra ìwé àwòrán àwada {num_ic, 39} laipẹ́ yìí.",
+  "ic_template": "Ọmọkùnrin ará onísìn náà ra ìwé àwòrán àwada {num_ic, 39} laipẹ́ yìí. Oníṣòwò kan fẹ́ ṣe àṣàyàn nínú rírà láàrin ètò ọjà rírà {num_digit_1, 2}: ẹ̀ṣọ́ tó tó ${num_digit_2, 5,000} níye tàbí àwọn ohun èlò tó ń loná tó tó ${num_digit_3, 8,000} níye. Olùdámọ̀ràn nípa ìṣúná rẹ̀ sọ àsọtẹ́lẹ̀ pé ọjà ẹ̀ṣọ́ náà yóò lọ sókè pẹ̀lú {num_digit_4, 2.5}% nígbà tí ọjà àwọn ohun èlò tó ń loná yóò lọ sókè pẹ̀lú {num_digit_5, 1.2}% láàrín oṣù kan náà. Tí oníṣòwò náà bá fẹ́ láti jèrè tó pọ̀ ní ìparí oṣù yìí nípa ṣíṣe àsàyàn, èló ni iye èrè tí èyí yòó jẹ́?",
+  "equation": "UPDATE HERE"
+}

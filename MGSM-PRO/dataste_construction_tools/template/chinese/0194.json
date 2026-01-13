@@ -1,0 +1,8 @@
+{
+  "original_question": "维奥莱塔想买新的蜡笔。她需要 5 种不同颜色的蜡笔，并为这次购买准备了 20 美元。一支蜡笔 2 美元。她会收到多少零钱？",
+  "original_answer": 10,
+  "symbolic_template": "{name_female, 维奥莱塔} 想买新的蜡笔。她需要 {num_digit_1, 5} 种不同颜色的蜡笔，并为这次购买准备了 {num_digit_2, 20} 美元。一支蜡笔 {num_digit_3, 2} 美元。她会收到多少零钱？",
+  "ic_sentence_template": "{name_female, 维奥莱塔} 的叔叔在他的画廊里收藏了 {num_ic, 68} 幅画。",
+  "ic_template": "{name_female, 维奥莱塔} 的叔叔在他的画廊里收藏了 {num_ic, 68} 幅画。{name_female, 维奥莱塔} 想买新的蜡笔。她需要 {num_digit_1, 5} 种不同颜色的蜡笔，并为这次购买准备了 {num_digit_2, 20} 美元。一支蜡笔 {num_digit_3, 2} 美元。她会收到多少零钱？",
+  "equation": "UPDATE HERE"
+}

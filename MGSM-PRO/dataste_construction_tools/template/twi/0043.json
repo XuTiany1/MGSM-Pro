@@ -1,0 +1,8 @@
+{
+  "original_question": "Wohwԑ aduanennuro nsԑm no a, chips bɔtɔ biara wɔ aduane ahoɔden 250 wɔ taforabɔtɔ biara so. Sԑ 300g bɔtɔ wɔ ntaforabɔtɔ 5 a, grams dodoɔ sԑn na wobԑtumi adi da biara sԑ w’aduane ahoɔden botae dabiaa yԑ 2000 na w’adi aduane ahoɔden 1800 deda a?",
+  "original_answer": 48,
+  "symbolic_template": "  Wohwԑ aduanennuro nsԑm no a, chips bɔtɔ biara wɔ aduane ahoɔden {num_digit_1, 250} wɔ taforabɔtɔ biara so. Sԑ {num_digit_2, 300}g bɔtɔ wɔ ntaforabɔtɔ {num_digit_3, 5} a, grams dodoɔ sԑn na wobԑtumi adi da biara sԑ w’aduane ahoɔden botae dabiaa yԑ {num_digit_4, 2000} na w’adi aduane ahoɔden {num_digit_5, 1800} deda a?",
+  "ic_sentence_template": "{name_male, Alex} wɔfa tɔɔ chips nkotokuo {num_ic, 47} de kɔɔ pɔtee so.",
+  "ic_template": "{name_male, Alex} wɔfa tɔɔ chips nkotokuo {num_ic, 47} de kɔɔ pɔtee so. Wohwԑ aduanennuro nsԑm no a, chips bɔtɔ biara wɔ aduane ahoɔden {num_digit_1, 250} wɔ taforabɔtɔ biara so. Sԑ {num_digit_2, 300}g bɔtɔ wɔ ntaforabɔtɔ {num_digit_3, 5} a, grams dodoɔ sԑn na wobԑtumi adi da biara sԑ w’aduane ahoɔden botae dabiaa yԑ {num_digit_4, 2000} na w’adi aduane ahoɔden {num_digit_5, 1800} deda a?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "约翰为 3 个孩子各买了 2 双鞋，每双鞋 60 美元。他支付了多少钱？",
+  "original_answer": 360,
+  "symbolic_template": "{name_male, 约翰} 为 {num_digit_2, 3} 个孩子各买了 {num_digit_1, 2} 双鞋，每双鞋 {num_digit_3, 60} 美元。他支付了多少钱？",
+  "ic_sentence_template": "{name_male, 约翰} 的叔叔曾经买过 {num_ic, 15} 顶帽子。",
+  "ic_template": "{name_male, 约翰} 的叔叔曾经买过 {num_ic, 15} 顶帽子。{name_male, 约翰} 为 {num_digit_2, 3} 个孩子各买了 {num_digit_1, 2} 双鞋，每双鞋 {num_digit_3, 60} 美元。他支付了多少钱？",
+  "equation": "UPDATE HERE"
+}

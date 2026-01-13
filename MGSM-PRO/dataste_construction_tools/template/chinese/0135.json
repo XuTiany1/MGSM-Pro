@@ -1,0 +1,8 @@
+{
+  "original_question": "布莱恩的朋友波比的电子游戏数量比布莱恩的 3 倍少 5 个。如果布莱恩有 20 个电子游戏，但就在进行比较前失去了 5 个，则波比有多少个？",
+  "original_answer": 40,
+  "symbolic_template": "{name_male_1, 布莱恩} 的朋友 {name_male_2, 波比} 的电子游戏数量比 {name_male_1, 布莱恩} 的 {num_digit_2, 3} 倍少 {num_digit_1, 5} 个。如果 {name_male_1, 布莱恩} 有 {num_digit_3, 20} 个电子游戏，但就在进行比较前失去了 {num_digit_4, 5} 个，则 {name_male_2, 波比} 有多少个？",
+  "ic_sentence_template": "{name_male_1, 布莱恩} 的叔叔拥有 {num_ic, 30} 本漫画书。",
+  "ic_template": "{name_male_1, 布莱恩} 的叔叔拥有 {num_ic, 30} 本漫画书。{name_male_1, 布莱恩} 的朋友 {name_male_2, 波比} 的电子游戏数量比 {name_male_1, 布莱恩} 的 {num_digit_2, 3} 倍少 {num_digit_1, 5} 个。如果 {name_male_1, 布莱恩} 有 {num_digit_3, 20} 个电子游戏，但就在进行比较前失去了 {num_digit_4, 5} 个，则 {name_male_2, 波比} 有多少个？",
+  "equation": "UPDATE HERE"
+}

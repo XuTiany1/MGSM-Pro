@@ -1,0 +1,8 @@
+{
+  "original_question": "Jackie se demande si elle doit faire ses déclarations d'impôts elle-même ou engager un comptable. En le faisant elle-même, elle pourra faire 3 heures de freelance en moins, ce qui représente un manque à gagner de 35 $ par heure. Le comptable lui demande 90 $. Combien d'argent aura-t-elle en plus si elle l'engage ?",
+  "original_answer": 15,
+  "symbolic_template": "{name_female, Jackie} se demande si elle doit faire ses déclarations d'impôts elle-même ou engager un comptable. En le faisant elle-même, elle pourra faire {num_digit_1, 3} heures de freelance en moins, ce qui représente un manque à gagner de {num_digit_2, 35} $ par heure. Le comptable lui demande {num_digit_3, 90} $. Combien d'argent aura-t-elle en plus si elle l'engage ?",
+  "ic_sentence_template": "{name_female, Jackie} a un oncle qui a récemment acheté {num_ic, 97} livres de fiscalité.",
+  "ic_template": "{name_female, Jackie} a un oncle qui a récemment acheté {num_ic, 97} livres de fiscalité. {name_female, Jackie} se demande si elle doit faire ses déclarations d'impôts elle-même ou engager un comptable. En le faisant elle-même, elle pourra faire {num_digit_1, 3} heures de freelance en moins, ce qui représente un manque à gagner de {num_digit_2, 35} $ par heure. Le comptable lui demande {num_digit_3, 90} $. Combien d'argent aura-t-elle en plus si elle l'engage ?",
+  "equation": "UPDATE HERE"
+}

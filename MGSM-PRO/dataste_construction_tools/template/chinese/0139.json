@@ -1,0 +1,8 @@
+{
+  "original_question": "在一台糖果机中，粉色口香糖球的数量比蓝色口香糖球数量的四倍多 22 颗。如果有 12 颗蓝色口香糖球，粉色口香糖球有多少颗？",
+  "original_answer": 70,
+  "symbolic_template": "在一台糖果机中，粉色口香糖球的数量比蓝色口香糖球数量的 四 倍多 {num_digit_1, 22} 颗。如果有 {num_digit_2, 12} 颗蓝色口香糖球，粉色口香糖球有多少颗？",
+  "ic_sentence_template": "{num_ic, 147} 个孩子那天在机器旁停留。",
+  "ic_template": "{num_ic, 147} 个孩子那天在机器旁停留。在一台糖果机中，粉色口香糖球的数量比蓝色口香糖球数量的 四 倍多 {num_digit_1, 22} 颗。如果有 {num_digit_2, 12} 颗蓝色口香糖球，粉色口香糖球有多少颗？",
+  "equation": "UPDATE HERE"
+}

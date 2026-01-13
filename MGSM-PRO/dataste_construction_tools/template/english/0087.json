@@ -1,0 +1,8 @@
+{
+  "original_question": "A company pays each of its employees $600 in a month. The company has a policy of increasing the salaries of each of its employees by 10% of the initial salary every year for those who've stayed in the company for five years. If Sylvie just clocked 5 years in the company last December, what's her annual salary after three more years of service?",
+  "original_answer": 9360,
+  "symbolic_template": "A company pays each of its employees ${num_digit_1, 600} in a month. The company has a policy of increasing the salaries of each of its employees by {num_digit_2, 10}% of the initial salary every year for those who've stayed in the company for five years. If {name_female, Sylvie} just clocked {num_digit_3, 5} years in the company last December, what's her annual salary after three more years of service?",
+  "ic_sentence_template": "{name_female, Sylvie}'s uncle recently bought {num_ic, 77} office chairs.",
+  "ic_template": "A company pays each of its employees ${num_digit_1, 600} in a month. The company has a policy of increasing the salaries of each of its employees by {num_digit_2, 10}% of the initial salary every year for those who've stayed in the company for five years. If {name_female, Sylvie} just clocked {num_digit_3, 5} years in the company last December, {name_female, Sylvie}'s uncle recently bought {num_ic, 77} office chairs. What's her annual salary after three more years of service?",
+  "equation": "UPDATE HERE"
+}

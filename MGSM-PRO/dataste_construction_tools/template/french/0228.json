@@ -1,0 +1,8 @@
+{
+  "original_question": "Kalinda tente de réaliser un puzzle de 360 pièces avec sa mère. Elle est capable de placer 4 pièces par minute. Sa mère en place deux fois moins par minute. Combien d'heures leur faudra-t-il pour terminer ce puzzle ?",
+  "original_answer": 1,
+  "symbolic_template": "{name_female, Kalinda} tente de réaliser un puzzle de {num_digit_1, 360} pièces avec sa mère. {name_female, Kalinda} est capable de placer {num_digit_2, 4} pièces par minute. Sa mère en place deux fois moins par minute. Combien d'heures leur faudra-t-il pour terminer ce puzzle ?",
+  "ic_sentence_template": "{name_female, Kalinda} a un oncle qui possède une collection de {num_ic, 103} puzzles.",
+  "ic_template": "{name_female, Kalinda} a un oncle qui possède une collection de {num_ic, 103} puzzles. {name_female, Kalinda} tente de réaliser un puzzle de {num_digit_1, 360} pièces avec sa mère. {name_female, Kalinda} est capable de placer {num_digit_2, 4} pièces par minute. Sa mère en place deux fois moins par minute. Combien d'heures leur faudra-t-il pour terminer ce puzzle ?",
+  "equation": "UPDATE HERE"
+}

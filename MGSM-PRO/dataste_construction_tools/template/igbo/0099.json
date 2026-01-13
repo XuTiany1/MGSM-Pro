@@ -1,0 +1,8 @@
+{
+  "original_question": "Mary bụ onye nwere nnukwu mmasi n'ọrụ ubi. Ụnyahụ, ọ natara osisi ọhụrụ iri na asatọ akụrụ n'ite sitere na-ebe ahụ kacha amasị ya nke ọ na-akụ osisi. O nwererị osisi abụọ a kụrụ n'ite nke di na mpio iri anọ n'otu n'otu nke nnukwu ụlọ obodo ya. N'obiọma imesapụ aka, o kpebiri na ọ ga -enye ndị enyi na ezinụụlọ ya otu osisi a kụrụ n'ite echi site na mpio ọ bụla. Osisi a kụrụ n'ite ole fọdụrụ Mary. ",
+  "original_answer": 58,
+  "symbolic_template": "{name_female, Mary} bụ onye nwere nnukwu mmasi n'ọrụ ubi. Ụnyahụ, ọ natara osisi ọhụrụ {num_digit_1, 18} akụrụ n'ite sitere na-ebe ahụ kacha amasị ya nke ọ na-akụ osisi. O nwererị osisi {num_digit_2, 2} a kụrụ n'ite nke di na mpio {num_digit_3, 40} n'otu n'otu nke nnukwu ụlọ obodo ya. N'obiọma imesapụ aka, o kpebiri na ọ ga -enye ndị enyi na ezinụụlọ ya {num_digit_4, 1} osisi a kụrụ n'ite echi site na mpio ọ bụla. Osisi a kụrụ n'ite ole fọdụrụ {name_female, Mary}.",
+  "ic_sentence_template": "Nwanne nne {name_female, Mary} kpọkọtara otu ugboro ite ifuru dị iche iche ruru {num_ic, 217}.",
+  "ic_template": "Nwanne nne {name_female, Mary} kpọkọtara otu ugboro ite ifuru dị iche iche ruru {num_ic, 217}. {name_female, Mary} bụ onye nwere nnukwu mmasi n'ọrụ ubi. Ụnyahụ, ọ natara osisi ọhụrụ {num_digit_1, 18} akụrụ n'ite sitere na-ebe ahụ kacha amasị ya nke ọ na-akụ osisi. O nwererị osisi {num_digit_2, 2} a kụrụ n'ite nke di na mpio {num_digit_3, 40} n'otu n'otu nke nnukwu ụlọ obodo ya. N'obiọma imesapụ aka, o kpebiri na ọ ga -enye ndị enyi na ezinụụlọ ya {num_digit_4, 1} osisi a kụrụ n'ite echi site na mpio ọ bụla. Osisi a kụrụ n'ite ole fọdụrụ {name_female, Mary}.",
+  "equation": "UPDATE HERE"
+}

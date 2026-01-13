@@ -1,0 +1,8 @@
+{
+  "original_question": "200 pounds of carrots are to be distributed to 40 restaurants in a certain city. Each restaurant is to receive 2 pounds of carrots. How many pounds of carrots will not be used?",
+  "original_answer": 120,
+  "symbolic_template": "{num_digit_1, 200} pounds of carrots are to be distributed to {num_digit_2, 40} restaurants in a certain city. Each restaurant is to receive {num_digit_3, 2} pounds of carrots. How many pounds of carrots will not be used?",
+  "ic_sentence_template": "{num_ic, 22} chefs in the city are trying a new soup recipe.",
+  "ic_template": "{num_digit_1, 200} pounds of carrots are to be distributed to {num_digit_2, 40} restaurants in a certain city. Each restaurant is to receive {num_digit_3, 2} pounds of carrots. {num_ic, 22} chefs in the city are trying a new soup recipe. How many pounds of carrots will not be used?",
+  "equation": "UPDATE HERE"
+}

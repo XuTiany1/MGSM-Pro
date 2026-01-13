@@ -1,0 +1,8 @@
+{
+  "original_question": "Tom plante 10 arbres par an. Il abat également 2 arbres chaque année. Il commence avec 50 arbres. Au bout de 10 ans, 30 % des arbres meurent. Combien d'arbres lui reste-t-il ?",
+  "original_answer": 91,
+  "symbolic_template": "{name_male, Tom} plante {num_digit_1, 10} arbres par an. Il abat également {num_digit_2, 2} arbres chaque année. Il commence avec {num_digit_3, 50} arbres. Au bout de {num_digit_4, 10} ans, {num_digit_5, 30} % des arbres meurent. Combien d'arbres lui reste-t-il ?",
+  "ic_sentence_template": "{name_male, Tom} a une tante qui a récemment acheté {num_ic, 164} pots de fleurs.",
+  "ic_template": "{name_male, Tom} a une tante qui a récemment acheté {num_ic, 164} pots de fleurs. {name_male, Tom} plante {num_digit_1, 10} arbres par an. Il abat également {num_digit_2, 2} arbres chaque année. Il commence avec {num_digit_3, 50} arbres. Au bout de {num_digit_4, 10} ans, {num_digit_5, 30} % des arbres meurent. Combien d'arbres lui reste-t-il ?",
+  "equation": "UPDATE HERE"
+}

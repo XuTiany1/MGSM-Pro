@@ -1,0 +1,8 @@
+{
+  "original_question": "In the city of Soda, there are exactly 23786 inhabitants. They include 8417 men and 9092 women. The rest of the population is made up of children. How many kids are there in Soda?",
+  "original_answer": 6277,
+  "symbolic_template": "In the city of {name_city, Soda}, there are exactly {num_digit_1, 23786} inhabitants. They include {num_digit_2, 8417} men and {num_digit_3, 9092} women. The rest of the population is made up of children. How many kids are there in {name_city, Soda}?",
+  "ic_sentence_template": "{name_city, Soda}'s mayor's uncle bought {num_ic, 174364} balloons for a festival.",
+  "ic_template": "In the city of {name_city, Soda}, there are exactly {num_digit_1, 23786} inhabitants. They include {num_digit_2, 8417} men and {num_digit_3, 9092} women. {name_city, Soda}'s mayor's uncle bought {num_ic, 174364} balloons for a festival. The rest of the population is made up of children. How many kids are there in {name_city, Soda}?",
+  "equation": "UPDATE HERE"
+}

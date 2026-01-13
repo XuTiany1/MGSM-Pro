@@ -1,0 +1,8 @@
+{
+  "original_question": "Àwọn ọmọbìnrin méjì kan gba 1/6 kọ̀ọ̀kan nínú omi lítà 24. Ọmọkùnrin kan gba lítà omi 6. Lítà omi mélòó ni ó kù?",
+  "original_answer": 10,
+  "symbolic_template": "Àwọn ọmọbìnrin méjì kan gba 1/6 kọ̀ọ̀kan nínú omi lítà {num_digit_1, 24}. Ọmọkùnrin kan gba lítà omi {num_digit_2, 6}. Lítà omi mélòó ni ó kù?",
+  "ic_sentence_template": "Ìyá àgbà àwọn ọmọbìnrin náà ní {num_ic, 20} orombo ní ilé rẹ̀.",
+  "ic_template": "Ìyá àgbà àwọn ọmọbìnrin náà ní {num_ic, 20} orombo ní ilé rẹ̀. Àwọn ọmọbìnrin méjì kan gba 1/6 kọ̀ọ̀kan nínú omi lítà {num_digit_1, 24}. Ọmọkùnrin kan gba lítà omi {num_digit_2, 6}. Lítà omi mélòó ni ó kù?",
+  "equation": "UPDATE HERE"
+}

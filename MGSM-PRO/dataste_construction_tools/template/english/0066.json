@@ -1,0 +1,8 @@
+{
+  "original_question": "There are four schools competing at a basketball tournament. Each school has sent a girls’ basketball team and a boys’ basketball team and each team has 5 players each. Each school has also sent a coach for each team. In total, how many people have all of the schools sent?",
+  "original_answer": 48,
+  "symbolic_template": "There are four schools competing at a basketball tournament. Each school has sent a girls’ basketball team and a boys’ basketball team and each team has {num_digit_1, 5} players each. Each school has also sent a coach for each team. In total, how many people have all of the schools sent?",
+  "ic_sentence_template": "{name_male, Marcus}'s cousin brought {num_ic, 42} basketballs for the teams to use.",
+  "ic_template": "There are four schools competing at a basketball tournament. Each school has sent a girls’ basketball team and a boys’ basketball team and each team has {num_digit_1, 5} players each. Each school has also sent a coach for each team. {name_male, Marcus}'s cousin brought {num_ic, 42} basketballs for the teams to use. In total, how many people have all of the schools sent?",
+  "equation": "UPDATE HERE"
+}

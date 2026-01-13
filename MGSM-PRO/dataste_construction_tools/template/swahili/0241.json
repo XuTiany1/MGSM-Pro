@@ -1,0 +1,8 @@
+{
+  "original_question": "Dolly ana vitabu viwili. Pandora ana kimoja. Ikiwa Dolly na Pandora husoma vitabu vya mwenzao pamoja na vyao, wote wawili watakuwa wamesoma vitabu vingapi mwishoni?",
+  "original_answer": 6,
+  "symbolic_template": "{name_female_1, Dolly} ana vitabu viwili. {name_female_2, Pandora} ana kimoja. Ikiwa wote {name_female_1, Dolly} na {name_female_2, Pandora} watasoma vitabu vya kila mmoja pamoja na vyao wenyewe, watasoma jumla ya vitabu vingapi kufikia mwisho?",
+  "ic_sentence_template": "Mjomba wa {name_female, Pandora} anamiliki majarida {num_ic, 674}.",
+  "ic_template": "{name_female_1, Dolly} ana vitabu viwili. {name_female_2, Pandora} ana kimoja. Ikiwa wote {name_female_1, Dolly} na {name_female_2, Pandora} watasoma vitabu vya kila mmoja pamoja na vyao wenyewe, watasoma jumla ya vitabu vingapi kufikia mwisho? Mjomba wa {name_female_2, Pandora} anamiliki majarida {num_ic, 674}.",
+  "equation": "UPDATE HERE"
+}

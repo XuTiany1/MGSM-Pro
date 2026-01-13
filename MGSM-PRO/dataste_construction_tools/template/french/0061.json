@@ -1,0 +1,8 @@
+{
+  "original_question": "Janet achète une broche pour sa fille. Elle dépense 500 $ pour se procurer le matériel de fabrication, puis 800 $ supplémentaires pour la réalisation par un bijoutier. Ensuite, elle dépense 10 % de cette somme pour la faire assurer. Combien a-t-elle dépensé au total ?",
+  "original_answer": 1430,
+  "symbolic_template": "{name_female, Janet} achète une broche pour sa fille. Elle dépense {num_digit_1, 500} $ pour se procurer le matériel de fabrication, puis {num_digit_2, 800} $ supplémentaires pour la réalisation par un bijoutier. Ensuite, elle dépense {num_digit_3, 10} % de cette somme pour la faire assurer. Combien a-t-elle dépensé au total ?",
+  "ic_sentence_template": "L'oncle de {name_female, Janet} a trouvé {num_ic, 35} pièces rares dans son grenier.",
+  "ic_template": "L'oncle de {name_female, Janet} a trouvé {num_ic, 35} pièces rares dans son grenier. {name_female, Janet} achète une broche pour sa fille. Elle dépense {num_digit_1, 500} $ pour se procurer le matériel de fabrication, puis {num_digit_2, 800} $ supplémentaires pour la réalisation par un bijoutier. Ensuite, elle dépense {num_digit_3, 10} % de cette somme pour la faire assurer. Combien a-t-elle dépensé au total ?",
+  "equation": "UPDATE HERE"
+}

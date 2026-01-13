@@ -1,0 +1,8 @@
+{
+  "original_question": "Josh yԑ n’adwene sԑ ɔbԑtɔ na w’atɔn ԑdan bi. Ͻtɔ ԑdan no $80,000 na ɔde $50,000 asiesie. Wei ma ԑdan no boɔ kɔɔ soro 150%. Mfasoɔ sԑn na ɔnyaԑ?",
+  "original_answer": 70000,
+  "symbolic_template": "{name_male, Josh} yԑ n’adwene sԑ ɔbԑtɔ na w’atɔn ԑdan bi. Ͻtɔ ԑdan no ${num_digit_1, 80,000} na ɔde ${num_digit_2, 50,000} asiesie. Wei ma ԑdan no boɔ kɔɔ soro {num_digit_3, 150}%. Mfasoɔ sԑn na ɔnyaԑ?",
+  "ic_sentence_template": "{name_male, Josh} wɔfa no atɔn ntoayaa {num_ic, 124000} wɔ adan edwuma bi nnansa yi ara.",
+  "ic_template": "{name_male, Josh} wɔfa no atɔn ntoayaa {num_ic, 124000} wɔ adan edwuma bi nnansa yi ara. {name_male, Josh} yԑ n’adwene sԑ ɔbԑtɔ na w’atɔn ԑdan bi. Ͻtɔ ԑdan no ${num_digit_1, 80,000} na ɔde ${num_digit_2, 50,000} asiesie. Wei ma ԑdan no boɔ kɔɔ soro {num_digit_3, 150}%. Mfasoɔ sԑn na ɔnyaԑ?",
+  "equation": "UPDATE HERE"
+}

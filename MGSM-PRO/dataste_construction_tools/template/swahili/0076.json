@@ -1,0 +1,8 @@
+{
+  "original_question": "Cecilia amenunua mtoto mdogo wa umbwa. Kulingana na daktari wake wa wanyama, anahitaji kumlisha mtoto huyo wa mbwa kikombe 1 cha chakula cha mbwa kila siku kwa siku 180 za kwanza. Kisha anahitaji kumlisha mtoto huyo wa mbwa vikombe 2 vya chakula cha mbwa kila siku kwa maisha yake yote. Iwapo mfuko moja wa chakula cha mbwa una vikombe 110, Cecilia atatumia mifuko mingapi ya chakula cha mbwa kwa mwaka wa kwanza?",
+  "original_answer": 5,
+  "symbolic_template": "{name_female, Cecilia} amenunua mtoto wa mbwa hivi karibuni. Kulingana na daktari wake wa mifugo, anapaswa kumlisha mbwa huyo kikombe {num_digit_1, 1} cha chakula cha mbwa kila siku kwa siku {num_digit_2, 180} za mwanzo. Baada ya hapo, anapaswa kumlisha kikombe {num_digit_3, 2} cha chakula cha mbwa kila siku kwa maisha yake yote. Iwapo mfuko mmoja wa chakula cha mbwa una vikombe {num_digit_4, 110}, {name_female, Cecilia} atatumia mifuko mingapi ya chakula cha mbwa katika mwaka wa kwanza?",
+  "ic_sentence_template": "Shangazi wa {name_female, Cecilia} aliwahi kununua makopo {num_ic, 112} ya chakula cha paka kwa punguzo.",
+  "ic_template": "Shangazi wa {name_female, Cecilia} aliwahi kununua makopo {num_ic, 112} ya chakula cha paka kwa punguzo. {name_female, Cecilia} amenunua mtoto wa mbwa hivi karibuni. Kulingana na daktari wake wa mifugo, anapaswa kumlisha mbwa huyo kikombe {num_digit_1, 1} cha chakula cha mbwa kila siku kwa siku {num_digit_2, 180} za mwanzo. Baada ya hapo, anapaswa kumlisha kikombe {num_digit_3, 2} cha chakula cha mbwa kila siku kwa maisha yake yote. Iwapo mfuko mmoja wa chakula cha mbwa una vikombe {num_digit_4, 110}, {name_female, Cecilia} atatumia mifuko mingapi ya chakula cha mbwa katika mwaka wa kwanza?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "帕姆和弗莱德去参加狂欢节。帕姆坐了 2 次云霄飞车，而弗莱德坐了 4 次。在此之后，他们各自决定坐雪橇 2 次。如果每坐一次需要 6 张门票，他们那天用掉了多少张门票？",
+  "original_answer": 60,
+  "symbolic_template": "{name_female, 帕姆} 和 {name_male, 弗莱德} 去参加狂欢节。{name_female, 帕姆} 坐了 {num_digit_1, 2} 次云霄飞车，而 {name_male, 弗莱德} 坐了 {num_digit_2, 4} 次。在此之后，他们各自决定坐雪橇 {num_digit_3, 2} 次。如果每坐一次需要 {num_digit_4, 6} 张门票，他们那天用掉了多少张门票？",
+  "ic_sentence_template": "{name_male, 弗雷德} 的叔叔带了 {num_ic, 42} 个气球去嘉年华。",
+  "ic_template": "{name_male, 弗雷德} 的叔叔带了 {num_ic, 42} 个气球去嘉年华。{name_female, 帕姆} 和 {name_male, 弗莱德} 去参加狂欢节。{name_female, 帕姆} 坐了 {num_digit_1, 2} 次云霄飞车，而 {name_male, 弗莱德} 坐了 {num_digit_2, 4} 次。在此之后，他们各自决定坐雪橇 {num_digit_3, 2} 次。如果每坐一次需要 {num_digit_4, 6} 张门票，他们那天用掉了多少张门票？",
+  "equation": "UPDATE HERE"
+}

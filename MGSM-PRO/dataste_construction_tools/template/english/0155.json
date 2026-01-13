@@ -1,0 +1,8 @@
+{
+  "original_question": "Bill bakes 300 rolls, 120 chocolate croissants, and 60 baguettes every day. Each roll is 4 inches long, each croissant is 6 inches long, and each baguette is two feet long. If Bill puts all the baked goods end to end, how long will they be in feet?",
+  "original_answer": 280,
+  "symbolic_template": "{name_male, Bill} bakes {num_digit_1, 300} rolls, {num_digit_2, 120} chocolate croissants, and {num_digit_3, 60} baguettes every day. Each roll is {num_digit_4, 4} inches long, each croissant is {num_digit_5, 6} inches long, and each baguette is two feet long. If {name_male, Bill} puts all the baked goods end to end, how long will they be in feet?",
+  "ic_sentence_template": "{name_male, Bill}'s aunt buys {num_ic, 72} loaves of bread every month.",
+  "ic_template": "{name_male, Bill} bakes {num_digit_1, 300} rolls, {num_digit_2, 120} chocolate croissants, and {num_digit_3, 60} baguettes every day. Each roll is {num_digit_4, 4} inches long, each croissant is {num_digit_5, 6} inches long, and each baguette is two feet long. {name_male, Bill}'s aunt buys {num_ic, 72} loaves of bread every month. If {name_male, Bill} puts all the baked goods end to end, how long will they be in feet?",
+  "equation": "UPDATE HERE"
+}

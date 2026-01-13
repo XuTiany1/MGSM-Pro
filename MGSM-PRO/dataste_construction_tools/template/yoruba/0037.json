@@ -1,0 +1,8 @@
+{
+  "original_question": "John ń gbèrò láti ta àwọn ohun ìṣeré rẹ̀ kí ó sì fi owó rẹ̀ ra gémù oní fídíò. Ó ní àto lego 13 ó sì ta ọ̀kọ̀ọ̀kan wọn ní $15. Lẹ́yìn ò rẹyìn ó ra gémù oní fídíò 8 tí ẹyọ kọ̀ọ̀kan jẹ́ $20 ó tún sẹ́ku $5. Àto lego mélòó ni ó ṣì ní?",
+  "original_answer": 2,
+  "symbolic_template": "{name_male, John} ń gbèrò láti ta àwọn ohun ìṣeré rẹ̀ kí ó sì fi owó rẹ̀ ra gémù oní fídíò. Ó ní àto lego {num_digit_1, 13} ó sì ta ọ̀kọ̀ọ̀kan wọn ní ${num_digit_2, 15}. Lẹ́yìn ò rẹyìn ó ra gémù oní fídíò {num_digit_3, 8} tí ẹyọ kọ̀ọ̀kan jẹ́ ${num_digit_4, 20} ó tún sẹ́ku ${num_digit_5, 5}. Àto lego mélòó ni ó ṣì ní?",
+  "ic_sentence_template": "Arákùnrin {name_male, John} laipẹ yi ra àwọn eré ìṣeré ìṣègbọ́nmáṣe {num_ic, 38}.",
+  "ic_template": "Arákùnrin {name_male, John} laipẹ yi ra àwọn eré ìṣeré ìṣègbọ́nmáṣe {num_ic, 38}. {name_male, John} ń gbèrò láti ta àwọn ohun ìṣeré rẹ̀ kí ó sì fi owó rẹ̀ ra gémù oní fídíò. Ó ní àto lego {num_digit_1, 13} ó sì ta ọ̀kọ̀ọ̀kan wọn ní ${num_digit_2, 15}. Lẹ́yìn ò rẹyìn ó ra gémù oní fídíò {num_digit_3, 8} tí ẹyọ kọ̀ọ̀kan jẹ́ ${num_digit_4, 20} ó tún sẹ́ku ${num_digit_5, 5}. Àto lego mélòó ni ó ṣì ní?",
+  "equation": "UPDATE HERE"
+}

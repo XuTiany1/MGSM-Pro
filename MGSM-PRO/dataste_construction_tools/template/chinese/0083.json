@@ -1,0 +1,8 @@
+{
+  "original_question": "丹种下了 3 个玫瑰丛。每个玫瑰丛有 25 棵玫瑰。每棵玫瑰有 8 根刺。一共有多少根刺？",
+  "original_answer": 600,
+  "symbolic_template": "{name_male, 丹} 种下了 {num_digit_1, 3} 个玫瑰丛。每个玫瑰丛有 {num_digit_2, 25} 棵玫瑰。每棵玫瑰有 {num_digit_3, 8} 根刺。一共有多少根刺？",
+  "ic_sentence_template": "{name_male, 丹} 的阿姨有 {num_ic, 27} 棵番茄植株。",
+  "ic_template": "{name_male, 丹} 的阿姨有 {num_ic, 27} 棵番茄植株。{name_male, 丹} 种下了 {num_digit_1, 3} 个玫瑰丛。每个玫瑰丛有 {num_digit_2, 25} 棵玫瑰。每棵玫瑰有 {num_digit_3, 8} 根刺。一共有多少根刺？",
+  "equation": "UPDATE HERE"
+}

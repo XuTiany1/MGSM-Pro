@@ -1,0 +1,8 @@
+{
+  "original_question": "Marissa fait une randonnée sur un sentier d'une longueur de 12 miles. Elle a mis 1 heure pour parcourir les 4 premiers miles, puis une autre heure pour les deux miles suivants. Si elle veut que sa vitesse moyenne soit de 4 miles par heure, quelle vitesse (en miles par heure) doit-elle atteindre pour parcourir la distance restante ?",
+  "original_answer": 6,
+  "symbolic_template": "{name_female, Marissa} fait une randonnée sur un sentier d'une longueur de {num_digit_1, 12} miles. Elle a mis {num_digit_2, 1} heure pour parcourir les {num_digit_3, 4} premiers miles, puis une autre {num_digit_2, 1} heure pour les deux miles suivants. Si elle veut que sa vitesse moyenne soit de {num_digit_4, 4} miles par heure, quelle vitesse (en miles par heure) doit-elle atteindre pour parcourir la distance restante ?",
+  "ic_sentence_template": "{name_female, Marissa} a une tante qui a vu {num_ic, 49} fleurs sauvages le long du chemin.",
+  "ic_template": "{name_female, Marissa} a une tante qui a vu {num_ic, 49} fleurs sauvages le long du chemin. {name_female, Marissa} fait une randonnée sur un sentier d'une longueur de {num_digit_1, 12} miles. Elle a mis {num_digit_2, 1} heure pour parcourir les {num_digit_3, 4} premiers miles, puis une autre {num_digit_2, 1} heure pour les deux miles suivants. Si elle veut que sa vitesse moyenne soit de {num_digit_4, 4} miles par heure, quelle vitesse (en miles par heure) doit-elle atteindre pour parcourir la distance restante ?",
+  "equation": "UPDATE HERE"
+}

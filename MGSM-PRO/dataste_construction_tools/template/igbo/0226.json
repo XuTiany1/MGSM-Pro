@@ -1,0 +1,8 @@
+{
+  "original_question": "James na-agụ Pokemon kaadị ya. O nwere nke ọkụ iri atọ, nke ahịhịa iri abụọ ma nke mmiri iri anọ. Ọ bụrụ na o tufuo nke mmiri asatọ ma zụta nke ahịhịa iri na anọ , kedụ ohere pesenti ole (dezie ya ka ọ bụrụ ọnụọgụgụ kachasị nọrọ nso) na kaadị a na tụghị anya họrọ ga-abụ nke mmiri? ",
+  "original_answer": 33,
+  "symbolic_template": "{name_male, James} na-agụ Pokemon kaadị ya. O nwere nke ọkụ {num_digit_1, 30}, nke ahịhịa {num_digit_2, 20} ma nke mmiri {num_digit_3, 40}. Ọ bụrụ na o tufuo nke mmiri {num_digit_4, 8} ma zụta nke ahịhịa {num_digit_5, 14}, kedụ ohere pesenti ole (dezie ya ka ọ bụrụ ọnụọgụgụ kachasị nọrọ nso) na kaadị a na tụghị anya họrọ ga-abụ nke mmiri?",
+  "ic_sentence_template": "Nwanne nne {name_male, James} hụrụ kaadị azụọ ahịa dị iche iche {num_ic, 73} n’azụ ahịa ime ụlọ.",
+  "ic_template": "Nwanne nne {name_male, James} hụrụ kaadị azụọ ahịa dị iche iche {num_ic, 73} n’azụ ahịa ime ụlọ. {name_male, James} na-agụ Pokemon kaadị ya. O nwere nke ọkụ {num_digit_1, 30}, nke ahịhịa {num_digit_2, 20} ma nke mmiri {num_digit_3, 40}. Ọ bụrụ na o tufuo nke mmiri {num_digit_4, 8} ma zụta nke ahịhịa {num_digit_5, 14}, kedụ ohere pesenti ole (dezie ya ka ọ bụrụ ọnụọgụgụ kachasị nọrọ nso) na kaadị a na tụghị anya họrọ ga-abụ nke mmiri?",
+  "equation": "UPDATE HERE"
+}

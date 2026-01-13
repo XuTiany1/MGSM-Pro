@@ -1,0 +1,8 @@
+{
+  "original_question": "Dylan nílò sọ́séèjì adìẹ àti sọ́séèjì ẹja láti ṣe sausage buns níbi ayẹyẹ kan. Ó ra sọ́séèjì adìẹ 38 àti sọ́séèjì ẹja 6 ju sọ́séèjì adìẹ lọ. sọ́séèjì mélòó ni Dylan rà ní àpapọ̀?",
+  "original_answer": 82,
+  "symbolic_template": "{name_male, Dylan} nílò sọ́séèjì adìẹ àti sọ́séèjì ẹja láti ṣe sausage buns níbi ayẹyẹ kan. Ó ra sọ́séèjì adìẹ {num_digit_1, 38} àti sọ́séèjì ẹja {num_digit_2, 6} ju sọ́séèjì adìẹ lọ. sọ́séèjì mélòó ni {name_male, Dylan} rà ní àpapọ̀?",
+  "ic_sentence_template": "Ọmọ Uncle {name_male, Dylan} mu ìkòkò omi olómi oyin {num_ic, 62} wá.",
+  "ic_template": "Ọmọ Uncle {name_male, Dylan} mu ìkòkò omi olómi oyin {num_ic, 62} wá. {name_male, Dylan} nílò sọ́séèjì adìẹ àti sọ́séèjì ẹja láti ṣe sausage buns níbi ayẹyẹ kan. Ó ra sọ́séèjì adìẹ {num_digit_1, 38} àti sọ́séèjì ẹja {num_digit_2, 6} ju sọ́séèjì adìẹ lọ. sọ́séèjì mélòó ni {name_male, Dylan} rà ní àpapọ̀?",
+  "equation": "UPDATE HERE"
+}

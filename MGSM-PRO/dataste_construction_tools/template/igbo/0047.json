@@ -1,0 +1,8 @@
+{
+  "original_question": "John zụtara okpukpu abụọ dị ka ọtụtụ taị na-acha ọbara ọbara dị ka ọ zụtara nke na-acha anụnụ anụnụ. O ji $200 zụta taị anụnụ anụnụ nke ọnụ ahia ya bụ $40 otunaotu. Ego ole ka ọ mefuru n'izụta taị?",
+  "original_answer": 800,
+  "symbolic_template": "{name_male, John} zụtara okpukpu abụọ dị ka ọtụtụ taị na-acha ọbara ọbara dị ka ọ zụtara nke na-acha anụnụ anụnụ. Taị na-acha ọbara ọbara na-eri {num_digit_1, 50}% karịa taị na-acha anụnụ anụnụ. O ji ${num_digit_2, 200} zụta taị anụnụ anụnụ nke ọnụ ahia ya bụ ${num_digit_3, 40} otunaotu. Ego ole ka ọ mefuru n'izụta taị?",
+  "ic_sentence_template": "Nwanne nna {name_male, John} hụrụ {num_ic, 93} mkpịsị aka mkpuchi n'ụbọchị ahịa ụlọ.",
+  "ic_template": "Nwanne nna {name_male, John} hụrụ {num_ic, 93} mkpịsị aka mkpuchi n'ụbọchị ahịa ụlọ. {name_male, John} zụtara okpukpu abụọ dị ka ọtụtụ taị na-acha ọbara ọbara dị ka ọ zụtara nke na-acha anụnụ anụnụ. Taị na-acha ọbara ọbara na-eri {num_digit_1, 50}% karịa taị na-acha anụnụ anụnụ. O ji ${num_digit_2, 200} zụta taị anụnụ anụnụ nke ọnụ ahia ya bụ ${num_digit_3, 40} otunaotu. Ego ole ka ọ mefuru n'izụta taị?",
+  "equation": "UPDATE HERE"
+}

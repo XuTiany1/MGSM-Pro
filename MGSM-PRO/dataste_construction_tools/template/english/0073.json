@@ -1,0 +1,8 @@
+{
+  "original_question": "Shiela bought five cell phones for $150 each for a 3-month installment. A 2% interest will be charged for each unit. How much will Shiela pay each month for 3 months?",
+  "original_answer": 255,
+  "symbolic_template": "{name_female, Shiela} bought five cell phones for ${num_digit_1, 150} each for a {num_digit_2, 3}-month installment. A {num_digit_3, 2}% interest will be charged for each unit. How much will {name_female, Shiela} pay each month for {num_digit_2, 3} months?",
+  "ic_sentence_template": "{name_female, Shiela}'s uncle just received {num_ic, 82} flyers for a phone promotion.",
+  "ic_template": "{name_female, Shiela} bought five cell phones for ${num_digit_1, 150} each for a {num_digit_2, 3}-month installment. A {num_digit_3, 2}% interest will be charged for each unit. {name_female, Shiela}'s uncle just received {num_ic, 82} flyers for a phone promotion. How much will {name_female, Shiela} pay each month for {num_digit_2, 3} months?",
+  "equation": "UPDATE HERE"
+}

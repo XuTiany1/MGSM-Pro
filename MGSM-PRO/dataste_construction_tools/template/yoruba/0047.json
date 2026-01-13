@@ -1,0 +1,8 @@
+{
+  "original_question": "John ra ìlọ́po méjì táì pupa tó pọ̀ bíi ti táì olómi aró. Táì pupa náà fi 50% wọ́n ju táì olómi aró lọ. Ó ná $200 lórí táì olómi aró náà tó tó $40 ní ẹyọ kọ̀ọ̀kan. Èló ni ó ná lórí táì?",
+  "original_answer": 800,
+  "symbolic_template": "{name_male, John} ra ìlọ́po méjì táì pupa tó pọ̀ bíi ti táì olómi aró. Táì pupa náà fi {num_digit_1, 50}% wọ́n ju táì olómi aró lọ. Ó ná ${num_digit_2, 200} lórí táì olómi aró náà tó tó ${num_digit_3, 40} ní ẹyọ kọ̀ọ̀kan. Èló ni ó ná lórí táì?",
+  "ic_sentence_template": "Arákùnrin {name_male, John} rí  agbọn wọlé {num_ic, 93} ní tita oúnjẹ ilẹ̀.",
+  "ic_template": "Arákùnrin {name_male, John} rí  agbọn wọlé {num_ic, 93} ní tita oúnjẹ ilẹ̀. {name_male, John} ra ìlọ́po méjì táì pupa tó pọ̀ bíi ti táì olómi aró. Táì pupa náà fi {num_digit_1, 50}% wọ́n ju táì olómi aró lọ. Ó ná ${num_digit_2, 200} lórí táì olómi aró náà tó tó ${num_digit_3, 40} ní ẹyọ kọ̀ọ̀kan. Èló ni ó ná lórí táì?",
+  "equation": "UPDATE HERE"
+}

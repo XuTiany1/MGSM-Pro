@@ -1,0 +1,8 @@
+{
+  "original_question": "Ọnye na-ere ahịa chọrọ ime nhọrọ azụmahịa n'etiti atụmatụ azụmahịa abụọ: Ọla pụtara $5,000 maọbụ ngwa eletrọnịkị pụtara $8,000. Onye ndụmọdụ ego ya neche na ahịa ọla ga-arigoru 2.5% mgbe ngwa eletrọnịkị ga-arigo 1.2% n'ime otu ọnwa ahụ. Ọ bụrụ na onye na-ere ahịa a chọrọ inweta uru kachasi na ngwụcha ọnwa a site na ime nhọrọ, uru ego ole ka nke a ga a bụ?",
+  "original_answer": 125,
+  "symbolic_template": "Ọnye na-ere ahịa chọrọ ime nhọrọ azụmahịa n'etiti atụmatụ azụmahịa {num_digit_1, 2}: Ọla pụtara ${num_digit_2, 5,000} maọbụ ngwa eletrọnịkị pụtara ${num_digit_3, 8,000}. Onye ndụmọdụ ego ya neche na ahịa ọla ga-arigoru {num_digit_4, 2.5}% mgbe ngwa eletrọnịkị ga-arigo {num_digit_5, 1.2}% n'ime otu ọnwa ahụ. Ọ bụrụ na onye na-ere ahịa a chọrọ inweta uru kachasi na ngwụcha ọnwa a site na ime nhọrọ, uru ego ole ka nke a ga a bụ?",
+  "ic_sentence_template": "Nwa nwanne onye ahia zụtara akwụkwọ ọchị {num_ic, 39} n'oge na-adịbeghị anya.",
+  "ic_template": "Nwa nwanne onye ahia zụtara akwụkwọ ọchị {num_ic, 39} n'oge na-adịbeghị anya. Ọnye na-ere ahịa chọrọ ime nhọrọ azụmahịa n'etiti atụmatụ azụmahịa {num_digit_1, 2}: Ọla pụtara ${num_digit_2, 5,000} maọbụ ngwa eletrọnịkị pụtara ${num_digit_3, 8,000}. Onye ndụmọdụ ego ya neche na ahịa ọla ga-arigoru {num_digit_4, 2.5}% mgbe ngwa eletrọnịkị ga-arigo {num_digit_5, 1.2}% n'ime otu ọnwa ahụ. Ọ bụrụ na onye na-ere ahịa a chọrọ inweta uru kachasi na ngwụcha ọnwa a site na ime nhọrọ, uru ego ole ka nke a ga a bụ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Well's mother sells watermelons, peppers, and oranges at the local store. A watermelon costs three times what each pepper costs. An orange costs 5 less than what a watermelon cost. Dillon is sent to the store to buy 4 watermelons, 20 peppers, and 10 oranges. What's the total amount of money he will spend if each pepper costs 15$?",
+  "original_answer": 880,
+  "symbolic_template": "{name_male_1, Well}'s mother sells watermelons, peppers, and oranges at the local store. A watermelon costs three times what each pepper costs. An orange costs {num_digit_1, 5} less than what a watermelon cost. {name_male_2, Dillon} is sent to the store to buy {num_digit_2, 4} watermelons, {num_digit_3, 20} peppers, and {num_digit_4, 10} oranges. What's the total amount of money he will spend if each pepper costs {num_digit_5, 15}$?",
+  "ic_sentence_template": "{name_male_2, Dillon}'s aunt bought {num_ic, 92} pineapples yesterday.",
+  "ic_template": "{name_male_1, Well}'s mother sells watermelons, peppers, and oranges at the local store. A watermelon costs three times what each pepper costs. An orange costs {num_digit_1, 5} less than what a watermelon cost. {name_male_2, Dillon} is sent to the store to buy {num_digit_2, 4} watermelons, {num_digit_3, 20} peppers, and {num_digit_4, 10} oranges. {name_male_2, Dillon}'s aunt bought {num_ic, 92} pineapples yesterday. What's the total amount of money he will spend if each pepper costs {num_digit_5, 15}$?",
+  "equation": "UPDATE HERE"
+}

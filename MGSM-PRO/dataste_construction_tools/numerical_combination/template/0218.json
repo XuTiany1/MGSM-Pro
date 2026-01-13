@@ -1,0 +1,27 @@
+{
+    "problem_id": "0218",
+    "generation_order": ["num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [4, 30]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "adrian_now = 3 * num_digit_1",
+            "harriet_now = num_digit_1",
+            "zack_now = 2 * num_digit_1",
+            "sum_now = adrian_now + harriet_now + zack_now",
+            "sum_future = sum_now + 9",
+            "ans = sum_future / 3"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "sum_future % 3 == 0",
+            "ans > 0"
+        ]
+    }
+}

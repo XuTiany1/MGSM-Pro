@@ -1,0 +1,8 @@
+{
+  "original_question": "レイモンドがサラが洗濯した分の半分洗濯をして、サラはデイビッドと同じくらい洗濯をした場合、サラが400ポンド洗濯をしたら、レイモンドとデイビッドの洗濯した量はどれだけの違いがありますか。",
+  "original_answer": 100,
+  "symbolic_template": "{name_male_1, レイモンド} が {name_female, サラ} が洗濯した分の 半分 洗濯をして、{name_female, サラ} は {name_male_2, デイビッド} の {num_digit_1, 4} 倍洗濯をした場合、{name_female, サラ} が {num_digit_2, 400} ポンド洗濯をしたら、{name_male_1, レイモンド} と {name_male_2, デイビッド} の洗濯した量はどれだけの違いがありますか。",
+  "ic_sentence_template": "{name_male_1, レイモンド}のおばさんは昨日{num_ic, 52}枚のタオルをたたみました。",
+  "ic_template": "{name_male_1, レイモンド}のおばさんは昨日{num_ic, 52}枚のタオルをたたみました。{name_male_1, レイモンド} が {name_female, サラ} が洗濯した分の 半分 洗濯をして、{name_female, サラ} は {name_male_2, デイビッド} の {num_digit_1, 4} 倍洗濯をした場合、{name_female, サラ} が {num_digit_2, 400} ポンド洗濯をしたら、{name_male_1, レイモンド} と {name_male_2, デイビッド} の洗濯した量はどれだけの違いがありますか。",
+  "equation": "UPDATE HERE"
+}

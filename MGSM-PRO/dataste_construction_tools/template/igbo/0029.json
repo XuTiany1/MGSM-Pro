@@ -1,0 +1,8 @@
+{
+  "original_question": "Gloria na-azụru akpụkpụ ụkwụ mgbe ọ bụla ọhụrụ otu akpụkpọ ụkwụ buutu dabara adaba na ego okenyere akpụkpọ ụkwụ. Kọsina dị, ọ ga-ahọrọ n'etiti buutu na hiịlụ di elu abụọ nke ọnụ ahia ha abụọ pụtara dọla ise bere ego karịa buutu . Ọ bụrụ na ọnụ ahia otu hiịlụ pụtara $33 ma ọnụ ahia nke ọzọ bụ ugboro abụọ karia nnukwu, dọla ole ka buutu ahụ bụ?",
+  "original_answer": 104,
+  "symbolic_template": "{name_female, Gloria} na-azụru akpụkpụ ụkwụ mgbe ọ bụla ọhụrụ otu akpụkpọ ụkwụ buutu dabara adaba na ego okenyere akpụkpọ ụkwụ. Kọsina dị, ọ ga-ahọrọ n'etiti buutu na hiịlụ dị elu abụọ nke ọnụ ahia ha abụọ pụtara dọla ise bere ego karịa buutu. Ọ bụrụ na ọnụ ahia otu hiịlụ pụtara ${num_digit_1, 33} ma ọnụ ahia nke ọzọ bụ ugboro abụọ karia nnukwu, dọla ole ka buutu ahụ bụ?",
+  "ic_sentence_template": "Nwa nwanne nne {name_female, Gloria} kpọrọzị {num_ic, 48} ụkwụ soksi nso ebe a.",
+  "ic_template": "Nwa nwanne nne {name_female, Gloria} kpọrọzị {num_ic, 48} ụkwụ soksi nso ebe a. {name_female, Gloria} na-azụru akpụkpụ ụkwụ mgbe ọ bụla ọhụrụ otu akpụkpọ ụkwụ buutu dabara adaba na ego okenyere akpụkpọ ụkwụ. Kọsina dị, ọ ga-ahọrọ n'etiti buutu na hiịlụ dị elu abụọ nke ọnụ ahia ha abụọ pụtara dọla ise bere ego karịa buutu. Ọ bụrụ na ọnụ ahia otu hiịlụ pụtara ${num_digit_1, 33} ma ọnụ ahia nke ọzọ bụ ugboro abụọ karia nnukwu, dọla ole ka buutu ahụ bụ?",
+  "equation": "UPDATE HERE"
+}

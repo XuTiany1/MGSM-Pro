@@ -1,0 +1,8 @@
+{
+  "original_question": "Ryan gbin òdòdó 2 ní ojúmọ́ sí inú ọgbà rẹ̀. Lẹ́yìn ọjọ́ 15, òdòdó mélòó ní ó ní tí 5 ò bá wù?",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Ryan} gbin òdòdó {num_digit_1, 2} ní ojúmọ́ sí inú ọgbà rẹ̀. Lẹ́yìn ọjọ́ {num_digit_2, 15}, òdòdó mélòó ní ó ní tí {num_digit_3, 5} ò bá wù?",
+  "ic_sentence_template": "Arákùnrin {name_male, Ryan} mú ìkòkò tuntun {num_ic, 8} wá fún ọgbà náà.",
+  "ic_template": "Arákùnrin {name_male, Ryan} mú ìkòkò tuntun {num_ic, 8} wá fún ọgbà náà. {name_male, Ryan} gbin òdòdó {num_digit_1, 2} ní ojúmọ́ sí inú ọgbà rẹ̀. Lẹ́yìn ọjọ́ {num_digit_2, 15}, òdòdó mélòó ní ó ní tí {num_digit_3, 5} ò bá wù?",
+  "equation": "UPDATE HERE"
+}

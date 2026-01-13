@@ -1,0 +1,8 @@
+{
+  "original_question": "Violetta veut acheter de nouveaux crayons. Elle en a besoin dans 5 couleurs différentes et a prévu 20 $ pour cet achat. Sachant qu'un crayon coûte 2 $, combien aura-t-elle de monnaie ?",
+  "original_answer": 10,
+  "symbolic_template": "{name_female, Violetta} veut acheter de nouveaux crayons. Elle en a besoin dans {num_digit_1, 5} couleurs différentes et a prévu {num_digit_2, 20} $ pour cet achat. Sachant qu'un crayon coûte {num_digit_3, 2} $, combien aura-t-elle de monnaie ?",
+  "ic_sentence_template": "L'oncle de {name_female, Violetta} conserve {num_ic, 68} peintures dans sa galerie.",
+  "ic_template": "L'oncle de {name_female, Violetta} conserve {num_ic, 68} peintures dans sa galerie. {name_female, Violetta} veut acheter de nouveaux crayons. Elle en a besoin dans {num_digit_1, 5} couleurs différentes et a prévu {num_digit_2, 20} $ pour cet achat. Sachant qu'un crayon coûte {num_digit_3, 2} $, combien aura-t-elle de monnaie ?",
+  "equation": "UPDATE HERE"
+}

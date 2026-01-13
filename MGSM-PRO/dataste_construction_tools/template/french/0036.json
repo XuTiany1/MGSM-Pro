@@ -1,0 +1,8 @@
+{
+  "original_question": "Terry mange 2 yaourts chaque jour. On les vend au prix de 4 yaourts pour 5,00 $. Combien d'argent dépense-t-il en yaourt sur 30 jours ?",
+  "original_answer": 75,
+  "symbolic_template": "{name_male, Terry} mange {num_digit_1, 2} yaourts chaque jour. On les vend au prix de {num_digit_2, 4} yaourts pour {num_digit_3, 5},00 $. Combien d'argent dépense-t-il en yaourt sur {num_digit_4, 30} jours ?",
+  "ic_sentence_template": "{name_male, Terry} a un oncle qui a récemment acheté {num_ic, 29} cartons de jus d’orange.",
+  "ic_template": "{name_male, Terry} a un oncle qui a récemment acheté {num_ic, 29} cartons de jus d’orange. {name_male, Terry} mange {num_digit_1, 2} yaourts chaque jour. On les vend au prix de {num_digit_2, 4} yaourts pour {num_digit_3, 5},00 $. Combien d'argent dépense-t-il en yaourt sur {num_digit_4, 30} jours ?",
+  "equation": "UPDATE HERE"
+}

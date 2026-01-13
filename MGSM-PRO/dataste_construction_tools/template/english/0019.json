@@ -1,0 +1,8 @@
+{
+  "original_question": "Marissa is hiking a 12-mile trail. She took 1 hour to walk the first 4 miles, then another hour to walk the next two miles. If she wants her average speed to be 4 mph, what speed (in miles per hour) does she need to walk the remaining distance?",
+  "original_answer": 6,
+  "symbolic_template": "{name_female, Marissa} is hiking a {num_digit_1, 12}-mile trail. She took {num_digit_2, 1} hour to walk the first {num_digit_3, 4} miles, then another {num_digit_2, 1} hour to walk the next two miles. If she wants her average speed to be {num_digit_4, 4} miles per hour, what speed (in miles per hour) does she need to walk the remaining distance?",
+  "ic_sentence_template": "{name_female, Marissa}'s aunt saw {num_ic, 49} wildflowers along the path.",
+  "ic_template": "{name_female, Marissa} is hiking a {num_digit_1, 12}-mile trail. She took {num_digit_2, 1} hour to walk the first {num_digit_3, 4} miles, then another {num_digit_2, 1} hour to walk the next two miles. {name_female, Marissa}'s aunt saw {num_ic, 49} wildflowers along the path. If she wants her average speed to be {num_digit_4, 4} miles per hour, what speed (in miles per hour) does she need to walk the remaining distance?",
+  "equation": "UPDATE HERE"
+}

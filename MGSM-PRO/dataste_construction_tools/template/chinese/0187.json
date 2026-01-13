@@ -1,0 +1,8 @@
+{
+  "original_question": "曼蒂欠本尼迪克特 100 美元。他们约好月利率为 2%。如果曼蒂能在 3 个月后还清欠款，她需要付给本尼迪克特多少钱？",
+  "original_answer": 106,
+  "symbolic_template": "{name_female, 曼蒂} 欠 {name_male, 本尼迪克特} {num_digit_1, 100} 美元。他们约好月利率为 {num_digit_2, 2}%。如果 {name_female, 曼蒂} 能在 {num_digit_3, 3} 个月后还清欠款，她需要付给 {name_male, 本尼迪克特} 多少钱？",
+  "ic_sentence_template": "{name_female, 曼迪} 的叔叔曾经从同一个人那里借了 {num_ic, 656} 美元。",
+  "ic_template": "{name_female, 曼迪} 的叔叔曾经从同一个人那里借了 {num_ic, 656} 美元。{name_female, 曼蒂} 欠 {name_male, 本尼迪克特} {num_digit_1, 100} 美元。他们约好月利率为 {num_digit_2, 2}%。如果 {name_female, 曼蒂} 能在 {num_digit_3, 3} 个月后还清欠款，她需要付给 {name_male, 本尼迪克特} 多少钱？",
+  "equation": "UPDATE HERE"
+}

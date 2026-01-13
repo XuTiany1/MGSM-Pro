@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean aime boire un verre d'eau au petit déjeuner, au déjeuner et au dîner. Pour finir, il en boit également un avant d'aller se coucher. Il suit cette routine tous les jours de la semaine. Le week-end par contre, il aime se détendre et boire un soda au dîner. Combien de verres d'eau Jean boit-il en une semaine ?",
+  "original_answer": 26,
+  "symbolic_template": "{name_male, Jean} aime boire {num_digit_1, 1} verre d'eau au petit déjeuner, {num_digit_2, 1} au déjeuner et {num_digit_3, 1} au dîner. Pour finir, il en boit également {num_digit_4, 1} avant d'aller se coucher. Il suit cette routine tous les jours de la semaine (pour {num_digit_5, 5} jours). Le week-end (pour {num_digit_6, 2} jours) par contre, il aime se détendre et boire un soda au dîner. Combien de verres d'eau {name_male, Jean} boit-il en une semaine ?",
+  "ic_sentence_template": "{name_male, John} a un oncle qui boit {num_ic, 12} tasses de thé chaque semaine.",
+  "ic_template": "{name_male, John} a un oncle qui boit {num_ic, 12} tasses de thé chaque semaine. {name_male, Jean} aime boire {num_digit_1, 1} verre d'eau au petit déjeuner, {num_digit_2, 1} au déjeuner et {num_digit_3, 1} au dîner. Pour finir, il en boit également {num_digit_4, 1} avant d'aller se coucher. Il suit cette routine tous les jours de la semaine (pour {num_digit_5, 5} jours). Le week-end (pour {num_digit_6, 2} jours) par contre, il aime se détendre et boire un soda au dîner. Combien de verres d'eau {name_male, Jean} boit-il en une semaine ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "ፓንቾ በቀን 20 ማይል ይራመዳል። ከቅዳሜና እሁድ ውጭ, ቅዳሜና እሁድ ፲ ማይል ሲራመድ። በሳምንት ውስጥ ስንት ማይሎች ይራመዳል?",
+  "original_answer": 120,
+  "symbolic_template": "{name_male, ፓንቾ} በቀን {num_digit_1, 20} ማይል ይራመዳል። ከቅዳሜና እሁድ ውጭ, ቅዳሜና እሁድ {num_digit_2, ፲} ማይል ሲራመድ። በሳምንት ውስጥ ስንት ማይሎች ይራመዳል?",
+  "ic_sentence_template": "የ{name_male, ፓንቾ} አጎት {num_ic, 302} ቀሚሶች ባለቤት ነው።",
+  "ic_template": "{name_male, ፓንቾ} በቀን {num_digit_1, 20} ማይል ይራመዳል። ከቅዳሜና እሁድ ውጭ, ቅዳሜና እሁድ {num_digit_2, ፲} ማይል ሲራመድ። በሳምንት ውስጥ ስንት ማይሎች ይራመዳል? የ{name_male, ፓንቾ} አጎት {num_ic, 302} ቀሚሶች ባለቤት ነው።",
+  "equation": "UPDATE HERE"
+}

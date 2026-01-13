@@ -1,0 +1,8 @@
+{
+  "original_question": "Shawnda pense qu'un service de gonflage de vélos serait très utile aux enfants de son quartier. Elle choisit de facturer au pneu. Le gonflage de chaque pneu coûte 25 cents. Le premier jour, 5 personnes sont venues faire gonfler les deux pneus de chacun de leurs vélos. 3 personnes sont venues faire gonfler tous les pneus de leurs tricycles. Enfin, une personne est venue en monocycle. Combien d'argent a-t-elle gagné ce jour-là ?",
+  "original_answer": 5,
+  "symbolic_template": "{name_female, Shawnda} pense qu'un service de gonflage de vélos serait très utile aux enfants de son quartier. Elle choisit de facturer au pneu. Le gonflage de chaque pneu coûte {num_digit_1, 25} cents. Le premier jour, {num_digit_2, 5} personnes sont venues faire gonfler les deux pneus de chacun de leurs vélos. {num_digit_3, 3} personnes sont venues faire gonfler tous les pneus de leurs tricycles. Enfin, une personne est venue en monocycle. Combien d'argent a-t-elle gagné ce jour-là ?",
+  "ic_sentence_template": "{name_female, Shawnda} a un oncle qui a récemment acheté {num_ic, 37} ballons pour une fête.",
+  "ic_template": "{name_female, Shawnda} a un oncle qui a récemment acheté {num_ic, 37} ballons pour une fête. {name_female, Shawnda} pense qu'un service de gonflage de vélos serait très utile aux enfants de son quartier. Elle choisit de facturer au pneu. Le gonflage de chaque pneu coûte {num_digit_1, 25} cents. Le premier jour, {num_digit_2, 5} personnes sont venues faire gonfler les deux pneus de chacun de leurs vélos. {num_digit_3, 3} personnes sont venues faire gonfler tous les pneus de leurs tricycles. Enfin, une personne est venue en monocycle. Combien d'argent a-t-elle gagné ce jour-là ?",
+  "equation": "UPDATE HERE"
+}

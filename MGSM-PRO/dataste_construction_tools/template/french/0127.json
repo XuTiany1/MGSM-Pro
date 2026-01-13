@@ -1,0 +1,8 @@
+{
+  "original_question": "Après avoir été transférée dans une nouvelle école, Amy s'est fait 20 amies de plus que Lily. Si Lily s'est fait 50 amies, combien d'amies Lily et Amy ont-elles en tout ?",
+  "original_answer": 120,
+  "symbolic_template": "Après avoir été transférée dans une nouvelle école, {name_female_1, Amy} s'est fait {num_digit_1, 20} amies de plus que {name_female_2, Lily}. Si {name_female_2, Lily} s'est fait {num_digit_2, 50} amies, combien d'amies {name_female_2, Lily} et {name_female_1, Amy} ont-elles en tout ?",
+  "ic_sentence_template": "{name_female_2, Lily} a reçu {num_ic, 42} bandes dessinées de la part de son oncle comme cadeau de bienvenue.",
+  "ic_template": "{name_female_2, Lily} a reçu {num_ic, 42} bandes dessinées de la part de son oncle comme cadeau de bienvenue. Après avoir été transférée dans une nouvelle école, {name_female_1, Amy} s'est fait {num_digit_1, 20} amies de plus que {name_female_2, Lily}. Si {name_female_2, Lily} s'est fait {num_digit_2, 50} amies, combien d'amies {name_female_2, Lily} et {name_female_1, Amy} ont-elles en tout ?",
+  "equation": "UPDATE HERE"
+}

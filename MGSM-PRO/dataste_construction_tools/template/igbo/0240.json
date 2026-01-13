@@ -1,0 +1,8 @@
+{
+  "original_question": "James nwere ịhe nracha kandi isii karịa Robert. John nwere ụzọ abụọ ugboro ole Robert nwere. Ọ bụrụ na John nwere ihe nracha kandi iri ise na anọ, ịhe nracha kandi ole ka John nwere karịa James? ",
+  "original_answer": 21,
+  "symbolic_template": "{name_male_1, James} nwere ịhe nracha kandi {num_digit_1, 6} karịa {name_male_2, Robert}. {name_male_3, John} nwere ụzọ abụọ ugboro ole {name_male_2, Robert} nwere. Ọ bụrụ na {name_male_3, John} nwere ihe nracha kandi {num_digit_2, 54}, ịhe nracha kandi ole ka {name_male_3, John} nwere karịa {name_male_1, James}?",
+  "ic_sentence_template": "Nwanne nne {name_male_2, Robert} nyere ya nkume egwuregwu {num_ic, 422} n'oge na-adịbeghị anya.",
+  "ic_template": "Nwanne nne {name_male_2, Robert} nyere ya nkume egwuregwu {num_ic, 422} n'oge na-adịbeghị anya. {name_male_1, James} nwere ịhe nracha kandi {num_digit_1, 6} karịa {name_male_2, Robert}. {name_male_3, John} nwere ụzọ abụọ ugboro ole {name_male_2, Robert} nwere. Ọ bụrụ na {name_male_3, John} nwere ihe nracha kandi {num_digit_2, 54}, ịhe nracha kandi ole ka {name_male_3, John} nwere karịa {name_male_1, James}?",
+  "equation": "UPDATE HERE"
+}

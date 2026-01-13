@@ -1,0 +1,8 @@
+{
+  "original_question": "杰瑞正在摇一颗六面骰子。他摇出一个大于 3 的数字的可能性比连续摇出两个偶数的可能性大多少（以百分比表达）？",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, 杰瑞} 正在掷一颗 六 面骰子。他摇出一个大于 {num_digit_1, 3} 的数字的可能性比连续摇出 两 个偶数的可能性大多少（以百分比表达）？",
+  "ic_sentence_template": "{name_male, 杰瑞} 的叔叔曾经收集过 {num_ic, 73} 颗弹珠。",
+  "ic_template": "{name_male, 杰瑞} 的叔叔曾经收集过 {num_ic, 73} 颗弹珠。{name_male, 杰瑞} 正在掷一颗 六 面骰子。他摇出一个大于 {num_digit_1, 3} 的数字的可能性比连续摇出 两 个偶数的可能性大多少（以百分比表达）？",
+  "equation": "UPDATE HERE"
+}

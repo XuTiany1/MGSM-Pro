@@ -1,0 +1,8 @@
+{
+  "original_question": "Ted le tyrannosaure a prévu d'apporter une salade de pommes de terre au pique-nique des dinosaures. Il sait qu'il en faudra 10 livres pour un dinosaure adulte et la moitié de cette quantité pour un enfant. Si 20 adultes et 5 enfants sont présents au pique-nique, combien de kilos de salade de pommes de terre Ted devra-t-il apporter pour espérer nourrir tout le monde ?",
+  "original_answer": 225,
+  "symbolic_template": "{name_dinosaur, Ted} le tyrannosaure a prévu d'apporter une salade de pommes de terre au pique-nique des dinosaures. Il sait qu'il en faudra {num_digit_1, 10} livres pour un dinosaure adulte et la moitié de cette quantité pour un enfant. Si {num_digit_2, 20} adultes et {num_digit_3, 5} enfants sont présents au pique-nique, combien de kilos de salade de pommes de terre {name_dinosaur, Ted} devra-t-il apporter pour espérer nourrir tout le monde ?",
+  "ic_sentence_template": "{name_dinosaur, Ted} a un cousin qui possède {num_ic, 94} ananas.",
+  "ic_template": "{name_dinosaur, Ted} a un cousin qui possède {num_ic, 94} ananas. {name_dinosaur, Ted} le tyrannosaure a prévu d'apporter une salade de pommes de terre au pique-nique des dinosaures. Il sait qu'il en faudra {num_digit_1, 10} livres pour un dinosaure adulte et la moitié de cette quantité pour un enfant. Si {num_digit_2, 20} adultes et {num_digit_3, 5} enfants sont présents au pique-nique, combien de kilos de salade de pommes de terre {name_dinosaur, Ted} devra-t-il apporter pour espérer nourrir tout le monde ?",
+  "equation": "UPDATE HERE"
+}

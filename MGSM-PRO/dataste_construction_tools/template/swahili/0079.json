@@ -1,0 +1,8 @@
+{
+  "original_question": "John anachukua mbwa. Anampeleka mbwa huyo kwa mnadhifishaji, kwa gharama ya $100. Mnadhifishaji huyo anampa kipunguzo cha 30% kwa kuwa mteja mpya. Unadhifishaji huo utamgharimu pesa ngapi?",
+  "original_answer": 70,
+  "symbolic_template": "{name_male, John} anampokea mbwa. Anampeleka mbwa huyo kwa mpambaji, ambapo gharama ni ${num_digit_1, 100}. Mpambaji anampa punguzo la {num_digit_2, 30}% kwa kuwa mteja mpya. Huduma ya kumpamba itamgharimu kiasi gani?",
+  "ic_sentence_template": "Mjomba wa {name_male, John} ana paka {num_ic, 13}.",
+  "ic_template": "Mjomba wa {name_male, John} ana paka {num_ic, 13}. {name_male, John} anampokea mbwa. Anampeleka mbwa huyo kwa mpambaji, ambapo gharama ni ${num_digit_1, 100}. Mpambaji anampa punguzo la {num_digit_2, 30}% kwa kuwa mteja mpya. Huduma ya kumpamba itamgharimu kiasi gani?",
+  "equation": "UPDATE HERE"
+}

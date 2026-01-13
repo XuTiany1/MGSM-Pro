@@ -1,0 +1,8 @@
+{
+  "original_question": "John hukimbia maili 60 kwa wiki. Huwa anakimbia siku 3 kwa wiki. Huwa anakimbia saa 3 siku ya kwanza na nusu ya kiasi hicho kwa siku nyingine mbili anazokimbia. Huwa anakimbia kwa kasi gani?",
+  "original_answer": 10,
+  "symbolic_template": "{name_male, John} hukimbia maili {num_digit_1, 60} kwa wiki. Huwa anakimbia siku {num_digit_2, 3} kwa wiki. Huwa anakimbia saa {num_digit_3, 3} siku ya kwanza na nusu ya kiasi hicho kwa siku nyingine anazokimbia. Huwa anakimbia kwa kasi gani?",
+  "ic_sentence_template": "Mjomba wa {name_male, John} ana kofia za baseball {num_ic, 85}.",
+  "ic_template": "Mjomba wa {name_male, John} ana kofia za baseball {num_ic, 85}. {name_male, John} hukimbia maili {num_digit_1, 60} kwa wiki. Huwa anakimbia siku {num_digit_2, 3} kwa wiki. Huwa anakimbia saa {num_digit_3, 3} siku ya kwanza na nusu ya kiasi hicho kwa siku nyingine anazokimbia. Huwa anakimbia kwa kasi gani?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "约翰花 2 美元买牛奶，花 3 美元买鸡蛋，花 3 美元买灯泡，花 3 美元买杯子，花 4 美元买蟑螂诱捕器。如果所有非食品类商品需缴纳 10% 的税收，全部商品多少钱?",
+  "original_answer": 16,
+  "symbolic_template": "{name_male, 约翰} 花 {num_digit_1, 2} 美元买牛奶，花 {num_digit_2, 3} 美元买鸡蛋，花 {num_digit_3, 3} 美元买灯泡，花 {num_digit_4, 3} 美元买杯子，花 {num_digit_5, 4} 美元买蟑螂诱捕器。如果所有非食品类商品需缴纳 {num_digit_6, 10}% 的税收，全部商品多少钱?",
+  "ic_sentence_template": "{name_male, 约翰} 的侄女在后院找到了 {num_ic, 16} 颗弹珠。",
+  "ic_template": "{name_male, 约翰} 的侄女在后院找到了 {num_ic, 16} 颗弹珠。{name_male, 约翰} 花 {num_digit_1, 2} 美元买牛奶，花 {num_digit_2, 3} 美元买鸡蛋，花 {num_digit_3, 3} 美元买灯泡，花 {num_digit_4, 3} 美元买杯子，花 {num_digit_5, 4} 美元买蟑螂诱捕器。如果所有非食品类商品需缴纳 {num_digit_6, 10}% 的税收，全部商品多少钱?",
+  "equation": "UPDATE HERE"
+}

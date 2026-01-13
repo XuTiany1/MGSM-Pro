@@ -1,0 +1,8 @@
+{
+  "original_question": "Na Dylan hia nkokɔ nam ne mpataa a wɔde yɛ paanoo wɔ apontoɔ bi ase. Ɔtɔɔ nkokɔ nam beyɛ sɛ aduasa mmiɛnsa ne mpataa nsia ɛsen nkokɔ nam. Dylan tɔɔ mogyanam dodow ahe?",
+  "original_answer": 82,
+  "symbolic_template": "Na {name_male, Dylan} hia nkokɔ nam ne mpataa a wɔde yɛ paanoo wɔ apontoɔ bi ase. Ɔtɔɔ nkokɔ nam beyɛ sɛ {num_digit_1, 38} ne mpataa {num_digit_2, 6} ɛsen nkokɔ nam. {name_male, Dylan} tɔɔ mogyanam dodow ahe?",
+  "ic_sentence_template": "{name_male, Dylan} wɔfa de ankaatwadeɛ nsa kotoku {num_ic, 62} baeɛ.",
+  "ic_template": "{name_male, Dylan} wɔfa de ankaatwadeɛ nsa kotoku {num_ic, 62} baeɛ. Na {name_male, Dylan} hia nkokɔ nam ne mpataa a wɔde yɛ paanoo wɔ apontoɔ bi ase. Ɔtɔɔ nkokɔ nam beyɛ sɛ {num_digit_1, 38} ne mpataa {num_digit_2, 6} ɛsen nkokɔ nam. {name_male, Dylan} tɔɔ mogyanam dodow ahe?",
+  "equation": "UPDATE HERE"
+}

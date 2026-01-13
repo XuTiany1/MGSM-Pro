@@ -1,0 +1,8 @@
+{
+  "original_question": "Sadie daa dɔnhwere 8 wɔ Dwoada. Wɔ nna mmienu a ԑdi akyi no, ɔdaa dɔnhwere mmienu wɔ fam kyԑn saa dabiara efisԑ na ԑwɔ sԑ na ɔyԑ efie dwuadie bi. Sԑ nna a aka wɔ nnawɔtwe no mu no, ɔdaa dɔnhwere baako kyԑn deԑ ɔdaa no saa nna mmienu yi a, dɔnhwere dodoɔ sԑn na ɔdaaԑ wɔ nnawɔtwe no mu?",
+  "original_answer": 48,
+  "symbolic_template": "{name_female, Sadie} daa dɔnhwere {num_digit_1, 8} wɔ Dwoada. Wɔ nna mmienu a ԑdi akyi no, ɔdaa dɔnhwere {num_digit_2, 2} wɔ fam kyԑn saa dabiara efisԑ na ԑwɔ sԑ na ɔyԑ efie dwuadie bi. Sԑ nna a aka wɔ nnawɔtwe no mu no, ɔdaa dɔnhwere {num_digit_3, baako} kyԑn deԑ ɔdaa no saa nna mmienu yi a, dɔnhwere dodoɔ sԑn na ɔdaaԑ wɔ nnawɔtwe no mu?",
+  "ic_sentence_template": "{name_female, Sadie} wɔfa no nomi kɔfi kuruwaa {num_ic, 23} nnawɔtwe a atwam.",
+  "ic_template": "{name_female, Sadie} wɔfa no nomi kɔfi kuruwaa {num_ic, 23} nnawɔtwe a atwam. {name_female, Sadie} daa dɔnhwere {num_digit_1, 8} wɔ Dwoada. Wɔ nna mmienu a ԑdi akyi no, ɔdaa dɔnhwere {num_digit_2, 2} wɔ fam kyԑn saa dabiara efisԑ na ԑwɔ sԑ na ɔyԑ efie dwuadie bi. Sԑ nna a aka wɔ nnawɔtwe no mu no, ɔdaa dɔnhwere {num_digit_3, baako} kyԑn deԑ ɔdaa no saa nna mmienu yi a, dɔnhwere dodoɔ sԑn na ɔdaaԑ wɔ nnawɔtwe no mu?",
+  "equation": "UPDATE HERE"
+}

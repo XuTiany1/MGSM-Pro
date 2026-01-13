@@ -1,0 +1,8 @@
+{
+  "original_question": "Mark is a copy-editor. He edits an equal number of sentences each week for two different publishers, who each pay him a different rate per sentence. Publisher B pays Mark twice what Publisher A pays. Mark edits a total number of 1000 sentences each week, and Publisher A pays him 5 cents per sentence. How much does Mark make in a week, in cents?",
+  "original_answer": 7500,
+  "symbolic_template": "{name_male, Mark} is a copy-editor. He edits an equal number of sentences each week for two different publishers, who each pay him a different rate per sentence. Publisher B pays {name_male, Mark} twice what Publisher A pays. {name_male, Mark} edits a total number of {num_digit_1, 1000} sentences each week, and Publisher A pays him {num_digit_2, 5} cents per sentence. How much does {name_male, Mark} make in a week, in cents?",
+  "ic_sentence_template": "{name_male, Mark}'s uncle recently read {num_ic, 3071} mystery novels.",
+  "ic_template": "{name_male, Mark} is a copy-editor. He edits an equal number of sentences each week for two different publishers, who each pay him a different rate per sentence. Publisher B pays {name_male, Mark} twice what Publisher A pays. {name_male, Mark} edits a total number of {num_digit_1, 1000} sentences each week, and Publisher A pays him {num_digit_2, 5} cents per sentence. {name_male, Mark}'s uncle recently read {num_ic, 3071} mystery novels. How much does {name_male, Mark} make in a week, in cents?",
+  "equation": "UPDATE HERE"
+}

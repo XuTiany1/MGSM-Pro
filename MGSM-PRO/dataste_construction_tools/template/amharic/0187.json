@@ -1,0 +1,8 @@
+{
+  "original_question": "ማንዲ የቤኔዲክት $100 ዕዳ አለባት። ወርሃዊ ወለድ 2% እንዲኖራቸው ተስማምተዋል። ማንዲ ከ3 ወራት በኋላ መክፈል ከቻለች፣ለቤኔዲክት ምን ያህል መስጠት አለባት",
+  "original_answer": 106,
+  "symbolic_template": "{name_female, ማንዲ} ለ{name_male, ቤኔዲክት} ${num_digit_1, 100} ዕዳ አለባት። ወርሃዊ ወለድ {num_digit_2, 2}% እንዲኖራቸው ተስማምተዋል። {name_female, ማንዲ} ከ{num_digit_3, 3} ወራት በኋላ መክፈል ከቻለች፣ለ{name_male, ቤኔዲክት} ምን ያህል መስጠት አለባት?",
+  "ic_sentence_template": "የ{name_female, ማንዲ} አጎት አንድ ጊዜ ከአንደኛው ሰው {num_ic, 656} ዶላር ወስዷል።",
+  "ic_template": "{name_female, ማንዲ} ለ{name_male, ቤኔዲክት} ${num_digit_1, 100} ዕዳ አለባት። ወርሃዊ ወለድ {num_digit_2, 2}% እንዲኖራቸው ተስማምተዋል። {name_female, ማንዲ} ከ{num_digit_3, 3} ወራት በኋላ መክፈል ከቻለች፣ለ{name_male, ቤኔዲክት} ምን ያህል መስጠት አለባት? የ{name_female, ማንዲ} አጎት አንድ ጊዜ ከአንደኛው ሰው {num_ic, 656} ዶላር ወስዷል።",
+  "equation": "UPDATE HERE"
+}

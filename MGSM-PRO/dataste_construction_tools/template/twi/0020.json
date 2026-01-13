@@ -1,0 +1,8 @@
+{
+  "original_question": "Mewɔ ankaa nsa 10 lita a ԑmu mmiԑnsa nkyԑmu mmienu yԑ nsuo na mepԑ sԑ mede aborɔbԑ nsa 15 lita a ԑmu num nkyԑmu mmiԑnsa yԑ nsuo ka ho. Nanso berԑ a merehwie no, mehwiee ankaa nsa lita baako guu fam. Nsuo sԑn na aka wɔ lita 24 a aka no mu?",
+  "original_answer": 15,
+  "symbolic_template": "Mewɔ ankaa nsa {num_digit_1, 10} lita a ԑmu mmiɛnsa nkyɛmu mmienu yԑ nsuo na mepԑ sԑ mede aborɔbԑ nsa {num_digit_2, 15} lita a ԑmu num nkyɛmu mmiɛnsa yԑ nsuo ka ho. Nanso berԑ a merehwie no, mehwiee ankaa nsa lita baako guu fam. Nsuo sԑn na aka wɔ lita {num_digit_3, 24} a aka no mu?",
+  "ic_sentence_template": "{name_male, Eric} nua de amango {num_ic, 186} baa anigyie nhyiemu no.",
+  "ic_template": "{name_male, Eric} nua de amango {num_ic, 186} baa anigyie nhyiemu no. Mewɔ ankaa nsa {num_digit_1, 10} lita a ԑmu mmiɛnsa nkyɛmu mmienu yԑ nsuo na mepԑ sԑ mede aborɔbԑ nsa {num_digit_2, 15} lita a ԑmu num nkyɛmu mmiɛnsa yԑ nsuo ka ho. Nanso berԑ a merehwie no, mehwiee ankaa nsa lita baako guu fam. Nsuo sԑn na aka wɔ lita {num_digit_3, 24} a aka no mu?",
+  "equation": "UPDATE HERE"
+}

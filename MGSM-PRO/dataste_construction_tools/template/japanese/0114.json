@@ -1,0 +1,8 @@
+{
+  "original_question": "ジャマールの電話はブリタニーの電話の6倍多くの写真を保存できる。ブリタニーの電話が保存できる写真の最大の数は、ジャマールが動物園でアヒルを撮った写真の中の、鳥の数の50倍だ。もしもジャマールの携帯電話が、1800枚の写真を保存できる場合、ジャマールが動物園でアヒルを撮った写真に、何匹アヒルがいる？",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, Jamal}の電話は{name_female, Brittany}の{num_digit_1, 6}電話の倍多くの写真を保存できる。{name_female, Brittany}の{name_female, Brittany}電話が保存できる写真の最大の数は、{name_male, Jamal}が動物園でアヒルを撮った写真の中の、鳥の数の{num_digit_3, 50}倍だ。もしも{name_male, Jamal}の携帯電話が、{num_digit_2, 1800}枚の写真を保存できる場合、{name_male, Jamal}が動物園でアヒルを撮った写真に、何匹アヒルがいる？",
+  "ic_sentence_template": "{name_male, ジャマル}のおじさんはかつて{num_ic, 84}の国立公園を訪れたことがあります。",
+  "ic_template": "{name_male, ジャマル}のおじさんはかつて{num_ic, 84}の国立公園を訪れたことがあります。{name_male, Jamal}の電話は{name_female, Brittany}の{num_digit_1, 6}電話の倍多くの写真を保存できる。{name_female, Brittany}の{name_female, Brittany}電話が保存できる写真の最大の数は、{name_male, Jamal}が動物園でアヒルを撮った写真の中の、鳥の数の{num_digit_3, 50}倍だ。もしも{name_male, Jamal}の携帯電話が、{num_digit_2, 1800}枚の写真を保存できる場合、{name_male, Jamal}が動物園でアヒルを撮った写真に、何匹アヒルがいる？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "凯蒂以 7 茶匙糖和 13 杯水的比例泡咖啡。如果她使用的糖和水一共 120 茶匙和杯，请计算她使用了多少茶匙的糖。",
+  "original_answer": 42,
+  "symbolic_template": "{name_female, 凯蒂} 以 {num_digit_1, 7} 茶匙糖和 {num_digit_2, 13} 杯水的比例泡咖啡。如果她使用的糖和水一共 {num_digit_3, 120} 茶匙和杯，请计算她使用了多少茶匙的糖。",
+  "ic_sentence_template": "{name_female, 凯蒂} 的叔叔每个月喝 {num_ic, 47} 杯咖啡。",
+  "ic_template": "{name_female, 凯蒂} 的叔叔每个月喝 {num_ic, 47} 杯咖啡。{name_female, 凯蒂} 以 {num_digit_1, 7} 茶匙糖和 {num_digit_2, 13} 杯水的比例泡咖啡。如果她使用的糖和水一共 {num_digit_3, 120} 茶匙和杯，请计算她使用了多少茶匙的糖。",
+  "equation": "UPDATE HERE"
+}

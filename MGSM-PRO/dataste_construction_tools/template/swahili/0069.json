@@ -1,0 +1,8 @@
+{
+  "original_question": "Bailey huanza kwa kiasi fulani cha pesa. Kisha hupokea marupurupu ya kila wiki ya $5 kwa wiki 8. Mwishoni mwa wiki 8, iwapo ana jumla ya $100, Bailey alianza na pesa ngapi?",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Bailey} huanza kwa kiasi fulani cha pesa. Kisha hupokea marupurupu ya kila wiki ya ${num_digit_1, 5} kwa wiki {num_digit_2, 8}. Mwishoni mwa wiki {num_digit_2, 8}, iwapo ana jumla ya ${num_digit_3, 100}, {name_male, Bailey} alianza na pesa ngapi?",
+  "ic_sentence_template": "Shangazi wa {name_male, Bailey} aliwahi kukusanya sarafu nadra {num_ic, 56}.",
+  "ic_template": "Shangazi wa {name_male, Bailey} aliwahi kukusanya sarafu nadra {num_ic, 56}. {name_male, Bailey} huanza kwa kiasi fulani cha pesa. Kisha hupokea marupurupu ya kila wiki ya ${num_digit_1, 5} kwa wiki {num_digit_2, 8}. Mwishoni mwa wiki {num_digit_2, 8}, iwapo ana jumla ya ${num_digit_3, 100}, {name_male, Bailey} alianza na pesa ngapi?",
+  "equation": "UPDATE HERE"
+}

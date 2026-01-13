@@ -1,0 +1,8 @@
+{
+  "original_question": "Beaeԑ a ɔbu fango no tɔnn fango no ankorԑ ketewa $3.00. Adwumakuo bi de wo sika no mu $.20 bԑsan ama wo wɔ ankorԑ ketewa biara a wobԑbu wɔ sa beaeԑ ha. Sԑ obi tɔ fango ankorԑ ketewa 10 a, ԑka sԑn na ɔbԑbɔ wɔ fango no ho sԑ ɔte sika a ne nsa bԑsan aka no firi mu a?",
+  "original_answer": 28,
+  "symbolic_template": "Beaeԑ a ɔbu fango no tɔnn fango no ankorԑ ketewa ${num_digit_1, 3.00}. Adwumakuo bi de wo sika no mu ${num_digit_2, .20} bԑsan ama wo wɔ ankorԑ ketewa biara a wobԑbu wɔ sa beaeԑ ha. Sԑ obi tɔ fango ankorԑ ketewa {num_digit_3, 10} a, ԑka sԑn na ɔbԑbɔ wɔ fango no ho sԑ ɔte sika a ne nsa bԑsan aka no firi mu a?",
+  "ic_sentence_template": "{name_male, Alex} sewaa nyaa kaa hohoro {num_ic, 39} a wonnye sika no afe a atwa no mu.",
+  "ic_template": "Beaeԑ a ɔbu fango no tɔnn fango no ankorԑ ketewa ${num_digit_1, 3.00}. Adwumakuo bi de wo sika no mu ${num_digit_2, .20} bԑsan ama wo wɔ ankorԑ ketewa biara a wobԑbu wɔ sa beaeԑ ha. Sԑ obi tɔ fango ankorԑ ketewa {num_digit_3, 10} a, ԑka sԑn na ɔbԑbɔ wɔ fango no ho sԑ ɔte sika a ne nsa bԑsan aka no firi mu a? {name_male, Alex} sewaa nyaa kaa hohoro {num_ic, 39} a wonnye sika no afe a atwa no mu.",
+  "equation": "UPDATE HERE"
+}

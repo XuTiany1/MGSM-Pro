@@ -1,0 +1,8 @@
+{
+  "original_question": "Gary na-enwe mmasị ịgaghari n'akụkụ paaki ógbè, nke dị akụkụ anọ were dị otu na ọkara mailụ n'ụzọ mailụ isi. Ọ bụrụ na ọ na-aga mailụ atọ/awa, kedụ awa ole ọ na-emefu were a ga ije? ",
+  "original_answer": 5,
+  "symbolic_template": "{name_male, Gary} na-enwe mmasị ịgaghari n'akụkụ paaki ógbè, nke dị akụkụ anọ were dị {num_digit_1, 1.5} mailụ n'ụzọ {num_digit_2, 6} mailụ isi. Ọ bụrụ na ọ na-aga mailụ {num_digit_3, 3}/awa, kedụ awa ole ọ na-emefu were a ga ije?",
+  "ic_sentence_template": "Nwanne nne {name_male, Gary} na-anya igwe kwụ otu ebe ya kilomita {num_ic, 32} kwa ngwụsị izu.",
+  "ic_template": "Nwanne nne {name_male, Gary} na-anya igwe kwụ otu ebe ya kilomita {num_ic, 32} kwa ngwụsị izu. {name_male, Gary} na-enwe mmasị ịgaghari n'akụkụ paaki ógbè, nke dị akụkụ anọ were dị {num_digit_1, 1.5} mailụ n'ụzọ {num_digit_2, 6} mailụ isi. Ọ bụrụ na ọ na-aga mailụ {num_digit_3, 3}/awa, kedụ awa ole ọ na-emefu were a ga ije?",
+  "equation": "UPDATE HERE"
+}

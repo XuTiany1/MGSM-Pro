@@ -1,0 +1,8 @@
+{
+  "original_question": "Iwapo Raymond hufua nguo nusu ya kiwango ambacho Sarah hufua, na Sarah hufua nguo mara 4 zaidi ya David, piga hesabu ya tofauti katika kiwango cha nguo ambazo Raymond na David hufua Sarah akifua pauni 400 za nguo.",
+  "original_answer": 100,
+  "symbolic_template": "Iwapo {name_male_1, Raymond} hufua nguo nusu ya kiwango ambacho {name_female, Sarah} hufua, na {name_female, Sarah} hufua nguo mara {num_digit_1, 4} zaidi ya {name_male_2, David}, piga hesabu ya tofauti katika kiwango cha nguo ambazo {name_male_1, Raymond} na {name_male_2, David} hufua {name_female, Sarah} akifua pauni {num_digit_2, 400} za nguo.",
+  "ic_sentence_template": "Shangazi yake {name_male_1, Raymond} alikunja taulo {num_ic, 52} jana.",
+  "ic_template": "Shangazi yake {name_male_1, Raymond} alikunja taulo {num_ic, 52} jana. Iwapo {name_male_1, Raymond} hufua nguo nusu ya kiwango ambacho {name_female, Sarah} hufua, na {name_female, Sarah} hufua nguo mara {num_digit_1, 4} zaidi ya {name_male_2, David}, piga hesabu ya tofauti katika kiwango cha nguo ambazo {name_male_1, Raymond} na {name_male_2, David} hufua {name_female, Sarah} akifua pauni {num_digit_2, 400} za nguo.",
+  "equation": "UPDATE HERE"
+}

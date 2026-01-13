@@ -1,0 +1,8 @@
+{
+  "original_question": "N'ọsọ ndị Asia narị abụọ na iri anọ, mmadụ iri asatọ bụ ndị Japan, ma ndị ọzọ bụ ndị China. Ọ bụrụ na ọnụọgụgụ ụmụntakịrị nwoke n'otú ndị China bụ iri isii, ụmụntakịrị nwaanyị ole nọ n'otu ndị China? ",
+  "original_answer": 100,
+  "symbolic_template": "N'ọsọ ndị Asia {num_digit_1, 240}, mmadụ {num_digit_2, 80} bụ ndị Japan, ma ndị ọzọ bụ ndị China. Ọ bụrụ na ọnụọgụgụ ụmụntakịrị nwoke n'otú ndị China bụ {num_digit_3, 60}, ụmụntakịrị nwaanyị ole nọ n'otu ndị China?",
+  "ic_sentence_template": "{num_ic, 306} ndị na-akwado wetara ọkọlọtọ na mmemme ahụ.",
+  "ic_template": "{num_ic, 306} ndị na-akwado wetara ọkọlọtọ na mmemme ahụ. N'ọsọ ndị Asia {num_digit_1, 240}, mmadụ {num_digit_2, 80} bụ ndị Japan, ma ndị ọzọ bụ ndị China. Ọ bụrụ na ọnụọgụgụ ụmụntakịrị nwoke n'otú ndị China bụ {num_digit_3, 60}, ụmụntakịrị nwaanyị ole nọ n'otu ndị China?",
+  "equation": "UPDATE HERE"
+}

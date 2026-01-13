@@ -1,0 +1,8 @@
+{
+  "original_question": "莎蒂周一睡了 8 小时。接下来两天她各少睡了 2 小时，因为她必须完成一些任务。如果在这周剩下的时间里，她比那两天多睡 1 小时，她在整个星期一共睡了多少个小时？",
+  "original_answer": 48,
+  "symbolic_template": "{name_female, 莎蒂} 周一睡了 {num_digit_1, 8} 小时。接下来 两 天她各少睡了 {num_digit_2, 2} 小时，因为她必须完成一些任务。如果在这周剩下的时间里，她比那 两 天多睡 {num_digit_3, 1} 小时，她在整个星期一共睡了多少个小时？",
+  "ic_sentence_template": "{name_female, 萨迪} 的叔叔上周喝了 {num_ic, 23} 杯咖啡。",
+  "ic_template": "{name_female, 萨迪} 的叔叔上周喝了 {num_ic, 23} 杯咖啡。{name_female, 莎蒂} 周一睡了 {num_digit_1, 8} 小时。接下来 两 天她各少睡了 {num_digit_2, 2} 小时，因为她必须完成一些任务。如果在这周剩下的时间里，她比那 两 天多睡 {num_digit_3, 1} 小时，她在整个星期一共睡了多少个小时？",
+  "equation": "UPDATE HERE"
+}

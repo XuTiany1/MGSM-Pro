@@ -1,0 +1,8 @@
+{
+  "original_question": "ビンセントは3本で$2.50のパッケージか、2本で$1のパッケージで花を買えます。よりお得な価格で、18本の花を買ったら、いくらお得になりますか？",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, ビンセント}は{num_digit_1, 3}本で${num_digit_2, 2.50}のパッケージか、{num_digit_3, 2}本で${num_digit_4, 1}のパッケージで花を買えます。よりお得な価格で、{num_digit_5, 18}本の花を買ったら、いくらお得になりますか？",
+  "ic_sentence_template": "{name_male, ヴァンサン}のおじさんの庭には{num_ic, 23}本のトマトの苗があります。",
+  "ic_template": "{name_male, ヴァンサン}のおじさんの庭には{num_ic, 23}本のトマトの苗があります。{name_male, ビンセント}は{num_digit_1, 3}本で${num_digit_2, 2.50}のパッケージか、{num_digit_3, 2}本で${num_digit_4, 1}のパッケージで花を買えます。よりお得な価格で、{num_digit_5, 18}本の花を買ったら、いくらお得になりますか？",
+  "equation": "UPDATE HERE"
+}

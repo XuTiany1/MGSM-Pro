@@ -1,0 +1,8 @@
+{
+  "original_question": "Carl buys ten packs of cookies. Each pack of cookies has six cookies inside. Each cookie cost $0.10. How much change does Carl receive if he pay with a $10 bill?",
+  "original_answer": 4,
+  "symbolic_template": "{name_male, Carl} buys ten packs of cookies. Each pack of cookies has six cookies inside. Each cookie cost ${num_digit_1, 0.10}. How much change does {name_male, Carl} receive if he pay with a ${num_digit_2, 10} bill?",
+  "ic_sentence_template": "{name_male, Carl}'s aunt brought {num_ic, 31} muffins to the party.",
+  "ic_template": "{name_male, Carl} buys ten packs of cookies. Each pack of cookies has six cookies inside. Each cookie cost ${num_digit_1, 0.10}. {name_male, Carl}'s aunt brought {num_ic, 31} muffins to the party. How much change does {name_male, Carl} receive if he pay with a ${num_digit_2, 10} bill?",
+  "equation": "UPDATE HERE"
+}

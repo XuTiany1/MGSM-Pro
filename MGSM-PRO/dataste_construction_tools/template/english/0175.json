@@ -1,0 +1,8 @@
+{
+  "original_question": "Juan and his brother Carlos are selling lemonade. For each gallon they make it costs $3 for lemons and $2 for sugar. They sell each glass for $0.50 and get 20 glasses per gallon. If they made $25 in profit, how much did they spend on lemons?",
+  "original_answer": 15,
+  "symbolic_template": "{name_male_1, Juan} and his brother {name_male_2, Carlos} are selling lemonade. For each gallon they make it costs ${num_digit_1, 3} for lemons and ${num_digit_2, 2} for sugar. They sell each glass for ${num_digit_3, 0.50} and get {num_digit_4, 20} glasses per gallon. If they made ${num_digit_5, 25} in profit, how much did they spend on lemons?",
+  "ic_sentence_template": "{name_male_2, Carlos}'s aunt brought {num_ic, 44} cookies to share.",
+  "ic_template": "{name_male_1, Juan} and his brother {name_male_2, Carlos} are selling lemonade. For each gallon they make it costs ${num_digit_1, 3} for lemons and ${num_digit_2, 2} for sugar. They sell each glass for ${num_digit_3, 0.50} and get {num_digit_4, 20} glasses per gallon. {name_male_2, Carlos}'s aunt brought {num_ic, 44} cookies to share. If they made ${num_digit_5, 25} in profit, how much did they spend on lemons?",
+  "equation": "UPDATE HERE"
+}

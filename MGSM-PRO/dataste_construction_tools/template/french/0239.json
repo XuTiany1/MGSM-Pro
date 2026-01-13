@@ -1,0 +1,8 @@
+{
+  "original_question": "Le bâtiment d'une école abrite 1 000 élèves. Ce bâtiment a 3 entrées A, B et C, qui servent également de sorties. Si, après une réunion, 30 % des élèves sortent du bâtiment par la sortie A, 3/5 par la sortie B et le reste par la sortie C, calculez le nombre d'élèves qui ont emprunté la sortie C.",
+  "original_answer": 280,
+  "symbolic_template": "Le bâtiment d'une école abrite {num_digit_1, 1000} élèves. Ce bâtiment a {num_digit_2, 3} entrées A, B et C, qui servent également de sorties. Si, après une réunion, {num_digit_3, 30} % des élèves sortent du bâtiment par la sortie A, 3/5 par la sortie B et le reste par la sortie C, calculez le nombre d'élèves qui ont emprunté la sortie C.",
+  "ic_sentence_template": "{num_ic, 95} enseignants ont reçu de nouveaux manuels ce jour-là.",
+  "ic_template": "{num_ic, 95} enseignants ont reçu de nouveaux manuels ce jour-là. Le bâtiment d'une école abrite {num_digit_1, 1000} élèves. Ce bâtiment a {num_digit_2, 3} entrées A, B et C, qui servent également de sorties. Si, après une réunion, {num_digit_3, 30} % des élèves sortent du bâtiment par la sortie A, 3/5 par la sortie B et le reste par la sortie C, calculez le nombre d'élèves qui ont emprunté la sortie C.",
+  "equation": "UPDATE HERE"
+}

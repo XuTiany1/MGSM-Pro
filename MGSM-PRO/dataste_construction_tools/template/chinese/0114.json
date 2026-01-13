@@ -1,0 +1,8 @@
+{
+  "original_question": "贾马尔的手机能容纳的照片数量是布列塔尼手机的 6 倍。布列塔尼的手机能容纳的最大照片数量是贾马尔在动物园拍摄的鸭子照片中鸭子数量的 50 倍。如果贾马尔的手机能容纳 1,800 张照片，贾马尔在动物园拍摄的照片中能看到多少只鸭子？",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, 贾马尔} 的手机能容纳的照片数量是 {name_female, 布列塔尼} 手机的 {num_digit_1, 6} 倍。{name_female, 布列塔尼} 的手机能容纳的最大照片数量是 {name_male, 贾马尔} 在动物园拍摄的鸭子照片中鸭子数量的 {num_digit_3, 50} 倍。如果 {name_male, 贾马尔} 的手机能容纳 {num_digit_2, 1800} 张照片，{name_male, 贾马尔} 在动物园拍摄的照片中能看到多少只鸭子？",
+  "ic_sentence_template": "{name_male, 贾马尔} 的叔叔曾经参观过 {num_ic, 84} 个国家公园。",
+  "ic_template": "{name_male, 贾马尔} 的叔叔曾经参观过 {num_ic, 84} 个国家公园。{name_male, 贾马尔} 的手机能容纳的照片数量是 {name_female, 布列塔尼} 手机的 {num_digit_1, 6} 倍。{name_female, 布列塔尼} 的手机能容纳的最大照片数量是 {name_male, 贾马尔} 在动物园拍摄的鸭子照片中鸭子数量的 {num_digit_3, 50} 倍。如果 {name_male, 贾马尔} 的手机能容纳 {num_digit_2, 1800} 张照片，{name_male, 贾马尔} 在动物园拍摄的照片中能看到多少只鸭子？",
+  "equation": "UPDATE HERE"
+}

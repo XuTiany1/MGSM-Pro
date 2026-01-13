@@ -1,0 +1,8 @@
+{
+  "original_question": "罗瑞订购了 2 份潜水艇汉堡（每份 7.50 美元）、2 包薯条（每包 1.50 美元）和 2 份曲奇饼（每份 1.00 美元）的外卖。结账时需多付 20% 的配送费，而且她想加上 5.00 美元的小费。她的这份外卖多少钱？",
+  "original_answer": 29,
+  "symbolic_template": "{name_male, 罗瑞} 订购了 {num_digit_1, 2} 份潜水艇汉堡（每份 {num_digit_2, 7.50} 美元）、{num_digit_3, 2} 包薯条（每包 {num_digit_4, 1.50} 美元）和 {num_digit_5, 2} 份曲奇饼（每份 {num_digit_6, 1.00} 美元）的外卖。结账时需多付 {num_digit_7, 20}% 的配送费，而且她想加上 {num_digit_8, 5.00} 美元的小费。她的这份外卖多少钱？",
+  "ic_sentence_template": "{name_male, 罗里} 的姑妈每周五订购 {num_ic, 19} 份沙拉。",
+  "ic_template": "{name_male, 罗里} 的姑妈每周五订购 {num_ic, 19} 份沙拉。{name_male, 罗瑞} 订购了 {num_digit_1, 2} 份潜水艇汉堡（每份 {num_digit_2, 7.50} 美元）、{num_digit_3, 2} 包薯条（每包 {num_digit_4, 1.50} 美元）和 {num_digit_5, 2} 份曲奇饼（每份 {num_digit_6, 1.00} 美元）的外卖。结账时需多付 {num_digit_7, 20}% 的配送费，而且她想加上 {num_digit_8, 5.00} 美元的小费。她的这份外卖多少钱？",
+  "equation": "UPDATE HERE"
+}

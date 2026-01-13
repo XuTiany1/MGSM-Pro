@@ -1,0 +1,29 @@
+{
+    "problem_id": "0239",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [500, 5000]},
+        "num_digit_2": {"type": "int", "range": [3, 3]},
+        "num_digit_3": {"type": "int", "range": [10, 60]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "exit_a = (num_digit_3 / 100) * num_digit_1",
+            "rem_a = num_digit_1 - exit_a",
+            "exit_b = (3 / 5) * rem_a",
+            "ans = rem_a - exit_b"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 3, "max_digits": 4}
+    },
+    "restrictions": {
+        "num_digit_3": [
+            "(num_digit_1 * num_digit_3) % 100 == 0",
+            "rem_a % 5 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

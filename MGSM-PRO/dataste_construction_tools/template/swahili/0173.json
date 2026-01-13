@@ -1,0 +1,8 @@
+{
+  "original_question": "Jessica anajaribu kuwaza kiasi cha kulipa madeni yake yote kila mwezi. Mikopo yake ya mwanafunzi ina kiwango cha chini zaidi cha kulipa ambacho ni $300 kila mwezi, kiwango cha chini zaidi cha kadi zake za mikopo ni $200 kila mwezi, na kiwango cha chini zaidi cha malipo yake ya nyumba ni $500 kila mwezi. Iwapo Jessica anataka kulipa 50% zaidi ya kiwango cha chini zaidi, huwa analipa pesa ngapi kwa mwaka?",
+  "original_answer": 18000,
+  "symbolic_template": "{name_female, Jessica} anajaribu kuhesabu kiasi cha kulipa madeni yake yote kila mwezi. Mkopo wake wa masomo una malipo ya chini ya ${num_digit_1, 300}/mwezi, kadi yake ya mkopo ina malipo ya chini ya ${num_digit_2, 200}/mwezi, na rehani yake ina malipo ya chini ya ${num_digit_3, 500}/mwezi. Ikiwa {name_female, Jessica} anataka kulipa {num_digit_4, 50}% zaidi ya kiwango cha chini, atakuwa analipa kiasi gani kwa mwaka?",
+  "ic_sentence_template": "Mjomba wa {name_female, Jessica} hivi karibuni alimpa kuponi za punguzo {num_ic, 58}.",
+  "ic_template": "Mjomba wa {name_female, Jessica} hivi karibuni alimpa kuponi za punguzo {num_ic, 58}. {name_female, Jessica} anajaribu kuhesabu kiasi cha kulipa madeni yake yote kila mwezi. Mkopo wake wa masomo una malipo ya chini ya ${num_digit_1, 300}/mwezi, kadi yake ya mkopo ina malipo ya chini ya ${num_digit_2, 200}/mwezi, na rehani yake ina malipo ya chini ya ${num_digit_3, 500}/mwezi. Ikiwa {name_female, Jessica} anataka kulipa {num_digit_4, 50}% zaidi ya kiwango cha chini, atakuwa analipa kiasi gani kwa mwaka?",
+  "equation": "UPDATE HERE"
+}

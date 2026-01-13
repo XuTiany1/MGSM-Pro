@@ -1,0 +1,8 @@
+{
+  "original_question": "一根蜡烛每燃烧一小时就融化 2 厘米。一根蜡烛从下午 1:00 燃烧到下午 5:00，会变短多少厘米？",
+  "original_answer": 8,
+  "symbolic_template": "一根蜡烛每燃烧一小时就融化 {num_digit_1, 2} 厘米。一根蜡烛从下午 1:00 燃烧到下午 5:00，会变短多少厘米？",
+  "ic_sentence_template": "{name_female, 艾米丽} 的叔叔带了 {num_ic, 63} 根火柴来参加聚会。",
+  "ic_template": "{name_female, 艾米丽} 的叔叔带了 {num_ic, 63} 根火柴来参加聚会。一根蜡烛每燃烧一小时就融化 {num_digit_1, 2} 厘米。一根蜡烛从下午 1:00 燃烧到下午 5:00，会变短多少厘米？",
+  "equation": "UPDATE HERE"
+}

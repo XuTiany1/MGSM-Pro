@@ -1,0 +1,8 @@
+{
+  "original_question": "Kwa ụbọchị, Wendi na-enye ọkụkọ ya iko nri ọkụkọ atọ, nwere mkpụrụ osisi, nri okpo na akwụkwọ nri ịji mee ka ahụ dị ha ị́ké. Ọ na-enye ọkụkọ ndị ahụ nri ha n'ugboro nri atọ. N'oge ụtụtụ, ọ na-enye ìgwè ọkụkọ ya iko nri iri na ise. N'oge ehihie, ọ na-enye ọkụkọ ya iko nri iri abụọ na ise ọzọ. Kedụ iko nri ole o kwesịrị ị nye ọkụkọ ya na nri ikpeazụ nke ụbọchị ma ọ bụrụ na ọnụ ọgụgụ ìgwè ọkụkọ Wendi nwere dị iri abụọ? ",
+  "original_answer": 20,
+  "symbolic_template": "Kwa ụbọchị, {name_female, Wendi} na-enye ọkụkọ ya iko nri ọkụkọ atọ, nwere mkpụrụ osisi, nri okpo na akwụkwọ nri ịji mee ka ahụ dị ha ị́ké. Ọ na-enye ọkụkọ ndị ahụ nri ha n'ugboro nri atọ. N'oge ụtụtụ, ọ na-enye ìgwè ọkụkọ ya iko nri {num_digit_1, 15}. N'oge ehihie, ọ na-enye ọkụkọ ya iko nri {num_digit_2, 25} ọzọ. Kedụ iko nri ole o kwesịrị ị nye ọkụkọ ya na nri ikpeazụ nke ụbọchị ma ọ bụrụ na ọnụ ọgụgụ ìgwè ọkụkọ {name_female, Wendi} nwere dị {num_digit_3, 20}?",
+  "ic_sentence_template": "Nwanne nna {name_female, Wendi} chịkọtara àkwá {num_ic, 69} n'ụlọ ụmụ ọkụkọ ya ụnyaahụ.",
+  "ic_template": "Nwanne nna {name_female, Wendi} chịkọtara àkwá {num_ic, 69} n'ụlọ ụmụ ọkụkọ ya ụnyaahụ. Kwa ụbọchị, {name_female, Wendi} na-enye ọkụkọ ya iko nri ọkụkọ atọ, nwere mkpụrụ osisi, nri okpo na akwụkwọ nri ịji mee ka ahụ dị ha ị́ké. Ọ na-enye ọkụkọ ndị ahụ nri ha n'ugboro nri atọ. N'oge ụtụtụ, ọ na-enye ìgwè ọkụkọ ya iko nri {num_digit_1, 15}. N'oge ehihie, ọ na-enye ọkụkọ ya iko nri {num_digit_2, 25} ọzọ. Kedụ iko nri ole o kwesịrị ị nye ọkụkọ ya na nri ikpeazụ nke ụbọchị ma ọ bụrụ na ọnụ ọgụgụ ìgwè ọkụkọ {name_female, Wendi} nwere dị {num_digit_3, 20}?",
+  "equation": "UPDATE HERE"
+}

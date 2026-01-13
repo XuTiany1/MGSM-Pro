@@ -1,0 +1,8 @@
+{
+  "original_question": "Sheila tɔɔ ahomatorofo num baako biara $150 na otuaa ho ka no wɔ bosome mmiԑnsa ntam. Ͻbԑtua nsiho ɔha mu nkyԑmu mmiԑnu wɔ baako biara ho. Sԑn na Sheila bԑtua bosome biara saa bosome mmiԑnsa?",
+  "original_answer": 255,
+  "symbolic_template": "{name_female, Shiela} tɔɔ ahomatorofo num baako biara ${num_digit_1, 150} na otuaa ho ka no wɔ bosome {num_digit_2, mmiɛnsa} ntam. Ͻbԑtua nsiho  {num_digit_3, ɔha mu nkyԑmu mmienu} wɔ baako biara ho. Sԑn na {name_female, Shiela} bԑtua bosome biara saa bosome {num_digit_2, mmiɛnsa}?",
+  "ic_sentence_template": "{name_female, Shiela} wɔfa nsa kaa nkrataa a wɔde ka ahomatrofo animkɔ nsɛm {num_ic, 82}.",
+  "ic_template": "  {name_female, Shiela} wɔfa nsa kaa nkrataa a wɔde ka ahomatrofo animkɔ nsɛm {num_ic, 82}. {name_female, Shiela} tɔɔ ahomatorofo num baako biara ${num_digit_1, 150} na otuaa ho ka no wɔ bosome {num_digit_2, mmiɛnsa} ntam. Ͻbԑtua nsiho  {num_digit_3, ɔha mu nkyԑmu mmienu} wɔ baako biara ho. Sԑn na {name_female, Shiela} bԑtua bosome biara saa bosome {num_digit_2, mmiɛnsa}?",
+  "equation": "UPDATE HERE"
+}

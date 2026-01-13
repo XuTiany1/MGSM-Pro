@@ -1,0 +1,8 @@
+{
+  "original_question": "Luke is spending time at the beach building sandcastles. He eventually notices that each level of a sandcastle will have half the square footage as the level below it. If he makes a 4 leveled sandcastle where the top level has a square footage of 16, what is the average square footage of a level?",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Luke} is spending time at the beach building sandcastles. He eventually notices that each level of a sandcastle will have half the square footage as the level below it. If he makes a {num_digit_1, 4} leveled sandcastle where the top level has a square footage of {num_digit_2, 16}, what is the average square footage of a level?",
+  "ic_sentence_template": "{name_male, Luke}'s uncle brought {num_ic, 26} beach chairs for everyone.",
+  "ic_template": "{name_male, Luke} is spending time at the beach building sandcastles. He eventually notices that each level of a sandcastle will have half the square footage as the level below it. If he makes a {num_digit_1, 4} leveled sandcastle where the top level has a square footage of {num_digit_2, 16}, {name_male, Luke}'s uncle brought {num_ic, 26} beach chairs for everyone. What is the average square footage of a level?",
+  "equation": "UPDATE HERE"
+}

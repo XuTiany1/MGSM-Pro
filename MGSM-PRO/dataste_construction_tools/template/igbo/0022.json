@@ -1,0 +1,8 @@
+{
+  "original_question": "Billy na-ere DVD. O nwere ndị ahịa asatọ na Tuzdee. Ndị ahịa mbụ ya atọ zụrụ otu DVD otunaotu. Ndị ahịa abụọ ọzọ zụrụ DVD abụọ otunaotu. Ndị ahịa atọ nke ikpeazụ azụghị DVD ọbụla. DVD ole ka Billy reere n'ụbọchị Tuzdee? ",
+  "original_answer": 7,
+  "symbolic_template": "{name_male, Billy} na-ere DVD. O nwere ndị ahịa {num_digit_1, 8} na Tuzdee. Ndị ahịa mbụ ya {num_digit_2, 3} zụrụ otu DVD otunaotu. Ndị ahịa {num_digit_3, 2} ọzọ zụrụ DVD {num_digit_4, 2} otunaotu. Ndị ahịa {num_digit_5, 3} nke ikpeazụ azụghị DVD ọbụla. DVD ole ka {name_male, Billy} reere n'ụbọchị Tuzdee?",
+  "ic_sentence_template": "Nwanne nne {name_male, Billy} bịara na akpa ọkụkọ kọpọn {num_ic, 18} ka ọ kọrọ.",
+  "ic_template": "Nwanne nne {name_male, Billy} bịara na akpa ọkụkọ kọpọn {num_ic, 18} ka ọ kọrọ. {name_male, Billy} na-ere DVD. O nwere ndị ahịa {num_digit_1, 8} na Tuzdee. Ndị ahịa mbụ ya {num_digit_2, 3} zụrụ otu DVD otunaotu. Ndị ahịa {num_digit_3, 2} ọzọ zụrụ DVD {num_digit_4, 2} otunaotu. Ndị ahịa {num_digit_5, 3} nke ikpeazụ azụghị DVD ọbụla. DVD ole ka {name_male, Billy} reere n'ụbọchị Tuzdee?",
+  "equation": "UPDATE HERE"
+}

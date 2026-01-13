@@ -1,0 +1,35 @@
+{
+    "problem_id": "commute_interrupted_01",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_5", "num_digit_6", "num_digit_7", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [1, 7]},
+        "num_digit_2": {"type": "int", "range": [20, 100]},
+        "num_digit_3": {"type": "int", "range": [4, 10]},
+        "num_digit_5": {"type": "int", "range": [1, 5]},
+        "num_digit_6": {"type": "int", "range": [10, 50]},
+        "num_digit_7": {"type": "int", "range": [50, 100]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": ["target_distance = num_digit_1 * num_digit_2"],
+        "num_digit_6": ["dist_seg_2 = 0.5 * num_digit_6"],
+        "num_digit_7": [
+            "remaining_time = num_digit_3 - num_digit_5 - 0.5",
+            "dist_seg_3 = remaining_time * num_digit_7",
+            "total_returned = dist_seg_2 + dist_seg_3",
+            "ans = target_distance - total_returned"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 4}
+    },
+    "restrictions": {
+        "num_digit_5": [
+            "num_digit_3 > (num_digit_5 + 0.5)"
+        ],
+        "num_digit_7": [
+            "ans >= 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

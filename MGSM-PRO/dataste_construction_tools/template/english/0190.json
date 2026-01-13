@@ -1,0 +1,8 @@
+{
+  "original_question": "John collects peaches for 3 hours.  He can collect 2 peaches a minute.  How many peaches does he collect?",
+  "original_answer": 360,
+  "symbolic_template": "{name_male, John} collects peaches for {num_digit_1, 3} hours. He can collect {num_digit_2, 2} peaches a minute. How many peaches does he collect?",
+  "ic_sentence_template": "{name_male, John's} uncle brings {num_ic, 9} baskets to the orchard every morning.",
+  "ic_template": "{name_male, John} collects peaches for {num_digit_1, 3} hours. {name_male, John}'s uncle brings {num_ic, 9} baskets to the orchard every morning. He can collect {num_digit_2, 2} peaches a minute. How many peaches does he collect?",
+  "equation": "UPDATE HERE"
+}

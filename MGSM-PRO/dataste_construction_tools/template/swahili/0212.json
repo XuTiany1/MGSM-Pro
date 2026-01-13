@@ -1,0 +1,8 @@
+{
+  "original_question": "Gary anapenda kutembea kwenye ukingo wa mbuga wa ndani, ambao una umbo la mstatili na vipimo vyake ni maili 1.5 kwa maili 6. Ikiwa huwa anatembea maili 3 kwa saa, huwa anatumia saa ngapi kutembea?",
+  "original_answer": 5,
+  "symbolic_template": "{name_male, Gary} hupenda kutembea kuzunguka mzunguko wa bustani ya karibu, ambayo ni mstatili unaopima maili {num_digit_1, 1.5} kwa maili {num_digit_2, 6}. Ikiwa anatembea kwa maili {num_digit_3, 3} kwa saa, hutumia masaa mangapi kutembea?",
+  "ic_sentence_template": "Shangazi wa {name_male, Gary} huendesha baiskeli yake kwa umbali wa maili {num_ic, 32} kila mwisho wa wiki.",
+  "ic_template": "Shangazi wa {name_male, Gary} huendesha baiskeli yake kwa umbali wa maili {num_ic, 32} kila mwisho wa wiki. {name_male, Gary} hupenda kutembea kuzunguka mzunguko wa bustani ya karibu, ambayo ni mstatili unaopima maili {num_digit_1, 1.5} kwa maili {num_digit_2, 6}. Ikiwa anatembea kwa maili {num_digit_3, 3} kwa saa, hutumia masaa mangapi kutembea?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Josh decides to try flipping a house. He buys a house for $80,000 and then puts in $50,000 in repairs. This increased the value of the house by 150%. How much profit did he make?",
+  "original_answer": 70000,
+  "symbolic_template": "{name_male, Josh} decides to try flipping a house. He buys a house for ${num_digit_1, 80,000} and then puts in ${num_digit_2, 50,000} in repairs. This increased the value of the house by {num_digit_3, 150}%. How much profit did he make?",
+  "ic_sentence_template": "{name_male, Josh}'s uncle recently sold {num_ic, 124000} bricks for a building project.",
+  "ic_template": "{name_male, Josh} decides to try flipping a house. He buys a house for ${num_digit_1, 80,000} and then puts in ${num_digit_2, 50,000} in repairs. This increased the value of the house by {num_digit_3, 150}%. {name_male, Josh}'s uncle recently sold {num_ic, 124000} bricks for a building project. How much profit did he make?",
+  "equation": "UPDATE HERE"
+}

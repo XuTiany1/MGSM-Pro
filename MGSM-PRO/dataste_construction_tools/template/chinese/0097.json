@@ -1,0 +1,8 @@
+{
+  "original_question": "当弗雷达把罐装番茄煮成番茄酱时，份量减少了一半。她使用的每个 16 盎司番茄罐头含有 3 颗番茄。弗雷达的最后一批番茄酱是 32 盎司的酱。弗雷达用了多少颗番茄？",
+  "original_answer": 12,
+  "symbolic_template": "{name_female, 弗雷达} 把罐装番茄煮成番茄酱时，份量减少了 一半。她使用的每个 {num_digit_1, 16} 盎司番茄罐头含有 3 颗番茄。{name_female, 弗雷达} 的最后一批番茄酱是 {num_digit_2, 32} 盎司的酱。{name_female, 弗雷达} 用了多少颗番茄？",
+  "ic_sentence_template": "{name_female, 弗雷达} 的姑妈在后院种了 {num_ic, 57} 棵番茄。",
+  "ic_template": "{name_female, 弗雷达} 的姑妈在后院种了 {num_ic, 57} 棵番茄。{name_female, 弗雷达} 把罐装番茄煮成番茄酱时，份量减少了 一半。她使用的每个 {num_digit_1, 16} 盎司番茄罐头含有 3 颗番茄。{name_female, 弗雷达} 的最后一批番茄酱是 {num_digit_2, 32} 盎司的酱。{name_female, 弗雷达} 用了多少颗番茄？",
+  "equation": "UPDATE HERE"
+}

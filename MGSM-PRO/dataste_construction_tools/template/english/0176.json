@@ -1,0 +1,8 @@
+{
+  "original_question": "In a race with 240 Asians, 80 were Japanese, and the rest were Chinese. If the number of boys on the Chinese team was 60, how many girls were on the Chinese team?",
+  "original_answer": 100,
+  "symbolic_template": "In a race with {num_digit_1, 240} Asians, {num_digit_2, 80} were Japanese, and the rest were Chinese. If the number of boys on the Chinese team was {num_digit_3, 60}, how many girls were on the Chinese team?",
+  "ic_sentence_template": "{num_ic, 306} fans brought banners to the event.",
+  "ic_template": "In a race with {num_digit_1, 240} Asians, {num_digit_2, 80} were Japanese, and the rest were Chinese. {num_ic, 306} fans brought banners to the event. If the number of boys on the Chinese team was {num_digit_3, 60}, how many girls were on the Chinese team?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Finn watches 11 tadpoles swimming in the pond. Suddenly he sees 6 of them come out of hiding from under a lily pad ,then he sees 2 of them hide under a rock. How many tadpoles can Finn see in the pond now?",
+  "original_answer": 15,
+  "symbolic_template": "{name_male, Finn} watches {num_digit_1, 11} tadpoles swimming in the pond. Suddenly he sees {num_digit_2, 6} of them come out of hiding from under a lily pad ,then he sees {num_digit_3, 2} of them hide under a rock. How many tadpoles can {name_male, Finn} see in the pond now?",
+  "ic_sentence_template": "{name_male, Finn}'s uncle saw {num_ic, 87} frogs in a different pond this morning.",
+  "ic_template": "{name_male, Finn} watches {num_digit_1, 11} tadpoles swimming in the pond. Suddenly he sees {num_digit_2, 6} of them come out of hiding from under a lily pad ,then he sees {num_digit_3, 2} of them hide under a rock. {name_male, Finn}'s uncle saw {num_ic, 87} frogs in a different pond this morning. How many tadpoles can {name_male, Finn} see in the pond now?",
+  "equation": "UPDATE HERE"
+}

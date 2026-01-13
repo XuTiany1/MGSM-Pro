@@ -1,0 +1,8 @@
+{
+  "original_question": "查理的 Facebook 好友人数是桃乐丝的 3 倍。詹姆斯的 Facebook 好友人数是桃乐丝的 4 倍。如果查理有 12 位 Facebook 好友，则詹姆斯有多少位 Facebook 好友？",
+  "original_answer": 16,
+  "symbolic_template": "{name_male_1, 查理} 的 Facebook 好友人数是 {name_male_2, 桃乐丝} 的 3 倍。{name_male_3, 詹姆斯} 的 Facebook 好友人数是 {name_male_2, 桃乐丝} 的 4 倍。如果 {name_male_1, 查理} 有 {num_digit_1, 12} 位 Facebook 好友，则 {name_male_3, 詹姆斯} 有多少位 Facebook 好友？",
+  "ic_sentence_template": "{name_male_3, 詹姆斯} 的阿姨最近收养了 {num_ic, 67} 只小狗。",
+  "ic_template": "{name_male_3, 詹姆斯} 的阿姨最近收养了 {num_ic, 67} 只小狗。{name_male_1, 查理} 的 Facebook 好友人数是 {name_male_2, 桃乐丝} 的 3 倍。{name_male_3, 詹姆斯} 的 Facebook 好友人数是 {name_male_2, 桃乐丝} 的 4 倍。如果 {name_male_1, 查理} 有 {num_digit_1, 12} 位 Facebook 好友，则 {name_male_3, 詹姆斯} 有多少位 Facebook 好友？",
+  "equation": "UPDATE HERE"
+}

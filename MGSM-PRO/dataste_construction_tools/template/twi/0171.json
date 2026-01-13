@@ -1,0 +1,8 @@
+{
+  "original_question": "Jake enam Entomology tete nneɛma akoraeɛ hɔ. Na ohu ananse  80 a emu biara wɔ 8 ɛnan, nkoekoeboa 90 a emu biara wɔ ɛnan 6, ne ɔbɔpɔn mmoa a wɔnni bompe a wɔn wɔ enan 10. Ananmɔn dodoɔ ahe na Jake hu yɛ?",
+  "original_answer": 1210,
+  "symbolic_template": "{name_male, Jake} enam Entomology tete nneɛma akoraeɛ hɔ. Na ohu ananse {num_digit_1, 80} a emu biara wɔ {num_digit_2, 8} ɛnan, nkoekoeboa {num_digit_3, 90} a emu biara wɔ ɛnan {num_digit_4, 6}, ne ɔbɔpɔn mmoa {num_digit_5, 3} a wɔnni bompe a wɔn wɔ enan {num_digit_6, 10}. Ananmɔn dodoɔ ahe na {name_male, Jake} hu yɛ?",
+  "ic_sentence_template": "{name_male, Jake} wͻfase baa no boaboa afafrantɔ {num_ic, 328} ano ahuhurow a atwam no.",
+  "ic_template": "{name_male, Jake} enam Entomology tete nneɛma akoraeɛ hɔ. Na ohu ananse {num_digit_1, 80} a emu biara wɔ {num_digit_2, 8} ɛnan, nkoekoeboa {num_digit_3, 90} a emu biara wɔ ɛnan {num_digit_4, 6}, ne ɔbɔpɔn mmoa {num_digit_5, 3}  a wɔnni bompe a wɔn wɔ enan {num_digit_6, 10}. Ananmɔn dodoɔ ahe na {name_male, Jake} hu yɛ? {name_male, Jake} wͻfase baa no boaboa afafrantɔ {num_ic, 328} ano ahuhurow a atwam no.",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "伊莎贝尔为她妹妹的生日派对买了派对用品。她花 12 美元买了蛋糕的原材料，43 美元买了生日礼物，15 美元买了装饰品，4 美元买了邀请函，22 美元买了派对客人的礼品袋。她和父母三人平摊费用。每人付了多少美元？",
+  "original_answer": 32,
+  "symbolic_template": "{name_female, 伊莎贝尔} 为她妹妹的生日派对买了派对用品。她花 {num_digit_1, 12} 美元买了蛋糕的原材料，{num_digit_2, 43} 美元买了生日礼物，{num_digit_3, 15} 美元买了装饰品，{num_digit_4, 4} 美元买了邀请函，{num_digit_5, 22} 美元买了派对客人的礼品袋。她和父母三人平摊费用。每人付了多少美元？",
+  "ic_sentence_template": "{name_female, 伊莎贝尔} 的表亲带来了 {num_ic, 1042} 个气球。",
+  "ic_template": "{name_female, 伊莎贝尔} 的表亲带来了 {num_ic, 1042} 个气球。{name_female, 伊莎贝尔} 为她妹妹的生日派对买了派对用品。她花 {num_digit_1, 12} 美元买了蛋糕的原材料，{num_digit_2, 43} 美元买了生日礼物，{num_digit_3, 15} 美元买了装饰品，{num_digit_4, 4} 美元买了邀请函，{num_digit_5, 22} 美元买了派对客人的礼品袋。她和父母三人平摊费用。每人付了多少美元？",
+  "equation": "UPDATE HERE"
+}

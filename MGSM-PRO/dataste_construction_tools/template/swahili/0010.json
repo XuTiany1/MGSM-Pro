@@ -1,0 +1,8 @@
+{
+  "original_question": "Programu mpya ilipakuliwa mara 60 mwezi wa kwanza. Idadi ya upakuaji katika mwezi wa pili ulikuwa mara tatu ya idadi ya upakuaji katika mwezi wa kwanza, lakini ikapungua kwa 30% katika mwezi wa tatu. Programu hiyo ilipakuliwa mara ngapi kwa jumla katika miezi hiyo mitatu?",
+  "original_answer": 366,
+  "symbolic_template": "Programu mpya ilipakuliwa mara {num_digit_1, 60} mwezi wa kwanza. Idadi ya upakuaji katika mwezi wa pili ulikuwa mara tatu ya idadi ya upakuaji katika mwezi wa kwanza, lakini ikapungua kwa {num_digit_2, 30}% katika mwezi wa tatu. Programu hiyo ilipakuliwa mara ngapi kwa jumla katika miezi hiyo mitatu?",
+  "ic_sentence_template": "Mjomba wa msanidi programu alitengeneza meza za kompyuta {num_ic, 413} kwa ajili ya kampuni.",
+  "ic_template": "Mjomba wa msanidi programu alitengeneza meza za kompyuta {num_ic, 413} kwa ajili ya kampuni. Programu mpya ilipakuliwa mara {num_digit_1, 60} mwezi wa kwanza. Idadi ya upakuaji katika mwezi wa pili ulikuwa mara tatu ya idadi ya upakuaji katika mwezi wa kwanza, lakini ikapungua kwa {num_digit_2, 30}% katika mwezi wa tatu. Programu hiyo ilipakuliwa mara ngapi kwa jumla katika miezi hiyo mitatu?",
+  "equation": "UPDATE HERE"
+}

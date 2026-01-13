@@ -1,0 +1,8 @@
+{
+  "original_question": "Marilyn's first record sold 10 times as many copies as Harald's. If they sold 88,000 copies combined, how many copies did Harald sell?",
+  "original_answer": 8000,
+  "symbolic_template": "{name_male_1, Marilyn}'s first record sold {num_digit_1, 10} times as many copies as {name_male_2, Harald}'s. If they sold {num_digit_2, 88,000} copies combined, how many copies did {name_male_2, Harald} sell?",
+  "ic_sentence_template": "{name_male_1, Marilyn}'s uncle received {num_ic, 23,000} fan letters last year.",
+  "ic_template": "{name_male_1, Marilyn}'s first record sold {num_digit_1, 10} times as many copies as {name_male_2, Harald}'s. {name_male_1, Marilyn}'s uncle received {num_ic, 23,000} fan letters last year. If they sold {num_digit_2, 88,000} copies combined, how many copies did {name_male_2, Harald} sell?",
+  "equation": "UPDATE HERE"
+}

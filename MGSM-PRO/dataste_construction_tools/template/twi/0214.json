@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerry wɔ nsuo mmienu a emu biara gu nsu 4 gallons wɔ simma biara mu. Wɔ simma 4 a atwam no, na ɔtare kɛse no wɔ nsuo mmɔho mmienu te sɛ ɔtare ketewa no. Seesei ɔtare kɛse no wɔ nsuo anan te sɛ ɔtare ketewa no ara. Nsuo ahe na ɔtare ketewa no wɔ seesei?",
+  "original_answer": 8,
+  "symbolic_template": "{name_male, Jerry} wɔ nsuo mmienu a emu biara gu nsu {num_digit_1, 4} gallons wɔ simma biara mu. Wɔ simma {num_digit_2, 4} a atwam no, na ɔtare kɛse no wɔ nsuo mmɔho mmienu te sɛ ɔtare ketewa no. Seesei ɔtare kɛse no wɔ nsuo anan te sɛ ɔtare ketewa no ara. Nsuo ahe na ɔtare ketewa no wɔ seesei?",
+  "ic_sentence_template": "{name_male, Jerry} sewaa no de osu tɔ mu nsuo hyɛ bokiti {num_ic, 123} ma nnawɔtwe biara.",
+  "ic_template": "{name_male, Jerry} sewaa no de osu tɔ mu nsuo hyɛ bokiti {num_ic, 123} ma nnawɔtwe biara. {name_male, Jerry} wɔ nsuo mmienu a emu biara gu nsu {num_digit_1, 4} gallons wɔ simma biara mu. Wɔ simma {num_digit_2, 4} a atwam no, na ɔtare kɛse no wɔ nsuo mmɔho mmienu te sɛ ɔtare ketewa no. Seesei ɔtare kɛse no wɔ nsuo anan te sɛ ɔtare ketewa no ara. Nsuo ahe na ɔtare ketewa no wɔ seesei?",
+  "equation": "UPDATE HERE"
+}

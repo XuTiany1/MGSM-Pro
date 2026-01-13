@@ -1,0 +1,8 @@
+{
+  "original_question": "ジョンは彼の3人の子供に2足の靴をそれぞれ購入します。それぞれ$60します。彼はいくら払いましたか？",
+  "original_answer": 360,
+  "symbolic_template": "{name_male, ジョン}は彼の{num_digit_2, 3}人の子供に{num_digit_1, 2}足の靴をそれぞれ購入します。それぞれ${num_digit_3, 60}します。彼はいくら払いましたか？",
+  "ic_sentence_template": "{name_male, ジョン}のおじさんはかつて{num_ic, 15}個の帽子を買いました。",
+  "ic_template": "{name_male, ジョン}のおじさんはかつて{num_ic, 15}個の帽子を買いました。{name_male, ジョン}は彼の{num_digit_2, 3}人の子供に{num_digit_1, 2}足の靴をそれぞれ購入します。それぞれ${num_digit_3, 60}します。彼はいくら払いましたか？",
+  "equation": "UPDATE HERE"
+}

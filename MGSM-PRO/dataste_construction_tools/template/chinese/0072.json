@@ -1,0 +1,8 @@
+{
+  "original_question": "汤米正在通过卖布朗尼蛋糕（每块 3 美元）和芝士蛋糕（每块 4 美元）为自己的慈善组织筹款。如果汤米卖出了 43 块布朗尼蛋糕和 23 块芝士蛋糕，他筹到了多少钱？",
+  "original_answer": 221,
+  "symbolic_template": "{name_male, 汤米} 正在通过卖布朗尼蛋糕（每块 {num_digit_1, 3} 美元）和芝士蛋糕（每块 {num_digit_2, 4} 美元）为自己的慈善组织筹款。如果 {name_male, 汤米} 卖出了 {num_digit_3, 43} 块布朗尼蛋糕和 {num_digit_4, 23} 块芝士蛋糕，他筹到了多少钱？",
+  "ic_sentence_template": "{name_male, 汤米} 的姨妈最近为一个当地活动烤了 {num_ic, 164} 条面包。",
+  "ic_template": "{name_male, 汤米} 的姨妈最近为一个当地活动烤了 {num_ic, 164} 条面包。{name_male, 汤米} 正在通过卖布朗尼蛋糕（每块 {num_digit_1, 3} 美元）和芝士蛋糕（每块 {num_digit_2, 4} 美元）为自己的慈善组织筹款。如果 {name_male, 汤米} 卖出了 {num_digit_3, 43} 块布朗尼蛋糕和 {num_digit_4, 23} 块芝士蛋糕，他筹到了多少钱？",
+  "equation": "UPDATE HERE"
+}

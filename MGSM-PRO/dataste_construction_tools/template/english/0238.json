@@ -1,0 +1,8 @@
+{
+  "original_question": "Mary is two years younger than Joan, who is five years older than Jessa. If Jessa is 20 years old, what is the sum of the ages of the three girls?",
+  "original_answer": 68,
+  "symbolic_template": "{name_female_1, Mary} is two years younger than {name_female_2, Joan}, who is five years older than {name_female_3, Jessa}. If {name_female_3, Jessa} is {num_digit_1, 20} years old, what is the sum of the ages of the three girls?",
+  "ic_sentence_template": "{name_female_2, Joan}'s uncle has {num_ic, 73} baseball cards.",
+  "ic_template": "{name_female_1, Mary} is two years younger than {name_female_2, Joan}, who is five years older than {name_female_3, Jessa}. {name_female_2, Joan}'s uncle has {num_ic, 73} baseball cards. If {name_female_3, Jessa} is {num_digit_1, 20} years old, what is the sum of the ages of the three girls?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Jordan di video so agoru nnɔnhwere 2 da biara. Na ɔwɔ adwuma a ɔyɛ no kyɛfa  a na onya $10 wɔ dɔnhwere baako. Sɛ Jordan de ne bere a ɔde di video so agoru no yɛ adwuma mmom a, sika ahe na obenya wɔ nnawɔtwe baako mu?",
+  "original_answer": 140,
+  "symbolic_template": "{name_male, Jordan} di video so agoru nnɔnhwere {num_digit_1, 2} da biara. Na ɔwɔ adwuma a ɔyɛ no kyɛfa a na onya ${num_digit_2, 10} wɔ dɔnhwere baako. Sɛ {name_male, Jordan} de ne bere a ɔde di video so agoru no yɛ adwuma mmom a, sika ahe na obenya wɔ nnawɔtwe baako mu?",
+  "ic_sentence_template": "{name_male, Jordan} wɔfa wɔ afiri a wɔde di agoru dadaw {num_ic, 8}.",
+  "ic_template": "{name_male, Jordan} wɔfa wɔ afiri a wɔde di agoru dadaw {num_ic, 8}. {name_male, Jordan} di video so agoru nnɔnhwere {num_digit_1, 2} da biara. Na ɔwɔ adwuma a ɔyɛ no kyɛfa a na onya ${num_digit_2, 10} wɔ dɔnhwere baako. Sɛ {name_male, Jordan} de ne bere a ɔde di video so agoru no yɛ adwuma mmom a, sika ahe na obenya wɔ nnawɔtwe baako mu?",
+  "equation": "UPDATE HERE"
+}

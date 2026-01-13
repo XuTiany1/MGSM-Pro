@@ -1,0 +1,8 @@
+{
+  "original_question": "Mendy anadaiwa $100 na Benedict. Wamekubali kuwa na riba ya kila mwezi ya 2%. Ikiwa Mendy aliweza kulipa baada ya miezi 3, anafaa kumpa Benedict pesa ngapi?",
+  "original_answer": 106,
+  "symbolic_template": "{name_female, Mandy} anadaiwa ${num_digit_1, 100} na {name_male, Benedict}. Wamekubalina kuwa na riba ya kila mwezi ya {num_digit_2, 2}%. Ikiwa {name_female, Mandy} atalipa baada ya miezi {num_digit_3, 3}, atamlipa {name_male, Benedict} jumla ya kiasi gani?",
+  "ic_sentence_template": "Mjomba wa {name_female, Mandy} aliwahi kukopa dola {num_ic, 656} kutoka kwa mtu yuleyule.",
+  "ic_template": "Mjomba wa {name_female, Mandy} aliwahi kukopa dola {num_ic, 656} kutoka kwa mtu yuleyule. {name_female, Mandy} anadaiwa ${num_digit_1, 100} na {name_male, Benedict}. Wamekubalina kuwa na riba ya kila mwezi ya {num_digit_2, 2}%. Ikiwa {name_female, Mandy} atalipa baada ya miezi {num_digit_3, 3}, atamlipa {name_male, Benedict} jumla ya kiasi gani?",
+  "equation": "UPDATE HERE"
+}

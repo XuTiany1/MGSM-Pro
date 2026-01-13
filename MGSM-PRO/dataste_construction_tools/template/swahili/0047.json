@@ -1,0 +1,8 @@
+{
+  "original_question": "John ananunua tai nyekundu mara mbili zaidi ya tai za buluu. Bei ya tai nyekundu ni 50% zaidi ya bei ya tai za buluu. Alitumia $200 kununua tai za buluu ambazo zinauzwa $40 kila moja. Alitumia pesa ngapi kununua tai?",
+  "original_answer": 800,
+  "symbolic_template": "{name_male, John} ananunua tai nyekundu mara mbili zaidi ya tai za buluu. Bei ya tai nyekundu ni {num_digit_1, 50}% zaidi ya bei ya tai za buluu. Alitumia ${num_digit_2, 200} kununua tai za buluu ambazo zinauzwa ${num_digit_3, 40} kila moja. Alitumia pesa ngapi kununua tai?",
+  "ic_sentence_template": "Mjomba wa {name_male, John} alipata vitufe vya mkono {num_ic, 93} katika mauzo ya mali.",
+  "ic_template": "Mjomba wa {name_male, John} alipata vitufe vya mkono {num_ic, 93} katika mauzo ya mali. {name_male, John} ananunua tai nyekundu mara mbili zaidi ya tai za buluu. Bei ya tai nyekundu ni {num_digit_1, 50}% zaidi ya bei ya tai za buluu. Alitumia ${num_digit_2, 200} kununua tai za buluu ambazo zinauzwa ${num_digit_3, 40} kila moja. Alitumia pesa ngapi kununua tai?",
+  "equation": "UPDATE HERE"
+}

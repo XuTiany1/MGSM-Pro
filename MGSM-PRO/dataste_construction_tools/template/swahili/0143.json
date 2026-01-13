@@ -1,0 +1,8 @@
+{
+  "original_question": "John hununua maziwa kwa dola 2, mayai kwa dola 3, balbu za mataa kwa dola 3, vikombe kwa dola 3, na mitego ya mende kwa dola 4. Ikiwa kuna 10% ya ushuru kwa bidhaa zote zisizo za chakula, jumla ya gharama ilikuwa ngapi.",
+  "original_answer": 16,
+  "symbolic_template": "{name_male, John} hununua maziwa kwa dola {num_digit_1, 2}, mayai kwa dola {num_digit_2, 3}, balbu za taa kwa dola {num_digit_3, 3}, vikombe kwa dola {num_digit_4, 3}, na mitego ya mende kwa dola {num_digit_5, 4}. Ikiwa kuna ushuru wa {num_digit_6, 10}% kwa bidhaa zote zisizo za chakula, kila kitu kitagharimu kiasi gani?",
+  "ic_sentence_template": "Mpwa wa kike wa {name_male, John} alipata marumaru {num_ic, 16} kwenye uwanja wa nyuma. ",
+  "ic_template": "Mpwa wa kike wa {name_male, John} alipata marumaru {num_ic, 16} kwenye uwanja wa nyuma. {name_male, John} hununua maziwa kwa dola {num_digit_1, 2}, mayai kwa dola {num_digit_2, 3}, balbu za taa kwa dola {num_digit_3, 3}, vikombe kwa dola {num_digit_4, 3}, na mitego ya mende kwa dola {num_digit_5, 4}. Ikiwa kuna ushuru wa {num_digit_6, 10}% kwa bidhaa zote zisizo za chakula, kila kitu kitagharimu kiasi gani?",
+  "equation": "UPDATE HERE"
+}

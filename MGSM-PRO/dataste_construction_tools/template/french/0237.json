@@ -1,0 +1,8 @@
+{
+  "original_question": "Johnny a pris son allocation de 20 $, à laquelle il a ajouté 10 $. Il a ensuite investi cette somme, qui a triplé en un an. Combien d'argent avait-il au bout d'un an ?",
+  "original_answer": 90,
+  "symbolic_template": "{name_male, Johnny} a pris son allocation de {num_digit_1, 20} $, à laquelle il a ajouté {num_digit_2, 10} $. Il a ensuite investi cette somme, qui a triplé en un an. Combien d'argent avait-il au bout d'un an ?",
+  "ic_sentence_template": "{name_male, Johnny} a un cousin qui a reçu {num_ic, 88} cartes de baseball pour son anniversaire.",
+  "ic_template": "{name_male, Johnny} a un cousin qui a reçu {num_ic, 88} cartes de baseball pour son anniversaire. {name_male, Johnny} a pris son allocation de {num_digit_1, 20} $, à laquelle il a ajouté {num_digit_2, 10} $. Il a ensuite investi cette somme, qui a triplé en un an. Combien d'argent avait-il au bout d'un an ?",
+  "equation": "UPDATE HERE"
+}

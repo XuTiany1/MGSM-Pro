@@ -1,0 +1,8 @@
+{
+  "original_question": "翠西用一条长 4 英尺的金属丝给做菜园里的番茄做支撑。金属丝被剪成小段，每段长 6 英寸。她得到了多少段？",
+  "original_answer": 3,
+  "symbolic_template": "{name_female, 翠西} 用一条长 {num_digit_1, 7.75} 英尺的金属丝给菜园里的番茄做支撑。金属丝被剪成每段 {num_digit_2, 31} 英寸的小段。她得到了多少段？",
+  "ic_sentence_template": "{name_female, 特蕾西}的叔叔在温室里有 {num_ic, 52} 根番茄桩。",
+  "ic_template": "{name_female, 特蕾西}的叔叔在温室里有 {num_ic, 52} 根番茄桩。{name_female, 翠西} 用一条长 {num_digit_1, 7.75} 英尺的金属丝给菜园里的番茄做支撑。金属丝被剪成每段 {num_digit_2, 31} 英寸的小段。她得到了多少段？",
+  "equation": "UPDATE HERE"
+}

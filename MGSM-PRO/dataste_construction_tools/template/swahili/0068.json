@@ -1,0 +1,8 @@
+{
+  "original_question": "Idadi ya wavulana katika shule ya R. Wertz ni mara mbili zaidi ya idadi ya wasichana. Iwapo kuna wasichana 60 na wanafunzi 5 kwa kila mwanafunzi, shule hiyo ina walimu wangapi?",
+  "original_answer": 36,
+  "symbolic_template": "Idadi ya wavulana katika shule ya R. Wertz ni mara mbili zaidi ya idadi ya wasichana. Iwapo kuna wasichana {num_digit_1, 60} na wanafunzi {num_digit_2, 5} kwa kila mwalimu, shule hiyo ina walimu wangapi?",
+  "ic_sentence_template": "Vitabu vipya {num_ic, 222} vimeletwa kwenye maktaba ya shule ya Dkt. Wertz mwaka huu.",
+  "ic_template": "Vitabu vipya {num_ic, 222} vimeletwa kwenye maktaba ya shule ya Dkt. Wertz mwaka huu. Idadi ya wavulana katika shule ya R. Wertz ni mara mbili zaidi ya idadi ya wasichana. Iwapo kuna wasichana {num_digit_1, 60} na wanafunzi {num_digit_2, 5} kwa kila mwalimu, shule hiyo ina walimu wangapi?",
+  "equation": "UPDATE HERE"
+}

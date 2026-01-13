@@ -1,0 +1,8 @@
+{
+  "original_question": "Judy kyerԑ asa adesuakuo 5, da biara, firi Dwoada kɔsi Fiada, na wakyerԑ adesuakuo 8 wɔ Mmemeneda. Sԑ adesuakuo biara wɔ adesuafoɔ 15 na ɔgye adesuani biara $15, sika sԑn na ɔnya wɔ nnawɔtwe baako mu?",
+  "original_answer": 7425,
+  "symbolic_template": "{name_female, Judy} kyerԑ asa adesuakuo {num_digit_1, 5}, da biara, firi Dwoada kɔsi Fiada, na wakyerԑ adesuakuo {num_digit_2, 8} wɔ Mmemeneda. Sԑ adesuakuo biara wɔ adesuafoɔ {num_digit_3, 15} na ɔgye adesuani biara ${num_digit_4, 15.00}, sika sԑn na ɔnya wɔ nnawɔtwe {num_digit_5, 1} mu?",
+  "ic_sentence_template": "{name_female, Judy} wɔfa tɔ asaw mpaboa {num_ic, 47} bosome biara.",
+  "ic_template": "{name_female, Judy} wɔfa tɔ asaw mpaboa {num_ic, 47} bosome biara. {name_female, Judy} kyerԑ asa adesuakuo {num_digit_1, 5}, da biara, firi Dwoada kɔsi Fiada, na wakyerԑ adesuakuo {num_digit_2, 8} wɔ Mmemeneda. Sԑ adesuakuo biara wɔ adesuafoɔ {num_digit_3, 15} na ɔgye adesuani biara ${num_digit_4, 15.00}, sika sԑn na ɔnya wɔ nnawɔtwe {num_digit_5, 1} mu?",
+  "equation": "UPDATE HERE"
+}

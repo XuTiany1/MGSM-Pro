@@ -1,0 +1,8 @@
+{
+  "original_question": "Candice aliweka karatasi 80 zenye vibandiko kwenye pochi lake kabla ya kuondoka kwenda kazini katika duka lake la kahawa. Akiwa njiani, alisimama katika duka na kununua kifurushi cha karatasi zenye Kibandiko; Akiwa kazini, aliweka katarasi moja yenye kibandiko kwenye vikombe 220 tofauti vya kahawa. Iwapo alikuwa amesalia na karatasi 23 zenye vibandiko kwa jumla, karatasi ngapi zenye vibandiko zilikuwa katika kifurushi alichonunua?",
+  "original_answer": 163,
+  "symbolic_template": "{name_female, Candice} aliweka karatasi {num_digit_1, 80} zenye vibandiko kwenye pochi lake kabla ya kuondoka kwenda kazini katika duka lake la kahawa. Akiwa njiani, alisimama katika duka na kununua kifurushi cha karatasi zenye Kibandiko; Akiwa kazini, aliweka karatasi moja yenye kibandiko kwenye vikombe {num_digit_2, 220} tofauti vya kahawa. Iwapo alikuwa amesalia na karatasi {num_digit_3, 23} zenye vibandiko kwa jumla, karatasi ngapi zenye vibandiko zilikuwa katika kifurushi alichonunua?",
+  "ic_sentence_template": "Mjomba wa {name_female, Candice} anakusanya vikombe vya kahawa {num_ic, 988} nyumbani kwake.",
+  "ic_template": "Mjomba wa {name_female, Candice} anakusanya vikombe vya kahawa {num_ic, 988} nyumbani kwake. {name_female, Candice} aliweka karatasi {num_digit_1, 80} zenye vibandiko kwenye pochi lake kabla ya kuondoka kwenda kazini katika duka lake la kahawa. Akiwa njiani, alisimama katika duka na kununua kifurushi cha karatasi zenye Kibandiko; Akiwa kazini, aliweka karatasi moja yenye kibandiko kwenye vikombe {num_digit_2, 220} tofauti vya kahawa. Iwapo alikuwa amesalia na karatasi {num_digit_3, 23} zenye vibandiko kwa jumla, karatasi ngapi zenye vibandiko zilikuwa katika kifurushi alichonunua?",
+  "equation": "UPDATE HERE"
+}

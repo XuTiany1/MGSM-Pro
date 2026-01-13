@@ -1,0 +1,8 @@
+{
+  "original_question": "Henry ń ṣe kúkìsì fún ìdíje ilé. ó fẹ́ ṣe ìdá méjì bí èyí tí ó ṣe ní ọdún tó kọjá. nígbà tó parí àsè náà ó ríi wípé ó ṣe kúkìsì 15 ju iye tó fẹ́ ṣe lọ. o ju 5 sílẹ̀ nígbàtí ó ń dúró kí ó tutù, nísìnyí ó ní àpapọ̀ 110 kúkìsì. kúkìsì mélòó ní Henry ṣe ní ọdún tó kọjá?",
+  "original_answer": 50,
+  "symbolic_template": "{name_male, Henry} ń ṣe kúkìsì fún ìdíje ilé. ó fẹ́ ṣe ìlọ́pọ mẹjì bí èyí tí ó ṣe ní ọdún tó kọjá. nígbà tó parí àsè náà ó ríi wípé ó ṣe kúkìsì {num_digit_1, 15} ju iye tó fẹ́ ṣe lọ. o ju {num_digit_2, 5} sílẹ̀ nígbàtí ó ń dúró kí ó tutù, nísìnyí ó ní àpapọ̀ {num_digit_3, 110} kúkìsì. kúkìsì mélòó ní {name_male, Henry} ṣe ní ọdún tó kọjá?",
+  "ic_sentence_template": "Ẹ̀gbọ́n baba {name_male, Henry} ra muffins {num_ic, 99} láti ilé onímẹ́sìn tó wà nítòsí.",
+  "ic_template": "Ẹ̀gbọ́n baba {name_male, Henry} ra muffins {num_ic, 99} láti ilé onímẹ́sìn tó wà nítòsí. {name_male, Henry} ń ṣe kúkìsì fún ìdíje ilé. ó fẹ́ ṣe ìlọ́pọ mẹjì bí èyí tí ó ṣe ní ọdún tó kọjá. nígbà tó parí àsè náà ó ríi wípé ó ṣe kúkìsì {num_digit_1, 15} ju iye tó fẹ́ ṣe lọ. o ju {num_digit_2, 5} sílẹ̀ nígbàtí ó ń dúró kí ó tutù, nísìnyí ó ní àpapọ̀ {num_digit_3, 110} kúkìsì. kúkìsì mélòó ní {name_male, Henry} ṣe ní ọdún tó kọjá?",
+  "equation": "UPDATE HERE"
+}

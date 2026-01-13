@@ -1,0 +1,8 @@
+{
+  "original_question": "Ndị ọ̀kụ̀égwú n'ahiri na-atụ ahịa uwe njirimara ọhụrụ. Otu n'uwe njirimara ahụ na-ebu okpu na-ada $25, na jakeeti na-ada ọnụahịa dị ugboro atọ ịhe a na-ere okpu, na ọbante nke ọnụahịa ya na-ada nkezi ọnụahịa okpu na jakeeti. Ego ole ka uwe njirimara na-ada na ngụkọta? ",
+  "original_answer": 150,
+  "symbolic_template": "Ndị ọ̀kụ̀égwú n'ahiri na-atụ ahịa uwe njirimara ọhụrụ. Otu n'uwe njirimara ahụ na-ebu okpu na-ada ${num_digit_1, 25}, na jakeeti na-ada ọnụahịa dị ugboro atọ ịhe a na-ere okpu, na ọbante nke ọnụahịa ya na-ada nkezi ọnụahịa okpu na jakeeti. Ego ole ka uwe njirimara na-ada na ngụkọta?",
+  "ic_sentence_template": "Nwa nwanne nna onye isi otu zụrụ uwe aka di {num_ic, 517} maka ngalaba igbe ụbọ.",
+  "ic_template": "Nwa nwanne nna onye isi otu zụrụ uwe aka di {num_ic, 517} maka ngalaba igbe ụbọ. Ndị ọ̀kụ̀égwú n'ahiri na-atụ ahịa uwe njirimara ọhụrụ. Otu n'uwe njirimara ahụ na-ebu okpu na-ada ${num_digit_1, 25}, na jakeeti na-ada ọnụahịa dị ugboro atọ ịhe a na-ere okpu, na ọbante nke ọnụahịa ya na-ada nkezi ọnụahịa okpu na jakeeti. Ego ole ka uwe njirimara na-ada na ngụkọta?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "ラファエルは学用品を買いに出かけた。彼は、各1.5ドルのペンを4本、各4ドルのノートを2冊買い、20ドルするボンド紙を1辺買った。ラファエルは全部でいくら使った？",
+  "original_answer": 34,
+  "symbolic_template": "{name_male, ラファエル} は学用品を買いに出かけた。彼は、各{num_digit_2, 1.5}ドルのペンを{num_digit_1, 4}本、各{num_digit_4, 4}ドルのノートを{num_digit_3, 2}冊買い、{num_digit_5, 20}ドルするボンド紙を1辺買った。{name_male, ラファエル} は全部でいくら使った？",
+  "ic_sentence_template": "{name_male, ラファエル}のおじさんは先週{num_ic, 19}箱のクレヨンを買ってきました。",
+  "ic_template": "{name_male, ラファエル}のおじさんは先週{num_ic, 19}箱のクレヨンを買ってきました。{name_male, ラファエル} は学用品を買いに出かけた。彼は、各{num_digit_2, 1.5}ドルのペンを{num_digit_1, 4}本、各{num_digit_4, 4}ドルのノートを{num_digit_3, 2}冊買い、{num_digit_5, 20}ドルするボンド紙を1辺買った。{name_male, ラファエル} は全部でいくら使った？",
+  "equation": "UPDATE HERE"
+}

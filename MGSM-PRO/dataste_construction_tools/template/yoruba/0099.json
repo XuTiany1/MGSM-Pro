@@ -1,0 +1,8 @@
+{
+  "original_question": "Mary jẹ́ olùtọ́jú ọgbà. ní àná ó gbà ohun ọ̀gbìn inú ìkòkò 18 láti ọ̀dọ̀ olùtọ́jú ọ̀gbìn láti kékeré. ó ní ohun ọ̀gbìn inú ìkòkò 2 tí ó gbé sí ojú fèrèsé 40 inú ilé rẹ̀ ńlá. nítorí inú rẹ̀ ń dùn ó gbèrò láti fún àwọn ọ̀rẹ́ rẹ̀ àti ẹbí ní ìkòkò ohun ọ̀gbìn 1 ní ọ̀la. ìkòkò ohun ọ̀gbìn mélòó ló máa kù pẹ̀lú Mary?",
+  "original_answer": 58,
+  "symbolic_template": "{name_female, Mary} jẹ́ olùtọ́jú ọgbà. ní àná ó gbà ohun ọ̀gbìn inú ìkòkò {num_digit_1, 18} láti ọ̀dọ̀ olùtọ́jú ọ̀gbìn láti kékeré. ó ní ohun ọ̀gbìn inú ìkòkò {num_digit_2, 2} tí ó gbé sí ojú fèrèsé {num_digit_3, 40} inú ilé rẹ̀ ńlá. nítorí inú rẹ̀ ń dùn ó gbèrò láti fún àwọn ọ̀rẹ́ rẹ̀ àti ẹbí ní ìkòkò ohun ọ̀gbìn {num_digit_4, 1} ní ọ̀la. ìkòkò ohun ọ̀gbìn mélòó ló máa kù pẹ̀lú {name_female, Mary}?",
+  "ic_sentence_template": "Ìyá ńlá {name_female, Mary} fi igba kan gbà àpò odòdó aláyẹ̀yẹ {num_ic, 217} .",
+  "ic_template": "Ìyá ńlá {name_female, Mary} fi igba kan gbà àpò odòdó aláyẹ̀yẹ {num_ic, 217} . {name_female, Mary} jẹ́ olùtọ́jú ọgbà. ní àná ó gbà ohun ọ̀gbìn inú ìkòkò {num_digit_1, 18} láti ọ̀dọ̀ olùtọ́jú ọ̀gbìn láti kékeré. ó ní ohun ọ̀gbìn inú ìkòkò {num_digit_2, 2} tí ó gbé sí ojú fèrèsé {num_digit_3, 40} inú ilé rẹ̀ ńlá. nítorí inú rẹ̀ ń dùn ó gbèrò láti fún àwọn ọ̀rẹ́ rẹ̀ àti ẹbí ní ìkòkò ohun ọ̀gbìn {num_digit_4, 1} ní ọ̀la. ìkòkò ohun ọ̀gbìn mélòó ló máa kù pẹ̀lú {name_female, Mary}?",
+  "equation": "UPDATE HERE"
+}

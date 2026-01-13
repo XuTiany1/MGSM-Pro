@@ -1,0 +1,8 @@
+{
+  "original_question": "ቪንሰንት አበባዎችን በ3 እሽግ በ2.50 ዶላር ወይም በ2 እሽግ በ1 ዶላር መግዛት ይችላል። 18 አበባዎችን በተሻለ ዋጋ በመግዛት ምን ያህል ገንዘብ ይቆጥባል?",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, ቪንሰንት} አበባዎችን በ{num_digit_1, 3} እሽግ በ${num_digit_2, 2.50} ዶላር ወይም በ{num_digit_3, 2} እሽግ በ${num_digit_4, 1} ዶላር መግዛት ይችላል። {num_digit_5, 18} አበባዎችን በተሻለ ዋጋ በመግዛት ምን ያህል ገንዘብ ይቆጥባል?",
+  "ic_sentence_template": "የ{name_male, ቪንሴንት} አጎቱ በአትክልቱ ውስጥ {num_ic, 23} የቲማቲም ተክሎች አሉት።",
+  "ic_template": "የ{name_male, ቪንሴንት} አጎቱ በአትክልቱ ውስጥ {num_ic, 23} የቲማቲም ተክሎች አሉት። {name_male, ቪንሰንት} አበባዎችን በ{num_digit_1, 3} እሽግ በ${num_digit_2, 2.50} ዶላር ወይም በ{num_digit_3, 2} እሽግ በ${num_digit_4, 1} ዶላር መግዛት ይችላል። {num_digit_5, 18} አበባዎችን በተሻለ ዋጋ በመግዛት ምን ያህል ገንዘብ ይቆጥባል?",
+  "equation": "UPDATE HERE"
+}

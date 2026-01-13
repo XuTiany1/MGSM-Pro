@@ -1,0 +1,8 @@
+{
+  "original_question": "Lee máa ń sáré 400 mítà pẹ̀lú ìṣẹ́jú méjì tẹ́lẹ̀ ju Gerald tó ń sáré 400 mítà. ṣùgbọ́n Gerald yí oúnjẹ rẹ̀ padà èyí tí ó jẹ́ kí ìṣọwọ́ sáré rẹ̀ yàtọ̀ pẹ̀lú 10%. tí Lee bá sáré 400 mítà láàrin ìṣẹ́jú 38, báwo ní Gerald pẹ̀lú oúnjẹ rẹ̀ tó yàtọ̀, ṣe lè sá 400 mítà ní ìṣẹ́jú?",
+  "original_answer": 36,
+  "symbolic_template": "{name_male_1, Lee} máa ń sáré {num_digit_1, 400} mítà pẹ̀lú ìṣẹ́jú méjì tẹ́lẹ̀ ju Gerald tó ń sáré {num_digit_1, 400} mítà. ṣùgbọ́n Gerald yí oúnjẹ rẹ̀ padà èyí tí ó jẹ́ kí ìṣọwọ́ sáré rẹ̀ yàtọ̀ pẹ̀lú {num_digit_2, 10}%. tí Lee bá sáré {num_digit_1, 400} mítà láàrin ìṣẹ́jú {num_digit_3, 38}, báwo ní Gerald pẹ̀lú oúnjẹ rẹ̀ tó yàtọ̀, ṣe lè sá {num_digit_1, 400} mítà ní ìṣẹ́jú?",
+  "ic_sentence_template": "Ìyá bàbá {name_male_2, Gerald} gbàwọ́ àwọn àdánwò {num_ic, 486} laipẹ́ yi.",
+  "ic_template": "Ìyá bàbá {name_male_2, Gerald} gbàwọ́ àwọn àdánwò {num_ic, 486} laipẹ́ yi. {name_male_1, Lee} máa ń sáré {num_digit_1, 400} mítà pẹ̀lú ìṣẹ́jú méjì tẹ́lẹ̀ ju Gerald tó ń sáré {num_digit_1, 400} mítà. ṣùgbọ́n Gerald yí oúnjẹ rẹ̀ padà èyí tí ó jẹ́ kí ìṣọwọ́ sáré rẹ̀ yàtọ̀ pẹ̀lú {num_digit_2, 10}%. tí Lee bá sáré {num_digit_1, 400} mítà láàrin ìṣẹ́jú {num_digit_3, 38}, báwo ní Gerald pẹ̀lú oúnjẹ rẹ̀ tó yàtọ̀, ṣe lè sá {num_digit_1, 400} mítà ní ìṣẹ́jú?",
+  "equation": "UPDATE HERE"
+}

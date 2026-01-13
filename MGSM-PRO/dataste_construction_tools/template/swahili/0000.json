@@ -1,0 +1,8 @@
+{
+  "original_question": "Bata wa Janet hutaga mayai 16 kila siku. Huwa anakula matatu wakati wa staftahi kila asubuhi na huokea marafiki zake mafini kila siku kwa mayai manne. Huwa anauza yaliyosalia katika soko la wakulima kila siku kwa $2 kwa kila yai la bata. Huwa anatengeneza pesa ngapi katika dola kila siku katika soko la wakulima?",
+  "original_answer": 18,
+  "symbolic_template": "Bata wa {name_female, Janet} hutaga mayai {num_digit_1, 16} kila siku. Huwa anakula matatu wakati wa staftahi kila asubuhi na huokea marafiki zake mafini kila siku kwa manne. Huwa anauza yaliyosalia katika soko la wakulima kila siku kwa ${num_digit_2, 2} kwa kila yai la bata. Huwa anatengeneza pesa ngapi katika dola kila siku katika soko la wakulima?",
+  "ic_sentence_template": "Mjomba wa {name_female, Janet} huleta tufaha {num_ic, 41} kwake kila wiki.",
+  "ic_template": "Mjomba wa {name_female, Janet} huleta tufaha {num_ic, 41} kwake kila wiki. Bata wa {name_female, Janet} hutaga mayai {num_digit_1, 16} kila siku. Huwa anakula matatu wakati wa staftahi kila asubuhi na huokea marafiki zake mafini kila siku kwa manne. Huwa anauza yaliyosalia katika soko la wakulima kila siku kwa ${num_digit_2, 2} kwa kila yai la bata. Huwa anatengeneza pesa ngapi katika dola kila siku katika soko la wakulima?",
+  "equation": "UPDATE HERE"
+}

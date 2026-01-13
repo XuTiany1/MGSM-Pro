@@ -1,0 +1,8 @@
+{
+  "original_question": "Huwa inamchukua Carmen dakika 10 kukamilisha fumbo la maneno panda na dakika 5 kukamilisha fumbo la sudoku. Wikeni alitatua mafumbo 3 ya maneno panda na mafumbo 8 ya sudoku. Alitumia muda gani kwa jumla kucheza michezo hii?",
+  "original_answer": 70,
+  "symbolic_template": "Huwa inamchukua {name_female, Carmen} dakika {num_digit_1, 10} kukamilisha fumbo la maneno panda na dakika {num_digit_2, 5} kukamilisha fumbo la sudoku. Wikeni alitatua mafumbo {num_digit_3, 3} ya maneno panda na mafumbo {num_digit_4, 8} ya sudoku. Alitumia muda gani kwa jumla kucheza michezo hii?",
+  "ic_sentence_template": "Mjomba wa {name_female, Carmen} alioka vidakuzi {num_ic, 46} siku ya Jumamosi.",
+  "ic_template": "Mjomba wa {name_female, Carmen} alioka vidakuzi {num_ic, 46} siku ya Jumamosi. Huwa inamchukua {name_female, Carmen} dakika {num_digit_1, 10} kukamilisha fumbo la maneno panda na dakika {num_digit_2, 5} kukamilisha fumbo la sudoku. Wikeni alitatua mafumbo {num_digit_3, 3} ya maneno panda na mafumbo {num_digit_4, 8} ya sudoku. Alitumia muda gani kwa jumla kucheza michezo hii?",
+  "equation": "UPDATE HERE"
+}

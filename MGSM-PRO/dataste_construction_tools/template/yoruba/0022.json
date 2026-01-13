@@ -1,0 +1,8 @@
+{
+  "original_question": "Billy ń ta àwọn DVD. Ó ní àwọn oníbàárà 8 ní ọjọ́ Ìṣẹ́gun. Àwọn oníbàárà rẹ̀ 3 àkọ́kọ́ ra DVD kọ̀ọ̀kan. Àwọn oníbàárà rẹ̀ 2 tó tẹ̀lẹ ra DVD 2 níkọ̀ọ̀kan. Àwọn oníbàárà 3 tó gbẹ̀yìn kò ra DVD kankan. DVDS mélòó ní Billy tà ní ọjọ́ Ìṣẹ́gun?",
+  "original_answer": 7,
+  "symbolic_template": "{name_male, Billy} ń ta àwọn DVD. Ó ní àwọn oníbàárà {num_digit_1, 8} ní ọjọ́ Ìṣẹ́gun. Àwọn oníbàárà rẹ̀ {num_digit_2, 3} àkọ́kọ́ ra DVD kọ̀ọ̀kan. Àwọn oníbàárà rẹ̀ {num_digit_3, 2} tó tẹ̀lẹ ra DVD {num_digit_4, 2} níkọ̀ọ̀kan. Àwọn oníbàárà {num_digit_5, 3} tó gbẹ̀yìn kò ra DVD kankan. DVDS mélòó ní {name_male, Billy} tà ní ọjọ́ Ìṣẹ́gun?",
+  "ic_sentence_template": "Àntì {name_male, Billy} mú wàráwé pọọ̀pùn {num_ic, 18} wá láti pín.",
+  "ic_template": "Àntì {name_male, Billy} mú wàráwé pọọ̀pùn {num_ic, 18} wá láti pín. {name_male, Billy} ń ta àwọn DVD. Ó ní àwọn oníbàárà {num_digit_1, 8} ní ọjọ́ Ìṣẹ́gun. Àwọn oníbàárà rẹ̀ {num_digit_2, 3} àkọ́kọ́ ra DVD kọ̀ọ̀kan. Àwọn oníbàárà rẹ̀ {num_digit_3, 2} tó tẹ̀lẹ ra DVD {num_digit_4, 2} níkọ̀ọ̀kan. Àwọn oníbàárà {num_digit_5, 3} tó gbẹ̀yìn kò ra DVD kankan. DVDS mélòó ní {name_male, Billy} tà ní ọjọ́ Ìṣẹ́gun?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "ボードゲームで4人の生徒たちは全部で251ポイント獲得しました。ナオミは68ポイント得ました。ユリはナオミが得たポイントの半分よりも10多くポイントを獲得し、ブリアナはナオミよりも17ポイント多く獲得しました。ジョジョは何ポイント得ましたか？",
+  "original_answer": 54,
+  "symbolic_template": "ボードゲームで4人の生徒たちは全部で{num_digit_1, 251}ポイント獲得しました。{name_female_1, ナオミ}は{num_digit_2, 68}ポイント得ました。{name_female_2, ユリ}はよりも{num_digit_3, 10}多くポhalfイントを獲得し{name_female_1, Naomi}、{name_female_3, ブリアナ}は{name_female_1, ナオミ}よりも{num_digit_4, 17}ポイント多く獲得しました。{name_female_4, ジョジョ}は何ポイント得ましたか？",
+  "ic_sentence_template": "{name_female_3, ブリアナ}のおじさんはみんなのために{num_ic, 38}個のお菓子を持ってきました。",
+  "ic_template": "{name_female_3, ブリアナ}のおじさんはみんなのために{num_ic, 38}個のお菓子を持ってきました。ボードゲームで4人の生徒たちは全部で{num_digit_1, 251}ポイント獲得しました。{name_female_1, ナオミ}は{num_digit_2, 68}ポイント得ました。{name_female_2, ユリ}はよりも{num_digit_3, 10}多くポhalfイントを獲得し{name_female_1, Naomi}、{name_female_3, ブリアナ}は{name_female_1, ナオミ}よりも{num_digit_4, 17}ポイント多く獲得しました。{name_female_4, ジョジョ}は何ポイント得ましたか？",
+  "equation": "UPDATE HERE"
+}

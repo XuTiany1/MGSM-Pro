@@ -1,0 +1,8 @@
+{
+  "original_question": "Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+  "original_answer": 100,
+  "symbolic_template": "{name_female, Josie} grows grapes on her {num_digit_1, 10}-acre farm. Each acre produces {num_digit_2, 5} tons of grapes per year, and each ton of grapes makes {num_digit_3, 2} barrels of wine. How many barrels of wine does her farm produce per year?",
+  "ic_sentence_template": "{name_female, Josie}'s uncle owns {num_ic, 289} apple trees nearby.",
+  "ic_template": "{name_female, Josie} grows grapes on her {num_digit_1, 10}-acre farm. Each acre produces {num_digit_2, 5} tons of grapes per year, and each ton of grapes makes {num_digit_3, 2} barrels of wine. {name_female, Josie}'s uncle owns {num_ic, 289} apple trees nearby. How many barrels of wine does her farm produce per year?",
+  "equation": "UPDATE HERE"
+}

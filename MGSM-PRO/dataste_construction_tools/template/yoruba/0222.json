@@ -1,0 +1,8 @@
+{
+  "original_question": "Andy gbin geraniums 90 àti petunias tí ó fi 40 kéré ju iye geraniums lọ. Òdòdó mélòó ni ó gbin ní àpapọ̀?",
+  "original_answer": 140,
+  "symbolic_template": "{name_male, Andy} gbin geraniums {num_digit_1, 90} àti petunias tí ó fi {num_digit_2, 40} kéré ju iye geraniums lọ. Òdòdó mélòó ni ó gbin ní àpapọ̀?",
+  "ic_sentence_template": "Àbúrò mẹ́ta {name_male, Andy} rà àpò rẹ̀dẹ́dẹ́ ilẹ̀ ilẹ̀ pẹ̀lú {num_ic, 8324} lọ́sẹ̀ tó kọjá.",
+  "ic_template": "Àbúrò mẹ́ta {name_male, Andy} rà àpò rẹ̀dẹ́dẹ́ ilẹ̀ ilẹ̀ pẹ̀lú {num_ic, 8324} lọ́sẹ̀ tó kọjá. {name_male, Andy} gbin geraniums {num_digit_1, 90} àti petunias tí ó fi {num_digit_2, 40} kéré ju iye geraniums lọ. Òdòdó mélòó ni ó gbin ní àpapọ̀?",
+  "equation": "UPDATE HERE"
+}

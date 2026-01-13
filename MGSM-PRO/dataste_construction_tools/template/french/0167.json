@@ -1,0 +1,8 @@
+{
+  "original_question": "Seth est 2 fois plus âgé que Brooke. Dans deux ans, la somme de leurs âges sera de 28 ans. Quel est l'âge de Seth ?",
+  "original_answer": 16,
+  "symbolic_template": "{name_male, Seth} est 2 fois plus âgé que {name_female, Brooke}. Dans {num_digit_1, deux} ans, la somme de leurs âges sera de {num_digit_2, 28} ans. Quel est l'âge de {name_male, Seth} ?",
+  "ic_sentence_template": "{name_male, Seth} a une tante qui vient d’acheter {num_ic, 17} billets de cinéma à prix réduit.",
+  "ic_template": "{name_male, Seth} a une tante qui vient d’acheter {num_ic, 17} billets de cinéma à prix réduit. {name_male, Seth} est 2 fois plus âgé que {name_female, Brooke}. Dans {num_digit_1, deux} ans, la somme de leurs âges sera de {num_digit_2, 28} ans. Quel est l'âge de {name_male, Seth} ?",
+  "equation": "UPDATE HERE"
+}

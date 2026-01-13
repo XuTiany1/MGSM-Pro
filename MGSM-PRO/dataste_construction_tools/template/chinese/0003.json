@@ -1,0 +1,8 @@
+{
+  "original_question": "詹姆斯决定每周跑 3 次 3 段冲刺，每段冲刺跑 60 米。他每周一共跑多少米？",
+  "original_answer": 540,
+  "symbolic_template": "{name_male, 詹姆斯} 决定每周跑 {num_digit_2, 3} 次 {num_digit_1, 3} 段冲刺，每段冲刺跑 {num_digit_3, 60} 米。他每周一共跑多少米？",
+  "ic_sentence_template": "{name_male, 詹姆斯} 的叔叔有 {num_ic, 212} 双跑鞋。",
+  "ic_template": "{name_male, 詹姆斯} 的叔叔有 {num_ic, 212} 双跑鞋。{name_male, 詹姆斯} 决定每周跑 {num_digit_2, 3} 次 {num_digit_1, 3} 段冲刺，每段冲刺跑 {num_digit_3, 60} 米。他每周一共跑多少米？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Rani ní alákàn 10 ju Monic lọ, ẹni tí ó ní alákàn 4 díẹ̀ ju Bo lọ. Tí Bo bá ní akàn 40, ṣe ìṣirò iye alákàn tí àwọn mẹ́tẹ̀ẹ̀ta ní papọ̀.",
+  "original_answer": 122,
+  "symbolic_template": "{name_female_1, Rani} ní alákàn mẹ́wàá ju {name_female_2, Monic} lọ, ẹni tí ó ní alákàn {num_digit_1, 4} díẹ̀ ju {name_male_1, Bo} lọ. Tí {name_male_1, Bo} bá ní akàn {num_digit_2, 40}, ṣe ìṣirò iye alákàn tí àwọn mẹ́tẹ̀ẹ̀ta ní papọ̀.",
+  "ic_sentence_template": "Unkí {name_female_2, Monic} rí àká {num_ic, 88} ní etí òkun.",
+  "ic_template": "{name_female_1, Rani} ní alákàn mẹ́wàá ju {name_female_2, Monic} lọ, ẹni tí ó ní alákàn {num_digit_1, 4} díẹ̀ ju {name_male_1, Bo} lọ. Tí {name_male_1, Bo} bá ní akàn {num_digit_2, 40}, ṣe ìṣirò iye alákàn tí àwọn mẹ́tẹ̀ẹ̀ta ní papọ̀. Unkí {name_female_2, Monic} rí àká {num_ic, 88} ní etí òkun.",
+  "equation": "UPDATE HERE"
+}

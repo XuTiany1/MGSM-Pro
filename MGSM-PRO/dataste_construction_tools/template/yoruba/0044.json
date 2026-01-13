@@ -1,0 +1,8 @@
+{
+  "original_question": "Charlie fẹ́ ta àbẹ́là olóyin. Fún gbogbo póùn wúrà àbẹ́là olóyin kan, ó lè rí àbẹ́là ìtànná kékeré 10. Póùn ìdá oyin kan àti òwú ìtànná náà jẹ́ $10.00 ní ẹ̀kún. Tó bá ta àbẹ́là kọ̀ọ̀kan ní $2.00, kínni àpapọ èrè tó jẹ tó bá ṣe àbẹ́là 20 tó sì tà á?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male, Charlie} fẹ́ ta àbẹ́là olóyin. Fún gbogbo póùn wúrà àbẹ́là olóyin kan, ó lè rí àbẹ́là ìtànná kékeré {num_digit_1, 10}. Póùn ìdá oyin kan àti òwú ìtànná náà jẹ́ ${num_digit_2, 10.00} ní ẹ̀kún. Tó bá ta àbẹ́là kọ̀ọ̀kan ní ${num_digit_3, 2.00}, kínni àpapọ èrè tó jẹ tó bá ṣe àbẹ́là {num_digit_4, 20} tó sì tà á?",
+  "ic_sentence_template": "Arákùnrin {name_male, Charlie} ní àwọn àpáta oyin {num_ic, 37}.",
+  "ic_template": "Arákùnrin {name_male, Charlie} ní àwọn àpáta oyin {num_ic, 37}. {name_male, Charlie} fẹ́ ta àbẹ́là olóyin. Fún gbogbo póùn wúrà àbẹ́là olóyin kan, ó lè rí àbẹ́là ìtànná kékeré {num_digit_1, 10}. Póùn ìdá oyin kan àti òwú ìtànná náà jẹ́ ${num_digit_2, 10.00} ní ẹ̀kún. Tó bá ta àbẹ́là kọ̀ọ̀kan ní ${num_digit_3, 2.00}, kínni àpapọ èrè tó jẹ tó bá ṣe àbẹ́là {num_digit_4, 20} tó sì tà á?",
+  "equation": "UPDATE HERE"
+}

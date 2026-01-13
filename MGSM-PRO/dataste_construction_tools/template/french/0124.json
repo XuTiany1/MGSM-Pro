@@ -1,0 +1,8 @@
+{
+  "original_question": "Jennie apporte une assistance au bureau de sa mère. Elle dispose d'une pile de 60 lettres à timbrer et d'une autre avec des lettres déjà timbrées. Elle tamponne un tiers des lettres à timbrer. S'il y a maintenant 30 lettres dans la pile de lettres timbrées, combien y en avait-il dans cette pile lorsque Jennie a commencé le travail ?",
+  "original_answer": 10,
+  "symbolic_template": "{name_female, Jennie} apporte une assistance au bureau de sa mère. Elle dispose d'une pile de {num_digit_1, 60} lettres à timbrer et d'une autre avec des lettres déjà timbrées. Elle tamponne un tiers des lettres à timbrer. S'il y a maintenant {num_digit_2, 30} lettres dans la pile de lettres timbrées, combien y en avait-il dans cette pile lorsque {name_female, Jennie} a commencé le travail ?",
+  "ic_sentence_template": "{name_female, Jennie} a un oncle qui a reçu {num_ic, 27} cartes postales pour son anniversaire.",
+  "ic_template": "{name_female, Jennie} a un oncle qui a reçu {num_ic, 27} cartes postales pour son anniversaire. {name_female, Jennie} apporte une assistance au bureau de sa mère. Elle dispose d'une pile de {num_digit_1, 60} lettres à timbrer et d'une autre avec des lettres déjà timbrées. Elle tamponne un tiers des lettres à timbrer. S'il y a maintenant {num_digit_2, 30} lettres dans la pile de lettres timbrées, combien y en avait-il dans cette pile lorsque {name_female, Jennie} a commencé le travail ?",
+  "equation": "UPDATE HERE"
+}

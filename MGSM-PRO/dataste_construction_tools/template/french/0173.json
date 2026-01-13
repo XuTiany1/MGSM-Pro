@@ -1,0 +1,8 @@
+{
+  "original_question": "Jessica se demande combien d'argent elle doit payer chaque mois pour couvrir toutes ses dettes. Le paiement minimum de son prêt étudiant est de 300 $ par mois, celui de sa carte de crédit est de 200 $ par mois et celui de son prêt hypothécaire est de 500 $ par mois. Si Jessica veut payer 50 % de plus que le minimum, combien doit-elle payer en un an ?",
+  "original_answer": 18000,
+  "symbolic_template": "{name_female, Jessica} se demande combien d'argent elle doit payer chaque mois pour couvrir toutes ses dettes. Le paiement minimum de son prêt étudiant est de {num_digit_1, 300} $ par mois, celui de sa carte de crédit est de {num_digit_2, 200} $ par mois et celui de son prêt hypothécaire est de {num_digit_3, 500} $ par mois. Si {name_female, Jessica} veut payer {num_digit_4, 50} % de plus que le minimum, combien doit-elle payer en un an ?",
+  "ic_sentence_template": "{name_female, Jessica} a récemment reçu {num_ic, 58} coupons de réduction de son oncle.",
+  "ic_template": "{name_female, Jessica} a récemment reçu {num_ic, 58} coupons de réduction de son oncle. {name_female, Jessica} se demande combien d'argent elle doit payer chaque mois pour couvrir toutes ses dettes. Le paiement minimum de son prêt étudiant est de {num_digit_1, 300} $ par mois, celui de sa carte de crédit est de {num_digit_2, 200} $ par mois et celui de son prêt hypothécaire est de {num_digit_3, 500} $ par mois. Si {name_female, Jessica} veut payer {num_digit_4, 50} % de plus que le minimum, combien doit-elle payer en un an ?",
+  "equation": "UPDATE HERE"
+}

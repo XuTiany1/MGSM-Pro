@@ -1,0 +1,8 @@
+{
+  "original_question": "John buys twice as many red ties as blue ties. The red ties cost 50% more than blue ties. He spent $200 on blue ties that cost $40 each. How much did he spend on ties?",
+  "original_answer": 800,
+  "symbolic_template": "{name_male, John} buys twice as many red ties as blue ties. The red ties cost {num_digit_1, 50}% more than blue ties. He spent ${num_digit_2, 200} on blue ties that cost ${num_digit_3, 40} each. How much did he spend on ties?",
+  "ic_sentence_template": "{name_male, John}'s uncle found {num_ic, 93} cufflinks at an estate sale.",
+  "ic_template": "{name_male, John} buys twice as many red ties as blue ties. The red ties cost {num_digit_1, 50}% more than blue ties. He spent ${num_digit_2, 200} on blue ties that cost ${num_digit_3, 40} each. {name_male, John}'s uncle found {num_ic, 93} cufflinks at an estate sale. How much did he spend on ties?",
+  "equation": "UPDATE HERE"
+}

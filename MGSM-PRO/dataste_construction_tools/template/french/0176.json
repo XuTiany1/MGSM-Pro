@@ -1,0 +1,8 @@
+{
+  "original_question": "Dans une course réunissant 240 asiatiques, 80 d'entre eux étaient japonais et les autres chinois. Si le nombre de garçons dans l'équipe chinoise était de 60, combien de filles y avait-il dans cette même équipe ?",
+  "original_answer": 100,
+  "symbolic_template": "Dans une course réunissant {num_digit_1, 240} asiatiques, {num_digit_2, 80} d'entre eux étaient japonais et les autres chinois. Si le nombre de garçons dans l'équipe chinoise était de {num_digit_3, 60}, combien de filles y avait-il dans cette même équipe ?",
+  "ic_sentence_template": "{num_ic, 306} fans ont apporté des banderoles à l'événement.",
+  "ic_template": "{num_ic, 306} fans ont apporté des banderoles à l'événement. Dans une course réunissant {num_digit_1, 240} asiatiques, {num_digit_2, 80} d'entre eux étaient japonais et les autres chinois. Si le nombre de garçons dans l'équipe chinoise était de {num_digit_3, 60}, combien de filles y avait-il dans cette même équipe ?",
+  "equation": "UPDATE HERE"
+}

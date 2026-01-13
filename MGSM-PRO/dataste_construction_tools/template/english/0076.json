@@ -1,0 +1,8 @@
+{
+  "original_question": "Cecilia just bought a new puppy. According to her veterinarian, she has to feed the puppy 1 cup of dog food every day for the first 180 days. Then she has to feed the puppy 2 cups of dog food every day for the rest of its life. If a bag of dog food contains 110 cups, how many bags of dog food will Cecilia use in the first year?",
+  "original_answer": 5,
+  "symbolic_template": "{name_female, Cecilia} just bought a new puppy. According to her veterinarian, she has to feed the puppy {num_digit_1, 1} cup of dog food every day for the first {num_digit_2, 180} days. Then she has to feed the puppy {num_digit_3, 2} cups of dog food every day for the rest of its life. If a bag of dog food contains {num_digit_4, 110} cups, how many bags of dog food will {name_female, Cecilia} use in the first year?",
+  "ic_sentence_template": "{name_female, Cecilia}'s aunt once bought {num_ic, 112} cans of cat food at a discount.",
+  "ic_template": "{name_female, Cecilia} just bought a new puppy. According to her veterinarian, she has to feed the puppy {num_digit_1, 1} cup of dog food every day for the first {num_digit_2, 180} days. Then she has to feed the puppy {num_digit_3, 2} cups of dog food every day for the rest of its life. {name_female, Cecilia}'s aunt once bought {num_ic, 112} cans of cat food at a discount. If a bag of dog food contains {num_digit_4, 110} cups, how many bags of dog food will {name_female, Cecilia} use in the first year?",
+  "equation": "UPDATE HERE"
+}

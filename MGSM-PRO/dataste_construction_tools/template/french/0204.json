@@ -1,0 +1,8 @@
+{
+  "original_question": "Janet disposait de 22 stylos verts et de 10 stylos jaunes. Elle a ensuite acheté 6 sacs de stylos bleus et 2 sacs de stylos rouges. Chaque sac de stylos bleus en contenait 9 et chaque sac de stylos rouges 6. De combien de stylos Janet dispose-t-elle maintenant ?",
+  "original_answer": 98,
+  "symbolic_template": "{name_female, Janet} disposait de {num_digit_1, 22} stylos verts et de {num_digit_2, 10} stylos jaunes. Elle a ensuite acheté {num_digit_3, 6} sacs de stylos bleus et {num_digit_4, 2} sacs de stylos rouges. Chaque sac de stylos bleus en contenait {num_digit_5, 9} et chaque sac de stylos rouges {num_digit_6, 6}. De combien de stylos {name_female, Janet} dispose-t-elle maintenant ?",
+  "ic_sentence_template": "La cousine de {name_female, Janet} vient de recevoir {num_ic, 700} cahiers en cadeau.",
+  "ic_template": "La cousine de {name_female, Janet} vient de recevoir {num_ic, 700} cahiers en cadeau. {name_female, Janet} disposait de {num_digit_1, 22} stylos verts et de {num_digit_2, 10} stylos jaunes. Elle a ensuite acheté {num_digit_3, 6} sacs de stylos bleus et {num_digit_4, 2} sacs de stylos rouges. Chaque sac de stylos bleus en contenait {num_digit_5, 9} et chaque sac de stylos rouges {num_digit_6, 6}. De combien de stylos {name_female, Janet} dispose-t-elle maintenant ?",
+  "equation": "UPDATE HERE"
+}

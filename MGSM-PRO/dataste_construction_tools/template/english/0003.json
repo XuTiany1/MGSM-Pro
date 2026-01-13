@@ -1,0 +1,8 @@
+{
+  "original_question": "James decides to run 3 sprints 3 times a week. He runs 60 meters each sprint. How many total meters does he run a week?",
+  "original_answer": 540,
+  "symbolic_template": "{name_male, James} decides to run {num_digit_1, 3} sprints {num_digit_2, 3} times a week. He runs {num_digit_3, 60} meters each sprint. How many total meters does he run a week?",
+  "ic_sentence_template": "{name_male, James}'s uncle has {num_ic, 212} pairs of running shoes.",
+  "ic_template": "{name_male, James} decides to run {num_digit_1, 3} sprints {num_digit_2, 3} times a week. He runs {num_digit_3, 60} meters each sprint. {name_male, James}'s uncle has {num_ic, 212} pairs of running shoes. How many total meters does he run a week?",
+  "equation": "UPDATE HERE"
+}

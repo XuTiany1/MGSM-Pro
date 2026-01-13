@@ -1,0 +1,8 @@
+{
+  "original_question": "布莱克和凯利在进行一场比赛，看看谁能在 15 分钟内跑最远。他们决定在一个长 100 码的足球场上进行比赛。布莱克来回跑了 15 次。凯利来回跑了一次，然后决定自己不想在布莱克旁边跑，所以她开始跑到 40 码线并返回。她这样跑了 34 次。获胜者比失败者多跑多远？",
+  "original_answer": 80,
+  "symbolic_template": "{name_male, 布莱克} 和 {name_female, 凯利} 在进行一场比赛，看看谁能在 15 分钟内跑最远。他们决定在一个长 {num_digit_1, 100} 码的足球场上进行比赛。{name_male, 布莱克} 来回跑了 {num_digit_2, 15} 次。{name_female, 凯利} 来回跑了 {num_digit_3, 1} 次，然后决定自己不想在 {name_male, 布莱克} 旁边跑，所以她开始跑到 {num_digit_4, 40} 码线并返回。她这样跑了 {num_digit_5, 34} 次。获胜者比失败者多跑多远？",
+  "ic_sentence_template": "{name_male, 布雷克}的堂兄带了 {num_ic, 520} 瓶水到田里。",
+  "ic_template": "{name_male, 布雷克}的堂兄带了 {num_ic, 520} 瓶水到田里。{name_male, 布莱克} 和 {name_female, 凯利} 在进行一场比赛，看看谁能在 15 分钟内跑最远。他们决定在一个长 {num_digit_1, 100} 码的足球场上进行比赛。{name_male, 布莱克} 来回跑了 {num_digit_2, 15} 次。{name_female, 凯利} 来回跑了 {num_digit_3, 1} 次，然后决定自己不想在 {name_male, 布莱克} 旁边跑，所以她开始跑到 {num_digit_4, 40} 码线并返回。她这样跑了 {num_digit_5, 34} 次。获胜者比失败者多跑多远？",
+  "equation": "UPDATE HERE"
+}

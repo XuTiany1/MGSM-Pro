@@ -1,0 +1,8 @@
+{
+  "original_question": "Mark tɔ kaa 12 ma ne adwumakuofo no. Na wɔtɔn kaa biara $20,000. Ɔtua kaa ahoroɔ no ho toɔ 10% na ɔtua $1000 sɛdeɛ dinfrɛ nwoma mu biara. Otua nneɛma no nyinaa ho ahe?",
+  "original_answer": 276000,
+  "symbolic_template": "{name_male, Mark} tɔ kaa {num_digit_1, 12} ma ne adwumakuofo no. Na wɔtɔn kaa biara ${num_digit_2, 20,000}. Ɔtua kaa ahoroɔ no ho toɔ {num_digit_3, 10}% na ɔtua ${num_digit_4, 1000} sɛdeɛ dinfrɛ nwoma mu biara. Otua nneɛma no nyinaa ho ahe?",
+  "ic_sentence_template": "{name_male, Mark} nua tↄↄ moto {num_ic, 111} nnansa yi ara.",
+  "ic_template": "{name_male, Mark} nua tↄↄ moto {num_ic, 111} nnansa yi ara. {name_male, Mark} tɔ kaa {num_digit_1, 12} ma ne adwumakuofo no. Na wɔtɔn kaa biara ${num_digit_2, 20,000}. Ɔtua kaa ahoroɔ no ho toɔ {num_digit_3, 10}% na ɔtua ${num_digit_4, 1000} sɛdeɛ dinfrɛ nwoma mu biara. Otua nneɛma no nyinaa ho ahe?",
+  "equation": "UPDATE HERE"
+}

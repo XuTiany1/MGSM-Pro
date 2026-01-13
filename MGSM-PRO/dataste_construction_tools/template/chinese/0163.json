@@ -1,0 +1,8 @@
+{
+  "original_question": "在一个房间里有各种不同的玩具：5 辆红色玩具车、3 个玩具人和一个洋娃娃。洋娃娃的价格相当于 3 个玩具人的价格，而 1 辆玩具车 4 美元。如果一个玩具人 5 美元，所有玩具值多少钱？",
+  "original_answer": 50,
+  "symbolic_template": "在一个房间里有各种不同的玩具：{num_digit_1, 5} 辆红色玩具车、{num_digit_2, 3} 个玩具人和一个洋娃娃。洋娃娃的价格相当于 {num_digit_3, 3} 个玩具人的价格，而 1 辆玩具车 {num_digit_4, 4} 美元。如果一个玩具人 {num_digit_5, 5} 美元，所有玩具值多少钱？",
+  "ic_sentence_template": "{name_male, 比利} 的堂兄有 {num_ic, 31} 只泰迪熊。",
+  "ic_template": "{name_male, 比利} 的堂兄有 {num_ic, 31} 只泰迪熊。在一个房间里有各种不同的玩具：{num_digit_1, 5} 辆红色玩具车、{num_digit_2, 3} 个玩具人和一个洋娃娃。洋娃娃的价格相当于 {num_digit_3, 3} 个玩具人的价格，而 1 辆玩具车 {num_digit_4, 4} 美元。如果一个玩具人 {num_digit_5, 5} 美元，所有玩具值多少钱？",
+  "equation": "UPDATE HERE"
+}

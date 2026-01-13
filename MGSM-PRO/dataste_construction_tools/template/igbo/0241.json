@@ -1,0 +1,8 @@
+{
+  "original_question": "Dolly nwere akwụkwọ abụọ. Pandora nwere otu. Ọ bụrụ na Dolly na Pandora gụrụ akwụkwọ ibe ha yana nke ha, akwụkwọ ole ka ha ga-agụkọ ọnụ na njedebe?",
+  "original_answer": 6,
+  "symbolic_template": "{name_female_1, Dolly} nwere akwụkwọ abụọ. {name_female_2, Pandora}  nwere otu. Ọ bụrụ na {name_female_1, Dolly} na {name_female_2, Pandora} gụrụ akwụkwọ ibe ha yana nke ha, akwụkwọ ole ka ha ga-agụkọ ọnụ na njedebe?",
+  "ic_sentence_template": "Nwanne nne {name_female_2, Pandora} nwere nde akwụkwọ mgbasa ozi {num_ic, 674}.",
+  "ic_template": "Nwanne nne {name_female_2, Pandora} nwere nde akwụkwọ mgbasa ozi {num_ic, 674}. {name_female_1, Dolly} nwere akwụkwọ abụọ. {name_female_2, Pandora}  nwere otu. Ọ bụrụ na {name_female_1, Dolly} na {name_female_2, Pandora} gụrụ akwụkwọ ibe ha yana nke ha, akwụkwọ ole ka ha ga-agụkọ ọnụ na njedebe?",
+  "equation": "UPDATE HERE"
+}

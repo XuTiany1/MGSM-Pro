@@ -1,0 +1,8 @@
+{
+  "original_question": "በካቦስ ውስጥ አራት ወፎች አሉ።ሳሊሁለት ከግሬኒ ቀይ በሦስት ዓመት ትበልጣለች። ግራኒ ቀይ ከሳሊ አራት ሁለት እጥፍ ትበልጣለች።ሳሊ ፎር ከሳሊ ሰላሳሁለት ጋር ተመሳሳይ ከሆነ ፣ እና ሳሊ ሰላሳሁለት 8 ዓመቷ ከሆነ፣የአራቱ ወፎች አጠቃላይ ዕድሜ ስንት ነው",
+  "original_answer": 51,
+  "symbolic_template": "በካቦስ ውስጥ አራት ወፎች አሉ። {name_female_1, ሳሊ} ሁለት ከ{name_female_2, ግሬኒ} {name_color, ቀይ} በሦስት ዓመት ትበልጣለች። {name_female_2, ግሬኒ} {name_color, ቀይ} ከ{name_female_1, ሳሊ} አራት ሁለት እጥፍ ትበልጣለች። {name_female_1, ሳሊ} ፎር ከ{name_female_1, ሳሊ} ሰላሳሁለት ጋር ተመሳሳይ ከሆነ ፣ እና {name_female_1, ሳሊ} ሰላሳሁለት {num_digit_1, 8} ዓመቷ ከሆነ፣ የአራቱ ወፎች አጠቃላይ ዕድሜ ስንት ነው?",
+  "ic_sentence_template": "{name_female_2, ግራኒ} {name_color, ቀይ} የእህት ልጅ {num_ic, 93} ጠጠሮችን ያከማቻል።",
+  "ic_template": "በካቦስ ውስጥ አራት ወፎች አሉ። {name_female_1, ሳሊ} ሁለት ከ{name_female_2, ግሬኒ} {name_color, ቀይ} በሦስት ዓመት ትበልጣለች። {name_female_2, ግሬኒ} {name_color, ቀይ} ከ{name_female_1, ሳሊ} አራት ሁለት እጥፍ ትበልጣለች። {name_female_1, ሳሊ} ፎር ከ{name_female_1, ሳሊ} ሰላሳሁለት ጋር ተመሳሳይ ከሆነ ፣ እና {name_female_1, ሳሊ} ሰላሳሁለት {num_digit_1, 8} ዓመቷ ከሆነ፣ የአራቱ ወፎች አጠቃላይ ዕድሜ ስንት ነው? {name_female_2, ግራኒ} {name_color, ቀይ} የእህት ልጅ {num_ic, 93} ጠጠሮችን ያከማቻል።",
+  "equation": "UPDATE HERE"
+}

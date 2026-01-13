@@ -1,0 +1,8 @@
+{
+  "original_question": "Ilé iṣẹ́ kan ń san $600 fún ìkọ̀ọ̀kan àwọn òṣìṣẹ́ rẹ̀ ní oṣù kan. Ilé iṣẹ́ náà ní òfin láti fí owó kún owó oṣù òṣìṣẹ́ rẹ̀ kọ̀ọ̀kan pẹ̀lú 10% iye owó oṣù àkọ́kọ́ lọ́dọọdún fún àwọn tí wọ́n ti wà ní ilé iṣẹ́ náà fún ọdún márùn-ú. Tí Sylvie bá ṣẹ̀ pé ọdún 5 ní ilé iṣẹ́ náà ní oṣù Ọ̀pẹ tó kọjá, kínni owó oṣù rẹ̀ lọ́dún lẹ́yìn tí ó bá lo ọdún mẹ́ta síi lẹ́nu iṣẹ́?",
+  "original_answer": 9360,
+  "symbolic_template": "Ilé iṣẹ́ kan ń san ${num_digit_1, 600} fún ìkọ̀ọ̀kan àwọn òṣìṣẹ́ rẹ̀ ní oṣù kan. Ilé iṣẹ́ náà ní òfin láti fí owó kún owó oṣù òṣìṣẹ́ rẹ̀ kọ̀ọ̀kan pẹ̀lú {num_digit_2, 10}% iye owó oṣù àkọ́kọ́ lọ́dọọdún fún àwọn tí wọ́n ti wà ní ilé iṣẹ́ náà fún ọdún márùn-ú. Tí {name_female, Sylvie} bá ṣẹ̀ pé ọdún {num_digit_3, 5} ní ilé iṣẹ́ náà ní oṣù Ọ̀pẹ tó kọjá, kínni owó oṣù rẹ̀ lọ́dún lẹ́yìn tí ó bá lo ọdún mẹ́ta síi lẹ́nu iṣẹ́?",
+  "ic_sentence_template": "Bàbá ńlá {name_female, Sylvie} ra àga ọ́fíìsì {num_ic, 77} laipẹ́ yi.",
+  "ic_template": "Ilé iṣẹ́ kan ń san ${num_digit_1, 600} fún ìkọ̀ọ̀kan àwọn òṣìṣẹ́ rẹ̀ ní oṣù kan. Ilé iṣẹ́ náà ní òfin láti fí owó kún owó oṣù òṣìṣẹ́ rẹ̀ kọ̀ọ̀kan pẹ̀lú {num_digit_2, 10}% iye owó oṣù àkọ́kọ́ lọ́dọọdún fún àwọn tí wọ́n ti wà ní ilé iṣẹ́ náà fún ọdún márùn-ú. Tí {name_female, Sylvie} bá ṣẹ̀ pé ọdún {num_digit_3, 5} ní ilé iṣẹ́ náà ní oṣù Ọ̀pẹ tó kọjá, kínni owó oṣù rẹ̀ lọ́dún lẹ́yìn tí ó bá lo ọdún mẹ́ta síi lẹ́nu iṣẹ́? Bàbá ńlá {name_female, Sylvie} ra àga ọ́fíìsì {num_ic, 77} laipẹ́ yi.",
+  "equation": "UPDATE HERE"
+}

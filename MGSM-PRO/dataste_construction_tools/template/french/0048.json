@@ -1,0 +1,8 @@
+{
+  "original_question": "Pour soutenir les plants de tomates de son jardin, Tracy a utilisé un fil de fer d'une longueur de 4 pieds. Ce fil a été coupé en plusieurs morceaux de 6 pouces de long. Combien de morceaux a-t-elle obtenus ?",
+  "original_answer": 3,
+  "symbolic_template": "Pour soutenir les plants de tomates de son jardin, {name_female, Tracy} a utilisé un fil de fer d'une longueur de {num_digit_1, 7.75} pieds. Ce fil a été coupé en plusieurs morceaux de {num_digit_2, 31} pouces de long. Combien de morceaux a-t-elle obtenus ?",
+  "ic_sentence_template": "{name_female, Tracy} a un oncle qui possède {num_ic, 52} tuteurs à tomates dans sa serre.",
+  "ic_template": "{name_female, Tracy} a un oncle qui possède {num_ic, 52} tuteurs à tomates dans sa serre. Pour soutenir les plants de tomates de son jardin, {name_female, Tracy} a utilisé un fil de fer d'une longueur de {num_digit_1, 7.75} pieds. Ce fil a été coupé en plusieurs morceaux de {num_digit_2, 31} pouces de long. Combien de morceaux a-t-elle obtenus ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Lloyd ana shamba la mayai. Kuku wake hutaga mayai 252 kwa siku na huwa anauza mayai hayo $2 kwa kila dazeni. Lloyd hupata pesa ngapi kutoka kwa mayai kila wiki?",
+  "original_answer": 294,
+  "symbolic_template": "{name_male, Lloyd} ana shamba la mayai. Kuku wake hutaga mayai {num_digit_1, 252} kwa siku na huwa anauza mayai hayo ${num_digit_2, 2} kwa kila dazeni. {name_male, Lloyd} hupata pesa ngapi kutoka kwa mayai kila wiki?",
+  "ic_sentence_template": "Mjomba wa {name_male, Lloyd} amenunua bata bukini {num_ic, 105}.",
+  "ic_template": "{name_male, Lloyd} ana shamba la mayai. Kuku wake hutaga mayai {num_digit_1, 252} kwa siku na huwa anauza mayai hayo ${num_digit_2, 2} kwa kila dazeni. Mjomba wa {name_male, Lloyd} amenunua bata bukini {num_ic, 105}. {name_male, Lloyd} hupata pesa ngapi kutoka kwa mayai kila wiki?",
+  "equation": "UPDATE HERE"
+}

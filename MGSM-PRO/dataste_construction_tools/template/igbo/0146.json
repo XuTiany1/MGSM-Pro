@@ -1,0 +1,8 @@
+{
+  "original_question": "Johnny na-ewere ịhe egwuregwu n'ala ịme ụlọ ya. Ọ dọbara lego nwere iberiibe narị ise e tinyere n'ịme akpati n'ala, na ọzọkwa nwere iberiibe ugboro atọ karịa nke narị ise, nakwa ọzọ nwere otu ụzọ n'ịme anọ n'ọnụọgụgụ iberiibe lego. Kedụ blọk ole Johnny chitaara ma ọ bụrụ ọ chịkọtara lego niile ahụ? ",
+  "original_answer": 2125,
+  "symbolic_template": "{name_male, Johnny} na-ewere ịhe egwuregwu n'ala ịme ụlọ ya. Ọ dọbara lego nwere iberiibe {num_digit_1, 500} e tinyere n'ịme akpati n'ala, na ọzọkwa nwere iberiibe ugboro {num_digit_2, 3} karịa nke {num_digit_1, 500}, nakwa ọzọ nwere 1/4 n'ọnụọgụgụ iberiibe lego. Kedụ blọk ole {name_male, Johnny} chitaara ma ọ bụrụ ọ chịkọtara lego niile ahụ?",
+  "ic_sentence_template": "Nwanne nne {name_male, Johnny} wuru ụgbọ mmiri ngosi na nso nso a jiri akụkụ osisi pere mpe {num_ic, 318}.",
+  "ic_template": "Nwanne nne {name_male, Johnny} wuru ụgbọ mmiri ngosi na nso nso a jiri akụkụ osisi pere mpe {num_ic, 318}. {name_male, Johnny} na-ewere ịhe egwuregwu n'ala ịme ụlọ ya. Ọ dọbara lego nwere iberiibe {num_digit_1, 500} e tinyere n'ịme akpati n'ala, na ọzọkwa nwere iberiibe ugboro {num_digit_2, 3} karịa nke {num_digit_1, 500}, nakwa ọzọ nwere 1/4 n'ọnụọgụgụ iberiibe lego. Kedụ blọk ole {name_male, Johnny} chitaara ma ọ bụrụ ọ chịkọtara lego niile ahụ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Cécilia vient d'acheter un nouveau chiot. D'après le vétérinaire, elle devra lui donner 1 bol de nourriture pour chien tous les jours pendant les 180 premiers jours. Ensuite, elle devra lui donner 2 bols tous les jours jusqu'à la fin de sa vie. Si un sac de nourriture représente 110 bols, combien de sacs de nourriture pour chiens Cécilia utilisera-t-elle au cours de la première année ?",
+  "original_answer": 5,
+  "symbolic_template": "{name_female, Cécilia} vient d'acheter un nouveau chiot. D'après le vétérinaire, {name_female, Cecilia} devra lui donner {num_digit_1, 1} bol de nourriture pour chien tous les jours pendant les {num_digit_2, 180} premiers jours. Ensuite, elle devra lui donner {num_digit_3, 2} bols tous les jours jusqu'à la fin de sa vie. Si un sac de nourriture représente {num_digit_4, 110} bols, combien de sacs de nourriture pour chiens {name_female, Cecilia} utilisera-t-elle au cours de la première année ?",
+  "ic_sentence_template": "La tante de {name_female, Cecilia} a déjà acheté {num_ic, 112} boîtes de nourriture pour chat en promotion.",
+  "ic_template": "La tante de {name_female, Cecilia} a déjà acheté {num_ic, 112} boîtes de nourriture pour chat en promotion. {name_female, Cécilia} vient d'acheter un nouveau chiot. D'après le vétérinaire, {name_female, Cecilia} devra lui donner {num_digit_1, 1} bol de nourriture pour chien tous les jours pendant les {num_digit_2, 180} premiers jours. Ensuite, elle devra lui donner {num_digit_3, 2} bols tous les jours jusqu'à la fin de sa vie. Si un sac de nourriture représente {num_digit_4, 110} bols, combien de sacs de nourriture pour chiens {name_female, Cecilia} utilisera-t-elle au cours de la première année ?",
+  "equation": "UPDATE HERE"
+}

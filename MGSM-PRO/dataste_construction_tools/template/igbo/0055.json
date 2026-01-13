@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean nwere lọlipọp iri atọ. Jean riri lọlipọp abụọ. Ya na lọlịpọp fọdụrụ, Jean chọrọ ikechi ngwugwu lọlịpọp abụọ n'ime otu akpa. Akpa ole ka Jean ga-ekpojunwu?",
+  "original_answer": 14,
+  "symbolic_template": "{name_male, Jean} nwere lọlipọp {num_digit_1, 30}. {name_male, Jean} riri lọlipọp {num_digit_2, 2}. Ya na lọlịpọp fọdụrụ, {name_male, Jean} chọrọ ikechi ngwugwu lọlịpọp {num_digit_3, 2} n'ime otu akpa. Akpa ole ka {name_male, Jean} ga-ekpojunwu?",
+  "ic_sentence_template": "Nwanne nna {name_male, Jean} zụrụ bọlụụ {num_ic, 94} n’ụbọchị gara aga.",
+  "ic_template": "Nwanne nna {name_male, Jean} zụrụ bọlụụ {num_ic, 94} n’ụbọchị gara aga. {name_male, Jean} nwere lọlipọp {num_digit_1, 30}. {name_male, Jean} riri lọlipọp {num_digit_2, 2}. Ya na lọlịpọp fọdụrụ, {name_male, Jean} chọrọ ikechi ngwugwu lọlịpọp {num_digit_3, 2} n'ime otu akpa. Akpa ole ka {name_male, Jean} ga-ekpojunwu?",
+  "equation": "UPDATE HERE"
+}

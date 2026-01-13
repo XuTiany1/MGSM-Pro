@@ -1,0 +1,27 @@
+{
+    "problem_id": "0209",
+    "generation_order": ["num_digit_2", "num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_2": {"type": "int", "range": [2000, 8000]},
+        "num_digit_1": {"type": "int", "range": [500, 3000]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "total_plates = 6 * num_digit_2",
+            "total_cups_cost = total_plates - num_digit_1",
+            "ans = total_cups_cost / 240"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 4}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "(6 * num_digit_2 - num_digit_1) % 240 == 0",
+            "total_plates > num_digit_1",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Charlie na-achọ ire kandụl beeswax. N'ịme paund kandụl beeswax ọbụla, ọ nwere ị́ké ịme kandụl e kere eke iri. Otu paund kandụl beeswax na eriri ya na-efu $10.00 ije nweta ha. Ọ bụrụ na ọ na-ere kandụl $2.00 maka otu, kedụ ịhe bụ uru ọ na-eweta ma ọ bụrụ na ọ na-ere kandụl iri abụọ?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male, Charlie} na-achọ ire kandụl beeswax. N'ịme paund kandụl beeswax ọbụla, ọ nwere ị́ké ịme kandụl e kere eke {num_digit_1, 10}. Otu paund kandụl beeswax na eriri ya na-efu ${num_digit_2, 10.00} ije nweta ha. Ọ bụrụ na ọ na-ere kandụl ${num_digit_3, 2.00} maka otu, kedụ ịhe bụ uru ọ na-eweta ma ọ bụrụ na ọ na-ere kandụl {num_digit_4, 20}?",
+  "ic_sentence_template": "Nwanne nna {name_male, Charlie} nwere ụnọ amị {num_ic, 37}.",
+  "ic_template": "Nwanne nna {name_male, Charlie} nwere ụnọ amị {num_ic, 37}. {name_male, Charlie} na-achọ ire kandụl beeswax. N'ịme paund kandụl beeswax ọbụla, ọ nwere ị́ké ịme kandụl e kere eke {num_digit_1, 10}. Otu paund kandụl beeswax na eriri ya na-efu ${num_digit_2, 10.00} ije nweta ha. Ọ bụrụ na ọ na-ere kandụl ${num_digit_3, 2.00} maka otu, kedụ ịhe bụ uru ọ na-eweta ma ọ bụrụ na ọ na-ere kandụl {num_digit_4, 20}?",
+  "equation": "UPDATE HERE"
+}

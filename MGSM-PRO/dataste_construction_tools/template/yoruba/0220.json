@@ -1,0 +1,8 @@
+{
+  "original_question": "Ó gba Carmen ní ìṣẹ́jú mẹ́wàá láti parí ìṣòro crossword àti ìṣẹ́jú márùn-ún láti parí ìṣòro sudoku.  Ní òpin ọ̀sẹ̀ ó yanjú àwọn ìṣòro crossword mẹ́ta àti ìṣòro sudoku mẹ́jọ. Àsìkò mélòó ni ó lò láti gbá àwọn eré yìí?",
+  "original_answer": 70,
+  "symbolic_template": "Ó gba {name_female, Carmen} ní ìṣẹ́jú {num_digit_1, 10} láti parí ìṣòro crossword àti ìṣẹ́jú {num_digit_2, 5} láti parí ìṣòro sudoku. Ní òpin ọ̀sẹ̀ ó yanjú àwọn ìṣòro crossword {num_digit_3, 3} àti ìṣòro sudoku {num_digit_4, 8}. Àsìkò mélòó ni ó lò láti gbá àwọn eré yìí?",
+  "ic_sentence_template": "Bàbá ńlá {name_female, Carmen} sè kọ́kì {num_ic, 46} ní ọjọ́ Sátidé.",
+  "ic_template": "Bàbá ńlá {name_female, Carmen} sè kọ́kì {num_ic, 46} ní ọjọ́ Sátidé. Ó gba {name_female, Carmen} ní ìṣẹ́jú {num_digit_1, 10} láti parí ìṣòro crossword àti ìṣẹ́jú {num_digit_2, 5} láti parí ìṣòro sudoku. Ní òpin ọ̀sẹ̀ ó yanjú àwọn ìṣòro crossword {num_digit_3, 3} àti ìṣòro sudoku {num_digit_4, 8}. Àsìkò mélòó ni ó lò láti gbá àwọn eré yìí?",
+  "equation": "UPDATE HERE"
+}

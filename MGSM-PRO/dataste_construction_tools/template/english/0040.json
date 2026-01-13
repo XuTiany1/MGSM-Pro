@@ -1,0 +1,8 @@
+{
+  "original_question": "Brandon's iPhone is four times as old as Ben's iPhone. Ben's iPhone is two times older than Suzy's iPhone. If Suzy’s iPhone is 1 year old, how old is Brandon’s iPhone?",
+  "original_answer": 8,
+  "symbolic_template": "{name_male_1, Brandon}’s iPhone is four times as old as {name_male_2, Ben}’s iPhone. {name_male_2, Ben}’s iPhone is two times older than {name_female, Suzy}’s iPhone. If {name_female, Suzy}’s iPhone is {num_digit_1, 1} years old, how old is {name_male_1, Brandon}’s iPhone?",
+  "ic_sentence_template": "{name_male_2, Ben}'s aunt recently bought {num_ic, 15} phone cases.",
+  "ic_template": "{name_male_1, Brandon}’s iPhone is four times as old as {name_male_2, Ben}’s iPhone. {name_male_2, Ben}’s iPhone is two times older than {name_female, Suzy}’s iPhone. {name_male_2, Ben}'s aunt recently bought {num_ic, 15} phone cases. If {name_female, Suzy}’s iPhone is {num_digit_1, 1} years old, how old is {name_male_1, Brandon}’s iPhone?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Christina is planning a birthday party and needs .75 gift bags per invited guest, because 1/4 of attendees don't show up. She invited 16 friends. Gift bags are $2 each. How much will she spend?",
+  "original_answer": 24,
+  "symbolic_template": "{name_female, Christina} is planning a birthday party and needs {num_digit_1, .75} gift bags per invited guest, because 1/4 of attendees don't show up. She invited {num_digit_2, 16} friends. Gift bags are ${num_digit_3, 2} each. How much will she spend?",
+  "ic_sentence_template": "{name_female, Christina}'s aunt brought {num_ic, 89} cupcakes for the celebration.",
+  "ic_template": "{name_female, Christina} is planning a birthday party and needs {num_digit_1, .75} gift bags per invited guest, because 1/4 of attendees don't show up. She invited {num_digit_2, 16} friends. {name_female, Christina}'s aunt brought {num_ic, 89} cupcakes for the celebration. Gift bags are ${num_digit_3, 2} each. How much will she spend?",
+  "equation": "UPDATE HERE"
+}

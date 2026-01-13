@@ -1,0 +1,8 @@
+{
+  "original_question": "Candice put 80 post-it notes in her purse before she headed out to her job at the coffee shop. On her way, she stopped off at the store and purchased a package of Post-it notes; At work, she placed a single Post-it note on each of 220 different cups of coffee. If she had 23 post-it notes remaining overall, how many Post-it notes were in the package that she purchased?",
+  "original_answer": 163,
+  "symbolic_template": "{name_female, Candice} put {num_digit_1, 80} post-it notes in her purse before she headed out to her job at the coffee shop. On her way, she stopped off at the store and purchased a package of Post-it notes; At work, she placed a single Post-it note on each of {num_digit_2, 220} different cups of coffee. If she had {num_digit_3, 23} post-it notes remaining overall, how many Post-it notes were in the package that she purchased?",
+  "ic_sentence_template": "{name_female, Candice}'s uncle collects {num_ic, 988} coffee mugs at his house.",
+  "ic_template": "{name_female, Candice} put {num_digit_1, 80} post-it notes in her purse before she headed out to her job at the coffee shop. On her way, she stopped off at the store and purchased a package of Post-it notes; At work, she placed a single Post-it note on each of {num_digit_2, 220} different cups of coffee. {name_female, Candice}'s uncle collects {num_ic, 988} coffee mugs at his house. If she had {num_digit_3, 23} post-it notes remaining overall, how many Post-it notes were in the package that she purchased?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Cody eats three times as many cookies as Amir eats. If Amir eats 5 cookies, how many cookies do both of them eat together?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male_1, Cody} eats three times as many cookies as {name_male_2, Amir} eats. If {name_male_2, Amir} eats {num_digit_1, 5} cookies, how many cookies do both of them eat together?",
+  "ic_sentence_template": "{name_male_2, Amir}'s uncle brought {num_ic, 20} brownies to the party.",
+  "ic_template": "{name_male_1, Cody} eats three times as many cookies as {name_male_2, Amir} eats. If {name_male_2, Amir} eats {num_digit_1, 5} cookies, {name_male_2, Amir}'s uncle brought {num_ic, 20} brownies to the party. How many cookies do both of them eat together?",
+  "equation": "UPDATE HERE"
+}

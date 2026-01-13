@@ -1,0 +1,8 @@
+{
+  "original_question": "Da biara, Wendi de nkokɔ aduane kuruwa mmiԑnsa, a ԑwɔ mma, asonsono ne atosodeԑ na ԑma ne nkokɔ no na wɔnho ayԑ wɔn den. Ͻde aduane no ma nkokɔ no mprԑ dodoɔ mmiԑnsa. Anɔpa no, ɔma ne nkokɔ no aduane kuruwa 15. Awia no, ɔma nkokɔ no aduane kuruwa 25 bio. Aduane kuruwa sԑn na ɔhia sԑ ɔde bԑma nkokɔ no wɔ aduanema a ԑtwa toɔ wɔ da no mu sԑ Wendi nkokɔ no dodoɔ nyinaa yԑ 20 a?",
+  "original_answer": 20,
+  "symbolic_template": "Da biara, {name_female, Wendi} de nkokɔ aduane kuruwa mmiɛnsa, a ԑwɔ mma, asonsono ne atosodeԑ na ԑma ne nkokɔ no na wɔnho ayԑ wɔn den. Ͻde aduane no ma nkokɔ no mprԑ dodoɔ mmiɛnsa. Anɔpa no, ɔma ne nkokɔ no aduane kuruwa {num_digit_1, 15}. Awia no, ɔma nkokɔ no aduane kuruwa {num_digit_2, 25} bio. Aduane kuruwa sԑn na ɔhia sԑ ɔde bԑma nkokɔ no wɔ aduanema a ԑtwa toɔ wɔ da no mu sԑ Wendi nkokɔ no dodoɔ nyinaa yԑ {num_digit_3, 20} a?",
+  "ic_sentence_template": "{name_female, Wendi} wɔfa boaboa nkosua {num_ic, 69} firii ne dabodabo dan mu nnɛda.",
+  "ic_template": "{name_female, Wendi} wɔfa boaboa nkosua {num_ic, 69} firii ne dabodabo dan mu nnɛda. Da biara, {name_female, Wendi} de nkokɔ aduane kuruwa mmiɛnsa, a ԑwɔ mma, asonsono ne atosodeԑ na ԑma ne nkokɔ no na wɔnho ayԑ wɔn den. Ͻde aduane no ma nkokɔ no mprԑ dodoɔ mmiɛnsa. Anɔpa no, ɔma ne nkokɔ no aduane kuruwa {num_digit_1, 15}. Awia no, ɔma nkokɔ no aduane kuruwa {num_digit_2, 25} bio. Aduane kuruwa sԑn na ɔhia sԑ ɔde bԑma nkokɔ no wɔ aduanema a ԑtwa toɔ wɔ da no mu sԑ Wendi nkokɔ no dodoɔ nyinaa yԑ {num_digit_3, 20} a?",
+  "equation": "UPDATE HERE"
+}

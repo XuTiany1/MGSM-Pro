@@ -1,0 +1,8 @@
+{
+  "original_question": "Carla is downloading a 200 GB file. Normally she can download 2 GB/minute, but 40% of the way through the download, Windows forces a restart to install updates, which takes 20 minutes. Then Carla has to restart the download from the beginning. How long does it take to download the file?",
+  "original_answer": 160,
+  "symbolic_template": "{name_female, Carla} is downloading a {num_digit_1, 200} GB file. Normally she can download {num_digit_2, 2} GB/minute, but {num_digit_3, 40}% of the way through the download, Windows forces a restart to install updates, which takes {num_digit_4, 20} minutes. Then {name_female, Carla} has to restart the download from the beginning. How long does it take to download the file?",
+  "ic_sentence_template": "{name_female, Carla}'s uncle recently bought {num_ic, 110} new computer parts.",
+  "ic_template": "{name_female, Carla} is downloading a {num_digit_1, 200} GB file. Normally she can download {num_digit_2, 2} GB/minute, but {num_digit_3, 40}% of the way through the download, Windows forces a restart to install updates, which takes {num_digit_4, 20} minutes. Then {name_female, Carla} has to restart the download from the beginning. {name_female, Carla}'s uncle recently bought {num_ic, 110} new computer parts. How long does it take to download the file?",
+  "equation": "UPDATE HERE"
+}

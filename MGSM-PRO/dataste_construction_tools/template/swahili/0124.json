@@ -1,0 +1,8 @@
+{
+  "original_question": "Jennie anasaidia katika ofisi ya mamake. Ana mrundo wa barua 60 zinazohitaji kutiliwa muhuri, na mrundo wa barua ambazo tayari zina muhuri. Anaweka muhuri kwenye thuluthi moja ya barua zinazohitaji muhuri. Ikiwa sasa kuna barua 30 katika mrundo wa barua zilizo na muhuri, barua ngapi zilikuwa katika mrundo huo kabla ya Jennie kuanza?",
+  "original_answer": 10,
+  "symbolic_template": "{name_female, Jennie} anasaidia kwenye ofisi ya mamake. Ana rundo la barua {num_digit_1, 60} zinazohitaji mihuri, na rundo la barua zilizokwisha pewa mihuri. Anaweka mihuri kwenye theluthi moja ya barua zinazohitaji mihuri. Ikiwa sasa kuna barua {num_digit_2, 30} kwenye rundo la barua zilizokwisha pewa mihuri, kulikuwa na barua ngapi kwenye rundo hilo wakati {name_female, Jennie} alianza?",
+  "ic_sentence_template": "Mjomba wa {name_female, Jennie} alipokea postikadi {num_ic, 27} kwenye siku yake ya kuzaliwa.",
+  "ic_template": "Mjomba wa {name_female, Jennie} alipokea postikadi {num_ic, 27} kwenye siku yake ya kuzaliwa. {name_female, Jennie} anasaidia kwenye ofisi ya mamake. Ana rundo la barua {num_digit_1, 60} zinazohitaji mihuri, na rundo la barua zilizokwisha pewa mihuri. Anaweka mihuri kwenye theluthi moja ya barua zinazohitaji mihuri. Ikiwa sasa kuna barua {num_digit_2, 30} kwenye rundo la barua zilizokwisha pewa mihuri, kulikuwa na barua ngapi kwenye rundo hilo wakati {name_female, Jennie} alianza?",
+  "equation": "UPDATE HERE"
+}

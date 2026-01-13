@@ -1,0 +1,8 @@
+{
+  "original_question": "ダレルとアレンの年齢は、7:11の割合です。彼らの年齢の合計が現在、162の場合、10年後アレンの年齢はいくつになるか計算しなさい。",
+  "original_answer": 109,
+  "symbolic_template": "{name_male_1, ダレル}と{name_male_2, アレン}の年齢は、{num_digit_1, 7}:{num_digit_2, 11}の割合です。彼らの年齢の合計が現在、{num_digit_3, 162}の場合、{num_digit_4, 10}年後{name_male_2, アレン}の年齢はいくつになるか計算しなさい。",
+  "ic_sentence_template": "{name_male_2, アレン}のおじさんはちょうど{num_ic, 64}枚の野球カードを買いました。",
+  "ic_template": "{name_male_2, アレン}のおじさんはちょうど{num_ic, 64}枚の野球カードを買いました。{name_male_1, ダレル}と{name_male_2, アレン}の年齢は、{num_digit_1, 7}:{num_digit_2, 11}の割合です。彼らの年齢の合計が現在、{num_digit_3, 162}の場合、{num_digit_4, 10}年後{name_male_2, アレン}の年齢はいくつになるか計算しなさい。",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Harry alilala kwa saa 9 usiku uliopita. Rafiki yake James alilala 2/3 pekee ya saa ambazo Harry alilala. Harry alilala saa ngapi zaidi ya James?",
+  "original_answer": 3,
+  "symbolic_template": "{name_male_1, Harry} alilala kwa saa {num_digit_1, 9} usiku uliopita. Rafiki yake {name_male_2, James} alilala 2/3 pekee ya saa ambazo {name_male_1, Harry} alilala. {name_male_1, Harry} alilala saa ngapi zaidi ya {name_male_2, James}?",
+  "ic_sentence_template": "Mjomba wa {name_male_2, James} huandaa {num_ic, 19} pancakes kila mwisho wa wiki.",
+  "ic_template": "Mjomba wa {name_male_2, James} huandaa {num_ic, 19} pancakes kila mwisho wa wiki. {name_male_1, Harry} alilala kwa saa {num_digit_1, 9} usiku uliopita. Rafiki yake {name_male_2, James} alilala 2/3 pekee ya saa ambazo {name_male_1, Harry} alilala. {name_male_1, Harry} alilala saa ngapi zaidi ya {name_male_2, James}?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "约翰买的红色领带数量是蓝色领带数量的两倍。红色领带的价格比蓝色领带的价格高 50%。他花了 200 美元购买每条 40 美元的蓝色领带。他花了多少钱买领带？",
+  "original_answer": 800,
+  "symbolic_template": "{name_male, 约翰} 买的红色领带数量是蓝色领带数量的 2 倍。红色领带的价格比蓝色领带的价格高 {num_digit_1, 50}%。他花了 {num_digit_2, 200} 美元购买每条 {num_digit_3, 40} 美元的蓝色领带。他花了多少钱买领带？",
+  "ic_sentence_template": "{name_male, 约翰} 的叔叔在一次地产拍卖会上找到了 {num_ic, 93} 对袖扣。",
+  "ic_template": "{name_male, 约翰} 的叔叔在一次地产拍卖会上找到了 {num_ic, 93} 对袖扣。{name_male, 约翰} 买的红色领带数量是蓝色领带数量的 2 倍。红色领带的价格比蓝色领带的价格高 {num_digit_1, 50}%。他花了 {num_digit_2, 200} 美元购买每条 {num_digit_3, 40} 美元的蓝色领带。他花了多少钱买领带？",
+  "equation": "UPDATE HERE"
+}

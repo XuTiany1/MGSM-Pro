@@ -1,0 +1,30 @@
+{
+    "problem_id": "0130",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [30, 90]},
+        "num_digit_2": {"type": "int", "range": [5, 20]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "elves_after_vomit = num_digit_1 * (2 / 3)"
+        ],
+        "num_digit_2": [
+            "ans = elves_after_vomit - num_digit_2"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "num_digit_1 % 3 == 0"
+        ],
+        "num_digit_2": [
+            "elves_after_vomit > num_digit_2",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

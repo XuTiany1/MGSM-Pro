@@ -1,0 +1,8 @@
+{
+  "original_question": "Sandra's neighbor gives her a basket of 9 eggs every time she babysits their daughter. To make a Spanish flan, she needs 3 eggs. If Sandra has been tasked to make 15 Spanish flans for her school fundraiser, how many times does Sandra have to babysit?",
+  "original_answer": 5,
+  "symbolic_template": "{name_female, Sandra}'s neighbor gives her a basket of {num_digit_1, 9} eggs every time she babysits their daughter. To make a Spanish flan, she needs {num_digit_2, 3} eggs. If {name_female, Sandra} has been tasked to make {num_digit_3, 15} Spanish flans for her school fundraiser, how many times does {name_female, Sandra} have to babysit?",
+  "ic_sentence_template": "{name_female, Sandra}'s uncle once brought {num_ic, 33} mangoes from his farm.",
+  "ic_template": "{name_female, Sandra}'s neighbor gives her a basket of {num_digit_1, 9} eggs every time she babysits their daughter. {name_female, Sandra}'s uncle once brought {num_ic, 33} mangoes from his farm. To make a Spanish flan, she needs {num_digit_2, 3} eggs. If {name_female, Sandra} has been tasked to make {num_digit_3, 15} Spanish flans for her school fundraiser, how many times does {name_female, Sandra} have to babysit?",
+  "equation": "UPDATE HERE"
+}

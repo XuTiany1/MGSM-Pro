@@ -1,0 +1,8 @@
+{
+  "original_question": "Lloy nya $10 wɔ dɔnhwere baako wɔ nkontabuo nkyerɛkyerɛ ho. Ɔkyerɛkyerɛɛ nnɔnhwere 5 nnawɔtwe a edi kan ne nnɔnhwere 8 wɔ nnawɔtwe a ɛto so mmienu no mu. Nnawɔtwe mmienu a edi kan no mu no, sika ahe na onyae?",
+  "original_answer": 130,
+  "symbolic_template": "{name_male, Lloy} nya ${num_digit_1, 10} wɔ dɔnhwere baako wɔ nkontabuo nkyerɛkyerɛ ho. Ɔkyerɛkyerɛɛ nnɔnhwere {num_digit_2, 5} nnawɔtwe a edi kan ne nnɔnhwere {num_digit_3, 8} wɔ nnawɔtwe a ɛto so mmienu no mu. Nnawɔtwe mmienu a edi kan no mu no, sika ahe na onyae?",
+  "ic_sentence_template": "{name_male, Lloyd} sewaa tɔɔ nwoma {num_ic, 17} maa ne sukuufo.",
+  "ic_template": "{name_male, Lloy} nya ${num_digit_1, 10} wɔ dɔnhwere baako wɔ nkontabuo nkyerɛkyerɛ ho. Ɔkyerɛkyerɛɛ nnɔnhwere {num_digit_2, 5} nnawɔtwe a edi kan ne nnɔnhwere {num_digit_3, 8} wɔ nnawɔtwe a ɛto so mmienu no mu. Nnawɔtwe mmienu a edi kan no mu no, sika ahe na onyae? {name_male, Lloyd} sewaa tɔɔ nwoma {num_ic, 17} maa ne sukuufo.",
+  "equation": "UPDATE HERE"
+}

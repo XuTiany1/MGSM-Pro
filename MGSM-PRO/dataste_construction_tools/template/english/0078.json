@@ -1,0 +1,8 @@
+{
+  "original_question": "Vincent can buy flowers in packages of 3 for $2.50 or in packages of 2 for $1. How much money does he save by buying 18 flowers at the better price?",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, Vincent} can buy flowers in packages of {num_digit_1, 3} for ${num_digit_2, 2.50} or in packages of {num_digit_3, 2} for ${num_digit_4, 1}. How much money does he save by buying {num_digit_5, 18} flowers at the better price?",
+  "ic_sentence_template": "{name_male, Vincent}'s uncle has {num_ic, 23} tomato plants in his garden.",
+  "ic_template": "{name_male, Vincent} can buy flowers in packages of {num_digit_1, 3} for ${num_digit_2, 2.50} or in packages of {num_digit_3, 2} for ${num_digit_4, 1}. {name_male, Vincent}'s uncle has {num_ic, 23} tomato plants in his garden. How much money does he save by buying {num_digit_5, 18} flowers at the better price?",
+  "equation": "UPDATE HERE"
+}

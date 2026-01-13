@@ -1,0 +1,8 @@
+{
+  "original_question": "Janet had 22 green pens and 10 yellow pens. Then she bought 6 bags of blue pens and 2 bags of red pens. There were 9 pens in each bag of blue and 6 pens in each bag of red. How many pens does Janet have now?",
+  "original_answer": 98,
+  "symbolic_template": "{name_female, Janet} had {num_digit_1, 22} green pens and {num_digit_2, 10} yellow pens. Then she bought {num_digit_3, 6} bags of blue pens and {num_digit_4, 2} bags of red pens. There were {num_digit_5, 9} pens in each bag of blue and {num_digit_6, 6} pens in each bag of red. How many pens does {name_female, Janet} have now?",
+  "ic_sentence_template": "{name_female, Janet}'s cousin just received {num_ic, 700} notebooks as a gift.",
+  "ic_template": "{name_female, Janet} had {num_digit_1, 22} green pens and {num_digit_2, 10} yellow pens. Then she bought {num_digit_3, 6} bags of blue pens and {num_digit_4, 2} bags of red pens. There were {num_digit_5, 9} pens in each bag of blue and {num_digit_6, 6} pens in each bag of red. {name_female, Janet}'s cousin just received {num_ic, 700} notebooks as a gift. How many pens does {name_female, Janet} have now?",
+  "equation": "UPDATE HERE"
+}

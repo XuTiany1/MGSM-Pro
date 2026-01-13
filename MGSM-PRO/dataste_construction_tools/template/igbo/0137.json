@@ -1,0 +1,8 @@
+{
+  "original_question": "Rory tụrụ ahia sọb abụọ maka $7.50 nke ọ bụla, akpa chịpsu abụọ maka $1.50 na kuki abụọ maka $1.00 nke ọ bụla maka mwegara. E nwere 20% ego mwegara agbakọnyere ebe ikwụ ụgwọ ma ọ chọrọ igbakọnye onyinye afọ ofufo $5.00. Ego ole ka mwegara ihe ọ tụrụ ga a pụta?",
+  "original_answer": 29,
+  "symbolic_template": "{name_male, Rory} tụrụ ahia sọb {num_digit_1, 2} maka ${num_digit_2, 7.50} nke ọ bụla, akpa chịpsu {num_digit_3, 2} maka ${num_digit_4, 1.50} na kuki {num_digit_5, 2} maka ${num_digit_6, 1.00} nke ọ bụla maka mwegara. E nwere {num_digit_7, 20}% ego mwegara agbakọnyere ebe ikwụ ụgwọ ma ọ chọrọ igbakọnye onyinye afọ ofufo ${num_digit_8, 5.00}. Ego ole ka mwegara ihe ọ tụrụ ga a pụta?",
+  "ic_sentence_template": "Nwanne nne {name_male, Rory} na-azụ {num_ic, 19} salads kwa Fraịdee.",
+  "ic_template": "Nwanne nne {name_male, Rory} na-azụ {num_ic, 19} salads kwa Fraịdee. {name_male, Rory} tụrụ ahia sọb {num_digit_1, 2} maka ${num_digit_2, 7.50} nke ọ bụla, akpa chịpsu {num_digit_3, 2} maka ${num_digit_4, 1.50} na kuki {num_digit_5, 2} maka ${num_digit_6, 1.00} nke ọ bụla maka mwegara. E nwere {num_digit_7, 20}% ego mwegara agbakọnyere ebe ikwụ ụgwọ ma ọ chọrọ igbakọnye onyinye afọ ofufo ${num_digit_8, 5.00}. Ego ole ka mwegara ihe ọ tụrụ ga a pụta?",
+  "equation": "UPDATE HERE"
+}

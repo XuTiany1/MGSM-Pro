@@ -1,0 +1,8 @@
+{
+  "original_question": "Claire kye nkosua mmiԑnsa anopa biara sԑ anopa aduane. Nkosua mmoano du mmienu sԑn na ɔbԑdi no wɔ nnawɔtwe nnan mu?",
+  "original_answer": 7,
+  "symbolic_template": "{name_female, Claire} kye nkosua {num_digit_1, mmiɛnsa} anopa biara sɛ anopa aduane. Nkosua mmoano du mmienu sɛn na ɔbɛdi no wɔ nnawɔtwe {num_digit_2, nnan} mu?",
+  "ic_sentence_template": "{name_female, Claire} wɔfa wɔ nkokɔ {num_ic, 44} wɔ n’afuo mu.",
+  "ic_template": "{name_female, Claire} wɔfa wɔ nkokɔ {num_ic, 44} wɔ n’afuo mu. {name_female, Claire} kye nkosua {num_digit_1, mmiɛnsa} anopa biara sɛ anopa aduane. Nkosua mmoano du mmienu sɛn na ɔbɛdi no wɔ nnawɔtwe {num_digit_2, nnan} mu?",
+  "equation": "UPDATE HERE"
+}

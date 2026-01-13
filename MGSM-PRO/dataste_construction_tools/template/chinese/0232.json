@@ -1,0 +1,8 @@
+{
+  "original_question": "达克斯去他们的农场摘苹果，发现花园里的虫子数量是蚂蚁的一半。如果有 50 只蚂蚁，计算花园里昆虫的总数。",
+  "original_answer": 75,
+  "symbolic_template": "{name_male, 达克斯} 去他们的农场摘苹果，发现花园里的虫子数量是蚂蚁的 一半。如果有 {num_digit, 50} 只蚂蚁，计算花园里昆虫的总数。",
+  "ic_sentence_template": "{name_male, 达克斯} 的叔叔看到有 {num_ic, 372} 只兔子在田野上奔跑。",
+  "ic_template": "{name_male, 达克斯} 的叔叔看到有 {num_ic, 372} 只兔子在田野上奔跑。{name_male, 达克斯} 去他们的农场摘苹果，发现花园里的虫子数量是蚂蚁的 一半。如果有 {num_digit, 50} 只蚂蚁，计算花园里昆虫的总数。",
+  "equation": "UPDATE HERE"
+}

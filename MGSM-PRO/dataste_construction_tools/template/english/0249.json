@@ -1,0 +1,8 @@
+{
+  "original_question": "On Monday, Sue ate 4 times as many cookies as her sister. On Tuesday, she ate twice as many cookies as her sister. Her sister ate 5 cookies on Monday and 13 the next day. If 1 cookie has 200 calories, how many more calories did Sue consume than her sister?",
+  "original_answer": 5600,
+  "symbolic_template": "On Monday, {name_female, Sue} ate {num_digit_1, 4} times as many cookies as her sister. On Tuesday, she ate twice as many cookies as her sister. Her sister ate {num_digit_2, 5} cookies on Monday and {num_digit_3, 13} the next day. If {num_digit_4, 1} cookie has {num_digit_5, 200} calories, how many more calories did {name_female, Sue} consume than her sister?",
+  "ic_sentence_template": "{name_female, Sue}'s uncle brought {num_ic, 15} pies to their house.",
+  "ic_template": "On Monday, {name_female, Sue} ate {num_digit_1, 4} times as many cookies as her sister. On Tuesday, she ate twice as many cookies as her sister. Her sister ate {num_digit_2, 5} cookies on Monday and {num_digit_3, 13} the next day. If {num_digit_4, 1} cookie has {num_digit_5, 200} calories, {name_female, Sue}'s uncle brought {num_ic, 15} pies to their house. How many more calories did {name_female, Sue} consume than her sister?",
+  "equation": "UPDATE HERE"
+}

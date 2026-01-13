@@ -1,0 +1,8 @@
+{
+  "original_question": "Michael hụrụ ịnya ịnyịnya ígwè n'anya. Ọ nyara ya opekatampe ugboro ise n'izu ụka ma gbaa kilomita iri abụọ na ise oge ọbụla. O mere nke ahụ izu ụka anọ, mgbe ahụ o kpebiri, ịnya ịnyịnya ígwè ahụ naanị ugboro abụọ n'izu ụka, mana maka kilomita iri isii oge ọbụla, ma mee nke ahụ izu ụka atọ. Kilomita ole ka Michael gbara na ngụkọta? ",
+  "original_answer": 860,
+  "symbolic_template": "{name_male, Micheal} hụrụ ịnya ịnyịnya ígwè n'anya. Ọ nyara ya opekatampe ugboro {num_digit_1, 5} n'izu ụka ma gbaa kilomita {num_digit_2, 25} oge ọbụla. O mere nke ahụ izu ụka anọ, mgbe ahụ o kpebiri, ịnya ịnyịnya ígwè ahụ naanị ugboro {num_digit_3, 2} n'izu ụka, mana maka kilomita {num_digit_4, 60} oge ọbụla, ma mee nke ahụ izu ụka {num_digit_5, 3}. Kilomita ole ka {name_male, Michael} gbara na ngụkọta?",
+  "ic_sentence_template": "Nwanne nna {name_male, Micheal} nwere kaọdu baseball {num_ic, 105}.",
+  "ic_template": "Nwanne nna {name_male, Micheal} nwere kaọdu baseball {num_ic, 105}. {name_male, Micheal} hụrụ ịnya ịnyịnya ígwè n'anya. Ọ nyara ya opekatampe ugboro {num_digit_1, 5} n'izu ụka ma gbaa kilomita {num_digit_2, 25} oge ọbụla. O mere nke ahụ izu ụka anọ, mgbe ahụ o kpebiri, ịnya ịnyịnya ígwè ahụ naanị ugboro {num_digit_3, 2} n'izu ụka, mana maka kilomita {num_digit_4, 60} oge ọbụla, ma mee nke ahụ izu ụka {num_digit_5, 3}. Kilomita ole ka {name_male, Michael} gbara na ngụkọta?",
+  "equation": "UPDATE HERE"
+}

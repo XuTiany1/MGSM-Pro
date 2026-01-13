@@ -1,0 +1,8 @@
+{
+  "original_question": "Tommy ń ṣe ètò ìkówójọ fún ìpèsè fún àwọn aláìní rẹ̀ pẹ̀lú títa búráhúnísì ní $3 fún ègé kan àti àkàrà òyìnbó ní $4 fún ègé kan. Tí Tommy bá ta ègé búráhúnísì 43 àti àkàrà òyìnbó 23, èló ni iye owó tí Tommy kójọ?",
+  "original_answer": 221,
+  "symbolic_template": "{name_male, Tommy} ń ṣe ètò ìkówójọ fún ìpèsè fún àwọn aláìní rẹ̀ pẹ̀lú títa búráhúnísì ní ${num_digit_1, 3} fún ègé kan àti àkàrà òyìnbó ní ${num_digit_2, 4} fún ègé kan. Tí {name_male, Tommy} bá ta ègé búráhúnísì {num_digit_3, 43} àti àkàrà òyìnbó {num_digit_4, 23}, èló ni iye owó tí {name_male, Tommy} kójọ?",
+  "ic_sentence_template": "Ìyá ńlá {name_male, Tommy} pẹ̀lú laipẹ́ ṣe yáǹmù yíyán {num_ic, 164} fún àjàkàálẹ̀ ìlú.",
+  "ic_template": "Ìyá ńlá {name_male, Tommy} pẹ̀lú laipẹ́ ṣe yáǹmù yíyán {num_ic, 164} fún àjàkàálẹ̀ ìlú. {name_male, Tommy} ń ṣe ètò ìkówójọ fún ìpèsè fún àwọn aláìní rẹ̀ pẹ̀lú títa búráhúnísì ní ${num_digit_1, 3} fún ègé kan àti àkàrà òyìnbó ní ${num_digit_2, 4} fún ègé kan. Tí {name_male, Tommy} bá ta ègé búráhúnísì {num_digit_3, 43} àti àkàrà òyìnbó {num_digit_4, 23}, èló ni iye owó tí {name_male, Tommy} kójọ?",
+  "equation": "UPDATE HERE"
+}

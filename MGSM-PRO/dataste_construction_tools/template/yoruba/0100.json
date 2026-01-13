@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerome ní ọ̀rẹ́ 4 tí ó máa ń wá kíi ní ọjọ́ kan. ọ̀rẹ́ kínní tẹ ago ara ìlẹ̀kùn fún ìgbà 20 kí Jerome tó ṣí ìlẹ̀kùn, ọ̀rẹ́ Kejì tẹ ago ara ìlẹ̀kùn ní ìgbà 1/4 ju ọ̀rẹ́ Jerome àkọ́kọ́ lọ. ọ̀rẹ́ kẹta tẹ ago ara ìlẹ̀kùn ní ìgbà 10 ju ọ̀rẹ́ kẹrin. tí ọ̀rẹ́ kẹrin bá tẹ ago ní ìgbà 60, dídún ago ara ìlẹ̀kùn mélòó ago náà dún?",
+  "original_answer": 175,
+  "symbolic_template": "{name_male, Jerome} ní ọ̀rẹ́ {num_digit_1, 4} tí ó máa ń wá kíi ní ọjọ́ kan. ọ̀rẹ́ kínní tẹ ago ara ìlẹ̀kùn fún ìgbà {num_digit_2, 20} kí {name_male, Jerome} tó ṣí ìlẹ̀kùn, ọ̀rẹ́ Kejì tẹ ago ara ìlẹ̀kùn ní ìgbà 1/4 ju ọ̀rẹ́ {name_male, Jerome} àkọ́kọ́ lọ. ọ̀rẹ́ kẹta tẹ ago ara ìlẹ̀kùn ní ìgbà {num_digit_3, 10} ju ọ̀rẹ́ kẹrin. tí ọ̀rẹ́ kẹrin bá tẹ ago ní ìgbà {num_digit_4, 60}, dídún ago ara ìlẹ̀kùn mélòó ago náà dún?",
+  "ic_sentence_template": "Arákùnrin {name_male, Jerome} fi ìgbà kan ra káàdì ìrántí {num_ic, 136}.",
+  "ic_template": "Arákùnrin {name_male, Jerome} fi ìgbà kan ra káàdì ìrántí {num_ic, 136}. {name_male, Jerome} ní ọ̀rẹ́ {num_digit_1, 4} tí ó máa ń wá kíi ní ọjọ́ kan. ọ̀rẹ́ kínní tẹ ago ara ìlẹ̀kùn fún ìgbà {num_digit_2, 20} kí {name_male, Jerome} tó ṣí ìlẹ̀kùn, ọ̀rẹ́ Kejì tẹ ago ara ìlẹ̀kùn ní ìgbà 1/4 ju ọ̀rẹ́ {name_male, Jerome} àkọ́kọ́ lọ. ọ̀rẹ́ kẹta tẹ ago ara ìlẹ̀kùn ní ìgbà {num_digit_3, 10} ju ọ̀rẹ́ kẹrin. tí ọ̀rẹ́ kẹrin bá tẹ ago ní ìgbà {num_digit_4, 60}, dídún ago ara ìlẹ̀kùn mélòó ago náà dún?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Aleena s'est abonnée à un service de streaming qui lui facture 140 $ par mois. Si la société de streaming a facturé ce montant pendant la première moitié de l'année, puis 10 % de moins durant l'autre moitié de l'année, calculez le montant total qu'elle a payé pour le service de streaming à la fin de l'année.",
+  "original_answer": 1596,
+  "symbolic_template": "{name_female, Aleena} s'est abonnée à un service de streaming qui lui facture {num_digit_1, 140} $ par mois. Si la société de streaming a facturé ce montant pendant la première moitié de l'année, puis {num_digit_2, 10} % de moins durant l'autre moitié de l'année, calculez le montant total qu'elle a payé pour le service de streaming à la fin de l'année.",
+  "ic_sentence_template": "{name_female, Aleena} a tante a acheté {num_ic, 57} affiches de films l'année dernière.",
+  "ic_template": "{name_female, Aleena} a tante a acheté {num_ic, 57} affiches de films l'année dernière. {name_female, Aleena} s'est abonnée à un service de streaming qui lui facture {num_digit_1, 140} $ par mois. Si la société de streaming a facturé ce montant pendant la première moitié de l'année, puis {num_digit_2, 10} % de moins durant l'autre moitié de l'année, calculez le montant total qu'elle a payé pour le service de streaming à la fin de l'année.",
+  "equation": "UPDATE HERE"
+}

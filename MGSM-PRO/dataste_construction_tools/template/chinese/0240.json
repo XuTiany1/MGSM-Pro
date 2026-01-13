@@ -1,0 +1,8 @@
+{
+  "original_question": "詹姆斯比罗伯特多 6 块糖果。约翰的糖果是罗伯特的两倍。如果约翰有 54 块糖果，约翰比詹姆斯多多少块糖果？",
+  "original_answer": 21,
+  "symbolic_template": "{name_male_1, 詹姆斯} 比 {name_male_2, 罗伯特} 多 {num_digit_1, 6} 块糖果。{name_male_3, 约翰} 的糖果是 {name_male_2, 罗伯特} 的 两倍。如果 {name_male_3, 约翰} 有 {num_digit_2, 54} 块糖果，{name_male_3, 约翰} 比 {name_male_1, 詹姆斯} 多多少块糖果？",
+  "ic_sentence_template": "{name_male_2, 罗伯特} 的姑妈最近送给了他 {num_ic, 422} 颗弹珠。",
+  "ic_template": "{name_male_2, 罗伯特} 的姑妈最近送给了他 {num_ic, 422} 颗弹珠。{name_male_1, 詹姆斯} 比 {name_male_2, 罗伯特} 多 {num_digit_1, 6} 块糖果。{name_male_3, 约翰} 的糖果是 {name_male_2, 罗伯特} 的 两倍。如果 {name_male_3, 约翰} 有 {num_digit_2, 54} 块糖果，{name_male_3, 约翰} 比 {name_male_1, 詹姆斯} 多多少块糖果？",
+  "equation": "UPDATE HERE"
+}

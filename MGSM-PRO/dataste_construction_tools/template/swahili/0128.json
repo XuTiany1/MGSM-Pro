@@ -1,0 +1,8 @@
+{
+  "original_question": "Mamake Wells huuza tikitimaji, pilipili, na machungwa katika duka lililopo kwenye eneo lake. Bei ya tikitimaji ni mara tatu zaidi ya bei ya kila pilipili. Bei ya tikitimaji imeshinda bei ya chungwa na 5. Dillon ametumwa kwenye duka kununua tikitimaji 4, pilipili 20, na machungwa 10. Atatumia pesa ngapi kwa jumla ikiwa bei ya kila pilipili ni $15?",
+  "original_answer": 880,
+  "symbolic_template": "Mamake {name_male_1, Wells} huuza tikitimaji, pilipili, na machungwa katika duka lililopo kwenye eneo lake. Bei ya tikitimaji ni mara tatu zaidi ya bei ya kila pilipili. Bei ya tikitimaji imeshinda bei ya chungwa na {num_digit_1, 5}. {name_male_2, Dillon} ametumwa kwenye duka kununua tikitimaji {num_digit_2, 4}, pilipili {num_digit_3, 20}, na machungwa {num_digit_4, 10}. Atatumia pesa ngapi kwa jumla ikiwa bei ya kila pilipili ni ${num_digit_5, 15}?",
+  "ic_sentence_template": "Shangazi wa {name_male_2, Dillon} alinunua mananasi {num_ic, 92} jana.",
+  "ic_template": "Shangazi wa {name_male_2, Dillon} alinunua mananasi {num_ic, 92} jana. Mamake {name_male_1, Wells} huuza tikitimaji, pilipili, na machungwa katika duka lililopo kwenye eneo lake. Bei ya tikitimaji ni mara tatu zaidi ya bei ya kila pilipili. Bei ya tikitimaji imeshinda bei ya chungwa na {num_digit_1, 5}. {name_male_2, Dillon} ametumwa kwenye duka kununua tikitimaji {num_digit_2, 4}, pilipili {num_digit_3, 20}, na machungwa {num_digit_4, 10}. Atatumia pesa ngapi kwa jumla ikiwa bei ya kila pilipili ni ${num_digit_5, 15}?",
+  "equation": "UPDATE HERE"
+}

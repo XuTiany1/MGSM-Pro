@@ -1,0 +1,8 @@
+{
+  "original_question": "安迪种了 90 株天竺葵和比天竺葵少 40 株的矮牵牛花。他一共种了多少株花？",
+  "original_answer": 140,
+  "symbolic_template": "{name_male, 安迪} 种了 {num_digit_1, 90} 株天竺葵和比天竺葵少 {num_digit_2, 40} 株的矮牵牛花。他一共种了多少株花？",
+  "ic_sentence_template": "{name_male, 安迪} 的姨妈上周买了 {num_ic, 8324} 袋营养土。",
+  "ic_template": "{name_male, 安迪} 的姨妈上周买了 {num_ic, 8324} 袋营养土。{name_male, 安迪} 种了 {num_digit_1, 90} 株天竺葵和比天竺葵少 {num_digit_2, 40} 株的矮牵牛花。他一共种了多少株花？",
+  "equation": "UPDATE HERE"
+}

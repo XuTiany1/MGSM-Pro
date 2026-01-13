@@ -1,0 +1,32 @@
+{
+    "problem_id": "0002",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [50000, 100000]},
+        "num_digit_2": {"type": "int", "range": [10000, 40000]},
+        "num_digit_3": {"type": "int", "range": [100, 200]},
+        "num_ic": {"type": "int", "range": [99, 1999]}
+    },
+    "equation_steps": {
+        "num_digit_1": [],
+        "num_digit_2": ["total_investment = num_digit_1 + num_digit_2"],
+        "num_digit_3": [
+            "increase_amount = num_digit_1 * (num_digit_3 / 100)",
+            "final_value = num_digit_1 + increase_amount",
+            "ans = final_value - total_investment"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 4, "max_digits": 6}
+    },
+    "restrictions": {
+        "num_digit_1": [],
+        "num_digit_2": [],
+        "num_digit_3": [
+            "increase_amount % 1 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ],
+        "num_ic": []
+    }
+}

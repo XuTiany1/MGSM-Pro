@@ -1,0 +1,8 @@
+{
+  "original_question": "Pour chacun de ses 3 enfants, Jean achète 2 paires de chaussures qui valent 60 $ chacune. Combien a-t-il payé ?",
+  "original_answer": 360,
+  "symbolic_template": "Pour chacun de ses {num_digit_2, 3} enfants, {name_male, Jean} achète {num_digit_1, 2} paires de chaussures qui valent {num_digit_3, 60} $ chacune. Combien a-t-il payé ?",
+  "ic_sentence_template": "{name_male, John} a un oncle qui a acheté une fois {num_ic, 15} chapeaux.",
+  "ic_template": "{name_male, John} a un oncle qui a acheté une fois {num_ic, 15} chapeaux. Pour chacun de ses {num_digit_2, 3} enfants, {name_male, Jean} achète {num_digit_1, 2} paires de chaussures qui valent {num_digit_3, 60} $ chacune. Combien a-t-il payé ?",
+  "equation": "UPDATE HERE"
+}

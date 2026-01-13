@@ -1,0 +1,8 @@
+{
+  "original_question": "Un tournoi de basket-ball accueille quatre écoles en compétition. Chaque école a envoyé une équipe féminine et une équipe masculine, chacune comptant 5 joueurs. Les écoles ont également envoyé chacune un entraîneur. Combien de personnes les écoles ont-elles envoyées en tout ?",
+  "original_answer": 48,
+  "symbolic_template": "Un tournoi de basket-ball accueille quatre écoles en compétition. Chaque école a envoyé une équipe féminine et une équipe masculine, chacune comptant {num_digit_1, 5} joueurs. Les écoles ont également envoyé chacune un entraîneur. Combien de personnes les écoles ont-elles envoyées en tout ?",
+  "ic_sentence_template": "{name_male, Marcus} a un cousin qui a apporté {num_ic, 42} ballons de basket pour les équipes.",
+  "ic_template": "{name_male, Marcus} a un cousin qui a apporté {num_ic, 42} ballons de basket pour les équipes. Un tournoi de basket-ball accueille quatre écoles en compétition. Chaque école a envoyé une équipe féminine et une équipe masculine, chacune comptant {num_digit_1, 5} joueurs. Les écoles ont également envoyé chacune un entraîneur. Combien de personnes les écoles ont-elles envoyées en tout ?",
+  "equation": "UPDATE HERE"
+}

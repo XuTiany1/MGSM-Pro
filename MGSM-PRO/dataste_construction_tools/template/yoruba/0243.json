@@ -1,0 +1,8 @@
+{
+  "original_question": "Jason ní ètò ẹ̀rọ ìbánisọ̀rọ̀ fún ìṣẹ́jú 1000 lóṣooṣù. Lójoojúmọ́ ó máa ń pe ìpè ìṣẹ́jú 15 pẹ̀lú ọ̀gá rẹ̀, ó sì ti ní àfikún ìṣẹ́jú 300 sí i ní oṣù yìí sí àwọn ènìyàn mìíràn. Ìṣẹ́jú mélòó ni Jason ti lò, tí oṣù yìí bá ní ọjọ́ 30?",
+  "original_answer": 250,
+  "symbolic_template": "{name_male, Jason} ní ètò ẹ̀rọ ìbánisọ̀rọ̀ fún ìṣẹ́jú {num_digit_1, 1000} lóṣooṣù. Lójoojúmọ́ ó máa ń pe ìpè ìṣẹ́jú {num_digit_2, 15} pẹ̀lú ọ̀gá rẹ̀, ó sì ti ní àfikún ìṣẹ́jú {num_digit_3, 300} sí i ní oṣù yìí sí àwọn ènìyàn mìíràn. Ìṣẹ́jú mélòó ni {name_male, Jason} ti lò, tí oṣù yìí bá ní ọjọ́ {num_digit_4, 30}?",
+  "ic_sentence_template": "Ọ̀gá bàbá {name_male, Jason} sọ̀rọ̀ fún {num_ic, 1043} ìsẹ́jú lọ́ṣù kan lẹ́ẹ̀kan.",
+  "ic_template": "Ọ̀gá bàbá {name_male, Jason} sọ̀rọ̀ fún {num_ic, 1043} ìsẹ́jú lọ́ṣù kan lẹ́ẹ̀kan. {name_male, Jason} ní ètò ẹ̀rọ ìbánisọ̀rọ̀ fún ìṣẹ́jú {num_digit_1, 1000} lóṣooṣù. Lójoojúmọ́ ó máa ń pe ìpè ìṣẹ́jú {num_digit_2, 15} pẹ̀lú ọ̀gá rẹ̀, ó sì ti ní àfikún ìṣẹ́jú {num_digit_3, 300} sí i ní oṣù yìí sí àwọn ènìyàn mìíràn. Ìṣẹ́jú mélòó ni {name_male, Jason} ti lò, tí oṣù yìí bá ní ọjọ́ {num_digit_4, 30}?",
+  "equation": "UPDATE HERE"
+}

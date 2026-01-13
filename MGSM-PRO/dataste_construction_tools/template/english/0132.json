@@ -1,0 +1,8 @@
+{
+  "original_question": "Pam and Fred went to a carnival. Pam rode the roller coaster 2 times while Fred rode it 4 times. After that, each of them decided to ride the luge 2 times. If each ride cost 6 tickets, how many tickets did they use that day?",
+  "original_answer": 60,
+  "symbolic_template": "{name_female, Pam} and {name_male, Fred} went to a carnival. {name_female, Pam} rode the roller coaster {num_digit_1, 2} times while {name_male, Fred} rode it {num_digit_2, 4} times. After that, each of them decided to ride the luge {num_digit_3, 2} times. If each ride cost {num_digit_4, 6} tickets, how many tickets did they use that day?",
+  "ic_sentence_template": "{name_male, Fred}'s uncle brought {num_ic, 42} balloons to the carnival.",
+  "ic_template": "{name_female, Pam} and {name_male, Fred} went to a carnival. {name_female, Pam} rode the roller coaster {num_digit_1, 2} times while {name_male, Fred} rode it {num_digit_2, 4} times. After that, each of them decided to ride the luge {num_digit_3, 2} times. {name_male, Fred}'s uncle brought {num_ic, 42} balloons to the carnival. If each ride cost {num_digit_4, 6} tickets, how many tickets did they use that day?",
+  "equation": "UPDATE HERE"
+}

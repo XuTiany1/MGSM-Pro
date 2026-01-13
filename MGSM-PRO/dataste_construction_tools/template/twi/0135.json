@@ -1,0 +1,8 @@
+{
+  "original_question": "Brian adamfo Bobby wɔ video so agoru num ketewa sen mmɔho mmiɛnsa ahorow a ɛboro Brian dea wɔ. Sɛ Brian wɔ video so agoru aduonu nanso ɔhweree emu num ansa na wɔreyɛ nfatoho no a, Bobby wɔ ahe?",
+  "original_answer": 40,
+  "symbolic_template": "{name_male_1, Brian} adamfo {name_male_2, Bobby} wɔ video so agoru {num_digit_1, 5} ketewa sen mmɔho {num_digit_2, mmiɛnsa} ahorow a ɛboro {name_male_1, Brian} dea wɔ. Sɛ {name_male_1, Brian} wɔ video so agoru {num_digit_3, aduonu} nanso ɔhweree emu {num_digit_4, num} ansa na wɔreyɛ nfatoho no a, {name_male_2, Bobby} wɔ ahe?",
+  "ic_sentence_template": "{name_male_1, Brian} wͻfa no wɔ aseresɛm nhoma {num_ic, 30}.",
+  "ic_template": "{name_male_1, Brian} wͻfa no wɔ aseresɛm nhoma {num_ic, 30}. {name_male_1, Brian} adamfo {name_male_2, Bobby} wɔ video so agoru {num_digit_1, 5} ketewa sen mmɔho {num_digit_2, mmiɛnsa} ahorow a ɛboro {name_male_1, Brian} dea wɔ. Sɛ {name_male_1, Brian} wɔ video so agoru {num_digit_3, aduonu} nanso ɔhweree emu {num_digit_4, num} ansa na wɔreyɛ nfatoho no a, {name_male_2, Bobby} wɔ ahe?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "There are 4 snails in one aquarium and 32 snails in another aquarium. The difference between the number of snails in the two aquariums is twice the amount of fish in both aquariums. If both aquariums have the same number of fish in them, how many fish are there in each aquarium?",
+  "original_answer": 7,
+  "symbolic_template": "There are {num_digit_1, 4} snails in one aquarium and {num_digit_2, 32} snails in another aquarium. The difference between the number of snails in the two aquariums is twice the amount of fish in both aquariums. If both aquariums have the same number of fish in them, how many fish are there in each aquarium?",
+  "ic_sentence_template": "{name_male, Michael}'s cousin has {num_ic, 15} guppies at home.",
+  "ic_template": "There are {num_digit_1, 4} snails in one aquarium and {num_digit_2, 32} snails in another aquarium. The difference between the number of snails in the two aquariums is twice the amount of fish in both aquariums. {name_male, Michael}'s cousin has {num_ic, 15} guppies at home. If both aquariums have the same number of fish in them, how many fish are there in each aquarium?",
+  "equation": "UPDATE HERE"
+}

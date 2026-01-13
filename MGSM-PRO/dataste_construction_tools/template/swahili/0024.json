@@ -1,0 +1,8 @@
+{
+  "original_question": "Kyle alinunua kitabu kilichonunuliwa zaidi mwaka jana kwa $19.50. Hii ni baada ya kupokea kipunguzo cha 25% ya bei ya asili. Bei asili ya kitabu hicho ilikuwa ngapi?",
+  "original_answer": 26,
+  "symbolic_template": "{name_male, Kyle} alinunua kitabu kilichouzwa zaidi mwaka uliopita kwa ${num_digit_1, 19.50}. Hii ni baada ya kupokea punguzo la {num_digit_2, 25}% kutoka bei ya asili. Bei ya asili ya kitabu hicho ilikuwa ngapi?",
+  "ic_sentence_template": "Shangazi wa {name_male, Kyle} alikuwa akisoma majarida {num_ic, 326332763} kila mwaka.",
+  "ic_template": "Shangazi wa {name_male, Kyle} alikuwa akisoma majarida {num_ic, 326332763} kila mwaka. {name_male, Kyle} alinunua kitabu kilichouzwa zaidi mwaka uliopita kwa ${num_digit_1, 19.50}. Hii ni baada ya kupokea punguzo la {num_digit_2, 25}% kutoka bei ya asili. Bei ya asili ya kitabu hicho ilikuwa ngapi?",
+  "equation": "UPDATE HERE"
+}

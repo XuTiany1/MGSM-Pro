@@ -1,0 +1,27 @@
+{
+    "problem_id": "0052",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [10, 30]},
+        "num_digit_2": {"type": "int", "range": [10, 60]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "comic_weight = num_digit_2 * 0.25",
+            "remaining_weight = num_digit_1 - comic_weight",
+            "ans = remaining_weight / 0.5"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "num_digit_2 % 4 == 0",
+            "num_digit_1 > comic_weight",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

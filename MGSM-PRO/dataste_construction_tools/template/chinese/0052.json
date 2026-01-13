@@ -1,0 +1,8 @@
+{
+  "original_question": "乌利亚的书包对他来说太重了。他需要把书包减轻 15 磅。他的漫画书每本重 1/4 磅，他的玩具每件重 1/2 磅。如果他拿掉 30 本漫画书，他还需要拿掉多少件玩具？",
+  "original_answer": 15,
+  "symbolic_template": "{name_male, 乌利亚} 的书包对他来说太重了。他需要把书包减轻 {num_digit_1, 15} 磅。他的漫画书每本重 1/4 磅，他的玩具每件重 1/2 磅。如果他拿掉 {num_digit_2, 30} 本漫画书，他还需要拿掉多少件玩具？",
+  "ic_sentence_template": "{name_male, 尤赖亚} 的阿姨在阁楼里找到了 {num_ic, 91} 颗弹珠。",
+  "ic_template": "{name_male, 尤赖亚} 的阿姨在阁楼里找到了 {num_ic, 91} 颗弹珠。{name_male, 乌利亚} 的书包对他来说太重了。他需要把书包减轻 {num_digit_1, 15} 磅。他的漫画书每本重 1/4 磅，他的玩具每件重 1/2 磅。如果他拿掉 {num_digit_2, 30} 本漫画书，他还需要拿掉多少件玩具？",
+  "equation": "UPDATE HERE"
+}

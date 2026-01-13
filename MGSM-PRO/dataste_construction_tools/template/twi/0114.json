@@ -1,0 +1,8 @@
+{
+  "original_question": "Jamal ahomatorofo no bԑtumi akuta mfoni mmɔho nsia kyԑn Brittany ahomatorofo no. Mfoni dodoɔ a Brittany ahomatorofo no bԑtumi akuta no yԑ nnomaa dodoɔ mmɔho 50 kyԑn Jamal mfoni a ɔwɔ fa ndabodabo a ԑwɔ mmoa korabea no mu. Sԑ Jamal ahomatorofo no bԑtumi akuta mfoni 1800, ndabodabo sԑn na wobԑhu wɔ Jamal mfoni a w’atwa afa dabodabo a ԑwɔ mmoa korabea hɔ?",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, Jamal} ahomatorofo no bԑtumi akuta mfoni mmɔho {num_digit_1, 6} kyԑn {name_female, Brittany} ahomatorofo no. Mfoni dodoɔ a {name_female, Brittany} ahomatorofo no bԑtumi akuta no yԑ nnomaa dodoɔ mmɔho {num_digit_3, 50} kyԑn {name_male, Jamal} mfoni a ɔwɔ fa ndabodabo a ԑwɔ mmoa korabea no mu. Sԑ {name_male, Jamal} ahomatorofo no bԑtumi akuta mfoni {num_digit_2, 1800}, ndabodabo sԑn na wobԑhu wɔ {name_male, Jamal} mfoni a w’atwa afa dabodabo a ԑwɔ mmoa korabea hɔ?",
+  "ic_sentence_template": "{name_male, Jamal} wɔfa no kɔ sraa ɔman no mmɔnten so atraea {num_ic, 84} da koro bi.",
+  "ic_template": "{name_male, Jamal} wɔfa no kɔ sraa ɔman no mmɔnten so atraea {num_ic, 84} da koro bi. {name_male, Jamal} ahomatorofo no bԑtumi akuta mfoni mmɔho {num_digit_1, 6} kyԑn {name_female, Brittany} ahomatorofo no. Mfoni dodoɔ a {name_female, Brittany} ahomatorofo no bԑtumi akuta no yԑ nnomaa dodoɔ mmɔho {num_digit_3, 50} kyԑn {name_male, Jamal} mfoni a ɔwɔ fa ndabodabo a ԑwɔ mmoa korabea no mu. Sԑ {name_male, Jamal} ahomatorofo no bԑtumi akuta mfoni {num_digit_2, 1800}, ndabodabo sԑn na wobԑhu wɔ {name_male, Jamal} mfoni a w’atwa afa dabodabo a ԑwɔ mmoa korabea hɔ?",
+  "equation": "UPDATE HERE"
+}

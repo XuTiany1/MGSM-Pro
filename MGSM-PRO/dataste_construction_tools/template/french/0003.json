@@ -1,0 +1,8 @@
+{
+  "original_question": "Jacques fait des séries de 3 sprints 3 fois par semaine. Il court 60 mètres à chaque sprint. Au total, combien de mètres court-il par semaine ?",
+  "original_answer": 540,
+  "symbolic_template": "{name_male, Jacques} fait des séries de {num_digit_1, 3} sprints {num_digit_2, 3} fois par semaine. Il court {num_digit_3, 60} mètres à chaque sprint. Au total, combien de mètres court-il par semaine ?",
+  "ic_sentence_template": "{name_male, James} a un oncle qui possède {num_ic, 212} paires de chaussures de course.",
+  "ic_template": "{name_male, James} a un oncle qui possède {num_ic, 212} paires de chaussures de course. {name_male, Jacques} fait des séries de {num_digit_1, 3} sprints {num_digit_2, 3} fois par semaine. Il court {num_digit_3, 60} mètres à chaque sprint. Au total, combien de mètres court-il par semaine ?",
+  "equation": "UPDATE HERE"
+}

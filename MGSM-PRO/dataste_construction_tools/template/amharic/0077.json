@@ -1,0 +1,8 @@
+{
+  "original_question": "ራይመንድ ከሣራ ግማሽ የበለጠ ልብስ የሚያጥብ ከሆነ እና ሣራ ከዳዊት 4 እጥፍ የሚበልጥ ልብስ የሚምታጥብ ከሆነ፣ ራይመንድ እና ዴቪድ የሚያጥቡት ልዩነት ምን ያክል ይሆናል ሳራ 400 ፓውንድ ካጠበች ።",
+  "original_answer": 100,
+  "symbolic_template": "{name_male_1, ራይመንድ} ከ{name_female, ሣራ} ግማሽ የበለጠ ልብስ የሚያጥብ ከሆነ እና {name_female, ሣራ} ከ{name_male_2, ዳዊት} {num_digit_1, 4} እጥፍ የሚበልጥ ልብስ የሚምታጥብ ከሆነ፣ {name_male_1, ራይመንድ} እና {name_male_2, ዴቪድ} የሚያጥቡት ልዩነት ምን ያክል ይሆናል {name_female, ሳራ} {num_digit_2, 400} ፓውንድ ካጠበች ።",
+  "ic_sentence_template": "የ{name_male_1, ሬይመንድ} አክስቱ ትናንትና {num_ic, 52} ቶዋል አጠገበች።",
+  "ic_template": "{name_male_1, ራይመንድ} ከ{name_female, ሣራ} ግማሽ የበለጠ ልብስ የሚያጥብ ከሆነ እና {name_female, ሣራ} ከ{name_male_2, ዳዊት} {num_digit_1, 4} እጥፍ የሚበልጥ ልብስ የሚምታጥብ ከሆነ፣ {name_male_1, ራይመንድ} እና {name_male_2, ዴቪድ} የሚያጥቡት ልዩነት ምን ያክል ይሆናል {name_female, ሳራ} {num_digit_2, 400} ፓውንድ ካጠበች ። የ{name_male_1, ሬይመንድ} አክስቱ ትናንትና {num_ic, 52} ቶዋል አጠገበች።",
+  "equation": "UPDATE HERE"
+}

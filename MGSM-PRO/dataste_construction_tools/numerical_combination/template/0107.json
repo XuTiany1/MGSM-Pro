@@ -1,0 +1,41 @@
+{
+    "problem_id": "0107",
+    "generation_order": ["num_digit_1", "num_digit_3", "num_digit_5", "num_digit_4", "num_digit_6", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [1, 2]},
+        "num_digit_3": {"type": "int", "range": [1, 2]},
+        "num_digit_5": {"type": "int", "range": [1, 2]},
+        "num_digit_4": {"type": "int", "range": [15, 45]},
+        "num_digit_6": {"type": "int", "range": [8, 15]},
+        "num_digit_2": {"type": "int", "range": [15, 30]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_5": [
+            "fixed_days_min = (2 * num_digit_1 * 60) + (2 * num_digit_5 * 60)"
+        ],
+        "num_digit_4": [
+            "thu_min = (num_digit_3 * 60) + num_digit_4"
+        ],
+        "num_digit_6": [
+            "total_min = num_digit_6 * 60",
+            "wed_available = total_min - (fixed_days_min + thu_min)"
+        ],
+        "num_digit_2": [
+            "ans = wed_available / num_digit_2"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 1}
+    },
+    "restrictions": {
+        "num_digit_6": [
+            "total_min > (fixed_days_min + thu_min)"
+        ],
+        "num_digit_2": [
+            "wed_available % num_digit_2 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

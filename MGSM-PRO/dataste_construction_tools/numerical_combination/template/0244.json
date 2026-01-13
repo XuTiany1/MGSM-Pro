@@ -1,0 +1,31 @@
+{
+    "problem_id": "0244",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [1000, 1500]},
+        "num_digit_2": {"type": "int", "range": [150, 200]},
+        "num_digit_3": {"type": "int", "range": [10, 50]},
+        "num_digit_4": {"type": "int", "range": [400, 700]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_4": [
+            "kyle = num_digit_2",
+            "billy = 2 * kyle",
+            "colby = kyle - num_digit_3",
+            "griffin_before_ginger = num_digit_1 - kyle - billy - colby",
+            "ans = num_digit_4 - griffin_before_ginger"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_4": [
+            "num_digit_1 > (kyle + billy + colby)",
+            "num_digit_2 > num_digit_3",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

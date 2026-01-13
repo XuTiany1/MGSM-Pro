@@ -1,0 +1,8 @@
+{
+  "original_question": "Olùtọ́jú ẹranko ń bọ́ gbogbo àwọn ẹranko tó wà nínú ọgbà ẹranko. Ó ń ra gbogbo ọ̀gẹ̀dẹ̀ rẹ̀ láti oko ìbílẹ̀ ní oṣù méjì méjì. Tí àwọn ọ̀bọ náà bá nílò ọ̀gẹ̀dẹ̀ 200, àwọn ìnàkí nílò ọ̀gẹ̀dẹ̀ 400, tí àwọn ìrò sì nílò ọ̀gẹ̀dẹ̀ 100 lóṣooṣù, ọ̀gẹ̀dẹ̀ mélòó ni ó nílò láti rà fún oṣù méjì?",
+  "original_answer": 1400,
+  "symbolic_template": "Olùtọ́jú ẹranko ń bọ́ gbogbo àwọn ẹranko tó wà nínú ọgbà ẹranko. Ó ń ra gbogbo ọ̀gẹ̀dẹ̀ rẹ̀ láti oko ìbílẹ̀ ní oṣù {num_digit_1, 2}. Tí àwọn ọ̀bọ náà bá nílò ọ̀gẹ̀dẹ̀ {num_digit_2, 200}, àwọn ìnàkí nílò ọ̀gẹ̀dẹ̀ {num_digit_3, 400}, tí àwọn ìrò sì nílò ọ̀gẹ̀dẹ̀ {num_digit_4, 100} lóṣooṣù, ọ̀gẹ̀dẹ̀ mélòó ni ó nílò láti rà fún oṣù {num_digit_5, 2}?",
+  "ic_sentence_template": "Ìyá ọmọbìnrin olùtọ́ àgùntàn ní {num_ic, 13} èyẹ̀ pààròtì ní ilé.",
+  "ic_template": "Ìyá ọmọbìnrin olùtọ́ àgùntàn ní {num_ic, 13} èyẹ̀ pààròtì ní ilé. Olùtọ́jú ẹranko ń bọ́ gbogbo àwọn ẹranko tó wà nínú ọgbà ẹranko. Ó ń ra gbogbo ọ̀gẹ̀dẹ̀ rẹ̀ láti oko ìbílẹ̀ ní oṣù {num_digit_1, 2}. Tí àwọn ọ̀bọ náà bá nílò ọ̀gẹ̀dẹ̀ {num_digit_2, 200}, àwọn ìnàkí nílò ọ̀gẹ̀dẹ̀ {num_digit_3, 400}, tí àwọn ìrò sì nílò ọ̀gẹ̀dẹ̀ {num_digit_4, 100} lóṣooṣù, ọ̀gẹ̀dẹ̀ mélòó ni ó nílò láti rà fún oṣù {num_digit_5, 2}?",
+  "equation": "UPDATE HERE"
+}

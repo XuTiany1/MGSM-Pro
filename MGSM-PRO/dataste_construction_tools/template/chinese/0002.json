@@ -1,0 +1,8 @@
+{
+  "original_question": "乔希决定试试房屋翻新。他花了 80,000 美元买了一套房子，然后投入 50,000 美元进行维修。这样做使房子的价值增加了 150%。他赚了多少利润？",
+  "original_answer": 70000,
+  "symbolic_template": "{name_male, 乔希} 决定试试房屋翻新。他花了 {num_digit_1, 80,000} 美元买了一套房子，然后投入 {num_digit_2, 50,000} 美元进行维修。这样做使房子的价值增加了 {num_digit_3, 150}%。他赚了多少利润？",
+  "ic_sentence_template": "{name_male, 乔什} 的叔叔最近为了一个建筑项目卖出了 {num_ic, 124000} 块砖。",
+  "ic_template": "{name_male, 乔什} 的叔叔最近为了一个建筑项目卖出了 {num_ic, 124000} 块砖。{name_male, 乔希} 决定试试房屋翻新。他花了 {num_digit_1, 80,000} 美元买了一套房子，然后投入 {num_digit_2, 50,000} 美元进行维修。这样做使房子的价值增加了 {num_digit_3, 150}%。他赚了多少利润？",
+  "equation": "UPDATE HERE"
+}

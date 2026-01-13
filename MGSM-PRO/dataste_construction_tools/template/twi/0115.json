@@ -1,0 +1,8 @@
+{
+  "original_question": "Sasha ahu sԑ dua boɔ kɔ soro 50% wɔ bosome kakra a atwa mu yi firi berԑ a ɔtɔɔ nnua bi. Ͻwɔ bi a aka akyiri enti ɔyԑ n’adwene sԑ ɔbԑtɔn. Ͻwɔ apono 2 x 4 x 10 du a aka na baako biara boɔ yԑ $10. Ͻsan wɔ 4 x 4 x 10 apono num a ɔtɔɔ baako biara $16. Sԑ ɔtɔn no nyinaa a, mfasoɔ sԑn na ɔbԑnya?",
+  "original_answer": 90,
+  "symbolic_template": "{name_female, Sasha} ahu sԑ dua boɔ kɔ soro {num_digit_1, 50}% wɔ bosome kakra a atwa mu yi firi berԑ a ɔtɔɔ nnua bi. Ͻwɔ bi a aka akyiri enti ɔyԑ n’adwene sԑ ɔbԑtɔn. Ͻwɔ apono {num_digit_2, 2} x {num_digit_3, 4} x {num_digit_4, 10} du a aka na baako biara boɔ yԑ ${num_digit_5, 10}. Ͻsan wɔ {num_digit_6, 4} x {num_digit_7, 4} x {num_digit_8, 10} apono num a ɔtɔɔ baako biara ${num_digit_9, 16}. Sԑ ɔtɔn no nyinaa a, mfasoɔ sԑn na ɔbԑnya?",
+  "ic_sentence_template": "{name_female, Sasha} wɔfa no wɔ paint brush {num_ic, 84} wɔ baabi a wɔde kaa si mu.",
+  "ic_template": "{name_female, Sasha} wɔfa no wɔ paint brush {num_ic, 84} wɔ baabi a wɔde kaa si mu. {name_female, Sasha} ahu sԑ dua boɔ kɔ soro {num_digit_1, 50}% wɔ bosome kakra a atwa mu yi firi berԑ a ɔtɔɔ nnua bi. Ͻwɔ bi a aka akyiri enti ɔyԑ n’adwene sԑ ɔbԑtɔn. Ͻwɔ apono {num_digit_2, 2} x {num_digit_3, 4} x {num_digit_4, 10} du a aka na baako biara boɔ yԑ ${num_digit_5, 10}. Ͻsan wɔ {num_digit_6, 4} x {num_digit_7, 4} x {num_digit_8, 10} apono num a ɔtɔɔ baako biara ${num_digit_9, 16}. Sԑ ɔtɔn no nyinaa a, mfasoɔ sԑn na ɔbԑnya?",
+  "equation": "UPDATE HERE"
+}

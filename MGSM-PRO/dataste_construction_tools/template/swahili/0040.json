@@ -1,0 +1,8 @@
+{
+  "original_question": "iPhone ya Brandon ni ya zamani mara nne zaidi ya iPhone ya Ben. iPhone ya Ben ni ya zamani mara mbili zaidi ya iPhone ya Suzy. Iwapo iPhone ya Suzy imekaa mwaka 1, iPhone ya Brandon imekaa kwa miaka mingapi?",
+  "original_answer": 8,
+  "symbolic_template": "iPhone ya {name_male_1, Brandon} ni ya zamani mara tano zaidi ya iPhone ya {name_male_2, Ben}. iPhone ya {name_male_2, Ben} ni ya zamani mara tatu zaidi ya iPhone ya {name_female, Suzy}. Ikiwa iPhone ya {name_female, Suzy} ina miaka {num_digit_1, 2}, iPhone ya {name_male_1, Brandon} ina miaka mingapi?",
+  "ic_sentence_template": "Shangazi wa {name_male_2, Ben} alinunua vifuniko vya simu {num_ic, 15} hivi karibuni.",
+  "ic_template": "Shangazi wa {name_male_2, Ben} alinunua vifuniko vya simu {num_ic, 15} hivi karibuni. iPhone ya {name_male_1, Brandon} ni ya zamani mara tano zaidi ya iPhone ya {name_male_2, Ben}. iPhone ya {name_male_2, Ben} ni ya zamani mara tatu zaidi ya iPhone ya {name_female, Suzy}. Ikiwa iPhone ya {name_female, Suzy} ina miaka {num_digit_1, 2}, iPhone ya {name_male_1, Brandon} ina miaka mingapi?",
+  "equation": "UPDATE HERE"
+}

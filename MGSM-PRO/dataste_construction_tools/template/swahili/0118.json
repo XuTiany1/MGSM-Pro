@@ -1,0 +1,8 @@
+{
+  "original_question": "Afisa wa forodha katika bandari kuu ya ukaguzi wa SeaSide alihesabu kontena 2 za magari yaliyotolewa nje ya nchi, kila kontena ikiwa na magari 5 ndani yake. Siku iliyofuata, kontena zaidi zililetwa, na jumla ya idadi ya magari katika bandari hiyo ilikuwa 30. Piga hesabu ya idadi ya kontena ambazo zilinunuliwa kutoka nje ya nchi siku ya pili, ukichukulia kuwa kontena zote zilikuwa na magari 5.",
+  "original_answer": 4,
+  "symbolic_template": "Afisa wa forodha katika bandari kuu ya SeaSide alihesabu makontena {num_digit_1, 2} ya magari yaliyoingizwa, kila moja likiwa na magari {num_digit_2, 5} ndani. Siku iliyofuata, makontena mengine yaliletwa, na jumla ya magari yaliyokuwepo bandarini ikawa {num_digit_3, 30}. Hesabu idadi ya makontena yaliyoingizwa siku ya pili, ukizingatia kuwa kila kontena lina magari {num_digit_4, 5}.",
+  "ic_sentence_template": "Binamu wa afisa husimamia sanduku za mizigo {num_ic, 68} katika ghala lililo karibu.",
+  "ic_template": "Binamu wa afisa husimamia sanduku za mizigo {num_ic, 68} katika ghala lililo karibu. Afisa wa forodha katika bandari kuu ya SeaSide alihesabu makontena {num_digit_1, 2} ya magari yaliyoingizwa, kila moja likiwa na magari {num_digit_2, 5} ndani. Siku iliyofuata, makontena mengine yaliletwa, na jumla ya magari yaliyokuwepo bandarini ikawa {num_digit_3, 30}. Hesabu idadi ya makontena yaliyoingizwa siku ya pili, ukizingatia kuwa kila kontena lina magari {num_digit_4, 5}.",
+  "equation": "UPDATE HERE"
+}

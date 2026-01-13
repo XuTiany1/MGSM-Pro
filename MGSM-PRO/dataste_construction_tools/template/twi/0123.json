@@ -1,0 +1,8 @@
+{
+  "original_question": "Rosie bԑtumi atu mmirika kwansini 10 dɔnhwere biara saa dɔnhwere mmiԑnsa. Ԑno akyi no, ɔtwa kwansini 5 dɔnhwere biara. Kwansini sԑn na ɔtwa no dɔnhwere 7 mu?",
+  "original_answer": 50,
+  "symbolic_template": "{name_female, Rosie} bԑtumi atu mmirika kwansini {num_digit_1, 10} dɔnhwere biara saa dɔnhwere {num_digit_2, mmiɛnsa}. Ԑno akyi no, ɔtwa kwansini {num_digit_3, 5} dɔnhwere biara. Kwansini sԑn na ɔtwa no dɔnhwere {num_digit_4, 7} mu?",
+  "ic_sentence_template": "{name_female, Rosie} twii sakre kwansini {num_ic, 62} da koro pɛ.",
+  "ic_template": "{name_female, Rosie} twii sakre kwansini {num_ic, 62} da koro pɛ. {name_female, Rosie} bԑtumi atu mmirika kwansini {num_digit_1, 10} dɔnhwere biara saa dɔnhwere {num_digit_2, mmiɛnsa}. Ԑno akyi no, ɔtwa kwansini {num_digit_3, 5} dɔnhwere biara. Kwansini sԑn na ɔtwa no dɔnhwere {num_digit_4, 7} mu?",
+  "equation": "UPDATE HERE"
+}

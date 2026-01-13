@@ -1,0 +1,8 @@
+{
+  "original_question": "Stéphane a commandé des produits d'épicerie en ligne. Sa facture finale s'élève à 40,00 $. Comme il s'agissait d'un fournisseur de services de livraison, celui-ci a majoré la facture de 25 % et a ajouté 3,00 $ de frais de livraison. Stéphane a également donné un pourboire de 4,00 $. En comptant les frais supplémentaires, quel a été le prix final de la commande de Stéphane ?",
+  "original_answer": 57,
+  "symbolic_template": "{name_male, Stéphane} a commandé des produits d'épicerie en ligne. Sa facture finale s'élève à {num_digit_1, 40.00} $. Comme il s'agissait d'un fournisseur de services de livraison, celui-ci a majoré la facture de {num_digit_2, 25} % et a ajouté {num_digit_3, 3.00} $ de frais de livraison. {name_male, Stéphane} a également donné un pourboire de {num_digit_4, 4.00} $. En comptant les frais supplémentaires, quel a été le prix final de la commande de {name_male, Stéphane} ?",
+  "ic_sentence_template": "{name_male, Stephen} a une tante qui a acheté {num_ic, 41} bananes hier.",
+  "ic_template": "{name_male, Stephen} a une tante qui a acheté {num_ic, 41} bananes hier. {name_male, Stéphane} a commandé des produits d'épicerie en ligne. Sa facture finale s'élève à {num_digit_1, 40.00} $. Comme il s'agissait d'un fournisseur de services de livraison, celui-ci a majoré la facture de {num_digit_2, 25} % et a ajouté {num_digit_3, 3.00} $ de frais de livraison. {name_male, Stéphane} a également donné un pourboire de {num_digit_4, 4.00} $. En comptant les frais supplémentaires, quel a été le prix final de la commande de {name_male, Stéphane} ?",
+  "equation": "UPDATE HERE"
+}

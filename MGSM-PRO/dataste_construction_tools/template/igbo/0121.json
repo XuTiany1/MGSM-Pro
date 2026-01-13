@@ -1,0 +1,8 @@
+{
+  "original_question": "A gwara Morisette na Kael ka ha weta mkpụrụ osisi. Morisette wetara apụl  ise na oroma asatọ, ebe Kael wetara apụl ugboro abụọ na ọkara oroma karịa Morisette. Mkpụrụ osisi ole ka ha nwere na ngụkọta?",
+  "original_answer": 27,
+  "symbolic_template": "A gwara {name_female, Morisette} na {name_male, Kael} ka ha weta mkpụrụ osisi. {name_female, Morisette} wetara apụl {num_digit_1, 5} na oroma {num_digit_2, 8}, ebe {name_male, Kael} wetara apụl ugboro abụọ na ọkara oroma karịa {name_female, Morisette}. Mkpụrụ osisi ole ka ha nwere na ngụkọta?",
+  "ic_sentence_template": "Nwanne nne {name_male, Kael} chọtara daikon {num_ic, 29}.",
+  "ic_template": "Nwanne nne {name_male, Kael} chọtara daikon {num_ic, 29}. A gwara {name_female, Morisette} na {name_male, Kael} ka ha weta mkpụrụ osisi. {name_female, Morisette} wetara apụl {num_digit_1, 5} na oroma {num_digit_2, 8}, ebe {name_male, Kael} wetara apụl ugboro abụọ na ọkara oroma karịa {name_female, Morisette}. Mkpụrụ osisi ole ka ha nwere na ngụkọta?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "亚琳娜订阅了流媒体服务，每年的费用是 140 美元。如果流媒体公司对她收取上半年费用的初始金额，然后对她下半年的费用少收 10%，请计算到年底她为流媒体服务支付的总金额。",
+  "original_answer": 1596,
+  "symbolic_template": "{name_female, 亚琳娜} 订阅了流媒体服务，每月费用为 {num_digit_1, 140} 美元。如果流媒体公司对她收取前 半 年的初始金额，然后下 半  年的费用比之前少收 {num_digit_2, 10}%，请计算到年底她为流媒体服务支付的总金额。",
+  "ic_sentence_template": "{name_female, 阿丽娜} 的阿姨去年买了 {num_ic, 57} 张电影海报。",
+  "ic_template": "{name_female, 阿丽娜} 的阿姨去年买了 {num_ic, 57} 张电影海报。{name_female, 亚琳娜} 订阅了流媒体服务，每月费用为 {num_digit_1, 140} 美元。如果流媒体公司对她收取前 半 年的初始金额，然后下 半  年的费用比之前少收 {num_digit_2, 10}%，请计算到年底她为流媒体服务支付的总金额。",
+  "equation": "UPDATE HERE"
+}

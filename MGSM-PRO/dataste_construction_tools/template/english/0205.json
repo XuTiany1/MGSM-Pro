@@ -1,0 +1,8 @@
+{
+  "original_question": "Brinley is in Mr. Bert's math class. Mr. Bert gives six tests each semester. He allows the students to remove the lowest score from the average each semester. If Brinley has scores of 89, 71, 92, 100 and 86 on the first five tests, what score does she need on the sixth test to get an average of 93?",
+  "original_answer": 98,
+  "symbolic_template": "{name_female, Brinley} is in Mr. {name_family, Bert}'s math class. Mr. {name_family, Bert} gives six tests each semester. He allows the students to remove the lowest score from the average each semester. If {name_female, Brinley} has scores of {num_digit_1, 89}, {num_digit_2, 71}, {num_digit_3, 92}, {num_digit_4, 100} and {num_digit_5, 86} on the first five tests, what score does she need on the sixth test to get an average of {num_digit_6, 93}?",
+  "ic_sentence_template": "{name_female, Brinley}'s aunt once brought {num_ic, 21} donuts to share with the class.",
+  "ic_template": "{name_female, Brinley} is in Mr. {name_family, Bert}'s math class. Mr. {name_family, Bert} gives six tests each semester. He allows the students to remove the lowest score from the average each semester. If {name_female, Brinley} has scores of {num_digit_1, 89}, {num_digit_2, 71}, {num_digit_3, 92}, {num_digit_4, 100} and {num_digit_5, 86} on the first five tests, {name_female, Brinley}'s aunt once brought {num_ic, 21} donuts to share with the class. what score does she need on the sixth test to get an average of {num_digit_6, 93}?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Bei ya kalamu ni sawa na jumla ya bei ya penseli na bei ya kifutio. Bei ya penseli ni $1.20 na bei ya kifutio ni $0.30. Kalamu 8 zitakuwa pesa ngapi?",
+  "original_answer": 12,
+  "symbolic_template": "Bei ya kalamu ni sawa na jumla ya bei ya penseli na bei ya kifutio. Bei ya penseli ni ${num_digit_1, 1.20} na bei ya kifutio ni ${num_digit_2, 0.30}. Kalamu {num_digit_3, 8} zitakuwa pesa ngapi?",
+  "ic_sentence_template": "Daftari mpya {num_ic, 33} zimewasili dukani leo.",
+  "ic_template": "Daftari mpya {num_ic, 33} zimewasili dukani leo. Bei ya kalamu ni sawa na jumla ya bei ya penseli na bei ya kifutio. Bei ya penseli ni ${num_digit_1, 1.20} na bei ya kifutio ni ${num_digit_2, 0.30}. Kalamu {num_digit_3, 8} zitakuwa pesa ngapi?",
+  "equation": "UPDATE HERE"
+}

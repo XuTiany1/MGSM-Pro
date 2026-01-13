@@ -1,0 +1,8 @@
+{
+  "original_question": "一支钢笔的价格是一支铅笔和一块橡皮擦的总价。一支铅笔 1.20 美元，一块橡皮擦 0.30 美元。8 根钢笔多少钱？",
+  "original_answer": 12,
+  "symbolic_template": "一支钢笔的价格是一支铅笔和一块橡皮擦的总价。一支铅笔 {num_digit_1, 1.20} 美元，一块橡皮擦 {num_digit_2, 0.30} 美元。{num_digit_3, 8} 支钢笔多少钱？",
+  "ic_sentence_template": "今天商店新到了 {num_ic, 33} 本笔记本。",
+  "ic_template": "一支钢笔的价格是一支铅笔和一块橡皮擦的总价。一支铅笔 {num_digit_1, 1.20} 美元，一块橡皮擦 {num_digit_2, 0.30} 美元。今天商店新到了 {num_ic, 33} 本笔记本。{num_digit_3, 8} 支钢笔多少钱？",
+  "equation": "UPDATE HERE"
+}

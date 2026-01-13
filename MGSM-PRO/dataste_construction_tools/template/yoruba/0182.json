@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean gba ọdún méjì lọ́wọ́ ọ Mark.  Ní ọdún méjì sẹ́yìn Mark fi ọdún márùn-ún ju ìdajì ọjọ́ orí Jan lọ.  Tí Jan bá jẹ́ ọmọ ọdún 30, ọmọ ọdún mélòó ni Jean?",
+  "original_answer": 23,
+  "symbolic_template": "{name_male_1, Jean} gba ọdún méjì lọ́wọ́ ọ {name_male_2, Mark}. Ní ọdún méjì sẹ́yìn {name_male_2, Mark} fi ọdún {num_digit_1, 5} ju ìdajì ọjọ́ orí {name_female, Jan} lọ. Tí {name_female, Jan} bá jẹ́ ọmọ ọdún {num_digit_2, 30}, ọmọ ọdún mélòó ni {name_male_1, Jean}?",
+  "ic_sentence_template": "Ọ̀kọ̀ baba {name_male_1, Jean} ní {num_ic, 82} owó atijọ́.",
+  "ic_template": "Ọ̀kọ̀ baba {name_male_1, Jean} ní {num_ic, 82} owó atijọ́. {name_male_1, Jean} gba ọdún méjì lọ́wọ́ ọ {name_male_2, Mark}. Ní ọdún méjì sẹ́yìn {name_male_2, Mark} fi ọdún {num_digit_1, 5} ju ìdajì ọjọ́ orí {name_female, Jan} lọ. Tí {name_female, Jan} bá jẹ́ ọmọ ọdún {num_digit_2, 30}, ọmọ ọdún mélòó ni {name_male_1, Jean}?",
+  "equation": "UPDATE HERE"
+}

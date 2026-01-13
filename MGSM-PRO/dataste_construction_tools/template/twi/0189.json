@@ -1,0 +1,8 @@
+{
+  "original_question": "Ayɔnkofoɔ mmiensa bi de $20.25 tɔɔ tikiti 3 a wɔde bɛkɔ anigyeɛ fa no. Afei nso, wɔde sika a ɛndu $4.50 tɔ aduane so sen tikiti no. Afei nso, wɔkɔɔ akwantu ahorou mmienu a emu biara bo yɛ $33 mu. Sɛ wɔnyaa nteaseɛ sɛ wɔbɛkyekyɛ sika no nyinaa pɛpɛɛpɛ a, ahe na wɔn mu biara tuae?",
+  "original_answer": 34,
+  "symbolic_template": "Ayɔnkofoɔ mmiensa bi de ${num_digit_1, 20.25} tɔɔ tikiti {num_digit_2, 3} a wɔde bɛkɔ anigyeɛ fa no. Afei nso, wɔde sika a ɛndu ${num_digit_3, 4.50} tɔ aduane so sen tikiti no. Afei nso, wɔkɔɔ akwantu ahorou {num_digit_4, mmienu} a emu biara bo yɛ ${num_digit_5, 33} mu. Sɛ wɔnyaa nteaseɛ sɛ wɔbɛkyekyɛ sika no nyinaa pɛpɛɛpɛ a, ahe na wɔn mu biara tuae?",
+  "ic_sentence_template": "Wɔn nsewaa baako tɔɔ raffle tikiti {num_ic, 148} wɔ guasodeyɛbea.",
+  "ic_template": "Ayɔnkofoɔ mmiensa bi de ${num_digit_1, 20.25} tɔɔ tikiti {num_digit_2, 3} a wɔde bɛkɔ anigyeɛ fa no. Afei nso, wɔde sika a ɛndu ${num_digit_3, 4.50} tɔ aduane so sen tikiti no. Afei nso, wɔkɔɔ akwantu ahorou {num_digit_4, mmienu} a emu biara bo yɛ ${num_digit_5, 33} mu. Sɛ wɔnyaa nteaseɛ sɛ wɔbɛkyekyɛ sika no nyinaa pɛpɛɛpɛ a, ahe na wɔn mu biara tuae? Wɔn nsewaa baako tɔɔ raffle tikiti {num_ic, 148} wɔ guasodeyɛbea.",
+  "equation": "UPDATE HERE"
+}

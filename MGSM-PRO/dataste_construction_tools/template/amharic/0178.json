@@ -1,0 +1,8 @@
+{
+  "original_question": "ራኒ ከቦ በ4 ያነሱ ሸርጣኖች ካሉት ሞኒክ የበለጠ አስር ሸርጣኖች አሏት።ቦ 40 ሸርጣኖች ካሉት ሦስቱ ያላቸውን አጠቃላይ የሸርጣኖች ብዛት አስሉ ",
+  "original_answer": 122,
+  "symbolic_template": "   \n{name_female_1, ራኒ} ከ{name_male_1, ቦ} በ{num_digit_1, 4} ያነሱ ሸርጣኖች ካሉት {name_female_2, ሞኒክ} የበለጠ አስር ሸርጣኖች አሏት።{name_male_1, ቦ} {num_digit_2, 40} ሸርጣኖች ካሉት ሦስቱ ያላቸውን አጠቃላይ የሸርጣኖች ብዛት አስሉ",
+  "ic_sentence_template": "የ{name_female_2, ሞኒክ} አጎት በባሕር ዳር {num_ic, 88} የባሕር ጉርጉሞች አገኘ።",
+  "ic_template": "{name_female_1, ራኒ} ከ{name_male_1, ቦ} በ{num_digit_1, 4} ያነሱ ሸርጣኖች ካሉት {name_female_2, ሞኒክ} የበለጠ አስር ሸርጣኖች አሏት።{name_male_1, ቦ} {num_digit_2, 40} ሸርጣኖች ካሉት ሦስቱ ያላቸውን አጠቃላይ የሸርጣኖች ብዛት አስሉ የ{name_female_2, ሞኒክ} አጎት በባሕር ዳር {num_ic, 88} የባሕር ጉርጉሞች አገኘ።",
+  "equation": "UPDATE HERE"
+}

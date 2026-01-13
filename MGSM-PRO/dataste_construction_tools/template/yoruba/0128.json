@@ -1,0 +1,8 @@
+{
+  "original_question": "Ìyá Well ń ta watermelon, ata, àti ọsàn ni ilé ìtajà kan. Iye watermelon kan jẹ́ ìlọ́po mẹ́ta iye tí ata kọ̀ọ̀kan jẹ́. Wọ́n rán Dillon láti lọ ra watermelon 4, ata 20 àti ọsàn 10. Èló ni gbogbo owó tó máa ná tí ata kọ̀ọ̀kan bá jẹ́ $15?",
+  "original_answer": 880,
+  "symbolic_template": "Ìyá {name_male_1, Well} ń ta watermelon, ata, àti ọsàn ni ilé ìtajà kan. Iye watermelon kan jẹ́ ìlọ́po mẹ́ta iye tí ata kọ̀ọ̀kan jẹ́. Ọsàn kan jẹ́ {num_digit_1, 5} kéré ju iye watermelon lọ. Wọ́n rán {name_male_2, Dillon} láti lọ ra watermelon {num_digit_2, 4}, ata {num_digit_3, 20} àti ọsàn {num_digit_4, 10}. Èló ni gbogbo owó tó máa ná tí ata kọ̀ọ̀kan bá jẹ́ ${num_digit_5, 15}?",
+  "ic_sentence_template": "Ìyá agbà {name_male_2, Dillon} rà àná {num_ic, 92} ọ̀pẹ oyinbo.",
+  "ic_template": "Ìyá agbà {name_male_2, Dillon} rà àná {num_ic, 92} ọ̀pẹ oyinbo. Ìyá {name_male_1, Well} ń ta watermelon, ata, àti ọsàn ni ilé ìtajà kan. Iye watermelon kan jẹ́ ìlọ́po mẹ́ta iye tí ata kọ̀ọ̀kan jẹ́. Ọsàn kan jẹ́ {num_digit_1, 5} kéré ju iye watermelon lọ. Wọ́n rán {name_male_2, Dillon} láti lọ ra watermelon {num_digit_2, 4}, ata {num_digit_3, 20} àti ọsàn {num_digit_4, 10}. Èló ni gbogbo owó tó máa ná tí ata kọ̀ọ̀kan bá jẹ́ ${num_digit_5, 15}?",
+  "equation": "UPDATE HERE"
+}

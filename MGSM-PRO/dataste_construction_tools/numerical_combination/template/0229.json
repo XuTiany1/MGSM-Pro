@@ -1,0 +1,28 @@
+{
+    "problem_id": "0229",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [100, 400]},
+        "num_digit_2": {"type": "int", "range": [10, 50]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "first_harvest_count = (num_digit_2 / 100) * num_digit_1",
+            "rem_after_first = num_digit_1 - first_harvest_count",
+            "second_harvest_count = (3 / 4) * rem_after_first",
+            "ans = rem_after_first - second_harvest_count"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "(num_digit_2 * num_digit_1) % 100 == 0",
+            "(num_digit_1 * (1 - num_digit_2 / 100)) % 4 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

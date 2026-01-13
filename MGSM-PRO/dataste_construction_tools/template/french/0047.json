@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean achète deux fois plus de cravates rouges que de cravates bleues. Les cravates rouges coûtent 50 % de plus. Il a dépensé 200 $ pour les cravates bleues qui coûtent 40 $ chacune. Combien a-t-il dépensé en cravates ?",
+  "original_answer": 800,
+  "symbolic_template": "{name_male, Jean} achète deux fois plus de cravates rouges que de cravates bleues. Les cravates rouges coûtent {num_digit_1, 50} % de plus. Il a dépensé {num_digit_2, 200} $ pour les cravates bleues qui coûtent {num_digit_3, 40} $ chacune. Combien a-t-il dépensé en cravates ?",
+  "ic_sentence_template": "{name_male, John} a un oncle qui a trouvé {num_ic, 93} boutons de manchette lors d'une vente aux enchères.",
+  "ic_template": "{name_male, John} a un oncle qui a trouvé {num_ic, 93} boutons de manchette lors d'une vente aux enchères. {name_male, Jean} achète deux fois plus de cravates rouges que de cravates bleues. Les cravates rouges coûtent {num_digit_1, 50} % de plus. Il a dépensé {num_digit_2, 200} $ pour les cravates bleues qui coûtent {num_digit_3, 40} $ chacune. Combien a-t-il dépensé en cravates ?",
+  "equation": "UPDATE HERE"
+}

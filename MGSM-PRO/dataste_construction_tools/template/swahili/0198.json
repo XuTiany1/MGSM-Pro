@@ -1,0 +1,8 @@
+{
+  "original_question": "Elaine awali alikuwa na kadi 20 za Pokemon. Baada ya mwezi, alikusanya mara tatu zaidi ya idadi hiyo. Katika mwezi wa pili, kadi alizokusanya zilikuwa chache kwa kadi alizokusanya mwezi wa kwanza na 20. Mwezi wa tatu, alikusanya mara mbili ya jumla ya kadi za pokemon alizokusanya mwezi wa kwanza na wa pili. Kwa sasa ana jumla ya kadi ngapi za pokemon?",
+  "original_answer": 320,
+  "symbolic_template": "{name_female, Elaine} awali alikuwa na kadi {num_digit_1, 20} za Pokemon. Baada ya mwezi, alikusanya mara tatu zaidi ya idadi hiyo. Katika mwezi wa pili, kadi alizokusanya zilikuwa chache kwa kadi alizokusanya mwezi wa kwanza na {num_digit_2, 20}. Mwezi wa tatu, alikusanya mara mbili ya jumla ya kadi za pokemon alizokusanya mwezi wa kwanza na wa pili. Kwa sasa ana jumla ya kadi ngapi za pokemon?",
+  "ic_sentence_template": "Mjomba wa {name_female, Elaine} anamiliki kadi za besiboli {num_ic, 62984}.",
+  "ic_template": "Mjomba wa {name_female, Elaine} anamiliki kadi za besiboli {num_ic, 62984}. {name_female, Elaine} awali alikuwa na kadi {num_digit_1, 20} za Pokemon. Baada ya mwezi, alikusanya mara tatu zaidi ya idadi hiyo. Katika mwezi wa pili, kadi alizokusanya zilikuwa chache kwa kadi alizokusanya mwezi wa kwanza na {num_digit_2, 20}. Mwezi wa tatu, alikusanya mara mbili ya jumla ya kadi za pokemon alizokusanya mwezi wa kwanza na wa pili. Kwa sasa ana jumla ya kadi ngapi za pokemon?",
+  "equation": "UPDATE HERE"
+}

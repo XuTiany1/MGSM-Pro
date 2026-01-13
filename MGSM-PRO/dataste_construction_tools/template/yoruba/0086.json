@@ -1,0 +1,8 @@
+{
+  "original_question": "Greg ní ìtanijí tó kẹ́ láti dún ni ẹ̀ẹ̀mẹta lójúmọ́ gẹ́gẹ́ bí ìránilétí. Nígbà tí ìtanijí náà bá ti dún, yóò máa dún títí ìgbà tí Greg yóò fi pa á. Ìgbà àkọ́kọ́ tó dún lónì, ó dún ní ẹ̀ẹ̀mẹrin. Ìgbà kejì tó dún, ó dún ní ìlọ́po mẹta ju ti ìgbà àkọ́kọ́ lọ. Ní ìgbà kẹta, ó dún fún ìdajì ju ti ìgbà kejì lọ. Ìgbà mélòó ní ìtanijí náà dún ní àpapọ̀?",
+  "original_answer": 22,
+  "symbolic_template": "{name_male, Greg} ní ìtanijí tó kẹ́ láti dún ni ẹ̀ẹ̀mẹta lójúmọ́ gẹ́gẹ́ bí ìránilétí. Nígbà tí ìtanijí náà bá ti dún, yóò máa dún títí ìgbà tí {name_male, Greg} yóò fi pa á. Ìgbà àkọ́kọ́ tó dún lónì, ó dún ní ẹ̀ẹ̀mẹrin. Ìgbà kejì tó dún, ó dún ní ìlọ́po mẹta ju ti ìgbà àkọ́kọ́ lọ. Ní ìgbà kẹta, ó dún fún ìdajì ju ti ìgbà kejì lọ. Ìgbà mélòó ní ìtanijí náà dún ní àpapọ̀?",
+  "ic_sentence_template": "Ìyá bàbá {name_male, Greg} ṣe rà {num_ic, 15} aago ìjínewé tuntun.",
+  "ic_template": "Ìyá bàbá {name_male, Greg} ṣe rà {num_ic, 15} aago ìjínewé tuntun. {name_male, Greg} ní ìtanijí tó kẹ́ láti dún ni ẹ̀ẹ̀mẹta lójúmọ́ gẹ́gẹ́ bí ìránilétí. Nígbà tí ìtanijí náà bá ti dún, yóò máa dún títí ìgbà tí {name_male, Greg} yóò fi pa á. Ìgbà àkọ́kọ́ tó dún lónì, ó dún ní ẹ̀ẹ̀mẹrin. Ìgbà kejì tó dún, ó dún ní ìlọ́po mẹta ju ti ìgbà àkọ́kọ́ lọ. Ní ìgbà kẹta, ó dún fún ìdajì ju ti ìgbà kejì lọ. Ìgbà mélòó ní ìtanijí náà dún ní àpapọ̀?",
+  "equation": "UPDATE HERE"
+}

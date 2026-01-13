@@ -1,0 +1,8 @@
+{
+  "original_question": "卢克正在沙滩上建沙堡。他最后注意到，沙堡每一层的面积都是下一层面积的一半。如果他建了一座 4 层沙堡，其中顶层的面积为 16，则一层的平均面积是多少？",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, 卢克} 正在沙滩上建沙堡。他最后注意到，沙堡每一层的面积都是下一层面积的 一半。如果他建了一座 {num_digit_1, 4} 层沙堡，其中顶层的面积为 {num_digit_2, 16}，则一层的平均面积是多少？",
+  "ic_sentence_template": "{name_male, 卢克}的叔叔为大家带来了 {num_ic, 26} 把沙滩椅。",
+  "ic_template": "{name_male, 卢克}的叔叔为大家带来了 {num_ic, 26} 把沙滩椅。{name_male, 卢克} 正在沙滩上建沙堡。他最后注意到，沙堡每一层的面积都是下一层面积的 一半。如果他建了一座 {num_digit_1, 4} 层沙堡，其中顶层的面积为 {num_digit_2, 16}，则一层的平均面积是多少？",
+  "equation": "UPDATE HERE"
+}

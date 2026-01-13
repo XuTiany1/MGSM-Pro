@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean ana umri wa miaka miwili zaidi ya Mark. Miaka miwili iliyopita Mark alikuwa na umri wa miaka 5 zaidi ya nusu ya umri wa Jan. Ikiwa Jan ana umri wa miaka 30, Jean ana miaka mingapi?",
+  "original_answer": 23,
+  "symbolic_template": "{name_male_1, Jean} ana umri wa miaka miwili zaidi ya {name_male_2, Mark}. Miaka miwili iliyopita {name_male_2, Mark} alikuwa na umri wa {num_digit_1, miaka 5} zaidi ya nusu ya umri wa {name_female, Jan}. Ikiwa {name_female, Jan} ana umri wa {num_digit_2, miaka 30}, {name_male_1, Jean} ana umri wa miaka mingapi?",
+  "ic_sentence_template": "Mjomba wa {name_male_1, Jean} ana sarafu za zamani {num_ic, 82}.",
+  "ic_template": "Mjomba wa {name_male_1, Jean} ana sarafu za zamani {num_ic, 82}. {name_male_1, Jean} ana umri wa miaka miwili zaidi ya {name_male_2, Mark}. Miaka miwili iliyopita {name_male_2, Mark} alikuwa na umri wa {num_digit_1, miaka 5} zaidi ya nusu ya umri wa {name_female, Jan}. Ikiwa {name_female, Jan} ana umri wa {num_digit_2, miaka 30}, {name_male_1, Jean} ana umri wa miaka mingapi?",
+  "equation": "UPDATE HERE"
+}

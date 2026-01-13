@@ -1,0 +1,8 @@
+{
+  "original_question": "Ejula anọ ka enwere n'otu akwarium na ejula iri atọ na abụọ na akwarium ọzọ. Ịhe di iche n'etiti ọnụ ọgụgụ ejula dị n'ime akwarium abụọ ahụ bụ okpukpu abụọ nke  ọnụ ọgụgụ azụ̀ dị n'ime akwarium abụọ ahụ. Ọ bụrụ na aquarium abụọ ahụ nwere otu ọnụ ọgụgụ azụ̀ n'ime ha, azụ̀ ole ka enwere n'ime akwarium nke ọ bụla.",
+  "original_answer": 7,
+  "symbolic_template": "Ejula {num_digit_1, 4} ka enwere n'otu akwarium na ejula {num_digit_2, 32} na akwarium ọzọ. Ịhe di iche n'etiti ọnụ ọgụgụ ejula dị n'ime akwarium abụọ ahụ bụ okpukpu abụọ nke ọnụ ọgụgụ azụ̀ dị n'ime akwarium abụọ ahụ. Ọ bụrụ na aquarium abụọ ahụ nwere otu ọnụ ọgụgụ azụ̀ n'ime ha, azụ̀ ole ka enwere n'ime akwarium nke ọ bụla.",
+  "ic_sentence_template": "Nwanne nna nwanyị {name_male_2, Kyle} bịara n’ụlọ nri na {num_ic, 18458} akpa nke ketchup.",
+  "ic_template": "Ejula {num_digit_1, 4} ka enwere n'otu akwarium na ejula {num_digit_2, 32} na akwarium ọzọ. Ịhe di iche n'etiti ọnụ ọgụgụ ejula dị n'ime akwarium abụọ ahụ bụ okpukpu abụọ nke ọnụ ọgụgụ azụ̀ dị n'ime akwarium abụọ ahụ. Ọ bụrụ na aquarium abụọ ahụ nwere otu ọnụgụ azụ̀ n'ime ha, azụ̀ ole ka enwere n'ime akwarium nke ọ bụla. Nwanne nna nwanyị {name_male_2, Michael} bịara n’ụlọ nri na {num_ic, 15} akpa nke ketchup.",
+  "equation": "UPDATE HERE"
+}

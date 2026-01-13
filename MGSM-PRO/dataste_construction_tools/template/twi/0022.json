@@ -1,0 +1,8 @@
+{
+  "original_question": "Billy tɔn DVD. Ͻwɔ adetɔfoɔ 8 Benada bi mu. N’adetɔfoɔ a ԑdi kan no biara tɔ DVD baako pԑ. Adetɔfoɔ mmienu a ԑdi so no biara tɔ DVD mmienu. N’adetɔfoɔ mmiԑnsa a ԑtwa toɔ no ԑntɔ DVD baako koraa. DVD sԑn na Billy tɔnn Benada no?",
+  "original_answer": 7,
+  "symbolic_template": "{name_male, Billy} tɔn DVD. Ͻwɔ adetɔfoɔ {num_digit_1, 8} Benada bi mu. N’adetɔfoɔ a ԑdi kan no {num_digit_2, 3} biara tɔ DVD baako pԑ. Adetɔfoɔ {num_digit_3, 2} a ԑdi so no biara tɔ DVD {num_digit_4, 2}. N’adetɔfoɔ {num_digit_5, 3} a ԑtwa toɔ no ԑntɔ DVD baako koraa. DVD sԑn na {name_male, Billy} tɔnn Benada no?",
+  "ic_sentence_template": "{name_male, Billy} sewaa de aburow a yakye {num_ic, 18} baeɛ de bɛkyɛɛ.",
+  "ic_template": "{name_male, Billy} sewaa de aburow a yakye {num_ic, 18} baeɛ de bɛkyɛɛ. {name_male, Billy} tɔn DVD. Ͻwɔ adetɔfoɔ {num_digit_1, 8} Benada bi mu. N’adetɔfoɔ a ԑdi kan no {num_digit_2, 3} biara tɔ DVD baako pԑ. Adetɔfoɔ {num_digit_3, 2} a ԑdi so no biara tɔ DVD {num_digit_4, 2}. N’adetɔfoɔ {num_digit_5, 3} a ԑtwa toɔ no ԑntɔ DVD baako koraa. DVD sԑn na {name_male, Billy} tɔnn Benada no?",
+  "equation": "UPDATE HERE"
+}

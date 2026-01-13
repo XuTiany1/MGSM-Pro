@@ -1,0 +1,27 @@
+{
+    "problem_id": "0116",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [2, 10]},
+        "num_digit_2": {"type": "int", "range": [5, 20]},
+        "num_digit_3": {"type": "int", "range": [50, 300]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "ratio_sum = num_digit_1 + num_digit_2",
+            "one_part = num_digit_3 / ratio_sum",
+            "ans = num_digit_1 * one_part"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_3": [
+            "num_digit_3 % (num_digit_1 + num_digit_2) == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Iye ọjọ́ orí seth je ìlọ́po méjì iye ọjọ́ ori Brooke. Lẹ́yìn ọdún méjì, iye ọjọ́ orí àwọn méjèèjì lápapọ̀ jẹ́ 28. Ọmọ ọdún mélòó ni Seth?",
+  "original_answer": 16,
+  "symbolic_template": "Iye ọjọ́ orí {name_male, Seth} je ìlọ́po méjì iye ọjọ́ ori {name_female, Brooke}. Lẹ́yìn ọdún {num_digit_1, 2}, iye ọjọ́ orí àwọn méjèèjì lápapọ̀ jẹ́ {num_digit_2, 28}. Ọmọ ọdún mélòó ni {name_male, Seth}?",
+  "ic_sentence_template": "Ìyá ńlá {name_male, Seth} ṣẹ́ṣẹ̀ rà tikẹ́ẹ̀tì fíìmù ẹ̀yà ìdínà {num_ic, 17}.",
+  "ic_template": "Ìyá ńlá {name_male, Seth} ṣẹ́ṣẹ̀ rà tikẹ́ẹ̀tì fíìmù ẹ̀yà ìdínà {num_ic, 17}. Iye ọjọ́ orí {name_male, Seth} je ìlọ́po méjì iye ọjọ́ ori {name_female, Brooke}. Lẹ́yìn ọdún {num_digit_1, 2}, iye ọjọ́ orí àwọn méjèèjì lápapọ̀ jẹ́ {num_digit_2, 28}. Ọmọ ọdún mélòó ni {name_male, Seth}?",
+  "equation": "UPDATE HERE"
+}

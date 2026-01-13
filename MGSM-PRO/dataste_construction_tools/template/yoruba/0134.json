@@ -1,0 +1,8 @@
+{
+  "original_question": "Tom máa ń fọ ọkọ‌-ayọ‌kẹ‌lẹ‌ rẹ‌ ní ìgbà mẹ‌rin lóṣù kan. Tí fífọ ọkọ‌ ní ẹ‌ẹ‌kan bá jẹ‌ $15 èló ni ó ń san ní ọdún kan?",
+  "original_answer": 720,
+  "symbolic_template": "{name_male, Tom} máa ń fọ ọkọ‌‌-ayọ‌‌kẹ‌‌lẹ‌‌ rẹ‌‌ ní ìgbà {num_digit_1, 4} lóṣù kan. Tí fífọ ọkọ‌‌ ní ẹ‌‌ẹ‌‌kan bá jẹ‌‌ ${num_digit_2, 15} èló ni ó ń san ní ọdún kan?",
+  "ic_sentence_template": "Arákùnrin {name_male, Tom} ra ọkọ ayọkẹ́lẹ̀ ìṣeré {num_ic, 14} lọ́sẹ̀ tó kọja.",
+  "ic_template": "Arákùnrin {name_male, Tom} ra ọkọ ayọkẹ́lẹ̀ ìṣeré {num_ic, 14} lọ́sẹ̀ tó kọja. {name_male, Tom} máa ń fọ ọkọ‌‌-ayọ‌‌kẹ‌‌lẹ‌‌ rẹ‌‌ ní ìgbà {num_digit_1, 4} lóṣù kan. Tí fífọ ọkọ‌‌ ní ẹ‌‌ẹ‌‌kan bá jẹ‌‌ ${num_digit_2, 15} èló ni ó ń san ní ọdún kan?",
+  "equation": "UPDATE HERE"
+}

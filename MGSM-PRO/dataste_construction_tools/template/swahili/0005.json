@@ -1,0 +1,8 @@
+{
+  "original_question": "Kylar alienda kwa duka kununua vioo vya jengo lake jipya. Kioo kimoja kinagharimu $5, lakini kila kioo cha pili kinagharimu 60% pekee ya bei. Kylar anataka kununua vioo 16. Anahitaji kulipa pesa ngapi kwa vioo hivyo?",
+  "original_answer": 64,
+  "symbolic_template": "{name_male, Kylar} alienda kwa duka kununua vioo vya jengo lake jipya. Kioo kimoja kinagharimu ${num_digit_1, 5}, lakini kila kioo cha pili kinagharimu {num_digit_2, 60}% pekee ya bei. {name_male, Kylar} anataka kununua vioo {num_digit_3, 16}. Anahitaji kulipa pesa ngapi kwa vioo hivyo?",
+  "ic_sentence_template": "Shangazi yake {name_male, Kylar} alinunua vikombe {num_ic, 25} kwa ajili ya ofisi yake hivi karibuni.",
+  "ic_template": "Shangazi yake {name_male, Kylar} alinunua vikombe {num_ic, 25} kwa ajili ya ofisi yake hivi karibuni. {name_male, Kylar} alienda kwa duka kununua vioo vya jengo lake jipya. Kioo kimoja kinagharimu ${num_digit_1, 5}, lakini kila kioo cha pili kinagharimu {num_digit_2, 60}% pekee ya bei. {name_male, Kylar} anataka kununua vioo {num_digit_3, 16}. Anahitaji kulipa pesa ngapi kwa vioo hivyo?",
+  "equation": "UPDATE HERE"
+}

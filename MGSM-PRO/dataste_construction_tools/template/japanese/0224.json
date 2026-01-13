@@ -1,0 +1,8 @@
+{
+  "original_question": "カルロスとベンジはビーチにいます。カルロスは1時間30ドルでカヌーを借り、ベンジは1時間18ドルでバナナボートを借りました。カルロスがカヌーを3時間、ベンジがボートを5時間使用した場合、2人が合計で支払うレンタル料はいくらですか？",
+  "original_answer": 180,
+  "symbolic_template": "{name_male_1, カルロス} と {name_male_2, ベンジ} はビーチにいます。{name_male_1, カルロス} は1時間 {num_digit_1, 30} ドルでカヌーを借り、{name_male_2, ベンジ} は1時間 {num_digit_2, 18} ドルでバナナボートを借りました。{name_male_1, カルロス} がカヌーを {num_digit_3, 3} 時間、{name_male_2, ベンジ} がバナナボートを {num_digit_4, 5} 時間使用した場合、2人が合計で支払うレンタル料はいくらですか？",
+  "ic_sentence_template": "{name_male_2, ベンジー}のおじさんはグループのために{num_ic, 680}枚のタオルを持ってきました。",
+  "ic_template": "{name_male_2, ベンジー}のおじさんはグループのために{num_ic, 680}枚のタオルを持ってきました。{name_male_1, カルロス} と {name_male_2, ベンジ} はビーチにいます。{name_male_1, カルロス} は1時間 {num_digit_1, 30} ドルでカヌーを借り、{name_male_2, ベンジ} は1時間 {num_digit_2, 18} ドルでバナナボートを借りました。{name_male_1, カルロス} がカヌーを {num_digit_3, 3} 時間、{name_male_2, ベンジ} がバナナボートを {num_digit_4, 5} 時間使用した場合、2人が合計で支払うレンタル料はいくらですか？",
+  "equation": "UPDATE HERE"
+}

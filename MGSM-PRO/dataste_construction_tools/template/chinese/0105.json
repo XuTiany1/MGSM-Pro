@@ -1,0 +1,8 @@
+{
+  "original_question": "科迪吃的饼干数量是阿米尔的三倍。如果阿米尔吃了 5 片饼干，他们一共吃了多少饼干？",
+  "original_answer": 20,
+  "symbolic_template": "{name_male_1, 科迪} 吃的饼干数量是 {name_male_2, 阿米尔} 的 三 倍。如果 {name_male_2, 阿米尔} 吃了 {num_digit_1, 5} 片饼干，他们一共吃了多少饼干？",
+  "ic_sentence_template": "{name_male_2, 阿米尔} 的叔叔带了 {num_ic, 20} 块布朗尼到聚会。",
+  "ic_template": "{name_male_2, 阿米尔} 的叔叔带了 {num_ic, 20} 块布朗尼到聚会。{name_male_1, 科迪} 吃的饼干数量是 {name_male_2, 阿米尔} 的 三 倍。如果 {name_male_2, 阿米尔} 吃了 {num_digit_1, 5} 片饼干，他们一共吃了多少饼干？",
+  "equation": "UPDATE HERE"
+}

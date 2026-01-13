@@ -1,0 +1,8 @@
+{
+  "original_question": "Claire huandaa kimanda chenye mayai 3 kila asubuhi wakati wa staftahi. Atakula dazeni ngapi za mayai baada katika wiki 4?",
+  "original_answer": 7,
+  "symbolic_template": "{name_female, Claire} huandaa kimanda chenye mayai {num_digit_1, 3} kila asubuhi wakati wa staftahi. Atakula dazeni ngapi za mayai baada katika wiki {num_digit_2, 4}?",
+  "ic_sentence_template": "Mjomba wa {name_female, Claire} ana kuku {num_ic, 44} katika shamba lake.",
+  "ic_template": "Mjomba wa {name_female, Claire} ana kuku {num_ic, 44} katika shamba lake. {name_female, Claire} huandaa kimanda chenye mayai {num_digit_1, 3} kila asubuhi wakati wa staftahi. Atakula dazeni ngapi za mayai baada katika wiki {num_digit_2, 4}?",
+  "equation": "UPDATE HERE"
+}

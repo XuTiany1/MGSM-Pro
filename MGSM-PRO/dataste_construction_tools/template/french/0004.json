@@ -1,0 +1,8 @@
+{
+  "original_question": "Pour garder ses poulets en bonne santé, Wendi leur donne chaque jour trois bols d'aliments mixtes contenant des graines, des vers de farine et des légumes. Elle les nourrit en trois repas séparés. Le matin, elle leur donne 15 bols d'aliments. L'après-midi, elle leur en donne 25 autres. Si son élevage compte 20 poulets, combien de bols de nourriture doit-elle leur donner pour le dernier repas de la journée ?",
+  "original_answer": 20,
+  "symbolic_template": "Pour garder ses poulets en bonne santé, {name_female, Wendi} leur donne chaque jour trois bols d'aliments mixtes contenant des graines, des vers de farine et des légumes. Elle les nourrit en trois repas séparés. Le matin, elle leur donne {num_digit_1, 15} bols d'aliments. L'après-midi, elle leur en donne {num_digit_2, 25} autres. Si son élevage compte {num_digit_3, 20} poulets, combien de bols de nourriture doit-elle leur donner pour le dernier repas de la journée ?",
+  "ic_sentence_template": "{name_female, Wendi} a un oncle qui a ramassé {num_ic, 69} œufs dans son poulailler hier.",
+  "ic_template": "{name_female, Wendi} a un oncle qui a ramassé {num_ic, 69} œufs dans son poulailler hier. Pour garder ses poulets en bonne santé, {name_female, Wendi} leur donne chaque jour trois bols d'aliments mixtes contenant des graines, des vers de farine et des légumes. Elle les nourrit en trois repas séparés. Le matin, elle leur donne {num_digit_1, 15} bols d'aliments. L'après-midi, elle leur en donne {num_digit_2, 25} autres. Si son élevage compte {num_digit_3, 20} poulets, combien de bols de nourriture doit-elle leur donner pour le dernier repas de la journée ?",
+  "equation": "UPDATE HERE"
+}

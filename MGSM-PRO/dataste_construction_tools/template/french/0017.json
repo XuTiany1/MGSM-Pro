@@ -1,0 +1,8 @@
+{
+  "original_question": "Jill gagne 20 $ de l'heure en tant qu'enseignante et 30 $ comme entraineuse de majorettes. Si elle travaille 35 heures par semaine en tant qu'enseignante, 15 heures par semaine comme entraineuse et 50 semaines par an, quel est son salaire annuel ?",
+  "original_answer": 57500,
+  "symbolic_template": "{name_female, Jill} gagne {num_digit_1, 20} $ de l'heure en tant qu'enseignante et {num_digit_2, 30} $ comme entraineuse de majorettes. Si elle travaille {num_digit_4, 35} heures par semaine en tant qu'enseignante, {num_digit_5, 15} heures par semaine comme entraineuse et {num_digit_3, 50} semaines par an, quel est son salaire annuel ?",
+  "ic_sentence_template": "{name_female, Jill} a un oncle qui a récemment adopté {num_ic, 127} chiots.",
+  "ic_template": "{name_female, Jill} a un oncle qui a récemment adopté {num_ic, 127} chiots. {name_female, Jill} gagne {num_digit_1, 20} $ de l'heure en tant qu'enseignante et {num_digit_2, 30} $ comme entraineuse de majorettes. Si elle travaille {num_digit_4, 35} heures par semaine en tant qu'enseignante, {num_digit_5, 15} heures par semaine comme entraineuse et {num_digit_3, 50} semaines par an, quel est son salaire annuel ?",
+  "equation": "UPDATE HERE"
+}

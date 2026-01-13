@@ -1,0 +1,32 @@
+{
+    "problem_id": "0090",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [4, 20]},
+        "num_digit_2": {"type": "int", "range": [10, 30]},
+        "num_digit_3": {"type": "int", "range": [5, 15]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "child_rate = num_digit_1 / 2"
+        ],
+        "num_digit_3": [
+            "adult_total = num_digit_2 * num_digit_1",
+            "child_total = num_digit_3 * child_rate",
+            "ans = adult_total + child_total"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 4}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "num_digit_1 % 2 == 0"
+        ],
+        "num_digit_3": [
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "ቻርሊ ከዶርቲ በሶስት እጥፍ የፌስቡክ ጓደኞች አሏት።ጄምስ በፌስቡክ ላይ ከዶርቲ በአራት እጥፍ የሚበልጥ ጓደኞች አሉት። ቻርሊ በፌስቡክ 12 ጓደኞች ካሏት ጀምስ ስንት የፌስቡክ ጓደኞች አሉት?",
+  "original_answer": 16,
+  "symbolic_template": "{name_male_1, ቻርሊ} ከ{name_male_2, ዶርቲ} በሶስት እጥፍ የፌስቡክ ጓደኞች አሏት። {name_male_3, ጄምስ} በፌስቡክ ላይ ከ{name_male_2, ዶርቲ} በአራት እጥፍ የሚበልጥ ጓደኞች አሉት። {name_male_1, ቻርሊ} በፌስቡክ {num_digit_1, 12} ጓደኞች ካሏት {name_male_3, ጀምስ} ስንት የፌስቡክ ጓደኞች አሉት?",
+  "ic_sentence_template": "የ{name_male_3, ጄምስ} አክስት የሆነች በቅርብ ጊዜ {num_ic, 67} ውሻ ግልገሎችን አሳደገች።",
+  "ic_template": "{name_male_1, ቻርሊ} ከ{name_male_2, ዶርቲ} በሶስት እጥፍ የፌስቡክ ጓደኞች አሏት። {name_male_3, ጄምስ} በፌስቡክ ላይ ከ{name_male_2, ዶርቲ} በአራት እጥፍ የሚበልጥ ጓደኞች አሉት። {name_male_1, ቻርሊ} በፌስቡክ {num_digit_1, 12} ጓደኞች ካሏት {name_male_3, ጀምስ} ስንት የፌስቡክ ጓደኞች አሉት? የ{name_male_3, ጄምስ} አክስት የሆነች በቅርብ ጊዜ {num_ic, 67} ውሻ ግልገሎችን አሳደገች።",
+  "equation": "UPDATE HERE"
+}

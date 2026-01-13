@@ -1,0 +1,8 @@
+{
+  "original_question": "Kylar se rend au magasin afin d'acheter des verres pour son nouvel appartement. Un verre coûte 5 $, mais chaque deuxième verre ne coûte que 60 % du prix. Kylar veut acheter 16 verres. Combien devra-t-il payer pour les acheter ?",
+  "original_answer": 64,
+  "symbolic_template": "{name_male, Kylar} se rend au magasin afin d'acheter des verres pour son nouvel appartement. Un verre coûte {num_digit_1, 5} $, mais chaque deuxième verre ne coûte que {num_digit_2, 60} % du prix. {name_male, Kylar} veut acheter {num_digit_3, 16} verres. Combien devra-t-il payer pour les acheter ?",
+  "ic_sentence_template": "{name_male, Kylar} a une tante qui a récemment acheté {num_ic, 25} mugs pour son bureau.",
+  "ic_template": "{name_male, Kylar} a une tante qui a récemment acheté {num_ic, 25} mugs pour son bureau. {name_male, Kylar} se rend au magasin afin d'acheter des verres pour son nouvel appartement. Un verre coûte {num_digit_1, 5} $, mais chaque deuxième verre ne coûte que {num_digit_2, 60} % du prix. {name_male, Kylar} veut acheter {num_digit_3, 16} verres. Combien devra-t-il payer pour les acheter ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Àgbá omi kan ní ìjìnlẹ̀ 17 feet ní ọjọ́ Ajé. Ní ọjọ́ Ìṣẹ́gun, àgbá omi náà ní ẹ̀kún-un omi 7 feet sí i. Ní ọjọ́rú, ìjìnlẹ̀ omi náà jẹ́ ìdá méjì nínú mẹ́ta ohun tí ó jẹ́ lọ́jọ́ Ìṣẹ́gun. Kí ni ìjìnlẹ̀ àgbá omi náà lọ́jọ́rú?",
+  "original_answer": 16,
+  "symbolic_template": "Àgbá omi kan ní ìjìnlẹ̀ {num_digit_1, 17} feet ní ọjọ́ Ajé. Ní ọjọ́ Ìṣẹ́gun, àgbá omi náà ní ẹ̀kún-un omi {num_digit_2, 7} feet sí i. Ní ọjọ́rú, ìjìnlẹ̀ omi náà jẹ́ ìdá méjì nínú mẹ́ta ohun tí ó jẹ́ lọ́jọ́ Ìṣẹ́gun. Kí ni ìjìnlẹ̀ àgbá omi náà lọ́jọ́rú?",
+  "ic_sentence_template": "Unkúlù {name_male, Brian} ṣàyẹ̀wò ìpele omi inú tánkì náà {num_ic, 79} ìgbà lọ́dún tó kọjá.",
+  "ic_template": "Unkúlù {name_male, Brian} ṣàyẹ̀wò ìpele omi inú tánkì náà {num_ic, 79} ìgbà lọ́dún tó kọjá. Àgbá omi kan ní ìjìnlẹ̀ {num_digit_1, 17} feet ní ọjọ́ Ajé. Ní ọjọ́ Ìṣẹ́gun, àgbá omi náà ní ẹ̀kún-un omi {num_digit_2, 7} feet sí i. Ní ọjọ́rú, ìjìnlẹ̀ omi náà jẹ́ ìdá méjì nínú mẹ́ta ohun tí ó jẹ́ lọ́jọ́ Ìṣẹ́gun. Kí ni ìjìnlẹ̀ àgbá omi náà lọ́jọ́rú?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "二十打杯子的总费用比半打盘子的总费用低 1,200 美元，每个盘子售价 6,000 美元。计算购买每个杯子的总费用。",
+  "original_answer": 145,
+  "symbolic_template": " 二十 打杯子的总费用比 半 打盘子的总费用低 {num_digit_1, 1,200} 美元，每个盘子售价 {num_digit_2, 6,000} 美元。计算购买每个杯子的总费用",
+  "ic_sentence_template": "二十 打杯子被存放在仓库里，放在 {num_ic, 245} 个茶壶旁边。",
+  "ic_template": "二十 打杯子被存放在仓库里，放在 {num_ic, 245} 个茶壶旁边。二十 打杯子的总费用比 半 打盘子的总费用低 {num_digit_1, 1,200} 美元，每个盘子售价 {num_digit_2, 6,000} 美元。计算购买每个杯子的总费用",
+  "equation": "UPDATE HERE"
+}

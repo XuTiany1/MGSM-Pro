@@ -1,0 +1,8 @@
+{
+  "original_question": "Aleena twerԑԑ no din wɔ wɔn a woyi sini bi hɔ a na ɔtua $140 bosome biara. Sԑ siniyi dwumakuo no gyee sika a na ԑwɔ sԑ wɔgye mfitiaseԑ no wɔ afe no fa a ԑdi kan no na ɔgyee ɔha nkyԑmu du ntesoɔ wɔ afe no fa a aka no a, hwehwԑ sika dodoɔ a ɔtua maa siniyi dwumakuo no wɔ afe no mu nyinaa.",
+  "original_answer": 1596,
+  "symbolic_template": "{name_female, Aleena} twerԑԑ no din wɔ wɔn a woyi sini bi hɔ a na ɔtua ${num_digit_1, 140} bosome biara. Sԑ siniyi dwumakuo no gyee sika a na ԑwɔ sԑ wɔgye mfitiaseԑ no wɔ afe no fa  a ԑdi kan no na ɔgyee {num_digit_2, ɔha nkyԑmu du} ntesoɔ wɔ afe no fa  a aka no a, hwehwԑ sika dodoɔ a ɔtua maa siniyi dwumakuo no wɔ afe no mu nyinaa.",
+  "ic_sentence_template": "{name_female, Aleena} sewaa tɔɔ sini ho krataa {num_ic, 57} afe a atwa mu.",
+  "ic_template": "{name_female, Aleena} sewaa tɔɔ sini ho krataa {num_ic, 57} afe a atwa mu. {name_female, Aleena} twerԑԑ no din wɔ wɔn a woyi sini bi hɔ a na ɔtua ${num_digit_1, 140} bosome biara. Sԑ siniyi dwumakuo no gyee sika a na ԑwɔ sԑ wɔgye mfitiaseԑ no wɔ afe no fa  a ԑdi kan no na ɔgyee {num_digit_2, ɔha nkyԑmu du} ntesoɔ wɔ afe no fa  a aka no a, hwehwԑ sika dodoɔ a ɔtua maa siniyi dwumakuo no wɔ afe no mu nyinaa.",
+  "equation": "UPDATE HERE"
+}

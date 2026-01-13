@@ -1,0 +1,8 @@
+{
+  "original_question": "Baldur pọn omi kànga kan. Ó máa ń rí omi 5 pails ní àràárọ‌ àti omi 6 pails ní ọ‌sán. Tí pail kọ‌ọ‌kan bá ní lítà 5 omi, lítà omi mélòó ni ó máa ń rí lójoojúmọ‌?",
+  "original_answer": 55,
+  "symbolic_template": "{name_male, Baldur} pọn omi ní kànga kan. Ó máa ń rí omi {num_digit_1, 5} pails ní àràárọ‌ àti omi {num_digit_2, 6} pails ní ọ‌sán. Tí pail kọ‌ọ‌kan bá ní lítà {num_digit_3, 5} omi, lítà omi mélòó ni ó máa ń rí lójoojúmọ‌?",
+  "ic_sentence_template": "Ilé-ọ̀kànṣoṣo kan ni baba-nla {name_male, Baldur} kọ́ pẹ̀lú pánẹli igi {num_ic, 137}.",
+  "ic_template": "Ilé-ọ̀kànṣoṣo kan ni baba-nla {name_male, Baldur} kọ́ pẹ̀lú pánẹli igi {num_ic, 137}. {name_male, Baldur} pọn omi ní kànga kan. Ó máa ń rí omi {num_digit_1, 5} pails ní àràárọ‌ àti omi {num_digit_2, 6} pails ní ọ‌sán. Tí pail kọ‌ọ‌kan bá ní lítà {num_digit_3, 5} omi, lítà omi mélòó ni ó máa ń rí lójoojúmọ‌?",
+  "equation": "UPDATE HERE"
+}

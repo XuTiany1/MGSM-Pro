@@ -1,0 +1,8 @@
+{
+  "original_question": "ፓም እና ፍሬድ ወደ ጭፈራ በአል ሄዱ። ፓም ሮለር ኮስተር 2 ጊዜ ሲነዳ ፍሬድ ደግሞ 4 ጊዜ ነዳ። ከዚያ በኋላ እያንዳንዳቸው 2 ጊዜ ሉጌ ለመንዳት ወሰኑ።እያንዳንዱ የጉዞ ዋጋ 6 ትኬቶች ከሆነ፣ በዚያ ቀን ስንት ትኬቶችን ተጠቅመዋል?",
+  "original_answer": 60,
+  "symbolic_template": "{name_female, ፓም} እና {name_male, ፍሬድ} ወደ ጭፈራ በአል ሄዱ። {name_female, ፓም} ሮለር ኮስተር {num_digit_1, 2} ጊዜ ሲነዳ {name_male, ፍሬድ} ደግሞ {num_digit_2, 4} ጊዜ ነዳ። ከዚያ በኋላ እያንዳንዳቸው {num_digit_3, 2} ጊዜ ሉጌ ለመንዳት ወሰኑ።እያንዳንዱ የጉዞ ዋጋ {num_digit_4, 6} ትኬቶች ከሆነ፣ በዚያ ቀን ስንት ትኬቶችን ተጠቅመዋል?",
+  "ic_sentence_template": "{name_male, ፍሬድ} አጎቱ ወደ ቫል በዓል {num_ic, 42} የነፋስ ኳሶችን አመጣ።",
+  "ic_template": "{name_female, ፓም} እና {name_male, ፍሬድ} ወደ ጭፈራ በአል ሄዱ። {name_female, ፓም} ሮለር ኮስተር {num_digit_1, 2} ጊዜ ሲነዳ {name_male, ፍሬድ} ደግሞ {num_digit_2, 4} ጊዜ ነዳ። ከዚያ በኋላ እያንዳንዳቸው {num_digit_3, 2} ጊዜ ሉጌ ለመንዳት ወሰኑ።እያንዳንዱ የጉዞ ዋጋ {num_digit_4, 6} ትኬቶች ከሆነ፣ በዚያ ቀን ስንት ትኬቶችን ተጠቅመዋል? {name_male, ፍሬድ} አጎቱ ወደ ቫል በዓል {num_ic, 42} የነፋስ ኳሶችን አመጣ።",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean a 3 boîtes. Chaque boîte mesure 5 x 6 x 4 pouces. Les parois ont 1 pouce d'épaisseur. Quel est le volume intérieur total des 3 boîtes ?",
+  "original_answer": 72,
+  "symbolic_template": "{name_male, Jean} a {num_digit_1, 3} boîtes. Chaque boîte mesure {num_digit_2, 5} x {num_digit_3, 6} x {num_digit_4, 4} pouces. Les parois ont {num_digit_5, 1} pouce d'épaisseur. Quel est le volume intérieur total des {num_digit_1, 3} boîtes ?",
+  "ic_sentence_template": "{name_male, John} a une tante qui a récemment acheté {num_ic, 49} boîtes supplémentaires pour son grenier.",
+  "ic_template": "{name_male, John} a une tante qui a récemment acheté {num_ic, 49} boîtes supplémentaires pour son grenier. {name_male, Jean} a {num_digit_1, 3} boîtes. Chaque boîte mesure {num_digit_2, 5} x {num_digit_3, 6} x {num_digit_4, 4} pouces. Les parois ont {num_digit_5, 1} pouce d'épaisseur. Quel est le volume intérieur total des {num_digit_1, 3} boîtes ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "ジャンにはマルシアの3倍の数のペットを飼っています。マルシアはシンディーよりも2匹多くペットを飼っています。もしシンディーが4匹のペットを飼っているなら、3人は全部で何匹のペットを飼っていますか？",
+  "original_answer": 28,
+  "symbolic_template": "{name_female_1, ジャン} には{name_female_2, マルシア}の三倍の数のペットを飼っています。{name_female_2, マルシア}は{name_female_3, シンディー}よりも二匹多くペットを飼っています。もし{name_female_3, シンディー}が四匹のペットを飼っているなら、3人は全部で何匹のペットを飼っていますか？",
+  "ic_sentence_template": "{name_female_2, マーシャ}のおじさんは{num_ic, 16}羽の鳥を飼っています。",
+  "ic_template": "{name_female_2, マーシャ}のおじさんは{num_ic, 16}羽の鳥を飼っています。{name_female_1, ジャン} には{name_female_2, マルシア}の三倍の数のペットを飼っています。{name_female_2, マルシア}は{name_female_3, シンディー}よりも二匹多くペットを飼っています。もし{name_female_3, シンディー}が四匹のペットを飼っているなら、3人は全部で何匹のペットを飼っていますか？",
+  "equation": "UPDATE HERE"
+}

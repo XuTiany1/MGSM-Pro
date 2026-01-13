@@ -1,0 +1,8 @@
+{
+  "original_question": "Carlos ń gbin igi ọsàn wéwé. Igi náà máa ná a tó $90 láti gbìn. Ní ọdún kọ̀ọ̀kan ó máa so ọsàn wẹ́wẹ́ 7, èyí tí ó lè tà ní $1.5 ẹyọ kan. Ó ná a tó $3 lọ́dún kan láti bomi rin àti láti fún àwọn igi náà lóúnjẹ. Ọdún mélòó ló máa gbà kò tó di wí pé yóò bẹ̀rẹ̀ sí pa owó lórí igi ọsàn wẹ́wẹ́ náà?",
+  "original_answer": 13,
+  "symbolic_template": "{name_male, Carlos} ń gbin igi ọsàn wéwé. Igi náà máa ná a tó ${num_digit_1, 90} láti gbìn. Ní ọdún kọ̀ọ̀kan ó máa so ọsàn wẹ́wẹ́ {num_digit_2, 7}, èyí tí ó lè tà ní ${num_digit_3, 1.5} ẹyọ kan. Ó ná a tó ${num_digit_4, 3} lọ́dún kan láti bomi rin àti láti fún àwọn igi náà lóúnjẹ. Ọdún mélòó ló máa gbà kò tó di wí pé yóò bẹ̀rẹ̀ sí pa owó lórí igi ọsàn wẹ́wẹ́ náà?",
+  "ic_sentence_template": "Arákùnrin {name_male, Carlos} mu àwọn orombo {num_ic, 136} wá sí àpéjọ idile tó ṣẹ̀ṣẹ̀ kọjá.",
+  "ic_template": "Arákùnrin {name_male, Carlos} mu àwọn orombo {num_ic, 136} wá sí àpéjọ idile tó ṣẹ̀ṣẹ̀ kọjá. {name_male, Carlos} ń gbin igi ọsàn wéwé. Igi náà máa ná a tó ${num_digit_1, 90} láti gbìn. Ní ọdún kọ̀ọ̀kan ó máa so ọsàn wẹ́wẹ́ {num_digit_2, 7}, èyí tí ó lè tà ní ${num_digit_3, 1.5} ẹyọ kan. Ó ná a tó ${num_digit_4, 3} lọ́dún kan láti bomi rin àti láti fún àwọn igi náà lóúnjẹ. Ọdún mélòó ló máa gbà kò tó di wí pé yóò bẹ̀rẹ̀ sí pa owó lórí igi ọsàn wẹ́wẹ́ náà?",
+  "equation": "UPDATE HERE"
+}

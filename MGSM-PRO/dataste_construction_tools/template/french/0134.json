@@ -1,0 +1,8 @@
+{
+  "original_question": "Tom effectue 4 lavages de voiture par mois. Si chaque lavage coûte 15 dollars, combien dépense-t-il en un an ?",
+  "original_answer": 720,
+  "symbolic_template": "{name_male, Tom} effectue {num_digit_1, 4} lavages de voiture par mois. Si chaque lavage coûte {num_digit_2, 15} dollars, combien dépense-t-il en un an ?",
+  "ic_sentence_template": "{name_male, Tom} a cousin a acheté {num_ic, 14} voitures-jouets la semaine dernière.",
+  "ic_template": "{name_male, Tom} a cousin a acheté {num_ic, 14} voitures-jouets la semaine dernière. {name_male, Tom} effectue {num_digit_1, 4} lavages de voiture par mois. Si chaque lavage coûte {num_digit_2, 15} dollars, combien dépense-t-il en un an ?",
+  "equation": "UPDATE HERE"
+}

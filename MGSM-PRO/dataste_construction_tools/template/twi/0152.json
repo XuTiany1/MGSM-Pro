@@ -1,0 +1,8 @@
+{
+  "original_question": "Carl tɔ krakase nkotoku edu. Krakase biara mu no, krakase nsia na ɛwɔ mu. Krakase biara bo yɛ $0.10. Sɛ Carl de $10 tua ka a, nsesa ahe na onya yɛ?",
+  "original_answer": 4,
+  "symbolic_template": "{name_male, Carl} tɔ krakase nkotoku edu. Krakase biara mu no, krakase nsia na ɛwɔ mu. Krakase biara bo yɛ ${num_digit_1, 0.10}. Sɛ {name_male, Carl} de ${num_digit_2, 10} tua ka a, nsesa ahe na onya yɛ?",
+  "ic_sentence_template": "{name_male, Carl} sewaa de paanoo {num_ic, 31} baa aponto no ase.",
+  "ic_template": "{name_male, Carl} tɔ krakase nkotoku edu. Krakase biara mu no, krakase nsia na ɛwɔ mu. Krakase biara bo yɛ ${num_digit_1, 0.10}. Sɛ {name_male, Carl} de ${num_digit_2, 10} tua ka a, nsesa ahe na onya yɛ? {name_male, Carl} sewaa de paanoo {num_ic, 31} baa aponto no ase.",
+  "equation": "UPDATE HERE"
+}

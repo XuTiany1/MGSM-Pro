@@ -1,0 +1,8 @@
+{
+  "original_question": "Na Janet wɔ ahabammono twerɛdua 22 ne akokɔsrade twerɛdua 10. Ɛno akyi no, ɔtɔɔ nkotokuo 6 a twerɛdua bibire wɔ mune nkotokuo 2 a twerɛdua kɔkɔɔ wɔ mu. Na twerɛdua bebree 9 wɔ kotokuo a na ɛyɛ bibire , na  nkotokuo 2 a twerɛdua pii kɔkɔɔ wɔ mu. Twerɛdua dodoɔ ahe na Janet wɔ seesei?",
+  "original_answer": 98,
+  "symbolic_template": "Na {name_female, Janet} wɔ ahabammono twerɛdua {num_digit_1, 22} ne akokɔsrade twerɛdua {num_digit_2, 10}. Ɛno akyi no, ɔtɔɔ nkotokuo {num_digit_3, 6} a twerɛdua bibire wɔ mu ne nkotokuo {num_digit_4, 2} a twerɛdua kɔkɔɔ wɔ mu. Na twerɛdua bebree {num_digit_5, 9} wɔ kotokuo a na ɛyɛ bibire, na nkotokuo {num_digit_4, 2} a twerɛdua pii kɔkɔɔ wɔ mu bɛyɛ {num_digit_6, 6}. Twerɛdua dodoɔ ahe na {name_female, Janet} wɔ seesei?",
+  "ic_sentence_template": "{name_female, Janet} nua no nsa kaa krataa nwoma {num_ic, 700} sɛ akyɛde nkyeɛ.",
+  "ic_template": "{name_female, Janet} nua no nsa kaa krataa nwoma {num_ic, 700} sɛ akyɛde nkyeɛ. Na {name_female, Janet} wɔ ahabammono twerɛdua {num_digit_1, 22} ne akokɔsrade twerɛdua {num_digit_2, 10}. Ɛno akyi no, ɔtɔɔ nkotokuo {num_digit_3, 6} a twerɛdua bibire wɔ mu ne nkotokuo {num_digit_4, 2} a twerɛdua kɔkɔɔ wɔ mu. Na twerɛdua bebree {num_digit_5, 9} wɔ kotokuo a na ɛyɛ bibire, na nkotokuo {num_digit_4, 2} a twerɛdua pii kɔkɔɔ wɔ mu bɛyɛ {num_digit_6, 6}. Twerɛdua dodoɔ ahe na {name_female, Janet} wɔ seesei?",
+  "equation": "UPDATE HERE"
+}

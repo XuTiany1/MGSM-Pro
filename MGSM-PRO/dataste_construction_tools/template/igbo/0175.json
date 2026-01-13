@@ -1,0 +1,8 @@
+{
+  "original_question": "Juan na nwanne ya nwoke Carlos na-ere ihe ọn̄un̄ụ lemọọnụ. Maka galọn ọ bụla ha na-eme ọnu ego ya $3 maka lemọọnụ na $2 maka shuga. Ha na-ere iko ọ bụla maka $0.50 na enweta iko iri abụọ na galọn ọ bụla. Ọ bụrụ na ha nwetara $25 na uru, ego ole ka ha mefuru na lemọọnụ?",
+  "original_answer": 15,
+  "symbolic_template": "{name_male_1, Juan} na nwanne ya nwoke {name_male_2, Carlos} na-ere ihe ọn̄un̄ụ lemọọnụ. Maka galọn ọ bụla ha na-eme ọnu ego ya ${num_digit_1, 3} maka lemọọnụ na ${num_digit_2, 2} maka shuga. Ha na-ere iko ọ bụla maka ${num_digit_3, 0.50} na enweta iko {num_digit_4, 20} na galọn ọ bụla. Ọ bụrụ na ha nwetara ${num_digit_5, 25} na uru, ego ole ka ha mefuru na lemọọnụ?",
+  "ic_sentence_template": "Nwanne nne {name_male_2, Carlos} kpọrọ kuki {num_ic, 44} ka e kesaa.",
+  "ic_template": "Nwanne nne {name_male_2, Carlos} kpọrọ kuki {num_ic, 44} ka e kesaa. {name_male_1, Juan} na nwanne ya nwoke {name_male_2, Carlos} na-ere ihe ọn̄un̄ụ lemọọnụ. Maka galọn ọ bụla ha na-eme ọnu ego ya ${num_digit_1, 3} maka lemọọnụ na ${num_digit_2, 2} maka shuga. Ha na-ere iko ọ bụla maka ${num_digit_3, 0.50} na enweta iko {num_digit_4, 20} na galọn ọ bụla. Ọ bụrụ na ha nwetara ${num_digit_5, 25} na uru, ego ole ka ha mefuru na lemọọnụ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Ram de twerɛdua bebree di dwuma paa. Ohui sɛ obetumi de sika asie obetumi di adubiri afra twerɛdua enum a hwee nnim mu de ayɛ pɛn baako. Sɛ ɔtɔ twerɛdua bebree 25 na afei momfa wɔn nyɛ twerɛdua foforɔ berɛ a adubiri tintim no asa, twerɛdua bebree dodoɔ ahe na obenya?",
+  "original_answer": 31,
+  "symbolic_template": "{name_male, Ram} de twerɛdua bebree di dwuma paa. Ohui sɛ obetumi de sika asie obetumi di adubiri afra twerɛdua enum a hwee nnim mu de ayɛ pɛn baako. Sɛ ɔtɔ twerɛdua bebree {num_digit_1, 25} na afei momfa wɔn nyɛ twerɛdua foforɔ berɛ a adubiri tintim no asa, twerɛdua bebree dodoɔ ahe na obenya?",
+  "ic_sentence_template": "{name_male, Ram} wɔfa tɔɔ nsɛm kyerɛw nwoma {num_ic, 13408} da koro bi a wɔ tee so maa no.",
+  "ic_template": "{name_male, Ram} de twerɛdua bebree di dwuma paa. Ohui sɛ obetumi de sika asie obetumi di adubiri afra twerɛdua enum a hwee nnim mu de ayɛ pɛn baako. Sɛ ɔtɔ twerɛdua bebree {num_digit_1, 25} na afei momfa wɔn nyɛ twerɛdua foforɔ berɛ a adubiri tintim no asa, twerɛdua bebree dodoɔ ahe na obenya? {name_male, Ram} wɔfa tɔɔ nsɛm kyerɛw nwoma {num_ic, 13408} da koro bi a wɔ tee so maa no.",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "After transferring to a new school, Amy made 20 more friends than Lily. If Lily made 50 friends, how many friends do Lily and Amy have together?",
+  "original_answer": 120,
+  "symbolic_template": "After transferring to a new school, {name_female_1, Amy} made {num_digit_1, 20} more friends than {name_female_2, Lily}. If {name_female_2, Lily} made {num_digit_2, 50} friends, how many friends do {name_female_2, Lily} and {name_female_1, Amy} have together?",
+  "ic_sentence_template": "{name_female_2, Lily}'s uncle gave her {num_ic, 42} comic books as a welcome gift.",
+  "ic_template": "After transferring to a new school, {name_female_1, Amy} made {num_digit_1, 20} more friends than {name_female_2, Lily}. {name_female_2, Lily}'s uncle gave her {num_ic, 42} comic books as a welcome gift. If {name_female_2, Lily} made {num_digit_2, 50} friends, how many friends do {name_female_2, Lily} and {name_female_1, Amy} have together?",
+  "equation": "UPDATE HERE"
+}

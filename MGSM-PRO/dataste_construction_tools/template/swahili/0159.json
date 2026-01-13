@@ -1,0 +1,8 @@
+{
+  "original_question": "Finn anatazama watoto 11 wa chura wakiogelea katika kidimbwi. Ghafla anaona 6 wakitoka mafichoni chini ya yungiyungi, na kisha 2 kati yao wanajificha chini ya mwamba. Finn kwa sasa anaweza kuona watoto wangapi wa chura kwenye kidimbwi?",
+  "original_answer": 15,
+  "symbolic_template": "{name_male, Finn} anaona vyura wachanga {num_digit_1, 11} wakielea kwenye kidimbwi. Ghafla akaona {num_digit_2, 6} wakitoka kujificha chini ya yungiyungi, kisha akaona {num_digit_3, 2} wakijificha chini ya jiwe. Sasa {name_male, Finn} anaona vyura wachanga wangapi kwenye kidimbwi?",
+  "ic_sentence_template": "Mjomba wa {name_male, Finn} aliona vyura  {num_ic, 87} katika bwawa tofauti asubuhi ya leo.",
+  "ic_template": "Mjomba wa {name_male, Finn} aliona vyura  {num_ic, 87} katika bwawa tofauti asubuhi ya leo. {name_male, Finn} anaona vyura wachanga {num_digit_1, 11} wakielea kwenye kidimbwi. Ghafla akaona {num_digit_2, 6} wakitoka kujificha chini ya yungiyungi, kisha akaona {num_digit_3, 2} wakijificha chini ya jiwe. Sasa {name_male, Finn} anaona vyura wachanga wangapi kwenye kidimbwi?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Na Jimmy wɔ sika  $2 a na eboro Ethel mmɔho mmienu. Sɛ Ethal wɔ $8 a, sika ahe na Jimmy wɔ?",
+  "original_answer": 18,
+  "symbolic_template": "Na {name_male_1, Jimmy} wɔ sika ${num_digit_1, 2} a na eboro {name_male_2, Ethel} mmɔho mmienu. Sɛ {name_male_2, Ethal} wɔ ${num_digit_2, 8} a, sika ahe na {name_male_1, Jimmy} wɔ?",
+  "ic_sentence_template": "{name_male_2, Ethel} wɔfa huu sika nsisii {num_ic, 33} wɔ n'abansoro dan atifi.",
+  "ic_template": "{name_male_2, Ethel} wɔfa huu sika nsisii {num_ic, 33} wɔ n'abansoro dan atifi. Na {name_male_1, Jimmy} wɔ sika ${num_digit_1, 2} a na eboro {name_male_2, Ethel} mmɔho mmienu. Sɛ {name_male_2, Ethal} wɔ ${num_digit_2, 8} a, sika ahe na {name_male_1, Jimmy} wɔ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,22 @@
+{
+    "problem_id": "0023",
+    "generation_order": ["num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [2, 20]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "ans = num_digit_1 * 4"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

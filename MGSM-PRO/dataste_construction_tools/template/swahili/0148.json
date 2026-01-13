@@ -1,0 +1,8 @@
+{
+  "original_question": "Brittany na mamake wanaenda kwenye makavazi. Gharama ya kuingia ni $12 kwa watu wazima na $10 kwa watoto. Mamake Brittany analipa pesa ya tiketi ya mtoto 1 na tiketi ya mtu mzima 1. Ikiwa alirudushiwa $8, ni pesa ngapi, katika dola, alikuwa amelipa?",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, Brittany} na mama yake wanaenda kwenye jumba la makumbusho. Gharama ya kiingilio ni ${num_digit_1, 12} kwa watu wazima na ${num_digit_2, 10} kwa watoto. Mama yake {name_female, Brittany} anampelekea mhudumu wa tiketi pesa za tiketi ya mtoto {num_digit_3, 1} na tiketi ya mtu mzima {num_digit_4, 1}. Ikiwa alipokea chenji ya ${num_digit_5, 8}, alimpa mhudumu pesa ngapi kwa jumla?",
+  "ic_sentence_template": "Mjomba wa {name_female, Brittany} alitembelea jumba la makumbusho wiki iliyopita na kununua kadi za posta {num_ic, 31}.",
+  "ic_template": "Mjomba wa {name_female, Brittany} alitembelea jumba la makumbusho wiki iliyopita na kununua kadi za posta {num_ic, 31}. {name_female, Brittany} na mama yake wanaenda kwenye jumba la makumbusho. Gharama ya kiingilio ni ${num_digit_1, 12} kwa watu wazima na ${num_digit_2, 10} kwa watoto. Mama yake {name_female, Brittany} anampelekea mhudumu wa tiketi pesa za tiketi ya mtoto {num_digit_3, 1} na tiketi ya mtu mzima {num_digit_4, 1}. Ikiwa alipokea chenji ya ${num_digit_5, 8}, alimpa mhudumu pesa ngapi kwa jumla?",
+  "equation": "UPDATE HERE"
+}

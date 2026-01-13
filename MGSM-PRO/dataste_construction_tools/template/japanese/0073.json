@@ -1,0 +1,8 @@
+{
+  "original_question": "シーラは5つの携帯電話を3回払いで、それぞれ$150で購入した。各ユニットに、2%の利息が請求される。シーラは3カ月間、毎月いくら払うことになるか？",
+  "original_answer": 255,
+  "symbolic_template": "{name_female, シーラ}は、1台あたり${num_digit_1, 150}の携帯電話を5台購入しました。支払いは{num_digit_2, 3}か月の分割払いで行い、各端末には{num_digit_3, 2}%の利息がかかります。{name_female, シーラ}は{num_digit_2, 3}か月間、毎月いくら支払うことになりますか?",
+  "ic_sentence_template": "{name_female, シーラ}のおじはちょうど携帯電話のプロモーション用に{num_ic, 82}枚のチラシを受け取りました。",
+  "ic_template": "{name_female, シーラ}のおじはちょうど携帯電話のプロモーション用に{num_ic, 82}枚のチラシを受け取りました。{name_female, シーラ}は、1台あたり${num_digit_1, 150}の携帯電話を5台購入しました。支払いは{num_digit_2, 3}か月の分割払いで行い、各端末には{num_digit_3, 2}%の利息がかかります。{name_female, シーラ}は{num_digit_2, 3}か月間、毎月いくら支払うことになりますか?",
+  "equation": "UPDATE HERE"
+}

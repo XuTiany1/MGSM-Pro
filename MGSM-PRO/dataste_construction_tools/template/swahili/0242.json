@@ -1,0 +1,8 @@
+{
+  "original_question": "Mike alikuwa rafiki ya watu 5. Aliacha kuwa rafiki ya 2 kati yao. Huwa wanatumiana barua 2 kila wiki na barua hizo zina urefu wa kurasa 5. Huwa anajibu kwa ukarimu. Anaweza kuandika ukurasa kwa dakika 6. Huwa anatumia saa ngapi kuandika barua kwa wiki?",
+  "original_answer": 3,
+  "symbolic_template": "{name_male, Mike} alikuwa rafiki wa barua na watu {num_digit_1, 5}. Aliacha kuwa rafiki wa barua na {num_digit_2, 2} kati yao. Kila mmoja hutuma barua {num_digit_3, 2} kwa wiki ambazo zina kurasa {num_digit_4, 5}. Yeye hujibu vivyo hivyo. Anaweza kuandika ukurasa mmoja kila dakika {num_digit_6, 6}. Anatumia saa ngapi kuandika kwa wiki?",
+  "ic_sentence_template": "Shangazi wa {name_male, Mike} husoma vitabu {num_ic, 91741} kila mwaka.",
+  "ic_template": "Shangazi wa {name_male, Mike} husoma vitabu {num_ic, 91741} kila mwaka. {name_male, Mike} alikuwa rafiki wa barua na watu {num_digit_1, 5}. Aliacha kuwa rafiki wa barua na {num_digit_2, 2} kati yao. Kila mmoja hutuma barua {num_digit_3, 2} kwa wiki ambazo zina kurasa {num_digit_4, 5}. Yeye hujibu vivyo hivyo. Anaweza kuandika ukurasa mmoja kila dakika {num_digit_6, 6}. Anatumia saa ngapi kuandika kwa wiki?",
+  "equation": "UPDATE HERE"
+}

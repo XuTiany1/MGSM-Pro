@@ -1,0 +1,8 @@
+{
+  "original_question": "Les canards ont besoin de manger 3,5 livres d'insectes par semaine pour survivre. Combien de livres d'insectes faut-il par jour à un troupeau de dix canards ?",
+  "original_answer": 5,
+  "symbolic_template": "Les canards ont besoin de manger {num_digit_1, 3.5} livres d'insectes par semaine pour survivre. Combien de livres d'insectes faut-il par jour à un troupeau de dix canards ?",
+  "ic_sentence_template": "{num_ic, 144} grenouilles vivent dans l’étang à côté du champ.",
+  "ic_template": "{num_ic, 144} grenouilles vivent dans l’étang à côté du champ. Les canards ont besoin de manger {num_digit_1, 3.5} livres d'insectes par semaine pour survivre. Combien de livres d'insectes faut-il par jour à un troupeau de dix canards ?",
+  "equation": "UPDATE HERE"
+}

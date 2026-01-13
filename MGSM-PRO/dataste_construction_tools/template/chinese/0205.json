@@ -1,0 +1,8 @@
+{
+  "original_question": "布林利是伯特老师数学班的学生。伯特老师每个学期进行 6 场考试。他允许学生从每个学期的平均分中去掉最低分数。如果布林利在前五场考试中得分为 89、71、92、100 和 86，他需要在第六场考试中考到多少分才能达到平均分 93？",
+  "original_answer": 98,
+  "symbolic_template": "{name_female, 布林利} 是 {name_family, 伯特} 老师数学班的学生。{name_family, 伯特} 老师每个学期进行 6 场考试。他允许学生从每个学期的平均分中去掉最低分数。如果 {name_female, 布林利} 在前五场考试中得分为 {num_digit_1, 89}、{num_digit_2, 71}、{num_digit_3, 92}、{num_digit_4, 100} 和 {num_digit_5, 86}，她需要在第六场考试中考到多少分才能达到平均分 {num_digit_6, 93}？",
+  "ic_sentence_template": "{name_female, 布林利} 的阿姨曾经带来 {num_ic, 21} 个甜甜圈和全班同学分享。",
+  "ic_template": "{name_female, 布林利} 的阿姨曾经带来 {num_ic, 21} 个甜甜圈和全班同学分享。{name_female, 布林利} 是 {name_family, 伯特} 老师数学班的学生。{name_family, 伯特} 老师每个学期进行 6 场考试。他允许学生从每个学期的平均分中去掉最低分数。如果 {name_female, 布林利} 在前五场考试中得分为 {num_digit_1, 89}、{num_digit_2, 71}、{num_digit_3, 92}、{num_digit_4, 100} 和 {num_digit_5, 86}，她需要在第六场考试中考到多少分才能达到平均分 {num_digit_6, 93}？",
+  "equation": "UPDATE HERE"
+}

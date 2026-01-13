@@ -1,0 +1,8 @@
+{
+  "original_question": "Darasa lina ubao mweupe unaoshirikiwa kati ya walimu 4 ambao hutumia darasa hilo kwa zamu. Kila mwalimu ana masomo 2 kwa siku na hutumia ubao huo mweupe katika kila somo. Iwapo ubao mweupe hufutwa mara 3 kwa kila somo, ubao huo mweupe huwa unafutwa mara ngapi kwa siku?",
+  "original_answer": 24,
+  "symbolic_template": "Darasa lina ubao mweupe unaoshirikiwa kati ya walimu {num_digit_1, 4} ambao hutumia darasa hilo kwa zamu. Kila mwalimu ana masomo {num_digit_2, 2} kwa siku na hutumia ubao huo mweupe katika kila somo. Iwapo ubao mweupe hufutwa mara {num_digit_3, 3} kwa kila somo, ubao huo mweupe huwa unafutwa mara ngapi kwa siku?",
+  "ic_sentence_template": "Mpwa wa msafishaji huleta alama za rangi {num_ic, 61} shuleni.",
+  "ic_template": "Mpwa wa msafishaji huleta alama za rangi {num_ic, 61} shuleni. Darasa lina ubao mweupe unaoshirikiwa kati ya walimu {num_digit_1, 4} ambao hutumia darasa hilo kwa zamu. Kila mwalimu ana masomo {num_digit_2, 2} kwa siku na hutumia ubao huo mweupe katika kila somo. Iwapo ubao mweupe hufutwa mara {num_digit_3, 3} kwa kila somo, ubao huo mweupe huwa unafutwa mara ngapi kwa siku?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Dylan chọrọ sọseeji anụ ọkụkọ na sọseeji azụ ịji mee sọseeji bọns na mmemme. Ọ zụtara sọseeji ọkụkọ iri atọ na asatọ na sọseeji azụ ji ugboro isii karịa sọseeji ọkụkọ. Kedụ sọseeji ole Dylan zụtaara n'ihe niile? ",
+  "original_answer": 82,
+  "symbolic_template": "Dịka {name_male, Dylan} chọrọ sọseeji anụ ọkụkọ na sọseeji azụ ịji mee sọseeji bọns na mmemme. Ọ zụtara sọseeji ọkụkọ {num_digit_1, 38} na sọseeji azụ ji {num_digit_2, 6} karịa sọseeji ọkụkọ. Kedụ sọseeji ole {name_male, Dylan} zụtaara n'ihe niile?",
+  "ic_sentence_template": "Nwanne nne {name_male, Dylan} zutere nwanne nna ya, onye wepụtara ngwa {num_ic, 62} akpa lemonedi.",
+  "ic_template": "Nwanne nne {name_male, Dylan} zutere nwanne nna ya, onye wepụtara ngwa {num_ic, 62} akpa lemonedi. Dịka {name_male, Dylan} chọrọ sọseeji anụ ọkụkọ na sọseeji azụ ịji mee sọseeji bọns na mmemme. Ọ zụtara sọseeji ọkụkọ {num_digit_1, 38} na sọseeji azụ ji {num_digit_2, 6} karịa sọseeji ọkụkọ. Kedụ sọseeji ole {name_male, Dylan} zụtaara n'ihe niile?",
+  "equation": "UPDATE HERE"
+}

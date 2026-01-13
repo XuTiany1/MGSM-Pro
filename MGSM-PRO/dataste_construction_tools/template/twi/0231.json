@@ -1,0 +1,8 @@
+{
+  "original_question": "Kylie ne Robert anigyee ho sɛ wɔbɛkɔ mpoano akɔboaboa nworaa ano. Wɔ ɛdwoda no, Kylie boaboa nworaa ano 5 sen Robert a ɔboaboa nworaa ano 20. Benada no, Kylie boaboa nworaa dodoɔ a na ɔwɔ  ɛdwoda no ano 2. Kylie boaboa nworaa dodoɔ bɛn ano wɔ Wukuada?",
+  "original_answer": 50,
+  "symbolic_template": "{name_male_1, Kylie} ne {name_male_2, Robert} anigyee ho sɛ wɔbɛkɔ mpoano akɔboaboa nworaa ano. Wɔ ɛdwoda no, {name_male_1, Kylie} boaboa nworaa ano {num_digit_1, 5} sen {name_male_2, Robert} a ɔboaboa nworaa ano {num_digit_2, 20}. Benada no, {name_male_1, Kylie} boaboa nworaa dodoɔ a na ɔwɔ ɛdwoda no ano {num_digit_3, 2}. {name_male_1, Kylie} boaboa nworaa dodoɔ bɛn ano wɔ Wukuada?",
+  "ic_sentence_template": "{name_male_2, Robert} nesewaa huu nsuomu nhwiren nketewa {num_ic, 8243} wɔ ahuhurow bere a atwaam mu no.",
+  "ic_template": "{name_male_2, Robert} nesewaa huu nsuomu nhwiren nketewa {num_ic, 8243} wɔ ahuhurow bere a atwaam mu no. {name_male_1, Kylie} ne {name_male_2, Robert} anigyee ho sɛ wɔbɛkɔ mpoano akɔboaboa nworaa ano. Wɔ ɛdwoda no, {name_male_1, Kylie} boaboa nworaa ano {num_digit_1, 5} sen {name_male_2, Robert} a ɔboaboa nworaa ano {num_digit_2, 20}. Benada no, {name_male_1, Kylie} boaboa nworaa dodoɔ a na ɔwɔ ɛdwoda no ano {num_digit_3, 2}. {name_male_1, Kylie} boaboa nworaa dodoɔ bɛn ano wɔ Wukuada?",
+  "equation": "UPDATE HERE"
+}

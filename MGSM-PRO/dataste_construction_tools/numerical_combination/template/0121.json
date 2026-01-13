@@ -1,0 +1,27 @@
+{
+    "problem_id": "0121",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [3, 15]},
+        "num_digit_2": {"type": "int", "range": [4, 20]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "morisette_total = num_digit_1 + num_digit_2",
+            "kael_apples = num_digit_1 * 2",
+            "kael_oranges = num_digit_2 / 2",
+            "ans = morisette_total + kael_apples + kael_oranges"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "num_digit_2 % 2 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

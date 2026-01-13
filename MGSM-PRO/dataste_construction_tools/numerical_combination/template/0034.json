@@ -1,0 +1,26 @@
+{
+    "problem_id": "0034",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [1, 10]},
+        "num_digit_2": {"type": "int", "range": [2, 15]},
+        "num_digit_3": {"type": "int", "range": [20, 100]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "aaron_jewels = (num_digit_3 / 2) + num_digit_2",
+            "ans = aaron_jewels - num_digit_1"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_3": [
+            "num_digit_3 % 2 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "劳埃德有一个产蛋场。他的鸡每天产 252 颗蛋，他每打鸡蛋卖 2 美元。劳埃德每周从鸡蛋赚多少钱？",
+  "original_answer": 294,
+  "symbolic_template": "{name_male, 劳埃德} 有一个产蛋场。他的鸡每天产 {num_digit_1, 252} 颗蛋，他每打鸡蛋卖 {num_digit_2, 2} 美元。{name_male, 劳埃德} 每周从鸡蛋赚多少钱？",
+  "ic_sentence_template": "{name_male, 劳埃德}的叔叔刚买了 {num_ic, 105} 只鹅。",
+  "ic_template": "{name_male, 劳埃德}的叔叔刚买了 {num_ic, 105} 只鹅。{name_male, 劳埃德} 有一个产蛋场。他的鸡每天产 {num_digit_1, 252} 颗蛋，他每打鸡蛋卖 {num_digit_2, 2} 美元。{name_male, 劳埃德} 每周从鸡蛋赚多少钱？",
+  "equation": "UPDATE HERE"
+}

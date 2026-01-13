@@ -1,0 +1,36 @@
+{
+    "problem_id": "0012",
+    "generation_order": ["num_digit_2", "num_digit_3", "num_digit_4", "num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [50, 150]},
+        "num_digit_2": {"type": "int", "range": [5, 20]},
+        "num_digit_3": {"type": "float", "construction": "random.choice([0.5, 1.5, 2.5, 0.75, 1.25])"},
+        "num_digit_4": {"type": "int", "range": [2, 10]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "annual_revenue = num_digit_2 * num_digit_3"
+        ],
+        "num_digit_4": [
+            "annual_profit = annual_revenue - num_digit_4"
+        ],
+        "num_digit_1": [
+            "years_to_repay = num_digit_1 / annual_profit",
+            "ans = math.floor(years_to_repay) + 1"
+        ],
+        "num_ic": []
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_4": [
+            "annual_profit > 0"
+        ],
+        "num_digit_1": [
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

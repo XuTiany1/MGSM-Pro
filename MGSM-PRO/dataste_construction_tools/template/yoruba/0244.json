@@ -1,0 +1,8 @@
+{
+  "original_question": "Griffin ní french fries 24, ṣùgbọ́n Kyle mú 5 nínú wọn.  Billy gba ìlọ́po méjì ti ti Kyle.  Ginger fún Griffin ní díẹ̀ nínú àwọn fries rẹ̀, lẹ́yìn náà Colby gba lọ́wọ́ Griffin, tí iye tí ó gbà fi mẹ́ta kéré iye fries tí Kyle ti mú lọ.  Tí Griffin bá ní fries 27, fries mélòó ni Ginger fún Griffin?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male_1, Griffin} ní french fries {num_digit_1, 1024}, ṣùgbọ́n {name_male_2, Kyle} mú {num_digit_2, 157} nínú wọn. {name_male_3, Billy} gba ìlọ́po méjì ti ti Kyle. {name_male_4, Ginger} fún {name_male_1, Griffin} ní díẹ̀ nínú àwọn fries rẹ̀, lẹ́yìn náà {name_male_5, Colby} gba lọ́wọ́ {name_male_1, Griffin}, tí iye tí ó gbà fi {num_digit_3, 13} kéré iye fries tí {name_male_2, Kyle} ti mú lọ. Tí {name_male_1, Griffin} bá ní fries {num_digit_4, 600}, fries mélòó ni {name_male_4, Ginger} fún {name_male_1, Griffin}?",
+  "ic_sentence_template": "Àntì {name_male_2, Kyle} mú àwọn pákẹ́ẹ̀tì kẹ́tṣọ́ọ̀pù {num_ic, 18458} wá sí tábìlì.",
+  "ic_template": "Àntì {name_male_2, Kyle} mú àwọn pákẹ́ẹ̀tì kẹ́tṣọ́ọ̀pù {num_ic, 18458} wá sí tábìlì. {name_male_1, Griffin} ní french fries {num_digit_1, 1024}, ṣùgbọ́n {name_male_2, Kyle} mú {num_digit_2, 157} nínú wọn. {name_male_3, Billy} gba ìlọ́po méjì ti ti Kyle. {name_male_4, Ginger} fún {name_male_1, Griffin} ní díẹ̀ nínú àwọn fries rẹ̀, lẹ́yìn náà {name_male_5, Colby} gba lọ́wọ́ {name_male_1, Griffin}, tí iye tí ó gbà fi {num_digit_3, 13} kéré iye fries tí {name_male_2, Kyle} ti mú lọ. Tí {name_male_1, Griffin} bá ní fries {num_digit_4, 600}, fries mélòó ni {name_male_4, Ginger} fún {name_male_1, Griffin}?",
+  "equation": "UPDATE HERE"
+}

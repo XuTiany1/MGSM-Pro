@@ -1,0 +1,8 @@
+{
+  "original_question": "Isabelle bought party supplies for her little sister’s birthday party. She spent $12 on ingredients for the cake, $43 on birthday presents, $15 on decorations, $4 on invitations, and $22 on goodie bags for the party guests. She split the cost evenly three ways with her two parents. How many dollars did each person pay?",
+  "original_answer": 32,
+  "symbolic_template": "{name_female, Isabelle} bought party supplies for her little sister’s birthday party. She spent ${num_digit_1, 12} on ingredients for the cake, ${num_digit_2, 43} on birthday presents, ${num_digit_3, 15} on decorations, ${num_digit_4, 4} on invitations, and ${num_digit_5, 22} on goodie bags for the party guests. She split the cost evenly three ways with her two parents. How many dollars did each person pay?",
+  "ic_sentence_template": "{name_female, Isabelle}'s cousin brought {num_ic, 1042} balloons.",
+  "ic_template": "{name_female, Isabelle} bought party supplies for her little sister’s birthday party. She spent ${num_digit_1, 12} on ingredients for the cake, ${num_digit_2, 43} on birthday presents, ${num_digit_3, 15} on decorations, ${num_digit_4, 4} on invitations, and ${num_digit_5, 22} on goodie bags for the party guests. {name_female, Isabelle}'s cousin brought {num_ic, 1042} balloons. She split the cost evenly three ways with her two parents. How many dollars did each person pay?",
+  "equation": "UPDATE HERE"
+}

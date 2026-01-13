@@ -1,0 +1,8 @@
+{
+  "original_question": "Seth mfeɛ kɔ anim mmɔho mmiɛnsa te sɛ Brooke. Mfeɛ mmienu mu no, wɔn mfeɛ dodoɔ bɛyɛ Aduonu wutwe. Seth adi mfeɛ ahe?",
+  "original_answer": 16,
+  "symbolic_template": "{name_male, Seth} mfeɛ kɔ anim mmɔho mmiɛnsa te sɛ {name_female, Brooke}. Mfeɛ {num_digit_1, 2} mu no, wɔn mfeɛ dodoɔ bɛyɛ {num_digit_2, 28}. {name_male, Seth} adi mfeɛ ahe?",
+  "ic_sentence_template": "{name_male, Seth} sewaa atɔ sini tikiti ntosoɔ {num_ic, 17}.",
+  "ic_template": "{name_male, Seth} sewaa atɔ sini tikiti ntosoɔ {num_ic, 17}. {name_male, Seth} mfeɛ kɔ anim mmɔho mmiɛnsa te sɛ {name_female, Brooke}. Mfeɛ {num_digit_1, 2} mu no, wɔn mfeɛ dodoɔ bɛyɛ {num_digit_2, 28}. {name_male, Seth} adi mfeɛ ahe?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Na sukuufoɔ a wɔwɔ sukuu asa so dodoɔ yɛ 1,000. Na asa no so wɔ  ɛkwan mmiensa ɛyɛ A, B, ne C, a ɛno nso kyɛ apueeɛ no. Sɛ adesua bi wie a, sukuufoɔ no mu 30% fi edan no mu fa ɔkwan A so, 3/5 aka no faa ɔkwan B so, na wɔn a aka no faa ekwan C so a, susu sukuufoɔ dodoɔ a wofi ɔkwan C so no ho.",
+  "original_answer": 280,
+  "symbolic_template": "{name_students, Sukuufoɔ} a wɔwɔ sukuu asa so dodoɔ yɛ {num_digit_1, 1000}. Na asa no so wɔ ɛkwan {num_digit_2, mmiensa} ɛyɛ A, B, ne C, a ɛno nso kyɛ apueeɛ no. Sɛ adesua bi wie a, sukuufoɔ no mu {num_digit_3, 30}% fi edan no mu fa ɔkwan A so, 3/5 aka no faa ɔkwan B so, na wɔn a aka no faa ekwan C so a, susu sukuufoɔ dodoɔ a wofi ɔkwan C so no ho.",
+  "ic_sentence_template": "akyerɛkyerεfoɔ {num_ic, 95} nyaa adesua nwoma foforɔ saa da no.",
+  "ic_template": "akyerɛkyerεfoɔ {num_ic, 95} nyaa adesua nwoma foforɔ saa da no. Sukuufoɔ a wɔwɔ sukuu asa so dodoɔ yɛ {num_digit_1, 1000}. Na asa no so wɔ ɛkwan {num_digit_2, mmiensa} ɛyɛ A, B, ne C, a ɛno nso kyɛ apueeɛ no. Sɛ adesua bi wie a, sukuufoɔ no mu {num_digit_3, 30}% fi edan no mu fa ɔkwan A so, 3/5 aka no faa ɔkwan B so, na wɔn a aka no faa ekwan C so a, susu sukuufoɔ dodoɔ a wofi ɔkwan C so no ho.",
+  "equation": "UPDATE HERE"
+}

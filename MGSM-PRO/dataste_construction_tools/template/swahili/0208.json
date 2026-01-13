@@ -1,0 +1,8 @@
+{
+  "original_question": "Rose alienda kwa duka Jumatatu na akanunua keki 4. Jumanne alienda kwa duka tofauti akanunua mara tatu ya keki alizonunua Jumatatu. Jumatano alienda kwa duka lingine na akanunua mara 5 zaidi ya keki alizonunua Jumanne. Alinunua keki ngapi kwa jumla kwa siku hizo tatu?",
+  "original_answer": 76,
+  "symbolic_template": "{name_female, Rose} alienda dukani Jumatatu na kununua keki {num_digit_1, 4}. Jumanne alienda dukani tofauti na kununua mara tatu ya idadi hiyo ya keki. Jumatano alienda dukani nyingine na kununua keki {num_digit_2, 5} ya idadi aliyoinunua Jumanne. Ni keki ngapi alizonunua baada ya siku zote tatu?",
+  "ic_sentence_template": "Mjomba wa {name_female, Rose} alioka pai {num_ic, 85} wikendi iliyopita.",
+  "ic_template": "Mjomba wa {name_female, Rose} alioka pai {num_ic, 85} wikendi iliyopita. {name_female, Rose} alienda dukani Jumatatu na kununua keki {num_digit_1, 4}. Jumanne alienda dukani tofauti na kununua mara tatu ya idadi hiyo ya keki. Jumatano alienda dukani nyingine na kununua keki {num_digit_2, 5} ya idadi aliyoinunua Jumanne. Ni keki ngapi alizonunua baada ya siku zote tatu?",
+  "equation": "UPDATE HERE"
+}

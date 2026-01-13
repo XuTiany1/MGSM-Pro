@@ -1,0 +1,8 @@
+{
+  "original_question": "Gene ń rán aṣọ látara ẹ̀bun tíṣẹẹ̀tì àtijọ́. Ó gba ẹ̀wù kan ní ìkọ̀ọ̀kan ìsinmi lẹ́nu iṣẹ́ tí ó ti lọ. Gbogbo ẹ̀wù kọ̀ọ̀kan ní búlọ́ọ́kù àsopọ tirẹ̀. Ó ṣe ilà ìbú kọ̀ọ̀kan látara búlọ̀ọ̀kù oríṣiríṣi ọdún ìsinmi lẹ́nu iṣẹ́. Ó máa ń lọ fún ìsinmi lẹ́nu iṣẹ́ ní ẹ̀mẹrin lọ́dún kan, o sì tí ń lọ fún ìsinmi lẹ́nu iṣẹ́ láti ìgbà tí ó ti wà ní ọmọ ọdún 23. Ó tí pé ọmọ ọdún 34 báyìí. Búlọ̀ọ̀kù àsopọ̀ mélòó ló ní lápapọ̀?",
+  "original_answer": 44,
+  "symbolic_template": "{name_male, Gene} ń rán aṣọ látara ẹ̀bun tíṣẹẹ̀tì àtijọ́. Ó gba ẹ̀wù kan ní ìkọ̀ọ̀kan ìsinmi lẹ́nu iṣẹ́ tí ó ti lọ. Gbogbo ẹ̀wù kọ̀ọ̀kan ní búlọ́ọ́kù àsopọ tirẹ̀. Ó ṣe ilà ìbú kọ̀ọ̀kan látara búlọ̀ọ̀kù oríṣiríṣi ọdún ìsinmi lẹ́nu iṣẹ́. Ó máa ń lọ fún ìsinmi lẹ́nu iṣẹ́ ní ẹ̀mẹrin lọ́dún kan, o sì tí ń lọ fún ìsinmi lẹ́nu iṣẹ́ láti ìgbà tí ó ti wà ní ọmọ ọdún {num_digit_1, 23}. Ó tí pé ọmọ ọdún {num_digit_2, 34} báyìí. Búlọ̀ọ̀kù àsopọ̀ mélòó ló ní lápapọ̀?",
+  "ic_sentence_template": "Arákùnrin {name_male, Gene} ní aláràbaràa apá tó je {num_ic, 44}.",
+  "ic_template": "{name_male, Gene} ń rán aṣọ látara ẹ̀bun tíṣẹẹ̀tì àtijọ́. Ó gba ẹ̀wù kan ní ìkọ̀ọ̀kan ìsinmi lẹ́nu iṣẹ́ tí ó ti lọ. Gbogbo ẹ̀wù kọ̀ọ̀kan ní búlọ́ọ́kù àsopọ tirẹ̀. Ó ṣe ilà ìbú kọ̀ọ̀kan látara búlọ̀ọ̀kù oríṣiríṣi ọdún ìsinmi lẹ́nu iṣẹ́. Ó máa ń lọ fún ìsinmi lẹ́nu iṣẹ́ ní ẹ̀mẹrin lọ́dún kan, o sì tí ń lọ fún ìsinmi lẹ́nu iṣẹ́ láti ìgbà tí ó ti wà ní ọmọ ọdún {num_digit_1, 23}. Ó tí pé ọmọ ọdún {num_digit_2, 34} báyìí. Búlọ̀ọ̀kù àsopọ̀ mélòó ló ní lápapọ̀? Arákùnrin {name_male, Gene} ní aláràbaràa apá tó je {num_ic, 44}.",
+  "equation": "UPDATE HERE"
+}

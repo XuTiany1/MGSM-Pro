@@ -1,0 +1,8 @@
+{
+  "original_question": "Charlie avait 10 autocollants. Il en a acheté 21 autres dans un magasin du centre commercial et en a reçu 23 pour son anniversaire. Ensuite, il en a donné 9 à sa sœur et en a utilisé 28 pour décorer une carte de vœux. Combien d'autocollants lui reste-t-il ?",
+  "original_answer": 17,
+  "symbolic_template": "{name_male, Charlie} avait {num_digit_1, 10} autocollants. Il en a acheté {num_digit_2, 21} autres dans un magasin du centre commercial et en a reçu {num_digit_3, 23} pour son anniversaire. Ensuite, il en a donné {num_digit_4, 9} à sa sœur et en a utilisé {num_digit_5, 28} pour décorer une carte de vœux. Combien d'autocollants lui reste-t-il ?",
+  "ic_sentence_template": "{name_male, Charlie} a un oncle qui collectionne {num_ic, 12} timbres rares.",
+  "ic_template": "{name_male, Charlie} a un oncle qui collectionne {num_ic, 12} timbres rares. {name_male, Charlie} avait {num_digit_1, 10} autocollants. Il en a acheté {num_digit_2, 21} autres dans un magasin du centre commercial et en a reçu {num_digit_3, 23} pour son anniversaire. Ensuite, il en a donné {num_digit_4, 9} à sa sœur et en a utilisé {num_digit_5, 28} pour décorer une carte de vœux. Combien d'autocollants lui reste-t-il ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Bei ya dazeni ishirini za vikombe ni $1200 kidogo kwa jumla ya gharama ya nusu dazeni ya sahani zinazouzwa $6000 kila moja. Piga hesabu ya jumla ya bei ya kila kikombe.",
+  "original_answer": 145,
+  "symbolic_template": "Bei ya dazeni ishirini za vikombe ni ${num_digit_1, 1200} kidogo kwa jumla ya gharama ya nusu dazeni ya sahani zinazouzwa ${num_digit_2, 6000} kila moja. Piga hesabu ya jumla ya bei ya kila kikombe.",
+  "ic_sentence_template": "Dozeni ishirini za vikombe viliwekwa karibu na birika vya chai {num_ic, 245} kwenye ghala.",
+  "ic_template": "Dozeni ishirini za vikombe viliwekwa karibu na birika vya chai {num_ic, 245} kwenye ghala. Bei ya dazeni ishirini za vikombe ni ${num_digit_1, 1200} kidogo kwa jumla ya gharama ya nusu dazeni ya sahani zinazouzwa ${num_digit_2, 6000} kila moja. Piga hesabu ya jumla ya bei ya kila kikombe.",
+  "equation": "UPDATE HERE"
+}

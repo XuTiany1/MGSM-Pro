@@ -1,0 +1,8 @@
+{
+  "original_question": "Àwọn ọmọbìnrin Doubtfire ń wa ọkọ̀ lọ sí ilé pẹ̀lú ọmọ ológbò 7 tí wọ́n gbàtọ́ láti ilé àwọn ẹranko ìbílè nígbà tí ìyá wọn pè wọ́n wí pé ológbò ilé wọn méjì ṣẹ̀ṣẹ̀ bí àwọn ọmọ ológbò. Ó sọ wí pé Patchy, ológbò àkọ́kọ́, ti bí ìlọ́po mẹ́ta iye ọmọ ológbò tí wọ́n gbàtọ́, nígbà tí Trixie, ológbò kejì ti ní 12. Ọmọ ológbò mélòó ní ẹbí Doubtfire ní báyìí?",
+  "original_answer": 40,
+  "symbolic_template": "Àwọn ọmọbìnrin {name_family, Doubtfire} ń wa ọkọ̀ lọ sí ilé pẹ̀lú ọmọ ológbò {num_digit_1, 7} tí wọ́n gbàtọ́ láti ilé àwọn ẹranko ìbílè nígbà tí ìyá wọn pè wọ́n wí pé ológbò ilé wọn méjì ṣẹ̀ṣẹ̀ bí àwọn ọmọ ológbò. Ó sọ wí pé {name_cat_1, Patchy}, ológbò àkọ́kọ́, ti bí ìlọ́po mẹ́ta iye ọmọ ológbò tí wọ́n gbàtọ́, nígbà tí {name_cat_2, Trixie}, ológbò kejì ti ní {num_digit_2, 12}. Ọmọ ológbò mélòó ní ẹbí {name_family, Doubtfire} ní báyìí?",
+  "ic_sentence_template": "Arákùnrin {name_family, Doubtfire} lọ kúrò ní máìlí {num_ic, 41} láìpẹ́ yii.",
+  "ic_template": "Arákùnrin {name_family, Doubtfire} lọ kúrò ní máìlí {num_ic, 41} láìpẹ́ yii. Àwọn ọmọbìnrin {name_family, Doubtfire} ń wa ọkọ̀ lọ sí ilé pẹ̀lú ọmọ ológbò {num_digit_1, 7} tí wọ́n gbàtọ́ láti ilé àwọn ẹranko ìbílè nígbà tí ìyá wọn pè wọ́n wí pé ológbò ilé wọn méjì ṣẹ̀ṣẹ̀ bí àwọn ọmọ ológbò. Ó sọ wí pé {name_cat_1, Patchy}, ológbò àkọ́kọ́, ti bí ìlọ́po mẹ́ta iye ọmọ ológbò tí wọ́n gbàtọ́, nígbà tí {name_cat_2, Trixie}, ológbò kejì ti ní {num_digit_2, 12}. Ọmọ ológbò mélòó ní ẹbí {name_family, Doubtfire} ní báyìí?",
+  "equation": "UPDATE HERE"
+}

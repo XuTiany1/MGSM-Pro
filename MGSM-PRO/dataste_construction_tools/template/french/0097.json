@@ -1,0 +1,8 @@
+{
+  "original_question": "Lorsque Freda fait cuire des tomates en conserve pour en faire de la sauce, ces dernières perdent la moitié de leur volume. Elle utilise des boîtes de 16 onces qui contiennent chacune trois tomates. La dernière préparation de sauce tomate de Freda a permis d'obtenir 32 onces de sauce. Combien de tomates Freda a-t-elle utilisées ?",
+  "original_answer": 12,
+  "symbolic_template": "Lorsque {name_female, Freda} fait cuire des tomates en conserve pour en faire de la sauce, ces dernières perdent la moitié de leur volume. Elle utilise des boîtes de {num_digit_1, 16} onces qui contiennent chacune trois tomates. La dernière préparation de sauce tomate de {name_female, Freda} a permis d'obtenir {num_digit_2, 32} onces de sauce. Combien de tomates {name_female, Freda} a-t-elle utilisées ?",
+  "ic_sentence_template": "{name_female, Freda} a une tante qui possède {num_ic, 57} plants de tomates dans son jardin.",
+  "ic_template": "{name_female, Freda} a une tante qui possède {num_ic, 57} plants de tomates dans son jardin. Lorsque {name_female, Freda} fait cuire des tomates en conserve pour en faire de la sauce, ces dernières perdent la moitié de leur volume. Elle utilise des boîtes de {num_digit_1, 16} onces qui contiennent chacune trois tomates. La dernière préparation de sauce tomate de {name_female, Freda} a permis d'obtenir {num_digit_2, 32} onces de sauce. Combien de tomates {name_female, Freda} a-t-elle utilisées ?",
+  "equation": "UPDATE HERE"
+}

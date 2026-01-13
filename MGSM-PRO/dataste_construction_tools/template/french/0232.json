@@ -1,0 +1,8 @@
+{
+  "original_question": "Dax est allé cueillir des pommes à la ferme et a trouvé deux fois moins d'insectes que de fourmis dans le jardin. S'il y avait 50 fourmis, calcule le nombre total d'insectes dans le jardin.",
+  "original_answer": 75,
+  "symbolic_template": "{name_male, Dax} est allé cueillir des pommes à la ferme et a trouvé deux fois moins d'insectes que de fourmis dans le jardin. S'il y avait {num_digit, 50} fourmis, calcule le nombre total d'insectes dans le jardin.",
+  "ic_sentence_template": "{name_male, Dax} a un oncle qui a vu {num_ic, 372} lapins courir à travers le champ.",
+  "ic_template": "{name_male, Dax} a un oncle qui a vu {num_ic, 372} lapins courir à travers le champ. {name_male, Dax} est allé cueillir des pommes à la ferme et a trouvé deux fois moins d'insectes que de fourmis dans le jardin. S'il y avait {num_digit, 50} fourmis, calcule le nombre total d'insectes dans le jardin.",
+  "equation": "UPDATE HERE"
+}

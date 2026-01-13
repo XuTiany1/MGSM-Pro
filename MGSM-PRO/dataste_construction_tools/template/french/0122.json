@@ -1,0 +1,8 @@
+{
+  "original_question": "Sadie a dormi 8 heures lundi. Elle a dormi 2 heures de moins chacun des deux jours qui ont suivi, à cause de certaines obligations. Sachant que le reste de la semaine elle a dormi 1 heure de plus que lors de ces deux jours, combien d'heures a-t-elle dormi au total durant toute la semaine ?",
+  "original_answer": 48,
+  "symbolic_template": "{name_female, Sadie} a dormi {num_digit_1, 8} heures lundi. Elle a dormi {num_digit_2, 2} heures de moins chacun des deux jours qui ont suivi, à cause de certaines obligations. Sachant que le reste de la semaine elle a dormi {num_digit_3, 1} heure de plus que lors de ces deux jours, combien d'heures a-t-elle dormi au total durant toute la semaine ?",
+  "ic_sentence_template": "{name_female, Sadie} a un oncle qui a bu {num_ic, 23} tasses de café la semaine dernière.",
+  "ic_template": "{name_female, Sadie} a un oncle qui a bu {num_ic, 23} tasses de café la semaine dernière. {name_female, Sadie} a dormi {num_digit_1, 8} heures lundi. Elle a dormi {num_digit_2, 2} heures de moins chacun des deux jours qui ont suivi, à cause de certaines obligations. Sachant que le reste de la semaine elle a dormi {num_digit_3, 1} heure de plus que lors de ces deux jours, combien d'heures a-t-elle dormi au total durant toute la semaine ?",
+  "equation": "UPDATE HERE"
+}

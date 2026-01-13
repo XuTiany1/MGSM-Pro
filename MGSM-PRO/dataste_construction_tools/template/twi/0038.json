@@ -1,0 +1,8 @@
+{
+  "original_question": "John tu mmirika kwansini 60 nnawɔtwe biara. Ͻdwane nna mmiԑnsa wɔ nnawɔtwe no mu. Ͻtu mmirika dɔnhwere mmiensa wɔ da a ԑdi kan no mu na w’atu deԑ ԑdi kan no mu fa nna mmienu a ԑdi ekyiri no. Ntԑm sԑn na ɔtu mmirika?",
+  "original_answer": 10,
+  "symbolic_template": "{name_male, John} tu mmirika kwansini {num_digit_1, 60} nnawɔtwe biara. Ͻdwane nna {num_digit_2, mmiɛnsa} wɔ nnawɔtwe no mu. Ͻtu mmirika dɔnhwere {num_digit_3, mmiɛnsa} wɔ da a ԑdi kan no mu na w’atu deԑ ԑdi kan no mu fa nna mmienu a ԑdi ekyiri no. Ntԑm sԑn na ɔtu mmirika?",
+  "ic_sentence_template": "{name_male, John} wɔfa wɔ basebɔɔllɔ kyɛw {num_ic, 85}.",
+  "ic_template": "{name_male, John} tu mmirika kwansini {num_digit_1, 60} nnawɔtwe biara. Ͻdwane nna {num_digit_2, mmiɛnsa} wɔ nnawɔtwe no mu. Ͻtu mmirika dɔnhwere {num_digit_3, mmiɛnsa} wɔ da a ԑdi kan no mu na w’atu deԑ ԑdi kan no mu fa nna mmienu a ԑdi ekyiri no. Ntԑm sԑn na ɔtu mmirika? {name_male, John} wɔfa wɔ basebɔɔllɔ kyɛw {num_ic, 85}.",
+  "equation": "UPDATE HERE"
+}

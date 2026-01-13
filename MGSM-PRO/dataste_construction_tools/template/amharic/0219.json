@@ -1,0 +1,8 @@
+{
+  "original_question": "በቦርድ ጨዋታ አራት ተማሪዎች በአጠቃላይ 251 ነጥብ አስመዝግበዋል. ናኦሚ 68 ነጥብ አስመዝግባለች. ዩሪ ናኦሚ እና ብሪያና ከናኦሚ  በ 17 ነጥብ ብልጫ ሲያገኙ ዩሪ በ 10 ነጥብ በግማሽ ይበልጣል. ጆጆ ስንት ነጥብ አስቆጥሯል?",
+  "original_answer": 54,
+  "symbolic_template": "በቦርድ ጨዋታ አራት ተማሪዎች በአጠቃላይ {num_digit_1, 251} ነጥብ አስመዝግበዋል. {name_female_1, ናኦሚ} {num_digit_2, 68} ነጥብ አስመዝግባለች. {name_female_2, ዩሪ} ከ{name_female_1, ናኦሚ} በ{num_digit_3, 10} ነጥብ በግማሽ ይበልጣል እና {name_female_3, ብሪያና} ከ{name_female_1, ናኦሚ} በ{num_digit_4, 17} ነጥብ ብልጫ ሲያገኙ። {name_female_4, ጆጆ} ስንት ነጥብ አስቆጥሯል?",
+  "ic_sentence_template": "የ{name_female_3, ብሪአና} አጎት ለሁሉም {num_ic, 38} ቁርስ አመጣ።",
+  "ic_template": "በቦርድ ጨዋታ አራት ተማሪዎች በአጠቃላይ {num_digit_1, 251} ነጥብ አስመዝግበዋል. {name_female_1, ናኦሚ} {num_digit_2, 68} ነጥብ አስመዝግባለች. {name_female_2, ዩሪ} ከ{name_female_1, ናኦሚ} በ{num_digit_3, 10} ነጥብ በግማሽ ይበልጣል እና {name_female_3, ብሪያና} ከ{name_female_1, ናኦሚ} በ{num_digit_4, 17} ነጥብ ብልጫ ሲያገኙ። {name_female_4, ጆጆ} ስንት ነጥብ አስቆጥሯል? የ{name_female_3, ብሪአና} አጎት ለሁሉም {num_ic, 38} ቁርስ አመጣ።",
+  "equation": "UPDATE HERE"
+}

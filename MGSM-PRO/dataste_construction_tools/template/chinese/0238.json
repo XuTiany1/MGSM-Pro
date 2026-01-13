@@ -1,0 +1,8 @@
+{
+  "original_question": "玛丽比琼小两岁，琼比杰莎大五岁。如果杰莎 20 岁，这三个女孩的年龄总和是多少？",
+  "original_answer": 68,
+  "symbolic_template": "{name_female_1, 玛丽} 比 {name_female_2, 琼} 小 2 岁，{name_female_2, 琼} 比 {name_female_3, 杰莎} 大 5 岁。如果 {name_female_3, 杰莎} {num_digit_1, 20} 岁，这三个女孩的年龄总和是多少？",
+  "ic_sentence_template": "{name_female_2, 琼} 的叔叔有 {num_ic, 73} 张棒球卡。",
+  "ic_template": "{name_female_2, 琼} 的叔叔有 {num_ic, 73} 张棒球卡。{name_female_1, 玛丽} 比 {name_female_2, 琼} 小 2 岁，{name_female_2, 琼} 比 {name_female_3, 杰莎} 大 5 岁。如果 {name_female_3, 杰莎} {num_digit_1, 20} 岁，这三个女孩的年龄总和是多少？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Kalinda ń ṣiṣẹ́ lórí ìṣòro 360 pẹ̀lú ìyá rẹ̀. Kalinda lè fi awẹ́ mẹ́rin kún un ní ìṣẹ́jú kan. Ìyá rẹ lè fi ìdajì iye awẹ́ ti Kalinda ṣe kún un ní ìṣẹ́jú kan.  Wákàtí mélòó ni yóò gbà wọ́n láti parí ìṣòro yìí.",
+  "original_answer": 1,
+  "symbolic_template": "{name_female, Kalinda} ń ṣiṣẹ́ lórí ìṣòro {num_digit_1, 360} pẹ̀lú ìyá rẹ̀. {name_female, Kalinda} lè fi awẹ́ {num_digit_2, 4} kún un ní ìṣẹ́jú kan. Ìyá rẹ lè fi ìdajì iye awẹ́ ti {name_female, Kalinda} ṣe kún un ní ìṣẹ́jú kan. Wákàtí mélòó ni yóò gbà wọ́n láti parí ìṣòro yìí.",
+  "ic_sentence_template": "Ẹ̀gbọ́n bàbá {name_female, Kalinda} ní àkójọpọ̀ jigsaw puzzles {num_ic, 103}.",
+  "ic_template": "Ẹ̀gbọ́n bàbá {name_female, Kalinda} ní àkójọpọ̀ jigsaw puzzles {num_ic, 103}. {name_female, Kalinda} ń ṣiṣẹ́ lórí ìṣòro {num_digit_1, 360} pẹ̀lú ìyá rẹ̀. {name_female, Kalinda} lè fi awẹ́ {num_digit_2, 4} kún un ní ìṣẹ́jú kan. Ìyá rẹ lè fi ìdajì iye awẹ́ ti {name_female, Kalinda} ṣe kún un ní ìṣẹ́jú kan. Wákàtí mélòó ni yóò gbà wọ́n láti parí ìṣòro yìí.",
+  "equation": "UPDATE HERE"
+}

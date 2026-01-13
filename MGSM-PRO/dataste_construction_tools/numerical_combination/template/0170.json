@@ -1,0 +1,26 @@
+{
+    "problem_id": "0170",
+    "generation_order": ["num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [10, 50]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "hat_cost = num_digit_1",
+            "jacket_cost = 3 * hat_cost",
+            "pants_cost = (hat_cost + jacket_cost) / 2",
+            "ans = hat_cost + jacket_cost + pants_cost"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 4}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "(hat_cost + jacket_cost) % 2 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

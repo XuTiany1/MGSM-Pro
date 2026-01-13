@@ -1,0 +1,8 @@
+{
+  "original_question": "Toulouse wɔ nnwan mmɔho mmienu sԑn Charleston. Charleston wɔ nnwan mmɔho nnan kyԑn Seattle. Nnwan sԑn na Toulouse, Charleston ne Seattle wɔ sԑ wɔn nyinaa wɔ nnwan dodoɔ 20 a?",
+  "original_answer": 260,
+  "symbolic_template": "{name_city_1, Toulouse} wɔ nnwan mmɔho mmienu sԑn {name_city_2, Charleston}. {name_city_2, Charleston} wɔ nnwan mmɔho {num_digit_1, nnan} kyԑn {name_city_3, Seattle}. Nnwan sԑn na {name_city_1, Toulouse}, {name_city_2, Charleston} ne {name_city_3, Seattle} wɔ, sԑ {name_city_3, Seattle} wɔ nnwan dodoɔ {num_digit_2, 20} a?",
+  "ic_sentence_template": "Nkurow a ɛbɛn {name_city_2, Charleston} nyɛn mpɔnkye {num_ic, 41}.",
+  "ic_template": "{name_city_1, Toulouse} wɔ nnwan mmɔho mmienu sԑn {name_city_2, Charleston}. {name_city_2, Charleston} wɔ nnwan mmɔho {num_digit_1, nnan} kyԑn {name_city_3, Seattle}. Nnwan sԑn na {name_city_1, Toulouse}, {name_city_2, Charleston} ne {name_city_3, Seattle} wɔ, sԑ {name_city_3, Seattle} wɔ nnwan dodoɔ {num_digit_2, 20} a? Nkurow a ɛbɛn {name_city_2, Charleston} nyɛn mpɔnkye {num_ic, 41}.",
+  "equation": "UPDATE HERE"
+}

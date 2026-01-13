@@ -1,0 +1,8 @@
+{
+  "original_question": "Tangi ya maji ina kina cha futi 17 Jumatatu. Jumanne, tangi hiyo ina futi 7 zaidi ya maji. Jumatano, kina cha maji ni theluthi mbili ya kina kilichokuwepo Jumanne. Kina cha maji katika tangi hiyo ni ngapi siku ya Jumatanno?",
+  "original_answer": 16,
+  "symbolic_template": "Tangi ya maji ina kina cha futi {num_digit_1, 17} Jumatatu. Jumanne, tangi hiyo ina futi {num_digit_2, 7} zaidi ya maji. Jumatano, kina cha maji ni theluthi mbili ya kina kilichokuwepo Jumanne. Kina cha maji katika tangi hiyo ni ngapi siku ya Jumatanno?",
+  "ic_sentence_template": "Mjomba wa {name_male, Brian} alikagua kiwango cha maji kwenye tanki mara {num_ic, 79} mwaka jana.",
+  "ic_template": "Mjomba wa {name_male, Brian} alikagua kiwango cha maji kwenye tanki mara {num_ic, 79} mwaka jana. Tangi ya maji ina kina cha futi {num_digit_1, 17} Jumatatu. Jumanne, tangi hiyo ina futi {num_digit_2, 7} zaidi ya maji. Jumatano, kina cha maji ni theluthi mbili ya kina kilichokuwepo Jumanne. Kina cha maji katika tangi hiyo ni ngapi siku ya Jumatanno?",
+  "equation": "UPDATE HERE"
+}

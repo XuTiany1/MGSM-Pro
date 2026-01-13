@@ -1,0 +1,8 @@
+{
+  "original_question": "汤姆每年种 10 棵树。他每年还砍掉 2 棵树。他从 50 棵树开始种。10 年后，30% 的树死亡。他剩下多少棵树？",
+  "original_answer": 91,
+  "symbolic_template": "{name_male, 汤姆} 每年种 {num_digit_1, 10} 棵树。他每年还砍掉 {num_digit_2, 2} 棵树。他从 {num_digit_3, 50} 棵树开始种。{num_digit_4, 10} 年后，{num_digit_5, 30}% 的树死亡。他剩下多少棵树？",
+  "ic_sentence_template": "{name_male, 汤姆} 的姑妈最近买了 {num_ic, 164} 个花盆。",
+  "ic_template": "{name_male, 汤姆} 的姑妈最近买了 {num_ic, 164} 个花盆。{name_male, 汤姆} 每年种 {num_digit_1, 10} 棵树。他每年还砍掉 {num_digit_2, 2} 棵树。他从 {num_digit_3, 50} 棵树开始种。{num_digit_4, 10} 年后，{num_digit_5, 30}% 的树死亡。他剩下多少棵树？",
+  "equation": "UPDATE HERE"
+}

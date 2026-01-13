@@ -1,0 +1,8 @@
+{
+  "original_question": "Jan a trois fois plus d'animaux de compagnie que Marcia. Marcia en a deux de plus que Cindy. Si Cindy a quatre animaux, combien d'animaux au total ont-elles toutes les trois ?",
+  "original_answer": 28,
+  "symbolic_template": "{name_female, Jan} a trois fois plus d'animaux de compagnie que {name_female_2, Marcia}. {name_female_2, Marcia} en a deux de plus que {name_female_3, Cindy}. Si {name_female_3, Cindy} a quatre animaux, combien d'animaux au total ont-elles toutes les trois ?",
+  "ic_sentence_template": "{name_female_2, Marcia} a un oncle qui possède {num_ic, 16} oiseaux.",
+  "ic_template": "{name_female_2, Marcia} a un oncle qui possède {num_ic, 16} oiseaux. {name_female, Jan} a trois fois plus d'animaux de compagnie que {name_female_2, Marcia}. {name_female_2, Marcia} en a deux de plus que {name_female_3, Cindy}. Si {name_female_3, Cindy} a quatre animaux, combien d'animaux au total ont-elles toutes les trois ?",
+  "equation": "UPDATE HERE"
+}

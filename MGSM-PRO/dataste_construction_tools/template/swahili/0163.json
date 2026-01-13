@@ -1,0 +1,8 @@
+{
+  "original_question": "Katika chumba, kuna vifaa mbalimbali vya kuchezea: magari 5 mekundu, vifaa 3 vya vita, na mwanasesere. Gharama ya mwanasesere mmoja ni sawa na ya vifaa 3 vya vita na gari moja jekundu ni $4. Gharama ya vifaa vyote vya kuchezea ni ngapi, ikiwa kifaa kimoja cha vita kinagharimu $5?",
+  "original_answer": 50,
+  "symbolic_template": "Katika chumba, kuna vifaa mbalimbali vya kuchezea: magari {num_digit_1, 5} mekundu, vifaa {num_digit_2, 3} vya vita, na mwanasesere. Gharama ya mwanasesere mmoja ni sawa na ya vifaa {num_digit_3, 3} vya vita na gari moja jekundu ni ${num_digit_4, 4}. Gharama ya vifaa vyote vya kuchezea ni ngapi, ikiwa kifaa kimoja cha vita kinagharimu ${num_digit_5, 5}?",
+  "ic_sentence_template": "Binamu wa {name_male, Billy} ana teddy bear {num_ic, 31}.",
+  "ic_template": "Binamu wa {name_male, Billy} ana teddy bear {num_ic, 31}. Katika chumba, kuna vifaa mbalimbali vya kuchezea: magari {num_digit_1, 5} mekundu, vifaa {num_digit_2, 3} vya vita, na mwanasesere. Gharama ya mwanasesere mmoja ni sawa na ya vifaa {num_digit_3, 3} vya vita na gari moja jekundu ni ${num_digit_4, 4}. Gharama ya vifaa vyote vya kuchezea ni ngapi, ikiwa kifaa kimoja cha vita kinagharimu ${num_digit_5, 5}?",
+  "equation": "UPDATE HERE"
+}

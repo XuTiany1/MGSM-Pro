@@ -1,0 +1,8 @@
+{
+  "original_question": "Lori fẹ́ ra bàtà $320.00 àti bẹ́líìtì tí ó bá a mu tí ó jẹ́ $32.00.  Iṣẹ́ rẹ̀ ń san $8.00 fún un ní wákàtí kan. Wákàtí mélòó ni ó máa ní láti ṣiṣẹ́ kí ó tó lè ra nǹkan tí ó fẹ́?",
+  "original_answer": 44,
+  "symbolic_template": "{name_female, Lori} fẹ́ ra bàtà ${num_digit_1, 320.00} àti bẹ́líìtì tí ó bá a mu tí ó jẹ́ ${num_digit_2, 32.00}. Iṣẹ́ rẹ̀ ń san ${num_digit_3, 8.00} fún un ní wákàtí kan. Wákàtí mélòó ni ó máa ní láti ṣiṣẹ́ kí ó tó lè ra nǹkan tí ó fẹ́?",
+  "ic_sentence_template": "Ọmọṣẹ {name_female, Lori} rí àwọn àwòrán fíìmù atijọ́ mẹ́ta-dín-lọ́gọ́rin ({num_ic, 47}) ní orí ile rẹ̀.",
+  "ic_template": "Ọmọṣẹ {name_female, Lori} rí àwọn àwòrán fíìmù atijọ́ mẹ́ta-dín-lọ́gọ́rin ({num_ic, 47}) ní orí ile rẹ̀. {name_female, Lori} fẹ́ ra bàtà ${num_digit_1, 320.00} àti bẹ́líìtì tí ó bá a mu tí ó jẹ́ ${num_digit_2, 32.00}. Iṣẹ́ rẹ̀ ń san ${num_digit_3, 8.00} fún un ní wákàtí kan. Wákàtí mélòó ni ó máa ní láti ṣiṣẹ́ kí ó tó lè ra nǹkan tí ó fẹ́?",
+  "equation": "UPDATE HERE"
+}

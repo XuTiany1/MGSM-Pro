@@ -1,0 +1,8 @@
+{
+  "original_question": "Rosie court à une vitesse de 10 miles par heure pendant 3 heures. Ensuite, elle court 5 miles par heure. Combien de miles aura-t-elle parcouru en 7 heures ?",
+  "original_answer": 50,
+  "symbolic_template": "{name_female, Rosie} court à une vitesse de {num_digit_1, 10} miles par heure pendant {num_digit_2, 3} heures. Ensuite, elle court {num_digit_3, 5} miles par heure. Combien de miles aura-t-elle parcouru en {num_digit_4, 7} heures ?",
+  "ic_sentence_template": "{name_female, Rosie} a un oncle qui a déjà parcouru {num_ic, 62} miles à vélo en une seule journée.",
+  "ic_template": "{name_female, Rosie} a un oncle qui a déjà parcouru {num_ic, 62} miles à vélo en une seule journée. {name_female, Rosie} court à une vitesse de {num_digit_1, 10} miles par heure pendant {num_digit_2, 3} heures. Ensuite, elle court {num_digit_3, 5} miles par heure. Combien de miles aura-t-elle parcouru en {num_digit_4, 7} heures ?",
+  "equation": "UPDATE HERE"
+}

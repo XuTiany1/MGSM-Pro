@@ -1,0 +1,38 @@
+{
+    "problem_id": "0119",
+    "generation_order": ["num_digit_3", "num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_3": {"type": "int", "range": [30000, 60000]},
+        "num_digit_1": {"type": "int", "range": [20, 50]},
+        "num_digit_2": {"type": "int", "range": [10, 50]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "adrien_start = num_digit_3"
+        ],
+        "num_digit_1": [
+            "lylah_start = adrien_start / (1 + (num_digit_1 / 100))"
+        ],
+        "num_digit_2": [
+            "growth_factor = 1 + (num_digit_2 / 100)",
+            "adrien_later = adrien_start * growth_factor",
+            "lylah_later = lylah_start * growth_factor",
+            "ans = adrien_later + lylah_later"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 5, "max_digits": 7}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "adrien_start % (100 + num_digit_1) == 0"
+        ],
+        "num_digit_2": [
+            "(lylah_start * num_digit_2) % 100 == 0",
+            "(adrien_start * num_digit_2) % 100 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

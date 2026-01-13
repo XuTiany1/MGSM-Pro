@@ -1,0 +1,8 @@
+{
+  "original_question": "Jenna and her mother picked some apples from their apple farm. Jenna picked half as many apples as her mom. If her mom got 20 apples, how many apples did they both pick?",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, Jenna} and her mother picked some apples from their apple farm. {name_female, Jenna} picked half as many apples as her mom. If her mom got {num_digit_1, 20} apples, how many apples did they both pick?",
+  "ic_sentence_template": "{name_female, Jenna}'s uncle brought {num_ic, 154} bottles of apple cider to the farm that morning.",
+  "ic_template": "{name_female, Jenna} and her mother picked some apples from their apple farm. {name_female, Jenna} picked half as many apples as her mom. If her mom got {num_digit_1, 20} apples, {name_female, Jenna}'s uncle brought {num_ic, 154} bottles of apple cider to the farm that morning. How many apples did they both pick?",
+  "equation": "UPDATE HERE"
+}

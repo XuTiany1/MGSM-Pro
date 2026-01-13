@@ -1,0 +1,8 @@
+{
+  "original_question": "Dans un distributeur de bonbons, il y a 22 fois plus de boules de gommes bleues que quatre fois la quantité de boules de gommes roses. S'il y a 12 boules de gommes de bleues, combien y en a-t-il de roses ?",
+  "original_answer": 70,
+  "symbolic_template": "Dans un distributeur de bonbons, il y a {num_digit_1, 22} de plus que quatre fois la quantité de boules de gommes roses qu’il y a de boules de gommes bleues. S'il y a {num_digit_2, 12} boules de gommes bleues, combien y en a-t-il de roses ?",
+  "ic_sentence_template": "{num_ic, 147} enfants sont passés devant la machine ce jour-là.",
+  "ic_template": "{num_ic, 147} enfants sont passés devant la machine ce jour-là. Dans un distributeur de bonbons, il y a {num_digit_1, 22} de plus que quatre fois la quantité de boules de gommes roses qu’il y a de boules de gommes bleues. S'il y a {num_digit_2, 12} boules de gommes bleues, combien y en a-t-il de roses ?",
+  "equation": "UPDATE HERE"
+}

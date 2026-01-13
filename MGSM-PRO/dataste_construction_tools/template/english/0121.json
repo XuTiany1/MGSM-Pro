@@ -1,0 +1,8 @@
+{
+  "original_question": "Morisette and Kael were asked to bring fruits. Morisette brought 5 apples and 8 oranges, while Kael brought twice the amount of apples and half the number of oranges than Morisette. How many fruits do they have in total?",
+  "original_answer": 27,
+  "symbolic_template": "{name_female, Morisette} and {name_male, Kael} were asked to bring fruits. {name_female, Morisette} brought {num_digit_1, 5} apples and {num_digit_2, 8} oranges, while {name_male, Kael} brought twice the amount of apples and half the number of oranges than {name_female, Morisette}. How many fruits do they have in total?",
+  "ic_sentence_template": "{name_male, Kael}'s aunt picked {num_ic, 29} daikon.",
+  "ic_template": "{name_female, Morisette} and {name_male, Kael} were asked to bring fruits. {name_female, Morisette} brought {num_digit_1, 5} apples and {num_digit_2, 8} oranges, while {name_male, Kael} brought twice the amount of apples and half the number of oranges than {name_female, Morisette}. {name_male, Kael}'s aunt picked {num_ic, 29} daikon. How many fruits do they have in total?",
+  "equation": "UPDATE HERE"
+}

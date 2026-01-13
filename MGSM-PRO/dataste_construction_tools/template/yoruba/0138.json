@@ -1,0 +1,8 @@
+{
+  "original_question": "Mark ṣe ìdánwò lánàá tí ó ní ìbéèrè 75. Ó parí ìdánwò náà ní ìwọ‌n ìbéèrè 5 ní wákàtí kan. Lónìí, ó ṣe ìdánwò ìbéèrè 100 mìíràn ní ìwọ‌n kan náà. Tí Mark bá ní wákàtí 8 láti parí ìdánwò àkọ‌kọ‌ àti wákàtí 6 láti parí èkejì, ìbéèrè mélòó ni ó fi sílẹ‌ láì dáhùn?",
+  "original_answer": 105,
+  "symbolic_template": "{name_male, Mark} ṣe ìdánwò lánàá tí ó ní ìbéèrè {num_digit_1, 75}. Ó parí ìdánwò náà ní ìwọ‌n ìbéèrè {num_digit_2, 5} ní wákàtí kan. Lónìí, ó ṣe ìdánwò ìbéèrè {num_digit_3, 100} mìíràn ní ìwọ‌n kan náà. Tí {name_male, Mark} bá ní wákàtí {num_digit_4, 8} láti parí ìdánwò àkọ‌kọ‌ àti wákàtí {num_digit_5, 6} láti parí èkejì, ìbéèrè mélòó ni ó fi sílẹ‌ láì dáhùn?",
+  "ic_sentence_template": "Ọmọ bàbá {name_male, Mark} mu àwọn lápísì {num_ic, 68} wá fún un gẹ́gẹ́ bí oríire.",
+  "ic_template": "Ọmọ bàbá {name_male, Mark} mu àwọn lápísì {num_ic, 68} wá fún un gẹ́gẹ́ bí oríire. {name_male, Mark} ṣe ìdánwò lánàá tí ó ní ìbéèrè {num_digit_1, 75}. Ó parí ìdánwò náà ní ìwọ‌n ìbéèrè {num_digit_2, 5} ní wákàtí kan. Lónìí, ó ṣe ìdánwò ìbéèrè {num_digit_3, 100} mìíràn ní ìwọ‌n kan náà. Tí {name_male, Mark} bá ní wákàtí {num_digit_4, 8} láti parí ìdánwò àkọ‌kọ‌ àti wákàtí {num_digit_5, 6} láti parí èkejì, ìbéèrè mélòó ni ó fi sílẹ‌ láì dáhùn?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Magari yamejipanga kwenye barabara. Baadhi ya magari hayo yanapita katika dakika 15 za kwanza za trafiki, kisha magari 20 zaidi yanapita katika dakika 15 zinazosalia za trafiki. Magari 5 kutoka kwenye laini yanaondoka kwenye barabara kuu ili yasiendshwe kwenye trafiki hiyo. Ikiwa awali kulikuwa na magari 30 kwenye barabara, ni magari mangapi yalipita trafiki katika dakika 15 za kwanza?",
+  "original_answer": 5,
+  "symbolic_template": "Magari yamejipanga kwenye barabara. Baadhi ya magari hayo yanapita katika dakika {num_digit_1, 15} za kwanza za trafiki, kisha magari {num_digit_2, 20} zaidi yanapita katika dakika {num_digit_3, 15} zinazosalia za trafiki. Magari {num_digit_4, 5} kutoka kwenye laini yanaondoka kwenye barabara kuu ili yasiendshwe kwenye trafiki hiyo. Ikiwa awali kulikuwa na magari {num_digit_6, 30} kwenye barabara, ni magari mangapi yalipita trafiki katika dakika {num_digit_1, 15} za kwanza?",
+  "ic_sentence_template": "Mjomba wa askari wa trafiki anamiliki magari ya zamani {num_ic, 38}.",
+  "ic_template": "Mjomba wa askari wa trafiki anamiliki magari ya zamani {num_ic, 38}. Magari yamejipanga kwenye barabara. Baadhi ya magari hayo yanapita katika dakika {num_digit_1, 15} za kwanza za trafiki, kisha magari {num_digit_2, 20} zaidi yanapita katika dakika {num_digit_3, 15} zinazosalia za trafiki. Magari {num_digit_4, 5} kutoka kwenye laini yanaondoka kwenye barabara kuu ili yasiendshwe kwenye trafiki hiyo. Ikiwa awali kulikuwa na magari {num_digit_6, 30} kwenye barabara, ni magari mangapi yalipita trafiki katika dakika {num_digit_1, 15} za kwanza?",
+  "equation": "UPDATE HERE"
+}

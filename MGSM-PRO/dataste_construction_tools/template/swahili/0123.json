@@ -1,0 +1,8 @@
+{
+  "original_question": "Rosie anaweza kukimbia maili 10 kwa saa kwa saa 3 mfululizo. Baada ya hapo, atakimbia maili 5 kwa saa. Anaweza kukimbia maili ngapi kwa saa 7?",
+  "original_answer": 50,
+  "symbolic_template": "{name_female, Rosie} anaweza kukimbia maili {num_digit_1, 10} kwa saa kwa masaa {num_digit_2, 3}. Baada ya hapo, anakimbia maili {num_digit_3, 5} kwa saa. Anaweza kukimbia maili ngapi kwa masaa {num_digit_4, 7}?",
+  "ic_sentence_template": "Mjomba wa {name_female, Rosie} aliwahi kuendesha baiskeli maili {num_ic, 62} ndani ya siku moja.",
+  "ic_template": "Mjomba wa {name_female, Rosie} aliwahi kuendesha baiskeli maili {num_ic, 62} ndani ya siku moja. {name_female, Rosie} anaweza kukimbia maili {num_digit_1, 10} kwa saa kwa masaa {num_digit_2, 3}. Baada ya hapo, anakimbia maili {num_digit_3, 5} kwa saa. Anaweza kukimbia maili ngapi kwa masaa {num_digit_4, 7}?",
+  "equation": "UPDATE HERE"
+}

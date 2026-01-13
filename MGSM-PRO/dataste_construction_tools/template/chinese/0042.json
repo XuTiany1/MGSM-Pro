@@ -1,0 +1,8 @@
+{
+  "original_question": "琼斯奶奶烤了 5 张苹果派，当作消防员的午餐。她将每张派切成了 8 片，然后将这 5 张派放在外面的自助餐桌上供宾客自取。午餐结束时，在宾客吃完各自拿走的派后，还剩下 14 片派。宾客拿走了多少张派？",
+  "original_answer": 26,
+  "symbolic_template": "{name_family, 琼斯} 奶奶烤了 {num_digit_1, 5} 张苹果派，当作消防员的午餐。她将每张派切成了 {num_digit_2, 8} 片，然后将这 5 张派放在自助餐桌上供宾客自取。午餐结束时，在宾客吃完各自拿走的派后，还剩下 {num_digit_3, 14} 片派。宾客拿走了多少片派？",
+  "ic_sentence_template": "{name_family, 琼斯} 的侄子带来了 {num_ic, 93} 瓶柠檬水到午宴。",
+  "ic_template": "{name_family, 琼斯} 的侄子带来了 {num_ic, 93} 瓶柠檬水到午宴。{name_family, 琼斯} 奶奶烤了 {num_digit_1, 5} 张苹果派，当作消防员的午餐。她将每张派切成了 {num_digit_2, 8} 片，然后将这 5 张派放在自助餐桌上供宾客自取。午餐结束时，在宾客吃完各自拿走的派后，还剩下 {num_digit_3, 14} 片派。宾客拿走了多少片派？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,31 @@
+{
+    "problem_id": "0242",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_6", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [5, 12]},
+        "num_digit_2": {"type": "int", "range": [1, 4]},
+        "num_digit_3": {"type": "int", "range": [1, 3]},
+        "num_digit_4": {"type": "int", "range": [4, 10]},
+        "num_digit_6": {"type": "int", "range": [5, 15]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_6": [
+            "active_pals = num_digit_1 - num_digit_2",
+            "total_pages = active_pals * num_digit_3 * num_digit_4",
+            "total_minutes = total_pages * num_digit_6",
+            "ans = total_minutes / 60"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_6": [
+            "num_digit_1 > num_digit_2",
+            "total_minutes % 60 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

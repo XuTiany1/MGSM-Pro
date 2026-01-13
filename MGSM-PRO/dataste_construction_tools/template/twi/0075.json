@@ -1,0 +1,8 @@
+{
+  "original_question": "Luke ԑԑsԑe mmerԑ bi wɔ mpoano ԑresi anwea-abankԑseԑ. Mpofirimu ara no ɔhu sԑ anwea-abankԑseԑ nnyinasoɔ biara bԑwɔ kԑseyԑ no mu fa te sԑ nnyinasoɔ a ԑwɔ n’ase no. Sԑ ɔyԑ anwea-abankԑseԑ a ne nnyinasoɔ yԑ nnan na nnyinasoɔ a ԑwɔ soro no kԑseyԑ no yԑ 16 a, dԑn ne kԑseyԑ a ԑda ntam wɔ nnyinasoɔ bi ho?",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Luke} ԑԑsԑe mmerԑ bi wɔ mpoano ԑresi anwea-abankԑseԑ. Mpofirimu ara no ɔhu sԑ anwea-abankԑseԑ nnyinasoɔ biara bԑwɔ kԑseyԑ no mu fa te sԑ nnyinasoɔ a ԑwɔ n’ase no. Sԑ ɔyԑ anwea-abankԑseԑ a ne nnyinasoɔ yԑ {num_digit_1, nnan} na nnyinasoɔ a ԑwɔ soro no kԑseyԑ no yԑ {num_digit_2, 16} a, dԑn ne kԑseyԑ a ԑda ntam wɔ nnyinasoɔ bi ho?",
+  "ic_sentence_template": "{name_male, Luke} wɔfa de ɛpɔw ho nkongua {num_ic, 26} brɛɛ obiara.",
+  "ic_template": "{name_male, Luke} wɔfa de ɛpɔw ho nkongua {num_ic, 26} brɛɛ obiara. {name_male, Luke} ԑԑsԑe mmerԑ bi wɔ mpoano ԑresi anwea-abankԑseԑ. Mpofirimu ara no ɔhu sԑ anwea-abankԑseԑ nnyinasoɔ biara bԑwɔ fa kԑseyԑ no mu te sԑ nnyinasoɔ a ԑwɔ n’ase no. Sԑ ɔyԑ anwea-abankԑseԑ a ne nnyinasoɔ yԑ {num_digit_1, nnan} na nnyinasoɔ a ԑwɔ soro no kԑseyԑ no yԑ {num_digit_2, 16} a, dԑn ne kԑseyԑ a ԑda ntam wɔ nnyinasoɔ bi ho?",
+  "equation": "UPDATE HERE"
+}

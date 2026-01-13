@@ -1,0 +1,8 @@
+{
+  "original_question": "Carl aduane a ne nigye ho ni cheese. Ɔdi abodoo da biara nnawɔtwe yi wɔ awiabere mu na ɔde di cheese a ɛyɛ abodoo biara. Na odi cheese ne nkosua a ɛyɛ omelet ma ɔnom anɔpa 3 wɔ nnawɔtwe mu, na ɔde omelet baako ho sen nea ɔdi ka paanoo baako. Ɔyɛɛ macaroni ne cheese aduane kɛseɛ a na ɔbɛtumi adi wɔ anadwo pii wɔ nnawɔtwe mu, na ɔde cheese 8 na ɛyɛɛ no. Nnuan a wɔatwa no dodoɔ ahe na ɔde dii ɛdwuma?",
+  "original_answer": 31,
+  "symbolic_template": "{name_male, Carl} aduane a ne nigye ho ni cheese. Ɔdi abodoo da biara nnawɔtwe yi wɔ awiabere mu na ɔde {num_digit_1, 2} di cheese a ɛyɛ abodoo biara. Na odi cheese ne nkosua a ɛyɛ omelet ma ɔnom anɔpa {num_digit_2, 3} wɔ nnawɔtwe mu, na ɔde omelet baako ho sen nea ɔdi ka paanoo baako. Ɔyɛɛ macaroni ne cheese aduane kɛseɛ a na ɔbɛtumi adi wɔ anadwo pii wɔ nnawɔtwe mu, na ɔde cheese {num_digit_3, 8} na ɛyɛɛ no. Nnuan a wɔatwa no dodoɔ ahe na ɔde dii ɛdwuma?",
+  "ic_sentence_template": "{name_male, Carl} nua no too blueberry mufin {num_ic, 114} nnawɔtwe yi.",
+  "ic_template": "{name_male, Carl} nua no too blueberry mufin {num_ic, 114} nnawɔtwe yi. {name_male, Carl} aduane a ne nigye ho ni cheese. Ɔdi abodoo da biara nnawɔtwe yi wɔ awiabere mu na ɔde {num_digit_1, 2} di cheese a ɛyɛ abodoo biara. Na odi cheese ne nkosua a ɛyɛ omelet ma ɔnom anɔpa {num_digit_2, 3} wɔ nnawɔtwe mu, na ɔde omelet baako ho sen nea ɔdi ka paanoo baako. Ɔyɛɛ macaroni ne cheese aduane kɛseɛ a na ɔbɛtumi adi wɔ anadwo pii wɔ nnawɔtwe mu, na ɔde cheese {num_digit_3, 8} na ɛyɛɛ no. Nnuan a wɔatwa no dodoɔ ahe na ɔde dii ɛdwuma?",
+  "equation": "UPDATE HERE"
+}

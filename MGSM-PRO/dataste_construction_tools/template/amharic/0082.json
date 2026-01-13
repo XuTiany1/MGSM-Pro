@@ -1,0 +1,8 @@
+{
+  "original_question": "ግሬስ 125 ፓውንድ ይመዝናል። አሌክስ ከግሬስ 4 እጥፍ ያነሰ 2 ፓውንድ ይመዝናል። ድምር ክብደታቸው ስንት በፓውንድ ነው?",
+  "original_answer": 623,
+  "symbolic_template": "{name_female, ግሬስ}  {num_digit_1, 125} ፓውንድ ይመዝናል። {name_male, አሌክስ} ከ{name_female, ግሬስ} {num_digit_3, 4} እጥፍ ያነሰ {num_digit_2, 2} ፓውንድ ይመዝናል። ድምር ክብደታቸው ስንት በፓውንድ ነው?",
+  "ic_sentence_template": "የ{name_female, ግሬስ} አገልጋዩ በቅርቡ በስራው {num_ic, 17}ምንቸቶችን አነሳ።",
+  "ic_template": "{name_female, ግሬስ}  {num_digit_1, 125} ፓውንድ ይመዝናል። {name_male, አሌክስ} ከ{name_female, ግሬስ} {num_digit_3, 4} እጥፍ ያነሰ {num_digit_2, 2} ፓውንድ ይመዝናል። ድምር ክብደታቸው ስንት በፓውንድ ነው? የ{name_female, ግሬስ} አገልጋዩ በቅርቡ በስራው {num_ic, 17}ምንቸቶችን አነሳ።",
+  "equation": "UPDATE HERE"
+}

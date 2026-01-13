@@ -1,0 +1,8 @@
+{
+  "original_question": "如果一袋大理石 20 美元，而且价格每两个月比原价上涨 20%。在 36 个月后，一袋大理石多少钱？",
+  "original_answer": 92,
+  "symbolic_template": "如果一袋大理石 {num_digit_1, 20} 美元，而且价格每 两 个月比原价上涨 {num_digit_2, 20}%。在 {num_digit_3, 36} 个月后，一袋大理石多少钱？",
+  "ic_sentence_template": "店经理的侄子有 {num_ic, 60} 本漫画书。",
+  "ic_template": "店经理的侄子有 {num_ic, 60} 本漫画书。如果一袋大理石 {num_digit_1, 20} 美元，而且价格每 两 个月比原价上涨 {num_digit_2, 20}%。在 {num_digit_3, 36} 个月后，一袋大理石多少钱？",
+  "equation": "UPDATE HERE"
+}

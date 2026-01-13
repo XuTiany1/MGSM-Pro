@@ -1,0 +1,30 @@
+{
+    "problem_id": "0062",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_6"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [35, 45]},
+        "num_digit_2": {"type": "int", "range": [40000, 80000]},
+        "num_digit_3": {"type": "int", "range": [15, 20]},
+        "num_digit_4": {"type": "int", "range": [2, 8]},
+        "num_digit_6": {"type": "int", "range": [21, 34]}
+    },
+    "equation_steps": {
+        "num_digit_6": [
+            "years_accrued = num_digit_6 - num_digit_3",
+            "total_percentage = years_accrued * num_digit_4",
+            "ans = num_digit_2 * (total_percentage / 100)"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 4, "max_digits": 6}
+    },
+    "restrictions": {
+        "num_digit_6": [
+            "num_digit_6 > num_digit_3",
+            "num_digit_6 < num_digit_1",
+            "(num_digit_2 * total_percentage) % 100 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

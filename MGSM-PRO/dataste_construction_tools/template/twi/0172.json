@@ -1,0 +1,8 @@
+{
+  "original_question": "Ntakraboa enan wɔ Caboose. Sally Two mfeɛ mmiensa yɛ sen Granny Red. Granny Red adi mfeɛ mmɔho mmienu sen Sally Four. Sɛ Sally Four ne Sally Thirtytwo adi mfeɛ baako, na Sally Thirtytwo wɔ mfeɛ 8 a, ntakraboa enan no nyinaa mfeɛ dodoɔ yɛ ahe?",
+  "original_answer": 51,
+  "symbolic_template": "Ntakraboa enan wɔ Caboose. {name_female_1, Sally} Two mfeɛ mmiensa yɛ sen {name_female_2, Granny} {name_color, Red}. {name_female_2, Granny} {name_color, Red} adi mfeɛ mmɔho mmienu sen {name_female_1, Sally} Four. Sɛ {name_female_1, Sally} Four ne {name_female_1, Sally} Thirtytwo adi mfeɛ baako, na {name_female_1, Sally} Thirtytwo wɔ mfeɛ {num_digit_1, 8} a, ntakraboa enan no nyinaa mfeɛ dodoɔ yɛ ahe?",
+  "ic_sentence_template": "{name_female_2, Granny} {name_color, Red} wͻfase barima no boaboa abͻdeɛ {num_ic, 93} ano.",
+  "ic_template": "Ntakraboa enan wɔ Caboose. {name_female_1, Sally} Two mfeɛ mmiensa yɛ sen {name_female_2, Granny} {name_color, Red}. {name_female_2, Granny} {name_color, Red} adi mfeɛ mmɔho mmienu sen {name_female_1, Sally} Four. Sɛ {name_female_1, Sally} Four ne {name_female_1, Sally} Thirtytwo adi mfeɛ baako, na {name_female_1, Sally} Thirtytwo wɔ mfeɛ {num_digit_1, 8} a, ntakraboa enan no nyinaa mfeɛ dodoɔ yɛ ahe? {name_female_2, Granny} {name_color, Red} wͻfase barima no boaboa abͻdeɛ {num_ic, 93} ano.",
+  "equation": "UPDATE HERE"
+}

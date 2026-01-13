@@ -1,0 +1,8 @@
+{
+  "original_question": "Odwadini bi tɔ hwiiti nkotokuo bi fi okuani bi hɔ wɔ $20 kotokuo biara ho. Sɛ ɛka no $2 sɛ wɔde kotokuo biara fi afum no mu kɔ adetɔnbea hɔ, na odwadini no nyaa mfasoɔ $400 bere a ɔtɔn kotokuo no nyinaa wɔ $30 kotoku0 biara bo mu no a, kotoku0 dodoɔ ahe na ɔtɔn yɛ?",
+  "original_answer": 50,
+  "symbolic_template": "Odwadini bi tɔ hwiiti nkotokuo bi fi okuani bi hɔ wɔ ${num_digit_1, 20} kotokuo biara ho. Sɛ ɛka no ${num_digit_2, 2} sɛ wɔde kotokuo biara fi afum no mu kɔ adetɔnbea hɔ, na odwadini no nyaa mfasoɔ ${num_digit_3, 400} bere a ɔtɔn kotokuo no nyinaa wɔ ${num_digit_4, 30} kotokuo biara bo mu no a, kotokuo dodoɔ ahe na ɔtɔn yɛ?",
+  "ic_sentence_template": "Ɔdeɛyɛfo no nua wɔ apple dua {num_ic, 80} wɔ n'asaase so.",
+  "ic_template": "Ɔdeɛyɛfo no nua wɔ apple dua {num_ic, 80} wɔ n'asaase so. Odwadini bi tɔ hwiiti nkotokuo bi fi okuani bi hɔ wɔ ${num_digit_1, 20} kotokuo biara ho. Sɛ ɛka no ${num_digit_2, 2} sɛ wɔde kotokuo biara fi afum no mu kɔ adetɔnbea hɔ, na odwadini no nyaa mfasoɔ ${num_digit_3, 400} bere a ɔtɔn kotokuo no nyinaa wɔ ${num_digit_4, 30} kotokuo biara bo mu no a, kotokuo dodoɔ ahe na ɔtɔn yɛ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "莱恩每天在他的花园里种下 2 棵花。如果 5 棵不长，15 天后，他有多少棵花？",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, 莱恩} 每天在他的花园里种下 {num_digit_1, 2} 棵花。如果 {num_digit_3, 5} 棵不长，{num_digit_2, 15} 天后，他有多少棵花？",
+  "ic_sentence_template": "{name_male, 瑞安} 的叔叔为花园带来了 {num_ic, 8} 个新花盆。",
+  "ic_template": "{name_male, 瑞安} 的叔叔为花园带来了 {num_ic, 8} 个新花盆。{name_male, 莱恩} 每天在他的花园里种下 {num_digit_1, 2} 棵花。如果 {num_digit_3, 5} 棵不长，{num_digit_2, 15} 天后，他有多少棵花？",
+  "equation": "UPDATE HERE"
+}

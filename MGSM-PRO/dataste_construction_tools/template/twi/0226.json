@@ -1,0 +1,8 @@
+{
+  "original_question": "James kenkan ne Pokemon nkrataa no. Na ɔwɔ ogya ahoro 30,  nwura nso ahoro 20, ne nsuo ahoro 40. Sε ɔhwere nsuo 8 a na ɔtɔ 14 a nwura mu a, nkyekyεmu bεn na ɛwɔ hɔ (twa ho hyia εbɛn nnumre no) sε nkrataa a w'ayi no w'ayε nsu mu?",
+  "original_answer": 33,
+  "symbolic_template": "{name_male, James} kenkan ne Pokemon nkrataa no. Na ɔwɔ ogya ahoro {num_digit_1, 30}, nwura nso ahoro {num_digit_2, 20}, ne nsuo ahoro {num_digit_3, 40}. Sε ɔhwere nsuo {num_digit_4, 8} a na ɔtɔ {num_digit_5, 14} a nwura mu a, nkyekyεmu bεn na ɛwɔ hɔ (twa ho hyia εbɛn nnumre no) sε nkrataa a w'ayi no w'ayε nsu mu?",
+  "ic_sentence_template": "{name_male, James} sewaa huu aguadi krataa a ɛho nyɛ na {num_ic, 73} wɔ kaa dan mu adetɔn bi so.",
+  "ic_template": "{name_male, James} kenkan ne Pokemon nkrataa no. Na ɔwɔ ogya ahoro {num_digit_1, 30}, nwura nso ahoro {num_digit_2, 20}, ne nsuo ahoro {num_digit_3, 40}. Sε ɔhwere nsuo {num_digit_4, 8} a na ɔtɔ {num_digit_5, 14} a nwura mu a, nkyekyεmu bεn na ɛwɔ hɔ (twa ho hyia εbɛn nnumre no) sε nkrataa a w'ayi no w'ayε nsu mu? {name_male, James} sewaa huu aguadi krataa a ɛho nyɛ na {num_ic, 73} wɔ kaa dan mu adetɔn bi so.",
+  "equation": "UPDATE HERE"
+}

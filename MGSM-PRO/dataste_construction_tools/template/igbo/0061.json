@@ -1,0 +1,8 @@
+{
+  "original_question": "Janet zụtara nwa ya nwayị brochi. Ọ kwụrụ $500 maka ihe ejiri rụọ ya ma kwụọ onye ọla ahụ $800 iji mee ya. Emechaa, ọ kwụọ 10% inweta amụma mkpuchi. Ego ole ka ọ kwụrụ?",
+  "original_answer": 1430,
+  "symbolic_template": "{name_female, Janet} zụtara nwa ya nwayị brochi. Ọ kwụrụ ${num_digit_1, 500} maka ihe ejiri rụọ ya ma kwụọ onye ọla ahụ ${num_digit_2, 800} iji mee ya. Emechaa, ọ kwụọ {num_digit_3, 10}% inweta amụma mkpuchi. Ego ole ka ọ kwụrụ?",
+  "ic_sentence_template": "Nwanne nna {name_female, Janet} hụrụ mkpụrụ ego dị iche iche {num_ic, 35} n'elu ụlọ ya.",
+  "ic_template": "Nwanne nna {name_female, Janet} hụrụ mkpụrụ ego dị iche iche {num_ic, 35} n'elu ụlọ ya. {name_female, Janet} zụtara nwa ya nwayị brochi. Ọ kwụrụ ${num_digit_1, 500} maka ihe ejiri rụọ ya ma kwụọ onye ọla ahụ ${num_digit_2, 800} iji mee ya. Emechaa, ọ kwụọ {num_digit_3, 10}% inweta amụma mkpuchi. Ego ole ka ọ kwụrụ?",
+  "equation": "UPDATE HERE"
+}

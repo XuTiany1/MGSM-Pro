@@ -1,0 +1,8 @@
+{
+  "original_question": "Raphael lọ ra àwọn ohun èlò ilé-ìwé kan. Ó ra gègé mẹ́rin tí iye ọ̀kọ̀ọ̀kan jẹ́ $1.5, ìwé méjì tí iye rẹ̀ jẹ́ $4 lọ́kọ̀ọ̀kan, àti bond paper rim kan tí iye rẹ̀ jẹ́ $20. Èló ni Raphael ná lórí gbogbo nkan?",
+  "original_answer": 34,
+  "symbolic_template": "{name_male, Raphael} lọ ra àwọn ohun èlò ilé-ìwé kan. Ó ra gègé {num_digit_1, 4} tí iye ọ̀kọ̀ọ̀kan jẹ́ ${num_digit_2, 1.5}, ìwé {num_digit_3, 2} tí iye rẹ̀ jẹ́ ${num_digit_4, 4} lọ́kọ̀ọ̀kan, àti bond paper rim kan tí iye rẹ̀ jẹ́ ${num_digit_5, 20}. Èló ni {name_male, Raphael} ná lórí gbogbo nkan?",
+  "ic_sentence_template": "Bàbá ńlá {name_male, Raphael} mú àwọn àpótí àpẹ̀ńdá {num_ic, 19} wá lọ́sẹ̀ tó kọjá.",
+  "ic_template": "Bàbá ńlá {name_male, Raphael} mú àwọn àpótí àpẹ̀ńdá {num_ic, 19} wá lọ́sẹ̀ tó kọjá. {name_male, Raphael} lọ ra àwọn ohun èlò ilé-ìwé kan. Ó ra gègé {num_digit_1, 4} tí iye ọ̀kọ̀ọ̀kan jẹ́ ${num_digit_2, 1.5}, ìwé {num_digit_3, 2} tí iye rẹ̀ jẹ́ ${num_digit_4, 4} lọ́kọ̀ọ̀kan, àti bond paper rim kan tí iye rẹ̀ jẹ́ ${num_digit_5, 20}. Èló ni {name_male, Raphael} ná lórí gbogbo nkan?",
+  "equation": "UPDATE HERE"
+}

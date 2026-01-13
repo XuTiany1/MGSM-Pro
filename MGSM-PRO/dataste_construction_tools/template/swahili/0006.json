@@ -1,0 +1,8 @@
+{
+  "original_question": "Toulouse lina kondoo mara mbili ya idadi ya kondoo katika Charleston. Charleston lina kondoo mara 4 ya idadi ya kondoo katika Seattle. Majiji ya Toulouse, Charleston, na Seattle yana jumla ya kondoo wangapi kwa pamoja iwapo Seattle lina kondoo 20?",
+  "original_answer": 260,
+  "symbolic_template": "{name_city_1, Toulouse} ina kondoo mara mbili ya idadi ya kondoo katika {name_city_2, Charleston}. {name_city_2, Charleston} ina kondoo mara {num_digit_1, 4} ya idadi ya kondoo katika {name_city_3, Seattle}. Majiji ya {name_city_1, Toulouse}, {name_city_2, Charleston}, na {name_city_3, Seattle} yana jumla ya kondoo wangapi kwa pamoja iwapo {name_city_3, Seattle} lina kondoo {num_digit_2, 20}?",
+  "ic_sentence_template": "Mji karibu na {name_city_2, Charleston} hufuga mbuzi {num_ic, 41} karibu.",
+  "ic_template": "Mji karibu na {name_city_2, Charleston} hufuga mbuzi {num_ic, 41} karibu. {name_city_1, Toulouse} ina kondoo mara mbili ya idadi ya kondoo katika {name_city_2, Charleston}. {name_city_2, Charleston} ina kondoo mara {num_digit_1, 4} ya idadi ya kondoo katika {name_city_3, Seattle}. Majiji ya {name_city_1, Toulouse}, {name_city_2, Charleston}, na {name_city_3, Seattle} yana jumla ya kondoo wangapi kwa pamoja iwapo {name_city_3, Seattle} lina kondoo {num_digit_2, 20}?",
+  "equation": "UPDATE HERE"
+}

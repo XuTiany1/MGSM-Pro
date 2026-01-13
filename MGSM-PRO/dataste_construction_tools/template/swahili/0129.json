@@ -1,0 +1,8 @@
+{
+  "original_question": "Hospitali huhudumia watu 500 kwa siku. Kila mgonjwa anahudumiwa kwa wastani wa dakika 24. Madaktari hutoza hospitali $150 kwa saa na hospitali hutoza wagonjwa $200 kwa saa. Hospitali hupata faida ya pesa ngapi kwa safari hizi?",
+  "original_answer": 10000,
+  "symbolic_template": "Hospitali huhudumia watu {num_digit_1, 500} kwa siku. Kila mgonjwa anahudumiwa kwa wastani wa dakika {num_digit_2, 24}. Madaktari hutoza hospitali ${num_digit_3, 150} kwa saa na hospitali hutoza wagonjwa ${num_digit_4, 200} kwa saa. Hospitali hupata faida ya pesa ngapi kwa safari hizi?",
+  "ic_sentence_template": "Binamu wa mkurugenzi wa hospitali alileta majarida {num_ic, 64} kwa ajili ya sehemu ya kusubiria.",
+  "ic_template": "Binamu wa mkurugenzi wa hospitali alileta majarida {num_ic, 64} kwa ajili ya sehemu ya kusubiria. Hospitali huhudumia watu {num_digit_1, 500} kwa siku. Kila mgonjwa anahudumiwa kwa wastani wa dakika {num_digit_2, 24}. Madaktari hutoza hospitali ${num_digit_3, 150} kwa saa na hospitali hutoza wagonjwa ${num_digit_4, 200} kwa saa. Hospitali hupata faida ya pesa ngapi kwa safari hizi?",
+  "equation": "UPDATE HERE"
+}

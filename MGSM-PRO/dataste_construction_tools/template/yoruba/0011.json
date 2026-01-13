@@ -1,0 +1,8 @@
+{
+  "original_question": "Toula lọ sí ilé iṣẹ́ búrẹ́dì ó sì ra onírúurú ìyẹ̀fun. Ó ra dọ́sínì 3 ìyẹ̀fun dídín èyí tó tó $68 fún dọ́sínì kan, dọ́sínì 2 àkàrà òyìnbó kéékèèké èyí tó tó $80 fún dọ́sínì kan, àti dọ́sínì 6 àkàrà òyìnbó kékèké ní $55 fún dọ́sínì kan. Èlò ní iye gbogbo nǹkan tó rà?",
+  "original_answer": 694,
+  "symbolic_template": "{name_female, Toula} lọ sí ilé iṣẹ́ búrẹ́dì ó sì ra onírúurú ìyẹ̀fun. Ó ra dọ́sínì {num_digit_1, 3} ìyẹ̀fun dídín èyí tó tó ${num_digit_2, 68} fún dọ́sínì kan, dọ́sínì {num_digit_3, 2} àkàrà òyìnbó kéékèèké èyí tó tó ${num_digit_4, 80} fún dọ́sínì kan, àti dọ́sínì {num_digit_5, 6} àkàrà òyìnbó kékèké ní ${num_digit_6, 55} fún dọ́sínì kan. Èlò ní iye gbogbo nǹkan tó rà?",
+  "ic_sentence_template": "Ọ̀kùnrin arákùnrin {name_female, Toula} paṣẹ fún {num_ic, 136} agbá dundun fún ayẹyẹ kan.",
+  "ic_template": "Ọ̀kùnrin arákùnrin {name_female, Toula} paṣẹ fún {num_ic, 136} agbá dundun fún ayẹyẹ kan. {name_female, Toula} lọ sí ilé iṣẹ́ búrẹ́dì ó sì ra onírúurú ìyẹ̀fun. Ó ra dọ́sínì {num_digit_1, 3} ìyẹ̀fun dídín èyí tó tó ${num_digit_2, 68} fún dọ́sínì kan, dọ́sínì {num_digit_3, 2} àkàrà òyìnbó kéékèèké èyí tó tó ${num_digit_4, 80} fún dọ́sínì kan, àti dọ́sínì {num_digit_5, 6} àkàrà òyìnbó kékèké ní ${num_digit_6, 55} fún dọ́sínì kan. Èlò ní iye gbogbo nǹkan tó rà?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Marissa anatembea masafa marefu ya maili 12. Alitumia saa 1 kutembea maili 4 za kwanza, kisha saa nyingine moja kutembea maili mbili zinazofuata. Iwapo anataka kasi yake ya wastani iwe maili 4 kwa saa, anahitaji kutembea kwa kasi (katika maili kwa saa) gani kwa umbali unaosalia?",
+  "original_answer": 6,
+  "symbolic_template": "{name_female, Marissa} anapanda mlima kwa umbali wa maili {num_digit_1, 12}. Alitumia saa {num_digit_2, 1} kutembea maili {num_digit_3, 4} za kwanza, kisha saa nyingine {num_digit_2, 1} kutembea maili mbili zinazofuata. Iwapo anataka kasi yake ya wastani iwe maili {num_digit_4, 4} kwa saa, anapaswa kutembea kwa kasi gani (katika maili kwa saa) kwa umbali uliosalia?",
+  "ic_sentence_template": "Shangazi wa {name_female, Marissa} aliona maua pori {num_ic, 49} kando ya njia.",
+  "ic_template": "Shangazi wa {name_female, Marissa} aliona maua pori {num_ic, 49} kando ya njia. {name_female, Marissa} anapanda mlima kwa umbali wa maili {num_digit_1, 12}. Alitumia saa {num_digit_2, 1} kutembea maili {num_digit_3, 4} za kwanza, kisha saa nyingine {num_digit_2, 1} kutembea maili mbili zinazofuata. Iwapo anataka kasi yake ya wastani iwe maili {num_digit_4, 4} kwa saa, anapaswa kutembea kwa kasi gani (katika maili kwa saa) kwa umbali uliosalia?",
+  "equation": "UPDATE HERE"
+}

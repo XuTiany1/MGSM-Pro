@@ -1,0 +1,8 @@
+{
+  "original_question": "Carla na-ebudata failu nari GB abụọ. Ọ na ejikarị otu nkeji ebudata GB abụọ, mana  40% nke ụzọ site na mbudata, Windows na-amanye malitegharị n' isi n'ike iwebata ihe mmelite. nke were nkeji iri abụọ. Mgbe ahụ Carla malitegharịrị n' isi ime mbudata. Kedu oge ole owere iji budata failu ahụ?",
+  "original_answer": 160,
+  "symbolic_template": "{name_female, Carla} na-ebudata failu {num_digit_1, 200} GB. Ọ na ejikarị otu nkeji ebudata {num_digit_2, 2} GB, mana {num_digit_3, 40}% nke ụzọ site na mbudata, Windows na-amanye malitegharị n'isi n'ike iwebata ihe mmelite, nke were nkeji {num_digit_4, 20}. Mgbe ahụ {name_female, Carla} malitegharịrị n'isi ime mbudata. Kedu oge ole owere iji budata failu ahụ?",
+  "ic_sentence_template": "Nwúnna {name_female, Carla} zụrụ akụkụ kọmputa ọhụrụ {num_ic, 110} n'oge na-adịbeghị anya.",
+  "ic_template": "Nwúnna {name_female, Carla} zụrụ akụkụ kọmputa ọhụrụ {num_ic, 110} n'oge na-adịbeghị anya. {name_female, Carla} na-ebudata failu {num_digit_1, 200} GB. Ọ na ejikarị otu nkeji ebudata {num_digit_2, 2} GB, mana {num_digit_3, 40}% nke ụzọ site na mbudata, Windows na-amanye malitegharị n'isi n'ike iwebata ihe mmelite, nke were nkeji {num_digit_4, 20}. Mgbe ahụ {name_female, Carla} malitegharịrị n'isi ime mbudata. Kedu oge ole owere iji budata failu ahụ?",
+  "equation": "UPDATE HERE"
+}

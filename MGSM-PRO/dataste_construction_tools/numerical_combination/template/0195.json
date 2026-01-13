@@ -1,0 +1,26 @@
+{
+    "problem_id": "0195",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "float", "range": [0.5, 3.0], "precision": 2},
+        "num_digit_2": {"type": "float", "range": [0.1, 1.0], "precision": 2},
+        "num_digit_3": {"type": "int", "range": [4, 20]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "pen_price = num_digit_1 + num_digit_2",
+            "ans = pen_price * num_digit_3"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_3": [
+            "((num_digit_1 + num_digit_2) * num_digit_3) % 1 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

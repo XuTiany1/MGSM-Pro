@@ -1,0 +1,26 @@
+{
+    "problem_id": "0111",
+    "generation_order": ["num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [32, 160]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "speed_fps = 20 / 16",
+            "total_distance = num_digit_1 * speed_fps",
+            "leak_rate_per_foot = 2 / 10",
+            "ans = total_distance * leak_rate_per_foot"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "(num_digit_1 * 0.25) % 1 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

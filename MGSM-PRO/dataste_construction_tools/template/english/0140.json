@@ -1,0 +1,8 @@
+{
+  "original_question": "Of the 20 available cars for rent, 12 are automatic cars, 4 are manual cars, and the rest are semi-automatic. What percentage of the cars are semi-automatic?",
+  "original_answer": 20,
+  "symbolic_template": "Of the {num_digit_1, 20} available cars for rent, {num_digit_2, 12} are automatic cars, {num_digit_3, 4} are manual cars, and the rest are semi-automatic. What percentage of the cars are semi-automatic?",
+  "ic_sentence_template": "The rental manager's niece visited {num_ic, 66} car dealerships last year.",
+  "ic_template": "Of the {num_digit_1, 20} available cars for rent, {num_digit_2, 12} are automatic cars, {num_digit_3, 4} are manual cars, and the rest are semi-automatic. The rental manager's niece visited {num_ic, 66} car dealerships last year. What percentage of the cars are semi-automatic?",
+  "equation": "UPDATE HERE"
+}

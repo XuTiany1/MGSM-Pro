@@ -1,0 +1,8 @@
+{
+  "original_question": "Gene ԑԑpam mpa aduradeԑ bi afiri ntaadeԑ a wɔde kyԑ deda bi mu. Ͻwɔ ataadeԑ baako firi akwamma biara a w’akɔ mu. Ataadeԑ biara wɔ fa a ԑbԑkɔ wɔ mpa aduradeԑ no mu. Gyinapԑn biara wɔ ataadeԑ fa a ԑfiri akwamma mfeԑ foforɔ bi mu. Ͻkɔ akwamma nnan wɔ afe no mu na w’akɔ akwamma firi sԑ ɔdii 23. Siisie no, w’adi 34. Mpa aduradeԑ dodoɔ sԑn na ɔwɔ?",
+  "original_answer": 44,
+  "symbolic_template": "{name_male, Gene} ԑԑpam mpa aduradeԑ bi afiri ntaadeԑ a wɔde kyԑ deda bi mu. Ͻwɔ ataadeԑ baako firi akwamma biara a w’akɔ mu. Ataadeԑ biara wɔ fa a ԑbԑkɔ wɔ mpa aduradeԑ no mu. Gyinapԑn biara wɔ ataadeԑ fa a ԑfiri akwamma mfeԑ foforɔ bi mu. Ͻkɔ akwamma nnan wɔ afe no mu na w’akɔ akwamma firi sԑ ɔdii {num_digit_1, 23}. Siisie no, w’adi {num_digit_2, 34}. Mpa aduradeԑ dodoɔ sԑn na ɔwɔ?",
+  "ic_sentence_template": "{name_male, Gene} wͻfa wɔ nsensanee {num_ic, 44} a ɛyɛ kɔla ahorow.",
+  "ic_template": "{name_male, Gene} wͻfa wɔ nsensanee {num_ic, 44} a ɛyɛ kɔla ahorow. {name_male, Gene} ԑԑpam mpa aduradeԑ bi afiri ntaadeԑ a wɔde kyԑ deda bi mu. Ͻwɔ ataadeԑ baako firi akwamma biara a w’akɔ mu. Ataadeԑ biara wɔ fa a ԑbԑkɔ wɔ mpa aduradeԑ no mu. Gyinapԑn biara wɔ ataadeԑ fa a ԑfiri akwamma mfeԑ foforɔ bi mu. Ͻkɔ akwamma nnan wɔ afe no mu na w’akɔ akwamma firi sԑ ɔdii {num_digit_1, 23}. Siisie no, w’adi {num_digit_2, 34}. Mpa aduradeԑ dodoɔ sԑn na ɔwɔ?",
+  "equation": "UPDATE HERE"
+}

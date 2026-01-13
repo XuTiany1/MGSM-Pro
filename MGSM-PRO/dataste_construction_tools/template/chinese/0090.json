@@ -1,0 +1,8 @@
+{
+  "original_question": "霸王龙泰德计划带土豆沙拉去参加恐龙野餐。他知道，每只成年恐龙会吃掉 10 磅的土豆沙拉，每只未成年恐龙会吃掉这个量的一半。如果野餐上有 20 只成年恐龙和 5 只未成年恐龙，而且泰德希望有足够的沙拉供每只恐龙吃，他需要带多少磅的土豆沙拉？",
+  "original_answer": 225,
+  "symbolic_template": "霸王龙 {name_dinosaur, 泰德} 计划带土豆沙拉去参加恐龙野餐。他知道，每只成年恐龙会吃掉 {num_digit_1, 10} 磅的土豆沙拉，每只未成年恐龙会吃掉这个量的 一半。如果野餐上有 {num_digit_2, 20} 只成年恐龙和 {num_digit_3, 5} 只未成年恐龙，而且 {name_dinosaur, 泰德} 希望有足够的沙拉供每只恐龙吃，他需要带多少磅的土豆沙拉？",
+  "ic_sentence_template": "{name_dinosaur, 特德} 的表亲有 {num_ic, 94} 个菠萝。",
+  "ic_template": "{name_dinosaur, 特德} 的表亲有 {num_ic, 94} 个菠萝。霸王龙 {name_dinosaur, 泰德} 计划带土豆沙拉去参加恐龙野餐。他知道，每只成年恐龙会吃掉 {num_digit_1, 10} 磅的土豆沙拉，每只未成年恐龙会吃掉这个量的 一半。如果野餐上有 {num_digit_2, 20} 只成年恐龙和 {num_digit_3, 5} 只未成年恐龙，而且 {name_dinosaur, 泰德} 希望有足够的沙拉供每只恐龙吃，他需要带多少磅的土豆沙拉？",
+  "equation": "UPDATE HERE"
+}

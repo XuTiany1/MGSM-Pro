@@ -1,0 +1,8 @@
+{
+  "original_question": "Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week?",
+  "original_answer": 460,
+  "symbolic_template": "{name_female, Eliza}’s rate per hour for the first {num_digit_1, 40} hours she works each week is ${num_digit_2, 10}. She also receives an overtime pay of {num_digit_3, 1.2} times her regular hourly rate. If {name_female, Eliza} worked for {num_digit_4, 45} hours this week, how much are her earnings for this week?",
+  "ic_sentence_template": "{name_female, Eliza}’s uncle runs {num_ic, 98} grocery stores in town.",
+  "ic_template": "{name_female, Eliza}’s rate per hour for the first {num_digit_1, 40} hours she works each week is ${num_digit_2, 10}. She also receives an overtime pay of {num_digit_3, 1.2} times her regular hourly rate. If {name_female, Eliza} worked for {num_digit_4, 45} hours this week, {name_female, Eliza}’s uncle runs {num_ic, 98} grocery stores in town. How much are her earnings for this week?",
+  "equation": "UPDATE HERE"
+}

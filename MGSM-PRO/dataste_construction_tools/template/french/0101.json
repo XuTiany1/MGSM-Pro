@@ -1,0 +1,8 @@
+{
+  "original_question": "Solo doit lire 4 pages de son manuel de sciences, 20 pages du manuel d'études sociales, 7 pages du manuel d'histoire et 8 pages du manuel de géographie. Ce lundi, il a lu 15 pages. S'il ne lui reste que 4 jours pour terminer sa lecture, combien de pages lui faudra-t-il lire en moyenne chaque jour ?",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, Solo} doit lire {num_digit_1, 4} pages de son manuel de sciences, {num_digit_2, 20} pages du manuel d'études sociales, {num_digit_3, 7} pages du manuel d'histoire et {num_digit_4, 8} pages du manuel de géographie. Ce lundi, il a lu {num_digit_5, 15} pages. S'il ne lui reste que {num_digit_6, 4} jours pour terminer sa lecture, combien de pages lui faudra-t-il lire en moyenne chaque jour (en un jour) ?",
+  "ic_sentence_template": "{name_male, Solo} a une tante qui a récemment emprunté {num_ic, 65} romans policiers à la bibliothèque.",
+  "ic_template": "{name_male, Solo} a une tante qui a récemment emprunté {num_ic, 65} romans policiers à la bibliothèque. {name_male, Solo} doit lire {num_digit_1, 4} pages de son manuel de sciences, {num_digit_2, 20} pages du manuel d'études sociales, {num_digit_3, 7} pages du manuel d'histoire et {num_digit_4, 8} pages du manuel de géographie. Ce lundi, il a lu {num_digit_5, 15} pages. S'il ne lui reste que {num_digit_6, 4} jours pour terminer sa lecture, combien de pages lui faudra-t-il lire en moyenne chaque jour (en un jour) ?",
+  "equation": "UPDATE HERE"
+}

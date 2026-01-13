@@ -1,0 +1,8 @@
+{
+  "original_question": "Janet alikuwa na kalamu 22 za kijani na kalamu 10 za manjano. Kisha alinunua mifuko 6 ya kalamu za buluu na mifuko 2 ya kalamu nyekundu. Kulikuwa na kalamu 9 katika kila mfuko wa buluu na kalamu 6 katika kila mfuko wa kalamu nyekundu. Sasa Janet ana kalamu ngapi kwa jumla?",
+  "original_answer": 98,
+  "symbolic_template": "{name_female, Janet} alikuwa na kalamu za kijani {num_digit_1, 22} na kalamu za manjano {num_digit_2, 10}. Kisha alinunua mifuko {num_digit_3, 6} ya kalamu za buluu na mifuko {num_digit_4, 2} ya kalamu nyekundu. Kulikuwa na kalamu {num_digit_5, 9} katika kila mfuko wa kalamu za buluu na kalamu {num_digit_6, 6} katika kila mfuko wa kalamu nyekundu. Je, {name_female, Janet} sasa ana kalamu ngapi jumla?",
+  "ic_sentence_template": "Binamu wa {name_female, Janet} amepokea daftari {num_ic, 700} kama zawadi.",
+  "ic_template": "Binamu wa {name_female, Janet} amepokea daftari {num_ic, 700} kama zawadi. {name_female, Janet} alikuwa na kalamu za kijani {num_digit_1, 22} na kalamu za manjano {num_digit_2, 10}. Kisha alinunua mifuko {num_digit_3, 6} ya kalamu za buluu na mifuko {num_digit_4, 2} ya kalamu nyekundu. Kulikuwa na kalamu {num_digit_5, 9} katika kila mfuko wa kalamu za buluu na kalamu {num_digit_6, 6} katika kila mfuko wa kalamu nyekundu. Je, {name_female, Janet} sasa ana kalamu ngapi jumla?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Elaine kọ́kọ́ ní káàdì Pokemon 20. Lẹ́yìn oṣù kan, ó gba ìlọ́po mẹ́ta iye yẹn. Ní oṣù kejì, ó gba káàdì 20 díẹ̀ ju àwọn tí ó gbà ní oṣù àkọ́kọ́ lọ. Ní oṣù kẹta, ó gba ìlọ́po méjì àpapọ̀ iye káàdì pokemon tí ó gbà ní oṣù àkọ́kọ́ àti kejì. Káàdì pokemon mélòó ni ó ní báyìí lápapọ̀?",
+  "original_answer": 320,
+  "symbolic_template": "{name_female, Elaine} kọ́kọ́ ní káàdì Pokemon {num_digit_1, 20}. Lẹ́yìn oṣù kan, ó gba ìlọ́po mẹ́ta iye yẹn. Ní oṣù kejì, ó gba káàdì {num_digit_2, 20} díẹ̀ ju àwọn tí ó gbà ní oṣù àkọ́kọ́ lọ. Ní oṣù kẹta, ó gba ìlọ́po méjì àpapọ̀ iye káàdì pokemon tí ó gbà ní oṣù àkọ́kọ́ àti kejì. Káàdì pokemon mélòó ni ó ní báyìí lápapọ̀?",
+  "ic_sentence_template": "Ẹ̀gbọ́n bàbá {name_female, Elaine} ní àwọn kàdì bésibọ́ọ̀lù {num_ic, 62984}.",
+  "ic_template": "Ẹ̀gbọ́n bàbá {name_female, Elaine} ní àwọn kàdì bésibọ́ọ̀lù {num_ic, 62984}. {name_female, Elaine} kọ́kọ́ ní káàdì Pokemon {num_digit_1, 20}. Lẹ́yìn oṣù kan, ó gba ìlọ́po mẹ́ta iye yẹn. Ní oṣù kejì, ó gba káàdì {num_digit_2, 20} díẹ̀ ju àwọn tí ó gbà ní oṣù àkọ́kọ́ lọ. Ní oṣù kẹta, ó gba ìlọ́po méjì àpapọ̀ iye káàdì pokemon tí ó gbà ní oṣù àkọ́kọ́ àti kejì. Káàdì pokemon mélòó ni ó ní báyìí lápapọ̀?",
+  "equation": "UPDATE HERE"
+}

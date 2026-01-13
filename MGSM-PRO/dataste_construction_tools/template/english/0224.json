@@ -1,0 +1,8 @@
+{
+  "original_question": "Carlos and Benji are at the beach. Carlos rents a canoe for $30 an hour and Benji rents a banana boat raft for $18 an hour. If Carlos uses the boat for 3 hours and Benji uses the raft for 5 hours, how much will they pay for their rentals, altogether?",
+  "original_answer": 180,
+  "symbolic_template": "{name_male_1, Carlos} and {name_male_2, Benji} are at the beach. {name_male_1, Carlos} rents a canoe for ${num_digit_1, 30} an hour and {name_male_2, Benji} rents a banana boat raft for ${num_digit_2, 18} an hour. If {name_male_1, Carlos} uses the boat for {num_digit_3, 3} hours and {name_male_2, Benji} uses the raft for {num_digit_4, 5} hours, how much will they pay for their rentals, altogether?",
+  "ic_sentence_template": "{name_male_2, Benji}'s uncle brought {num_ic, 680} towels for the group.",
+  "ic_template": "{name_male_1, Carlos} and {name_male_2, Benji} are at the beach. {name_male_1, Carlos} rents a canoe for ${num_digit_1, 30} an hour and {name_male_2, Benji} rents a banana boat raft for ${num_digit_2, 18} an hour. If {name_male_1, Carlos} uses the boat for {num_digit_3, 3} hours and {name_male_2, Benji} uses the raft for {num_digit_4, 5} hours, {name_male_2, Benji}'s uncle brought {num_ic, 680} towels for the group. How much will they pay for their rentals, altogether?",
+  "equation": "UPDATE HERE"
+}

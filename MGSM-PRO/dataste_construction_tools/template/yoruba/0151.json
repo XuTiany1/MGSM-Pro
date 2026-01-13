@@ -1,0 +1,8 @@
+{
+  "original_question": "Shawnda pinnu pé àwọn ọmọ àdúgbò rẹ̀ nílò o ibi tí wọ́n tí ń pọ́ táyà kẹ̀kẹ́. Ó pinnu pé ọ̀nà tí ó dára jù láti máa gba owó lórí táyà kọ̀ọ̀kan. Àti pọ́ táyà kọ̀ọ̀kan máa jẹ́ 25 cents. Ní ọjọ́ àkọ́kọ́, àwọn ènìyàn márùn-ún tí wọ́n wà lórí kẹ̀kẹ́ wá láti fẹ́ táyà méjèèjì. Àwọn ènìyàn mẹ́ta wá láti fẹ́ gbogbo táyà kẹ̀kẹ́ márúwá wọn. Ní àkótán, ẹnìkan wá sí i pẹ̀lú u kẹ̀kẹ́ ẹlẹ́sẹ̀ kan. Èló ni Dọ́là tí ó pa lọ́jọ́ náà?",
+  "original_answer": 5,
+  "symbolic_template": "{name_female, Shawnda} pinnu pé àwọn ọmọ àdúgbò rẹ̀ nílò o ibi tí wọ́n tí ń pọ́ táyà kẹ̀kẹ́. Ó pinnu pé ọ̀nà tí ó dára jù láti máa gba owó lórí táyà kọ̀ọ̀kan. Àti pọ́ táyà kọ̀ọ̀kan máa jẹ́ {num_digit_1, 25} cents. Ní ọjọ́ àkọ́kọ́, àwọn ènìyàn {num_digit_2, 5} tí wọ́n wà lórí kẹ̀kẹ́ wá láti fẹ́ táyà méjèèjì. Àwọn ènìyàn {num_digit_3, 3} wá láti fẹ́ gbogbo táyà kẹ̀kẹ́ márúwá wọn. Ní àkótán, èèyàn kan wá sí i pẹ̀lú u kẹ̀kẹ́ ẹlẹ́sẹ̀ kan. Èló ni Dọ́là tí ó pa lọ́jọ́ náà?",
+  "ic_sentence_template": "Àgbà mále {name_female, Shawnda} ra bọ́lù {num_ic, 37} fún àyẹyẹ laipẹ́ yi.",
+  "ic_template": "Àgbà mále {name_female, Shawnda} ra bọ́lù {num_ic, 37} fún àyẹyẹ laipẹ́ yi. {name_female, Shawnda} pinnu pé àwọn ọmọ àdúgbò rẹ̀ nílò o ibi tí wọ́n tí ń pọ́ táyà kẹ̀kẹ́. Ó pinnu pé ọ̀nà tí ó dára jù láti máa gba owó lórí táyà kọ̀ọ̀kan. Àti pọ́ táyà kọ̀ọ̀kan máa jẹ́ {num_digit_1, 25} cents. Ní ọjọ́ àkọ́kọ́, àwọn ènìyàn {num_digit_2, 5} tí wọ́n wà lórí kẹ̀kẹ́ wá láti fẹ́ táyà méjèèjì. Àwọn ènìyàn {num_digit_3, 3} wá láti fẹ́ gbogbo táyà kẹ̀kẹ́ márúwá wọn. Ní àkótán, èèyàn kan wá sí i pẹ̀lú u kẹ̀kẹ́ ẹlẹ́sẹ̀ kan. Èló ni Dọ́là tí ó pa lọ́jọ́ náà?",
+  "equation": "UPDATE HERE"
+}

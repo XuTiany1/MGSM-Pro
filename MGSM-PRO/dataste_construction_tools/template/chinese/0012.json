@@ -1,0 +1,8 @@
+{
+  "original_question": "卡洛斯在种一棵柠檬树。种这棵树需要花 90 美元。这颗树每年会结出 7 棵柠檬，每颗能卖 1.5 美元。每年给这棵树浇水和施肥需要花 3 美元。他需要用多少年才能开始从这棵柠檬树上赚到钱？",
+  "original_answer": 13,
+  "symbolic_template": "{name_male, 卡洛斯} 在种一棵柠檬树。种这棵树需要花 {num_digit_1, 90} 美元。这棵树每年会结出 {num_digit_2, 7} 个柠檬，每个能卖 {num_digit_3, 1.5} 美元。每年给这棵树浇水和施肥需要花 {num_digit_4, 3} 美元。他需要用多少年才能开始从这棵柠檬树上赚到钱？",
+  "ic_sentence_template": "{name_male, 卡洛斯} 的表亲在上一次家庭野餐带来了 {num_ic, 136} 个橙子。",
+  "ic_template": "{name_male, 卡洛斯} 的表亲在上一次家庭野餐带来了 {num_ic, 136} 个橙子。{name_male, 卡洛斯} 在种一棵柠檬树。种这棵树需要花 {num_digit_1, 90} 美元。这棵树每年会结出 {num_digit_2, 7} 个柠檬，每个能卖 {num_digit_3, 1.5} 美元。每年给这棵树浇水和施肥需要花 {num_digit_4, 3} 美元。他需要用多少年才能开始从这棵柠檬树上赚到钱？",
+  "equation": "UPDATE HERE"
+}

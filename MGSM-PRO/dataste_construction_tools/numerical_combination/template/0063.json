@@ -1,0 +1,29 @@
+{
+    "problem_id": "0063",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [50, 200]},
+        "num_digit_2": {"type": "int", "range": [5, 50]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "first_half = num_digit_1 * 6"
+        ],
+        "num_digit_2": [
+            "discounted_rate = num_digit_1 * (1 - (num_digit_2 / 100))",
+            "second_half = discounted_rate * 6",
+            "ans = first_half + second_half"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 3, "max_digits": 5}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "(num_digit_1 * num_digit_2) % 100 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

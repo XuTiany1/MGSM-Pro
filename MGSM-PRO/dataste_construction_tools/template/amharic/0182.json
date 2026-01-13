@@ -1,0 +1,8 @@
+{
+  "original_question": "ጄን ከማርክ የሁለት አመት ታላቅ ነው። ከሁለት አመት በፊት ማርክ ከጃን እድሜ ግማሽ በ 5 አመት ይበልጥ ነበር፣ጃን 30 አመቱ ከሆነ ጄን ስንት አመቱ ነው",
+  "original_answer": 23,
+  "symbolic_template": "   \n{name_male_1, ጄን} ከ{name_male_2, ማርክ} የሁለት አመት ታላቅ ነው። ከሁለት አመት በፊት {name_male_2, ማርክ} ከ{name_female, ጃን} እድሜ ግማሽ በ {num_digit_1, 5} አመት ይበልጥ ነበር፣{name_female, ጃን} {num_digit_2, 30} አመቱ ከሆነ {name_male_1, ጄን} ስንት አመቱ ነው",
+  "ic_sentence_template": "የ{name_male_1, ጄን} አጎት {num_ic, 82} የቀድሞ ጊዜ ገንዘቦች አሏቸው።",
+  "ic_template": "{name_male_1, ጄን} ከ{name_male_2, ማርክ} የሁለት አመት ታላቅ ነው። ከሁለት አመት በፊት {name_male_2, ማርክ} ከ{name_female, ጃን} እድሜ ግማሽ በ {num_digit_1, 5} አመት ይበልጥ ነበር፣{name_female, ጃን} {num_digit_2, 30} አመቱ ከሆነ {name_male_1, ጄን} ስንት አመቱ ነው የ{name_male_1, ጄን} አጎት {num_ic, 82} የቀድሞ ጊዜ ገንዘቦች አሏቸው።",
+  "equation": "UPDATE HERE"
+}

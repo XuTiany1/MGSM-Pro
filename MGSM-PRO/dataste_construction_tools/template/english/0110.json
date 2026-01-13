@@ -1,0 +1,8 @@
+{
+  "original_question": "Marcell and Beatrice are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and Beatrice's was two roll-ups wide and 24 roll-ups long while Marcell's was 3 roll-ups wide and 14 roll-ups long. If they both ate their entire amount, how many did they eat on average?",
+  "original_answer": 45,
+  "symbolic_template": "{name_female_1, Marcell} and {name_female_2, Beatrice} are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and {name_female_2, Beatrice}'s was two roll-ups wide and {num_digit_1, 24} roll-ups long while {name_female_1, Marcell}'s was {num_digit_2, 3} roll-ups wide and {num_digit_3, 14} roll-ups long. If they both ate their entire amount, how many did they eat on average?",
+  "ic_sentence_template": "{name_female_2, Beatrice}'s aunt bought {num_ic, 41} juice boxes for the contest.",
+  "ic_template": "{name_female_1, Marcell} and {name_female_2, Beatrice} are having a contest to see who can eat the most fruit roll-ups, so they unroll as many as they can find. Unfortunately, someone makes a mistake and {name_female_2, Beatrice}'s was two roll-ups wide and {num_digit_1, 24} roll-ups long while {name_female_1, Marcell}'s was {num_digit_2, 3} roll-ups wide and {num_digit_3, 14} roll-ups long. {name_female_2, Beatrice}'s aunt bought {num_ic, 41} juice boxes for the contest. If they both ate their entire amount, how many did they eat on average?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Joe kotokuo a ɔde Halloween tofe gu mu yɛ chocolate 25 ne aduaba tofe 80. Chocolate biara mu duru yɛ aduaba tofe biara a wɔaka ho asɛm no mmɔho mmienu. Sɛ chocolate dua biara mu duru yɛ 40g a, ɛndeɛ Joe kotokuo mu tofe no mu duru yɛ gram ahe?",
+  "original_answer": 2600,
+  "symbolic_template": "{name_male, Joe} kotokuo a ɔde Halloween tofe gu mu yɛ chocolate {num_digit_1, 25} ne aduaba tofe {num_digit_2, 80}. Chocolate biara mu duru yɛ aduaba tofe biara a wɔaka ho asɛm no mmɔho mmienu. Sɛ chocolate dua biara mu duru yɛ {num_digit_3, 40}g a, ɛndeɛ {name_male, Joe} kotokuo mu tofe no mu duru yɛ gram ahe?",
+  "ic_sentence_template": "{name_male, Joe} wɔfa tɔɔ dɔkɔdɔkɔdeɛ {num_ic, 112} de maa apontow bi.",
+  "ic_template": "{name_male, Joe} wɔfa tɔɔ dɔkɔdɔkɔdeɛ {num_ic, 112} de maa apontow bi. {name_male, Joe} kotokuo a ɔde Halloween tofe gu mu yɛ chocolate {num_digit_1, 25} ne aduaba tofe {num_digit_2, 80}. Chocolate biara mu duru yɛ aduaba tofe biara a wɔaka ho asɛm no mmɔho mmienu. Sɛ chocolate dua biara mu duru yɛ {num_digit_3, 40}g a, ɛndeɛ {name_male, Joe} kotokuo mu tofe no mu duru yɛ gram ahe?",
+  "equation": "UPDATE HERE"
+}

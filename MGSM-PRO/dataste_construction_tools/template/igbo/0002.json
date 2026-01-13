@@ -1,0 +1,8 @@
+{
+  "original_question": "Josh na-ekpebi ireghari ụlọ. Ọ na-azụta ụlọ n'ọnụ ego $80,000 ma tinye $55,000 n'imezi ya. Nke a buliri ọnụ ego ụlọ ahụ ihe dịka 150%. Uru ego ole ka ọ ga-erita? ",
+  "original_answer": 70000,
+  "symbolic_template": "{name_male, Josh} na-ekpebi ireghari ụlọ. Ọ na - azụta ụlọ n'ọnụ ego ${num_digit_1, 80,000} ma tinye ${num_digit_2, 50,000} n'imezi ya. Nke a buliri ọnụ ego ụlọ ahụ ihe dịka {num_digit_3, 150}%. Uru ego ole ka ọ ga - erita?",
+  "ic_sentence_template": "Nwanne nne {name_male, Josh} rere nkụ ụlọ {num_ic, 124000} n'oge na-adịbeghị anya maka ọrụ ụlọ.",
+  "ic_template": "Nwanne nne {name_male, Josh} rere nkụ ụlọ {num_ic, 124000} n'oge na-adịbeghị anya maka ọrụ ụlọ. {name_male, Josh} na-ekpebi ireghari ụlọ. Ọ na - azụta ụlọ n'ọnụ ego ${num_digit_1, 80,000} ma tinye ${num_digit_2, 50,000} n'imezi ya. Nke a buliri ọnụ ego ụlọ ahụ ihe dịka {num_digit_3, 150}%. Uru ego ole ka ọ ga - erita?",
+  "equation": "UPDATE HERE"
+}

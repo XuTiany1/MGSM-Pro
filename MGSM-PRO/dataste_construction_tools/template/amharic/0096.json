@@ -1,0 +1,8 @@
+{
+  "original_question": "ሃሪ ትናንት ሌሊት ዘጠኝ ሰዓት ተኝቷል። ጓደኛው ጄምስ የሃሪን እንቅልፍ 2/3 ያህል ብቻ ተኝቷል። ሃሪ ከጄምስ ስንት ሰዓት ተኝቷል?",
+  "original_answer": 3,
+  "symbolic_template": "{name_male_1, ሃሪ} ትናንት ሌሊት {num_digit_1, ዘጠኝ} ሰዓት ተኝቷል። ጓደኛው {name_male_2, ጄምስ} የ{name_male_1, ሃሪ}ን እንቅልፍ 2/3 ያህል ብቻ ተኝቷል። {name_male_1, ሃሪ} ከ{name_male_2, ጄምስ} ስንት ሰዓት ተኝቷል?",
+  "ic_sentence_template": "{name_male_2, ጄምስ} አጎቱ በየሳምንቱ {num_ic, 19} ፓንኬክ ያዘጋጃል።",
+  "ic_template": "{name_male_1, ሃሪ} ትናንት ሌሊት {num_digit_1, ዘጠኝ} ሰዓት ተኝቷል። ጓደኛው {name_male_2, ጄምስ} የ{name_male_1, ሃሪ}ን እንቅልፍ 2/3 ያህል ብቻ ተኝቷል። {name_male_1, ሃሪ} ከ{name_male_2, ጄምስ} ስንት ሰዓት ተኝቷል? {name_male_2, ጄምስ} አጎቱ በየሳምንቱ {num_ic, 19} ፓንኬክ ያዘጋጃል።",
+  "equation": "UPDATE HERE"
+}

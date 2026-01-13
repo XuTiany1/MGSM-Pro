@@ -1,0 +1,8 @@
+{
+  "original_question": "约翰有 3 个箱子。每个箱子是 5 英寸乘以 6 英寸乘以 4 英寸。箱子的围板厚 1 英寸。全部 3 个箱子的内容积一共是多少？",
+  "original_answer": 72,
+  "symbolic_template": "{name_male, 约翰} 有 {num_digit_1, 3} 个箱子。每个箱子是 {num_digit_2, 5} 英寸乘以 {num_digit_3, 6} 英寸乘以 {num_digit_4, 4} 英寸。箱子的围板厚 {num_digit_5, 1} 英寸。全部 {num_digit_1, 3} 个箱子的内容积一共是多少？",
+  "ic_sentence_template": "{name_male, 约翰} 的姑妈最近为她的阁楼又买了 {num_ic, 49} 个箱子。",
+  "ic_template": "{name_male, 约翰} 的姑妈最近为她的阁楼又买了 {num_ic, 49} 个箱子。{name_male, 约翰} 有 {num_digit_1, 3} 个箱子。每个箱子是 {num_digit_2, 5} 英寸乘以 {num_digit_3, 6} 英寸乘以 {num_digit_4, 4} 英寸。箱子的围板厚 {num_digit_5, 1} 英寸。全部 {num_digit_1, 3} 个箱子的内容积一共是多少？",
+  "equation": "UPDATE HERE"
+}

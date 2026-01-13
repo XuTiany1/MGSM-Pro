@@ -1,0 +1,8 @@
+{
+  "original_question": "John ń gba èso peach fún wákàtí mẹ́ta.  Ó lè gba èso peach méjì ní ìṣẹ́jú kan.  Èso peach mélòó ni ó ń gbà?",
+  "original_answer": 360,
+  "symbolic_template": "{name_male, John} ń gba èso peach fún wákàtí {num_digit_1, 3}. Ó lè gba èso peach {num_digit_2, 2} ní ìṣẹ́jú kan. Èso peach mélòó ni ó ń gbà?",
+  "ic_sentence_template": "{name_male, John} bábá rẹ̀ ń mú àpótí {num_ic, 9} wá sí ọgbà ọ̀pẹ lárọ̀ọ̀rọ̀.",
+  "ic_template": "{name_male, John} bábá rẹ̀ ń mú àpótí {num_ic, 9} wá sí ọgbà ọ̀pẹ lárọ̀ọ̀rọ̀. {name_male, John} ń gba èso peach fún wákàtí {num_digit_1, 3}. Ó lè gba èso peach {num_digit_2, 2} ní ìṣẹ́jú kan. Èso peach mélòó ni ó ń gbà?",
+  "equation": "UPDATE HERE"
+}

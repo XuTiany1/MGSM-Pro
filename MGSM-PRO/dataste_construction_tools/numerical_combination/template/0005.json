@@ -1,0 +1,35 @@
+{
+    "problem_id": "0005",
+    "generation_order": ["num_digit_1", "num_digit_3", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [5, 50]},
+        "num_digit_3": {"type": "int", "range": [4, 40]},
+        "num_digit_2": {"type": "int", "range": [10, 95]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "full_price_count = num_digit_3 / 2",
+            "discount_count = num_digit_3 / 2"
+        ],
+        "num_digit_2": [
+            "discount_rate = num_digit_2 / 100",
+            "discounted_unit_price = num_digit_1 * discount_rate",
+            "cost_full = full_price_count * num_digit_1",
+            "cost_discount = discount_count * discounted_unit_price",
+            "ans = cost_full + cost_discount"
+        ],
+        "num_ic": []
+    },
+    "complexity_restrictions": {
+        "num_digit_3": {"max_digits": 2},
+        "ans": {"min_digits": 2, "max_digits": 4}
+    },
+    "restrictions": {
+        "num_digit_3": ["num_digit_3 % 2 == 0"],
+        "num_digit_2": [
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

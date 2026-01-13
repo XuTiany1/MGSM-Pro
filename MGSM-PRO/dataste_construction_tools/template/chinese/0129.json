@@ -1,0 +1,8 @@
+{
+  "original_question": "一家医院每天接诊 500 人。每位患者的看诊时长平均为 24 分钟。医生对医院收费每小时 150 美元，医院对患者收费每小时 200 美元。医院从这些就诊中获得多少利润？",
+  "original_answer": 10000,
+  "symbolic_template": "一家医院 每天接诊 {num_digit_1, 500} 人。每位患者平均看诊 {num_digit_2, 24} 分钟。医生向医院收费每小时 {num_digit_3, 150} 美元，医院向患者收费每小时 {num_digit_4, 200} 美元。医院从这些就诊中获得多少利润？",
+  "ic_sentence_template": "院长的表亲为候诊区带来了 {num_ic, 64} 本杂志。",
+  "ic_template": "院长的表亲为候诊区带来了 {num_ic, 64} 本杂志。一家医院 每天接诊 {num_digit_1, 500} 人。每位患者平均看诊 {num_digit_2, 24} 分钟。医生向医院收费每小时 {num_digit_3, 150} 美元，医院向患者收费每小时 {num_digit_4, 200} 美元。医院从这些就诊中获得多少利润？",
+  "equation": "UPDATE HERE"
+}

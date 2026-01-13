@@ -1,0 +1,28 @@
+{
+    "problem_id": "0207",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [10, 50]},
+        "num_digit_2": {"type": "int", "range": [20, 100]},
+        "num_digit_3": {"type": "int", "range": [20, 60]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "total_bar_weight = num_digit_1 * num_digit_3",
+            "apple_unit_weight = num_digit_3 / 2",
+            "total_apple_weight = num_digit_2 * apple_unit_weight",
+            "ans = total_bar_weight + total_apple_weight"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 3, "max_digits": 5}
+    },
+    "restrictions": {
+        "num_digit_3": [
+            "num_digit_3 % 2 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

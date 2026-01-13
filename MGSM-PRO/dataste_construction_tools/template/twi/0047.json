@@ -1,0 +1,8 @@
+{
+  "original_question": "John tɔ abɔmenemu kɔkɔɔ mmɔho mmienu kyԑn abɔmenemu bibire. Abɔmenemu kɔkɔɔ no boɔ no yԑ ɔha nkyԑmu mmienu kyԑn abɔmenemu bibire no a na baako biara boɔ yԑ $40. Sika sԑn na ɔsԑԑe wɔ abɔmenemu no so?",
+  "original_answer": 800,
+  "symbolic_template": "{name_male, John} tɔ abɔmenemu kɔkɔɔ mmɔho mmienu kyԑn abɔmenemu bibire. Abɔmenemu kɔkɔɔ no boɔ no yԑ {num_digit_1, 50}% nkyԑmu kyԑn abɔmenemu bibire no a na baako biara boɔ yԑ ${num_digit_3, 40}. Ɔsԑԑe ${num_digit_2, 200} wɔ abɔmenemu bibire so. Sika sԑn na ɔsԑԑe wɔ abɔmenemu no so?",
+  "ic_sentence_template": "{name_male, John} wɔfa huu cufflinks {num_ic, 93} wɔ adan adetɔn bea bi mu.",
+  "ic_template": "{name_male, John} wɔfa huu cufflinks {num_ic, 93} wɔ adan adetɔn bea bi mu. {name_male, John} tɔ abɔmenemu kɔkɔɔ mmɔho mmienu kyԑn abɔmenemu bibire. Abɔmenemu kɔkɔɔ no boɔ no yԑ {num_digit_1, 50}% nkyԑmu kyԑn abɔmenemu bibire no a na baako biara boɔ yԑ ${num_digit_3, 40}. Ɔsԑԑe ${num_digit_2, 200} wɔ abɔmenemu bibire so. Sika sԑn na ɔsԑԑe wɔ abɔmenemu no so?",
+  "equation": "UPDATE HERE"
+}

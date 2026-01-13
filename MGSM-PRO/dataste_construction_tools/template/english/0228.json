@@ -1,0 +1,8 @@
+{
+  "original_question": "Kalinda is working on a 360 piece puzzle with her mom. Kalinda can normally add 4 pieces per minute. Her mom can typically place half as many pieces per minute as Kalinda.  How many hours will it take them to complete this puzzle?",
+  "original_answer": 1,
+  "symbolic_template": "{name_female, Kalinda} is working on a {num_digit_1, 360} piece puzzle with her mom. {name_female, Kalinda} can normally add {num_digit_2, 4} pieces per minute. Her mom can typically place half as many pieces per minute as {name_female, Kalinda}. How many hours will it take them to complete this puzzle?",
+  "ic_sentence_template": "{name_female, Kalinda}'s uncle has a collection of {num_ic, 103} jigsaw puzzles.",
+  "ic_template": "{name_female, Kalinda} is working on a {num_digit_1, 360} piece puzzle with her mom. {name_female, Kalinda}'s uncle has a collection of {num_ic, 103} jigsaw puzzles. {name_female, Kalinda} can normally add {num_digit_2, 4} pieces per minute. Her mom can typically place half as many pieces per minute as {name_female, Kalinda}. How many hours will it take them to complete this puzzle?",
+  "equation": "UPDATE HERE"
+}

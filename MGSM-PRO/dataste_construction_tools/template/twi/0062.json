@@ -1,0 +1,8 @@
+{
+  "original_question": "Sԑ Marcy yԑ adwuma ma adwumakuo no ara mfie 40 a, sika a ɔde kɔ fie wɔ ahomegyeԑ mu afe biara no yԑ $50,000. Sԑ wohyԑ ase firi mfie 20 akyi a, ɔnya sika no mu ɔha nkyԑmu num afe biara. Sԑ ɔgyae adwuma no mfie 30 akyi a, sika a ɔbԑnya no ahomegyeԑ mu afe biara no yԑ sԑn?",
+  "original_answer": 25000,
+  "symbolic_template": "Sԑ {name_female, Marcy} yԑ adwuma ma adwumakuo no ara mfie {num_digit_1, 40} a, sika a ɔde kɔ fie wɔ ahomegyeԑ mu afe biara no yԑ ${num_digit_2, 50,000}. Sԑ wohyԑ ase firi mfie {num_digit_3, 20} akyi a, ɔnya sika no mu {num_digit_4, 5}% afe biara. Sԑ ɔgyae adwuma no mfie {num_digit_6, 30} akyi a, sika a ɔbԑnya no ahomegyeԑ mu afe biara no yԑ sԑn?",
+  "ic_sentence_template": "{name_female, Marcy} wɔfa nsa kaa sika ntosoɔ ${num_ic, 315,000} afe a atwa mu no.",
+  "ic_template": "{name_female, Marcy} wɔfa nsa kaa sika ntosoɔ ${num_ic, 315,000} afe a atwa mu no. Sԑ {name_female, Marcy} yԑ adwuma ma adwumakuo no ara mfie {num_digit_1, 40} a, sika a ɔde kɔ fie wɔ ahomegyeԑ mu afe biara no yԑ ${num_digit_2, 50,000}. Sԑ wohyԑ ase firi mfie {num_digit_3, 20} akyi a, ɔnya sika no mu {num_digit_4, 5}% afe biara. Sԑ ɔgyae adwuma no mfie {num_digit_6, 30} akyi a, sika a ɔbԑnya no ahomegyeԑ mu afe biara no yԑ sԑn?",
+  "equation": "UPDATE HERE"
+}

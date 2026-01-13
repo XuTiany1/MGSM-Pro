@@ -1,0 +1,8 @@
+{
+  "original_question": "ジョンは週に60マイル走ります。週に3日走ります。最初の日は3時間走り、その他の2日は半分走ります。彼の走る速度はどれくらいですか？",
+  "original_answer": 10,
+  "symbolic_template": "{name_male, ジョン}は週に{num_digit_1, 60}マイル走ります。週に{num_digit_2, 3}日走ります。最初の日は{num_digit_3, 3}時間走り、その他の2日は半分走ります。彼の走る速度はどれくらいですか？",
+  "ic_sentence_template": "{name_male, ジョン}のおじさんは{num_ic, 85}個の野球帽を持っています。",
+  "ic_template": "{name_male, ジョン}のおじさんは{num_ic, 85}個の野球帽を持っています。{name_male, ジョン}は週に{num_digit_1, 60}マイル走ります。週に{num_digit_2, 3}日走ります。最初の日は{num_digit_3, 3}時間走り、その他の2日は半分走ります。彼の走る速度はどれくらいですか？",
+  "equation": "UPDATE HERE"
+}

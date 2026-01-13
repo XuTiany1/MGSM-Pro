@@ -1,0 +1,8 @@
+{
+  "original_question": "Dylan needed chicken sausages and fish sausages to make sausage buns at a party. He bought 38 chicken sausages and 6 more fish sausages than chicken sausages. How many sausages did Dylan buy in all?",
+  "original_answer": 82,
+  "symbolic_template": "{name_male, Dylan} needed chicken sausages and fish sausages to make sausage buns at a party. He bought {num_digit_1, 38} chicken sausages and {num_digit_2, 6} more fish sausages than chicken sausages. How many sausages did {name_male, Dylan} buy in all?",
+  "ic_sentence_template": "{name_male, Dylan}'s uncle brought {num_ic, 62} bottles of lemonade.",
+  "ic_template": "{name_male, Dylan} needed chicken sausages and fish sausages to make sausage buns at a party. He bought {num_digit_1, 38} chicken sausages and {num_digit_2, 6} more fish sausages than chicken sausages. {name_male, Dylan}'s uncle brought {num_ic, 62} bottles of lemonade. How many sausages did {name_male, Dylan} buy in all?",
+  "equation": "UPDATE HERE"
+}

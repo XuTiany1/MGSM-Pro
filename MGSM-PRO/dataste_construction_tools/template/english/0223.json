@@ -1,0 +1,8 @@
+{
+  "original_question": "A company spends $15000 on advertising for a year, and then spends a third of that amount on advertising for another year. What's the total amount the company spent on advertising for the two years?",
+  "original_answer": 20000,
+  "symbolic_template": "A company spends ${num_digit_1, 15000} on advertising for a year, and then spends a third of that amount on advertising for another year. What's the total amount the company spent on advertising for the two years?",
+  "ic_sentence_template": "The CEO's nephew delivered {num_ic, 91} pizzas during the annual meeting.",
+  "ic_template": "A company spends ${num_digit_1, 15000} on advertising for a year, and then spends a third of that amount on advertising for another year. The CEO's nephew delivered {num_ic, 91} pizzas during the annual meeting. What's the total amount the company spent on advertising for the two years?",
+  "equation": "UPDATE HERE"
+}

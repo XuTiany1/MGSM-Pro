@@ -1,0 +1,8 @@
+{
+  "original_question": "የብራንደን አይፎን ከቤን አይፎን በአራት እጥፍ ያረጀ ነው። የቤን አይፎን ከሱዚ አይፎን በሁለት እጥፍ ያረጀ ነው። የሱዚ አይፎን 1 ዓመት ከሆነው፣ የብራንደን አይፎን ስንት ዓመቱ ነው?",
+  "original_answer": 8,
+  "symbolic_template": "  የ{name_male_1, ብራንደን} አይፎን ከ{name_male_2, ቤን} አይፎን በአምስት እጥፍ ያረጀ ነው። የ{name_male_2, ቤን} አይፎን ከ{name_female, ሱዚ} አይፎን በሦስት እጥፍ ያረጀ ነው። የ{name_female, ሱዚ} አይፎን {num_digit_1, 2} ዓመት ከሆነው፣ የ{name_male_1, ብራንደን} አይፎን ስንት ዓመቱ ነው?",
+  "ic_sentence_template": "የ{name_male_2, ቤን} አክስቱ በቅርቡ {num_ic, 15} የስልክ መክፈያዎች ገዛች።",
+  "ic_template": "የ{name_male_1, ብራንደን} አይፎን ከ{name_male_2, ቤን} አይፎን በአምስት እጥፍ ያረጀ ነው። የ{name_male_2, ቤን} አይፎን ከ{name_female, ሱዚ} አይፎን በሦስት እጥፍ ያረጀ ነው። የ{name_female, ሱዚ} አይፎን {num_digit_1, 2} ዓመት ከሆነው፣ የ{name_male_1, ብራንደን} አይፎን ስንት ዓመቱ ነው? የ{name_male_2, ቤን} አክስቱ በቅርቡ {num_ic, 15} የስልክ መክፈያዎች ገዛች።",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Otu àkwà osisi na ebunwu ihe na-akarịghị paụnd puku ise. Otu tụrọkụ n'eje ozi jupụtara n'igbe yiri onwe ha, nke ọbụla dị paund iri na ise n'arọ, ga-agafe àkwà ahụ. nchịkọta arọ onye na-akwọ ụgbọala na tụrọkụ ahụ ihe na-adighi bụ paụnd puku atọ nari asaa na iri ise na ise. Kedụ ọnụọgụgụ igbe ole kachasị nke enwere ike ịdọnye na tụrọkụ ahụ ma na-agaghị agafe ókè arọ àkwà ahụ?",
+  "original_answer": 83,
+  "symbolic_template": "Otu àkwà osisi na-ebunwu ihe na-akarịghị {num_digit_1, 5000} paụnd. Otu tụrọkụ n'eje ozi jupụtara n'igbe yiri onwe ha, nke ọbụla dị {num_digit_2, 15} paụnd n'arọ, ga-agafe àkwà ahụ. Nchịkọta arọ onye na-akwọ ụgbọala na tụrọkụ ahụ ihe na-adighi bụ {num_digit_3, 3755} paụnd. Kedụ ọnụọgụgụ igbe ole kachasị nke enwere ike ịdọnye na tụrọkụ ahụ ma na-agaghị agafe ókè arọ àkwà ahụ?",
+  "ic_sentence_template": "Nwanne nna onye na-anya ụgbọala na-ebu ụgbọala kpọrọ {num_ic, 215} ụkwa n’otu njem otu oge.",
+  "ic_template": "Nwanne nna onye na-anya ụgbọala na-ebu ụgbọala kpọrọ {num_ic, 215} ụkwa n’otu njem otu oge. Otu àkwà osisi na-ebunwu ihe na-akarịrị {num_digit_1, 5000} paụnd. Otu tụrọkụ n'eje ozi jupụtara n'igbe yiri onwe ha, nke ọbụla dị {num_digit_2, 15} paụnd n'arọ, ga-agafe àkwà ahụ. Nchịkọta arọ onye na-akwọ ụgbọala na tụrọkụ ahụ ihe na-adighi bụ {num_digit_3, 3755} paụnd. Kedụ ọnụọgụgụ igbe ole kachasị nke enwere ike ịdọnye na tụrọkụ ahụ ma na-agaghị agafe ókè arọ àkwà ahụ?",
+  "equation": "UPDATE HERE"
+}

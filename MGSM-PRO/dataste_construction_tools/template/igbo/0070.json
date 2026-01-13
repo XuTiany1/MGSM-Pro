@@ -1,0 +1,8 @@
+{
+  "original_question": "Judy na-akụzi klasị égwú ise, kwa ụbọchị, na ụbọchị ọrụ na klasị asatọ n'ụbọchị Satọdee. Ọ bụrụ na klasị ọbụla nwere ụmụ akwụkwọ iri na ise ma ọ na-ana $15.00 maka otu nwata akwụkwọ, ego ole ka ọ na-enweta n'otu izu ụka? ",
+  "original_answer": 7425,
+  "symbolic_template": "{name_female, Judy} na-akụzi klasị égwú {num_digit_1, 5}, kwa ụbọchị, na ụbọchị ọrụ na klasị {num_digit_2, 8} n'ụbọchị Satọdee. Ọ bụrụ na klasị ọbụla nwere ụmụ akwụkwọ {num_digit_3, 15} ma ọ na-ana ${num_digit_4, 15.00} maka otu nwata akwụkwọ, ego ole ka ọ na-enweta n'otu izu ụka {num_digit_5, 1}?",
+  "ic_sentence_template": "Nwanne nne {name_female, Judy} na-azụ akpụkpọ ụkwụ egwú {num_ic, 47} kwa ọnwa.",
+  "ic_template": "Nwanne nne {name_female, Judy} na-azụ akpụkpọ ụkwụ egwú {num_ic, 47} kwa ọnwa. {name_female, Judy} na-akụzi klasị égwú {num_digit_1, 5}, kwa ụbọchị, na ụbọchị ọrụ na klasị {num_digit_2, 8} n'ụbọchị Satọdee. Ọ bụrụ na klasị ọbụla nwere ụmụ akwụkwọ {num_digit_3, 15} ma ọ na-ana ${num_digit_4, 15.00} maka otu nwata akwụkwọ, ego ole ka ọ na-enweta n'otu izu ụka {num_digit_5, 1}?",
+  "equation": "UPDATE HERE"
+}

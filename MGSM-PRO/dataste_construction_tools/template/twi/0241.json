@@ -1,0 +1,8 @@
+{
+  "original_question": "Na Dolly wɔ nhoma mmienu. Pandora nso wɔ baako. Sɛ Dolly ne Pandora nyinaa kenkan wɔn ho ne wɔn ho nhoma ahoro no a, nhoma dodowɔ ahe na wɔn nyinaa bɛkenkan awie?",
+  "original_answer": 6,
+  "symbolic_template": "Na {name_female_1, Dolly} wɔ nhoma mmienu. {name_female_2, Pandora} nso wɔ baako. Sɛ {name_female_1, Dolly} ne {name_female_2, Pandora} nyinaa kenkan wɔn ho ne wɔn ho nhoma ahoro no a, nhoma dodowɔ ahe na wɔn nyinaa bɛkenkan awie?",
+  "ic_sentence_template": "{name_female_2, Pandora} wɔfa no wɔ nsɛmma nwoma {num_ic, 674}.",
+  "ic_template": "{name_female_2, Pandora} wɔfa no wɔ nsɛmma nwoma {num_ic, 674}. {name_female_1, Dolly} wɔ nhoma mmienu. {name_female_2, Pandora} nso wɔ baako. Sɛ {name_female_1, Dolly} ne {name_female_2, Pandora} nyinaa kenkan wɔn ho ne wɔn ho nhoma ahoro no a, nhoma dodowɔ ahe na wɔn nyinaa bɛkenkan awie?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Afárá onígi kò lè gbé ju póùn 5000 lọ. Ọkọ̀ akẹ́rù ránṣẹ kan tí wọ́n kó àwọn àpótí tó jọra sí, tí ìkọ̀ọ̀kan ní ìwọn póùn 15, máa gba orí afárá náà kọjá. Àpapọ̀ ìwọ̀n awakọ̀ àti ọkọ̀ tí kò sí nǹkan nínú rẹ̀ jẹ́ póùn 3755. Kínni gbèdéke iye ẹrù àpótí tí wọ́n lè kó sínú ọkọ̀ akẹ́rù náà tí kò ní kọjá ìwọ̀n gbèdéke afárá náà?",
+  "original_answer": 83,
+  "symbolic_template": "Afárá onígi kò lè gbé ju póùn {num_digit_1, 5000} lọ. Ọkọ̀ akẹ́rù ránṣẹ kan tí wọ́n kó àwọn àpótí tó jọra sí, tí ìkọ̀ọ̀kan ní ìwọn póùn {num_digit_2, 15}, máa gba orí afárá náà kọjá. Àpapọ̀ ìwọ̀n awakọ̀ àti ọkọ̀ tí kò sí nǹkan nínú rẹ̀ jẹ́ póùn {num_digit_3, 3755}. Kínni gbèdéke iye ẹrù àpótí tí wọ́n lè kó sínú ọkọ̀ akẹ́rù náà tí kò ní kọjá ìwọ̀n gbèdéke afárá náà?",
+  "ic_sentence_template": "Arákùnrin awakọ̀ trọ́ọ́kì na fi ìgbà kan gbé elégédé {num_ic, 215} ní ìrìnajò kan.",
+  "ic_template": "Arákùnrin awakọ̀ trọ́ọ́kì na fi ìgbà kan gbé elégédé {num_ic, 215} ní ìrìnajò kan. Afárá onígi kò lè gbé ju póùn {num_digit_1, 5000} lọ. Ọkọ̀ akẹ́rù ránṣẹ kan tí wọ́n kó àwọn àpótí tó jọra sí, tí ìkọ̀ọ̀kan ní ìwọn póùn {num_digit_2, 15}, máa gba orí afárá náà kọjá. Àpapọ̀ ìwọ̀n awakọ̀ àti ọkọ̀ tí kò sí nǹkan nínú rẹ̀ jẹ́ póùn {num_digit_3, 3755}. Kínni gbèdéke iye ẹrù àpótí tí wọ́n lè kó sínú ọkọ̀ akẹ́rù náà tí kò ní kọjá ìwọ̀n gbèdéke afárá náà?",
+  "equation": "UPDATE HERE"
+}

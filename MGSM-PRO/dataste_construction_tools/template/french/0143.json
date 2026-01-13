@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean achète pour 2 $ de lait, 3 $ d'œufs, 3 $ d'ampoules, 3 $ de tasses et 4 $ de pièges à cafards. Sachant qu'une taxe de 10 % s'applique à tous les articles non alimentaires, combien tout cela a-t-il coûté.",
+  "original_answer": 16,
+  "symbolic_template": "{name_male, Jean} achète pour {num_digit_1, 2} $ de lait, {num_digit_2, 3} $ d'œufs, {num_digit_3, 3} $ d'ampoules, {num_digit_4, 3} $ de tasses et {num_digit_5, 4} $ de pièges à cafards. Sachant qu'une taxe de {num_digit_6, 10} % s'applique à tous les articles non alimentaires, combien tout cela a-t-il coûté.",
+  "ic_sentence_template": "{name_male, John} a une nièce qui a trouvé {num_ic, 16} billes dans le jardin.",
+  "ic_template": "{name_male, John} a une nièce qui a trouvé {num_ic, 16} billes dans le jardin. {name_male, Jean} achète pour {num_digit_1, 2} $ de lait, {num_digit_2, 3} $ d'œufs, {num_digit_3, 3} $ d'ampoules, {num_digit_4, 3} $ de tasses et {num_digit_5, 4} $ de pièges à cafards. Sachant qu'une taxe de {num_digit_6, 10} % s'applique à tous les articles non alimentaires, combien tout cela a-t-il coûté.",
+  "equation": "UPDATE HERE"
+}

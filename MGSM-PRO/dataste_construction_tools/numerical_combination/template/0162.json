@@ -1,0 +1,29 @@
+{
+    "problem_id": "0162",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [10, 50]},
+        "num_digit_2": {"type": "int", "range": [5, 25]},
+        "num_digit_3": {"type": "int", "range": [12, 48]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "num_increases = num_digit_3 / 2",
+            "increase_amount = (num_digit_1 * num_digit_2) / 100",
+            "total_increase = num_increases * increase_amount",
+            "ans = num_digit_1 + total_increase"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 4}
+    },
+    "restrictions": {
+        "num_digit_3": [
+            "num_digit_3 % 2 == 0",
+            "(num_increases * num_digit_1 * num_digit_2) % 100 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Siobhan nwere ọla abụọ pere mpe karịa Aaron. Aaron nwere ọla ise karịa ọkara ọla Raymond. Ọ bụrụ na Raymond nwere ọla iri anọ, ọla ole ka Siobhan nwere? ",
+  "original_answer": 23,
+  "symbolic_template": "{name_male_1, Siobhan} nwere ọla {num_digit_1, 2} pere mpe karịa {name_male_2, Aaron}. {name_male_2, Aaron} nwere ọla {num_digit_2, 5} karịa ọkara ọla {name_male_3, Raymond}. Ọ bụrụ na {name_male_3, Raymond} nwere ọla {num_digit_3, 40}, ọla ole ka {name_male_1, Siobhan} nwere?",
+  "ic_sentence_template": "Nwanne nna {name_male_2, Aaron} nyere ya onyinye bọlị {num_ic, 341} otu ugboro.",
+  "ic_template": "Nwanne nna {name_male_2, Aaron} nyere ya onyinye bọlị {num_ic, 341} otu ugboro. {name_male_1, Siobhan} nwere ọla {num_digit_1, 2} pere mpe karịa {name_male_2, Aaron}. {name_male_2, Aaron} nwere ọla {num_digit_2, 5} karịa ọkara ọla {name_male_3, Raymond}. Ọ bụrụ na {name_male_3, Raymond} nwere ọla {num_digit_3, 40}, ọla ole ka {name_male_1, Siobhan} nwere?",
+  "equation": "UPDATE HERE"
+}

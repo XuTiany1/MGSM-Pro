@@ -1,0 +1,8 @@
+{
+  "original_question": "Mashua ya Julia yalianza kuvuja wakati alikuwa kwenye ziwa. Mashua hayo yalikuwa yanaingiza lita mbili za maji kwa kila futi kumi alivuta makasi akirejea ufuo. Ilimchukua sekunde kumi na sita kupiga makasia ya futi ishirini. Ufuo ulikuwa umbali wa sekunde 64. Mashua hayo yalikuwa yameingiza maji kiasi gani wakati ambapo Julia alifika kwenye ufuo?",
+  "original_answer": 16,
+  "symbolic_template": "{name_female, Julia} mashua yake ilianza kuvuja akiwa ziwani. Mashua ilikuwa inaingiza lita mbili za maji kwa kila futi kumi alizovuta kuelekea ufukweni. Ilimchukua sekunde kumi na sita kuvuta futi ishirini. Ufukwe ulikuwa sekunde {num_digit_1, 64} mbali. Mashua ilikuwa imeingiza maji lita ngapi kufikia wakati {name_female, Julia} alipofika ufukweni?",
+  "ic_sentence_template": "Mjomba wa {name_female, Julia} anamiliki vivutio vya uvuvi {num_ic, 444}",
+  "ic_template": "Mjomba wa {name_female, Julia} anamiliki vivutio vya uvuvi {num_ic, 444} {name_female, Julia} mashua yake ilianza kuvuja akiwa ziwani. Mashua ilikuwa inaingiza lita mbili za maji kwa kila futi kumi alizovuta kuelekea ufukweni. Ilimchukua sekunde kumi na sita kuvuta futi ishirini. Ufukwe ulikuwa sekunde {num_digit_1, 64} mbali. Mashua ilikuwa imeingiza maji lita ngapi kufikia wakati {name_female, Julia} alipofika ufukweni?",
+  "equation": "UPDATE HERE"
+}

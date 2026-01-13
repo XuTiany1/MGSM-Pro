@@ -1,0 +1,8 @@
+{
+  "original_question": "John buys milk for 2 dollars, eggs for 3 dollars, light bulbs for 3 dollars, cups for 3 dollars, and roach traps for 4 dollars. If there is a 10% tax on all nonfood items how much did everything cost.",
+  "original_answer": 16,
+  "symbolic_template": "{name_male, John} buys milk for {num_digit_1, 2} dollars, eggs for {num_digit_2, 3} dollars, light bulbs for {num_digit_3, 3} dollars, cups for {num_digit_4, 3} dollars, and roach traps for {num_digit_5, 4} dollars. If there is a {num_digit_6, 10}% tax on all nonfood items how much did everything cost.",
+  "ic_sentence_template": "{name_male, John}'s niece found {num_ic, 16} marbles in the backyard.",
+  "ic_template": "{name_male, John} buys milk for {num_digit_1, 2} dollars, eggs for {num_digit_2, 3} dollars, light bulbs for {num_digit_3, 3} dollars, cups for {num_digit_4, 3} dollars, and roach traps for {num_digit_5, 4} dollars. {name_male, John}'s niece found {num_ic, 16} marbles in the backyard. If there is a {num_digit_6, 10}% tax on all nonfood items how much did everything cost.",
+  "equation": "UPDATE HERE"
+}

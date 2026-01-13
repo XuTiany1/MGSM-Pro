@@ -1,0 +1,8 @@
+{
+  "original_question": "Wagombea wawili wanagombea mwakilishi wa darasa katika shule ya Sarai. Iwapo mshindi alipata 3/4 ya kura na jumla ya idadi ya wanafunzi waliopiga kura katika darasa hilo ilikuwa 80, piga hesabu ya idadi ya kura ambazo yule aliyeshindwa alipata.",
+  "original_answer": 20,
+  "symbolic_template": "Wagombea wawili wanagombea mwakilishi wa darasa katika shule ya {name_female, Sarai}. Iwapo mshindi alipata 3/4 ya kura na jumla ya idadi ya wanafunzi waliopiga kura katika darasa hilo ilikuwa {num_digit_1, 80}, piga hesabu ya idadi ya kura ambazo yule aliyeshindwa alipata.",
+  "ic_sentence_template": "Mjomba wa {name_female, Sarai} aligawa stika {num_ic, 405} wakati wa mkutano.",
+  "ic_template": "Mjomba wa {name_female, Sarai} aligawa stika {num_ic, 405} wakati wa mkutano. Wagombea wawili wanagombea mwakilishi wa darasa katika shule ya {name_female, Sarai}. Iwapo mshindi alipata 3/4 ya kura na jumla ya idadi ya wanafunzi waliopiga kura katika darasa hilo ilikuwa {num_digit_1, 80}, piga hesabu ya idadi ya kura ambazo yule aliyeshindwa alipata.",
+  "equation": "UPDATE HERE"
+}

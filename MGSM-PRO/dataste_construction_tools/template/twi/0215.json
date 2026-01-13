@@ -1,0 +1,8 @@
+{
+  "original_question": "Lori pɛ sɛ ɔtɔ mpaboa a ne bo yɛ $320.00 ne abɔsoɔ a ɛne no hyia a ne bo yɛ $32.00. Ɔde bere tia na ɛyɛ adwuma no a otua $8.00 dɔnhwerewbiara. Nnɔnhwere dodoɔ ahe na ɛsɛ sɛ ɔyɛ adwuma ansa na watumi atɔ ade?",
+  "original_answer": 44,
+  "symbolic_template": "{name_female, Lori} pɛ sɛ ɔtɔ mpaboa a ne bo yɛ ${num_digit_1, 320.00} ne abɔsoɔ a ɛne no hyia a ne bo yɛ ${num_digit_2, 32.00}. Ɔde bere tia na ɛyɛ adwuma no a otua ${num_digit_3, 8.00} dɔnhwerewbiara. Nnɔnhwere dodoɔ ahe na ɛsɛ sɛ ɔyɛ adwuma ansa na watumi atɔ ade?",
+  "ic_sentence_template": "{name_female, Lori} wɔfa huu sini ho krataa a ɛyɛ dedaw {num_ic, 47} wɔ n'abansoro dan atifi.",
+  "ic_template": "{name_female, Lori} pɛ sɛ ɔtɔ mpaboa a ne bo yɛ ${num_digit_1, 320.00} ne abɔsoɔ a ɛne no hyia a ne bo yɛ ${num_digit_2, 32.00}. Ɔde bere tia na ɛyɛ adwuma no a otua ${num_digit_3, 8.00} dɔnhwerewbiara. Nnɔnhwere dodoɔ ahe na ɛsɛ sɛ ɔyɛ adwuma ansa na watumi atɔ ade? {name_female, Lori} wɔfa huu sini ho krataa a ɛyɛ dedaw {num_ic, 47} wɔ n'abansoro dan atifi.",
+  "equation": "UPDATE HERE"
+}

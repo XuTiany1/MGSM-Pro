@@ -1,0 +1,8 @@
+{
+  "original_question": "Solo ga-agụrịrị ibe akwụkwọ anọ n'akwụkwọ mmụta Sanyensị ya, ibe akwụkwọ  iri abụọ n' akwụkwọ mmụta Soshịal Stọdịs, ibe akwụkwọ  asaa n'akwụkwọ mmụta Histri na ibe akwụkwọ asatọ n'akwụkwọ mmụta Giografi. Solo gụrụ ibe akwụkwọ  iri na ise na Mọnde. Ọ bụrụ na o nwere mkpụrụ ụbọchị 4 ozo iji gụchaa ihe niile ọ na-agụ, ibe akwụkwọ ole ka ọ gana ekwesi ịgụ, na nkezi , n'otu ụbọchi?",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, Solo} ga-agụrịrị ibe akwụkwọ {num_digit_1, 4} n'akwụkwọ mmụta Sanyensị ya, ibe akwụkwọ {num_digit_2, 20} n'akwụkwọ mmụta Soshịal Stọdịs, ibe akwụkwọ {num_digit_3, 7} n'akwụkwọ mmụta Histri na ibe akwụkwọ {num_digit_4, 8} n'akwụkwọ mmụta Giografi. {name_male, Solo} gụrụ ibe akwụkwọ {num_digit_5, 15} na Mọnde. Ọ bụrụ na o nwere mkpụrụ ụbọchị {num_digit_6, 4} ozo iji gụchaa ihe niile ọ na-agụ, ibe akwụkwọ ole ka ọ gana ekwesi ịgụ, na nkezi, n'otu ụbọchi?",
+  "ic_sentence_template": "Nwanne nne {name_male, Solo} nyere akwụkwọ omimi {num_ic, 65} ebe akwụkwọ na-akọrọ n'oge na-adịbeghị anya.",
+  "ic_template": "Nwanne nne {name_male, Solo} nyere akwụkwọ omimi {num_ic, 65} ebe akwụkwọ na-akọrọ n'oge na-adịbeghị anya. {name_male, Solo} ga-agụrịrị ibe akwụkwọ {num_digit_1, 4} n'akwụkwọ mmụta Sanyensị ya, ibe akwụkwọ {num_digit_2, 20} n'akwụkwọ mmụta Soshịal Stọdịs, ibe akwụkwọ {num_digit_3, 7} n'akwụkwọ mmụta Histri na ibe akwụkwọ {num_digit_4, 8} n'akwụkwọ mmụta Giografi. {name_male, Solo} gụrụ ibe akwụkwọ {num_digit_5, 15} na Mọnde. Ọ bụrụ na o nwere mkpụrụ ụbọchị {num_digit_6, 4} ozo iji gụchaa ihe niile ọ na-agụ, ibe akwụkwọ ole ka ọ gana ekwesi ịgụ, na nkezi, n'otu ụbọchi?",
+  "equation": "UPDATE HERE"
+}

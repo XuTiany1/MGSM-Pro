@@ -1,0 +1,8 @@
+{
+  "original_question": "Na Ted, T-Rex no ԑԑyԑ nhyehyԑeԑ sԑ wɔde atommo ԑԑba dinosaur aduanedie no mu. Ͻnim sԑ dinosaur panin biara bԑdi atommo 10 lbs, na akwadaa biara bԑdi deԑ panin bԑdi no mu fa. Sԑ mpaninfoɔ`20 ne mmɔfra 5 na ԑbԑba aduanedie nhyiamu yi ase a, atommo emu-duru sԑn na ԑwɔ sԑ Ted de ba aduanedie nhyiamu no ase sԑ ɔpԑ sԑ ɔnya bebree a ɔde bԑma oibara a?",
+  "original_answer": 225,
+  "symbolic_template": "Na {name_dinosaur, Ted}, T-Rex no ԑԑyԑ nhyehyԑeԑ sԑ wɔde atommo ԑԑba dinosaur aduanedie no mu. Ͻnim sԑ dinosaur panin biara bԑdi atommo {num_digit_1, 10} lbs, na akwadaa biara bԑdi deԑ panin bԑdi no mu fa. Sԑ mpaninfoɔ {num_digit_2, 20} ne mmɔfra {num_digit_3, 5} na ԑbԑba aduanedie nhyiamu yi ase a, atommo emu-duru sԑn na ԑwɔ sԑ {name_dinosaur, Ted} de ba aduanedie nhyiamu no ase sԑ ɔpԑ sԑ ɔnya bebree a ɔde bԑma oibara a?",
+  "ic_sentence_template": "{name_dinosaur, Ted} nua no wɔ aborɔbɛ {num_ic, 94}.",
+  "ic_template": "Na {name_dinosaur, Ted}, T-Rex no ԑԑyԑ nhyehyԑeԑ sԑ wɔde atommo ԑԑba dinosaur aduanedie no mu. Ͻnim sԑ dinosaur panin biara bԑdi atommo {num_digit_1, 10} lbs, na akwadaa biara bԑdi deԑ panin bԑdi no mu fa. Sԑ mpaninfoɔ {num_digit_2, 20} ne mmɔfra {num_digit_3, 5} na ԑbԑba aduanedie nhyiamu yi ase a, atommo emu-duru sԑn na ԑwɔ sԑ {name_dinosaur, Ted} de ba aduanedie nhyiamu no ase sԑ ɔpԑ sԑ ɔnya bebree a ɔde bԑma oibara a? {name_dinosaur, Ted} nua no wɔ aborɔbɛ {num_ic, 94}.",
+  "equation": "UPDATE HERE"
+}

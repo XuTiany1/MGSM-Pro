@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean possède un champ d'ananas de 10 hectares. Sachant qu'il y a 100 ananas par hectare et que Jean les récolte tous les 3 mois, combien peut-il en récolter en un an ?",
+  "original_answer": 4000,
+  "symbolic_template": "{name_male, Jean} possède un champ d'ananas de {num_digit_1, 10} hectares. Sachant qu'il y a {num_digit_2, 100} ananas par hectare et que {name_male, Jean} les récolte tous les {num_digit_3, 3} mois, combien peut-il en récolter en un an ?",
+  "ic_sentence_template": "{name_male, John} a un oncle qui a acheté {num_ic, 210} caisses de bananes la semaine dernière.",
+  "ic_template": "{name_male, John} a un oncle qui a acheté {num_ic, 210} caisses de bananes la semaine dernière. {name_male, Jean} possède un champ d'ananas de {num_digit_1, 10} hectares. Sachant qu'il y a {num_digit_2, 100} ananas par hectare et que {name_male, Jean} les récolte tous les {num_digit_3, 3} mois, combien peut-il en récolter en un an ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Ụgbọoloko abụọ hapụrụ San Rafael n'otu oge. Ha bidoro njem ọdịda anyanwụ, ha abụọ na-aga mailụ iri asatọ. N'echi ya, ha gaara mgbago ugwu, weere gaa mailụ otu narị na iri ise. Ụzọ ole ka otu n'ime ụgbọoloko ahụ gaara n'ụbọchị abụọ? ",
+  "original_answer": 230,
+  "symbolic_template": "Ụgbọoloko abụọ hapụrụ {name_town_1, San Rafael} n'otu oge. Ha bidoro njem ọdịda anyanwụ, ha abụọ na-aga mailụ {num_digit_1, 80}. N'echi ya, ha gaara mgbago ugwu, weere gaa mailụ {num_digit_2, 150}. Ụzọ ole ka otu n'ime ụgbọ oloko ahụ gaara n'ụbọchị abụọ?",
+  "ic_sentence_template": "Onye isi obodo {name_town_1, San Rafael} nwere ụgbọ oloko nlereanya {num_ic, 137}.",
+  "ic_template": "Onye isi obodo {name_town_1, San Rafael} nwere ụgbọ oloko nlereanya {num_ic, 137}. Ụgbọoloko abụọ hapụrụ {name_town_1, San Rafael} n'otu oge. Ha bidoro njem ọdịda anyanwụ, ha abụọ na-aga mailụ {num_digit_1, 80}. N'echi ya, ha gaara mgbago ugwu, weere gaa mailụ {num_digit_2, 150}. Ụzọ ole ka otu n'ime ụgbọ oloko ahụ gaara n'ụbọchị abụọ?",
+  "equation": "UPDATE HERE"
+}

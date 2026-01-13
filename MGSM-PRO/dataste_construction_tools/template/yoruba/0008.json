@@ -1,0 +1,8 @@
+{
+  "original_question": "John wa ọkọ̀ fún wákàtí 3 pẹ̀lú eré 60 mph ó wá yí padà nítorí ó ríi wí pé òhun gbàgbé nǹkan tó ṣe pàtàkì sí ilé. Ó gbìyànjú láti délé ní wákàtí 4 ṣùgbọ́n ó lo wákàtí 2 àkọ́kọ́ nínú ìdúró wápe súnkẹrẹ-fàkẹrẹ. Ó tún lo ààbọ wákàtí tí ó kàn láti wa ọkọ̀ pẹ̀lú eré 30 mph, kó tó lè di wí pé ó wa ìgbà tó kù nínú wákàtí 4 náà tó ń lọ ní 80 mph. Báwo ló ṣe jìnà sí ilé tó ní ìparí wákàtí 4 náà? ",
+  "original_answer": 45,
+  "symbolic_template": "{name_male, John} wa ọkọ̀ fún wákàtí {num_digit_1, 3} pẹ̀lú eré {num_digit_2, 60} mph ó wá yí padà nítorí ó ríi wí pé òhun gbàgbé nǹkan tó ṣe pàtàkì sí ilé. Ó gbìyànjú láti délé ní wákàtí {num_digit_3, 4} ṣùgbọ́n ó lo wákàtí {num_digit_5, 2} àkọ́kọ́ nínú ìdúró wápe súnkẹrẹ-fàkẹrẹ. Ó tún lo ààbọ wákàtí tí ó kàn láti wa ọkọ̀ pẹ̀lú eré {num_digit_6, 30} mph, kó tó lè di wí pé ó wa ìgbà tó kù nínú wákàtí {num_digit_3, 4} náà tó ń lọ ní {num_digit_7, 80} mph. Báwo ló ṣe jìnà sí ilé tó ní ìparí wákàtí {num_digit_3, 4} náà?",
+  "ic_sentence_template": "Ìbátan {name_male, John} rí àwọn kaadi bọ́ọ̀lù {num_ic, 284} nínú Òkè-àjà ilé rẹ̀.",
+  "ic_template": "Ìbátan {name_male, John} rí àwọn kaadi bọ́ọ̀lù {num_ic, 284} nínú Òkè-àjà ilé rẹ̀. {name_male, John} wa ọkọ̀ fún wákàtí {num_digit_1, 3} pẹ̀lú eré {num_digit_2, 60} mph ó wá yí padà nítorí ó ríi wí pé òhun gbàgbé nǹkan tó ṣe pàtàkì sí ilé. Ó gbìyànjú láti délé ní wákàtí {num_digit_3, 4} ṣùgbọ́n ó lo wákàtí {num_digit_5, 2} àkọ́kọ́ nínú ìdúró wápe súnkẹrẹ-fàkẹrẹ. Ó tún lo ààbọ wákàtí tí ó kàn láti wa ọkọ̀ pẹ̀lú eré {num_digit_6, 30} mph, kó tó lè di wí pé ó wa ìgbà tó kù nínú wákàtí {num_digit_3, 4} náà tó ń lọ ní {num_digit_7, 80} mph. Báwo ló ṣe jìnà sí ilé tó ní ìparí wákàtí {num_digit_3, 4} náà?",
+  "equation": "UPDATE HERE"
+}

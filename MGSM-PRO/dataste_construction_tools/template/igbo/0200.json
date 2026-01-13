@@ -1,0 +1,8 @@
+{
+  "original_question": "Baldur na-enweta mmiri n'olulu mmiri. Ọ na-enweta pelu mmiri ise n'ụtụtụ ọbụla na pelu mmiri isii n'ehihie ọbụla. Ọ bụrụ na pelu otunaotu nwere lita mmiri ise, kedụ lita mmiri ole ọ na-enweta n'ụbọchị ọbụla?",
+  "original_answer": 55,
+  "symbolic_template": "{name_male, Baldur} na-enweta mmiri n'olulu mmiri. Ọ na-enweta pelu mmiri {num_digit_1, 5} n'ụtụtụ ọbụla na pelu mmiri {num_digit_2, 6} n'ehihie ọbụla. Ọ bụrụ na pelu otunaotu nwere lita mmiri {num_digit_3, 5}, kedụ lita mmiri ole ọ na-enweta n'ụbọchị ọbụla?",
+  "ic_sentence_template": "Nwanna nna {name_male, Baldur} wuru ụlọ nkwakọba ihe eji {num_ic, 137} osisi.",
+  "ic_template": "Nwanna nna {name_male, Baldur} wuru ụlọ nkwakọba ihe eji {num_ic, 137} osisi. {name_male, Baldur} na-enweta mmiri n'olulu mmiri. Ọ na-enweta pelu mmiri {num_digit_1, 5} n'ụtụtụ ọbụla na pelu mmiri {num_digit_2, 6} n'ehihie ọbụla. Ọ bụrụ na pelu otunaotu nwere lita mmiri {num_digit_3, 5}, kedụ lita mmiri ole ọ na-enweta n'ụbọchị ọbụla?",
+  "equation": "UPDATE HERE"
+}

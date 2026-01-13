@@ -1,0 +1,8 @@
+{
+  "original_question": "Raymond ne Samantha yԑ nuanom. Wɔwoo Raymond mfie nsia ansa na wɔɔwo Samantha. Raymond dii mfeԑ 23 no ɔwoo ba barima. Sԑ Samantha adi 31 seesei a, mfeԑ dodoɔ akyiri sԑn na ɔwoo Raymond ba barima no?",
+  "original_answer": 14,
+  "symbolic_template": "{name_male, Raymond} ne {name_female, Samantha} yԑ nuanom. Wɔwoo {name_male, Raymond} mfie {num_digit_1, nsia} ansa na wɔɔwo {name_female, Samantha}. {name_male, Raymond} dii mfeԑ {num_digit_2, 23} no ɔwoo ba barima. Sԑ {name_female, Samantha} adi {num_digit_3, 31} seesei a, mfeԑ dodoɔ akyiri sԑn na ɔwoo {name_male, Raymond} ba barima no?",
+  "ic_sentence_template": "{name_female, Samantha} wɔfa boaboa {num_ic, 77} nkratoɔ krataa ano.",
+  "ic_template": "{name_female, Samantha} wɔfa boaboa {num_ic, 77} nkratoɔ krataa ano. {name_male, Raymond} ne {name_female, Samantha} yԑ nuanom. Wɔwoo {name_male, Raymond} mfie {num_digit_1, nsia} ansa na wɔɔwo {name_female, Samantha}. {name_male, Raymond} dii mfeԑ {num_digit_2, 23} no ɔwoo ba barima. Sԑ {name_female, Samantha} adi {num_digit_3, 31} seesei a, mfeԑ dodoɔ akyiri sԑn na ɔwoo {name_male, Raymond} ba barima no?",
+  "equation": "UPDATE HERE"
+}

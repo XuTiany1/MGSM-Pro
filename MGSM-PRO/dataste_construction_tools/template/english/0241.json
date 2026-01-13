@@ -1,0 +1,8 @@
+{
+  "original_question": "Dolly has two books. Pandora has one. If both Dolly and Pandora read each others' books as well as their own, how many books will they collectively read by the end?",
+  "original_answer": 6,
+  "symbolic_template": "{name_female_1, Dolly} has two books. {name_female_2, Pandora} has one. If both {name_female_1, Dolly} and {name_female_2, Pandora} read each others' books as well as their own, how many books will they collectively read by the end?",
+  "ic_sentence_template": "{name_female_2, Pandora}'s uncle owns {num_ic, 674} magazines.",
+  "ic_template": "{name_female_1, Dolly} has two books. {name_female_2, Pandora} has one. {name_female_2, Pandora}'s uncle owns {num_ic, 674} magazines. If both {name_female_1, Dolly} and {name_female_2, Pandora} read each others' books as well as their own, how many books will they collectively read by the end?",
+  "equation": "UPDATE HERE"
+}

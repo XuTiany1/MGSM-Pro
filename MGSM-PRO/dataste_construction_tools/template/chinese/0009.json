@@ -1,0 +1,8 @@
+{
+  "original_question": "伊莉莎每周工作的前 40 个小时的时薪是 10 美元。她加班还能获得标准时薪 1.2 倍的工资。如果 Eliza 这周工作了 45 小时，她这周的收入是多少？",
+  "original_answer": 460,
+  "symbolic_template": "{name_female, 伊莉莎} 每周工作的前 {num_digit_1, 40} 个小时的时薪是 {num_digit_2, 10} 美元。她加班还能获得标准时薪 {num_digit_3, 1.2} 倍的工资。如果 {name_female, Eliza} 这周工作了 {num_digit_4, 45} 小时，她这周的收入是多少？",
+  "ic_sentence_template": "{name_female, 伊丽莎} 的叔叔在镇上经营着 {num_ic, 98} 家杂货店。",
+  "ic_template": "{name_female, 伊丽莎} 的叔叔在镇上经营着 {num_ic, 98} 家杂货店。{name_female, 伊莉莎} 每周工作的前 {num_digit_1, 40} 个小时的时薪是 {num_digit_2, 10} 美元。她加班还能获得标准时薪 {num_digit_3, 1.2} 倍的工资。如果 {name_female, Eliza} 这周工作了 {num_digit_4, 45} 小时，她这周的收入是多少？",
+  "equation": "UPDATE HERE"
+}

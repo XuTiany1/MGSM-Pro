@@ -1,0 +1,8 @@
+{
+  "original_question": "Lundo la ukungu linabingirika kutoka kwa bahari na kufunika jiji. Linachukua dakika 10 kufunika kila maili 3 za jiji. Iwapo jiji lina upana wa maili 42 kutoka ufuo wa bahari hadi ng'ambo nyingine ya nchi kavu, lundu hilo la ukungu litachukua dakika ngapi kufunika jiji zima?",
+  "original_answer": 140,
+  "symbolic_template": "Wingu la ukungu linaingia kutoka baharini kufunika mji. Inachukua dakika {num_digit_1, 10} kufunika kila maili {num_digit_2, 3} za mji. Ikiwa mji una maili {num_digit_3, 42} kutoka ufuo wa bahari hadi ng'ambo nyingine ya nchi kavu, itachukua dakika ngapi kwa wingu la ukungu kufunika mji mzima?",
+  "ic_sentence_template": "Mjomba wa {name_male, Billy} aliona mashua za meli {num_ic, 96} zikiondoka bandarini asubuhi hiyo.",
+  "ic_template": "Mjomba wa {name_male, Billy} aliona mashua za meli {num_ic, 96} zikiondoka bandarini asubuhi hiyo. Wingu la ukungu linaingia kutoka baharini kufunika mji. Inachukua dakika {num_digit_1, 10} kufunika kila maili {num_digit_2, 3} za mji. Ikiwa mji una maili {num_digit_3, 42} kutoka ufuo wa bahari hadi ng'ambo nyingine ya nchi kavu, itachukua dakika ngapi kwa wingu la ukungu kufunika mji mzima?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Mmarima dodoɔ mmɔho mmienu na ԑkyԑn mmaa wɔ Dr. Wertz sukuu hɔ. Sԑ wɔwɔ maa 60 ne adesuafoɔ 50 ma ɔkyerԑkyerԑnni biara a, akyerԑkyerԑfoɔ sԑn na ԑwɔ hɔ?",
+  "original_answer": 36,
+  "symbolic_template": "Mmarima dodoɔ mmɔho mmienu na ɛkyɛn mmaa wɔ Dr. Wertz sukuu hɔ. Sԑ wɔwɔ mmaa {num_digit_1, 60} ne adesuafoɔ {num_digit_2, 5} ma ɔkyerԑkyerԑnni biara a, akyerԑkyerԑfoɔ sԑn na ԑwɔ hɔ?",
+  "ic_sentence_template": "Nwoma foforo {num_ic, 222} baa Dr. Wertz sukuu nwomakorabea no afe yi.",
+  "ic_template": "Nwoma foforo {num_ic, 222} baa Dr. Wertz sukuu nwomakorabea no afe yi. Mmarima dodoɔ mmɔho mmienu na ɛkyɛn mmaa wɔ Dr. Wertz sukuu hɔ. Sԑ wɔwɔ mmaa {num_digit_1, 60} ne adesuafoɔ {num_digit_2, 5} ma ɔkyerԑkyerԑnni biara a, akyerԑkyerԑfoɔ sԑn na ԑwɔ hɔ?",
+  "equation": "UPDATE HERE"
+}

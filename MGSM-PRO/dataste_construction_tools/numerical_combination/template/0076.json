@@ -1,0 +1,35 @@
+{
+    "problem_id": "0076",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [1, 2]},
+        "num_digit_2": {"type": "int", "range": [30, 200]},
+        "num_digit_3": {"type": "int", "range": [2, 4]},
+        "num_digit_4": {"type": "int", "range": [50, 150]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "phase1_cups = num_digit_1 * num_digit_2",
+            "phase2_days = 365 - num_digit_2"
+        ],
+        "num_digit_4": [
+            "phase2_cups = phase2_days * num_digit_3",
+            "total_cups = phase1_cups + phase2_cups",
+            "ans = total_cups / num_digit_4"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "num_digit_2 < 365"
+        ],
+        "num_digit_4": [
+            "total_cups % num_digit_4 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

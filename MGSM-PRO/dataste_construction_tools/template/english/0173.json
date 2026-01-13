@@ -1,0 +1,8 @@
+{
+  "original_question": "Jessica is trying to figure out how much to pay on all her debts each month. Her student loans have a minimum payment of $300/month, her credit card's minimum is $200/month, and her mortgage's minimum is $500/month. If Jessica wants to pay 50% more than the minimum, how much does she pay in a year?",
+  "original_answer": 18000,
+  "symbolic_template": "{name_female, Jessica} is trying to figure out how much to pay on all her debts each month. Her student loans have a minimum payment of ${num_digit_1, 300}/month, her credit card's minimum is ${num_digit_2, 200}/month, and her mortgage's minimum is ${num_digit_3, 500}/month. If {name_female, Jessica} wants to pay {num_digit_4, 50}% more than the minimum, how much does she pay in a year?",
+  "ic_sentence_template": "{name_female, Jessica}'s uncle recently gave her {num_ic, 58} discount coupons.",
+  "ic_template": "{name_female, Jessica} is trying to figure out how much to pay on all her debts each month. Her student loans have a minimum payment of ${num_digit_1, 300}/month, her credit card's minimum is ${num_digit_2, 200}/month, and her mortgage's minimum is ${num_digit_3, 500}/month. {name_female, Jessica}'s uncle recently gave her {num_ic, 58} discount coupons. If {name_female, Jessica} wants to pay {num_digit_4, 50}% more than the minimum, how much does she pay in a year?",
+  "equation": "UPDATE HERE"
+}

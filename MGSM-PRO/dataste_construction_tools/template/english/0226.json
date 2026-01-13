@@ -1,0 +1,8 @@
+{
+  "original_question": "James is counting his Pokemon cards. He has 30 fire type, 20 grass type, and 40 water type. If he loses 8 of the water type and buys 14 grass type, what's the percentage chance (rounded to the nearest integer) that a randomly picked card will be a water type?",
+  "original_answer": 33,
+  "symbolic_template": "{name_male, James} is counting his Pokemon cards. He has {num_digit_1, 30} fire type, {num_digit_2, 20} grass type, and {num_digit_3, 40} water type. If he loses {num_digit_4, 8} of the water type and buys {num_digit_5, 14} grass type, what's the percentage chance (rounded to the nearest integer) that a randomly picked card will be a water type?",
+  "ic_sentence_template": "{name_male, James}'s aunt found {num_ic, 73} rare trading cards at a garage sale.",
+  "ic_template": "{name_male, James} is counting his Pokemon cards. He has {num_digit_1, 30} fire type, {num_digit_2, 20} grass type, and {num_digit_3, 40} water type. If he loses {num_digit_4, 8} of the water type and buys {num_digit_5, 14} grass type, {name_male, James}'s aunt found {num_ic, 73} rare trading cards at a garage sale. What's the percentage chance (rounded to the nearest integer) that a randomly picked card will be a water type?",
+  "equation": "UPDATE HERE"
+}

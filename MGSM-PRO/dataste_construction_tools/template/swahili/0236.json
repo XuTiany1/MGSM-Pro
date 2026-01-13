@@ -1,0 +1,8 @@
+{
+  "original_question": "Ram hutumia kalamu nyingi. Aligundua kuwa anaweza kuokoa pesa kwa kuchanganya wino kutoka kwa kalamu tano zilizo tupu ili kutengeneza kalamu moja. Akinunua kalamu 25 na kisha akazitumia kutengeneza kalamu mpya wino ukipungua, atakuwa na kalamu ngapi kwa jumla?",
+  "original_answer": 31,
+  "symbolic_template": "{name_male, Ram} hutumia kalamu nyingi. Aligundua kuwa anaweza kuokoa pesa kwa kuchanganya wino kutoka kwenye kalamu tano zilizomalizika ili kupata kalamu moja kamili. Ikiwa atanunua kalamu {num_digit_1, 25} na kisha akazitumia kutengeneza kalamu mpya baada ya wino kuisha, atakuwa na kalamu ngapi jumla?",
+  "ic_sentence_template": "Mjomba wa {name_male, Ram} aliwahi kununua daftari {num_ic, 13408} kwa punguzo.",
+  "ic_template": "Mjomba wa {name_male, Ram} aliwahi kununua daftari {num_ic, 13408} kwa punguzo. {name_male, Ram} hutumia kalamu nyingi. Aligundua kuwa anaweza kuokoa pesa kwa kuchanganya wino kutoka kwenye kalamu tano zilizomalizika ili kupata kalamu moja kamili. Ikiwa atanunua kalamu {num_digit_1, 25} na kisha akazitumia kutengeneza kalamu mpya baada ya wino kuisha, atakuwa na kalamu ngapi jumla?",
+  "equation": "UPDATE HERE"
+}

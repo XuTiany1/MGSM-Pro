@@ -1,0 +1,8 @@
+{
+  "original_question": "E nwere nnụnụ anọ na Caboose. Sally Two dị áfọ̀ atọ karịa Granny Red. Granny Red di áfọ̀ dị ugboro abụọ dịka nke Sally Four. Ọ bụrụ na Sally Four dị áfọ̀ ole Sally Thirtytwo dị, ma Sally Thirtytwo dị áfọ̀ asatọ, kedụ áfọ̀ ole na ngụkọta nnụnụ anọ ndị ahụ dị? ",
+  "original_answer": 51,
+  "symbolic_template": "E nwere nnụnụ anọ na Caboose. {name_female_1, Sally} Two dị áfọ̀ atọ karịa {name_female_2, Granny} {name_color, Red}. {name_female_2, Granny} {name_color, Red} di áfọ̀ dị ugboro abụọ dịka nke {name_female_1, Sally} Four. Ọ bụrụ na {name_female_1, Sally} Four dị áfọ̀ ole {name_female_1, Sally} Thirtytwo dị, ma {name_female_1, Sally} Thirtytwo dị áfọ̀ {num_digit_1, 8}, kedụ áfọ̀ ole na ngụkọta nnụnụ anọ ndị ahụ dị?",
+  "ic_sentence_template": "{name_female_2, Granny} {name_color, Red} nwa nwanne ya na-anakọta bọl gbara okirikiri {num_ic, 93}.",
+  "ic_template": "{name_female_2, Granny} {name_color, Red} nwa nwanne ya na-anakọta bọl gbara okirikiri {num_ic, 93}. E nwere nnụnụ anọ na Caboose. {name_female_1, Sally} Two dị áfọ̀ atọ karịa {name_female_2, Granny} {name_color, Red}. {name_female_2, Granny} {name_color, Red} di áfọ̀ dị ugboro abụọ dịka nke {name_female_1, Sally} Four. Ọ bụrụ na {name_female_1, Sally} Four dị áfọ̀ ole {name_female_1, Sally} Thirtytwo dị, ma {name_female_1, Sally} Thirtytwo dị áfọ̀ {num_digit_1, 8}, kedụ áfọ̀ ole na ngụkọta nnụnụ anọ ndị ahụ dị?",
+  "equation": "UPDATE HERE"
+}

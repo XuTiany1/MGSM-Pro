@@ -1,0 +1,8 @@
+{
+  "original_question": "Bill máa ń se rolls 300, chocolate croissants 120, àti 60 baguettes lójoojúmọ́. Ọ̀kọ̀ọ̀kan rolls náà gùn ní ìwọn 4 inches, Ọ̀kọ̀ọ̀kan croissant gùn ní ìwọn 6 inches, tí ọ̀kọ̀ọ̀kan baguette sì gùn ní ìwọn ẹsẹ̀ bàtà méjì. Tí Bill bá fi etí àwọn ọjà tí ó sè náà tí ara wọn, báwo ni wọ́n a ṣe gùn tọ́ ni ìwọ̀n ẹsẹ̀ bàtà?",
+  "original_answer": 280,
+  "symbolic_template": "{name_male, Bill} máa ń se rolls {num_digit_1, 300}, chocolate croissants {num_digit_2, 120}, àti {num_digit_3, 60} baguettes lójoojúmọ́. Ọ̀kọ̀ọ̀kan rolls náà gùn ní ìwọn {num_digit_4, 4} inches, Ọ̀kọ̀ọ̀kan croissant gùn ní ìwọn {num_digit_5, 6} inches, tí ọ̀kọ̀ọ̀kan baguette sì gùn ní ìwọn ẹsẹ̀ bàtà méjì. Tí {name_male, Bill} bá fi etí àwọn ọjà tí ó sè náà tí ara wọn, báwo ni wọ́n a ṣe gùn tọ́ ni ìwọ̀n ẹsẹ̀ bàtà?",
+  "ic_sentence_template": "Ìyá ńlá {name_male, Bill} máa ń rà àwọn burẹdi {num_ic, 72} ní gbogbo oṣù.",
+  "ic_template": "Ìyá ńlá {name_male, Bill} máa ń rà àwọn burẹdi {num_ic, 72} ní gbogbo oṣù. {name_male, Bill} máa ń se rolls {num_digit_1, 300}, chocolate croissants {num_digit_2, 120}, àti {num_digit_3, 60} baguettes lójoojúmọ́. Ọ̀kọ̀ọ̀kan rolls náà gùn ní ìwọn {num_digit_4, 4} inches, Ọ̀kọ̀ọ̀kan croissant gùn ní ìwọn {num_digit_5, 6} inches, tí ọ̀kọ̀ọ̀kan baguette sì gùn ní ìwọn ẹsẹ̀ bàtà méjì. Tí {name_male, Bill} bá fi etí àwọn ọjà tí ó sè náà tí ara wọn, báwo ni wọ́n a ṣe gùn tọ́ ni ìwọ̀n ẹsẹ̀ bàtà?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Burrito no boɔ yɛ $6.50. Na ɔde bi ka enam no ho a na ne boɔ yɛ $2.00, ɔde cheese bi ka ho a ne boɔ yɛ $1.00, avocado nso yɛ $1.00, ne nnuane mmienu a ne boɔ yɛ $0.25 biara. Ɔfa adwene sɛ ɔbɛma n'aduan no ayɛ nea ɛsen $3.00 a ɔde bɛka chips ne nsa. Sɛ na ɔwɔ akyɛdeɛ krataa a  nane bo yɛ $5.00 a  obetumi edi efiri mu. Ɔda so ara de ka ahe?",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, Chad} burrito no boɔ yɛ ${num_digit_1, 6.50}. Na ɔde bi ka enam no ho a na ne boɔ yɛ ${num_digit_2, 2.00}, ɔde cheese bi ka ho a ne boɔ yɛ ${num_digit_3, 1.00}, avocado nso yɛ ${num_digit_4, 1.00}, ne nnuane mmienu a ne boɔ yɛ ${num_digit_5, 0.25} biara. Ɔfa adwene sɛ ɔbɛma n'aduan no ayɛ nea ɛsen ${num_digit_6, 3.00} a ɔde bɛka chips ne nsa. Sɛ na ɔwɔ akyɛdeɛ krataa a nane bo yɛ ${num_digit_7, 5.00} a obetumi edi efiri mu. Ɔda so ara de ka ahe?",
+  "ic_sentence_template": "{name_male, Chad} wɔfa tɔɔ burrito {num_ic, 38} maa ne nnamfo adwumayɛfoɔ nnawɔtwe a atwa mu.",
+  "ic_template": "{name_male, Chad} wɔfa tɔɔ burrito {num_ic, 38} maa ne nnamfo adwumayɛfoɔ nnawɔtwe a atwa mu. {name_male, Chad} burrito no boɔ yɛ ${num_digit_1, 6.50}. Na ɔde bi ka enam no ho a na ne boɔ yɛ ${num_digit_2, 2.00}, ɔde cheese bi ka ho a ne boɔ yɛ ${num_digit_3, 1.00}, avocado nso yɛ ${num_digit_4, 1.00}, ne nnuane mmienu a ne boɔ yɛ ${num_digit_5, 0.25} biara. Ɔfa adwene sɛ ɔbɛma n'aduan no ayɛ nea ɛsen ${num_digit_6, 3.00} a ɔde bɛka chips ne nsa. Sɛ na ɔwɔ akyɛdeɛ krataa a nane bo yɛ ${num_digit_7, 5.00} a obetumi edi efiri mu. Ɔda so ara de ka ahe?",
+  "equation": "UPDATE HERE"
+}

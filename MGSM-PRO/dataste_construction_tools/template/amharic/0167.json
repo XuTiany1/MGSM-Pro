@@ -1,0 +1,8 @@
+{
+  "original_question": "ሴዝ ከብሩክ በእጥፍ ይበልጣል። በ 2 ዓመታት ውስጥ የእድሜያቸው ድምር 28 ይሆናል ሴዝ ዕድሜው ስንት ነው?",
+  "original_answer": 16,
+  "symbolic_template": "{name_male, ሴዝ} ከ{name_female, ብሩክ} በእጥፍ ይበልጣል። በ{num_digit_1, 2} ዓመታት ውስጥ የእድሜያቸው ድምር {num_digit_2, 28} ይሆናል {name_male, ሴዝ} ዕድሜው ስንት ነው?",
+  "ic_sentence_template": "የ{name_male, ሰዝ} አክሊል በቅርብ ጊዜ {num_ic, 17} የቅናሽ የፊልም ትኬቶች ገዛች።",
+  "ic_template": "{name_male, ሴዝ} ከ{name_female, ብሩክ} በእጥፍ ይበልጣል። በ{num_digit_1, 2} ዓመታት ውስጥ የእድሜያቸው ድምር {num_digit_2, 28} ይሆናል {name_male, ሴዝ} ዕድሜው ስንት ነው? የ{name_male, ሰዝ} አክሊል በቅርብ ጊዜ {num_ic, 17} የቅናሽ የፊልም ትኬቶች ገዛች።",
+  "equation": "UPDATE HERE"
+}

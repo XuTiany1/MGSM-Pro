@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean ana pipi 30. Jean anakula pipi 2 kati ya pipi hizo. Kwa pipi zilizosalia,Jean anataka kuweka pipi 2 kwenye mfuko moja. Jean anaweza kujaza mifuko mingapi?",
+  "original_answer": 14,
+  "symbolic_template": "{name_male, Jean} ana pipi {num_digit_1, 30}. {name_male, Jean} anakula pipi {num_digit_2, 2}. Kwa pipi zilizosalia, {name_male, Jean} anataka kuweka pipi {num_digit_3, 2} katika mfuko mmoja. {name_male, Jean} anaweza kujaza mifuko mingapi?",
+  "ic_sentence_template": "Shangazi wa {name_male, Jean} alinunua maputo {num_ic, 94} hivi karibuni.",
+  "ic_template": "Shangazi wa {name_male, Jean} alinunua maputo {num_ic, 94} hivi karibuni. {name_male, Jean} ana pipi {num_digit_1, 30}. {name_male, Jean} anakula pipi {num_digit_2, 2}. Kwa pipi zilizosalia, {name_male, Jean} anataka kuweka pipi {num_digit_3, 2} katika mfuko mmoja. {name_male, Jean} anaweza kujaza mifuko mingapi?",
+  "equation": "UPDATE HERE"
+}

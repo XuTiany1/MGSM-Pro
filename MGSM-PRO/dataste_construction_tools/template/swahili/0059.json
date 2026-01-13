@@ -1,0 +1,8 @@
+{
+  "original_question": "Kichaka cha rasiberi kina makundi 6 yenye matunda 20 kwa kila kundi na matunda 67 yametapakaa moja moja kwenye kichaka hicho. Juna rasiberi ngapi kwa jumla?",
+  "original_answer": 187,
+  "symbolic_template": "Kichaka cha rasiberi kina makundi {num_digit_1, 6}, kila kundi kikiwa na matunda {num_digit_2, 20}, na pia kuna matunda {num_digit_3, 67} yaliyotapakaa mmoja-mmoja kwenye kichaka. Jumla ya rasiberi ni ngapi?",
+  "ic_sentence_template": "Mpwa wa mtunza bustani alipanda mimea ya blueberry {num_ic, 126} karibu.",
+  "ic_template": "Mpwa wa mtunza bustani alipanda mimea ya blueberry {num_ic, 126} karibu. Kichaka cha rasiberi kina makundi {num_digit_1, 6}, kila kundi kikiwa na matunda {num_digit_2, 20}, na pia kuna matunda {num_digit_3, 67} yaliyotapakaa mmoja-mmoja kwenye kichaka. Jumla ya rasiberi ni ngapi?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Janeth yá $2000 ó sì ṣèlérí láti dá a padà pẹ̀lú àfikún 10% iye náà. Tí ó bá fẹ́ san $165 lóṣooṣù fún oṣù méjìlá, èló ni yóò jẹ́ iye tí tó kù fún Janeth nígbà náà?",
+  "original_answer": 220,
+  "symbolic_template": "{name_female, Janeth} yá ${num_digit_1, 2000} ó sì ṣèlérí láti dá a padà pẹ̀lú àfikún {num_digit_2, 10}% iye náà. Tí ó bá fẹ́ san ${num_digit_3, 165} lóṣooṣù fún oṣù {num_digit_4, méjìlá}, èló ni yóò jẹ́ iye tí tó kù fún {name_female, Janeth} nígbà náà?",
+  "ic_sentence_template": "Ẹ̀gbọ́n bàbá {name_female, Janeth} gba tikẹ́ẹ̀tì loto {num_ic, 93000} lọ́dún tó kọjá.",
+  "ic_template": "Ẹ̀gbọ́n bàbá {name_female, Janeth} gba tikẹ́ẹ̀tì loto {num_ic, 93000} lọ́dún tó kọjá. {name_female, Janeth} yá ${num_digit_1, 2000} ó sì ṣèlérí láti dá a padà pẹ̀lú àfikún {num_digit_2, 10}% iye náà. Tí ó bá fẹ́ san ${num_digit_3, 165} lóṣooṣù fún oṣù {num_digit_4, méjìlá}, èló ni yóò jẹ́ iye tí tó kù fún {name_female, Janeth} nígbà náà?",
+  "equation": "UPDATE HERE"
+}

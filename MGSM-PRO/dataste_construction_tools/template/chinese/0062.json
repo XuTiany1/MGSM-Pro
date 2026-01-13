@@ -1,0 +1,8 @@
+{
+  "original_question": "如果玛茜在同一家公司工作了 40 年，她能获得每年 50,000 美元的年度养老金。从 20 年后开始，她有权获得每年养老金价值的 5%。如果她在 30 年后辞职，那时她的年度退休金是多少？",
+  "original_answer": 25000,
+  "symbolic_template": "{name_female, 玛茜} 如果在同一家公司工作了 {num_digit_1, 40} 年，她能获得每年 {num_digit_2, 50,000} 美元的年度养老金。从 {num_digit_3, 20} 年后开始，她有权获得每年养老金价值的 {num_digit_4, 5}% 。如果她在 {num_digit_6, 30} 年后辞职，那时她的年度退休金是多少？",
+  "ic_sentence_template": "{name_female, 玛西} 的叔叔去年得到了一笔奖金，共计 {num_ic, 315,000} 美元。",
+  "ic_template": "{name_female, 玛西} 的叔叔去年得到了一笔奖金，共计 {num_ic, 315,000} 美元。{name_female, 玛茜} 如果在同一家公司工作了 {num_digit_1, 40} 年，她能获得每年 {num_digit_2, 50,000} 美元的年度养老金。从 {num_digit_3, 20} 年后开始，她有权获得每年养老金价值的 {num_digit_4, 5}% 。如果她在 {num_digit_6, 30} 年后辞职，那时她的年度退休金是多少？",
+  "equation": "UPDATE HERE"
+}

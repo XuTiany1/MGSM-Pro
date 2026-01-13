@@ -1,0 +1,8 @@
+{
+  "original_question": "カイルは去年、ベストセラーの本を$19.50で購入しました。元の価格よりも25%安値です。この本の元の価格はいくらですか？",
+  "original_answer": 26,
+  "symbolic_template": "{name_male, カイル}は去年、ベストセラーの本を${num_digit_1, 19.50}で購入しました。これは元の価格から{num_digit_2, 25}%割引された価格です。この本の元の価格はいくらですか？",
+  "ic_sentence_template": "{name_male, カイル}のおばは毎年{num_ic, 326332763}冊の雑誌を読んでいました。",
+  "ic_template": "{name_male, カイル}のおばは毎年{num_ic, 326332763}冊の雑誌を読んでいました。{name_male, カイル}は去年、ベストセラーの本を${num_digit_1, 19.50}で購入しました。これは元の価格から{num_digit_2, 25}%割引された価格です。この本の元の価格はいくらですか？",
+  "equation": "UPDATE HERE"
+}

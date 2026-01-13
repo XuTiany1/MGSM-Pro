@@ -1,0 +1,8 @@
+{
+  "original_question": "Katy na-eme kọfị jiri ngaji shuga na iko mmiri nha asaa na iri na atọ. Ọ bụrụ na o jiri ngụkọta òké ngaji shuga dị otu narị na iri abụọ na iko mmiri, gbakọọ ngaji shuga ole o jiri mee ịhe? ",
+  "original_answer": 42,
+  "symbolic_template": "{name_female, Katy}  na-eme kọfị jiri ngaji shuga na iko mmiri nha {num_digit_1, 7} na {num_digit_2, 13}. Ọ bụrụ na o jiri ngụkọta òké ngaji shuga dị {num_digit_3, 120} na iko mmiri, gbakọọ ngaji shuga ole o jiri mee ịhe?",
+  "ic_sentence_template": "Nwanne nna {name_female, Katy} na-aṅụ iko kọfị {num_ic, 47} kwa ọnwa.",
+  "ic_template": "Nwanne nna {name_female, Katy} na-aṅụ iko kọfị {num_ic, 47} kwa ọnwa. {name_female, Katy}  na-eme kọfị jiri ngaji shuga na iko mmiri nha {num_digit_1, 7} na {num_digit_2, 13}. Ọ bụrụ na o jiri ngụụta òké ngaji shuga dị {num_digit_3, 120} na iko mmiri, gbakọọ ngaji shuga ole o jiri mee ịhe?",
+  "equation": "UPDATE HERE"
+}

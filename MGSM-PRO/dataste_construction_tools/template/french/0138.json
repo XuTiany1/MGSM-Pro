@@ -1,0 +1,8 @@
+{
+  "original_question": "Hier, Marc a passé un test de 75 questions. Il l'a passé à un rythme de 5 questions par heure. Aujourd'hui, il a passé un autre test de 100 questions au même rythme. Si Marc a pris 8 heures pour faire le premier test et 6 heures pour le deuxième, combien de questions sont restées sans réponse ?",
+  "original_answer": 105,
+  "symbolic_template": "Hier, {name_male, Marc} a passé un test de {num_digit_1, 75} questions. Il l'a passé à un rythme de {num_digit_2, 5} questions par heure. Aujourd'hui, il a passé un autre test de {num_digit_3, 100} questions au même rythme. Si {name_male, Marc} a pris {num_digit_4, 8} heures pour faire le premier test et {num_digit_5, 6} heures pour le deuxième, combien de questions sont restées sans réponse ?",
+  "ic_sentence_template": "{name_male, Mark} a reçu de son oncle {num_ic, 68} crayons porte-bonheur.",
+  "ic_template": "{name_male, Mark} a reçu de son oncle {num_ic, 68} crayons porte-bonheur. Hier, {name_male, Marc} a passé un test de {num_digit_1, 75} questions. Il l'a passé à un rythme de {num_digit_2, 5} questions par heure. Aujourd'hui, il a passé un autre test de {num_digit_3, 100} questions au même rythme. Si {name_male, Marc} a pris {num_digit_4, 8} heures pour faire le premier test et {num_digit_5, 6} heures pour le deuxième, combien de questions sont restées sans réponse ?",
+  "equation": "UPDATE HERE"
+}

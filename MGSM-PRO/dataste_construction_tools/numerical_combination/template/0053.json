@@ -1,0 +1,30 @@
+{
+    "problem_id": "0053",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_5", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [50, 100]},
+        "num_digit_2": {"type": "int", "range": [20, 45]},
+        "num_digit_3": {"type": "int", "range": [5, 12]},
+        "num_digit_4": {"type": "int", "range": [5, 15]},
+        "num_digit_5": {"type": "int", "range": [20, 40]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_4": [
+            "thursday_revenue = (num_digit_3 * num_digit_1) + (num_digit_4 * num_digit_2)"
+        ],
+        "num_digit_5": [
+            "friday_revenue = num_digit_5 * num_digit_2",
+            "ans = abs(thursday_revenue - friday_revenue)"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_5": [
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

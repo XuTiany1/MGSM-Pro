@@ -1,0 +1,8 @@
+{
+  "original_question": "Pam àti Fred lọ sí ibi ayẹyẹ kan. Pam gun roller coaster ní ẹ‌meèjì, nígbà tí Fred gùn-ún ní ẹ‌mẹẹ‌rin. Lẹ‌yìn ìyẹn, ọ‌kọ‌ọ‌kan wọn pinnu láti gun luge náà ní ẹ‌meèjì. Tí iye gígun ọkọ‌ kọ‌ọ‌kan bá ná tíkẹ‌ẹ‌tì 6, tíkẹ‌ẹ‌tì mélòó ni wọ‌n lò ní ọjọ‌ náà?",
+  "original_answer": 60,
+  "symbolic_template": "{name_female, Pam} àti {name_male, Fred} lọ sí ibi ayẹyẹ kan. {name_female, Pam} gun roller coaster ní ìgbà {num_digit_1, 2}, nígbà tí {name_male, Fred} gùn-ún ní ìgbà {num_digit_2, 4}. Lẹ́yìn ìyẹn, ọkọọkan wọn pinnu láti gun luge náà ní ìgbà {num_digit_3, 2}. Tí iye gígun ọkọ kọọkan bá ná tíkẹẹtì {num_digit_4, 6}, tíkẹẹtì mélòó ni wọ́n lò ní ọjọ́ náà?",
+  "ic_sentence_template": "Ọmọ̀kùnrin {name_male, Fred} ní baba ńlá tí ó mú àwọn búrẹ́dì ìdárayá {num_ic, 42} wá sí ayẹyẹ.",
+  "ic_template": "Ọmọ̀kùnrin {name_male, Fred} ní baba ńlá tí ó mú àwọn búrẹ́dì ìdárayá {num_ic, 42} wá sí ayẹyẹ. {name_female, Pam} àti {name_male, Fred} lọ sí ibi ayẹyẹ kan. {name_female, Pam} gun roller coaster ní ìgbà {num_digit_1, 2}, nígbà tí {name_male, Fred} gùn-ún ní ìgbà {num_digit_2, 4}. Lẹ́yìn ìyẹn, ọkọọkan wọn pinnu láti gun luge náà ní ìgbà {num_digit_3, 2}. Tí iye gígun ọkọ kọọkan bá ná tíkẹẹtì {num_digit_4, 6}, tíkẹẹtì mélòó ni wọ́n lò ní ọjọ́ náà?",
+  "equation": "UPDATE HERE"
+}

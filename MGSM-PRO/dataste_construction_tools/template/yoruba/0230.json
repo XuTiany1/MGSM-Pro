@@ -1,0 +1,8 @@
+{
+  "original_question": "Mark ra ọkọ̀ ayọ́kẹ́lẹ́ 12 fún ilé ìṣe rẹ‌. Iye ọkọ kọ‌ọ‌kan jẹ‌ $20,000. Ó sàn owó-orí 10% lórí àwọn ọkọ̀ ayọ́kẹ́lẹ́ náà pẹ‌lú u $1000 míràn fún ìforúkọsílẹ‌ ọ‌kọ‌ọ‌kan wọn. Èló ló san fún gbogbo rẹ‌?",
+  "original_answer": 276000,
+  "symbolic_template": "{name_male, Mark} ra ọkọ̀ ayọ́kẹ́lẹ́ {num_digit_1, 12} fún ilé ìṣe rẹ‌. Iye ọkọ kọ‌ọ‌kan jẹ‌ ${num_digit_2, 20,000}. Ó sàn owó-orí {num_digit_3, 10}% lórí àwọn ọkọ̀ ayọ́kẹ́lẹ́ náà pẹ‌lú u ${num_digit_4, 1000} míràn fún ìforúkọsílẹ‌ ọ‌kọ‌ọ‌kan wọn. Èló ló san fún gbogbo rẹ‌?",
+  "ic_sentence_template": "Arákùnrin {name_male, Mark} ra ọkọ ayọ́kẹ́lẹ́ aláyàrá mẹta {num_ic, 111} laipẹ́ yìí.",
+  "ic_template": "Arákùnrin {name_male, Mark} ra ọkọ ayọ́kẹ́lẹ́ aláyàrá mẹta {num_ic, 111} laipẹ́ yìí. {name_male, Mark} ra ọkọ̀ ayọ́kẹ́lẹ́ {num_digit_1, 12} fún ilé ìṣe rẹ‌. Iye ọkọ kọ‌ọ‌kan jẹ‌ ${num_digit_2, 20,000}. Ó sàn owó-orí {num_digit_3, 10}% lórí àwọn ọkọ̀ ayọ́kẹ́lẹ́ náà pẹ‌lú u ${num_digit_4, 1000} míràn fún ìforúkọsílẹ‌ ọ‌kọ‌ọ‌kan wọn. Èló ló san fún gbogbo rẹ‌?",
+  "equation": "UPDATE HERE"
+}

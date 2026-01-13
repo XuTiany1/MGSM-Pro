@@ -1,0 +1,8 @@
+{
+  "original_question": "Wɔ Ɛdwoada no, Walt nante kwansin ɛnan. Benada no, ɔnante akwansin bebree sen nea ɔnante Ɛdwoada no mmɔho nsia. N'akwantu no nyinaa firi Ɛdwoada kosi Wukuda yɛ akwansin aduanan baako. Akwansin dodoɔ ahe na ɔnante wɔ Wukuda?",
+  "original_answer": 13,
+  "symbolic_template": "Wɔ Ɛdwoada no, {name_male, Walt} nante kwansin {num_digit_1, ɛnan}. Benada no, ɔnante akwansin bebree sen nea ɔnante Ɛdwoada no mmɔho {num_digit_2, nsia}. N'akwantu no nyinaa firi Ɛdwoada kosi Wukuda yɛ akwansin {num_digit_3, aduanan baako}. Akwansin dodoɔ ahe na ɔnante wɔ Wukuda?",
+  "ic_sentence_template": "{name_male, Walt} wͻfa no twii ne sakre kwansin {num_ic, 17} saa nnawɔtwe no.",
+  "ic_template": "{name_male, Walt} wͻfa no twii ne sakre kwansin {num_ic, 17} saa nnawɔtwe no. Wɔ Ɛdwoada no, {name_male, Walt} nante kwansin {num_digit_1, ɛnan}. Benada no, ɔnante akwansin bebree sen nea ɔnante Ɛdwoada no mmɔho {num_digit_2, nsia}. N'akwantu no nyinaa firi Ɛdwoada kosi Wukuda yɛ akwansin {num_digit_3, aduanan baako}. Akwansin dodoɔ ahe na ɔnante wɔ Wukuda?",
+  "equation": "UPDATE HERE"
+}

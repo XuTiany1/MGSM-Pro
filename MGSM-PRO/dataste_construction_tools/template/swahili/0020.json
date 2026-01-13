@@ -1,0 +1,8 @@
+{
+  "original_question": "Nina lita 10 za kinywaji cha chungwa ambacho theluthi mbili zake ni maji na ningependelea kukiongeza kwenye lita 15 za kinyaji cha nanasi ambacho humusi tatu zake ni maji. Lakini ninapokimimina, nimemwaga lita moja ya kinywaji cha chungwa. Kiasi kipi cha maji kipo kwenye lita 24 zinazosalia?",
+  "original_answer": 15,
+  "symbolic_template": "Nina lita {num_digit_1, 10} za kinywaji cha chungwa ambacho theluthi mbili ya kiasi chake ni maji, na ningependa kukiongeza kwenye lita {num_digit_2, 15} za kinywaji cha nanasi ambacho thumuni tatu ya kiasi chake ni maji. Lakini ninapokimimina, nimemwaga lita moja ya kinywaji cha chungwa. Kiasi gani cha maji kipo kwenye lita {num_digit_3, 24} zilizosalia?",
+  "ic_sentence_template": "Binamu wa {name_male, Eric} alileta maembe {num_ic, 186} kwenye pikniki.",
+  "ic_template": "Binamu wa {name_male, Eric} alileta maembe {num_ic, 186} kwenye pikniki. Nina lita {num_digit_1, 10} za kinywaji cha chungwa ambacho theluthi mbili ya kiasi chake ni maji, na ningependa kukiongeza kwenye lita {num_digit_2, 15} za kinywaji cha nanasi ambacho thumuni tatu ya kiasi chake ni maji. Lakini ninapokimimina, nimemwaga lita moja ya kinywaji cha chungwa. Kiasi gani cha maji kipo kwenye lita {num_digit_3, 24} zilizosalia?",
+  "equation": "UPDATE HERE"
+}

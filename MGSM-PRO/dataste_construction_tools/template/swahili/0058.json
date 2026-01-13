@@ -1,0 +1,8 @@
+{
+  "original_question": "Stephen aliagiza mboga mtandaoni. Bili yake ya mwisho ilikuwa $40.00. Kwa sababu hii ilikuwa kupitia muuzaji wa kuwasilisha bidhaa, walitoza ada ya 25% kwenye jumla yake ya mwisho na kumtoza $3.00 kama ada ya uwasilishaji. Stephen pia aliongeza $4.00 ya bahshishi. Baada ya ada za ziada, bei ya mwisho ya mboga za Stephen ilikuwa ngapi?",
+  "original_answer": 57,
+  "symbolic_template": "{name_male, Stephen} aliagiza mboga mtandaoni. Bili ya mwisho ilikuwa ${num_digit_1, 40.00}. Kwa kuwa ilipitia mkandarasi wa uwasilishaji, wakatoza ada ya {num_digit_2, 25}% juu ya jumla yake na ada ya uwasilishaji ya ${num_digit_3, 3.00}. {name_male, Stephen} pia aliongeza bahashishi ya ${num_digit_4, 4.00}. Baada ya ada hizi za ziada, bei yake ya mwisho ilikuwa ngapi?",
+  "ic_sentence_template": "Shangazi wa {name_male, Stephen} alinunua ndizi {num_ic, 41} jana.",
+  "ic_template": "{name_male, Stephen} aliagiza mboga mtandaoni. Bili ya mwisho ilikuwa ${num_digit_1, 40.00}. Kwa kuwa ilipitia mkandarasi wa uwasilishaji, wakatoza ada ya {num_digit_2, 25}% juu ya jumla yake na ada ya uwasilishaji ya ${num_digit_3, 3.00}. {name_male, Stephen} pia aliongeza bahashishi ya ${num_digit_4, 4.00}. Shangazi wa {name_male, Stephen} alinunua ndizi {num_ic, 41} jana. Baada ya ada hizi za ziada, bei yake ya mwisho ilikuwa ngapi?",
+  "equation": "UPDATE HERE"
+}

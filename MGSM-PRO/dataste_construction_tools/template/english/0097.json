@@ -1,0 +1,8 @@
+{
+  "original_question": "When Freda cooks canned tomatoes into sauce, they lose half their volume. Each 16 ounce can of tomatoes that she uses contains three tomatoes. Freda’s last batch of tomato sauce made 32 ounces of sauce. How many tomatoes did Freda use?",
+  "original_answer": 12,
+  "symbolic_template": "When {name_female, Freda} cooks canned tomatoes into sauce, they lose half their volume. Each {num_digit_1, 16} ounce can of tomatoes that she uses contains three tomatoes. {name_female, Freda}’s last batch of tomato sauce made {num_digit_2, 32} ounces of sauce. How many tomatoes did {name_female, Freda} use?",
+  "ic_sentence_template": "{name_female, Freda}'s aunt has {num_ic, 57} tomato plants in her backyard.",
+  "ic_template": "When {name_female, Freda} cooks canned tomatoes into sauce, they lose half their volume. Each {num_digit_1, 16} ounce can of tomatoes that she uses contains three tomatoes. {name_female, Freda}'s aunt has {num_ic, 57} tomato plants in her backyard. {name_female, Freda}’s last batch of tomato sauce made {num_digit_2, 32} ounces of sauce. How many tomatoes did {name_female, Freda} use?",
+  "equation": "UPDATE HERE"
+}

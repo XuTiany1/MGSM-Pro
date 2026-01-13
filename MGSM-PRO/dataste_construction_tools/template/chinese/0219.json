@@ -1,0 +1,8 @@
+{
+  "original_question": "四名学生在一场棋盘游戏中一共获得了 251 分。娜奥米得了 68 分。尤里的得分比娜奥米的一半多 10 分，布里安娜比娜奥米多得了 17 分。乔乔得了多少分？",
+  "original_answer": 54,
+  "symbolic_template": "四名学生在一场棋盘游戏中一共获得了 {num_digit_1, 251} 分。{name_female_1, 娜奥米} 得了 {num_digit_2, 68} 分。{name_female_2, 尤里} 的得分比 {name_female_1, 娜奥米} 的 一半 多 {num_digit_3, 10} 分，{name_female_3, 布里安娜} 比 {name_female_1, 娜奥米} 多得了 {num_digit_4, 17} 分。{name_female_4, 乔乔} 得了多少分？",
+  "ic_sentence_template": "{name_female_3, 布里安娜} 的叔叔给大家带来了 {num_ic, 38} 份零食。",
+  "ic_template": "{name_female_3, 布里安娜} 的叔叔给大家带来了 {num_ic, 38} 份零食。四名学生在一场棋盘游戏中一共获得了 {num_digit_1, 251} 分。{name_female_1, 娜奥米} 得了 {num_digit_2, 68} 分。{name_female_2, 尤里} 的得分比 {name_female_1, 娜奥米} 的 一半 多 {num_digit_3, 10} 分，{name_female_3, 布里安娜} 比 {name_female_1, 娜奥米} 多得了 {num_digit_4, 17} 分。{name_female_4, 乔乔} 得了多少分？",
+  "equation": "UPDATE HERE"
+}

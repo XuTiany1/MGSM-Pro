@@ -1,0 +1,8 @@
+{
+  "original_question": "潘乔每天步行 20 英里。周末除外，他在周末步行 10 英里。他一周步行多少英里？",
+  "original_answer": 120,
+  "symbolic_template": "{name_male, 潘乔} 每天步行 {num_digit_1, 20} 英里。周末除外，他在周末步行 {num_digit_2, 10} 英里。他一周步行多少英里？",
+  "ic_sentence_template": "{name_male, 潘乔} 的叔叔有 {num_ic, 302} 顶帽子。",
+  "ic_template": "{name_male, 潘乔} 的叔叔有 {num_ic, 302} 顶帽子。{name_male, 潘乔} 每天步行 {num_digit_1, 20} 英里。周末除外，他在周末步行 {num_digit_2, 10} 英里。他一周步行多少英里？",
+  "equation": "UPDATE HERE"
+}

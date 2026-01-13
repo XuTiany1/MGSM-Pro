@@ -1,0 +1,8 @@
+{
+  "original_question": "艾米莉有 4 个孩子，名叫艾米、杰克逊、科里和詹姆斯。艾米比杰克逊大 5 岁，比科里小 2 岁。如果詹姆斯 10 岁，并且比科里小 1 岁，杰克逊几岁？",
+  "original_answer": 4,
+  "symbolic_template": "{name_female_1, 艾米莉} 有 {num_digit_1, 4} 个孩子，名叫 {name_female_2, 艾米}、{name_male_1, 杰克逊}、{name_male_2, 科里} 和 {name_male_3, 詹姆斯}。{name_female_2, 艾米} 比 {name_male_1, 杰克逊} 大 {num_digit_2, 5} 岁，比 {name_male_2, 科里} 小 {num_digit_3, 2} 岁。如果 {name_male_3, 詹姆斯} {num_digit_4, 10} 岁，并且比 {name_male_2, 科里} 小 {num_digit_5, 1} 岁，{name_male_1, 杰克逊} 几岁？",
+  "ic_sentence_template": "{name_female_1, 艾米丽} 的叔叔从商店买了 {num_ic, 39} 个苹果。",
+  "ic_template": "{name_female_1, 艾米丽} 的叔叔从商店买了 {num_ic, 39} 个苹果。{name_female_1, 艾米莉} 有 {num_digit_1, 4} 个孩子，名叫 {name_female_2, 艾米}、{name_male_1, 杰克逊}、{name_male_2, 科里} 和 {name_male_3, 詹姆斯}。{name_female_2, 艾米} 比 {name_male_1, 杰克逊} 大 {num_digit_2, 5} 岁，比 {name_male_2, 科里} 小 {num_digit_3, 2} 岁。如果 {name_male_3, 詹姆斯} {num_digit_4, 10} 岁，并且比 {name_male_2, 科里} 小 {num_digit_5, 1} 岁，{name_male_1, 杰克逊} 几岁？",
+  "equation": "UPDATE HERE"
+}

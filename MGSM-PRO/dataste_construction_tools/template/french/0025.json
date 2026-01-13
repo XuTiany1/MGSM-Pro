@@ -1,0 +1,8 @@
+{
+  "original_question": "Marie a commandé un plat de poulet qui coûte 12 $, 5 cartons de lait de 3 $ chacun, 4 pommes de 1,50 $ chacune et quelques boîtes de pizza. Marie a payé en tout 50 $. Si chaque boîte de pizza coûte 8,50 $, combien de boîtes Marie a-t-elle commandées ?",
+  "original_answer": 2,
+  "symbolic_template": "{name_female, Marie} a commandé un plat de poulet qui coûte {num_digit_1, 12} $, {num_digit_2, 5} cartons de lait de {num_digit_3, 3} $ chacun, {num_digit_4, 4} pommes de {num_digit_5, 1.50} $ chacune et quelques boîtes de pizza. {name_female, Marie}  a payé en tout {num_digit_6, 50} $. Si chaque boîte de pizza coûte {num_digit_7, 8.50} $, combien de boîtes {name_female, Marie} a-t-elle commandées ?",
+  "ic_sentence_template": "{name_female, Marie} a une cousine qui a récemment acheté {num_ic, 128} cupcakes.",
+  "ic_template": "{name_female, Marie} a une cousine qui a récemment acheté {num_ic, 128} cupcakes. {name_female, Marie} a commandé un plat de poulet qui coûte {num_digit_1, 12} $, {num_digit_2, 5} cartons de lait de {num_digit_3, 3} $ chacun, {num_digit_4, 4} pommes de {num_digit_5, 1.50} $ chacune et quelques boîtes de pizza. {name_female, Marie}  a payé en tout {num_digit_6, 50} $. Si chaque boîte de pizza coûte {num_digit_7, 8.50} $, combien de boîtes {name_female, Marie} a-t-elle commandées ?",
+  "equation": "UPDATE HERE"
+}

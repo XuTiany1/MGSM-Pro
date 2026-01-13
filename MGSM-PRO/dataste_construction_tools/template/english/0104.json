@@ -1,0 +1,8 @@
+{
+  "original_question": "Poppy is solving a 1000-piece jigsaw puzzle. She places a quarter of the pieces on the board, then her mom places a third of the remaining pieces. How many jigsaw pieces are left to be placed?",
+  "original_answer": 500,
+  "symbolic_template": "{name_female, Poppy} is solving a {num_digit_1, 1000}-piece jigsaw puzzle. She places a quarter of the pieces on the board, then her mom places a third of the remaining pieces. How many jigsaw pieces are left to be placed?",
+  "ic_sentence_template": "{name_female, Poppy}'s uncle owns {num_ic, 98} board games.",
+  "ic_template": "{name_female, Poppy} is solving a {num_digit_1, 1000}-piece jigsaw puzzle. She places a quarter of the pieces on the board, then her mom places a third of the remaining pieces. {name_female, Poppy}'s uncle owns {num_ic, 98} board games. How many jigsaw pieces are left to be placed?",
+  "equation": "UPDATE HERE"
+}

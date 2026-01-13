@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean a 30 sucettes. Il en mange 2. Avec les sucettes restantes il veut faire des sacs de 2 sucettes chacun. Combien de sacs Jean obtiendra-t-il ?",
+  "original_answer": 14,
+  "symbolic_template": "{name_male, Jean} a {num_digit_1, 30} sucettes. Il en mange {num_digit_2, 2}. Avec les sucettes restantes il veut faire des sacs de {num_digit_3, 2} sucettes chacun. Combien de sacs {name_male, Jean} obtiendra-t-il ?",
+  "ic_sentence_template": "{name_male, Jean} a une tante qui a récemment acheté {num_ic, 94} ballons.",
+  "ic_template": "{name_male, Jean} a une tante qui a récemment acheté {num_ic, 94} ballons. {name_male, Jean} a {num_digit_1, 30} sucettes. Il en mange {num_digit_2, 2}. Avec les sucettes restantes il veut faire des sacs de {num_digit_3, 2} sucettes chacun. Combien de sacs {name_male, Jean} obtiendra-t-il ?",
+  "equation": "UPDATE HERE"
+}

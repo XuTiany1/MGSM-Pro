@@ -1,0 +1,8 @@
+{
+  "original_question": "Carlos et Benji sont à la plage. Carlos loue un canoë à 30 dollars de l'heure et Benji loue un bateau banane à 18 dollars de l'heure. Si Carlos utilise son embarcation pendant 3 heures et Benji la sienne pendant 5 heures, à combien s'élèvera le montant total de leurs locations ?",
+  "original_answer": 180,
+  "symbolic_template": "{name_male_1, Carlos} et {name_male_2, Benji} sont à la plage. {name_male_1, Carlos} loue un canoë à {num_digit_1, 30} dollars de l'heure et {name_male_2, Benji} loue un bateau banane à {num_digit_2, 18} dollars de l'heure. Si {name_male_1, Carlos} utilise son embarcation pendant {num_digit_3, 3} heures et {name_male_2, Benji} la sienne pendant {num_digit_4, 5} heures, à combien s'élèvera le montant total de leurs locations ?",
+  "ic_sentence_template": "{name_male_2, Benji} a un oncle qui a apporté {num_ic, 680} serviettes pour le groupe.",
+  "ic_template": "{name_male_2, Benji} a un oncle qui a apporté {num_ic, 680} serviettes pour le groupe. {name_male_1, Carlos} et {name_male_2, Benji} sont à la plage. {name_male_1, Carlos} loue un canoë à {num_digit_1, 30} dollars de l'heure et {name_male_2, Benji} loue un bateau banane à {num_digit_2, 18} dollars de l'heure. Si {name_male_1, Carlos} utilise son embarcation pendant {num_digit_3, 3} heures et {name_male_2, Benji} la sienne pendant {num_digit_4, 5} heures, à combien s'élèvera le montant total de leurs locations ?",
+  "equation": "UPDATE HERE"
+}

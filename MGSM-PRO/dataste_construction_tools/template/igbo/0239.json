@@ -1,0 +1,8 @@
+{
+  "original_question": "Ọnụ ọgụgụ ụmụakwụkwọ nọ n'ime otu ụlọ nzukọ  nke ụlọ akwụkwọ dị otu puku. Ụlọ Nzukọ ahụ nwere ọnụ ụzọ mbanye atọ A, B, na C nke bụkwa ụzọ ọpụpụ. Ọ bụrụ na mgbe emesiri nzukọ 30% ụmụ akwụkwọ pụru na ụlọ ahu site na ụzọ ọpụpụ A, ụzọ atọ n'ime ụzọ ise ndị fọdụrụ pụru site na ụzọ ọpụpụ B, na ndị ọzọ pụru site na ụzọ ọpụpụ C, gbakọọ ọnụ ọgụgụ ụmụ akwụkwọ ndị pụru site na ụzọ ọpụpụ C. ",
+  "original_answer": 280,
+  "symbolic_template": "Ọnụ ọgụgụ ụmụakwụkwọ nọ n'ime otu ụlọ nzukọ nke ụlọ akwụkwọ dị {num_digit_1, 1000}. Ụlọ Nzukọ ahụ nwere ọnụ ụzọ mbanye {num_digit_2, 3} A, B, na C nke bụkwa ụzọ ọpụpụ. Ọ bụrụ na mgbe emesiri nzukọ {num_digit_3, 30}% ụmụ akwụkwọ pụru na ụlọ ahu site na ụzọ ọpụpụ A, ụzọ 3/5 ndị fọdụrụ pụru site na ụzọ ọpụpụ B, na ndị ọzọ pụru site na ụzọ ọpụpụ C, gbakọọ ọnụ ọgụgụ ụmụ akwụkwọ ndị pụru site na ụzọ ọpụpụ C.",
+  "ic_sentence_template": "Ndị nkuzi {num_ic, 95} natara akwụkwọ agụ ọhụrụ n'ụbọchị ahụ.",
+  "ic_template": "Ọnụ ọgụgụ ụmụakwụkwọ nọ n'ime otu ụlọ nzukọ nke ụlọ akwụkwọ dị {num_digit_1, 1000}. Ụlọ Nzukọ ahụ nwere ọnụ ụzọ mbanye {num_digit_2, 3} A, B, na C nke bụkwa ụzọ ọpụpụ. Ọ bụrụ na mgbe emesiri nzukọ {num_digit_3, 30}% ụmụ akwụkwọ pụru na ụlọ ahu site na ụzọ ọpụpụ A, ụzọ 3/5 ndị fọdụrụ pụru site na ụzọ ọpụpụ B, na ndị ọzọ pụru site na ụzọ ọpụpụ C, gbakọọ ọnụ ọgụgụ ụmụ akwụkwọ ndị pụru site na ụzọ ọpụpụ C. Ndị nkuzi {num_ic, 95} natara akwụkwọ agụ ọhụrụ n'ụbọchị ahụ.",
+  "equation": "UPDATE HERE"
+}

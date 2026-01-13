@@ -1,0 +1,8 @@
+{
+  "original_question": "Shamba la tikitimaji lilizalisha tikitimaji 120. Ashlyn alienda kwenye shamba hilo baada ya miezi miwili na kupata kuwa 30% ya tikitimaji hizo zilikuwa tayari kuvunwa, hivyo alizivuna akarudi nazo nyumbani. Aliporudi tena wiki mbili baadaye, 3/4 ya tikitimaji zilizokuwa zimesalia zilikuwa tayari, hivyo alizivuna. Tikitimaji ngapi hazikuwa tayari kuvunwa baada ya wiki hizo mbili?",
+  "original_answer": 21,
+  "symbolic_template": "Shamba la tikitimaji lilizalisha tikitimaji {num_digit_1, 120}. {name_female, Ashlyn} alienda kwenye shamba hilo baada ya miezi miwili na kubaini kuwa {num_digit_2, 30}% ya tikitimaji hizo zilikuwa tayari kuvunwa, hivyo alizichukua nyumbani. Aliporudi tena baada ya wiki mbili, 3/4 ya tikitimaji zilizosalia zilikuwa tayari, hivyo akazivuna. Tikitimaji ngapi hazikuwa tayari kuvunwa baada ya wiki hizo mbili?",
+  "ic_sentence_template": "Mjomba wa {name_female, Ashlyn} alinunua mifuko {num_ic, 958} ya mbolea kwa ajili ya miti yake ya tufaha.",
+  "ic_template": "Shamba la tikitimaji lilizalisha tikitimaji {num_digit_1, 120}. {name_female, Ashlyn} alienda kwenye shamba hilo baada ya miezi miwili na kubaini kuwa {num_digit_2, 30}% ya tikitimaji hizo zilikuwa tayari kuvunwa, hivyo alizichukua nyumbani. Aliporudi tena baada ya wiki mbili, 3/4 ya tikitimaji zilizosalia zilikuwa tayari, hivyo akazivuna. Mjomba wa {name_female, Ashlyn} alinunua mifuko {num_ic, 958} ya mbolea kwa ajili ya miti yake ya tufaha. Tikitimaji ngapi hazikuwa tayari kuvunwa baada ya wiki hizo mbili?",
+  "equation": "UPDATE HERE"
+}

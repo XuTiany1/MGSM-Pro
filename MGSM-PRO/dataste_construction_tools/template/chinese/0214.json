@@ -1,0 +1,8 @@
+{
+  "original_question": "杰瑞有两座水池，均有缺口，都以 4 加仑/分钟的速度将其排空。4 分钟前，大水池的水量是小水池的两倍。现在大水池的水量是小水池的四倍。小水池里现在有多少水？",
+  "original_answer": 8,
+  "symbolic_template": "{name_male, 杰瑞} 有两座水池，均有缺口，都以 {num_digit_1, 4} 加仑/分钟的速度排空。{num_digit_2, 4} 分钟前，大水池的水量是小水池的 两倍。现在大水池的水量是小水池的 四倍。小水池里现在有多少水？",
+  "ic_sentence_template": "{name_male, 杰瑞} 的姨妈每周用雨水装满 {num_ic, 123} 个水桶。",
+  "ic_template": "{name_male, 杰瑞} 的姨妈每周用雨水装满 {num_ic, 123} 个水桶。{name_male, 杰瑞} 有两座水池，均有缺口，都以 {num_digit_1, 4} 加仑/分钟的速度排空。{num_digit_2, 4} 分钟前，大水池的水量是小水池的 两倍。现在大水池的水量是小水池的 四倍。小水池里现在有多少水？",
+  "equation": "UPDATE HERE"
+}

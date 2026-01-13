@@ -1,0 +1,8 @@
+{
+  "original_question": "Christina n'atụ atụmatụ oriri ọmụmụ ya ma ọ chọrọ akpa onyinye .75 maka onye ọbịa ọ bụla, n'ihi na mmadu ofu n'ime anọ ndi na a bia abiaghị. Ọ kpọrọ ndị enyi ya iri na isii.  Akpa onyinye ọ bụla bụ $2. Ego ole ka ọ ga-emefu?",
+  "original_answer": 24,
+  "symbolic_template": "{name_female, Christina} n'atụ atụmatụ oriri ọmụmụ ya ma ọ chọrọ akpa onyinye {num_digit_1, .75} maka onye ọbịa ọ bụla, n'ihi na mmadụ 1/4 n'ime ndi na a bia abiaghị. Ọ kpọrọ ndị enyi ya {num_digit_2, 16}. Akpa onyinye ọ bụla bụ ${num_digit_3, 2}. Ego ole ka ọ ga-emefu?",
+  "ic_sentence_template": "Nwanne nne {name_female, Christina} bịara na {num_ic, 89} cupcakes maka emume ahụ.",
+  "ic_template": "Nwanne nne {name_female, Christina} bịara na {num_ic, 89} cupcakes maka emume ahụ. {name_female, Christina} n'atụ atụmatụ oriri ọmụmụ ya ma ọ chọrọ akpa onyinye {num_digit_1, .75} maka onye ọbịa ọ bụla, n'ihi na mmadụ 1/4 n'ime ndi na a bia abiaghị. Ọ kpọrọ ndị enyi ya {num_digit_2, 16}. Akpa onyinye ọ bụla bụ ${num_digit_3, 2}. Ego ole ka ọ ga-emefu?",
+  "equation": "UPDATE HERE"
+}

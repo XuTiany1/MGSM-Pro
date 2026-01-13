@@ -1,0 +1,8 @@
+{
+  "original_question": "Kuna nyuki 700 katika mzinga wa nyuki. Idadi ya nyuki wa kufanya kazi ni mara mbili zaidi ya nyuki watoto, na idadi ya nyuki watoto ni mara tatu zaidi ya nyuki malkia. Kuna nyuki wangapi wa kufanya kazi?",
+  "original_answer": 400,
+  "symbolic_template": "Kuna nyuki {num_digit_1, 700} katika mzinga wa nyuki. Idadi ya nyuki wa kufanya kazi ni mara mbili zaidi ya nyuki watoto, na idadi ya nyuki watoto ni mara mbili zaidi ya nyuki malkia. Kuna nyuki wangapi wa kufanya kazi?",
+  "ic_sentence_template": "Mjomba wa {name_male, Henry} ana mitungi ya asali {num_ic, 62} iliyohifadhiwa katika banda lake.",
+  "ic_template": "Mjomba wa {name_male, Henry} ana mitungi ya asali {num_ic, 62} iliyohifadhiwa katika banda lake. Kuna nyuki {num_digit_1, 700} katika mzinga wa nyuki. Idadi ya nyuki wa kufanya kazi ni mara mbili zaidi ya nyuki watoto, na idadi ya nyuki watoto ni mara mbili zaidi ya nyuki malkia. Kuna nyuki wangapi wa kufanya kazi?",
+  "equation": "UPDATE HERE"
+}

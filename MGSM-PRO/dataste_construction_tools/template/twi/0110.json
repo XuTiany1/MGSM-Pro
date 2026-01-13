@@ -1,0 +1,8 @@
+{
+  "original_question": "Marcell ne Beatrice ԑresi akan ahunu deԑ ɔbԑtumi adi aduaba a w’abobɔ dodoɔ enti wɔsane dodoɔ a wɔnsa bԑka no. Nanso, obi yԑԑ mfosoɔ bi na Bernice deԑ no tԑtrԑtԑ no yԑ deԑ w’abobɔ no mmienu na tenten no yԑ deԑ w’abobɔ no 24 na Marcell deԑ no no tԑtrԑtԑ no yԑ deԑ w’abobɔ no mmiԑnsa na tenten no yԑ deԑ w’abobɔ no 14. Sԑ wɔn mmienu nyinaa dii no nyinaa a, dodoɔ sԑn na wɔdiiԑ?",
+  "original_answer": 45,
+  "symbolic_template": "{name_female_1, Marcell} ne {name_female_2, Beatrice} ԑresi akan ahunu deԑ ɔbԑtumi adi aduaba a w’abobɔ dodoɔ enti wɔsane dodoɔ a wɔnsa bԑka no. Nanso, obi yԑԑ mfosoɔ bi na {name_female_2, Beatrice} deԑ no tԑtrԑtԑ no yԑ deԑ w’abobɔ no mmienu na tenten no yԑ deԑ w’abobɔ no {num_digit_1, 24} na {name_female_1, Marcell} deԑ no no tԑtrԑtԑ no yԑ deԑ w’abobɔ no {num_digit_2, mmiɛnsa} na tenten no yԑ deԑ w’abobɔ no {num_digit_3, 14}. Sԑ wɔn mmienu nyinaa dii no nyinaa a, dodoɔ sԑn na wɔdiiԑ?",
+  "ic_sentence_template": "{name_female_2, Beatrice} sewaa tɔɔ nsudeɛ adaka{num_ic, 41} de maa akansie no.",
+  "ic_template": "{name_female_2, Beatrice} sewaa tɔɔ nsudeɛ adaka{num_ic, 41} de maa akansie no. {name_female_1, Marcell} ne {name_female_2, Beatrice} ԑresi akan ahunu deԑ ɔbԑtumi adi aduaba a w’abobɔ dodoɔ enti wɔsane dodoɔ a wɔnsa bԑka no. Nanso, obi yԑԑ mfosoɔ bi na {name_female_2, Beatrice} deԑ no tԑtrԑtԑ no yԑ deԑ w’abobɔ no mmienu na tenten no yԑ deԑ w’abobɔ no {num_digit_1, 24} na {name_female_1, Marcell} deԑ no no tԑtrԑtԑ no yԑ deԑ w’abobɔ no {num_digit_2, mmiɛnsa} na tenten no yԑ deԑ w’abobɔ no {num_digit_3, 14}. Sԑ wɔn mmienu nyinaa dii no nyinaa a, dodoɔ sԑn na wɔdiiԑ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "哈利昨晚睡了 9 个小时。他的朋友詹姆斯的睡眠时间只有哈利的 2/3。哈利比詹姆斯多睡了几个小时？",
+  "original_answer": 3,
+  "symbolic_template": "{name_male_1, 哈利} 昨晚睡了 {num_digit_1, 9} 个小时。他的朋友 {name_male_2, 詹姆斯} 的睡眠时间只有 {name_male_1, 哈利} 的 2/3。{name_male_1, 哈利} 比 {name_male_2, 詹姆斯} 多睡了几个小时？",
+  "ic_sentence_template": "{name_male_2, 詹姆斯} 的叔叔每个周末做 {num_ic, 19} 张煎饼。",
+  "ic_template": "{name_male_2, 詹姆斯} 的叔叔每个周末做 {num_ic, 19} 张煎饼。{name_male_1, 哈利} 昨晚睡了 {num_digit_1, 9} 个小时。他的朋友 {name_male_2, 詹姆斯} 的睡眠时间只有 {name_male_1, 哈利} 的 2/3。{name_male_1, 哈利} 比 {name_male_2, 詹姆斯} 多睡了几个小时？",
+  "equation": "UPDATE HERE"
+}

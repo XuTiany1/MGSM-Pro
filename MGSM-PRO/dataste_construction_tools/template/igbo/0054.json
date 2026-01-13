@@ -1,0 +1,8 @@
+{
+  "original_question": "Ndị ụmụnne nwaanyị Doubtfire na-akwọ ụgbọala ala ụlọ jiri ụmụ nwamba asaa ha kuuru n'ebe nleta ụmụ anụmanụ nọ nso mgbe nne ha kpọrọ gwa ha na nwamba abụọ ndị ha nwere n'ụlọ ka mụpụrụ ụmụ nwamba abụọ. Ọ sịrị na Patchy, nwamba nke mbụ, ka nwere ụmụ nwamba ugboo atọ n'ọnụọgụgụ nwamba ndị e kuuru ekuru, ebe Trixie, nwamba nke ọzọ, nwere iri na abụọ. Nwamba ole ka ezinaụlọ Doubtfire nwere ugbu a? ",
+  "original_answer": 40,
+  "symbolic_template": "Ndị ụmụnne nwaanyị {name_family, Doubtfire} na-akwọ ụgbọala ala ụlọ jiri ụmụ nwamba {num_digit_1, 7} ha kuuru n'ebe nleta ụmụ anụmanụ nọ nso mgbe nne ha kpọrọ gwa ha na nwamba abụọ ndị ha nwere n'ụlọ ka mụpụrụ ụmụ nwamba abụọ. Ọ sịrị na {name_cat_1, Patchy}, nwamba nke mbụ, ka nwere ụmụ nwamba ugboo ugboro atọ n'ọnụọgụgụ nwamba ndị e kuuru ekuru, ebe {name_cat_2, Trixie}, nwamba nke ọzọ, nwere {num_digit_2, 12}. Nwamba ole ka ezinaụlọ {name_family, Doubtfire} nwere ugbu a?",
+  "ic_sentence_template": "Nwanne nna {name_family, Doubtfire} kwagara nso {num_ic, 41} maịlala ụbọchị na-adịbeghị anya.",
+  "ic_template": "Nwanne nna {name_family, Doubtfire} kwagara nso {num_ic, 41} maịlala ụbọchị na-adịbeghị anya. Ndị ụmụnne nwaanyị {name_family, Doubtfire} na-akwọ ụgbọala ala ụlọ jiri ụmụ nwamba {num_digit_1, 7} ha kuuru n'ebe nleta ụmụ anụmanụ nọ nso mgbe nne ha kpọrọ gwa ha na nwamba abụọ ndị ha nwere n'ụlọ ka mụpụrụ ụmụ nwamba abụọ. Ọ sịrị na {name_cat_1, Patchy}, nwamba nke mbụ, ka nwere ụmụ nwamba ugboo ugboro atọ n'ọnụọgụgụ nwamba ndị e kuuru ekuru, ebe {name_cat_2, Trixie}, nwamba nke ọzọ, nwere {num_digit_2, 12}. Nwamba ole ka ezinaụlọ {name_family, Doubtfire} nwere ugbu a?",
+  "equation": "UPDATE HERE"
+}

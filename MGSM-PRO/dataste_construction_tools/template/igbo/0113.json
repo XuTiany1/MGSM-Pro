@@ -1,0 +1,8 @@
+{
+  "original_question": "Ryan kụrụ okooko abụọ n'ubi ya n'otu ụbọchị. ka ụbọchị iri na ise gachara, okooko ole ka o nwere ọbụrụ na ise etoghị?\n",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Ryan} kụrụ okooko {num_digit_1, abụọ} n'ubi ya n'otu ụbọchị. Ka ụbọchị {num_digit_2, 15} gachara, okooko ole ka o nwere ọbụrụ na {num_digit_3, 5} etoghị?",
+  "ic_sentence_template": "Nwanne nna {name_male, Ryan} wètara ite ọhụrụ {num_ic, 8} maka ubi.",
+  "ic_template": "Nwanne nna {name_male, Ryan} wètara ite ọhụrụ {num_ic, 8} maka ubi. {name_male, Ryan} kụrụ okooko {num_digit_1, abụọ} n'ubi ya n'otu ụbọchị. Ka ụbọchị {num_digit_2, 15} gachara, okooko ole ka o nwere ọbụrụ na {num_digit_3, 5} etoghị?",
+  "equation": "UPDATE HERE"
+}

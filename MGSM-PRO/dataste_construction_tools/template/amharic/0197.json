@@ -1,0 +1,8 @@
+{
+  "original_question": "በሶዳ ከተማ ውስጥ በትክክል 23786 ነዋሪዎች አሉ። እነሱም 8417 ወንዶች እና 9092 ሴቶች ይገኙበታል።የተቀረው ህዝብ ህጻናትን ያቀፈ ነው። በሶዳ ውስጥ ስንት ልጆች አሉ",
+  "original_answer": 6277,
+  "symbolic_template": "በ{name_city, ሶዳ} ከተማ ውስጥ በትክክል {num_digit_1, 23786} ነዋሪዎች አሉ። እነሱም {num_digit_2, 8417} ወንዶች እና {num_digit_3, 9092} ሴቶች ይገኙበታል።የተቀረው ህዝብ ህጻናትን ያቀፈ ነው። በ{name_city, Soda} ውስጥ ስንት ልጆች አሉ",
+  "ic_sentence_template": "የ{name_city, ሶዳ} ከንቲባ አጎት ለፌስቲቫል {num_ic, 174364} በለስ ገዛ።",
+  "ic_template": "በ{name_city, ሶዳ} ከተማ ውስጥ በትክክል {num_digit_1, 23786} ነዋሪዎች አሉ። እነሱም {num_digit_2, 8417} ወንዶች እና {num_digit_3, 9092} ሴቶች ይገኙበታል።የተቀረው ህዝብ ህጻናትን ያቀፈ ነው። በ{name_city, Soda} ውስጥ ስንት ልጆች አሉ የ{name_city, ሶዳ} ከንቲባ አጎት ለፌስቲቫል {num_ic, 174364} በለስ ገዛ።",
+  "equation": "UPDATE HERE"
+}

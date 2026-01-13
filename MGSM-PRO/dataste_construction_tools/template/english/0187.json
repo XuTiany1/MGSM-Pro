@@ -1,0 +1,8 @@
+{
+  "original_question": "Mandy owes Benedict $100. They agreed to have monthly interest of 2%. If Mandy was able to pay it after 3 months, how much should she give to Benedict?",
+  "original_answer": 106,
+  "symbolic_template": "{name_female, Mandy} owes {name_male, Benedict} ${num_digit_1, 100}. They agreed to have monthly interest of {num_digit_2, 2}%. If {name_female, Mandy} was able to pay it after {num_digit_3, 3} months, how much should she give to {name_male, Benedict}?",
+  "ic_sentence_template": "{name_female, Mandy}'s uncle once borrowed {num_ic, 656} dollars from the same person.",
+  "ic_template": "{name_female, Mandy} owes {name_male, Benedict} ${num_digit_1, 100}. They agreed to have monthly interest of {num_digit_2, 2}%. {name_female, Mandy}'s uncle once borrowed {num_ic, 656} dollars from the same person. If {name_female, Mandy} was able to pay it after {num_digit_3, 3} months, how much should she give to {name_male, Benedict}?",
+  "equation": "UPDATE HERE"
+}

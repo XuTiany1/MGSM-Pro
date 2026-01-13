@@ -1,0 +1,8 @@
+{
+  "original_question": "Na Bere a na ɔwɔ dollar sotɔɔ hɔ no, Sloane buu nkontaa sɛ adetɔfoɔ 100 na wɔbaa hɔ. Na eda no a edi hɔ no, ɔkan adetɔfoɔ 50 a na wɔnsen da no a na edi kan no. Sɛ na adetɔfoɔ no dodoɔ yɛ 500 da a ɛto so mmiensa no a, adetɔfoɔ dodoɔ ahe na ɔkan wɔ da a ɛto so mmiensa no?",
+  "original_answer": 250,
+  "symbolic_template": "Na Bere a na ɔwɔ dollar sotɔɔ hɔ no, {name_female, Sloane} buu nkontaa sɛ adetɔfoɔ {num_digit_1, 100} na wɔbaa hɔ. Na eda no a edi hɔ no, ɔkan adetɔfoɔ {num_digit_2, 50} a na wɔnsen da no a na edi kan no. Sɛ na adetɔfoɔ no dodoɔ yɛ {num_digit_3, 500} da a ɛto so mmiensa no a, adetɔfoɔ dodoɔ ahe na ɔkan wɔ da a ɛto so mmiensa no?",
+  "ic_sentence_template": "{name_female, Sloane} wɔfa no too blueberry pie {num_ic, 93} de kɔɔ adeto gua so.",
+  "ic_template": "{name_female, Sloane} wɔfa no too blueberry pie {num_ic, 93} de kɔɔ adeto gua so. {name_female, Sloane} buu nkontaa sɛ adetɔfoɔ {num_digit_1, 100} na wɔbaa hɔ. Na eda no a edi hɔ no, ɔkan adetɔfoɔ {num_digit_2, 50} a na wɔnsen da no a na edi kan no. Sɛ na adetɔfoɔ no dodoɔ yɛ {num_digit_3, 500} da a ɛto so mmiensa no a, adetɔfoɔ dodoɔ ahe na ɔkan wɔ da a ɛto so mmiensa no?",
+  "equation": "UPDATE HERE"
+}

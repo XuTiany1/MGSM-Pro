@@ -1,0 +1,8 @@
+{
+  "original_question": "在 200 名五年级学生中有 2/5 是男生 ，而 2/3 的女生是女童子军。有多少女生不是女童子军？",
+  "original_answer": 40,
+  "symbolic_template": "在 {num_digit_1, 200} 名五年级学生中有 2/5 是男生，而 2/3 的女生是女童子军。有多少女生不是女童子军？",
+  "ic_sentence_template": "校长的女儿有 {num_ic, 41} 支铅笔。",
+  "ic_template": "校长的女儿有 {num_ic, 41} 支铅笔。在 {num_digit_1, 200} 名五年级学生中有 2/5 是男生，而 2/3 的女生是女童子军。有多少女生不是女童子军？",
+  "equation": "UPDATE HERE"
+}

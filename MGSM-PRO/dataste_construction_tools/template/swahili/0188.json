@@ -1,0 +1,8 @@
+{
+  "original_question": "Muuzaji ananunua mifuko ya unga ngano kutoka kwa mkulima kwa kiwango cha $20 kwa kila mfuko. Ikiwa gharama ya kusafirisha kila mfuko kutoka shambani mpaka kwenye ghala ni $2, na muuzaji alipata faida ya jumla ya $400 baada ya kuuza mifuko yote kwa bei ya $30 kila mfuko, aliuza mifuko mingapi?",
+  "original_answer": 50,
+  "symbolic_template": "Muuzaji ananunua mifuko ya unga ngano kutoka kwa mkulima kwa kiwango cha ${num_digit_1, 20} kwa kila mfuko. Ikiwa gharama ya kusafirisha kila mfuko kutoka shambani mpaka kwenye ghala ni ${num_digit_2, 2}, na muuzaji alipata faida ya jumla ya ${num_digit_3, 400} baada ya kuuza mifuko yote kwa bei ya ${num_digit_4, 30} kila mfuko, aliuza mifuko mingapi?",
+  "ic_sentence_template": "Binamu wa mfanyabiashara ana miti ya tufaha {num_ic, 80} kwenye shamba lake.",
+  "ic_template": "Binamu wa mfanyabiashara ana miti ya tufaha {num_ic, 80} kwenye shamba lake. Muuzaji ananunua mifuko ya unga ngano kutoka kwa mkulima kwa kiwango cha ${num_digit_1, 20} kwa kila mfuko. Ikiwa gharama ya kusafirisha kila mfuko kutoka shambani mpaka kwenye ghala ni ${num_digit_2, 2}, na muuzaji alipata faida ya jumla ya ${num_digit_3, 400} baada ya kuuza mifuko yote kwa bei ya ${num_digit_4, 30} kila mfuko, aliuza mifuko mingapi?",
+  "equation": "UPDATE HERE"
+}

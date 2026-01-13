@@ -1,0 +1,8 @@
+{
+  "original_question": "Bata wanahitaji kula pauni 3.5 za wadudu kila wiki ili kuweza kuishi. Ikiwa kuna kundi la bata kumi, huwa wanakula pauni ngapi za wadudu kwa jumla kwa siku?",
+  "original_answer": 5,
+  "symbolic_template": "Bata wanahitaji kula pauni {num_digit_1, 3.5} za wadudu kila wiki ili kuweza kuishi. Ikiwa kuna kundi la bata kumi, huwa wanakula pauni ngapi za wadudu kwa jumla kwa siku?",
+  "ic_sentence_template": "Kuna vyura {num_ic, 144} wanaoishi katika bwawa lililo pembeni ya shamba.",
+  "ic_template": "Kuna vyura {num_ic, 144} wanaoishi katika bwawa lililo pembeni ya shamba. Bata wanahitaji kula pauni {num_digit_1, 3.5} za wadudu kila wiki ili kuweza kuishi. Ikiwa kuna kundi la bata kumi, huwa wanakula pauni ngapi za wadudu kwa jumla kwa siku?",
+  "equation": "UPDATE HERE"
+}

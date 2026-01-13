@@ -1,0 +1,8 @@
+{
+  "original_question": "Dana can run at a rate of speed four times faster than she can walk, but she can skip at a rate of speed that is half as fast as she can run. If she can skip at 3 miles per hour, how many miles can she travel in six hours if she spends one-third of the time running and two-thirds of the time walking?",
+  "original_answer": 18,
+  "symbolic_template": "{name_female, Dana} can run at a rate of speed four times faster than she can walk, but she can skip at a rate of speed that is half as fast as she can run. If she can skip at {num_digit_1, 3} miles per hour, how many miles can she travel in six hours if she spends one-third of the time running and two-thirds of the time walking?",
+  "ic_sentence_template": "{name_female, Dana}'s uncle once completed a race with {num_ic, 106} participants.",
+  "ic_template": "{name_female, Dana} can run at a rate of speed four times faster than she can walk, but she can skip at a rate of speed that is half as fast as she can run. If she can skip at {num_digit_1, 3} miles per hour, {name_female, Dana}'s uncle once completed a race with {num_ic, 106} participants. How many miles can she travel in six hours if she spends one-third of the time running and two-thirds of the time walking?",
+  "equation": "UPDATE HERE"
+}

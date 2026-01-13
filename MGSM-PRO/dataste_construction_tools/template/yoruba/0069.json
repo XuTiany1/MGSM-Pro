@@ -1,0 +1,8 @@
+{
+  "original_question": "Bailey bẹ̀rẹ̀ pẹ̀lú owó kan ní pàtó. Ó wá ń gba owó oúnjẹ $5 ní ọ̀sọ̀ọ̀sẹ̀ fún ọ̀sẹ̀ 8. Ní òpin ọ̀sẹ̀ 8 náà, tó bá ní àpapọ $100, èló ní owó tí Bailey fi bẹ̀rẹ̀?",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Bailey} bẹ̀rẹ̀ pẹ̀lú owó kan ní pàtó. Ó wá ń gba owó oúnjẹ ${num_digit_1, 5} ní ọ̀sọ̀ọ̀sẹ̀ fún ọ̀sẹ̀ {num_digit_2, 8}. Ní òpin ọ̀sẹ̀ {num_digit_2, 8} náà, tó bá ní àpapọ ${num_digit_3, 100}, èló ní owó tí {name_male, Bailey} fi bẹ̀rẹ̀?",
+  "ic_sentence_template": "Ìyá àgbà {name_male, Bailey} rákọ́pọ̀ owó ilẹ̀ yálà tó ṣòro láti rí {num_ic, 56} lẹ́ẹ̀kan ṣáájú.",
+  "ic_template": "Ìyá àgbà {name_male, Bailey} rákọ́pọ̀ owó ilẹ̀ yálà tó ṣòro láti rí {num_ic, 56} lẹ́ẹ̀kan ṣáájú. {name_male, Bailey} bẹ̀rẹ̀ pẹ̀lú owó kan ní pàtó. Ó wá ń gba owó oúnjẹ ${num_digit_1, 5} ní ọ̀sọ̀ọ̀sẹ̀ fún ọ̀sẹ̀ {num_digit_2, 8}. Ní òpin ọ̀sẹ̀ {num_digit_2, 8} náà, tó bá ní àpapọ ${num_digit_3, 100}, èló ní owó tí {name_male, Bailey} fi bẹ̀rẹ̀?",
+  "equation": "UPDATE HERE"
+}

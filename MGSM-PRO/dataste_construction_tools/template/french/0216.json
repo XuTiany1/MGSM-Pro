@@ -1,0 +1,8 @@
+{
+  "original_question": "Janeth a emprunté 2 000 $ et a promis de les rendre avec un supplément de 10 % du montant. Si elle doit payer 165 $ par mois pendant 12 mois, combien d'argent restera-t-il à Janeth d'ici là ?",
+  "original_answer": 220,
+  "symbolic_template": "{name_female, Janeth} a emprunté {num_digit_1, 2000} $ et a promis de les rendre avec un supplément de {num_digit_2, 10} % du montant. Si elle doit payer {num_digit_3, 165} $ par mois pendant {num_digit_4, 12} mois, combien d'argent restera-t-il à {name_female, Janeth} d'ici là ?",
+  "ic_sentence_template": "{name_female, Janeth} a oncle a reçu {num_ic, 93000} billets de loterie l'année dernière.",
+  "ic_template": "{name_female, Janeth} a oncle a reçu {num_ic, 93000} billets de loterie l'année dernière. {name_female, Janeth} a emprunté {num_digit_1, 2000} $ et a promis de les rendre avec un supplément de {num_digit_2, 10} % du montant. Si elle doit payer {num_digit_3, 165} $ par mois pendant {num_digit_4, 12} mois, combien d'argent restera-t-il à {name_female, Janeth} d'ici là ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Josie gbin èso àjàrà lórí oko 10 acres rẹ‌.  Acre kọ‌ọ‌kan máa ń so tọ‌ọ‌nù márùn-ún èso àjàrà lọ‌dọọdún, àti pé ọ‌kọ‌ọ‌kan tọ‌ọ‌nù àjàrà máa ń ṣe àgbá ọtí wáìnì méjì.  Àgbá ọtí wáìnì mélòó ni oko rẹ‌ ń so lọ‌dọọdún?",
+  "original_answer": 100,
+  "symbolic_template": "{name_female, Josie} gbin èso àjàrà lórí oko {num_digit_1, 10} acres rẹ‌. Acre kọ‌ọ‌kan máa ń so tọ‌ọ‌nù {num_digit_2, 5} èso àjàrà lọ‌dọọdún, àti pé ọ‌kọ‌ọ‌kan tọ‌ọ‌nù àjàrà máa ń ṣe àgbá ọtí wáìnì {num_digit_3, 2}. Àgbá ọtí wáìnì mélòó ni oko rẹ‌ ń so lọ‌dọọdún?",
+  "ic_sentence_template": "Ìyá kékè {name_female, Josie} ní ọkọ {num_ic, 289} igi àpù nítòsí.",
+  "ic_template": "Ìyá kékè {name_female, Josie} ní ọkọ {num_ic, 289} igi àpù nítòsí. {name_female, Josie} gbin èso àjàrà lórí oko {num_digit_1, 10} acres rẹ‌. Acre kọ‌ọ‌kan máa ń so tọ‌ọ‌nù {num_digit_2, 5} èso àjàrà lọ‌dọọdún, àti pé ọ‌kọ‌ọ‌kan tọ‌ọ‌nù àjàrà máa ń ṣe àgbá ọtí wáìnì {num_digit_3, 2}. Àgbá ọtí wáìnì mélòó ni oko rẹ‌ ń so lọ‌dọọdún?",
+  "equation": "UPDATE HERE"
+}

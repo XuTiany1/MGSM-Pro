@@ -1,0 +1,8 @@
+{
+  "original_question": "Toula alienda kwenye tanuri mikate na akanunua aina mbalimbali za vitobosho. Alinunua dazeni 3 za donati zinazogharimu $68 kwa kila dazeni, dazeni 2 za keki ndogo zinazogharimu $80 kwa kila dazeni, na dazeni 6 za keki ndogo za jibini kwa $55 kwa kila dazeni. Jumla ya gharama ilikuwa ngapi?",
+  "original_answer": 694,
+  "symbolic_template": "{name_female, Toula} alienda kwenye duka la mikate na kununua aina mbalimbali za keki. Alinunua dazeni {num_digit_1, 3} za donuts kwa bei ya ${num_digit_2, 68} kwa dazeni, dazeni {num_digit_3, 2} za keki ndogo za kikombe kwa bei ya ${num_digit_4, 80} kwa dazeni, na dazeni {num_digit_5, 6} za keki ndogo za jibini kwa ${num_digit_6, 55} kwa dazeni. Jumla ya gharama ilikuwa kiasi gani?",
+  "ic_sentence_template": "{name_female, Toula} mjomba wake aliagiza mikate {num_ic, 136} kwa ajili ya sherehe.",
+  "ic_template": "{name_female, Toula} mjomba wake aliagiza mikate {num_ic, 136} kwa ajili ya sherehe. {name_female, Toula} alienda kwenye duka la mikate na kununua aina mbalimbali za keki. Alinunua dazeni {num_digit_1, 3} za donuts kwa bei ya ${num_digit_2, 68} kwa dazeni, dazeni {num_digit_3, 2} za keki ndogo za kikombe kwa bei ya ${num_digit_4, 80} kwa dazeni, na dazeni {num_digit_5, 6} za keki ndogo za jibini kwa ${num_digit_6, 55} kwa dazeni. Jumla ya gharama ilikuwa kiasi gani?",
+  "equation": "UPDATE HERE"
+}

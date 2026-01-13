@@ -1,0 +1,8 @@
+{
+  "original_question": "ክሌር በየቀኑ ጠዋት ለቁርስ 3 እንቁላል ኦሜሌት ታዘጋጃለች። በ 4 ሳምንታት ውስጥ ስንት ደርዘን እንቁላሎችን ትበላለች?",
+  "original_answer": 7,
+  "symbolic_template": "{name_female, ክሌር} በየቀኑ ጠዋት ለቁርስ {num_digit_1, 3} እንቁላል ኦሜሌት ታዘጋጃለች። በ {num_digit_2, 4} ሳምንታት ውስጥ ስንት ደርዘን እንቁላሎችን ትበላለች?",
+  "ic_sentence_template": "የ{name_female, ክሌር} አጎቷ በእርሻው {num_ic, 44} ዶሮዎች አሉት።",
+  "ic_template": "የ{name_female, ክሌር} አጎቷ በእርሻው {num_ic, 44} ዶሮዎች አሉት። {name_female, ክሌር} በየቀኑ ጠዋት ለቁርስ {num_digit_1, 3} እንቁላል ኦሜሌት ታዘጋጃለች። በ {num_digit_2, 4} ሳምንታት ውስጥ ስንት ደርዘን እንቁላሎችን ትበላለች?",
+  "equation": "UPDATE HERE"
+}

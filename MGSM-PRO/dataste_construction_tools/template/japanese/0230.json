@@ -1,0 +1,8 @@
+{
+  "original_question": "マークは自分の会社のため12台の車を買いました。車は1台あたり20,000ドルです。マークは車の税金を10%払い、登録のために1台あたり1,000ドル支払いました。合計でいくら払いましたか？",
+  "original_answer": 276000,
+  "symbolic_template": "{name_male, マーク}は自分の会社のため{num_digit_1, 12}台の車を買いました。車は1台あたり{num_digit_2, 20,000}ドルです。{name_male, マーク}は車の税金を{num_digit_3, 10}%払い、登録のために1台あたり{num_digit_4, 1000}ドル支払いました。合計でいくら払いましたか？",
+  "ic_sentence_template": "{name_male, マーク}のいとこは最近{num_ic, 111}台のバイクを購入しました。",
+  "ic_template": "{name_male, マーク}のいとこは最近{num_ic, 111}台のバイクを購入しました。{name_male, マーク}は自分の会社のため{num_digit_1, 12}台の車を買いました。車は1台あたり{num_digit_2, 20,000}ドルです。{name_male, マーク}は車の税金を{num_digit_3, 10}%払い、登録のために1台あたり{num_digit_4, 1000}ドル支払いました。合計でいくら払いましたか？",
+  "equation": "UPDATE HERE"
+}

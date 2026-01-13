@@ -1,0 +1,8 @@
+{
+  "original_question": "Sadie slept 8 hours on Monday. For the next two days, she slept 2 hours less, each, because she had to complete some assignments. If the rest of the week she slept 1 hour more than those two days, how many hours did she sleep in total throughout the week?",
+  "original_answer": 48,
+  "symbolic_template": "{name_female, Sadie} slept {num_digit_1, 8} hours on Monday. For the next two days, she slept {num_digit_2, 2} hours less, each, because she had to complete some assignments. If the rest of the week she slept {num_digit_3, 1} hour more than those two days, how many hours did she sleep in total throughout the week?",
+  "ic_sentence_template": "{name_female, Sadie}'s uncle drank {num_ic, 23} cups of coffee last week.",
+  "ic_template": "{name_female, Sadie} slept {num_digit_1, 8} hours on Monday. For the next two days, she slept {num_digit_2, 2} hours less, each, because she had to complete some assignments. If the rest of the week she slept {num_digit_3, 1} hour more than those two days, {name_female, Sadie}'s uncle drank {num_ic, 23} cups of coffee last week. How many hours did she sleep in total throughout the week?",
+  "equation": "UPDATE HERE"
+}

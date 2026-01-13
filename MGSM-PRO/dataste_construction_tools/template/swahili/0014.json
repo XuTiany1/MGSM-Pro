@@ -1,0 +1,8 @@
+{
+  "original_question": "Katika darasa la densi lenye wanafunzi 20, 20% walijisajili katika densi ya kisasa, 25% ya waliosalia walijisajili katika densi ya jazi, na wengine waliosalia wakajisajili katika densi ya muziki wa kufoka. Ni asilimia ngapi ya wanafunzi wote walijisajili katika densi ya muziki wa kufoka?",
+  "original_answer": 60,
+  "symbolic_template": "Katika darasa la densi lenye wanafunzi {num_digit_1, 20}, {num_digit_2, 20}% walijisajili katika densi ya kisasa, {num_digit_3, 25}% ya waliosalia walijisajili katika densi ya jazi, na wengine waliosalia wakajisajili katika densi ya muziki wa kufoka. Ni asilimia ngapi ya wanafunzi wote walijisajili katika densi ya muziki wa kufoka?",
+  "ic_sentence_template": "Mpwa wa mwalimu alileta keki ndogo {num_ic, 7} kwa ajili ya kundi.",
+  "ic_template": "Mpwa wa mwalimu alileta keki ndogo {num_ic, 7} kwa ajili ya kundi. Katika darasa la densi lenye wanafunzi {num_digit_1, 20}, {num_digit_2, 20}% walijisajili katika densi ya kisasa, {num_digit_3, 25}% ya waliosalia walijisajili katika densi ya jazi, na wengine waliosalia wakajisajili katika densi ya muziki wa kufoka. Ni asilimia ngapi ya wanafunzi wote walijisajili katika densi ya muziki wa kufoka?",
+  "equation": "UPDATE HERE"
+}

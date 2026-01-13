@@ -1,0 +1,8 @@
+{
+  "original_question": "Ͻka kyerԑԑ Morisette ne Kael sԑ wɔmfa nnuaba mmra. Morisette de aprԑ 5 ne ankaa 8 na ԑbaaeԑ, na Kael de aprԑ a Morisette de baeԑ no mmɔho mmienu ne ankaa no mu fa na ԑbaeԑ. Nnuaba dodoɔ sԑn na wɔwɔ?",
+  "original_answer": 27,
+  "symbolic_template": "Ͻka kyerԑԑ {name_female, Morisette} ne {name_male, Kael} sԑ wɔmfa nnuaba mmra. {name_female, Morisette} de aprԑ {num_digit_1, 5} ne ankaa {num_digit_2, 8} na ԑbaaeԑ, na {name_male, Kael} de aprԑ a {name_female, Morisette} de baeԑ no mmɔho mmienu ne ankaa no mu fa na ԑbaeԑ. Nnuaba dodoɔ sԑn na wɔwɔ?",
+  "ic_sentence_template": "{name_male, Kael} sewaa boaboa daikon {num_ic, 29}.",
+  "ic_template": "{name_male, Kael} sewaa boaboa daikon {num_ic, 29}. Ͻka kyerԑԑ {name_female, Morisette} ne {name_male, Kael} sԑ wɔmfa nnuaba mmra. {name_female, Morisette} de aprԑ {num_digit_1, 5} ne ankaa {num_digit_2, 8} na ԑbaaeԑ, na {name_male, Kael} de aprԑ a {name_female, Morisette} de baeԑ no mmɔho mmienu ne ankaa no mu fa na ԑbaeԑ. Nnuaba dodoɔ sԑn na wɔwɔ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Katika mbio iliyo na Waasia 240, 80 walikuwa Wajapani, na waliosalia walikuwa Wachina. Ikiwa idadi ya wavulana kwenye timu ya Wachina ilikuwa 60, wasichana wangapi walikuwa katika timu ya Wachina?",
+  "original_answer": 100,
+  "symbolic_template": "Katika mbio zenye washiriki {num_digit_1, 240} kutoka Asia, {num_digit_2, 80} walikuwa Wajapani na waliobaki walikuwa Wachina. Ikiwa idadi ya wavulana kwenye timu ya Wachina ilikuwa {num_digit_3, 60}, kulikuwa na wasichana wangapi kwenye timu ya Wachina?",
+  "ic_sentence_template": "Mashabiki {num_ic, 306} walileta mabango kwenye tukio hilo.",
+  "ic_template": "Katika mbio zenye washiriki {num_digit_1, 240} kutoka Asia, {num_digit_2, 80} walikuwa Wajapani na waliobaki walikuwa Wachina. Ikiwa idadi ya wavulana kwenye timu ya Wachina ilikuwa {num_digit_3, 60}, kulikuwa na wasichana wangapi kwenye timu ya Wachina? Mashabiki {num_ic, 306} walileta mabango kwenye tukio hilo.",
+  "equation": "UPDATE HERE"
+}

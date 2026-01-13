@@ -1,0 +1,8 @@
+{
+  "original_question": "制作一件袍子需要 2 匹蓝色纤维布料和这个数量一半的白色纤维布料。它一共需要用掉多少匹布料？",
+  "original_answer": 3,
+  "symbolic_template": "制作一件袍子需要 {num_digit_1, 2} 匹蓝色纤维布料和这个数量 一半 的白色纤维布料。它一共需要用掉多少匹布料？",
+  "ic_sentence_template": "裁缝的叔叔曾经从城里带来了 {num_ic, 19} 卷线。",
+  "ic_template": "裁缝的叔叔曾经从城里带来了 {num_ic, 19} 卷线。制作一件袍子需要 {num_digit_1, 2} 匹蓝色纤维布料和这个数量 一半 的白色纤维布料。它一共需要用掉多少匹布料？",
+  "equation": "UPDATE HERE"
+}

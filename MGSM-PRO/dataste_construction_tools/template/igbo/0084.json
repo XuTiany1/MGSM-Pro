@@ -1,0 +1,8 @@
+{
+  "original_question": "Otu bọọlụ ụkwụ gbara bọọlụ iri abụọ na abụọ. Ha meriri asatọ karịa otu ha siri daa. Ole ka ha meriri?",
+  "original_answer": 15,
+  "symbolic_template": "Otu bọọlụ ụkwụ gbara bọọlụ {num_digit_1, 22}. Ha meriri {num_digit_2, 8} karịa otu ha siri daa. Ole ka ha meriri?",
+  "ic_sentence_template": "Nwanne nna {name_male, John} gara egwu egwuregwu {num_ic, 124} n’oge a.",
+  "ic_template": "Nwanne nna {name_male, John} gara egwu egwuregwu {num_ic, 124} n’oge a. Otu bọọlụ ụkwụ gbara bọọlụ {num_digit_1, 22}. Ha meriri {num_digit_2, 8} karịa otu ha siri daa. Ole ka ha meriri?",
+  "equation": "UPDATE HERE"
+}

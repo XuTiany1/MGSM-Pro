@@ -1,0 +1,8 @@
+{
+  "original_question": "John ń ṣe tọ́jú ajá 10. Ajá kọ̀ọ̀kan máa ń lo wákàtí 5 lójúmọ́ láti rìn àti láti ṣe ìgbòkègbodò wọn. Wákàtí mélòó lọ́sẹ̀ ni ó ń lò láti tọ́jú àwọn ajá?",
+  "original_answer": 35,
+  "symbolic_template": "{name_male, John} ń ṣe tọ́jú ajá {num_digit_1, 10}. Ajá kọ̀ọ̀kan máa ń lo wákàtí half lójúmọ́ láti rìn àti láti ṣe ìgbòkègbodò wọn. Wákàtí mélòó lọ́sẹ̀ ni ó ń lò láti tọ́jú àwọn ajá?",
+  "ic_sentence_template": "Ọmọbìnrin arákùnrin {name_male, John} ní àwọn ẹyẹ ewúrẹ́ {num_ic, 19}.",
+  "ic_template": "Ọmọbìnrin arákùnrin {name_male, John} ní àwọn ẹyẹ ewúrẹ́ {num_ic, 19}. {name_male, John} ń ṣe tọ́jú ajá {num_digit_1, 10}. Ajá kọ̀ọ̀kan máa ń lo wákàtí half lójúmọ́ láti rìn àti láti ṣe ìgbòkègbodò wọn. Wákàtí mélòó lọ́sẹ̀ ni ó ń lò láti tọ́jú àwọn ajá?",
+  "equation": "UPDATE HERE"
+}

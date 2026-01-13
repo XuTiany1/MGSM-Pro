@@ -1,0 +1,8 @@
+{
+  "original_question": "Gary aime se promener au bord du parc local, qui a la forme d'un rectangle de 1,5 miles sur 6. S'il marche à 3 miles par heure, combien d'heures de marche effectue-t-il ?",
+  "original_answer": 5,
+  "symbolic_template": "{name_male, Gary} aime se promener au bord du parc local, qui a la forme d'un rectangle de {num_digit_1, 1.5} miles sur {num_digit_2, 6}. S'il marche à {num_digit_3, 3} miles par heure, combien d'heures de marche effectue-t-il ?",
+  "ic_sentence_template": "{name_male, Gary} a une tante qui fait du vélo sur {num_ic, 32} miles chaque week-end.",
+  "ic_template": "{name_male, Gary} a une tante qui fait du vélo sur {num_ic, 32} miles chaque week-end. {name_male, Gary} aime se promener au bord du parc local, qui a la forme d'un rectangle de {num_digit_1, 1.5} miles sur {num_digit_2, 6}. S'il marche à {num_digit_3, 3} miles par heure, combien d'heures de marche effectue-t-il ?",
+  "equation": "UPDATE HERE"
+}

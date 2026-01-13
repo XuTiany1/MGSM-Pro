@@ -1,0 +1,8 @@
+{
+  "original_question": "Rory orders 2 subs for $7.50 each, 2 bags of chips for $1.50 each and 2 cookies for $1.00 each for delivery. There’s a 20% delivery fee added at check out and she wants to add a $5.00 tip. What will her delivery order cost?",
+  "original_answer": 29,
+  "symbolic_template": "{name_male, Rory} orders {num_digit_1, 2} subs for ${num_digit_2, 7.50} each, {num_digit_3, 2} bags of chips for ${num_digit_4, 1.50} each and {num_digit_5, 2} cookies for ${num_digit_6, 1.00} each for delivery. There’s a {num_digit_7, 20}% delivery fee added at check-out and she wants to add a ${num_digit_8, 5.00} tip. What will her delivery order cost?",
+  "ic_sentence_template": "{name_male, Rory}'s aunt orders {num_ic, 19} salads every Friday.",
+  "ic_template": "{name_male, Rory} orders {num_digit_1, 2} subs for ${num_digit_2, 7.50} each, {num_digit_3, 2} bags of chips for ${num_digit_4, 1.50} each and {num_digit_5, 2} cookies for ${num_digit_6, 1.00} each for delivery. There’s a {num_digit_7, 20}% delivery fee added at check-out and she wants to add a ${num_digit_8, 5.00} tip. {name_male, Rory}'s aunt orders {num_ic, 19} salads every Friday. What will her delivery order cost?",
+  "equation": "UPDATE HERE"
+}

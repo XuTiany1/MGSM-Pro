@@ -1,0 +1,8 @@
+{
+  "original_question": "Jan has three times the number of pets as Marcia. Marcia has two more pets than Cindy. If Cindy has four pets, how many total pets do the three have?",
+  "original_answer": 28,
+  "symbolic_template": "{name_female_1, Jan} has three times the number of pets as {name_female_2, Marcia}. {name_female_2, Marcia} has two more pets than {name_female_3, Cindy}. If {name_female_3, Cindy} has four pets, how many total pets do the three have?",
+  "ic_sentence_template": "{name_female_2, Marcia}'s uncle owns {num_ic, 16} birds.",
+  "ic_template": "{name_female_1, Jan} has three times the number of pets as {name_female_2, Marcia}. {name_female_2, Marcia} has two more pets than {name_female_3, Cindy}. If {name_female_3, Cindy} has four pets, {name_female_2, Marcia}'s uncle owns {num_ic, 16} birds. how many total pets do the three have?",
+  "equation": "UPDATE HERE"
+}

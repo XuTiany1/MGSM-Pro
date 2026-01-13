@@ -1,0 +1,8 @@
+{
+  "original_question": "Ntotoho a ԑwɔ Darrell ne Allen mfie no ho no yԑ 7:11. Sԑn wɔn nyinaa mfie siisie yԑ 162 a, hwehwԑ Allen mfie a ɔbԑdi mfie du firi nnԑ.",
+  "original_answer": 109,
+  "symbolic_template": "Ntotoho a ԑwɔ {name_male_1, Darrell} ne {name_male_2, Allen} mfie no ho no yԑ {num_digit_1, 7}:{num_digit_2, 11}. Sԑn wɔn nyinaa mfie siisie yԑ {num_digit_3, 162} a, hwehwԑ {name_male_2, Allen} mfie a ɔbԑdi mfie {num_digit_4, du} firi nnԑ.",
+  "ic_sentence_template": "{name_male_2, Allen} wɔfa tɔɔ baseball card {num_ic, 64} seisiaa.",
+  "ic_template": "Ntotoho a ԑwɔ {name_male_1, Darrell} ne {name_male_2, Allen} mfie no ho no yԑ {num_digit_1, 7}:{num_digit_2, 11}. Sԑn wɔn nyinaa mfie siisie yԑ {num_digit_3, 162} a, hwehwԑ {name_male_2, Allen} mfie a ɔbԑdi mfie {num_digit_4, du} firi nnԑ. {name_male_2, Allen} wɔfa tɔɔ baseball card {num_ic, 64} seisiaa.",
+  "equation": "UPDATE HERE"
+}

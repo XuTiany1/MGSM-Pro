@@ -1,0 +1,8 @@
+{
+  "original_question": "André prévoit un voyage en voiture du New Jersey à Rochester. Il lui faut 6 jours pour voyager en bus et la moitié de ce temps pour un voyage en voiture. Combien de jours de voyage lui faudra-t-il s'il prévoit d'aller à Rochester en bus et de rentrer en voiture ?",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, André} prévoit un voyage en voiture de {name_city_1, New Jersey} à {name_city_2, Rochester}. Il lui faut {num_digit_1, 6} jours pour voyager en bus et la moitié de ce temps pour un voyage en voiture. Combien de jours de voyage lui faudra-t-il s'il prévoit d'aller à {name_city_2, Rochester} en bus et de rentrer en voiture ?",
+  "ic_sentence_template": "{name_male, Andrew} a vu {num_ic, 373} voitures anciennes l’été dernier avec son oncle.",
+  "ic_template": "{name_male, Andrew} a vu {num_ic, 373} voitures anciennes l’été dernier avec son oncle. {name_male, André} prévoit un voyage en voiture de {name_city_1, New Jersey} à {name_city_2, Rochester}. Il lui faut {num_digit_1, 6} jours pour voyager en bus et la moitié de ce temps pour un voyage en voiture. Combien de jours de voyage lui faudra-t-il s'il prévoit d'aller à {name_city_2, Rochester} en bus et de rentrer en voiture ?",
+  "equation": "UPDATE HERE"
+}

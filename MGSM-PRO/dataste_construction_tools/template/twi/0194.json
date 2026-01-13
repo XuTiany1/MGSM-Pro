@@ -1,0 +1,8 @@
+{
+  "original_question": "Na Violetta pɛ sɛ ɔtɔ ahyɛnsodeɛ twerɛdua. ɔhia wɔn wɔ ahyɛnsodeɛ ahoroɔ enum mu, na ɔhyehyɛɛ $20 wɔ ade yi a ɔbɛtɔ no ho. Ahyɛnsodeɛ twerɛdua baako bo yɛ $2. Nsakrae ahe na obenya?",
+  "original_answer": 10,
+  "symbolic_template": "Na {name_female, Violetta} pɛ sɛ ɔtɔ ahyɛnsodeɛ twerɛdua. ɔhia wɔn wɔ ahyɛnsodeɛ ahoroɔ {num_digit_1, 5} mu, na ɔhyehyɛɛ ${num_digit_2, 20} wɔ ade yi a ɔbɛtɔ no ho. Ahyɛnsodeɛ twerɛdua baako bo yɛ ${num_digit_3, 2}. Nsakrae ahe na obenya?",
+  "ic_sentence_template": "{name_female, Violetta} wɔfa de mfoni ahorow {num_ic, 68} sie ne mfoniniyɛbea mu.",
+  "ic_template": "{name_female, Violetta} wɔfa de mfoni ahorow {num_ic, 68} sie ne mfoniniyɛbea mu. Na {name_female, Violetta} pɛ sɛ ɔtɔ ahyɛnsodeɛ twerɛdua. ɔhia wɔn wɔ ahyɛnsodeɛ ahoroɔ {num_digit_1, 5} mu, na ɔhyehyɛɛ ${num_digit_2, 20} wɔ ade yi a ɔbɛtɔ no ho. Ahyɛnsodeɛ twerɛdua baako bo yɛ ${num_digit_3, 2}. Nsakrae ahe na obenya?",
+  "equation": "UPDATE HERE"
+}

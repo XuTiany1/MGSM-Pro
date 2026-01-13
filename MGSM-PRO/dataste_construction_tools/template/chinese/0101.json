@@ -1,0 +1,8 @@
+{
+  "original_question": "索罗必须读完 4 页科学课本、20 页社会研究课本、7 页历史课本和 8 页地理课本。索罗在周一读了 15 页。如果他还有 4 天来完成所有阅读作业，他平均一天需要读完多少页？",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, 索罗} 必须读完 {num_digit_1, 4} 页科学课本、{num_digit_2, 20} 页社会研究课本、{num_digit_3, 7} 页历史课本和 {num_digit_4, 8} 页地理课本。{name_male, 索罗} 在周一读了 {num_digit_5, 15} 页。如果他还有 {num_digit_6, 4} 天来完成所有阅读作业，他平均一天需要读完多少页？",
+  "ic_sentence_template": "{name_male, 索罗} 的阿姨最近从图书馆借了 {num_ic, 65} 本侦探小说。",
+  "ic_template": "{name_male, 索罗} 的阿姨最近从图书馆借了 {num_ic, 65} 本侦探小说。{name_male, 索罗} 必须读完 {num_digit_1, 4} 页科学课本、{num_digit_2, 20} 页社会研究课本、{num_digit_3, 7} 页历史课本和 {num_digit_4, 8} 页地理课本。{name_male, 索罗} 在周一读了 {num_digit_5, 15} 页。如果他还有 {num_digit_6, 4} 天来完成所有阅读作业，他平均一天需要读完多少页？",
+  "equation": "UPDATE HERE"
+}

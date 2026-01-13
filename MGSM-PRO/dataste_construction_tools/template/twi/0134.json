@@ -1,0 +1,8 @@
+{
+  "original_question": "Tom nya ka hohoro ɔsram ɛnan baako biara mu. Sɛ ka hohoro biara bo yɛ $15 a, sika ahe na ɔtua wɔ afe baako mu?",
+  "original_answer": 720,
+  "symbolic_template": "{name_male, Tom} nya ka hohoro ɔsram {num_digit_1, 4} baako biara mu. Sɛ ka hohoro biara bo yɛ ${num_digit_2, 15} a, sika ahe na ɔtua wɔ afe baako mu?",
+  "ic_sentence_template": "{name_male, Tom} nua tɔɔ agodeɛ kaa {num_ic, 14} nnawɔtwe a atwa mu.",
+  "ic_template": "{name_male, Tom} nua tɔɔ agodeɛ kaa {num_ic, 14} nnawɔtwe a atwa mu. {name_male, Tom} nya ka hohoro ɔsram {num_digit_1, 4} baako biara mu. Sɛ ka hohoro biara bo yɛ ${num_digit_2, 15} a, sika ahe na ɔtua wɔ afe baako mu?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Pam et Fred sont allés à une fête foraine. Pam a fait 2 fois le tour des montagnes russes et Fred 4 fois. Ensuite, chacun d'eux a fait 2 fois de la luge. Si chaque tour coûte 6 tickets, combien ont-ils utilisé de tickets ce jour-là ?",
+  "original_answer": 60,
+  "symbolic_template": "{name_female, Pam} et {name_male, Fred} sont allés à une fête foraine. {name_female, Pam} a fait {num_digit_1, 2} fois le tour des montagnes russes et {name_male, Fred} {num_digit_2, 4} fois. Ensuite, chacun d'eux a fait {num_digit_3, 2} fois de la luge. Si chaque tour coûte {num_digit_4, 6} tickets, combien ont-ils utilisé de tickets ce jour-là ?",
+  "ic_sentence_template": "{name_male, Fred} a reçu {num_ic, 42} ballons que son oncle a apportés à la fête foraine.",
+  "ic_template": "{name_male, Fred} a reçu {num_ic, 42} ballons que son oncle a apportés à la fête foraine. {name_female, Pam} et {name_male, Fred} sont allés à une fête foraine. {name_female, Pam} a fait {num_digit_1, 2} fois le tour des montagnes russes et {name_male, Fred} {num_digit_2, 4} fois. Ensuite, chacun d'eux a fait {num_digit_3, 2} fois de la luge. Si chaque tour coûte {num_digit_4, 6} tickets, combien ont-ils utilisé de tickets ce jour-là ?",
+  "equation": "UPDATE HERE"
+}

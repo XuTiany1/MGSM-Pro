@@ -1,0 +1,8 @@
+{
+  "original_question": "Harry Fi wákàtí 9 sùn ní alẹ́ àná. ọ̀rẹ́ rẹ̀ James sùn ìdá méjì nínú mẹ́ta orun tí Harry sùn. wákàtí mélòó síi ní Harry Fi sùn ju James lọ?",
+  "original_answer": 3,
+  "symbolic_template": "{name_male_1, Harry} Fi wákàtí {num_digit_1, 9} sùn ní alẹ́ àná. ọ̀rẹ́ rẹ̀ {name_male_2, James} sùn ìdá méjì nínú mẹ́ta orun tí {name_male_1, Harry} sùn. wákàtí mélòó síi ní {name_male_1, Harry} Fi sùn ju {name_male_2, James} lọ?",
+  "ic_sentence_template": "Arákùnrin {name_male_2, James} máa ń ṣe pancakes {num_ic, 19} ní gbogbo ìparí ọ̀ṣè.",
+  "ic_template": "Arákùnrin {name_male_2, James} máa ń ṣe pancakes {num_ic, 19} ní gbogbo ìparí ọ̀ṣè. {name_male_1, Harry} Fi wákàtí {num_digit_1, 9} sùn ní alẹ́ àná. ọ̀rẹ́ rẹ̀ {name_male_2, James} sùn ìdá méjì nínú mẹ́ta orun tí {name_male_1, Harry} sùn. wákàtí mélòó síi ní {name_male_1, Harry} Fi sùn ju {name_male_2, James} lọ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Àwọn olùdíje méjì ń dije fún aṣojú kíláàsì ní ilé-ẹ̀kọ́ Sarai. Tí olùborí náà bá gba 3/4 nínú ìbò, ti iye gbogbo àwọn akẹ́kọ̀ọ́ tí wọ́n dìbò ní kíláàsì jẹ́ 80, ṣe ìṣirò iye ìbò tí ẹni tí ó pàdánù rí.",
+  "original_answer": 20,
+  "symbolic_template": "Àwọn olùdíje méjì ń dije fún aṣojú kíláàsì ní ilé-ẹ̀kọ́ {name_female, Sarai}. Tí olùborí náà bá gba 3/4 nínú ìbò, ti iye gbogbo àwọn akẹ́kọ̀ọ́ tí wọ́n dìbò ní kíláàsì jẹ́ {num_digit_1, 80}, ṣe ìṣirò iye ìbò tí ẹni tí ó pàdánù rí.",
+  "ic_sentence_template": "Ọmọkùnrin arákùnrin {name_female, Sarai} pín {num_ic, 405} àfikún lásìkò àpérò.",
+  "ic_template": "Àwọn olùdíje méjì ń dije fún aṣojú kíláàsì ní ilé-ẹ̀kọ́ {name_female, Sarai}. Tí olùborí náà bá gba 3/4 nínú ìbò, ti iye gbogbo àwọn akẹ́kọ̀ọ́ tí wọ́n dìbò ní kíláàsì jẹ́ {num_digit_1, 80}, ṣe ìṣirò iye ìbò tí ẹni tí ó pàdánù rí. Ọmọkùnrin arákùnrin {name_female, Sarai} pín {num_ic, 405} àfikún lásìkò àpérò.",
+  "equation": "UPDATE HERE"
+}

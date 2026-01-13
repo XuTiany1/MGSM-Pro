@@ -1,0 +1,8 @@
+{
+  "original_question": "Cody n'eri ugboro atọ ọtụtụ kuki ka Amir si eri. Ọ bụrụ na Amir rie kuki ise, kuki ole ka ha abụọ rikọrọ ọnụ?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male_1, Cody} n'eri ugboro atọ ọtụtụ kuki ka {name_male_2, Amir} si eri. Ọ bụrụ na {name_male_2, Amir} rie kuki {num_digit_1, 5}, kuki ole ka ha abụọ rikọrọ ọnụ?",
+  "ic_sentence_template": "Nwanne nne {name_male_2, Amir} bịara na emume ahụ na brownies {num_ic, 20}.",
+  "ic_template": "Nwanne nne {name_male_2, Amir} bịara na emume ahụ na brownies {num_ic, 20}. {name_male_1, Cody} n'eri ugboro atọ ọtụtụ kuki ka {name_male_2, Amir} si eri. Ọ bụrụ na {name_male_2, Amir} rie kuki {num_digit_1, 5}, kuki ole ka ha abụọ rikọrọ ọnụ?",
+  "equation": "UPDATE HERE"
+}

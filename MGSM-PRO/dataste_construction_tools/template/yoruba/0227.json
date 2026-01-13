@@ -1,0 +1,8 @@
+{
+  "original_question": "Chad ra burrito abẹ́ẹlé fún oúnjẹ ọ̀sán.  Burrito náà lásán jẹ́ $6.50.  Ó ṣe àfikún ẹran fún $2.00, àfikún wàrà fún $1.00, avocado fún $1.00 àti ọbẹ̀ meji fún $0.25 fún ọ̀kọ̀ọ̀kan.  Ó pinnu láti ṣe ìgbésókè oúnjẹ rẹ̀ fún àfikún $3.00 tí yóò ṣe àfikún ìpákeré àti ohun mímu.  Ó ní káàdì ẹ̀bùn fún $5.00 tí ó ń lò níbi ti yóò ti sanwó.  Èló ni ó ṣì jẹ?",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, Chad} ra burrito abẹ́ẹlé fún oúnjẹ ọ̀sán. Burrito náà lásán jẹ́ ${num_digit_1, 6.50}. Ó ṣe àfikún ẹran fún ${num_digit_2, 2.00}, àfikún wàrà fún ${num_digit_3, 1.00}, avocado fún ${num_digit_4, 1.00} àti ọbẹ̀ 2 fún ${num_digit_5, 0.25} fún ọ̀kọ̀ọ̀kan. Ó pinnu láti ṣe ìgbésókè oúnjẹ rẹ̀ fún àfikún ${num_digit_6, 3.00} tí yóò ṣe àfikún ìpákeré àti ohun mímu. Ó ní káàdì ẹ̀bùn fún ${num_digit_7, 5.00} tí ó ń lò níbi ti yóò ti sanwó. Èló ni ó ṣì jẹ?",
+  "ic_sentence_template": "Ọ̀gá {name_male, Chad} rà {num_ic, 38} burrito fún àwọn ẹlẹ́gbẹ́ rẹ̀ lọ́sẹ̀ tó kọjá.",
+  "ic_template": "Ọ̀gá {name_male, Chad} rà {num_ic, 38} burrito fún àwọn ẹlẹ́gbẹ́ rẹ̀ lọ́sẹ̀ tó kọjá. {name_male, Chad} ra burrito abẹ́ẹlé fún oúnjẹ ọ̀sán. Burrito náà lásán jẹ́ ${num_digit_1, 6.50}. Ó ṣe àfikún ẹran fún ${num_digit_2, 2.00}, àfikún wàrà fún ${num_digit_3, 1.00}, avocado fún ${num_digit_4, 1.00} àti ọbẹ̀ 2 fún ${num_digit_5, 0.25} fún ọ̀kọ̀ọ̀kan. Ó pinnu láti ṣe ìgbésókè oúnjẹ rẹ̀ fún àfikún ${num_digit_6, 3.00} tí yóò ṣe àfikún ìpákeré àti ohun mímu. Ó ní káàdì ẹ̀bùn fún ${num_digit_7, 5.00} tí ó ń lò níbi ti yóò ti sanwó. Èló ni ó ṣì jẹ?",
+  "equation": "UPDATE HERE"
+}

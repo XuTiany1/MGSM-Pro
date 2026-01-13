@@ -1,0 +1,8 @@
+{
+  "original_question": "ቱሉዝ ከቻርልስተን በእጥፍ የሚበልጡ በጐች አሉት ።ቻርልስተን ከሲያትል በ4 እጥፍ የሚበልጡ በጐች አሉት ።ቱሉዝ ፣ ቻርልስተን እና ሲያትል በጋራ ስንት በጐች አሏቸው ሲያትል 20 በጐች ካሉት?",
+  "original_answer": 260,
+  "symbolic_template": "{name_city_1, ቱሉዝ} ከ{name_city_2, ቻርልስተን} በእጥፍ የሚበልጡ በጐች አሉት። {name_city_2, ቻርልስተን} ከ{name_city_3, ሲያትል} በ{num_digit_1, 4} እጥፍ የሚበልጡ በጐች አሉት። {name_city_1, ቱሉዝ}፣ {name_city_2, ቻርልስተን} እና {name_city_3, ሲያትል} በጋራ ስንት በጐች አሏቸው {name_city_3, ሲያትል} {num_digit_2, 20} በጐች ካሉት?",
+  "ic_sentence_template": "የ{name_city_2, ቻርልስተን} አቅራቢያ ያለው ከተማ በአቅራቢያው {num_ic, 41} ፍየሎችን ያሳያል።",
+  "ic_template": "{name_city_1, ቱሉዝ} ከ{name_city_2, ቻርልስተን} በእጥፍ የሚበልጡ በጐች አሉት። {name_city_2, ቻርልስተን} ከ{name_city_3, ሲያትል} በ{num_digit_1, 4} እጥፍ የሚበልጡ በጐች አሉት። {name_city_1, ቱሉዝ}፣ {name_city_2, ቻርልስተን} እና {name_city_3, ሲያትል} በጋራ ስንት በጐች አሏቸው {name_city_3, ሲያትል} {num_digit_2, 20} በጐች ካሉት? የ{name_city_2, ቻርልስተን} አቅራቢያ ያለው ከተማ በአቅራቢያው {num_ic, 41} ፍየሎችን ያሳያል።",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Mark alifanya zoezi jana lenye maswali 75. Alikamilisha zoezi hilo kwa kiwango cha maswali 5 kwa saa. Leo, alifanya zoezi lingine lenye maswali 100 kwa kiwango hicho. Ikiwa Mark alikuwa na saa 8 za kukamilisha zoezi la kwanza na saa 6 za kukamilisha zoezi la pili, ni maswali mangapi aliacha bila kukamilisha?",
+  "original_answer": 105,
+  "symbolic_template": "{name_male, Mark} alifanya mtihani jana uliokuwa na maswali {num_digit_1, 75}. Aliukamilisha kwa kiwango cha maswali {num_digit_2, 5} kwa saa. Leo, alifanya mtihani mwingine wa maswali {num_digit_3, 100} kwa kiwango hicho hicho. Ikiwa {name_male, Mark} alikuwa na masaa {num_digit_4, 8} kukamilisha mtihani wa kwanza na masaa {num_digit_5, 6} kukamilisha wa pili, alibakiza maswali mangapi bila majibu?",
+  "ic_sentence_template": "Mjomba wa {name_male, Mark} alimletea penseli {num_ic, 68} kwa bahati njema.",
+  "ic_template": "Mjomba wa {name_male, Mark} alimletea penseli {num_ic, 68} kwa bahati njema. {name_male, Mark} alifanya mtihani jana uliokuwa na maswali {num_digit_1, 75}. Aliukamilisha kwa kiwango cha maswali {num_digit_2, 5} kwa saa. Leo, alifanya mtihani mwingine wa maswali {num_digit_3, 100} kwa kiwango hicho hicho. Ikiwa {name_male, Mark} alikuwa na masaa {num_digit_4, 8} kukamilisha mtihani wa kwanza na masaa {num_digit_5, 6} kukamilisha wa pili, alibakiza maswali mangapi bila majibu?",
+  "equation": "UPDATE HERE"
+}

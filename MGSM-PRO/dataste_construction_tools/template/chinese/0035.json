@@ -1,0 +1,8 @@
+{
+  "original_question": "迈克打乒乓球打了 40 分钟。在前 20 分钟里，他取得了 4 分。在后 20 分钟里，他的得分提高了 25%。他的总得分是多少？",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, 迈克} 打乒乓球打了 {num_digit_1, 40} 分钟。在前 {num_digit_2, 20} 分钟里，他取得了 {num_digit_3, 4} 分。在后 {num_digit_4, 20} 分钟里，他的得分提高了 {num_digit_5, 25}%。他的总得分是多少？",
+  "ic_sentence_template": "{name_male, 迈克} 的叔叔每年观看 {num_ic, 102} 场乒乓球比赛。",
+  "ic_template": "{name_male, 迈克} 的叔叔每年观看 {num_ic, 102} 场乒乓球比赛。{name_male, 迈克} 打乒乓球打了 {num_digit_1, 40} 分钟。在前 {num_digit_2, 20} 分钟里，他取得了 {num_digit_3, 16} 分。在后 {num_digit_4, 20} 分钟里，他的得分提高了 {num_digit_5, 25}%。他的总得分是多少？",
+  "equation": "UPDATE HERE"
+}

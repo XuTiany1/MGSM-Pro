@@ -1,0 +1,8 @@
+{
+  "original_question": "Na wɔde nsu 120 litres gu nsu akoradeɛ mu a. Celine de nsu 90 litres a na efri akoradeɛ no mu guu ne afikyifuo ketewa no mu. Na afei otumi boaboaa osutɔ a na aka no mmɔho mmienu ano a aka no. Nsu litres ahe na ɛwɔ akoradeɛ no mu seesei?",
+  "original_answer": 90,
+  "symbolic_template": "Na wɔde nsu {num_digit_1, 120} litres gu nsu akoradeɛ mu a. {name_female, Celine} de nsu {num_digit_2, 90} litres a na efri akoradeɛ no mu guu ne afikyifuo ketewa no mu. Na afei otumi boaboaa osutɔ a na aka no mmɔho mmienu ano a aka no. Nsu litres ahe na ɛwɔ akoradeɛ no mu seesei?",
+  "ic_sentence_template": "{name_female, Celine} wͻfa no tɔɔ tulip aboba {num_ic, 388} ahemmera a atwam no.",
+  "ic_template": "{name_female, Celine} wͻfa no tɔɔ tulip aboba {num_ic, 388} ahemmera a atwam no. Na wɔde nsu {num_digit_1, 120} litres gu nsu akoradeɛ mu a. {name_female, Celine} de nsu {num_digit_2, 90} litres a na efri akoradeɛ no mu guu ne afikyifuo ketewa no mu. Na afei otumi boaboaa osutɔ a na aka no mmɔho mmienu ano a aka no. Nsu litres ahe na ɛwɔ akoradeɛ no mu seesei?",
+  "equation": "UPDATE HERE"
+}

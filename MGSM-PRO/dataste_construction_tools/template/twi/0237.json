@@ -1,0 +1,8 @@
+{
+  "original_question": "Johnny faa ne mfasoɔ a na ɛyɛ $20 no de $10 kaa ho. Afei ɔde saa sika no dii adwa, na ɛkɔɔ soro mmɔho mmiɛnsa wɔ afe baako mu. So sika ahe na ɔwɔ wɔ afe baako akyi?",
+  "original_answer": 90,
+  "symbolic_template": "{name_male, Johnny} faa ne mfasoɔ a na ɛyɛ ${num_digit_1, 20} no de ${num_digit_2, 10} kaa ho. Afei ɔde saa sika no dii adwa, na ɛkɔɔ soro mmɔho mmiɛnsa wɔ afe baako mu. So sika ahe na ɔwɔ wɔ afe baako akyi?",
+  "ic_sentence_template": "{name_male, Johnny} busuani nsa kaa basebɔɔllɔ nkrataa {num_ic, 88} wɔ n'awoda no so.",
+  "ic_template": "{name_male, Johnny} busuani nsa kaa basebɔɔllɔ nkrataa {num_ic, 88} wɔ n'awoda no so. {name_male, Johnny} faa ne mfasoɔ a na ɛyɛ ${num_digit_1, 20} no de ${num_digit_2, 10} kaa ho. Afei ɔde saa sika no dii adwa, na ɛkɔɔ soro mmɔho mmiɛnsa wɔ afe baako mu. So sika ahe na ɔwɔ wɔ afe baako akyi?",
+  "equation": "UPDATE HERE"
+}

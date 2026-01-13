@@ -1,0 +1,8 @@
+{
+  "original_question": "劳埃德做数学家教每小时挣 10 美元。他第一周做家教 5 小时，第二周做家教 8 小时。他在前两周挣了多少钱？",
+  "original_answer": 130,
+  "symbolic_template": "{name_male, 劳埃德} 做数学家教每小时挣 {num_digit_1, 10} 美元。他第一周做家教 {num_digit_2, 5} 小时，第二周做家教 {num_digit_3, 8} 小时。他在前两周挣了多少钱？",
+  "ic_sentence_template": "{name_male, 洛伊德} 的姨妈为她的学生买了 {num_ic, 17} 本笔记本。",
+  "ic_template": "{name_male, 洛伊德} 的姨妈为她的学生买了 {num_ic, 17} 本笔记本。{name_male, 劳埃德} 做数学家教每小时挣 {num_digit_1, 10} 美元。他第一周做家教 {num_digit_2, 5} 小时，第二周做家教 {num_digit_3, 8} 小时。他在前两周挣了多少钱？",
+  "equation": "UPDATE HERE"
+}

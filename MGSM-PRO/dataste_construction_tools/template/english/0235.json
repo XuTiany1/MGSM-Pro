@@ -1,0 +1,8 @@
+{
+  "original_question": "John orders some pizzas to share with his friends. There are 20 friends in total, and John wants to make sure each can have 4 slices. Pizzas are only sold sliced into 8 portions. How many Pizzas does John need to order?",
+  "original_answer": 10,
+  "symbolic_template": "{name_male, John} orders some pizzas to share with his friends. There are {num_digit_1, 20} friends in total, and {name_male, John} wants to make sure each can have {num_digit_2, 4} slices. Pizzas are only sold sliced into {num_digit_3, 8} portions. How many Pizzas does {name_male, John} need to order?",
+  "ic_sentence_template": "{name_male, John}'s uncle has {num_ic, 712} baseball cards.",
+  "ic_template": "{name_male, John} orders some pizzas to share with his friends. There are {num_digit_1, 20} friends in total, and {name_male, John} wants to make sure each can have {num_digit_2, 4} slices. Pizzas are only sold sliced into {num_digit_3, 8} portions. {name_male, John}'s uncle has {num_ic, 712} baseball cards. How many Pizzas does {name_male, John} need to order?",
+  "equation": "UPDATE HERE"
+}

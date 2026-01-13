@@ -1,0 +1,25 @@
+{
+    "problem_id": "0096",
+    "generation_order": ["num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [3, 90]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "harry_sleep = num_digit_1",
+            "james_sleep = (2/3) * harry_sleep",
+            "ans = harry_sleep - james_sleep"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "num_digit_1 % 3 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

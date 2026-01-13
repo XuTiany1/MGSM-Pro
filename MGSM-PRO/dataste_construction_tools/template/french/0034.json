@@ -1,0 +1,8 @@
+{
+  "original_question": "Siobhan a 2 bijoux de moins qu'Aaron. Aaron en a 5 de plus que la moitié des bijoux de Raymond. Si Raymond a 40 bijoux, combien Siobhan a-t-il de bijoux ?",
+  "original_answer": 23,
+  "symbolic_template": "{name_male_1, Siobhan} a {num_digit_1, 2} bijoux de moins qu'{name_male_2, Aaron}. {name_male_2, Aaron} en a {num_digit_2, 5} de plus que la moitié des bijoux de {name_male_3, Raymond}. Si {name_male_3, Raymond} a {num_digit_3, 40} bijoux, combien {name_male_1, Siobhan} a-t-il de bijoux ?",
+  "ic_sentence_template": "{name_male_2, Aaron} a reçu {num_ic, 341} billes de la part de son oncle une fois.",
+  "ic_template": "{name_male_2, Aaron} a reçu {num_ic, 341} billes de la part de son oncle une fois. {name_male_1, Siobhan} a {num_digit_1, 2} bijoux de moins qu'{name_male_2, Aaron}. {name_male_2, Aaron} en a {num_digit_2, 5} de plus que la moitié des bijoux de {name_male_3, Raymond}. Si {name_male_3, Raymond} a {num_digit_3, 40} bijoux, combien {name_male_1, Siobhan} a-t-il de bijoux ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "クレアは毎朝朝ごはん用に卵を3つ使ったオムレツを作ります。クレアは4週間で卵を何個食べることになりますか？",
+  "original_answer": 7,
+  "symbolic_template": "{name_female, Claire}は毎朝朝ごはん用に卵を{num_digit_1, 3}つ使ったオムレツを作ります。{name_female, Claire}は{num_digit_2, 4}週間で卵を何個食べることになりますか？",
+  "ic_sentence_template": "{name_female, クレア}のおじさんは農場で{num_ic, 44}羽のめんどりを飼っています。",
+  "ic_template": "{name_female, クレア}のおじさんは農場で{num_ic, 44}羽のめんどりを飼っています。{name_female, Claire}は毎朝朝ごはん用に卵を{num_digit_1, 3}つ使ったオムレツを作ります。{name_female, Claire}は{num_digit_2, 4}週間で卵を何個食べることになりますか？",
+  "equation": "UPDATE HERE"
+}

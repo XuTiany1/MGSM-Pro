@@ -1,0 +1,8 @@
+{
+  "original_question": "Jessica na-agbalị ịchọpụta ego ole ọ ga-akwụ n'ụgwọ niile o ji kwa ọnwa. Ego mbinye nwa akwụkwọ ya nwere ịkwụ ụgwọ opekempe $300/ọnwa, n'ikacha nta kredit kaadị ya bụ $200/ọnwa, n'ikacha nta nke motgeji ya bụ $500/ọnwa. Ọ bụrụ na Jessica chọrọ ịkwụ karia n'ikacha nta 50%, ego ole ka ọ na-akwụ n'ime otu afọ?",
+  "original_answer": 18000,
+  "symbolic_template": "{name_female, Jessica} na-agbalị ịchọpụta ego ole ọ ga-akwụ n'ụgwọ niile o ji kwa ọnwa. Ego mbinye nwa akwụkwọ ya nwere ịkwụ ụgwọ opekempe ${num_digit_1, 300}/ọnwa, n'ikacha nta kredit kaadị ya bụ ${num_digit_2, 200}/ọnwa, n'ikacha nta nke motgeji ya bụ ${num_digit_3, 500}/ọnwa. Ọ bụrụ na {name_female, Jessica} chọrọ ịkwụ karia n'ikacha nta {num_digit_4, 50}%, ego ole ka ọ na-akwụ n'ime otu afọ?",
+  "ic_sentence_template": "Nwanna nna {name_female, Jessica} nyere ya akwụkwọ mbelata {num_ic, 58} n’oge na-adịbeghị anya.",
+  "ic_template": "Nwanna nna {name_female, Jessica} nyere ya akwụkwọ mbelata {num_ic, 58} n’oge na-adịbeghị anya. {name_female, Jessica} na-agbalị ịchọpụta ego ole ọ ga-akwụ n'ụgwọ niile o ji kwa ọnwa. Ego mbinye nwa akwụkwọ ya nwere ịkwụ ụgwọ opekempe ${num_digit_1, 300}/ọnwa, n'ikacha nta kredit kaadị ya bụ ${num_digit_2, 200}/ọnwa, n'ikacha nta nke motgeji ya bụ ${num_digit_3, 500}/ọnwa. Ọ bụrụ na {name_female, Jessica} chọrọ ịkwụ karia n'ikacha nta {num_digit_4, 50}%, ego ole ka ọ na-akwụ n'ime otu afọ?",
+  "equation": "UPDATE HERE"
+}

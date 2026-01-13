@@ -1,0 +1,8 @@
+{
+  "original_question": "ጆን 10 ሄክታር አናናስ ማሳ አለው። በሄክታር 100 አናናስ አለ። ጆን አናናስ በየ 3 ወሩ ማምረት ይችላል። ጆን በዓመት ውስጥ ስንት አናናስ ማምረት ይችላል?",
+  "original_answer": 4000,
+  "symbolic_template": "{name_male, ጆን} {num_digit_1, 10} ሄክታር አናናስ ማሳ አለው። በሄክታር {num_digit_2, 100} አናናስ አለ። {name_male, ጆን} አናናስ በየ {num_digit_3, 3} ወሩ ማምረት ይችላል። {name_male, ጆን} በዓመት ውስጥ ስንት አናናስ ማምረት ይችላል?",
+  "ic_sentence_template": "የ{name_male, ጆን} አጎት ባለፈው ሳምንት {num_ic, 210} መሶብ መዝ ገዛ።",
+  "ic_template": "{name_male, ጆን} {num_digit_1, 10} ሄክታር አናናስ ማሳ አለው። በሄክታር {num_digit_2, 100} አናናስ አለ። {name_male, ጆን} አናናስ በየ {num_digit_3, 3} ወሩ ማምረት ይችላል። {name_male, ጆን} በዓመት ውስጥ ስንት አናናስ ማምረት ይችላል? የ{name_male, ጆን} አጎት ባለፈው ሳምንት {num_ic, 210} መሶብ መዝ ገዛ።",
+  "equation": "UPDATE HERE"
+}

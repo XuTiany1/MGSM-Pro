@@ -1,0 +1,8 @@
+{
+  "original_question": "Jenna ne ne maame boaboa aduaba bi fii wɔn aduaba afuo mu. Jenna boaboa aduaba a ne maame boaboa emo fa. Sɛ ne maame nyaa aduaba aduono a, aduaba ahe na wɔn baanu nyinaa gyee?",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, Jenna} ne ne maame boaboa aduaba bi fii wɔn aduaba afuo mu. {name_female, Jenna} boaboa aduaba a ne maame boaboa emo  fa. Sɛ ne maame nyaa aduaba {num_digit_1, aduono} a, aduaba ahe na wɔn baanu nyinaa gyee?",
+  "ic_sentence_template": "{name_female, Jenna} wɔfa de apple nsaden {num_ic, 154} baa afum anɔpa no.",
+  "ic_template": "{name_female, Jenna} wɔfa de apple nsaden {num_ic, 154} baa afum anɔpa no. {name_female, Jenna} ne ne maame boaboa aduaba bi fii wɔn aduaba afuo mu. {name_female, Jenna} boaboa aduaba a ne maame boaboa emo  fa. Sɛ ne maame nyaa aduaba {num_digit_1, aduono} a, aduaba ahe na wɔn baanu nyinaa gyee?",
+  "equation": "UPDATE HERE"
+}

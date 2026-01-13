@@ -1,0 +1,8 @@
+{
+  "original_question": "Nwowa bɛyɛ 700 na ɛwɔ nwowa buo mu. Adwumayɛni nwowa bɛyɛ mmɔho mmienu wɔ hɔ te sɛ nwowa mmofra, na  wɔyɛ mmɔho mmienu sen nwowa mmofra a wɔyɛ ɔhemmaa. Adwumayɛfoɔ nwowa ahe na wɔwɔ hɔ?",
+  "original_answer": 400,
+  "symbolic_template": "Nwowa bɛyɛ {num_digit_1, 700} na ɛwɔ nwowa buo mu. Adwumayɛni nwowa bɛyɛ mmɔho mmienu wɔ hɔ te sɛ nwowa mmofra, na wɔyɛ mmɔho mmienu sen nwowa mmofra a wɔyɛ ɔhemmaa. Adwumayɛfoɔ nwowa ahe na wɔwɔ hɔ?",
+  "ic_sentence_template": "{name_male, Henry} wɔfa wɔ nkuku mu ɛwoɔ {num_ic, 62} a ɔde asi ne dan mu.",
+  "ic_template": "Nwowa bɛyɛ {num_digit_1, 700} na ɛwɔ nwowa buo mu. Adwumayɛni nwowa bɛyɛ mmɔho mmienu wɔ hɔ te sɛ nwowa mmofra, na wɔyɛ mmɔho mmienu sen nwowa mmofra a wɔyɛ ɔhemmaa. Adwumayɛfoɔ nwowa ahe na wɔwɔ hɔ? {name_male, Henry} wɔfa wɔ nkuku mu ɛwoɔ {num_ic, 62} a ɔde asi ne dan mu.",
+  "equation": "UPDATE HERE"
+}

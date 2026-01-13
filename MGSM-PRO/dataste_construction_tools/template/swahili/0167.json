@@ -1,0 +1,8 @@
+{
+  "original_question": "Umri wa Seth ni mara mbili zaidi ya umri wa Brooke. Baada ya miaka 2, jumla ya umri wao utakuwa 28. Seth ana miaka mingapi?",
+  "original_answer": 16,
+  "symbolic_template": "Umri wa {name_male, Seth} ni mara mbili zaidi ya umri wa {name_female, Brooke}. Baada ya miaka {num_digit_1, 2}, jumla ya umri wao utakuwa {num_digit_2, 28}. {name_male, Seth} ana miaka mingapi?",
+  "ic_sentence_template": "Shangazi wa {name_male, Seth} alinunua tiketi za sinema za punguzo {num_ic, 17}.",
+  "ic_template": "Shangazi wa {name_male, Seth} alinunua tiketi za sinema za punguzo {num_ic, 17}. Umri wa {name_male, Seth} ni mara mbili zaidi ya umri wa {name_female, Brooke}. Baada ya miaka {num_digit_1, 2}, jumla ya umri wao utakuwa {num_digit_2, 28}. {name_male, Seth} ana miaka mingapi?",
+  "equation": "UPDATE HERE"
+}

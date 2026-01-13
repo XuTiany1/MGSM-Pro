@@ -1,0 +1,8 @@
+{
+  "original_question": "Agbádá kan máa ń gba bóótu òwú olómi aró 2 bẹ́ẹ̀ sì ni àbọ̀ òwú funfun tí ó tó iye yẹn. Iye bóótù mélòó ni ó ń gbà lápapọ̀? ",
+  "original_answer": 3,
+  "symbolic_template": "Agbádá kan máa ń gba bóótu òwú olómi aró {num_digit_1, 2} bẹ́ẹ̀ sì ni àbọ̀ òwú funfun tí ó tó iye yẹn. Iye bóótù mélòó ni ó ń gbà lápapọ̀?",
+  "ic_sentence_template": "Ọ̀gá aránsọ náà fi ìgbà kan mú òwú {num_ic, 19} wá láti ìlú ńlá.",
+  "ic_template": "Ọ̀gá aránsọ náà fi ìgbà kan mú òwú {num_ic, 19} wá láti ìlú ńlá. Agbádá kan máa ń gba bóótu òwú olómi aró {num_digit_1, 2} bẹ́ẹ̀ sì ni àbọ̀ òwú funfun tí ó tó iye yẹn. Iye bóótù mélòó ni ó ń gbà lápapọ̀?",
+  "equation": "UPDATE HERE"
+}

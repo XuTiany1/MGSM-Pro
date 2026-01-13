@@ -1,0 +1,8 @@
+{
+  "original_question": "ブランドンのiPhoneはベンのiPhoneの4倍古いです。ベンのiPhoneはスージーのiPhoneよりも2倍古いです。スージーのiPhoneが利用して1年目なら、ブランドンのiPhoneは何年目ですか？",
+  "original_answer": 8,
+  "symbolic_template": "{name_male_1, ブランドン} のiPhoneは {name_male_2, ベン} のiPhoneの 五 倍古いです。{name_male_2, ベン} のiPhoneは {name_female, スージー} のiPhoneよりも 三 倍古いです。{name_female, スージー} のiPhoneが {num_digit_1, 2} 年目なら、{name_male_1, ブランドン} のiPhoneは何年目ですか？",
+  "ic_sentence_template": "{name_male_2, ベン}のおばは最近{num_ic, 15}個のスマホケースを買いました。",
+  "ic_template": "{name_male_2, ベン}のおばは最近{num_ic, 15}個のスマホケースを買いました。{name_male_1, ブランドン} のiPhoneは {name_male_2, ベン} のiPhoneの 五 倍古いです。{name_male_2, ベン} のiPhoneは {name_female, スージー} のiPhoneよりも 三 倍古いです。{name_female, スージー} のiPhoneが {num_digit_1, 2} 年目なら、{name_male_1, ブランドン} のiPhoneは何年目ですか？",
+  "equation": "UPDATE HERE"
+}

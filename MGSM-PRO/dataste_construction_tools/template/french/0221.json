@@ -1,0 +1,8 @@
+{
+  "original_question": "Un réservoir d'eau contient 120 litres d'eau. Céline en a utilisé 90 litres pour arroser son petit jardin. Elle a ensuite pu récupérer l'eau de pluie qui est deux fois plus importante que ce qui restait. Combien de litres d'eau y a-t-il maintenant dans la citerne ?",
+  "original_answer": 90,
+  "symbolic_template": "Un réservoir d'eau contient {num_digit_1, 120} litres d'eau. {name_female, Céline} en a utilisé {num_digit_2, 90} litres pour arroser son petit jardin. Elle a ensuite pu récupérer l'eau de pluie qui est deux fois plus importante que ce qui restait. Combien de litres d'eau y a-t-il maintenant dans la citerne ?",
+  "ic_sentence_template": "{name_female, Céline} a un oncle qui a acheté {num_ic, 388} bulbes de tulipes le printemps dernier.",
+  "ic_template": "{name_female, Céline} a un oncle qui a acheté {num_ic, 388} bulbes de tulipes le printemps dernier. Un réservoir d'eau contient {num_digit_1, 120} litres d'eau. {name_female, Céline} en a utilisé {num_digit_2, 90} litres pour arroser son petit jardin. Elle a ensuite pu récupérer l'eau de pluie qui est deux fois plus importante que ce qui restait. Combien de litres d'eau y a-t-il maintenant dans la citerne ?",
+  "equation": "UPDATE HERE"
+}

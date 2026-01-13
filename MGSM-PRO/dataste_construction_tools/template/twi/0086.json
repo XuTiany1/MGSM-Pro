@@ -1,0 +1,8 @@
+{
+  "original_question": "Greg ahyehyԑ afidie a ԑbɔ nkaeԑ bi sԑ ԑmbɔ no nkaeԑ mprԑ dodoɔ mmiԑnsa wɔ da baako mu. Sԑ afidie no bɔ a, ԑbԑkɔso abɔ kɔ si sԑ Greg bԑdum no. Berԑ a ԑdi kan a afidie no bɔɔ ԑnnԑ no, ԑbɔɔ mprԑ dodoɔ nnan. Berԑ a ԑtɔ so mmienu no a ԑbɔɔԑ no, ԑbɔɔ mprԑ mmɔho mmiԑnsa kyԑn kanee no. Wɔ mprԑ a ԑtɔ so mmiԑnsa no mu no, ԑbɔɔ deԑ ԑtɔ so mmienu no mu mprԑ fa. No nyinaa mu no, mprԑ dodoɔ sԑn na afidie no bɔɔԑ?",
+  "original_answer": 22,
+  "symbolic_template": "{name_male, Greg} ahyehyԑ afidie a ԑbɔ nkaeԑ bi sԑ ԑmbɔ no nkaeԑ mprԑ dodoɔ mmiɛnsa wɔ da baako mu. Sԑ afidie no bɔ a, ԑbԑkɔso abɔ kɔ si sԑ {name_male, Greg} bԑdum no. Berԑ a ԑdi kan a afidie no bɔɔ ԑnnԑ no, ԑbɔɔ mprԑ dodoɔ nnan. Berԑ a ԑtɔ so mmienu no a ԑbɔɔԑ no, ԑbɔɔ mprԑ mmɔho mmiɛnsa kyԑn kanee no. Wɔ mprԑ a ԑtɔ so mmiԑnsa no mu no, ԑbɔɔ deԑ ԑtɔ so mmienu no mu mprԑ fa. No nyinaa mu no, mprԑ dodoɔ sԑn na afidie no bɔɔԑ?",
+  "ic_sentence_template": "{name_male, Greg} sewaa atɔ kɔkɔbɔ dɔn foforɔ {num_ic, 15} .",
+  "ic_template": "{name_male, Greg} sewaa atɔ kɔkɔbɔ dɔn foforɔ {num_ic, 15} . {name_male, Greg} ahyehyԑ afidie a ԑbɔ nkaeԑ bi sԑ ԑmbɔ no nkaeԑ mprԑ dodoɔ mmiɛnsa wɔ da baako mu. Sԑ afidie no bɔ a, ԑbԑkɔso abɔ kɔ si sԑ {name_male, Greg} bԑdum no. Berԑ a ԑdi kan a afidie no bɔɔ ԑnnԑ no, ԑbɔɔ mprԑ dodoɔ nnan. Berԑ a ԑtɔ so mmienu no a ԑbɔɔԑ no, ԑbɔɔ mprԑ mmɔho mmiɛnsa kyԑn kanee no. Wɔ mprԑ a ԑtɔ so mmiԑnsa no mu no, ԑbɔɔ deԑ ԑtɔ so mmienu no mu mprԑ fa. No nyinaa mu no, mprԑ dodoɔ sԑn na afidie no bɔɔԑ?",
+  "equation": "UPDATE HERE"
+}

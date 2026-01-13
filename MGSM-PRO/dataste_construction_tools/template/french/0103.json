@@ -1,0 +1,8 @@
+{
+  "original_question": "Un banc de brouillard arrive de l'océan et recouvre progressivement une ville. Il met 10 minutes pour couvrir 3 miles de la ville. Si la ville s'étend sur 42 miles depuis le bord de l'océan jusqu'au bord opposé à l'intérieur des terres, combien de minutes faudra-t-il au banc de brouillard pour couvrir toute la ville ?",
+  "original_answer": 140,
+  "symbolic_template": "Un banc de brouillard arrive de l'océan et recouvre progressivement une ville. Il met {num_digit_1, 10} minutes pour couvrir {num_digit_2, 3} miles de la ville. Si la ville s'étend sur {num_digit_3, 42} miles depuis le bord de l'océan jusqu'au bord opposé à l'intérieur des terres, combien de minutes faudra-t-il au banc de brouillard pour couvrir toute la ville ?",
+  "ic_sentence_template": "{name_male, Billy} a un oncle qui a vu {num_ic, 96} voiliers quitter le port ce matin-là.",
+  "ic_template": "{name_male, Billy} a un oncle qui a vu {num_ic, 96} voiliers quitter le port ce matin-là. Un banc de brouillard arrive de l'océan et recouvre progressivement une ville. Il met {num_digit_1, 10} minutes pour couvrir {num_digit_2, 3} miles de la ville. Si la ville s'étend sur {num_digit_3, 42} miles depuis le bord de l'océan jusqu'au bord opposé à l'intérieur des terres, combien de minutes faudra-t-il au banc de brouillard pour couvrir toute la ville ?",
+  "equation": "UPDATE HERE"
+}

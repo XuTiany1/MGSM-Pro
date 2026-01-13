@@ -1,0 +1,8 @@
+{
+  "original_question": "Nanabaa Jones too aprԑ paano ma wɔn a wɔdum gya no adidie nhyiamu no. Ͻtwaa paano biara mu nketewa 8 na ɔde paano num no sii pono no sԑ ahɔhoɔ no ara ԑnfa bi ndi. Annwumerԑ duuԑ no, berԑ a na ahɔhoɔ no nyinaa afa na w’adi wɔn paano no, na aka paano nketewa 14. Paano nketewa sԑn na ahɔhoɔ no faaԑ?",
+  "original_answer": 26,
+  "symbolic_template": "Nanabaa {name_family, Jones} too aprԑ paano {num_digit_1, 5} ma wɔn a wɔdum gya no adidie nhyiamu no. Ͻtwaa paano biara mu nketewa {num_digit_2, 8} na ɔde paano num no sii pono no sԑ ahɔhoɔ no ara ԑnfa bi ndi. Annwumerԑ duuԑ no, berԑ a na ahɔhoɔ no nyinaa afa na w’adi wɔn paano no, na aka paano nketewa {num_digit_3, 14}. Paano nketewa sԑn na ahɔhoɔ no faaԑ?",
+  "ic_sentence_template": "{name_family, Jones} wɔfase barima de lemonade nkutokuo {num_ic, 93} baa adidie no so.",
+  "ic_template": "{name_family, Jones} wɔfase barima de lemonade nkutokuo {num_ic, 93} baa adidie no so. Nanabaa {name_family, Jones} too aprԑ paano {num_digit_1, 5} ma wɔn a wɔdum gya no adidie nhyiamu no. Ͻtwaa paano biara mu nketewa {num_digit_2, 8} na ɔde paano num no sii pono no sԑ ahɔhoɔ no ara ԑnfa bi ndi. Annwumerԑ duuԑ no, berԑ a na ahɔhoɔ no nyinaa afa na w’adi wɔn paano no, na aka paano nketewa {num_digit_3, 14}. Paano nketewa sԑn na ahɔhoɔ no faaԑ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Sheila ra ẹ̀rọ ìbánisọ̀rọ̀ márùn-ún ní $150 ẹyọ kan fún ìsandíẹ̀díẹ̀ olóṣù-3. Owó èlé 2% yóò wà lórí ẹyọ kọ̀ọ̀kan. Èló ní Sheila máa san ní oṣù kọ̀ọ̀kan fún oṣù 3?",
+  "original_answer": 255,
+  "symbolic_template": "{name_female, Sheila} ra ẹ̀rọ ìbánisọ̀rọ̀ márùn-ún ní ${num_digit_1, 150} ẹyọ kan fún ìsandíẹ̀díẹ̀ olóṣù-{num_digit_2, 3}. Owó èlé {num_digit_3, 2}% yóò wà lórí ẹyọ kọ̀ọ̀kan. Èló ní {name_female, Sheila} máa san ní oṣù kọ̀ọ̀kan fún oṣù {num_digit_2, 3}?",
+  "ic_sentence_template": "Arákùnrin {name_female, Shiela} ṣẹṣẹ gba àwọn àwòrán ìpolówó fóònù {num_ic, 82}.",
+  "ic_template": "Arákùnrin {name_female, Shiela} ṣẹṣẹ gba àwọn àwòrán ìpolówó fóònù {num_ic, 82}. {name_female, Sheila} ra ẹ̀rọ ìbánisọ̀rọ̀ márùn-ún ní ${num_digit_1, 150} ẹyọ kan fún ìsandíẹ̀díẹ̀ olóṣù-{num_digit_2, 3}. Owó èlé {num_digit_3, 2}% yóò wà lórí ẹyọ kọ̀ọ̀kan. Èló ní {name_female, Sheila} máa san ní oṣù kọ̀ọ̀kan fún oṣù {num_digit_2, 3}?",
+  "equation": "UPDATE HERE"
+}

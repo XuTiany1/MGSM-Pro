@@ -1,0 +1,8 @@
+{
+  "original_question": "Matumizi ya Joseph mwezi wa Mei yalikuwa $500. Mwezi wa Juni, matumizi yake yalipungua kwa $60. Jumla ya matumizi yake kwa miezi hiyo miwili ilikuwa ngapi?",
+  "original_answer": 940,
+  "symbolic_template": "Matumizi ya {name_male, Joseph} mwezi wa Mei yalikuwa ${num_digit_1, 500}. Mwezi wa Juni, matumizi yake yalipungua kwa ${num_digit_2, 60}. Jumla ya matumizi yake kwa miezi hiyo miwili ilikuwa ngapi?",
+  "ic_sentence_template": "Shangazi yake {name_male, Joseph} alipokea zawadi ya dola {num_ic, 412} mwezi uliopita.",
+  "ic_template": "Shangazi yake {name_male, Joseph} alipokea zawadi ya dola {num_ic, 412} mwezi uliopita. Matumizi ya {name_male, Joseph} mwezi wa Mei yalikuwa ${num_digit_1, 500}. Mwezi wa Juni, matumizi yake yalipungua kwa ${num_digit_2, 60}. Jumla ya matumizi yake kwa miezi hiyo miwili ilikuwa ngapi?",
+  "equation": "UPDATE HERE"
+}

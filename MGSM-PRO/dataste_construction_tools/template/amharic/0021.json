@@ -1,0 +1,8 @@
+{
+  "original_question": "ራይመንድ እና ሳማንታ የአጎት ልጆች ናቸው። ራይመንድ ከሳማንታ ከ6 ዓመት በፊት ተወለደ። ራይመንድ በ23 ዓመቱ ወንድ ልጅ ወለደ። ሳማንታ አሁን 31 ዓመት ከሆናት፣ የራይመንድ ልጅ የተወለደው ከስንት ዓመት በፊት ነው?",
+  "original_answer": 14,
+  "symbolic_template": "{name_male, ራይመንድ} እና {name_female, ሳማንታ} የአጎት ልጆች ናቸው። {name_male, ራይመንድ} ከ{name_female, ሳማንታ} ከ{num_digit_1, 6} ዓመት በፊት ተወለደ። {name_male, ራይመንድ} በ{num_digit_2, 23} ዓመቱ ወንድ ልጅ ወለደ። {name_female, ሳማንታ} አሁን {num_digit_3, 31} ዓመት ከሆናት፣ የ{name_male, ራይመንድ} ልጅ የተወለደው ከስንት ዓመት በፊት ነው?",
+  "ic_sentence_template": "የ{name_female, ሳማንታ} አጎቷ {num_ic, 77} ፖስትካርዶችን ይሰበስባል።",
+  "ic_template": "{name_male, ራይመንድ} እና {name_female, ሳማንታ} የአጎት ልጆች ናቸው። {name_male, ራይመንድ} ከ{name_female, ሳማንታ} ከ{num_digit_1, 6} ዓመት በፊት ተወለደ። {name_male, ራይመንድ} በ{num_digit_2, 23} ዓመቱ ወንድ ልጅ ወለደ። {name_female, ሳማንታ} አሁን {num_digit_3, 31} ዓመት ከሆናት፣ የ{name_male, ራይመንድ} ልጅ የተወለደው ከስንት ዓመት በፊት ነው? የ{name_female, ሳማንታ} አጎቷ {num_ic, 77} ፖስትካርዶችን ይሰበስባል።",
+  "equation": "UPDATE HERE"
+}

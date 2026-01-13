@@ -1,0 +1,8 @@
+{
+  "original_question": "约翰打算卖掉自己的所有玩具，然后用这笔钱购买电子游戏。他有 13 套乐高，每套卖 15 美元。他最后买了 8 款电子游戏，每款 20 美元，并且他还剩下 5 美元。他还剩下多少套乐高？",
+  "original_answer": 2,
+  "symbolic_template": "{name_male, 约翰} 打算卖掉自己的所有玩具，然后用这笔钱购买电子游戏。他有 {num_digit_1, 13} 套乐高，每套卖 {num_digit_2, 15} 美元。他最后买了 {num_digit_3, 8} 款电子游戏，每款 {num_digit_4, 20} 美元，并且他还剩下 {num_digit_5, 5} 美元。他还剩下多少套乐高？",
+  "ic_sentence_template": "{name_male, 约翰} 的叔叔最近买了 {num_ic, 38} 个动作人偶。",
+  "ic_template": "{name_male, 约翰} 的叔叔最近买了 {num_ic, 38} 个动作人偶。{name_male, 约翰} 打算卖掉自己的所有玩具，然后用这笔钱购买电子游戏。他有 {num_digit_1, 13} 套乐高，每套卖 {num_digit_2, 15} 美元。他最后买了 {num_digit_3, 8} 款电子游戏，每款 {num_digit_4, 20} 美元，并且他还剩下 {num_digit_5, 5} 美元。他还剩下多少套乐高？",
+  "equation": "UPDATE HERE"
+}

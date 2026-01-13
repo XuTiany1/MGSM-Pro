@@ -1,0 +1,8 @@
+{
+  "original_question": "Sԑ Raymond si nneԑma dodoɔ fa sԑ Sarah, na Sarah si nneԑma dodoɔ mmɔho 4 sԑ David a, hwehwԑ nsonsonoeԑ a ԑda nneԑma dodoɔ a Raymond ne David siiԑ sԑ Sarah si nneԑma 400 pounds a.",
+  "original_answer": 100,
+  "symbolic_template": "Sԑ {name_male_1, Raymond} si nneɛma dodoɔ fa sɛ {name_female, Sarah}, na {name_female, Sarah} si nneɛma dodoɔ mmɔho {num_digit_1, 4} sɛ {name_male_2, David} a, hwehwɛ nsonsonoeɛ a ɛda nneɛma dodoɔ a {name_male_1, Raymond} ne {name_male_2, David} siiɛ sɛ {name_female, Sarah} si nneɛma {num_digit_2, 400} pounds a.",
+  "ic_sentence_template": "{name_male_1, Raymond} sewaa bobɔɔ mpopaho {num_ic, 52} nnera.",
+  "ic_template": "{name_male_1, Raymond} sewaa bobɔɔ mpopaho {num_ic, 52} nnera. Sԑ {name_male_1, Raymond} si nneɛma dodoɔ fa sɛ {name_female, Sarah}, na {name_female, Sarah} si nneɛma dodoɔ mmɔho {num_digit_1, 4} sɛ {name_male_2, David} a, hwehwɛ nsonsonoeɛ a ɛda nneɛma dodoɔ a {name_male_1, Raymond} ne {name_male_2, David} siiɛ sɛ {name_female, Sarah} si nneɛma {num_digit_2, 400} pounds a.",
+  "equation": "UPDATE HERE"
+}

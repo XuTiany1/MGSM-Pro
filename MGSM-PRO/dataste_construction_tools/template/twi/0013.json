@@ -1,0 +1,8 @@
+{
+  "original_question": "Melanie yԑ ɔdetɔnnibaa a ɔkɔ pono-ne-pono. Ͻtɔn n'afidie a yԑde pepa fam no mu nkyԑmu mmiԑnsa wɔ efie ahaban mono no mu, mmienu bio wɔ efie kɔkɔɔ no mu, na deԑ aka no mu fa wɔ efie ankaa no mu. Sԑ Melanie wɔ afidie a wɔde pepa fam 5 na aka a, sԑn na ɔde hyԑԑ ase?",
+  "original_answer": 18,
+  "symbolic_template": "{name_female, Melanie} yԑ ɔdetɔnnibaa a ɔkɔ pono-ne-pono. Ͻtɔn n'afidie a yԑde pepa fam no mu nkyԑmu mmiɛnsa wɔ efie ahaban mono no mu, {num_digit_1, mmienu} bio wɔ efie kɔkɔɔ no mu, na deԑ aka no mu fa wɔ efie ankaa no mu. Sԑ {name_female, Melanie} wɔ afidie a wɔde pepa fam {num_digit_2, 5} na aka a, sԑn na ɔde hyԑԑ ase?",
+  "ic_sentence_template": "{name_female, Melanie} wɔfa tɔɔ ntama a wɔde pepaw nkyɛnsee {num_ic, 112} nnawɔtwe a atwamu.",
+  "ic_template": "{name_female, Melanie} yԑ ɔdetɔnnibaa a ɔkɔ pono-ne-pono. Ͻtɔn n'afidie a yԑde pepa fam no mu nkyԑmu mmiɛnsa wɔ efie ahaban mono no mu, {num_digit_1, mmienu} bio wɔ efie kɔkɔɔ no mu, na deԑ aka no mu fa wɔ efie ankaa no mu. Sԑ {name_female, Melanie} wɔ afidie a wɔde pepa fam {num_digit_2, 5} na aka a, sԑn na ɔde hyԑԑ ase? {name_female, Melanie} wɔfa tɔɔ ntama a wɔde pepaw nkyɛnsee {num_ic, 112} nnawɔtwe a atwamu.",
+  "equation": "UPDATE HERE"
+}

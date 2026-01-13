@@ -1,0 +1,8 @@
+{
+  "original_question": "Josie anapanda zabibu kwenye shamba lake la ekari 10. Kila ekari huzalisha tani 5 za zabibu kila mwaka, na kila tani ya zabibu hutengeneza mitungi 2 ya divai. Shamba lake huzalisha mitungi mingapi ya mvinyo kwa mwaka?",
+  "original_answer": 100,
+  "symbolic_template": "{name_female, Josie} hulima zabibu kwenye shamba lake la ekari {num_digit_1, 10}. Kila ekari huzalisha tani {num_digit_2, 5} za zabibu kwa mwaka, na kila tani ya zabibu hutengeneza mapipa {num_digit_3, 2} ya divai. Shamba lake huzalisha mapipa mangapi ya divai kwa mwaka?",
+  "ic_sentence_template": "Mjomba wa {name_female, Josie} anamiliki miti ya tufaha {num_ic, 289} karibu.",
+  "ic_template": "Mjomba wa {name_female, Josie} anamiliki miti ya tufaha {num_ic, 289} karibu. {name_female, Josie} hulima zabibu kwenye shamba lake la ekari {num_digit_1, 10}. Kila ekari huzalisha tani {num_digit_2, 5} za zabibu kwa mwaka, na kila tani ya zabibu hutengeneza mapipa {num_digit_3, 2} ya divai. Shamba lake huzalisha mapipa mangapi ya divai kwa mwaka?",
+  "equation": "UPDATE HERE"
+}

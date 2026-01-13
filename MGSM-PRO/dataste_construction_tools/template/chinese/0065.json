@@ -1,0 +1,8 @@
+{
+  "original_question": "吉姆看了 2 个小时的电视，然后决定在床上看 1 小时的书。他每周这样做 3 次。他在 4 周内用了多少时间看电视和看书？",
+  "original_answer": 36,
+  "symbolic_template": "{name_male, 吉姆} 看了 {num_digit_1, 2} 个小时的电视，然后决定在床上看比看电视 半 分钟的书。他每周这样做 {num_digit_2, 3} 次。他在 {num_digit_3, 4} 周内用了多少时间看电视和看书？",
+  "ic_sentence_template": "{name_male, 吉姆} 的叔叔每年会来看他 {num_ic, 34} 天。",
+  "ic_template": "{name_male, 吉姆} 的叔叔每年会来看他 {num_ic, 34} 天。{name_male, 吉姆} 看了 {num_digit_1, 2} 个小时的电视，然后决定在床上看比看电视 半 分钟的书。他每周这样做 {num_digit_2, 3} 次。他在 {num_digit_3, 4} 周内用了多少时间看电视和看书？",
+  "equation": "UPDATE HERE"
+}

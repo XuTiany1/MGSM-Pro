@@ -1,0 +1,8 @@
+{
+  "original_question": "梅兰妮是一名上门推销员。她在绿房子卖掉了三分之一的吸尘器，在红房子多卖了 2 台，在橙房子卖掉了剩下吸尘器的一半。如果 Melanie 还剩下 5 台吸尘器，她一开始有多少台吸尘器？",
+  "original_answer": 18,
+  "symbolic_template": "{name_female, 梅兰妮} 是一名上门推销员。她在绿房子卖掉了 三分之一 的吸尘器，在红房子多卖了 {num_digit_1, 2} 台，在橙房子卖掉了剩下吸尘器的 一半。如果 {name_female, Melanie} 还剩下 {num_digit_2, 5} 台吸尘器，她一开始有多少台吸尘器？",
+  "ic_sentence_template": "{name_female, 梅拉妮} 的阿姨上周买了 {num_ic, 112} 条厨房毛巾。",
+  "ic_template": "{name_female, 梅拉妮} 的阿姨上周买了 {num_ic, 112} 条厨房毛巾。{name_female, 梅兰妮} 是一名上门推销员。她在绿房子卖掉了 三分之一 的吸尘器，在红房子多卖了 {num_digit_1, 2} 台，在橙房子卖掉了剩下吸尘器的 一半。如果 {name_female, Melanie} 还剩下 {num_digit_2, 5} 台吸尘器，她一开始有多少台吸尘器？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Marissa na-aga ogologo ije mailụ 12. O ji otu awa gaa mailụ 4, wee jirikwa otu awa ọzọ gaa mailụ  abụọ nesote ya. Ọ bụrụ na ọ chọrọ ka nkezi ngwangwa ya bụrụ mailụ  4 kwa awa, kedụ ngwangwa (na mailụ kwa awa) ọ ga a chọọ iji gaa nke fọdụrụ? ",
+  "original_answer": 6,
+  "symbolic_template": "{name_female, Marissa} na-aga ogologo ije mailụ {num_digit_1, 12}. O ji {num_digit_2, 1} awa gaa mailụ {num_digit_3, 4}, wee jirikwa {num_digit_2, 1} awa ọzọ gaa mailụ abụọ nesote ya. Ọ bụrụ na ọ chọrọ ka nkezi ngwangwa ya bụrụ mailụ {num_digit_4, 4} kwa awa, kedụ ngwangwa (na mailụ kwa awa) ọ ga a chọọ iji gaa nke fọdụrụ?",
+  "ic_sentence_template": "Nwanne nne {name_female, Marissa} hụrụ ifuru ọhịa {num_ic, 49} n'akụkụ ụzọ.",
+  "ic_template": "Nwanne nne {name_female, Marissa} hụrụ ifuru ọhịa {num_ic, 49} n'akụkụ ụzọ. {name_female, Marissa} na-aga ogologo ije mailụ {num_digit_1, 12}. O ji {num_digit_2, 1} awa gaa mailụ {num_digit_3, 4}, wee jirikwa {num_digit_2, 1} awa ọzọ gaa mailụ abụọ nesote ya. Ọ bụrụ na ọ chọrọ ka nkezi ngwangwa ya bụrụ mailụ {num_digit_4, 4} kwa awa, kedụ ngwangwa (na mailụ kwa awa) ọ ga a chọọ iji gaa nke fọdụrụ?",
+  "equation": "UPDATE HERE"
+}

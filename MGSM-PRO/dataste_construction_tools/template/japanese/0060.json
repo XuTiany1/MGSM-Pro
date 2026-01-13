@@ -1,0 +1,8 @@
+{
+  "original_question": "かごには、1つだめになり、20%がまだ青く、2つが酸っぱく、残りがいい状態のオレンジが25個入っています。何個のオレンジがいい状態ですか？",
+  "original_answer": 17,
+  "symbolic_template": "かごには、{num_digit_2, 1}つだめになり、{num_digit_3, 20}%がまだ青く、{num_digit_4, 2}つが酸っぱく、残りがいい状態のオレンジが{num_digit_1, 25}個入っています。何個のオレンジがいい状態ですか？",
+  "ic_sentence_template": "{name_female, アリア}のおじさんは市場から{num_ic, 68}個のりんごを買ってきました。",
+  "ic_template": "{name_female, アリア}のおじさんは市場から{num_ic, 68}個のりんごを買ってきました。かごには、{num_digit_2, 1}つだめになり、{num_digit_3, 20}%がまだ青く、{num_digit_4, 2}つが酸っぱく、残りがいい状態のオレンジが{num_digit_1, 25}個入っています。何個のオレンジがいい状態ですか？",
+  "equation": "UPDATE HERE"
+}

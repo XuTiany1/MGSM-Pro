@@ -1,0 +1,8 @@
+{
+  "original_question": "Àwọn ẹyẹ mẹ́rin ló wà ní Caboose náà. Sally Two dàgbà ju Granny Red pelu ọdún mẹ́ta. Ọjọ́ orí Granny Red jẹ́ ìlọ́po méjì tii ti Sally Four. Ti Sally Four ba jẹ ọjọ ori kanna pẹ̀lú Sally Thirtytwo, tí Sally Thirtytwo jẹ ọmọ ọdún mẹ́jọ, kini apapọ ọjọ ori ti awọn ẹiyẹ mẹ́rẹ̀rin?",
+  "original_answer": 51,
+  "symbolic_template": "Àwọn ẹyẹ mẹ́rin ló wà ní Caboose náà. {name_female_1, Sally} Two dàgbà ju {name_female_2, Granny} {name_color, Red} pelu ọdún mẹ́ta. Ọjọ́ orí {name_female_2, Granny} {name_color, Red} jẹ́ ìlọ́po méjì tii ti {name_female_1, Sally} Four. Ti {name_female_1, Sally} Four ba jẹ ọjọ ori kanna pẹ̀lú {name_female_1, Sally} Thirtytwo, tí {name_female_1, Sally} Thirtytwo jẹ ọmọ ọdún {num_digit_1, 8}, kini apapọ ọjọ ori ti awọn ẹiyẹ mẹ́rẹ̀rin?",
+  "ic_sentence_template": "{name_female_2, Granny} {name_color, Red} ọmọ bíbí arákùnrin rẹ̀ kó àwọn bọ́ọ̀lù ayò {num_ic, 93}.",
+  "ic_template": "Àwọn ẹyẹ mẹ́rin ló wà ní Caboose náà. {name_female_1, Sally} Two dàgbà ju {name_female_2, Granny} {name_color, Red} pelu ọdún mẹ́ta. Ọjọ́ orí {name_female_2, Granny} {name_color, Red} jẹ́ ìlọ́po méjì tii ti {name_female_1, Sally} Four. Ti {name_female_1, Sally} Four ba jẹ ọjọ ori kanna pẹ̀lú {name_female_1, Sally} Thirtytwo, tí {name_female_1, Sally} Thirtytwo jẹ ọmọ ọdún {num_digit_1, 8}, kini apapọ ọjọ ori ti awọn ẹiyẹ mẹ́rẹ̀rin? {name_female_2, Granny} {name_color, Red} ọmọ bíbí arákùnrin rẹ̀ kó àwọn bọ́ọ̀lù ayò {num_ic, 93}.",
+  "equation": "UPDATE HERE"
+}

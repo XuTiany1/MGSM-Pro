@@ -1,0 +1,8 @@
+{
+  "original_question": "玛丽订购了一份 12 美元的鸡肉饭、5 盒牛奶（每盒 3 美元）、4 颗苹果（每颗 1.50 美元）和几盒披萨。Marie 一共支付了 50 美元。如果每盒披萨 8.50 美元，Marie 订购了多少盒？",
+  "original_answer": 2,
+  "symbolic_template": "{name_female, 玛丽} 订购了一份 {num_digit_1, 12} 美元的鸡肉饭、{num_digit_2, 5} 盒牛奶（每盒 {num_digit_3, 3} 美元）、{num_digit_4, 4} 颗苹果（每颗 {num_digit_5, 1.50} 美元）和几盒披萨。{name_female, 玛丽} 一共支付了 {num_digit_6, 50} 美元。如果每盒披萨 {num_digit_7, 8.50} 美元，{name_female, 玛丽} 订购了多少盒？",
+  "ic_sentence_template": "{name_female, 玛丽} 的表亲最近买了 {num_ic, 128} 个纸杯蛋糕。",
+  "ic_template": "{name_female, 玛丽} 的表亲最近买了 {num_ic, 128} 个纸杯蛋糕。{name_female, 玛丽} 订购了一份 {num_digit_1, 12} 美元的鸡肉饭、{num_digit_2, 5} 盒牛奶（每盒 {num_digit_3, 3} 美元）、{num_digit_4, 4} 颗苹果（每颗 {num_digit_5, 1.50} 美元）和几盒披萨。{name_female, 玛丽} 一共支付了 {num_digit_6, 50} 美元。如果每盒披萨 {num_digit_7, 8.50} 美元，{name_female, 玛丽} 订购了多少盒？",
+  "equation": "UPDATE HERE"
+}

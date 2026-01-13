@@ -1,0 +1,8 @@
+{
+  "original_question": "迈克尔喜欢骑自行车。他每周至少骑 5 次，每次骑 25 公里。他这样骑了 4 周，然后他决定每周只骑自行车 2 次，但每次骑 60 公里，而且他这样骑了 3 周。迈克尔一共骑了多少公里？",
+  "original_answer": 860,
+  "symbolic_template": "{name_male, 迈克尔} 喜欢骑自行车。他每周至少骑 {num_digit_1, 5} 次，每次骑 {num_digit_2, 25} 公里。他这样骑了 4 周，然后他决定每周只骑自行车 {num_digit_3, 2} 次，但每次骑 {num_digit_4, 60} 公里，而且他这样骑了 {num_digit_5, 3} 周。{name_male, 迈克尔} 一共骑了多少公里？",
+  "ic_sentence_template": "{name_male, 迈克尔}的叔叔有 {num_ic, 105} 张棒球卡。",
+  "ic_template": "{name_male, 迈克尔}的叔叔有 {num_ic, 105} 张棒球卡。{name_male, 迈克尔} 喜欢骑自行车。他每周至少骑 {num_digit_1, 5} 次，每次骑 {num_digit_2, 25} 公里。他这样骑了 4 周，然后他决定每周只骑自行车 {num_digit_3, 2} 次，但每次骑 {num_digit_4, 60} 公里，而且他这样骑了 {num_digit_5, 3} 周。{name_male, 迈克尔} 一共骑了多少公里？",
+  "equation": "UPDATE HERE"
+}

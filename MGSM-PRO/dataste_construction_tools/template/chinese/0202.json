@@ -1,0 +1,8 @@
+{
+  "original_question": "乔茜在她 10 英亩的农场里种植葡萄。每英亩每年产出 5 吨葡萄，每吨葡萄产出 2 桶葡萄酒。她的农场每年产出多少桶葡萄酒？",
+  "original_answer": 100,
+  "symbolic_template": "{name_female, 乔茜} 在她 {num_digit_1, 10} 英亩的农场里种植葡萄。每英亩每年产出 {num_digit_2, 5} 吨葡萄，每吨葡萄产出 {num_digit_3, 2} 桶葡萄酒。她的农场每年产出多少桶葡萄酒？",
+  "ic_sentence_template": "{name_female, 乔茜} 的叔叔在附近拥有 {num_ic, 289} 棵苹果树。",
+  "ic_template": "{name_female, 乔茜} 的叔叔在附近拥有 {num_ic, 289} 棵苹果树。{name_female, 乔茜} 在她 {num_digit_1, 10} 英亩的农场里种植葡萄。每英亩每年产出 {num_digit_2, 5} 吨葡萄，每吨葡萄产出 {num_digit_3, 2} 桶葡萄酒。她的农场每年产出多少桶葡萄酒？",
+  "equation": "UPDATE HERE"
+}

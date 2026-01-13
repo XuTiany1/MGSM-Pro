@@ -1,0 +1,8 @@
+{
+  "original_question": "Adua twene bi ntuma ԑnkuta mboro pounds 5000. Hyԑn kԑseԑ a ԑde amanfoɔ nneԑma mane no kuta nnaka a ԑdi nsԑ a baako biara mmuduru yԑ pounds 15, bԑfa twene no so. Sԑ wɔka hyԑnkani no ne hyԑn no a hwee nni no mu a, muduru no nyinaa yԑ pounds 3755. Nnaka dodoɔ sԑn na wɔbԑtumi de agu hyԑn no mu berԑ a wɔmboro twene no mmuduro tumi no so?",
+  "original_answer": 83,
+  "symbolic_template": "Adua twene bi ntuma ԑnkuta mboro pounds {num_digit_1, 5000}. Hyԑn kԑseԑ a ԑde amanfoɔ nneԑma mane no kuta nnaka a ԑdi nsԑ a baako biara mmuduru yԑ pounds {num_digit_2, 15}, bԑfa twene no so. Sԑ wɔka hyԑnkani no ne hyԑn no a hwee nni no mu a, muduru no nyinaa yԑ pounds {num_digit_3, 3755}. Nnaka dodoɔ sԑn na wɔbԑtumi de agu hyԑn no mu berԑ a wɔmboro twene no mmuduro tumi no so?",
+  "ic_sentence_template": "Lɔrekafo no wɔfa de pumpkin {num_ic, 215} kɔɔ akwantu biako pɛ.",
+  "ic_template": "Lɔrekafo no wɔfa de pumpkin {num_ic, 215} kɔɔ akwantu biako pɛ. Adua twene bi ntuma ԑnkuta mboro pounds {num_digit_1, 5000}. Hyԑn kԑseԑ a ԑde amanfoɔ nneԑma mane no kuta nnaka a ԑdi nsԑ a baako biara mmuduru yԑ pounds {num_digit_2, 15}, bԑfa twene no so. Sԑ wɔka hyԑnkani no ne hyԑn no a hwee nni no mu a, muduru no nyinaa yԑ pounds {num_digit_3, 3755}. Nnaka dodoɔ sԑn na wɔbԑtumi de agu hyԑn no mu berԑ a wɔmboro twene no mmuduro tumi no so?",
+  "equation": "UPDATE HERE"
+}

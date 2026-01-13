@@ -1,0 +1,8 @@
+{
+  "original_question": "Carla ԑretwe krataa 200 GB afiri abԑԑfo ntontan so. Anka dabia no, ɔtumi twe 2GB simma biara, nanso ɔtwee ԑmu 40% no, Windows no dum san sɔɔԑ sԑ ԑde nhyeheԑ foforɔ ԑԑgu afidie no so, na ԑdii simma 20. Na ԑwɔsԑ Carla san hyԑ adeԑ a ɔretwe n’ase no bio firi mfitiaseԑ no. Adesoa sԑn na ehia ansa na watumi atwe krataa no.",
+  "original_answer": 160,
+  "symbolic_template": "{name_female, Carla} ԑretwe krataa {num_digit_1, 200} GB afiri abԑԑfo ntontan so. Anka dabia no, ɔtumi twe {num_digit_2, 2} GB simma biara, nanso ɔtwee ԑmu {num_digit_3, 40}% no, Windows no dum san sɔɔԑ sԑ ԑde nhyeheԑ foforɔ ԑԑgu afidie no so, na ԑdii simma {num_digit_4, 20}. Na ԑwɔsԑ {name_female, Carla} san hyԑ adeԑ a ɔretwe n’ase no bio firi mfitiaseԑ no. Adesoa sԑn na ehia ansa na watumi atwe krataa no.",
+  "ic_sentence_template": "{name_female, Carla} ne wɔfa atɔ kɔmputa ho nnuoma {num_ic, 110} foforo nnansa yi ara.",
+  "ic_template": "{name_female, Carla} ne wɔfa atɔ kɔmputa ho nnuoma {num_ic, 110} foforo nnansa yi ara. {name_female, Carla} ԑretwe krataa {num_digit_1, 200} GB afiri abԑԑfo ntontan so. Anka dabia no, ɔtumi twe {num_digit_2, 2} GB simma biara, nanso ɔtwee ԑmu {num_digit_3, 40}% no, Windows no dum san sɔɔԑ sԑ ԑde nhyeheԑ foforɔ ԑԑgu afidie no so, na ԑdii simma {num_digit_4, 20}. Na ԑwɔsԑ {name_female, Carla} san hyԑ adeԑ a ɔretwe n’ase no bio firi mfitiaseԑ no. Adesoa sԑn na ehia ansa na watumi atwe krataa no.",
+  "equation": "UPDATE HERE"
+}

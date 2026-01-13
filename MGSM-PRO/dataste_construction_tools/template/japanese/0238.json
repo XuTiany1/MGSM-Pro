@@ -1,0 +1,8 @@
+{
+  "original_question": "メアリーはジョーンより2歳若く、ジョーンはジェサより5歳年上です。ジェサが20歳の場合、3人の年齢の合計は何歳ですか？",
+  "original_answer": 68,
+  "symbolic_template": "{name_female_1, メアリー}は{name_female_2, ジョーン}より二歳若く、{name_female_2, ジョーン}は{name_female_3, ジェサ}より五歳年上です。{name_female_3, ジェサ}が{num_digit_1, 20}歳の場合、3人の年齢の合計は何歳ですか？",
+  "ic_sentence_template": "{name_female_2, ジョーン}のおじさんは{num_ic, 73}枚の野球カードを持っています。",
+  "ic_template": "{name_female_2, ジョーン}のおじさんは{num_ic, 73}枚の野球カードを持っています。{name_female_1, メアリー}は{name_female_2, ジョーン}より二歳若く、{name_female_2, ジョーン}は{name_female_3, ジェサ}より五歳年上です。{name_female_3, ジェサ}が{num_digit_1, 20}歳の場合、3人の年齢の合計は何歳ですか？",
+  "equation": "UPDATE HERE"
+}

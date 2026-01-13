@@ -1,0 +1,8 @@
+{
+  "original_question": "Àwọn akẹ́kọ̀ọ́ mẹ́rin gba àpapọ̀ àmì 251 nínú eré ìgbìmọ̀. Naomi gba àmì 68 nínú àmì náà. Yuri gba àmì mẹ́wàá ju ìdajì àmì Naomi, Brianna sì gba àmì 17 ju Naomi lọ. Àmì mélòó ni Jojo gba?",
+  "original_answer": 54,
+  "symbolic_template": "Àwọn akẹ́kọ̀ọ́ mẹ́rin gba àpapọ̀ àmì {num_digit_1, 251} nínú eré ìgbìmọ̀. {name_female_1, Naomi} gba àmì {num_digit_2, 68} nínú àmì náà. {name_female_2, Yuri} gba àmì {num_digit_3, 10} ju ìdajì àmì {name_female_1, Naomi}, {name_female_3, Brianna} sì gba àmì {num_digit_4, 17} ju {name_female_1, Naomi} lọ. Àmì mélòó ni {name_female_4, Jojo} gba?",
+  "ic_sentence_template": "Òkò {name_female_3, Brianna} mú ọ̀pọ̀ àkàrà wa fún gbogbo ènìyàn—{num_ic, 38} gẹ́gẹ́ bí ìṣírí.",
+  "ic_template": "Òkò {name_female_3, Brianna} mú ọ̀pọ̀ àkàrà wa fún gbogbo ènìyàn—{num_ic, 38} gẹ́gẹ́ bí ìṣírí. Àwọn akẹ́kọ̀ọ́ mẹ́rin gba àpapọ̀ àmì {num_digit_1, 251} nínú eré ìgbìmọ̀. {name_female_1, Naomi} gba àmì {num_digit_2, 68} nínú àmì náà. {name_female_2, Yuri} gba àmì {num_digit_3, 10} ju ìdajì àmì {name_female_1, Naomi}, {name_female_3, Brianna} sì gba àmì {num_digit_4, 17} ju {name_female_1, Naomi} lọ. Àmì mélòó ni {name_female_4, Jojo} gba?",
+  "equation": "UPDATE HERE"
+}

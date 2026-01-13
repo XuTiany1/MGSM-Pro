@@ -1,0 +1,8 @@
+{
+  "original_question": "Ilé ìwòsàn kan máa ń rí ènìyàn 500 lójúmọ‌. Iye àkókò tí wọ́n fi ń dá aláìsàn kọ‌ọ‌kan lóhùn jẹ́ bíi ìṣẹ‌jú 24. Àwọn dókítà máa ń gba $150 ní wákàtí kan lọ́wọ́ ilé ìwòsàn, ilé ìwòsàn náà sì ń gba $200 lọ́wọ́ àwọn aláìsàn náà ní wákàtí kan. Èrè mélòó ni ilé ìwòsàn náà máa ń rí láti inú àbẹ‌wò wọ‌nyí?",
+  "original_answer": 10000,
+  "symbolic_template": "Ilé ìwòsàn kan máa ń rí ènìyàn {num_digit_1, 500} lójúmọ‌. Iye àkókò tí wọ́n fi ń dá aláìsàn kọ‌ọ‌kan lóhùn jẹ́ bíi ìṣẹ‌jú {num_digit_2, 24}. Àwọn dókítà máa ń gba ${num_digit_3, 150} ní wákàtí kan lọ́wọ́ ilé ìwòsàn, ilé ìwòsàn náà sì ń gba ${num_digit_4, 200} lọ́wọ́ àwọn aláìsàn náà ní wákàtí kan. Èrè mélòó ni ilé ìwòsàn náà máa ń rí láti inú àbẹ‌wò wọ‌nyí?",
+  "ic_sentence_template": "Arákùnrin arákùnrin olùdarí iléewosan mú àwọn ìwé ìròyìn {num_ic, 64} wá fún ibi tí wọ́n ti ń dúró.",
+  "ic_template": "Arákùnrin arákùnrin olùdarí iléewosan mú àwọn ìwé ìròyìn {num_ic, 64} wá fún ibi tí wọ́n ti ń dúró. Ilé ìwòsàn kan máa ń rí ènìyàn {num_digit_1, 500} lójúmọ‌. Iye àkókò tí wọ́n fi ń dá aláìsàn kọ‌ọ‌kan lóhùn jẹ́ bíi ìṣẹ‌jú {num_digit_2, 24}. Àwọn dókítà máa ń gba ${num_digit_3, 150} ní wákàtí kan lọ́wọ́ ilé ìwòsàn, ilé ìwòsàn náà sì ń gba ${num_digit_4, 200} lọ́wọ́ àwọn aláìsàn náà ní wákàtí kan. Èrè mélòó ni ilé ìwòsàn náà máa ń rí láti inú àbẹ‌wò wọ‌nyí?",
+  "equation": "UPDATE HERE"
+}

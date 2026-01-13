@@ -1,0 +1,8 @@
+{
+  "original_question": "米什卡买了 3 条短裤、3 条长裤和 3 双鞋。短裤每条 16.50 美元，长裤每条 22.50 美元，鞋子每双 42 美元。米什卡购买所有这些服饰一共花了多少钱？",
+  "original_answer": 243,
+  "symbolic_template": "{name_female, 米什卡} 买了 {num_digit_1, 3} 条短裤、{num_digit_2, 3} 条长裤和 {num_digit_3, 3} 双鞋。短裤每条 {num_digit_4, 16.50} 美元，长裤每条 {num_digit_5, 22.50} 美元，鞋子每双 {num_digit_6, 42} 美元。{name_female, 米什卡} 购买所有这些服饰一共花了多少钱？",
+  "ic_sentence_template": "{name_female, 米什卡} 的叔叔最近买了 {num_ic, 12} 顶帽子。",
+  "ic_template": "{name_female, 米什卡} 的叔叔最近买了 {num_ic, 12} 顶帽子。{name_female, 米什卡} 买了 {num_digit_1, 3} 条短裤、{num_digit_2, 3} 条长裤和 {num_digit_3, 3} 双鞋。短裤每条 {num_digit_4, 16.50} 美元，长裤每条 {num_digit_5, 22.50} 美元，鞋子每双 {num_digit_6, 42} 美元。{name_female, 米什卡} 购买所有这些服饰一共花了多少钱？",
+  "equation": "UPDATE HERE"
+}

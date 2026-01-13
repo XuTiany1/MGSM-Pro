@@ -1,0 +1,8 @@
+{
+  "original_question": "Josha anaamua kujaribu kununua nyumba na kuuza kwa faida. Ananunua nyumba kwa $80,000 na kutumia $50,000 kuikarabati. Hii iliongeza thamani ya nyumba hiyo kwa 150%. Alipata faida ya kiasi gani?",
+  "original_answer": 70000,
+  "symbolic_template": "{name_male, Josh} anaamua kujaribu kununua nyumba na kuuza kwa faida. Ananunua nyumba kwa ${num_digit_1, 80,000} na kutumia ${num_digit_2, 50,000} kuikarabati. Hii iliongeza thamani ya nyumba hiyo kwa {num_digit_3, 150}%. Alipata faida ya kiasi gani?",
+  "ic_sentence_template": "Mjomba wa {name_male, Josh} hivi karibuni aliuza matofali {num_ic, 124000} kwa ajili ya mradi wa ujenzi.",
+  "ic_template": "Mjomba wa {name_male, Josh} hivi karibuni aliuza matofali {num_ic, 124000} kwa ajili ya mradi wa ujenzi. {name_male, Josh} anaamua kujaribu kununua nyumba na kuuza kwa faida. Ananunua nyumba kwa ${num_digit_1, 80,000} na kutumia ${num_digit_2, 50,000} kuikarabati. Hii iliongeza thamani ya nyumba hiyo kwa {num_digit_3, 150}%. Alipata faida ya kiasi gani?",
+  "equation": "UPDATE HERE"
+}

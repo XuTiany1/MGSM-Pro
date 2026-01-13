@@ -1,0 +1,8 @@
+{
+  "original_question": "Sadie alilala saa 8 Jumatatu. Kwa siku mbili zinazofuata, alilala saa 2 kidogo, kila moja, kwa sababu alihitaji kukamilisha kazi zake za ziada. Ikiwa siku zilizosalia kwa wiki alilala saa 1 zaidi ya siku hizo mbili, alilala saa ngapi kwa jumla katika wiki nzima?",
+  "original_answer": 48,
+  "symbolic_template": "{name_female, Sadie} alilala masaa {num_digit_1, 8} siku ya Jumatatu. Kwa siku mbili zilizofuata, alilala masaa {num_digit_2, 2} pungufu kila siku kwa sababu alikuwa akikamilisha kazi. Ikiwa siku zilizobaki za wiki alilala saa {num_digit_3, 1} zaidi ya zile siku mbili, alilala masaa mangapi kwa jumla katika wiki nzima?",
+  "ic_sentence_template": "Mjomba wa {name_female, Sadie} alikunywa vikombe {num_ic, 23} vya kahawa wiki iliyopita.",
+  "ic_template": "Mjomba wa {name_female, Sadie} alikunywa vikombe {num_ic, 23} vya kahawa wiki iliyopita. {name_female, Sadie} alilala masaa {num_digit_1, 8} siku ya Jumatatu. Kwa siku mbili zilizofuata, alilala masaa {num_digit_2, 2} pungufu kila siku kwa sababu alikuwa akikamilisha kazi. Ikiwa siku zilizobaki za wiki alilala saa {num_digit_3, 1} zaidi ya zile siku mbili, alilala masaa mangapi kwa jumla katika wiki nzima?",
+  "equation": "UPDATE HERE"
+}

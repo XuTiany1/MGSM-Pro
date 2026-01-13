@@ -1,0 +1,8 @@
+{
+  "original_question": "Rose lọ sí ilé ìtajà lọ́jọ́ Ajé ó sì ra àkàrà òyìnbó mẹ́rin. Ní ọjọ́ Ìṣẹ́gun ó lọ sí ilé ìtajà mìíràn ó sì ra ìlọ́po mẹ́ta iye àkàrà òyìnbó yẹn. Ní ọjọ́rú ó lọ sí ilé ìtajà mìíràn ó sì ra ìlọ́po márùn-ún iye àkàrà òyìnbó tí ó ṣe lọ́jọ́ Ìṣẹ́gun. Àkàrà òyìnbó mélòó ni ó rà lẹ́yìn gbogbo ọjọ́ mẹ́ta?",
+  "original_answer": 76,
+  "symbolic_template": "{name_female, Rose} lọ sí ilé ìtajà lọ́jọ́ Ajé ó sì ra àkàrà òyìnbó {num_digit_1, 4}. Ní ọjọ́ Ìṣẹ́gun ó lọ sí ilé ìtajà mìíràn ó sì ra ìlọ́po mẹ́ta iye àkàrà òyìnbó yẹn. Ní ọjọ́rú ó lọ sí ilé ìtajà mìíràn ó sì ra ìlọ́po {num_digit_2, 5} iye àkàrà òyìnbó tí ó ṣe lọ́jọ́ Ìṣẹ́gun. Àkàrà òyìnbó mélòó ni ó rà lẹ́yìn gbogbo ọjọ́ mẹ́ta?",
+  "ic_sentence_template": "Ìyáwó baba {name_female, Rose} rẹ̀ sè àkàrà oyinbo {num_ic, 85} lọ́jọ́ ìparí ọ̀sẹ̀ tó kọjá.",
+  "ic_template": "Ìyáwó baba {name_female, Rose} rẹ̀ sè àkàrà oyinbo {num_ic, 85} lọ́jọ́ ìparí ọ̀sẹ̀ tó kọjá. {name_female, Rose} lọ sí ilé ìtajà lọ́jọ́ Ajé ó sì ra àkàrà òyìnbó {num_digit_1, 4}. Ní ọjọ́ Ìṣẹ́gun ó lọ sí ilé ìtajà mìíràn ó sì ra ìlọ́po mẹ́ta iye àkàrà òyìnbó yẹn. Ní ọjọ́rú ó lọ sí ilé ìtajà mìíràn ó sì ra ìlọ́po {num_digit_2, 5} iye àkàrà òyìnbó tí ó ṣe lọ́jọ́ Ìṣẹ́gun. Àkàrà òyìnbó mélòó ni ó rà lẹ́yìn gbogbo ọjọ́ mẹ́ta?",
+  "equation": "UPDATE HERE"
+}

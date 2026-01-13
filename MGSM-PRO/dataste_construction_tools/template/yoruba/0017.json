@@ -1,0 +1,8 @@
+{
+  "original_question": "Jill ń gba $20 fún wákàtí kan láti kọ́mọ àti $30 láti jẹ́ olùkọ́ni àwọn aṣekóríyá. Tí ó bá ń ṣiṣẹ́ fún ọ̀sẹ̀ 50 lọ́dún kan, wákàtí 35 lọ́sẹ̀ kan gẹ́gẹ́ bíi olùkọ́ àti wákàtí 15 lọ́sẹ̀ kan gẹ́gẹ́ bí olùkọ́ni, kínní owó oṣù rẹ̀ lọ́dún?",
+  "original_answer": 57500,
+  "symbolic_template": "{name_female, Jill} ń gba ${num_digit_1, 20} fún wákàtí kan láti kọ́mọ àti ${num_digit_2, 30} láti jẹ́ olùkọ́ni àwọn aṣekóríyá. Tí ó bá ń ṣiṣẹ́ fún ọ̀sẹ̀ {num_digit_3, 50} lọ́dún kan, wákàtí {num_digit_4, 35} lọ́sẹ̀ kan gẹ́gẹ́ bíi olùkọ́ àti wákàtí {num_digit_5, 15} lọ́sẹ̀ kan gẹ́gẹ́ bí olùkọ́ni, kínní owó oṣù rẹ̀ lọ́dún?",
+  "ic_sentence_template": "Arákùnrin {name_female, Jill} láìpẹ́ yìí tẹ́wọ́gba ọmọ ajá {num_ic, 127} tuntun.",
+  "ic_template": "Arákùnrin {name_female, Jill} láìpẹ́ yìí tẹ́wọ́gba ọmọ ajá {num_ic, 127} tuntun. {name_female, Jill} ń gba ${num_digit_1, 20} fún wákàtí kan láti kọ́mọ àti ${num_digit_2, 30} láti jẹ́ olùkọ́ni àwọn aṣekóríyá. Tí ó bá ń ṣiṣẹ́ fún ọ̀sẹ̀ {num_digit_3, 50} lọ́dún kan, wákàtí {num_digit_4, 35} lọ́sẹ̀ kan gẹ́gẹ́ bíi olùkọ́ àti wákàtí {num_digit_5, 15} lọ́sẹ̀ kan gẹ́gẹ́ bí olùkọ́ni, kínní owó oṣù rẹ̀ lọ́dún?",
+  "equation": "UPDATE HERE"
+}

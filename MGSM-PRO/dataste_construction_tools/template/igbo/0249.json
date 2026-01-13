@@ -1,0 +1,8 @@
+{
+  "original_question": "Na Mọnde, Sue riri dị ka ọtụtụ kuki ugboro anọ karịa dị ka nwanne ya nwanyị. Na Tuzdee, o riri dị ka ọtụtụ kuki ugboro abụọ karịa dị ka nwanne ya nwanyị. Nwanne ya nwanyị riri kuki ise na Mọnde yana iri na atọ n'ụbọchị na-eso ya. Ọ bụrụ na otu kuki nwere kalori nari abụọ, kalori ole ka Sue riri karịa nwanne ya nwanyị?",
+  "original_answer": 5600,
+  "symbolic_template": "Na Mọnde, {name_female, Sue} riri dị ka ọtụtụ kuki ugboro {num_digit_1, 4} karịa dị ka nwanne ya nwanyị. Na Tuzdee, o riri dị ka ọtụtụ kuki ugboro abụọ karịa dị ka nwanne ya nwanyị. Nwanne ya nwanyị riri kuki {num_digit_2, 5} na Mọnde yana {num_digit_3, 13} n'ụbọchị na-eso ya. Ọ bụrụ na {num_digit_4, 1} kuki nwere kalori {num_digit_5, 200}, kalori ole ka {name_female, Sue} riri karịa nwanne ya nwanyị?",
+  "ic_sentence_template": "Nwanne nne {name_female, Sue} bịara n'ụlọ ha nwere achịcha {num_ic, 15}.",
+  "ic_template": "Nwanne nne {name_female, Sue} bịara n'ụlọ ha nwere achịcha {num_ic, 15}. Na Mọnde, {name_female, Sue} riri dị ka ọtụtụ kuki ugboro {num_digit_1, 4} karịa dị ka nwanne ya nwanyị. Na Tuzdee, o riri dị ka ọtụtụ kuki ugboro abụọ karịa dị ka nwanne ya nwanyị. Nwanne ya nwanyị riri kuki {num_digit_2, 5} na Mọnde yana {num_digit_3, 13} n'ụbọchị na-eso ya. Ọ bụrụ na {num_digit_4, 1} kuki nwere kalori {num_digit_5, 200}, kalori ole ka {name_female, Sue} riri karịa nwanne ya nwanyị?",
+  "equation": "UPDATE HERE"
+}

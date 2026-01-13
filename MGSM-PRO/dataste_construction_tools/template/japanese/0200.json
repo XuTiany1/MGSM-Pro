@@ -1,0 +1,8 @@
+{
+  "original_question": "バルダーは井戸から水を得る。彼は毎朝桶5杯の水を得て、午後は毎日6杯の水を得る。もし1桶につき5リットルの水が入っているなら、彼は毎日何リットルの水を得ているか？",
+  "original_answer": 55,
+  "symbolic_template": "{name_male, バルダー} は井戸から水を得る。彼は毎朝桶{num_digit_1, 5}杯の水を得て、午後は毎日{num_digit_2, 6}杯の水を得る。もし1桶につき{num_digit_3, 5}リットルの水が入っているなら、彼は毎日何リットルの水を得ているか？",
+  "ic_sentence_template": "{name_male, バルドル}のおじさんは{num_ic, 137}枚の木の板で納屋を建てました。",
+  "ic_template": "{name_male, バルドル}のおじさんは{num_ic, 137}枚の木の板で納屋を建てました。{name_male, バルダー} は井戸から水を得る。彼は毎朝桶{num_digit_1, 5}杯の水を得て、午後は毎日{num_digit_2, 6}杯の水を得る。もし1桶につき{num_digit_3, 5}リットルの水が入っているなら、彼は毎日何リットルの水を得ているか？",
+  "equation": "UPDATE HERE"
+}

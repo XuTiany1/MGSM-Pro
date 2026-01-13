@@ -1,0 +1,8 @@
+{
+  "original_question": "Mary mkulima wa bustani mwenye shauku. Jana, alipokea mimea 18 iliyowekwa kwenye nyungu kutoka kwa bustani ya miche anayopendelea zaidi. Tayari ana mimea 2 kwenye nyungu kwenye kila vishubaka 40 vya dirisha lake katika boma lake kubwa la mashambani. Kwa kuwa na ukarimu, ameamua kuwa kesho atapeana mmea 1 ulio kwenye chungu kutoka kwa kila kishubaka kwa marafiki na familia. Mary atasalia na mimea mingapi iliyo kwenye nyungu?",
+  "original_answer": 58,
+  "symbolic_template": "{name_female, Mary} ni mpanzi hodari. Jana alipokea mimea mipya yenye chungu {num_digit_1, 18} kutoka katika kitalu chake anachokipenda. Tayari ana chungu {num_digit_2, 2} za mimea kwenye kila kizingiti cha madirisha {num_digit_3, 40} cha nyumba yake kubwa ya mashambani. Akiwa mkarimu, ameamua atatoa chungu {num_digit_4, 1} ya mmea kutoka kwenye kila kizingiti kwa marafiki na familia kesho. {name_female, Mary} atasalia na mimea mingapi?",
+  "ic_sentence_template": "Shangazi wa {name_female, Mary} aliwahi kukusanya vigae adimu vya maua {num_ic, 217}.",
+  "ic_template": "Shangazi wa {name_female, Mary} aliwahi kukusanya vigae adimu vya maua {num_ic, 217}. {name_female, Mary} ni mpanzi hodari. Jana alipokea mimea mipya yenye chungu {num_digit_1, 18} kutoka katika kitalu chake anachokipenda. Tayari ana chungu {num_digit_2, 2} za mimea kwenye kila kizingiti cha madirisha {num_digit_3, 40} cha nyumba yake kubwa ya mashambani. Akiwa mkarimu, ameamua atatoa chungu {num_digit_4, 1} ya mmea kutoka kwenye kila kizingiti kwa marafiki na familia kesho. {name_female, Mary} atasalia na mimea mingapi?",
+  "equation": "UPDATE HERE"
+}

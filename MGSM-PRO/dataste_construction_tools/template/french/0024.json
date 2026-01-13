@@ -1,0 +1,8 @@
+{
+  "original_question": "Kyle a acheté le livre le plus vendu de l'année dernière à 19,50 $, en bénéficiant d'une remise de 25 % sur le prix initial. Quel est le prix initial du livre ?",
+  "original_answer": 26,
+  "symbolic_template": "{name_male, Kyle} a acheté le livre le plus vendu de l'année dernière à {num_digit_1, 19.50} $, en bénéficiant d'une remise de {num_digit_2, 25} % sur le prix initial. Quel est le prix initial du livre ?",
+  "ic_sentence_template": "{name_male, Kyle} avait une tante qui lisait {num_ic, 326332763} magazines chaque année.",
+  "ic_template": "{name_male, Kyle} avait une tante qui lisait {num_ic, 326332763} magazines chaque année. {name_male, Kyle} a acheté le livre le plus vendu de l'année dernière à {num_digit_1, 19.50} $, en bénéficiant d'une remise de {num_digit_2, 25} % sur le prix initial. Quel est le prix initial du livre ?",
+  "equation": "UPDATE HERE"
+}

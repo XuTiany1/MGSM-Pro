@@ -1,0 +1,8 @@
+{
+  "original_question": "Na Johnny reboaboa abaduaba no wɔ ne dan no fam. Ɔto Lego adaka sini a wɔde nnua 500 ayɛ ɛguu ɛfam, baako a emu sini dɔɔso sen nea wɔde sini 500 ayɛ no mmiensa, ne  emu baako mu enan sini dɔɔso sen nea wɔde nnua 500 ayɛ no mmiensa. Sɛ Johnny boaboa abaduaba no nyinaa ano a, ntayaa dodoɔ ahe na obenya?",
+  "original_answer": 2125,
+  "symbolic_template": "Na {name_male, Johnny} reboaboa abaduaba no wɔ ne dan no fam. Ɔto Lego adaka sini a wɔde nnua {num_digit_1, 500} ayɛ ɛguu ɛfam, baako a emu sini dɔɔso sen nea wɔde sini {num_digit_1, 500} ayɛ no {num_digit_2, mmiensa}, ne baako a emu sini dɔɔso sen nea wɔde nnua {num_digit_1, 500} ayɛ no 1/4. Sɛ {name_male, Johnny} boaboa abaduaba no nyinaa ano a, ntayaa dodoɔ ahe na obenya?",
+  "ic_sentence_template": "{name_male, Johnny} wɔfa asi suhyɛn ho nhwɛso {num_ic, 318} a wodɛ nnua nkentenkete yɛɛ.",
+  "ic_template": "{name_male, Johnny} wɔfa asi suhyɛn ho nhwɛso {num_ic, 318} a wodɛ nnua nkentenkete yɛɛ. Na {name_male, Johnny} reboaboa abaduaba no wɔ ne dan no fam. Ɔto Lego adaka sini a wɔde nnua {num_digit_1, 500} ayɛ ɛguu ɛfam, baako a emu sini dɔɔso sen nea wɔde sini {num_digit_1, 500} ayɛ no {num_digit_2, mmiensa}, ne baako a emu enan sini dɔɔso sen nea wɔde nnua {num_digit_1, 500} ayɛ no 1/4. Sɛ {name_male, Johnny} boaboa abaduaba no nyinaa ano a, ntayaa dodoɔ ahe na obenya?",
+  "equation": "UPDATE HERE"
+}

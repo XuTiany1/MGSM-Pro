@@ -1,0 +1,8 @@
+{
+  "original_question": "Lundi, Sue a mangé 4 fois plus de biscuits que sa sœur. Mardi, elle en a mangé deux fois plus que sa sœur. Sa sœur a mangé 5 biscuits lundi et en a mangé 13 le lendemain. Si 1 biscuit contient 200 calories, combien de calories de plus que sa sœur Sue a-t-elle consommées ?",
+  "original_answer": 5600,
+  "symbolic_template": "Lundi, {name_female, Sue} a mangé {num_digit_1, 4} fois plus de biscuits que sa sœur. Mardi, elle en a mangé deux fois plus que sa sœur. Sa sœur a mangé {num_digit_2, 5} biscuits lundi et en a mangé {num_digit_3, 13} le lendemain. Si {num_digit_4, 1} biscuit contient {num_digit_5, 200} calories, combien de calories de plus que sa sœur {name_female, Sue} a-t-elle consommées ?",
+  "ic_sentence_template": "{name_female, Sue} a reçu {num_ic, 15} tartes que son oncle a apportées chez elle.",
+  "ic_template": "{name_female, Sue} a reçu {num_ic, 15} tartes que son oncle a apportées chez elle. Lundi, {name_female, Sue} a mangé {num_digit_1, 4} fois plus de biscuits que sa sœur. Mardi, elle en a mangé deux fois plus que sa sœur. Sa sœur a mangé {num_digit_2, 5} biscuits lundi et en a mangé {num_digit_3, 13} le lendemain. Si {num_digit_4, 1} biscuit contient {num_digit_5, 200} calories, combien de calories de plus que sa sœur {name_female, Sue} a-t-elle consommées ?",
+  "equation": "UPDATE HERE"
+}

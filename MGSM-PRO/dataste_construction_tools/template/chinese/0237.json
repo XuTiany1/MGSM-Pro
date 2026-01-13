@@ -1,0 +1,8 @@
+{
+  "original_question": "约翰尼拿了 20 美元的零用钱，又在这基础上加了 10 美元。然后他将这笔钱用于投资，一年内涨到了原来的三倍。一年后他有多少钱？",
+  "original_answer": 90,
+  "symbolic_template": "{name_male, 约翰尼} 拿了 {num_digit_1, 20} 美元的零用钱，又在这基础上加了 {num_digit_2, 10} 美元。然后他将这笔钱用于投资，一年内涨到了原来的 三 倍。一年后他有多少钱？",
+  "ic_sentence_template": "{name_male, 强尼} 的表弟在生日时收到了 {num_ic, 88} 张棒球卡。",
+  "ic_template": "{name_male, 强尼} 的表弟在生日时收到了 {num_ic, 88} 张棒球卡。{name_male, 约翰尼} 拿了 {num_digit_1, 20} 美元的零用钱，又在这基础上加了 {num_digit_2, 10} 美元。然后他将这笔钱用于投资，一年内涨到了原来的 三 倍。一年后他有多少钱？",
+  "equation": "UPDATE HERE"
+}

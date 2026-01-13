@@ -1,0 +1,8 @@
+{
+  "original_question": "Brinley est dans la classe de mathématiques de M. Bert. Ce dernier fait passer six tests par semestre. Il autorise les élèves à retirer la plus mauvaise moyenne de chaque semestre. Si, lors des cinq premiers tests, Brinley a obtenu des notes de 89, 71, 92, 100 et 86, quelle note doit-elle obtenir au sixième test pour avoir une moyenne de 93 ?",
+  "original_answer": 98,
+  "symbolic_template": "{name_female, Brinley} est dans la classe de mathématiques de M. {name_family, Bert}. Ce dernier fait passer six tests par semestre. Il autorise les élèves à retirer la plus mauvaise moyenne de chaque semestre. Si, lors des cinq premiers tests, {name_female, Brinley} a obtenu des notes de {num_digit_1, 89}, {num_digit_2, 71}, {num_digit_3, 92}, {num_digit_4, 100} et {num_digit_5, 86}, quelle note doit-elle obtenir au sixième test pour avoir une moyenne de {num_digit_6, 93} ?",
+  "ic_sentence_template": "La tante de {name_female, Brinley} a déjà apporté {num_ic, 21} beignets à partager avec la classe.",
+  "ic_template": "La tante de {name_female, Brinley} a déjà apporté {num_ic, 21} beignets à partager avec la classe. {name_female, Brinley} est dans la classe de mathématiques de M. {name_family, Bert}. Ce dernier fait passer six tests par semestre. Il autorise les élèves à retirer la plus mauvaise moyenne de chaque semestre. Si, lors des cinq premiers tests, {name_female, Brinley} a obtenu des notes de {num_digit_1, 89}, {num_digit_2, 71}, {num_digit_3, 92}, {num_digit_4, 100} et {num_digit_5, 86}, quelle note doit-elle obtenir au sixième test pour avoir une moyenne de {num_digit_6, 93} ?",
+  "equation": "UPDATE HERE"
+}

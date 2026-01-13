@@ -1,0 +1,8 @@
+{
+  "original_question": "Rekodi ya kwanza ya Marilyn iliuza nakala mara 10 zaidi ya rekodi ya Harald. Iwapo waliuza nakala 88,000 kwa jumla, Harald aliuza nakala ngapi?",
+  "original_answer": 8000,
+  "symbolic_template": "Rekodi ya kwanza ya {name_male_1, Marilyn} iliuza nakala mara {num_digit_1, 10} zaidi ya rekodi ya {name_male_2, Harald}. Iwapo waliuza nakala {num_digit_2, 88,000} kwa jumla, {name_male_2, Harald} aliuza nakala ngapi?",
+  "ic_sentence_template": "Mjomba wa {name_male_1, Marilyn} alipokea barua za mashabiki {num_ic, 23,000} mwaka jana.",
+  "ic_template": "Mjomba wa {name_male_1, Marilyn} alipokea barua za mashabiki {num_ic, 23,000} mwaka jana. Rekodi ya kwanza ya {name_male_1, Marilyn} iliuza nakala mara {num_digit_1, 10} zaidi ya rekodi ya {name_male_2, Harald}. Iwapo waliuza nakala {num_digit_2, 88,000} kwa jumla, {name_male_2, Harald} aliuza nakala ngapi?",
+  "equation": "UPDATE HERE"
+}

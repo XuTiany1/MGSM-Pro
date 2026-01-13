@@ -1,0 +1,29 @@
+{
+    "problem_id": "0199",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [200, 2000]},
+        "num_digit_2": {"type": "int", "range": [1, 15]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "sentences_per_pub = num_digit_1 / 2",
+            "rate_a = num_digit_2",
+            "rate_b = 2 * rate_a",
+            "earn_a = sentences_per_pub * rate_a",
+            "earn_b = sentences_per_pub * rate_b",
+            "ans = earn_a + earn_b"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 3, "max_digits": 5}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "num_digit_1 % 2 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

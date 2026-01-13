@@ -1,0 +1,8 @@
+{
+  "original_question": "Jennie ń ran ìyá rẹ̀ lọ́wọ́ ní ọ́físì rẹ̀. Ó ní àwọn lẹ́tà tó tó 60 tí wọ́n fẹ́ gbé sítàm̀pù lé lórí, àti àwọn lẹ́tà tí wọ́n ti sítàm̀pù, o fi sítàm̀pù sí ìdá kan nínú mẹ́ta àwọn lẹ́tà tí wọ́n nílò sítàm̀pù. Tí ó bá jẹ́ wípé lẹ́tà 30 ni àwọn tí wọ́n ti sítàm̀pù, mélòó ni ó wà nínú páìlì nígbà tí Jennie bẹ̀rẹ̀?",
+  "original_answer": 10,
+  "symbolic_template": "{name_female, Jennie} ń ran ìyá rẹ̀ lọ́wọ́ ní ọ́físì rẹ̀. Ó ní àwọn lẹ́tà tó tó {num_digit_1, 60} tí wọ́n fẹ́ gbé sítàm̀pù lé lórí, àti àwọn lẹ́tà tí wọ́n ti sítàm̀pù, o fi sítàm̀pù sí ìdá kan nínú mẹ́ta àwọn lẹ́tà tí wọ́n nílò sítàm̀pù. Tí ó bá jẹ́ wípé lẹ́tà {num_digit_2, 30} ni àwọn tí wọ́n ti sítàm̀pù, mélòó ni ó wà nínú páìlì nígbà tí {name_female, Jennie} bẹ̀rẹ̀?",
+  "ic_sentence_template": "Ẹ̀gbọ́n baba {name_female, Jennie} gba káàdì ìpẹ́yà {num_ic, 27} lẹ́jọ́ ọjọ́ ìbí rẹ.",
+  "ic_template": "{name_female, Jennie} ń ran ìyá rẹ̀ lọ́wọ́ ní ọ́físì rẹ̀. Ó ní àwọn lẹ́tà tó tó {num_digit_1, 60} tí wọ́n fẹ́ gbé sítàm̀pù lé lórí, àti àwọn lẹ́tà tí wọ́n ti sítàm̀pù, o fi sítàm̀pù sí ìdá kan nínú mẹ́ta àwọn lẹ́tà tí wọ́n nílò sítàm̀pù. Tí ó bá jẹ́ wípé lẹ́tà {num_digit_2, 30} ni àwọn tí wọ́n ti sítàm̀pù, mélòó ni ó wà nínú páìlì nígbà tí {name_female, Jennie} bẹ̀rẹ̀? Ẹ̀gbọ́n baba {name_female, Jennie} gba káàdì ìpẹ́yà {num_ic, 27} lẹ́jọ́ ọjọ́ ìbí rẹ.",
+  "equation": "UPDATE HERE"
+}

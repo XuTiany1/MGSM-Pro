@@ -1,0 +1,8 @@
+{
+  "original_question": "Mishka ra ẹyọ ṣòkòtò kékeré 3, ẹyọ pátá 3, àti ẹyọ bàtà 3. Ẹyọ ṣòkòtò kékeré kan jẹ́ $16.50 níye. Ẹyọ pátá kan jẹ́ $22.50 nígbà tí ẹyọ bàtà kan jẹ́ $42. Dọ́là mélòó ní Mishka ná lórí gbogbo àwọn aṣọ tó rà?",
+  "original_answer": 243,
+  "symbolic_template": "{name_female, Mishka} ra ẹyọ ṣòkòtò kékeré {num_digit_1, 3}, ẹyọ pátá {num_digit_2, 3}, àti ẹyọ bàtà {num_digit_3, 3}. Ẹyọ ṣòkòtò kékeré kan jẹ́ ${num_digit_4, 16.50} níye. Ẹyọ pátá kan jẹ́ ${num_digit_5, 22.50} nígbà tí ẹyọ bàtà kan jẹ́ ${num_digit_6, 42}. Dọ́là mélòó ní {name_female, Mishka} ná lórí gbogbo àwọn aṣọ tó rà?",
+  "ic_sentence_template": "Arákùnrin {name_female, Mishka} ra fílá tuntun {num_ic, 12} laipẹ́ yii.",
+  "ic_template": "Arákùnrin {name_female, Mishka} ra fílá tuntun {num_ic, 12} laipẹ́ yii. {name_female, Mishka} ra ẹyọ ṣòkòtò kékeré {num_digit_1, 3}, ẹyọ pátá {num_digit_2, 3}, àti ẹyọ bàtà {num_digit_3, 3}. Ẹyọ ṣòkòtò kékeré kan jẹ́ ${num_digit_4, 16.50} níye. Ẹyọ pátá kan jẹ́ ${num_digit_5, 22.50} nígbà tí ẹyọ bàtà kan jẹ́ ${num_digit_6, 42}. Dọ́là mélòó ní {name_female, Mishka} ná lórí gbogbo àwọn aṣọ tó rà?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_id": "0137",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_5", "num_digit_6", "num_digit_7", "num_digit_8", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [1, 4]},
+        "num_digit_2": {"type": "float", "construction": "random.choice([5.00, 5.50, 6.00, 6.50, 7.00, 7.50, 8.00, 8.50, 9.00, 9.50, 10.00])"},
+        "num_digit_3": {"type": "int", "range": [1, 4]},
+        "num_digit_4": {"type": "float", "construction": "random.choice([1.00, 1.50, 2.00, 2.50, 3.00])"},
+        "num_digit_5": {"type": "int", "range": [1, 4]},
+        "num_digit_6": {"type": "float", "construction": "random.choice([0.50, 1.00, 1.50, 2.00])"},
+        "num_digit_7": {"type": "int", "construction": "random.choice([10, 20, 25])"},
+        "num_digit_8": {"type": "float", "construction": "random.choice([2.00, 3.00, 4.00, 5.00, 6.00, 7.00, 8.00, 9.00, 10.00])"},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_8": [
+            "subtotal = (num_digit_1 * num_digit_2) + (num_digit_3 * num_digit_4) + (num_digit_5 * num_digit_6)",
+            "delivery_fee = subtotal * (num_digit_7 / 100)",
+            "ans = subtotal + delivery_fee + num_digit_8"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_8": [
+            "delivery_fee % 0.5 == 0",
+            "ans % 0.5 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

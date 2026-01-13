@@ -1,0 +1,8 @@
+{
+  "original_question": "Akpa akwụkwọ Uriah na-anyị oké arọ. O kwesịrị ka o wepụ paund iri na ise na ya. Akwụkwọ ọchị na-ada paund otu ụzọ na anọ n'otunaotu ma ịhe egwuregwu ya na-ada paund otu ụzọ na abụọ  n'otunaotu. Ọ bụrụ na o wepụ akwụkwọ ọchị iri atọ, ịhe egwuregwu ole ka o kwesịrị ị wepụ? ",
+  "original_answer": 15,
+  "symbolic_template": "Akpa akwụkwọ {name_male, Uriah} na-anyị oké arọ. O kwesịrị ka o wepụ paund {num_digit_1, 15} na ya. Akwụkwọ ọchị na-ada paund 1/4 n'otunaotu ma ịhe egwuregwu ya na-ada paund 1/2 n'otunaotu. Ọ bụrụ na o wepụ akwụkwọ ọchị {num_digit_2, 30}, ịhe egwuregwu ole ka o kwesịrị ị wepụ?",
+  "ic_sentence_template": "Nwanne nne {name_male, Uriah} hụrụ {num_ic, 91} kọlọkụ n’ime ụlọ elu ụlọ ya.",
+  "ic_template": "Nwanne nne {name_male, Uriah} hụrụ {num_ic, 91} kọlọkụ n’ime ụlọ elu ụlọ ya. Akpa akwụkwọ {name_male, Uriah} na-anyị oké arọ. O kwesịrị ka o wepụ paund {num_digit_1, 15} na ya. Akwụkwọ ọchị na-ada paund 1/4 n'otunaotu ma ịhe egwuregwu ya na-ada paund 1/2 n'otunaotu. Ọ bụrụ na o wepụ akwụkwọ ọchị {num_digit_2, 30}, ịhe egwuregwu ole ka o kwesịrị ị wepụ?",
+  "equation": "UPDATE HERE"
+}

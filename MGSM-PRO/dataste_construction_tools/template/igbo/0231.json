@@ -1,0 +1,8 @@
+{
+  "original_question": "Kylie na Robert na-enwe obi ụtọ ịga na osimiri ichịkọta shell. Na Mọnde, Kylie chịkọtara shell ise karịa Robert, onye na-achịkọta shells iri abụọ. Na Tuzdee, Kylie na-achịkọta shell ji ugboro abụọ karịa nke ọ chịkọtara na Mọnde. Shell ole ka Kylie na-achịkọta na Tuzdee?",
+  "original_answer": 50,
+  "symbolic_template": "{name_male_1, Kylie} na {name_male_2, Robert} na-enwe obi ụtọ ịga na osimiri ichịkọta shell. Na Mọnde, {name_male_1, Kylie} chịkọtara shell {num_digit_1, 5} karịa {name_male_2, Robert}, onye na-achịkọta shells {num_digit_2, 20}. Na Tuzdee, {name_male_1, Kylie} na-achịkọta shell ji ugboro {num_digit_3, 2} karịa nke ọ chịkọtara na Mọnde. Shell ole ka {name_male_1, Kylie} na-achịkọta na Tuzdee?",
+  "ic_sentence_template": "Nwanne nne {name_male_2, Robert} hụrụ mkpụrụ iko mmiri {num_ic, 8243} n’akụkụ osimiri n’oge okpomọkụ gara aga.",
+  "ic_template": "Nwanne nne {name_male_2, Robert} hụrụ mkpụrụ iko mmiri {num_ic, 8243} n’akụkụ osimiri n’oge okpomọkụ gara aga. {name_male_1, Kylie} na {name_male_2, Robert} na-enwe obi ụtọ ịga na osimiri ichịkọta shell. Na Mọnde, {name_male_1, Kylie} chịkọtara shell {num_digit_1, 5} karịa {name_male_2, Robert}, onye na-achịkọta shells {num_digit_2, 20}. Na Tuzdee, {name_male_1, Kylie} na-achịkọta shell ji ugboro {num_digit_3, 2} karịa nke ọ chịkọtara na Mọnde. Shell ole ka {name_male_1, Kylie} na-achịkọta na Tuzdee?",
+  "equation": "UPDATE HERE"
+}

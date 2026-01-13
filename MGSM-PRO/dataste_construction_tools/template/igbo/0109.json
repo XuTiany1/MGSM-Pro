@@ -1,0 +1,8 @@
+{
+  "original_question": "Otu mpaghara ọdụ gaasị na-ere gaasị $3.00 maka otu galọn. Ụlọ ọrụ app n'enye $.20 ego nnyeghachi ma ọbụrụ n' ịgbaa n'ọdụ a. Ọbụrụ na o nwere onye zụtarụ galọn gaasị iri, ego ole ka gaasị ha ga-abụ, ma emechaa ego nnyeghachi?",
+  "original_answer": 28,
+  "symbolic_template": "Otu mpaghara ọdụ gaasị na-ere gaasị ${num_digit_1, 3.00} maka otu galọn. Ụlọ ọrụ app n'enye ${num_digit_2, .20} ego nnyeghachi ma ọbụrụ n' ịgbaa n'ọdụ a. Ọbụrụ na o nwere onye zụtarụ galọn gaasị {num_digit_3, 10}, ego ole ka gaasị ha ga-abụ, ma emechaa ego nnyeghachi?",
+  "ic_sentence_template": "Nwanne nne {name_male, Alex} nwetara ịsa ụgbọala n'efu ugboro {num_ic, 39} n'afọ gara aga.",
+  "ic_template": "Nwanne nne {name_male, Alex} nwetara ịsa ụgbọala n'efu ugboro {num_ic, 39} n'afọ gara aga. Otu mpaghara ọdụ gaasị na-ere gaasị ${num_digit_1, 3.00} maka otu galọn. Ụlọ ọrụ app n'enye ${num_digit_2, .20} ego nnyeghachi ma ọbụrụ n' ịgbaa n'ọdụ a. Ọbụrụ na o nwere onye zụtarụ galọn gaasị {num_digit_3, 10}, ego ole ka gaasị ha ga-abụ, ma emechaa ego nnyeghachi?",
+  "equation": "UPDATE HERE"
+}

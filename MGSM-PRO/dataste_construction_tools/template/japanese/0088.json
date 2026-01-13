@@ -1,0 +1,8 @@
+{
+  "original_question": "マリリンの最初のレコードはハラルドの10倍売れました。彼らが合わせて88,000枚売っていた場合、ハラルドは何枚売りましたか？",
+  "original_answer": 8000,
+  "symbolic_template": "{name_male_1, マリリン}の最初のレコードは{name_male_2, ハラルド}の{num_digit_1, 10}倍売れました。彼らが合わせて{num_digit_2, 88,000}枚売っていた場合、{name_male_2, ハラルド}は何枚売りましたか？",
+  "ic_sentence_template": "{name_male_1, マリリン}のおじさんは昨年{num_ic, 23,000}通のファンレターを受け取りました。",
+  "ic_template": "{name_male_1, マリリン}のおじさんは昨年{num_ic, 23,000}通のファンレターを受け取りました。{name_male_1, マリリン}の最初のレコードは{name_male_2, ハラルド}の{num_digit_1, 10}倍売れました。彼らが合わせて{num_digit_2, 88,000}枚売っていた場合、{name_male_2, ハラルド}は何枚売りましたか？",
+  "equation": "UPDATE HERE"
+}

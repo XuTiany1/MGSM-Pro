@@ -1,0 +1,8 @@
+{
+  "original_question": "Gretchen a 110 pièces. Les pièces en or comptent 30 pièces de plus que celles en argent. Combien Gretchen a-t-elle de pièces en or ?",
+  "original_answer": 70,
+  "symbolic_template": "{name_female, Gretchen} a {num_digit_1, 110} pièces. Les pièces en or comptent {num_digit_2, 30} pièces de plus que celles en argent. Combien {name_female, Gretchen} a-t-elle de pièces en or ?",
+  "ic_sentence_template": "{name_female, Gretchen} a un oncle qui collectionne {num_ic, 970} timbres rares.",
+  "ic_template": "{name_female, Gretchen} a un oncle qui collectionne {num_ic, 970} timbres rares. {name_female, Gretchen} a {num_digit_1, 110} pièces. Les pièces en or comptent {num_digit_2, 30} pièces de plus que celles en argent. Combien {name_female, Gretchen} a-t-elle de pièces en or ?",
+  "equation": "UPDATE HERE"
+}

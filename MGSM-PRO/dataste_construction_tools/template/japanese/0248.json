@@ -1,0 +1,8 @@
+{
+  "original_question": "シェフはタマネギを4袋買いました。それぞれ50ポンドの重さがあります。タマネギ1ポンドは$1.50です。シェフはいくら使いましたか？",
+  "original_answer": 300,
+  "symbolic_template": "シェフはタマネギを{num_digit_1, 4}袋買いました。それぞれ{num_digit_2, 50}ポンドの重さがあります。タマネギ1ポンドは${num_digit_3, 1.50}です。シェフはいくら使いましたか？",
+  "ic_sentence_template": "{name_female, シェフのおば}は毎年庭で{num_ic, 38}個のトマトを育てています。",
+  "ic_template": "シェフのおばは毎年庭で{num_ic, 38}個のトマトを育てています。シェフはタマネギを{num_digit_1, 4}袋買いました。それぞれ{num_digit_2, 50}ポンドの重さがあります。タマネギ1ポンドは${num_digit_3, 1.50}です。シェフはいくら使いましたか？",
+  "equation": "UPDATE HERE"
+}

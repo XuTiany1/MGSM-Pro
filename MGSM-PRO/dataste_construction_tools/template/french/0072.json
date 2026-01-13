@@ -1,0 +1,8 @@
+{
+  "original_question": "Tommy collecte des fonds pour son association caritative en vendant des brownies à 3 $ la tranche et des gâteaux au fromage à 4 $ la tranche. Si Tommy vend 43 brownies et 23 tranches de gâteau au fromage, combien d'argent Tommy a-t-il récolté ?",
+  "original_answer": 221,
+  "symbolic_template": "{name_male, Tommy} collecte des fonds pour son association caritative en vendant des brownies à {num_digit_1, 3} $ la tranche et des gâteaux au fromage à {num_digit_2, 4} $ la tranche. Si {name_male, Tommy} vend {num_digit_3, 43} brownies et {num_digit_4, 23} tranches de gâteau au fromage, combien d'argent {name_male, Tommy} a-t-il récolté ?",
+  "ic_sentence_template": "{name_male, Tommy} a une tante qui a récemment fait cuire {num_ic, 164} pains pour un événement local.",
+  "ic_template": "{name_male, Tommy} a une tante qui a récemment fait cuire {num_ic, 164} pains pour un événement local. {name_male, Tommy} collecte des fonds pour son association caritative en vendant des brownies à {num_digit_1, 3} $ la tranche et des gâteaux au fromage à {num_digit_2, 4} $ la tranche. Si {name_male, Tommy} vend {num_digit_3, 43} brownies et {num_digit_4, 23} tranches de gâteau au fromage, combien d'argent {name_male, Tommy} a-t-il récolté ?",
+  "equation": "UPDATE HERE"
+}

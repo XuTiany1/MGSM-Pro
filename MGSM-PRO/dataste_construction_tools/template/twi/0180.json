@@ -1,0 +1,8 @@
+{
+  "original_question": "Nnipa mmienu na ɔtu ammirika sɛ wɔbɛyɛ gyinapɛn no so nanmusini wɔ Sarai sukuu mu. Sɛ nea odi nkonim no nyaa abatoɔ no mu nkyem mmiɛnsa mu enan, na sukuufoɔ a wɔto abatoɔ wɔ adesuakuo no mu no dodoɔ yɛ aduɔwɔtwe a, kenkan abatoɔ dodoɔ a nea wadi nkogu no nyaa.",
+  "original_answer": 20,
+  "symbolic_template": "Nnipa mmienu na ɔtu ammirika sɛ wɔbɛyɛ gyinapɛn no so nanmusini wɔ {name_female, Sarai} sukuu mu. Sɛ nea odi nkonim no nyaa abatoɔ no mu nkyem mmiɛnsa mu enan, na sukuufoɔ a wɔto abatoɔ wɔ adesuakuo no mu no dodoɔ yɛ {num_digit_1, aduɔwɔtwe} a, kenkan abatoɔ dodoɔ a nea wadi nkogu no nyaa.",
+  "ic_sentence_template": "{name_female, Sarai} wͻfa de adeԑ a yԑde tare {num_ic, 405} maa nnipa wɔ nhyiamu no mu.",
+  "ic_template": "{name_female, Sarai} wͻfa de adeԑ a yԑde tare {num_ic, 405} maa nnipa wɔ nhyiamu no mu. Nnipa mmienu na ɔtu ammirika sɛ wɔbɛyɛ gyinapɛn no so nanmusini wɔ {name_female, Sarai} sukuu mu. Sɛ nea odi nkonim no nyaa abatoɔ no mu nkyem mmiɛnsa mu enan, na sukuufoɔ a wɔto abatoɔ wɔ adesuakuo no mu no dodoɔ yɛ {num_digit_1, aduɔwɔtwe} a, kenkan abatoɔ dodoɔ a nea wadi nkogu no nyaa.",
+  "equation": "UPDATE HERE"
+}

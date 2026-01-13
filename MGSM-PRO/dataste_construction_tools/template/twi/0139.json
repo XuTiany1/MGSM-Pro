@@ -1,0 +1,8 @@
+{
+  "original_question": "Wɔ dɔkɔdɔkɔ afidie mu no, na aduonu mmienu wɔ hɔ a ɛyɛ osua dɔkɔdɔkɔ no mmɔho ɛnan a ɛsen bibire dɔkɔdɔkɔ. Sɛ yɛwɔ dɔkɔdɔkɔ du mmienu a ɛyɛ bibire a, dɔkɔdɔkɔ a ɛyɛ osua no dodoɔ yɛ ahe?",
+  "original_answer": 70,
+  "symbolic_template": "Wɔ dɔkɔdɔkɔ afidie mu no, na {num_digit_1, 22} wɔ hɔ a ɛyɛ osua dɔkɔdɔkɔ no mmɔho ɛnan a ɛsen bibire dɔkɔdɔkɔ. Sɛ yɛwɔ dɔkɔdɔkɔ {num_digit_2, du mmienu} a ɛyɛ bibire a, dɔkɔdɔkɔ a ɛyɛ osua no dodoɔ yɛ ahe?",
+  "ic_sentence_template": "Mmofra {num_ic, 147} gyinaa mponua no nkyɛn saa da no.",
+  "ic_template": "Wɔ dɔkɔdɔkɔ afidie mu no, na {num_digit_1, 22} wɔ hɔ a ɛyɛ osua dɔkɔdɔkɔ no mmɔho ɛnan a ɛsen bibire dɔkɔdɔkɔ. Sɛ yɛwɔ dɔkɔdɔkɔ {num_digit_2, du mmienu} a ɛyɛ bibire a, dɔkɔdɔkɔ a ɛyɛ osua no dodoɔ yɛ ahe? Mmofra {num_ic, 147} gyinaa mponua no nkyɛn saa da no.",
+  "equation": "UPDATE HERE"
+}

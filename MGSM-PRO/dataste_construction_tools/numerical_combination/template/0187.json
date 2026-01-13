@@ -1,0 +1,27 @@
+{
+    "problem_id": "0187",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [100, 1000]},
+        "num_digit_2": {"type": "int", "range": [1, 10]},
+        "num_digit_3": {"type": "int", "range": [2, 12]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "monthly_interest_rate = num_digit_2 / 100",
+            "total_interest = num_digit_1 * monthly_interest_rate * num_digit_3",
+            "ans = num_digit_1 + total_interest"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 3, "max_digits": 5}
+    },
+    "restrictions": {
+        "num_digit_3": [
+            "(num_digit_1 * num_digit_2 * num_digit_3) % 100 == 0",
+            "ans > num_digit_1",
+            "ans % 1 == 0"
+        ]
+    }
+}

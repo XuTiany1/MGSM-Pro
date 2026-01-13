@@ -1,0 +1,8 @@
+{
+  "original_question": "Henri a fait deux arrêts pendant son voyage de 60 miles à vélo. Il a marqué son premier arrêt après 20 miles. Il s'est de nouveau arrêté 15 miles avant la fin du voyage. Combien de miles a-t-il parcourus entre les deux arrêts ?",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Henri} a fait deux arrêts pendant son voyage de {num_digit_1, 60} miles à vélo. Il a marqué son premier arrêt après {num_digit_2, 20} miles. Il s'est de nouveau arrêté {num_digit_3, 15} miles avant la fin du voyage. Combien de miles a-t-il parcourus entre les deux arrêts ?",
+  "ic_sentence_template": "{name_male, Henry} a un oncle qui possède {num_ic, 85} casques de vélo.",
+  "ic_template": "{name_male, Henry} a un oncle qui possède {num_ic, 85} casques de vélo. {name_male, Henri} a fait deux arrêts pendant son voyage de {num_digit_1, 60} miles à vélo. Il a marqué son premier arrêt après {num_digit_2, 20} miles. Il s'est de nouveau arrêté {num_digit_3, 15} miles avant la fin du voyage. Combien de miles a-t-il parcourus entre les deux arrêts ?",
+  "equation": "UPDATE HERE"
+}

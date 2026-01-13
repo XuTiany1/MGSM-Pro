@@ -1,0 +1,8 @@
+{
+  "original_question": "Jason a un forfait téléphonique de 1 000 minutes par mois. Chaque jour, il communique avec son patron pendant 15 minutes et ce mois-ci, il a passé 300 minutes d'appels supplémentaires à d'autres personnes. Combien de minutes reste-t-il à Jason si ce mois compte 30 jours ?",
+  "original_answer": 250,
+  "symbolic_template": "{name_male, Jason} a un forfait téléphonique de {num_digit_1, 1000} minutes par mois. Chaque jour, il communique avec son patron pendant {num_digit_2, 15} minutes et ce mois-ci, il a passé {num_digit_3, 300} minutes d'appels supplémentaires à d'autres personnes. Combien de minutes reste-t-il à {name_male, Jason} si ce mois compte {num_digit_4, 30} jours ?",
+  "ic_sentence_template": "{name_male, Jason} a un oncle qui a déjà parlé pendant {num_ic, 1043} minutes en un mois.",
+  "ic_template": "{name_male, Jason} a un oncle qui a déjà parlé pendant {num_ic, 1043} minutes en un mois. {name_male, Jason} a un forfait téléphonique de {num_digit_1, 1000} minutes par mois. Chaque jour, il communique avec son patron pendant {num_digit_2, 15} minutes et ce mois-ci, il a passé {num_digit_3, 300} minutes d'appels supplémentaires à d'autres personnes. Combien de minutes reste-t-il à {name_male, Jason} si ce mois compte {num_digit_4, 30} jours ?",
+  "equation": "UPDATE HERE"
+}

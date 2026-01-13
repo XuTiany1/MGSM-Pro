@@ -1,0 +1,8 @@
+{
+  "original_question": "上舞蹈课的学生有 20 个，其中 20% 的学生报名学习现代舞，剩下的学生当中有 25% 报名学习爵士舞，其他人报名学习嘻哈舞。报名学习嘻哈舞的同学一共占多少百分比？",
+  "original_answer": 60,
+  "symbolic_template": "   \n在舞蹈课上有 {num_digit_1, 20} 个学生，其中 {num_digit_2, 20}% 的学生报名现代舞，剩下的学生中有 {num_digit_3, 25}% 报名爵士舞，其余的人报名嘻哈舞。报名嘻哈舞的同学一共占多少百分比？",
+  "ic_sentence_template": "{name_female, 老师的侄女} 给大家带来了 {num_ic, 7} 个纸杯蛋糕。",
+  "ic_template": "老师的侄女 给大家带来了 {num_ic, 7} 个纸杯蛋糕。在舞蹈课上有 {num_digit_1, 20} 个学生，其中 {num_digit_2, 20}% 的学生报名现代舞，剩下的学生中有 {num_digit_3, 25}% 报名爵士舞，其余的人报名嘻哈舞。报名嘻哈舞的同学一共占多少百分比？",
+  "equation": "UPDATE HERE"
+}

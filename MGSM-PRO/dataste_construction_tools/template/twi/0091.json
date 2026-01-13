@@ -1,0 +1,8 @@
+{
+  "original_question": "Jan wɔ ayԑmmoa mmɔho mmiԑnsa kyԑn Marcia. Marcia wɔ ayԑmmoa mmienu kyԑn Cindy. Sԑ Cindy wɔ ayԑmmoa nnan a, ayԑmmoa dodoɔ sԑn na wɔn mmiԑnsa wɔ?",
+  "original_answer": 28,
+  "symbolic_template": "{name_female_1, Jan} wɔ ayԑmmoa mmɔho mmiɛnsa kyԑn {name_female_2, Marcia}. {name_female_2, Marcia} wɔ ayԑmmoa mmienu kyԑn {name_female_3, Cindy}. Sԑ {name_female_3, Cindy} wɔ ayԑmmoa nnan a, ayԑmmoa dodoɔ sԑn na wɔn mmiԑnsa wɔ?",
+  "ic_sentence_template": "{name_female_2, Marcia} wᴐfa no wᴐ nnomaa{num_ic, 16}.",
+  "ic_template": "{name_female_2, Marcia} wᴐfa no wᴐ nnomaa{num_ic, 16}. {name_female_1, Jan} wɔ ayԑmmoa mmɔho mmiɛnsa kyԑn {name_female_2, Marcia}. {name_female_2, Marcia} wɔ ayԑmmoa mmienu kyԑn {name_female_3, Cindy}. Sԑ {name_female_3, Cindy} wɔ ayԑmmoa nnan a, ayԑmmoa dodoɔ sԑn na wɔn mmiԑnsa wɔ?",
+  "equation": "UPDATE HERE"
+}

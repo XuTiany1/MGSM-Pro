@@ -1,0 +1,8 @@
+{
+  "original_question": "Kuna pengwini 36 wanaoota jua katika theluji. Theluthi moja yao wanaruka na kuogelea katika bahari. Theluthi nyingine moja wanaingia kwenye pango kula chakula chao cha usiku. Pengwini wangapi wamesalia bado wakiota jua?",
+  "original_answer": 12,
+  "symbolic_template": "Kuna pengwini {num_digit_1, 36} wanaoota jua katika theluji. Theluthi moja yao wanaruka na kuogelea katika bahari. Theluthi moja nyingine wanaingia kwenye pango kula chakula chao cha usiku. Pengwini wangapi wamesalia bado wakiota jua?",
+  "ic_sentence_template": "Mjomba mmoja wa pingwini hivi karibuni aliona chule {num_ic, 57} wakipumzika karibu.",
+  "ic_template": "Mjomba mmoja wa pingwini hivi karibuni aliona chule {num_ic, 57} wakipumzika karibu. Kuna pengwini {num_digit_1, 36} wanaoota jua katika theluji. Theluthi moja yao wanaruka na kuogelea katika bahari. Theluthi moja nyingine wanaingia kwenye pango kula chakula chao cha usiku. Pengwini wangapi wamesalia bado wakiota jua?",
+  "equation": "UPDATE HERE"
+}

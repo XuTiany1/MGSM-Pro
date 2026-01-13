@@ -1,0 +1,8 @@
+{
+  "original_question": "The marching band is ordering new uniforms. Each uniform comes with a hat that costs $25, a jacket that costs three times as much as the hat, and pants that cost the average of the costs of the hat and jacket. How much does each uniform cost total?",
+  "original_answer": 150,
+  "symbolic_template": "The marching band is ordering new uniforms. Each uniform comes with a hat that costs ${num_digit_1, 25}, a jacket that costs three times as much as the hat, and pants that cost the average of the costs of the hat and jacket. How much does each uniform cost total?",
+  "ic_sentence_template": "The band leader's cousin bought {num_ic, 517} pairs of gloves for the percussion section.",
+  "ic_template": "The marching band is ordering new uniforms. Each uniform comes with a hat that costs ${num_digit_1, 25}, a jacket that costs three times as much as the hat, and pants that cost the average of the costs of the hat and jacket. The band leader's cousin bought {num_ic, 517} pairs of gloves for the percussion section. How much does each uniform cost total?",
+  "equation": "UPDATE HERE"
+}

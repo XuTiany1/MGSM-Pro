@@ -1,0 +1,8 @@
+{
+  "original_question": "ጀምስ ከሮበርት ካለው 6 ተጨማሪ ከረሜላወች አሉት. ጆን ሮበርት ካለው ሁለት እጥፍ ከረሜላወች አሉት. ጆን 54 ከረሜላወች ቢኖሩት, ጆን ከ ጀምስ ምን ያህል ተጨማሪ ከረሜላወች ይኖሩታል?",
+  "original_answer": 21,
+  "symbolic_template": "{name_male_1, ጀምስ} ከ{name_male_2, ሮበርት} ካለው {num_digit_1, 6} ተጨማሪ ከረሜላወች አሉት. {name_male_3, ጆን} {name_male_2, ሮበርት} ካለው ሁለት እጥፍ ከረሜላወች አሉት. {name_male_3, ጆን} {num_digit_2, 54} ከረሜላወች ቢኖሩት, {name_male_3, ጆን} ከ {name_male_1, ጀምስ} ምን ያህል ተጨማሪ ከረሜላወች ይኖሩታል?",
+  "ic_sentence_template": "የ{name_male_2, ሮበርት} አክስቱ በቅርቡ ለእሱ {num_ic, 422} እንጨት ቦርሳ ሰጠችው።",
+  "ic_template": "{name_male_1, ጀምስ} ከ{name_male_2, ሮበርት} ካለው {num_digit_1, 6} ተጨማሪ ከረሜላወች አሉት. {name_male_3, ጆን} {name_male_2, ሮበርት} ካለው ሁለት እጥፍ ከረሜላወች አሉት. {name_male_3, ጆን} {num_digit_2, 54} ከረሜላወች ቢኖሩት, {name_male_3, ጆን} ከ {name_male_1, ጀምስ} ምን ያህል ተጨማሪ ከረሜላወች ይኖሩታል? የ{name_male_2, ሮበርት} አክስቱ በቅርቡ ለእሱ {num_ic, 422} እንጨት ቦርሳ ሰጠችው።",
+  "equation": "UPDATE HERE"
+}

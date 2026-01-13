@@ -1,0 +1,8 @@
+{
+  "original_question": "Àpò o Halloween candy Joe ní ṣokoléètì 25 àti apples tó ní candy 80. Ọ̀pá ṣokoléètì kọ̀ọ̀kan ní ìwọ̀n ìlọ́po méjì iye ti apple tí ó ní candy kọ̀ọ̀kan. Tí ṣokoléètì kọ̀ọ̀kan bá wúwo ní ìwọn-ọn 40g, èló ni ìwọn-ọn wíwúwo àpò candy Joe ni grams?",
+  "original_answer": 2600,
+  "symbolic_template": "Àpò o Halloween candy {name_male, Joe} ní ṣokoléètì {num_digit_1, 25} àti apples tó ní candy {num_digit_2, 80}. Ọ̀pá ṣokoléètì kọ̀ọ̀kan ní ìwọ̀n ìlọ́po méjì iye ti apple tí ó ní candy kọ̀ọ̀kan. Tí ṣokoléètì kọ̀ọ̀kan bá wúwo ní ìwọn-ọn {num_digit_3, 40}g, èló ni ìwọn-ọn wíwúwo àpò candy {name_male, Joe} ni grams?",
+  "ic_sentence_template": "Ẹ̀gbọ́n {name_male, Joe} rà {num_ic, 112} lollipop fún àyẹyẹ kan.",
+  "ic_template": "Ẹ̀gbọ́n {name_male, Joe} rà {num_ic, 112} lollipop fún àyẹyẹ kan. Àpò o Halloween candy {name_male, Joe} ní ṣokoléètì {num_digit_1, 25} àti apples tó ní candy {num_digit_2, 80}. Ọ̀pá ṣokoléètì kọ̀ọ̀kan ní ìwọ̀n ìlọ́po méjì iye ti apple tí ó ní candy kọ̀ọ̀kan. Tí ṣokoléètì kọ̀ọ̀kan bá wúwo ní ìwọn-ọn {num_digit_3, 40}g, èló ni ìwọn-ọn wíwúwo àpò candy {name_male, Joe} ni grams?",
+  "equation": "UPDATE HERE"
+}

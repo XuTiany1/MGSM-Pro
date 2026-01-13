@@ -1,0 +1,8 @@
+{
+  "original_question": "拉尼比莫尼克多 10 只螃蟹。莫尼克比波少 4 只螃蟹。如果波有 40 只螃蟹，请计算三个人拥有的螃蟹的总数。",
+  "original_answer": 122,
+  "symbolic_template": "{name_female_1, 拉尼} 比 {name_female_2, 莫尼克} 多 10 只螃蟹。{name_female_2, 莫尼克} 比 {name_male_1, 波} 少 {num_digit_1, 4} 只螃蟹。如果 {name_male_1, 波} 有 {num_digit_2, 40} 只螃蟹，请计算三个人拥有的螃蟹的总数。",
+  "ic_sentence_template": "{name_female_2, 莫妮克} 的叔叔在海滩上捡到了 {num_ic, 88} 个贝壳。",
+  "ic_template": "{name_female_2, 莫妮克} 的叔叔在海滩上捡到了 {num_ic, 88} 个贝壳。{name_female_1, 拉尼} 比 {name_female_2, 莫尼克} 多 10 只螃蟹。{name_female_2, 莫尼克} 比 {name_male_1, 波} 少 {num_digit_1, 4} 只螃蟹。如果 {name_male_1, 波} 有 {num_digit_2, 40} 只螃蟹，请计算三个人拥有的螃蟹的总数。",
+  "equation": "UPDATE HERE"
+}

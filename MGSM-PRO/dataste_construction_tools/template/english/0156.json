@@ -1,0 +1,8 @@
+{
+  "original_question": "The zookeeper feeds all the apes in the zoo. He orders all the bananas from a local farm every 2 months. If the monkeys need 200 bananas, the gorillas need 400 bananas, and the baboons need 100 bananas every month, how many bananas does he need to order to last for 2 months?",
+  "original_answer": 1400,
+  "symbolic_template": "The zookeeper feeds all the apes in the zoo. He orders all the bananas from a local farm every {num_digit_1, 2} months. If the monkeys need {num_digit_2, 200} bananas, the gorillas need {num_digit_3, 400} bananas, and the baboons need {num_digit_4, 100} bananas every month, how many bananas does he need to order to last for {num_digit_5, 2} months?",
+  "ic_sentence_template": "The zookeeper's niece has {num_ic, 13} parrots at home.",
+  "ic_template": "The zookeeper feeds all the apes in the zoo. He orders all the bananas from a local farm every {num_digit_1, 2} months. The zookeeper's niece has {num_ic, 13} parrots at home. If the monkeys need {num_digit_2, 200} bananas, the gorillas need {num_digit_3, 400} bananas, and the baboons need {num_digit_4, 100} bananas every month, how many bananas does he need to order to last for {num_digit_5, 2} months?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Na Lee tumi dwane 400-mita mmirika-ahuruiԑ kyԑn sԑneԑ Gerald tumi dwane 400-mita mmirika-ahuruiԑ no anibɔ mmienu mu. Nanso, Gerald sesaa n’adidie na ԑmaa ne mmirikatuo no kɔɔ soro 10%. Sԑ Lee tu 400-mita mmirika-ahuruiԑ no wɔ anibɔ 38 mu a, ntԑm sԑn na Gerald, wɔ n’aduanedie mu a akɔ nkan no mu no, tu 400-mita mmirika-ahuruiԑ no wɔ anibɔ mu?",
+  "original_answer": 36,
+  "symbolic_template": "Na {name_male_1, Lee} tumi dwane {num_digit_1, 400}-mita mmirika-ahuruiԑ kyԑn sԑneԑ {name_male_2, Gerald} tumi dwane {num_digit_1, 400}-mita mmirika-ahuruiԑ no anibɔ mmienu mu. Nanso, {name_male_2, Gerald} sesaa n’adidie na ԑmaa ne mmirikatuo no kɔɔ soro {num_digit_2, 10}%. Sԑ {name_male_1, Lee} tu {num_digit_1, 400}-mita mmirika-ahuruiԑ no wɔ anibɔ {num_digit_3, 38} mu a, ntԑm sԑn na {name_male_2, Gerald}, wɔ n’aduanedie mu a akɔ nkan no mu no, tu {num_digit_1, 400}-mita mmirika-ahuruiԑ no wɔ anibɔ mu?",
+  "ic_sentence_template": "{name_male_2, Gerald} sewaa kɔgyee akyekyedeɛ {num_ic, 486} nnansa yi ara.",
+  "ic_template": "{name_male_2, Gerald} sewaa kɔgyee akyekyedeɛ {num_ic, 486} nnansa yi ara. Na {name_male_1, Lee} tumi dwane {num_digit_1, 400}-mita mmirika-ahuruiԑ kyԑn sԑneԑ {name_male_2, Gerald} tumi dwane {num_digit_1, 400}-mita mmirika-ahuruiԑ no anibɔ mmienu mu. Nanso, {name_male_2, Gerald} sesaa n’adidie na ԑmaa ne mmirikatuo no kɔɔ soro {num_digit_2, 10}%. Sԑ {name_male_1, Lee} tu {num_digit_1, 400}-mita mmirika-ahuruiԑ no wɔ anibɔ {num_digit_3, 38} mu a, ntԑm sԑn na {name_male_2, Gerald}, wɔ n’aduanedie mu a akɔ nkan no mu no, tu {num_digit_1, 400}-mita mmirika-ahuruiԑ no wɔ anibɔ mu?",
+  "equation": "UPDATE HERE"
+}

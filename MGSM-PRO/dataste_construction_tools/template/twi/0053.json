@@ -1,0 +1,8 @@
+{
+  "original_question": "Deԑ ɔyԑ hyԑn ho adwuma bi gye boɔ ahodoɔ na w’asiesie ahyԑn akԑseԑ ne teaseԑnam tae. Hyԑn kԑseԑ tae biara a ɔbԑsiesie no, ɔgye $60 na teaseԑnam baako biara a ɔbԑsiesie no, ɔgye $40. Wɔ Yawada no, hyԑn ho dwumayԑni no siesie hyԑn kԑseԑ 6 tae na teaseԑnam 4 tae. Wɔ Fiada no, hyԑn ho dwumayԑni no siesie teaseԑnam 12 tae na ɔnsiesie hyԑn kԑseԑ tae biara. Sika sԑn na hyԑn ho dwumayԑni no nyaaԑ wɔ da a ɔnyaa sika kԑseԑ no?",
+  "original_answer": 73,
+  "symbolic_template": "Deԑ ɔyԑ hyԑn ho adwuma bi gye boɔ ahodoɔ na w’asiesie ahyԑn akԑseԑ ne teaseԑnam tae. Hyԑn kԑseԑ tae biara a ɔbԑsiesie no, ɔgye ${num_digit_1, 78} na teaseԑnam baako biara a ɔbԑsiesie no, ɔgye ${num_digit_2, 29}. Wɔ Yawada no, hyԑn ho dwumayԑni no siesie hyԑn kԑseԑ {num_digit_3, 8} tae na teaseԑnam {num_digit_4, 9} tae. Wɔ Fiada no,hyԑn ho dwumayԑni no siesie teaseԑnam {num_digit_5, 28} tae na ɔnsiesie hyԑn kԑseԑ tae biara. Sika sԑn na hyԑn ho dwumayԑni no nyaaԑ wɔ da a ɔnyaa sika kԑseԑ no?",
+  "ic_sentence_template": "Mfiridwumayɛfono wɔfase baa no wɔ agodeɛ kaa {num_ic, 115}.",
+  "ic_template": "Mfiridwumayɛfono wɔfase baa no wɔ agodeɛ kaa {num_ic, 115}. Deԑ ɔyԑ hyԑn ho adwuma bi gye boɔ ahodoɔ na w’asiesie ahyԑn akԑseԑ ne teaseԑnam tae. Hyԑn kԑseԑ tae biara a ɔbԑsiesie no, ɔgye ${num_digit_1, 78} na teaseԑnam baako biara a ɔbԑsiesie no, ɔgye ${num_digit_2, 29}. Wɔ Yawada no, hyԑn ho dwumayԑni no siesie hyԑn kԑseԑ {num_digit_3, 8} tae na teaseԑnam {num_digit_4, 9} tae. Wɔ Fiada no,hyԑn ho dwumayԑni no siesie teaseԑnam {num_digit_5, 28} tae na ɔnsiesie hyԑn kԑseԑ tae biara. Sika sԑn na hyԑn ho dwumayԑni no nyaaԑ wɔ da a ɔnyaa sika kԑseԑ no?",
+  "equation": "UPDATE HERE"
+}

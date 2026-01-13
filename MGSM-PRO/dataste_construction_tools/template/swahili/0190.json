@@ -1,0 +1,8 @@
+{
+  "original_question": "John anakusanya pichi kwa saa 3. Anaweza kukusanya pichi 2 kwa dakika moja. Atakusanya pichi ngapi kwa jumla?",
+  "original_answer": 360,
+  "symbolic_template": "{name_male, John} anakusanya pichi kwa saa {num_digit_1, 3}. Anaweza kukusanya pichi {num_digit_2, 2} kwa dakika moja. Atakusanya pichi ngapi kwa jumla?",
+  "ic_sentence_template": "Mjomba wa {name_male, John} huleta vikapu {num_ic, 9} kwenye shamba la matunda kila asubuhi.",
+  "ic_template": "Mjomba wa {name_male, John} huleta vikapu {num_ic, 9} kwenye shamba la matunda kila asubuhi. {name_male, John} anakusanya pichi kwa saa {num_digit_1, 3}. Anaweza kukusanya pichi {num_digit_2, 2} kwa dakika moja. Atakusanya pichi ngapi kwa jumla?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "John wɔ aburabi afuɔ a ne kɛse yɛ hekta edu. Aburabi ɔha biara na edu hekta. John tumi twa n'aburabi no bosome mmiɛnsa biara. Aburabi dodoɔ ahe na John betumi atete wɔ afe baako mu?",
+  "original_answer": 4000,
+  "symbolic_template": "{name_male, John} wɔ aburabi afuɔ a ne kɛse yɛ hekta {num_digit_1, 10}. Aburabi {num_digit_2, 100} biara na edu hekta. {name_male, John} tumi twa n'aburabi no bosome {num_digit_3, mmiɛnsa} biara. Aburabi dodoɔ ahe na {name_male, John} betumi atete wɔ afe baako mu?",
+  "ic_sentence_template": "{name_male, John} wɔfa no tɔɔ kwadu adaka {num_ic, 210} nnawɔtwe a atwa mu.",
+  "ic_template": "{name_male, John} wɔfa no tɔɔ kwadu adaka {num_ic, 210} nnawɔtwe a atwa mu. {name_male, John} wɔ aburabi afuɔ a ne kɛse yɛ hekta {num_digit_1, 10}. Aburabi {num_digit_2, 100} biara na edu hekta. {name_male, John} tumi twa n'aburabi no bosome {num_digit_3, mmiɛnsa} biara. Aburabi dodoɔ ahe na {name_male, John} betumi atete wɔ afe baako mu?",
+  "equation": "UPDATE HERE"
+}

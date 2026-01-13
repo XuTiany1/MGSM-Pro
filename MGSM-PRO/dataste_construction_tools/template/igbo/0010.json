@@ -1,0 +1,8 @@
+{
+  "original_question": "Atụmatụ ọhụrụ nweere mbudata iri isii n'ọnwa nke mbụ. Ọnụọgụgụ mbudata nke ọnwa abụọ dị ọtụtụ okpo atọ karịa mbudata nke ọnwa mbụ, mana mgbe ahụ eweturu ya dịka 30% n'ọnwa nke atọ. Mbudata ole ka atụmatụ nwere n'ozuzu oké n'ịme ọnwa atọ ndị ahụ? ",
+  "original_answer": 366,
+  "symbolic_template": "Atụmatụ ọhụrụ nweere mbudata {num_digit_1, 60} n'ọnwa nke mbụ. Ọnụọgụgụ mbudata nke ọnwa abụọ dị ọtụtụ okpo atọ karịa mbudata nke ọnwa mbụ, mana mgbe ahụ eweturu ya dịka {num_digit_2, 30}% n'ọnwa nke atọ. Mbudata ole ka atụmatụ nwere n'ozuzu oké n'ịme ọnwa atọ ndị ahụ?",
+  "ic_sentence_template": "Nwanne nna onye developer lụrụ tebụl kọmpụta {num_ic, 413} maka ụlọ ọrụ ahụ.",
+  "ic_template": "Nwanne nna onye developer lụrụ tebụl kọmpụta {num_ic, 413} maka ụlọ ọrụ ahụ. Atụmatụ ọhụrụ nweere mbudata {num_digit_1, 60} n'ọnwa nke mbụ. Ọnụọgụgụ mbudata nke ọnwa abụọ dị ọtụtụ okpo atọ karịa mbudata nke ọnwa mbụ, mana mgbe ahụ eweturu ya dịka {num_digit_2, 30}% n'ọnwa nke atọ. Mbudata ole ka atụmatụ nwere n'ozuzu oké n'ịme ọnwa atọ ndị ahụ?",
+  "equation": "UPDATE HERE"
+}

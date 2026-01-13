@@ -1,0 +1,28 @@
+{
+    "problem_id": "0108",
+    "generation_order": ["num_digit_3", "num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_3": {"type": "int", "range": [50, 200]},
+        "num_digit_1": {"type": "int", "range": [5, 20]},
+        "num_digit_2": {"type": "int", "range": [2, 10]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "undropped_total = num_digit_3 + num_digit_2",
+            "intended_total = undropped_total - num_digit_1",
+            "ans = intended_total / 2"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "intended_total > 0",
+            "intended_total % 2 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

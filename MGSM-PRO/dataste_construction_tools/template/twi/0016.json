@@ -1,0 +1,8 @@
+{
+  "original_question": "Keteke mmienu firi San Rafael berԑ koro no ara. Ͻhyԑ aseԑ sԑ ɔrekɔ apueԑ, wɔn mmienu nyinaa ԑrekɔ kwansini 80. Da a ԑdi akyiri no, wɔkɔ atifi, na wɔtwa kwansini 150. Kwan sԑn na keteke biara bԑtwa wɔ nna mmienu mu?",
+  "original_answer": 230,
+  "symbolic_template": "Keteke  mmienu firi {name_town_1, San Rafael} berԑ koro no ara. Ͻhyԑ aseԑ sԑ ɔrekɔ apueԑ, wɔn mmienu nyinaa ԑrekɔ kwansini {num_digit_1, 80}. Da a ԑdi akyiri no, wɔkɔ atifi, na wɔtwa kwansini {num_digit_2, 150}. Kwan sԑn na keteke biara bԑtwa wɔ nna mmienu mu?",
+  "ic_sentence_template": "{name_town_1, San Rafael} no sodifoɔ wɔ tren nhwɛsoɔ {num_ic, 137}.",
+  "ic_template": "{name_town_1, San Rafael} no sodifoɔ wɔ tren nhwɛsoɔ {num_ic, 137}. Keteke  mmienu firi {name_town_1, San Rafael} berԑ koro no ara. Ͻhyԑ aseԑ sԑ ɔrekɔ apueԑ, wɔn mmienu nyinaa ԑrekɔ kwansini {num_digit_1, 80}. Da a ԑdi akyiri no, wɔkɔ atifi, na wɔtwa kwansini {num_digit_2, 150}. Kwan sԑn na keteke biara bԑtwa wɔ nna mmienu mu?",
+  "equation": "UPDATE HERE"
+}

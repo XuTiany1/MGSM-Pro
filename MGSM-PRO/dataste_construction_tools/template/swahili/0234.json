@@ -1,0 +1,8 @@
+{
+  "original_question": "Steve anaamua kuanza kula nyanya nyingi na anaamua kupanda nyanya zake. Huwa anakula mara mbili zaidi ya mchumba wake. Huwa anakula 6 kwa siku. Ikiwa mnyanya mmoja unaweza kuzalisha nyanya 3 kwa wiki, anahitaji miti mingapi ya nyanya?",
+  "original_answer": 21,
+  "symbolic_template": "{name_male, Steve} anaamua kula nyanya nyingi zaidi na anaamua kulima nyanya zake mwenyewe. Anakula mara mbili ya kiasi kinacholiwa na mpenzi wake. Anakula nyanya {num_digit_1, 6} kwa siku. Ikiwa mzabibu unaweza kutoa nyanya {num_digit_2, 3} kwa wiki, anahitaji mizabibu mingapi?",
+  "ic_sentence_template": "Shangazi wa {name_male, Steve} hupanda pilipili {num_ic, 1531} kila majira ya joto.",
+  "ic_template": "Shangazi wa {name_male, Steve} hupanda pilipili {num_ic, 1531} kila majira ya joto. {name_male, Steve} anaamua kula nyanya nyingi zaidi na anaamua kulima nyanya zake mwenyewe. Anakula mara mbili ya kiasi kinacholiwa na mpenzi wake. Anakula nyanya {num_digit_1, 6} kwa siku. Ikiwa mzabibu unaweza kutoa nyanya {num_digit_2, 3} kwa wiki, anahitaji mizabibu mingapi?",
+  "equation": "UPDATE HERE"
+}

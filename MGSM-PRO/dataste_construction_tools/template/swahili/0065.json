@@ -1,0 +1,8 @@
+{
+  "original_question": "Jim hutumia saa 2 kutazama televisheni na kisha kuamua kwenda kitandani na kusoma kitabu kwa nusu ya muda huo. Yeye hufanya hii mara 3 kwa wiki. Huwa anatumia saa ngapi kutazama televisheni na kusoma kitabu kwa wiki 4?",
+  "original_answer": 36,
+  "symbolic_template": "{name_male, Jim} hutazama televisheni kwa saa {num_digit_1, 2} kisha huenda kulala na kusoma kwa nusu ya muda huo. Hufanya hivyo mara {num_digit_2, 3} kwa wiki. Anatumia saa ngapi kutazama televisheni na kusoma katika wiki {num_digit_3, 4}?",
+  "ic_sentence_template": "Mjomba wa {name_male, Jim} humtembelea kwa siku {num_ic, 34} kila mwaka.",
+  "ic_template": "Mjomba wa {name_male, Jim} humtembelea kwa siku {num_ic, 34} kila mwaka. {name_male, Jim} hutazama televisheni kwa saa {num_digit_1, 2} kisha huenda kulala na kusoma kwa nusu ya muda huo. Hufanya hivyo mara {num_digit_2, 3} kwa wiki. Anatumia saa ngapi kutazama televisheni na kusoma katika wiki {num_digit_3, 4}?",
+  "equation": "UPDATE HERE"
+}

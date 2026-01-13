@@ -1,0 +1,8 @@
+{
+  "original_question": "ジェーンはマークよりも2歳年上だ。2年前、マークはジャンの年の半分よりも5個上の年だった。もしジャンが30歳なら、ジェーンは何歳？",
+  "original_answer": 23,
+  "symbolic_template": "{name_male_1, Jean}は{name_male_2, Mark}より2歳年上です。Two年前、{name_male_2, Mark}は{name_female, Jan}の{num_digit_1, 5}歳年上でした。{name_female, Jan}が{num_digit_2, 30}歳だとすると、{name_male_1, Jean}は何歳でしょうか？",
+  "ic_sentence_template": "{name_male_1, ジャン}のおじさんは{num_ic, 82}枚の古いコインを持っています。",
+  "ic_template": "{name_male_1, ジャン}のおじさんは{num_ic, 82}枚の古いコインを持っています。{name_male_1, Jean}は{name_male_2, Mark}より2歳年上です。Two年前、{name_male_2, Mark}は{name_female, Jan}の{num_digit_1, 5}歳年上でした。{name_female, Jan}が{num_digit_2, 30}歳だとすると、{name_male_1, Jean}は何歳でしょうか？",
+  "equation": "UPDATE HERE"
+}

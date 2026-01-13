@@ -1,0 +1,8 @@
+{
+  "original_question": "A treasure hunter found a buried treasure chest filled with gems. There were 175 diamonds, 35 fewer rubies than diamonds, and twice the number of emeralds than the rubies. How many of the gems were there in the chest?",
+  "original_answer": 595,
+  "symbolic_template": "A treasure hunter found a buried treasure chest filled with gems. There were {num_digit_1, 175} diamonds, {num_digit_2, 35} fewer rubies than diamonds, and twice the number of emeralds than the rubies. How many of the gems were there in the chest?",
+  "ic_sentence_template": "The treasure hunter's uncle once found {num_ic, 632} ancient coins in a different cave.",
+  "ic_template": "A treasure hunter found a buried treasure chest filled with gems. There were {num_digit_1, 175} diamonds, {num_digit_2, 35} fewer rubies than diamonds, and twice the number of emeralds than the rubies. The treasure hunter's uncle once found {num_ic, 632} ancient coins in a different cave. How many of the gems were there in the chest?",
+  "equation": "UPDATE HERE"
+}

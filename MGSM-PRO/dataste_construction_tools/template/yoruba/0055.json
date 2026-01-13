@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean ní lólípọpù 30. Jean jẹ 2 nínú lólípọpù náà. Pẹ̀lú lólípọpù tó kù, Jean fẹ́ di lólípọpù 2 sínú àpamọ́ kan. Àpamọ́ mélòó ní Jean lè kún?",
+  "original_answer": 14,
+  "symbolic_template": "{name_male, Jean} ní lólípọpù {num_digit_1, 30}. {name_male, Jean} jẹ {num_digit_2, 2} nínú lólípọpù náà. Pẹ̀lú lólípọpù tó kù, {name_male, Jean} fẹ́ di lólípọpù {num_digit_3, 2} sínú àpamọ́ kan. Àpamọ́ mélòó ní {name_male, Jean} lè kún?",
+  "ic_sentence_template": "Ànti {name_male, Jean} ṣẹ̀ṣẹ̀ ra fèrè {num_ic, 94} laipẹ́ yi.",
+  "ic_template": "Ànti {name_male, Jean} ṣẹ̀ṣẹ̀ ra fèrè {num_ic, 94} laipẹ́ yi. {name_male, Jean} ní lólípọpù {num_digit_1, 30}. {name_male, Jean} jẹ {num_digit_2, 2} nínú lólípọpù náà. Pẹ̀lú lólípọpù tó kù, {name_male, Jean} fẹ́ di lólípọpù {num_digit_3, 2} sínú àpamọ́ kan. Àpamọ́ mélòó ní {name_male, Jean} lè kún?",
+  "equation": "UPDATE HERE"
+}

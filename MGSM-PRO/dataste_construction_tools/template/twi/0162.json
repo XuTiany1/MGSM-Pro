@@ -1,0 +1,8 @@
+{
+  "original_question": "Sɛ agudeɛ wɔnya firi toa mu kotoku bi bo yɛ $20 na ne bo dɔɔso a ayɛ ɔha mu nkyɛmu aduonu wɔ mfiase bo no ho bosome mmienu biara a, ɛnde sɛ abosome aduasa twamu a, agudeɛ wɔnya firi toa mu kotoku no bo bɛyɛ sɛn?",
+  "original_answer": 92,
+  "symbolic_template": "Sɛ agudeɛ wɔnya firi toa mu kotoku bi bo yɛ ${num_digit_1, 20} na ne bo dɔɔso a ayɛ ɔha mu nkyɛmu {num_digit_2, 20} wɔ mfiase bo no ho bosome mmienu biara a, ɛnde sɛ abosome {num_digit_3, 36} twamu a, agudeɛ wɔnya firi toa mu kotoku no bo bɛyɛ sɛn?",
+  "ic_sentence_template": "Sotɔɔ no sohwԑfo wɔfase barima no wɔ aseresɛm nwoma {num_ic, 60}.",
+  "ic_template": "Sotɔɔ no sohwԑfo wɔfase barima no wɔ aseresɛm nwoma {num_ic, 60}. Sɛ agudeɛ wɔnya firi toa mu kotoku bi bo yɛ ${num_digit_1, 20} na ne bo dɔɔso a ayɛ ɔha mu nkyɛmu {num_digit_2, 20} wɔ mfiase bo no ho bosome mmienu biara a, ɛnde sɛ abosome {num_digit_3, 36} twamu a, agudeɛ wɔnya firi toa mu kotoku no bo bɛyɛ sɛn?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Grace wọn ìwọn póùn 125. Alex kéré ní ìwọ̀n póùn 2 ju ìlọ́po mẹ́rin nǹkan tí Grace wọ̀n. Kínni àpapọ̀ ìwọ̀n wọn ní póùn?",
+  "original_answer": 623,
+  "symbolic_template": "{name_female, Grace} wọn ìwọn póùn {num_digit_1, 125}. Alex kéré ní ìwọ̀n póùn {num_digit_2, 2} ju ìlọ́po {num_digit_3, mẹ́rin} nǹkan tí {name_female, Grace} wọ̀n. Kínni àpapọ̀ ìwọ̀n wọn ní póùn?",
+  "ic_sentence_template": "Arákùnrin {name_female, Grace} laipẹ́ yi gbe {num_ic, 17} àpótí níbi iṣẹ́ rẹ̀.",
+  "ic_template": "Arákùnrin {name_female, Grace} laipẹ́ yi gbe {num_ic, 17} àpótí níbi iṣẹ́ rẹ̀. {name_female, Grace} wọn ìwọn póùn {num_digit_1, 125}. Alex kéré ní ìwọ̀n póùn {num_digit_2, 2} ju ìlọ́po {num_digit_3, mẹ́rin} nǹkan tí {name_female, Grace} wọ̀n. Kínni àpapọ̀ ìwọ̀n wọn ní póùn?",
+  "equation": "UPDATE HERE"
+}

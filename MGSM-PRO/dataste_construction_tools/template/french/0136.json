@@ -1,0 +1,8 @@
+{
+  "original_question": "Il ne reste que 27 licornes dans le monde. Un tiers d'entre elles se trouvent dans les Highlands, en Écosse. Deux tiers des licornes écossaises sont des femmes. Combien y a-t-il de licornes écossaises ?",
+  "original_answer": 6,
+  "symbolic_template": "Il ne reste que {num_digit_1, 27} licornes dans le monde. Un tiers d'entre elles se trouvent dans les Highlands, en Écosse. Deux tiers des licornes écossaises sont des femmes. Combien y a-t-il de licornes écossaises ?",
+  "ic_sentence_template": "{num_ic, 38} dragons ont récemment été découverts par un agriculteur local.",
+  "ic_template": "{num_ic, 38} dragons ont récemment été découverts par un agriculteur local. Il ne reste que {num_digit_1, 27} licornes dans le monde. Un tiers d'entre elles se trouvent dans les Highlands, en Écosse. Deux tiers des licornes écossaises sont des femmes. Combien y a-t-il de licornes écossaises ?",
+  "equation": "UPDATE HERE"
+}

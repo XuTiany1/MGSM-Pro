@@ -1,0 +1,8 @@
+{
+  "original_question": "Dana court quatre fois plus vite qu'elle ne marche, mais saute deux fois moins vite qu'elle ne court. Si elle saute à une vitesse de 3 miles par heure, combien de miles parcourt-elle en six heures, sachant qu'elle passe 1/3 du temps à courir et 2/3 à marcher ?",
+  "original_answer": 18,
+  "symbolic_template": "{name_female, Dana} court quatre fois plus vite qu'elle ne marche, mais saute deux fois moins vite qu'elle ne court. Si elle saute à une vitesse de {num_digit_1, 3} miles par heure, combien de miles parcourt-elle en six heures, sachant qu'elle passe 1/3 du temps à courir et 2/3 à marcher ?",
+  "ic_sentence_template": "{name_female, Dana} a un oncle qui a déjà terminé une course avec {num_ic, 106} participants.",
+  "ic_template": "{name_female, Dana} a un oncle qui a déjà terminé une course avec {num_ic, 106} participants. {name_female, Dana} court quatre fois plus vite qu'elle ne marche, mais saute deux fois moins vite qu'elle ne court. Si elle saute à une vitesse de {num_digit_1, 3} miles par heure, combien de miles parcourt-elle en six heures, sachant qu'elle passe 1/3 du temps à courir et 2/3 à marcher ?",
+  "equation": "UPDATE HERE"
+}

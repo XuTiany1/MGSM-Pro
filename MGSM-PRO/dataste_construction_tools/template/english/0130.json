@@ -1,0 +1,8 @@
+{
+  "original_question": "Nissa hires 60 seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then 10 of the remaining elves quit after kids kick their shins. How many elves are left?",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, Nissa} hires {num_digit_1, 60} seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then {num_digit_2, 10} of the remaining elves quit after kids kick their shins. How many elves are left?",
+  "ic_sentence_template": "{name_female, Nissa}'s uncle delivers {num_ic, 87} Christmas trees to the store every year.",
+  "ic_template": "{name_female, Nissa} hires {num_digit_1, 60} seasonal workers to play elves in her department store's Santa village. A third of the elves quit after children vomit on them, then {num_digit_2, 10} of the remaining elves quit after kids kick their shins. {name_female, Nissa}'s uncle delivers {num_ic, 87} Christmas trees to the store every year. How many elves are left?",
+  "equation": "UPDATE HERE"
+}

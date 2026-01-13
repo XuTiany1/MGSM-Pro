@@ -1,0 +1,8 @@
+{
+  "original_question": "N' ụbọchị Mọndee, Walt gara ije mailị. Tuzdee, ọ gara ugboro 6 ọtụtụ mailụ anọ di ka ọ gara n'ụbọchị Mọndee. Ngụkọta mailụ ya na Mọndee ruo Wenezdee bụ mailụ anọ na otu.Mailụ ole ka ọ gara n'ụbọchị Wenezdee?",
+  "original_answer": 13,
+  "symbolic_template": "N' ụbọchị Mọndee, {name_male, Walt} gara ije mailị {num_digit_1, 4}. Tuzdee, ọ gara ugboro {num_digit_2, 6} ọtụtụ mailụ di ka ọ gara n'ụbọchị Mọndee. Ngụkọta mailụ ya na Mọndee ruo Wenezdee bụ mailụ {num_digit_3, 41}. Mailụ ole ka ọ gara n'ụbọchị Wenezdee?",
+  "ic_sentence_template": "Nwanne nna {name_male, Walt} sụrụ igwe kwụ otu ebe ya ụdị {num_ic, 17} maili na izu ahụ.",
+  "ic_template": "Nwanne nna {name_male, Walt} sụrụ igwe kwụ otu ebe ya ụdị {num_ic, 17} maili na izu ahụ. N' ụbọchị Mọndee, {name_male, Walt} gara ije mailị {num_digit_1, 4}. Tuzdee, ọ gara ugboro {num_digit_2, 6} ọtụtụ mailụ di ka ọ gara n'ụbọchị Mọndee. Ngụkọta mailụ ya na Mọndee ruo Wenezdee bụ mailụ {num_digit_3, 41}. Mailụ ole ka ọ gara n'ụbọchị Wenezdee?",
+  "equation": "UPDATE HERE"
+}

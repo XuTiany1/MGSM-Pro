@@ -1,0 +1,8 @@
+{
+  "original_question": "Oníṣẹ́-ọnà jeans máa ń san $250 fún un ní wákàtí kan.  Ó nílò ìkunjú tó wọ́n gan-an fún fíìmù tí ó wà nínú rẹ̀ ó sì máa ń gba wákàtí mẹ́fà láti ṣe lójoojúmọ́ ó sì nílò kí wọ́n ṣe é ní ìgbà mẹ́rin ní ọ̀sẹ̀ kan.  Fíìmù náà gba ọ̀sẹ̀ márùn-ún láti parí. Lẹ́yìn tí wọ́n bá ti ṣe fíìmù náà oníṣẹ́-ọnà náà fún Jean ní ẹ̀dínwó 10% nítorí iye iṣẹ́ tí ó ṣe.  Èlò ni Jean san?",
+  "original_answer": 27000,
+  "symbolic_template": "Oníṣẹ́-ọnà {name_female, Jean} máa ń san ${num_digit_1, 250} fún un ní wákàtí kan.  Ó nílò ìkunjú tó wọ́n gan-an fún fíìmù tí ó wà nínú rẹ̀ ó sì máa ń gba wákàtí {num_digit_2, mẹ́fà} láti ṣe lójoojúmọ́ ó sì nílò kí wọ́n ṣe é ní ìgbà {num_digit_3, mẹ́rin} ní ọ̀sẹ̀ kan.  Fíìmù náà gba ọ̀sẹ̀ {num_digit_4, márùn-ún} láti parí. Lẹ́yìn tí wọ́n bá ti ṣe fíìmù náà oníṣẹ́-ọnà náà fún {name_female, Jean} ní ẹ̀dínwó {num_digit_5, 10}% nítorí iye iṣẹ́ tí ó ṣe.  Èlò ni {name_female, Jean} san?",
+  "ic_sentence_template": "Ẹ̀gbọ́n bàbá {name_female, Jean} mú àwọn odòdó {num_ic, 368078} wá síbi fíìmù.",
+  "ic_template": "Ẹ̀gbọ́n bàbá {name_female, Jean} mú àwọn odòdó {num_ic, 368078} wá síbi fíìmù. Oníṣẹ́-ọnà {name_female, Jean} máa ń san ${num_digit_1, 250} fún un ní wákàtí kan.  Ó nílò ìkunjú tó wọ́n gan-an fún fíìmù tí ó wà nínú rẹ̀ ó sì máa ń gba wákàtí {num_digit_2, mẹ́fà} láti ṣe lójoojúmọ́ ó sì nílò kí wọ́n ṣe é ní ìgbà {num_digit_3, mẹ́rin} ní ọ̀sẹ̀ kan.  Fíìmù náà gba ọ̀sẹ̀ {num_digit_4, márùn-ún} láti parí. Lẹ́yìn tí wọ́n bá ti ṣe fíìmù náà oníṣẹ́-ọnà náà fún {name_female, Jean} ní ẹ̀dínwó {num_digit_5, 10}% nítorí iye iṣẹ́ tí ó ṣe.  Èlò ni {name_female, Jean} san?",
+  "equation": "UPDATE HERE"
+}

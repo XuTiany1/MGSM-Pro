@@ -1,0 +1,8 @@
+{
+  "original_question": "Jackie na-agbalị ịkpebi ma ọ ga-eme ụtụisi n'aka ya maọbụ gobie onye akaụntụ. Ọ bụrụ na o mee ụtụisi ahụ n'aka ya, ọ ga-arụ ọrụ nchere oge awa atọ dịrị nta, ma tufuo $35/awa n'ụgwọọrụ na-abịaghị. Onye akaụntụ na-ana $90. Ego ole karịa ọ ga-enweta ma o gobie onye akaụntụ ",
+  "original_answer": 15,
+  "symbolic_template": "{name_female, Jackie} na-agbalị ịkpebi ma ọ ga-eme ụtụisi n'aka ya maọbụ gobie onye akaụntụ. Ọ bụrụ na o mee ụtụisi ahụ n'aka ya, ọ ga-arụ ọrụ nchere oge awa {num_digit_1, 3} dịrị nta, ma tufuo ${num_digit_2, 35}/awa n'ụgwọọrụ na-abịaghị. Onye akaụntụ na-ana ${num_digit_3, 90}. Ego ole karịa ọ ga-enweta ma o gobie onye akaụntụ?",
+  "ic_sentence_template": "Nwanne nna {name_female, Jackie} zụrụ akwụkwọ ụtụ isi {num_ic, 97} n’ime afọ a.",
+  "ic_template": "Nwanne nna {name_female, Jackie} zụrụ akwụkwọ ụtụ isi {num_ic, 97} n’ime afọ a. {name_female, Jackie} na-agbalị ịkpebi ma ọ ga-eme ụtụisi n'aka ya maọbụ gobie onye akaụntụ. Ọ bụrụ na o mee ụtụisi ahụ n'aka ya, ọ ga-arụ ọrụ nchere oge awa {num_digit_1, 3} dịrị nta, ma tufuo ${num_digit_2, 35}/awa n'ụgwọọrụ na-abịaghị. Onye akaụntụ na-ana ${num_digit_3, 90}. Ego ole karịa ọ ga-enweta ma o gobie onye akaụntụ?",
+  "equation": "UPDATE HERE"
+}

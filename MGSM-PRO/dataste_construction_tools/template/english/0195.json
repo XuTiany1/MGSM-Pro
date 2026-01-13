@@ -1,0 +1,8 @@
+{
+  "original_question": "A pen costs as much as a pencil and eraser combined. A pencil costs $1.20 and an eraser costs $0.30. How much will 8 pens cost?",
+  "original_answer": 12,
+  "symbolic_template": "A pen costs as much as a pencil and eraser combined. A pencil costs ${num_digit_1, 1.20} and an eraser costs ${num_digit_2, 0.30}. How much will {num_digit_3, 8} pens cost?",
+  "ic_sentence_template": "{num_ic, 33} new notebooks arrived at the store today.",
+  "ic_template": "A pen costs as much as a pencil and eraser combined. A pencil costs ${num_digit_1, 1.20} and an eraser costs ${num_digit_2, 0.30}. {num_ic, 33} new notebooks arrived at the store today. How much will {num_digit_3, 8} pens cost?",
+  "equation": "UPDATE HERE"
+}

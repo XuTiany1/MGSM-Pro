@@ -1,0 +1,8 @@
+{
+  "original_question": "There are 36 penguins sunbathing in the snow. One-third of them jump in and swim in the ocean. Another one-third go inside the cave to eat their dinner. How many penguins are still left sunbathing?",
+  "original_answer": 12,
+  "symbolic_template": "There are {num_digit_1, 36} penguins sunbathing in the snow. One-third of them jump in and swim in the ocean. Another one-third go inside the cave to eat their dinner. How many penguins are still left sunbathing?",
+  "ic_sentence_template": "One of the penguins' uncles recently spotted {num_ic, 57} seals lounging nearby.",
+  "ic_template": "There are {num_digit_1, 36} penguins sunbathing in the snow. One-third of them jump in and swim in the ocean. Another one-third go inside the cave to eat their dinner. One of the penguins' uncles recently spotted {num_ic, 57} seals lounging nearby. How many penguins are still left sunbathing?",
+  "equation": "UPDATE HERE"
+}

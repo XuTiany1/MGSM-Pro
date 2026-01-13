@@ -1,0 +1,26 @@
+{
+    "problem_id": "0208",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [1, 11]},
+        "num_digit_2": {"type": "int", "range": [2, 6]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "mon = num_digit_1",
+            "tue = 3 * mon",
+            "wed = num_digit_2 * tue",
+            "ans = mon + tue + wed"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

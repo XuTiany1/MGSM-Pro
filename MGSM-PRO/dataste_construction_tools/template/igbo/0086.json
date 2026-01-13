@@ -1,0 +1,8 @@
+{
+  "original_question": "Greg gbanyere mgbịrịgba elekere ka ọ kụọ ugboro atọ n'ụbọchị dịka ncheta. Mgbe mgbịrịgba ahụ kụrụ, ọ nọ na-akụ ruo mgbe Greg gbanyụrụ ya. Oge nke mbụ ọ kụrụ taa, ọ kụrụ ugboro anọ. Oge nke abụọ ọ kụrụ, ọ kụrụ ụzọ atọ n'ịhe ọ kụrụ oge mbụ. Oge nke atọ, ọ kụrụ ọkara ịhe ọ kụrụ oge nke abụọ. Kedụ ugboro ole mgbịrịgba elekere ahụ kụrụ n'uju ya?",
+  "original_answer": 22,
+  "symbolic_template": "{name_male, Greg} gbanyere mgbịrịgba elekere ka ọ kụọ ugboro atọ n'ụbọchị dịka ncheta. Mgbe mgbịrịgba ahụ kụrụ, ọ nọ na-akụ ruo mgbe {name_male, Greg} gbanyụrụ ya. Oge nke mbụ ọ kụrụ taa, ọ kụrụ ugboro anọ. Oge nke abụọ ọ kụrụ, ọ kụrụ ụzọ atọ n'ịhe ọ kụrụ oge mbụ. Oge nke atọ, ọ kụrụ ọkara ịhe ọ kụrụ oge nke abụọ. Kedụ ugboro ole mgbịrịgba elekere ahụ kụrụ n'uju ya?",
+  "ic_sentence_template": "Nwanne nna {name_male, Greg} zụtara {num_ic, 15} elekere ịdọ aka ná ntị ọhụrụ.",
+  "ic_template": "Nwanne nna {name_male, Greg} zụrụạ {num_ic, 15} elekere ịdọ aka ná ntị ọhụrụ. {name_male, Greg} gbanyere mgbịrịgba elekere ka ọ kụọ ugboro atọ n'ụbọchị dịka ncheta. Mgbe mgbịrịgba ahụ kụrụ, ọ nọ na-akụ ruo mgbe {name_male, Greg} gbanyụrụ ya. Oge nke mbụ ọ kụrụ taa, ọ kụrụ ugboro anọ. Oge nke abụọ ọ kụrụ, ọ kụrụ ụzọ atọ n'ịhe ọ kụrụ oge mbụ. Oge nke atọ, ọ kụrụ ọkara ịhe ọ kụrụ oge nke abụọ. Kedụ ugboro ole mgbịrịgba elekere ahụ kụrụ n'uju ya?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "If Marcy works for the same company for 40 years, she gets an annual pension of $50,000/year. Starting after 20 years, she becomes entitled to 5% of the value of the pension per year. If she quits after 30 years, what will her annual pension be?",
+  "original_answer": 25000,
+  "symbolic_template": "If {name_female, Marcy} works for the same company for {num_digit_1, 40} years, she gets an annual pension of ${num_digit_2, 50,000}/year. Starting after {num_digit_3, 20} years, she becomes entitled to {num_digit_4, 5}% of the value of the pension per year. If she quits after {num_digit_6, 30} years, what will her annual pension be?",
+  "ic_sentence_template": "{name_female, Marcy}'s uncle received a bonus of ${num_ic, 315,000} last year.",
+  "ic_template": "If {name_female, Marcy} works for the same company for {num_digit_1, 40} years, she gets an annual pension of ${num_digit_2, 50,000}/year. Starting after {num_digit_3, 20} years, she becomes entitled to {num_digit_4, 5}% of the value of the pension per year. {name_female, Marcy}'s uncle received a bonus of ${num_ic, 315,000} last year. If she quits after {num_digit_6, 30} years, what will her annual pension be?",
+  "equation": "UPDATE HERE"
+}

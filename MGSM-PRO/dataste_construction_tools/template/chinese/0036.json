@@ -1,0 +1,8 @@
+{
+  "original_question": "特里每天吃 2 份酸奶。现在酸奶打折销售，4 份酸奶只需 5.00 美元。他 30 天花了多少钱买酸奶？",
+  "original_answer": 75,
+  "symbolic_template": "{name_male, 特里} 每天吃 {num_digit_1, 2} 份酸奶。现在酸奶打折销售，{num_digit_2, 4} 份酸奶只需 {num_digit_3, 5}.00 美元。他 {num_digit_4, 30} 天花了多少钱买酸奶？",
+  "ic_sentence_template": "{name_male, 特里} 的叔叔最近买了 {num_ic, 29} 箱橙汁。",
+  "ic_template": "{name_male, 特里} 的叔叔最近买了 {num_ic, 29} 箱橙汁。{name_male, 特里} 每天吃 {num_digit_1, 2} 份酸奶。现在酸奶打折销售，{num_digit_2, 4} 份酸奶只需 {num_digit_3, 5}.00 美元。他 {num_digit_4, 30} 天花了多少钱买酸奶？",
+  "equation": "UPDATE HERE"
+}

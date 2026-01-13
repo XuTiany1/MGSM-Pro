@@ -1,0 +1,30 @@
+{
+    "problem_id": "0050",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [60, 600]},
+        "num_digit_2": {"type": "int", "range": [2, 10]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "dozens_per_day = num_digit_1 / 12"
+        ],
+        "num_digit_2": [
+            "daily_revenue = dozens_per_day * num_digit_2",
+            "ans = daily_revenue * 7"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 4}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "num_digit_1 % 12 == 0"
+        ],
+        "num_digit_2": [
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

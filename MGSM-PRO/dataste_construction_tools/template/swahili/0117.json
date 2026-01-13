@@ -1,0 +1,8 @@
+{
+  "original_question": "John ananunua jozi 2 za viatu kwa kila mtoto kati ya watoto wake 3. Gharama yao ni $60 kwa kila kimoja. Alilipa pesa ngapi kwa jumla?",
+  "original_answer": 360,
+  "symbolic_template": "{name_male, John} hununua jozi za viatu {num_digit_1, 2} kwa kila mmoja wa watoto wake {num_digit_2, 3}. Vinagharimu ${num_digit_3, 60} kila jozi. Ametumia jumla ya pesa ngapi?",
+  "ic_sentence_template": " Mjomba wa {name_male, John} aliwahi kununua kofia {num_ic, 15}.",
+  "ic_template": "Mjomba wa {name_male, John} aliwahi kununua kofia {num_ic, 15}. {name_male, John} hununua jozi za viatu {num_digit_1, 2} kwa kila mmoja wa watoto wake {num_digit_2, 3}. Vinagharimu ${num_digit_3, 60} kila jozi. Ametumia jumla ya pesa ngapi?",
+  "equation": "UPDATE HERE"
+}

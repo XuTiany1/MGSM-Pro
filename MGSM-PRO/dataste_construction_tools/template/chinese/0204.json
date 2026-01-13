@@ -1,0 +1,8 @@
+{
+  "original_question": "珍妮特有 22 根绿色笔和 10 根黄色笔。然后她买了 6 包蓝色笔和 2 包红色笔。每包蓝色笔里面有 9 根笔，每包红色笔里面有 6 根笔。珍妮特现在有多少根笔？",
+  "original_answer": 98,
+  "symbolic_template": "{name_female, 珍妮特} 有 {num_digit_1, 22} 根绿色笔和 {num_digit_2, 10} 根黄色笔。然后她买了 {num_digit_3, 6} 包蓝色笔和 {num_digit_4, 2} 包红色笔。每包蓝色笔里面有 {num_digit_5, 9} 根笔，每包红色笔里面有 {num_digit_6, 6} 根笔。{name_female, 珍妮特} 现在有多少根笔？",
+  "ic_sentence_template": "{name_female, 珍妮特}的表亲刚刚收到了 {num_ic, 700} 本笔记本作为礼物。",
+  "ic_template": "{name_female, 珍妮特}的表亲刚刚收到了 {num_ic, 700} 本笔记本作为礼物。{name_female, 珍妮特} 有 {num_digit_1, 22} 根绿色笔和 {num_digit_2, 10} 根黄色笔。然后她买了 {num_digit_3, 6} 包蓝色笔和 {num_digit_4, 2} 包红色笔。每包蓝色笔里面有 {num_digit_5, 9} 根笔，每包红色笔里面有 {num_digit_6, 6} 根笔。{name_female, 珍妮特} 现在有多少根笔？",
+  "equation": "UPDATE HERE"
+}

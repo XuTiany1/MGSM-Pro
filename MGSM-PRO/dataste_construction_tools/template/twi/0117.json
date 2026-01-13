@@ -1,0 +1,8 @@
+{
+  "original_question": "John tɔ mpaboa mmienu ma ne mma mmiԑnsa no nyinaa. Baako biara boɔ yԑ $60. Sika sԑn na ɔtuaԑ?",
+  "original_answer": 360,
+  "symbolic_template": "{name_male, John} tɔ mpaboa {num_digit_1, mmienu} ma ne mma {num_digit_2, mmiɛnsa} no nyinaa. Baako biara boɔ yԑ ${num_digit_3, 60}. Sika sԑn na ɔtuaɛ?",
+  "ic_sentence_template": "{name_male, John} wɔfa tɔɔ kyԑw {num_ic, 15} bere bi .",
+  "ic_template": "{name_male, John} wɔfa tɔɔ kyԑw {num_ic, 15} bere bi . {name_male, John} tɔ mpaboa {num_digit_1, mmienu} ma ne mma {num_digit_2, mmiɛnsa} no nyinaa. Baako biara boɔ yԑ ${num_digit_3, 60}. Sika sԑn na ɔtuaɛ?",
+  "equation": "UPDATE HERE"
+}

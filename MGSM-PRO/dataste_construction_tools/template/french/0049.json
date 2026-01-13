@@ -1,0 +1,8 @@
+{
+  "original_question": "Richard vit dans l'un des appartements d'un immeuble de 15 étages. Chaque étage contient 8 appartements. Sachant que les 3/4 de l'immeuble sont occupés, quel est le nombre total d'appartements inoccupés de l'immeuble ?",
+  "original_answer": 30,
+  "symbolic_template": "{name_male, Richard} vit dans l'un des appartements d'un immeuble de {num_digit_1, 15} étages. Chaque étage contient {num_digit_2, 8} appartements. Sachant que les 3/4 de l'immeuble sont occupés, quel est le nombre total d'appartements inoccupés de l'immeuble ?",
+  "ic_sentence_template": "{name_male, Richard} a un oncle qui tient une boulangerie avec {num_ic, 88} pains exposés.",
+  "ic_template": "{name_male, Richard} a un oncle qui tient une boulangerie avec {num_ic, 88} pains exposés. {name_male, Richard} vit dans l'un des appartements d'un immeuble de {num_digit_1, 15} étages. Chaque étage contient {num_digit_2, 8} appartements. Sachant que les 3/4 de l'immeuble sont occupés, quel est le nombre total d'appartements inoccupés de l'immeuble ?",
+  "equation": "UPDATE HERE"
+}

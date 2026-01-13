@@ -1,0 +1,8 @@
+{
+  "original_question": "Grace weighs 125 pounds. Alex weighs 2 pounds less than 4 times what Grace weighs. What are their combined weights in pounds?",
+  "original_answer": 623,
+  "symbolic_template": "{name_female, Grace} weighs {num_digit_1, 125} pounds. {name_male, Alex} weighs {num_digit_2, 2} pounds less than {num_digit_3, 4} times what {name_female, Grace} weighs. What are their combined weights in pounds?",
+  "ic_sentence_template": "{name_female, Grace}'s uncle recently lifted {num_ic, 17} boxes at work.",
+  "ic_template": "{name_female, Grace} weighs {num_digit_1, 125} pounds. {name_male, Alex} weighs {num_digit_2, 2} pounds less than {num_digit_3, 4} times what {name_female, Grace} weighs. {name_female, Grace}'s uncle recently lifted {num_ic, 17} boxes at work. What are their combined weights in pounds?",
+  "equation": "UPDATE HERE"
+}

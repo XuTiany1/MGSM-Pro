@@ -1,0 +1,8 @@
+{
+  "original_question": "Nígbà tí ó wà ní ilé ìtajà dollar, Sloane ka àwọn oníbàárà 100 tí wọ́n wọ ilé ìtajà náà. Ní ọjọ́ kejì, ó ka oníbàárà 50 ju ọjọ́ àkọ́kọ́ lọ. Tí àpapọ̀ iye àwọn oníbàárà ní ọjọ́ kẹta bá jẹ́ 500, oníbàárà mélòó ni ó kà ní ọjọ́ kẹta?",
+  "original_answer": 250,
+  "symbolic_template": "Nígbà tí ó wà ní ilé ìtajà dollar, {name_female, Sloane} ka àwọn oníbàárà {num_digit_1, 100} tí wọ́n wọ ilé ìtajà náà. Ní ọjọ́ kejì, ó ka oníbàárà {num_digit_2, 50} ju ọjọ́ àkọ́kọ́ lọ. Tí àpapọ̀ iye àwọn oníbàárà ní ọjọ́ kẹta bá jẹ́ {num_digit_3, 500}, oníbàárà mélòó ni ó kà ní ọjọ́ kẹta?",
+  "ic_sentence_template": "Ìyá àgbà {name_female, Sloane} ṣe àwọn pàìi bòòrùbèrì {num_ic, 93} fún títà nínú títà onjẹ àkàrà.",
+  "ic_template": "  Ìyá àgbà {name_female, Sloane} ṣe àwọn pàìi bòòrùbèrì {num_ic, 93} fún títà nínú títà onjẹ àkàrà. Nígbà tí ó wà ní ilé ìtajà dollar, {name_female, Sloane} ka àwọn oníbàárà {num_digit_1, 100} tí wọ́n wọ ilé ìtajà náà. Ní ọjọ́ kejì, ó ka oníbàárà {num_digit_2, 50} ju ọjọ́ àkọ́kọ́ lọ. Tí àpapọ̀ iye àwọn oníbàárà ní ọjọ́ kẹta bá jẹ́ {num_digit_3, 500}, oníbàárà mélòó ni ó kà ní ọjọ́ kẹta?",
+  "equation": "UPDATE HERE"
+}

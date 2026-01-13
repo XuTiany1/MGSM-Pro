@@ -1,0 +1,8 @@
+{
+  "original_question": "Tracy used a piece of wire 7.75 feet long to support tomato plants in the garden. The wire was cut into pieces 31 inches long. How many pieces did she obtain?",
+  "original_answer": 3,
+  "symbolic_template": "{name_female, Tracy} used a piece of wire {num_digit_1, 7.75} feet long to support tomato plants in the garden. The wire was cut into pieces {num_digit_2, 31} inches long. How many pieces did she obtain?",
+  "ic_sentence_template": "{name_female, Tracy}'s uncle has {num_ic, 52} tomato stakes in his greenhouse.",
+  "ic_template": "{name_female, Tracy} used a piece of wire {num_digit_1, 7.75} feet long to support tomato plants in the garden. {name_female, Tracy}'s uncle has {num_ic, 52} tomato stakes in his greenhouse. The wire was cut into pieces {num_digit_2, 31} inches long. How many pieces did she obtain?",
+  "equation": "UPDATE HERE"
+}

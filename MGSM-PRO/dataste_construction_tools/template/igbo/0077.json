@@ -1,0 +1,8 @@
+{
+  "original_question": "Ọ bụrụ na Raymond na-asa ákwà ọkara dị ka Sarah, na Sarah na-asakwu ugboro anọ dị ka David, gbakọo ndiiche dị na-ákwà ole Raymond na nke David sara ma ọ bụrụ na Sarah n'asa ákwà nari paụnds anọ.",
+  "original_answer": 100,
+  "symbolic_template": "Ọ bụrụ na {name_male_1, Raymond} na-asa ákwà ọkara dị ka {name_female, Sarah}, na {name_female, Sarah} na-asakwu ugboro {num_digit_1, 4} dị ka {name_male_2, David}, gbakọo ndiiche dị na-ákwà ole {name_male_1, Raymond} na nke {name_male_2, David} sara ma ọ bụrụ na {name_female, Sarah} n'asa ákwà paụnds {num_digit_2, 400}.",
+  "ic_sentence_template": "Nwanne nne {name_male_1, Raymond} kpochiri akwa-nri {num_ic, 52} ụnyaahụ.",
+  "ic_template": "Nwanne nne {name_male_1, Raymond} kpochiri akwa-nri {num_ic, 52} ụnyaahụ. Ọ bụrụ na {name_male_1, Raymond} na-asa ákwà ọkara dị ka {name_female, Sarah}, na {name_female, Sarah} na-asakwu ugboro {num_digit_1, 4} dị ka {name_male_2, David}, gbakọo ndiiche dị na-ákwà ole {name_male_1, Raymond} na nke {name_male_2, David} sara ma ọ bụrụ na {name_female, Sarah} n'asa ákwà paụnds {num_digit_2, 400}.",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean wɔ adɔkɔdɔkɔdeԑ 30. Jean di adɔkɔdɔkɔdeԑ mo mu 2. Wɔ deԑ aka no mu no, Jean pԑ sԑ ɔde adɔkɔdɔkɔdeԑ 2 hyԑ kotoku baako mu. Kotoku sԑn na Jean bԑtumi ahyԑ mu ma?",
+  "original_answer": 14,
+  "symbolic_template": "{name_male, Jean} wɔ adɔkɔdɔkɔdeԑ {num_digit_1, 30}. {name_male, Jean} di adɔkɔdɔkɔdeԑ mo mu {num_digit_2, 2}. Wɔ deԑ aka no mu no, {name_male, Jean} pԑ sԑ ɔde adɔkɔdɔkɔdeԑ {num_digit_3, 2} hyԑ kotoku baako mu. Kotoku sԑn na {name_male, Jean} bԑtumi ahyԑ mu ma?",
+  "ic_sentence_template": "{name_male, Jean} sewaa no atɔ balloons {num_ic, 94} nnansa yi ara.",
+  "ic_template": "{name_male, Jean} wɔ adɔkɔdɔkɔdeԑ {num_digit_1, 30}. {name_male, Jean} di adɔkɔdɔkɔdeԑ mo mu {num_digit_2, 2}. Wɔ deԑ aka no mu no, {name_male, Jean} pԑ sԑ ɔde adɔkɔdɔkɔdeԑ {num_digit_3, 2} hyԑ kotoku baako mu. Kotoku sԑn na {name_male, Jean} bԑtumi ahyԑ mu ma? {name_male, Jean} sewaa no atɔ balloons {num_ic, 94} nnansa yi ara.",
+  "equation": "UPDATE HERE"
+}

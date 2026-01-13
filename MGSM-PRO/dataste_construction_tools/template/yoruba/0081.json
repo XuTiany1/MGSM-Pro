@@ -1,0 +1,8 @@
+{
+  "original_question": "Charlie ní sítíkà 10. Ó ra sítíkà 21 láti ilé ìtàjà kan nínú ilé ìtàjà ńlá ó sì gba sítíkà 23 fún ọjọ́ ìbí rẹ̀. Lẹ́yìn náà Charlie fún àbúrò rẹ̀ obìnrin ní sítíkà 9 ó sì fi 28 ṣe ọ̀ṣọ́ sínú ìwé ìkíni kan. Sítíkà mélòó lókù lọ́wọ́ Charlie?",
+  "original_answer": 17,
+  "symbolic_template": "{name_male, Charlie} ní sítíkà {num_digit_1, 10}. Ó ra sítíkà {num_digit_2, 21} láti ilé ìtàjà kan nínú ilé ìtàjà ńlá ó sì gba sítíkà {num_digit_3, 23} fún ọjọ́ ìbí rẹ̀. Lẹ́yìn náà {name_male, Charlie} fún àbúrò rẹ̀ obìnrin ní sítíkà {num_digit_4, 9} ó sì fi {num_digit_5, 28} ṣe ọ̀ṣọ́ sínú ìwé ìkíni kan. Sítíkà mélòó lókù lọ́wọ́ {name_male, Charlie}?",
+  "ic_sentence_template": "Ẹ̀gbọ́n bàbá {name_male, Charlie} máa kó àpótí ìwé àmi ẹ̀rí pẹ̀lú {num_ic, 12} tí kò wọ́pọ̀.",
+  "ic_template": "Ẹ̀gbọ́n bàbá {name_male, Charlie} máa kó àpótí ìwé àmi ẹ̀rí pẹ̀lú {num_ic, 12} tí kò wọ́pọ̀. {name_male, Charlie} ní sítíkà {num_digit_1, 10}. Ó ra sítíkà {num_digit_2, 21} láti ilé ìtàjà kan nínú ilé ìtàjà ńlá ó sì gba sítíkà {num_digit_3, 23} fún ọjọ́ ìbí rẹ̀. Lẹ́yìn náà {name_male, Charlie} fún àbúrò rẹ̀ obìnrin ní sítíkà {num_digit_4, 9} ó sì fi {num_digit_5, 28} ṣe ọ̀ṣọ́ sínú ìwé ìkíni kan. Sítíkà mélòó lókù lọ́wọ́ {name_male, Charlie}?",
+  "equation": "UPDATE HERE"
+}

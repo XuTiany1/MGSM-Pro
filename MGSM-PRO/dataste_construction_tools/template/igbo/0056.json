@@ -1,0 +1,8 @@
+{
+  "original_question": "Peter na-akwado ịga ebe onyonyo n'izu ụka a. Ọ na-enwetakari otu tiketi n'ọnụ ego $7 ma gwugwuru $7. Ọ bụrụ na o nwere dọla iri anọ na abụọ n'izu ụka, ugboro ole ka o nwere ị́ké ịga n'ebe onyonyo?",
+  "original_answer": 5,
+  "symbolic_template": "{name_male, Peter} na-akwado ịga ebe onyonyo n'izu ụka a. Ọ na-enwetakari otu tiketi n'ọnụ ego ${num_digit_1, 8} ma gwugwuru ${num_digit_2, 6}. Ọ bụrụ na o nwere dọla {num_digit_3, 70} n'izu ụka, ugboro ole ka o nwere ị́ké ịga n'ebe onyonyo?",
+  "ic_sentence_template": "Nwanne nna {name_male, Peter} zụtara postas ihe nkiri {num_ic, 63} n'afọ gara aga.",
+  "ic_template": "Nwanne nna {name_male, Peter} zụtara postas ihe nkiri {num_ic, 63} n'afọ gara aga. {name_male, Peter} na-akwado ịga ebe onyonyo n'izu ụka a. Ọ na-enwetakari otu tiketi n'ọnụ ego ${num_digit_1, 8} ma gwugwuru ${num_digit_2, 6}. Ọ bụrụ na o nwere dọla {num_digit_3, 70} n'izu ụka, ugboro ole ka o nwere ị́ké ịga n'ebe onyonyo?",
+  "equation": "UPDATE HERE"
+}

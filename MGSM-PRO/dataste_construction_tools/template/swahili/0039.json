@@ -1,0 +1,8 @@
+{
+  "original_question": "Dana anaweza kukimbia kwa kiwango cha kasi ambayo ni mara nne zaidi ya anavyoweza kutembea, lakini anaweza kuruka kwa kiwango cha kasi ambayo ni nusu ya kasi yake ya kukimbia. Iwapo anaweza kuruka maili 3 kwa saa, anaweza kusafiri maili ngapi kwa saa sita iwapo anatumia theluthi moja ya saa kukimbia na theluthi mbili ya saa kutembea?",
+  "original_answer": 18,
+  "symbolic_template": "{name_female, Dana} anaweza kukimbia kwa kasi ya mara nne zaidi ya anavyoweza kutembea, lakini anaweza kuruka kwa kasi ya nusu ya kasi yake ya kukimbia. Iwapo anaweza kuruka maili {num_digit_1, 3} kwa saa, ataweza kusafiri maili ngapi katika saa sita ikiwa atatumia theluthi moja ya muda kukimbia na theluthi mbili kutembea?",
+  "ic_sentence_template": "Mjomba wa {name_female, Dana} aliwahi kukamilisha mbio ambazo zilikuwa na washiriki {num_ic, 106}.",
+  "ic_template": "{name_female, Dana} anaweza kukimbia kwa kasi ya mara nne zaidi ya anavyoweza kutembea, lakini anaweza kuruka kwa kasi ya nusu ya kasi yake ya kukimbia. Iwapo anaweza kuruka maili {num_digit_1, 3} kwa saa, ataweza kusafiri maili ngapi katika saa sita ikiwa atatumia theluthi moja ya muda kukimbia na theluthi mbili kutembea? Mjomba wa {name_female, Dana} aliwahi kukamilisha mbio ambazo zilikuwa na washiriki {num_ic, 106}.",
+  "equation": "UPDATE HERE"
+}

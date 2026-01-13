@@ -1,0 +1,8 @@
+{
+  "original_question": "Enwere rosu anọ n'ime ite ahụ. Enwere dahlia asaa karịa rosu n'ite ahụ. Okooko ole dị n'ite ahụ na ngụkọta?",
+  "original_answer": 15,
+  "symbolic_template": "Enwere rosu {num_digit_1, 4} n'ime ite ahụ. Enwere dahlia {num_digit_2, 7} karịa rosu n'ite ahụ. Okooko ole dị n'ite ahụ na ngụkọta?",
+  "ic_sentence_template": "Nwanne nne {name_female, Emily} nwere tulip {num_ic, 1490} nọ n'ụlọ ọrụ ọkụ ya.",
+  "ic_template": "Nwanne nne {name_female, Emily} nwere tulip {num_ic, 1490} nọ n'ụlọ ọrụ ọkụ ya. Enwere rosu {num_digit_1, 4} n'ime ite ahụ. Enwere dahlia {num_digit_2, 7} karịa rosu n'ite ahụ. Okooko ole dị n'ite ahụ na ngụkọta?",
+  "equation": "UPDATE HERE"
+}

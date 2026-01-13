@@ -1,0 +1,8 @@
+{
+  "original_question": "Janeth bitere $2000 ma kwee nkwa ị weghachi ya na ọmụrụnwa 10%. Ọ bụrụ na ọ ga na-akwụ $165 kwa ọnwa maka ọnwa iri na abụọ, kedụ ego ole Janeth ga-akwụfọ oge ahụ? ",
+  "original_answer": 220,
+  "symbolic_template": "{name_female, Janeth} bitere ${num_digit_1, 2000} ma kwee nkwa ị weghachi ya na ọmụrụnwa {num_digit_2, 10}%. Ọ bụrụ na ọ ga na-akwụ ${num_digit_3, 165} kwa ọnwa maka ọnwa {num_digit_4, 12}, kedụ ego ole {name_female, Janeth} ga-akwụfọ oge ahụ?",
+  "ic_sentence_template": "Nwanne nwanne nna {name_female, Janeth} natara tiketi lotiri {num_ic, 93000} n'afọ gara aga.",
+  "ic_template": "Nwanne nwanne nna {name_female, Janeth} natara tiketi lotiri {num_ic, 93000} n'afọ gara aga. {name_female, Janeth} bitere ${num_digit_1, 2000} ma kwee nkwa ị weghachi ya na ọmụrụnwa {num_digit_2, 10}%. Ọ bụrụ na ọ ga na-akwụ ${num_digit_3, 165} kwa ọnwa maka ọnwa {num_digit_4, 12}, kedụ ego ole {name_female, Janeth} ga-akwụfọ oge ahụ?",
+  "equation": "UPDATE HERE"
+}

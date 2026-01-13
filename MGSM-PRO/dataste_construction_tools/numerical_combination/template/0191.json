@@ -1,0 +1,24 @@
+{
+    "problem_id": "0191",
+    "generation_order": ["num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "float", "range": [0.7, 10.5], "precision": 1},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "weekly_total = num_digit_1 * 10",
+            "ans = weekly_total / 7"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "(num_digit_1 * 10) % 7 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

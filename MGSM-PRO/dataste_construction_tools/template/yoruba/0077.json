@@ -1,0 +1,8 @@
+{
+  "original_question": "Tí Raymond bá fọ aṣọ ní ìdajì ti Sarah, tí Sarah sì fọ aṣọ ní ìlọ́po 4 ju bí David ṣe ń fọ aṣọ, ṣe ìṣirò ìyàtọ̀ tó wà nínú iye aṣọ tí Raymond àti David ń fọ̀ tí Sarah bá fọ póùn aṣọ 400.",
+  "original_answer": 100,
+  "symbolic_template": "Tí {name_male_1, Raymond} bá fọ aṣọ ní ìdajì ti {name_female, Sarah}, tí {name_female, Sarah} sì fọ aṣọ ní ìlọ́po {num_digit_1, 4} ju bí {name_male_2, David} ṣe ń fọ aṣọ, ṣe ìṣirò ìyàtọ̀ tó wà nínú iye aṣọ tí {name_male_1, Raymond} àti {name_male_2, David} ń fọ̀ tí {name_female, Sarah} bá fọ póùn aṣọ {num_digit_2, 400}.",
+  "ic_sentence_template": "Àntì {name_male_1, Raymond} ka aṣọ toweli {num_ic, 52} ní àná.",
+  "ic_template": "Àntì {name_male_1, Raymond} ka aṣọ toweli {num_ic, 52} ní àná. Tí {name_male_1, Raymond} bá fọ aṣọ ní ìdajì ti {name_female, Sarah}, tí {name_female, Sarah} sì fọ aṣọ ní ìlọ́po {num_digit_1, 4} ju bí {name_male_2, David} ṣe ń fọ aṣọ, ṣe ìṣirò ìyàtọ̀ tó wà nínú iye aṣọ tí {name_male_1, Raymond} àti {name_male_2, David} ń fọ̀ tí {name_female, Sarah} bá fọ póùn aṣọ {num_digit_2, 400}.",
+  "equation": "UPDATE HERE"
+}

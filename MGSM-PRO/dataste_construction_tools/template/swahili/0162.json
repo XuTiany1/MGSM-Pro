@@ -1,0 +1,8 @@
+{
+  "original_question": "Ikiwa bei mfuko wa marumaru ni $20 na bei hiyo huongezeka na 20% ya bei ya asili kila baada ya miezi miwili, bei ya mfuko wa marumaru itakuwa ngapi baada ya miezi 36?",
+  "original_answer": 92,
+  "symbolic_template": "Ikiwa bei mfuko wa marumaru ni ${num_digit_1, 20} na bei hiyo huongezeka na {num_digit_2, 20}% ya bei ya asili kila baada ya miezi miwili, bei ya mfuko wa marumaru itakuwa ngapi baada ya miezi {num_digit_3, 36}?",
+  "ic_sentence_template": "Mpwa wa msimamizi wa duka ana vitabu vya vichekesho {num_ic, 60}.",
+  "ic_template": "Mpwa wa msimamizi wa duka ana vitabu vya vichekesho {num_ic, 60}. Ikiwa bei mfuko wa marumaru ni ${num_digit_1, 20} na bei hiyo huongezeka na {num_digit_2, 20}% ya bei ya asili kila baada ya miezi miwili, bei ya mfuko wa marumaru itakuwa ngapi baada ya miezi {num_digit_3, 36}?",
+  "equation": "UPDATE HERE"
+}

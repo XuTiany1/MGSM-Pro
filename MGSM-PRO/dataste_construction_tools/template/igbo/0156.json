@@ -1,0 +1,8 @@
+{
+  "original_question": "Onye nlekọta ebe nkiri ụmụ anụmanụ na-enye myiri mmadụ nille nọ n'ebe nkiri ụmụ anụmanụ nri. Ọ na-atụ ahịa unere niile site n'ugbo dị nso ọnwa abụọ ọbụla. Ọ bụrụ na enwe chọrọ narị unere abụọ, adaka chọrọ narị unere anọ ma utobo chọrọ narị unere kwa ọnwa, unere ole ka o kwesịrị ịzụ ka o nwee ị́ké ịnọ ọnwa abụọ? ",
+  "original_answer": 1400,
+  "symbolic_template": "Onye nlekọta ebe nkiri ụmụ anụmanụ na-enye myiri mmadụ nille nọ n'ebe nkiri ụmụ anụmanụ nri. Ọ na-atụ ahịa unere niile site n'ugbo dị nso {num_digit_1, 2} ọnwa ọbụla. Ọ bụrụ na enwe chọrọ {num_digit_2, 200} unere, adaka chọrọ {num_digit_3, 400} unere ma utobo chọrọ {num_digit_4, 100} unere kwa ọnwa, unere ole ka o kwesịrị ịzụ ka o nwee ị́ké ịnọ {num_digit_5, 2} ọnwa?",
+  "ic_sentence_template": "Nwa nwanne nwa nlekọta anụ ụlọ nwere {num_ic, 13} ntụtụ n'ụlọ.",
+  "ic_template": "Nwa nwanne nwa nlekọta anụ ụlọ nwere {num_ic, 13} ntụtụ n'ụlọ. Onye nlekọta ebe nkiri ụmụ anụmanụ na-enye myiri mmadụ nille nọ n'ebe nkiri ụmụ anụmanụ nri. Ọ na-atụ ahịa unere niile site n'ugbo dị nso {num_digit_1, 2} ọnwa ọbụla. Ọ bụrụ na enwe chọrọ {num_digit_2, 200} unere, adaka chọrọ {num_digit_3, 400} unere ma utobo chọrọ {num_digit_4, 100} unere kwa ọnwa, unere ole ka o kwesịrị ịzụ ka o nwee ị́ké ịnọ {num_digit_5, 2} ọnwa?",
+  "equation": "UPDATE HERE"
+}

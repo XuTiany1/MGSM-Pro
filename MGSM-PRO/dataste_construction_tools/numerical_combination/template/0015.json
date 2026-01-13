@@ -1,0 +1,36 @@
+{
+    "problem_id": "investment_choice_01",
+    "generation_order": ["num_digit_2", "num_digit_4", "num_digit_3", "num_digit_5", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "construction": "2"},
+        "num_digit_2": {"type": "int", "range": [1000, 10000]},
+        "num_digit_4": {"type": "float", "construction": "random.choice([1.5, 2.5, 3.5, 4.0, 5.0])"},
+        "num_digit_3": {"type": "int", "range": [1000, 15000]},
+        "num_digit_5": {"type": "float", "construction": "random.choice([1.2, 1.8, 2.2, 0.5, 0.8])"},
+        "num_ic": {"type": "int", "range": [199, 1999]}
+    },
+    "equation_steps": {
+        "num_digit_4": [
+            "profit_a = num_digit_2 * (num_digit_4 / 100)"
+        ],
+        "num_digit_5": [
+            "profit_b = num_digit_3 * (num_digit_5 / 100)",
+            "ans = max(profit_a, profit_b)"
+        ],
+        "num_ic": []
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 5}
+    },
+    "restrictions": {
+        "num_digit_4": [
+            "profit_a % 1 == 0"
+        ],
+        "num_digit_5": [
+            "profit_b % 1 == 0",
+            "profit_a != profit_b",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

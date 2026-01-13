@@ -1,0 +1,8 @@
+{
+  "original_question": "Un camion de livraison est sur le point de traverser un pont en bois qui ne peut pas supporter une charge de plus de 5 000 livres. Le camion est rempli de boîtes identiques, d'un poids de 15 livres chacune. Le poids combiné du conducteur et du camion vide est de 3 755 livres. Combien de boîtes peuvent être chargées sur le camion sans dépasser la limite de poids du pont ?",
+  "original_answer": 83,
+  "symbolic_template": "Un camion de livraison est sur le point de traverser un pont en bois qui ne peut pas supporter une charge de plus de {num_digit_1, 5000} livres. Le camion est rempli de boîtes identiques, d'un poids de {num_digit_2, 15} livres chacune. Le poids combiné du conducteur et du camion vide est de {num_digit_3, 3755} livres. Combien de boîtes peuvent être chargées sur le camion sans dépasser la limite de poids du pont ?",
+  "ic_sentence_template": "L’oncle du chauffeur de camion a déjà transporté {num_ic, 215} citrouilles en un seul trajet.",
+  "ic_template": "L’oncle du chauffeur de camion a déjà transporté {num_ic, 215} citrouilles en un seul trajet. Un camion de livraison est sur le point de traverser un pont en bois qui ne peut pas supporter une charge de plus de {num_digit_1, 5000} livres. Le camion est rempli de boîtes identiques, d'un poids de {num_digit_2, 15} livres chacune. Le poids combiné du conducteur et du camion vide est de {num_digit_3, 3755} livres. Combien de boîtes peuvent être chargées sur le camion sans dépasser la limite de poids du pont ?",
+  "equation": "UPDATE HERE"
+}

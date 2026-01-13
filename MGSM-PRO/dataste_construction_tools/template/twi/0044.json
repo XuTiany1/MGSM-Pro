@@ -1,0 +1,8 @@
+{
+  "original_question": "Chrlie pԑ sԑ ɔtɔn wowa-wokyԑm kyԑnere. Wowa-wokyԑm pound biara no, ɔbԑtumi ayԑ kyԑnere a ano no yԑ sini 10. Wowa-wokyԑm pound baako biara ne nhoma no yԑ $10.00. Sԑ ɔtɔn kyԑnere baako biara $2.00 a, mfasoɔ dodoɔ sԑn na ɔbԑnya sԑ ɔtɔn kyԑnere 20 a?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male, Charlie} pԑ sԑ ɔtɔn wowa-wokyԑm kyԑnere. Wowa-wokyԑm pound biara no, ɔbԑtumi ayԑ kyԑnere a ano no yԑ sini {num_digit_1, 10}. Wowa-wokyԑm pound baako biara ne nhoma no yԑ ${num_digit_2, 10.00}. Sԑ ɔtɔn kyԑnere baako biara ${num_digit_3, 2.00} a, mfasoɔ dodoɔ sԑn na ɔbԑnya sԑ ɔtɔn kyԑnere {num_digit_4, 20} a?",
+  "ic_sentence_template": "{name_male, Charlie} wɔfa no wɔ ntɛtea akoraeɛ {num_ic, 37}.",
+  "ic_template": "{name_male, Charlie} wɔfa no wɔ ntɛtea akoraeɛ {num_ic, 37}. {name_male, Charlie} pԑ sԑ ɔtɔn wowa-wokyԑm kyԑnere. Wowa-wokyԑm pound biara no, ɔbԑtumi ayԑ kyԑnere a ano no yԑ sini {num_digit_1, 10}. Wowa-wokyԑm pound baako biara ne nhoma no yԑ ${num_digit_2, 10.00}. Sԑ ɔtɔn kyԑnere baako biara ${num_digit_3, 2.00} a, mfasoɔ dodoɔ sԑn na ɔbԑnya sԑ ɔtɔn kyԑnere {num_digit_4, 20} a?",
+  "equation": "UPDATE HERE"
+}

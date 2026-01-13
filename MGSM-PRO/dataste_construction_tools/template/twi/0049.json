@@ -1,0 +1,8 @@
+{
+  "original_question": "Richard te abansoro bi mu a ԑtoa so 15. Ntoasoɔ baako biara wɔ adan 8, na ԑmu mmiԑnsa nkyԑmu nnan na nipa te mu. Ԑdan dodoɔ sԑn na nipa nte mu wɔ abansoro no mu?",
+  "original_answer": 30,
+  "symbolic_template": "{name_male, Richard} te abansoro bi mu a ԑtoa so {num_digit_1, 15}. Ntoasoɔ baako biara wɔ adan {num_digit_2, 8}, na ԑmu mmiɛnsa nkyԑmu nnan na nipa te mu. Ԑdan dodoɔ sԑn na nipa nte mu wɔ abansoro no mu?",
+  "ic_sentence_template": "{name_male, Richard} wɔfa di fonoo teneabea so a wɔde da paanoo {num_ic, 88} adi.",
+  "ic_template": "{name_male, Richard} wɔfa di fonoo teneabea so a wɔde da paanoo {num_ic, 88} adi. {name_male, Richard} te abansoro bi mu a ԑtoa so {num_digit_1, 15}. Ntoasoɔ baako biara wɔ adan {num_digit_2, 8}, na ԑmu mmiɛnsa nkyԑmu nnan na nipa te mu. Ԑdan dodoɔ sԑn na nipa nte mu wɔ abansoro no mu?",
+  "equation": "UPDATE HERE"
+}

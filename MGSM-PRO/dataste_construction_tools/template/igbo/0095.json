@@ -1,0 +1,8 @@
+{
+  "original_question": "N'ime ụmụ akwụkwọ nari abụọ nke ogo ise, ụzọ abụọ n'ime ise  bụ ụmụ nwoke ma ụzọ abụọ n'ime atọ n'ime ụmụ nwanyị nọ na skaụt ụmụ nwanyị. Ụmụ nwanyị ole bụ ihe anọghị na skaụt?",
+  "original_answer": 40,
+  "symbolic_template": "N'ime ụmụ akwụkwọ {num_digit_1, 200} nke ogo ise, 2/5 bụ ụmụ nwoke ma 2/3 n'ime ụmụ nwanyị nọ na skaụt ụmụ nwanyị. Ụmụ nwanyị ole bụ ihe anọghị na skaụt?",
+  "ic_sentence_template": "Nwa nwanyị onye isi ụlọ akwụkwọ nwere mkpịsị edemede {num_ic, 41}.",
+  "ic_template": "Nwa nwanyị onye isi ụlọ akwụkwọ nwere mkpịsị edemede {num_ic, 41}. N'ime ụmụ akwụkwọ {num_digit_1, 200} nke ogo ise, 2/5 bụ ụmụ nwoke ma 2/3 n'ime ụmụ nwanyị nọ na skaụt ụmụ nwanyị. Ụmụ nwanyị ole bụ ihe anọghị na skaụt?",
+  "equation": "UPDATE HERE"
+}

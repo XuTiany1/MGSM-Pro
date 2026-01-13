@@ -1,0 +1,8 @@
+{
+  "original_question": "Àwọn ìgbín mẹ́rin ló wà nínú ilé-ẹja kan àti ìgbín 32 nínú ilé-ẹja mìíràn. Ìyàtọ̀ láàárín iye awọn ìgbín ni àwọn ilé-ẹja náà jẹ́ ìlọ́po méjì iye ẹja tí ó wà nínú àwọn ilé-ẹja méjèèjì . Tí àwọn  ilé-ẹja méjèèjì bá ní iye ẹja kan náà, ẹja mélòó ni ó wà nínú ilé-ẹja kọ̀ọ̀kan?",
+  "original_answer": 7,
+  "symbolic_template": "Àwọn ìgbín {num_digit_1, mẹ́rin} ló wà nínú ilé-ẹja kan àti ìgbín {num_digit_2, 32} nínú ilé-ẹja mìíràn. Ìyàtọ̀ láàárín iye awọn ìgbín ni àwọn ilé-ẹja méjèèjì náà jẹ́ ìlọ́po méjì iye ẹja tí ó wà nínú àwọn ilé-ẹja méjèèjì. Tí àwọn ilé-ẹja méjèèjì bá ní iye ẹja kan náà, ẹja mélòó ni ó wà nínú ilé-ẹja kọ̀ọ̀kan?",
+  "ic_sentence_template": "Ọmọbìnrin ará {name_male, Michael} ní {num_ic, 15} ẹja guppi ní ilé.",
+  "ic_template": "Ọmọbìnrin ará {name_male, Michael} ní {num_ic, 15} ẹja guppi ní ilé. Àwọn ìgbín {num_digit_1, mẹ́rin} ló wà nínú ilé-ẹja kan àti ìgbín {num_digit_2, 32} nínú ilé-ẹja mìíràn. Ìyàtọ̀ láàárín iye awọn ìgbín ni àwọn ilé-ẹja méjèèjì náà jẹ́ ìlọ́po méjì iye ẹja tí ó wà nínú àwọn ilé-ẹja méjèèjì. Tí àwọn ilé-ẹja méjèèjì bá ní iye ẹja kan náà, ẹja mélòó ni ó wà nínú ilé-ẹja kọ̀ọ̀kan?",
+  "equation": "UPDATE HERE"
+}

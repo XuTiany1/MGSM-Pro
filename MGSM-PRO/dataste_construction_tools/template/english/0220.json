@@ -1,0 +1,8 @@
+{
+  "original_question": "It takes Carmen 10 minutes to finish a crossword puzzle and 5 minutes to finish a sudoku puzzle.  Over the weekend she solved 3 crossword puzzles and 8 sudoku puzzles.  How much time did she spend playing these games?",
+  "original_answer": 70,
+  "symbolic_template": "It takes {name_female, Carmen} {num_digit_1, 10} minutes to finish a crossword puzzle and {num_digit_2, 5} minutes to finish a sudoku puzzle. Over the weekend she solved {num_digit_3, 3} crossword puzzles and {num_digit_4, 8} sudoku puzzles. How much time did she spend playing these games?",
+  "ic_sentence_template": "{name_female, Carmen}'s uncle baked {num_ic, 46} cookies on Saturday.",
+  "ic_template": "It takes {name_female, Carmen} {num_digit_1, 10} minutes to finish a crossword puzzle and {num_digit_2, 5} minutes to finish a sudoku puzzle. Over the weekend she solved {num_digit_3, 3} crossword puzzles and {num_digit_4, 8} sudoku puzzles. {name_female, Carmen}'s uncle baked {num_ic, 46} cookies on Saturday. How much time did she spend playing these games?",
+  "equation": "UPDATE HERE"
+}

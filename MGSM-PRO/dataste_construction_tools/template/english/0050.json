@@ -1,0 +1,8 @@
+{
+  "original_question": "Lloyd has an egg farm. His chickens produce 252 eggs per day and he sells them for $2 per dozen. How much does Lloyd make on eggs per week?",
+  "original_answer": 294,
+  "symbolic_template": "{name_male, Lloyd} has an egg farm. His chickens produce {num_digit_1, 252} eggs per day and he sells them for ${num_digit_2, 2} per dozen. How much does {name_male, Lloyd} make on eggs per week?",
+  "ic_sentence_template": "{name_male, Lloyd}'s uncle just bought {num_ic, 105} geese.",
+  "ic_template": "{name_male, Lloyd} has an egg farm. His chickens produce {num_digit_1, 252} eggs per day and he sells them for ${num_digit_2, 2} per dozen. {name_male, Lloyd}'s uncle just bought {num_ic, 105} geese. How much does {name_male, Lloyd} make on eggs per week?",
+  "equation": "UPDATE HERE"
+}

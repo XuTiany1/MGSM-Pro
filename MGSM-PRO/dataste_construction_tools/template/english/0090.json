@@ -1,0 +1,8 @@
+{
+  "original_question": "Ted the T-Rex was planning to bring potato salad to the dinosaur picnic. He knows that an adult dinosaur will eat 10 lbs of potato salad, and a child will eat half as much as an adult. If there will be 20 adults and 5 children at the picnic, how many pounds of potato salad does Ted need to bring to the picnic if he hopes to have enough to feed everyone?",
+  "original_answer": 225,
+  "symbolic_template": "{name_dinosaur, Ted} the T-Rex was planning to bring potato salad to the dinosaur picnic. He knows that an adult dinosaur will eat {num_digit_1, 10} lbs of potato salad, and a child will eat half as much as an adult. If there will be {num_digit_2, 20} adults and {num_digit_3, 5} children at the picnic, how many pounds of potato salad does {name_dinosaur, Ted} need to bring to the picnic if he hopes to have enough to feed everyone?",
+  "ic_sentence_template": "{name_dinosaur, Ted}'s cousin has {num_ic, 94} pineapples.",
+  "ic_template": "{name_dinosaur, Ted} the T-Rex was planning to bring potato salad to the dinosaur picnic. He knows that an adult dinosaur will eat {num_digit_1, 10} lbs of potato salad, and a child will eat half as much as an adult. If there will be {num_digit_2, 20} adults and {num_digit_3, 5} children at the picnic, {name_dinosaur, Ted}'s cousin has {num_ic, 94} pineapples. how many pounds of potato salad does {name_dinosaur, Ted} need to bring to the picnic if he hopes to have enough to feed everyone?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Enwere m ịhe ọṅụṅụ mmiri oroma lita iri nke ụzọ abụọ n'ịme atọ ya bụ mmiri ma achọrọ m ịtinye ya lita ịhe ọṅụṅụ mmiri nkwụaba iri na ise nke nwere mmiri ụzọ atọ n'ịme ise. Mana ka m nà-awụnye ya, akwafuru m otu lita ịhe ọṅụṅụ mmiri oroma. Kedu ogo mmiri ole nọ n'ịme lita iri abụọ na anọ fọrọ? ",
+  "original_answer": 15,
+  "symbolic_template": "Enwere m ịhe ọṅụṅụ mmiri oroma lita {num_digit_1, 10} nke abuo n'ime ụzọ atọ ya bụ mmiri ma achọrọ m ịtinye ya lita {num_digit_2, 15} ịhe ọṅụṅụ mmiri nkwụaba nke nwere mmiri atọ n'ime ụzọ ise. Mana ka m nà-awụnye ya, akwafuru m otu lita ịhe ọṅụṅụ mmiri oroma. Kedu ogo mmiri ole nọ n'ịme lita {num_digit_3, 24} fọrọ?",
+  "ic_sentence_template": "Nwanne {name_male, Eric} wetàra mangroo {num_ic, 186} na picnic.",
+  "ic_template": "Nwanne {name_male, Eric} wetàra mangroo {num_ic, 186} na picnic. Enwere m ịhe ọṅụṅụ mmiri oroma lita {num_digit_1, 10} nke abuo n'ime atọ ya bụ mmiri ma achọrọ m ịtinye ya lita {num_digit_2, 15} ịhe ọṅụṅụ mmiri nkwụaba nke nwere mmiri atọ n'ime ise. Mana ka m nà-awụnye ya, akwafuru m otu lita ịhe ọṅụṅụ mmiri oroma. Kedu ogo mmiri ole nọ n'ịme lita {num_digit_3, 24} fọrọ?",
+  "equation": "UPDATE HERE"
+}

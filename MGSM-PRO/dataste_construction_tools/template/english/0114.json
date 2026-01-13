@@ -1,0 +1,8 @@
+{
+  "original_question": "Jamal's phone can hold 6 times more photographs than can Brittany's phone. The maximum number of photographs that Brittany's phone can hold is 50 times more than the number of birds in Jamal's photograph of the ducks at the zoo. If Jamal's phone can hold 1800 photographs, how many ducks can be seen in Jamal's photograph of ducks at the zoo?",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, Jamal}'s phone can hold {num_digit_1, 6} times more photographs than can {name_female, Brittany}'s phone. The maximum number of photographs that {name_female, Brittany}'s phone can hold is {num_digit_3, 50} times more than the number of birds in {name_male, Jamal}'s photograph of the ducks at the zoo. If {name_male, Jamal}'s phone can hold {num_digit_2, 1800} photographs, how many ducks can be seen in {name_male, Jamal}'s photograph of ducks at the zoo?",
+  "ic_sentence_template": "{name_male, Jamal}'s uncle once visited {num_ic, 84} national parks.",
+  "ic_template": "{name_male, Jamal}'s phone can hold {num_digit_1, 6} times more photographs than can {name_female, Brittany}'s phone. The maximum number of photographs that {name_female, Brittany}'s phone can hold is {num_digit_3, 50} times more than the number of birds in {name_male, Jamal}'s photograph of the ducks at the zoo. {name_male, Jamal}'s uncle once visited {num_ic, 84} national parks. If {name_male, Jamal}'s phone can hold {num_digit_2, 1800} photographs, how many ducks can be seen in {name_male, Jamal}'s photograph of ducks at the zoo?",
+  "equation": "UPDATE HERE"
+}

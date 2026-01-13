@@ -1,0 +1,8 @@
+{
+  "original_question": "Akiwa katika duka la dola, Sloane anahesabu wateja 100 wakiingia kwenye duka hilo. Siku inayofuata, anahesabu wateja 50 zaidi ya walioingia siku ya kwanza. Ikiwa jumla ya idadi ya wateja kufikia siku ya tatu ilikuwa 500, alihesabu wateja wangapi siku ya tatu?",
+  "original_answer": 250,
+  "symbolic_template": "Akiwa katika duka la dola, {name_female, Sloane} anahesabu wateja {num_digit_1, 100} wakiingia kwenye duka hilo. Siku inayofuata, anahesabu wateja {num_digit_2, 50} zaidi ya walioingia siku ya kwanza. Ikiwa jumla ya idadi ya wateja kufikia siku ya tatu ilikuwa {num_digit_3, 500}, alihesabu wateja wangapi siku ya tatu?",
+  "ic_sentence_template": "Mjomba wa {name_female, Sloane} alioka pai za blueberry {num_ic, 93} kwa ajili ya mauzo ya keki.",
+  "ic_template": "Mjomba wa {name_female, Sloane} alioka pai za blueberry {num_ic, 93} kwa ajili ya mauzo ya keki. Akiwa katika duka la dola, {name_female, Sloane} anahesabu wateja {num_digit_1, 100} wakiingia kwenye duka hilo. Siku inayofuata, anahesabu wateja {num_digit_2, 50} zaidi ya walioingia siku ya kwanza. Ikiwa jumla ya idadi ya wateja kufikia siku ya tatu ilikuwa {num_digit_3, 500}, alihesabu wateja wangapi siku ya tatu?",
+  "equation": "UPDATE HERE"
+}

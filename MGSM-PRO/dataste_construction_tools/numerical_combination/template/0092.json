@@ -1,0 +1,35 @@
+{
+    "problem_id": "0092",
+    "generation_order": ["num_digit_4", "num_digit_5", "num_digit_3", "num_digit_2", "num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_4": {"type": "int", "range": [5, 15]},
+        "num_digit_5": {"type": "int", "range": [1, 3]},
+        "num_digit_3": {"type": "int", "range": [1, 3]},
+        "num_digit_2": {"type": "int", "range": [3, 6]},
+        "num_digit_1": {"type": "int", "range": [4, 4]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_4": [
+            "james_age = num_digit_4"
+        ],
+        "num_digit_5": [
+            "corey_age = james_age + num_digit_5"
+        ],
+        "num_digit_3": [
+            "amy_age = corey_age - num_digit_3"
+        ],
+        "num_digit_2": [
+            "ans = amy_age - num_digit_2"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

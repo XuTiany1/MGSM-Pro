@@ -1,0 +1,8 @@
+{
+  "original_question": "Bill n'eme rolu nari atọ, chokoleti kroisant nari iri abụọ, na baguette iri isii ụbọchị ọ bụla. Rolu ọ bụla di ogologo inchị anọ, kroisant ọ bụla di ogologo inchị isii na baguette ọ bụla dị ogologo ụkwụ abụọ. Ọ bụrụ na Bill tinye ngwa ahia nille o mere na ngwụcha na ngwụcha, ogologo ole ka ha ga-adị n'ụkwụ?",
+  "original_answer": 280,
+  "symbolic_template": "{name_male, Bill} n'eme rolu {num_digit_1, 300}, chokoleti kroisant {num_digit_2, 120}, na baguette {num_digit_3, 60} ụbọchị ọ bụla. Rolu ọ bụla di ogologo inchị {num_digit_4, 4}, kroisant ọ bụla di ogologo inchị {num_digit_5, 6} na baguette ọ bụla dị ogologo ụkwụ abụọ. Ọ bụrụ na {name_male, Bill} tinye ngwa ahia nille o mere na ngwụcha na ngwụcha, ogologo ole ka ha ga-adị n'ụkwụ?",
+  "ic_sentence_template": "Nwanne nna {name_male, Bill} zụrụ {num_ic, 72} mkpụrụ achịcha kwa ọnwa.",
+  "ic_template": "Nwanne nna {name_male, Bill} zụrụ {num_ic, 72} mkpụrụ achịcha kwa ọnwa. {name_male, Bill} n'eme rolu {num_digit_1, 300}, chokoleti kroisant {num_digit_2, 120}, na baguette {num_digit_3, 60} ụbọchị ọ bụla. Rolu ọ bụla di ogologo inchị {num_digit_4, 4}, kroisant ọ bụla di ogologo inchị {num_digit_5, 6} na baguette ọ bụla dị ogologo ụkwụ abụọ. Ọ bụrụ na {name_male, Bill} tinye ngwa ahia nille o mere na ngwụcha na ngwụcha, ogologo ole ka ha ga-adị n'ụkwụ?",
+  "equation": "UPDATE HERE"
+}

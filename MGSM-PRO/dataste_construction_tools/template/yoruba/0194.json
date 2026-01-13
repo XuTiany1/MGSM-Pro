@@ -1,0 +1,8 @@
+{
+  "original_question": "Violetta fẹ́ ra crayons tuntun. O nílò wọn ní oríṣiríṣi àwọ̀ márùn-ún, ó sì múra $20 fún rírà yìí. Crayon kan jẹ́ $2. Èló ló kù tí yóó gba?",
+  "original_answer": 10,
+  "symbolic_template": "{name_female, Violetta} fẹ́ ra crayons tuntun. O nílò wọn ní oríṣiríṣi àwọ̀ {num_digit_1, 5}, ó sì múra ${num_digit_2, 20} fún rírà yìí. Crayon kan jẹ́ ${num_digit_3, 2}. Èló ló kù tí yóó gba?",
+  "ic_sentence_template": "Ọmọkùnrin bàbá {name_female, Violetta} ń tọju àwọn àwòrán {num_ic, 68} ní àgálàrí rẹ.",
+  "ic_template": "Ọmọkùnrin bàbá {name_female, Violetta} ń tọju àwọn àwòrán {num_ic, 68} ní àgálàrí rẹ. {name_female, Violetta} fẹ́ ra crayons tuntun. O nílò wọn ní oríṣiríṣi àwọ̀ {num_digit_1, 5}, ó sì múra ${num_digit_2, 20} fún rírà yìí. Crayon kan jẹ́ ${num_digit_3, 2}. Èló ló kù tí yóó gba?",
+  "equation": "UPDATE HERE"
+}

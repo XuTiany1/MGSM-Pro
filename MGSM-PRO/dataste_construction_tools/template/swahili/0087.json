@@ -1,0 +1,8 @@
+{
+  "original_question": "Kampuni hulipa kila mmoja wa wafanyakazi wake $600 kwa mwezi. Kampuni hiyo ina sera ya kuongeza mishahara ya kila mfanyakazi kwa 10% ya mshahara wa awali kila mwaka kwa wale ambao wamekaa kwenye kampuni hiyo kwa miaka mitano. Ikiwa Sylvie alifikisha miaka 5 katika kampuni hiyo Desemba iliyopita, mshahara wake wa kila mwaka baada ya miaka mitatu zaidi ya kuhudumia kampuni hiyo ni ngapi?",
+  "original_answer": 9360,
+  "symbolic_template": "Kampuni hulipa kila mmoja wa wafanyakazi wake ${num_digit_1, 600} kwa mwezi. Kampuni hiyo ina sera ya kuongeza mishahara ya kila mfanyakazi kwa {num_digit_2, 10}% ya mshahara wa awali kila mwaka kwa wale ambao wamekaa kwenye kampuni hiyo kwa mitano miaka. Ikiwa {name_female, Sylvie} alifikisha miaka {num_digit_3, 5} katika kampuni hiyo Desemba iliyopita, mshahara wake wa kila mwaka baada ya mitatu miaka zaidi ya kuhudumia kampuni hiyo ni ngapi?",
+  "ic_sentence_template": "Mjomba wa {name_female, Sylvie} hivi karibuni alinunua viti vya ofisi {num_ic, 77}.",
+  "ic_template": "Mjomba wa {name_female, Sylvie} hivi karibuni alinunua viti vya ofisi {num_ic, 77}. Kampuni hulipa kila mmoja wa wafanyakazi wake ${num_digit_1, 600} kwa mwezi. Kampuni hiyo ina sera ya kuongeza mishahara ya kila mfanyakazi kwa {num_digit_2, 10}% ya mshahara wa awali kila mwaka kwa wale ambao wamekaa kwenye kampuni hiyo kwa mitano miaka. Ikiwa {name_female, Sylvie} alifikisha miaka {num_digit_3, 5} katika kampuni hiyo Desemba iliyopita, mshahara wake wa kila mwaka baada ya mitatu miaka zaidi ya kuhudumia kampuni hiyo ni ngapi?",
+  "equation": "UPDATE HERE"
+}

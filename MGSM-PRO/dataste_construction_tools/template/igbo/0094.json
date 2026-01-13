@@ -1,0 +1,8 @@
+{
+  "original_question": "N'ịme otu agbataobi, ọnụọgụgụ oke oyibo e jiri mere anụ ụlọ ji iri na abụọ dị nta karịa ọnụọgụgụ nkịta na nwamba nọ n'ụlọ. Ọ bụrụ na e nwere nwamba abụọ nye nkịta ọbụla, na ọnụọgụgụ nkịta dị iri isii, ọnụọgụgụ anụ ụlọ ole nọ n'agbatobi ahụ? ",
+  "original_answer": 348,
+  "symbolic_template": "N'ịme otu agbataobi, ọnụọgụgụ oke oyibo e jiri mere anụ ụlọ ji twelve dị nta karịa ọnụọgụgụ nkịta na nwamba nọ n'ụlọ. Ọ bụrụ na e nwere nwamba two nye nkịta ọbụla, na ọnụọgụgụ nkịta dị {num_digit_1, 60}, ọnụọgụgụ anụ ụlọ ole nọ n'agbatobi ahụ?",
+  "ic_sentence_template": "Nwanne nna {name_female, Olivia} nwere ànyịnya mmiri {num_ic, 197}.",
+  "ic_template": "Nwanne nna {name_female, Olivia} nwere ànyịnya mmiri {num_ic, 197}. N'ịme otu agbataobi, ọnụọgụgụ oke oyibo e jiri mere anụ ụlọ ji twelve dị nta karịa ọnụọgụgụ nkịta na nwamba nọ n'ụlọ. Ọ bụrụ na e nwere nwamba two nye nkịta ọbụla, na ọnụọgụgụ nkịta dị {num_digit_1, 60}, ọnụọgụgụ anụ ụlọ ole nọ n'agbatobi ahụ?",
+  "equation": "UPDATE HERE"
+}

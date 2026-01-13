@@ -1,0 +1,8 @@
+{
+  "original_question": "Charlie nwere ugboro atọ dị ka ọtụtụ ndi enyi na Facebook dị ka Dorothy. James nwere ugboro anọ dị ka ọtụtụ ndị enyi na Facebook dị ka Dorothy. Ọ bụrụ na Charlie nwere ndị enyi iri na abụọ na Facebook, ndị enyi Facebook ole ka James nwere?",
+  "original_answer": 16,
+  "symbolic_template": "{name_male_1, Charlie} nwere ugboro atọ dị ka ọtụtụ ndi enyi na Facebook dị ka {name_male_2, Dorothy}. {name_male_3, James} nwere ugboro anọ dị ka ọtụtụ ndị enyi na Facebook dị ka {name_male_2, Dorothy}. Ọ bụrụ na {name_male_1, Charlie} nwere ndị enyi {num_digit_1, 12} na Facebook, ndị enyi Facebook ole ka {name_male_3, James} nwere?",
+  "ic_sentence_template": "Nwanne nna {name_male_3, James} nwetara nkịta ọhụrụ {num_ic, 67} nso nso a.",
+  "ic_template": "Nwanne nna {name_male_3, James} nwetara nkịta ọhụrụ {num_ic, 67} nso nso a. {name_male_1, Charlie} nwere ugboro atọ dị ka ọtụtụ ndi enyi na Facebook dị ka {name_male_2, Dorothy}. {name_male_3, James} nwere ugboro anọ dị ka ọtụtụ ndị enyi na Facebook dị ka {name_male_2, Dorothy}. Ọ bụrụ na {name_male_1, Charlie} nwere ndị enyi {num_digit_1, 12} na Facebook, ndị enyi Facebook ole ka {name_male_3, James} nwere?",
+  "equation": "UPDATE HERE"
+}

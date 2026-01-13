@@ -1,0 +1,8 @@
+{
+  "original_question": "一处覆盆子树丛结出了 6 簇覆盆子，每簇 20 颗， 而且整个覆盆子树丛还散落着 67 颗覆盆子。一共有多少颗覆盆子？",
+  "original_answer": 187,
+  "symbolic_template": "一处覆盆子树丛结出了 {num_digit_1, 6} 簇覆盆子，每簇 {num_digit_2, 20} 颗，而且整个覆盆子树丛还散落着 {num_digit_3, 67} 颗覆盆子。一共有多少颗覆盆子？",
+  "ic_sentence_template": "园丁的侄子在附近种下了 {num_ic, 126} 棵蓝莓苗。",
+  "ic_template": "园丁的侄子在附近种下了 {num_ic, 126} 棵蓝莓苗。一处覆盆子树丛结出了 {num_digit_1, 6} 簇覆盆子，每簇 {num_digit_2, 20} 颗，而且整个覆盆子树丛还散落着 {num_digit_3, 67} 颗覆盆子。一共有多少颗覆盆子？",
+  "equation": "UPDATE HERE"
+}

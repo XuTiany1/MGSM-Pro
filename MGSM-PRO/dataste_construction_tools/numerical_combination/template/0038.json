@@ -1,0 +1,29 @@
+{
+    "problem_id": "0038",
+    "generation_order": ["num_digit_2", "num_digit_3", "num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_2": {"type": "int", "range": [2, 6]},
+        "num_digit_3": {"type": "int", "range": [2, 8]},
+        "num_digit_1": {"type": "int", "range": [30, 120]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "other_days = num_digit_2 - 1",
+            "half_time = num_digit_3 / 2",
+            "total_hours = num_digit_3 + (other_days * half_time)"
+        ],
+        "num_digit_1": [
+            "ans = num_digit_1 / total_hours"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

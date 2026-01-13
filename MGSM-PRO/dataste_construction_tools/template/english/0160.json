@@ -1,0 +1,8 @@
+{
+  "original_question": "A tank of water has a depth of 17 feet on Monday. On Tuesday, the tank had 7 feet more water. On Wednesday, the depth of the water is two thirds of what it was on Tuesday. What is the tank’s water depth on Wednesday?",
+  "original_answer": 16,
+  "symbolic_template": "A tank of water has a depth of {num_digit_1, 17} feet on Monday. On Tuesday, the tank had {num_digit_2, 7} feet more water. On Wednesday, the depth of the water is two thirds of what it was on Tuesday. What is the tank’s water depth on Wednesday?",
+  "ic_sentence_template": "{name_male, Brian}'s uncle checked the tank’s water level {num_ic, 79} times last year.",
+  "ic_template": "A tank of water has a depth of {num_digit_1, 17} feet on Monday. On Tuesday, the tank had {num_digit_2, 7} feet more water. On Wednesday, the depth of the water is two thirds of what it was on Tuesday. {name_male, Brian}'s uncle checked the tank’s water level {num_ic, 79} times last year. What is the tank’s water depth on Wednesday?",
+  "equation": "UPDATE HERE"
+}

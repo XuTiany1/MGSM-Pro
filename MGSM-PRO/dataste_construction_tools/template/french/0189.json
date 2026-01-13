@@ -1,0 +1,8 @@
+{
+  "original_question": "Trois amis ont dépensé 20,25 $ pour 3 billets d'entrée à la foire. Ils ont également dépensé 4,50 $ de moins pour la nourriture qu'ils n'en ont dépensé pour les billets. Ils ont également fait 2 tours de manège à 33 $ le tour. S'ils ont convenu de partager les frais équitablement, combien chacun a-t-il payé ?",
+  "original_answer": 34,
+  "symbolic_template": "Trois amis ont dépensé {num_digit_1, 20.25} $ pour {num_digit_2, 3} billets d'entrée à la foire. Ils ont également dépensé {num_digit_3, 4.50} $ de moins pour la nourriture qu'ils n'en ont dépensé pour les billets. Ils ont également fait {num_digit_4, 2} tours de manège à {num_digit_5, 33} $ le tour. S'ils ont convenu de partager les frais équitablement, combien chacun a-t-il payé ?",
+  "ic_sentence_template": "L'une de leurs tantes a acheté {num_ic, 148} billets de tombola à la foire.",
+  "ic_template": "L'une de leurs tantes a acheté {num_ic, 148} billets de tombola à la foire. Trois amis ont dépensé {num_digit_1, 20.25} $ pour {num_digit_2, 3} billets d'entrée à la foire. Ils ont également dépensé {num_digit_3, 4.50} $ de moins pour la nourriture qu'ils n'en ont dépensé pour les billets. Ils ont également fait {num_digit_4, 2} tours de manège à {num_digit_5, 33} $ le tour. S'ils ont convenu de partager les frais équitablement, combien chacun a-t-il payé ?",
+  "equation": "UPDATE HERE"
+}

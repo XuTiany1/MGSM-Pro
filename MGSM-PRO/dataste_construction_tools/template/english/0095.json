@@ -1,0 +1,8 @@
+{
+  "original_question": "Out of the 200 Grade 5 students, 2/5 are boys and 2/3 of the girls are in the girl scout. How many girls are not in the girl scout?",
+  "original_answer": 40,
+  "symbolic_template": "Out of the {num_digit_1, 200} Grade 5 students, 2/5 are boys and 2/3 of the girls are in the girl scout. How many girls are not in the girl scout?",
+  "ic_sentence_template": "The school principal's daughter owns {num_ic, 41} pencils.",
+  "ic_template": "Out of the {num_digit_1, 200} Grade 5 students, 2/5 are boys and 2/3 of the girls are in the girl scout. The school principal's daughter owns {num_ic, 41} pencils. How many girls are not in the girl scout?",
+  "equation": "UPDATE HERE"
+}

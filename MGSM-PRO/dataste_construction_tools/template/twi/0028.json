@@ -1,0 +1,8 @@
+{
+  "original_question": "Henry gyinaaԑ mprԑ dodoɔ mmienu wɔ kwansini aduosia a na ɔreka ne dadepɔnkɔ no. Na ne gyina a ɔgyinaa no mprԑnu no yԑ kwansini 15 ansa na ɔde kwantwa no aba awieԑ. Kwansini sԑn na ɔtwaaԑ wɔ ne gyina a ԑdi kan ne deԑ ԑtɔ so mmienu no ntam?",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Henry} gyinaaԑ mprԑ dodoɔ mmienu wɔ kwansini {num_digit_1, 60} a na ɔreka ne dadepɔnkɔ no. Na ne gyina a ɔgyinaa no {num_digit_2, 20} no ɔgyinaa a ԑdi kan no. Ne gyina a ԑtɔ so mmienu no yԑ kwansini {num_digit_3, 15} ansa na ɔde kwantwa no aba awieԑ. Kwansini sԑn na ɔtwaaԑ wɔ ne gyina a ԑdi kan ne deԑ ԑtɔ so mmienu no ntam?",
+  "ic_sentence_template": "{name_male, Henry} wɔfa no wɔ sakre dade kyɛw {num_ic, 85}.",
+  "ic_template": "{name_male, Henry} wɔfa no wɔ sakre dade kyɛw {num_ic, 85}. {name_male, Henry} gyinaaԑ mprԑ dodoɔ mmienu wɔ kwansini {num_digit_1, 60} a na ɔreka ne dadepɔnkɔ no. Na ne gyina a ɔgyinaa no {num_digit_2, 20} no ɔgyinaa a ԑdi kan no. Ne gyina a ԑtɔ so mmienu no yԑ kwansini {num_digit_3, 15} ansa na ɔde kwantwa no aba awieԑ. Kwansini sԑn na ɔtwaaԑ wɔ ne gyina a ԑdi kan ne deԑ ԑtɔ so mmienu no ntam?",
+  "equation": "UPDATE HERE"
+}

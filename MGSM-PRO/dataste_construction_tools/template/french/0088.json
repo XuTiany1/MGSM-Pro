@@ -1,0 +1,8 @@
+{
+  "original_question": "Le premier disque de Marilyn s'est vendu à 10 fois plus d'exemplaires que celui de Harald. S'ils ont vendu 88 000 exemplaires à eux deux, combien d'exemplaires Harald a-t-il vendus ?",
+  "original_answer": 8000,
+  "symbolic_template": "Le premier disque de {name_male_1, Marilyn} s'est vendu à {num_digit_1, 10} fois plus d'exemplaires que celui de {name_male_2, Harald}. S'ils ont vendu {num_digit_2, 88,000} exemplaires à eux deux, combien d'exemplaires {name_male_2, Harald} a-t-il vendus ?",
+  "ic_sentence_template": "{name_male_1, Marilyn} a un oncle qui a reçu {num_ic, 23,000} lettres de fans l'année dernière.",
+  "ic_template": "{name_male_1, Marilyn} a un oncle qui a reçu {num_ic, 23,000} lettres de fans l'année dernière. Le premier disque de {name_male_1, Marilyn} s'est vendu à {num_digit_1, 10} fois plus d'exemplaires que celui de {name_male_2, Harald}. S'ils ont vendu {num_digit_2, 88,000} exemplaires à eux deux, combien d'exemplaires {name_male_2, Harald} a-t-il vendus ?",
+  "equation": "UPDATE HERE"
+}

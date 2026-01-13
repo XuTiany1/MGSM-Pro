@@ -1,0 +1,8 @@
+{
+  "original_question": "Lloyd ní oko ẹyin. Àwọn adìẹ rẹ̀ máa ń yé ẹyin 252 lójúmọ́ ó sì máa ń tà wọ́n ní $2 fún dọ́sínì kan. Èló ní Lloyd ń rí lórí ẹyin lọ́sẹ̀?",
+  "original_answer": 294,
+  "symbolic_template": "{name_male, Lloyd} ní oko ẹyin. Àwọn adìẹ rẹ̀ máa ń yé ẹyin {num_digit_1, 252} lójúmọ́ ó sì máa ń tà wọ́n ní ${num_digit_2, 2} fún dọ́sínì kan. Èló ní {name_male, Lloyd} ń rí lórí ẹyin lọ́sẹ̀?",
+  "ic_sentence_template": "Arákùnrin {name_male, Lloyd} ṣẹ́ṣẹ̀ rà gèèsì {num_ic, 105}.",
+  "ic_template": "Arákùnrin {name_male, Lloyd} ṣẹ́ṣẹ̀ rà gèèsì {num_ic, 105}. {name_male, Lloyd} ní oko ẹyin. Àwọn adìẹ rẹ̀ máa ń yé ẹyin {num_digit_1, 252} lójúmọ́ ó sì máa ń tà wọ́n ní ${num_digit_2, 2} fún dọ́sínì kan. Èló ní {name_male, Lloyd} ń rí lórí ẹyin lọ́sẹ̀?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bolts in total does it take?",
+  "original_answer": 3,
+  "symbolic_template": "{num_digit_1, 2} bootu nke eriri na-acha anụnụ anụnụ ka achọrọ maka uwe mwụda, yana ọkara eriri na-acha ọcha. Kedu bootu ole ọ ga-ewe?",
+  "ic_sentence_template": "Nwanne nna onye na-akpụ uwe mgbe gara aga wetara {num_ic, 19} akpụkpọ eriri si n’obodo.",
+  "ic_template": "Nwanne nna onye na-akpụ uwe mgbe gara aga wetara {num_ic, 19} akpụkpọ eriri si n’obodo. {num_digit_1, 2} bootu nke eriri na-acha anụnụ anụnụ ka achọrọ maka uwe mwụda, yana ọkara eriri na-acha ọcha. Kedu bootu ole ọ ga-ewe?",
+  "equation": "UPDATE HERE"
+}

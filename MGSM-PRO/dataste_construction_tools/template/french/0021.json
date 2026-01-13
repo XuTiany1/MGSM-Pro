@@ -1,0 +1,8 @@
+{
+  "original_question": "Raymond et Samantha sont cousins. Raymond est né 6 ans avant Samantha et a eu un fils à l'âge de 23 ans. Si Samantha est maintenant âgée de 31 ans, quel est l'âge du fils de Raymond ?",
+  "original_answer": 14,
+  "symbolic_template": "{name_male, Raymond} et {name_female, Samantha} sont cousins. {name_male, Raymond} est né {num_digit_1, 6} ans avant {name_female, Samantha} et a eu un fils à l'âge de {num_digit_2, 23} ans. Si {name_female, Samantha} est maintenant âgée de {num_digit_3, 31} ans, quel est l'âge du fils de {name_male, Raymond} ?",
+  "ic_sentence_template": "{name_female, Samantha} a un oncle qui collectionne {num_ic, 77} cartes postales.",
+  "ic_template": "{name_female, Samantha} a un oncle qui collectionne {num_ic, 77} cartes postales. {name_male, Raymond} et {name_female, Samantha} sont cousins. {name_male, Raymond} est né {num_digit_1, 6} ans avant {name_female, Samantha} et a eu un fils à l'âge de {num_digit_2, 23} ans. Si {name_female, Samantha} est maintenant âgée de {num_digit_3, 31} ans, quel est l'âge du fils de {name_male, Raymond} ?",
+  "equation": "UPDATE HERE"
+}

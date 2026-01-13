@@ -1,0 +1,8 @@
+{
+  "original_question": "Àpamọ́ Uriah tí ń wúwo jù fún-un. Ó nílò láti yọ póùn 15 kúrò nínú rẹ̀. Àwọn ìwé adẹ́rìnpani rẹ̀ kọ̀ọ̀kan wọ̀n tó póùn 1/4 nígbà tí àwọn ohun ìṣeré kọ̀ọ̀kan wọ̀n tó póùn 1/2. Tí ó bá yọ ìwé adẹ́rìnpani 30 kúrò, ohun ìṣeré mélòó ló nílò láti yọ?",
+  "original_answer": 15,
+  "symbolic_template": "Apamo ikowesi {name_male, Uriah} tí ń wúwo jù fún-un. Ó nílò láti yọ póùn {num_digit_1, 15} kúrò nínú rẹ̀. Àwọn ìwé adẹ́rìnpani rẹ̀ kọ̀ọ̀kan wọ̀n tó póùn 1/4 nígbà tí àwọn ohun ìṣeré kọ̀ọ̀kan wọ̀n tó póùn 1/2. Tí ó bá yọ ìwé adẹ́rìnpani {num_digit_2, 30} kúrò, ohun ìṣeré mélòó ló nílò láti yọ?",
+  "ic_sentence_template": "Àbúrò bàbá {name_male, Uriah} rí {num_ic, 91} bọ́ọ̀lù ní orí àtààrí ilé rẹ.",
+  "ic_template": "Àbúrò bàbá {name_male, Uriah} rí {num_ic, 91} bọ́ọ̀lù ní orí àtààrí ilé rẹ. Apamo ikowesi {name_male, Uriah} tí ń wúwo jù fún-un. Ó nílò láti yọ póùn {num_digit_1, 15} kúrò nínú rẹ̀. Àwọn ìwé adẹ́rìnpani rẹ̀ kọ̀ọ̀kan wọ̀n tó póùn 1/4 nígbà tí àwọn ohun ìṣeré kọ̀ọ̀kan wọ̀n tó póùn 1/2. Tí ó bá yọ ìwé adẹ́rìnpani {num_digit_2, 30} kúrò, ohun ìṣeré mélòó ló nílò láti yọ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Adwumakuo bi tua n’adwumayԑfoɔ biara $600 wɔ bosome baako mu. Adwumakuo no wɔ nhyehyԑheԑ bi sԑ ɔbԑto adwumayԑfoɔ a w’atena adwuma no mu mfeԑ num akatua mu 10% afe biara. Sԑ Sylvie nyaa mfeԑ num wɔ adwuma no mu wɔ Ͻpԑnima a ԑtwaa mu yi a, sԑn ne n’akatua mfeԑ mmiԑnsa bio akyiri?",
+  "original_answer": 9360,
+  "symbolic_template": "Adwumakuo bi tua n’adwumayԑfoɔ biara ${num_digit_1, 600} wɔ bosome baako mu. Adwumakuo no wɔ nhyehyԑheԑ bi sԑ ɔbԑto adwumayԑfoɔ a w’atena adwuma no mu mfeԑ num akatua mu {num_digit_2, 10}% afe biara. Sԑ {name_female, Sylvie} nyaa mfeԑ {num_digit_3, 5} wɔ adwuma no mu wɔ Ͻpԑnima a ԑtwaa mu yi a, sԑn ne n’akatua mfeԑ mmiɛnsa bio akyiri?",
+  "ic_sentence_template": "{name_female, Sylvie} wͻfa no atɔ adwumayɛbea akonnwa{num_ic, 77} nnansa yi ara.",
+  "ic_template": "{name_female, Sylvie} wͻfa no atɔ adwumayɛbea akonnwa{num_ic, 77} nnansa yi ara. Adwumakuo bi tua n’adwumayԑfoɔ biara ${num_digit_1, 600} wɔ bosome baako mu. Adwumakuo no wɔ nhyehyԑheԑ bi sԑ ɔbԑto adwumayԑfoɔ a w’atena adwuma no mu mfeԑ num akatua mu {num_digit_2, 10}% afe biara. Sԑ {name_female, Sylvie} nyaa mfeԑ {num_digit_3, 5} wɔ adwuma no mu wɔ Ͻpԑnima a ԑtwaa mu yi a, sԑn ne n’akatua mfeԑ mmiɛnsa bio akyiri?",
+  "equation": "UPDATE HERE"
+}

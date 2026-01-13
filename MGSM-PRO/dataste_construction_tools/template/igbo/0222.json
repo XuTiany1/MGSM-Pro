@@ -1,0 +1,8 @@
+{
+  "original_question": "Andy kụrụ okoko geranium 90 na petunia 40 olenaole karịa geranium. Okooko ole ka ọ kụkọtara? ",
+  "original_answer": 140,
+  "symbolic_template": "{name_male, Andy} kụrụ okoko geranium {num_digit_1, 90} na petunia {num_digit_2, 40} olenaole karịa geranium. Okooko ole ka ọ kụkọtara?",
+  "ic_sentence_template": "Nne nwanne nna {name_male, Andy} zụtara akpa ájá ọmụmụ osisi {num_ic, 8324} izu gara aga.",
+  "ic_template": "Nne nwanne nna {name_male, Andy} zụtara akpa ájá ọmụmụ osisi {num_ic, 8324} izu gara aga. {name_male, Andy} kụrụ okoko geranium {num_digit_1, 90} na petunia {num_digit_2, 40} olenaole karịa geranium. Okooko ole ka ọ kụkọtara?",
+  "equation": "UPDATE HERE"
+}

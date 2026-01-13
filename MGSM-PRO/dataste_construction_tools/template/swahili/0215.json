@@ -1,0 +1,8 @@
+{
+  "original_question": "Lori anataka kununua jozi la kiatu kwa $320.00 na mshipi unaoendana nacho kwa $32.00. Kazi yake ya muda humlipa $8.00 kwa saa. Atahitaji kufanya kazi kwa saa ngapi kabla ya kuweza kufanya ununuzi?",
+  "original_answer": 44,
+  "symbolic_template": "{name_female, Lori} anataka kununua jozi ya viatu vya dola {num_digit_1, 320.00} na mkanda wa kufanana unaogharimu dola {num_digit_2, 32.00}. Kazi yake ya muda humlipa dola {num_digit_3, 8.00} kwa saa. Atalazimika kufanya kazi saa ngapi kabla ya kuweza kufanya ununuzi wake?",
+  "ic_sentence_template": "Mjomba wa {name_female, Lori} alipata mabango ya filamu ya zamani {num_ic, 47} kwenye paa lake.",
+  "ic_template": "Mjomba wa {name_female, Lori} alipata mabango ya filamu ya zamani {num_ic, 47} kwenye paa lake. {name_female, Lori} anataka kununua jozi ya viatu vya dola {num_digit_1, 320.00} na mkanda wa kufanana unaogharimu dola {num_digit_2, 32.00}. Kazi yake ya muda humlipa dola {num_digit_3, 8.00} kwa saa. Atalazimika kufanya kazi saa ngapi kabla ya kuweza kufanya ununuzi wake?",
+  "equation": "UPDATE HERE"
+}

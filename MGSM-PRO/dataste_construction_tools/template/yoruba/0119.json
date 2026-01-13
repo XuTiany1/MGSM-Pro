@@ -1,0 +1,8 @@
+{
+  "original_question": "Àpapọ̀ owó oṣù Adrien fi ìdá 30 ju tí Lylah lọ. Lẹ́yìn ọdún mẹ́rin, owó oṣù rẹ̀ gbé pẹ́lí, ó sì ń gba 40% ju iye tó ń gbà ní ọdún mẹ́rin sẹ́yìn. Tí owó oṣù Adrien àti Lylah bá gbé pẹ́lí ní tẹ̀létẹ̀lé, tí Adrien sì ń gba $40000 ní ọdún mẹ́rin sẹ́yìn, ṣe ìṣirò àpapọ̀ iye tí àwọn méjèèjì ń gbà lẹ́yìn ọdún mẹ́rin?",
+  "original_answer": 95200,
+  "symbolic_template": "Àpapọ̀ owó oṣù {name_male, Adrien} fi ìdá {num_digit_1, 30} ju ti {name_female, Lylah} lọ. Lẹ́yìn ọdún mẹ́rin, owó oṣù rẹ̀ gbé pẹ́lí, ó sì ń gba {num_digit_2, 40}% ju iye tó ń gbà ní ọdún mẹ́rin sẹ́yìn. Tí owó oṣù {name_male, Adrien} àti {name_female, Lylah} bá gbé pẹ́lí ní tẹ̀létẹ̀lé, tí {name_male, Adrien} sì ń gba ${num_digit_3, 40000} ní ọdún mẹ́rin sẹ́yìn, ṣe ìṣirò àpapọ̀ iye tí àwọn méjèèjì ń gbà lẹ́yìn ọdún mẹ́rin?",
+  "ic_sentence_template": "Arákùnrin {name_female, Lylah} gba àfikún owó ${num_ic, 134000} ní ilé-iṣẹ́ rẹ̀ ní ọdún yẹn.",
+  "ic_template": "Arákùnrin {name_female, Lylah} gba àfikún owó ${num_ic, 134000} ní ilé-iṣẹ́ rẹ̀ ní ọdún yẹn. Àpapọ̀ owó oṣù {name_male, Adrien} fi ìdá {num_digit_1, 30} ju ti {name_female, Lylah} lọ. Lẹ́yìn ọdún mẹ́rin, owó oṣù rẹ̀ gbé pẹ́lí, ó sì ń gba {num_digit_2, 40}% ju iye tó ń gbà ní ọdún mẹ́rin sẹ́yìn. Tí owó oṣù {name_male, Adrien} àti {name_female, Lylah} bá gbé pẹ́lí ní tẹ̀létẹ̀lé, tí {name_male, Adrien} sì ń gba ${num_digit_3, 40000} ní ọdún mẹ́rin sẹ́yìn, ṣe ìṣirò àpapọ̀ iye tí àwọn méjèèjì ń gbà lẹ́yìn ọdún mẹ́rin?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "A new program had 60 downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the program have total over the three months?",
+  "original_answer": 366,
+  "symbolic_template": "A new program had {num_digit_1, 60} downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by {num_digit_2, 30}% in the third month. How many downloads did the program have total over the three months?",
+  "ic_sentence_template": "The developer's uncle built {num_ic, 413} computer desks for the company.",
+  "ic_template": "A new program had {num_digit_1, 60} downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by {num_digit_2, 30}% in the third month. The developer's uncle built {num_ic, 413} computer desks for the company. How many downloads did the program have total over the three months?",
+  "equation": "UPDATE HERE"
+}

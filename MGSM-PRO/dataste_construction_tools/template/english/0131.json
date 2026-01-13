@@ -1,0 +1,8 @@
+{
+  "original_question": "The expenditure of Joseph in May was $500. In June, his expenditure was $60 less. How much was his total expenditure for those two months?",
+  "original_answer": 940,
+  "symbolic_template": "The expenditure of {name_male, Joseph} in May was ${num_digit_1, 500}. In June, his expenditure was ${num_digit_2, 60} less. How much was his total expenditure for those two months?",
+  "ic_sentence_template": "{name_male, Joseph}'s aunt received {num_ic, 412} dollars as a gift last month.",
+  "ic_template": "The expenditure of {name_male, Joseph} in May was ${num_digit_1, 500}. In June, his expenditure was ${num_digit_2, 60} less. {name_male, Joseph}'s aunt received {num_ic, 412} dollars as a gift last month. How much was his total expenditure for those two months?",
+  "equation": "UPDATE HERE"
+}

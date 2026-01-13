@@ -1,0 +1,8 @@
+{
+  "original_question": "La mère de Well vend des pastèques, des poivrons et des oranges au magasin du quartier. Une pastèque coûte trois fois plus cher qu'un poivron et une orange 5 fois moins qu'une pastèque. Dillon est envoyé au magasin pour acheter 4pastèques, 20 poivrons et 10 oranges. Quelle somme totale dépensera-t-il si chaque poivron coûte 15 $ ?",
+  "original_answer": 880,
+  "symbolic_template": "La mère de {name_male_1, Well} vend des pastèques, des poivrons et des oranges au magasin du quartier. Une pastèque coûte trois fois plus cher qu'un poivron et une orange {num_digit_1, 5} fois moins qu'une pastèque. {name_male_2, Dillon} est envoyé au magasin pour acheter {num_digit_2, 4} pastèques, {num_digit_3, 20} poivrons et {num_digit_4, 10} oranges. Quelle somme totale dépensera-t-il si chaque poivron coûte {num_digit_5, 15} $ ?",
+  "ic_sentence_template": "{name_male_2, Dillon} a une tante qui a acheté {num_ic, 92} ananas hier.",
+  "ic_template": "{name_male_2, Dillon} a une tante qui a acheté {num_ic, 92} ananas hier. La mère de {name_male_1, Well} vend des pastèques, des poivrons et des oranges au magasin du quartier. Une pastèque coûte trois fois plus cher qu'un poivron et une orange {num_digit_1, 5} fois moins qu'une pastèque. {name_male_2, Dillon} est envoyé au magasin pour acheter {num_digit_2, 4} pastèques, {num_digit_3, 20} poivrons et {num_digit_4, 10} oranges. Quelle somme totale dépensera-t-il si chaque poivron coûte {num_digit_5, 15} $ ?",
+  "equation": "UPDATE HERE"
+}

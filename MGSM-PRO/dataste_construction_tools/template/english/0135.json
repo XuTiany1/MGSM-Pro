@@ -1,0 +1,8 @@
+{
+  "original_question": "Brian's friend Bobby has 5 fewer than 3 times as many video games as Brian does. If Brian has 20 video games but lost 5 right before the comparison was made, how many does Bobby have?",
+  "original_answer": 40,
+  "symbolic_template": "{name_male_1, Brian}'s friend {name_male_2, Bobby} has {num_digit_1, 5} fewer than {num_digit_2, 3} times as many video games as {name_male_1, Brian} does. If {name_male_1, Brian} has {num_digit_3, 20} video games but lost {num_digit_4, 5} right before the comparison was made, how many does {name_male_2, Bobby} have?",
+  "ic_sentence_template": "{name_male_1, Brian}'s uncle owns {num_ic, 30} comic books.",
+  "ic_template": "{name_male_1, Brian}'s friend {name_male_2, Bobby} has {num_digit_1, 5} fewer than {num_digit_2, 3} times as many video games as {name_male_1, Brian} does. If {name_male_1, Brian} has {num_digit_3, 20} video games but lost {num_digit_4, 5} right before the comparison was made, {name_male_1, Brian}'s uncle owns {num_ic, 30} comic books. How many does {name_male_2, Bobby} have?",
+  "equation": "UPDATE HERE"
+}

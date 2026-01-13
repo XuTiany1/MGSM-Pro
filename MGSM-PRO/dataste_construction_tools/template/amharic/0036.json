@@ -1,0 +1,8 @@
+{
+  "original_question": "ቴሪ በቀን 2 እርጎ ይበላል። በአሁኑ ወቅት 4 እርጎ በ5.00 ዶላር ይሸጣሉ። በ30 ቀናት ውስጥ ለእርጎ ምን ያህል ገንዘብ ያወጣል?",
+  "original_answer": 75,
+  "symbolic_template": "{name_male, ቴሪ} በቀን {num_digit_1, 2} እርጎ ይበላል። በአሁኑ ወቅት {num_digit_2, 4} እርጎ በ${num_digit_3, 5}.00 ዶላር ይሸጣሉ። በ{num_digit_4, 30} ቀናት ውስጥ ለእርጎ ምን ያህል ገንዘብ ያወጣል?",
+  "ic_sentence_template": "የ{name_male, ቴሪ} አጎቱ በቅርቡ {num_ic, 29} ካርቶኖች የብርቱካን ጭማቂ ገዛ።",
+  "ic_template": "{name_male, ቴሪ} በቀን {num_digit_1, 2} እርጎ ይበላል። በአሁኑ ወቅት {num_digit_2, 4} እርጎ በ${num_digit_3, 5}.00 ዶላር ይሸጣሉ። በ{num_digit_4, 30} ቀናት ውስጥ ለእርጎ ምን ያህል ገንዘብ ያወጣል? የ{name_male, ቴሪ} አጎቱ በቅርቡ {num_ic, 29} ካርቶኖች የብርቱካን ጭማቂ ገዛ።",
+  "equation": "UPDATE HERE"
+}

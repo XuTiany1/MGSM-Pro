@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerry a deux piscines, toutes deux avec des fuites qui les vident à une vitesse de 4 gallons par minute. Il y a 4 minutes, la grande piscine avait deux fois plus d'eau que la petite. A présent, elle en a quatre fois plus. Quelle est la quantité d'eau de la petite piscine maintenant ?",
+  "original_answer": 8,
+  "symbolic_template": "{name_male, Jerry} a deux piscines, toutes deux avec des fuites qui les vident à une vitesse de {num_digit_1, 4} gallons par minute. Il y a {num_digit_2, 4} minutes, la grande piscine avait deux fois plus d'eau que la petite. À présent, elle en a quatre fois plus. Quelle est la quantité d'eau de la petite piscine maintenant ?",
+  "ic_sentence_template": "{name_male, Jerry} a une tante qui remplit {num_ic, 123} seaux d'eau de pluie chaque semaine.",
+  "ic_template": "{name_male, Jerry} a une tante qui remplit {num_ic, 123} seaux d'eau de pluie chaque semaine. {name_male, Jerry} a deux piscines, toutes deux avec des fuites qui les vident à une vitesse de {num_digit_1, 4} gallons par minute. Il y a {num_digit_2, 4} minutes, la grande piscine avait deux fois plus d'eau que la petite. À présent, elle en a quatre fois plus. Quelle est la quantité d'eau de la petite piscine maintenant ?",
+  "equation": "UPDATE HERE"
+}

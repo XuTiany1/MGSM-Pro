@@ -1,0 +1,8 @@
+{
+  "original_question": "トムは年に10本の木を植えます。毎年彼は、1年に2本の木を伐採します。彼は50本の木から始めます。10年後、30%の木は枯れます。彼には何本の木が残りますか？",
+  "original_answer": 91,
+  "symbolic_template": "{name_male, トム}は年に{num_digit_1, 10}本の木を植えます。毎年彼は、1年に{num_digit_2, 2}本の木を伐採します。彼は{num_digit_3, 50}本の木から始めます。{num_digit_4, 10}年後、{num_digit_5, 30}%の木が枯れます。彼には何本の木が残りますか？",
+  "ic_sentence_template": "{name_male, トム}のおばは最近{num_ic, 164}個の植木鉢を買いました。",
+  "ic_template": "{name_male, トム}のおばは最近{num_ic, 164}個の植木鉢を買いました。{name_male, トム}は年に{num_digit_1, 10}本の木を植えます。毎年彼は、1年に{num_digit_2, 2}本の木を伐採します。彼は{num_digit_3, 50}本の木から始めます。{num_digit_4, 10}年後、{num_digit_5, 30}%の木が枯れます。彼には何本の木が残りますか？",
+  "equation": "UPDATE HERE"
+}

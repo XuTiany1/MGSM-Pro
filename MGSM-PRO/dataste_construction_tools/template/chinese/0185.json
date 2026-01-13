@@ -1,0 +1,8 @@
+{
+  "original_question": "詹娜和她妈妈从自家苹果园里摘了一些苹果。詹娜比她妈妈多摘了一半的苹果。如果她妈妈摘了 20 颗苹果，她们两个人摘了多少颗苹果？",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, 詹娜} 和她妈妈从自家苹果园里摘了一些苹果。{name_female, 詹娜} 摘了她妈妈的 一半 的苹果。如果她妈妈摘了 {num_digit_1, 20} 颗苹果，她们两个人一共摘了多少颗苹果？",
+  "ic_sentence_template": "{name_f{name_female, 珍娜} 的叔叔那天早上带来了 {num_ic, 154} 瓶苹果酒到农场。",
+  "ic_template": "{name_female, 珍娜} 的叔叔那天早上带来了 {num_ic, 154} 瓶苹果酒到农场。{name_female, 詹娜} 和她妈妈从自家苹果园里摘了一些苹果。{name_female, 詹娜} 摘了她妈妈的 一半 的苹果。如果她妈妈摘了 {num_digit_1, 20} 颗苹果，她们两个人一共摘了多少颗苹果？",
+  "equation": "UPDATE HERE"
+}

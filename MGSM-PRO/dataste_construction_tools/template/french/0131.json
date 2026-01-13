@@ -1,0 +1,8 @@
+{
+  "original_question": "En mai, les dépenses de Joseph se sont élevées à 500 $. Elles ont baissé de 60 $ en juin. Quelle est la somme des dépenses effectuées durant les deux mois ?",
+  "original_answer": 940,
+  "symbolic_template": "En mai, les dépenses de {name_male, Joseph} se sont élevées à {num_digit_1, 500} $. Elles ont baissé de {num_digit_2, 60} $ en juin. Quelle est la somme des dépenses effectuées durant les deux mois ?",
+  "ic_sentence_template": "La tante de {name_male, Joseph} a reçu {num_ic, 412} dollars en cadeau le mois dernier.",
+  "ic_template": "La tante de {name_male, Joseph} a reçu {num_ic, 412} dollars en cadeau le mois dernier. En mai, les dépenses de {name_male, Joseph} se sont élevées à {num_digit_1, 500} $. Elles ont baissé de {num_digit_2, 60} $ en juin. Quelle est la somme des dépenses effectuées durant les deux mois ?",
+  "equation": "UPDATE HERE"
+}

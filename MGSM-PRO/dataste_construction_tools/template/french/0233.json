@@ -1,0 +1,8 @@
+{
+  "original_question": "Il y a 36 pingouins qui prennent un bain de soleil dans la neige. Un tiers d'entre eux plongent et nagent dans l'océan. Un autre tiers va à l'intérieur de la grotte pour y manger son dîner. Combien de pingouins continuent à prendre le bain de soleil ?",
+  "original_answer": 12,
+  "symbolic_template": "Il y a {num_digit_1, 36} pingouins qui prennent un bain de soleil dans la neige. Un tiers d'entre eux plongent et nagent dans l'océan. Un autre tiers va à l'intérieur de la grotte pour y manger son dîner. Combien de pingouins continuent à prendre le bain de soleil ?",
+  "ic_sentence_template": "L'un des oncles des manchots a récemment aperçu {num_ic, 57} phoques en train de se prélasser à proximité.",
+  "ic_template": "L'un des oncles des manchots a récemment aperçu {num_ic, 57} phoques en train de se prélasser à proximité. Il y a {num_digit_1, 36} pingouins qui prennent un bain de soleil dans la neige. Un tiers d'entre eux plongent et nagent dans l'océan. Un autre tiers va à l'intérieur de la grotte pour y manger son dîner. Combien de pingouins continuent à prendre le bain de soleil ?",
+  "equation": "UPDATE HERE"
+}

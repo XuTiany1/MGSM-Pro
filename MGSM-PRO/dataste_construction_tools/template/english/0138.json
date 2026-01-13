@@ -1,0 +1,8 @@
+{
+  "original_question": "Mark took a test yesterday that consisted of 75 questions. He completed the test at a rate of 5 questions per hour. Today, he took another test of 100 questions at the same rate. If Mark had 8 hours to complete the first test and 6 hours to complete the second one, how many questions did he leave incomplete?",
+  "original_answer": 105,
+  "symbolic_template": "{name_male, Mark} took a test yesterday that consisted of {num_digit_1, 75} questions. He completed the test at a rate of {num_digit_2, 5} questions per hour. Today, he took another test of {num_digit_3, 100} questions at the same rate. If {name_male, Mark} had {num_digit_4, 8} hours to complete the first test and {num_digit_5, 6} hours to complete the second one, how many questions did he leave incomplete?",
+  "ic_sentence_template": "{name_male, Mark}'s uncle brought him {num_ic, 68} pencils for good luck.",
+  "ic_template": "{name_male, Mark} took a test yesterday that consisted of {num_digit_1, 75} questions. He completed the test at a rate of {num_digit_2, 5} questions per hour. Today, he took another test of {num_digit_3, 100} questions at the same rate. If {name_male, Mark} had {num_digit_4, 8} hours to complete the first test and {num_digit_5, 6} hours to complete the second one, {name_male, Mark}'s uncle brought him {num_ic, 68} pencils for good luck. How many questions did he leave incomplete?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Kuna konokono 4 katika tangisamaki na konokono 32 katika tangisamaki nyingine. Tofauti kati ya idadi ya konokono katika tangisamaki hizi mbili ni mara mbili zaidi ya idadi ya samaki katika tangisamaki zote mbili. Ikiwa tangisamaki zote mbili zina idadi sawa ya samaki, kuna samaki wangapi katika kila tangisamaki?",
+  "original_answer": 7,
+  "symbolic_template": "Kuna konokono {num_digit_1, 4} katika tangisamaki na konokono {num_digit_2, 32} katika tangisamaki nyingine. Tofauti kati ya idadi ya konokono katika tangisamaki hizi mbili ni mara mbili zaidi ya idadi ya samaki katika tangisamaki zote mbili. Ikiwa tangisamaki zote mbili zina idadi sawa ya samaki, kuna samaki wangapi katika kila tangisamaki?",
+  "ic_sentence_template": "Binamu wa {name_male, Michael} ana samaki wa guppy {num_ic, 15} nyumbani.",
+  "ic_template": "Binamu wa {name_male, Michael} ana samaki wa guppy {num_ic, 15} nyumbani. Kuna konokono {num_digit_1, 4} katika tangisamaki na konokono {num_digit_2, 32} katika tangisamaki nyingine. Tofauti kati ya idadi ya konokono katika tangisamaki hizi mbili ni mara mbili zaidi ya idadi ya samaki katika tangisamaki zote mbili. Ikiwa tangisamaki zote mbili zina idadi sawa ya samaki, kuna samaki wangapi katika kila tangisamaki?",
+  "equation": "UPDATE HERE"
+}

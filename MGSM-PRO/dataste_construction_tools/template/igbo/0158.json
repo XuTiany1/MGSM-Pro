@@ -1,0 +1,8 @@
+{
+  "original_question": "Raphael gaara izuta ụfọdụ ngwa ụlọakwụkwọ. Ọ zụrụ mkpịsị edemede anọ nke daara $1.5 otunaotu,akwụkwọ edemede abụọ nke daara $4 otunaotu, na rịmu akwụkwọ ekechiri ekechi nke daara $20. Ego ole ka Raphael mefuru n'ịhe niile? ",
+  "original_answer": 34,
+  "symbolic_template": "{name_male, Raphael} gaara izuta ụfọdụ ngwa ụlọakwụkwọ. Ọ zụrụ mkpịsị edemede {num_digit_1, 4} nke daara ${num_digit_2, 1.5} otunaotu, akwụkwọ edemede {num_digit_3, 2} nke daara ${num_digit_4, 4} otunaotu, na rịmu akwụkwọ ekechiri ekechi nke daara ${num_digit_5, 20}. Ego ole ka {name_male, Raphael} mefuru n'ịhe niile?",
+  "ic_sentence_template": "Nwanne nna {name_male, Raphael} wètèrịịrị igbe {num_ic, 19} nke crayons izu gara aga.",
+  "ic_template": "Nwanne nna {name_male, Raphael} wètèrịịrị igbe {num_ic, 19} nke crayons izu gara aga. {name_male, Raphael} gaara izuta ụfọdụ ngwa ụlọakwụkwọ. Ọ zụrụ mkpịsị edemede {num_digit_1, 4} nke daara ${num_digit_2, 1.5} otunaotu, akwụkwọ edemede {num_digit_3, 2} nke daara ${num_digit_4, 4} otunaotu, na rịmu akwụkwọ ekechiri ekechi nke daara ${num_digit_5, 20}. Ego ole ka {name_male, Raphael} mefuru n'ịhe niile?",
+  "equation": "UPDATE HERE"
+}

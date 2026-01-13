@@ -1,0 +1,8 @@
+{
+  "original_question": "Rosie ga-agbanwu ọsọ mailụ iri kwa awa maka awa atọ. Mgbe nke ahụ mechara, ọ na-agba ọsọ mailụ ise kwa awa. Mailụ ole ka ọ ga-agbanwu ọsọ na awa asaa?",
+  "original_answer": 50,
+  "symbolic_template": "{name_female, Rosie} ga-agbanwu ọsọ mailụ {num_digit_1, 10} kwa awa maka awa {num_digit_2, 3}. Mgbe nke ahụ mechara, ọ na-agba ọsọ mailụ {num_digit_3, 5} kwa awa. Mailụ ole ka ọ ga-agbanwu ọsọ na awa {num_digit_4, 7}?",
+  "ic_sentence_template": "Nwanne nna {name_female, Rosie} gara ije igwe kilomita {num_ic, 62} n’otu ụbọchị ọ bụla.",
+  "ic_template": "Nwanne nna {name_female, Rosie} gara ije igwe kilomita {num_ic, 62} n’otu ụbọchị ọ bụla. {name_female, Rosie} ga-agbanwu ọsọ mailụ {num_digit_1, 10} kwa awa maka awa {num_digit_2, 3}. Mgbe nke ahụ mechara, ọ na-agba ọsọ mailụ {num_digit_3, 5} kwa awa. Mailụ ole ka ọ ga-agbanwu ọsọ na awa {num_digit_4, 7}?",
+  "equation": "UPDATE HERE"
+}

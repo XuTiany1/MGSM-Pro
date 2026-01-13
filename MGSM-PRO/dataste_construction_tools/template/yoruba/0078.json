@@ -1,0 +1,8 @@
+{
+  "original_question": "Vincent lè ra òdòdó ní èdìdí 3 fún $2.50 tàbí ní èdìdí 2 fún $ 1. Èló ní iye owó tó tọ́jú nípa rírà òdòdó 18 ní owó tí ó dára?",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, Vincent} lè ra òdòdó ní èdìdí {num_digit_1, 3} fún ${num_digit_2, 2.50} tàbí ní èdìdí {num_digit_3, 2} fún ${num_digit_4, 1}. Èló ní iye owó tó tọ́jú nípa rírà òdòdó {num_digit_5, 18} ní owó tí ó dára?",
+  "ic_sentence_template": "Arákùnrin {name_male, Vincent} ní ewébẹ̀ tomati {num_ic, 23} nínú ọgbà rẹ.",
+  "ic_template": "Arákùnrin {name_male, Vincent} ní ewébẹ̀ tomati {num_ic, 23} nínú ọgbà rẹ. {name_male, Vincent} lè ra òdòdó ní èdìdí {num_digit_1, 3} fún ${num_digit_2, 2.50} tàbí ní èdìdí {num_digit_3, 2} fún ${num_digit_4, 1}. Èló ní iye owó tó tọ́jú nípa rírà òdòdó {num_digit_5, 18} ní owó tí ó dára?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Sasha notices that prices for lumber have gone up 50% in the last few months after she bought some lumber. Since she has leftovers, she decides to sell them. She has leftover ten 2 × 4 × 10 boards that cost her $10 each. She also has five 4 × 4 × 10 boards she bought for $16 each. If she sells them all, how much profit does she make?",
+  "original_answer": 90,
+  "symbolic_template": "{name_female, Sasha} notices that prices for lumber have gone up {num_digit_1, 50}% in the last few months after she bought some lumber. Since she has leftovers, she decides to sell them. She has leftover ten {num_digit_2, 2} × {num_digit_3, 4} × {num_digit_4, 10} boards that cost her ${num_digit_5, 10} each. She also has five {num_digit_6, 4} × {num_digit_7, 4} × {num_digit_8, 10} boards she bought for ${num_digit_9, 16} each. If she sells them all, how much profit does she make?",
+  "ic_sentence_template": "{name_female, Sasha}'s uncle keeps {num_ic, 84} paintbrushes in his garage.",
+  "ic_template": "{name_female, Sasha} notices that prices for lumber have gone up {num_digit_1, 50}% in the last few months after she bought some lumber. Since she has leftovers, she decides to sell them. She has leftover ten {num_digit_2, 2} × {num_digit_3, 4} × {num_digit_4, 10} boards that cost her ${num_digit_5, 10} each. She also has five {num_digit_6, 4} × {num_digit_7, 4} × {num_digit_8, 10} boards she bought for ${num_digit_9, 16} each. {name_female, Sasha}'s uncle keeps {num_ic, 84} paintbrushes in his garage. If she sells them all, how much profit does she make?",
+  "equation": "UPDATE HERE"
+}

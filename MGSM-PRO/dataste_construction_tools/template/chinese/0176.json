@@ -1,0 +1,8 @@
+{
+  "original_question": "在一场 240 名亚洲人参加的比赛中，80 名是日本人，剩下的是中国人。如果中国队有 60 名男子队员，则中国队有多少名女子队员？",
+  "original_answer": 100,
+  "symbolic_template": "在一场 {num_digit_1, 240} 名亚洲人参加的比赛中，{num_digit_2, 80} 名是日本人，剩下的是中国人。如果中国队有 {num_digit_3, 60} 名男子队员，则中国队有多少名女子队员？",
+  "ic_sentence_template": "  有 {num_ic, 306} 名粉丝带着横幅到现场。",
+  "ic_template": "  有 {num_ic, 306} 名粉丝带着横幅到现场。在一场 {num_digit_1, 240} 名亚洲人参加的比赛中，{num_digit_2, 80} 名是日本人，剩下的是中国人。如果中国队有 {num_digit_3, 60} 名男子队员，则中国队有多少名女子队员？",
+  "equation": "UPDATE HERE"
+}

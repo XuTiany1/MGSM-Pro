@@ -1,0 +1,8 @@
+{
+  "original_question": "Toula a acheté plusieurs pâtisseries différentes à la boulangerie. Elle a acheté 3 douzaines de beignets à 68 $ la douzaine, 2 douzaines de petits gâteaux à 80 $ la douzaine et 6 douzaines de petits gâteaux au fromage à 55 $ la douzaine. À combien s'élève le coût total ?",
+  "original_answer": 694,
+  "symbolic_template": "{name_female, Toula} a acheté plusieurs pâtisseries différentes à la boulangerie. Elle a acheté {num_digit_1, 3} douzaines de beignets à {num_digit_2, 68} $ la douzaine, {num_digit_3, 2} douzaines de petits gâteaux à {num_digit_4, 80} $ la douzaine et {num_digit_5, 6} douzaines de petits gâteaux au fromage à {num_digit_6, 55} $ la douzaine. À combien s'élève le coût total ?",
+  "ic_sentence_template": "{name_female, Toula} a un oncle qui a commandé {num_ic, 136} pains pour une fête.",
+  "ic_template": "{name_female, Toula} a un oncle qui a commandé {num_ic, 136} pains pour une fête. {name_female, Toula} a acheté plusieurs pâtisseries différentes à la boulangerie. Elle a acheté {num_digit_1, 3} douzaines de beignets à {num_digit_2, 68} $ la douzaine, {num_digit_3, 2} douzaines de petits gâteaux à {num_digit_4, 80} $ la douzaine et {num_digit_5, 6} douzaines de petits gâteaux au fromage à {num_digit_6, 55} $ la douzaine. À combien s'élève le coût total ?",
+  "equation": "UPDATE HERE"
+}

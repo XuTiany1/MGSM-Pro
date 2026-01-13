@@ -1,0 +1,8 @@
+{
+  "original_question": "Un chasseur de trésor a déterré un coffre rempli de pierres précieuses. Celui-ci contenait 175 diamants, 35 rubis de moins que la quantité de diamants, et deux fois plus d'émeraudes que de rubis. Combien de pierres précieuses y avait-il dans le coffre ?",
+  "original_answer": 595,
+  "symbolic_template": "Un chasseur de trésor a déterré un coffre rempli de pierres précieuses. Celui-ci contenait {num_digit_1, 175} diamants, {num_digit_2, 35} rubis de moins que la quantité de diamants, et deux fois plus d'émeraudes que de rubis. Combien de pierres précieuses y avait-il dans le coffre ?",
+  "ic_sentence_template": "L’oncle du chercheur de trésors a déjà trouvé {num_ic, 632} pièces anciennes dans une autre grotte.",
+  "ic_template": "L’oncle du chercheur de trésors a déjà trouvé {num_ic, 632} pièces anciennes dans une autre grotte. Un chasseur de trésor a déterré un coffre rempli de pierres précieuses. Celui-ci contenait {num_digit_1, 175} diamants, {num_digit_2, 35} rubis de moins que la quantité de diamants, et deux fois plus d'émeraudes que de rubis. Combien de pierres précieuses y avait-il dans le coffre ?",
+  "equation": "UPDATE HERE"
+}

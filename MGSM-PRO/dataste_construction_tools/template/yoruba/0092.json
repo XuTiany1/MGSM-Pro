@@ -1,0 +1,8 @@
+{
+  "original_question": "Emily ní ọmọ kékeré 4 tí orúkọ wọn ń jẹ́ Amy, Jackson,Corey àti James. Amy fi ọdún 5 Jackson àti ọdún 2 kéré sí Corey. tí James bá jẹ́ 10 tí ó sì fi ọdún 1 kéré sí Corey, ọmọ ọdún mélòó ní Jackson?",
+  "original_answer": 4,
+  "symbolic_template": "{name_female_1, Emily} ní ọmọ kékeré {num_digit_1, 4} tí orúkọ wọn ń jẹ́ {name_female_2, Amy}, {name_male_1, Jackson}, {name_male_2, Corey} àti {name_male_3, James}. {name_female_2, Amy} fi ọdún {num_digit_2, 5} {name_male_1, Jackson} àti ọdún {num_digit_3, 2} kéré sí {name_male_2, Corey}. tí {name_male_3, James} bá jẹ́ {num_digit_4, 10} tí ó sì fi ọdún {num_digit_5, 1} kéré sí {name_male_2, Corey}, ọmọ ọdún mélòó ní {name_male_1, Jackson}?",
+  "ic_sentence_template": "Arákùnrin {name_female_1, Emily} ra àpù {num_ic, 39} láti ọjà.",
+  "ic_template": "Arákùnrin {name_female_1, Emily} ra àpù {num_ic, 39} láti ọjà. {name_female_1, Emily} ní ọmọ kékeré {num_digit_1, 4} tí orúkọ wọn ń jẹ́ {name_female_2, Amy}, {name_male_1, Jackson}, {name_male_2, Corey} àti {name_male_3, James}. {name_female_2, Amy} fi ọdún {num_digit_2, 5} {name_male_1, Jackson} àti ọdún {num_digit_3, 2} kéré sí {name_male_2, Corey}. tí {name_male_3, James} bá jẹ́ {num_digit_4, 10} tí ó sì fi ọdún {num_digit_5, 1} kéré sí {name_male_2, Corey}, ọmọ ọdún mélòó ní {name_male_1, Jackson}?",
+  "equation": "UPDATE HERE"
+}

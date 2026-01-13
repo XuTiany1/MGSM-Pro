@@ -1,0 +1,8 @@
+{
+  "original_question": "Lẹ‌yìn tí ó kó lọ sí ilé-ẹ‌kọ‌ tuntun, iye ọ̀rẹ́ Amy fi 20 ju ti Lily lọ. Tí Lily bá ní ọ̀rẹ́ 50, ọ̀rẹ́ mélòó ni Lily àti Amy ní lápapò?",
+  "original_answer": 120,
+  "symbolic_template": "Lẹ‌yìn tí ó kó lọ sí ilé-ẹ‌kọ‌ tuntun, iye ọ̀rẹ́ {name_female_1, Amy} fi {num_digit_1, 20} ju ti {name_female_2, Lily} lọ. Tí {name_female_2, Lily} bá ní ọ̀rẹ́ {num_digit_2, 50}, ọ̀rẹ́ mélòó ni {name_female_2, Lily} àti {name_female_1, Amy} ní lápapò?",
+  "ic_sentence_template": "Ọmọkùnrin bàbá {name_female_2, Lily} fún un ní àwọn ìwé àwòrán àròsọ {num_ic, 42} gẹ́gẹ́ bí ẹ̀bùn ikúrọ̀lé.",
+  "ic_template": "Ọmọkùnrin bàbá {name_female_2, Lily} fún un ní àwọn ìwé àwòrán àròsọ {num_ic, 42} gẹ́gẹ́ bí ẹ̀bùn ikúrọ̀lé. Lẹ‌yìn tí ó kó lọ sí ilé-ẹ‌kọ‌ tuntun, iye ọ̀rẹ́ {name_female_1, Amy} fi {num_digit_1, 20} ju ti {name_female_2, Lily} lọ. Tí {name_female_2, Lily} bá ní ọ̀rẹ́ {num_digit_2, 50}, ọ̀rẹ́ mélòó ni {name_female_2, Lily} àti {name_female_1, Amy} ní lápapò?",
+  "equation": "UPDATE HERE"
+}

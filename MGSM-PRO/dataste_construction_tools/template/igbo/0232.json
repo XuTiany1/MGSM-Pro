@@ -1,0 +1,8 @@
+{
+  "original_question": "Dax gaara n'ugbo ha ịghọta ụfọdụ apụl ma chọpụta na ọkara n'ime ahụhụ dịka ndanda n'ịme ubi. Ọ bụrụ na enwe arụrụ iri ise, gbakọọ ọnụọgụgụ ahụhụ nọ n'ubi. ",
+  "original_answer": 75,
+  "symbolic_template": "{name_male, Dax} gaara n'ugbo ha ịghọta ụfọdụ apụl ma chọpụta na ọkara n'ime ahụhụ dịka ndanda n'ịme ubi. Ọ bụrụ na enwe arụrụ {num_digit, iri ise}, gbakọọ ọnụọgụgụ ahụhụ nọ n'ubi.",
+  "ic_sentence_template": "Nwanne nna {name_male, Dax} hụrụ {num_ic, 372} ọdụm n’aga gafee ubi.",
+  "ic_template": "Nwanne nna {name_male, Dax} hụrụ {num_ic, 372} ọdụm n’aga gafee ubi. {name_male, Dax} gaara n'ugbo ha ịghọta ụfọdụ apụl ma chọpụta na ọkara n'ime ahụhụ dịka ndanda n'ịme ubi. Ọ bụrụ na enwe arụrụ {num_digit, iri ise}, gbakọọ ọnụọgụgụ ahụhụ nọ n'ubi.",
+  "equation": "UPDATE HERE"
+}

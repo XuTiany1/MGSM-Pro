@@ -1,0 +1,8 @@
+{
+  "original_question": "朱丽叶在湖上时，她的船漏水了。她朝着岸边每划 10 英尺，船就进水 2 升。她用 16 秒划了20 英尺。到达岸边需要 64 秒。当朱丽叶到达岸边时，船的进水量是多少？",
+  "original_answer": 16,
+  "symbolic_template": "{name_female, 朱丽叶} 在湖上时，她的船漏水了。她朝着岸边每划 10 英尺，船就进水 2 升。她用 16 秒划了 20 英尺。到达岸边需要 {num_digit_1, 64} 秒。当 {name_female, 朱丽叶} 到达岸边时，船的进水量是多少？",
+  "ic_sentence_template": "{name_female, 朱莉娅} 的叔叔拥有 {num_ic, 444} 个鱼饵。",
+  "ic_template": "{name_female, 朱莉娅} 的叔叔拥有 {num_ic, 444} 个鱼饵。{name_female, 朱丽叶} 在湖上时，她的船漏水了。她朝着岸边每划 10 英尺，船就进水 2 升。她用 16 秒划了 20 英尺。到达岸边需要 {num_digit_1, 64} 秒。当 {name_female, 朱丽叶} 到达岸边时，船的进水量是多少？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Onye osinri zụtara akpa yabasị anọ. Otu akpa dị arọ ịhe dịka pound iri ise. Otu paund yabasị na-ada $1.50. Ego ole ka osinri ahụ mefuru? ",
+  "original_answer": 300,
+  "symbolic_template": "Onye osinri zụtara akpa yabasị {num_digit_1, 4}. Otu akpa dị arọ ịhe dịka pound {num_digit_2, 50}. Otu paund yabasị na-ada ${num_digit_3, 1.50}. Ego ole ka osinri ahụ mefuru?",
+  "ic_sentence_template": "Nwa nwanne nna {name_female, Isabelle} bịara na {num_ic, 1042} bọlụn.",
+  "ic_template": "Nwa nwanne nna ya bịara na {num_ic, 38} bọlụn. Onye osinri zụtara akpa yabasị {num_digit_1, 4}. Otu akpa dị arọ ịhe dịka pound {num_digit_2, 50}. Otu paund yabasị na-ada ${num_digit_3, 1.50}. Ego ole ka osinri ahụ mefuru?",
+  "equation": "UPDATE HERE"
+}

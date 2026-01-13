@@ -1,0 +1,26 @@
+{
+    "problem_id": "0172",
+    "generation_order": ["num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [5, 20]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "sally_32 = num_digit_1",
+            "sally_4 = sally_32",
+            "granny_red = 2 * sally_4",
+            "sally_2 = granny_red + 3",
+            "ans = sally_32 + sally_4 + granny_red + sally_2"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

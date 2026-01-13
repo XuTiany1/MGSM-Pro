@@ -1,0 +1,8 @@
+{
+  "original_question": "Iko dọzịn iri abụọ pụtara $1200 pekaria ọkara ngụkọta ọnụego dọzin efere e rere $6000 nke ọ bụla. Gbakọọ ngụkọta ọnụ ego ọ ga-efu ịzụta iko ọ bụla.",
+  "original_answer": 145,
+  "symbolic_template": "Iko dọzịn iri abụọ pụtara ${num_digit_1, 1200} pekaria ọkara ngụkọta ọnụego dọzin efere e rere ${num_digit_2, 6000} nke ọ bụla. Gbakọọ ngụkọta ọnụ ego ọ ga-efu ịzụta iko ọ bụla.",
+  "ic_sentence_template": "Iri abụọ iko iri na abuo ka echekwara n'akụkụ {num_ic, 245} ite tea n'ime ụlọ nkwakọba ihe.",
+  "ic_template": "Iri abụọ iko iri na abuo ka echekwara n'akụkụ {num_ic, 245} ite tea n'ime ụlọ nkwakọba ihe. Iko dọzịn iri abụọ pụtara ${num_digit_1, 1200} pekaria ọkara ngụkọta ọnụego dọzin efere e rere ${num_digit_2, 6000} nke ọ bụla. Gbakọọ ngụpụta ọnụ ego ọ ga-efu ịzụta iko ọ bụla.",
+  "equation": "UPDATE HERE"
+}

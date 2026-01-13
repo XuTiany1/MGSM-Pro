@@ -1,0 +1,8 @@
+{
+  "original_question": "Nínú àwọn ọkọ̀ ayọ́kẹ́lẹ́ 20 tí ó wà fún ìyálò, 12 jẹ́ ọkọ̀ ayọ́kẹ́lẹ́ aládàáṣiṣẹ́, 4 jẹ́ ọkọ̀ ayọ́kẹ́lẹ́ ọlọ́wọ́, àwọn yòókù sì jẹ́ semi-automatic. Ìdá mélòó nínú àwọn ọkọ̀ ayọ́kẹ́lẹ́ náà ni semi-automatic?",
+  "original_answer": 20,
+  "symbolic_template": "Nínú àwọn ọkọ̀ ayọ́kẹ́lẹ́ {num_digit_1, 20} tí ó wà fún ìyálò, {num_digit_2, 12} jẹ́ ọkọ̀ ayọ́kẹ́lẹ́ aládàáṣiṣẹ́, {num_digit_3, 4} jẹ́ ọkọ̀ ayọ́kẹ́lẹ́ ọlọ́wọ́, àwọn yòókù sì jẹ́ semi-automatic. Ìdá mélòó nínú àwọn ọkọ̀ ayọ́kẹ́lẹ́ náà ni semi-automatic?",
+  "ic_sentence_template": "Ìyàwó aburo alábàáṣepọ̀ yá ilé gbàbọ̀yà ṣàbẹwò sí ọkọ ayọ́kẹ́lẹ́ {num_ic, 66} lójúọdún tó kọjá.",
+  "ic_template": "Ìyàwó aburo alábàáṣepọ̀ yá ilé gbàbọ̀yà ṣàbẹwò sí ọkọ ayọ́kẹ́lẹ́ {num_ic, 66} lójúọdún tó kọjá. Nínú àwọn ọkọ̀ ayọ́kẹ́lẹ́ {num_digit_1, 20} tí ó wà fún ìyálò, {num_digit_2, 12} jẹ́ ọkọ̀ ayọ́kẹ́lẹ́ aládàáṣiṣẹ́, {num_digit_3, 4} jẹ́ ọkọ̀ ayọ́kẹ́lẹ́ ọlọ́wọ́, àwọn yòókù sì jẹ́ semi-automatic. Ìdá mélòó nínú àwọn ọkọ̀ ayọ́kẹ́lẹ́ náà ni semi-automatic?",
+  "equation": "UPDATE HERE"
+}

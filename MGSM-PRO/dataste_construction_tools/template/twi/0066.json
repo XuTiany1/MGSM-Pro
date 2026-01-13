@@ -1,0 +1,8 @@
+{
+  "original_question": "Asukuu nnan na ԑresi akan wɔ baskԑt bɔɔlo aknasie bi mu. Sukuu biara de mmaa baskԑtbɔɔlo kuo ne mmarima baskԑtbɔɔlo kuo na ԑkɔɔԑ na kuo biara nso wɔ agodifoɔ num. Sukuu biara nso ne atetefoɔ baako kɔɔԑ ma kuo biara. No nyinaa mu no, nnipa dodoɔ sԑn na sukuu no nyinaa de kɔɔԑ?",
+  "original_answer": 48,
+  "symbolic_template": "Asukuu nnan na ԑresi akan wɔ baskԑt bɔɔlo aknasie bi mu. Sukuu biara de mmaa baskԑtbɔɔlo kuo ne mmarima baskԑtbɔɔlo kuo na ԑkɔɔԑ na kuo biara nso wɔ agodifoɔ {num_digit_1, num}. Sukuu biara nso ne atetefoɔ baako kɔɔԑ ma kuo biara. No nyinaa mu no, nnipa dodoɔ sԑn na sukuu no nyinaa de kɔɔԑ?",
+  "ic_sentence_template": "{name_male, Marcus} nua de basketbɔɔllɔ {num_ic, 42} brɛɛ akanni no ma wɔn de dwie.",
+  "ic_template": "{name_male, Marcus} nua de basketbɔɔllɔ {num_ic, 42} brɛɛ akanni no ma wɔn de dwie. Asukuu nnan na ԑresi akan wɔ baskԑt bɔɔlo aknasie bi mu. Sukuu biara de mmaa baskԑtbɔɔlo kuo ne mmarima baskԑtbɔɔlo kuo na ԑkɔɔԑ na kuo biara nso wɔ agodifoɔ {num_digit_1, num}. Sukuu biara nso ne atetefoɔ baako kɔɔԑ ma kuo biara. No nyinaa mu no, nnipa dodoɔ sԑn na sukuu no nyinaa de kɔɔԑ?",
+  "equation": "UPDATE HERE"
+}

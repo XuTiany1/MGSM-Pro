@@ -1,0 +1,8 @@
+{
+  "original_question": "Bill too 300 bobɔ, 120 yɛ Kyokolate croissants, ne baguettes aduasa da biara. Bobɔ biara tenten yɛ anammɔn enan, croissant biara tenten yɛ anammɔn nsia, na baguette biara tenten yɛ anammɔn mmienu. Sɛ Bill de nneɛma a wɔato no nyinaa ba awiei ye a, ne nan bɛyɛ tenten bɛyɛ sɛn?",
+  "original_answer": 280,
+  "symbolic_template": "{name_male, Bill} too {num_digit_1, 300} bobɔ, {num_digit_2, 120} yɛ Kyokolate croissants, ne baguettes {num_digit_3, 60} aduasa da biara. Bobɔ biara tenten yɛ anammɔn {num_digit_4, 4}, croissant biara tenten yɛ anammɔn {num_digit_5, 6}, na baguette biara tenten yɛ anammɔn mmienu. Sɛ {name_male, Bill} de nneɛma a wɔato no nyinaa ba awiei ye a, ne nan bɛyɛ tenten bɛyɛ sɛn?",
+  "ic_sentence_template": "{name_male, Bill} sewaa tɔ brodo {num_ic, 72} bosome biara.",
+  "ic_template": "{name_male, Bill} sewaa tɔ brodo {num_ic, 72} bosome biara. {name_male, Bill} too {num_digit_1, 300} bobɔ, {num_digit_2, 120} yɛ Kyokolate croissants, ne baguettes {num_digit_3, 60} aduasa da biara. Bobɔ biara tenten yɛ anammɔn {num_digit_4, 4}, croissant biara tenten yɛ anammɔn {num_digit_5, 6}, na baguette biara tenten yɛ anammɔn mmienu. Sɛ {name_male, Bill} de nneɛma a wɔato no nyinaa ba awiei ye a, ne nan bɛyɛ tenten bɛyɛ sɛn?",
+  "equation": "UPDATE HERE"
+}

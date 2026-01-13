@@ -1,0 +1,8 @@
+{
+  "original_question": "Oyin 700 ló wà nínú ilé oyin. Iye oyin òṣìṣẹ́ tó wà tó ìlọ́po méjì àwọn ọmọ oyin, iye ọmọ tó wà sì jẹ́ ìlọ́po méjì àwọn ayaba. Oyin òṣìṣẹ́ méèló ni ó wà níbẹ̀?",
+  "original_answer": 400,
+  "symbolic_template": "Oyin {num_digit_1, 700} ló wà nínú ilé oyin. Iye oyin òṣìṣẹ́ tó wà tó ìlọ́po méjì àwọn ọmọ oyin, iye ọmọ tó wà sì jẹ́ ìlọ́po méjì àwọn ayaba. Oyin òṣìṣẹ́ méèló ni ó wà níbẹ̀?",
+  "ic_sentence_template": "Kábìyèsí {name_male, Henry} ní baba ńlá tí ó ní àgọ́ oyin {num_ic, 62} tí ó kó síta nínú ibi ìkòkò rẹ.",
+  "ic_template": "Kábìyèsí {name_male, Henry} ní baba ńlá tí ó ní àgọ́ oyin {num_ic, 62} tí ó kó síta nínú ibi ìkòkò rẹ. Oyin {num_digit_1, 700} ló wà nínú ilé oyin. Iye oyin òṣìṣẹ́ tó wà tó ìlọ́po méjì àwọn ọmọ oyin, iye ọmọ tó wà sì jẹ́ ìlọ́po méjì àwọn ayaba. Oyin òṣìṣẹ́ méèló ni ó wà níbẹ̀?",
+  "equation": "UPDATE HERE"
+}

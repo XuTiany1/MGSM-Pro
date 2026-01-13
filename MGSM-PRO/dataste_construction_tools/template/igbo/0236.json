@@ -1,0 +1,8 @@
+{
+  "original_question": "Ram na-eji ọtụtụ mkpịsị òdé. Ọ chọpụtara na o nwere ị́ké ịchekwa ego site n'igwakorita oteji si na mkpịsị òdé ise were mejuo otu mkpịsị òdé. Ọ bụrụ na ọ na azụ mkpịsị  òdé iri abụọ na ise ma jiri ha mee mkpịsị òdé ọhụrụ mgbe oteji gbadara, mkpịsị òdé ole ka o kwesịrị ị nwe na ngụkọta? ",
+  "original_answer": 31,
+  "symbolic_template": "{name_male, Ram} na-eji ọtụtụ mkpịsị òdé. Ọ chọpụtara na o nwere ị́ké ịchekwa ego site n'igwakorita oteji si na mkpịsị òdé ise were mejuo otu mkpịsị òdé. Ọ bụrụ na ọ na azụ mkpịsị  òdé {num_digit_1, 25} ma jiri ha mee mkpịsị òdé ọhụrụ mgbe oteji gbadara, mkpịsị òdé ole ka o kwesịrị ị nwe na ngụkọta?",
+  "ic_sentence_template": "Nwanne nna {name_male, Ram} zụtara akwụkwọ edetu {num_ic, 13408} otu oge na ọnụahịa nkwụnye ego.",
+  "ic_template": "Nwanne nna {name_male, Ram} zụtara akwụkwọ edetu {num_ic, 13408} otu oge na ọnụahịa nkwụnye ego. {name_male, Ram} na-eji ọtụtụ mkpịsị òdé. Ọ chọpụtara na o nwere ị́ké ịchekwa ego site n'igwakorita oteji si na mkpịsị òdé ise were mejuo otu mkpịsị òdé. Ọ bụrụ na ọ na azụ mkpịsị  òdé {num_digit_1, 25} ma jiri ha mee mkpịsị òdé ọhụrụ mgbe oteji gbadara, mkpịsị òdé ole ka o kwesịrị ị nwe na ngụkọta?",
+  "equation": "UPDATE HERE"
+}

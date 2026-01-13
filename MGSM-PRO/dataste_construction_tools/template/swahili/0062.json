@@ -1,0 +1,8 @@
+{
+  "original_question": "Mercy akifanya kazi katika kampuni moja kwa miaka 40, atapata malipo ya uzeeni ya kila mwaka ya $50,000 kwa mwaka. Kuanzia baada ya miaka 20, anakuwa na haki ya kupata 5% ya thamani ya malipo ya uzeeni kila mwaka. Akiacha kazi baada ya miaka 30, malipo yake ya uzeeni ya kila mwaka yatakuwa ngapi?",
+  "original_answer": 25000,
+  "symbolic_template": "{name_female, Marcy} akifanya kazi katika kampuni moja kwa miaka {num_digit_1, 40}, atapata malipo ya uzeeni ya kila mwaka ya ${num_digit_2, 50,000} kwa mwaka. Kuanzia baada ya miaka {num_digit_3, 20}, anakuwa na haki ya kupata {num_digit_4, 5}% ya thamani ya malipo ya uzeeni kila mwaka. Akiacha kazi baada ya miaka {num_digit_6, 30}, malipo yake ya uzeeni ya kila mwaka yatakuwa ngapi?",
+  "ic_sentence_template": "Mjomba wa {name_female, Marcy} alipokea bonasi ya ${num_ic, 315,000} mwaka uliopita.",
+  "ic_template": "Mjomba wa {name_female, Marcy} alipokea bonasi ya ${num_ic, 315,000} mwaka uliopita. {name_female, Marcy} akifanya kazi katika kampuni moja kwa miaka {num_digit_1, 40}, atapata malipo ya uzeeni ya kila mwaka ya ${num_digit_2, 50,000} kwa mwaka. Kuanzia baada ya miaka {num_digit_3, 20}, anakuwa na haki ya kupata {num_digit_4, 5}% ya thamani ya malipo ya uzeeni kila mwaka. Akiacha kazi baada ya miaka {num_digit_6, 30}, malipo yake ya uzeeni ya kila mwaka yatakuwa ngapi?",
+  "equation": "UPDATE HERE"
+}

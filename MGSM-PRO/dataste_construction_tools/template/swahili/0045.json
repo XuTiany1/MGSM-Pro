@@ -1,0 +1,8 @@
+{
+  "original_question": "Meredith ni mwanablogu huria ambaye huandika kuhusu mada za afya na kuwasilishia wateja kila siku kama kazi yake ya muda wote. Makala ya blogu huchukua wastani ya saa 4 kuyafanyia utafiti na kuandika. Wiki iliyopita, aliandika makala 5 Jumatatu na Jumanne akaandika makala mara 2/5 zaidi siku ya Jumatatu. Jumatano, aliandika makala mara mbili ya zaidi ya aliyoandika Jumanne. Piga hesabu ya jumla ya saa alitumia kuandika makala katika siku hizo tatu.",
+  "original_answer": 104,
+  "symbolic_template": "{name_female, Meredith} ni mwanablogu wa kujitegemea anayeandika kuhusu mada za afya na kuwasilishia wateja kila siku kama kazi yake ya kudumu. Makala ya blogu huchukua wastani wa saa {num_digit_1, 4} kuyatafiti na kuyaandika. Wiki iliyopita, aliandika makala {num_digit_2, 5} Jumatatu, na Jumanne akaandika makala mara 2/5 zaidi ya alizoandika Jumatatu. Jumatano, aliandika makala mara mbili ya alizoandika Jumanne. Hesabu jumla ya saa alizotumia kuandika makala katika siku hizo tatu.",
+  "ic_sentence_template": "Mjomba wa {name_female, Meredith} alinunua vitabu {num_ic, 54} kuhusu lishe mwezi uliopita.",
+  "ic_template": "Mjomba wa {name_female, Meredith} alinunua vitabu {num_ic, 54} kuhusu lishe mwezi uliopita. {name_female, Meredith} ni mwanablogu wa kujitegemea anayeandika kuhusu mada za afya na kuwasilishia wateja kila siku kama kazi yake ya kudumu. Makala ya blogu huchukua wastani wa saa {num_digit_1, 4} kuyatafiti na kuyaandika. Wiki iliyopita, aliandika makala {num_digit_2, 5} Jumatatu, na Jumanne akaandika makala mara 2/5 zaidi ya alizoandika Jumatatu. Jumatano, aliandika makala mara mbili ya alizoandika Jumanne. Hesabu jumla ya saa alizotumia kuandika makala katika siku hizo tatu.",
+  "equation": "UPDATE HERE"
+}

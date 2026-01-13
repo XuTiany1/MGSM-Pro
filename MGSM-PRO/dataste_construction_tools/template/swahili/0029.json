@@ -1,0 +1,8 @@
+{
+  "original_question": "Gloria ananunua anapokutana na jozi ya mabuti inayotoshea bajeti yake ya kiatu. Hata hivyo, ni lazima achague kati ya mabuti hayo na jozi mbili za viatu vyenye visigino vilivyoinuka ambazo kwa pamoja gharama yao ni chini ya gharama ya mabuti kwa dola tano. Iwapo jozi moja ya viatu vyenye visigino vilivyoinuka inagharimu $33 na jozi hiyo nyingine bei yake ni mara mbili ya jozi ya kwanza, bei ya mabuti ni dola ngapi?",
+  "original_answer": 104,
+  "symbolic_template": "{name_female, Gloria} ananunua viatu akikutana na jozi ya buti inayolingana na bajeti yake ya viatu. Hata hivyo, lazima achague kati ya buti hizo na jozi mbili za viatu vya kisigino virefu ambavyo kwa pamoja vinagharimu dola tano pungufu ya bei ya buti. Ikiwa jozi moja ya viatu vya kisigino virefu inagharimu ${num_digit_1, 33} na nyingine inagharimu mara mbili ya bei ya jozi ya kwanza, buti hizo zinagharimu dola ngapi?",
+  "ic_sentence_template": "Binamu wa {name_female, Gloria} amenunua jozi za soksi {num_ic, 48} karibu.",
+  "ic_template": "Binamu wa {name_female, Gloria} amenunua jozi za soksi {num_ic, 48} karibu. {name_female, Gloria} ananunua viatu akikutana na jozi ya buti inayolingana na bajeti yake ya viatu. Hata hivyo, lazima achague kati ya buti hizo na jozi mbili za viatu vya kisigino virefu ambavyo kwa pamoja vinagharimu dola tano pungufu ya bei ya buti. Ikiwa jozi moja ya viatu vya kisigino virefu inagharimu ${num_digit_1, 33} na nyingine inagharimu mara mbili ya bei ya jozi ya kwanza, buti hizo zinagharimu dola ngapi?",
+  "equation": "UPDATE HERE"
+}

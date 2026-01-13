@@ -1,0 +1,8 @@
+{
+  "original_question": "ジムはテレビを観て2時間過ごし、それからベッドに行ってその半分の時間読書します。これを週に3回行います。彼は4週間で、何時間テレビを観ることと読書に費やしますか？",
+  "original_answer": 36,
+  "symbolic_template": "{name_male, ジム}はテレビを観て{num_digit_1, 2}時間過ごし、それからベッドに行ってその半分の時間読書します。これを週に{num_digit_2, 3}回行います。彼は{num_digit_3, 4}週間で、何時間テレビを観ることと読書に費やしますか？",
+  "ic_sentence_template": "{name_male, ジム}のおじさんは毎年{num_ic, 34}日間彼を訪ねてきます。",
+  "ic_template": "{name_male, ジム}のおじさんは毎年{num_ic, 34}日間彼を訪ねてきます。{name_male, ジム}はテレビを観て{num_digit_1, 2}時間過ごし、それからベッドに行ってその半分の時間読書します。これを週に{num_digit_2, 3}回行います。彼は{num_digit_3, 4}週間で、何時間テレビを観ることと読書に費やしますか？",
+  "equation": "UPDATE HERE"
+}

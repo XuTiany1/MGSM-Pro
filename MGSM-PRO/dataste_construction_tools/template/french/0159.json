@@ -1,0 +1,8 @@
+{
+  "original_question": "Finn observe 11 têtards qui nagent dans l'étang. Il en voit soudain 6 sortir de dessous un nénuphar, puis 2 se cacher sous un rocher. Combien de têtards Finn peut-il maintenant voir dans l'étang ?",
+  "original_answer": 15,
+  "symbolic_template": "{name_male, Finn} observe {num_digit_1, 11} têtards qui nagent dans l'étang. Il en voit soudain {num_digit_2, 6} sortir de dessous un nénuphar, puis {num_digit_3, 2} se cacher sous un rocher. Combien de têtards {name_male, Finn} peut-il maintenant voir dans l'étang ?",
+  "ic_sentence_template": "{name_male, Finn} a un oncle qui a vu {num_ic, 87} grenouilles dans un autre étang ce matin.",
+  "ic_template": "{name_male, Finn} a un oncle qui a vu {num_ic, 87} grenouilles dans un autre étang ce matin. {name_male, Finn} observe {num_digit_1, 11} têtards qui nagent dans l'étang. Il en voit soudain {num_digit_2, 6} sortir de dessous un nénuphar, puis {num_digit_3, 2} se cacher sous un rocher. Combien de têtards {name_male, Finn} peut-il maintenant voir dans l'étang ?",
+  "equation": "UPDATE HERE"
+}

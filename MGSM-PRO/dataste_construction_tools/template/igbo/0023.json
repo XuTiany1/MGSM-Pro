@@ -1,0 +1,8 @@
+{
+  "original_question": "Kandụl na-eji sentimita abụọ agbaze site na awa ọ na-ere ọkụ. Sentimita ole ka kandụl ga-adiwanye mkpụmkpụ ma ọ bụrụ na ọ na-ere ọkụ site na 1:00PM ruo 5:00 PM?",
+  "original_answer": 8,
+  "symbolic_template": "Kandụl na-eji sentimita {num_digit_1, 2} agbaze site na awa ọ na-ere ọkụ. Sentimita ole ka kandụl ga-adiwanye mkpụmkpụ ma ọ bụrụ na ọ na-ere ọkụ site na 1:00PM ruo 5:00 PM?",
+  "ic_sentence_template": "Ụnkul {name_female, Emily} bịara na emume ahụ nwere {num_ic, 63} ọkụ.",
+  "ic_template": "Ụnkul {name_female, Emily} bịara na emume ahụ nwere {num_ic, 63} ọkụ. Kandụl na-eji sentimita {num_digit_1, 2} agbaze site na awa ọ na-ere ọkụ. Sentimita ole ka kandụl ga-adiwanye mkpụmkpụ ma ọ bụrụ na ọ na-ere ọkụ site na 1:00PM ruo 5:00 PM?",
+  "equation": "UPDATE HERE"
+}

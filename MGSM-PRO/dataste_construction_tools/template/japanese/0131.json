@@ -1,0 +1,8 @@
+{
+  "original_question": "ジョゼフの5月の支出は$500でした。6月、彼の支出は$60少なくなりました。これら2か月の彼の支出の総額はいくらでしたか？",
+  "original_answer": 940,
+  "symbolic_template": "{name_male, ジョゼフ}の5月の支出は${num_digit_1, 500}でした。6月、彼の支出は${num_digit_2, 60}少なくなりました。これら2か月の彼の支出の総額はいくらでしたか？",
+  "ic_sentence_template": "{name_male, ジョセフ}のおばは先月、{num_ic, 412}ドルの贈り物を受け取りました。",
+  "ic_template": "{name_male, ジョセフ}のおばは先月、{num_ic, 412}ドルの贈り物を受け取りました。{name_male, ジョゼフ}の5月の支出は${num_digit_1, 500}でした。6月、彼の支出は${num_digit_2, 60}少なくなりました。これら2か月の彼の支出の総額はいくらでしたか？",
+  "equation": "UPDATE HERE"
+}

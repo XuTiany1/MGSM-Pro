@@ -1,0 +1,8 @@
+{
+  "original_question": "En semaine, Judy donne 5 cours de danse tous les jours et 8 cours le samedi. Si chaque cours compte 15 élèves et qu'elle facture 15,00 $ par élève, combien d'argent gagne-t-elle en une semaine ?",
+  "original_answer": 7425,
+  "symbolic_template": "En semaine, {name_female, Judy} donne {num_digit_1, 5} cours de danse tous les jours et {num_digit_2, 8} cours le samedi. Si chaque cours compte {num_digit_3, 15} élèves et qu'elle facture {num_digit_4, 15.00} $ par élève, combien d'argent gagne-t-elle en {num_digit_5, 1} semaine ?",
+  "ic_sentence_template": "{name_female, Judy} a un oncle qui achète {num_ic, 47} paires de chaussures de danse chaque mois.",
+  "ic_template": "{name_female, Judy} a un oncle qui achète {num_ic, 47} paires de chaussures de danse chaque mois. En semaine, {name_female, Judy} donne {num_digit_1, 5} cours de danse tous les jours et {num_digit_2, 8} cours le samedi. Si chaque cours compte {num_digit_3, 15} élèves et qu'elle facture {num_digit_4, 15.00} $ par élève, combien d'argent gagne-t-elle en {num_digit_5, 1} semaine ?",
+  "equation": "UPDATE HERE"
+}

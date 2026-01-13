@@ -1,0 +1,8 @@
+{
+  "original_question": "ilé ìta gáàsì àdúgbo ń ta gáàsì ní $3.00 fún gálọ́nù kan. ilé iṣẹ́ ayélujára fẹ́ ra  $20 fún gálọ́nù kan tí ó bá ra gáàsì ní ilé ìtajà yìí. tí ẹnìkan bá ra gálọ́nù 10 gáàsì, èló ní gáàsì lẹ́yìn ànfààní yìí?",
+  "original_answer": 28,
+  "symbolic_template": "ilé ìta gáàsì àdúgbo ń ta gáàsì ní ${num_digit_1, 3.00} fún gálọ́nù kan. ilé iṣẹ́ ayélujára fẹ́ ra  ${num_digit_2, .20} fún gálọ́nù kan tí ó bá ra gáàsì ní ilé ìtajà yìí. tí ẹnìkan bá ra gálọ́nù {num_digit_3, 10} gáàsì, èló ní gáàsì lẹ́yìn ànfààní yìí?",
+  "ic_sentence_template": "Àntí {name_male, Alex} gba ìfọ̀ ọkọ̀ ọfẹ́ {num_ic, 39} lọ́dún tó kọjá.",
+  "ic_template": "Àntí {name_male, Alex} gba ìfọ̀ ọkọ̀ ọfẹ́ {num_ic, 39} lọ́dún tó kọjá. ilé ìta gáàsì àdúgbo ń ta gáàsì ní ${num_digit_1, 3.00} fún gálọ́nù kan. ilé iṣẹ́ ayélujára fẹ́ ra  ${num_digit_2, .20} fún gálọ́nù kan tí ó bá ra gáàsì ní ilé ìtajà yìí. tí ẹnìkan bá ra gálọ́nù {num_digit_3, 10} gáàsì, èló ní gáàsì lẹ́yìn ànfààní yìí?",
+  "equation": "UPDATE HERE"
+}

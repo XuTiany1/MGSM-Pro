@@ -1,0 +1,31 @@
+{
+    "problem_id": "0155",
+    "generation_order": ["num_digit_1", "num_digit_4", "num_digit_2", "num_digit_5", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [100, 500]},
+        "num_digit_4": {"type": "int", "range": [2, 6]},
+        "num_digit_2": {"type": "int", "range": [50, 200]},
+        "num_digit_5": {"type": "int", "range": [4, 8]},
+        "num_digit_3": {"type": "int", "range": [20, 100]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "roll_feet = (num_digit_1 * num_digit_4) / 12",
+            "croissant_feet = (num_digit_2 * num_digit_5) / 12",
+            "baguette_feet = num_digit_3 * 2",
+            "ans = roll_feet + croissant_feet + baguette_feet"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 4}
+    },
+    "restrictions": {
+        "num_digit_3": [
+            "(num_digit_1 * num_digit_4) % 12 == 0",
+            "(num_digit_2 * num_digit_5) % 12 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

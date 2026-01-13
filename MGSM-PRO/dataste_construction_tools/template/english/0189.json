@@ -1,0 +1,8 @@
+{
+  "original_question": "Three friends spent $20.25 on 3 tickets to the fair. They also spent $4.50 less on food than on the tickets. They also went on 2 different rides which costs $33 for each ride. If they agreed to split all the costs evenly, how much did each of them pay?",
+  "original_answer": 34,
+  "symbolic_template": "Three friends spent ${num_digit_1, 20.25} on {num_digit_2, 3} tickets to the fair. They also spent ${num_digit_3, 4.50} less on food than on the tickets. They also went on {num_digit_4, 2} different rides which costs ${num_digit_5, 33} for each ride. If they agreed to split all the costs evenly, how much did each of them pay?",
+  "ic_sentence_template": "One of their aunts bought {num_ic, 148} raffle tickets at the fair.",
+  "ic_template": "Three friends spent ${num_digit_1, 20.25} on {num_digit_2, 3} tickets to the fair. They also spent ${num_digit_3, 4.50} less on food than on the tickets. They also went on {num_digit_4, 2} different rides which costs ${num_digit_5, 33} for each ride. One of their aunts bought {num_ic, 148} raffle tickets at the fair. If they agreed to split all the costs evenly, how much did each of them pay?",
+  "equation": "UPDATE HERE"
+}

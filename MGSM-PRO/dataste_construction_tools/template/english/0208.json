@@ -1,0 +1,8 @@
+{
+  "original_question": "Rose went to the store on Monday and bought 4 cakes. Tuesday she went to a different store and bought three times that number of cakes. On Wednesday she went to another store and bought 5 times the number of cakes she did on Tuesday. How many cakes did she buy after all three days?",
+  "original_answer": 76,
+  "symbolic_template": "{name_female, Rose} went to the store on Monday and bought {num_digit_1, 4} cakes. Tuesday she went to a different store and bought three times that number of cakes. On Wednesday she went to another store and bought {num_digit_2, 5} times the number of cakes she did on Tuesday. How many cakes did she buy after all three days?",
+  "ic_sentence_template": "{name_female, Rose}'s uncle baked {num_ic, 85} pies last weekend.",
+  "ic_template": "{name_female, Rose} went to the store on Monday and bought {num_digit_1, 4} cakes. Tuesday she went to a different store and bought three times that number of cakes. On Wednesday she went to another store and bought {num_digit_2, 5} times the number of cakes she did on Tuesday. {name_female, Rose}'s uncle baked {num_ic, 85} pies last weekend. How many cakes did she buy after all three days?",
+  "equation": "UPDATE HERE"
+}

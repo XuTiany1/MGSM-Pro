@@ -1,0 +1,28 @@
+{
+    "problem_id": "0098",
+    "generation_order": ["num_digit_6", "num_digit_4", "num_digit_2", "num_digit_1", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_6": {"type": "int", "range": [40, 150]},
+        "num_digit_4": {"type": "int", "range": [5, 20]},
+        "num_digit_2": {"type": "int", "range": [10, 40]},
+        "num_digit_1": {"type": "int", "range": [10, 30]},
+        "num_digit_3": {"type": "int", "range": [10, 30]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "remaining_after_exit = num_digit_6 - num_digit_4",
+            "ans = remaining_after_exit - num_digit_2"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "num_digit_6 > (num_digit_4 + num_digit_2)",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

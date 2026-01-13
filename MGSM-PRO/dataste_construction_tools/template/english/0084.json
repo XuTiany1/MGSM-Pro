@@ -1,0 +1,8 @@
+{
+  "original_question": "A football team played 22 games. They won 8 more than they lost. How many did they win?",
+  "original_answer": 15,
+  "symbolic_template": "A football team played {num_digit_1, 22} games. They won {num_digit_2, 8} more than they lost. How many did they win?",
+  "ic_sentence_template": "{name_male, John's} uncle attended {num_ic, 124} matches this season.",
+  "ic_template": "A football team played {num_digit_1, 22} games. {name_male, John's} uncle attended {num_ic, 124} matches this season. They won {num_digit_2, 8} more than they lost. How many did they win?",
+  "equation": "UPDATE HERE"
+}

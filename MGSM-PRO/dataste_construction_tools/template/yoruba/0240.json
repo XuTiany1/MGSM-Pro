@@ -1,0 +1,8 @@
+{
+  "original_question": "James ní candies mẹ́fà ju Robert lọ. John ní ìlọ‌po méjì candies tí Robert ní. Tí John bá ní candies 54, mélòó ni John ní ju James lọ?",
+  "original_answer": 21,
+  "symbolic_template": "{name_male_1, James} ní candies {num_digit_1, 6} ju {name_male_2, Robert} lọ. {name_male_3, John} ní ìlọ‌po méjì candies tí {name_male_1, Robert} ní. Tí {name_male_3, John} bá ní candies {num_digit_2, 54}, mélòó ni {name_male_3, John} ní ju {name_male_1, James} lọ?",
+  "ic_sentence_template": "Ìyá àgbà {name_male_2, Robert} fún un ní {num_ic, 422} kúúlà ní pẹ̀lú àyájọ́.",
+  "ic_template": "Ìyá àgbà {name_male_2, Robert} fún un ní {num_ic, 422} kúúlà ní pẹ̀lú àyájọ́. {name_male_1, James} ní candies {num_digit_1, 6} ju {name_male_2, Robert} lọ. {name_male_3, John} ní ìlọ‌po méjì candies tí {name_male_1, Robert} ní. Tí {name_male_3, John} bá ní candies {num_digit_2, 54}, mélòó ni {name_male_3, John} ní ju {name_male_1, James} lọ?",
+  "equation": "UPDATE HERE"
+}

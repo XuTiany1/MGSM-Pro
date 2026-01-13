@@ -1,0 +1,8 @@
+{
+  "original_question": "Darrell na Allen dị áfọ̀ ndị nọ na nha 7:11. Ọ bụrụ na áfọ̀ ole ha dum gbara bụ otu narị, iri isii na abụọ, gbakọọ áfọ̀ ole Allen ga adi site n'àfọ́ iri ugbu a. ",
+  "original_answer": 109,
+  "symbolic_template": "{name_male_1, Darrell} na {name_male_2, Allen} dị áfọ̀ ndị nọ na nha {num_digit_1, 7}:{num_digit_2, 11}. Ọ bụrụ na áfọ̀ ole ha dum gbara bụ {num_digit_3, 162}, gbakọọ áfọ̀ ole {name_male_2, Allen} ga adi site n'àfọ́ {num_digit_4, 10} ugbu a.",
+  "ic_sentence_template": "Nwanne nna {name_male_2, Allen} zụtara kaadị baseball {num_ic, 64} ọhụrụ.",
+  "ic_template": "Nwanne nna {name_male_2, Allen} zụtara kaadị baseball {num_ic, 64} ọhụrụ. {name_male_1, Darrell} na {name_male_2, Allen} dị áfọ̀ ndị nọ na nha {num_digit_1, 7}:{num_digit_2, 11}. Ọ bụrụ na áfọ̀ ole ha dum gbara bụ {num_digit_3, 162}, gbakọọ áfọ̀ ole {name_male_2, Allen} ga adi site n'àfọ́ {num_digit_4, 10} ugbu a.",
+  "equation": "UPDATE HERE"
+}

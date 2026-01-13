@@ -1,0 +1,8 @@
+{
+  "original_question": "Gretchen has 110 coins. There are 30 more gold coins than silver coins. How many gold coins does Gretchen have?",
+  "original_answer": 70,
+  "symbolic_template": "{name_female, Gretchen} has {num_digit_1, 110} coins. There are {num_digit_2, 30} more gold coins than silver coins. How many gold coins does {name_female, Gretchen} have?",
+  "ic_sentence_template": "{name_female, Gretchen}'s uncle collects {num_ic, 970} rare stamps.",
+  "ic_template": "{name_female, Gretchen} has {num_digit_1, 110} coins. There are {num_digit_2, 30} more gold coins than silver coins. {name_female, Gretchen}'s uncle collects {num_ic, 970} rare stamps. How many gold coins does {name_female, Gretchen} have?",
+  "equation": "UPDATE HERE"
+}

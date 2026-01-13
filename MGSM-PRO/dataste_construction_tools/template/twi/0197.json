@@ -1,0 +1,8 @@
+{
+  "original_question": "In the city of Soda, there are exactly 23786 inhabitants. They include 8417 men and 9092 women. The rest of the population is made up of children. How many kids are there in Soda?",
+  "original_answer": 6277,
+  "symbolic_template": " Wɔ {name_city, Soda} kurom, nnipa {num_digit_1, 23786} na wɔte hɔ pɛpɛɛpɛ.  Wɔyɛ mmarima {num_digit_2, 8417} ne mmaa {num_digit_3, 9092}. Nnipa dodow a aka no ye mmofra. Mmofra dodow ahe na wɔwɔ {name_city, Soda} kurom?",
+  "ic_sentence_template": "{name_city, Soda} sodifoɔ no tɔɔ balloon {num_ic, 174364} de yɛ afahyɛ.",
+  "ic_template": "{name_city, Soda} sodifoɔ no tɔɔ balloon {num_ic, 174364} de yɛ afahyɛ. Wɔ {name_city, Soda} kurom, nnipa {num_digit_1, 23786} na wɔte hɔ pɛpɛɛpɛ. Wɔyɛ mmarima {num_digit_2, 8417} ne mmaa {num_digit_3, 9092}. Nnipa dodow a aka no ye mmofra. Mmofra dodow ahe na wɔwɔ {name_city, Soda} kurom?",
+  "equation": "UPDATE HERE"
+}

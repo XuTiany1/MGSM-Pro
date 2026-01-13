@@ -1,0 +1,8 @@
+{
+  "original_question": "Brandon iphone no anyini kyԑn Ben iPhone no mfie mmɔho nnan. Ben iPhone no anyini mfie mmɔho mmienu kyԑn Suzzy iPhone no. Sԑ Suzy iPhone no adi mfie baako a, mfie sԑn na Brandon iPhone no adi?",
+  "original_answer": 8,
+  "symbolic_template": "{name_male_1, Brandon} iphone no anyini kyԑn {name_male_2, Ben} iPhone no mfie mmɔho nnan. {name_male_2, Ben} iPhone no anyini mfie mmɔho mmiɛnsa kyԑn {name_female, Suzy} iPhone no. Sԑ {name_female, Suzy} iPhone no adi mfie {num_digit_1, 2} a, mfie sԑn na {name_male_1, Brandon} iPhone no adi?",
+  "ic_sentence_template": "{name_male_2, Ben} ne sewaa atɔ ahomatorofo ho nkatasoɔ {num_ic, 15}.",
+  "ic_template": "{name_male_2, Ben} ne sewaa atɔ ahomatorofo ho nkatasoɔ {num_ic, 15}. {name_male_1, Brandon} iphone no anyini kyԑn {name_male_2, Ben} iPhone no mfie mmɔho nnan. {name_male_2, Ben} iPhone no anyini mfie mmɔho mmiɛnsa kyԑn {name_female, Suzy} iPhone no. Sԑ {name_female, Suzy} iPhone no adi mfie {num_digit_1, 2} a, mfie sԑn na {name_male_1, Brandon} iPhone no adi?",
+  "equation": "UPDATE HERE"
+}

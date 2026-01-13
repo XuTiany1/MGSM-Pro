@@ -1,0 +1,8 @@
+{
+  "original_question": "守车上有 4 只鸟。莎莉二号比瑞德奶奶大 3 岁。瑞德奶奶的年龄是莎莉四号的两倍。如果莎莉四号和莎莉三十二号一样大，而莎莉三十二号 8 岁，则 4 只鸟一共多少岁？",
+  "original_answer": 51,
+  "symbolic_template": "4只鸟在守车上。{name_female_1, 莎莉}二号比{name_female_2, 瑞德奶奶}大 3 岁。{name_female_2, 瑞德奶奶}的年龄是{name_female_1, 莎莉}四号的2倍。如果{name_female_1, 莎莉}四号和{name_female_1, 莎莉}三十二号一样大，而{name_female_1, 莎莉}三十二号{num_digit_1, 8}岁，则4只鸟一共多少岁？",
+  "ic_sentence_template": "{name_female_2, 格兰妮} {name_color, 红}的小外甥收集了 {num_ic, 93} 颗弹珠。",
+  "ic_template": "{name_female_2, 格兰妮} {name_color, 红}的小外甥收集了 {num_ic, 93} 颗弹珠。4只鸟在守车上。{name_female_1, 莎莉}二号比{name_female_2, 瑞德奶奶}大 3 岁。{name_female_2, 瑞德奶奶}的年龄是{name_female_1, 莎莉}四号的2倍。如果{name_female_1, 莎莉}四号和{name_female_1, 莎莉}三十二号一样大，而{name_female_1, 莎莉}三十二号{num_digit_1, 8}岁，则4只鸟一共多少岁？",
+  "equation": "UPDATE HERE"
+}

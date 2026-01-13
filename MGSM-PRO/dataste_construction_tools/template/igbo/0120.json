@@ -1,0 +1,8 @@
+{
+  "original_question": "Miguel na-eji padi akwụkwọ abụọ ese ịhe. Ọ bụrụ na e nwere mpempe akwụkwọ iri atọ n'ịme otu padi, kedụ mpempe akwụkwọ ole ọ na-eji ese ịhe n'ọnwa ọbụla? ",
+  "original_answer": 240,
+  "symbolic_template": "{name_male, Miguel} na-eji padi akwụkwọ {num_digit_1, 2} ese ịhe. Ọ bụrụ na e nwere mpempe akwụkwọ {num_digit_2, 30} n'ime otu padi, kedụ mpempe akwụkwọ ole ọ na-eji ese ịhe n'ọnwa ọbụla?",
+  "ic_sentence_template": "Nwanne nna {name_male, officer} na-elekọta igbe mbupu {num_ic, 68} n'ụlọ nkwakọba ngwaahịa dị nso.",
+  "ic_template": "Nwanne nna {name_male, officer} na-elekọta igbe mbupu {num_ic, 68} n'ụlọ nkwakọba ngwaahịa dị nso. {name_male, Miguel} na-eji padi akwụkwọ {num_digit_1, 2} ese ịhe. Ọ bụrụ na e nwere mpempe akwụkwọ {num_digit_2, 30} n'ime otu padi, kedụ mpempe akwụkwọ ole ọ na-eji ese ịhe n'ọnwa ọbụla?",
+  "equation": "UPDATE HERE"
+}

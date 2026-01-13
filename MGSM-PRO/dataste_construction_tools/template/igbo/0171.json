@@ -1,0 +1,8 @@
+{
+  "original_question": "Jake na-agafe na Museum of Entomology. Ọ na-ahụ ududo iri asatọ nwere ụkwụ asatọ otunaotu, arụrụ iri itoolu nwere ụkwụ isii otunaotu, na mutant invertebrates atọ anaghi ahukari nwere ụkwụ iri otunaotu. Ụkwụ ole ka Jake na-ahụ na ngụkọta?",
+  "original_answer": 1210,
+  "symbolic_template": "{name_male, Jake} na-agafe na Museum of Entomology. Ọ na-ahụ ududo {num_digit_1, 80} nwere ụkwụ {num_digit_2, 8} otunaotu, arụrụ {num_digit_3, 90} nwere ụkwụ {num_digit_4, 6} otunaotu, na mutant invertebrates {num_digit_5, 3} anaghi ahukari nwere ụkwụ {num_digit_6, 10} otunaotu. Ụkwụ ole ka {name_male, Jake} na-ahụ na ngụkọta?",
+  "ic_sentence_template": "Nwa nwanne {name_male, Jake} chịkọtara {num_ic, 328} uçụ̀kpụ̀ n'oge okpomọkụ gara aga.",
+  "ic_template": "Nwa nwanne {name_male, Jake} chịkọtara {num_ic, 328} uçụ̀kpụ̀ n'oge okpomọkụ gara aga. {name_male, Jake} na-agafe na Museum of Entomology. Ọ na-ahụ ududo {num_digit_1, 80} nwere ụkwụ {num_digit_2, 8} otunaotu, arụrụ {num_digit_3, 90} nwere ụkwụ {num_digit_4, 6} otunaotu, na mutant invertebrates {num_digit_5, 3} anaghi ahukari nwere ụkwụ {num_digit_6, 10} otunaotu. Ụkwụ ole ka {name_male, Jake} na-ahụ na ngụkọta?",
+  "equation": "UPDATE HERE"
+}

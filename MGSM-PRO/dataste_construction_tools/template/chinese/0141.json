@@ -1,0 +1,8 @@
+{
+  "original_question": "蜂巢中有 700 只蜜蜂。工蜂的数量是幼蜂的两倍，幼蜂的数量是蜂后的两倍。工蜂有多少只？",
+  "original_answer": 400,
+  "symbolic_template": "{num_digit_1, 700} 只蜜蜂在蜂巢中。工蜂的数量是幼蜂的 两倍，幼蜂的数量是蜂后的 两倍。工蜂有多少只？",
+  "ic_sentence_template": "{name_male, 亨利} 的叔叔在他的储藏棚里存放着 {num_ic, 62} 罐蜂蜜。",
+  "ic_template": "{name_male, 亨利} 的叔叔在他的储藏棚里存放着 {num_ic, 62} 罐蜂蜜。{num_digit_1, 700} 只蜜蜂在蜂巢中。工蜂的数量是幼蜂的 两倍，幼蜂的数量是蜂后的 两倍。工蜂有多少只？",
+  "equation": "UPDATE HERE"
+}

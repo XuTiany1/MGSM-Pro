@@ -1,0 +1,8 @@
+{
+  "original_question": "Baldur gets water from a well. He gets 5 pails of water every morning and 6 pails of water every afternoon. If each pail contains 5 liters of water, how many liters of water does he get every day?",
+  "original_answer": 55,
+  "symbolic_template": "{name_male, Baldur} gets water from a well. He gets {num_digit_1, 5} pails of water every morning and {num_digit_2, 6} pails of water every afternoon. If each pail contains {num_digit_3, 5} liters of water, how many liters of water does he get every day?",
+  "ic_sentence_template": "{name_male, Baldur}'s uncle built a barn with {num_ic, 137} wooden boards.",
+  "ic_template": "{name_male, Baldur} gets water from a well. He gets {num_digit_1, 5} pails of water every morning and {num_digit_2, 6} pails of water every afternoon. If each pail contains {num_digit_3, 5} liters of water, {name_male, Baldur}'s uncle built a barn with {num_ic, 137} wooden boards. How many liters of water does he get every day?",
+  "equation": "UPDATE HERE"
+}

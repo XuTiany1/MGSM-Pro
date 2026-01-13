@@ -1,0 +1,8 @@
+{
+  "original_question": "达雷尔和亚伦的年龄比是 7:11。如果他们现在的年龄总和是 162，请计算 Allen 10 年后的年龄。",
+  "original_answer": 109,
+  "symbolic_template": "{name_male_1, 达雷尔} 和 {name_male_2, 亚伦} 的年龄比是 {num_digit_1, 7}:{num_digit_2, 11}。如果他们现在的年龄总和是 {num_digit_3, 162}，请计算 {name_male_2, Allen} {num_digit_4, 10} 年后的年龄。",
+  "ic_sentence_template": "{name_male_2, 艾伦} 的叔叔刚刚买了 {num_ic, 64} 张棒球卡。",
+  "ic_template": "{name_male_2, 艾伦} 的叔叔刚刚买了 {num_ic, 64} 张棒球卡。{name_male_1, 达雷尔} 和 {name_male_2, 亚伦} 的年龄比是 {num_digit_1, 7}:{num_digit_2, 11}。如果他们现在的年龄总和是 {num_digit_3, 162}，请计算 {name_male_2, Allen} {num_digit_4, 10} 年后的年龄。",
+  "equation": "UPDATE HERE"
+}

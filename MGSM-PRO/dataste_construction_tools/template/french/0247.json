@@ -1,0 +1,8 @@
+{
+  "original_question": "Isabelle a acheté des fournitures pour la fête d'anniversaire de sa petite sœur. Elle a dépensé 12 $ pour les ingrédients du gâteau, 43 $ pour les cadeaux d'anniversaire, 15 $ pour les décorations, 4 $ pour les invitations et 22 $ pour les sacs de goodies destinés aux invités. Elle a partagé le coût en trois, entre elle et ses deux parents. Combien chaque personne a-t-elle payé ?",
+  "original_answer": 32,
+  "symbolic_template": "{name_female, Isabelle} a acheté des fournitures pour la fête d'anniversaire de sa petite sœur. Elle a dépensé {num_digit_1, 12} $ pour les ingrédients du gâteau, {num_digit_2, 43} $ pour les cadeaux d'anniversaire, {num_digit_3, 15} $ pour les décorations, {num_digit_4, 4} $ pour les invitations et {num_digit_5, 22} $ pour les sacs de goodies destinés aux invités. Elle a partagé le coût en trois, entre elle et ses deux parents. Combien chaque personne a-t-elle payé ?",
+  "ic_sentence_template": "{name_female, Isabelle} a reçu {num_ic, 1042} ballons de la part de sa cousine.",
+  "ic_template": "{name_female, Isabelle} a reçu {num_ic, 1042} ballons de la part de sa cousine. {name_female, Isabelle} a acheté des fournitures pour la fête d'anniversaire de sa petite sœur. Elle a dépensé {num_digit_1, 12} $ pour les ingrédients du gâteau, {num_digit_2, 43} $ pour les cadeaux d'anniversaire, {num_digit_3, 15} $ pour les décorations, {num_digit_4, 4} $ pour les invitations et {num_digit_5, 22} $ pour les sacs de goodies destinés aux invités. Elle a partagé le coût en trois, entre elle et ses deux parents. Combien chaque personne a-t-elle payé ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Dan anapanda vichaka 3 vya waridi. Kila kichaka cha waridi kina waridi 25. Kila waridi una miiba 8. Kuna miiba mingapi kwa jumla?",
+  "original_answer": 600,
+  "symbolic_template": "{name_male, Dan} anapanda vichaka {num_digit_1, 3} vya waridi. Kila kichaka cha waridi kina maua {num_digit_2, 25}. Kila ua la waridi lina miiba {num_digit_3, 8}. Kuna jumla ya miiba mingapi?",
+  "ic_sentence_template": "Shangazi wa {name_male, Dan} ana mimea ya nyanya {num_ic, 27}.",
+  "ic_template": "Shangazi wa {name_male, Dan} ana mimea ya nyanya {num_ic, 27}. {name_male, Dan} anapanda vichaka {num_digit_1, 3} vya waridi. Kila kichaka cha waridi kina maua {num_digit_2, 25}. Kila ua la waridi lina miiba {num_digit_3, 8}. Kuna jumla ya miiba mingapi?",
+  "equation": "UPDATE HERE"
+}

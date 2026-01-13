@@ -1,0 +1,8 @@
+{
+  "original_question": "Mandy a une dette de 100 $ envers Benedict. Ils ont convenu d'un intérêt mensuel de 2 %. Si Mandy est en mesure de payer cette somme au bout de 3 mois, quel montant doit-elle donner à Benoît ?",
+  "original_answer": 106,
+  "symbolic_template": "{name_female, Mandy} a une dette de {num_digit_1, 100} $ envers {name_male, Benedict}. Ils ont convenu d'un intérêt mensuel de {num_digit_2, 2} %. Si {name_female, Mandy} est en mesure de payer cette somme au bout de {num_digit_3, 3} mois, quel montant doit-elle donner à {name_male, Benoît} ?",
+  "ic_sentence_template": "{name_female, Mandy} a un oncle qui a une fois emprunté {num_ic, 656} dollars à la même personne.",
+  "ic_template": "{name_female, Mandy} a un oncle qui a une fois emprunté {num_ic, 656} dollars à la même personne. {name_female, Mandy} a une dette de {num_digit_1, 100} $ envers {name_male, Benedict}. Ils ont convenu d'un intérêt mensuel de {num_digit_2, 2} %. Si {name_female, Mandy} est en mesure de payer cette somme au bout de {num_digit_3, 3} mois, quel montant doit-elle donner à {name_male, Benoît} ?",
+  "equation": "UPDATE HERE"
+}

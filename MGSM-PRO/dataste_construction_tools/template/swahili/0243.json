@@ -1,0 +1,8 @@
+{
+  "original_question": "Jason ana mpango wa simu wa dakika 1000 kila mwezi. Kila siku anapiga simu kwa dakika 15 akiongea na mdosi wake, na ameongea kwa simu dakika 300 na watu wengine mwezi huu. Jason bado amesalia na dakika ngapi ikiwa mwezi huu una siku 30?",
+  "original_answer": 250,
+  "symbolic_template": "{name_male, Jason} ana mpango wa simu wa dakika {num_digit_1, 1000} kwa mwezi. Kila siku ana mazungumzo ya dakika {num_digit_2, 15} na bosi wake, na amekuwa na dakika za ziada {num_digit_3, 300} za simu mwezi huu kwa watu wengine. Ana dakika ngapi zilizobaki ikiwa mwezi huu una siku {num_digit_4, 30}?",
+  "ic_sentence_template": "Mjomba wa {name_male, Jason} aliwahi kuzungumza kwa dakika {num_ic, 1043} katika mwezi mmoja.",
+  "ic_template": "{name_male, Jason} ana mpango wa simu wa dakika {num_digit_1, 1000} kwa mwezi. Kila siku ana mazungumzo ya dakika {num_digit_2, 15} na bosi wake, na amekuwa na dakika za ziada {num_digit_3, 300} za simu mwezi huu kwa watu wengine. Mjomba wa {name_male, Jason} aliwahi kuzungumza kwa dakika {num_ic, 1043} katika mwezi mmoja. Ana dakika ngapi zilizobaki ikiwa mwezi huu una siku {num_digit_4, 30}?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Carlos veut planter un citronnier. Le coût de la plantation est de 90 $. Chaque année, l'arbre produira 7 citrons qui seront vendus au prix de 1,5 $ chacun. L'arrosage et la nutrition de l'arbre coûtent 3 $ par an. Combien d'années faudra-t-il à Carlos pour commencer à gagner de l'argent avec son citronnier ?",
+  "original_answer": 13,
+  "symbolic_template": "{name_male, Carlos} veut planter un citronnier. Le coût de la plantation est de {num_digit_1, 90} $. Chaque année, l'arbre produira {num_digit_2, 7} citrons qui seront vendus au prix de {num_digit_3, 1.5} $ chacun. L'arrosage et la nutrition de l'arbre coûtent {num_digit_4, 3} $ par an. Combien d'années faudra-t-il à {name_male, Carlos} pour commencer à gagner de l'argent avec son citronnier ?",
+  "ic_sentence_template": "{name_male, Carlos} a eu son cousin qui a apporté {num_ic, 136} oranges au dernier pique-nique familial.",
+  "ic_template": "{name_male, Carlos} a eu son cousin qui a apporté {num_ic, 136} oranges au dernier pique-nique familial. {name_male, Carlos} veut planter un citronnier. Le coût de la plantation est de {num_digit_1, 90} $. Chaque année, l'arbre produira {num_digit_2, 7} citrons qui seront vendus au prix de {num_digit_3, 1.5} $ chacun. L'arrosage et la nutrition de l'arbre coûtent {num_digit_4, 3} $ par an. Combien d'années faudra-t-il à {name_male, Carlos} pour commencer à gagner de l'argent avec son citronnier ?",
+  "equation": "UPDATE HERE"
+}

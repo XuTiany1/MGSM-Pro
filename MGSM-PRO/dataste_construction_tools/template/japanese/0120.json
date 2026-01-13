@@ -1,0 +1,8 @@
+{
+  "original_question": "ミゲルは、彼の絵に週に2パッドの紙を使う。もしも1パッドの紙に30枚入っているとすると、彼は毎月何枚の紙を使う？",
+  "original_answer": 240,
+  "symbolic_template": "{name_male, ミゲル} は、彼の絵に週に{num_digit_1, 2}パッドの紙を使う。もしも1パッドの紙に{num_digit_2, 30}枚入っているとすると、彼は毎月何枚の紙を使う？",
+  "ic_sentence_template": "{name_male, ミゲル}のおじさんのアトリエには{num_ic, 100}本の色鉛筆があります。",
+  "ic_template": "{name_male, ミゲル}のおじさんのアトリエには{num_ic, 100}本の色鉛筆があります。{name_male, ミゲル} は、彼の絵に週に{num_digit_1, 2}パッドの紙を使う。もしも1パッドの紙に{num_digit_2, 30}枚入っているとすると、彼は毎月何枚の紙を使う？",
+  "equation": "UPDATE HERE"
+}

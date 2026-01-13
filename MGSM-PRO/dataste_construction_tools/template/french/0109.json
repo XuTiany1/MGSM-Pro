@@ -1,0 +1,8 @@
+{
+  "original_question": "Une station-service vend de l'essence à 3,00 $ le gallon. Une société d'application offre 0,20 $ de remboursement par gallon si vous faites le plein dans cette station. Si quelqu'un achète 10 gallons d'essence, quel sera le prix d'achat, après les remboursements ?",
+  "original_answer": 28,
+  "symbolic_template": "Une station-service vend de l'essence à {num_digit_1, 3.00} $ le gallon. Une société d'application offre {num_digit_2, .20} $ de remboursement par gallon si vous faites le plein dans cette station. Si quelqu'un achète {num_digit_3, 10} gallons d'essence, quel sera le prix d'achat, après les remboursements ?",
+  "ic_sentence_template": "{name_male, Alex} a une tante qui a obtenu {num_ic, 39} lavages de voiture gratuits l'année dernière.",
+  "ic_template": "{name_male, Alex} a une tante qui a obtenu {num_ic, 39} lavages de voiture gratuits l'année dernière. Une station-service vend de l'essence à {num_digit_1, 3.00} $ le gallon. Une société d'application offre {num_digit_2, .20} $ de remboursement par gallon si vous faites le plein dans cette station. Si quelqu'un achète {num_digit_3, 10} gallons d'essence, quel sera le prix d'achat, après les remboursements ?",
+  "equation": "UPDATE HERE"
+}

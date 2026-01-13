@@ -1,0 +1,8 @@
+{
+  "original_question": "コディーはアミールが食べる量の3倍のクッキーを食べます。アミールがもしも5枚のクッキーを食べるとすると、彼らは二人で何枚のクッキーを食べますか？",
+  "original_answer": 20,
+  "symbolic_template": "{name_male_1, コディー}は{name_male_2, アミール}が食べる量の三倍のクッキーを食べます。{name_male_2, アミール}がもしも{num_digit_1, 5}**枚のクッキーを食べるとすると、彼らは二人で何枚のクッキーを食べますか？",
+  "ic_sentence_template": "{name_male_2, アミール}のおじさんがパーティーに{num_ic, 20}個のブラウニーを持ってきました。",
+  "ic_template": "{name_male_2, アミール}のおじさんがパーティーに{num_ic, 20}個のブラウニーを持ってきました。{name_male_1, コディー}は{name_male_2, アミール}が食べる量の三倍のクッキーを食べます。{name_male_2, アミール}がもしも{num_digit_1, 5}**枚のクッキーを食べるとすると、彼らは二人で何枚のクッキーを食べますか？",
+  "equation": "UPDATE HERE"
+}

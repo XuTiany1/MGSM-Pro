@@ -1,0 +1,31 @@
+{
+    "problem_id": "0115",
+    "generation_order": ["num_digit_5", "num_digit_9", "num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_6", "num_digit_7", "num_digit_8", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [10, 100]},
+        "num_digit_5": {"type": "int", "range": [5, 20]},
+        "num_digit_9": {"type": "int", "range": [10, 30]},
+        "num_digit_2": {"type": "int", "range": [2, 2]},
+        "num_digit_3": {"type": "int", "range": [4, 4]},
+        "num_digit_4": {"type": "int", "range": [8, 12]},
+        "num_digit_6": {"type": "int", "range": [4, 4]},
+        "num_digit_7": {"type": "int", "range": [4, 4]},
+        "num_digit_8": {"type": "int", "range": [8, 12]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "total_cost = (10 * num_digit_5) + (5 * num_digit_9)",
+            "ans = total_cost * (num_digit_1 / 100)"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "(total_cost * num_digit_1) % 100 == 0",
+            "ans > 0"
+        ]
+    }
+}

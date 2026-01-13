@@ -1,0 +1,8 @@
+{
+  "original_question": "Kylar kɔɔ adetɔbea kɔtɔɔ ahwehwԑ maa ne dan foforɔ no. Ahwehwԑ baako boɔ yԑ $5, nanso ahwehwԑ biara a ɔbԑto no akyire no boɔ no yԑ boɔ no mu ɔha nkyԑmu aduosia. Kylar pԑ sԑ ɔtɔ nhwehwԑ 16. Sԑn na ԑwɔ sԑ ɔtua wɔ no nyinaa ho?",
+  "original_answer": 64,
+  "symbolic_template": "{name_male, Kylar} kɔɔ adetɔbea kɔtɔɔ ahwehwԑ maa ne dan foforɔ no. Ahwehwԑ baako boɔ yԑ ${num_digit_1, 5}, nanso ahwehwԑ biara a ɔbԑto no akyire no boɔ no yԑ boɔ no mu {num_digit_2, 60}% wɔ ɔha nkyԑmu aduosia. {name_male, Kylar} pԑ sԑ ɔtɔ nhwehwԑ {num_digit_3, 16}. Sԑn na ԑwɔ sԑ ɔtua wɔ no nyinaa ho?",
+  "ic_sentence_template": "{name_male, Kylar} sewaa atɔ nkuruwa {num_ic, 25} ama n’adwuma foɔ nnansa yi ara.",
+  "ic_template": "{name_male, Kylar} sewaa atɔ nkuruwa {num_ic, 25} ama n’adwuma foɔ nnansa yi ara. {name_male, Kylar} kɔɔ adetɔbea kɔtɔɔ ahwehwԑ maa ne dan foforɔ no. Ahwehwԑ baako boɔ yԑ ${num_digit_1, 5}, nanso ahwehwԑ biara a ɔbԑto no akyire no boɔ no yԑ boɔ no mu {num_digit_2, 60}% wɔ ɔha nkyԑmu aduosia. {name_male, Kylar} pԑ sԑ ɔtɔ nhwehwԑ {num_digit_3, 16}. Sԑn na ԑwɔ sԑ ɔtua wɔ no nyinaa ho?",
+  "equation": "UPDATE HERE"
+}

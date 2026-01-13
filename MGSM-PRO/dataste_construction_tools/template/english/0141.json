@@ -1,0 +1,8 @@
+{
+  "original_question": "There are 700 bees in a hive. There are twice as many worker bees as baby bees, and there are twice as many babies as queens. How many worker bees are there?",
+  "original_answer": 400,
+  "symbolic_template": "There are {num_digit_1, 700} bees in a hive. There are twice as many worker bees as baby bees, and there are twice as many babies as queens. How many worker bees are there?",
+  "ic_sentence_template": "{name_male, Henry}'s uncle has {num_ic, 62} jars of honey stored in his shed.",
+  "ic_template": "There are {num_digit_1, 700} bees in a hive. There are twice as many worker bees as baby bees, and there are twice as many babies as queens. {name_male, Henry}'s uncle has {num_ic, 62} jars of honey stored in his shed. How many worker bees are there?",
+  "equation": "UPDATE HERE"
+}

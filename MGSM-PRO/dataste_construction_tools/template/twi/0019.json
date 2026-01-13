@@ -1,0 +1,8 @@
+{
+  "original_question": "Marrisa ԑreforo bepo a ԑkwan no yԑ kwansini du mmienu. Ͻnantee kwansini nnan a ԑdi kan no wɔ dɔnhwere baako mu, na ɔnantee kwansini mmienu a ԑtɔ so no nso wɔ dɔnhwere baako mu. Sԑ ɔpԑ sԑ mmirika a ɔbԑkɔ no yԑ kwansini nnan dɔnhwere biara mu a, mmirika sԑn (wɔ kwansini dɔnhwere biara mu) na ԑho hia sԑ ɔbԑnante kwan a aka no?",
+  "original_answer": 6,
+  "symbolic_template": "{name_female, Marissa} ԑreforo bepo a ԑkwan no yԑ kwansini {num_digit_1, 12}. Ͻnantee kwansini {num_digit_3, 4} a ԑdi kan no wɔ dɔnhwere {num_digit_2, 1} mu, na ɔnantee kwansini mmienu a ԑtɔ so no nso wɔ dɔnhwere {num_digit_2, 1} mu. Sԑ ɔpԑ sԑ mmirika a ɔbԑkɔ no yԑ kwansini {num_digit_4, 4} dɔnhwere biara mu a, mmirika sԑn (wɔ kwansini dɔnhwere biara mu) na ԑho hia sԑ ɔbԑnante kwan a aka no?",
+  "ic_sentence_template": "{name_female, Marissa} sewaa no huu wuram nhwiren {num_ic, 49} wɔ kwan no ho.",
+  "ic_template": "{name_female, Marissa} ԑreforo bepo a ԑkwan no yԑ kwansini {num_digit_1, 12}. Ͻnantee kwansini {num_digit_3, 4} a ԑdi kan no wɔ dɔnhwere {num_digit_2, 1} mu, na ɔnantee kwansini mmienu a ԑtɔ so no nso wɔ dɔnhwere {num_digit_2, 1} mu. Sԑ ɔpԑ sԑ mmirika a ɔbԑkɔ no yԑ kwansini {num_digit_4, 4} dɔnhwere biara mu a, mmirika sԑn (wɔ kwansini dɔnhwere biara mu) na ԑho hia sԑ ɔbԑnante kwan a aka no? {name_female, Marissa} sewaa no huu wuram nhwiren {num_ic, 49} wɔ kwan no ho.",
+  "equation": "UPDATE HERE"
+}

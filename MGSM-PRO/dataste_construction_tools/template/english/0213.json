@@ -1,0 +1,8 @@
+{
+  "original_question": "While at the dollar store, Sloane counts 100 customers entering the store. The next day, she counts 50 more customers than the first day. If the total number of customers by the third day was 500, how many customers did she count on the third day?",
+  "original_answer": 250,
+  "symbolic_template": "While at the dollar store, {name_female, Sloane} counts {num_digit_1, 100} customers entering the store. The next day, she counts {num_digit_2, 50} more customers than the first day. If the total number of customers by the third day was {num_digit_3, 500}, how many customers did she count on the third day?",
+  "ic_sentence_template": "{name_female, Sloane}'s uncle baked {num_ic, 93} blueberry pies for a bake sale.",
+  "ic_template": "While at the dollar store, {name_female, Sloane} counts {num_digit_1, 100} customers entering the store. The next day, she counts {num_digit_2, 50} more customers than the first day. {name_female, Sloane}'s uncle baked {num_ic, 93} blueberry pies for a bake sale. If the total number of customers by the third day was {num_digit_3, 500}, how many customers did she count on the third day?",
+  "equation": "UPDATE HERE"
+}

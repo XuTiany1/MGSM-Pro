@@ -1,0 +1,8 @@
+{
+  "original_question": "Gretchen nwere mkpụrụ ego nari iri na otu. E nwere ọla edo mkpụrụ ego iri atọ karịa mkpụrụ ego ọla ọcha. Mkpụrụ ego ọla edo ole ka Gretchen nwere?",
+  "original_answer": 70,
+  "symbolic_template": "{name_female, Gretchen} nwere mkpụrụ ego {num_digit_1, 110}. E nwere ọla edo mkpụrụ ego {num_digit_2, 30} karịa mkpụrụ ego ọla ọcha. Mkpụrụ ego ọla edo ole ka {name_female, Gretchen} nwere?",
+  "ic_sentence_template": "Nwanne nna {name_female, Gretchen} na-anakọta akwụkwọ ụlọ ozi dị iche iche dị iche iche ruru {num_ic, 970}.",
+  "ic_template": "Nwanne nna {name_female, Gretchen} na-anakọta akwụkwọ ụlọ ozi dị iche iche dị iche iche ruru {num_ic, 970}. {name_female, Gretchen} nwere mkpụrụ ego {num_digit_1, 110}. E nwere ọla edo mkpụrụ ego {num_digit_2, 30} karịa mkpụrụ ego ọla ọcha. Mkpụrụ ego ọla edo ole ka {name_female, Gretchen} nwere?",
+  "equation": "UPDATE HERE"
+}

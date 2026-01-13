@@ -1,0 +1,8 @@
+{
+  "original_question": "James pipi 6 zaidi ya Robert. John ana pipi mara mbili zaidi ya za Robert. Ikiwa John ana pipi 54, John ana pipi ngapi zaidi ya James?",
+  "original_answer": 21,
+  "symbolic_template": "{name_male_1, James}  pipi {num_digit_1, 6} zaidi ya {name_male_2, Robert}. {name_male_3, John} ana pipi mara mbili zaidi ya za {name_male_2, Robert}. Ikiwa {name_male_3, John} ana pipi {num_digit_2, 54}, {name_male_3, John} ana pipi ngapi zaidi ya {name_male_1, James}?",
+  "ic_sentence_template": "Shangazi wa {name_male, Robert} alimpa marumaru {num_ic, 422} hivi karibuni.",
+  "ic_template": "{name_male_1, James} ana pipi {num_digit_1, 6} zaidi ya {name_male_2, Robert}. {name_male_3, John} ana pipi mara mbili ya za {name_male_2, Robert}. Ikiwa {name_male_3, John} ana pipi {num_digit_2, 54}, shangazi wa {name_male_2, Robert} alimpa marumaru {num_ic, 422} hivi karibuni. {name_male_3, John} ana pipi ngapi zaidi ya {name_male_1, James}?",
+  "equation": "UPDATE HERE"
+}

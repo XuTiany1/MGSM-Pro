@@ -1,0 +1,8 @@
+{
+  "original_question": "Mishka bought 3 pairs of shorts, 3 pairs of pants, and 3 pairs of shoes. One pair of shorts costs $16.50. One pair of pants costs $22.50 and one pair of shoes costs $42. How many dollars did Mishka spend on all the clothing items?",
+  "original_answer": 243,
+  "symbolic_template": "{name_female, Mishka} bought {num_digit_1, 3} pairs of shorts, {num_digit_2, 3} pairs of pants, and {num_digit_3, 3} pairs of shoes. One pair of shorts costs ${num_digit_4, 16.50}. One pair of pants costs ${num_digit_5, 22.50} and one pair of shoes costs ${num_digit_6, 42}. How many dollars did {name_female, Mishka} spend on all the clothing items?",
+  "ic_sentence_template": "{name_female, Mishka}'s uncle recently purchased {num_ic, 12} hats.",
+  "ic_template": "{name_female, Mishka} bought {num_digit_1, 3} pairs of shorts, {num_digit_2, 3} pairs of pants, and {num_digit_3, 3} pairs of shoes. One pair of shorts costs ${num_digit_4, 16.50}. One pair of pants costs ${num_digit_5, 22.50} and one pair of shoes costs ${num_digit_6, 42}. {name_female, Mishka}'s uncle recently purchased {num_ic, 12} hats. How many dollars did {name_female, Mishka} spend on all the clothing items?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "凯尔花了 19.50 美元买了一本去年的畅销书，购买价是原价的七五折。这本书的原价是多少？",
+  "original_answer": 26,
+  "symbolic_template": "{name_male, 凯尔} 花了 {num_digit_1, 19.50} 美元买了一本去年的畅销书，购买价是原价的 {num_digit_2, 25}% 折扣。这本书的原价是多少？",
+  "ic_sentence_template": "{name_male, 凯尔} 的姑妈过去每年会读 {num_ic, 326332763} 本杂志。",
+  "ic_template": "{name_male, 凯尔} 的姑妈过去每年会读 {num_ic, 326332763} 本杂志。{name_male, 凯尔} 花了 {num_digit_1, 19.50} 美元买了一本去年的畅销书，购买价是原价的 {num_digit_2, 25}% 折扣。这本书的原价是多少？",
+  "equation": "UPDATE HERE"
+}

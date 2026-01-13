@@ -1,0 +1,8 @@
+{
+  "original_question": "Deux candidats briguent le poste de délégué de classe à l'école de Sarai. Si le gagnant a obtenu 3/4 des voix et que le nombre total d'élèves ayant voté est de 80, calculez le nombre de voix obtenues par le perdant.",
+  "original_answer": 20,
+  "symbolic_template": "Deux candidats briguent le poste de délégué de classe à l'école de {name_female, Sarai}. Si le gagnant a obtenu 3/4 des voix et que le nombre total d'élèves ayant voté est de {num_digit_1, 80}, calculez le nombre de voix obtenues par le perdant.",
+  "ic_sentence_template": "{name_female, Sarai} a reçu de son oncle {num_ic, 405} autocollants distribués pendant l'assemblée.",
+  "ic_template": "{name_female, Sarai} a reçu de son oncle {num_ic, 405} autocollants distribués pendant l'assemblée. Deux candidats briguent le poste de délégué de classe à l'école de {name_female, Sarai}. Si le gagnant a obtenu 3/4 des voix et que le nombre total d'élèves ayant voté est de {num_digit_1, 80}, calculez le nombre de voix obtenues par le perdant.",
+  "equation": "UPDATE HERE"
+}

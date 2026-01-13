@@ -1,0 +1,8 @@
+{
+  "original_question": "克里斯蒂娜正在策划一场生日派对，需要的礼品袋数量是每位受邀宾客 0.75 个，因为 1/4 的宾客未出席。她邀请了 16 位朋友。礼品袋每个 2 美元。她要花多少钱？",
+  "original_answer": 24,
+  "symbolic_template": "{name_female, 克里斯蒂娜} 正在策划一场生日派对，需要的礼品袋数量是每位受邀宾客 {num_digit_1, 0.75} 个，因为 1/4 的宾客未出席。她邀请了 {num_digit_2, 16} 位朋友。礼品袋每个 {num_digit_3, 2} 美元。她要花多少钱？",
+  "ic_sentence_template": "{name_female, 克里斯蒂娜} 的阿姨为庆祝活动带来了 {num_ic, 89} 个纸杯蛋糕。",
+  "ic_template": "{name_female, 克里斯蒂娜} 的阿姨为庆祝活动带来了 {num_ic, 89} 个纸杯蛋糕。{name_female, 克里斯蒂娜} 正在策划一场生日派对，需要的礼品袋数量是每位受邀宾客 {num_digit_1, 0.75} 个，因为 1/4 的宾客未出席。她邀请了 {num_digit_2, 16} 位朋友。礼品袋每个 {num_digit_3, 2} 美元。她要花多少钱？",
+  "equation": "UPDATE HERE"
+}

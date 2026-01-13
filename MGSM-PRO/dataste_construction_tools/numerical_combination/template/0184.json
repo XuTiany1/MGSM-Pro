@@ -1,0 +1,27 @@
+{
+    "problem_id": "0184",
+    "generation_order": ["num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [1, 6]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "outcomes_greater = 6 - num_digit_1",
+            "p1 = outcomes_greater / 6",
+            "p2 = 0.25",
+            "ans = (p1 - p2) * 100"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "outcomes_greater > 0",
+            "p1 > p2",
+            "ans % 1 == 0",
+            "ans > 0"
+        ]
+    }
+}

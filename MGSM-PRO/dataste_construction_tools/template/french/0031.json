@@ -1,0 +1,8 @@
+{
+  "original_question": "Gunter essaie de compter des bonbons dans un bocal. Il demande à ses amis d'en estimer la quantité. L'un d'eux répond 80. Un autre dit 20 de plus que la moitié du premier. Un troisième parle de 25 % de plus que le premier. Quelle est la moyenne de leurs estimations ?",
+  "original_answer": 80,
+  "symbolic_template": "{name_male, Gunter} essaie de compter des bonbons dans un bocal. Il demande à ses amis d'en estimer la quantité. L'un d'eux répond {num_digit_1, 80}. Un autre dit {num_digit_2, 20} de plus que la moitié du premier. Un troisième parle de {num_digit_3, 25} % de plus que le premier. Quelle est la moyenne de leurs estimations ?",
+  "ic_sentence_template": "{name_male, Gunter} a une tante qui a déjà apporté {num_ic, 392} dragées à une fête.",
+  "ic_template": "{name_male, Gunter} a une tante qui a déjà apporté {num_ic, 392} dragées à une fête. {name_male, Gunter} essaie de compter des bonbons dans un bocal. Il demande à ses amis d'en estimer la quantité. L'un d'eux répond {num_digit_1, 80}. Un autre dit {num_digit_2, 20} de plus que la moitié du premier. Un troisième parle de {num_digit_3, 25} % de plus que le premier. Quelle est la moyenne de leurs estimations ?",
+  "equation": "UPDATE HERE"
+}

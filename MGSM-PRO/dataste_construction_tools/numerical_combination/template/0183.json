@@ -1,0 +1,35 @@
+{
+    "problem_id": "0183",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_5", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [1, 4]},
+        "num_digit_2": {"type": "int", "construction": "random.choice([400, 800, 1200])"},
+        "num_digit_3": {"type": "int", "range": [45, 240]},
+        "num_digit_4": {"type": "int", "range": [50, 260]},
+        "num_digit_5": {"type": "int", "range": [1, 8]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_5": [
+            "team_a_total = 4 * num_digit_3",
+            "b1 = num_digit_4",
+            "b2 = b1 - num_digit_5",
+            "b3 = b2 - num_digit_5",
+            "b4 = b3 - num_digit_5",
+            "team_b_total = b1 + b2 + b3 + b4",
+            "ans = abs(team_a_total - team_b_total)"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_5": [
+            "num_digit_3 > (num_digit_2 / 10)",
+            "num_digit_4 > (num_digit_2 / 10)",
+            "b4 > (num_digit_2 / 12)",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

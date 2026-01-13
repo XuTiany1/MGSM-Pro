@@ -1,0 +1,8 @@
+{
+  "original_question": "John has 3 boxes. Each box is 5 inches by 6 inches by 4 inches. The walls are 1 inch thick. What is the total inner volume of all 3 boxes?",
+  "original_answer": 72,
+  "symbolic_template": "{name_male, John} has {num_digit_1, 3} boxes. Each box is {num_digit_2, 5} inches by {num_digit_3, 6} inches by {num_digit_4, 4} inches. The walls are {num_digit_5, 1} inch thick. What is the total inner volume of all {num_digit_1, 3} boxes?",
+  "ic_sentence_template": "{name_male, John's} aunt recently bought {num_ic, 49} extra boxes for her attic.",
+  "ic_template": "{name_male, John} has {num_digit_1, 3} boxes. Each box is {num_digit_2, 5} inches by {num_digit_3, 6} inches by {num_digit_4, 4} inches. The walls are {num_digit_5, 1} inch thick. {name_male, John}'s aunt recently bought {num_ic, 49} extra boxes for her attic. What is the total inner volume of all {num_digit_1, 3} boxes?",
+  "equation": "UPDATE HERE"
+}

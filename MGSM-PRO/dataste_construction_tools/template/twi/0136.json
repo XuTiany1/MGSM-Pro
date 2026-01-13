@@ -1,0 +1,8 @@
+{
+  "original_question": "Aponko dodoɔ aduonu nson na aka wɔ wiase nyinaa. Wɔn nkyemu mmiesa mu baako wɔ Scotland Mmepɔw so. Scotland Aponko no mu nkyem mmienu mu mmiɛnsa yɛ mmaa. Mmaa Scotland Aponko dodoɔ ahe na wɔwɔ hɔ?",
+  "original_answer": 6,
+  "symbolic_template": "Aponko dodoɔ {num_digit_1, 27} na aka wɔ wiase nyinaa. Wɔn nkyemu mmiesa mu baako wɔ Scotland Mmepɔw so. Scotland Aponko no mu nkyem mmienu mu mmiɛnsa yɛ mmaa. Mmaa Scotland Aponko dodoɔ ahe na wɔwɔ hɔ?",
+  "ic_sentence_template": "ɔtweaseɛ {num_ic, 38} na okuanni bi a ɔte ha huu wɔn nnansa yi ara.",
+  "ic_template": "Aponko dodoɔ {num_digit_1, 27} na aka wɔ wiase nyinaa. Wɔn nkyemu mmiesa mu baako wɔ Scotland Mmepɔw so. Scotland Aponko no mu nkyem mmienu mu mmiɛnsa yɛ mmaa. ɔtweaseɛ {num_ic, 38} na okuanni bi a ɔte ha huu wɔn nnansa yi ara. Mmaa Scotland Aponko dodoɔ ahe na wɔwɔ hɔ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_id": "0025",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_5", "num_digit_7", "num_digit_6", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [10, 25]},
+        "num_digit_2": {"type": "int", "range": [3, 8]},
+        "num_digit_3": {"type": "int", "range": [2, 6]},
+        "num_digit_4": {"type": "int", "range": [2, 10]},
+        "num_digit_5": {"type": "float", "precision": 2, "range": [0.50, 2.50]},
+        "num_digit_7": {"type": "float", "precision": 2, "range": [8.00, 15.00]},
+        "num_digit_6": {"type": "int", "range": [60, 150]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_5": [
+            "subtotal = num_digit_1 + (num_digit_2 * num_digit_3) + (num_digit_4 * num_digit_5)"
+        ],
+        "num_digit_6": [
+            "remaining = num_digit_6 - subtotal",
+            "ans = remaining / num_digit_7"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 1}
+    },
+    "restrictions": {
+        "num_digit_6": [
+            "remaining > 0",
+            "ans > 1",
+            "ans % 1 == 0"
+        ]
+    }
+}

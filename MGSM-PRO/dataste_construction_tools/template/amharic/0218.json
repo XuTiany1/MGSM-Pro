@@ -1,0 +1,8 @@
+{
+  "original_question": "የአድሪያን እድሜ የሃሪየትን ሶስት እጥፍ ሲሆን ሃሪየት ደግሞ የዛክ እድሜ ግማሽ ነው. ሃሪየት አሁን 21 አመቷ ከሆነ የሶስቱን አማካኝ እድሜ በሶስት አመታት ውስጥ አስላ?",
+  "original_answer": 45,
+  "symbolic_template": "የ{name_male_1, አድሪያን} እድሜ የ{name_male_2, Harriet}ን ሶስት እጥፍ ሲሆን {name_male_2, Harriet} ደግሞ የ{name_male_3, Zack} እድሜ ግማሽ ነው. {name_male_2, Harriet} አሁን {num_digit_1, 21} አመቷ ከሆነ የሶስቱን አማካኝ እድሜ በሶስት አመታት ውስጥ አስላ?",
+  "ic_sentence_template": "የ{name_male_2, ሀሪየት} አጎት በገበያ {num_ic, 107} ፖም ገዛ።",
+  "ic_template": "የ{name_male_1, አድሪያን} እድሜ የ{name_male_2, Harriet}ን ሶስት እጥፍ ሲሆን {name_male_2, Harriet} ደግሞ የ{name_male_3, Zack} እድሜ ግማሽ ነው. {name_male_2, Harriet} አሁን {num_digit_1, 21} አመቷ ከሆነ የሶስቱን አማካኝ እድሜ በሶስት አመታት ውስጥ አስላ? የ{name_male_2, ሀሪየት} አጎት በገበያ {num_ic, 107} ፖም ገዛ።",
+  "equation": "UPDATE HERE"
+}

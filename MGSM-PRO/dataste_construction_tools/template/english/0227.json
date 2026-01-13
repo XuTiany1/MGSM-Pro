@@ -1,0 +1,8 @@
+{
+  "original_question": "Chad ordered a build-your-own burrito for lunch. The base burrito is $6.50. He adds extra meat for $2.00, extra cheese for $1.00, avocado for $1.00 and 2 sauces for $0.25 each. He decides to upgrade his meal for an extra $3.00 which will add chips and a drink. He has a gift card for $5.00 that he uses at check out. How much does he still owe?",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, Chad} ordered a build-your-own burrito for lunch. The base burrito is ${num_digit_1, 6.50}. He adds extra meat for ${num_digit_2, 2.00}, extra cheese for ${num_digit_3, 1.00}, avocado for ${num_digit_4, 1.00} and 2 sauces for ${num_digit_5, 0.25} each. He decides to upgrade his meal for an extra ${num_digit_6, 3.00} which will add chips and a drink. He has a gift card for ${num_digit_7, 5.00} that he uses at check out. How much does he still owe?",
+  "ic_sentence_template": "{name_male, Chad}'s uncle bought {num_ic, 38} burritos for his coworkers last week.",
+  "ic_template": "{name_male, Chad} ordered a build-your-own burrito for lunch. The base burrito is ${num_digit_1, 6.50}. He adds extra meat for ${num_digit_2, 2.00}, extra cheese for ${num_digit_3, 1.00}, avocado for ${num_digit_4, 1.00} and 2 sauces for ${num_digit_5, 0.25} each. He decides to upgrade his meal for an extra ${num_digit_6, 3.00} which will add chips and a drink. {name_male, Chad}'s uncle bought {num_ic, 38} burritos for his coworkers last week. He has a gift card for ${num_digit_7, 5.00} that he uses at check out. How much does he still owe?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Charlie nwere akwụkwọ mmado iri. Ọ zụtara akwụkwọ mmado iri abụọ na otu n'ụlọ ahịa dị na nnukwu ụlọ ahịa ma nweta akwụkwọ mmado iri abụọ na atọ maka ụbọchị ọmụmụ ya. Mgbe ahụ Charlie nyere nwanne ya nwanyị akwụkwọ mmado itoolu ahụ ma jiri iri abụọ na asatọ chọọ kaadị ekele mma. Ihe mmado ole ka Charlie nwere fọdụrụ?",
+  "original_answer": 17,
+  "symbolic_template": "{name_male, Charlie} nwere akwụkwọ mmado {num_digit_1, 10}. Ọ zụtara akwụkwọ mmado {num_digit_2, 21} n'ụlọ ahịa dị na nnukwu ụlọ ahịa ma nweta akwụkwọ mmado {num_digit_3, 23} maka ụbọchị ọmụmụ ya. Mgbe ahụ Charlie nyere nwanne ya nwanyị akwụkwọ mmado {num_digit_4, 9} ahụ ma jiri {num_digit_5, 28} chọọ kaadị ekele mma. Ihe mmado ole ka {name_male, Charlie} nwere fọdụrụ?",
+  "ic_sentence_template": "Nwanne nna {name_male, Charlie} na-anakọta {num_ic, 12} ihe mkpụrụ akwụkwọ posi dị ụkọ.",
+  "ic_template": "Nwanne nna {name_male, Charlie} na-anakọta {num_ic, 12} ihe mkpụrụ akwụkwọ posi dị ụkọ. {name_male, Charlie} nwere akwụkwọ mmado {num_digit_1, 10}. Ọ zụtara akwụkwọ mmado {num_digit_2, 21} n'ụlọ ahịa dị na nnukwu ụlọ ahịa ma nweta akwụkwọ mmado {num_digit_3, 23} maka ụbọchị ọmụmụ ya. Mgbe ahụ Charlie nyere nwanne ya nwanyị akwụkwọ mmado {num_digit_4, 9} ahụ ma jiri {num_digit_5, 28} chọọ kaadị ekele mma. Ihe mmado ole ka {name_male, Charlie} nwere fọdụrụ?",
+  "equation": "UPDATE HERE"
+}

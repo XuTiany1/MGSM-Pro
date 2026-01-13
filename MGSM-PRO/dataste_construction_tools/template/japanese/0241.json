@@ -1,0 +1,8 @@
+{
+  "original_question": "ドリーは2冊の本をもっています。パンドラは1冊もっています。ドリーとパンドラが自分の本に加えて相手の本も読んだとしたら、2人で合計何冊読んだことになりますか？",
+  "original_answer": 6,
+  "symbolic_template": "{name_female_1, ドリー} は 2 冊の本を持っています。{name_female_2, パンドラ} は 1 冊の本を持っています。{name_female_1, ドリー} と {name_female_2, パンドラ} がそれぞれ自分の本と相手の本も読むとすると、2人で最終的に読む本の合計は何冊になりますか？",
+  "ic_sentence_template": "{name_female_2, パンドラ}のおじさんは{num_ic, 674}冊の雑誌を持っています。",
+  "ic_template": "{name_female_2, パンドラ}のおじさんは{num_ic, 674}冊の雑誌を持っています。{name_female_1, ドリー} は 2 冊の本を持っています。{name_female_2, パンドラ} は 1 冊の本を持っています。{name_female_1, ドリー} と {name_female_2, パンドラ} がそれぞれ自分の本と相手の本も読むとすると、2人で最終的に読む本の合計は何冊になりますか？",
+  "equation": "UPDATE HERE"
+}

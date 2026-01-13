@@ -1,0 +1,39 @@
+{
+    "problem_id": "0074",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_5", "num_digit_6", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "float", "range": [1.10, 5.90], "precision": 2},
+        "num_digit_2": {"type": "float", "range": [1.10, 5.90], "precision": 2},
+        "num_digit_3": {"type": "float", "range": [1.10, 5.90], "precision": 2},
+        "num_digit_4": {"type": "int", "range": [5, 20]},
+        "num_digit_5": {"type": "int", "range": [5, 20]},
+        "num_digit_6": {"type": "int", "range": [5, 20]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "p1_rounded = (num_digit_1 - (num_digit_1 % 1)) + 1"
+        ],
+        "num_digit_2": [
+            "p2_rounded = (num_digit_2 - (num_digit_2 % 1)) + 1"
+        ],
+        "num_digit_3": [
+            "p3_rounded = (num_digit_3 - (num_digit_3 % 1)) + 1"
+        ],
+        "num_digit_6": [
+            "revenue_1 = p1_rounded * num_digit_4",
+            "revenue_2 = p2_rounded * num_digit_5",
+            "revenue_3 = p3_rounded * num_digit_6",
+            "ans = revenue_1 + revenue_2 + revenue_3"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_1": ["num_digit_1 % 1 > 0"],
+        "num_digit_2": ["num_digit_2 % 1 > 0"],
+        "num_digit_3": ["num_digit_3 % 1 > 0"],
+        "num_digit_6": ["ans % 1 == 0"]
+    }
+}

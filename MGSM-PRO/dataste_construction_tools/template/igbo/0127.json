@@ -1,0 +1,8 @@
+{
+  "original_question": "Mgbe ọ gafechara n'ụlọ akwụkwọ ọhụrụ, Amy metara enyi iri abụọ karịa Lily. Ọ bụrụ na Lily metara enyi iri ise, enyi ole ka Lily na Amy nwekọrọ ọnụ?",
+  "original_answer": 120,
+  "symbolic_template": "Mgbe ọ gafechara n'ụlọ akwụkwọ ọhụrụ, {name_female_1, Amy} metara enyi {num_digit_1, 20} karịa {name_female_2, Lily}. Ọ bụrụ na {name_female_2, Lily} metara enyi {num_digit_2, 50}, enyi ole ka {name_female_2, Lily} na {name_female_1, Amy} nwekọrọ ọnụ?",
+  "ic_sentence_template": "Nwanne nne {name_female_2, Lily} nyere ya akwụkwọ mkpesa {num_ic, 42} dịka onyinye nnabata.",
+  "ic_template": "Nwanne nne {name_female_2, Lily} nyere ya akwụkwọ mkpesa {num_ic, 42} dịka onyinye nnabata. Mgbe ọ gafechara n'ụlọ akwụkwọ ọhụrụ, {name_female_1, Amy} metara enyi {num_digit_1, 20} karịa {name_female_2, Lily}. Ọ bụrụ na {name_female_2, Lily} metara enyi {num_digit_2, 50}, enyi ole ka {name_female_2, Lily} na {name_female_1, Amy} nwekọrọ ọnụ?",
+  "equation": "UPDATE HERE"
+}

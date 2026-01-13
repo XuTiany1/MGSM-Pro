@@ -1,0 +1,8 @@
+{
+  "original_question": "Miguel de nkrataa mmoano mmienu na ԑdwi wɔ nnawɔtwe bi mu. Sԑ nkrataa 30 na ԑwɔ nkrataa mmoano mu a, nkrataa sԑn na ɔde di dwuma bosome biara mu?",
+  "original_answer": 240,
+  "symbolic_template": "{name_male, Miguel} de nkrataa mmoano {num_digit_1, mmienu} na ԑdwi wɔ nnawɔtwe bi mu. Sԑ nkrataa {num_digit_2, 30} na ԑwɔ nkrataa mmoano mu a, nkrataa sԑn na ɔde di dwuma bosome biara mu?",
+  "ic_sentence_template": "{name_male, Miguel} wɔfa wɔ pɛnsere wɔde kɔla ayɛ {num_ic, 100} wɔ ne adwuma dan mu.",
+  "ic_template": "{name_male, Miguel} wɔfa wɔ pɛnsere wɔde kɔla ayɛ {num_ic, 100} wɔ ne adwuma dan mu. {name_male, Miguel} de nkrataa mmoano {num_digit_1, mmienu} na ԑdwi wɔ nnawɔtwe bi mu. Sԑ nkrataa {num_digit_2, 30} na ԑwɔ nkrataa mmoano mu a, nkrataa sԑn na ɔde di dwuma bosome biara mu?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Ọjọ́ orí Darrell àti Allen wà ní ìpín 7:11. Tí àpapọ̀ ọjọ́ orí wọn báyìí bá jẹ́ 162, ṣe ìṣirò ọjọ́ orí Allen ní ọdún 10 sí ìsínyìí.",
+  "original_answer": 109,
+  "symbolic_template": "Ọjọ́ orí {name_male_1, Darrell} àti {name_male_2, Allen} wà ní ìpín {num_digit_1, 7}:{num_digit_2, 11}. Tí àpapọ̀ ọjọ́ orí wọn báyìí bá jẹ́ {num_digit_3, 162}, ṣe ìṣirò ọjọ́ orí {name_male_2, Allen} ní ọdún {num_digit_4, 10} sí ìsínyìí.",
+  "ic_sentence_template": "Arákùnrin  {name_male_2, Allen} ṣẹ́ṣẹ̀ rà káàdì bọ́ọ̀lù afẹsẹ̀gba {num_ic, 64}.",
+  "ic_template": "Arákùnrin  {name_male_2, Allen} ṣẹ́ṣẹ̀ rà káàdì bọ́ọ̀lù afẹsẹ̀gba {num_ic, 64}. Ọjọ́ orí {name_male_1, Darrell} àti {name_male_2, Allen} wà ní ìpín {num_digit_1, 7}:{num_digit_2, 11}. Tí àpapọ̀ ọjọ́ orí wọn báyìí bá jẹ́ {num_digit_3, 162}, ṣe ìṣirò ọjọ́ orí {name_male_2, Allen} ní ọdún {num_digit_4, 10} sí ìsínyìí.",
+  "equation": "UPDATE HERE"
+}

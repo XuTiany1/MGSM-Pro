@@ -1,0 +1,8 @@
+{
+  "original_question": "セスはブルックの2倍年上です。2年後、彼らの年齢の合計は28になります。セスは何歳ですか？",
+  "original_answer": 16,
+  "symbolic_template": "{name_male, セス } は {name_female, ブルック} の2倍の年齢です。{num_digit_1, 2}年後、彼らの年齢の合計は {num_digit_2, 28} になります。{name_male, セス} は何歳ですか？",
+  "ic_sentence_template": "{name_male, セス}のおばはちょうど{num_ic, 17}枚の割引映画チケットを購入しました。",
+  "ic_template": "{name_male, セス}のおばはちょうど{num_ic, 17}枚の割引映画チケットを購入しました。{name_male, セス } は {name_female, ブルック} の2倍の年齢です。{num_digit_1, 2}年後、彼らの年齢の合計は {num_digit_2, 28} になります。{name_male, セス} は何歳ですか？",
+  "equation": "UPDATE HERE"
+}

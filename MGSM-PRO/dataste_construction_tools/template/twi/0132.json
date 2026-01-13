@@ -1,0 +1,8 @@
+{
+  "original_question": "Pam ne Fred kɔɔ afahyɛ bi. Pam kaa wiemhyɛn keteke mmienu bere a Fred kaa bi wɔ mpɛn ɛnan. Ɛno akyi no, wɔn mu biara sii gyinae sɛ wɔbɛtra hyɛn mmienu. Sɛ ka biara bo yɛ tekiti nsia a, tekiti dodoɔ ahe na wɔde dii adwuma saa da no?",
+  "original_answer": 60,
+  "symbolic_template": "{name_female, Pam} ne {name_male, Fred} kɔɔ afahyɛ bi. {name_female, Pam} kaa wiemhyɛn keteke {num_digit_1, mmienu} bere a {name_male, Fred} kaa bi wɔ mpɛn {num_digit_2, ɛnan}. Ɛno akyi no, wɔn mu biara sii gyinae sɛ wɔbɛtra hyɛn {num_digit_3, mmienu}. Sɛ ka biara bo yɛ tekiti {num_digit_4, nsia} a, tekiti dodoɔ ahe na wɔde dii adwuma saa da no?",
+  "ic_sentence_template": "{name_male, Fred} wͻfa no de balloon {num_ic, 42} baa apontow no ase.",
+  "ic_template": "{name_male, Fred} wͻfa no de balloon {num_ic, 42} baa apontow no ase. {name_female, Pam} ne {name_male, Fred} kɔɔ afahyɛ bi. {name_female, Pam} kaa wiemhyɛn keteke {num_digit_1, mmienu} bere a {name_male, Fred} kaa bi wɔ mpɛn {num_digit_2, ɛnan}. Ɛno akyi no, wɔn mu biara sii gyinae sɛ wɔbɛtra hyɛn {num_digit_3, mmienu}. Sɛ ka biara bo yɛ tekiti {num_digit_4, nsia} a, tekiti dodoɔ ahe na wɔde dii adwuma saa da no?",
+  "equation": "UPDATE HERE"
+}

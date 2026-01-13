@@ -1,0 +1,8 @@
+{
+  "original_question": "Kelian wɔ nnwoma mmienu a wɔhwԑ so de nua aduane, baako wɔ nkyerԑkyerԑ 20 na deԑ ԑtɔ so mmienu no wɔ nkyerԑkyerԑ mmɔho mmienu kyԑn deԑ ԑdi kan no. Nkyerԑkyerԑ dodoɔ sԑn na ԑwɔ sԑ Kelian kan ansa na w’atumi anoa aduane mmienu no?",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Kelian} wɔ nnwoma mmienu a wɔhwԑ so de nua aduane, baako wɔ nkyerԑkyerԑ {num_digit_1, 20} na deԑ ԑtɔ so mmienu no wɔ nkyerԑkyerԑ mmɔho mmienu kyԑn deԑ ԑdi kan no. Nkyerԑkyerԑ dodoɔ sԑn na ԑwɔ sԑ {name_male, Kelian} kan ansa na w’atumi anoa aduane mmienu no?",
+  "ic_sentence_template": "{name_male, Kelian} sewaa wɔ aduanenoa nwoma {num_ic, 77}.",
+  "ic_template": "{name_male, Kelian} sewaa wɔ aduanenoa nwoma {num_ic, 77}. {name_male, Kelian} wɔ nnwoma mmienu a wɔhwԑ so de nua aduane, baako wɔ nkyerԑkyerԑ {num_digit_1, 20} na deԑ ԑtɔ so mmienu no wɔ nkyerԑkyerԑ mmɔho mmienu kyԑn deԑ ԑdi kan no. Nkyerԑkyerԑ dodoɔ sԑn na ԑwɔ sԑ {name_male, Kelian} kan ansa na w’atumi anoa aduane mmienu no?",
+  "equation": "UPDATE HERE"
+}

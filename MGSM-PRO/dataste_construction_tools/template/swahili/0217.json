@@ -1,0 +1,8 @@
+{
+  "original_question": "Kuna waridi 4 katika chombo cha kuwekea maua. Kuna dalia 7 zaidi ya waridi katika chombo hicho. Kuna maua mangapi kwa jumla katika chombo hicho cha mua?",
+  "original_answer": 15,
+  "symbolic_template": "Kuna waridi {num_digit_1, 4} katika chombo cha kuwekea maua. Kuna dalia {num_digit_2, 7} zaidi ya waridi katika chombo hicho. Kuna maua mangapi kwa jumla katika chombo hicho cha mua?",
+  "ic_sentence_template": "Shangazi wa {name_female, Emily} anamiliki tulipu {num_ic, 1490} kwenye chumba chake cha makuzi.",
+  "ic_template": "Shangazi wa {name_female, Emily} anamiliki tulipu {num_ic, 1490} kwenye chumba chake cha makuzi. Kuna waridi {num_digit_1, 4} katika chombo cha kuwekea maua. Kuna dalia {num_digit_2, 7} zaidi ya waridi katika chombo hicho. Kuna maua mangapi kwa jumla katika chombo hicho cha mua?",
+  "equation": "UPDATE HERE"
+}

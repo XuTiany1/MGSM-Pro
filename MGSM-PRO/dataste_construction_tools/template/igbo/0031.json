@@ -1,0 +1,8 @@
+{
+  "original_question": "Gunter na-agbali ịgụ agwa jelii di n'ime ite ọnụ. Ọ jụrụ ndị enyi ya ole ha chere di n'ime ite ahụ. Otu onye kwuru iri asatọ. Onye ọzọ kwuo iri abụọ karịa ọkara nke mbụ. Onye nke atọ kwuo 25% karịa onye nke mbụu. Gini bụ nkezi echiche ha?",
+  "original_answer": 80,
+  "symbolic_template": "{name_male, Gunter} na-agbali ịgụ agwa jelii dị n'ime ite ọnụ. Ọ jụrụ ndị enyi ya ole ha chere dị n'ime ite ahụ. Otu onye kwuru {num_digit_1, 80}. Onye ọzọ kwuo {num_digit_2, 20} karịa ọkara nke mbụ. Onye nke atọ kwuo {num_digit_3, 25}% karịa onye nke mbụu. Gịnị bụ nkezi echiche ha?",
+  "ic_sentence_template": "Nwanne nna {name_male, Gunter} bịara otu oge na-eme emume na jiri jelly beans {num_ic, 392}.",
+  "ic_template": "Nwanne nna {name_male, Gunter} bịara otu oge na-eme emume na jiri jelly beans {num_ic, 392}. {name_male, Gunter} na-agbali ịgụ agwa jelii dị n'ime ite ọnụ. Ọ jụrụ ndị enyi ya ole ha chere dị n'ime ite ahụ. Otu onye kwuru {num_digit_1, 80}. Onye ọzọ kwuo {num_digit_2, 20} karịa ọkara nke mbụ. Onye nke atọ kwuo {num_digit_3, 25}% karịa onye nke mbụu. Gịnị bụ nkezi echiche ha?",
+  "equation": "UPDATE HERE"
+}

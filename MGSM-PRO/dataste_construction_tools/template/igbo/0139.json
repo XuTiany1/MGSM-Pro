@@ -1,0 +1,8 @@
+{
+  "original_question": "N'ime igwe kandi, enwere iri abụọ na abụọ karịa ugboro anọ ọnụ ọgụgụ gọmbọọlụ pịnkị dịka enwere gọmboolụ anụnụ anụnụ. Ọ bụrụ na enwere gọmbọọlụ anụnụ anụnụ iri na abụọ nke pịnkị ole di ebe ahụ?",
+  "original_answer": 70,
+  "symbolic_template": "N'ime igwe kandi, enwere {num_digit_1, 22} karịa ugboro anọ ọnụ ọgụgụ gọmbọọlụ pịnkị dịka enwere gọmboolụ anụnụ anụnụ. Ọ bụrụ na enwere gọmbọọlụ anụnụ anụnụ {num_digit_2, 12}, nke pịnkị ole di ebe ahụ?",
+  "ic_sentence_template": "Ụmụaka {num_ic, 147} kwụsịrị n’akụkụ igwe ahụ n’ụbọchị ahụ.",
+  "ic_template": "Ụmụaka {num_ic, 147} kwụsịrị n’akụkụ igwe ahụ n’ụbọchị ahụ. N'ime igwe kandi, enwere {num_digit_1, 22} karịa ugboro anọ ọnụ ọgụgụ gọmbọọlụ pịnkị dịka enwere gọmboolụ anụnụ anụnụ. Ọ bụrụ na enwere gọmbọọlụ anụnụ anụnụ {num_digit_2, 12}, nke pịnkị ole di ebe ahụ?",
+  "equation": "UPDATE HERE"
+}

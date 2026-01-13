@@ -1,0 +1,8 @@
+{
+  "original_question": "Uriah's book bag is getting too heavy for him. He needs to remove 15 pounds from it. His comic books weigh 1/4 pound each and his toys weigh 1/2 pound each. If he removes 30 comic books, how many toys does he need to remove?",
+  "original_answer": 15,
+  "symbolic_template": "{name_male, Uriah}'s book bag is getting too heavy for him. He needs to remove {num_digit_1, 15} pounds from it. His comic books weigh 1/4 pound each and his toys weigh 1/2 pound each. If he removes {num_digit_2, 30} comic books, how many toys does he need to remove?",
+  "ic_sentence_template": "{name_male, Uriah}'s aunt found {num_ic, 91} marbles in her attic.",
+  "ic_template": "{name_male, Uriah}'s book bag is getting too heavy for him. He needs to remove {num_digit_1, 15} pounds from it. His comic books weigh 1/4 pound each and his toys weigh 1/2 pound each. If he removes {num_digit_2, 30} comic books, {name_male, Uriah}'s aunt found {num_ic, 91} marbles in her attic. How many toys does he need to remove?",
+  "equation": "UPDATE HERE"
+}

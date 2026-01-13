@@ -1,0 +1,8 @@
+{
+  "original_question": "Carla ń ṣe ìgbàsílẹ̀ fáíli 200 GB. Lóòtọ́ ó lè ṣe ìgbàsílẹ̀ 2 GB/ní ìṣẹ́jú kan, ṣùgbọ́n 40% sínú ìgbàsílẹ̀ náà, Windows máa ń fi ipá ṣe àtúnbẹ́rẹ̀ láti ṣe ìsọdọ̀tun, tó máa ń gbà tó ìṣẹ́jú 20. Carla ní láti tún ìgbàsílẹ̀ náà bẹ̀rẹ̀ láti ìbẹ̀rẹ̀. Báwo ló ṣe pẹ́ tó láti ṣe ìgbàsílẹ̀ fáíli náà?",
+  "original_answer": 160,
+  "symbolic_template": "{name_female, Carla} ń ṣe ìgbàsílẹ̀ fáíli {num_digit_1, 200} GB. Lóòtọ́ ó lè ṣe ìgbàsílẹ̀ {num_digit_2, 2} GB/ní ìṣẹ́jú kan, ṣùgbọ́n {num_digit_3, 40}% sínú ìgbàsílẹ̀ náà, Windows máa ń fi ipá ṣe àtúnbẹ́rẹ̀ láti ṣe ìsọdọ̀tun, tó máa ń gbà tó ìṣẹ́jú {num_digit_4, 20}. {name_female, Carla} ní láti tún ìgbàsílẹ̀ náà bẹ̀rẹ̀ láti ìbẹ̀rẹ̀. Báwo ló ṣe pẹ́ tó láti ṣe ìgbàsílẹ̀ fáíli náà?",
+  "ic_sentence_template": "Arákùnrin {name_female, Carla} ra àwọn apá kọ̀mùpútà tuntun {num_ic, 110} laipẹ́ yìí.",
+  "ic_template": "Arákùnrin {name_female, Carla} ra àwọn apá kọ̀mùpútà tuntun {num_ic, 110} laipẹ́ yìí. {name_female, Carla} ń ṣe ìgbàsílẹ̀ fáíli {num_digit_1, 200} GB. Lóòtọ́ ó lè ṣe ìgbàsílẹ̀ {num_digit_2, 2} GB/ní ìṣẹ́jú kan, ṣùgbọ́n {num_digit_3, 40}% sínú ìgbàsílẹ̀ náà, Windows máa ń fi ipá ṣe àtúnbẹ́rẹ̀ láti ṣe ìsọdọ̀tun, tó máa ń gbà tó ìṣẹ́jú {num_digit_4, 20}. {name_female, Carla} ní láti tún ìgbàsílẹ̀ náà bẹ̀rẹ̀ láti ìbẹ̀rẹ̀. Báwo ló ṣe pẹ́ tó láti ṣe ìgbàsílẹ̀ fáíli náà?",
+  "equation": "UPDATE HERE"
+}

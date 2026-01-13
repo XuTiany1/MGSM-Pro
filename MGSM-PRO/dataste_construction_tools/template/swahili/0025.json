@@ -1,0 +1,8 @@
+{
+  "original_question": "Marie aliagiza chakula kimoja cha kuku kinachogharimu $12, pakiti 5 za maziwa zinazogharimu $3 kila moja, tufaha 4 zinazogharimu $1.50 kila moja, na maboksi mengine ya pizza. Marie alilipa jumla ya $50. Marie aliagiza maboksi mangapi ya pizza ikiwa kila boksi linagharimu $8.50?",
+  "original_answer": 2,
+  "symbolic_template": "{name_female, Marie} aliagiza chakula kimoja cha kuku kinachogharimu ${num_digit_1, 12}, pakiti {num_digit_2, 5} za maziwa zinazogharimu ${num_digit_3, 3} kila moja, tufaha {num_digit_4, 4} zinazogharimu ${num_digit_5, 1.50} kila moja, na maboksi mengine ya pizza. {name_female, Marie} alilipa jumla ya ${num_digit_6, 50}. {name_female, Marie} aliagiza maboksi mangapi ya pizza ikiwa kila boksi linagharimu ${num_digit_7, 8.50}?",
+  "ic_sentence_template": "Binamu wa {name_female, Marie} alinunua hivi karibuni keki za vikombe {num_ic, 128}.",
+  "ic_template": "{name_female, Marie} aliagiza chakula kimoja cha kuku kinachogharimu ${num_digit_1, 12}, pakiti {num_digit_2, 5} za maziwa zinazogharimu ${num_digit_3, 3} kila moja, tufaha {num_digit_4, 4} zinazogharimu ${num_digit_5, 1.50} kila moja, na maboksi mengine ya pizza. {name_female, Marie} alilipa jumla ya ${num_digit_6, 50}. Binamu wa {name_female, Marie} alinunua hivi karibuni keki za vikombe {num_ic, 128}. {name_female, Marie} aliagiza maboksi mangapi ya pizza ikiwa kila boksi linagharimu ${num_digit_7, 8.50}?",
+  "equation": "UPDATE HERE"
+}

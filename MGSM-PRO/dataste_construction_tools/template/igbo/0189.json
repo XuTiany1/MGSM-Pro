@@ -1,0 +1,8 @@
+{
+  "original_question": "Enyi atọ mefuru $20.25 na tikeeti atọ maka ngosi ahụ. Ha mefukwara $4.50 pekarịa na nri karịa na tikeeti. Ha gakwara ihe ọnyịnya abụọ dị iche iche nke riri ha $33 maka ịnya ihe ọ bụla. Ọ bụrụ na ha kpebiri ikewa ọnụ ego niile ahụ nhatanha, ego ole ka onye ọ bụla kwụrụ?",
+  "original_answer": 34,
+  "symbolic_template": "Enyi atọ mefuru ${num_digit_1, 20.25} na tikeeti {num_digit_2, 3} maka ngosi ahụ. Ha mefukwara ${num_digit_3, 4.50} pekarịa na nri karịa na tikeeti. Ha gakwara ihe ọnyịnya {num_digit_4, 2} dị iche iche nke riri ha ${num_digit_5, 33} maka ịnya ihe ọ bụla. Ọ bụrụ na ha kpebiri ikewa ọnụ ego niile ahụ nhatanha, ego ole ka onye ọ bụla kwụrụ?",
+  "ic_sentence_template": "Otu n’ime nwanne nna ha zụtara tiketi raffle {num_ic, 148} na mmemme ahụ.",
+  "ic_template": "Otu n’ime nwanne nna ha zụtara tiketi raffle {num_ic, 148} na mmemme ahụ. Enyi atọ mefuru ${num_digit_1, 20.25} na tikeeti {num_digit_2, 3} maka ngosi ahụ. Ha mefukwara ${num_digit_3, 4.50} pekarịa na nri karịa na tikeeti. Ha gakwara ihe ọnyịnya {num_digit_4, 2} dị iche iche nke riri ha ${num_digit_5, 33} maka ịnya ihe ọ bụla. Ọ bụrụ na ha kpebiri ikewa ọnụ ego niile ahụ nhatanha, ego ole ka onye ọ bụla kwụrụ?",
+  "equation": "UPDATE HERE"
+}

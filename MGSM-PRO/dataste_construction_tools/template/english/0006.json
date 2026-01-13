@@ -1,0 +1,8 @@
+{
+  "original_question": "Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep?",
+  "original_answer": 260,
+  "symbolic_template": "{name_city_1, Toulouse} has twice as many sheep as {name_city_2, Charleston}. {name_city_2, Charleston} has {num_digit_1, 4} times as many sheep as {name_city_3, Seattle}. How many sheep do {name_city_1, Toulouse}, {name_city_2, Charleston}, and {name_city_3, Seattle} have together if {name_city_3, Seattle} has {num_digit_2, 20} sheep?",
+  "ic_sentence_template": "{name_city_2, Charleston}'s nearby town raises {num_ic, 41} goats nearby.",
+  "ic_template": "{name_city_1, Toulouse} has twice as many sheep as {name_city_2, Charleston}. {name_city_2, Charleston} has {num_digit_1, 4} times as many sheep as {name_city_3, Seattle}. {name_city_2, Charleston}'s nearby town raises {num_ic, 41} goats nearby.  How many sheep do {name_city_1, Toulouse}, {name_city_2, Charleston}, and {name_city_3, Seattle} have together if {name_city_3, Seattle} has {num_digit_2, 20} sheep?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Henry anatengeneza biskuti kwa ajili ya shindano la ndani ya kuoka. Anataka kutengeneza mara mbili zaidi ya alizotengeneza mwaka jana. Akikamilisha kuoka, anagundua kuwa alioka biskuti 15 zaidi ya alivyotarajia. Biskuti 5 zilianguka alipokuwa akiziweka ili zipoe, na sasa ana jumla ya biskuti 110. Henry alioka biskuti ngapi mwaka jana?",
+  "original_answer": 50,
+  "symbolic_template": "{name_male, Henry} anatengeneza biskuti kwa ajili ya shindano la upishi la eneo. Anataka kutengeneza mara mbili ya alivyotengeneza mwaka jana. Alipomaliza kupika, aligundua kuwa alitengeneza biskuti {num_digit_1, 15} zaidi ya alivyokusudia. Aliangusha biskuti {num_digit_2, 5} alipokuwa anazipanga zipowe, na sasa amebakisha jumla ya biskuti {num_digit_3, 110}. {name_male, Henry} alitengeneza biskuti ngapi mwaka jana?",
+  "ic_sentence_template": "Mjomba wa {name_male, Henry} alinunua mafini {num_ic, 99} kutoka kwenye duka la mikate lililo karibu.",
+  "ic_template": "Mjomba wa {name_male, Henry} alinunua mafini {num_ic, 99} kutoka kwenye duka la mikate lililo karibu. {name_male, Henry} anatengeneza biskuti kwa ajili ya shindano la upishi la eneo. Anataka kutengeneza mara mbili ya alivyotengeneza mwaka jana. Alipomaliza kupika, aligundua kuwa alitengeneza biskuti {num_digit_1, 15} zaidi ya alivyokusudia. Aliangusha biskuti {num_digit_2, 5} alipokuwa anazipanga zipowe, na sasa amebakisha jumla ya biskuti {num_digit_3, 110}. {name_male, Henry} alitengeneza biskuti ngapi mwaka jana?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Christina organise une fête d'anniversaire et demande 0,75 sac cadeau par invité, vu que 1/4 des invités ne se présentent pas. Sachant qu'elle a invité 16 amis et que les sacs cadeaux coûtent 2 $ chacun, combien va-t-elle dépenser ?",
+  "original_answer": 24,
+  "symbolic_template": "{name_female, Christina} organise une fête d'anniversaire et demande {num_digit_1, 0,75} sac cadeau par invité, vu que 1/4 des invités ne se présentent pas. Sachant qu'elle a invité {num_digit_2, 16} amis et que les sacs cadeaux coûtent {num_digit_3, 2} $ chacun, combien va-t-elle dépenser ?",
+  "ic_sentence_template": "{name_female, Christina} a reçu {num_ic, 89} cupcakes de la part de sa tante pour la fête.",
+  "ic_template": "{name_female, Christina} a reçu {num_ic, 89} cupcakes de la part de sa tante pour la fête. {name_female, Christina} organise une fête d'anniversaire et demande {num_digit_1, 0,75} sac cadeau par invité, vu que 1/4 des invités ne se présentent pas. Sachant qu'elle a invité {num_digit_2, 16} amis et que les sacs cadeaux coûtent {num_digit_3, 2} $ chacun, combien va-t-elle dépenser ?",
+  "equation": "UPDATE HERE"
+}

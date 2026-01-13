@@ -1,0 +1,8 @@
+{
+  "original_question": "N'ime ụlọ, e nwere ihe egwuregwu dị iche iche: ụgbọ ala n'acha ọbara ọbara ose, fịgọ atọ, na nwa bebi. Nwa bebi ahụ na-eri ọtụtụ ego ka fịgọ atọ na otu ụgbọ ala ọbara ọbara na-ada $4. Ego ole ka ihe egwuregwu ụmụntakịrị niile pụtara, ọ bụrụ na fịgọ pụtara $5?",
+  "original_answer": 50,
+  "symbolic_template": "N'ime ụlọ, e nwere ihe egwuregwu dị iche iche: ụgbọ ala n'acha ọbara ọbara {num_digit_1, 5}, fịgọ {num_digit_2, 3}, na nwa bebi. Nwa bebi ahụ na-eri ọtụtụ ego ka fịgọ {num_digit_3, 3} na otu ụgbọ ala ọbara ọbara na-ada ${num_digit_4, 4}. Ego ole ka ihe egwuregwu ụmụntakịrị niile pụtara, ọ bụrụ na fịgọ pụtara ${num_digit_5, 5}?",
+  "ic_sentence_template": "Nwa nwanne nna {name_male, Billy} nwere ụkọchukwu ụmụ bea {num_ic, 31}.",
+  "ic_template": "Nwa nwanne nna {name_male, Billy} nwere ụkọchukwu ụmụ bea {num_ic, 31}. N'ime ụlọ, e nwere ihe egwuregwu dị iche iche: ụgbọ ala n'acha ọbara ọbara {num_digit_1, 5}, fịgọ {num_digit_2, 3}, na nwa bebi. Nwa bebi ahụ na-eri ọtụtụ ego ka fịgọ {num_digit_3, 3} na otu ụgbọ ala ọbara ọbara na-ada ${num_digit_4, 4}. Ego ole ka ihe egwuregwu ụmụntakịrị niile pụtara, ọ bụrụ na fịgọ pụtara ${num_digit_5, 5}?",
+  "equation": "UPDATE HERE"
+}

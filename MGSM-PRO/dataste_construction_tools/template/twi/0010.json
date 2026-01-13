@@ -1,0 +1,8 @@
+{
+  "original_question": "Wɔtwe dwumadie bi firi abԑԑfo ntontan so mprԑ dodoɔ 60 wɔ bosome a ԑdi kan no mu. Mprԑ dodoɔ a ɔtweeԑ wɔ bosome a ԑtɔ so mmienu no mu no yԑ mprԑ mmɔho mmiԑnsa kyԑn deԑ ɔtwee no wɔ bosome a ԑdi kan no mu, na ԑbaa fam 30% wɔ bosome a ԑtɔ so mmiԑnsa no mu. Mprԑ dodoɔ sԑn na wɔtwee dwumadie no wɔ bosome mmiԑnsa no nyinaa mu?",
+  "original_answer": 366,
+  "symbolic_template": "Wɔtwe dwumadie bi firi abԑԑfo ntontan so mprԑ dodoɔ {num_digit_1, 60} wɔ bosome a ԑdi kan no mu. Mprԑ dodoɔ a ɔtweeԑ wɔ bosome a ԑtɔ so mmienu no mu no yԑ mprԑ mmɔho mmiɛnsa kyԑn deԑ ɔtwee no wɔ bosome a ԑdi kan no mu, na ԑbaa fam {num_digit_2, 30}% wɔ bosome a ԑtɔ so mmiɛnsa no mu. Mprԑ dodoɔ sԑn na wɔtwee dwumadie no wɔ bosome mmiɛnsa no nyinaa mu?",
+  "ic_sentence_template": "Developer no wɔfa sii kɔmputa pon {num_ic, 413} maa adwumakuw no.",
+  "ic_template": "Developer no wɔfa sii kɔmputa pon {num_ic, 413} maa adwumakuw no. Wɔtwe dwumadie bi firi abԑԑfo ntontan so mprԑ dodoɔ {num_digit_1, 60} wɔ bosome a ԑdi kan no mu. Mprԑ dodoɔ a ɔtweeԑ wɔ bosome a ԑtɔ so mmienu no mu no yԑ mprԑ mmɔho mmiɛnsa kyԑn deԑ ɔtwee no wɔ bosome a ԑdi kan no mu, na ԑbaa fam {num_digit_2, 30}% wɔ bosome a ԑtɔ so mmiɛnsa no mu. Mprԑ dodoɔ sԑn na wɔtwee dwumadie no wɔ bosome mmiɛnsa no nyinaa mu?",
+  "equation": "UPDATE HERE"
+}

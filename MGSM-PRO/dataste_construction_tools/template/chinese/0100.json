@@ -1,0 +1,8 @@
+{
+  "original_question": "杰罗姆有 4 个朋友，他们在某一天来拜访他。在杰罗姆开门前，第一位朋友按了 20 次门铃，第二位朋友比杰罗姆的第一位朋友多按了 1/4 次门铃。第三位朋友比第四位朋友多按了 10 次门铃。如果第四位朋友按了 60 次门铃，门铃响了几次？",
+  "original_answer": 175,
+  "symbolic_template": "{name_male, 杰罗姆} 有 {num_digit_1, 4} 个朋友，他们在某一天来拜访他。在 {name_male, 杰罗姆} 开门前，第一位朋友按了 {num_digit_2, 20} 次门铃，第二位朋友比 {name_male, 杰罗姆} 的第一位朋友多按了 1/4 次门铃。第三位朋友比第四位朋友多按了 {num_digit_3, 10} 次门铃。如果第四位朋友按了 {num_digit_4, 60} 次门铃，门铃响了几次？",
+  "ic_sentence_template": "{name_male, 杰罗姆}的叔叔曾经买过 {num_ic, 136} 张明信片作为纪念品。",
+  "ic_template": "{name_male, 杰罗姆}的叔叔曾经买过 {num_ic, 136} 张明信片作为纪念品。{name_male, 杰罗姆} 有 {num_digit_1, 4} 个朋友，他们在某一天来拜访他。在 {name_male, 杰罗姆} 开门前，第一位朋友按了 {num_digit_2, 20} 次门铃，第二位朋友比 {name_male, 杰罗姆} 的第一位朋友多按了 1/4 次门铃。第三位朋友比第四位朋友多按了 {num_digit_3, 10} 次门铃。如果第四位朋友按了 {num_digit_4, 60} 次门铃，门铃响了几次？",
+  "equation": "UPDATE HERE"
+}

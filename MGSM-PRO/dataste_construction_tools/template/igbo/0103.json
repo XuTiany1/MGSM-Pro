@@ -1,0 +1,8 @@
+{
+  "original_question": "Otu fọọgu na-erubata site n'elu osimiri wee kpuchie obodo. Ọ na ewe nkeji iri ịkpuchi mailụ atọ ọbụla n'obodo ahụ. Ọ bụrụ na obodo ahụ dị mailụ iri anọ na abụọ n'ngafe osimiri ahụ site n'ihu oke osimiri ruo n'akụkụ nke ọzọ, nkeji ole ka owere fọọgu ahụ iji kpuchie obodo ahụ niile?",
+  "original_answer": 140,
+  "symbolic_template": "Otu fọọgu na-erubata site n'elu osimiri wee kpuchie obodo. Ọ na-ewe nkeji {num_digit_1, 10} ịkpuchi mailụ {num_digit_2, 3} ọbụla n'obodo ahụ. Ọ bụrụ na obodo ahụ dị mailụ {num_digit_3, 42} n’ngafe osimiri ahụ site n'ihu oke osimiri ruo n'akụkụ nke ọzọ, nkeji ole ka owere fọọgu ahụ iji kpuchie obodo ahụ niile?",
+  "ic_sentence_template": "Nwanne nna {name_male, Billy} hụrụ ụgbọ mmiri na-eji ọkpọkọ {num_ic, 96} na-apụ n'ọdụ ụgbọ mmiri ụtụtụ ahụ.",
+  "ic_template": "Nwanne nna {name_male, Billy} hụrụ ụgbọ mmiri na-eji ọkpọkọ {num_ic, 96} na-apụ n'ọdụ ụgbọ mmiri ụtụtụ ahụ. Otu fọọgu na-erubata site n'elu osimiri wee kpuchie obodo. Ọ na-ewe nkeji {num_digit_1, 10} ịkpuchi mailụ {num_digit_2, 3} ọbụla n'obodo ahụ. Ọ bụrụ na obodo ahụ dị mailụ {num_digit_3, 42} n’ngafe osimiri ahụ site n'ihu oke osimiri ruo n'akụkụ nke ọzọ, nkeji ole ka owere fọọgu ahụ iji kpuchie obodo ahụ niile?",
+  "equation": "UPDATE HERE"
+}

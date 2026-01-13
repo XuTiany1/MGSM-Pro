@@ -1,0 +1,8 @@
+{
+  "original_question": "Dịka ozi ihe nenye ihe n'ahụ, otu akpa chiipsi nwere kalori nari abụọ na iri ise kwa nbunye. Ọ bụrụ na akpa 300g nwere nbunye ise, grams ole ka ị ga-eri ma ọbụrụ na kalori nlekwasi anya gi kwa ụbọchị bụ puku abụọ ma ị riela kalori otu puku nari iri asatọ?",
+  "original_answer": 48,
+  "symbolic_template": "Dịka ozi ihe nenye ihe n'ahụ, otu akpa chiipsi nwere kalori {num_digit_1, 250} kwa nbunye. Ọ bụrụ na akpa {num_digit_2, 300}g nwere nbunye {num_digit_3, 5}, grams ole ka ị ga-eri ma ọbụrụ na kalori nlekwasi anya gi kwa ụbọchị bụ {num_digit_4, 2000} ma ị riela kalori {num_digit_5, 1800}?",
+  "ic_sentence_template": "Nwanne nna {name_male, Alex} zụtara akpa kọlị {num_ic, 47} maka mmemme.",
+  "ic_template": "Nwanne nna {name_male, Alex} zụtara akpa kọlị {num_ic, 47} maka mmemme. Dịka ozi ihe nenye ihe n'ahụ, otu akpa chiipsi nwere kalori {num_digit_1, 250} kwa nbunye. Ọ bụrụ na akpa {num_digit_2, 300}g nwere nbunye {num_digit_3, 5}, grams ole ka ị ga-eri ma ọbụrụ na kalori nlekwasi anya gi kwa ụbọchị bụ {num_digit_4, 2000} ma ị riela kalori {num_digit_5, 1800}?",
+  "equation": "UPDATE HERE"
+}

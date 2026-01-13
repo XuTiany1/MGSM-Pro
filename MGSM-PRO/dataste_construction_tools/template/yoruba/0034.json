@@ -1,0 +1,8 @@
+{
+  "original_question": "Siobhan ní òkúta iyebíye tó fi 2 kéré sí ti Aaron. Aaron ní òkúta iyebíye 5 ju ààbọ̀ òkúta iyebíye Raymond lọ. Tí Raymond bá ní òkúta iyebíye 40, òkúta iyebíye mélòó ní Siobhan ní?",
+  "original_answer": 23,
+  "symbolic_template": "{name_male_1, Siobhan} ní òkúta iyebíye tó fi {num_digit_1, 2} kéré sí ti Aaron. Aaron ní òkúta iyebíye {num_digit_2, 5} ju ààbọ̀ òkúta iyebíye Raymond lọ. Tí Raymond bá ní òkúta iyebíye {num_digit_3, 40}, òkúta iyebíye mélòó ní Siobhan ní?",
+  "ic_sentence_template": "Ẹ̀gbọ́n {name_male_2, Aaron} kan fi bọ́ọ̀lù ọgẹ̀dẹ̀ {num_ic, 341} fún un lẹ́ẹ̀kan.",
+  "ic_template": "Ẹ̀gbọ́n {name_male_2, Aaron} kan fi bọ́ọ̀lù ọgẹ̀dẹ̀ {num_ic, 341} fún un lẹ́ẹ̀kan. {name_male_1, Siobhan} ní òkúta iyebíye tó fi {num_digit_1, 2} kéré sí ti Aaron. Aaron ní òkúta iyebíye {num_digit_2, 5} ju ààbọ̀ òkúta iyebíye Raymond lọ. Tí Raymond bá ní òkúta iyebíye {num_digit_3, 40}, òkúta iyebíye mélòó ní Siobhan ní?",
+  "equation": "UPDATE HERE"
+}

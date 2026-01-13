@@ -1,0 +1,8 @@
+{
+  "original_question": "John adopts a dog. He takes the dog to the groomer, which costs $100. The groomer offers him a 30% discount for being a new customer. How much does the grooming cost?",
+  "original_answer": 70,
+  "symbolic_template": "{name_male, John} adopts a dog. He takes the dog to the groomer, which costs ${num_digit_1, 100}. The groomer offers him a {num_digit_2, 30}% discount for being a new customer. How much does the grooming cost?",
+  "ic_sentence_template": "{name_male, John's} uncle has {num_ic, 13} cats.",
+  "ic_template": "{name_male, John} adopts a dog. He takes the dog to the groomer, which costs ${num_digit_1, 100}. The groomer offers him a {num_digit_2, 30}% discount for being a new customer. {name_male, John's} uncle has {num_ic, 13} cats. How much does the grooming cost?",
+  "equation": "UPDATE HERE"
+}

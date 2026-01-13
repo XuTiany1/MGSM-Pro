@@ -1,0 +1,8 @@
+{
+  "original_question": "Bailley ji ụfọdụ ego were malite. Mgbe ahụ ọ na-anata ụgwọ $5 n'izu maka izu ụka asatọ. Na ngwụcha izu ụka asatọ, ọ bụrụ na o nwere ngụkọta $100, ego ole ka Bailey jiri malite?",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Bailey} ji ụfọdụ ego were malite. Mgbe ahụ ọ na-anata ụgwọ ${num_digit_1, 5} n'izu maka izu ụka {num_digit_2, 8}. Na ngwụcha izu ụka {num_digit_2, 8}, ọ bụrụ na o nwere ngụkọta ${num_digit_3, 100}, ego ole ka {name_male, Bailey} jiri malite?",
+  "ic_sentence_template": "Nwanne nne {name_male, Bailey} kpọkọtara mkpụrụ ego dị iche iche ruru {num_ic, 56} otu oge.",
+  "ic_template": "Nwanne nne {name_male, Bailey} kpọkọtara mkpụrụ ego dị iche iche ruru {num_ic, 56} otu oge. {name_male, Bailey} ji ụfọdụ ego were malite. Mgbe ahụ ọ na-anata ụgwọ ${num_digit_1, 5} n'izu maka izu ụka {num_digit_2, 8}. Na ngwụcha izu ụka {num_digit_2, 8}, ọ bụrụ na o nwere ngụkọta ${num_digit_3, 100}, ego ole ka {name_male, Bailey} jiri malite?",
+  "equation": "UPDATE HERE"
+}

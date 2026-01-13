@@ -1,0 +1,8 @@
+{
+  "original_question": "Toulouse a deux fois plus de moutons que Charleston. Charleston en a 4 fois plus que Seattle. Si Seattle a 20 moutons, combien de moutons Toulouse, Charleston et Seattle ont-ils au total ?",
+  "original_answer": 260,
+  "symbolic_template": "{name_city_1, Toulouse} a deux fois plus de moutons que {name_city_2, Charleston}. {name_city_2, Charleston} en a {num_digit_1, 4} fois plus que {name_city_3, Seattle}. Si {name_city_3, Seattle} a {num_digit_2, 20} moutons, combien de moutons {name_city_1, Toulouse}, {name_city_2, Charleston} et {name_city_3, Seattle} ont-ils au total ?",
+  "ic_sentence_template": "{name_city_2, Charleston} a une ville voisine qui élève {num_ic, 41} chèvres à proximité.",
+  "ic_template": "{name_city_2, Charleston} a une ville voisine qui élève {num_ic, 41} chèvres à proximité. {name_city_1, Toulouse} a deux fois plus de moutons que {name_city_2, Charleston}. {name_city_2, Charleston} en a {num_digit_1, 4} fois plus que {name_city_3, Seattle}. Si {name_city_3, Seattle} a {num_digit_2, 20} moutons, combien de moutons {name_city_1, Toulouse}, {name_city_2, Charleston} et {name_city_3, Seattle} ont-ils au total ?",
+  "equation": "UPDATE HERE"
+}

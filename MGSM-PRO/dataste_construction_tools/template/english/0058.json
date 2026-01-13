@@ -1,0 +1,8 @@
+{
+  "original_question": "Stephen placed an online order for groceries. His final bill came to $40.00. Because this was through a delivery vendor, they tacked on a 25% fee to his final total and charged him $3.00 in delivery fees. Stephen also added a $4.00 tip. After the extra fees, what was the final price of Stephen's groceries?",
+  "original_answer": 57,
+  "symbolic_template": "{name_male, Stephen} placed an online order for groceries. His final bill came to ${num_digit_1, 40.00}. Because this was through a delivery vendor, they tacked on a {num_digit_2, 25}% fee to his final total and charged him ${num_digit_3, 3.00} in delivery fees. {name_male, Stephen} also added a ${num_digit_4, 4.00} tip. After the extra fees, what was the final price of {name_male, Stephen}'s groceries?",
+  "ic_sentence_template": "{name_male, Stephen}'s aunt bought {num_ic, 41} bananas yesterday.",
+  "ic_template": "{name_male, Stephen} placed an online order for groceries. His final bill came to ${num_digit_1, 40.00}. Because this was through a delivery vendor, they tacked on a {num_digit_2, 25}% fee to his final total and charged him ${num_digit_3, 3.00} in delivery fees. {name_male, Stephen} also added a ${num_digit_4, 4.00} tip. {name_male, Stephen}'s aunt bought {num_ic, 41} bananas yesterday. After the extra fees, what was the final price of {name_male, Stephen}'s groceries?",
+  "equation": "UPDATE HERE"
+}

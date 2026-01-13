@@ -1,0 +1,8 @@
+{
+  "original_question": "Jackie bɔɔ mmɔden sɛ obesi gyinae sɛ ɔnoa ankasa bɛhwɛ ne ɛtoɔ so anaasɛ ɔbɛfa nkontabufoni. Sɛ ɔno ankasa etua ne ɛtoɔ a, obetumi de nnɔnhwere 3 aka adwuma a ɔnoa ankasa yɛ ho, na odi nkoguo $35/nhwere wɔ sika a onnya ye. Nkontabufoɔ no gye $90. Sɛ ɔfa no a, sika ahe na obenya?",
+  "original_answer": 15,
+  "symbolic_template": "{name_female, Jackie} bɔɔ mmɔden sɛ obesi gyinae sɛ ɔnoa ankasa bɛhwɛ ne ɛtoɔ so anaasɛ ɔbɛfa nkontabufoni. Sɛ ɔno ankasa etua ne ɛtoɔ a, obetumi de nnɔnhwere {num_digit_1, 3} aka adwuma a ɔnoa ankasa yɛ ho, na odi nkoguo ${num_digit_2, 35}/nhwere wɔ sika a onnya ye. Nkontabufoɔ no gye ${num_digit_3, 90}. Sɛ ɔfa no a, sika ahe na obenya?",
+  "ic_sentence_template": "{name_female, Jackie} wɔfa tɔɔ towtua ho ka nwoma {num_ic, 97} nnansa yi ara.",
+  "ic_template": "{name_female, Jackie} wɔfa tɔɔ towtua ho ka nwoma {num_ic, 97} nnansa yi ara. {name_female, Jackie} bɔɔ mmɔden sɛ obesi gyinae sɛ ɔnoa ankasa bɛhwɛ ne ɛtoɔ so anaasɛ ɔbɛfa nkontabufoni. Sɛ ɔno ankasa etua ne ɛtoɔ a, obetumi de nnɔnhwere {num_digit_1, 3} aka adwuma a ɔnoa ankasa yɛ ho, na odi nkoguo ${num_digit_2, 35}/nhwere wɔ sika a onnya ye. Nkontabufoɔ no gye ${num_digit_3, 90}. Sɛ ɔfa no a, sika ahe na obenya?",
+  "equation": "UPDATE HERE"
+}

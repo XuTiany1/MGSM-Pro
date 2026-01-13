@@ -1,0 +1,8 @@
+{
+  "original_question": "Raphael alienda kununua baadhi ya vifaa vya shule. Alinunua kalamu 4 kwa bei ya $1.5 kila moja, vitabu 2 vya kuandikia kwa bei ya $4 kila kimoja, na mrundo wa karatasi kwa bei ya $20. Raphael alitumia pesa ngapi kwa kila kitu?",
+  "original_answer": 34,
+  "symbolic_template": "{name_male, Raphael} alienda kununua vifaa vya shule. Alinunua kalamu {num_digit_1, 4} zinazogharimu ${num_digit_2, 1.5} kila moja, daftari {num_digit_3, 2} zinazogharimu ${num_digit_4, 4} kila moja, na rim moja ya karatasi inayogharimu ${num_digit_5, 20}. {name_male, Raphael} alitumia kiasi gani kwa jumla?",
+  "ic_sentence_template": "Mjomba wa {name_male, Raphael} alileta masanduku ya rangi {num_ic, 19} wiki iliyopita.",
+  "ic_template": "Mjomba wa {name_male, Raphael} alileta masanduku ya rangi {num_ic, 19} wiki iliyopita. {name_male, Raphael} alienda kununua vifaa vya shule. Alinunua kalamu {num_digit_1, 4} zinazogharimu ${num_digit_2, 1.5} kila moja, daftari {num_digit_3, 2} zinazogharimu ${num_digit_4, 4} kila moja, na rim moja ya karatasi inayogharimu ${num_digit_5, 20}. {name_male, Raphael} alitumia kiasi gani kwa jumla?",
+  "equation": "UPDATE HERE"
+}

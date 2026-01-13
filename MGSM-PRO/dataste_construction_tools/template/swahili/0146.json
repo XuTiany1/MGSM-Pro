@@ -1,0 +1,8 @@
+{
+  "original_question": "Johnny anaokota wanasesere kwenye sakafu ya chumba chake. Alikuwa ametupa boksi la lego lenye vipande 500 kwenye sakafu, na lingine lililokuwa na vipande mara 3 zaidi ya lile lenye vipande 500, na lingine lililokuwa na 1/4 ya idadi ya vipande. Johnny ataokota vipande vingapi iwapo ataokota lego zote?",
+  "original_answer": 2125,
+  "symbolic_template": "{name_male, Johnny} anakusanya vinyago vya watoto vilivyokuwa sakafuni chumbani kwake. Alimwaga seti moja ya legos yenye vipande {num_digit_1, 500} sakafuni, na nyingine yenye vipande mara {num_digit_2, 3} zaidi ya ile yenye vipande {num_digit_1, 500}, na nyingine yenye 1/4 ya idadi ya vipande. {name_male, Johnny} anakusanya vipande vingapi ikiwa atakusanya legos zote?",
+  "ic_sentence_template": "Mjomba wa {name_male, Johnny} hivi karibuni alitengeneza mfano wa meli kwa kutumia vipande vidogo vya mbao {num_ic, 318}.",
+  "ic_template": "Mjomba wa {name_male, Johnny} hivi karibuni alitengeneza mfano wa meli kwa kutumia vipande vidogo vya mbao {num_ic, 318}. {name_male, Johnny} anakusanya vinyago vya watoto vilivyokuwa sakafuni chumbani kwake. Alimwaga seti moja ya legos yenye vipande {num_digit_1, 500} sakafuni, na nyingine yenye vipande mara {num_digit_2, 3} zaidi ya ile yenye vipande {num_digit_1, 500}, na nyingine yenye 1/4 ya idadi ya vipande. {name_male, Johnny} anakusanya vipande vingapi ikiwa atakusanya legos zote?",
+  "equation": "UPDATE HERE"
+}

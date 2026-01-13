@@ -1,0 +1,8 @@
+{
+  "original_question": "Henry ԑԑyԑ nkrakase ama paanotoɔ akansie a ԑԑkɔso wɔ ne kurom. Ͻpԑ sԑ ɔyԑ mmɔho mmienu kyԑn deԑ ɔyԑԑ no afe deda no mu. Sԑ ɔto paano no wie a, n’adwene baa so sԑ ɔtoo paano 15 kyԑn deԑ ɔyԑԑ n’adwene sԑ ɔbԑyԑ no. Ͻdeesi hɔ ama n’adwo no ԑmu 5 tɔɔ fam enti seesei ɔwɔ nkrakase 110. Nkrakase sԑn na Henry tɔɔԑ afe a atwa mu no?",
+  "original_answer": 50,
+  "symbolic_template": "{name_male, Henry} ԑԑyԑ nkrakase ama paanotoɔ akansie a ԑԑkɔso wɔ ne kurom. Ͻpԑ sԑ ɔyԑ mmɔho mmienu kyԑn deԑ ɔyԑԑ no afe deda no mu. Sԑ ɔto paano no wie a, n’adwene baa so sԑ ɔtoo paano {num_digit_1, 15} kyԑn deԑ ɔyԑԑ n’adwene sԑ ɔbԑyԑ no. Ͻdeesi hɔ ama n’adwo no ԑmu {num_digit_2, 5} tɔɔ fam enti seesei ɔwɔ nkrakase {num_digit_3, 110}. Nkrakase sԑn na {name_male, Henry} tɔɔԑ afe a atwa mu no?",
+  "ic_sentence_template": "{name_male, Henry} wɔfa tɔɔ muffin {num_ic, 99} firii fonoo teneabea a ɛbɛn wɔn no.",
+  "ic_template": "{name_male, Henry} wɔfa tɔɔ muffin {num_ic, 99} firii fonoo teneabea a ɛbɛn wɔn no. {name_male, Henry} ԑԑyԑ nkrakase ama paanotoɔ akansie a ԑԑkɔso wɔ ne kurom. Ͻpԑ sԑ ɔyԑ mmɔho mmienu kyԑn deԑ ɔyԑԑ no afe deda no mu. Sԑ ɔto paano no wie a, n’adwene baa so sԑ ɔtoo paano {num_digit_1, 15} kyԑn deԑ ɔyԑԑ n’adwene sԑ ɔbԑyԑ no. Ͻdeesi hɔ ama n’adwo no ԑmu {num_digit_2, 5} tɔɔ fam enti seesei ɔwɔ nkrakase {num_digit_3, 110}. Nkrakase sԑn na {name_male, Henry} tɔɔԑ afe a atwa mu no?",
+  "equation": "UPDATE HERE"
+}

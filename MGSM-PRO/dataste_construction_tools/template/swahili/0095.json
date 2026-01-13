@@ -1,0 +1,8 @@
+{
+  "original_question": "Kwa wanafunzi 200 wa darasa la 5, 2/5 ni wavulana na 2/3 ya wasichana wapo katika skauti ya wasichana. Ni wasichana wangapi hawako kwenye skauti ya wasichana?",
+  "original_answer": 40,
+  "symbolic_template": "Kwa wanafunzi {num_digit_1, 200} wa darasa la 5, 2/5 ni wavulana na 2/3 ya wasichana wapo katika skauti ya wasichana. Ni wasichana wangapi hawako kwenye skauti ya wasichana?",
+  "ic_sentence_template": "Binti wa mkuu wa shule anamiliki penseli {num_ic, 41}.",
+  "ic_template": "Binti wa mkuu wa shule anamiliki penseli {num_ic, 41}. Kwa wanafunzi {num_digit_1, 200} wa darasa la 5, 2/5 ni wavulana na 2/3 ya wasichana wapo katika skauti ya wasichana. Ni wasichana wangapi hawako kwenye skauti ya wasichana?",
+  "equation": "UPDATE HERE"
+}

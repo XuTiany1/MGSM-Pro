@@ -1,0 +1,8 @@
+{
+  "original_question": "Kԑnten bi kuta ankaa 25 a ԑmu 1 asԑe, ԑmu ɔha nkyԑnu aduonu ԑmbereeԑ, mmienu ԑyԑ nnweno na deԑ aka no yԑ papa. Ankaa sԑn na ԑyԑ papa?",
+  "original_answer": 17,
+  "symbolic_template": "Kԑnten bi kuta ankaa {num_digit_1, 25} a ԑmu {num_digit_2, 1} asԑe, ԑmu {num_digit_3, 20}% ԑmbereeԑ, {num_digit_4, 2} ԑyԑ nnweno na deԑ aka no yԑ papa. Ankaa sԑn na ԑyԑ papa?",
+  "ic_sentence_template": "{name_female, Aria} wɔfa de apple {num_ic, 68} firii gua so baeɛ.",
+  "ic_template": "{name_female, Aria} wɔfa de apple {num_ic, 68} firii gua so baeɛ. Kԑnten bi kuta ankaa {num_digit_1, 25} a ԑmu {num_digit_2, 1} asԑe, ԑmu {num_digit_3, 20}% ԑmbereeԑ, {num_digit_4, 2} ԑyԑ nnweno na deԑ aka no yԑ papa. Ankaa sԑn na ԑyԑ papa?",
+  "equation": "UPDATE HERE"
+}

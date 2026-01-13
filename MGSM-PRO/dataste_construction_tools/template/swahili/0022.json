@@ -1,0 +1,8 @@
+{
+  "original_question": "Billy huuza santuri za DVD. Ana wateja 8 Jumanne. Wateja wake 3 wa kwanza hununua DVD moja kila mmoja. Wateja wake 2 wanaofuata hununua DVD 2 kila mmoja. Wateja wake 3 wa mwisho hawanunui DVD yoyote. Billy aliuza DVD ngapi siku ya Jumanne?",
+  "original_answer": 7,
+  "symbolic_template": "{name_male, Billy} huuza DVD. Ana wateja {num_digit_1, 8} siku ya Jumanne. Wateja wake {num_digit_2, 3} wa kwanza hununua DVD moja kila mmoja. Wateja wake {num_digit_3, 2} wanaofuata hununua DVD {num_digit_4, 2} kila mmoja. Wateja wake {num_digit_5, 3} wa mwisho hawanunui DVD yoyote. {name_male, Billy} aliuza DVD ngapi siku ya Jumanne?",
+  "ic_sentence_template": "Shangazi wa {name_male, Billy} alileta pakiti za popcorn {num_ic, 18} kwa ajili ya kugawa.",
+  "ic_template": "Shangazi wa {name_male, Billy} alileta pakiti za popcorn {num_ic, 18} kwa ajili ya kugawa. {name_male, Billy} huuza DVD. Ana wateja {num_digit_1, 8} siku ya Jumanne. Wateja wake {num_digit_2, 3} wa kwanza hununua DVD moja kila mmoja. Wateja wake {num_digit_3, 2} wanaofuata hununua DVD {num_digit_4, 2} kila mmoja. Wateja wake {num_digit_5, 3} wa mwisho hawanunui DVD yoyote. {name_male, Billy} aliuza DVD ngapi siku ya Jumanne?",
+  "equation": "UPDATE HERE"
+}

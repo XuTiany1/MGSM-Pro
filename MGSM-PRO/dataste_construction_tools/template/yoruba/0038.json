@@ -1,0 +1,8 @@
+{
+  "original_question": "John sá máìlì 60 ní ọ̀sẹ̀ kan. Ó máa ń sáré ní ọjọ́ 3 lọ́sẹ̀. Ó máa ń sáré fún wákàtí 3 ní ọjọ́ àkọ́kọ́ àti ààbọ̀ ju ọjọ́ méji tókù tó fi ń sáré lọ. Báwo ló ṣe ń yára sáré tó?",
+  "original_answer": 10,
+  "symbolic_template": "{name_male, John} sá máìlì {num_digit_1, 60} ní ọ̀sẹ̀ kan. Ó máa ń sáré ní ọjọ́ {num_digit_2, 3} lọ́sẹ̀. Ó máa ń sáré fún wákàtí {num_digit_3, 3} ní ọjọ́ àkọ́kọ́ àti ààbọ̀ ju ọjọ́ méji tókù tó fi ń sáré lọ. Báwo ló ṣe ń yára sáré tó?",
+  "ic_sentence_template": "Arákùnrin {name_male, John} ní fìlà baseball {num_ic, 85}.",
+  "ic_template": "Arákùnrin {name_male, John} ní fìlà baseball {num_ic, 85}. {name_male, John} sá máìlì {num_digit_1, 60} ní ọ̀sẹ̀ kan. Ó máa ń sáré ní ọjọ́ {num_digit_2, 3} lọ́sẹ̀. Ó máa ń sáré fún wákàtí {num_digit_3, 3} ní ọjọ́ àkọ́kọ́ àti ààbọ̀ ju ọjọ́ méji tókù tó fi ń sáré lọ. Báwo ló ṣe ń yára sáré tó?",
+  "equation": "UPDATE HERE"
+}

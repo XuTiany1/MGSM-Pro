@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean commande des pizzas pour les partager avec ses amis. Il y a 20 amis au total, et Jean veut s'assurer que chacun aura 4 parts. Si les pizzas ne sont vendues que coupées en 8 parts, combien de pizzas Jean doit-il commander ?",
+  "original_answer": 10,
+  "symbolic_template": "{name_male, Jean} commande des pizzas pour les partager avec ses amis. Il y a {num_digit_1, 20} amis au total, et {name_male, Jean} veut s'assurer que chacun aura {num_digit_2, 4} parts. Si les pizzas ne sont vendues que coupées en {num_digit_3, 8} parts, combien de pizzas {name_male, Jean} doit-il commander ?",
+  "ic_sentence_template": "{name_male, John} a un oncle qui possède {num_ic, 712} cartes de baseball.",
+  "ic_template": "{name_male, John} a un oncle qui possède {num_ic, 712} cartes de baseball. {name_male, Jean} commande des pizzas pour les partager avec ses amis. Il y a {num_digit_1, 20} amis au total, et {name_male, Jean} veut s'assurer que chacun aura {num_digit_2, 4} parts. Si les pizzas ne sont vendues que coupées en {num_digit_3, 8} parts, combien de pizzas {name_male, Jean} doit-il commander ?",
+  "equation": "UPDATE HERE"
+}

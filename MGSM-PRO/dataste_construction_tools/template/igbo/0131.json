@@ -1,0 +1,8 @@
+{
+  "original_question": "Ego Joseph mefuru n'onwa Mee bụ $500. Na Junu, mmefu ya ji $60 pekaria mpe. Ego ole bụ ngụkọta mmefu ya na ọnwa abụọ ndị ahụ?",
+  "original_answer": 940,
+  "symbolic_template": "Ego {name_male, Joseph} mefuru n'onwa Mee bụ ${num_digit_1, 500}. Na Junu, mmefu ya ji ${num_digit_2, 60} pekaria mpe. Ego ole bụ ngụkọta mmefu ya na ọnwa abụọ ndị ahụ?",
+  "ic_sentence_template": "Nwanne nna {name_male, Joseph} natara onyinye ego dollar {num_ic, 412} n ọnwa gara aga.",
+  "ic_template": "Nwanne nna {name_male, Joseph} natara onyinye ego dollar {num_ic, 412} n ọnwa gara aga. Ego {name_male, Joseph} mefuru n'onwa Mee bụ ${num_digit_1, 500}. Na Junu, mmefu ya ji ${num_digit_2, 60} pekaria mpe. Ego ole bụ ngụkọta mmefu ya na ọnwa abụọ ndị ahụ?",
+  "equation": "UPDATE HERE"
+}

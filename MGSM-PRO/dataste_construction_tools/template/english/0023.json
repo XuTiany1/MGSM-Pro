@@ -1,0 +1,8 @@
+{
+  "original_question": "A candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+  "original_answer": 8,
+  "symbolic_template": "A candle melts by {num_digit_1, 2} centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+  "ic_sentence_template": "{name_female, Emily}'s uncle brought {num_ic, 63} matches to the party.",
+  "ic_template": "A candle melts by {num_digit_1, 2} centimeters every hour that it burns. {name_female, Emily}'s uncle brought {num_ic, 63} matches to the party. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+  "equation": "UPDATE HERE"
+}

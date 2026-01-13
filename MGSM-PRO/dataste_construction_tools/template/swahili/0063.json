@@ -1,0 +1,8 @@
+{
+  "original_question": "Aleena alijisajili kwenye huduma ya utiririshaji ambayo humtoza $140 kila mwezi. Iwapo kampuni ya utiririshaji ilimtoza kiwango hicho cha awali kwa nusu ya kwanza ya mwaka na kisha kumtoza kiwango kidogo kwa 10% kwa nusu nyingine ya mwaka huo, piga hesabu ya jumla ya kiwango ambacho alikuwa amelipia huduma ya utiririshaji mwishoni mwa mwaka huo.",
+  "original_answer": 1596,
+  "symbolic_template": "{name_female, Aleena} alijisajili kwenye huduma ya utiririshaji ambayo humtoza ${num_digit_1, 140} kila mwezi. Iwapo kampuni ya utiririshaji ilimtoza kiwango hicho cha awali kwa nusu ya kwanza ya mwaka na kisha kumtoza kiwango kidogo kwa {num_digit_2, 10}% kwa nusu nyingine ya mwaka huo, piga hesabu ya jumla ya kiwango ambacho alikuwa amelipia huduma ya utiririshaji mwishoni mwa mwaka huo.",
+  "ic_sentence_template": "Shangazi wa {name_female, Aleena} alinunua mabango ya sinema {num_ic, 57} mwaka jana.",
+  "ic_template": "Shangazi wa {name_female, Aleena} alinunua mabango ya sinema {num_ic, 57} mwaka jana. {name_female, Aleena} alijisajili kwenye huduma ya utiririshaji ambayo humtoza ${num_digit_1, 140} kila mwezi. Iwapo kampuni ya utiririshaji ilimtoza kiwango hicho cha awali kwa nusu ya kwanza ya mwaka na kisha kumtoza kiwango kidogo kwa {num_digit_2, 10}% kwa nusu nyingine ya mwaka huo, piga hesabu ya jumla ya kiwango ambacho alikuwa amelipia huduma ya utiririshaji mwishoni mwa mwaka huo.",
+  "equation": "UPDATE HERE"
+}

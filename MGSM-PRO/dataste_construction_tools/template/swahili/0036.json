@@ -1,0 +1,8 @@
+{
+  "original_question": "Terry hukunywa maziwa 2 ya mtindi. Kwa sasa kuna ofa ya maziwa 4 ya mtindi kwa $5.00. Huwa anatumia pesa ngapi kununua maziwa ya mtindi kwa kipindi cha siku 30?",
+  "original_answer": 75,
+  "symbolic_template": "{name_male, Terry} hunywa maziwa ya mtindi {num_digit_1, 2} kwa siku. Kwa sasa kuna ofa ya maziwa ya mtindi {num_digit_2, 4} kwa ${num_digit_3, 5}.00. Atatumia pesa ngapi kwa maziwa ya mtindi katika kipindi cha siku {num_digit_4, 30}?",
+  "ic_sentence_template": "Mjomba wa {name_male, Terry} hivi karibuni alinunua katoni {num_ic, 29} za juisi ya machungwa.",
+  "ic_template": "Mjomba wa {name_male, Terry} hivi karibuni alinunua katoni {num_ic, 29} za juisi ya machungwa. {name_male, Terry} hunywa maziwa ya mtindi {num_digit_1, 2} kwa siku. Kwa sasa kuna ofa ya maziwa ya mtindi {num_digit_2, 4} kwa ${num_digit_3, 5}.00. Atatumia pesa ngapi kwa maziwa ya mtindi katika kipindi cha siku {num_digit_4, 30}?",
+  "equation": "UPDATE HERE"
+}

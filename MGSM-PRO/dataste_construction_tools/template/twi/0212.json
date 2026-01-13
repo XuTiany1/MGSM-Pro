@@ -1,0 +1,8 @@
+{
+  "original_question": "Gary anigye ho sɛ ɔbɛfa mpotam agopramma anoano no so, a ɛyɛ ntentenetene a ne kɛse yɛ kwansin 1.5 a na ne tɛtrɛtɛ yɛ kwasin 6. Sɛ otumi nante kwasin 3 wɔ dɔnhwere baako baira mu a, dɔnhwere dodoɔ ahe na ɔde nanteɛ?",
+  "original_answer": 5,
+  "symbolic_template": "{name_male, Gary} anigye ho sɛ ɔbɛfa mpotam agopramma anoano no so, a ɛyɛ ntentenetene a ne kɛse yɛ kwansin {num_digit_1, 1.5} a na ne tɛtrɛtɛ yɛ kwasin {num_digit_2, 6}. Sɛ otumi nante kwasin {num_digit_3, 3} wɔ dɔnhwere baako baira mu a, dɔnhwere dodoɔ ahe na ɔde nanteɛ?",
+  "ic_sentence_template": "{name_male, Gary} sewaa no twi ne sakre no twa akwansin {num_ic, 32} dapɛn awiei biara.",
+  "ic_template": "{name_male, Gary} sewaa no twi ne sakre no twa akwansin {num_ic, 32} dapɛn awiei biara. {name_male, Gary} anigye ho sɛ ɔbɛfa mpotam agopramma anoano no so, a ɛyɛ ntentenetene a ne kɛse yɛ kwansin {num_digit_1, 1.5} a na ne tɛtrɛtɛ yɛ kwasin {num_digit_2, 6}. Sɛ otumi nante kwasin {num_digit_3, 3} wɔ dɔnhwere baako baira mu a, dɔnhwere dodoɔ ahe na ɔde nanteɛ?",
+  "equation": "UPDATE HERE"
+}

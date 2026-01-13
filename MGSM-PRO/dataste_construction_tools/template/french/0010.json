@@ -1,0 +1,8 @@
+{
+  "original_question": "Un nouveau programme a été téléchargé 60 fois au cours du premier mois. Le nombre de téléchargements au cours du deuxième mois était trois fois supérieur à celui du premier mois. Il a ensuite diminué de 30 % au cours du troisième mois. Combien de fois au total le programme a-t-il été téléchargé au cours de ces trois mois ?",
+  "original_answer": 366,
+  "symbolic_template": "Un nouveau programme a été téléchargé {num_digit_1, 60} fois au cours du premier mois. Le nombre de téléchargements au cours du deuxième mois était trois fois supérieur à celui du premier mois. Il a ensuite diminué de {num_digit_2, 30} % au cours du troisième mois. Combien de fois au total le programme a-t-il été téléchargé au cours de ces trois mois ?",
+  "ic_sentence_template": "L'oncle du développeur a construit {num_ic, 413} bureaux d'ordinateur pour l'entreprise.",
+  "ic_template": "L'oncle du développeur a construit {num_ic, 413} bureaux d'ordinateur pour l'entreprise. Un nouveau programme a été téléchargé {num_digit_1, 60} fois au cours du premier mois. Le nombre de téléchargements au cours du deuxième mois était trois fois supérieur à celui du premier mois. Il a ensuite diminué de {num_digit_2, 30} % au cours du troisième mois. Combien de fois au total le programme a-t-il été téléchargé au cours de ces trois mois ?",
+  "equation": "UPDATE HERE"
+}

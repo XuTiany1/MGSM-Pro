@@ -1,0 +1,8 @@
+{
+  "original_question": "Carla anapakua faili ya GB 200. Kwa kawaida anaweza kupakua GB 2 kila dakika, lakini akiwa 40% ya upakuaji, Windows hulazimisha kuanza upya ili kupakia visasisho, na huchukua dakika 20. Kisha Carla ni lazima aanze tena kupakua kuanzia mwanzoni. Itamchukua muda gani kupakuafaili hiyo?",
+  "original_answer": 160,
+  "symbolic_template": "{name_female, Carla} anapakua faili ya GB {num_digit_1, 200}. Kwa kawaida anaweza kupakua GB {num_digit_2, 2} kila dakika, lakini akiwa {num_digit_3, 40}% ya upakuaji, Windows hulazimisha kuanza upya ili kupakia visasisho, na huchukua dakika {num_digit_4, 20}. Kisha {name_female, Carla} ni lazima aanze tena kupakua kuanzia mwanzoni. Itamchukua muda gani kupakua faili hiyo?",
+  "ic_sentence_template": "Mjomba wa {name_female, Carla} alinunua hivi karibuni sehemu za kompyuta mpya {num_ic, 110}.",
+  "ic_template": "Mjomba wa {name_female, Carla} alinunua hivi karibuni sehemu za kompyuta mpya {num_ic, 110}. {name_female, Carla} anapakua faili ya GB {num_digit_1, 200}. Kwa kawaida anaweza kupakua GB {num_digit_2, 2} kila dakika, lakini akiwa {num_digit_3, 40}% ya upakuaji, Windows hulazimisha kuanza upya ili kupakia visasisho, na huchukua dakika {num_digit_4, 20}. Kisha {name_female, Carla} ni lazima aanze tena kupakua kuanzia mwanzoni. Itamchukua muda gani kupakua faili hiyo?",
+  "equation": "UPDATE HERE"
+}

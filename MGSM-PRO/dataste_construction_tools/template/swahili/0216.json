@@ -1,0 +1,8 @@
+{
+  "original_question": "Janeth alikopesha $2000 na akaahidi kurudisha na ziada ya 10% ya kiwango hicho. Ikiwa atakuwa akilipa $165 kila mwezi kwa miezi 12, salio la Janeth linalosalia kufikia wakati huo litakuwa ngapi?",
+  "original_answer": 220,
+  "symbolic_template": "{name_female, Janeth} alikopa dola {num_digit_1, 2000} na akaahidi kuirudisha pamoja na nyongeza ya {num_digit_2, 10}% ya kiasi hicho. Ikiwa atakuwa analipa dola {num_digit_3, 165} kwa mwezi kwa miezi {num_digit_4, 12}, ni kiasi gani kitakachobaki {name_female, Janeth} atalazimika kulipa baada ya muda huo?",
+  "ic_sentence_template": "Mjomba wa {name_female, Janeth} alipokea tiketi za bahati nasibu {num_ic, 93000} mwaka jana.",
+  "ic_template": "Mjomba wa {name_female, Janeth} alipokea tiketi za bahati nasibu {num_ic, 93000} mwaka jana. {name_female, Janeth} alikopa dola {num_digit_1, 2000} na akaahidi kuirudisha pamoja na nyongeza ya {num_digit_2, 10}% ya kiasi hicho. Ikiwa atakuwa analipa dola {num_digit_3, 165} kwa mwezi kwa miezi {num_digit_4, 12}, ni kiasi gani kitakachobaki {name_female, Janeth} atalazimika kulipa baada ya muda huo?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "John anapenda kunywa glesi ya maji wakati wa staftahi, chamcha na chajio. Hatimaye, huna anakunywa glesi moja kabla ya kwenda kulala. John hufanya hii kila siku za wiki, lakini wikendi huwa anapenda kutulia na kunywa soda badala ya maji wakati wa chajio. John huwa anakunywa glesi ngapi za maji kwa wiki?",
+  "original_answer": 26,
+  "symbolic_template": "{name_male, John} hupenda kunywa glasi {num_digit_1, 1} ya maji wakati wa kifungua kinywa, {num_digit_2, 1} wakati wa chakula cha mchana na {num_digit_3, 1} wakati wa chakula cha jioni. Hatimaye, hunywa glasi {num_digit_4, 1} zaidi kabla ya kulala. {name_male, John} hufanya hivi kila siku za wiki (kwa siku {num_digit_5, 5}), lakini mwishoni mwa wiki (kwa siku {num_digit_6, 2}) hupenda kupumzika na kunywa soda wakati wa chakula cha jioni badala yake. {name_male, John} hunywa glasi ngapi za maji kwa wiki?",
+  "ic_sentence_template": "Mjomba wa {name_male, John} hunywa vikombe {num_ic, 12} vya chai kila wiki.",
+  "ic_template": "Mjomba wa {name_male, John} hunywa vikombe {num_ic, 12} vya chai kila wiki. {name_male, John} hupenda kunywa glasi {num_digit_1, 1} ya maji wakati wa kifungua kinywa, {num_digit_2, 1} wakati wa chakula cha mchana na {num_digit_3, 1} wakati wa chakula cha jioni. Hatimaye, hunywa glasi {num_digit_4, 1} zaidi kabla ya kulala. {name_male, John} hufanya hivi kila siku za wiki (kwa siku {num_digit_5, 5}), lakini mwishoni mwa wiki (kwa siku {num_digit_6, 2}) hupenda kupumzika na kunywa soda wakati wa chakula cha jioni badala yake. {name_male, John} hunywa glasi ngapi za maji kwa wiki?",
+  "equation": "UPDATE HERE"
+}

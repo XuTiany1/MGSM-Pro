@@ -1,0 +1,8 @@
+{
+  "original_question": "Il y a 4 escargots dans un aquarium et 32 dans un autre. La différence entre les quantités d'escargots dans les deux aquariums est égale à deux fois la somme des poissons dans les deux aquariums. Si les deux aquariums contiennent le même nombre de poissons, combien de poissons y a-t-il dans chaque aquarium ?",
+  "original_answer": 7,
+  "symbolic_template": "Il y a {num_digit_1, 4} escargots dans un aquarium et {num_digit_2, 32} dans un autre. La différence entre les quantités d'escargots dans les deux aquariums est égale à deux fois la somme des poissons dans les deux aquariums. Si les deux aquariums contiennent le même nombre de poissons, combien de poissons y a-t-il dans chaque aquarium ?",
+  "ic_sentence_template": "{name_male, Michael} a un cousin qui possède {num_ic, 15} guppys chez lui.",
+  "ic_template": "{name_male, Michael} a un cousin qui possède {num_ic, 15} guppys chez lui. Il y a {num_digit_1, 4} escargots dans un aquarium et {num_digit_2, 32} dans un autre. La différence entre les quantités d'escargots dans les deux aquariums est égale à deux fois la somme des poissons dans les deux aquariums. Si les deux aquariums contiennent le même nombre de poissons, combien de poissons y a-t-il dans chaque aquarium ?",
+  "equation": "UPDATE HERE"
+}

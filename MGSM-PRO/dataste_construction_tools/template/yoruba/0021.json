@@ -1,0 +1,8 @@
+{
+  "original_question": "Raymond àti Samantha jẹ́ mọ̀lẹ́bí. A bí Raymond ní ọdún 6 sẹ́yìn ṣíwájú samantha. Raymond bí ọmọ ọkùnrin kan ní ọmọ ọdún 23. Tí samantha bá jẹ́ 31 báyìí, ọdún mélòó sẹ́yìn ní a bí ọmọ Raymond?",
+  "original_answer": 14,
+  "symbolic_template": "{name_male, Raymond} àti {name_female, Samantha} jẹ́ mọ̀lẹ́bí. A bí {name_male, Raymond} ní ọdún {num_digit_1, 6} sẹ́yìn ṣíwájú {name_female, Samantha}. {name_male, Raymond} bí ọmọ ọkùnrin kan ní ọmọ ọdún {num_digit_2, 23}. Tí {name_female, Samantha} bá jẹ́ {num_digit_3, 31} báyìí, ọdún mélòó sẹ́yìn ní a bí ọmọ {name_male, Raymond}",
+  "ic_sentence_template": "Arákùnrin {name_female, Samantha} ń kó kaadi-ìpò ọdẹ́ {num_ic, 77}.",
+  "ic_template": "Arákùnrin {name_female, Samantha} ń kó kaadi-ìpò ọdẹ́ {num_ic, 77}. {name_male, Raymond} àti {name_female, Samantha} jẹ́ mọ̀lẹ́bí. A bí {name_male, Raymond} ní ọdún {num_digit_1, 6} sẹ́yìn ṣíwájú {name_female, Samantha}. {name_male, Raymond} bí ọmọ ọkùnrin kan ní ọmọ ọdún {num_digit_2, 23}. Tí {name_female, Samantha} bá jẹ́ {num_digit_3, 31} báyìí, ọdún mélòó sẹ́yìn ní a bí ọmọ {name_male, Raymond}",
+  "equation": "UPDATE HERE"
+}

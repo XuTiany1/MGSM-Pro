@@ -1,0 +1,8 @@
+{
+  "original_question": "比利销售 DVD。他在周二有 8 位顾客。前 3 位顾客各买了一张 DVD。后面 2 位顾客各买了 2 张DVD。最后 3 位顾客没有购买任何 DVD。Billy 在周二卖出了多少张 DVD？",
+  "original_answer": 7,
+  "symbolic_template": "{name_male, 比利} 销售 DVD。他在周二有 {num_digit_1, 8} 位顾客。前 {num_digit_2, 3} 位顾客各买了一张 DVD。后面 {num_digit_3, 2} 位顾客各买了 {num_digit_4, 2} 张 DVD。最后 {num_digit_5, 3} 位顾客没有购买任何 DVD。{name_male, 比利} 在周二卖出了多少张 DVD？",
+  "ic_sentence_template": "{name_male, 比利} 的姨妈带来了 {num_ic, 18} 包爆米花分享。",
+  "ic_template": "{name_male, 比利} 的姨妈带来了 {num_ic, 18} 包爆米花分享。{name_male, 比利} 销售 DVD。他在周二有 {num_digit_1, 8} 位顾客。前 {num_digit_2, 3} 位顾客各买了一张 DVD。后面 {num_digit_3, 2} 位顾客各买了 {num_digit_4, 2} 张 DVD。最后 {num_digit_5, 3} 位顾客没有购买任何 DVD。{name_male, 比利} 在周二卖出了多少张 DVD？",
+  "equation": "UPDATE HERE"
+}

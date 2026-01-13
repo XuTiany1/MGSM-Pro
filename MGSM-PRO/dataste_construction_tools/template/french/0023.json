@@ -1,0 +1,8 @@
+{
+  "original_question": "Une bougie allumée fond et perd 2 centimètres toutes les heures. Combien de centimètres la bougie aura-t-elle perdus après avoir brûlé de 13 h à 17 h ?",
+  "original_answer": 8,
+  "symbolic_template": "Une bougie allumée fond et perd {num_digit_1, 2} centimètres toutes les heures. Combien de centimètres la bougie aura-t-elle perdus après avoir brûlé de 13 h à 17 h ?",
+  "ic_sentence_template": "{name_female, Emily} a un oncle qui a apporté {num_ic, 63} allumettes à la fête.",
+  "ic_template": "{name_female, Emily} a un oncle qui a apporté {num_ic, 63} allumettes à la fête. Une bougie allumée fond et perd {num_digit_1, 2} centimètres toutes les heures. Combien de centimètres la bougie aura-t-elle perdus après avoir brûlé de 13 h à 17 h ?",
+  "equation": "UPDATE HERE"
+}

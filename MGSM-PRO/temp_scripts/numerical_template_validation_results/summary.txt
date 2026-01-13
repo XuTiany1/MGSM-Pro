@@ -1,0 +1,268 @@
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+
+Total Templates: 250
+Valid: 202
+Invalid: 48
+
+================================================================================
+INVALID TEMPLATES
+================================================================================
+
+
+Problem ID: 0000
+----------------------------------------
+❌ Complexity: The 'ans' complexity restriction specifies min_digits: 1 and max_digits: 3. The original answer is 18, which has 2 digits. This falls within the specified range. However, the question states that the 'ans' complexity restriction should allow for 2, 3, or 4 digits. Therefore, the max_digits should be at least 2.
+
+
+Problem ID: 0001
+----------------------------------------
+❌ Restrictions: The restrictions are missing 'ans % 1 == 0' and 'ans > 0'.
+
+
+Problem ID: 0002
+----------------------------------------
+❌ Restrictions: The restriction 'ans % 1 == 0' is missing. This is crucial to ensure the answer is an integer. Also, the restriction 'increase_amount % 1 == 0' is already guaranteed by the integer type of num_digit_1 and num_digit_3, so it's redundant.
+
+
+Problem ID: 0003
+----------------------------------------
+❌ Restrictions: The restrictions are missing the crucial 'ans > 0' restriction. While 'ans % 1 == 0' is present and ensures an integer answer, it doesn't guarantee a positive answer. Also, the restriction 'num_ic != num_digit_1' is irrelevant to the problem and should be removed.
+
+
+Problem ID: 0004
+----------------------------------------
+❌ Restrictions: The restrictions are missing 'ans % 1 == 0' to ensure an integer answer. Also, the existing restrictions are only applied to num_digit_2. They should be applied to the overall problem to ensure a valid problem is generated.
+
+
+Problem ID: 0005
+----------------------------------------
+❌ Restrictions: The restrictions section is missing the crucial 'ans > 0' restriction. While 'ans % 1 == 0' is present, ensuring a positive answer is essential for this problem context.
+
+
+Problem ID: 0006
+----------------------------------------
+❌ Restrictions: The restrictions are missing the crucial 'ans > 0' restriction. While 'ans % 1 == 0' is present, ensuring a positive answer is essential for this type of problem.
+
+
+Problem ID: 0007
+----------------------------------------
+❌ Restrictions: The restrictions are missing the crucial 'ans > 0' restriction. Also, the restriction 'time_first_attempt % 1 == 0' is redundant because 'interrupted_gb % 1 == 0' and 'num_digit_2' is an integer, so the result will always be an integer. The same applies to 'time_second_attempt % 1 == 0'.
+
+
+Problem ID: 0008
+----------------------------------------
+❌ Restrictions: The restriction 'ans >= 0' is missing. While 'ans % 1 == 0' is present, the template should explicitly ensure the answer is non-negative.
+
+
+Problem ID: 0009
+----------------------------------------
+❌ Restrictions: The restrictions are missing the crucial 'ans > 0' restriction. While 'num_digit_4 > num_digit_1' and 'ans % 1 == 0' are present, ensuring a positive answer is essential for this problem type.
+
+
+Problem ID: 0013
+----------------------------------------
+❌ Equation Steps: The equation steps are incorrect. Let's trace the original problem: Melanie has 5 vacuum cleaners left. She sold half of what was left at the orange house, meaning she had 5 * 2 = 10 vacuum cleaners before the orange house. She sold 2 more at the red house, meaning she had 10 + 2 = 12 vacuum cleaners before the red house. She sold a third at the green house, meaning 12 is 2/3 of the original amount. Therefore, she started with 12 * (3/2) = 18 vacuum cleaners.  The provided equation steps do not correctly reverse this process. The correct equation should be: after_orange_house = num_digit_2 * 2; after_red_house = after_orange_house + num_digit_1; ans = after_red_house * (3/2);
+
+
+Problem ID: 0015
+----------------------------------------
+❌ Restrictions: The restrictions are missing the crucial constraints 'ans % 1 == 0' to ensure an integer answer and 'ans > 0' to ensure a positive answer. Also, the restriction 'profit_a % 1 == 0' and 'profit_b % 1 == 0' are not guaranteed by the variable definitions. For example, if num_digit_2 is 1001 and num_digit_4 is 1.5, then profit_a will not be an integer. The restriction 'profit_a != profit_b' is good to have, but it should be checked after ensuring that profit_a and profit_b are integers.
+
+
+Problem ID: 0016
+----------------------------------------
+❌ Restrictions: The restrictions are missing the crucial 'ans > 0' restriction to ensure a positive answer. Also, the restriction 'ans % 1 == 0' is redundant because num_digit_1 and num_digit_2 are defined as integers, and their sum will always be an integer.
+
+
+Problem ID: 0017
+----------------------------------------
+❌ Restrictions: The restrictions are missing the crucial 'ans > 0' restriction. While 'ans % 1 == 0' is present, ensuring an integer answer, the absence of 'ans > 0' could lead to negative or zero salaries, which are not realistic in this context. Also, the restriction 'num_digit_5': ['ans % 1 == 0'] is incorrectly placed. It should be a general restriction, not specific to num_digit_5.
+
+
+Problem ID: 0020
+----------------------------------------
+❌ Restrictions: The restrictions are missing the crucial 'ans > 0' restriction. While 'ans % 1 == 0' is present, the absence of 'ans > 0' could lead to illogical or undefined scenarios if the generated numbers result in a negative or zero answer.
+
+
+Problem ID: 0022
+----------------------------------------
+❌ Complexity: The original answer is 7, which has 1 digit. The complexity restriction 'min_digits': 2, 'max_digits': 2 only allows for 2-digit answers. This is incorrect.
+❌ Restrictions: The restrictions are missing the required 'ans % 1 == 0' and 'ans > 0'. Also, the restriction 'num_digit_1 == total_customers' is crucial for the problem to make sense, and 'ans > 15' is not always guaranteed with the given ranges and equation steps. This needs to be adjusted to ensure the problem is solvable and the answer is within the desired range.
+
+
+Problem ID: 0023
+----------------------------------------
+❌ Complexity: The original answer is 8, which has 1 digit. The complexity restriction specifies that the answer must have between 2 and 2 digits. This is incorrect. It should allow for 1 or 2 digits.
+
+
+Problem ID: 0024
+----------------------------------------
+❌ Restrictions: The restriction 'ans % 1 == 0' is present, ensuring an integer answer. However, the restriction 'ans > 0' is missing. Also, the restriction 'ans > num_digit_1' is present, which is logical in this context (original price should be higher than discounted price).
+
+
+Problem ID: 0026
+----------------------------------------
+❌ Restrictions: The restriction 'ans % 1 == 0' is present, ensuring an integer answer. However, the restriction 'ans > 150' is present, but the implicit restriction 'ans > 0' is missing. Also, the restriction is on num_digit_6 instead of ans.
+
+
+Problem ID: 0037
+----------------------------------------
+❌ Equation Steps: The equation steps are incorrect. The problem asks how many lego sets John *still* has. The equation steps incorrectly calculate the number of sets sold. The correct calculation should be:
+1. Calculate the total money needed for video games and the remaining amount: money_needed = (num_digit_3 * num_digit_4) + num_digit_5
+2. Calculate how much money John made from selling his lego sets: money_made = num_digit_1 * num_digit_2
+3. Calculate the number of lego sets John still has: ans = num_digit_1 - 0 (since he sold all his lego sets, the answer is always 0. The problem is flawed.)
+
+Using the original values: num_digit_1 = 13, num_digit_2 = 15, num_digit_3 = 8, num_digit_4 = 20, num_digit_5 = 5
+1. money_needed = (8 * 20) + 5 = 165
+2. sets_sold = 165 / 15 = 11
+3. ans = 13 - 11 = 2
+
+However, the problem states that John sells *all* his lego sets. Therefore, the answer should always be 0. The current equation steps and the problem statement are contradictory.
+❌ Restrictions: The restriction 'money_needed % num_digit_2 == 0' is crucial for ensuring an integer number of sets sold. However, the problem statement says John sells *all* his lego sets. Therefore, the answer should always be 0. The current restrictions and the problem statement are contradictory. Also, the equation steps are incorrect, so the restrictions are based on incorrect logic.
+
+
+Problem ID: 0046
+----------------------------------------
+❌ Equation Steps: The equation steps are incorrect. The problem asks for the number of post-it notes in the package she purchased. The correct equation should be: package_size = num_digit_2 + num_digit_3 - num_digit_1.  Therefore, the equation step should calculate 'ans' as num_digit_2 + num_digit_3 - num_digit_1. Using the original values: 220 + 23 - 80 = 163. The current equation calculates ans = num_digit_3 + num_digit_2 - num_digit_1 which is the same, but the description says the equation is for num_digit_3, which is incorrect.
+
+
+Problem ID: 0057
+----------------------------------------
+❌ Equation Steps: The equation steps are incorrect. The available capacity is calculated correctly as num_digit_1 - num_digit_3. However, the calculation of 'ans' should involve integer division (floor division) to find the maximum number of boxes. The current template does not guarantee an integer answer without the restrictions. Using the original values: num_digit_1 = 5000, num_digit_2 = 15, num_digit_3 = 3755. available_capacity = 5000 - 3755 = 1245. ans = 1245 / 15 = 83. The current restrictions ensure an integer answer, but the equation steps should explicitly use floor division to be more robust.
+
+
+Problem ID: 0062
+----------------------------------------
+❌ Variable Correspondence: The symbolic template contains 'num_digit_1' which is missing from the numerical template. The numerical template contains 'num_ic' which is not in the symbolic template and should be ignored.
+
+
+Problem ID: 0086
+----------------------------------------
+
+
+Problem ID: 0097
+----------------------------------------
+❌ Complexity: The complexity restriction 'ans': { 'min_digits': 1, 'max_digits': 2 } only allows for answers with 1 or 2 digits. The original answer is 12, which has 2 digits. However, the problem generation should allow for more variation. The original answer is 12, which has 2 digits. The complexity restriction is valid for the original answer, but it is too restrictive for generating new problems. It should allow for more digits.
+
+
+Problem ID: 0098
+----------------------------------------
+❌ Equation Steps: The equation steps are incorrect. The problem asks for the number of cars that drove through in the *first* 15 minutes, which is represented by `num_digit_1`. The provided equation steps calculate something else entirely. Using the original values: remaining_after_exit = 30 - 5 = 25; ans = 25 - 20 = 5. This is not the number of cars that drove through in the first 15 minutes (which should be 15).
+
+
+Problem ID: 0100
+----------------------------------------
+❌ Equation Steps: The equation steps are incorrect. The problem states that the first friend pressed the doorbell num_digit_2 times, the second friend pressed it 1/4 *more* than the first, the third friend pressed it num_digit_3 *more* than the fourth, and the fourth friend pressed it num_digit_4 times. The total number of rings should be the sum of all these rings. The current equation only sums the rings of the first, second, third, and fourth friends. It does not account for the number of friends Jerome has. The number of friends is num_digit_1, which is 4. The equation should calculate the total number of rings as f1 + f2 + f3 + f4. Using the original values: num_digit_2 = 20, num_digit_4 = 60, num_digit_3 = 10. f1 = 20, f2 = 20 * 1.25 = 25, f4 = 60, f3 = 60 + 10 = 70. ans = 20 + 25 + 70 + 60 = 175. However, the problem states that Jerome has 4 friends. The equation steps only account for the doorbell rings of the first, second, third, and fourth friends. The problem asks for the total number of doorbell rings, which is the sum of the rings from each friend. The current equation steps are correct for the given problem statement, but the problem statement is misleading. The problem statement should be changed to reflect that only 4 friends rang the doorbell.
+
+
+Problem ID: 0109
+----------------------------------------
+❌ Restrictions: The restriction '((num_digit_1 - num_digit_2) * num_digit_3) % 1 == 0' is not sufficient to guarantee an integer answer. While it ensures the result is a whole number, it doesn't guarantee it will be an integer. The correct restriction should be 'ans % 1 == 0'. Also, the restriction is under the wrong key. It should be under 'ans' not 'num_digit_3'.
+
+
+Problem ID: 0115
+----------------------------------------
+❌ Equation Steps: The equation steps are incorrect. The problem asks for the profit, which is the selling price minus the cost. The provided steps only calculate the increase in value, not the actual profit.  Using the original values: total_cost = (10 * 10) + (5 * 16) = 100 + 80 = 180. ans = 180 * (50 / 100) = 90. This only calculates the increase in value, not the profit. The problem doesn't specify a selling price, only the percentage increase in lumber prices. To calculate the profit, we need to assume Sasha sells the lumber at the increased price. The correct equation should be: total_cost = (10 * 10) + (5 * 16) = 180. selling_price = total_cost * (1 + (num_digit_1 / 100)). profit = selling_price - total_cost = total_cost * (num_digit_1 / 100).
+❌ Restrictions: The restriction 'ans % 1 == 0' is missing. This is crucial to ensure the answer is an integer. Also, the current restrictions are not sufficient to guarantee a valid problem. The restriction '(total_cost * num_digit_1) % 100 == 0' is good for ensuring an integer answer, but it's already implied by the equation steps and the 'ans % 1 == 0' restriction. The restriction 'ans > 0' is already included.
+
+
+Problem ID: 0124
+----------------------------------------
+❌ Complexity: The original answer is 10, which has 2 digits. The 'ans' complexity restriction allows for a minimum of 1 digit and a maximum of 3 digits. This is correct.
+
+
+Problem ID: 0125
+----------------------------------------
+❌ Complexity: The complexity restriction 'ans': { 'min_digits': 1, 'max_digits': 2 } only allows for answers with 1 or 2 digits. The original answer is 10 which has 2 digits, so this is correct. However, the prompt states 'The original answer is 10 which has 2 digits. The 'ans' complexity restriction should allow for 2, 3, or 4 digits. Does it?' This is incorrect. The complexity restriction is correct for the original answer, but the prompt is asking if it allows for 2, 3, or 4 digits, which it does not.
+
+
+Problem ID: 0136
+----------------------------------------
+❌ Equation Steps: The equation steps are incorrect. The original problem states that one third of the unicorns are in the Scottish Highlands, and two thirds of *those* are female. The current steps calculate two thirds of the *total* number of unicorns.  Using the original value of 27: scottish_unicorns = 27 / 3 = 9. ans = 9 * (2 / 3) = 6. This happens to work with the original answer, but the logic is flawed.
+
+
+Problem ID: 0137
+----------------------------------------
+❌ Restrictions: The restriction 'delivery_fee % 0.5 == 0' is present, which is good. The restriction 'ans % 0.5 == 0' is present, which is good. The restriction 'ans > 0' is present, which is good. However, the problem involves money, so it is important to ensure the answer is an integer or has at most two decimal places. The restriction 'ans % 1 == 0' is missing. This should be added to ensure the answer is a whole number.
+
+
+Problem ID: 0143
+----------------------------------------
+❌ Equation Steps: The equation steps are incorrect. Using the original values: num_digit_1 = 2, num_digit_2 = 3, num_digit_3 = 3, num_digit_4 = 3, num_digit_5 = 4, num_digit_6 = 10.  food_cost = 2 + 3 = 5. non_food_cost = 3 + 3 + 4 = 10. tax_amount = (10 * 10) / 100 = 1. ans = 5 + 10 + 1 = 16. This matches the original answer. However, the restriction (non_food_cost * num_digit_6) % 100 == 0 is not always true. For example, if num_digit_3 = 2, num_digit_4 = 3, num_digit_5 = 4, and num_digit_6 = 7, then non_food_cost = 9, and (9 * 7) % 100 = 63 != 0. The restriction should be modified to ensure the tax amount is an integer.
+❌ Restrictions: The restriction (non_food_cost * num_digit_6) % 100 == 0 is too restrictive and prevents many valid combinations. It should be changed to ensure the tax amount is an integer, but not necessarily a whole number of dollars. A better restriction would be (non_food_cost * num_digit_6) % 100 == 0 or (non_food_cost * num_digit_6) % 100 != 0
+
+
+Problem ID: 0153
+----------------------------------------
+❌ Variable Correspondence: The symbolic template uses the following numerical values: 14, 1/2, 3, 3, 2/3, 1, and 5. The numerical template defines num_digit_1, num_digit_2, num_digit_3, num_digit_4, and num_digit_5.  num_digit_1 corresponds to 14, num_digit_2 corresponds to the number of pigeons, num_digit_3 corresponds to the number of fries each pigeon ate, num_digit_4 corresponds to the final french fry carried off by ants, and num_digit_5 corresponds to the number of fries left behind. However, the fractions 1/2 and 2/3 are not represented by variables. Also, the problem states that the seagull ate *half* the amount of fries Dave ate, which is 14/2 = 7. The current template uses num_digit_1 / 2, which is correct. The raccoon ate 2/3 of the remaining fries, which is not directly represented in the equation steps. The number of fries the raccoon ate is implicitly calculated as (before_ant * 3) * (2/3) = before_ant * 2. This is not explicitly stated in the equation steps, but it is implied. The variable correspondence is therefore not perfect, as the fractions are not directly represented as variables.
+
+
+Problem ID: 0187
+----------------------------------------
+❌ Restrictions: The restriction 'ans > num_digit_1' is present and logical. The restriction '(num_digit_1 * num_digit_2 * num_digit_3) % 100 == 0' is present and problem-specific. The restriction 'ans % 1 == 0' is present and ensures an integer answer. However, the restriction 'ans > 0' is missing. This is a crucial restriction to ensure a positive answer, which is necessary for this problem context.
+
+
+Problem ID: 0189
+----------------------------------------
+❌ Variable Correspondence: The symbolic template uses num_digit_1, num_digit_2, num_digit_3, num_digit_4, and num_digit_5. The numerical template defines num_digit_1, num_digit_3, num_digit_4, and num_digit_5, but is missing num_digit_2. num_ic is irrelevant and can be ignored.
+❌ Equation Steps: The equation steps are incorrect. The problem states that three friends spent ${num_digit_1, 20.25} *in total* on tickets. The current equation assumes that ${num_digit_1, 20.25} is the cost per ticket. The correct equation should be: ticket_cost = num_digit_1; food_cost = num_digit_1 - num_digit_3; ride_cost = num_digit_4 * num_digit_5; total_cost = ticket_cost + food_cost + ride_cost; ans = total_cost / 3. Using the original values: ticket_cost = 20.25; food_cost = 20.25 - 4.50 = 15.75; ride_cost = 2 * 33 = 66; total_cost = 20.25 + 15.75 + 66 = 102; ans = 102 / 3 = 34.
+❌ Restrictions: The restriction 'ticket_cost > num_digit_3' is incorrect. It should be 'num_digit_1 > num_digit_3' or 'ticket_cost > food_cost'. Also, the restriction 'total_cost % 3 == 0' is good, but it should be checked *before* calculating the answer to avoid generating unsolvable problems. The restriction should be on the variables themselves, not on derived values.
+
+
+Problem ID: 0195
+----------------------------------------
+❌ Restrictions: The restriction '((num_digit_1 + num_digit_2) * num_digit_3) % 1 == 0' is present, and 'ans > 0' is also present. However, the template is missing the crucial restriction 'ans % 1 == 0' to ensure the final answer is an integer. While the existing restriction ensures the intermediate calculation (pen_price * num_digit_3) is an integer, it doesn't guarantee that the final answer, 'ans', is an integer if further calculations were to be added in the future.
+
+
+Problem ID: 0196
+----------------------------------------
+❌ Restrictions: The restriction 'ans >= 0' is present, but 'ans > 0' is not explicitly included. While 'ans >= 0' is present, it's better to explicitly state 'ans > 0' to ensure a strictly positive answer. Also, the restriction 'ans % 1 == 0' is present, ensuring an integer answer.
+
+
+Problem ID: 0209
+----------------------------------------
+❌ Equation Steps: The equation steps are incorrect. The problem states that the cups cost LESS than the plates. Therefore, the total cost of the cups should be calculated by subtracting the discount from the total cost of the plates. The final step should divide the cost of the cups by the number of cups (240) to find the cost of each cup.  Using the original values: total_plates = 6 * 6000 = 36000; total_cups_cost = 36000 - 1200 = 34800; ans = 34800 / 240 = 145. The current equation calculates the total cost of the cups instead of the cost of each cup.
+❌ Restrictions: The restriction list is missing the crucial 'ans % 1 == 0' restriction to ensure an integer answer. Also, the current restrictions are placed under 'num_digit_1' which is incorrect. They should be under the 'restrictions' key.
+
+
+Problem ID: 0210
+----------------------------------------
+❌ Restrictions: The restrictions are missing the required 'ans % 1 == 0' and 'ans > 0'. While the existing restrictions are problem-specific and logical, the two mandatory restrictions are absent.
+
+
+Problem ID: 0212
+----------------------------------------
+❌ Restrictions: The restriction `(2 * (num_digit_1 + num_digit_2)) % num_digit_3 == 0` is present, and `ans > 0` is present. However, the crucial restriction `ans % 1 == 0` (ensuring an integer answer) is missing. This is important because the problem asks for the number of *hours* spent walking, which should be a whole number in this context.
+
+
+Problem ID: 0214
+----------------------------------------
+❌ Equation Steps: The equation steps are incorrect. The problem states that the big pool had twice as much water as the small pool 'num_digit_2' minutes ago, and now has four times as much. Let 's' be the current amount of water in the small pool, and 'b' be the current amount of water in the big pool. We know b = 4s. 'num_digit_1' is the leak rate for both pools. The amount of water leaked from the small pool in 'num_digit_2' minutes is num_digit_1 * num_digit_2. The amount of water leaked from the big pool in 'num_digit_2' minutes is also num_digit_1 * num_digit_2. 'num_digit_2' minutes ago, the small pool had s + (num_digit_1 * num_digit_2) water, and the big pool had b + (num_digit_1 * num_digit_2) water. We know that b + (num_digit_1 * num_digit_2) = 2 * (s + (num_digit_1 * num_digit_2)). Substituting b = 4s, we get 4s + (num_digit_1 * num_digit_2) = 2s + 2 * (num_digit_1 * num_digit_2). This simplifies to 2s = num_digit_1 * num_digit_2, so s = (num_digit_1 * num_digit_2) / 2.  With the original values, num_digit_1 = 4 and num_digit_2 = 4.  s = (4 * 4) / 2 = 8. The current equation steps do lead to the correct answer for the original values, but the logic is not explained in the context of the problem. The equation steps should be updated to reflect the problem's logic.
+
+
+Problem ID: 0216
+----------------------------------------
+❌ Restrictions: The restriction 'ans > 0' is present, but 'ans % 1 == 0' is missing. Also, the restriction '(num_digit_1 * num_digit_2) % 100 == 0' is not always necessary and might overly restrict the possible values. It seems intended to ensure the interest calculation results in a whole number, but this is already implicitly handled by the integer type of num_digit_1 and num_digit_2 and the final answer being an integer.
+
+
+Problem ID: 0223
+----------------------------------------
+❌ Restrictions: The restriction 'ans > 0' is present, but 'ans % 1 == 0' is missing. This is crucial to ensure the answer is an integer, especially since we are dividing by 3.
+
+
+Problem ID: 0228
+----------------------------------------
+❌ Restrictions: The restriction `(num_digit_1 / (num_digit_2 + (num_digit_2 / 2))) % 60 == 0` is too restrictive. It forces the total minutes to be a multiple of 60, which means the answer will always be an integer. While the answer *should* be an integer, this should be enforced by `ans % 1 == 0` instead. The current restriction limits the possible values of num_digit_1 too much. Also, the restriction `ans > 0` is already implied by the ranges of `num_digit_1` and `num_digit_2` and the equation steps, so it's redundant. The restriction `num_digit_2 % 2 == 0` is good because it ensures that the mom's rate is an integer.
+
+
+Problem ID: 0234
+----------------------------------------
+❌ Equation Steps: The equation steps are incorrect. The problem states Steve eats twice as much as his girlfriend. The current steps calculate the total daily consumption as Steve's consumption PLUS his girlfriend's consumption. However, the problem only asks how many vines Steve needs, so we only need to consider Steve's tomato consumption.  Using the original values: steve_daily = 6; total_weekly = 6 * 7 = 42; ans = 42 / 3 = 14. The original answer was 21, so the equation steps are wrong.
+
+
+Problem ID: 0236
+----------------------------------------
+❌ Equation Steps: The equation steps are incorrect. With the original value of num_digit_1 = 25, the calculation would be: initial_pens = 25, recycled_pens = 25 / 5 = 5, ans = 25 + 5 = 30. The original answer was 31, so the equation is not correct. The recycled pens should be calculated using floor division and then the remainder should be used to calculate the final answer. The correct equation should be: initial_pens = num_digit_1, recycled_pens = floor(initial_pens / 5), ans = initial_pens + recycled_pens.
+

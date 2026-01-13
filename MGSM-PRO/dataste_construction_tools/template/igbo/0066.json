@@ -1,0 +1,8 @@
+{
+  "original_question": "E nwere ụlọakwụkwọ anọ na-ama aka n'asọmpị bọọlụ nkata. Ụlọakwụkwọ ọbụla ezipula otú bọọlụ nkata ụmụ nwaanyị na otú bọọlụ nkata ụmụ nwoke ma otú ọbụla nwere ndị egwuregwu ise. Ụlọakwụkwọ ọbụla ezipukwala onye nkụzi maka otu ọbụla. Na mkpokota, mmadụ ole ka ụlọakwụkwọ niile zipụrụ? ",
+  "original_answer": 48,
+  "symbolic_template": "E nwere ụlọakwụkwọ anọ na-ama aka n'asọmpị bọọlụ nkata. Ụlọakwụkwọ ọbụla ezipula otú bọọlụ nkata ụmụ nwaanyị na otú bọọlụ nkata ụmụ nwoke ma otú ọbụla nwere ndị egwuregwu {num_digit_1, 5}. Ụlọakwụkwọ ọbụla ezipukwala onye nkụzi maka otu ọbụla. Na mkpokota, mmadụ ole ka ụlọakwụkwọ niile zipụrụ?",
+  "ic_sentence_template": "Nwa nwanne nna {name_male, Marcus} bịara na {num_ic, 42} bọl basketball ka otu ndị egwuregwu jiri.",
+  "ic_template": "Nwa nwanne nna {name_male, Marcus} bịara na {num_ic, 42} bọl basketball ka otu ndị egwuregwu jiri. E nwere ụlọakwụkwọ anọ na-ama aka n'asọmpị bọọlụ nkata. Ụlọakwụkwọ ọbụla ezipula otú bọọlụ nkata ụmụ nwaanyị na otú bọọlụ nkata ụmụ nwoke ma otú ọbụla nwere ndị egwuregwu {num_digit_1, 5}. Ụlọakwụkwọ ọbụla ezipukwala onye nkụzi maka otu ọbụla. Na mkpokota, mmadụ ole ka ụlọakwụkwọ niile zipụrụ?",
+  "equation": "UPDATE HERE"
+}

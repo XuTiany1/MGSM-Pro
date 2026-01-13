@@ -1,0 +1,8 @@
+{
+  "original_question": "solo ní láti ka ojú ìwé 4 nínú ìwé sáyẹ́nsì rẹ̀, ojú ìwé 20 láti inú ìwé ṣóṣíà sítọ́dì, ojú ìwé 7 láti inú ísítírì àti ojú ìwé 8 nínú gẹ́ọ́gíráfì to. solo ka ojú ìwé 15 ní ọjọ́ ajé. tó bá ní ọjọ́ 4 síi láti ka gbogbo ìwé rẹ̀, ojú ìwé mélòó ní ó ní láti kà ní ìdajì ọjọ́ kan?",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, Solo} ní láti ka ojú ìwé {num_digit_1, 4} nínú ìwé sáyẹ́nsì rẹ̀, ojú ìwé {num_digit_2, 20} láti inú ìwé ṣóṣíà sítọ́dì, ojú ìwé {num_digit_3, 7} láti inú ísítírì àti ojú ìwé {num_digit_4, 8} nínú gẹ́ọ́gíráfì rẹ̀. solo ka ojú ìwé {num_digit_5, 15} ní ọjọ́ ajé. tó bá ní ọjọ́ {num_digit_6, 4} síi láti ka gbogbo ìwé rẹ̀, ojú ìwé mélòó ní ó ní láti kà ní ìdajì ọjọ́ kan?",
+  "ic_sentence_template": "Àbúrò bàbá {name_male, Solo} gbà ìwé arà ìmúlòlùfé {num_ic, 65} láti ilé-ìkàwé laipẹ́ yìí.",
+  "ic_template": "Àbúrò bàbá {name_male, Solo} gbà ìwé arà ìmúlòlùfé {num_ic, 65} láti ilé-ìkàwé laipẹ́ yìí. {name_male, Solo} ní láti ka ojú ìwé {num_digit_1, 4} nínú ìwé sáyẹ́nsì rẹ̀, ojú ìwé {num_digit_2, 20} láti inú ìwé ṣóṣíà sítọ́dì, ojú ìwé {num_digit_3, 7} láti inú ísítírì àti ojú ìwé {num_digit_4, 8} nínú gẹ́ọ́gíráfì rẹ̀. solo ka ojú ìwé {num_digit_5, 15} ní ọjọ́ ajé. tó bá ní ọjọ́ {num_digit_6, 4} síi láti ka gbogbo ìwé rẹ̀, ojú ìwé mélòó ní ó ní láti kà ní ìdajì ọjọ́ kan?",
+  "equation": "UPDATE HERE"
+}

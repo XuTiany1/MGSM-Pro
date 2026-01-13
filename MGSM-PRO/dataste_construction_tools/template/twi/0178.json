@@ -1,0 +1,8 @@
+{
+  "original_question": "Rani wɔ nkɔtɔ dɔɔ so sen Monic, a ɔwɔ nkɔtɔ enan sen Bo. Sɛ Bo wɔ nkɔtɔ aduanan a, bu nkɔtɔ akonta dodoɔ a wɔn mmiɛnsa no nyinaa wɔ no bom.",
+  "original_answer": 122,
+  "symbolic_template": "{name_female_1, Rani} wɔ nkɔtɔ du so sen {name_female_2, Monic}, a ɔwɔ nkɔtɔ {num_digit_1, enan} sen {name_male_1, Bo}. Sɛ {name_male_1, Bo} wɔ nkɔtɔ {num_digit_2, aduanan} a, bu nkɔtɔ akonta dodoɔ a wɔn mmiɛnsa no nyinaa wɔ no bom.",
+  "ic_sentence_template": "{name_female_2, Monic} wͻfa huu ɛpo mu adekorabea {num_ic, 88} wɔ mpoano no so.",
+  "ic_template": "{name_female_1, Rani} wɔ nkɔtɔ du so sen {name_female_2, Monic}, a ɔwɔ nkɔtɔ {num_digit_1, enan} sen {name_male_1, Bo}. Sɛ {name_male_1, Bo} wɔ nkɔtɔ {num_digit_2, aduanan} a, bu nkɔtɔ akonta dodoɔ a wɔn mmiɛnsa no nyinaa wɔ no bom. {name_female_2, Monic} wͻfa huu ɛpo mu adekorabea {num_ic, 88} wɔ mpoano no so.",
+  "equation": "UPDATE HERE"
+}

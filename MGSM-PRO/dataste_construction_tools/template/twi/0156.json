@@ -1,0 +1,8 @@
+{
+  "original_question": "Mmoadoma so hwɛfoɔ ma ɔfoɔ aduan wɔ mmoa korabea. Ɔhyɛ bɔ sɛ bosome mmienu biara ɔbɛma kwadu a ɛwɔ mpɔtam afuom hɔ mu nyinaa. Sɛ aduee hia 200 ahaban, akaatia hia kwadu 400, na okontromfi hia kwadu 100 bosome biara a, kwadu ahe na ehia sɛ ɔhyɛ ma ɛdɔɔso bosome mmienu no mu?",
+  "original_answer": 1400,
+  "symbolic_template": "Mmoadoma so hwɛfoɔ ma ɔfoɔ aduan wɔ mmoa korabea. Ɔhyɛ bɔ sɛ bosome {num_digit_1, 2} biara ɔbɛma kwadu a ɛwɔ mpɔtam afuom hɔ mu nyinaa. Sɛ aduee hia {num_digit_2, 200} ahaban, akaatia hia kwadu {num_digit_3, 400}, na okontromfi hia kwadu {num_digit_4, 100} bosome biara a, kwadu ahe na ehia sɛ ɔhyɛ ma ɛdɔɔso bosome {num_digit_5, 2} no mu?",
+  "ic_sentence_template": "Mmoa yɛmmea sohwɛfono wɔfase baa no wɔ {num_ic, 13} ako wɔ fie.",
+  "ic_template": "Mmoa yɛmmea sohwɛfono wɔfase baa no wɔ {num_ic, 13} ako wɔ fie. Mmoadoma so hwɛfoɔ ma ɔfoɔ aduan wɔ mmoa korabea. Ɔhyɛ bɔ sɛ bosome {num_digit_1, 2} biara ɔbɛma kwadu a ɛwɔ mpɔtam afuom hɔ mu nyinaa. Sɛ aduee hia {num_digit_2, 200} ahaban, akaatia hia kwadu {num_digit_3, 400}, na okontromfi hia kwadu {num_digit_4, 100} bosome biara a, kwadu ahe na ehia sɛ ɔhyɛ ma ɛdɔɔso bosome {num_digit_5, 2} no mu?",
+  "equation": "UPDATE HERE"
+}

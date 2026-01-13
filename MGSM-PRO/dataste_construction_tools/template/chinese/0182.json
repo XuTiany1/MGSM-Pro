@@ -1,0 +1,8 @@
+{
+  "original_question": "珍比马克大 2 岁。两年前，马克比让的一半岁数大 5 岁。如果让现在 30 岁，珍现在多少岁？",
+  "original_answer": 23,
+  "symbolic_template": "{name_male_1, 珍} 比 {name_male_2, 马克} 大 2 岁。两 年前，{name_male_2, 马克} 比 {name_female, 让} 的 一半 岁数大 {num_digit_1, 5} 岁。如果 {name_female, 让} 现在 {num_digit_2, 30} 岁，{name_male_1, 珍} 现在多少岁？",
+  "ic_sentence_template": "{name_male_1, 让}的叔叔有 {num_ic, 82} 枚古董硬币。",
+  "ic_template": "{name_male_1, 让}的叔叔有 {num_ic, 82} 枚古董硬币。{name_male_1, 珍} 比 {name_male_2, 马克} 大 2 岁。两 年前，{name_male_2, 马克} 比 {name_female, 让} 的 一半 岁数大 {num_digit_1, 5} 岁。如果 {name_female, 让} 现在 {num_digit_2, 30} 岁，{name_male_1, 珍} 现在多少岁？",
+  "equation": "UPDATE HERE"
+}

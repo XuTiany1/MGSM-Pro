@@ -1,0 +1,8 @@
+{
+  "original_question": "Siobhan agudeԑ no wɔ fam 2 kyԑn Aaron. Aaron wɔ agudeԑ 5 kyԑn Raymond agudeԑ no nyinaa mu fa. Sԑ Raymond wɔ agudeԑ 40 a, agudeԑ sԑn na Siobhan wɔ?",
+  "original_answer": 23,
+  "symbolic_template": "{name_male_1, Siobhan} agudeԑ no wɔ fam {num_digit_1, 2} kyԑn {name_male_2, Aaron}. {name_male_2, Aaron} wɔ agudeԑ {num_digit_2, 5} kyԑn {name_male_3, Raymond} agudeԑ no nyinaa mu fa. Sԑ {name_male_3, Raymond} wɔ agudeԑ {num_digit_3, 40} a, agudeԑ sԑn na {name_male_1, Siobhan} wɔ?",
+  "ic_sentence_template": "{name_male_2, Aaron} wɔfa kyɛɛ no abɔdeɛ {num_ic, 341}.",
+  "ic_template": "{name_male_2, Aaron} wɔfa kyɛɛ no abɔdeɛ {num_ic, 341}. {name_male_1, Siobhan} agudeԑ no wɔ fam {num_digit_1, 2} kyԑn {name_male_2, Aaron}. {name_male_2, Aaron} wɔ agudeԑ {num_digit_2, 5} kyԑn {name_male_3, Raymond} agudeԑ no nyinaa mu fa. Sԑ {name_male_3, Raymond} wɔ agudeԑ {num_digit_3, 40} a, agudeԑ sԑn na {name_male_1, Siobhan} wɔ?",
+  "equation": "UPDATE HERE"
+}

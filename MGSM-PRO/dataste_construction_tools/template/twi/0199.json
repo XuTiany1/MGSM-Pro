@@ -1,0 +1,8 @@
+{
+  "original_question": "Mark yɛ nsɛmni ho kyerɛwfoɔ. Ɔkyerɛ nsɛmfua dodoɔ baako wɔ nnawɔtwe biara ma dea ɔtintim nnwoma mmienu a deɛ ɛda nso wɔn mu biara tua no ka soronko wɔ asɛmfua biara ho. Ɔdawurubɔfo B tua Mark ka no mmɔho mmienu a dawurubɔfo A tuaɛ. Mark siesie nsɛmfua bɛyɛ sɛ 1,000 wɔ nnawɔtwe biara mu, na Ɔkyerɛwfo A tua no 5 cent wɔ asɛm biara ho. Mark nya sika ahe wɔ nnawɔtwe biara, wɔ cent mu?",
+  "original_answer": 7500,
+  "symbolic_template": "{name_male, Mark} yɛ nsɛmni ho kyerɛwfoɔ. Ɔkyerɛ nsɛmfua dodoɔ baako wɔ nnawɔtwe biara ma dea ɔtintim nnwoma mmienu a deɛ ɛda nso wɔn mu biara tua no ka soronko wɔ asɛmfua biara ho. Ɔdawurubɔfo B tua {name_male, Mark} ka no mmɔho mmienu a dawurubɔfo A tuaɛ. {name_male, Mark} siesie nsɛmfua bɛyɛ sɛ {num_digit_1, 1,000} wɔ nnawɔtwe biara mu, na Ɔkyerɛwfo A tua no {num_digit_2, 5} cent wɔ asɛm biara ho. {name_male, Mark} nya sika ahe wɔ nnawɔtwe biara, wɔ cent mu?",
+  "ic_sentence_template": "{name_male, Mark} wɔfa akenkan akyerɛwee anansesɛm nhoma ahorow {num_ic, 3071} nnansa yi ara.",
+  "ic_template": "{name_male, Mark} yɛ nsɛmni ho kyerɛwfoɔ. Ɔkyerɛ nsɛmfua dodoɔ baako wɔ nnawɔtwe biara ma dea ɔtintim nnwoma mmienu a deɛ ɛda nso wɔn mu biara tua no ka soronko wɔ asɛmfua biara ho. Ɔdawurubɔfo B tua {name_male, Mark} ka no mmɔho mmienu a dawurubɔfo A tuaɛ. {name_male, Mark} siesie nsɛmfua bɛyɛ sɛ {num_digit_1, 1,000} wɔ nnawɔtwe biara mu, na Ɔkyerɛwfo A tua no {num_digit_2, 5} cent wɔ asɛm biara ho. {name_male, Mark} nya sika ahe wɔ nnawɔtwe biara, wɔ cent mu? {name_male, Mark} wɔfa akenkan akyerɛwee anansesɛm nhoma ahorow {num_ic, 3071} nnansa yi ara.",
+  "equation": "UPDATE HERE"
+}

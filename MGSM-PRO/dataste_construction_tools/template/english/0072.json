@@ -1,0 +1,8 @@
+{
+  "original_question": "Tommy is fundraising for his charity by selling brownies for $3 a slice and cheesecakes for $4 a slice. If Tommy sells 43 brownies and 23 slices of cheesecake, how much money does Tommy raise?",
+  "original_answer": 221,
+  "symbolic_template": "{name_male, Tommy} is fundraising for his charity by selling brownies for ${num_digit_1, 3} a slice and cheesecakes for ${num_digit_2, 4} a slice. If {name_male, Tommy} sells {num_digit_3, 43} brownies and {num_digit_4, 23} slices of cheesecake, how much money does {name_male, Tommy} raise?",
+  "ic_sentence_template": "{name_male, Tommy}'s aunt recently baked {num_ic, 164} loaves of bread for a local event.",
+  "ic_template": "{name_male, Tommy} is fundraising for his charity by selling brownies for ${num_digit_1, 3} a slice and cheesecakes for ${num_digit_2, 4} a slice. If {name_male, Tommy} sells {num_digit_3, 43} brownies and {num_digit_4, 23} slices of cheesecake, {name_male, Tommy}'s aunt recently baked {num_ic, 164} loaves of bread for a local event. How much money does {name_male, Tommy} raise?",
+  "equation": "UPDATE HERE"
+}

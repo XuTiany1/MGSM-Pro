@@ -1,0 +1,8 @@
+{
+  "original_question": "poppy ń ṣe àtúnṣe 1000 eré pọ́zùrù. ó gbé ìdajì àbọ̀ sí orí bọ́ọ̀dù , ìyá rẹ̀ fi ìkẹta èyí tó kù. mélòó ló kù nínú eré náà láti gbé?",
+  "original_answer": 500,
+  "symbolic_template": "{name_female, Poppy} ń ṣe àtúnṣe {num_digit_1, 1000} eré pọ́zùrù. ó gbé ìdajì àbọ̀ sí orí bọ́ọ̀dù , ìyá rẹ̀ fi ìdámẹ́ta èyí tó kù. mélòó ló kù nínú eré náà láti gbé?",
+  "ic_sentence_template": "Arákùnrin {name_female, Poppy} ní àwọn eré igbá {num_ic, 98}.",
+  "ic_template": "Arákùnrin {name_female, Poppy} ní àwọn eré igbá {num_ic, 98}. {name_female, Poppy} ń ṣe àtúnṣe {num_digit_1, 1000} eré pọ́zùrù. ó gbé ìdajì àbọ̀ sí orí bọ́ọ̀dù , ìyá rẹ̀ fi ìdámẹ́ta èyí tó kù. mélòó ló kù nínú eré náà láti gbé?",
+  "equation": "UPDATE HERE"
+}

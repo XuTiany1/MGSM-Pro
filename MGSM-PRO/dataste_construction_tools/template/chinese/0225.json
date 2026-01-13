@@ -1,0 +1,8 @@
+{
+  "original_question": "安德鲁计划一场从新泽西前往罗切斯特的公路旅行。乘坐公共汽车从新泽西到罗切斯特需要 6 天，开车所需天数则为其一半。如果他打算乘坐公共汽车去罗切斯特，然后从罗切斯特开车回来，他要旅行多少天？",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, 安德鲁} 计划一场从 {name_city_1, 新泽西} 前往 {name_city_2, 罗切斯特} 的公路旅行。乘坐公共汽车从 {name_city_1, 新泽西} 到 {name_city_2, 罗切斯特} 需要 {num_digit_1, 6} 天，开车所需天数则为其 一半。如果他打算乘坐公共汽车去 {name_city_2, 罗切斯特}，然后从 {name_city_2, 罗切斯特} 开车回来，他要旅行多少天？",
+  "ic_sentence_template": "{name_male, 安德鲁} 的叔叔去年夏天看到了 {num_ic, 373} 辆老爷车。",
+  "ic_template": "{name_male, 安德鲁} 的叔叔去年夏天看到了 {num_ic, 373} 辆老爷车。{name_male, 安德鲁} 计划一场从 {name_city_1, 新泽西} 前往 {name_city_2, 罗切斯特} 的公路旅行。乘坐公共汽车从 {name_city_1, 新泽西} 到 {name_city_2, 罗切斯特} 需要 {num_digit_1, 6} 天，开车所需天数则为其 一半。如果他打算乘坐公共汽车去 {name_city_2, 罗切斯特}，然后从 {name_city_2, 罗切斯特} 开车回来，他要旅行多少天？",
+  "equation": "UPDATE HERE"
+}

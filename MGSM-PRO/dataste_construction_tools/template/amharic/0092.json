@@ -1,0 +1,8 @@
+{
+  "original_question": "ኤሚሊ ኤሚ፣ ጃክሰን፣ ኮሪ እና ጄምስ የሚባሉ አራት ልጆች አሏት። ኤሚ ከጃክሰን በ5 ዓመት ትበልጣለች እና ከኮሪ ደግሞ በ2 ዓመት ታናሽ ናት። ጄምስ 10 ከሆነ  እና ከኮሪ በ1 ዓመት ታናሽ ከሆነ፣ ጃክሰን ስንት ዓመት ነው?",
+  "original_answer": 4,
+  "symbolic_template": "{name_female_1, ኤሚሊ} {name_female_2, ኤሚ}፣ {name_male_1, ጃክሰን}፣ {name_male_2, ኮሪ} እና {name_male_3, ጄምስ} የሚባሉ {num_digit_1, አራት} ልጆች አሏት። {name_female_2, ኤሚ} ከ{name_male_1, ጃክሰን} በ{num_digit_2, 5} ዓመት ትበልጣለች እና ከ{name_male_2, ኮሪ} ደግሞ በ{num_digit_3, 2} ዓመት ታናሽ ናት። {name_male_3, ጄምስ} {num_digit_4, 10} ከሆነ እና ከ{name_male_2, ኮሪ} በ{num_digit_5, 1} ዓመት ታናሽ ከሆነ፣ {name_male_1, ጃክሰን} ስንት ዓመት ነው?",
+  "ic_sentence_template": "{name_female_1, ኢሚሊ} አጎቷ ከመደብሩ {num_ic, 39} ፖሜል ገዛ።",
+  "ic_template": "{name_female_1, ኤሚሊ} {name_female_2, ኤሚ}፣ {name_male_1, ጃክሰን}፣ {name_male_2, ኮሪ} እና {name_male_3, ጄምስ} የሚባሉ {num_digit_1, አራት} ልጆች አሏት። {name_female_2, ኤሚ} ከ{name_male_1, ጃክሰን} በ{num_digit_2, 5} ዓመት ትበልጣለች እና ከ{name_male_2, ኮሪ} ደግሞ በ{num_digit_3, 2} ዓመት ታናሽ ናት። {name_male_3, ጄምስ} {num_digit_4, 10} ከሆነ እና ከ{name_male_2, ኮሪ} በ{num_digit_5, 1} ዓመት ታናሽ ከሆነ፣ {name_male_1, ጃክሰን} ስንት ዓመት ነው? {name_female_1, ኢሚሊ} አጎቷ ከመደብሩ {num_ic, 39} ፖሜል ገዛ።",
+  "equation": "UPDATE HERE"
+}

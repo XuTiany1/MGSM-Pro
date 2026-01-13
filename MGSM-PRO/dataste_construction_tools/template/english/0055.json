@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean has 30 lollipops. Jean eats 2 of the lollipops. With the remaining lollipops, Jean wants to package 2 lollipops in one bag. How many bags can Jean fill?",
+  "original_answer": 14,
+  "symbolic_template": "{name_male, Jean} has {num_digit_1, 30} lollipops. {name_male, Jean} eats {num_digit_2, 2} of the lollipops. With the remaining lollipops, {name_male, Jean} wants to package {num_digit_3, 2} lollipops in one bag. How many bags can {name_male, Jean} fill?",
+  "ic_sentence_template": "{name_male, Jean}'s aunt recently bought {num_ic, 94} balloons.",
+  "ic_template": "{name_male, Jean} has {num_digit_1, 30} lollipops. {name_male, Jean} eats {num_digit_2, 2} of the lollipops. With the remaining lollipops, {name_male, Jean} wants to package {num_digit_3, 2} lollipops in one bag. {name_male, Jean}'s aunt recently bought {num_ic, 94} balloons. How many bags can {name_male, Jean} fill?",
+  "equation": "UPDATE HERE"
+}

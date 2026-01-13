@@ -1,0 +1,8 @@
+{
+  "original_question": "Wɔ afipam bi mu no, nnanko ayԑmmoa dodoɔ no sua kyԑn nkraman ne nkra ayԑmmoa a y’aka abɔ mu no du mmienu. Sԑ ɔwɔ nkra mmienu biara ma ɔkraman baako a, ayԑmmoa dodoɔ sԑn na ԑwɔ afipam no mu?",
+  "original_answer": 348,
+  "symbolic_template": "  Wɔ afipam bi mu no, nnanko ayԑmmoa dodoɔ no sua kyԑn nkraman ne nkra ayԑmmoa a y’aka abɔ mu no du mmienu. Sԑ ɔwɔ nkra mmienu biara ma ɔkraman baako a, nkraman dodoɔ no yɛ {num_digit_1, 60}, ayԑmmoa dodoɔ sԑn na ԑwɔ afipam no mu?",
+  "ic_sentence_template": "{name_female, Olivia} wɔfa no wɔ akyekyedeɛ {num_ic, 197}.",
+  "ic_template": "{name_female, Olivia} wɔfa no wɔ akyekyedeɛ {num_ic, 197}.   Wɔ afipam bi mu no, nnanko ayԑmmoa dodoɔ no sua kyԑn nkraman ne nkra ayԑmmoa a y’aka abɔ mu no du mmienu. Sԑ ɔwɔ nkra mmienu biara ma ɔkraman baako a, nkraman dodoɔ no yɛ {num_digit_1, 60}, ayԑmmoa dodoɔ sԑn na ԑwɔ afipam no mu?",
+  "equation": "UPDATE HERE"
+}

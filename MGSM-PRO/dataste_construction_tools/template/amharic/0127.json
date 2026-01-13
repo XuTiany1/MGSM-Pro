@@ -1,0 +1,8 @@
+{
+  "original_question": "ኤሚ ወደ አዲስ ትምህርት ቤት ከተዛወረች በኋላ ከሊሊ የበለጠ 20 ጓደኞች አፈራች። ሊሊ 50 ጓደኞች ካፈራች፣ ሊሊ እና ኤሚ ምን ያህል ጓደኞች አሏቸው?",
+  "original_answer": 120,
+  "symbolic_template": "{name_female_1, ኤሚ} ወደ አዲስ ትምህርት ቤት ከተዛወረች በኋላ ከ{name_female_2, ሊሊ} የበለጠ {num_digit_1, 20} ጓደኞች አፈራች። {name_female_2, ሊሊ} {num_digit_2, 50} ጓደኞች ካፈራች፣ {name_female_2, ሊሊ} እና {name_female_1, ኤሚ} ምን ያህል ጓደኞች አሏቸው?",
+  "ic_sentence_template": "{name_female_2, ሊሊ} አጎቷ  {num_ic, 42} አስቂኝ መጽሃፎችን የእንኳን ደህና መጣችሽ ስጦታ አድርጎ ሰጣት።",
+  "ic_template": "{name_female_1, ኤሚ} ወደ አዲስ ትምህርት ቤት ከተዛወረች በኋላ ከ{name_female_2, ሊሊ} የበለጠ {num_digit_1, 20} ጓደኞች አፈራች። {name_female_2, ሊሊ} {num_digit_2, 50} ጓደኞች ካፈራች፣ {name_female_2, ሊሊ} እና {name_female_1, ኤሚ} ምን ያህል ጓደኞች አሏቸው? {name_female_2, ሊሊ} አጎቷ  {num_ic, 42} አስቂኝ መጽሃፎችን የእንኳን ደህና መጣችሽ ስጦታ አድርጎ ሰጣት።",
+  "equation": "UPDATE HERE"
+}

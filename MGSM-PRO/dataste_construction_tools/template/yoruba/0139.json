@@ -1,0 +1,8 @@
+{
+  "original_question": "Nínú ẹ̀rọ candy kan, gumballs aláwọ̀ búlúù tó wà níbẹ̀ fi 22 ju ìlọ́po mẹ́rin iye àwọn gumballs aláwọ̀ píǹkì lọ. Tí  gumballs aláwọ̀ búlúù 12  bá wà níbẹ̀, aláwọ̀ píǹkì mélòó ló wà níbẹ̀?",
+  "original_answer": 70,
+  "symbolic_template": "Nínú ẹ̀rọ candy kan, gumballs aláwọ̀ búlúù tó wà níbẹ̀ fi {num_digit_1, 22} ju ìlọ́po mẹ́rin iye àwọn gumballs aláwọ̀ píǹkì lọ. Tí gumballs aláwọ̀ búlúù {num_digit_2, 12} bá wà níbẹ̀, aláwọ̀ píǹkì mélòó ló wà níbẹ̀?",
+  "ic_sentence_template": "Àwọn ọmọde {num_ic, 147} ni wọlé sí ẹ̀rọ náà ní ọjọ́ yẹn.",
+  "ic_template": "Àwọn ọmọde {num_ic, 147} ni wọlé sí ẹ̀rọ náà ní ọjọ́ yẹn. Nínú ẹ̀rọ candy kan, gumballs aláwọ̀ búlúù tó wà níbẹ̀ fi {num_digit_1, 22} ju ìlọ́po mẹ́rin iye àwọn gumballs aláwọ̀ píǹkì lọ. Tí gumballs aláwọ̀ búlúù {num_digit_2, 12} bá wà níbẹ̀, aláwọ̀ píǹkì mélòó ló wà níbẹ̀?",
+  "equation": "UPDATE HERE"
+}

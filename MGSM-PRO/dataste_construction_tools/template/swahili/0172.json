@@ -1,0 +1,8 @@
+{
+  "original_question": "Kuna ndege wanne katika Caboose. Sally Two ana umri wa miaka mitatu zaidi ya Granny Red. Umri wa Granny Red ni mara mbili zaidi ya umri wa Sally Four. Ikiwa Sally Four ana umri sawa na Sally Thirtytwo, na Sally Thirtytwo ana umri wa miaka 8, jumla ya umri wa ndege hawa wanne ni ngapi?",
+  "original_answer": 51,
+  "symbolic_template": "Kuna ndege wanne kwenye Caboose. {name_female_1, Sally} ana miaka mitatu zaidi ya {name_female_2, Granny} {name_color, Red}. {name_female_2, Granny} {name_color, Red} ana umri wa mara mbili ya {name_female_1, Sally}. Ikiwa {name_female_1, Sally} ana umri sawa na {name_female_1, Sally}, na {name_female_1, Sally} ana miaka {num_digit_1, 8}, jumla ya umri wa ndege wanne ni kiasi gani?",
+  "ic_sentence_template": "{name_female_2, Granny} {name_color, Nyekundu} ana mpwa anayekusanya marumaru {num_ic, 93}.",
+  "ic_template": "Kuna ndege wanne kwenye Caboose. {name_female_1, Sally} ana miaka mitatu zaidi ya {name_female_2, Granny} {name_color, Red}. {name_female_2, Granny} {name_color, Red} ana umri wa mara mbili ya {name_female_1, Sally}. Ikiwa {name_female_1, Sally} Four ana umri sawa na {name_female_1, Sally} Thirtytwo, na {name_female_1, Sally} Thirtytwo ana miaka {num_digit_1, 8}, jumla ya umri wa ndege hao wanne ni kiasi gani? Mpwa wa {name_female_2, Granny} {name_color, Red} anakusanya marumaru {num_ic, 93}.",
+  "equation": "UPDATE HERE"
+}

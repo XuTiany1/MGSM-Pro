@@ -1,0 +1,8 @@
+{
+  "original_question": "Cynthia mange une portion de glace tous les soirs. Elle achète des cartons contenant 15 portions de glace chacun, au prix de 4,00 $ le carton. Après 60 jours, combien dépensera-t-elle en glace ?",
+  "original_answer": 16,
+  "symbolic_template": "{name_female, Cynthia} mange une portion de glace tous les soirs. Elle achète des cartons contenant {num_digit_1, 15} portions de glace chacun, au prix de {num_digit_2, 4},00 $ le carton. Après {num_digit_3, 60} jours, combien dépensera-t-elle en glace ?",
+  "ic_sentence_template": "L’oncle de {name_female, Cynthia} a {num_ic, 7} parfums de sorbet dans son congélateur.",
+  "ic_template": "L’oncle de {name_female, Cynthia} a {num_ic, 7} parfums de sorbet dans son congélateur. {name_female, Cynthia} mange une portion de glace tous les soirs. Elle achète des cartons contenant {num_digit_1, 15} portions de glace chacun, au prix de {num_digit_2, 4},00 $ le carton. Après {num_digit_3, 60} jours, combien dépensera-t-elle en glace ?",
+  "equation": "UPDATE HERE"
+}

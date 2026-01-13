@@ -1,0 +1,27 @@
+{
+    "problem_id": "0145",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [5, 20]},
+        "num_digit_2": {"type": "int", "range": [50, 500]},
+        "num_digit_3": {"type": "int", "range": [1, 6]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "yield_per_harvest = num_digit_1 * num_digit_2",
+            "harvests_per_year = 12 / num_digit_3",
+            "ans = yield_per_harvest * harvests_per_year"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 3, "max_digits": 5}
+    },
+    "restrictions": {
+        "num_digit_3": [
+            "12 % num_digit_3 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

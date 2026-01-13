@@ -1,0 +1,8 @@
+{
+  "original_question": "Mpishi alinunua mifuko 4 ya vitunguu. Kila mfuko kina uzani wa pauni 50. Pauni moja ya vitunguu ni $1.50. Mpishi huyo alitumia pesa ngapi?",
+  "original_answer": 300,
+  "symbolic_template": "Mpishi alinunua mifuko {num_digit_1, 4} ya vitunguu. Kila mfuko kina uzani wa pauni {num_digit_2, 50}. Pauni moja ya vitunguu ni ${num_digit_3, 1.50}. Mpishi huyo alitumia pesa ngapi?",
+  "ic_sentence_template": "Kila mwaka, shangazi wa mpishi hupanda nyanya {num_ic, 38} katika bustani yake.",
+  "ic_template": "Kila mwaka, shangazi wa mpishi hupanda nyanya {num_ic, 38} katika bustani yake. Mpishi alinunua mifuko {num_digit_1, 4} ya vitunguu. Kila mfuko kina uzani wa pauni {num_digit_2, 50}. Pauni moja ya vitunguu ni ${num_digit_3, 1.50}. Mpishi huyo alitumia pesa ngapi?",
+  "equation": "UPDATE HERE"
+}

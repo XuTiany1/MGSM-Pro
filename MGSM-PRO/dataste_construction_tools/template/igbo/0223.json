@@ -1,0 +1,8 @@
+{
+  "original_question": "Otu ụlọ ọrụ na-emefu $15000 na mgbasa ozi maka otu afọ, emecha ọ na-emefu ugboro atọ ego ole ahụ na mgbasa ozi maka afọ ọzọ. Kedụ ngụkọta ego ole ụlọ ọrụ ahụ mefuru na mgbasa ozi maka afọ abụọ a?",
+  "original_answer": 20000,
+  "symbolic_template": "Otu ụlọ ọrụ na-emefu ${num_digit_1, 15000} na mgbasa ozi maka otu afọ, emecha ọ na-emefu otu n'ime atọ ego ole ahụ na mgbasa ozi maka afọ ọzọ. Kedụ ngụkọta ego ole ụlọ ọrụ ahụ mefuru na mgbasa ozi maka afọ abụọ a?",
+  "ic_sentence_template": "Nwa Nwanne nna nke CEO nyere {num_ic, 91} pizza n'oge nzukọ kwa afọ.",
+  "ic_template": "Nwa Nwanne nna nke CEO nyere {num_ic, 91} pizza n'oge nzukọ kwa afọ. Otu ụlọ ọrụ na-emefu ${num_digit_1, 15000} na mgbasa ozi maka otu afọ, emecha ọ na-emefu otu n'ime atọ ego ole ahụ na mgbasa ozi maka afọ ọzọ. Kedụ ngụkọta ego ole ụlọ ọrụ ahụ mefuru na mgbasa ozi maka afọ abụọ a?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Kelian ní ohun èlò àpèjúwe fún síse oúnjẹ, ọ̀kan ní ìtọ́sọ́nà 20 èkejì sì ní ìlọ́po méjì ìtọ́nisọ́nà ti àkọ́kọ́. Ìtọ́sọ́nà mélòó ní Kelian ní láti kà láti se oúnjẹ méjèèjì? ",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Kelian} ní ohun èlò àpèjúwe fún síse oúnjẹ, ọ̀kan ní ìtọ́sọ́nà {num_digit_1, 20} èkejì sì ní ìlọ́po méjì ìtọ́nisọ́nà ti àkọ́kọ́. Ìtọ́sọ́nà mélòó ní {name_male, Kelian} ní láti kà láti se oúnjẹ méjèèjì?",
+  "ic_sentence_template": "Ìyá ńlá {name_male, Kelian} ní ìwé ìdáná {num_ic, 77}.",
+  "ic_template": "Ìyá ńlá {name_male, Kelian} ní ìwé ìdáná {num_ic, 77}. {name_male, Kelian} ní ohun èlò àpèjúwe fún síse oúnjẹ, ọ̀kan ní ìtọ́sọ́nà {num_digit_1, 20} èkejì sì ní ìlọ́po méjì ìtọ́nisọ́nà ti àkọ́kọ́. Ìtọ́sọ́nà mélòó ní {name_male, Kelian} ní láti kà láti se oúnjẹ méjèèjì?",
+  "equation": "UPDATE HERE"
+}

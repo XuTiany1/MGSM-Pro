@@ -1,0 +1,8 @@
+{
+  "original_question": "Brittany and her mom go to the museum. The cost of admission is $12 for adults and $10 for children. Brittany's mom gives the cashier money for 1 child ticket and 1 adult ticket. If she received $8 in change, how much money, in dollars, did she give the cashier?",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, Brittany} and her mom go to the museum. The cost of admission is ${num_digit_1, 12} for adults and ${num_digit_2, 10} for children. {name_female, Brittany}'s mom gives the cashier money for {num_digit_3, 1} child ticket and {num_digit_4, 1} adult ticket. If she received ${num_digit_5, 8} in change, how much money, in dollars, did she give the cashier?",
+  "ic_sentence_template": "{name_female, Brittany}'s uncle visited the museum last week and bought {num_ic, 31} postcards.",
+  "ic_template": "{name_female, Brittany} and her mom go to the museum. The cost of admission is ${num_digit_1, 12} for adults and ${num_digit_2, 10} for children. {name_female, Brittany}'s mom gives the cashier money for {num_digit_3, 1} child ticket and {num_digit_4, 1} adult ticket. {name_female, Brittany}'s uncle visited the museum last week and bought {num_ic, 31} postcards. If she received ${num_digit_5, 8} in change, how much money, in dollars, did she give the cashier?",
+  "equation": "UPDATE HERE"
+}

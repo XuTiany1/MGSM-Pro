@@ -1,0 +1,8 @@
+{
+  "original_question": "Mark leere nwale nke nwere ajụjụ iri asaa na ise ụnyaahụ. O lechara nwale ahụ n'ọnụ nha ajụjụ ise kwa awa. Taata, o leere nwale ọzọ nwere ajụjụ otu narị n'ọnụ nha ajụjụ ise kwa awa. Ọ bụrụ na Mark nweere awa asatọ ịji lechaa nke mbụ na awa isii ịji lechaa nke abụọ, ajụjụ ole ka ọ hapụrụ nke a na-asaghi asa? ",
+  "original_answer": 105,
+  "symbolic_template": "{name_male, Mark} leere nwale nke nwere ajụjụ {num_digit_1, 75} ụnyaahụ. O lechara nwale ahụ n'ọnụ nha ajụjụ {num_digit_2, 5} kwa awa. Taata, o leere nwale ọzọ nwere ajụjụ {num_digit_3, 100} n'ọnụ nha ajụjụ ise kwa awa. Ọ bụrụ na {name_male, Mark} nweere awa {num_digit_4, 8} iji lechaa nke mbụ na awa {num_digit_5, 6} iji lechaa nke abụọ, ajụjụ ole ka ọ hapụrụ nke a na-asaghi asa?",
+  "ic_sentence_template": "Nwanne nna {name_male_1, Brian} nwere {num_ic, 30} akwụkwọ nnọchia.",
+  "ic_template": "Nwanne nna {name_male, Mark} nwere {num_ic, 68} akwụkwọ nnọchia. {name_male, Mark} leere nwale nke nwere ajụjụ {num_digit_1, 75} ụnyaahụ. O lechara nwale ahụ n'ọnụ nha ajụjụ {num_digit_2, 5} kwa awa. Taata, o leere nwale ọzọ nwere ajụjụ {num_digit_3, 100} n'ọnụ nha ajụjụ ise kwa awa. Ọ bụrụ na {name_male, Mark} nweere awa {num_digit_4, 8} iji lechaa nke mbụ na awa {num_digit_5, 6} iji lechaa nke abụọ, ajụjụ ole ka ọ hapụrụ nke a na-asaghi asa?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Billy na-ebecha ma na-egbubi ndukwu maka ịme sálàd maka imi anụ e ji eme mmemme lọghachi nke ezinụlọ. Ọ bụ nnukwu mmemme, ya mere o nwere ndukwu iri isii ịji gafere. Ndukwu ndị ahụ dịka ka ha bụ otu nha, ya mere ọ na-ewe otu oge ịji bechaa na gbujie otu. Ọ na-ewe Billy ịhe dịka otu nkeji na ọkara iji bechaa otu ndukwu, mana naanị sekọndu ise ịji gbujie ya. Oge ole ka ọ ga-ewe Billy ịji kwadocha ndukwu ndị ahụ? ",
+  "original_answer": 95,
+  "symbolic_template": "{name_male, Billy} na-ebecha ma na-egbubi ndukwu maka ịme sálàd maka imi anụ e ji eme mmemme lọghachi nke ezinụlọ. Ọ bụ nnukwu mmemme, ya mere o nwere ndukwu {num_digit_1, 60} iji gafere. Ndukwu ndị ahụ dịka ka ha bụ otu nha, ya mere ọ na-ewe otu oge ịji bechaa na gbujie otu. Ọ na-ewe {name_male, Billy} ịhe dịka otu nkeji na ọkara iji bechaa otu ndukwu, mana naanị sekọndu 5 iji gbujie ya. Oge ole ka ọ ga-ewe {name_male, Billy} iji kwadocha ndukwu ndị ahụ?",
+  "ic_sentence_template": "Nwanne nne {name_male, Billy} bịara na mmekorita ahụ na {num_ic, 63} achịcha ụlọ gwara.",
+  "ic_template": "Nwanne nne {name_male, Billy} bịara na mmekorita ahụ na {num_ic, 63} achịcha ụlọ gwara. {name_male, Billy} na-ebecha ma na-egbubi ndukwu maka ịme sálàd maka imi anụ e ji eme mmemme lọghachi nke ezinụlọ. Ọ bụ nnukwu mmemme, ya mere o nwere ndukwu {num_digit_1, 60} iji gafere. Ndukwu ndị ahụ dịka ka ha bụ otu nha, ya mere ọ na-ewe otu oge ịji bechaa na gbujie otu. Ọ na-ewe {name_male, Billy} ịhe dịka otu nkeji na ọkara iji bechaa otu ndukwu, mana naanị sekọndu 5 iji gbujie ya. Oge ole ka ọ ga-ewe {name_male, Billy} iji kwadocha ndukwu ndị ahụ?",
+  "equation": "UPDATE HERE"
+}

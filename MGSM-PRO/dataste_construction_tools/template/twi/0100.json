@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerome wɔ nnamfonom 4 a wɔbԑsraa no wɔ da bi mu. Adamfo a ɔdi kan no bɔɔ pono-adɔma no mprԑ 20 ansa na Jerome bueԑ, adamfo a ɔtɔ so mmienu no bɔɔ pono-adɔma no mprԑ ¼ kyԑn Jerome adamfo a ɔdi kan no. Adamfo a ɔto so mmiԑnsa no bɔɔ pono-adɔma no mprԑ 10 kyԑn adamfo a ɔtɔ so nnan no. Sԑ adamfo a ɔtɔ so nnan no bɔ adɔma no mprԑ 60 a, mprԑ dodoɔ sԑn na pono-adɔma no bɔɔԑ?",
+  "original_answer": 175,
+  "symbolic_template": "{name_male, Jerome} wɔ nnamfonom {num_digit_1, 4} a wɔbԑsraa no wɔ da bi mu. Adamfo a ɔdi kan no bɔɔ pono-adɔma no mprԑ {num_digit_2, 20} ansa na {name_male, Jerome} bueԑ, adamfo a ɔtɔ so mmienu no bɔɔ pono-adɔma no mprԑ 1/4 kyԑn {name_male, Jerome} adamfo a ɔdi kan no. Adamfo a ɔto so mmiԑnsa no bɔɔ pono-adɔma no mprԑ {num_digit_3, 10} kyԑn adamfo a ɔtɔ so nnan no. Sԑ adamfo a ɔtɔ so nnan no bɔ adɔma no mprԑ {num_digit_4, 60} a, mprԑ dodoɔ sԑn na pono-adɔma no bɔɔԑ?",
+  "ic_sentence_template": "{name_male, Jerome} wɔfa tɔɔ nkratoɔ krataa {num_ic, 136} sɛ akyɛde da bi.",
+  "ic_template": "{name_male, Jerome} wɔfa tɔɔ nkratoɔ krataa {num_ic, 136} sɛ akyɛde da bi. {name_male, Jerome} wɔ nnamfonom {num_digit_1, 4} a wɔbԑsraa no wɔ da bi mu. Adamfo a ɔdi kan no bɔɔ pono-adɔma no mprԑ {num_digit_2, 20} ansa na {name_male, Jerome} bueԑ, adamfo a ɔtɔ so mmienu no bɔɔ pono-adɔma no mprԑ 1/4 kyԑn {name_male, Jerome} adamfo a ɔdi kan no. Adamfo a ɔto so mmiԑnsa no bɔɔ pono-adɔma no mprԑ {num_digit_3, 10} kyԑn adamfo a ɔtɔ so nnan no. Sԑ adamfo a ɔtɔ so nnan no bɔ adɔma no mprԑ {num_digit_4, 60} a, mprԑ dodoɔ sԑn na pono-adɔma no bɔɔԑ?",
+  "equation": "UPDATE HERE"
+}

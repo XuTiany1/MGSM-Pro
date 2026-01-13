@@ -1,0 +1,8 @@
+{
+  "original_question": "ዶሊ ሁለት መፀሃፎች አሏት. ፓንዶራ ደግሞ አንድ. ሁለቱም ዶሊ እና ፓንዶራ አንዷ የሌላዋን ቢያነቡ እና የነሱን ጨምሮ, በስተመጨረሻ ምን ያህል መፀሃፎች በጋራ ያነባሉ?",
+  "original_answer": 6,
+  "symbolic_template": "{name_female_1, ዶሊ}  ሁለት መፀሃፎች አሏት. {name_female_2, ፓንዶራ} ደግሞ አንድ. ሁለቱም {name_female_1, ዶሊ} እና {name_female_2, ፓንዶራ} አንዷ የሌላዋን ቢያነቡ እና የነሱን ጨምሮ, በስተመጨረሻ ምን ያህል መፀሃፎች በጋራ ያነባሉ?",
+  "ic_sentence_template": "የ{name_female_2, ፓንዶራ} አጎት {num_ic, 674} መጽሐፍቶች ባለቤት ነው።",
+  "ic_template": "{name_female_1, ዶሊ}  ሁለት መፀሃፎች አሏት. {name_female_2, ፓንዶራ} ደግሞ አንድ. ሁለቱም {name_female_1, ዶሊ} እና {name_female_2, ፓንዶራ} አንዷ የሌላዋን ቢያነቡ እና የነሱን ጨምሮ, በስተመጨረሻ ምን ያህል መፀሃፎች በጋራ ያነባሉ? የ{name_female_2, ፓንዶራ} አጎት {num_ic, 674} መጽሐፍቶች ባለቤት ነው።",
+  "equation": "UPDATE HERE"
+}

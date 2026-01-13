@@ -1,0 +1,8 @@
+{
+  "original_question": "サッカーチームが22試合行った。彼らは負けた試合の数よりも8試合多く勝った。彼らは何回勝ったか？",
+  "original_answer": 15,
+  "symbolic_template": "サッカーチームが{num_digit_1, 22}試合行った。彼らは負けた試合の数よりも{num_digit_2, 8}試合多く勝った。彼らは何回勝ったか？",
+  "ic_sentence_template": "{name_male, ジョン}のおじさんは今シーズン{num_ic, 124}試合に出席しました。",
+  "ic_template": "{name_male, ジョン}のおじさんは今シーズン{num_ic, 124}試合に出席しました。サッカーチームが{num_digit_1, 22}試合行った。彼らは負けた試合の数よりも{num_digit_2, 8}試合多く勝った。彼らは何回勝ったか？",
+  "equation": "UPDATE HERE"
+}

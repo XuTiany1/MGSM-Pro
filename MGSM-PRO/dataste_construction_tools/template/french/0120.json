@@ -1,0 +1,8 @@
+{
+  "original_question": "Miguel utilise 2 cartons de papier par semaine pour son dessin. Si chaque carton contient 30 feuilles de papier, combien de feuilles de papier utilise-t-il par mois ?",
+  "original_answer": 240,
+  "symbolic_template": "{name_male, Miguel} utilise {num_digit_1, 2} cartons de papier par semaine pour son dessin. Si chaque carton contient {num_digit_2, 30} feuilles de papier, combien de feuilles de papier utilise-t-il par mois ?",
+  "ic_sentence_template": "{name_male, Miguel} a un oncle qui possède {num_ic, 100} crayons de couleur dans son atelier d'art.",
+  "ic_template": "{name_male, Miguel} a un oncle qui possède {num_ic, 100} crayons de couleur dans son atelier d'art. {name_male, Miguel} utilise {num_digit_1, 2} cartons de papier par semaine pour son dessin. Si chaque carton contient {num_digit_2, 30} feuilles de papier, combien de feuilles de papier utilise-t-il par mois ?",
+  "equation": "UPDATE HERE"
+}

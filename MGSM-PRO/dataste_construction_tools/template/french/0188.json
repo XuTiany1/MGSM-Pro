@@ -1,0 +1,8 @@
+{
+  "original_question": "Un commerçant achète quelques sacs de blé à un agriculteur au prix de 20 $ le sac. Sachant que le transport d'un sac de la ferme à l'entrepôt coûte 2 $ et que tous les sacs ont été vendus à 30 $ le sac pour un bénéfice total de 400 $, combien de sacs a-t-il vendus ?",
+  "original_answer": 50,
+  "symbolic_template": "Un commerçant achète quelques sacs de blé à un agriculteur au prix de {num_digit_1, 20} $ le sac. Sachant que le transport d'un sac de la ferme à l'entrepôt coûte {num_digit_2, 2} $ et que tous les sacs ont été vendus à {num_digit_4, 30} $ le sac pour un bénéfice total de {num_digit_3, 400} $, combien de sacs a-t-il vendus ?",
+  "ic_sentence_template": "Le cousin du commerçant possède {num_ic, 80} pommiers sur sa propriété.",
+  "ic_template": "Le cousin du commerçant possède {num_ic, 80} pommiers sur sa propriété. Un commerçant achète quelques sacs de blé à un agriculteur au prix de {num_digit_1, 20} $ le sac. Sachant que le transport d'un sac de la ferme à l'entrepôt coûte {num_digit_2, 2} $ et que tous les sacs ont été vendus à {num_digit_4, 30} $ le sac pour un bénéfice total de {num_digit_3, 400} $, combien de sacs a-t-il vendus ?",
+  "equation": "UPDATE HERE"
+}

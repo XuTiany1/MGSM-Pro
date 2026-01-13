@@ -1,0 +1,8 @@
+{
+  "original_question": "胡安和弟弟卡洛斯正在卖柠檬水。他们每制作一加仑的柠檬水，需要用掉 3 美元的柠檬和 2 美元的糖。他们每加仑能做出 20 杯，每杯卖 0.50 美元。如果他们的利润是 25 美元，他们花了多少钱买柠檬？",
+  "original_answer": 15,
+  "symbolic_template": "{name_male_1, 胡安} 和弟弟 {name_male_2, 卡洛斯} 正在卖柠檬水。他们每制作一加仑的柠檬水，需要用掉 {num_digit_1, 3} 美元的柠檬和 {num_digit_2, 2} 美元的糖。他们每加仑能做出 {num_digit_4, 20} 杯，每杯卖 {num_digit_3, 0.50} 美元。如果他们的利润是 {num_digit_5, 25} 美元，他们花了多少钱买柠檬？",
+  "ic_sentence_template": "{name_male_2, 卡洛斯} 的姑妈带来了 {num_ic, 44} 块饼干来分享。",
+  "ic_template": "{name_male_2, 卡洛斯} 的姑妈带来了 {num_ic, 44} 块饼干来分享。{name_male_1, 胡安} 和弟弟 {name_male_2, 卡洛斯} 正在卖柠檬水。他们每制作一加仑的柠檬水，需要用掉 {num_digit_1, 3} 美元的柠檬和 {num_digit_2, 2} 美元的糖。他们每加仑能做出 {num_digit_4, 20} 杯，每杯卖 {num_digit_3, 0.50} 美元。如果他们的利润是 {num_digit_5, 25} 美元，他们花了多少钱买柠檬？",
+  "equation": "UPDATE HERE"
+}

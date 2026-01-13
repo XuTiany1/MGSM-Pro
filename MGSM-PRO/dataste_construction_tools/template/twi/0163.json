@@ -1,0 +1,8 @@
+{
+  "original_question": "Agode ahorow pii wɔ dan no mu, ka kɔkɔɔ enum, agudeɛ mmiɛnsa, ne abaduaba. Abaduaba no bo yɛ agudeɛ mmiɛnsa na ka kɔkɔɔ baako bo yɛ $4. Sɛ abaduaba nyinaa bo yɛ $5 a, ɛndeɛ agudeɛ no nyinaa bo yɛ ahe?",
+  "original_answer": 50,
+  "symbolic_template": "Agode ahorow pii wɔ dan no mu, ka kɔkɔɔ {num_digit_1, enum}, agudeɛ {num_digit_2, mmiɛnsa}, ne abaduaba. Abaduaba no bo yɛ agudeɛ {num_digit_3, mmiɛnsa} na ka kɔkɔɔ baako bo yɛ ${num_digit_4, 4}. Sɛ abaduaba nyinaa bo yɛ ${num_digit_5, 5} a, ɛndeɛ agudeɛ no nyinaa bo yɛ ahe?",
+  "ic_sentence_template": "{name_male, Billy} nua no wɔ teddy bear {num_ic, 31}.",
+  "ic_template": "{name_male, Billy} nua no wɔ teddy bear {num_ic, 31}. Agode ahorow pii wɔ dan no mu, ka kɔkɔɔ {num_digit_1, enum}, agudeɛ {num_digit_2, mmiɛnsa}, ne abaduaba. Abaduaba no bo yɛ agudeɛ {num_digit_3, mmiɛnsa} na ka kɔkɔɔ baako bo yɛ ${num_digit_4, 4}. Sɛ abaduaba nyinaa bo yɛ ${num_digit_5, 5} a, ɛndeɛ agudeɛ no nyinaa bo yɛ ahe?",
+  "equation": "UPDATE HERE"
+}

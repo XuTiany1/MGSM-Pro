@@ -1,0 +1,8 @@
+{
+  "original_question": "ジャネスは2,000ドル借りて、10%増しで返済すると約束しました。12か月間にわたり月165ドル払うとした場合、12か月後の負債残高はいくらになっていますか？",
+  "original_answer": 220,
+  "symbolic_template": "{name_female, ジャネス}は{num_digit_1, 2000}ドル借りて、{num_digit_2, 10}%増しで返済すると約束しました。{num_digit_4, 12}か月間にわたり月{num_digit_3, 165}ドル払うとした場合、{num_digit_4, 12}か月後の負債残高はいくらになっていますか？",
+  "ic_sentence_template": "{name_female, ジャネット}のおじは昨年{num_ic, 93000}枚の宝くじを受け取りました。",
+  "ic_template": "{name_female, ジャネット}のおじは昨年{num_ic, 93000}枚の宝くじを受け取りました。{name_female, ジャネス}は{num_digit_1, 2000}ドル借りて、{num_digit_2, 10}%増しで返済すると約束しました。{num_digit_4, 12}か月間にわたり月{num_digit_3, 165}ドル払うとした場合、{num_digit_4, 12}か月後の負債残高はいくらになっていますか？",
+  "equation": "UPDATE HERE"
+}

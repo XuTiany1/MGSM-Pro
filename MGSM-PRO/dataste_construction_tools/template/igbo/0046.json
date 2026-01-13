@@ -1,0 +1,8 @@
+{
+  "original_question": "Candice tinyere akwụkwọ post-it iri asatọ n'akpa ya tupu ọ zọpụ ije gawa ọrụ n'ụlọ ahịa kọfị. N'ụzọ ya, ọ kwụsịrị n'ụlọ ahịa ahụ zụta otu paaki akwụkwọ Post-it; n'ọrụ, o tinyere otu mkpụrụ akwụkwọ Post-it n'elu otu na otu iko kọfị ndị dị ịche ịche narị abụọ na iri abụọ. Ọ bụrụ na o nwere akwụkwọ Post-it iri abụọ na atọ fọrọ n'ihe niile, kedụ akwụkwọ Post-it ole nọ na paaki ahụ ọ zụrụtara? ",
+  "original_answer": 163,
+  "symbolic_template": "{name_female, Candice} tinyere akwụkwọ post-it {num_digit_1, 80} n'akpa ya tupu ọ zọpụ ije gawa ọrụ n'ụlọ ahịa kọfị. N'ụzọ ya, ọ kwụsịrị n'ụlọ ahịa ahụ zụta otu paaki akwụkwọ Post-it; n'ọrụ, o tinyere otu mkpụrụ akwụkwọ Post-it n'elu otu na otu iko kọfị ndị dị ịche ịche {num_digit_2, 220}. Ọ bụrụ na o nwere akwụkwọ Post-it {num_digit_3, 23} fọrọ n'ihe niile, kedụ akwụkwọ Post-it ole nọ na paaki ahụ ọ zụrụtara?",
+  "ic_sentence_template": "Nwoke nwanne nna {name_female, Candice} na-anakọta iko kọfị {num_ic, 988} n'ụlọ ya.",
+  "ic_template": "Nwoke nwanne nna {name_female, Candice} na-anakọta iko kọfị {num_ic, 988} n'ụlọ ya. {name_female, Candice} tinyere akwụkwọ post-it {num_digit_1, 80} n'akpa ya tupu ọ zọpụ ije gawa ọrụ n'ụlọ ahịa kọfị. N'ụzọ ya, ọ kwụsịrị n'ụlọ ahịa ahụ zụta otu paaki akwụkwọ Post-it; n'ọrụ, o tinyere otu mkpụrụ akwụkwọ Post-it n'elu otu na otu iko kọfị ndị dị ịche ịche {num_digit_2, 220}. Ọ bụrụ na o nwere akwụkwọ Post-it {num_digit_3, 23} fọrọ n'ihe niile, kedụ akwụkwọ Post-it ole nọ na paaki ahụ ọ zụrụtara?",
+  "equation": "UPDATE HERE"
+}

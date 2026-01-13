@@ -1,0 +1,8 @@
+{
+  "original_question": "Pour son petit déjeuner, Claire se prépare une omelette de 3 œufs tous les matins. Combien de douzaines d'œufs mangera-t-elle en 4 semaines ?",
+  "original_answer": 7,
+  "symbolic_template": "Pour son petit déjeuner, {name_female, Claire} se prépare une omelette de {num_digit_1, 3} œufs tous les matins. Combien de douzaines d'œufs mangera-t-elle en {num_digit_2, 4} semaines ?",
+  "ic_sentence_template": "{name_female, Claire} a un oncle qui possède {num_ic, 44} poules dans sa ferme.",
+  "ic_template": "{name_female, Claire} a un oncle qui possède {num_ic, 44} poules dans sa ferme. Pour son petit déjeuner, {name_female, Claire} se prépare une omelette de {num_digit_1, 3} œufs tous les matins. Combien de douzaines d'œufs mangera-t-elle en {num_digit_2, 4} semaines ?",
+  "equation": "UPDATE HERE"
+}

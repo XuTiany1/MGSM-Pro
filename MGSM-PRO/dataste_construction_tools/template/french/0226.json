@@ -1,0 +1,8 @@
+{
+  "original_question": "James compte ses cartes Pokemon. Il en a 30 de type feu, 20 de type herbe et 40 de type eau. S'il perd 8 cartes de type eau et en achète 14 de type herbe, quel est le pourcentage de chance (arrondi au nombre entier le plus proche) qu'une carte choisie au hasard soit de type eau ?",
+  "original_answer": 33,
+  "symbolic_template": "{name_male, James} compte ses cartes Pokemon. Il en a {num_digit_1, 30} de type feu, {num_digit_2, 20} de type herbe et {num_digit_3, 40} de type eau. S'il perd {num_digit_4, 8} cartes de type eau et en achète {num_digit_5, 14} de type herbe, quel est le pourcentage de chance (arrondi au nombre entier le plus proche) qu'une carte choisie au hasard soit de type eau ?",
+  "ic_sentence_template": "{name_male, James} a une tante qui a trouvé {num_ic, 73} cartes rares lors d’un vide-grenier.",
+  "ic_template": "{name_male, James} a une tante qui a trouvé {num_ic, 73} cartes rares lors d’un vide-grenier. {name_male, James} compte ses cartes Pokemon. Il en a {num_digit_1, 30} de type feu, {num_digit_2, 20} de type herbe et {num_digit_3, 40} de type eau. S'il perd {num_digit_4, 8} cartes de type eau et en achète {num_digit_5, 14} de type herbe, quel est le pourcentage de chance (arrondi au nombre entier le plus proche) qu'une carte choisie au hasard soit de type eau ?",
+  "equation": "UPDATE HERE"
+}

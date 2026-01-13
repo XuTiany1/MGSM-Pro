@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerry nwere ìgwè ọkụkọ. Ọkụkọ ọbara-ọbara ahu n'eyi akwa atọ n'ụbọchị, na ọkụkọ ọcha n'eyi akwa ise n'ụbọchị. Ụbọchị ọ bụla Jerry na-ekpokọta akwa iri anọ na abụọ. Ọ bụrụ na o nwere ọkụkọ ọcha abụọ karịa ọkụkọ ọbara-ọbara, ọkụkọ ọbara ọbara ole ka o nwere?",
+  "original_answer": 4,
+  "symbolic_template": "{name_male, Jerry} nwere ìgwè ọkụkọ. Ọkụkọ ọbara-ọbara ahu n'eyi akwa {num_digit_1, 3} n'ụbọchị, na ọkụkọ ọcha n'eyi akwa {num_digit_2, 5} n'ụbọchị. Ụbọchị ọ bụla {name_male, Jerry} na-ekpokọta akwa {num_digit_3, 42}. Ọ bụrụ na o nwere ọkụkọ ọcha abụọ karịa ọkụkọ ọbara-ọbara, ọkụkọ ọbara ọbara ole ka o nwere?",
+  "ic_sentence_template": "Nwanne nwanyị nne {name_male, Jerry} nwere ụmụ ọbọgwụ {num_ic, 54} na ugbo ya.",
+  "ic_template": "Nwanne nwanyị nne {name_male, Jerry} nwere ụmụ ọbọgwụ {num_ic, 54} na ugbo ya. {name_male, Jerry} nwere ìgwè ọkụkọ. Ọkụkọ ọbara-ọbara ahu n'eyi akwa {num_digit_1, 3} n'ụbọchị, na ọkụkọ ọcha n'eyi akwa {num_digit_2, 5} n'ụbọchị. Ụbọchị ọ bụla {name_male, Jerry} na-ekpokọta akwa {num_digit_3, 42}. Ọ bụrụ na o nwere ọkụkọ ọcha abụọ karịa ọkụkọ ọbara-ọbara, ọkụkọ ọbara ọbara ole ka o nwere?",
+  "equation": "UPDATE HERE"
+}

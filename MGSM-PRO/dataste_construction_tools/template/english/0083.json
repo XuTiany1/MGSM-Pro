@@ -1,0 +1,8 @@
+{
+  "original_question": "Dan plants 3 rose bushes. Each rose bush has 25 roses. Each rose has 8 thorns. How many thorns are there total?",
+  "original_answer": 600,
+  "symbolic_template": "{name_male, Dan} plants {num_digit_1, 3} rose bushes. Each rose bush has {num_digit_2, 25} roses. Each rose has {num_digit_3, 8} thorns. How many thorns are there total?",
+  "ic_sentence_template": "{name_male, Dan}'s aunt has {num_ic, 27} tomato plants.",
+  "ic_template": "{name_male, Dan} plants {num_digit_1, 3} rose bushes. Each rose bush has {num_digit_2, 25} roses. Each rose has {num_digit_3, 8} thorns. {name_male, Dan}'s aunt has {num_ic, 27} tomato plants. How many thorns are there total?",
+  "equation": "UPDATE HERE"
+}

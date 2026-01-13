@@ -1,0 +1,8 @@
+{
+  "original_question": "Janet nwere mkpịsị òdé na-acha ndụndụ iri abụọ na abụọ na mkpịsị òdé na-acha edoedo iri. Mgbe ahụ ọ zụtara akpa mkpịsị òdé na-acha anụnụ anụnụ na akpa mkpịsị òdé na-acha ọbara ọbara. E nwere mkpịsị òdé itoolu n'ịme ọbụla na-acha anụnụ anụnụ na mkpịsị òdé isii n'akpa mkpịsị òdé na-acha ọbara ọbara. Mkpịsị òdé ole ka Janet nwere? ",
+  "original_answer": 98,
+  "symbolic_template": "{name_female, Janet} nwere mkpịsị òdé na-acha ndụndụ {num_digit_1, 22} na mkpịsị òdé na-acha edoedo {num_digit_2, 10}. Mgbe ahụ ọ zụtara akpa {num_digit_3, 6} mkpịsị òdé na-acha anụnụ anụnụ na akpa {num_digit_4, 2} mkpịsị òdé na-acha ọbara ọbara. E nwere mkpịsị òdé {num_digit_5, 9} n'ịme ọbụla na-acha anụnụ anụnụ na mkpịsị òdé {num_digit_6, 6} n'akpa mkpịsị òdé na-acha ọbara ọbara. Mkpịsị òdé ole ka {name_female, Janet} nwere?",
+  "ic_sentence_template": "Nwa nwanne nna {name_female, Janet} ka natara akwụkwọ akụkọ {num_ic, 700} dị ka onyinye.",
+  "ic_template": "Nwa nwanne nna {name_female, Janet} ka natara akwụkwọ akụkọ {num_ic, 700} dị ka onyinye. {name_female, Janet} nwere mkpịsị òdé na-acha ndụndụ {num_digit_1, 22} na mkpịsị òdé na-acha edoedo {num_digit_2, 10}. Mgbe ahụ ọ zụtara akpa {num_digit_3, 6} mkpịsị òdé na-acha anụnụ anụnụ na akpa {num_digit_4, 2} mkpịsị òdé na-acha ọbara ọbara. E nwere mkpịsị òdé {num_digit_5, 9} n'ịme ọbụla na-acha anụnụ anụnụ na mkpịsị òdé {num_digit_6, 6} n'akpa mkpịsị òdé na-acha ọbara ọbara. Mkpịsị òdé ole ka {name_female, Janet} nwere?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Jordan hucheza michezo ya video saa 2 kila siku. Pia ana kazi ya muda ambapo huwa analipwa $10 kwa saa. Jordan atapata pesa ngapi kwa wiki moja iwapo angetumia muda wake wa mchezo wa video kufanya kazi?",
+  "original_answer": 140,
+  "symbolic_template": "{name_male, Jordan} hucheza michezo ya video kwa masaa {num_digit_1, 2} kila siku. Pia ana kazi ya muda ambapo hupata ${num_digit_2, 10} kwa saa. {name_male, Jordan} angepata pesa ngapi kwa wiki moja ikiwa angefanya kazi badala ya kutumia muda wa michezo ya video?",
+  "ic_sentence_template": "Mjomba wa {name_male, Jordan} ana mashine za arcade za zamani {num_ic, 8}.",
+  "ic_template": "Mjomba wa {name_male, Jordan} ana mashine za arcade za zamani {num_ic, 8}. {name_male, Jordan} hucheza michezo ya video kwa masaa {num_digit_1, 2} kila siku. Pia ana kazi ya muda ambapo hupata ${num_digit_2, 10} kwa saa. {name_male, Jordan} angepata pesa ngapi kwa wiki moja ikiwa angefanya kazi badala ya kutumia muda wa michezo ya video?",
+  "equation": "UPDATE HERE"
+}

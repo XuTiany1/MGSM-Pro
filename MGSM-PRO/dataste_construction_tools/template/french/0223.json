@@ -1,0 +1,8 @@
+{
+  "original_question": "Une entreprise dépense 15 000 dollars en publicité pendant un an, puis dépense un tiers de cette somme en publicité pendant une autre année. Quel est le montant total que l'entreprise a dépensé en publicité au cours de ces deux années ?",
+  "original_answer": 20000,
+  "symbolic_template": "Une entreprise dépense {num_digit_1, 15 000} dollars en publicité pendant un an, puis dépense un tiers de cette somme en publicité pendant une autre année. Quel est le montant total que l'entreprise a dépensé en publicité au cours de ces deux années ?",
+  "ic_sentence_template": "Le neveu du PDG a livré {num_ic, 91} pizzas lors de la réunion annuelle.",
+  "ic_template": "Le neveu du PDG a livré {num_ic, 91} pizzas lors de la réunion annuelle. Une entreprise dépense {num_digit_1, 15 000} dollars en publicité pendant un an, puis dépense un tiers de cette somme en publicité pendant une autre année. Quel est le montant total que l'entreprise a dépensé en publicité au cours de ces deux années ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Bill huoka skonzi 300, kroisanti 120 za chokoleti, na bageti 60 kila siku. Kila skonzi ina urefu wa inchi 4, kila kroisanti ina urefu wa inchi 6, na kila bageti ina urefu wa futi mbili. Bill akiunganisha bidhaa hizo zote kwa mstari moja, mstari huo utakuwa na urefu wa futi ngapi?",
+  "original_answer": 280,
+  "symbolic_template": "{name_male, Bill} huoka mikate {num_digit_1, 300}, croissant za chokoleti {num_digit_2, 120}, na mikate mikubwa {num_digit_3, 60} kila siku. Kila mkate mdogo una urefu wa inchi {num_digit_4, 4}, kila croissant ina urefu wa inchi {num_digit_5, 6}, na kila mkate mkubwa una urefu wa futi mbili. Ikiwa {name_male, Bill} ataweka bidhaa zote za kuoka mwisho kwa mwisho, zitakuwa na urefu wa futi ngapi kwa jumla?",
+  "ic_sentence_template": "Shangazi wa {name_male, Bill} hununua mikate {num_ic, 72} kila mwezi.",
+  "ic_template": "Shangazi wa {name_male, Bill} hununua mikate {num_ic, 72} kila mwezi. {name_male, Bill} huoka mikate {num_digit_1, 300}, croissant za chokoleti {num_digit_2, 120}, na mikate mikubwa {num_digit_3, 60} kila siku. Kila mkate mdogo una urefu wa inchi {num_digit_4, 4}, kila croissant ina urefu wa inchi {num_digit_5, 6}, na kila mkate mkubwa una urefu wa futi mbili. Ikiwa {name_male, Bill} ataweka bidhaa zote za kuoka mwisho kwa mwisho, zitakuwa na urefu wa futi ngapi kwa jumla?",
+  "equation": "UPDATE HERE"
+}

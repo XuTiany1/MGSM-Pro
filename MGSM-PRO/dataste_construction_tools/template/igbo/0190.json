@@ -1,0 +1,8 @@
+{
+  "original_question": "John na-anara piich maka awa atọ. O nwere ị́ké ịnara piich abụọ n'otu nkeji. Piich ole ka ọ natara? ",
+  "original_answer": 360,
+  "symbolic_template": "{name_male, John} na-anara piich maka awa {num_digit_1, 3}. O nwere ị́ké ịnara piich {num_digit_2, 2} n'otu nkeji. Piich ole ka ọ natara?",
+  "ic_sentence_template": "Nwanne nna {name_male, John} na-eweta akpa {num_ic, 9} n’ubi ugba ụtụtụ ọbụla.",
+  "ic_template": "Nwanne nna {name_male, John} na-eweta akpa {num_ic, 9} n’ubi ugba ụtụtụ ọbụla. {name_male, John} na-anara piich maka awa {num_digit_1, 3}. O nwere ị́ké ịnara piich {num_digit_2, 2} n'otu nkeji. Piich ole ka ọ natara?",
+  "equation": "UPDATE HERE"
+}

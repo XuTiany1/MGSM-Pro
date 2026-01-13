@@ -1,0 +1,8 @@
+{
+  "original_question": "Cecilia tɔɔ ɔkramanba foforɔ nansei a. Sԑ wodi onipa a ɔhwԑ mmoa apɔmuden nsԑm mu bi asԑm akyi a, ԑwɔ sԑ ɔma ɔkramanba no ɔkraman aduane kuruwa baako da biara wɔ nna 180 a ԑdi kan no mu. Na afei ԑwɔ sԑ ɔma ɔkramanba no ɔkraman aduane kruwa mmienu ne nkwa a aka no nyinaa. Sԑ ɔkraman aduane kotoku baako kuta kuruwa 110 a, ɔkraman aduane kotoku sԑn na Cecilia bԑhia no afe a ԑdi kan no mu?",
+  "original_answer": 5,
+  "symbolic_template": "{name_female, Cecilia} tɔɔ ɔkramanba foforɔ nansei a. Sԑ wodi onipa a ɔhwԑ mmoa apɔmuden nsԑm mu bi asԑm akyi a, ԑwɔ sԑ ɔma ɔkramanba no ɔkraman aduane kuruwa {num_digit_1, 1} da biara wɔ nna {num_digit_2, 180} a ԑdi kan no mu. Na afei ԑwɔ sԑ ɔma ɔkramanba no ɔkraman aduane kruwa {num_digit_3, 2} ne nkwa a aka no nyinaa. Sԑ ɔkraman aduane kotoku baako kuta kuruwa {num_digit_4, 110} a, ɔkraman aduane kotoku sԑn na {name_female, Cecilia} bԑhia no afe a ԑdi kan no mu?",
+  "ic_sentence_template": "{name_female, Cecilia} sewaa tɔɔ agyinamoa aduane nkotoku {num_ic, 112} a ɔnyaa ntosoɔ.",
+  "ic_template": "{name_female, Cecilia} sewaa tɔɔ agyinamoa aduane nkotoku {num_ic, 112} a ɔnyaa ntosoɔ. {name_female, Cecilia} tɔɔ ɔkramanba foforɔ nansei a. Sԑ wodi onipa a ɔhwԑ mmoa apɔmuden nsԑm mu bi asԑm akyi a, ԑwɔ sԑ ɔma ɔkramanba no ɔkraman aduane kuruwa {num_digit_1, 1} da biara wɔ nna {num_digit_2, 180} a ԑdi kan no mu. Na afei ԑwɔ sԑ ɔma ɔkramanba no ɔkraman aduane kruwa {num_digit_3, 2} ne nkwa a aka no nyinaa. Sԑ ɔkraman aduane kotoku baako kuta kuruwa {num_digit_4, 110} a, ɔkraman aduane kotoku sԑn na {name_female, Cecilia} bԑhia no afe a ԑdi kan no mu?",
+  "equation": "UPDATE HERE"
+}

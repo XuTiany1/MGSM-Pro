@@ -1,0 +1,8 @@
+{
+  "original_question": "ጃን ከማርሺያ በሦስት እጥፍ የሚበልጡ የቤት እንስሳት አሏት። ማርሺያ ከሲንዲ ሁለት ተጨማሪ የቤት እንስሳት አሏት። ሲንዲ አራት የቤት እንስሳት ካሏት፣ ሦስቱ በድምሩ ስንት የቤት እንስሳት አሏቸው?",
+  "original_answer": 28,
+  "symbolic_template": "{name_female_1, ጃን} ከ{name_female_2, ማርሺያ} በሦስት እጥፍ የሚበልጡ የቤት እንስሳት አሏት። {name_female_2, ማርሺያ} ከ{name_female_3, ሲንዲ} ሁለት ተጨማሪ የቤት እንስሳት አሏት። {name_female_3, ሲንዲ} አራት የቤት እንስሳት ካሏት፣ ሦስቱ በድምሩ ስንት የቤት እንስሳት አሏቸው?",
+  "ic_sentence_template": "{name_female_2, ማርሺያ} አጎት የ{num_ic, 16} ወፎች ባለቤት ነው።",
+  "ic_template": "{name_female_1, ጃን} ከ{name_female_2, ማርሺያ} በሦስት እጥፍ የሚበልጡ የቤት እንስሳት አሏት። {name_female_2, ማርሺያ} ከ{name_female_3, ሲንዲ} ሁለት ተጨማሪ የቤት እንስሳት አሏት። {name_female_3, ሲንዲ} አራት የቤት እንስሳት ካሏት፣ ሦስቱ በድምሩ ስንት የቤት እንስሳት አሏቸው? {name_female_2, ማርሺያ} አጎት የ{num_ic, 16} ወፎች ባለቤት ነው።",
+  "equation": "UPDATE HERE"
+}

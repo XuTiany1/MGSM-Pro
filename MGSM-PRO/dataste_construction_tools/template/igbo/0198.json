@@ -1,0 +1,8 @@
+{
+  "original_question": "Elaine nweburu kaadị Pokemon iri abụọ na mbido. Ka otu ọnwa gasịrị, ọ natara ugboro atọ n'ọnụọgụgụ nke ahụ. N'ọnwa nke abụọ, ọ natara kaadị iri abụọ dị nta karịa ndị nke ọ nataara n'ọnwa nke mbụ. N'ọnwa nke atọ, ọ natara kaadị pokemon ọnụọgụgụ ya dị ugboro abụọ n'ole ọ nataara n'ọnwa mbụ na ọnwa abụọ. Kedụ kaadị pokemon ole o nwere ugbu a na ngụkọta? ",
+  "original_answer": 320,
+  "symbolic_template": "{name_female, Elaine} nweburu kaadị Pokemon {num_digit_1, 20} na mbido. Ka otu ọnwa gasịrị, ọ natara ugboro atọ n'ọnụọgụgụ nke ahụ. N'ọnwa nke abụọ, ọ natara kaadị {num_digit_2, 20} dị nta karịa ndị nke ọ nataara n'ọnwa nke mbụ. N'ọnwa nke atọ, ọ natara kaadị pokemon ọnụọgụgụ ya dị ugboro abụọ n'ole ọ nataara n'ọnwa mbụ na ọnwa abụọ. Kedụ kaadị pokemon ole o nwere ugbu a na ngụkọta?",
+  "ic_sentence_template": "Nwanne nna {name_female, Elaine} nwere kaadị bọl {num_ic, 62984}.",
+  "ic_template": "Nwanne nna {name_female, Elaine} nwere kaadị bọl {num_ic, 62984}. {name_female, Elaine} nweburu kaadị Pokemon {num_digit_1, 20} na mbido. Ka otu ọnwa gasịrị, ọ natara ugboro atọ n'ọnụọgụgụ nke ahụ. N'ọnwa nke abụọ, ọ natara kaadị {num_digit_2, 20} dị nta karịa ndị nke ọ nataara n'ọnwa nke mbụ. N'ọnwa nke atọ, ọ natara kaadị pokemon ọnụọgụgụ ya dị ugboro abụọ n'ole ọ nataara n'ọnwa mbụ na ọnwa abụọ. Kedụ kaadị pokemon ole o nwere ugbu a na ngụkọta?",
+  "equation": "UPDATE HERE"
+}

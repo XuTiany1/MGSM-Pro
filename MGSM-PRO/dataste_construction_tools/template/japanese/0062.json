@@ -1,0 +1,8 @@
+{
+  "original_question": "マーシーが同じ会社で40年働くと、彼女は年に年金を$50,000もらえる。20年後から、彼女は年額5%の年金を受け取ることができるようになる。彼女が30年後にやめたら、彼女の年金は年額いくらになる？",
+  "original_answer": 25000,
+  "symbolic_template": " {name_female, Marcy}が同じ会社で{num_digit_1, 四十}年働くと、彼女は年に年金を${num_digit_2, 五万}もらえる。{num_digit_3, 二十}年後から、彼女は年額{num_digit_4, 五}%の年金を受け取ることができるようになる。彼女が{num_digit_6, 三十}年後にやめたら、彼女の年金は年額いくらになる？",
+  "ic_sentence_template": "{name_female, マーシー}のおじは昨年、ボーナスとして${num_ic, 315,000}を受け取りました。",
+  "ic_template": "{name_female, マーシー}のおじは昨年、ボーナスとして${num_ic, 315,000}を受け取りました。{name_female, Marcy}が同じ会社で{num_digit_1, 四十}年働くと、彼女は年に年金を${num_digit_2, 五万}もらえる。{num_digit_3, 二十}年後から、彼女は年額{num_digit_4, 五}%の年金を受け取ることができるようになる。彼女が{num_digit_6, 三十}年後にやめたら、彼女の年金は年額いくらになる？",
+  "equation": "UPDATE HERE"
+}

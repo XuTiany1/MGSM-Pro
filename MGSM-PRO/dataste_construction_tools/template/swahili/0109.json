@@ -1,0 +1,8 @@
+{
+  "original_question": "Kituo cha mafuta katika eneo lako linauza galoni ya mafuta kwa $3.00. Kampuni ya programu inatoa rejesho la fedha la $.20 kwa kila galoni ukiongeza mafuta katika kituo hiki. Mtu akinunua galoni 10 za mafuta, mafuta yao yatakuwa pesa ngapi baada ya tuzo za kurejeshewa pesa?",
+  "original_answer": 28,
+  "symbolic_template": "Kituo cha mafuta katika eneo lako linauza galoni ya mafuta kwa ${num_digit_1, 3.00}. Kampuni ya programu inatoa rejesho la fedha la ${num_digit_2, .20} kwa kila galoni ukiongeza mafuta katika kituo hiki. Mtu akinunua galoni {num_digit_3, 10} za mafuta, mafuta yao yatakuwa pesa ngapi baada ya tuzo za kurejeshewa pesa?",
+  "ic_sentence_template": "Shangazi yake {name_male, Alex} alipata huduma za kuosha gari bure {num_ic, 39} mwaka jana.",
+  "ic_template": "Shangazi yake {name_male, Alex} alipata huduma za kuosha gari bure {num_ic, 39} mwaka jana. Kituo cha mafuta katika eneo lako linauza galoni ya mafuta kwa ${num_digit_1, 3.00}. Kampuni ya programu inatoa rejesho la fedha la ${num_digit_2, .20} kwa kila galoni ukiongeza mafuta katika kituo hiki. Mtu akinunua galoni {num_digit_3, 10} za mafuta, mafuta yao yatakuwa pesa ngapi baada ya tuzo za kurejeshewa pesa?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Ẹ̀rọ ìbánisọ̀rọ̀ Jamal lè gbà àwòrán ní ìgbà 6 ju ẹ̀rọ ìbánisọ̀rọ̀ Brittany lọ. Iye àwòrán tí ẹ̀rọ ìbánisọ̀rọ̀ Brittany lè gbà fi ìgbà 50 ju iye ẹyẹ orí àwòrán pẹ́pẹ́yẹ Jamal nínú ọgbà ẹranko lọ. Tí ẹ̀rọ ìbánisọ̀rọ̀ Jamal bá lè gba àwòrán 1800, pẹ́pẹ́yẹ mélòó ní a lè rí nínú àwòrán pẹ́pẹ́yẹ Jamal nínú ọgbà ẹranko?",
+  "original_answer": 6,
+  "symbolic_template": "Ẹ̀rọ ìbánisọ̀rọ̀ {name_male, Jamal} lè gbà àwòrán ní ìgbà {num_digit_1, 6} ju ẹ̀rọ ìbánisọ̀rọ̀ {name_female, Brittany} lọ. Iye àwòrán tí ẹ̀rọ ìbánisọ̀rọ̀ {name_female, Brittany} lè gbà fi ìgbà {num_digit_3, 50} ju iye ẹyẹ orí àwòrán pẹ́pẹ́yẹ {name_male, Jamal} nínú ọgbà ẹranko lọ. Tí ẹ̀rọ ìbánisọ̀rọ̀ {name_male, Jamal} bá lè gba àwòrán {num_digit_2, 1800}, pẹ́pẹ́yẹ mélòó ní a lè rí nínú àwòrán pẹ́pẹ́yẹ {name_male, Jamal} nínú ọgbà ẹranko?",
+  "ic_sentence_template": "Arákùnrin {name_male, Jamal} fi ìgbà kan se àbẹ̀wò sí àwọn ọgbà orílẹ̀-èdè {num_ic, 84}.",
+  "ic_template": "Ẹ̀rọ ìbánisọ̀rọ̀ {name_male, Jamal} lè gbà àwòrán ní ìgbà {num_digit_1, 6} ju ẹ̀rọ ìbánisọ̀rọ̀ {name_female, Brittany} lọ. Iye àwòrán tí ẹ̀rọ ìbánisọ̀rọ̀ {name_female, Brittany} lè gbà fi ìgbà {num_digit_3, 50} ju iye ẹyẹ orí àwòrán pẹ́pẹ́yẹ {name_male, Jamal} nínú ọgbà ẹranko lọ. Tí ẹ̀rọ ìbánisọ̀rọ̀ {name_male, Jamal} bá lè gba àwòrán {num_digit_2, 1800}, pẹ́pẹ́yẹ mélòó ní a lè rí nínú àwòrán pẹ́pẹ́yẹ {name_male, Jamal} nínú ọgbà ẹranko? Arákùnrin {name_male, Jamal} fi ìgbà kan se àbẹ̀wò sí àwọn ọgbà orílẹ̀-èdè {num_ic, 84}.",
+  "equation": "UPDATE HERE"
+}

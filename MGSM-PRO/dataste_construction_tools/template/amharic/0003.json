@@ -1,0 +1,8 @@
+{
+  "original_question": "ጄምስ በሳምንት 3 ጊዜ 3 ስፕሪንቶችን ለመሮጥ ወሰነ። በእያንዳንዱ ስፕሪንት 60 ሜትር ይሮጣል። በሳምንት ውስጥ ምን ያህል ሜትር ይሮጣል?",
+  "original_answer": 540,
+  "symbolic_template": "{name_male, ጄምስ} በሳምንት {num_digit_2, 3} ጊዜ {num_digit_1, 3} ስፕሪንቶችን ለመሮጥ ወሰነ። በእያንዳንዱ ስፕሪንት {num_digit_3, 60} ሜትር ይሮጣል። በሳምንት ውስጥ ምን ያህል ሜትር ይሮጣል?",
+  "ic_sentence_template": "የ{name_male, ጄምስ} አጎቱ {num_ic, 212} ጥንካሬ ጫማዎች ያሉት መስተዋት አለው።",
+  "ic_template": "{name_male, ጄምስ} በሳምንት {num_digit_2, 3} ጊዜ {num_digit_1, 3} ስፕሪንቶችን ለመሮጥ ወሰነ። በእያንዳንዱ ስፕሪንት {num_digit_3, 60} ሜትር ይሮጣል። በሳምንት ውስጥ ምን ያህል ሜትር ይሮጣል? የ{name_male, ጄምስ} አጎቱ {num_ic, 212} ጥንካሬ ጫማዎች ያሉት መስተዋት አለው።",
+  "equation": "UPDATE HERE"
+}

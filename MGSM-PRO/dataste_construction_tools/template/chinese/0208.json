@@ -1,0 +1,8 @@
+{
+  "original_question": "露丝周一去商店买了 4 块蛋糕。周二她去了一家不同的商店买了之前三倍数量的蛋糕。周三她去另一家商店买了周二所购数量 5 倍的蛋糕。她三天一共买了多少蛋糕？",
+  "original_answer": 76,
+  "symbolic_template": "{name_female, 露丝} 周一去商店买了 {num_digit_1, 4} 块蛋糕。周二她去了一家不同的商店买了之前 三 倍数量的蛋糕。周三她去另一家商店买了周二所购数量 {num_digit_2, 5} 倍的蛋糕。她三天一共买了多少蛋糕？",
+  "ic_sentence_template": "{name_female, 罗斯}的叔叔上周末烤了{num_ic, 85}个馅饼。",
+  "ic_template": "{name_female, 罗斯}的叔叔上周末烤了{num_ic, 85}个馅饼。{name_female, 露丝} 周一去商店买了 {num_digit_1, 4} 块蛋糕。周二她去了一家不同的商店买了之前 三 倍数量的蛋糕。周三她去另一家商店买了周二所购数量 {num_digit_2, 5} 倍的蛋糕。她三天一共买了多少蛋糕？",
+  "equation": "UPDATE HERE"
+}

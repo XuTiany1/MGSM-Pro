@@ -1,0 +1,8 @@
+{
+  "original_question": "Eliza akatua a ɔgye no dɔnhwere biara wɔ dɔnhwere 40 a ԑdi kan a ɔyԑ adwuma  wɔ nnawɔtwe biara mu no yԑ $10. Ͻsan gye akatua mmorosoɔ a ԑyԑ mprԑ dodoɔ 1.2 kyԑn deԑ ɔgye no dɔnhwere biara no. Sԑ Eliza yԑ adwuma dɔnhwere 45 nnawɔtwe yi a, Sԑn na ɔbԑnya no nnawɔtwe yi?",
+  "original_answer": 460,
+  "symbolic_template": "{name_female, Eliza} akatua a ɔgye no dɔnhwere biara wɔ dɔnhwere {num_digit_1, 40} a ԑdi kan a ɔyԑ adwuma wɔ nnawɔtwe biara mu no yԑ ${num_digit_2, 10}. Ͻsan gye akatua mmorosoɔ a ԑyԑ mprԑ dodoɔ {num_digit_3, 1.2} kyԑn deԑ ɔgye no dɔnhwere biara no. Sԑ {name_female, Eliza} yԑ adwuma dɔnhwere {num_digit_4, 45} nnawɔtwe yi a, Sԑn na ɔbԑnya no nnawɔtwe yi?",
+  "ic_sentence_template": "{name_female, Eliza} wofa no di aduane dɔɔsɔ adan ahorow {num_ic, 98} so wɔ kurow no mu.",
+  "ic_template": "{name_female, Eliza} wofa no di aduane dɔɔsɔ adan ahorow {num_ic, 98} so wɔ kurow no mu. {name_female, Eliza} akatua a ɔgye no dɔnhwere biara wɔ dɔnhwere {num_digit_1, 40} a ԑdi kan a ɔyԑ adwuma wɔ nnawɔtwe biara mu no yԑ ${num_digit_2, 10}. Ͻsan gye akatua mmorosoɔ a ԑyԑ mprԑ dodoɔ {num_digit_3, 1.2} kyԑn deԑ ɔgye no dɔnhwere biara no. Sԑ {name_female, Eliza} yԑ adwuma dɔnhwere {num_digit_4, 45} nnawɔtwe yi a, Sԑn na ɔbԑnya no nnawɔtwe yi?",
+  "equation": "UPDATE HERE"
+}

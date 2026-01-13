@@ -1,0 +1,8 @@
+{
+  "original_question": "スティーブンは食料品の注文をオンラインで行った。彼の最終的な請求書は$40.00だった。デリバリー会社を通したので、彼らが25%の手数料を最終的な総額に上乗せし、デリバリー料金として$3.00請求した。スティーブンはまた、$4.00チップを追加した。追加の手数料を足した後、スティーブンの食料品の注文の最終的な料金は？",
+  "original_answer": 57,
+  "symbolic_template": "{name_male, Stephen} は食料品の注文をオンラインで行った。彼の最終的な請求書は${num_digit_1, 40.00}だった。デリバリー会社を通したので、彼らが{num_digit_2, 25}%の手数料を最終的な総額に上乗せし、デリバリー料金として${num_digit_3, 3.00}請求した。{name_male, Stephen} はまた、${num_digit_4, 4.00}チップを追加した。追加の手数料を足した後、{name_male, Stephen} の食料品の注文の最終的な料{name_male, Stephen}金は？",
+  "ic_sentence_template": "{name_male, スティーブン}のおばは昨日{num_ic, 41}本のバナナを買いました。",
+  "ic_template": "{name_male, スティーブン}のおばは昨日{num_ic, 41}本のバナナを買いました。{name_male, Stephen} は食料品の注文をオンラインで行った。彼の最終的な請求書は${num_digit_1, 40.00}だった。デリバリー会社を通したので、彼らが{num_digit_2, 25}%の手数料を最終的な総額に上乗せし、デリバリー料金として${num_digit_3, 3.00}請求した。{name_male, Stephen} はまた、${num_digit_4, 4.00}チップを追加した。追加の手数料を足した後、{name_male, Stephen} の食料品の注文の最終的な料{name_male, Stephen}金は？",
+  "equation": "UPDATE HERE"
+}

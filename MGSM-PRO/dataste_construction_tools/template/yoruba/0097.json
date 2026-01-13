@@ -1,0 +1,8 @@
+{
+  "original_question": "ìgbà tí Freda se tòmátò inú agolo sí ọbẹ̀, ìdajì nínú rẹ̀ ti lọ, agolo 16 tòmátò kọ̀ọ̀kan tó lò ní tòmátò mẹ́ta. àsè freda's oní tòmátò tó gbẹ̀yìn ní 32 ata. tòmátò mélòó ní Freda lo?",
+  "original_answer": 12,
+  "symbolic_template": "ìgbà tí {name_female, Freda} se tòmátò inú agolo sí ọbẹ̀, ìdajì nínú rẹ̀ ti lọ, agolo {num_digit_1, 16} tòmátò kọ̀ọ̀kan tó lò ní tòmátò mẹ́ta. àsè {name_female, Freda}'s oní tòmátò tó gbẹ̀yìn ní {num_digit_2, 32} ata. tòmátò mélòó ní {name_female, Freda} lo?",
+  "ic_sentence_template": "Ìyá ńlá {name_female, Freda} ní ọ̀gbìn tomati {num_ic, 57} ní abẹ́lé rẹ̀.",
+  "ic_template": "Ìyá ńlá {name_female, Freda} ní ọ̀gbìn tomati {num_ic, 57} ní abẹ́lé rẹ̀. ìgbà tí {name_female, Freda} se tòmátò inú agolo sí ọbẹ̀, ìdajì nínú rẹ̀ ti lọ, agolo {num_digit_1, 16} tòmátò kọ̀ọ̀kan tó lò ní tòmátò mẹ́ta. àsè {name_female, Freda}'s oní tòmátò tó gbẹ̀yìn ní {num_digit_2, 32} ata. tòmátò mélòó ní {name_female, Freda} lo?",
+  "equation": "UPDATE HERE"
+}

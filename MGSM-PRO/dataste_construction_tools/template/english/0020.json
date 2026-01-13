@@ -1,0 +1,8 @@
+{
+  "original_question": "I have 10 liters of orange drink that are two-thirds water and I wish to add it to 15 liters of pineapple drink that is three-fifths water. But as I pour it, I spill one liter of the orange drink. How much water is in the remaining 24 liters?",
+  "original_answer": 15,
+  "symbolic_template": "I have {num_digit_1, 10} liters of orange drink that are two-thirds water and I wish to add it to {num_digit_2, 15} liters of pineapple drink that is three-fifths water. But as I pour it, I spill one liter of the orange drink. How much water is in the remaining {num_digit_3, 24} liters?",
+  "ic_sentence_template": "{name_male, Eric}'s cousin brought {num_ic, 186} mangos to the picnic.",
+  "ic_template": "I have {num_digit_1, 10} liters of orange drink that are two-thirds water and I wish to add it to {num_digit_2, 15} liters of pineapple drink that is three-fifths water. But as I pour it, I spill one liter of the orange drink. {name_male, Eric}'s cousin brought {num_ic, 186} mangos to the picnic. How much water is in the remaining {num_digit_3, 24} liters?",
+  "equation": "UPDATE HERE"
+}

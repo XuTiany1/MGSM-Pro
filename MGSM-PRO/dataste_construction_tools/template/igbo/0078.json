@@ -1,0 +1,8 @@
+{
+  "original_question": "Vincent nwere ị́ké ịzụ okooko na pakeeti atọ $2.50 maọbụ pakeeti abụọ $1. Ego ole ka o chekwara site n'ịzụ okooko iri na asatọ n'ọnụ ego ka mma?",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, Vincent} nwere ị́ké ịzụ okooko na pakeeti {num_digit_1, 3} ${num_digit_2, 2.50} maọbụ pakeeti {num_digit_3, 2} ${num_digit_4, 1}. Ego ole ka o chekwara site n'ịzụ okooko {num_digit_5, 18} n'ọnụ ego ka mma?",
+  "ic_sentence_template": "Nwanne nne {name_male, Vincent} nwere osisi tomaato {num_ic, 23} n'ubi ya.",
+  "ic_template": "Nwanne nne {name_male, Vincent} nwere osisi tomaato {num_ic, 23} n'ubi ya. {name_male, Vincent} nwere ị́ké ịzụ okooko na pakeeti {num_digit_1, 3} ${num_digit_2, 2.50} maọbụ pakeeti {num_digit_3, 2} ${num_digit_4, 1}. Ego ole ka o chekwara site n'ịzụ okooko {num_digit_5, 18} n'ọnụ ego ka mma?",
+  "equation": "UPDATE HERE"
+}

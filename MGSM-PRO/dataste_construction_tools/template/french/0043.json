@@ -1,0 +1,8 @@
+{
+  "original_question": "Selon ses informations nutritionnelles, un sac de chips contient 250 calories par portion. Si un sac de 300 g contient 5 portions, combien de grammes de chips allez-vous manger, sachant que votre objectif calorique journalier est de 2 000 et que vous avez déjà consommé 1 800 calories ?",
+  "original_answer": 48,
+  "symbolic_template": "Selon ses informations nutritionnelles, un sac de chips contient {num_digit_1, 250} calories par portion. Si un sac de {num_digit_2, 300} g contient {num_digit_3, 5} portions, combien de grammes de chips allez-vous manger, sachant que votre objectif calorique journalier est de {num_digit_4, 2000} et que vous avez déjà consommé {num_digit_5, 1800} calories ?",
+  "ic_sentence_template": "{name_male, Alex} a un oncle qui a acheté {num_ic, 47} paquets de chips pour une fête.",
+  "ic_template": "{name_male, Alex} a un oncle qui a acheté {num_ic, 47} paquets de chips pour une fête. Selon ses informations nutritionnelles, un sac de chips contient {num_digit_1, 250} calories par portion. Si un sac de {num_digit_2, 300} g contient {num_digit_3, 5} portions, combien de grammes de chips allez-vous manger, sachant que votre objectif calorique journalier est de {num_digit_4, 2000} et que vous avez déjà consommé {num_digit_5, 1800} calories ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "John hutunza mbwa 10. Kila mbwa humchukua saa .5 kwa siku kutembeza na kushughulikia. Huwa anatumia saa ngapi kwa wiki kuwatunza mbwa hao?",
+  "original_answer": 35,
+  "symbolic_template": "{name_male, John} hutunza mbwa {num_digit_1, 10}. Kila mbwa humchukua saa nusu kwa siku kutembeza na kuwahudumia. Anatumia saa ngapi kwa wiki kuwatunza mbwa hao?",
+  "ic_sentence_template": "Mpwa wa kike wa {name_male, John} ana sungura {num_ic, 19}.",
+  "ic_template": "Mpwa wa kike wa {name_male, John} ana sungura {num_ic, 19}. {name_male, John} hutunza mbwa {num_digit_1, 10}. Kila mbwa humchukua saa nusu kwa siku kutembeza na kuwahudumia. Anatumia saa ngapi kwa wiki kuwatunza mbwa hao?",
+  "equation": "UPDATE HERE"
+}

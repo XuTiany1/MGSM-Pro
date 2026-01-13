@@ -1,0 +1,8 @@
+{
+  "original_question": "Penguins aduasa mmiɛnsa na wɔhyehye wɔn ho wɔ sukyerɛma no mu. Wɔn nkyemu mmiɛnsa mu baako huri hyɛ mu na dware wɔ epo no mu. mmiɛnsa mu baako san kɔ ɔbodan no mu kɔdidi yɛ. Penguin dodoɔ ahe na wɔda so ara bɔ owia?",
+  "original_answer": 12,
+  "symbolic_template": "Penguins {num_digit_1, 36} na wɔhyehye wɔn ho wɔ sukyerɛma no mu. Wɔn mmiɛnsa mu baako huri hyɛ mu na dware wɔ epo no mu. mmiɛnsa mu baako san kɔ ɔbodan no mu kɔdidi yɛ. Penguin dodoɔ ahe na wɔda so ara bɔ owia?",
+  "ic_sentence_template": "Penguin no mu baako wɔfa huu seals {num_ic, 57} a wɔayɛ komm bɛn wɔn nnansa yi.",
+  "ic_template": "Penguin no mu baako wɔfa huu seals {num_ic, 57} a wɔayɛ komm bɛn wɔn nnansa yi. Penguins {num_digit_1, 36} na wɔhyehye wɔn ho wɔ sukyerɛma no mu. Wɔn mmiɛnsa mu baako huri hyɛ mu na dware wɔ epo no mu. mmiɛnsa mu baako san kɔ ɔbodan no mu kɔdidi yɛ. Penguin dodoɔ ahe na wɔda so ara bɔ owia?",
+  "equation": "UPDATE HERE"
+}

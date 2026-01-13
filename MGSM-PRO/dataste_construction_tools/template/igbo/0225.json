@@ -1,0 +1,8 @@
+{
+  "original_question": "Andrew na-ezube ime njem okporo ụzọ site na New Jersey ruo Rochester. Ọ na-ewe mkpụrụ ụbọchị isii iji bọs mee njem na ọkara dị ka mkpụrụ ụbọchị iji ụgbọ ala mee njem site na New Jersey ruo Rochester. Mkpụrụ ụbọchị ole ka ọ ga-eme njem ma ọ bụrụ na ọ na-atu atumatu ịji bọs gaa Rochester ma lọghachi Rochester na ụgbọ ala?",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, Andrew} na-ezube ime njem okporo ụzọ site na {name_city_1, New Jersey} ruo {name_city_2, Rochester}. Ọ na-ewe mkpụrụ ụbọchị {num_digit_1, 6} iji bọs mee njem na ọkara dị ka mkpụrụ ụbọchị iji ụgbọ ala mee njem site na {name_city_1, New Jersey} ruo {name_city_2, Rochester}. Mkpụrụ ụbọchị ole ka ọ ga-eme njem ma ọ bụrụ na ọ na-atu atumatu ịji bọs gaa {name_city_2, Rochester} ma lọghachi {name_city_2, Rochester} na ụgbọ ala?",
+  "ic_sentence_template": "Nwanne nne {name_male, Andrew} hụrụ ụgbọala ochie {num_ic, 373} n'anya n'oge ọkọchị gara aga.",
+  "ic_template": "Nwanne nne {name_male, Andrew} hụrụ ụgbọala ochie {num_ic, 373} n'anya n'oge ọkọchị gara aga. {name_male, Andrew} na-ezube ime njem okporo ụzọ site na {name_city_1, New Jersey} ruo {name_city_2, Rochester}. Ọ na-ewe mkpụrụ ụbọchị {num_digit_1, 6} iji bọs mee njem na ọkara dị ka mkpụrụ ụbọchị iji ụgbọ ala mee njem site na {name_city_1, New Jersey} ruo {name_city_2, Rochester}. Mkpụrụ ụbọchị ole ka ọ ga-eme njem ma ọ bụrụ na ọ na-atu atumatu ịji bọs gaa {name_city_2, Rochester} ma lọghachi {name_city_2, Rochester} na ụgbọ ala?",
+  "equation": "UPDATE HERE"
+}

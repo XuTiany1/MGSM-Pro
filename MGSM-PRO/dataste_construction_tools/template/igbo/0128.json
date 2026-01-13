@@ -1,0 +1,8 @@
+{
+  "original_question": "Nne Well na-ere anyụ mmiri, ose na oroma n'ụlọ ahịa ógbè. Otu anyụ mmiri na-efu ọnụ ego ji ugboro atọ karịa ọnụ ego ose ọbụla. Ọnụ ego otu oroma ji ise dị nta karịa ọnụ ego anyụ mmiri. E zipuru Dillon ka ọ gaa n'ụlọ ahịa zụta anyụ mmiri anọ, ose iri abụọ na oroma iri. Kedụ ego ole ọ ga-emefu na ngụkọta ma ọ bụrụ na otu ego ose na-ada $15?",
+  "original_answer": 880,
+  "symbolic_template": "Nne {name_male_1, Well} na-ere anyụ mmiri, ose na oroma n'ụlọ ahịa ógbè. Otu anyụ mmiri na-efu ọnụ ego ji ugboro atọ karịa ọnụ ego ose ọbụla. Ọnụ ego otu oroma ji {num_digit_1, 5} dị nta karịa ọnụ ego anyụ mmiri. E zipuru {name_male_2, Dillon} ka ọ gaa n'ụlọ ahịa zụta anyụ mmiri {num_digit_2, 4}, ose {num_digit_3, 20} na oroma {num_digit_4, 10}. Kedụ ego ole ọ ga-emefu na ngụkọta ma ọ bụrụ na otu ego ose na-ada ${num_digit_5, 15}?",
+  "ic_sentence_template": "Nwanne nne {name_male_2, Dillon} zụrụ {num_ic, 92} ọ̀rọ agwọ ụnyaahụ.",
+  "ic_template": "Nwanne nne {name_male_2, Dillon} zụrụ {num_ic, 92} ọ̀rọ agwọ ụnyaahụ. Nne {name_male_1, Well} na-ere anyụ mmiri, ose na oroma n'ụlọ ahịa ógbè. Otu anyụ mmiri na-efu ọnụ ego ji ugboro atọ karịa ọnụ ego ose ọbụla. Ọnụ ego otu oroma ji {num_digit_1, 5} dị nta karịa ọnụ ego anyụ mmiri. E zipuru {name_male_2, Dillon} ka ọ gaa n'ụlọ ahịa zụta anyụ mmiri {num_digit_2, 4}, ose {num_digit_3, 20} na oroma {num_digit_4, 10}. Kedụ ego ole ọ ga-emefu na ngụọta ma ọ bụrụ na otu ego ose na-ada ${num_digit_5, 15}?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Kelian ana mapishi mawili ya kuandaa milo, moja lina maelekezo 20 na la pili lina maelekezo mara tatu zaidi ya mapishi ya kwanza. Kelian anahitajika kusoma maelekezo mangapi ili kuandaa milo miwili?",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Kelian} ana mapishi mawili ya kuandaa milo, moja lina maelekezo {num_digit_1, 20} na la pili lina maelekezo mara mbili ya yale ya kwanza. {name_male, Kelian} anahitajika kusoma maelekezo mangapi ili kuandaa milo miwili?",
+  "ic_sentence_template": "Shangazi wa {name_male, Kelian} anamiliki vitabu vya mapishi {num_ic, 77}.",
+  "ic_template": "Shangazi wa {name_male, Kelian} anamiliki vitabu vya mapishi {num_ic, 77}. {name_male, Kelian} ana mapishi mawili ya kuandaa milo, moja lina maelekezo {num_digit_1, 20} na la pili lina maelekezo mara mbili ya yale ya kwanza. {name_male, Kelian} anahitajika kusoma maelekezo mangapi ili kuandaa milo miwili?",
+  "equation": "UPDATE HERE"
+}

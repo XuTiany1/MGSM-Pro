@@ -1,0 +1,8 @@
+{
+  "original_question": "Elaine initially had 20 Pokemon cards. After a month, she collected three times that number. In the second month, she collected 20 fewer cards than those she collected in the first month. In the third month, she collected twice the combined number of pokemon cards she collected in the first and second months. How many pokemon cards does she have now in total?",
+  "original_answer": 320,
+  "symbolic_template": "{name_female, Elaine} initially had {num_digit_1, 20} Pokemon cards. After a month, she collected three times that number. In the second month, she collected {num_digit_2, 20} fewer cards than those she collected in the first month. In the third month, she collected twice the combined number of pokemon cards she collected in the first and second months. How many pokemon cards does she have now in total?",
+  "ic_sentence_template": "{name_female, Elaine}'s uncle owns {num_ic, 62984} baseball cards.",
+  "ic_template": "{name_female, Elaine} initially had {num_digit_1, 20} Pokemon cards. After a month, she collected three times that number. In the second month, she collected {num_digit_2, 20} fewer cards than those she collected in the first month. In the third month, she collected twice the combined number of pokemon cards she collected in the first and second months. {name_female, Elaine}'s uncle owns {num_ic, 62984} baseball cards. How many pokemon cards does she have now in total?",
+  "equation": "UPDATE HERE"
+}

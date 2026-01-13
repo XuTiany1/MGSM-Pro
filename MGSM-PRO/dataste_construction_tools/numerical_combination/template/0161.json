@@ -1,0 +1,34 @@
+{
+    "problem_id": "0161",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_6", "num_digit_7", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [6, 15]},
+        "num_digit_2": {"type": "int", "range": [5, 12]},
+        "num_digit_3": {"type": "int", "range": [2, 10]},
+        "num_digit_4": {"type": "int", "range": [1, 5]},
+        "num_digit_6": {"type": "int", "range": [1, 4]},
+        "num_digit_7": {"type": "int", "range": [1, 5]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_7": [
+            "anakin_total = num_digit_1 + num_digit_2 + num_digit_3",
+            "locsin_star = num_digit_1 - num_digit_4",
+            "locsin_sea = num_digit_2 - num_digit_6",
+            "locsin_clown = num_digit_3 + num_digit_7",
+            "locsin_total = locsin_star + locsin_sea + locsin_clown",
+            "ans = anakin_total + locsin_total"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_7": [
+            "locsin_star >= 0",
+            "locsin_sea >= 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

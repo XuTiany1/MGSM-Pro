@@ -1,0 +1,8 @@
+{
+  "original_question": "Ayaresabea bi hu nkorɔfoɔ ahanum  da biara. Wohu ɔyarefoɔ biara wɔ adantam simma aduononan. Ayaresafoɔ no atwa boɔ $150 wɔ dɔnhwere baako ama ayaresabea no ne ayaresabea boɔ ama ɔyarefoɔ sɛ wɔbe twa $200 wɔ dɔnhwere baako. Mfasoɔ ahe na ayaresabea nya fi nsrahwɛ yi mu?\n",
+  "original_answer": 10000,
+  "symbolic_template": "Ayaresabea bi hu nkorɔfoɔ {num_digit_1, 500} da biara. Wohu ɔyarefoɔ biara wɔ adantam simma {num_digit_2, 24}. Ayaresafoɔ no atwa boɔ ${num_digit_3, 150} wɔ dɔnhwere baako ama ayaresabea no ne ayaresabea boɔ ama ɔyarefoɔ sɛ wɔbe twa ${num_digit_4, 200} wɔ dɔnhwere baako. Mfasoɔ ahe na ayaresabea nya fi nsrahwɛ yi mu?",
+  "ic_sentence_template": "Ayaresabea panyin no nua de nsɛmma nwoma {num_ic, 64} baa beae a wɔtwɛn no.",
+  "ic_template": "Ayaresabea panyin no nua de nsɛmma nwoma {num_ic, 64} baa beae a wɔtwɛn no. Ayaresabea bi hu nkorɔfoɔ {num_digit_1, 500} da biara. Wohu ɔyarefoɔ biara wɔ adantam simma {num_digit_2, 24}. Ayaresafoɔ no atwa boɔ ${num_digit_3, 150} wɔ dɔnhwere baako ama ayaresabea no ne ayaresabea boɔ ama ɔyarefoɔ sɛ wɔbe twa ${num_digit_4, 200} wɔ dɔnhwere baako. Mfasoɔ ahe na ayaresabea nya fi nsrahwɛ yi mu?",
+  "equation": "UPDATE HERE"
+}

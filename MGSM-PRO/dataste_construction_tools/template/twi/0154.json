@@ -1,0 +1,8 @@
+{
+  "original_question": "Wɔ Ɛdwoada, Wukuada, ne Efiada, Kimo a ɔyɛ kɔlegyini no wɔ nnɔnhwere 1 adesua ahoroɔ mmiensa da biara. Ɛbenada ne Kwasiada biara no, na ɔde nnɔnhwere 2 yɛ adesua mmienu wɔ da biara. Wɔ bosome baako mu, nnawɔtwe 16 na wɔde kɔ sukuu. Wɔ bosome baako mu, nnɔnhwere ahe na Kimo de kɔ sukuu?",
+  "original_answer": 272,
+  "symbolic_template": "Wɔ Ɛdwoada, Wukuada, ne Efiada, {name_male, Kimo} a ɔyɛ kɔlegyini no wɔ nnɔnhwere {num_digit_1, 1} adesua ahoroɔ mmiɛnsa da biara. Ɛbenada ne Kwasiada biara no, na ɔde nnɔnhwere {num_digit_2, 2} yɛ adesua mmienu wɔ da biara. Wɔ bosome baako mu, nnawɔtwe {num_digit_3, 16} na wɔde kɔ sukuu. Wɔ bosome baako mu, nnɔnhwere ahe na {name_male, Kimo} de kɔ sukuu?",
+  "ic_sentence_template": "{name_male, Kimo} sewaa no wɔ surfboard {num_ic, 12}.",
+  "ic_template": "Wɔ Ɛdwoada, Wukuada, ne Efiada, {name_male, Kimo} a ɔyɛ kɔlegyini no wɔ nnɔnhwere {num_digit_1, 1} adesua ahoroɔ mmiɛnsa da biara. Ɛbenada ne Kwasiada biara no, na ɔde nnɔnhwere {num_digit_2, 2} yɛ adesua mmienu wɔ da biara. Wɔ bosome baako mu, nnawɔtwe {num_digit_3, 16} na wɔde kɔ sukuu. Wɔ bosome baako mu, nnɔnhwere ahe na {name_male, Kimo} de kɔ sukuu? {name_male, Kimo} sewaa no wɔ surfboard {num_ic, 12}.",
+  "equation": "UPDATE HERE"
+}

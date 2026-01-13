@@ -1,0 +1,8 @@
+{
+  "original_question": "Wɔ ɛdwoda no, Sue dii krakase mpɛn enan sen ne nuabaa no. Wɔ ɛbenada nso, odii krakase mpɛn mmienu sen ne nuabaa no. Ne nuabaa no dii krakase enum wɔ ɛdwoda, na ade kyee no, odii krakase du mmiensa. Sɛ krakase baako wɔ sradie 200 a, sradie dodoɔ ahe na Sue dii sen ne nuabaa no?",
+  "original_answer": 5600,
+  "symbolic_template": " Wɔ ɛdwoda no, {name_female, Sue} dii krakase mpɛn {num_digit_1, enan} sen ne nuabaa no. Wɔ ɛbenada nso, odii krakase mpɛn mmienu sen ne nuabaa no. Ne nuabaa no dii krakase {num_digit_2, enum} wɔ ɛdwoda, na ade kyee no, odii krakase {num_digit_3, du mmiensa}. Sɛ krakase {num_digit_4, baako} wɔ sradie {num_digit_5, 200} a, sradie dodoɔ ahe na {name_female, Sue} dii sen ne nuabaa no?",
+  "ic_sentence_template": "{name_female, Sue} wɔfa de pie {num_ic, 15} baa wɔn fie.",
+  "ic_template": "{name_female, Sue} wɔfa de pie {num_ic, 15} baa wɔn fie. Wɔ ɛdwoda no, {name_female, Sue} dii krakase mpɛn {num_digit_1, enan} sen ne nuabaa no. Wɔ ɛbenada nso, odii krakase mpɛn mmienu sen ne nuabaa no. Ne nuabaa no dii krakase {num_digit_2, enum} wɔ ɛdwoda, na ade kyee no, odii krakase {num_digit_3, du mmiensa}. Sɛ krakase {num_digit_4, baako} wɔ sradie {num_digit_5, 200} a, sradie dodoɔ ahe na {name_female, Sue} dii sen ne nuabaa no?",
+  "equation": "UPDATE HERE"
+}

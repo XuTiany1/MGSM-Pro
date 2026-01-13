@@ -1,0 +1,8 @@
+{
+  "original_question": "Ikọ̀ ẹgbẹ́ agbábọ́ọ́lù kan gbá bọ́ọ̀lù 22. Wọ́n borí 8 ju èyí tí wọ́n pàdánù lọ. Mélòó ní wọ́n borí?",
+  "original_answer": 15,
+  "symbolic_template": "Ikọ̀ ẹgbẹ́ agbábọ́ọ́lù kan gbá bọ́ọ̀lù {num_digit_1, 22}. Wọ́n borí {num_digit_2, 8} ju èyí tí wọ́n pàdánù lọ. Mélòó ní wọ́n borí?",
+  "ic_sentence_template": "Arákùnrin {name_male, John} lọ sí ìdíje bọ́ọ̀lù {num_ic, 124} lásìkò ìsẹ̀sẹ̀ yìí.",
+  "ic_template": "Arákùnrin {name_male, John} lọ sí ìdíje bọ́ọ̀lù {num_ic, 124} lásìkò ìsẹ̀sẹ̀ yìí. Ikọ̀ ẹgbẹ́ agbábọ́ọ́lù kan gbá bọ́ọ̀lù {num_digit_1, 22}. Wọ́n borí {num_digit_2, 8} ju èyí tí wọ́n pàdánù lọ. Mélòó ní wọ́n borí?",
+  "equation": "UPDATE HERE"
+}

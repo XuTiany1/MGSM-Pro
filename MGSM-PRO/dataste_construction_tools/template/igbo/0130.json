@@ -1,0 +1,8 @@
+{
+  "original_question": "Nissa gobiri ndị ọrụ oge ka ha rụọ ọrụ elve n'ịme ụlọ ahịa ya dị n'obodo Santa. Otu ụzọ n'ịme atọ ndị ahụ kwụsịrị ọrụ ka ụmụaka gbọchara agbọọ n'ahụ ha, mgbe ahụ iri n'ịme ha kwụsịrị ka ụmụaka gbachara ha ukwu n'akụkụ. Elve ole fọrọ? ",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, Nissa} gobiri ndị ọrụ oge {num_digit_1, 60} ka ha rụọ ọrụ elve n'ịme ụlọ ahịa ya dị n'obodo Santa. Otu ụzọ n'ịme atọ ndị ahụ kwụsịrị ọrụ ka ụmụaka gbọchara agbọọ n'ahụ ha, mgbe ahụ {num_digit_2, 10} n'ịme ha kwụsịrị ka ụmụaka gbachara ha ukwu n'akụkụ. Elve ole fọrọ?",
+  "ic_sentence_template": "Nwanne nna {name_female, Nissa} na-ebunye osisi Krismas {num_ic, 87} n'ụlọ ahịa kwa afọ.",
+  "ic_template": "Nwanne nna {name_female, Nissa} na-ebunye osisi Krismas {num_ic, 87} n'ụlọ ahịa kwa afọ. {name_female, Nissa} gobiri ndị ọrụ oge {num_digit_1, 60} ka ha rụọ ọrụ elve n'ịme ụlọ ahịa ya dị n'obodo Santa. Otu ụzọ n'ịme atọ ndị ahụ kwụsịrị ọrụ ka ụmụaka gbọchara agbọọ n'ahụ ha, mgbe ahụ {num_digit_2, 10} n'ịme ha kwụsịrị ka ụmụaka gbachara ha ukwu n'akụkụ. Elve ole fọrọ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Une entreprise verse 600 $ par mois à chaque employé. Elle a pour politique d'ajouter 10 % au salaire initial de chacun de ses employés ayant cinq ans d'ancienneté. Si Sylvie vient de passer 5 ans dans l'entreprise en décembre dernier, quel sera son salaire annuel après trois années supplémentaires de service ?",
+  "original_answer": 9360,
+  "symbolic_template": "Une entreprise verse {num_digit_1, 600} $ par mois à chaque employé. Elle a pour politique d'ajouter {num_digit_2, 10} % au salaire initial de chacun de ses employés ayant cinq ans d'ancienneté. Si {name_female, Sylvie} vient de passer {num_digit_3, 5} ans dans l'entreprise en décembre dernier, quel sera son salaire annuel après trois années supplémentaires de service ?",
+  "ic_sentence_template": "{name_female, Sylvie} a un oncle qui a récemment acheté {num_ic, 77} chaises de bureau.",
+  "ic_template": "{name_female, Sylvie} a un oncle qui a récemment acheté {num_ic, 77} chaises de bureau. Une entreprise verse {num_digit_1, 600} $ par mois à chaque employé. Elle a pour politique d'ajouter {num_digit_2, 10} % au salaire initial de chacun de ses employés ayant cinq ans d'ancienneté. Si {name_female, Sylvie} vient de passer {num_digit_3, 5} ans dans l'entreprise en décembre dernier, quel sera son salaire annuel après trois années supplémentaires de service ?",
+  "equation": "UPDATE HERE"
+}

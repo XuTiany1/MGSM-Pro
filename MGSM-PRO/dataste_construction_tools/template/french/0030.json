@@ -1,0 +1,8 @@
+{
+  "original_question": "Les âges de Darell et d'Allen sont dans le ratio de 7 : 11. Si la somme de leurs âges actuels est de 162, calculez l'âge qu'aura Allen dans 10 ans.",
+  "original_answer": 109,
+  "symbolic_template": "Les âges de {name_male_1, Darell} et de {name_male_2, Allen} sont dans le ratio de {num_digit_1, 7} : {num_digit_2, 11}. Si la somme de leurs âges actuels est de {num_digit_3, 162}, calculez l'âge qu'aura {name_male_2, Allen} dans {num_digit_4, 10} ans.",
+  "ic_sentence_template": "{name_male_2, Allen} a un oncle qui vient d’acheter {num_ic, 64} cartes de baseball.",
+  "ic_template": "{name_male_2, Allen} a un oncle qui vient d’acheter {num_ic, 64} cartes de baseball. Les âges de {name_male_1, Darell} et de {name_male_2, Allen} sont dans le ratio de {num_digit_1, 7} : {num_digit_2, 11}. Si la somme de leurs âges actuels est de {num_digit_3, 162}, calculez l'âge qu'aura {name_male_2, Allen} dans {num_digit_4, 10} ans.",
+  "equation": "UPDATE HERE"
+}

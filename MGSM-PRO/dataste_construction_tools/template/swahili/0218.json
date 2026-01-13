@@ -1,0 +1,8 @@
+{
+  "original_question": "Umri wa Adrian ni mara tatu zaidi ya umri wa Harriet, na umri wa Harriet ni nusu ya umri wa Zack. Piga hesabu ya umri wa wastani wa wote watatu baada ya miaka mitatu iwapo umri wa Harriet wa sasa ni miaka 21.",
+  "original_answer": 45,
+  "symbolic_template": "Umri wa {name_male_1, Adrian} ni mara tatu zaidi ya umri wa {name_male_2, Harriet}, na umri wa {name_male_2, Harriet} ni nusu ya umri wa {name_male_3, Zack}. Piga hesabu ya umri wa wastani wa wote watatu baada ya miaka mitatu iwapo umri wa {name_male_2, Harriet} wa sasa ni miaka {num_digit_1, 21}.",
+  "ic_sentence_template": "Mjomba wa {name_male_2, Harriet} amenunua tufaha {num_ic, 107} sokoni.",
+  "ic_template": "Mjomba wa {name_male_2, Harriet} amenunua tufaha {num_ic, 107} sokoni. Umri wa {name_male_1, Adrian} ni mara tatu zaidi ya umri wa {name_male_2, Harriet}, na umri wa {name_male_2, Harriet} ni nusu ya umri wa {name_male_3, Zack}. Piga hesabu ya umri wa wastani wa wote watatu baada ya miaka mitatu iwapo umri wa {name_male_2, Harriet} wa sasa ni miaka {num_digit_1, 21}.",
+  "equation": "UPDATE HERE"
+}

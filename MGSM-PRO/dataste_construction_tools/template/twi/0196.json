@@ -1,0 +1,8 @@
+{
+  "original_question": "Ɛsɛ sɛ wɔkyekyɛ atosodeɛ ahaanu pounds ma adidibea aduanan wɔ kuro bi mu. Ɛsɛ sɛ adidibea biara nya atosodeɛ pounds mmienu. Atosodeɛ wɔ pounds dodoɔ ahe na wɔmfa nni dwuma? ",
+  "original_answer": 120,
+  "symbolic_template": "Ɛsɛ sɛ wɔkyekyɛ atosodeɛ {num_digit_1, 200} pounds ma adidibea  {num_digit_2, 40} wɔ kuro bi mu. Ɛsɛ sɛ adidibea biara nya atosodeɛ {num_digit_3, 2} pounds. Atosodeɛ wɔ pounds dodoɔ ahe na wɔmfa nni dwuma?",
+  "ic_sentence_template": "Aduanenoafo {num_ic, 22} wɔ kurow no mu reyɛ nkwan nhyehyɛeɛ foforo bi.",
+  "ic_template": "Aduanenoafo {num_ic, 22} wɔ kurow no mu reyɛ nkwan nhyehyɛeɛ foforo bi. Ɛsɛ sɛ wɔkyekyɛ atosodeɛ {num_digit_1, 200} pounds ma adidibea  {num_digit_2, 40} wɔ kuro bi mu. Ɛsɛ sɛ adidibea biara nya atosodeɛ {num_digit_3, 2} pounds. Atosodeɛ wɔ pounds dodoɔ ahe na wɔmfa nni dwuma?",
+  "equation": "UPDATE HERE"
+}

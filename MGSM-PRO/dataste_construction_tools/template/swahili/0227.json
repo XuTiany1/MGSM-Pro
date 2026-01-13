@@ -1,0 +1,8 @@
+{
+  "original_question": "Chad aliagiza barito ya kujijengea wakati wa chakula cha mchana. Barito ya sehemu ya chini ni $6.50. Anaongeza nyama ya ziada kwa $2.00, jibini ya ziada kwa $1.00, parachichi ya $1.00 na sosi 2 za $0.25 kila moja. Kisha anaamua kuboresha mlo wake kwa $3.00 zaidi ya kuongeza chipsi na kinywaji. Aka kadi ya zawadi ya $5.00 ambayo anatumia kulipa. Bado anadaiwa pesa ngapi?",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, Chad} aliagiza burrito ya kujitengenezea kwa chakula cha mchana. Burrito ya msingi ni dola {num_digit_1, 6.50}. Ameongeza nyama ya ziada kwa dola {num_digit_2, 2.00}, jibini la ziada kwa dola {num_digit_3, 1.00}, parachichi kwa dola {num_digit_4, 1.00} na michuzi 2 kwa dola {num_digit_5, 0.25} kila moja. Ameamua kuboresha mlo wake kwa dola {num_digit_6, 3.00} ili aongeze chipsi na kinywaji. Ana kadi ya zawadi ya dola {num_digit_7, 5.00} ambayo anatumia kwenye malipo. Bado anadaiwa kiasi gani?",
+  "ic_sentence_template": "Mjomba wa {name_male, Chad} alinunua burrito {num_ic, 38} kwa ajili ya wenzake kazini wiki iliyopita.",
+  "ic_template": "Mjomba wa {name_male, Chad} alinunua burrito {num_ic, 38} kwa ajili ya wenzake kazini wiki iliyopita. {name_male, Chad} aliagiza burrito ya kujitengenezea kwa chakula cha mchana. Burrito ya msingi ni dola {num_digit_1, 6.50}. Ameongeza nyama ya ziada kwa dola {num_digit_2, 2.00}, jibini la ziada kwa dola {num_digit_3, 1.00}, parachichi kwa dola {num_digit_4, 1.00} na michuzi 2 kwa dola {num_digit_5, 0.25} kila moja. Ameamua kuboresha mlo wake kwa dola {num_digit_6, 3.00} ili aongeze chipsi na kinywaji. Ana kadi ya zawadi ya dola {num_digit_7, 5.00} ambayo anatumia kwenye malipo. Bado anadaiwa kiasi gani?",
+  "equation": "UPDATE HERE"
+}

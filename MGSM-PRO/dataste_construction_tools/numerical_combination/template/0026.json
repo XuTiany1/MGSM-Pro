@@ -1,0 +1,30 @@
+{
+    "problem_id": "0026",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_5", "num_digit_6", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [3, 6]},
+        "num_digit_2": {"type": "int", "range": [3, 6]},
+        "num_digit_3": {"type": "int", "range": [2, 5]},
+        "num_digit_4": {"type": "float", "precision": 2, "range": [12.00, 20.00]},
+        "num_digit_5": {"type": "float", "precision": 2, "range": [21.00, 35.00]},
+        "num_digit_6": {"type": "int", "range": [40, 65]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_6": [
+            "shorts_total = num_digit_1 * num_digit_4",
+            "pants_total = num_digit_2 * num_digit_5",
+            "shoes_total = num_digit_3 * num_digit_6",
+            "ans = shorts_total + pants_total + shoes_total"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 3, "max_digits": 4}
+    },
+    "restrictions": {
+        "num_digit_6": [
+            "ans % 1 == 0",
+            "ans > 150"
+        ]
+    }
+}

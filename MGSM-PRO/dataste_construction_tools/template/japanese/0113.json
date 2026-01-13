@@ -1,0 +1,8 @@
+{
+  "original_question": "ライアンは彼の庭に、1日に2つの花を植える。15日後、5つの花が育たなかったとすると、彼はいくつの花を持っているか？",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, ライアン}は彼の庭に、1日に{num_digit_1, 2}つの花を植える。{num_digit_2, 15}日後、{num_digit_3, 5}つの花が育たなかったとすると、彼はいくつの花を持っているか？",
+  "ic_sentence_template": "{name_male, ライアン}のおじさんは庭のために{num_ic, 8}個の新しい鉢を持ってきました。",
+  "ic_template": "{name_male, ライアン}のおじさんは庭のために{num_ic, 8}個の新しい鉢を持ってきました。{name_male, ライアン}は彼の庭に、1日に{num_digit_1, 2}つの花を植える。{num_digit_2, 15}日後、{num_digit_3, 5}つの花が育たなかったとすると、彼はいくつの花を持っているか？",
+  "equation": "UPDATE HERE"
+}

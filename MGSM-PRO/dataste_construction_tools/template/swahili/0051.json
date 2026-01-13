@@ -1,0 +1,8 @@
+{
+  "original_question": "Meli ya Tom inaweza kusafiri kwa kasi ya maili 10 kwa saa. Anasafiri kuanzia saa 7 mchana hadi saa 10 jioni. Kisha anasafiri akirudi kwa kasi ya maili 6 kwa saa. Itamchukua muda gani kurudi?",
+  "original_answer": 20,
+  "symbolic_template": "Meli ya {name_male, Tom} inaweza kusafiri kwa kasi ya maili {num_digit_1, 15} kwa saa. Anasafiri kuanzia saa {num_digit_2, 1} mchana hadi saa {num_digit_3, 9} jioni. Kisha anasafiri akirudi kwa kasi ya maili {num_digit_4, 6} kwa saa. Itamchukua muda gani kurudi?",
+  "ic_sentence_template": "Mjomba wa {name_male, Tom} alinunua mashua za mfano {num_ic, 20} hivi karibuni.",
+  "ic_template": "Mjomba wa {name_male, Tom} alinunua mashua za mfano {num_ic, 20} hivi karibuni. Meli ya {name_male, Tom} inaweza kusafiri kwa kasi ya maili {num_digit_1, 15} kwa saa. Anasafiri kuanzia saa {num_digit_2, 1} mchana hadi saa {num_digit_3, 9} jioni. Kisha anasafiri akirudi kwa kasi ya maili {num_digit_4, 6} kwa saa. Itamchukua muda gani kurudi?",
+  "equation": "UPDATE HERE"
+}

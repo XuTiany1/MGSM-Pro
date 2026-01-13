@@ -1,0 +1,8 @@
+{
+  "original_question": "Zaid dépense 1/4 de son salaire pour le loyer, 1/3 pour le carburant de sa voiture et fait don de la moitié du montant restant à son association caritative préférée. Il donne 200 $ à sa fille pour ses dépenses hebdomadaires et 700 $ à sa femme pour l'épicerie et les autres produits ménagers. Si Zaid gagne 6 000 $ par mois, combien d'argent lui restera-t-il après toutes ces dépenses et ces dons ?",
+  "original_answer": 350,
+  "symbolic_template": "{name_male, Zaid} dépense 1/4 de son salaire pour le loyer, 1/3 pour le carburant de sa voiture et fait don de la moitié du montant restant à son association caritative préférée. Il donne {num_digit_1, 200} $ à sa fille pour ses dépenses hebdomadaires et {num_digit_2, 700} $ à sa femme pour l'épicerie et les autres produits ménagers. Si {name_male, Zaid} gagne {num_digit_3, 6 000} $ par mois, combien d'argent lui restera-t-il après toutes ces dépenses et ces dons ?",
+  "ic_sentence_template": "{name_male, Zaid} a un oncle qui a récemment acheté {num_ic, 32} chapeaux dans un magasin local.",
+  "ic_template": "{name_male, Zaid} a un oncle qui a récemment acheté {num_ic, 32} chapeaux dans un magasin local. {name_male, Zaid} dépense 1/4 de son salaire pour le loyer, 1/3 pour le carburant de sa voiture et fait don de la moitié du montant restant à son association caritative préférée. Il donne {num_digit_1, 200} $ à sa fille pour ses dépenses hebdomadaires et {num_digit_2, 700} $ à sa femme pour l'épicerie et les autres produits ménagers. Si {name_male, Zaid} gagne {num_digit_3, 6 000} $ par mois, combien d'argent lui restera-t-il après toutes ces dépenses et ces dons ?",
+  "equation": "UPDATE HERE"
+}

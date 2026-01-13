@@ -1,0 +1,8 @@
+{
+  "original_question": "Ọkọ ojú irin méjì kúrò ní San Rafael nígbà kan náà. Wọ́n bẹ̀rẹ̀ sí rìnrìnàjò lọ sí ìhà ìwọ̀-oòrùn, àwọn méjèèjì rin fún máílì 80. Ní ọjọ́ kejì, wọ́n rìrìnàjò lọ sí ìhà àríwá, wọ́n parí máílì 150. Kínni ìjìnà tí ọkọ̀ ojú irin kọ̀ọ̀kan parí ní ọjọ́ méjì náà?",
+  "original_answer": 230,
+  "symbolic_template": "Ọkọ ojú irin méjì kúrò ní {name_town_1, San Rafael} nígbà kan náà. Wọ́n bẹ̀rẹ̀ sí rìnrìnàjò lọ sí ìhà ìwọ̀-oòrùn, àwọn méjèèjì rin fún máílì {num_digit_1, 80}. Ní ọjọ́ kejì, wọ́n rìrìnàjò lọ sí ìhà àríwá, wọ́n parí máílì {num_digit_2, 150}. Kínni ìjìnà tí ọkọ̀ ojú irin kọ̀ọ̀kan parí ní ọjọ́ méjì náà?",
+  "ic_sentence_template": "olùdarí ìlú {name_town_1, San Rafael} ní ọkọ oju-irin àdánwò {num_ic, 137}.",
+  "ic_template": "olùdarí ìlú {name_town_1, San Rafael} ní ọkọ oju-irin àdánwò {num_ic, 137}. Ọkọ ojú irin méjì kúrò ní {name_town_1, San Rafael} nígbà kan náà. Wọ́n bẹ̀rẹ̀ sí rìnrìnàjò lọ sí ìhà ìwọ̀-oòrùn, àwọn méjèèjì rin fún máílì {num_digit_1, 80}. Ní ọjọ́ kejì, wọ́n rìrìnàjò lọ sí ìhà àríwá, wọ́n parí máílì {num_digit_2, 150}. Kínni ìjìnà tí ọkọ̀ ojú irin kọ̀ọ̀kan parí ní ọjọ́ méjì náà?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "珍妮特的鸭子每天下 16 颗蛋。她每天早上早餐时吃 3 颗，每天用 4 颗为自己的朋友做松饼。剩下的鸭蛋她每天拿去农贸市场卖，每颗新鲜鸭蛋卖 2 美元。她每天在农贸市场赚多少钱？",
+  "original_answer": 18,
+  "symbolic_template": "{name_female, 珍妮特} 的鸭子每天产下 {num_digit_1, 16} 颗蛋。她每天早餐时吃 3 颗，每天用 4 颗为朋友做松饼。剩下的鸭蛋她每天拿去农贸市场卖，每颗新鲜鸭蛋卖 {num_digit_2, 2} 美元。她每天在农贸市场赚多少钱？",
+  "ic_sentence_template": "{name_female, 珍妮特} 的叔叔每周给她带来 {num_ic, 41} 个苹果。",
+  "ic_template": "{name_female, 珍妮特} 的叔叔每周给她带来 {num_ic, 41} 个苹果。{name_female, 珍妮特} 的鸭子每天产下 {num_digit_1, 16} 颗蛋。她每天早餐时吃 3 颗，每天用 4 颗为朋友做松饼。剩下的鸭蛋她每天拿去农贸市场卖，每颗新鲜鸭蛋卖 {num_digit_2, 2} 美元。她每天在农贸市场赚多少钱？",
+  "equation": "UPDATE HERE"
+}

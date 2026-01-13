@@ -1,0 +1,8 @@
+{
+  "original_question": "Harry daa dɔnhwere 9 ԑnora anadwo. N’adamfo James daa Harry nna no mu mmiensa mu nkyԑmu mmienu. Dɔnhwere dodoɔ sԑn na Harry da kyԑn James?",
+  "original_answer": 3,
+  "symbolic_template": "{name_male_1, Harry} daa dɔnhwere {num_digit_1, 9} ԑnora anadwo. N’adamfo {name_male_2, James} daa {name_male_1, Harry} nna no mu mmiensa mu nkyԑmu mmienu. Dɔnhwere dodoɔ sԑn na {name_male_1, Harry} da kyԑn {name_male_2, James}?",
+  "ic_sentence_template": "{name_male_2, James} no wɔfa yɛ pancakes {num_ic, 19} dapɛn awieɛ biara.",
+  "ic_template": "{name_male_2, James} no wɔfa yɛ pancakes {num_ic, 19} dapɛn awieɛ biara. {name_male_1, Harry} daa dɔnhwere {num_digit_1, 9} ԑnora anadwo. N’adamfo {name_male_2, James} daa {name_male_1, Harry} nna no mu mmiensa mu nkyԑmu mmienu. Dɔnhwere dodoɔ sԑn na {name_male_1, Harry} da kyԑn {name_male_2, James}?",
+  "equation": "UPDATE HERE"
+}

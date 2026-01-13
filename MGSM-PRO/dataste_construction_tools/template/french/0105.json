@@ -1,0 +1,8 @@
+{
+  "original_question": "Cody mange trois fois plus de biscuits qu'Amir. Si Amir mange 5 biscuits, combien de biscuits mangent-ils au total tous les deux ?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male_1, Cody} mange trois fois plus de biscuits que {name_male_2, Amir}. Si {name_male_2, Amir} mange {num_digit_1, 5} biscuits, combien de biscuits mangent-ils au total tous les deux ?",
+  "ic_sentence_template": "{name_male_2, Amir} a reçu {num_ic, 20} brownies de la part de son oncle pour la fête.",
+  "ic_template": "{name_male_2, Amir} a reçu {num_ic, 20} brownies de la part de son oncle pour la fête. {name_male_1, Cody} mange trois fois plus de biscuits que {name_male_2, Amir}. Si {name_male_2, Amir} mange {num_digit_1, 5} biscuits, combien de biscuits mangent-ils au total tous les deux ?",
+  "equation": "UPDATE HERE"
+}

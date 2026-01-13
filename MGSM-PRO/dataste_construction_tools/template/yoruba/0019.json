@@ -1,0 +1,8 @@
+{
+  "original_question": "Marisa ń gun orí òkè máílì-12 ní ìrìn. Ó lo wákàtí 1 láti rin máílì 4 àkọ́kọ́, lẹ́yìn náà ní wákàtí mìíràn láti rin máìlì méjì tó kàn. Tí ó bá fẹ́ kí gbèdéke eré rẹ̀ ó jẹ́ máìlì 4 ní wákàtí kan, eré wo (ní máílì fún wákàtí kan) ni ó nílò láti rìn ìjìnà tó kù?",
+  "original_answer": 6,
+  "symbolic_template": "{name_female, Marissa} ń gun orí òkè máílì-{num_digit_1, 12} ní ìrìn. Ó lo wákàtí {num_digit_2, 1} láti rin máílì {num_digit_3, 4} àkọ́kọ́, lẹ́yìn náà ní wákàtí {num_digit_2, 1} mìíràn láti rin máìlì méjì tó kàn. Tí ó bá fẹ́ kí gbèdéke eré rẹ̀ ó jẹ́ máìlì {num_digit_4, 4} ní wákàtí kan, eré wo (ní máílì fún wákàtí kan) ni ó nílò láti rìn ìjìnà tó kù?",
+  "ic_sentence_template": "Àntí {name_female, Marissa} rí odòdó igbó {num_ic, 49} lẹ́gbẹ̀ẹ́ ọ̀nà.",
+  "ic_template": "Àntí {name_female, Marissa} rí odòdó igbó {num_ic, 49} lẹ́gbẹ̀ẹ́ ọ̀nà. {name_female, Marissa} ń gun orí òkè máílì-{num_digit_1, 12} ní ìrìn. Ó lo wákàtí {num_digit_2, 1} láti rin máílì {num_digit_3, 4} àkọ́kọ́, lẹ́yìn náà ní wákàtí {num_digit_2, 1} mìíràn láti rin máìlì méjì tó kàn. Tí ó bá fẹ́ kí gbèdéke eré rẹ̀ ó jẹ́ máìlì {num_digit_4, 4} ní wákàtí kan, eré wo (ní máílì fún wákàtí kan) ni ó nílò láti rìn ìjìnà tó kù?",
+  "equation": "UPDATE HERE"
+}

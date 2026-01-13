@@ -1,0 +1,8 @@
+{
+  "original_question": "Timu ya kandanda ilicheza michezo 22. Walishinda michezo 8 wazidi ya waliopoteza. Walishinda michezo mingapi?",
+  "original_answer": 15,
+  "symbolic_template": "Timu ya kandanda ilicheza michezo {num_digit_1, 22}. Walishinda michezo {num_digit_2, 8} zaidi ya waliopoteza. Walishinda michezo mingapi?",
+  "ic_sentence_template": "Mjomba wa {name_male, John} alihudhuria mechi {num_ic, 124} msimu huu.",
+  "ic_template": "Mjomba wa {name_male, John} alihudhuria mechi {num_ic, 124} msimu huu. Timu ya kandanda ilicheza michezo {num_digit_1, 22}. Walishinda michezo {num_digit_2, 8} zaidi ya waliopoteza. Walishinda michezo mingapi?",
+  "equation": "UPDATE HERE"
+}

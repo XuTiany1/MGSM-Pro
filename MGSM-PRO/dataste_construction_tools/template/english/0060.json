@@ -1,0 +1,8 @@
+{
+  "original_question": "A basket contains 25 oranges among which 1 is bad, 20% are unripe, 2 are sour and the rest are good. How many oranges are good?",
+  "original_answer": 17,
+  "symbolic_template": "A basket contains {num_digit_1, 25} oranges among which {num_digit_2, 1} is bad, {num_digit_3, 20}% are unripe, {num_digit_4, 2} are sour and the rest are good. How many oranges are good?",
+  "ic_sentence_template": "{name_female, Aria}'s uncle brought {num_ic, 68} apples from the market.",
+  "ic_template": "A basket contains {num_digit_1, 25} oranges among which {num_digit_2, 1} is bad, {num_digit_3, 20}% are unripe, {num_digit_4, 2} are sour and the rest are good. {name_female, Aria}'s uncle brought {num_ic, 68} apples from the market. How many oranges are good?",
+  "equation": "UPDATE HERE"
+}

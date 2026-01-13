@@ -1,0 +1,8 @@
+{
+  "original_question": "Jacques a 6 bonbons de plus que Robert. Jean en a deux fois plus que Robert. Si Jean a 54 bonbons, combien a-t-il de bonbons de plus que Jacques ?",
+  "original_answer": 21,
+  "symbolic_template": "{name_male_1, Jacques} a {num_digit_1, 6} bonbons de plus que {name_male_2, Robert}. {name_male_3, Jean} en a deux fois plus que {name_male_2, Robert}. Si {name_male_3, Jean} a {num_digit_2, 54} bonbons, combien a-t-il de bonbons de plus que {name_male_1, Jacques} ?",
+  "ic_sentence_template": "{name_male_2, Robert} a récemment reçu {num_ic, 422} billes de sa tante.",
+  "ic_template": "{name_male_2, Robert} a récemment reçu {num_ic, 422} billes de sa tante. {name_male_1, Jacques} a {num_digit_1, 6} bonbons de plus que {name_male_2, Robert}. {name_male_3, Jean} en a deux fois plus que {name_male_2, Robert}. Si {name_male_3, Jean} a {num_digit_2, 54} bonbons, combien a-t-il de bonbons de plus que {name_male_1, Jacques} ?",
+  "equation": "UPDATE HERE"
+}

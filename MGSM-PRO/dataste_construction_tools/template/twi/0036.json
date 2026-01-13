@@ -1,0 +1,8 @@
+{
+  "original_question": "Terry di yogurt 2 da biara. Wɔtɔn yogurt 4 biara $5.00 siisiei. Sika sԑn na ɔsԑi wɔ yogurt ho wɔ nna 30 mu?",
+  "original_answer": 75,
+  "symbolic_template": "{name_male, Terry} di yogurt {num_digit_1, 2} da biara. Wɔtɔn yogurt {num_digit_2, 4} biara ${num_digit_3, 5}.00 siisiei. Sika sԑn na ɔsԑi wɔ yogurt ho wɔ nna {num_digit_4, 30} mu?",
+  "ic_sentence_template": "{name_male, Terry} wɔfa tɔɔ ankaa/akutuo nsuo adaka {num_ic, 29} nnansa yi ara.",
+  "ic_template": "{name_male, Terry} wɔfa tɔɔ ankaa/akutuo nsuo adaka {num_ic, 29} nnansa yi ara. {name_male, Terry} di yogurt {num_digit_1, 2} da biara. Wɔtɔn yogurt {num_digit_2, 4} biara ${num_digit_3, 5}.00 siisiei. Sika sԑn na ɔsԑi wɔ yogurt ho wɔ nna {num_digit_4, 30} mu?",
+  "equation": "UPDATE HERE"
+}

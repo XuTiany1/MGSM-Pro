@@ -1,0 +1,8 @@
+{
+  "original_question": "Shawnda ameamua kuwa watoto wa mtaa wake wanaweza kwa kweli kutumia huduma ya kuongeza pumzi kwa baiskeli. Anaamua njia bora ya kutoza ni kwa kila tairi. Kila tairi hugharimi senti 25 kuongeza pumzi. Siku ya kwanza, watu 5 kwenye baiskeli walikuja ili kuongezewa pumzi kwenye tairi zao zote mbili kila mmoja. Watu 3 walikuja ili kuongeza pumzi kwenye tairi zao tatu kila mmoja. Hatimaye, mtu mmoja alikuja kwa baiskeli yenye tairi moja. Alipata dola ngapi hiyo siku?",
+  "original_answer": 5,
+  "symbolic_template": "{name_female, Shawnda} anaamua kuwa watoto katika mtaa wake wanahitaji huduma ya kupulizia hewa kwenye tairi za baiskeli. Anaamua kuwa njia bora ya kutoza ni kwa tairi. Kila tairi hugharimu senti {num_digit_1, 25} kupulizia hewa. Siku ya kwanza, watu {num_digit_2, 5} waliokuwa na baiskeli walikuja kupuliziwa tairi zote mbili. Watu {num_digit_3, 3} walikuja kupuliziwa tairi zote za baiskeli tatu. Hatimaye, mtu mmoja alikuja akiwa na monocycle. Alipata dola ngapi siku hiyo?",
+  "ic_sentence_template": "Mjomba wa {name_female, Shawnda} hivi karibuni alinunua puto {num_ic, 37} kwa ajili ya sherehe.",
+  "ic_template": "Mjomba wa {name_female, Shawnda} hivi karibuni alinunua puto {num_ic, 37} kwa ajili ya sherehe. {name_female, Shawnda} anaamua kuwa watoto katika mtaa wake wanahitaji huduma ya kupulizia hewa kwenye tairi za baiskeli. Anaamua kuwa njia bora ya kutoza ni kwa tairi. Kila tairi hugharimu senti {num_digit_1, 25} kupulizia hewa. Siku ya kwanza, watu {num_digit_2, 5} waliokuwa na baiskeli walikuja kupuliziwa tairi zote mbili. Watu {num_digit_3, 3} walikuja kupuliziwa tairi zote za baiskeli tatu. Hatimaye, mtu mmoja alikuja akiwa na monocycle. Alipata dola ngapi siku hiyo?",
+  "equation": "UPDATE HERE"
+}

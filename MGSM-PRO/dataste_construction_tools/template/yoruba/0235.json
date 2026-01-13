@@ -1,0 +1,8 @@
+{
+  "original_question": "John ra pizza díẹ‌ láti pín pẹ‌lú àwọn ọ‌rẹ‌ rẹ‌. Gbogbo àwọn ọ‌rẹ‌ náà jẹ‌ 20 lápapọ‌, John sì fẹ‌ ri dájú pé ọ‌kọ‌ọ‌kan wọn jẹ awẹ‌ mẹ‌rin mẹ‌rin. Pizza ẹyọ‌kan sì máa ń ní awẹ‌ mẹ‌jọ. Pizza mélòó ni John nílò láti rà?",
+  "original_answer": 10,
+  "symbolic_template": "{name_male, John} ra pizza díẹ‌ láti pín pẹ‌lú àwọn ọ‌rẹ‌ rẹ‌. Gbogbo àwọn ọ‌rẹ‌ náà jẹ‌ {num_digit_1, 20} lápapọ‌, {name_male, John} sì fẹ‌ ri dájú pé ọ‌kọ‌ọ‌kan wọn jẹ awẹ‌ {num_digit_2, 4}. Pizza ẹyọ‌kan sì máa ń ní awẹ́ {num_digit_3, 8}. Pizza mélòó ni {name_male, John} nílò láti rà?",
+  "ic_sentence_template": "Ọmọkùnrin baba {name_male, John} ní káàdì bọ́ọ̀lù béesibọ́ọ̀ {num_ic, 712}.",
+  "ic_template": "Ọmọkùnrin baba {name_male, John} ní káàdì bọ́ọ̀lù béesibọ́ọ̀ {num_ic, 712}. {name_male, John} ra pizza díẹ‌ láti pín pẹ‌lú àwọn ọ‌rẹ‌ rẹ‌. Gbogbo àwọn ọ‌rẹ‌ náà jẹ‌ {num_digit_1, 20} lápapọ‌, {name_male, John} sì fẹ‌ ri dájú pé ọ‌kọ‌ọ‌kan wọn jẹ awẹ‌ {num_digit_2, 4}. Pizza ẹyọ‌kan sì máa ń ní awẹ́ {num_digit_3, 8}. Pizza mélòó ni {name_male, John} nílò láti rà?",
+  "equation": "UPDATE HERE"
+}

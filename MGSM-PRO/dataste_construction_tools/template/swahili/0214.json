@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerry ana vidimbwi viwili, vyote vina sehemu zinazovuja maji kwa kiwango cha mitungi 4 kwa dakika. Dakika 4 zilizopita, kidimbwi kikubwa kilikuwa na mara mbili zaidi ya idadi ya maji katika kidimbwi kidogo. Sasa kidimbwi kikubwa kina mara nne zaidi ya maji katika kidimbwi kidogo. Kidimbwi kidogo kina maji kiasi gani kwa sasa?",
+  "original_answer": 8,
+  "symbolic_template": "{name_male, Jerry} ana mabwawa mawili, yote yakivuja maji kwa kiwango cha galoni {num_digit_1, 4} kwa dakika. Dakika {num_digit_2, 4} zilizopita, bwawa kubwa lilikuwa na maji mara mbili ya bwawa dogo. Sasa bwawa kubwa lina maji mara nne ya bwawa dogo. Bwawa dogo lina maji kiasi gani sasa?",
+  "ic_sentence_template": "Shangazi wa {name_male, Jerry} hujaza ndoo {num_ic, 123} za maji ya mvua kila wiki.",
+  "ic_template": "Shangazi wa {name_male, Jerry} hujaza ndoo {num_ic, 123} za maji ya mvua kila wiki. {name_male, Jerry} ana mabwawa mawili, yote yakivuja maji kwa kiwango cha galoni {num_digit_1, 4} kwa dakika. Dakika {num_digit_2, 4} zilizopita, bwawa kubwa lilikuwa na maji mara mbili ya bwawa dogo. Sasa bwawa kubwa lina maji mara nne ya bwawa dogo. Bwawa dogo lina maji kiasi gani sasa?",
+  "equation": "UPDATE HERE"
+}

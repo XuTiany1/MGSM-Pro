@@ -1,0 +1,8 @@
+{
+  "original_question": "Dolly a deux livres. Pandore n'en a qu'un. Si Dolly et Pandore lisent les livres les unes des autres ainsi que les leurs, combien de livres auront-elles lu en tout à la fin ?",
+  "original_answer": 6,
+  "symbolic_template": "{name_female_1, Dolly} a deux livres. {name_female_2, Pandore} n'en a qu'un. Si {name_female_1, Dolly} et {name_female_2, Pandore} lisent les livres les unes des autres ainsi que les leurs, combien de livres auront-elles lu en tout à la fin ?",
+  "ic_sentence_template": "{name_female_2, Pandora} a un oncle qui possède {num_ic, 674} magazines.",
+  "ic_template": "{name_female_2, Pandora} a un oncle qui possède {num_ic, 674} magazines. {name_female_1, Dolly} a deux livres. {name_female_2, Pandore} n'en a qu'un. Si {name_female_1, Dolly} et {name_female_2, Pandore} lisent les livres les unes des autres ainsi que les leurs, combien de livres auront-elles lu en tout à la fin ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Marcell na Beatrice na-ama aka ịmata onye ga-atakarị mkpuru osisi roll-up, ya mere ha tọọ ngwugwu ole ọbula ha nwere ị́ké ihụ. Kosinadi, mmadụ mere ndaghie ma nke Beatrice bụ roll-up abụọ gbasara agbasa na roll up ogologo iri abụọ na anọ ebe nke Marcell dị roll-up gbasara agbasa atọ na roll-up ogologo iri na anọ. Ọ bụrụ na ha abụọ riri nke ego niile ha zụrụ, kedụ nkezi ole ha riri? ",
+  "original_answer": 45,
+  "symbolic_template": "{name_female_1, Marcell} na {name_female_2, Beatrice} na-ama aka ịmata onye ga-atakarị mkpuru osisi roll-up, ya mere ha tọọ ngwugwu ole ọbula ha nwere ị́ké ihụ. Kosinadi, mmadụ mere ndaghie ma nke {name_female_2, Beatrice} bụ roll-up abụọ gbasara agbasa na roll-up ogologo {num_digit_1, 24} ebe nke {name_female_1, Marcell} dị roll-up gbasara agbasa {num_digit_2, 3} na roll-up ogologo {num_digit_3, 14}. Ọ bụrụ na ha abụọ riri nke ego niile ha zụrụ, kedụ nkezi ole ha riri?",
+  "ic_sentence_template": "Nwanne nne {name_female_2, Beatrice} zụrụ igbe mmanya {num_ic, 41} maka asọmpi ahụ.",
+  "ic_template": "Nwanne nne {name_female_2, Beatrice} zụrụ igbe mmanya {num_ic, 41} maka asọmpi ahụ. {name_female_1, Marcell} na {name_female_2, Beatrice} na-ama aka ịmata onye ga-atakarị mkpuru osisi roll-up, ya mere ha tọọ ngwugwu ole ọbula ha nwere ị́ké ihụ. Kosinadi, mmadụ mere ndaghie ma nke {name_female_2, Beatrice} bụ roll-up abụọ gbasara agbasa na roll-up ogologo {num_digit_1, 24} ebe nke {name_female_1, Marcell} dị roll-up gbasara agbasa {num_digit_2, 3} na roll-up ogologo {num_digit_3, 14}. Ọ bụrụ na ha abụọ riri nke ego niile ha zụrụ, kedụ nkezi ole ha riri?",
+  "equation": "UPDATE HERE"
+}

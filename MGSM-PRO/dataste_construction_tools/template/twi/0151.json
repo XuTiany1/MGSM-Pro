@@ -1,0 +1,8 @@
+{
+  "original_question": "Shawnda fa adwen sɛ ne mpɔtam nkwadaa no betumi de dadepɔnkɔ a wɔde yɛ adwuma. Ɔfa adwen sɛ ɔkwan a ɛyɛ sɛ ɔtua no yɛ tae. Tae emu baako biara ka yɛ 25 cents sɛ ebɛ dɔɔso. Da a edi kan no, nnipa 5 a wɔte dadepɔnkɔ so baa sɛ wɔbenya tae mmienu a ɛdɔɔso. Nnipa 3 baa yɛ sɛ wɔbɛhyehyɛ dadepɔnkɔ tae a ɛwɔsoro yie. ɛtwa toɔ no, onipa baako a ɔde dadepɔnkɔ  baako baa. Dollars dodoɔ ahe na onyaa saa da no?",
+  "original_answer": 5,
+  "symbolic_template": "{name_female, Shawnda} fa adwen sɛ ne mpɔtam nkwadaa no betumi de dadepɔnkɔ a wɔde yɛ adwuma. Ɔfa adwen sɛ ɔkwan a ɛyɛ sɛ ɔtua no yɛ tae. Tae emu baako biara ka yɛ {num_digit_1, 25} cents sɛ ebɛ dɔɔso. Da a edi kan no, nnipa {num_digit_2, 5} a wɔte dadepɔnkɔ so baa sɛ wɔbenya tae mmienu a ɛdɔɔso. Nnipa {num_digit_3, 3} baa yɛ sɛ wɔbɛhyehyɛ dadepɔnkɔ tae a ɛwɔsoro yie. ɛtwa toɔ no, onipa baako a ɔde dadepɔnkɔ baako baa. Dollars dodoɔ ahe na onyaa saa da no?",
+  "ic_sentence_template": "{name_female, Shawnda} wɔfa tɔɔ balloon {num_ic, 37} ama aponto bi.",
+  "ic_template": "{name_female, Shawnda} wɔfa tɔɔ balloon {num_ic, 37} ama aponto bi. {name_female, Shawnda} fa adwen sɛ ne mpɔtam nkwadaa no betumi de dadepɔnkɔ a wɔde yɛ adwuma. Ɔfa adwen sɛ ɔkwan a ɛyɛ sɛ ɔtua no yɛ tae. Tae emu baako biara ka yɛ {num_digit_1, 25} cents sɛ ebɛ dɔɔso. Da a edi kan no, nnipa {num_digit_2, 5} a wɔte dadepɔnkɔ so baa sɛ wɔbenya tae mmienu a ɛdɔɔso. Nnipa {num_digit_3, 3} baa yɛ sɛ wɔbɛhyehyɛ dadepɔnkɔ tae a ɛwɔsoro yie. ɛtwa toɔ no, onipa baako a ɔde dadepɔnkɔ baako baa. Dollars dodoɔ ahe na onyaa saa da no?",
+  "equation": "UPDATE HERE"
+}

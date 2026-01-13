@@ -1,0 +1,8 @@
+{
+  "original_question": "Kylie àti Robert fẹ‌ràn láti máa lọ sí etí odò láti lọ ṣa ìkarahun. Ní ọjọ‌ ajé, Kylie máa ń ṣa ìkarahun márùn-ún ju Robert lọ, ẹni tí ó jẹ‌ pé ìkarahun 20 ló máa ń ṣà. Lọ‌jọ‌ ìṣé‌gun, Kylie máa ń ṣa ìló‌po méjì ìkarahun tí ó ṣà ní ọjọ‌ aje. Ìkarahun mélòó ni Kylie ń ṣà lọ‌jọ‌ọ ìṣé‌gun?",
+  "original_answer": 50,
+  "symbolic_template": "{name_male_1, Kylie} àti {name_male_2, Robert} fẹ́ràn láti máa lọ sí etí odò láti lọ ṣa ìkarahun. Ní ọjọ́ ajé, {name_male_1, Kylie} máa ń ṣa ìkarahun {num_digit_1, márùn-ún} ju {name_male_2, Robert} lọ, ẹni tí ó jẹ́ pé ìkarahun {num_digit_2, 20} ló máa ń ṣà. Lọ́jọ́ ìṣẹ́gun, {name_male_1, Kylie} máa ń ṣa ìlópò {num_digit_3, 2} ìkarahun tí ó ṣà ní ọjọ́ ajé. Ìkarahun mélòó ni {name_male_1, Kylie} ń ṣà lọ́jọ́ọ ìṣẹ́gun?",
+  "ic_sentence_template": "Ìyáàgbà {name_male_2, Robert} rí iròkè omi okun díẹ̀ tí ó jẹ́ {num_ic, 8243} lọdún tó kọjá.",
+  "ic_template": "Ìyáàgbà {name_male_2, Robert} rí iròkè omi okun díẹ̀ tí ó jẹ́ {num_ic, 8243} lọdún tó kọjá. {name_male_1, Kylie} àti {name_male_2, Robert} fẹ́ràn láti máa lọ sí etí odò láti lọ ṣa ìkarahun. Ní ọjọ́ ajé, {name_male_1, Kylie} máa ń ṣa ìkarahun {num_digit_1, márùn-ún} ju {name_male_2, Robert} lọ, ẹni tí ó jẹ́ pé ìkarahun {num_digit_2, 20} ló máa ń ṣà. Lọ́jọ́ ìṣẹ́gun, {name_male_1, Kylie} máa ń ṣa ìlópò {num_digit_3, 2} ìkarahun tí ó ṣà ní ọjọ́ ajé. Ìkarahun mélòó ni {name_male_1, Kylie} ń ṣà lọ́jọ́ọ ìṣẹ́gun?",
+  "equation": "UPDATE HERE"
+}

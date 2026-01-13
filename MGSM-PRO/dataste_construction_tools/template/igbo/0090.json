@@ -1,0 +1,8 @@
+{
+  "original_question": "Ted nke T-Rex na-atụ atụmatụ ịweta sálàd ndukwu n'emume dainasọ. Ọ maara na dainasọ okenye ga-eri ndukwu 10lbs, na nke nwata ga-eri ọkara ịhe nke okenye riri. Ọ bụrụ na a ga-enwe ndị okenye iri abụọ na ndị nwata ise n'emume  ahụ, paund sálàd ndukwu ole ka Ted kwesịrị ịweta n'emume ahụ ka o nwee ị́ké zụọ onye ọbụla? ",
+  "original_answer": 225,
+  "symbolic_template": "{name_dinosaur, Ted} nke T-Rex na-atụ atụmatụ ịweta sálàd ndukwu n'emume dainasọ. Ọ maara na dainasọ okenye ga-eri ndukwu {num_digit_1, 10}lbs, na nke nwata ga-eri ọkara ịhe nke okenye riri. Ọ bụrụ na a ga-enwe ndị okenye {num_digit_2, 20} na ndị nwata {num_digit_3, 5} n'emume  ahụ, paund sálàd ndukwu ole ka {name_dinosaur, Ted} kwesịrị ịweta n'emume ahụ ka o nwee ị́ké zụọ onye ọbụla?",
+  "ic_sentence_template": "Nwa nwanne nna {name_dinosaur, Ted} nwere {num_ic, 94} ọkpụkpọ piinaapulu.",
+  "ic_template": "Nwa nwanne nna {name_dinosaur, Ted} nwere {num_ic, 94} ọkpụkpọ piinaapulu. {name_dinosaur, Ted} nke T-Rex na-atụ atụmatụ ịweta sálàd ndukwu n'emume dainasọ. Ọ maara na dainasọ okenye ga-eri ndukwu {num_digit_1, 10}lbs, na nke nwata ga-eri ọkara ịhe nke okenye riri. Ọ bụrụ na a ga-enwe ndị okenye {num_digit_2, 20} na ndị nwata {num_digit_3, 5} n'emume  ahụ, paund sálàd ndukwu ole ka {name_dinosaur, Ted} kwesịrị ịweta n'emume ahụ ka o nwee ị́ké zụọ onye ọbụla?",
+  "equation": "UPDATE HERE"
+}

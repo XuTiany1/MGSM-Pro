@@ -1,0 +1,8 @@
+{
+  "original_question": "Pauni 200 za karoti zinafaa kusambazwa kwa mikahawa 40 katika jiji fulani. Kila mkahawa unafaa kupokea pauni 2 za karoti. Pauni ngapi za karoti hazitatumika?",
+  "original_answer": 120,
+  "symbolic_template": "Pauni {num_digit_1, 200} za karoti zinafaa kusambazwa kwa mikahawa {num_digit_2, 40} katika jiji fulani. Kila mkahawa unafaa kupokea pauni {num_digit_3, 2} za karoti. Pauni ngapi za karoti hazitatumika?",
+  "ic_sentence_template": "Wapishi {num_ic, 22} jijini wanajaribu mapishi mapya ya supu.",
+  "ic_template": "Wapishi {num_ic, 22} jijini wanajaribu mapishi mapya ya supu. Pauni {num_digit_1, 200} za karoti zinafaa kusambazwa kwa mikahawa {num_digit_2, 40} katika jiji fulani. Kila mkahawa unafaa kupokea pauni {num_digit_3, 2} za karoti. Pauni ngapi za karoti hazitatumika?",
+  "equation": "UPDATE HERE"
+}

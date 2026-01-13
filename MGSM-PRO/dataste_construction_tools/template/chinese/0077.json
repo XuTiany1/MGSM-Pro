@@ -1,0 +1,8 @@
+{
+  "original_question": "假设雷蒙德的洗衣量是莎拉的一半，而莎拉的洗衣量是大卫的 4 倍，如果莎拉的洗衣量为 400 磅，则请计算雷蒙德和大卫的洗衣量差数。",
+  "original_answer": 100,
+  "symbolic_template": "假设 {name_male_1, 雷蒙德} 的洗衣量是 {name_female, 莎拉} 的 一半，而 {name_female, 莎拉} 的洗衣量是 {name_male_2, 大卫} 的 {num_digit_1, 4} 倍，如果 {name_female, 莎拉} 的洗衣量为 {num_digit_2, 400} 磅，则请计算 {name_male_1, 雷蒙德} 和 {name_male_2, 大卫} 的洗衣量差。",
+  "ic_sentence_template": "{name_male_1, 雷蒙德} 的姑妈昨天叠了 {num_ic, 52} 条毛巾。",
+  "ic_template": "{name_male_1, 雷蒙德} 的姑妈昨天叠了 {num_ic, 52} 条毛巾。假设 {name_male_1, 雷蒙德} 的洗衣量是 {name_female, 莎拉} 的 一半，而 {name_female, 莎拉} 的洗衣量是 {name_male_2, 大卫} 的 {num_digit_1, 4} 倍，如果 {name_female, 莎拉} 的洗衣量为 {num_digit_2, 400} 磅，则请计算 {name_male_1, 雷蒙德} 和 {name_male_2, 大卫} 的洗衣量差。",
+  "equation": "UPDATE HERE"
+}

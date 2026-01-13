@@ -1,0 +1,8 @@
+{
+  "original_question": "ピーターは今週映画に行く予定です。彼はいつも$7のチケットと$7のポップコーンを買います。彼がその週のために42ドル持っているとしたら、映画に何回行けますか？",
+  "original_answer": 5,
+  "symbolic_template": "{name_male, ピーター}は今週映画に行く予定です。彼はいつも${num_digit_1, 8}のチケットと${num_digit_2, 6}のポップコーンを買います。彼がその週のために{num_digit_3, 70}ドル持っているとしたら、映画に何回行けますか？",
+  "ic_sentence_template": "{name_male, ピーター}のおじは昨年{num_ic, 63}枚の映画のポスターを買いました。",
+  "ic_template": "{name_male, ピーター}のおじは昨年{num_ic, 63}枚の映画のポスターを買いました。{name_male, ピーター}は今週映画に行く予定です。彼はいつも${num_digit_1, 8}のチケットと${num_digit_2, 6}のポップコーンを買います。彼がその週のために{num_digit_3, 70}ドル持っているとしたら、映画に何回行けますか？",
+  "equation": "UPDATE HERE"
+}

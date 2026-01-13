@@ -1,0 +1,34 @@
+{
+    "problem_id": "0186",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_5", "num_digit_6", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [2, 5]},
+        "num_digit_2": {"type": "int", "range": [4, 10]},
+        "num_digit_3": {"type": "int", "range": [5, 15]},
+        "num_digit_4": {"type": "int", "range": [3, 8]},
+        "num_digit_5": {"type": "int", "range": [10, 30]},
+        "num_digit_6": {"type": "int", "range": [100, 300]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_6": [
+            "hamster_straw = num_digit_3 * num_digit_4",
+            "rabbit_straw = num_digit_5",
+            "rat_straw_total = num_digit_6 - (hamster_straw + rabbit_straw)",
+            "total_rats = rat_straw_total / num_digit_2",
+            "ans = total_rats / num_digit_1"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_6": [
+            "rat_straw_total > 0",
+            "rat_straw_total % num_digit_2 == 0",
+            "total_rats % num_digit_1 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

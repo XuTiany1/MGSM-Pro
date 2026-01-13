@@ -1,0 +1,8 @@
+{
+  "original_question": "Gretchen wɔ dwetԑ 110. Ͻwɔ sikakɔkɔɔ 30 kyԑn dwetԑbena a ɔwɔ. Sika kɔkɔɔ sԑn na Gretchen wɔ?",
+  "original_answer": 70,
+  "symbolic_template": "{name_female, Gretchen} wɔ dwetԑ {num_digit_1, 110}. Ͻwɔ sikakɔkɔɔ {num_digit_2, 30} kyԑn dwetԑbena a ɔwɔ. Sika kɔkɔɔ sԑn na {name_female, Gretchen} wɔ?",
+  "ic_sentence_template": "{name_female, Gretchen} wɔfa no boaboa adwinnua a nyɛ na {num_ic, 970} ano.",
+  "ic_template": "{name_female, Gretchen} wɔ dwetԑ {num_digit_1, 110}. Ͻwɔ sikakɔkɔɔ {num_digit_2, 30} kyԑn dwetԑbena a ɔwɔ. Sika kɔkɔɔ sԑn na {name_female, Gretchen} wɔ? {name_female, Gretchen} wɔfa no boaboa adwinnua a nyɛ na {num_ic, 970} ano.",
+  "equation": "UPDATE HERE"
+}

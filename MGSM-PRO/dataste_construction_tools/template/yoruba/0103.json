@@ -1,0 +1,8 @@
+{
+  "original_question": "kùrukùru máa ń jáde láti omi òkun láti bo gbogbo ìlú. ó máa ń tó ìṣẹ́jú 10 láti bo gbogbo máìlì 3 ìlú. tí ìlú náà bá fí máìlí 42 kọjá gbogbo òkun sí òdìkejì ilẹ̀ ,ìṣẹ́jú mélòó ní yóò gbà fún kùrukùru náà láti bo gbogbo ìlú?",
+  "original_answer": 140,
+  "symbolic_template": "kùrukùru máa ń jáde láti omi òkun láti bo gbogbo ìlú. ó máa ń tó ìṣẹ́jú {num_digit_1, 10} láti bo gbogbo máìlì {num_digit_2, 3} ìlú. tí ìlú náà bá fí máìlí {num_digit_3, 42} kọjá gbogbo òkun sí òdìkejì ilẹ̀ ,ìṣẹ́jú mélòó ní yóò gbà fún kùrukùru náà láti bo gbogbo ìlú?",
+  "ic_sentence_template": "Arákùnrin {name_male, Billy} rí ọkọ ojú omi {num_ic, 96} tí ń bọ láti ibùdó omi ní òwúrọ̀ yìí.",
+  "ic_template": "Arákùnrin {name_male, Billy} rí ọkọ ojú omi {num_ic, 96} tí ń bọ láti ibùdó omi ní òwúrọ̀ yìí. kùrukùru máa ń jáde láti omi òkun láti bo gbogbo ìlú. ó máa ń tó ìṣẹ́jú {num_digit_1, 10} láti bo gbogbo máìlì {num_digit_2, 3} ìlú. tí ìlú náà bá fí máìlí {num_digit_3, 42} kọjá gbogbo òkun sí òdìkejì ilẹ̀ ,ìṣẹ́jú mélòó ní yóò gbà fún kùrukùru náà láti bo gbogbo ìlú?",
+  "equation": "UPDATE HERE"
+}

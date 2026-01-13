@@ -1,0 +1,8 @@
+{
+  "original_question": "Katika jiji la Soda, kuna wakazi 23786. Wanajumuisha wanaume 8417 na wanawake 9092. Watu wengine waliosalia ni watoto. Kuna watoto wangapi katika jiji la Soda?",
+  "original_answer": 6277,
+  "symbolic_template": "Katika jiji la {name_city, Soda}, kuna wakazi {num_digit_1, 23786}. Wanajumuisha wanaume {num_digit_2, 8417} na wanawake {num_digit_3, 9092}. Watu wengine waliosalia ni watoto. Kuna watoto wangapi katika jiji la {name_city, Soda}?",
+  "ic_sentence_template": "Mjomba wa meya wa {name_city, Soda} alinunua maputo {num_ic, 174364} kwa ajili ya sherehe.",
+  "ic_template": "Mjomba wa meya wa {name_city, Soda} alinunua maputo {num_ic, 174364} kwa ajili ya sherehe. Katika jiji la {name_city, Soda}, kuna wakazi {num_digit_1, 23786}. Wanajumuisha wanaume {num_digit_2, 8417} na wanawake {num_digit_3, 9092}. Watu wengine waliosalia ni watoto. Kuna watoto wangapi katika jiji la {name_city, Soda}?",
+  "equation": "UPDATE HERE"
+}

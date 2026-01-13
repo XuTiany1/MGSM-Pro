@@ -1,0 +1,8 @@
+{
+  "original_question": "Rosie lè sáré máìlì 10 ní wákàtí 3. Lẹ́yìn náà, ó sá máìlì 5 fún wákàtí kan. Máìlì mélòó ní ó lè sá ní wákàtí 7?",
+  "original_answer": 50,
+  "symbolic_template": "{name_female, Rosie} lè sáré máìlì {num_digit_1, 10} ní wákàtí {num_digit_2, 3}. Lẹ́yìn náà, ó sá máìlì {num_digit_3, 5} fún wákàtí kan. Máìlì mélòó ní ó lè sá ní wákàtí {num_digit_4, 7}?",
+  "ic_sentence_template": "Arákùnrin {name_female, Rosie} kan rìn kẹ̀kẹ́ pẹ̀lú {num_ic, 62} máílì ní ọjọ́ kan ṣoṣo.",
+  "ic_template": "Arákùnrin {name_female, Rosie} kan rìn kẹ̀kẹ́ pẹ̀lú {num_ic, 62} máílì ní ọjọ́ kan ṣoṣo. {name_female, Rosie} lè sáré máìlì {num_digit_1, 10} ní wákàtí {num_digit_2, 3}. Lẹ́yìn náà, ó sá máìlì {num_digit_3, 5} fún wákàtí kan. Máìlì mélòó ní ó lè sá ní wákàtí {num_digit_4, 7}?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "理查德住在一栋 15 层的公寓楼里。每层楼有 8 个单元，大楼的 3/4 有人住。这栋大楼没人住的单元的总数是多少？",
+  "original_answer": 30,
+  "symbolic_template": "{name_male, 理查德} 住在一栋 {num_digit_1, 15} 层的公寓楼里。每层楼有 {num_digit_2, 8} 个单元，大楼的 3/4 有人住。这栋大楼没人住的单元的总数是多少？",
+  "ic_sentence_template": "{name_male, 理查德} 的叔叔经营着一家面包店，店里陈列着 {num_ic, 88} 条面包。",
+  "ic_template": "{name_male, 理查德} 的叔叔经营着一家面包店，店里陈列着 {num_ic, 88} 条面包。{name_male, 理查德} 住在一栋 {num_digit_1, 15} 层的公寓楼里。每层楼有 {num_digit_2, 8} 个单元，大楼的 3/4 有人住。这栋大楼没人住的单元的总数是多少？",
+  "equation": "UPDATE HERE"
+}

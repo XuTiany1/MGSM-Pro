@@ -1,0 +1,8 @@
+{
+  "original_question": "Ní ọjọ́ Ajé, Sue jẹ ìlọ́po merin iye cookies tí ẹ̀gbọ́n rẹ̀ obìnrin jẹ. Ní ọjọ́ Ìṣẹ́gun, ó jẹ ìlọ́po méjì iye cookies tí ẹ̀gbọ́n rẹ̀ obìnrin jẹ. Arábìnrin rẹ̀ jẹ cookies márùn-ún ní ọjọ́ Ajé àti 13 ní ọjọ́ kejì. Tí cookies kan bá ní kálọ́rì 200, kálọ́rì mélòó ni Sue jẹ ju ẹ̀gbọ́n rẹ̀ lọ?",
+  "original_answer": 5600,
+  "symbolic_template": "Ní ọjọ́ Ajé, {name_female, Sue} jẹ ìlọ́po {num_digit_1, merin} iye cookies tí ẹ̀gbọ́n rẹ̀ obìnrin jẹ. Ní ọjọ́ Ìṣẹ́gun, ó jẹ ìlọ́po méjì iye cookies tí ẹ̀gbọ́n rẹ̀ obìnrin jẹ. Arábìnrin rẹ̀ jẹ cookies {num_digit_2, márùn-ún} ní ọjọ́ Ajé àti {num_digit_3, 13} ní ọjọ́ kejì. Tí cookies {num_digit_4, 1} bá ní kálọ́rì {num_digit_5, 200}, kálọ́rì mélòó ni {name_female, Sue} jẹ ju ẹ̀gbọ́n rẹ̀ lọ?",
+  "ic_sentence_template": "Ẹ̀gbọ́n bàbá {name_female, Sue} mú àwọn pai {num_ic, 15} wá sí ilé wọn.",
+  "ic_template": "Ẹ̀gbọ́n bàbá {name_female, Sue} mú àwọn pai {num_ic, 15} wá sí ilé wọn. Ní ọjọ́ Ajé, {name_female, Sue} jẹ ìlọ́po {num_digit_1, merin} iye cookies tí ẹ̀gbọ́n rẹ̀ obìnrin jẹ. Ní ọjọ́ Ìṣẹ́gun, ó jẹ ìlọ́po méjì iye cookies tí ẹ̀gbọ́n rẹ̀ obìnrin jẹ. Arábìnrin rẹ̀ jẹ cookies {num_digit_2, márùn-ún} ní ọjọ́ Ajé àti {num_digit_3, 13} ní ọjọ́ kejì. Tí cookies {num_digit_4, 1} bá ní kálọ́rì {num_digit_5, 200}, kálọ́rì mélòó ni {name_female, Sue} jẹ ju ẹ̀gbọ́n rẹ̀ lọ?",
+  "equation": "UPDATE HERE"
+}

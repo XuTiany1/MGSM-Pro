@@ -1,0 +1,8 @@
+{
+  "original_question": "N'obodo Soda, e nwere kpọmkwem 23786 ndị bi na ya. Ha gụnyere nwoke 8417 na nwanyị 9092. ọnụ ọgụgụ mmadu ndị ọzọ bụ ụmụaka mejupụtara ha. Kedụ ụmụaka ole nọ na Soda?",
+  "original_answer": 6277,
+  "symbolic_template": "N'obodo {name_city, Soda}, e nwere kpọmkwem {num_digit_1, 23786} ndị bi na ya. Ha gụnyere nwoke {num_digit_2, 8417} na nwanyị {num_digit_3, 9092}. ọnụ ọgụgụ mmadu ndị ọzọ bụ ụmụaka mejupụtara ha. Kedụ ụmụaka ole nọ na {name_city, Soda}?",
+  "ic_sentence_template": "Nwanne nna onye isi obodo {name_city, Soda} zụrụ bọọlụ ikuku {num_ic, 174364} maka emume.",
+  "ic_template": "Nwanne nna onye isi obodo {name_city, Soda} zụrụ bọọlụ ikuku {num_ic, 174364} maka emume. N'obodo {name_city, Soda}, e nwere kpọmkwem {num_digit_1, 23786} ndị bi na ya. Ha gụnyere nwoke {num_digit_2, 8417} na nwanyị {num_digit_3, 9092}. ọnụ ọgụgụ mmadu ndị ọzọ bụ ụmụaka mejupụtara ha. Kedụ ụmụaka ole nọ na {name_city, Soda}?",
+  "equation": "UPDATE HERE"
+}

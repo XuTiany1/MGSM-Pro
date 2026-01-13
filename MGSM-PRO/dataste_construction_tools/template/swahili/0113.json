@@ -1,0 +1,8 @@
+{
+  "original_question": "Ryan hupanda mua 2 kwa siku katika bustani lake. Baada ya siku 15, atakuwa na maua mangapi iwapo maua 5 hayakumea?",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Ryan} hupanda maua {num_digit_1, 2} kila siku katika bustani yake. Baada ya siku {num_digit_2, 15}, atakuwa na maua mangapi ikiwa {num_digit_3, 5} hayakukua?",
+  "ic_sentence_template": "Mjomba wa {name_male, Ryan} alileta sufuria mpya {num_ic, 8} kwa ajili ya bustani.",
+  "ic_template": "Mjomba wa {name_male, Ryan} alileta sufuria mpya {num_ic, 8} kwa ajili ya bustani. {name_male, Ryan} hupanda maua {num_digit_1, 2} kila siku katika bustani yake. Baada ya siku {num_digit_2, 15}, atakuwa na maua mangapi ikiwa {num_digit_3, 5} hayakukua?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,25 @@
+{
+    "problem_id": "0088",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [2, 12]},
+        "num_digit_2": {"type": "int", "range": [10000, 100000]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "multiplier_plus_one = num_digit_1 + 1",
+            "ans = num_digit_2 / multiplier_plus_one"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 3, "max_digits": 6}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "num_digit_2 % (num_digit_1 + 1) == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

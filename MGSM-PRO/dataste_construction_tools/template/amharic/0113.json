@@ -1,0 +1,8 @@
+{
+  "original_question": "ራያን በአትክልቱ ውስጥ በቀን 2 አበባዎችን ይተክላል። ከ 15 ቀናት በኋላ፣ 5 ካልበቀሉ ምን ያህል አበባዎች አሉት?",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, ራያን} በአትክልቱ ውስጥ በቀን {num_digit_1, 2} አበባዎችን ይተክላል። ከ{num_digit_2, 15} ቀናት በኋላ፣ {num_digit_3, 5} ካልበቀሉ ምን ያህል አበባዎች አሉት?",
+  "ic_sentence_template": "{name_male, ራያን} አጎቱ ለመትከል ቦታ {num_ic, 8} አዲስ እቃዎችን አመጣለት።",
+  "ic_template": "{name_male, ራያን} በአትክልቱ ውስጥ በቀን {num_digit_1, 2} አበባዎችን ይተክላል። ከ{num_digit_2, 15} ቀናት በኋላ፣ {num_digit_3, 5} ካልበቀሉ ምን ያህል አበባዎች አሉት? {name_male, ራያን} አጎቱ ለመትከል ቦታ {num_ic, 8} አዲስ እቃዎችን አመጣለት።",
+  "equation": "UPDATE HERE"
+}

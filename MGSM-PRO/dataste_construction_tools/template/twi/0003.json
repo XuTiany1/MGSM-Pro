@@ -1,0 +1,8 @@
+{
+  "original_question": "James yԑ n’adwene sԑ ɔbԑtu mmirika 3 mprԑ 3 wɔ nnawɔtwe mu. Ͻtwa kwansini 60 mmirikatuo biara mu. Kwansini dodoɔ sԑn na ɔtwa nnawɔtwe biara?",
+  "original_answer": 540,
+  "symbolic_template": "{name_male, James} yԑ n’adwene sԑ ɔbԑtu mmirika {num_digit_1, 3} mprԑ {num_digit_2, 3} wɔ nnawɔtwe mu. Ͻtwa kwansini {num_digit_3, 60} mmirikatuo biara mu. Kwansini dodoɔ sԑn na ɔtwa nnawɔtwe biara?",
+  "ic_sentence_template": "{name_male, James} wɔfa no wɔ mpaboa a wɔde tu mmirika {num_ic, 212}.",
+  "ic_template": "{name_male, James} wɔfa no wɔ mpaboa a wɔde tu mmirika {num_ic, 212}. {name_male, James} yԑ n’adwene sԑ ɔbԑtu mmirika {num_digit_1, 3} mprԑ {num_digit_2, 3} wɔ nnawɔtwe mu. Ͻtwa kwansini {num_digit_3, 60} mmirikatuo biara mu. Kwansini dodoɔ sԑn na ɔtwa nnawɔtwe biara?",
+  "equation": "UPDATE HERE"
+}

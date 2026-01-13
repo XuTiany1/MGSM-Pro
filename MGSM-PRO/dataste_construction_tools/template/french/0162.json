@@ -1,0 +1,8 @@
+{
+  "original_question": "Si un sac de billes coûte 20 $ et que le prix de départ augmente de 20 % tous les deux mois, combien coûtera un sac de billes après 36 mois ?",
+  "original_answer": 92,
+  "symbolic_template": "Si un sac de billes coûte {num_digit_1, 20} $ et que le prix de départ augmente de {num_digit_2, 20} % tous les deux mois, combien coûtera un sac de billes après {num_digit_3, 36} mois ?",
+  "ic_sentence_template": "Le neveu du gérant du magasin possède {num_ic, 60} bandes dessinées.",
+  "ic_template": "Le neveu du gérant du magasin possède {num_ic, 60} bandes dessinées. Si un sac de billes coûte {num_digit_1, 20} $ et que le prix de départ augmente de {num_digit_2, 20} % tous les deux mois, combien coûtera un sac de billes après {num_digit_3, 36} mois ?",
+  "equation": "UPDATE HERE"
+}

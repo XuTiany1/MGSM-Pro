@@ -1,0 +1,8 @@
+{
+  "original_question": "Dolly ní ìwé méjì. Pandora ni ẹyọ̀kan. Tí Dolly àti Pandora bá ka ìwé ara wọn àti tiwọn, ìwé mélòó ni wọ́n máa kà ni àpapọ̀ ní ìparí?",
+  "original_answer": 6,
+  "symbolic_template": "{name_female_1, Dolly} ní ìwé méjì. {name_female_2, Pandora} ni ẹyọ̀kan. Tí {name_female_1, Dolly} àti {name_female_2, Pandora} bá ka ìwé ara wọn àti tiwọn, ìwé mélòó ni wọ́n máa kà ni àpapọ̀ ní ìparí?",
+  "ic_sentence_template": "Ọmọkẹ́gbẹ́ {name_female_2, Pandora} níbàdìlẹ̀ ni baba ńlá rẹ tí ó ní ìkàwé ìwé ìròyìn {num_ic, 674}.",
+  "ic_template": "Ọmọkẹ́gbẹ́ {name_female_2, Pandora} níbàdìlẹ̀ ni baba ńlá rẹ tí ó ní ìkàwé ìwé ìròyìn {num_ic, 674}. {name_female_1, Dolly} ní ìwé méjì. {name_female_2, Pandora} ni ẹyọ̀kan. Tí {name_female_1, Dolly} àti {name_female_2, Pandora} bá ka ìwé ara wọn àti tiwọn, ìwé mélòó ni wọ́n máa kà ni àpapọ̀ ní ìparí?",
+  "equation": "UPDATE HERE"
+}

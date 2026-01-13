@@ -1,0 +1,8 @@
+{
+  "original_question": "凯琳达正和她的妈妈一起拼一幅 360 块的拼图。凯琳达正常情况下每分钟可以拼好 4 块。她妈妈每分钟可以拼好的块数通常为凯琳达的一半。她们拼好这幅拼图需要多少小时？",
+  "original_answer": 1,
+  "symbolic_template": "{name_female, 凯琳达} 正和她的妈妈一起拼一幅 {num_digit_1, 360} 块的拼图。{name_female, 凯琳达} 正常情况下每分钟可以拼好 {num_digit_2, 4} 块。她妈妈每分钟可以拼好的块数通常为 一半 的 {name_female, 凯琳达}。她们拼好这幅拼图需要多少小时？",
+  "ic_sentence_template": "{name_female, 卡琳达} 的叔叔有 {num_ic, 103} 副拼图。",
+  "ic_template": "{name_female, 卡琳达} 的叔叔有 {num_ic, 103} 副拼图。{name_female, 凯琳达} 正和她的妈妈一起拼一幅 {num_digit_1, 360} 块的拼图。{name_female, 凯琳达} 正常情况下每分钟可以拼好 {num_digit_2, 4} 块。她妈妈每分钟可以拼好的块数通常为 一半 的 {name_female, 凯琳达}。她们拼好这幅拼图需要多少小时？",
+  "equation": "UPDATE HERE"
+}

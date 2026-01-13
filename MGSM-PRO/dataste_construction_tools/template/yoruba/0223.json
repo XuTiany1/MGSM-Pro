@@ -1,0 +1,8 @@
+{
+  "original_question": "Ilé-iṣẹ́ kan ná $15000 lórí ìpolówó fún ọdún kan, lẹ́yìn náà ó ná ìdá mẹ́ta iye yẹn lórí ìpolówó fún ọdún mìíràn.  Kí ni àpapọ̀ iye tí ilé-iṣẹ́ ná lórí ìpolówó fún ọdún méjèèjì?",
+  "original_answer": 20000,
+  "symbolic_template": "Ilé-iṣẹ́ kan ná ${num_digit_1, 15000} lórí ìpolówó fún ọdún kan, lẹ́yìn náà ó ná ìdá mẹ́ta iye yẹn lórí ìpolówó fún ọdún mìíràn.  Kí ni àpapọ̀ iye tí ilé-iṣẹ́ ná lórí ìpolówó fún ọdún méjèèjì?",
+  "ic_sentence_template": "Ìbàlẹ̀gbẹ̀ àlákóso ilé-iṣẹ́ náà ni wọ́n ránṣẹ́ láti fi {num_ic, 91} písà dé ìpàdé ọdún yìí.",
+  "ic_template": "Ìbàlẹ̀gbẹ̀ àlákóso ilé-iṣẹ́ náà ni wọ́n ránṣẹ́ láti fi {num_ic, 91} písà dé ìpàdé ọdún yìí. Ilé-iṣẹ́ kan ná ${num_digit_1, 15000} lórí ìpolówó fún ọdún kan, lẹ́yìn náà ó ná ìdá mẹ́ta iye yẹn lórí ìpolówó fún ọdún mìíràn.  Kí ni àpapọ̀ iye tí ilé-iṣẹ́ ná lórí ìpolówó fún ọdún méjèèjì?",
+  "equation": "UPDATE HERE"
+}

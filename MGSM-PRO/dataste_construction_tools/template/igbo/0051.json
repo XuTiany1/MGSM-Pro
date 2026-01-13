@@ -1,0 +1,8 @@
+{
+  "original_question": "Ụgbọmmiri Tom ga emenwu njem maili iri kwa awa.  Ọ na-anya ụgbọ site na 1 ruo 4PM. Ọ na-alọghachikwa azụ na njem n'ọnụ nha 6 mph. Kedụ ihe ọ na-ewe ya ịlọghachi azụ?",
+  "original_answer": 20,
+  "symbolic_template": "Ụgbọmmiri {name_male, Tom} ga emenwu njem maili {num_digit_1, 15} kwa awa. Ọ na-anya ụgbọ site na {num_digit_2, 1} ruo {num_digit_3, 9} PM. Ọ na-alọghachikwa azụ na njem n'ọnụ nha {num_digit_4, 6} mph. Kedụ ihe ọ na-ewe ya ịlọghachi azụ?",
+  "ic_sentence_template": "Nwanne nna {name_male, Tom} zụtara ụgbọ mmiri nlereanya {num_ic, 20} nso nso a.",
+  "ic_template": "Nwanne nna {name_male, Tom} zụtara ụgbọ mmiri nlereanya {num_ic, 20} nso nso a. Ụgbọmmiri {name_male, Tom} ga emenwu njem maili {num_digit_1, 15} kwa awa. Ọ na-anya ụgbọ site na {num_digit_2, 1} ruo {num_digit_3, 9} PM. Ọ na-alọghachikwa azụ na njem n'ọnụ nha {num_digit_4, 6} mph. Kedụ ihe ọ na-ewe ya ịlọghachi azụ?",
+  "equation": "UPDATE HERE"
+}

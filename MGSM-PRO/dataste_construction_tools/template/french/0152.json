@@ -1,0 +1,8 @@
+{
+  "original_question": "Carl achète dix paquets de cookies. Chaque paquet contient six biscuits. Chaque biscuit coûte 0,10 $. Combien de monnaie reçoit Carl s'il paie avec un billet de 10 $ ?",
+  "original_answer": 4,
+  "symbolic_template": "{name_male, Carl} achète dix paquets de cookies. Chaque paquet contient six biscuits. Chaque biscuit coûte {num_digit_1, 0.10} $. Combien de monnaie reçoit {name_male, Carl} s'il paie avec un billet de {num_digit_2, 10} $ ?",
+  "ic_sentence_template": "{name_male, Carl} a une tante qui a apporté {num_ic, 31} muffins à la fête.",
+  "ic_template": "{name_male, Carl} a une tante qui a apporté {num_ic, 31} muffins à la fête. {name_male, Carl} achète dix paquets de cookies. Chaque paquet contient six biscuits. Chaque biscuit coûte {num_digit_1, 0.10} $. Combien de monnaie reçoit {name_male, Carl} s'il paie avec un billet de {num_digit_2, 10} $ ?",
+  "equation": "UPDATE HERE"
+}

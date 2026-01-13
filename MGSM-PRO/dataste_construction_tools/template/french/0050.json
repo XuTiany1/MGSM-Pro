@@ -1,0 +1,8 @@
+{
+  "original_question": "Lloyd est propriétaire d'un poulailler. Ses poules produisent 252 œufs par jour et ils les vend à 2 $ la douzaine. Combien Lloyd gagne-t-il par semaine avec ses œufs ?",
+  "original_answer": 294,
+  "symbolic_template": "{name_male, Lloyd} est propriétaire d'un poulailler. Ses poules produisent {num_digit_1, 252} œufs par jour et il les vend à {num_digit_2, 2} $ la douzaine. Combien {name_male, Lloyd} gagne-t-il par semaine avec ses œufs ?",
+  "ic_sentence_template": "{name_male, Lloyd} a un oncle qui vient d’acheter {num_ic, 105} oies.",
+  "ic_template": "{name_male, Lloyd} est propriétaire d'un poulailler. Ses poules produisent {num_digit_1, 252} œufs par jour et il les vend à {num_digit_2, 2} $ la douzaine. {name_male, Lloyd} a un oncle qui vient d’acheter {num_ic, 105} oies. Combien {name_male, Lloyd} gagne-t-il par semaine avec ses œufs ?",
+  "equation": "UPDATE HERE"
+}

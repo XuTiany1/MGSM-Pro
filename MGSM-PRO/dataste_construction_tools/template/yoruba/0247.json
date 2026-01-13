@@ -1,0 +1,8 @@
+{
+  "original_question": "Isabelle ra àwọn ohun èlò ayẹyẹ fún ayẹyẹ ọjọ́ ìbí àbúrò rẹ̀ obìnrin. Ó ná $12 lórí àwọn èròjà fún àkàrà òyìnbó náà, $43 lórí ẹ̀bùn ọjọ́ ìbí, $15 lórí àwọn ohun ọ̀ṣọ́, $4 lórí ìfìwépeni, àti $22 lórí àwọn àpò goodie fún àwọn àlejò ayẹyẹ. Ó pín iye náà ní ọ̀nà mẹ́ta pẹ̀lú àwọn òbí rẹ̀ méjèèjì. Dọ́là mélòó ni ẹnì kọ̀ọ̀kan san?",
+  "original_answer": 32,
+  "symbolic_template": "{name_female, Isabelle} ra àwọn ohun èlò ayẹyẹ fún ayẹyẹ ọjọ́ ìbí àbúrò rẹ̀ obìnrin. Ó ná ${num_digit_1, 12} lórí àwọn èròjà fún àkàrà òyìnbó náà, ${num_digit_2, 43} lórí ẹ̀bùn ọjọ́ ìbí, ${num_digit_3, 15} lórí àwọn ohun ọ̀ṣọ́, ${num_digit_4, 4} lórí ìfìwépeni, àti ${num_digit_5, 22} lórí àwọn àpò goodie fún àwọn àlejò ayẹyẹ. Ó pín iye náà ní ọ̀nà mẹ́ta pẹ̀lú àwọn òbí rẹ̀ méjèèjì. Dọ́là mélòó ni ẹnì kọ̀ọ̀kan san?",
+  "ic_sentence_template": "Arábìnrin {name_female, Isabelle} mu àwọn bọọlù afẹ́fẹ́ {num_ic, 1042} wá.",
+  "ic_template": "Arábìnrin {name_female, Isabelle} mu àwọn bọọlù afẹ́fẹ́ {num_ic, 1042} wá. {name_female, Isabelle} ra àwọn ohun èlò ayẹyẹ fún ayẹyẹ ọjọ́ ìbí àbúrò rẹ̀ obìnrin. Ó ná ${num_digit_1, 12} lórí àwọn èròjà fún àkàrà òyìnbó náà, ${num_digit_2, 43} lórí ẹ̀bùn ọjọ́ ìbí, ${num_digit_3, 15} lórí àwọn ohun ọ̀ṣọ́, ${num_digit_4, 4} lórí ìfìwépeni, àti ${num_digit_5, 22} lórí àwọn àpò goodie fún àwọn àlejò ayẹyẹ. Ó pín iye náà ní ọ̀nà mẹ́ta pẹ̀lú àwọn òbí rẹ̀ méjèèjì. Dọ́là mélòó ni ẹnì kọ̀ọ̀kan san?",
+  "equation": "UPDATE HERE"
+}

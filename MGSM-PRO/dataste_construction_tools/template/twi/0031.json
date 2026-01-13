@@ -1,0 +1,8 @@
+{
+  "original_question": "Gunter ԑԑpԑ sԑ ɔbԑkan adua wɔ toa bi mu. Ͻbisa nnamfonom dodoɔ a wɔdwene sԑ ԑwɔ toa baako mu. Baako se 80. Foforɔ se ԑyԑ 20 boro deԑ ɔdi kan no kaaԑ no mu fa. Deԑ ɔtɔ so mmiԑnsa se ԑyԑ ɔha nkyԑmu aduonunum kyԑn deԑ ɔdi kan no kaaԑ. Dԑn ne wɔn nyinaa nsusuhoo no ntamdafoɔ?",
+  "original_answer": 80,
+  "symbolic_template": "{name_male, Gunter} ԑԑpԑ sԑ ɔbԑkan adua wɔ toa bi mu. Ͻbisa nnamfonom dodoɔ a wɔdwene sԑ ԑwɔ toa baako mu. Baako se {num_digit_1, 80}. Foforɔ se ԑyԑ {num_digit_2, 20} boro deԑ ɔdi kan no kaaԑ no mu fa. Deԑ ɔtɔ so mmiԑnsa se ԑyԑ {num_digit_3, 25}% kyԑn deԑ ɔdi kan no kaaԑ. Dԑn ne wɔn nyinaa nsusuhoo no ntamdafoɔ?",
+  "ic_sentence_template": "{name_male, Gunter} sewaa de dɔkɔdɔkɔdeɛ {num_ic, 392} baa aponto no.",
+  "ic_template": "{name_male, Gunter} sewaa de dɔkɔdɔkɔdeɛ {num_ic, 392} baa aponto no. {name_male, Gunter} ԑԑpԑ sԑ ɔbԑkan adua wɔ toa bi mu. Ͻbisa nnamfonom dodoɔ a wɔdwene sԑ ԑwɔ toa baako mu. Baako se {num_digit_1, 80}. Foforɔ se ԑyԑ {num_digit_2, 20} boro deԑ ɔdi kan no kaaԑ no mu fa. Deԑ ɔtɔ so mmiԑnsa se ԑyԑ {num_digit_3, 25}% kyԑn deԑ ɔdi kan no kaaԑ. Dԑn ne wɔn nyinaa nsusuhoo no ntamdafoɔ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "ジミーはイーサルが持つ金額の二倍よりも$2多く持っています。イーサルが$8あるとすると、ジミーはいくら持っていますか？",
+  "original_answer": 18,
+  "symbolic_template": "{name_male_1, ジミー}は、{name_male_2, エセル}が持っている金額の2倍より${num_digit_1, 2}多く持っています。{name_male_2, エセル}が${num_digit_2, 8}持っているとすると、{name_male_1, ジミー}はいくら持っていますか？",
+  "ic_sentence_template": "{name_male_2, エセル}のおじは屋根裏で{num_ic, 33}枚の古いコインを見つけました。",
+  "ic_template": "{name_male_2, エセル}のおじは屋根裏で{num_ic, 33}枚の古いコインを見つけました。{name_male_1, ジミー}は、{name_male_2, エセル}が持っている金額の2倍より${num_digit_1, 2}多く持っています。{name_male_2, エセル}が${num_digit_2, 8}持っているとすると、{name_male_1, ジミー}はいくら持っていますか？",
+  "equation": "UPDATE HERE"
+}

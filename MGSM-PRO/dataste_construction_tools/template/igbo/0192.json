@@ -1,0 +1,8 @@
+{
+  "original_question": "Tom na-akụ osisi iri n'àfọ́. Áfọ̀ ọbụla ọ na-egbutukwa osisi abụọ kwa áfọ̀. O jiri osisi iri ise bido. Ka áfọ̀ iri gasịrị 30% osisi ahụ nwụrụ. Kedụ osisi ole o nwere fọdụrụ? ",
+  "original_answer": 91,
+  "symbolic_template": "{name_male, Tom} na-akụ osisi {num_digit_1, 10} n'àfọ́. Áfọ̀ ọbụla ọ na-egbutukwa osisi {num_digit_2, 2} kwa áfọ̀. O jiri osisi {num_digit_3, 50} bido. Ka áfọ̀ {num_digit_4, 10} gasịrị {num_digit_5, 30}% osisi ahụ nwụrụ. Kedụ osisi ole o nwere fọdụrụ?",
+  "ic_sentence_template": "Nwanne nne {name_male, Tom} zụtara akpa ifuru {num_ic, 164} nso nso a.",
+  "ic_template": "Nwanne nne {name_male, Tom} zụtara akpa ifuru {num_ic, 164} nso nso a. {name_male, Tom} na-akụ osisi {num_digit_1, 10} n'àfọ́. Áfọ̀ ọbụla ọ na-egbutukwa osisi {num_digit_2, 2} kwa áfọ̀. O jiri osisi {num_digit_3, 50} bido. Ka áfọ̀ {num_digit_4, 10} gasịrị {num_digit_5, 30}% osisi ahụ nwụrụ. Kedụ osisi ole o nwere fọdụrụ?",
+  "equation": "UPDATE HERE"
+}

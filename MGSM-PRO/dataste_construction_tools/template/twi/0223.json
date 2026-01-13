@@ -1,0 +1,8 @@
+{
+  "original_question": "Adwumakuo bi de $15000 na ɛbɔ dawuru afe baako mu, na afei wɔde saa sika no mu nkyemu mmiensa mu baako na ɛbɔ dawuru afe foforo mu. Mfeɛ mmienu mu no, sika dodoɔ bɛn na adwumakuo no de bɔɔ dawuru?",
+  "original_answer": 20000,
+  "symbolic_template": "Adwumakuo bi de ${num_digit_1, 15000} na ɛbɔ dawuru afe baako mu, na afei wɔde saa sika no mu nkyemu mmiensa mu baako na ɛbɔ dawuru afe foforo mu. Mfeɛ mmienu mu no, sika dodoɔ bɛn na adwumakuo no de bɔɔ dawuru?",
+  "ic_sentence_template": "CEO no wͻfase barima de {num_ic, 91} pizza brɛɛ nnipa no wɔ afe akuw nhyiam ase.",
+  "ic_template": "CEO no wͻfase barima de {num_ic, 91} pizza brɛɛ nnipa no wɔ afe akuw nhyiam ase. Adwumakuo bi de ${num_digit_1, 15000} na ɛbɔ dawuru afe baako mu, na afei wɔde saa sika no mu nkyemu mmiensa mu baako na ɛbɔ dawuru afe foforo mu. Mfeɛ mmienu mu no, sika dodoɔ bɛn na adwumakuo no de bɔɔ dawuru?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "拉斐尔去买一些学校用品。他买了 4 根笔（每根 1.5 美元）、2 本笔记本（每本 4 美元）和一令铜版纸（20 美元）。拉斐尔买所有用品花了多少钱？",
+  "original_answer": 34,
+  "symbolic_template": "{name_male, 拉斐尔} 去买一些学校用品。他买了 {num_digit_1, 4} 根笔（每根 {num_digit_2, 1.5} 美元）、{num_digit_3, 2} 本笔记本（每本 {num_digit_4, 4} 美元）和一令铜版纸（{num_digit_5, 20} 美元）。{name_male, 拉斐尔} 买所有用品花了多少钱？",
+  "ic_sentence_template": "{name_male, 拉斐尔} 的叔叔上周买了 {num_ic, 19} 盒蜡笔。",
+  "ic_template": "{name_male, 拉斐尔} 的叔叔上周买了 {num_ic, 19} 盒蜡笔。{name_male, 拉斐尔} 去买一些学校用品。他买了 {num_digit_1, 4} 根笔（每根 {num_digit_2, 1.5} 美元）、{num_digit_3, 2} 本笔记本（每本 {num_digit_4, 4} 美元）和一令铜版纸（{num_digit_5, 20} 美元）。{name_male, 拉斐尔} 买所有用品花了多少钱？",
+  "equation": "UPDATE HERE"
+}

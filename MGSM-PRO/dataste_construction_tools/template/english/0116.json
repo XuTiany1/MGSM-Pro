@@ -1,0 +1,8 @@
+{
+  "original_question": "Katy makes coffee using teaspoons of sugar and cups of water in the ratio of 7:13. If she used a total of 120 teaspoons of sugar and cups of water, calculate the number of teaspoonfuls of sugar she used.",
+  "original_answer": 42,
+  "symbolic_template": "{name_female, Katy} makes coffee using teaspoons of sugar and cups of water in the ratio of {num_digit_1, 7}:{num_digit_2, 13}. If she used a total of {num_digit_3, 120} teaspoons of sugar and cups of water, calculate the number of teaspoonfuls of sugar she used.",
+  "ic_sentence_template": "{name_female, Katy}'s uncle drinks {num_ic, 47} cups of coffee every month.",
+  "ic_template": "{name_female, Katy} makes coffee using teaspoons of sugar and cups of water in the ratio of {num_digit_1, 7}:{num_digit_2, 13}. If she used a total of {num_digit_3, 120} teaspoons of sugar and cups of water, {name_female, Katy}'s uncle drinks {num_ic, 47} cups of coffee every month. Calculate the number of teaspoonfuls of sugar she used.",
+  "equation": "UPDATE HERE"
+}

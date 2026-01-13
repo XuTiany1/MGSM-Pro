@@ -1,0 +1,8 @@
+{
+  "original_question": "Sadie rahụrụ ụra awa asatọ n' ụbọchị Mọndee. N'ụbọchị abụọ ndị n'eso ya, o rahụrụ ụra awa abụọ n'ụzọ dị nta karịa, otunaotu, maka na o jiri ya mepụta ịhe ndị chere n'ihu. Ọ bụrụ n'izu ụka fọdụrụ na o jiri otu awa rahụ ụra karịa ụbọchị abụọ ndị ahụ, kedụ awa ole o rahụrụ ụra na ngụkọta n'ịme izu ụka niile ahụ? ",
+  "original_answer": 48,
+  "symbolic_template": "{name_female, Sadie} rahụrụ ụra awa {num_digit_1, 8} n'ụbọchị Mọndee. N'ụbọchị abụọ ndị n'eso ya, o rahụrụ ụra awa {num_digit_2, 2} n'ụzọ dị nta karịa, otunaotu, maka na o jiri ya mepụta ịhe ndị chere n'ihu. Ọ bụrụ n'izu ụka fọdụrụ na o jiri awa {num_digit_3, 1} rahụ ụra karịa ụbọchị abụọ ndị ahụ, kedụ awa ole o rahụrụ ụra na ngụkọta n'ịme izu ụka niile ahụ?",
+  "ic_sentence_template": "Nwanne nna {name_female, Sadie} ṅụrụ iko kọfị {num_ic, 23} izu gara aga.",
+  "ic_template": "Nwanne nna {name_female, Sadie} ṅụrụ iko kọfị {num_ic, 23} izu gara aga. {name_female, Sadie} rahụrụ ụra awa {num_digit_1, 8} n'ụbọchị Mọndee. N'ụbọchị abụọ ndị n'eso ya, o rahụrụ ụra awa {num_digit_2, 2} n'ụzọ dị nta karịa, otunaotu, maka na o jiri ya mepụta ịhe ndị chere n'ihu. Ọ bụrụ n'izu ụka fọdụrụ na o jiri awa {num_digit_3, 1} rahụ ụra karịa ụbọchị abụọ ndị ahụ, kedụ awa ole o rahụrụ ụra na ngụkọta n'ịme izu ụka niile ahụ?",
+  "equation": "UPDATE HERE"
+}

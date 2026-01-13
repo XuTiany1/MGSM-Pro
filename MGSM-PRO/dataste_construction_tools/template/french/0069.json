@@ -1,0 +1,8 @@
+{
+  "original_question": "Bailey a une certaine somme d'argent au départ. Elle reçoit ensuite une allocation hebdomadaire de 5 $ pendant 8 semaines. Si elle se retrouve avec un total de 100 dollars à la fin des 8 semaines, avec combien d'argent Bailey a-t-elle commencé ?",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Bailey} a une certaine somme d'argent au départ. Elle reçoit ensuite une allocation hebdomadaire de {num_digit_1, 5} $ pendant {num_digit_2, 8} semaines. Si elle se retrouve avec un total de {num_digit_3, 100} dollars à la fin des {num_digit_2, 8} semaines, avec combien d'argent {name_male, Bailey} a-t-elle commencé ?",
+  "ic_sentence_template": "La tante de {name_male, Bailey} a autrefois collectionné {num_ic, 56} pièces rares.",
+  "ic_template": "La tante de {name_male, Bailey} a autrefois collectionné {num_ic, 56} pièces rares. {name_male, Bailey} a une certaine somme d'argent au départ. Elle reçoit ensuite une allocation hebdomadaire de {num_digit_1, 5} $ pendant {num_digit_2, 8} semaines. Si elle se retrouve avec un total de {num_digit_3, 100} dollars à la fin des {num_digit_2, 8} semaines, avec combien d'argent {name_male, Bailey} a-t-elle commencé ?",
+  "equation": "UPDATE HERE"
+}

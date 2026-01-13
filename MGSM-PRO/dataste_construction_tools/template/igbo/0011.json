@@ -1,0 +1,8 @@
+{
+  "original_question": "Toula gara n'ụlọ achịcha ma zụta achịcha dị iche iche. Ọ zụtara dozin donut atọ nke ọnụ ahịa ya bụ $68 kwa otu dozin,  cupcakes dozin abụọ ndị obere nke ọnụ ahịa ya bụ $80 kwa otu dozin, ma dozịn isii ndi obere cheesecakes na $55 kwa otu dozịn. Ego ole bu ọnụ ahịa na ngụkọta. ",
+  "original_answer": 694,
+  "symbolic_template": "{name_female, Toula} gara n'ụlọ achịcha ma zụta achịcha dị iche iche. Ọ zụtara dozin donut {num_digit_1, 3} nke ọnụ ahịa ya bụ ${num_digit_2, 68} kwa otu dozin, cupcakes dozin {num_digit_3, 2} ndị obere nke ọnụ ahịa ya bụ ${num_digit_4, 80} kwa otu dozin, ma dozịn {num_digit_5, 6} ndi obere cheesecakes na ${num_digit_6, 55} kwa otu dozịn. Ego ole bu ọnụ ahịa na ngụkọta.",
+  "ic_sentence_template": "Nwanne nna {name_female, Toula} zụrụ {num_ic, 136} mkpọrọgwụ achịcha maka emume.",
+  "ic_template": "Nwanne nna {name_female, Toula} zụrụ {num_ic, 136} mkpọrọgwụ achịcha maka emume. {name_female, Toula} gara n'ụlọ achịcha ma zụta achịcha dị iche iche. Ọ zụtara dozin donut {num_digit_1, 3} nke ọnụ ahịa ya bụ ${num_digit_2, 68} kwa otu dozin, cupcakes dozin {num_digit_3, 2} ndị obere nke ọnụ ahịa ya bụ ${num_digit_4, 80} kwa otu dozin, ma dozịn {num_digit_5, 6} ndi obere cheesecakes na ${num_digit_6, 55} kwa otu dozịn. Ego ole bu ọnụ ahịa na ngụkọta.",
+  "equation": "UPDATE HERE"
+}

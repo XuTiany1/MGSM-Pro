@@ -1,0 +1,8 @@
+{
+  "original_question": "ペンは鉛筆と消しゴムを合わせた値段と同じ価格です。鉛筆は$1.20、消しゴムは$0.30です。ペン8本はいくらになりますか？",
+  "original_answer": 12,
+  "symbolic_template": "ペンは鉛筆と消しゴムを合わせた値段と同じ価格です。鉛筆は${num_digit_1, 1.20}、消しゴムは${num_digit_2, 0.30}です。ペン{num_digit_3, 8}本はいくらになりますか？",
+  "ic_sentence_template": "{num_ic, 33}冊の新しいノートが今日お店に届きました。",
+  "ic_template": "{num_ic, 33}冊の新しいノートが今日お店に届きました。ペンは鉛筆と消しゴムを合わせた値段と同じ価格です。鉛筆は${num_digit_1, 1.20}、消しゴムは${num_digit_2, 0.30}です。ペン{num_digit_3, 8}本はいくらになりますか？",
+  "equation": "UPDATE HERE"
+}

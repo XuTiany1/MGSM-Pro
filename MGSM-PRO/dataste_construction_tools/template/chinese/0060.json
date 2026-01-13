@@ -1,0 +1,8 @@
+{
+  "original_question": "一个篮子里放着 25 颗橙子，其中 1 颗是坏的，20% 是不熟的，2 颗是酸的，剩下的是好的。好的橙子有多少颗？",
+  "original_answer": 17,
+  "symbolic_template": "一个篮子里放着 {num_digit_1, 25} 颗橙子，其中 {num_digit_2, 1} 颗是坏的，{num_digit_3, 20}% 是不熟的，{num_digit_4, 2} 颗是酸的，剩下的是好的。好的橙子有多少颗？",
+  "ic_sentence_template": "{name_female, 阿莉亚} 的叔叔从市场带来了 {num_ic, 68} 个苹果。",
+  "ic_template": "{name_female, 阿莉亚} 的叔叔从市场带来了 {num_ic, 68} 个苹果。一个篮子里放着 {num_digit_1, 25} 颗橙子，其中 {num_digit_2, 1} 颗是坏的，{num_digit_3, 20}% 是不熟的，{num_digit_4, 2} 颗是酸的，剩下的是好的。好的橙子有多少颗？",
+  "equation": "UPDATE HERE"
+}

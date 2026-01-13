@@ -1,0 +1,8 @@
+{
+  "original_question": "Isabelle zụtara ihe achọrọ maka oriri nke oriri ụbọchị ọmụmụ nwanne ya nwanyị nke nta. O mefuru $12 n'ihe eji eme achịcha ahụ, $43 maka onyinye ụbọchị ọmụmụ, $15 n'ihe eji achọ mma, $4 na ịkpọ òkù, na $22 na akpa onyinye maka ndị ọbịa.  Ọ kewara ego ọnụ ahịa ahụ ụzọ atọ ya na nne na nna ya. Dollar ole ka onye ọ bụla kwụrụ?",
+  "original_answer": 32,
+  "symbolic_template": "{name_female, Isabelle} zụtara ihe achọrọ maka oriri nke oriri ụbọchị ọmụmụ nwanne ya nwanyị nke nta. O mefuru ${num_digit_1, 12} n'ihe eji eme achịcha ahụ, ${num_digit_2, 43} maka onyinye ụbọchị ọmụmụ, ${num_digit_3, 15} n'ihe eji achọ mma, ${num_digit_4, 4} na ịkpọ òkù, na ${num_digit_5, 22} na akpa onyinye maka ndị ọbịa.  Ọ kewara ego ọnụ ahịa ahụ ụzọ atọ ya na nne na nna ya. Dollar ole ka onye ọ bụla kwụrụ?",
+  "ic_sentence_template": "Nwanne nna {name_female, Jean} bịara na {num_ic, 368078} okooko osisi na ebe a na-eme ihe nkiri.",
+  "ic_template": "Nwanne nna {name_female, Jean} bịara na {num_ic, 368078} okooko osisi na ebe a na-eme ihe nkiri. {name_female, Isabelle} zụtara ihe achọrọ maka oriri nke oriri ụbọchị ọmụmụ nwanne ya nwanyị nke nta. O mefuru ${num_digit_1, 12} n'ihe eji eme achịcha ahụ, ${num_digit_2, 43} maka onyinye ụbọchị ọmụmụ, ${num_digit_3, 15} n'ihe eji achọ mma, ${num_digit_4, 4} na ịkpọ òkù, na ${num_digit_5, 22} na akpa onyinye maka ndị ọbịa.  Ọ kewara ego ọnụahịa ahụ ụzọ atọ ya na nne na nna ya. Dollar ole ka onye ọ bụla kwụrụ?",
+  "equation": "UPDATE HERE"
+}

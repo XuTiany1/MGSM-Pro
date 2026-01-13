@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerry ana kundi la kuku. Kuku wekundu huzalisha mayai 3 kwa siku, na kuku weupe huzalisha mayai 5 kwa siku. Kila siku Jerry hukusanya mayai 42. Ikiwa ana kuku weupe wawili zaidi ya wekundu, ana kuku wekundu wangapi?",
+  "original_answer": 4,
+  "symbolic_template": "{name_male, Jerry} ana kundi la kuku. Kuku wekundu hutaga mayai {num_digit_1, 3} kwa siku, na kuku weupe hutaga mayai {num_digit_2, 5} kwa siku. Kila siku {name_male, Jerry} hukusanya mayai {num_digit_3, 42}. Ikiwa ana kuku weupe wawili zaidi kuliko kuku wekundu, ana kuku wekundu wangapi?",
+  "ic_sentence_template": "Shangazi wa {name_male, Jerry} ana bata {num_ic, 54} kwenye shamba lake.",
+  "ic_template": "Shangazi wa {name_male, Jerry} ana bata {num_ic, 54} kwenye shamba lake. {name_male, Jerry} ana kundi la kuku. Kuku wekundu hutaga mayai {num_digit_1, 3} kwa siku, na kuku weupe hutaga mayai {num_digit_2, 5} kwa siku. Kila siku {name_male, Jerry} hukusanya mayai {num_digit_3, 42}. Ikiwa ana kuku weupe wawili zaidi kuliko kuku wekundu, ana kuku wekundu wangapi?",
+  "equation": "UPDATE HERE"
+}

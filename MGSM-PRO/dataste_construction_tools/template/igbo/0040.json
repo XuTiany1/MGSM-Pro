@@ -1,0 +1,8 @@
+{
+  "original_question": "iPhone Brandon mere ochie ukpo anọ dịka iPhone nke Ben. iPhone nke Ben dị ochie ugboro abụọ karịa iPhone Suzy. Ọ bụrụ na iPhone Suzy dị otu áfọ̀, kedụ áfọ̀ ole iPhone Brandon di? ",
+  "original_answer": 8,
+  "symbolic_template": "iPhone {name_male_1, Brandon} mere ochie ukpo anọ dịka iPhone nke {name_male_2, Ben}. iPhone nke {name_male_2, Ben} dị ochie ugboro atọ karịa iPhone {name_female, Suzy}. Ọ bụrụ na iPhone {name_female, Suzy} dị {num_digit_1, 2} áfọ̀, kedụ áfọ̀ ole iPhone {name_male_1, Brandon} di?",
+  "ic_sentence_template": "Nwanne nna {name_male_2, Ben} zụrụ akpa ekwentị ọhụrụ {num_ic, 15} n’afọ na-adịbeghị anya.",
+  "ic_template": "Nwanne nna {name_male_2, Ben} zụrụ akpa ekwentị ọhụrụ {num_ic, 15} n’afọ na-adịbeghị anya. iPhone {name_male_1, Brandon} mere ochie ukpo anọ dịka iPhone nke {name_male_2, Ben}. iPhone nke {name_male_2, Ben} dị ochie ugboro atọ karịa iPhone {name_female, Suzy}. Ọ bụrụ na iPhone {name_female, Suzy} dị {num_digit_1, 2} áfọ̀, kedụ áfọ̀ ole iPhone {name_male_1, Brandon} di?",
+  "equation": "UPDATE HERE"
+}

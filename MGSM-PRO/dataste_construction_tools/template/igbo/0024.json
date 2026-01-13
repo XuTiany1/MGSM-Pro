@@ -1,0 +1,8 @@
+{
+  "original_question": "Kyle zụtara akwụkwọ kachasị ree nkeọma n'àfọ́ $19.50. Nke a bụ tinyere mkponye aka 25% e wepụrụ n'ọnụ ego mbụ. Gịnị bụ ọnụ ego mbụ akwụkwọ ahụ? ",
+  "original_answer": 26,
+  "symbolic_template": "{name_male, Kyle} zụtara akwụkwọ kachasị ree nkeọma n'àfọ́ ${num_digit_1, 19.50}. Nke a bụ tinyere mkponye aka {num_digit_2, 25}% e wepụrụ n'ọnụ ego mbụ. Gịnị bụ ọnụ ego mbụ akwụkwọ ahụ?",
+  "ic_sentence_template": "Nwunye nna {name_male, Kyle} na-agụ akwụkwọ akụkọ {num_ic, 326332763} kwa afọ gara aga.",
+  "ic_template": "Nwunye nna {name_male, Kyle} na-agụ akwụkwọ akụkọ {num_ic, 326332763} kwa afọ gara aga. {name_male, Kyle} zụtara akwụkwọ kachasị ree nkeọma n'àfọ́ ${num_digit_1, 19.50}. Nke a bụ tinyere mkponye aka {num_digit_2, 25}% e wepụrụ n'ọnụ ego mbụ. Gịnị bụ ọnụ ego mbụ akwụkwọ ahụ?",
+  "equation": "UPDATE HERE"
+}

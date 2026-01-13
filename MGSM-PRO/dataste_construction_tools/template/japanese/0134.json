@@ -1,0 +1,8 @@
+{
+  "original_question": "トムは月に4台の車を洗車します。それぞれの車の洗車費用が$15だとすると、一年にいくら払いますか？",
+  "original_answer": 720,
+  "symbolic_template": "{name_male, トム}は月に{num_digit_1, 4}回の洗車をします。洗車1回の費用が${num_digit_2, 15}だとすると、1年でいくら支払うことになりますか？",
+  "ic_sentence_template": "{name_male, トム}のいとこは先週{num_ic, 14}台のおもちゃの車を買いました。",
+  "ic_template": "{name_male, トム}のいとこは先週{num_ic, 14}台のおもちゃの車を買いました。{name_male, トム}は月に{num_digit_1, 4}回の洗車をします。洗車1回の費用が${num_digit_2, 15}だとすると、1年でいくら支払うことになりますか？",
+  "equation": "UPDATE HERE"
+}

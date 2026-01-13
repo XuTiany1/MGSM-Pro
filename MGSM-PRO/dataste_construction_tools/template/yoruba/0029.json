@@ -1,0 +1,8 @@
+{
+  "original_question": "Gloria ń rà bàtà nígbà tí ó ṣe alábàpàde ẹyọ bàtà tẹkowì tó bá àpò rẹ̀ mu. Ṣùgbọ́n ó ní láti yàn láàrin bàtà tẹkowì náà àti ẹyọ bàtà gíga méjì èyí tí àpapọ̀ owó méjèèjì dín ní dọ́là márùn-ún sí bàtà tẹkowì náà. Tí ẹyọ bàtà gíga kan bá jẹ́ $33 tí ìkejì sì jẹ́ ìlọ́po méjì jù bẹ́ẹ̀ lọ, dọ́là mélòó ní bàtà tẹkowì náà?",
+  "original_answer": 104,
+  "symbolic_template": "{name_female, Gloria} ń rà bàtà nígbà tí ó ṣe alábàpàde ẹyọ bàtà tẹkowì tó bá àpò rẹ̀ mu. Ṣùgbọ́n ó ní láti yàn láàrin bàtà tẹkowì náà àti ẹyọ bàtà gíga méjì èyí tí àpapọ̀ owó méjèèjì dín ní dọ́là márùn-ún sí bàtà tẹkowì náà. Tí ẹyọ bàtà gíga kan bá jẹ́ ${num_digit_1, 33} tí ìkejì sì jẹ́ ìlọ́po méjì jù bẹ́ẹ̀ lọ, dọ́là mélòó ní bàtà tẹkowì náà?",
+  "ic_sentence_template": "Ìbátan {name_female, Gloria} ṣẹ̀ṣẹ̀ rà àwọ̀n ibọ̀sẹ̀ àjòṣe-pọ̀ {num_ic, 48} nítòsí.",
+  "ic_template": "Ìbátan {name_female, Gloria} ṣẹ̀ṣẹ̀ rà àwọ̀n ibọ̀sẹ̀ àjòṣe-pọ̀ {num_ic, 48} nítòsí. {name_female, Gloria} ń rà bàtà nígbà tí ó ṣe alábàpàde ẹyọ bàtà tẹkowì tó bá àpò rẹ̀ mu. Ṣùgbọ́n ó ní láti yàn láàrin bàtà tẹkowì náà àti ẹyọ bàtà gíga méjì èyí tí àpapọ̀ owó méjèèjì dín ní dọ́là márùn-ún sí bàtà tẹkowì náà. Tí ẹyọ bàtà gíga kan bá jẹ́ ${num_digit_1, 33} tí ìkejì sì jẹ́ ìlọ́po méjì jù bẹ́ẹ̀ lọ, dọ́là mélòó ní bàtà tẹkowì náà?",
+  "equation": "UPDATE HERE"
+}

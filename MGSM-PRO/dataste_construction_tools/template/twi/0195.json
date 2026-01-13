@@ -1,0 +1,8 @@
+{
+  "original_question": "Twerɛdua bo yɛ den te sɛ pɛnsere ne dia wɔde popa adi a wɔaka abom. Pɛnsere bo yɛ $1.20 na nea wɔde popa adi no bo nso yɛ $0.30. Ntwerɛdua nwɔtwe bo bɛyɛ sɛn?",
+  "original_answer": 12,
+  "symbolic_template": "Twerɛdua bo yɛ den te sɛ pɛnsere ne dia wɔde popa adi a wɔaka abom. Pɛnsere bo yɛ ${num_digit_1, 1.20} na nea wɔde popa adi no bo nso yɛ ${num_digit_2, 0.30}. Ntwerɛdua {num_digit_3, 8} bo bɛyɛ sɛn?",
+  "ic_sentence_template": "Nwoma {num_ic, 33} foforo baa dawadie no mu ɛnnɛ.",
+  "ic_template": "Nwoma {num_ic, 33} foforo baa dawadie no mu ɛnnɛ. Twerɛdua bo yɛ den te sɛ pɛnsere ne dia wɔde popa adi a wɔaka abom. Pɛnsere bo yɛ ${num_digit_1, 1.20} na nea wɔde popa adi no bo nso yɛ ${num_digit_2, 0.30}. Ntwerɛdua {num_digit_3, 8} bo bɛyɛ sɛn?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "John nwere akpati atọ. Akpati ọbụla ahụ dị inch ise na mmụba inch isii na mmụba inch anọ. Akụkụ ya dị otu oké inch. Kedụ ozuzu ókè ịme akpati atọ niile ahụ?",
+  "original_answer": 72,
+  "symbolic_template": "{name_male, John} nwere akpati {num_digit_1, 3}. Akpati ọbụla ahụ dị inch {num_digit_2, 5} na mmụba inch {num_digit_3, 6} na mmụba inch {num_digit_4, 4}. Akụkụ ya dị {num_digit_5, 1} oké inch. Kedụ ozuzu ókè ịme akpati {num_digit_1, 3} niile ahụ?",
+  "ic_sentence_template": "Nwanne nne {name_male, John} zụrụ akpa {num_ic, 49} ọzọ n'oge na-adịbeghị anya maka ebe nchekwa ya n’elu ụlọ.",
+  "ic_template": "Nwanne nne {name_male, John} zụrụ akpa {num_ic, 49} ọzọ n'oge na-adịbeghị anya maka ebe nchekwa ya n’elu ụlọ. {name_male, John} nwere akpati {num_digit_1, 3}. Akpati ọbụla ahụ dị inch {num_digit_2, 5} na mmụba inch {num_digit_3, 6} na mmụba inch {num_digit_4, 4}. Akụkụ ya dị {num_digit_5, 1} oké inch. Kedụ ozuzu ókè ịme akpati {num_digit_1, 3} niile ahụ?",
+  "equation": "UPDATE HERE"
+}

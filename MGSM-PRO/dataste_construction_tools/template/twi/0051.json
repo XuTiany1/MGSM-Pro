@@ -1,0 +1,8 @@
+{
+  "original_question": "Tom suhyԑn no tumi twa kwansini 10 wɔ dɔnhwere baako mu. Ͻɔtu ԑfiri 1 akɔsi annuwmerԑ 4. Ͻsan n’akyi berԑ a ɔtwa kwansini nsia dɔnhwere biara. Ԑdi no sԑn na w’asan n’akyi?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male, Tom} suhyԑn no tumi twa kwansini {num_digit_1, 15} wɔ dɔnhwere baako mu. Ͻɔtu ԑfiri {num_digit_2, 1} akɔsi annuwmerԑ {num_digit_3, 9}. Ͻsan n’akyi berԑ a ɔtwa kwansini {num_digit_4, 6} dɔnhwere biara. Ԑdi no sԑn na w’asan n’akyi?",
+  "ic_sentence_template": "{name_male, Tom} wɔfa atɔ hyɛmma a wɔde yɛ nhwɛsoɔ {num_ic, 20} nnansa yi ara.",
+  "ic_template": "{name_male, Tom} wɔfa atɔ hyɛmma a wɔde yɛ nhwɛsoɔ {num_ic, 20} nnansa yi ara. {name_male, Tom} suhyԑn no tumi twa kwansini {num_digit_1, 15} wɔ dɔnhwere baako mu. Ͻɔtu ԑfiri {num_digit_2, 1} akɔsi annuwmerԑ {num_digit_3, 9}. Ͻsan n’akyi berԑ a ɔtwa kwansini {num_digit_4, 6} dɔnhwere biara. Ԑdi no sԑn na w’asan n’akyi?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Siobhan has 2 fewer jewels than Aaron. Aaron has 5 more jewels than half of Raymond's jewels. If Raymond has 40 jewels, how many jewels does Siobhan have?",
+  "original_answer": 23,
+  "symbolic_template": "{name_male_1, Siobhan} has {num_digit_1, 2} fewer jewels than {name_male_2, Aaron}. {name_male_2, Aaron} has {num_digit_2, 5} more jewels than half of {name_male_3, Raymond}’s jewels. If {name_male_3, Raymond} has {num_digit_3, 40} jewels, how many jewels does {name_male_1, Siobhan} have?",
+  "ic_sentence_template": "{name_male_2, Aaron}'s uncle once gifted him {num_ic, 341} marbles.",
+  "ic_template": "{name_male_1, Siobhan} has {num_digit_1, 2} fewer jewels than {name_male_2, Aaron}. {name_male_2, Aaron} has {num_digit_2, 5} more jewels than half of {name_male_3, Raymond}’s jewels. If {name_male_3, Raymond} has {num_digit_3, 40} jewels, {name_male_2, Aaron}'s uncle once gifted him {num_ic, 341} marbles. how many jewels does {name_male_1, Siobhan} have?",
+  "equation": "UPDATE HERE"
+}

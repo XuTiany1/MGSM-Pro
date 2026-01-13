@@ -1,0 +1,8 @@
+{
+  "original_question": "Tokuro baa Julia kodoɔ no mu berԑ a na ɔwɔ ɔtare no so. Na nsuo lita mmienu na ԑԑba kodoɔ no mu nan nsusuho du biara a ɔka bԑn asaase so. Ͻde simma dunsia na ɔkaa nan nsusuho dummienu. Na asaase no wɔ anibɔ 64 akyi. Nsuo sԑn na ԑbaa kodoɔ no mu berԑ a Julia duruu asaase so no?",
+  "original_answer": 16,
+  "symbolic_template": "Tokuro baa {name_female, Julia} kodoɔ no mu berԑ a na ɔwɔ ɔtare no so. Na nsuo lita mmienu na ԑԑba kodoɔ no mu nan nsusuho du biara a ɔka bԑn asaase so. Ͻde simma dunsia na ɔkaa nan nsusuho dummienu. Na asaase no wɔ anibɔ {num_digit_1, 64} akyi. Nsuo sԑn na ԑbaa kodoɔ no mu berԑ a {name_female, Julia} duruu asaase so no?",
+  "ic_sentence_template": "{name_female, Julia} wɔfa wɔ mpataayi a wɔde twetwe nnam {num_ic, 444}.",
+  "ic_template": "{name_female, Julia} wɔfa wɔ mpataayi a wɔde twetwe nnam {num_ic, 444}. Tokuro baa {name_female, Julia} kodoɔ no mu berԑ a na ɔwɔ ɔtare no so no. Na nsuo lita mmienu na ԑԑba kodoɔ no mu nan nsusuho du biara a ɔka bԑn asaase so. Ͻde simma dunsia na ɔkaa nan nsusuho dummienu. Na asaase no wɔ anibɔ {num_digit_1, 64} akyi. Nsuo sԑn na ԑbaa kodoɔ no mu berԑ a {name_female, Julia} duruu asaase so no?",
+  "equation": "UPDATE HERE"
+}

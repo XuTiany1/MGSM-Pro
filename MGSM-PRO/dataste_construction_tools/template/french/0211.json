@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerry a un élevage de poulets. Les poules rouges produisent 3 œufs par jour, et les blanches 5 œufs par jour. Jerry ramasse chaque jour 42 œufs. S'il a deux poulets blancs de plus qu'il y en a de rouges, combien de poulets rouges a-t-il ?",
+  "original_answer": 4,
+  "symbolic_template": "{name_male, Jerry} a un élevage de poulets. Les poules rouges produisent {num_digit_1, 3} œufs par jour, et les blanches {num_digit_2, 5} œufs par jour. {name_male, Jerry} ramasse chaque jour {num_digit_3, 42} œufs. S'il a deux poulets blancs de plus qu'il y en a de rouges, combien de poulets rouges a-t-il ?",
+  "ic_sentence_template": "{name_male, Jerry} a une tante qui a {num_ic, 54} canards dans sa ferme.",
+  "ic_template": "{name_male, Jerry} a une tante qui a {num_ic, 54} canards dans sa ferme. {name_male, Jerry} a un élevage de poulets. Les poules rouges produisent {num_digit_1, 3} œufs par jour, et les blanches {num_digit_2, 5} œufs par jour. {name_male, Jerry} ramasse chaque jour {num_digit_3, 42} œufs. S'il a deux poulets blancs de plus qu'il y en a de rouges, combien de poulets rouges a-t-il ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "鸭子每周要吃 3.5 磅的昆虫才能存活。如果有一群 10 只鸭子，它们每天需要多少磅昆虫？",
+  "original_answer": 5,
+  "symbolic_template": "鸭子每周要吃 {num_digit_1, 3.5} 磅的昆虫才能存活。如果有一群 10 只鸭子，它们每天需要多少磅昆虫？",
+  "ic_sentence_template": "池塘边住着 {num_ic, 144} 只青蛙。",
+  "ic_template": "池塘边住着 {num_ic, 144} 只青蛙。鸭子每周要吃 {num_digit_1, 3.5} 磅的昆虫才能存活。如果有一群 10 只鸭子，它们每天需要多少磅昆虫？",
+  "equation": "UPDATE HERE"
+}

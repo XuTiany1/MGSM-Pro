@@ -1,0 +1,8 @@
+{
+  "original_question": "Sur les 200 élèves de CM2, 2/5 sont des garçons et les 2/3 des filles sont membres des scouts. Quel est le nombre de filles qui ne fait pas partie des scouts ?",
+  "original_answer": 40,
+  "symbolic_template": "Sur les {num_digit_1, 200} élèves de CM2, 2/5 sont des garçons et les 2/3 des filles sont membres des scouts. Quel est le nombre de filles qui ne fait pas partie des scouts ?",
+  "ic_sentence_template": "La fille du directeur de l'école possède {num_ic, 41} crayons.",
+  "ic_template": "La fille du directeur de l'école possède {num_ic, 41} crayons. Sur les {num_digit_1, 200} élèves de CM2, 2/5 sont des garçons et les 2/3 des filles sont membres des scouts. Quel est le nombre de filles qui ne fait pas partie des scouts ?",
+  "equation": "UPDATE HERE"
+}

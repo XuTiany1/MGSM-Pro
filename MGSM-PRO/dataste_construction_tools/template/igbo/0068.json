@@ -1,0 +1,8 @@
+{
+  "original_question": "E nwere ugboro abụọ n'ọnụọgụgụ ụmụ nwoke nye ụmụ nwaanyị n'ụlọ akwụkwọ Dr. Wertz. Ọ bụrụ na a dị ụmụ nwaanyị iri isii na ụmụ akwụkwọ ise nye onye nkụzi ọbụla, ndị nkụzi ole nọ ebe ahụ? ",
+  "original_answer": 36,
+  "symbolic_template": "E nwere ugboro abụọ n'ọnụọgụgụ ụmụ nwoke nye ụmụ nwaanyị n'ụlọ akwụkwọ Dr. Wertz. Ọ bụrụ na a dị ụmụ nwaanyị {num_digit_1, 60} na ụmụ akwụkwọ {num_digit_2, 5} nye onye nkụzi ọbụla, ndị nkụzi ole nọ ebe ahụ?",
+  "ic_sentence_template": "E zigara ụlọ akwụkwọ Dr. Wertz akwụkwọ ọhụrụ {num_ic, 222} n'afọ a.",
+  "ic_template": "E zigara ụlọ akwụkwọ Dr. Wertz akwụkwọ ọhụrụ {num_ic, 222} n'afọ a. E nwere ugboro abụọ n'ọnụọgụgụ ụmụ nwoke nye ụmụ nwaanyị n'ụlọ akwụkwọ Dr. Wertz. Ọ bụrụ na a dị ụmụ nwaanyị {num_digit_1, 60} na ụmụ akwụkwọ {num_digit_2, 5} nye onye nkụzi ọbụla, ndị nkụzi ole nọ ebe ahụ?",
+  "equation": "UPDATE HERE"
+}

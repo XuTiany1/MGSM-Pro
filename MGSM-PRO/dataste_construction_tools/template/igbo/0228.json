@@ -1,0 +1,8 @@
+{
+  "original_question": "Kalinda na nne ya na-arụ ọrụ na okwe pọzụl 360. Kalinda nwere ị́ké ị na-etinye mkpụrụ anọ kwa otu nkeji. Nne ya nwere ị́ké ịtinye ọkara ole Kalinda tinyere kwa otu nkeji. Awa ole ka ọ ga-ewe ha iji zuchaa okwe pọzul ahụ?",
+  "original_answer": 1,
+  "symbolic_template": "{name_female, Kalinda} na nne ya na-arụ ọrụ na okwe pọzụl {num_digit_1, 360}. {name_female, Kalinda} nwere ị́ké ị na-etinye mkpụrụ {num_digit_2, 4} kwa otu nkeji. Nne ya nwere ị́ké ịtinye ọkara ole {name_female, Kalinda} tinyere kwa otu nkeji. Awa ole ka ọ ga-ewe ha iji zuchaa okwe pọzul ahụ?",
+  "ic_sentence_template": "Nwanne nna {name_female, Kalinda} nwere nchịkọta ihe mgbakọ jigsaw ruru {num_ic, 103}.",
+  "ic_template": "Nwanne nna {name_female, Kalinda} nwere nchịkọta ihe mgbakọ jigsaw ruru {num_ic, 103}. {name_female, Kalinda} na nne ya na-arụ ọrụ na okwe pọzụl {num_digit_1, 360}. {name_female, Kalinda} nwere ị́ké ị na-etinye mkpụrụ {num_digit_2, 4} kwa otu nkeji. Nne ya nwere ị́ké ịtinye ọkara ole {name_female, Kalinda} tinyere kwa otu nkeji. Awa ole ka ọ ga-ewe ha iji zuchaa okwe pọzul ahụ?",
+  "equation": "UPDATE HERE"
+}

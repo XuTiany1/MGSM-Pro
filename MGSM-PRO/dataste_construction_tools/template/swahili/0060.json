@@ -1,0 +1,8 @@
+{
+  "original_question": "Kikapu kina machungwa 25 na 1 miongoni mwao limeharibika, 20% hayajaiva, 2 ni chachu na mengine ni mazuri. Machungwa mangapi ni mazuri?",
+  "original_answer": 17,
+  "symbolic_template": "Kikapu kina machungwa {num_digit_1, 25} na {num_digit_2, 1} miongoni mwao limeharibika, {num_digit_3, 20}% hayajaiva, {num_digit_4, 2} ni chachu na mengine ni mazuri. Machungwa mangapi ni mazuri?",
+  "ic_sentence_template": "Mjomba wa {name_female, Aria} alileta tufaha {num_ic, 68} kutoka sokoni.",
+  "ic_template": "Mjomba wa {name_female, Aria} alileta tufaha {num_ic, 68} kutoka sokoni. Kikapu kina machungwa {num_digit_1, 25} na {num_digit_2, 1} miongoni mwao limeharibika, {num_digit_3, 20}% hayajaiva, {num_digit_4, 2} ni chachu na mengine ni mazuri. Machungwa mangapi ni mazuri?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Chaque jour, Ryan plante 2 fleurs dans son jardin. Sachant que 5 fleurs n'ont pas poussé, combien de fleurs aura-t-il au bout de 15 jours ?",
+  "original_answer": 25,
+  "symbolic_template": "Chaque jour, {name_male, Ryan} plante {num_digit_1, 2} fleurs dans son jardin. Sachant que {num_digit_3, 5} fleurs n'ont pas poussé, combien de fleurs aura-t-il au bout de {num_digit_2, 15} jours ?",
+  "ic_sentence_template": "{name_male, Ryan} a reçu {num_ic, 8} nouveaux pots pour le jardin de la part de son oncle.",
+  "ic_template": "{name_male, Ryan} a reçu {num_ic, 8} nouveaux pots pour le jardin de la part de son oncle. Chaque jour, {name_male, Ryan} plante {num_digit_1, 2} fleurs dans son jardin. Sachant que {num_digit_3, 5} fleurs n'ont pas poussé, combien de fleurs aura-t-il au bout de {num_digit_2, 15} jours ?",
+  "equation": "UPDATE HERE"
+}

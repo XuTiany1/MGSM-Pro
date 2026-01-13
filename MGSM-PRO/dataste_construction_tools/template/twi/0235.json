@@ -1,0 +1,8 @@
+{
+  "original_question": "John orders some pizzas to share with his friends.  There are 20 friends in total, and John wants to make sure each can have 4 slices.  Pizzas are only sold sliced into 8 portions.  How many Pizzas does John need to order?",
+  "original_answer": 10,
+  "symbolic_template": "{name_male, John} kraa pizza sɛ ɔne ne nnamfonom bɛkyɛ. Ne nnamfonom nyinaa yɛ {num_digit_1, 20}, na {name_male, John} pɛ sɛɛ ɔma obiara nya {num_digit_2, 4} slices. Wɔtɔn pizza wɔ nkyekɛyemu {num_digit_3, 8}. Pizza sɛn na {name_male, John} bɛ kra?",
+  "ic_sentence_template": "{name_male, John} wɔfa no wɔ basebɔɔllɔ nkrataa{num_ic, 712}.",
+  "ic_template": "{name_male, John} wɔfa no wɔ basebɔɔllɔ nkrataa{num_ic, 712}. {name_male, John} kraa pizza sɛ ɔne ne nnamfonom bɛkyɛ. Ne nnamfonom nyinaa yɛ {num_digit_1, 20}, na {name_male, John} pɛ sɛɛ ɔma obiara nya {num_digit_2, 4} slices. Wɔtɔn pizza wɔ nkyekɛyemu {num_digit_3, 8}. Pizza sɛn na {name_male, John} bɛ kra?",
+  "equation": "UPDATE HERE"
+}

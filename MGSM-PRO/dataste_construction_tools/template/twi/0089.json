@@ -1,0 +1,8 @@
+{
+  "original_question": "Christina ԑԑhyehyԑ awoda apontoɔ bi na ɔhia akyԑdeԑ kotoku .75 ma ɔhɔhoɔ biara a w’ato nsa afrԑ no, efiri sԑ wɔn a wɔto wɔn nsa frԑ wɔn no mu ¼ ԑmma. Ͻtoo ne nsa frԑԑ nnamfo 16. Akyԑdeԑ kotoku baako biaraa yԑ $2. Sika sԑn na ɔbԑsԑi?",
+  "original_answer": 24,
+  "symbolic_template": "{name_female, Christina} ԑԑhyehyԑ awoda apontoɔ bi na ɔhia akyԑdeԑ kotoku {num_digit_1, .75} ma ɔhɔhoɔ biara a w’ato nsa afrԑ no, efiri sԑ wɔn a wɔto wɔn nsa frԑ wɔn no mu 1/4 ԑmma. Ͻtoo ne nsa frԑԑ nnamfo {num_digit_2, 16}. Akyԑdeԑ kotoku baako biaraa yԑ ${num_digit_3, 2}. Sika sԑn na ɔbԑsԑi?",
+  "ic_sentence_template": "{name_female, Christina} sewaa de kaaki nketewa {num_ic, 89} baa afahyɛ no.",
+  "ic_template": "{name_female, Christina} sewaa de kaaki nketewa {num_ic, 89} baa afahyɛ no. {name_female, Christina} ԑԑhyehyԑ awoda apontoɔ bi na ɔhia akyԑdeԑ kotoku {num_digit_1, .75} ma ɔhɔhoɔ biara a w’ato nsa afrԑ no, efiri sԑ wɔn a wɔto wɔn nsa frԑ wɔn no mu 1/4 ԑmma. Ͻtoo ne nsa frԑԑ nnamfo {num_digit_2, 16}. Akyԑdeԑ kotoku baako biaraa yԑ ${num_digit_3, 2}. Sika sԑn na ɔbԑsԑi?",
+  "equation": "UPDATE HERE"
+}

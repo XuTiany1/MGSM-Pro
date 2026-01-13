@@ -1,0 +1,8 @@
+{
+  "original_question": "Otu nkata nwere oroma iri abụọ na ise nke otu n'ịme ya mebiri emebi, 20% achaghi acha, abụọ gbara ụ́kà ma ndị ọzọ dị mma. Kedụ oroma ole dị mma? ",
+  "original_answer": 17,
+  "symbolic_template": "Otu nkata nwere oroma {num_digit_1, 25} nke {num_digit_2, 1} n'ime ya mebiri emebi, {num_digit_3, 20}% achaghi acha, {num_digit_4, 2} gbara ụ́kà ma ndị ọzọ dị mma. Kedụ oroma ole dị mma?",
+  "ic_sentence_template": "nwanne nna {name_female, Aria} bịara n'ụlọ site n'ahịa na mkpụrụ osisi aple {num_ic, 68}.",
+  "ic_template": "nwanne nna {name_female, Aria} bịara n'ụlọ site n'ahịa na mkpụrụ osisi aple {num_ic, 68}. Otu nkata nwere oroma {num_digit_1, 25} nke {num_digit_2, 1} n'ime ya mebiri emebi, {num_digit_3, 20}% achaghi acha, {num_digit_4, 2} gbara ụ́kà ma ndị ọzọ dị mma. Kedụ oroma ole dị mma?",
+  "equation": "UPDATE HERE"
+}

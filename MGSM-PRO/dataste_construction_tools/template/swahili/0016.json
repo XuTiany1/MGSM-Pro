@@ -1,0 +1,8 @@
+{
+  "original_question": "Treni mbili zimetoka San Rafael kwa wakati mmoja. Zimeanza kusafiri kwenda upande wa Magharibi, zote mbili zinaenda umbali wa maili 80. Siku inayofuata, zinasafiri kwenda upande wa Kaskazini, umbali wa maili 150. Umbali ambao treni hizo mbili zilienda kwa siku hizo mbili ni gani?",
+  "original_answer": 230,
+  "symbolic_template": "Treni mbili zimetoka {name_town_1, San Rafael} kwa wakati mmoja. Zimeanza kusafiri kwenda upande wa Magharibi, zote mbili zinaenda umbali wa maili {num_digit_1, 80}. Siku inayofuata, zinasafiri kwenda upande wa Kaskazini, umbali wa maili {num_digit_2, 150}. Umbali ambao treni hizo mbili zilienda kwa siku hizo mbili ni gani?",
+  "ic_sentence_template": "Meya wa {name_town_1, San Rafael} anamiliki treni za mfano {num_ic, 137}.",
+  "ic_template": "Meya wa {name_town_1, San Rafael} anamiliki treni za mfano {num_ic, 137}. Treni mbili zimetoka {name_town_1, San Rafael} kwa wakati mmoja. Zimeanza kusafiri kwenda upande wa Magharibi, zote mbili zinaenda umbali wa maili {num_digit_1, 80}. Siku inayofuata, zinasafiri kwenda upande wa Kaskazini, umbali wa maili {num_digit_2, 150}. Umbali ambao treni hizo mbili zilienda kwa siku hizo mbili ni gani?",
+  "equation": "UPDATE HERE"
+}

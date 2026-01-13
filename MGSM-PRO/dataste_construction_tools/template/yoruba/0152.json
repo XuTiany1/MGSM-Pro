@@ -1,0 +1,8 @@
+{
+  "original_question": "Carl ra pálí cookies mẹ́wàá. Pálí i cookie kọ̀ọ̀kan ní cookies mẹ́fà nínú. Cookie kọ̀ọ̀kan je $0.10. Èló ló ṣẹ́kù tí Carl gbà tí ó bá san $10?",
+  "original_answer": 4,
+  "symbolic_template": "{name_male, Carl} ra pálí cookies mẹ́wàá. Pálí i cookie kọ̀ọ̀kan ní cookies mẹ́fà nínú. Cookie kọ̀ọ̀kan je ${num_digit_1, 0.10}. Èló ló ṣẹ́kù tí {name_male, Carl} gbà tí ó bá san ${num_digit_2, 10}?",
+  "ic_sentence_template": "Àńtì {name_male, Carl} mú àkara oyinbó {num_ic, 31} wá sí ayẹyẹ.",
+  "ic_template": "Àńtì {name_male, Carl} mú àkara oyinbó {num_ic, 31} wá sí ayẹyẹ. {name_male, Carl} ra pálí cookies mẹ́wàá. Pálí i cookie kọ̀ọ̀kan ní cookies mẹ́fà nínú. Cookie kọ̀ọ̀kan je ${num_digit_1, 0.10}. Èló ló ṣẹ́kù tí {name_male, Carl} gbà tí ó bá san ${num_digit_2, 10}?",
+  "equation": "UPDATE HERE"
+}

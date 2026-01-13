@@ -1,0 +1,8 @@
+{
+  "original_question": "Adrian's age is three times the age of Harriet, and Harriet is half the age of Zack. Calculate the average age of the three in three years if Harriet is 21 years old now.",
+  "original_answer": 45,
+  "symbolic_template": "{name_male_1, Adrian}'s age is three times the age of {name_male_2, Harriet}, and {name_male_2, Harriet} is half the age of {name_male_3, Zack}. Calculate the average age of the three in three years if {name_male_2, Harriet} is {num_digit_1, 21} years old now.",
+  "ic_sentence_template": "{name_male_2, Harriet}'s uncle just bought {num_ic, 107} apples from the market.",
+  "ic_template": "{name_male_1, Adrian}'s age is three times the age of {name_male_2, Harriet}, and {name_male_2, Harriet} is half the age of {name_male_3, Zack}. Calculate the average age of the three in three years if {name_male_2, Harriet} is {num_digit_1, 21} years old now. {name_male_2, Harriet}'s uncle just bought {num_ic, 107} apples from the market. ",
+  "equation": "UPDATE HERE"
+}

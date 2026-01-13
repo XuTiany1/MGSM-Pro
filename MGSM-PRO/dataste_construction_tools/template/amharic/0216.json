@@ -1,0 +1,8 @@
+{
+  "original_question": "ጀኔት $2000 ተበድራች እና ገንዘቡን ስትመልስ ከገንዘቡ 10% ተጨማሪ አድርጋ እንደምትመልስ ቃል ገብታለች. ለ12 ወራት በወር $165  የምትከፍል ከሆነ,ያኔ የጀኔት ቀሪ ሂሳብ ምን ያህል ይሆናል?",
+  "original_answer": 220,
+  "symbolic_template": "{name_female, ጀኔት} ${num_digit_1, 2000} ተበድራች እና ገንዘቡን ስትመልስ ከገንዘቡ {num_digit_2, 10}% ተጨማሪ አድርጋ እንደምትመልስ ቃል ገብታለች. ለ{num_digit_4, 12} ወራት በወር ${num_digit_3, 165} የምትከፍል ከሆነ,ያኔ የ{name_female, ጀኔት} ቀሪ ሂሳብ ምን ያህል ይሆናል?",
+  "ic_sentence_template": "የ{name_female, ጃኔት} አጎት ባለፈው ዓመት {num_ic, 93000} የሎተሪ ትኬቶች ተቀብሏል።",
+  "ic_template": "{name_female, ጀኔት} ${num_digit_1, 2000} ተበድራች እና ገንዘቡን ስትመልስ ከገንዘቡ {num_digit_2, 10}% ተጨማሪ አድርጋ እንደምትመልስ ቃል ገብታለች. ለ{num_digit_4, 12} ወራት በወር ${num_digit_3, 165} የምትከፍል ከሆነ,ያኔ የ{name_female, ጀኔት} ቀሪ ሂሳብ ምን ያህል ይሆናል? የ{name_female, ጃኔት} አጎት ባለፈው ዓመት {num_ic, 93000} የሎተሪ ትኬቶች ተቀብሏል።",
+  "equation": "UPDATE HERE"
+}

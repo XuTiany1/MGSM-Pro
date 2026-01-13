@@ -1,0 +1,8 @@
+{
+  "original_question": "Pendant qu'elle achète des chaussures, Gloria tombe sur une paire de bottines qui rentre dans son budget. Toutefois, elle doit choisir entre les bottines et deux paires de talons hauts qui coûtent à elles deux cinq dollars de moins que les bottines. Si l'une des paires de talons hauts coûte 33 $ et que l'autre coûte deux fois plus, quel est, en dollar, le prix des bottines ?",
+  "original_answer": 104,
+  "symbolic_template": "Pendant qu'elle achète des chaussures, {name_female, Gloria} tombe sur une paire de bottines qui rentre dans son budget. Toutefois, elle doit choisir entre les bottines et deux paires de talons hauts qui coûtent à elles deux cinq dollars de moins que les bottines. Si l'une des paires de talons hauts coûte {num_digit_1, 33} $ et que l'autre coûte deux fois plus, quel est, en dollar, le prix des bottines ?",
+  "ic_sentence_template": "La cousine de {name_female, Gloria} vient d’acheter {num_ic, 48} paires de chaussettes à proximité.",
+  "ic_template": "La cousine de {name_female, Gloria} vient d’acheter {num_ic, 48} paires de chaussettes à proximité. Pendant qu'elle achète des chaussures, {name_female, Gloria} tombe sur une paire de bottines qui rentre dans son budget. Toutefois, elle doit choisir entre les bottines et deux paires de talons hauts qui coûtent à elles deux cinq dollars de moins que les bottines. Si l'une des paires de talons hauts coûte {num_digit_1, 33} $ et que l'autre coûte deux fois plus, quel est, en dollar, le prix des bottines ?",
+  "equation": "UPDATE HERE"
+}

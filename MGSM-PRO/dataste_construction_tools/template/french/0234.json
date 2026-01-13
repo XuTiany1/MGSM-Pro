@@ -1,0 +1,8 @@
+{
+  "original_question": "Steve veut désormais manger plus de tomates et décide de faire pousser ses propres tomates cerises. Il en mange deux fois plus que sa copine à raison de 6 par jour. Sachant qu'une vigne produit 3 tomates par semaine, combien de vignes lui faudra-t-il ?",
+  "original_answer": 21,
+  "symbolic_template": "{name_male, Steve}  veut désormais manger plus de tomates et décide de faire pousser ses propres tomates cerises. Il en mange deux fois plus que sa copine à raison de {num_digit_1, 6} par jour. Sachant qu'une vigne produit {num_digit_2, 3} tomates par semaine, combien de vignes lui faudra-t-il ?",
+  "ic_sentence_template": "{name_male, Steve} a une tante qui cultive {num_ic, 1531} poivrons chaque été.",
+  "ic_template": "{name_male, Steve} a une tante qui cultive {num_ic, 1531} poivrons chaque été. {name_male, Steve}  veut désormais manger plus de tomates et décide de faire pousser ses propres tomates cerises. Il en mange deux fois plus que sa copine à raison de {num_digit_1, 6} par jour. Sachant qu'une vigne produit {num_digit_2, 3} tomates par semaine, combien de vignes lui faudra-t-il ?",
+  "equation": "UPDATE HERE"
+}

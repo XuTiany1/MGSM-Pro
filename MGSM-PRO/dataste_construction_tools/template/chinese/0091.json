@@ -1,0 +1,8 @@
+{
+  "original_question": "珍的宠物数量是玛西亚的三倍，而玛西亚的宠物数量比辛迪多两只。如果辛迪有四只宠物，则她们三个人一共有多少只宠物？",
+  "original_answer": 28,
+  "symbolic_template": "{name_female_1, 珍} 的宠物数量是 {name_female_2, 玛西亚} 的 3 倍，而 {name_female_2, 玛西亚} 的宠物数量比 {name_female_3, 辛迪} 多 2 只。如果 {name_female_3, 辛迪} 有 4 只宠物，则她们三个人一共有多少只宠物？",
+  "ic_sentence_template": "{name_female_2, 玛西亚} 的叔叔养了 {num_ic, 16} 只鸟。",
+  "ic_template": "{name_female_2, 玛西亚} 的叔叔养了 {num_ic, 16} 只鸟。{name_female_1, 珍} 的宠物数量是 {name_female_2, 玛西亚} 的 3 倍，而 {name_female_2, 玛西亚} 的宠物数量比 {name_female_3, 辛迪} 多 2 只。如果 {name_female_3, 辛迪} 有 4 只宠物，则她们三个人一共有多少只宠物？",
+  "equation": "UPDATE HERE"
+}

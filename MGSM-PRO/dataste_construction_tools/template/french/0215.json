@@ -1,0 +1,8 @@
+{
+  "original_question": "Lori veut acheter une paire de chaussures à 320,00 $ et une ceinture assortie à 32,00 $. Son emploi à temps partiel lui rapporte 8,00 $ de l'heure. Combien d'heures devra-t-elle travailler avant de pouvoir faire ses achats ?",
+  "original_answer": 44,
+  "symbolic_template": "{name_female, Lori} veut acheter une paire de chaussures à {num_digit_1, 320.00} $ et une ceinture assortie à {num_digit_2, 32.00} $. Son emploi à temps partiel lui rapporte {num_digit_3, 8.00} $ de l'heure. Combien d'heures devra-t-elle travailler avant de pouvoir faire ses achats ?",
+  "ic_sentence_template": "{name_female, Lori} a un oncle qui a trouvé {num_ic, 47} affiches de films vintage dans son grenier.",
+  "ic_template": "{name_female, Lori} a un oncle qui a trouvé {num_ic, 47} affiches de films vintage dans son grenier. {name_female, Lori} veut acheter une paire de chaussures à {num_digit_1, 320.00} $ et une ceinture assortie à {num_digit_2, 32.00} $. Son emploi à temps partiel lui rapporte {num_digit_3, 8.00} $ de l'heure. Combien d'heures devra-t-elle travailler avant de pouvoir faire ses achats ?",
+  "equation": "UPDATE HERE"
+}

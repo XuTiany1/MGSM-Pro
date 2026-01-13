@@ -1,0 +1,26 @@
+{
+    "problem_id": "0013",
+    "generation_order": ["num_digit_2", "num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_2": {"type": "int", "range": [2, 30]},
+        "num_digit_1": {"type": "int", "range": [2, 12]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "before_orange = num_digit_2 * 2",
+            "before_red = before_orange + num_digit_1",
+            "ans = (before_red / 2) * 3"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "(num_digit_2 * 2 + num_digit_1) % 2 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

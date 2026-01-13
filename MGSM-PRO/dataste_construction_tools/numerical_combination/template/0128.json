@@ -1,0 +1,37 @@
+{
+    "problem_id": "0128",
+    "generation_order": ["num_digit_5", "num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_ic"],
+    "variables": {
+        "num_digit_5": {"type": "int", "range": [10, 30]},
+        "num_digit_1": {"type": "int", "range": [2, 10]},
+        "num_digit_2": {"type": "int", "range": [2, 6]},
+        "num_digit_3": {"type": "int", "range": [10, 30]},
+        "num_digit_4": {"type": "int", "range": [5, 15]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "price_pepper = num_digit_5",
+            "price_watermelon = 3 * price_pepper",
+            "price_orange = price_watermelon - num_digit_1"
+        ],
+        "num_digit_4": [
+            "cost_watermelons = num_digit_2 * price_watermelon",
+            "cost_peppers = num_digit_3 * price_pepper",
+            "cost_oranges = num_digit_4 * price_orange",
+            "ans = cost_watermelons + cost_peppers + cost_oranges"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 3, "max_digits": 4}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "price_orange > 0"
+        ],
+        "num_digit_4": [
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

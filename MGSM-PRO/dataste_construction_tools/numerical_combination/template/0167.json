@@ -1,0 +1,28 @@
+{
+    "problem_id": "0167",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [2, 10]},
+        "num_digit_2": {"type": "int", "range": [15, 60]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "combined_future_age = num_digit_2",
+            "sum_of_current_ages = combined_future_age - (2 * num_digit_1)",
+            "brooke_age = sum_of_current_ages / 3",
+            "ans = brooke_age * 2"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "(num_digit_2 - (2 * num_digit_1)) > 0",
+            "(num_digit_2 - (2 * num_digit_1)) % 3 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

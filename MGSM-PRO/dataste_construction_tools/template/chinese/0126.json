@@ -1,0 +1,8 @@
+{
+  "original_question": "迪伦需要鸡肉肠和鱼肠，以在派对上做香肠面包。他买了 38 根鸡肉肠，并且比鸡肉肠多买了 6 根鱼肠。迪伦一共买了多少根香肠？",
+  "original_answer": 82,
+  "symbolic_template": "{name_male, 迪伦} 需要鸡肉肠和鱼肠，以在派对上做香肠面包。他买了 {num_digit_1, 38} 根鸡肉肠，并且比鸡肉肠多买了 {num_digit_2, 6} 根鱼肠。{name_male, 迪伦} 一共买了多少根香肠？",
+  "ic_sentence_template": "{name_male, 迪兰} 的叔叔带来了 {num_ic, 62} 瓶柠檬水。",
+  "ic_template": "{name_male, 迪兰} 的叔叔带来了 {num_ic, 62} 瓶柠檬水。{name_male, 迪伦} 需要鸡肉肠和鱼肠，以在派对上做香肠面包。他买了 {num_digit_1, 38} 根鸡肉肠，并且比鸡肉肠多买了 {num_digit_2, 6} 根鱼肠。{name_male, 迪伦} 一共买了多少根香肠？",
+  "equation": "UPDATE HERE"
+}

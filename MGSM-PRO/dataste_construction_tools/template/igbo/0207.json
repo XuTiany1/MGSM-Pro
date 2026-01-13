@@ -1,0 +1,8 @@
+{
+  "original_question": "Akpa kandi Halloween Joe nwere chọkọleeti iri abụọ na ise na kandi-apụl iri asatọ. Chọkọleeti ọ bụla ji ugboro abụọ dị arọ karịa ka kandi-apụl ọ bụla. Ọ bụrụ na chọkọleeti ọ bụla di 40g, kedụ ole akpa kandi Joe na-ada, na gram?",
+  "original_answer": 2600,
+  "symbolic_template": "Akpa kandi Halloween {name_male, Joe} nwere chọkọleeti {num_digit_1, 25} na kandi-apụl {num_digit_2, 80}. Chọkọleeti ọ bụla ji ugboro abụọ dị arọ karịa ka kandi-apụl ọ bụla. Ọ bụrụ na chọkọleeti ọ bụla dị {num_digit_3, 40}g, kedụ ole akpa kandi {name_male, Joe} na-ada, na gram?",
+  "ic_sentence_template": "Nwanne nna {name_male, Joe} zụtara lollipops {num_ic, 112} maka emume.",
+  "ic_template": "Nwanne nna {name_male, Joe} zụtara lollipops {num_ic, 112} maka emume. Akpa kandi Halloween {name_male, Joe} nwere chọkọleeti {num_digit_1, 25} na kandi-apụl {num_digit_2, 80}. Chọkọleeti ọ bụla ji ugboro abụọ dị arọ karịa ka kandi-apụl ọ bụla. Ọ bụrụ na chọkọleeti ọ bụla dị {num_digit_3, 40}g, kedụ ole akpa kandi {name_male, Joe} na-ada, na gram?",
+  "equation": "UPDATE HERE"
+}

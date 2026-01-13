@@ -1,0 +1,8 @@
+{
+  "original_question": "John ní àpótí 3. àpótí kọ̀ọ̀kan ní ní igun 5 sí 6 sí 4. ògiri fi igun 1 ki. kínní àpapọ̀ ìwọ̀n inú àpótí mẹ́tẹ̀ẹ̀ta?",
+  "original_answer": 72,
+  "symbolic_template": "{name_male, John} ní àpótí {num_digit_1, 3}. àpótí kọ̀ọ̀kan ní ní igun {num_digit_2, 5} sí {num_digit_3, 6} sí {num_digit_4, 4}. ògiri fi igun {num_digit_5, 1} ki. kínní àpapọ̀ ìwọ̀n inú àpótí {num_digit_1, 3}?",
+  "ic_sentence_template": "Àntí {name_male, John} ra àwọn àpótí {num_ic, 49} míràn fún àgbàlá ilé rẹ̀ laipẹ́ yìí.",
+  "ic_template": "Àntí {name_male, John} ra àwọn àpótí {num_ic, 49} míràn fún àgbàlá ilé rẹ̀ laipẹ́ yìí. {name_male, John} ní àpótí {num_digit_1, 3}. àpótí kọ̀ọ̀kan ní ní igun {num_digit_2, 5} sí {num_digit_3, 6} sí {num_digit_4, 4}. ògiri fi igun {num_digit_5, 1} ki. kínní àpapọ̀ ìwọ̀n inú àpótí {num_digit_1, 3}?",
+  "equation": "UPDATE HERE"
+}

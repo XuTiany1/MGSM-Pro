@@ -1,0 +1,8 @@
+{
+  "original_question": "Oko watermelon kan so ọmọ watermelon 120. Ashlyn lọ sí oko náà lẹ‌yìn oṣù méjì, ó sì rí i wípé 30% àwọn watermelon náà ti tó ká, nítorí náà, ó kó wọn lọ ilé. Nígbà tí ó padà wá lẹ‌yìn ọ‌sẹ‌ méjì, 3/4 àwọn melons tí ó kú ti pọ‌n, nítorí náà, ó ká wọn. Melon mélòó ni kò tíì pọ‌n lẹ‌yìn ọ‌sẹ‌ méjì náà?",
+  "original_answer": 21,
+  "symbolic_template": "Oko watermelon kan so ọmọ watermelon {num_digit_1, 120}. {name_female, Ashlyn} lọ sí oko náà lẹ́yìn oṣù méjì, ó sì rí i wípé {num_digit_2, 30}% àwọn watermelon náà ti tó ká, nítorí náà, ó kó wọn lọ ilé. Nígbà tí ó padà wá lẹ́yìn ọsẹ méjì, 3/4 àwọn melons tí ó kú ti pọ́n, nítorí náà, ó ká wọn. Melon mélòó ni kò tíì pọ́n lẹ́yìn ọsẹ méjì náà?",
+  "ic_sentence_template": "Bàbá ńlá {name_female, Ashlyn} rà àpò àjàrà {num_ic, 958} fún igi àpù rẹ̀.",
+  "ic_template": "Bàbá ńlá {name_female, Ashlyn} rà àpò àjàrà {num_ic, 958} fún igi àpù rẹ̀. Oko watermelon kan so ọmọ watermelon {num_digit_1, 120}. {name_female, Ashlyn} lọ sí oko náà lẹ́yìn oṣù méjì, ó sì rí i wípé {num_digit_2, 30}% àwọn watermelon náà ti tó ká, nítorí náà, ó kó wọn lọ ilé. Nígbà tí ó padà wá lẹ́yìn ọsẹ méjì, 3/4 àwọn melons tí ó kú ti pọ́n, nítorí náà, ó ká wọn. Melon mélòó ni kò tíì pọ́n lẹ́yìn ọsẹ méjì náà?",
+  "equation": "UPDATE HERE"
+}

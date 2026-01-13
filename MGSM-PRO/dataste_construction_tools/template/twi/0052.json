@@ -1,0 +1,8 @@
+{
+  "original_question": "Uriah nnwoma bɔtɔ no mu ԑԑyԑ no du. Ԑwɔ sԑ ɔyi 15 pounds firi mu. N’agodie nnwoma no baako biara mu duru no yԑ ¼ pound na n’aboduaba baako muduru no yԑ ½ pound. Sԑ ɔyi agodie nnwoma 30 firi mu a, aboduaba  sԑn na ԑwɔ sԑ ɔyi firi mu?",
+  "original_answer": 15,
+  "symbolic_template": "{name_male, Uriah} nnwoma bɔtɔ no mu ԑԑyԑ no du. Ԑwɔ sԑ ɔyi {num_digit_1, 15} pounds firi mu. N’agodie nnwoma no baako biara mu duru no yԑ 1/4 pound na n’aboduaba baako muduru no yԑ 1/2 pound. Sԑ ɔyi agodie nnwoma {num_digit_2, 30} firi mu a, aboduaba  sԑn na ԑwɔ sԑ ɔyi firi mu?",
+  "ic_sentence_template": "{name_male, Uriah} sewaa huu abɔdeɛ {num_ic, 91} wɔ n'abansoro dan atifi.",
+  "ic_template": "{name_male, Uriah} sewaa huu abɔdeɛ {num_ic, 91} wɔ n'abansoro dan atifi. {name_male, Uriah} nnwoma bɔtɔ no mu ԑԑyԑ no du. Ԑwɔ sԑ ɔyi {num_digit_1, 15} pounds firi mu. N’agodie nnwoma no baako biara mu duru no yԑ 1/4 pound na n’aboduaba baako muduru no yԑ 1/2 pound. Sԑ ɔyi agodie nnwoma {num_digit_2, 30} firi mu a, aboduaba  sԑn na ԑwɔ sԑ ɔyi firi mu?",
+  "equation": "UPDATE HERE"
+}

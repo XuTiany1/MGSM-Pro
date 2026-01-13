@@ -1,0 +1,8 @@
+{
+  "original_question": "Brittany et sa mère vont au musée. Le prix de l'entrée est de 12 $ pour les adultes et de 10 $ pour les enfants. La mère de Brittany donne à la caissière de l'argent pour 1 billet enfant et 1 billet adulte. Si elle a reçu une différence de 8 $, combien d'argent, en dollars, a-t-elle donné à la caissière ?",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, Brittany} et sa mère vont au musée. Le prix de l'entrée est de {num_digit_1, 12} $ pour les adultes et de {num_digit_2, 10} $ pour les enfants. La mère de {name_female, Brittany} donne à la caissière de l'argent pour {num_digit_3, 1} billet enfant et {num_digit_4, 1} billet adulte. Si elle a reçu une différence de {num_digit_5, 8} $, combien d'argent, en dollars, a-t-elle donné à la caissière ?",
+  "ic_sentence_template": "{name_female, Brittany} a eu la visite de son oncle au musée la semaine dernière, et il a acheté {num_ic, 31} cartes postales.",
+  "ic_template": "{name_female, Brittany} a eu la visite de son oncle au musée la semaine dernière, et il a acheté {num_ic, 31} cartes postales. {name_female, Brittany} et sa mère vont au musée. Le prix de l'entrée est de {num_digit_1, 12} $ pour les adultes et de {num_digit_2, 10} $ pour les enfants. La mère de {name_female, Brittany} donne à la caissière de l'argent pour {num_digit_3, 1} billet enfant et {num_digit_4, 1} billet adulte. Si elle a reçu une différence de {num_digit_5, 8} $, combien d'argent, en dollars, a-t-elle donné à la caissière ?",
+  "equation": "UPDATE HERE"
+}

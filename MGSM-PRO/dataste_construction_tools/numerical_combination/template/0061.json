@@ -1,0 +1,29 @@
+{
+    "problem_id": "0061",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [100, 1000]},
+        "num_digit_2": {"type": "int", "range": [100, 1000]},
+        "num_digit_3": {"type": "int", "range": [5, 20]},
+        "num_ic": {"type": "int", "range": [10, 999]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "subtotal = num_digit_1 + num_digit_2"
+        ],
+        "num_digit_3": [
+            "insurance_fee = subtotal * (num_digit_3 / 100)",
+            "ans = subtotal + insurance_fee"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 3, "max_digits": 5}
+    },
+    "restrictions": {
+        "num_digit_3": [
+            "(subtotal * num_digit_3) % 100 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Jospeh sikasɛm ho ntotoeɛ wɔ Kotonima yɛ $500. Wɔ Ayewohomommo, na ne sikasɛm ho ntotoeɛ yɛ $60 ketewa bi. Sikasɛm ho ntotoeɛ ahe na ɔbɔe wɔ saa bosome mmienu no mu?",
+  "original_answer": 940,
+  "symbolic_template": "{name_male, Joseph} sikasɛm ho ntotoeɛ wɔ Kotonima yɛ ${num_digit_1, 500}. Wɔ Ayewohomommo, na ne sikasɛm ho ntotoeɛ yɛ ${num_digit_2, 60} ketewa bi. Sikasɛm ho ntotoeɛ ahe na ɔbɔe wɔ saa bosome mmienu no mu?",
+  "ic_sentence_template": "{name_male, Joseph} no sewaa nsa kaa sika dollar {num_ic, 412} sɛ akyɛde bosome a atwa mu no.",
+  "ic_template": "{name_male, Joseph} no sewaa nsa kaa sika dollar {num_ic, 412} sɛ akyɛde bosome a atwa mu no. {name_male, Joseph} sikasɛm ho ntotoeɛ wɔ Kotonima yɛ ${num_digit_1, 500}. Wɔ Ayewohomommo, na ne sikasɛm ho ntotoeɛ yɛ ${num_digit_2, 60} ketewa bi. Sikasɛm ho ntotoeɛ ahe na ɔbɔe wɔ saa bosome mmienu no mu?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Na Brinley wɔ Owura Bert akontaabu gyinapɛn. Owura Bert yɛ nsɔhwɛ ahoroɔ nsia wɔ bosome fa biara mu. Ɔma adesuafo hɔ kwan ma woyi emu aba ketewa firi adantam ɛwɔ bosome biara mu. Sɛ Brinley nyaa 89, 71, 92, 100 ne 86 wɔ nsɔhwɛ enum a edi kan, dɛn aba na ohia wɔ nsɔhwɛ a ɛto so nsia na ama wanya nkontaabu 93?",
+  "original_answer": 98,
+  "symbolic_template": "Na {name_female, Brinley} wɔ Owura {name_family, Bert} akontaabu gyinapɛn. Owura {name_family, Bert} yɛ nsɔhwɛ ahoroɔ nsia wɔ bosome fa biara mu. Ɔma adesuafo hɔ kwan ma woyi emu aba ketewa firi adantam ɛwɔ bosome biara mu. Sɛ {name_female, Brinley} nyaa {num_digit_1, 89}, {num_digit_2, 71}, {num_digit_3, 92}, {num_digit_4, 100} ne {num_digit_5, 86} wɔ nsɔhwɛ enum a edi kan, dɛn aba na ohia wɔ nsɔhwɛ a ɛto so nsia na ama wanya nkontaabu {num_digit_6, 93}?",
+  "ic_sentence_template": "{name_female, Brinley} sewaa no brɛɛ adesuakuofo no donut {num_ic, 21} sɛ wɔbɛkyɛ ama wɔn.",
+  "ic_template": "Na {name_female, Brinley} wɔ Owura {name_family, Bert} akontaabu gyinapɛn. Owura {name_family, Bert} yɛ nsɔhwɛ ahoroɔ nsia wɔ bosome fa biara mu. Ɔma adesuafo hɔ kwan ma woyi emu aba ketewa firi adantam ɛwɔ bosome biara mu. Sɛ {name_female, Brinley} nyaa {num_digit_1, 89}, {num_digit_2, 71}, {num_digit_3, 92}, {num_digit_4, 100} ne {num_digit_5, 86} wɔ nsɔhwɛ enum a edi kan, dɛn aba na ohia wɔ nsɔhwɛ a ɛto so nsia na ama wanya nkontaabu {num_digit_6, 93}? {name_female, Brinley} sewaa no brɛɛ adesuakuofo no donut {num_ic, 21} sɛ wɔbɛkyɛ ama wɔn.",
+  "equation": "UPDATE HERE"
+}

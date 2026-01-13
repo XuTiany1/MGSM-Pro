@@ -1,0 +1,8 @@
+{
+  "original_question": "ዮሐንስ 3 ሳጥኖች አሉት። እያንዳንዱ ሣጥን 5 ኢንች በ 6 ኢንች በ 4 ኢንች ነው። ግድግዳዎቹ 1 ኢንች ውፍረት አላቸው። የሁሉም 3 ሳጥኖች አጠቃላይ ውስጣዊ መጠን ምን ያህል ነው?",
+  "original_answer": 72,
+  "symbolic_template": "{name_male, ዮሐንስ}  {num_digit_1, 3} ሳጥኖች አሉት። እያንዳንዱ ሣጥን {num_digit_2, 5} ኢንች በ {num_digit_3, 6} ኢንች በ {num_digit_4, 4} ኢንች ነው። ግድግዳዎቹ {num_digit_5, 1} ኢንች ውፍረት አላቸው። የሁሉም {num_digit_1, 3} ሳጥኖች አጠቃላይ ውስጣዊ መጠን ምን ያህል ነው?",
+  "ic_sentence_template": "{name_male, ጆን} አክስቱ በቅርቡ ለአውራ ቤቷ {num_ic, 49} ታቦቶች ተጨማሪ ገዛች።",
+  "ic_template": "{name_male, ዮሐንስ}  {num_digit_1, 3} ሳጥኖች አሉት። እያንዳንዱ ሣጥን {num_digit_2, 5} ኢንች በ {num_digit_3, 6} ኢንች በ {num_digit_4, 4} ኢንች ነው። ግድግዳዎቹ {num_digit_5, 1} ኢንች ውፍረት አላቸው። የሁሉም {num_digit_1, 3} ሳጥኖች አጠቃላይ ውስጣዊ መጠን ምን ያህል ነው? {name_male, ጆን} አክስቱ በቅርቡ ለአውራ ቤቷ {num_ic, 49} ታቦቶች ተጨማሪ ገዛች።",
+  "equation": "UPDATE HERE"
+}

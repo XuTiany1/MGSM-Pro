@@ -1,0 +1,8 @@
+{
+  "original_question": "Dave ra pááli french fries kán ti ó tóbi, ó sì jẹ mẹ́rìnlá kí ẹja òkun tí ebi ń pa tó jí páálí náà mọ́ ọ lọ́wọ́. Nígbà tí ẹja òkun náà balẹ̀, ó jẹ ìdajì iye french fries tí Dave jẹ. Lẹ́yìn náà ẹyẹlé mẹ́ta lé e kúrò ní ìdí oúnjẹ náà, ẹyẹlé kọ̀ọ̀kan sì jẹ fries mẹ́ta. Lẹ́yìn náà, raccoon kan jí ìdá méjì nínú mẹ́ta french fries tó kù. Àwọn èérún gbé french fry ìkẹyìn, tí ó fi márùn-ún sílẹ̀. French fries mélòó ló wà nínú páálí náà nígbà tí Dave rà á?",
+  "original_answer": 48,
+  "symbolic_template": "{name_male, Dave} ra pááli french fries kán ti ó tóbi, ó sì jẹ mẹ́rìnlá kí ẹja òkun tí ebi ń pa tó jí páálí náà mọ́ ọ lọ́wọ́. Nígbà tí ẹja òkun náà balẹ̀, ó jẹ ìdajì iye french fries tí {name_male, Dave} jẹ. Lẹ́yìn náà ẹyẹlé mẹ́ta lé e kúrò ní ìdí oúnjẹ náà, ẹyẹlé kọ̀ọ̀kan sì jẹ fries mẹ́ta. Lẹ́yìn náà, raccoon kan jí ìdá méjì nínú mẹ́ta french fries tó kù. Àwọn èérún gbé french fry ìkẹyìn, tí ó fi márùn-ún sílẹ̀. French fries mélòó ló wà nínú páálí náà nígbà tí {name_male, Dave} rà á?",
+  "ic_sentence_template": "Bàbá àgbà {name_male, Dave} rìnrìnàjò wá pẹ̀lú igo kẹtṣọ́ọ̀pù {num_ic, 100} sọ́dọ̀bẹ.",
+  "ic_template": "Bàbá àgbà {name_male, Dave} rìnrìnàjò wá pẹ̀lú igo kẹtṣọ́ọ̀pù {num_ic, 100} sọ́dọ̀bẹ. {name_male, Dave} ra pááli french fries kán ti ó tóbi, ó sì jẹ mẹ́rìnlá kí ẹja òkun tí ebi ń pa tó jí páálí náà mọ́ ọ lọ́wọ́. Nígbà tí ẹja òkun náà balẹ̀, ó jẹ ìdajì iye french fries tí {name_male, Dave} jẹ. Lẹ́yìn náà ẹyẹlé mẹ́ta lé e kúrò ní ìdí oúnjẹ náà, ẹyẹlé kọ̀ọ̀kan sì jẹ fries mẹ́ta. Lẹ́yìn náà, raccoon kan jí ìdá méjì nínú mẹ́ta french fries tó kù. Àwọn èérún gbé french fry ìkẹyìn, tí ó fi márùn-ún sílẹ̀. French fries mélòó ló wà nínú páálí náà nígbà tí {name_male, Dave} rà á?",
+  "equation": "UPDATE HERE"
+}

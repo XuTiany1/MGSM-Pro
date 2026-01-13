@@ -1,0 +1,8 @@
+{
+  "original_question": "Tommy na-achụ nta ego maka enyemaka ya site n'ire otu ibe achịcha n'acha aja aja $3 na otu ibe achịcha chiz $4. Ọ bụrụ na Tommy ree achịcha n'acha aja aja iri anọ na atọ na ibe achịcha chiz iri abụọ na atọ, kedụ ego ole Tommy nwetara? ",
+  "original_answer": 221,
+  "symbolic_template": "{name_male, Tommy} na-achụ nta ego maka enyemaka ya site n'ire otu ibe achịcha n'acha aja aja ${num_digit_1, 3} na otu ibe achịcha chiz ${num_digit_2, 4}. Ọ bụrụ na {name_male, Tommy} ree achịcha n'acha aja aja {num_digit_3, 43} na ibe achịcha chiz {num_digit_4, 23}, kedụ ego ole {name_male, Tommy} nwetara?",
+  "ic_sentence_template": "Nwunye nwanne nna {name_male, Tommy} gbachara achịcha {num_ic, 164} maka mmemme ime obodo nso nso a.",
+  "ic_template": "Nwunye nwanne nna {name_male, Tommy} gbachara achịcha {num_ic, 164} maka mmemme ime obodo nso nso a. {name_male, Tommy} na-achụ nta ego maka enyemaka ya site n'ire otu ibe achịcha n'acha aja aja ${num_digit_1, 3} na otu ibe achịcha chiz ${num_digit_2, 4}. Ọ bụrụ na {name_male, Tommy} ree achịcha n'acha aja aja {num_digit_3, 43} na ibe achịcha chiz {num_digit_4, 23}, kedụ ego ole {name_male, Tommy} nwetara?",
+  "equation": "UPDATE HERE"
+}

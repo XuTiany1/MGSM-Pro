@@ -1,0 +1,8 @@
+{
+  "original_question": "John tɔ nufosuou wɔ dɔla mmienu, nkosua wɔ dɔla mmiɛnsa, anyinam nkanea wɔ dɔla mmiɛnsa, kuruwa wɔ dɔla mmiɛnsa, ne tɛfrɛ afidie wɔ dɔla ɛnan. Sɛ wɔde ɔha mu nkyekyɛmu du ɛtoɔ to nneɛma a ɛnyɛ aduane nyinaa so a, na ne nyinaa bo yɛ sɛn?",
+  "original_answer": 16,
+  "symbolic_template": "{name_male, John} tɔ nufosuou wɔ dɔla {num_digit_1, 2}, nkosua wɔ dɔla {num_digit_2, 3}, anyinam nkanea wɔ dɔla {num_digit_3, 3}, kuruwa wɔ dɔla {num_digit_4, 3}, ne tɛfrɛ afidie wɔ dɔla {num_digit_5, 4}. Sɛ wɔde ɔha mu nkyekyɛmu {num_digit_6, 10}% ɛtoɔ to nneɛma a ɛnyɛ aduane nyinaa so a, na ne nyinaa bo yɛ sɛn?",
+  "ic_sentence_template": "{name_male, John} wɔfase baa huu abɔdeɛ {num_ic, 16} wɔ afikyiri hɔ.",
+  "ic_template": "{name_male, John} wɔfase baa huu abɔdeɛ {num_ic, 16} wɔ afikyiri hɔ. {name_male, John} tɔ nufosuou wɔ dɔla {num_digit_1, 2}, nkosua wɔ dɔla {num_digit_2, 3}, anyinam nkanea wɔ dɔla {num_digit_3, 3}, kuruwa wɔ dɔla {num_digit_4, 3}, ne tɛfrɛ afidie wɔ dɔla {num_digit_5, 4}. Sɛ wɔde ɔha mu nkyekyɛmu {num_digit_6, 10}% ɛtoɔ to nneɛma a ɛnyɛ aduane nyinaa so a, na ne nyinaa bo yɛ sɛn?",
+  "equation": "UPDATE HERE"
+}

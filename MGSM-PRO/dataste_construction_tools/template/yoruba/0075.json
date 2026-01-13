@@ -1,0 +1,8 @@
+{
+  "original_question": "Luke ń lo àkókò ní etí òkun tó ń kọ́ ilé oníyẹ̀pẹ̀ ńlá. Ó padà ṣàkíyèsi wí pé ìpele ilé oníyẹ̀pẹ̀ ńlá kọ̀ọ̀kan máa ní ìdajì ìwọn ẹsẹ bàtà onígun mẹ́rin sí ìpele tó wà ní ìsàlẹ̀ rẹ̀. Tó bá kọ́ ilé iyẹ̀pẹ̀ onípele 4 níbi tí ìpele tó wà lókè ti ní ìwọn ẹsẹ bàtà onígun mẹ́rin 16, kínni ìdajì ìwọn ẹsẹ bàtà onígun mẹ́rin ìpele kan?",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Luke} ń lo àkókò ní etí òkun tó ń kọ́ ilé oníyẹ̀pẹ̀ ńlá. Ó padà ṣàkíyèsi wí pé ìpele ilé oníyẹ̀pẹ̀ ńlá kọ̀ọ̀kan máa ní ìdajì ìwọn ẹsẹ bàtà onígun mẹ́rin sí ìpele tó wà ní ìsàlẹ̀ rẹ̀. Tó bá kọ́ ilé iyẹ̀pẹ̀ onípele {num_digit_1, 4} níbi tí ìpele tó wà lókè ti ní ìwọn ẹsẹ bàtà onígun mẹ́rin {num_digit_2, 16}, kínni ìdajì ìwọn ẹsẹ bàtà onígun mẹ́rin ìpele kan?",
+  "ic_sentence_template": "Arákùnrin {name_male, Luke} mú ọdẹdẹ àga etí òkun {num_ic, 26} wá fún gbogbo ènìyàn.",
+  "ic_template": "Arákùnrin {name_male, Luke} mú ọdẹdẹ àga etí òkun {num_ic, 26} wá fún gbogbo ènìyàn. {name_male, Luke} ń lo àkókò ní etí òkun tó ń kọ́ ilé oníyẹ̀pẹ̀ ńlá. Ó padà ṣàkíyèsi wí pé ìpele ilé oníyẹ̀pẹ̀ ńlá kọ̀ọ̀kan máa ní ìdajì ìwọn ẹsẹ bàtà onígun mẹ́rin sí ìpele tó wà ní ìsàlẹ̀ rẹ̀. Tó bá kọ́ ilé iyẹ̀pẹ̀ onípele {num_digit_1, 4} níbi tí ìpele tó wà lókè ti ní ìwọn ẹsẹ bàtà onígun mẹ́rin {num_digit_2, 16}, kínni ìdajì ìwọn ẹsẹ bàtà onígun mẹ́rin ìpele kan?",
+  "equation": "UPDATE HERE"
+}

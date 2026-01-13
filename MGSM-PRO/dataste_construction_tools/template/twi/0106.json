@@ -1,0 +1,8 @@
+{
+  "original_question": "John wɔ adaka 3. Adaka biara yԑ nsateakwaa 5 bɔ nsateakwaa 6 bɔ nsateakwaa 4 ho. Aban no muduru yԑ nsateakwaa 1. Dԑn ne kwan a ԑwɔ adaka 3 no mu?",
+  "original_answer": 72,
+  "symbolic_template": "{name_male, John} wɔ adaka {num_digit_1, 3}. Adaka biara yԑ nsateakwaa {num_digit_2, 5} bɔ nsateakwaa {num_digit_3, 6} bɔ nsateakwaa {num_digit_4, 4} ho. Aban no muduru yԑ nsateakwaa {num_digit_5, 1}. Dԑn ne kwan a ԑwɔ adaka {num_digit_1, 3} no mu?",
+  "ic_sentence_template": "{name_male, John's} sewaa atɔ adaka foforo {num_ic, 49} de akɔto n'abansoro dan atifi",
+  "ic_template": "{name_male, John's} sewaa atɔ adaka foforo {num_ic, 49} de akɔto n'abansoro dan atifi {name_male, John} wɔ adaka {num_digit_1, 3}. Adaka biara yԑ nsateakwaa {num_digit_2, 5} bɔ nsateakwaa {num_digit_3, 6} bɔ nsateakwaa {num_digit_4, 4} ho. Aban no muduru yԑ nsateakwaa {num_digit_5, 1}. Dԑn ne kwan a ԑwɔ adaka {num_digit_1, 3} no mu?",
+  "equation": "UPDATE HERE"
+}

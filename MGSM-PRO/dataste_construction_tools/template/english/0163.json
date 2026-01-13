@@ -1,0 +1,8 @@
+{
+  "original_question": "In a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?",
+  "original_answer": 50,
+  "symbolic_template": "In a room, there are various toys: {num_digit_1, 5} red cars, {num_digit_2, 3} action figures, and a doll. The doll cost as much as {num_digit_3, 3} action figures and one red car cost ${num_digit_4, 4}. How much are all toys worth, of an action figure costs ${num_digit_5, 5}?",
+  "ic_sentence_template": "{name_male, Billy}'s cousin has {num_ic, 31} teddy bears.",
+  "ic_template": "In a room, there are various toys: {num_digit_1, 5} red cars, {num_digit_2, 3} action figures, and a doll. The doll cost as much as {num_digit_3, 3} action figures and one red car cost ${num_digit_4, 4}. {name_male, Billy}'s cousin has {num_ic, 31} teddy bears. How much are all toys worth, of an action figure costs ${num_digit_5, 5}?",
+  "equation": "UPDATE HERE"
+}

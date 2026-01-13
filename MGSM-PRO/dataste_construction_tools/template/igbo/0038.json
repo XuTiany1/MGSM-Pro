@@ -1,0 +1,8 @@
+{
+  "original_question": "John gbara mailụ iri isii kwa izu ụka. Ọ na-agba ọsọ mkpụrụ ụbọchị atọ kwa izu ụka. Ọ na-agba ọsọ awa atọ ụbọchị mbụ na ọkara nke ahụ ụbọchị abụọ ndị ọzọ. Kedụ otu o siri agbata ọsọ? ",
+  "original_answer": 10,
+  "symbolic_template": "{name_male, John} gbara mailụ {num_digit_1, 60} kwa izu ụka. Ọ na-agba ọsọ mkpụrụ ụbọchị {num_digit_2, 3} kwa izu ụka. Ọ na-agba ọsọ awa {num_digit_3, 3} ụbọchị mbụ na ọkara nke ahụ ụbọchị abụọ ndị ọzọ. Kedụ otu o siri agbata ọsọ?",
+  "ic_sentence_template": "Nwanne nne {name_male, John} nwere mkpuchi baseball {num_ic, 85}.",
+  "ic_template": "Nwanne nne {name_male, John} nwere mkpuchi baseball {num_ic, 85}. {name_male, John} gbara mailụ {num_digit_1, 60} kwa izu ụka. Ọ na-agba ọsọ mkpụrụ ụbọchị {num_digit_2, 3} kwa izu ụka. Ọ na-agba ọsọ awa {num_digit_3, 3} ụbọchị mbụ na ọkara nke ahụ ụbọchị abụọ ndị ọzọ. Kedụ otu o siri agbata ọsọ?",
+  "equation": "UPDATE HERE"
+}

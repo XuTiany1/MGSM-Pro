@@ -1,0 +1,8 @@
+{
+  "original_question": "玛丽莲的第一张唱片的销量是哈罗德的 10 倍。如果他们一共卖出 88,000 张唱片，哈罗德卖出了多少张唱片？",
+  "original_answer": 8000,
+  "symbolic_template": "{name_male_1, 玛丽莲} 的第一张唱片的销量是 {name_male_2, 哈罗德} 的 {num_digit_1, 10} 倍。如果他们一共卖出 {num_digit_2, 88,000} 张唱片，{name_male_2, 哈罗德} 卖出了多少张唱片？",
+  "ic_sentence_template": "{name_male_1, 玛丽林} 的叔叔去年收到了 {num_ic, 23,000} 封粉丝来信。",
+  "ic_template": "{name_male_1, 玛丽林} 的叔叔去年收到了 {num_ic, 23,000} 封粉丝来信。{name_male_1, 玛丽莲} 的第一张唱片的销量是 {name_male_2, 哈罗德} 的 {num_digit_1, 10} 倍。如果他们一共卖出 {num_digit_2, 88,000} 张唱片，{name_male_2, 哈罗德} 卖出了多少张唱片？",
+  "equation": "UPDATE HERE"
+}

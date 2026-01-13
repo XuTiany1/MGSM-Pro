@@ -1,0 +1,8 @@
+{
+  "original_question": "Dana bԑtumi aku mmirika mprԑ mmɔho nnan kyԑn sԑ ɔbԑnante, nanso ɔbԑtumi ahuri ahoma mprԑ nkyԑmu mmienu kyԑn ɔtu mmirika no. Sԑ ɔhuri ahoma kwansini 3 dɔnhwere biara a, kwansini sԑn na ɔbԑtwa wɔ dɔnhwere nsia mu sԑ ɔde mmerԑ no mu baako nkyԑmu mmiԑnsa dwane na ɔde mmerԑ no mu mmienu nkyԑmu mmiԑnsa nante a?",
+  "original_answer": 18,
+  "symbolic_template": "{name_female, Dana} bԑtumi aku mmirika mprԑ mmɔho nnan kyԑn sԑ ɔbԑnante, nanso ɔbԑtumi ahuri ahoma mprԑ nkyԑmu mmienu kyԑn ɔtu mmirika no. Sԑ ɔhuri ahoma kwansini {num_digit_1, 3} dɔnhwere biara a, kwansini sԑn na ɔbԑtwa wɔ dɔnhwere nsia mu sԑ ɔde mmerԑ no mu baako nkyԑmu mmiԑnsa dwane na ɔde mmerԑ no mu mmienu nkyԑmu mmiԑnsa nante a?",
+  "ic_sentence_template": "{name_female, Dana} wɔfa awie mmirikatu akansie bi a na nnipa {num_ic, 106} ka ho.",
+  "ic_template": "{name_female, Dana} wɔfa awie mmirikatu akansie bi a na nnipa {num_ic, 106} ka ho. {name_female, Dana} bԑtumi aku mmirika mprԑ mmɔho nnan kyԑn sԑ ɔbԑnante, nanso ɔbԑtumi ahuri ahoma mprԑ nkyԑmu mmienu kyԑn ɔtu mmirika no. Sԑ ɔhuri ahoma kwansini {num_digit_1, 3} dɔnhwere biara a, kwansini sԑn na ɔbԑtwa wɔ dɔnhwere nsia mu sԑ ɔde mmerԑ no mu baako nkyԑmu mmiԑnsa dwane na ɔde mmerԑ no mu mmienu nkyԑmu mmiԑnsa nante a?",
+  "equation": "UPDATE HERE"
+}

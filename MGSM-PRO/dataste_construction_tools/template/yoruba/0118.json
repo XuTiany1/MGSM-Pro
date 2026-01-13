@@ -1,0 +1,8 @@
+{
+  "original_question": "Ọlọ́pàá aṣọ́bodè kan ní èbúté ìyanjú ẹrù Seaside ka àwọn ọkọ̀ akẹ́rù ẹrù 2 tí wọ́n kó ọkọ̀ ayọ́kẹ́lẹ́ wọlé, ọkọ̀ọ̀kan ní ọkọ̀ ayọ́kẹ́lẹ́ 5 nínú. Ní ọjọ́ Kejì, ọ̀pọ̀ ọkọ̀ akẹ́rù mìíràn ni wọ́n tún kó wọlé, èyí tí àpapọ̀ àwọn ọkọ̀ ní èbúté náà sì di 30. Ṣe ìṣirò iye ọkọ̀ akẹ́rù tí wọ́n kó wọlé ní ọjọ́ kejì, ká ní gbogbo àwọn ọkọ̀ akẹ́rù náà ní ọkọ̀ ayọ́kẹ́lẹ́ 5.",
+  "original_answer": 4,
+  "symbolic_template": "Ọlọ́pàá aṣọ́bodè kan ní èbúté ìyanjú ẹrù Seaside ka àwọn ọkọ̀ akẹ́rù ẹrù {num_digit_1, 2} tí wọ́n kó ọkọ̀ ayọ́kẹ́lẹ́ wọlé, ọkọ̀ọ̀kan ní ọkọ̀ ayọ́kẹ́lẹ́ {num_digit_2, 5} nínú. Ní ọjọ́ Kejì, ọ̀pọ̀ ọkọ̀ akẹ́rù mìíràn ni wọ́n tún kó wọlé, èyí tí àpapọ̀ àwọn ọkọ̀ ní èbúté náà sì di {num_digit_3, 30}. Ṣe ìṣirò iye ọkọ̀ akẹ́rù tí wọ́n kó wọlé ní ọjọ́ kejì, ká ní gbogbo àwọn ọkọ̀ akẹ́rù náà ní ọkọ̀ ayọ́kẹ́lẹ́ {num_digit_4, 5}.",
+  "ic_sentence_template": "Arákùnrin ọ̀ffisà náà ló ń bójú tó àpótí ẹrù {num_ic, 68} nínú ilé-itaja tó wà nítòsí.",
+  "ic_template": "Arákùnrin ọ̀ffisà náà ló ń bójú tó àpótí ẹrù {num_ic, 68} nínú ilé-itaja tó wà nítòsí. Ọlọ́pàá aṣọ́bodè kan ní èbúté ìyanjú ẹrù Seaside ka àwọn ọkọ̀ akẹ́rù ẹrù {num_digit_1, 2} tí wọ́n kó ọkọ̀ ayọ́kẹ́lẹ́ wọlé, ọkọ̀ọ̀kan ní ọkọ̀ ayọ́kẹ́lẹ́ {num_digit_2, 5} nínú. Ní ọjọ́ Kejì, ọ̀pọ̀ ọkọ̀ akẹ́rù mìíràn ni wọ́n tún kó wọlé, èyí tí àpapọ̀ àwọn ọkọ̀ ní èbúté náà sì di {num_digit_3, 30}. Ṣe ìṣirò iye ọkọ̀ akẹ́rù tí wọ́n kó wọlé ní ọjọ́ kejì, ká ní gbogbo àwọn ọkọ̀ akẹ́rù náà ní ọkọ̀ ayọ́kẹ́lẹ́ {num_digit_4, 5}.",
+  "equation": "UPDATE HERE"
+}

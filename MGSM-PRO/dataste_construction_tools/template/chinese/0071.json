@@ -1,0 +1,8 @@
+{
+  "original_question": "凯利安有两份做菜的食谱，第一份有 20 条说明，第二份说明的数量是第一份的两倍。为了烹制两道菜，凯利安必须读多少条说明？",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, 凯利安} 有两份做菜的食谱，第一份有 {num_digit_1, 20} 条说明，第二份说明的数量是第一份的 两倍。为了烹制两道菜，{name_male, 凯利安} 必须读多少条说明？",
+  "ic_sentence_template": "{name_male, 凯利安} 的姑妈拥有 {num_ic, 77} 本烹饪书。",
+  "ic_template": "{name_male, 凯利安} 的姑妈拥有 {num_ic, 77} 本烹饪书。{name_male, 凯利安} 有两份做菜的食谱，第一份有 {num_digit_1, 20} 条说明，第二份说明的数量是第一份的 两倍。为了烹制两道菜，{name_male, 凯利安} 必须读多少条说明？",
+  "equation": "UPDATE HERE"
+}

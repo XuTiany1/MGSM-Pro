@@ -1,0 +1,8 @@
+{
+  "original_question": "Wọ́n ní kí Morisette àti Kael mú èso wá. Morisette mú ápù 5 àti ọsàn 8, nígbà tí Kael mú ìdá méjì ápù àti àbọ̀ iye ọsàn ju Morisette lọ. Èso mélòó ni wọ́n ní àpapọ̀?",
+  "original_answer": 27,
+  "symbolic_template": "Wọ́n ní kí {name_female, Morisette} àti {name_male, Kael} mú èso wá. {name_female, Morisette} mú ápù {num_digit_1, 5} àti ọsàn {num_digit_2, 8}, nígbà tí {name_male, Kael} mú ìdá méjì ápù àti àbọ̀ iye ọsàn ju {name_female, Morisette} lọ. Èso mélòó ni wọ́n ní àpapọ̀?",
+  "ic_sentence_template": "Àntí {name_male, Kael} kó ọdùndún {num_ic, 29}.",
+  "ic_template": "Àntí {name_male, Kael} kó ọdùndún {num_ic, 29}. Wọ́n ní kí {name_female, Morisette} àti {name_male, Kael} mú èso wá. {name_female, Morisette} mú ápù {num_digit_1, 5} àti ọsàn {num_digit_2, 8}, nígbà tí {name_male, Kael} mú ìdá méjì ápù àti àbọ̀ iye ọsàn ju {name_female, Morisette} lọ. Èso mélòó ni wọ́n ní àpapọ̀?",
+  "equation": "UPDATE HERE"
+}

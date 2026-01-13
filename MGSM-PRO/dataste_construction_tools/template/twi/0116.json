@@ -1,0 +1,8 @@
+{
+  "original_question": "Katy de asikyire aterketewa ne nsuo kuruwa a ntotoho no yԑ 7:13 yԑ kɔfe. Sԑ no nyinaa mu, ɔde asikyire atereketewa ne nsuo kuruwa 120 na ԑdii dwuma a, hwehwԑ asikyire atereketewa dodoɔ a ɔde dii dwuma?",
+  "original_answer": 42,
+  "symbolic_template": "{name_female, Katy} de asikyire aterketewa ne nsuo kuruwa a ntotoho no yԑ {num_digit_1, 7}:{num_digit_2, 13} yԑ kɔfe. Sԑ no nyinaa mu, ɔde asikyire atereketewa ne nsuo kuruwa {num_digit_3, 120} na ԑdii dwuma a, hwehwԑ asikyire atereketewa dodoɔ a ɔde dii dwuma?",
+  "ic_sentence_template": "{name_female, Katy} wɔfa no nom kɔfɛ kuruwa {num_ic, 47} bosome biara.",
+  "ic_template": "{name_female, Katy} wɔfa no nom kɔfɛ kuruwa {num_ic, 47} bosome biara. {name_female, Katy} de asikyire aterketewa ne nsuo kuruwa a ntotoho no yԑ {num_digit_1, 7}:{num_digit_2, 13} yԑ kɔfe. Sԑ no nyinaa mu, ɔde asikyire atereketewa ne nsuo kuruwa {num_digit_3, 120} na ԑdii dwuma a, hwehwԑ asikyire atereketewa dodoɔ a ɔde dii dwuma?",
+  "equation": "UPDATE HERE"
+}

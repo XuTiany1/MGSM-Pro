@@ -1,0 +1,8 @@
+{
+  "original_question": "Zaid na-emefu otu ụzọ n'ime anọ ụgwọ ọnwa ya na ụgwọ ụlọ,  otu ụzọ n'ime atọ na mmanụ ụgbọala ma na-enye onyinye nkwado ọkara nke ole fọdụrụ n'ụlọ ebere kacha amasị ya. Ọ na-enye nwa ya nwanyị 200$ iji na-eme mmefu izu ụka ya ma nye nwunye ya 700$ maka iji kwádōō atumatu mmefu ego maka ngwa nri na ihe ndị ọzọ na-adị n'ụlọ. Ọ bụrụ na Zaid na-enweta 6000$ kwa ọnwa, ego ole ka ọ ga-enwe ma o mecha mmefu niile a na onyinye nkwado ?",
+  "original_answer": 350,
+  "symbolic_template": "{name_male, Zaid} na-emefu 1/4 ụgwọ ọnwa ya na ụgwọ ụlọ, 1/3 na mmanụ ụgbọala ma na-enye onyinye nkwado ọkara nke ole fọdụrụ n'ụlọ ebere kacha amasị ya. Ọ na-enye nwa ya nwanyị ${num_digit_1, 200} iji na-eme mmefu izu ụka ya ma nye nwunye ya ${num_digit_2, 700} maka iji kwádōō atumatu mmefu ego maka ngwa nri na ihe ndị ọzọ na-adị n'ụlọ. Ọ bụrụ na {name_male, Zaid} na-enweta ${num_digit_3, 6000} kwa ọnwa, ego ole ka ọ ga-enwe ma o mecha mmefu niile a na onyinye nkwado ?",
+  "ic_sentence_template": "Nwanne nne {name_male, Zaid} zụtara okpu {num_ic, 32} site n'ụlọ ahịa dị nso nso a.",
+  "ic_template": "Nwanne nne {name_male, Zaid} zụtara okpu {num_ic, 32} site n'ụlọ ahịa dị nso nso a. {name_male, Zaid} na-emefu 1/4 ụgwọ ọnwa ya na ụgwọ ụlọ, 1/3 na mmanụ ụgbọala ma na-enye onyinye nkwado ọkara nke ole fọdụrụ n'ụlọ ebere kacha amasị ya. Ọ na-enye nwa ya nwanyị ${num_digit_1, 200} iji na-eme mmefu izu ụka ya ma nye nwunye ya ${num_digit_2, 700} maka iji kwádōō atumatu mmefu ego maka ngwa nri na ihe ndị ọzọ na-adị n'ụlọ. Ọ bụrụ na {name_male, Zaid} na-enweta ${num_digit_3, 6000} kwa ọnwa, ego ole ka ọ ga-enwe ma o mecha mmefu niile a na onyinye nkwado ?",
+  "equation": "UPDATE HERE"
+}

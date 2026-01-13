@@ -1,0 +1,8 @@
+{
+  "original_question": "Rose kɔtɔɔ keeki 4 wɔ sotɔɔ wɔ Ɛdwoada no. Ebenada nso ɔkɔ sotɔɔ foforo kɔtɔɔ keeki pii a na ɛboro saa so mmiensa. Wɔ Wukuda no ɔkɔ sotɔɔ foforo kɔtɔɔ keeki a na ɔyɛɛ no ebenada no mmɔho 5. Keeki ahe na ɔtɔɔ wɔ nna mmiensa no nyinaa akyi no?",
+  "original_answer": 76,
+  "symbolic_template": "{name_female, Rose} kɔtɔɔ keeki {num_digit_1, 4} wɔ sotɔɔ wɔ Ɛdwoada no. Ebenada nso ɔkɔ sotɔɔ foforo kɔtɔɔ keeki pii a na ɛboro saa so mmiensa. Wɔ Wukuda no ɔkɔ sotɔɔ foforo kɔtɔɔ keeki a na ɔyɛɛ no ebenada no mmɔho {num_digit_2, 5}. Keeki ahe na ɔtɔɔ wɔ nna mmiensa no nyinaa akyi no?",
+  "ic_sentence_template": "{name_female, Rose} wɔfa no too pie {num_ic, 85} dapɛn awiei a atwam no.",
+  "ic_template": "{name_female, Rose} wɔfa no too pie {num_ic, 85} dapɛn awiei a atwam no. {name_female, Rose} kɔtɔɔ keeki {num_digit_1, 4} wɔ sotɔɔ wɔ Ɛdwoada no. Ebenada nso ɔkɔ sotɔɔ foforo kɔtɔɔ keeki pii a na ɛboro saa so mmiensa. Wɔ Wukuda no ɔkɔ sotɔɔ foforo kɔtɔɔ keeki a na ɔyɛɛ no ebenada no mmɔho {num_digit_2, 5}. Keeki ahe na ɔtɔɔ wɔ nna mmiensa no nyinaa akyi no?",
+  "equation": "UPDATE HERE"
+}

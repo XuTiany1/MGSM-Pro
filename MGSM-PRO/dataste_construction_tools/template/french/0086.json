@@ -1,0 +1,8 @@
+{
+  "original_question": "Greg a une alarme réglée pour sonner trois fois par jour. Lorsque l'alarme se déclenche, elle sonne jusqu'à ce que Greg l'éteigne. La première fois qu'elle s'est déclenchée aujourd'hui, elle a sonné quatre fois. La deuxième fois, elle a sonné trois fois plus longtemps que la première fois. La troisième fois, elle a sonné deux fois moins longtemps que la deuxième fois. Combien de fois l'alarme a-t-elle sonné en tout ?",
+  "original_answer": 22,
+  "symbolic_template": "{name_male, Greg} a une alarme réglée pour sonner trois fois par jour. Lorsque l'alarme se déclenche, elle sonne jusqu'à ce que {name_male, Greg} l'éteigne. La première fois qu'elle s'est déclenchée aujourd'hui, elle a sonné quatre fois. La deuxième fois, elle a sonné trois fois plus longtemps que la première fois. La troisième fois, elle a sonné moitié moins longtemps que la deuxième fois. Combien de fois l'alarme a-t-elle sonné en tout ?",
+  "ic_sentence_template": "{name_male, Greg} a une tante qui vient d’acheter {num_ic, 15} nouveaux réveils.",
+  "ic_template": "{name_male, Greg} a une tante qui vient d’acheter {num_ic, 15} nouveaux réveils. {name_male, Greg} a une alarme réglée pour sonner trois fois par jour. Lorsque l'alarme se déclenche, elle sonne jusqu'à ce que {name_male, Greg} l'éteigne. La première fois qu'elle s'est déclenchée aujourd'hui, elle a sonné quatre fois. La deuxième fois, elle a sonné trois fois plus longtemps que la première fois. La troisième fois, elle a sonné moitié moins longtemps que la deuxième fois. Combien de fois l'alarme a-t-elle sonné en tout ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "ሞሪሴት እና ካኤል ፍራፍሬዎችን እንዲያመጡ ተጠይቀዋል። ሞሪሴት 5 ፖም እና 8 ብርቱካኖችን አመጣች፣ ካኤል ደግሞ ከሞሪሴት እጥፍ ፖም እና ግማሽ ብርቱካኖችን አመጣ። በአጠቃላይ ስንት ፍራፍሬዎች አሏቸው?",
+  "original_answer": 27,
+  "symbolic_template": "{name_female, ሞሪሴት} እና {name_male, ካኤል} ፍራፍሬዎችን እንዲያመጡ ተጠይቀዋል። {name_female, ሞሪሴት} {num_digit_1, 5} ፖም እና {num_digit_2, 8} ብርቱካኖችን አመጣች፣ {name_male, ካኤል} ደግሞ {name_female, ሞሪሴት} እጥፍ ፖም እና ግማሽ ብርቱካኖችን አመጣ። በአጠቃላይ ስንት ፍራፍሬዎች አሏቸው?",
+  "ic_sentence_template": "{name_male, ካኤል} አክስቱ {num_ic, 29} ዳይኮን አከማቸ።",
+  "ic_template": "{name_female, ሞሪሴት} እና {name_male, ካኤል} ፍራፍሬዎችን እንዲያመጡ ተጠይቀዋል። {name_female, ሞሪሴት} {num_digit_1, 5} ፖም እና {num_digit_2, 8} ብርቱካኖችን አመጣች፣ {name_male, ካኤል} ደግሞ {name_female, ሞሪሴት} እጥፍ ፖም እና ግማሽ ብርቱካኖችን አመጣ። በአጠቃላይ ስንት ፍራፍሬዎች አሏቸው? {name_male, ካኤል} አክስቱ {num_ic, 29} ዳይኮን አከማቸ።",
+  "equation": "UPDATE HERE"
+}

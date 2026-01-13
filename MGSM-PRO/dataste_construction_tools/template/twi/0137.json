@@ -1,0 +1,8 @@
+{
+  "original_question": "Rory yɛ nhyehyɛeɛ sɛ ɔmma no epoase suhyɛn mmienu a emu biara bo yɛ $7.50, neama nkotokuo mmienu a emu biara bo yɛ $1.50, ne krakase mmienu a emu biara bo yɛ $1.00 sɛ ɔde bɛba. Wɔde ɔha nkyemu aduonu fa nneɛma a wɔde ba no ho ka ho na ɔde $5.00 ka ho. Dɛn na n'ahyehyɛde no bɛtɔ? ",
+  "original_answer": 29,
+  "symbolic_template": "{name_male, Rory} yɛ nhyehyɛeɛ sɛ ɔmma no epoase suhyɛn {num_digit_1, mmienu} a emu biara bo yɛ ${num_digit_2, 7.50}, neama nkotokuo {num_digit_3, mmienu} a emu biara bo yɛ ${num_digit_4, 1.50}, ne krakase {num_digit_5, mmienu} a emu biara bo yɛ ${num_digit_6, 1.00} sɛ ɔde bɛba. Wɔde ɔha nkyemu {num_digit_7, aduonu} fa nneɛma a wɔde ba no ho ka ho na ɔde ${num_digit_8, 5.00} ka ho. Dɛn na n'ahyehyɛde no bɛtɔ?",
+  "ic_sentence_template": "{name_male, Rory} no sewaa kra salad {num_ic, 19} Fida biara.",
+  "ic_template": "{name_male, Rory} no sewaa kra salad {num_ic, 19} Fida biara. {name_male, Rory} yɛ nhyehyɛeɛ sɛ ɔmma no epoase suhyɛn {num_digit_1, mmienu} a emu biara bo yɛ ${num_digit_2, 7.50}, neama nkotokuo {num_digit_3, mmienu} a emu biara bo yɛ ${num_digit_4, 1.50}, ne krakase {num_digit_5, mmienu} a emu biara bo yɛ ${num_digit_6, 1.00} sɛ ɔde bɛba. Wɔde ɔha nkyemu {num_digit_7, aduonu} fa nneɛma a wɔde ba no ho ka ho na ɔde ${num_digit_8, 5.00} ka ho. Dɛn na n'ahyehyɛde no bɛtɔ?",
+  "equation": "UPDATE HERE"
+}

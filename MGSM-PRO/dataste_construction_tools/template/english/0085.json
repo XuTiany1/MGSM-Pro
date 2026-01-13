@@ -1,0 +1,8 @@
+{
+  "original_question": "Gene is sewing a quilt out of old souvenir t-shirts. He has one shirt from each vacation he has been on. Every shirt is its own quilt block. Each row is made of blocks from a different year of vacations. He goes on four vacations a year and has been vacationing since he was 23 years old. He is now 34. How many quilt blocks does he have in total?",
+  "original_answer": 44,
+  "symbolic_template": "{name_male, Gene} is sewing a quilt out of old souvenir t-shirts. He has one shirt from each vacation he has been on. Every shirt is its own quilt block. Each row is made of blocks from a different year of vacations. He goes on four vacations a year and has been vacationing since he was {num_digit_1, 23} years old. He is now {num_digit_2, 34}. How many quilt blocks does he have in total?",
+  "ic_sentence_template": "{name_male, Gene}'s uncle has {num_ic, 44} colorful patches.",
+  "ic_template": "{name_male, Gene} is sewing a quilt out of old souvenir t-shirts. He has one shirt from each vacation he has been on. Every shirt is its own quilt block. Each row is made of blocks from a different year of vacations. He goes on four vacations a year and has been vacationing since he was {num_digit_1, 23} years old. He is now {num_digit_2, 34}. {name_male, Gene}'s uncle has {num_ic, 44} colorful patches. How many quilt blocks does he have in total?",
+  "equation": "UPDATE HERE"
+}

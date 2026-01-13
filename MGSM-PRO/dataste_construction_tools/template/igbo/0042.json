@@ -1,0 +1,8 @@
+{
+  "original_question": "Mamannukwu Jones ghere pai apụl ise maka erimeri ehihie ndị mmenyụ ọ́kụ́. O gbubisiri otunaotu pai ibe na ibe asatọ ma debe pai ise n'elu tebụl nri maka ndị ọbịa ịnye onwe ha nri. Na ngwụcha oge mgbede ahụ, ka ndị ọbịa wechasiirị ma rie ibe na ibe pai nke ha, e nwere ibe na ibe pai iri na anọ fọrọ. Kedụ ibe na ibe pai ole ndị ọbịa ahụ riri? ",
+  "original_answer": 26,
+  "symbolic_template": "Mamannukwu {name_family, Jones} ghere pai apụl {num_digit_1, 5} maka erimeri ehihie ndị mmenyụ ọ́kụ́. O gbubisiri otunaotu pai ibe na ibe {num_digit_2, 8} ma debe pai ise n'elu tebụl nri maka ndị ọbịa ịnye onwe ha nri. Na ngwụcha oge mgbede ahụ, ka ndị ọbịa wechasiirị ma rie ibe na ibe pai nke ha, e nwere ibe na ibe pai {num_digit_3, 14} fọrọ. Kedụ ibe na ibe pai ole ndị ọbịa ahụ riri?",
+  "ic_sentence_template": "Ụmụ nwanne nwoke {name_family, Jones} wetaara ite lemonade {num_ic, 93} na nri ehihie.",
+  "ic_template": "Ụmụ nwanne nwoke {name_family, Jones} wetaara ite lemonade {num_ic, 93} na nri ehihie. Mamannukwu {name_family, Jones} ghere pai apụl {num_digit_1, 5} maka erimeri ehihie ndị mmenyụ ọ́kụ́. O gbubisiri otunaotu pai ibe na ibe {num_digit_2, 8} ma debe pai ise n'elu tebụl nri maka ndị ọbịa ịnye onwe ha nri. Na ngwụcha oge mgbede ahụ, ka ndị ọbịa wechasiirị ma rie ibe na ibe pai nke ha, e nwere ibe na ibe pai {num_digit_3, 14} fọrọ. Kedụ ibe na ibe pai ole ndị ọbịa ahụ riri?",
+  "equation": "UPDATE HERE"
+}

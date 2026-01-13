@@ -1,0 +1,8 @@
+{
+  "original_question": "Anamuna afuo tumi ma anamuna nketewa 120. Ashlyn kɔɔ afuo mu wɔ bosome mmienu akyi na ohuu sɛ anamuna no mu 30% adu nnɔbaetwa bere, enti ɔde kɔɔ fie. Bere a ɔsan bae nnawɔtwe mmienu akyi no, na anamuna aka no mu 3/4 ayɛ krado, enti ɔtwa nnɔbae no. Nnawɔtwe mmienu akyi no, anamuna dodoɔ ahe na  wɔbetwa?",
+  "original_answer": 21,
+  "symbolic_template": "Anamuna afuo tumi ma anamuna nketewa {num_digit_1, 120}. {name_female, Ashlyn} kɔɔ afuo mu wɔ bosome mmienu akyi na ohuu sɛ anamuna no mu {num_digit_2, 30}% adu nnɔbaetwa bere, enti ɔde kɔɔ fie. Bere a ɔsan bae nnawɔtwe mmienu akyi no, na anamuna aka no mu 3/4 ayɛ krado, enti ɔtwa nnɔbae no. Nnawɔtwe mmienu akyi no, anamuna dodoɔ ahe na wɔbetwa?",
+  "ic_sentence_template": "{name_female, Ashlyn} wɔfa tɔɔ ɔyɛ asaase yie nkotoku {num_ic, 958} de bɛhwɛ ne apple nnua no so.",
+  "ic_template": "{name_female, Ashlyn} wɔfa tɔɔ ɔyɛ asaase yie nkotoku {num_ic, 958} de bɛhwɛ ne apple nnua no so. Anamuna afuo tumi ma anamuna nketewa {num_digit_1, 120}. {name_female, Ashlyn} kɔɔ afuo mu wɔ bosome mmienu akyi na ohuu sɛ anamuna no mu {num_digit_2, 30}% adu nnɔbaetwa bere, enti ɔde kɔɔ fie. Bere a ɔsan bae nnawɔtwe mmienu akyi no, na anamuna aka no mu 3/4 ayɛ krado, enti ɔtwa nnɔbae no. Nnawɔtwe mmienu akyi no, anamuna dodoɔ ahe na wɔbetwa?",
+  "equation": "UPDATE HERE"
+}

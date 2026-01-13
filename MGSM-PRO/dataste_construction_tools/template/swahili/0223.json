@@ -1,0 +1,8 @@
+{
+  "original_question": "Kampuni hutumia $15000 kwenye matangazo kwa mwaka, na kisha kutumia thuluthi moja ya kiwango hicho kwenye matangazo ya mwaka mwingine. Jumla ya kiwango cha pesa ambazo kampuni hiyo ilitumia kufanya matangazo miaka hiyo miwili ni ngapi?",
+  "original_answer": 20000,
+  "symbolic_template": "Kampuni hutumia ${num_digit_1, 15000} kwenye matangazo kwa mwaka, na kisha kutumia thuluthi moja ya kiwango hicho kwenye matangazo ya mwaka mwingine. Jumla ya kiwango cha pesa ambazo kampuni hiyo ilitumia kufanya matangazo miaka hiyo miwili ni ngapi?",
+  "ic_sentence_template": "Mpwa wa Mkurugenzi Mtendaji alikabidhi pizza {num_ic, 91} wakati wa mkutano wa mwaka.",
+  "ic_template": "Mpwa wa Mkurugenzi Mtendaji alikabidhi pizza {num_ic, 91} wakati wa mkutano wa mwaka. Kampuni hutumia ${num_digit_1, 15000} kwenye matangazo kwa mwaka, na kisha kutumia thuluthi moja ya kiwango hicho kwenye matangazo ya mwaka mwingine. Jumla ya kiwango cha pesa ambazo kampuni hiyo ilitumia kufanya matangazo miaka hiyo miwili ni ngapi?",
+  "equation": "UPDATE HERE"
+}

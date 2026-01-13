@@ -1,0 +1,8 @@
+{
+  "original_question": "Gene confectionne une courtepointe à partir de vieux t-shirts souvenirs. Il a un t-shirt pour chaque voyage de vacances qu'il a fait. Chaque t-shirt constitue un des carrés de la courtepointe. Chaque rangée de carrés correspond à une année de vacances différente. Depuis qu'il a 23 ans, il part en voyage de vacances quatre fois par an. Il a aujourd'hui 34 ans. Combien de carrés sa courtepointe compte-t-elle au total ?",
+  "original_answer": 44,
+  "symbolic_template": "{name_male, Gene} confectionne une courtepointe à partir de vieux t-shirts souvenirs. Il a un t-shirt pour chaque voyage de vacances qu'il a fait. Chaque t-shirt constitue un des carrés de la courtepointe. Chaque rangée de carrés correspond à une année de vacances différente. Depuis qu'il a {num_digit_1, 23} ans, il part en voyage de vacances quatre fois par an. Il a aujourd'hui {num_digit_2, 34} ans. Combien de carrés sa courtepointe compte-t-elle au total ?",
+  "ic_sentence_template": "{name_male, Gene} a un oncle qui possède {num_ic, 44} pièces colorées.",
+  "ic_template": "{name_male, Gene} a un oncle qui possède {num_ic, 44} pièces colorées. {name_male, Gene} confectionne une courtepointe à partir de vieux t-shirts souvenirs. Il a un t-shirt pour chaque voyage de vacances qu'il a fait. Chaque t-shirt constitue un des carrés de la courtepointe. Chaque rangée de carrés correspond à une année de vacances différente. Depuis qu'il a {num_digit_1, 23} ans, il part en voyage de vacances quatre fois par an. Il a aujourd'hui {num_digit_2, 34} ans. Combien de carrés sa courtepointe compte-t-elle au total ?",
+  "equation": "UPDATE HERE"
+}

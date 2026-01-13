@@ -1,0 +1,8 @@
+{
+  "original_question": "Mwindaji wa hazina alipata hazina iliyozikwa ambayo ilikuwa imejaa na vito. Kulikuwa na almasi 175, rubi chache kuliko almasi kwa 35, na idadi ya zumaridi ilikuwa mara mbili zaidi ya idadi ya rubi. Kulikuwa na jumla ya vito vingapi katika hazina hiyo?",
+  "original_answer": 595,
+  "symbolic_template": "Mwindaji wa hazina alipata sanduku la hazina lililojaa vito. Kulikuwa na almasi {num_digit_1, 175}, rubi {num_digit_2, 35} chache kuliko almasi, na idadi ya zumaridi ilikuwa mara mbili ya idadi ya rubi. Kulikuwa na vito vingapi jumla kwenye sanduku?",
+  "ic_sentence_template": "Mjomba wa mchimba hazina aliwahi kupata {num_ic, 632} sarafu za kale kwenye pango lingine.",
+  "ic_template": "Mjomba wa mchimba hazina aliwahi kupata {num_ic, 632} sarafu za kale kwenye pango lingine. Mwindaji wa hazina alipata sanduku la hazina lililojaa vito. Kulikuwa na almasi {num_digit_1, 175}, rubi {num_digit_2, 35} chache kuliko almasi, na idadi ya zumaridi ilikuwa mara mbili ya idadi ya rubi. Kulikuwa na vito vingapi jumla kwenye sanduku?",
+  "equation": "UPDATE HERE"
+}

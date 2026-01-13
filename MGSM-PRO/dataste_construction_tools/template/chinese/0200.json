@@ -1,0 +1,8 @@
+{
+  "original_question": "巴尔德尔从井里打水。他每天上午打 5 桶水，每天下午打 6 桶水。如果每桶有 5 升水，他每天获得多少升水？",
+  "original_answer": 55,
+  "symbolic_template": "{name_male, 巴尔德尔} 从井里打水。他每天上午打 {num_digit_1, 5} 桶水，每天下午打 {num_digit_2, 6} 桶水。如果每桶有 {num_digit_3, 5} 升水，他每天获得多少升水？",
+  "ic_sentence_template": "{name_male, 巴尔德} 的叔叔用 {num_ic, 137} 块木板建了一座谷仓。",
+  "ic_template": "{name_male, 巴尔德} 的叔叔用 {num_ic, 137} 块木板建了一座谷仓。{name_male, 巴尔德尔} 从井里打水。他每天上午打 {num_digit_1, 5} 桶水，每天下午打 {num_digit_2, 6} 桶水。如果每桶有 {num_digit_3, 5} 升水，他每天获得多少升水？",
+  "equation": "UPDATE HERE"
+}

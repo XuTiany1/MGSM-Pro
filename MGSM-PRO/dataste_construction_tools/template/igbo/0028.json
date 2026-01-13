@@ -1,0 +1,8 @@
+{
+  "original_question": "Henry kwụsịrị ugboro abụọ na njem mailụ iri isii ya n'ịnyịnya ígwè. O buru ụzọ kwụsị ka ọ gafechara mailụ iri abụọ. nkwụsị ya nke abụọ bụ mailụ iri na ise tupu njem ya a bia n'isi njedebe. Mailụ ole ka ọ gaara na njem n'agbata nkwụsị nke mbụ na nke abụọ? ",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Henry} kwụsịrị ugboro abụọ na njem mailụ {num_digit_1, 60} ya n'ịnyịnya ígwè. O buru ụzọ kwụsị ka ọ gafechara mailụ {num_digit_2, 20}. nkwụsị ya nke abụọ bụ mailụ {num_digit_3, 15} tupu njem ya a bia n'isi njedebe. Mailụ ole ka ọ gaara na njem n'agbata nkwụsị nke mbụ na nke abụọ?",
+  "ic_sentence_template": "Nwanna nna {name_male, Henry} nwere akpukpọ isi igwe nkwụchi {num_ic, 85}.",
+  "ic_template": "Nwanna nna {name_male, Henry} nwere akpukpọ isi igwe nkwụchi {num_ic, 85}. {name_male, Henry} kwụsịrị ugboro abụọ na njem mailụ {num_digit_1, 60} ya n'ịnyịnya ígwè. O buru ụzọ kwụsị ka ọ gafechara mailụ {num_digit_2, 20}. nkwụsị ya nke abụọ bụ mailụ {num_digit_3, 15} tupu njem ya a bia n'isi njedebe. Mailụ ole ka ọ gaara na njem n'agbata nkwụsị nke mbụ na nke abụọ?",
+  "equation": "UPDATE HERE"
+}

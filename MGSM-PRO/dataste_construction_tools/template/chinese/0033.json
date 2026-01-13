@@ -1,0 +1,8 @@
+{
+  "original_question": "格雷琴有 110 个硬币。金币比银币多 30 个。格雷琴有多少个金币？",
+  "original_answer": 70,
+  "symbolic_template": "{name_female, 格雷琴} 有 {num_digit_1, 110} 个硬币。金币比银币多 {num_digit_2, 30} 个。{name_female, 格雷琴} 有多少个金币？",
+  "ic_sentence_template": "{name_female, 格蕾琴} 的叔叔收藏了 {num_ic, 970} 枚稀有邮票。",
+  "ic_template": "{name_female, 格蕾琴} 的叔叔收藏了 {num_ic, 970} 枚稀有邮票。{name_female, 格雷琴} 有 {num_digit_1, 110} 个硬币。金币比银币多 {num_digit_2, 30} 个。{name_female, 格雷琴} 有多少个金币？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,28 @@
+{
+    "problem_id": "0230",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [5, 25]},
+        "num_digit_2": {"type": "int", "range": [15000, 45000]},
+        "num_digit_3": {"type": "int", "range": [5, 15]},
+        "num_digit_4": {"type": "int", "range": [500, 2500]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_4": [
+            "tax_per_car = (num_digit_3 / 100) * num_digit_2",
+            "cost_per_car = num_digit_2 + tax_per_car + num_digit_4",
+            "ans = num_digit_1 * cost_per_car"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 6, "max_digits": 7}
+    },
+    "restrictions": {
+        "num_digit_4": [
+            "(num_digit_2 * num_digit_3) % 100 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

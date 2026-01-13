@@ -1,0 +1,8 @@
+{
+  "original_question": "Inú igbó rásíbẹrì ní ìdì 6 èso 20 kọ̀ọ̀kan àti èso 67 kọ̀ọ̀kan tó wà káàkiri inú igbó nàá. Rásíbẹrì mélòó ní ó wà níbẹ̀ lápapọ̀?",
+  "original_answer": 187,
+  "symbolic_template": "Inú igbó rásíbẹrì ní ìdì {num_digit_1, 6} èso {num_digit_2, 20} kọ̀ọ̀kan àti èso {num_digit_3, 67} kọ̀ọ̀kan tó wà káàkiri inú igbó nàá. Rásíbẹrì mélòó ní ó wà níbẹ̀ lápapọ̀?",
+  "ic_sentence_template": "Ọmọkùnrin ará onígbà náà gbin àwọn igi òsèbùlù {num_ic, 126} nítòsí.",
+  "ic_template": "Ọmọkùnrin ará onígbà náà gbin àwọn igi òsèbùlù {num_ic, 126} nítòsí. Inú igbó rásíbẹrì ní ìdì {num_digit_1, 6} èso {num_digit_2, 20} kọ̀ọ̀kan àti èso {num_digit_3, 67} kọ̀ọ̀kan tó wà káàkiri inú igbó nàá. Rásíbẹrì mélòó ní ó wà níbẹ̀ lápapọ̀?",
+  "equation": "UPDATE HERE"
+}

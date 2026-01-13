@@ -1,0 +1,8 @@
+{
+  "original_question": "ジェーンは30個の飴を持っている。ジェーンはその飴のうち2つ食べる。残りの飴で、ジェーンは1つの袋に2つの飴を入れてセットにしたいと思っています。ジェーンは何袋用意できますか？",
+  "original_answer": 14,
+  "symbolic_template": "{name_male,Jean} ジェーンは{num_digit_1, 30}個の飴を持っている。{name_male, Jean} ジェーンはその飴のうち{num_digit_2, 2}つ食べる。残りの飴で、ジェーンは{name_male, Jean}つの袋に{num_digit_3, 2}つの飴を入れてセットにしたいと思っています。ジェーンは何袋用意 {name_male, Jean}できますか？",
+  "ic_sentence_template": "{name_male, ジャン}のおばは最近{num_ic, 94}個の風船を買いました。",
+  "ic_template": "{name_male, ジャン}のおばは最近{num_ic, 94}個の風船を買いました。{name_male,Jean} ジェーンは{num_digit_1, 30}個の飴を持っている。{name_male, Jean} ジェーンはその飴のうち{num_digit_2, 2}つ食べる。残りの飴で、ジェーンは{name_male, Jean}つの袋に{num_digit_3, 2}つの飴を入れてセットにしたいと思っています。ジェーンは何袋用意 {name_male, Jean}できますか？",
+  "equation": "UPDATE HERE"
+}

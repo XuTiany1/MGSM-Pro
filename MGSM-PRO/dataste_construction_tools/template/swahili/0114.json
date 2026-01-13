@@ -1,0 +1,8 @@
+{
+  "original_question": "Simu ya Jamal inaweza kubeba picha mara 6 zaidi ya simu ya Brittany. Idadi ya juu zaidi ya picha ambazo simu ya Brittany inaweza kubeba ni mara 50 zaidi ya idadi ya ndege katika picha ya Jamal ya bata katika mahali pa kufuga wanyama pori. Ikiwa simu ya Jamal inaweza kubeba picha 1800, bata wangapi wanaweza kuonekana katika picha ya Jama ya bata katika mahali pa kufuga wanyama pori?",
+  "original_answer": 6,
+  "symbolic_template": "Simu ya {name_male, Jamal} inaweza kubeba picha mara {num_digit_1, 6} zaidi ya simu ya {name_female, Brittany}. Idadi ya juu zaidi ya picha ambazo simu ya {name_female, Brittany} inaweza kubeba ni mara {num_digit_3, 50} zaidi ya idadi ya ndege katika picha ya {name_male, Jamal} ya bata katika mahali pa kufuga wanyama pori. Ikiwa simu ya {name_male, Jamal} inaweza kubeba picha {num_digit_2, 1800}, bata wangapi wanaweza kuonekana katika picha ya {name_male, Jamal} ya bata katika mahali pa kufuga wanyama pori?",
+  "ic_sentence_template": "Mjomba wa {name_male, Jamal} aliwahi kutembelea mbuga za kitaifa {num_ic, 84}.",
+  "ic_template": "Mjomba wa {name_male, Jamal} aliwahi kutembelea mbuga za kitaifa {num_ic, 84}. Simu ya {name_male, Jamal} inaweza kubeba picha mara {num_digit_1, 6} zaidi ya simu ya {name_female, Brittany}. Idadi ya juu zaidi ya picha ambazo simu ya {name_female, Brittany} inaweza kubeba ni mara {num_digit_3, 50} zaidi ya idadi ya ndege katika picha ya {name_male, Jamal} ya bata katika mahali pa kufuga wanyama pori. Ikiwa simu ya {name_male, Jamal} inaweza kubeba picha {num_digit_2, 1800}, bata wangapi wanaweza kuonekana katika picha ya {name_male, Jamal} ya bata katika mahali pa kufuga wanyama pori?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "约翰有 10 公顷的菠萝地。每公顷有 100 棵菠萝。约翰每 3 个月收割菠萝一次。约翰一年内能收割多少菠萝？",
+  "original_answer": 4000,
+  "symbolic_template": "{name_male, 约翰} 有 {num_digit_1, 10} 公顷的菠萝地。每公顷有 {num_digit_2, 100} 棵菠萝。{name_male, 约翰} 每 {num_digit_3, 3} 个月收割菠萝一次。{name_male, 约翰} 一年内能收割多少菠萝？",
+  "ic_sentence_template": "{name_male, 约翰} 的叔叔上周买了 {num_ic, 210} 箱香蕉。",
+  "ic_template": "{name_male, 约翰} 的叔叔上周买了 {num_ic, 210} 箱香蕉。{name_male, 约翰} 有 {num_digit_1, 10} 公顷的菠萝地。每公顷有 {num_digit_2, 100} 棵菠萝。{name_male, 约翰} 每 {num_digit_3, 3} 个月收割菠萝一次。{name_male, 约翰} 一年内能收割多少菠萝？",
+  "equation": "UPDATE HERE"
+}

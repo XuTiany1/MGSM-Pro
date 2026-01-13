@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean ji áfọ̀ abụọ tọọ Mark. N'àfọ́ abụọ gaara aga Mark ji áfọ̀ ise karịa ọkara áfọ̀ ole Jan dị. Ọ bụrụ na Jan dị áfọ̀ iri atọ Jean ọ dị áfọ̀ ole? ",
+  "original_answer": 23,
+  "symbolic_template": "{name_male_1, Jean} ji áfọ̀ abụọ tọọ {name_male_2, Mark}. N'àfọ́ abụọ gaara aga {name_male_2, Mark} ji áfọ̀ {num_digit_1, ise} karịa ọkara áfọ̀ ole {name_female, Jan} dị. Ọ bụrụ na {name_female, Jan} dị áfọ̀ {num_digit_2, 30} {name_male_1, Jean} ọ dị áfọ̀ ole?",
+  "ic_sentence_template": "Nwanne nna {name_male_1, Jean} nwere mkpụrụ ego ochie {num_ic, 82}.",
+  "ic_template": "Nwanne nna {name_male_1, Jean} nwere mkpụrụ ego ochie {num_ic, 82}. {name_male_1, Jean} ji áfọ̀ abụọ tọọ {name_male_2, Mark}. N'àfọ́ abụọ gaara aga {name_male_2, Mark} ji áfọ̀ {num_digit_1, ise} karịa ọkara áfọ̀ ole {name_female, Jan} dị. Ọ bụrụ na {name_female, Jan} dị áfọ̀ {num_digit_2, 30} {name_male_1, Jean} ọ dị áfọ̀ ole?",
+  "equation": "UPDATE HERE"
+}

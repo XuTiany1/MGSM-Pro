@@ -1,0 +1,8 @@
+{
+  "original_question": "比尔每天做 300 个面包卷、120 个巧克力羊角面包和 60 个长棍面包。每个面包卷长 4 英寸，每个羊角面包长 6 英寸，每个长棍面包长 2 英尺。如果比尔把所有做好的面包头尾相连，一共长多少英尺？",
+  "original_answer": 280,
+  "symbolic_template": "{name_male, 比尔} 每天做 {num_digit_1, 300} 个面包卷、{num_digit_2, 120} 个巧克力羊角面包和 {num_digit_3, 60} 个长棍面包。每个面包卷长 {num_digit_4, 4} 英寸，每个羊角面包长 {num_digit_5, 6} 英寸，每个长棍面包长 2 英尺。如果 {name_male, 比尔} 把所有做好的面包头尾相连，一共长多少英尺？",
+  "ic_sentence_template": "{name_male, 比尔} 的姨妈每个月买 {num_ic, 72} 条面包。",
+  "ic_template": "{name_male, 比尔} 的姨妈每个月买 {num_ic, 72} 条面包。{name_male, 比尔} 每天做 {num_digit_1, 300} 个面包卷、{num_digit_2, 120} 个巧克力羊角面包和 {num_digit_3, 60} 个长棍面包。每个面包卷长 {num_digit_4, 4} 英寸，每个羊角面包长 {num_digit_5, 6} 英寸，每个长棍面包长 2 英尺。如果 {name_male, 比尔} 把所有做好的面包头尾相连，一共长多少英尺？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Ndị ndọrọndọrọ ọchịchị abụọ na-azọ onye ga-anọchi anya klasị n'ụlọ akwụkwọ Sarai. Ọ bụrụ na onye meriri nwetara vootu ụzọ atọ n'ịme anọ ma ọnụọgụgụ ụmụakwụkwọ ndị niile tụrụ vootu na klasị dị iri asatọ, gbakọọ ọnụọgụgụ vootu onye daara nwetara? ",
+  "original_answer": 20,
+  "symbolic_template": "Ndị ndọrọndọrọ ọchịchị abụọ na-azọ onye ga-anọchi anya klasị n'ụlọ akwụkwọ {name_female, Sarai}. Ọ bụrụ na onye meriri nwetara vootu 3/4 ma ọnụọgụgụ ụmụakwụkwọ ndị niile tụrụ vootu na klasị dị {num_digit_1, 80}, gbakọọ ọnụọgụgụ vootu onye daara nwetara?",
+  "ic_sentence_template": "Nwanne nna {name_female, Sarai} nyere {num_ic, 405} nkịta akwa n'oge nzukọ a.",
+  "ic_template": "Nwanne nna {name_female, Sarai} nyere {num_ic, 405} nkịta akwa n'oge nzukọ a. Ndị ndọrọndọrọ ọchịchị abụọ na-azọ onye ga-anọchi anya klasị n'ụlọ akwụkwọ {name_female, Sarai}. Ọ bụrụ na onye meriri nwetara vootu 3/4 ma ọnụọgụgụ ụmụakwụkwọ ndị niile tụrụ vootu na klasị dị {num_digit_1, 80}, gbakọọ ọnụọgụgụ vootu onye daara nwetara?",
+  "equation": "UPDATE HERE"
+}

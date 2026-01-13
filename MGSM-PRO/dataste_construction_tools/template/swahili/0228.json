@@ -1,0 +1,8 @@
+{
+  "original_question": "Kalinda anashughulikia fumbo la vipande 360 pamoja na mamake. Kawaida Kalinda anaweza kuongeza vipande 4 kwa dakika. Mamake kimsingi anaweza kuweza nusu ya vipande ambavyo Kalinda anaweza kuweka kwa dakika. Itawachukua saa ngapi kukamilisha fumbo hilo?",
+  "original_answer": 1,
+  "symbolic_template": "{name_female, Kalinda} anafanya fumbo lenye vipande {num_digit_1, 360} na mama yake. {name_female, Kalinda} anaweza kuweka vipande {num_digit_2, 4} kwa dakika. Mama yake kwa kawaida huweka nusu ya idadi hiyo ya vipande kwa dakika. Itawachukua saa ngapi kumaliza fumbo hili?",
+  "ic_sentence_template": "Mjomba wa {name_female, Kalinda} ana mkusanyiko wa mafumbo ya jigsaw {num_ic, 103}.",
+  "ic_template": "{name_female, Kalinda} anafanya fumbo lenye vipande {num_digit_1, 360} na mama yake. Mjomba wa {name_female, Kalinda} ana mkusanyiko wa mafumbo ya jigsaw {num_ic, 103}. {name_female, Kalinda} anaweza kuweka vipande {num_digit_2, 4} kwa dakika. Mama yake kwa kawaida huweka nusu ya idadi hiyo ya vipande kwa dakika. Itawachukua saa ngapi kumaliza fumbo hili?",
+  "equation": "UPDATE HERE"
+}

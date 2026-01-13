@@ -1,0 +1,8 @@
+{
+  "original_question": "テリーは1日に2つヨーグルトを食べます。現在ヨーグルトは4つで$5のセール中です。彼は30日分のヨーグルトにいくら使いますか？",
+  "original_answer": 75,
+  "symbolic_template": "{name_male, テリー}は1日に{num_digit_1, 2}つヨーグルトを食べます。現在ヨーグルトは{num_digit_2, 4}つで${num_digit_3, 5}のセール中です。彼は{num_digit_4, 30}日分のヨーグルトにいくら使いますか？",
+  "ic_sentence_template": "{name_male, テリー}のおじさんは最近{num_ic, 29}箱のオレンジジュースを買いました。",
+  "ic_template": "{name_male, テリー}のおじさんは最近{num_ic, 29}箱のオレンジジュースを買いました。{name_male, テリー}は1日に{num_digit_1, 2}つヨーグルトを食べます。現在ヨーグルトは{num_digit_2, 4}つで${num_digit_3, 5}のセール中です。彼は{num_digit_4, 30}日分のヨーグルトにいくら使いますか？",
+  "equation": "UPDATE HERE"
+}

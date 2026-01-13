@@ -1,0 +1,8 @@
+{
+  "original_question": "A customs officer at the main port of SeaSide clearances counted 2 containers of imported vehicles, each having 5 vehicles inside. The next day, more containers were brought in, and the total number of vehicles at the port became 30. Calculate the number of containers that were imported on the second day, assuming all the containers contain 5 vehicles.",
+  "original_answer": 4,
+  "symbolic_template": "A customs officer at the main port of SeaSide clearances counted {num_digit_1, 2} containers of imported vehicles, each having {num_digit_2, 5} vehicles inside. The next day, more containers were brought in, and the total number of vehicles at the port became {num_digit_3, 30}. Calculate the number of containers that were imported on the second day, assuming all the containers contain {num_digit_4, 5} vehicles.",
+  "ic_sentence_template": "The officer's cousin manages {num_ic, 68} shipping crates in a nearby warehouse.",
+  "ic_template": "A customs officer at the main port of SeaSide clearances counted {num_digit_1, 2} containers of imported vehicles, each having {num_digit_2, 5} vehicles inside. The next day, more containers were brought in, and the total number of vehicles at the port became {num_digit_3, 30}. The officer's cousin manages {num_ic, 68} shipping crates in a nearby warehouse. Calculate the number of containers that were imported on the second day, assuming all the containers contain {num_digit_4, 5} vehicles.",
+  "equation": "UPDATE HERE"
+}

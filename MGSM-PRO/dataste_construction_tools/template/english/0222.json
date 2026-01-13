@@ -1,0 +1,8 @@
+{
+  "original_question": "Andy plants 90 geraniums and 40 fewer petunias that geraniums. How many flowers does he plant total?",
+  "original_answer": 140,
+  "symbolic_template": "{name_male, Andy} plants {num_digit_1, 90} geraniums and {num_digit_2, 40} fewer petunias than geraniums. How many flowers does he plant total?",
+  "ic_sentence_template": "{name_male, Andy}'s aunt bought {num_ic, 8324} bags of potting soil last week.",
+  "ic_template": "{name_male, Andy} plants {num_digit_1, 90} geraniums and {num_digit_2, 40} fewer petunias than geraniums. {name_male, Andy}'s aunt bought {num_ic, 8324} bags of potting soil last week. How many flowers does he plant total?",
+  "equation": "UPDATE HERE"
+}

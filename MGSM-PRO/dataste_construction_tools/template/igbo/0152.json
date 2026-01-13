@@ -1,0 +1,8 @@
+{
+  "original_question": "Carl na-azụta pakeeti achịcha kuki iri. Otunaotu pakeeti ndị ahụ nwere achịcha isii n'ịme. Otunaotu achịcha na-ada $0.10. Ego mgbanew ole ka Carl ga-anata ma ọ bụrụ n' o jiri akwụkwọ ego $10 kwụọ ụgwọ? ",
+  "original_answer": 4,
+  "symbolic_template": "{name_male, Carl} na-azụta pakeeti achịcha kuki iri. Otunaotu pakeeti ndị ahụ nwere achịcha isii n'ịme. Otunaotu achịcha na-ada ${num_digit_1, 0.10}. Ego mgbanew ole ka {name_male, Carl} ga-anata ma ọ bụrụ n' o jiri akwụkwọ ego ${num_digit_2, 10} kwụọ ụgwọ?",
+  "ic_sentence_template": "Nwanne nne {name_male, Carl} bịara na mmemme ahụ na achịcha mọfịn {num_ic, 31}.",
+  "ic_template": "Nwanne nne {name_male, Carl} bịara na mmemme ahụ na achịcha mọfịn {num_ic, 31}. {name_male, Carl} na-azụta pakeeti achịcha kuki iri. Otunaotu pakeeti ndị ahụ nwere achịcha isii n'ịme. Otunaotu achịcha na-ada ${num_digit_1, 0.10}. Ego mgbanew ole ka {name_male, Carl} ga-anata ma ọ bụrụ n' o jiri akwụkwọ ego ${num_digit_2, 10} kwụọ ụgwọ?",
+  "equation": "UPDATE HERE"
+}

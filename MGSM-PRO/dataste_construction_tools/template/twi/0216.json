@@ -1,0 +1,8 @@
+{
+  "original_question": "Janeth srɛ $2,000 na ɔhyɛ bɔ sɛ ɔbɛsan de 10% aka ho. Sɛ na ɔbɛtau $165 wɔ bosome biara wɔ abosome 12 mu a, ɛhe na Janeth akatua a aka no bɛyɛ saa bere no?",
+  "original_answer": 220,
+  "symbolic_template": "{name_female, Janeth} srɛ ${num_digit_1, 2000} na ɔhyɛ bɔ sɛ ɔbɛsan de {num_digit_2, 10}% aka ho. Sɛ na ɔbɛtau ${num_digit_3, 165} wɔ bosome biara wɔ abosome {num_digit_4, 12} mu a, ɛhe na {name_female, Janeth} akatua a aka no bɛyɛ saa bere no?",
+  "ic_sentence_template": "{name_female, Janeth} wɔfa nsa kaa lottery tikɛt {num_ic, 93000} afe a atwa mu no.",
+  "ic_template": "{name_female, Janeth} wɔfa nsa kaa lottery tikɛt {num_ic, 93000} afe a atwa mu no. {name_female, Janeth} srɛ ${num_digit_1, 2000} na ɔhyɛ bɔ sɛ ɔbɛsan de {num_digit_2, 10}% aka ho. Sɛ na ɔbɛtau ${num_digit_3, 165} wɔ bosome biara wɔ abosome {num_digit_4, 12} mu a, ɛhe na {name_female, Janeth} akatua a aka no bɛyɛ saa bere no?",
+  "equation": "UPDATE HERE"
+}

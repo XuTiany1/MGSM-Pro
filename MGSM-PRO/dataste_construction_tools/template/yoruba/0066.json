@@ -1,0 +1,8 @@
+{
+  "original_question": "Ilé ìwé mẹ́rin ní wọn díje nínú ìdíjé bọ́ọ̀ọ̀lù aláfọwọ́jùsápẹ́rẹ̀ kan. Ilé ìwé kọ̀ọ̀kan ti rán ikọ̀ agbábọ́ọ̀lù aláfọwọ́jùsápẹ́rẹ̀ lóbìnrin kan àti ikọ̀ agbábọ́ọ̀lù aláfọwọ́jùsápẹ́rẹ̀ lọ́kùnrin kan tí ikọ̀ kọ̀ọ̀kan sì ní agbá bọ́ọ̀lù 5. Ilé ìwé kọ̀ọ̀kan tún ti rán olùkọ́ni fún ikọ̀ wọn. Ní àpapọ̀, ènìyàn mélòó ní àwọn ni gbogbo ilé ìwé náà rán?",
+  "original_answer": 48,
+  "symbolic_template": "Ilé ìwé mẹ́rin ní wọn díje nínú ìdíjé bọ́ọ̀ọ̀lù aláfọwọ́jùsápẹ́rẹ̀ kan. Ilé ìwé kọ̀ọ̀kan ti rán ikọ̀ agbábọ́ọ̀lù aláfọwọ́jùsápẹ́rẹ̀ lóbìnrin kan àti ikọ̀ agbábọ́ọ̀lù aláfọwọ́jùsápẹ́rẹ̀ lọ́kùnrin kan tí ikọ̀ kọ̀ọ̀kan sì ní agbá bọ́ọ̀lù {num_digit_1, 5}. Ilé ìwé kọ̀ọ̀kan tún ti rán olùkọ́ni fún ikọ̀ wọn. Ní àpapọ̀, ènìyàn mélòó ní àwọn ni gbogbo ilé ìwé náà rán?",
+  "ic_sentence_template": "Arákùnrin {name_male, Marcus} mú {num_ic, 42} bọ́ọ̀lù bàsíkéètì wá kí àwọn egbe lè lò wọ́n.",
+  "ic_template": "Arákùnrin {name_male, Marcus} mú {num_ic, 42} bọ́ọ̀lù bàsíkéètì wá kí àwọn egbe lè lò wọ́n. Ilé ìwé mẹ́rin ní wọn díje nínú ìdíjé bọ́ọ̀ọ̀lù aláfọwọ́jùsápẹ́rẹ̀ kan. Ilé ìwé kọ̀ọ̀kan ti rán ikọ̀ agbábọ́ọ̀lù aláfọwọ́jùsápẹ́rẹ̀ lóbìnrin kan àti ikọ̀ agbábọ́ọ̀lù aláfọwọ́jùsápẹ́rẹ̀ lọ́kùnrin kan tí ikọ̀ kọ̀ọ̀kan sì ní agbá bọ́ọ̀lù {num_digit_1, 5}. Ilé ìwé kọ̀ọ̀kan tún ti rán olùkọ́ni fún ikọ̀ wọn. Ní àpapọ̀, ènìyàn mélòó ní àwọn ni gbogbo ilé ìwé náà rán?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Asuafo enan nyaa mba 251 wɔ agodie mu. Naomi nyaa mba no mu 68. Yuri nyaa mba 10 a ɛboro Naomi de so fa, na Brianna nyaa mba 17 a ɛboro Naomi de so. Mba dodoɔ ahe na Jojo dii?",
+  "original_answer": 54,
+  "symbolic_template": "Asuafo enan nyaa mba {num_digit_1, 251} wɔ agodie mu. {name_female_1, Naomi} nyaa mba no mu {num_digit_2, 68}. {name_female_2, Yuri} nyaa mba {num_digit_3, 10} a ɛboro {name_female_1, Naomi} de so fa, na {name_female_3, Brianna} nyaa mba {num_digit_4, 17} a ɛboro {name_female_1, Naomi} de so. Mba dodoɔ ahe na {name_female_4, Jojo} dii?",
+  "ic_sentence_template": "{name_female_3, Brianna} wɔfa de nkyɛkyerɛ {num_ic, 38} obiara.",
+  "ic_template": "{name_female_3, Brianna} wɔfa de nkyɛkyerɛ {num_ic, 38} obiara. Asuafo enan nyaa mba {num_digit_1, 251} wɔ agodie mu. {name_female_1, Naomi} nyaa mba no mu {num_digit_2, 68}. {name_female_2, Yuri} nyaa mba {num_digit_3, 10} a ɛboro {name_female_1, Naomi} de so fa, na {name_female_3, Brianna} nyaa mba {num_digit_4, 17} a ɛboro {name_female_1, Naomi} de so. Mba dodoɔ ahe na {name_female_4, Jojo} dii?",
+  "equation": "UPDATE HERE"
+}

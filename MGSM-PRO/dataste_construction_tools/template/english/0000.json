@@ -1,0 +1,8 @@
+{
+  "original_question": "Janet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+  "original_answer": 18,
+  "symbolic_template": "{name_female, Janet}’s ducks lay {num_digit_1, 16} eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for ${num_digit_2, 2} per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+  "ic_sentence_template": "{name_female, Janet}’s uncle brings {num_ic, 41} apples to her every week.",
+  "ic_template": "{name_female, Janet}’s ducks lay {num_digit_1, 16} eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for ${num_digit_2, 2} per fresh duck egg. {name_female, Janet}’s uncle brings {num_ic, 41} apples to her every week. How much in dollars does she make every day at the farmers' market?",
+  "equation": "UPDATE HERE"
+}

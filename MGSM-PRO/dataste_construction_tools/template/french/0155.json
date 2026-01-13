@@ -1,0 +1,8 @@
+{
+  "original_question": "Chaque jour, Bill prépare 300 petits pains, 120 croissants au chocolat et 60 baguettes. Les petits pains mesurent 4 pouces chacun, les croissants 6 pouces chacun et les baguettes deux pieds chacun. Si Bill met tous les produits de boulangerie bout à bout, quelle sera leur longueur en pieds ?",
+  "original_answer": 280,
+  "symbolic_template": "Chaque jour, {name_male, Bill} prépare {num_digit_1, 300} petits pains, {num_digit_2, 120} croissants au chocolat et {num_digit_3, 60} baguettes. Les petits pains mesurent {num_digit_4, 4} pouces chacun, les croissants {num_digit_5, 6} pouces chacun et les baguettes deux pieds chacun. Si {name_male, Bill} met tous les produits de boulangerie bout à bout, quelle sera leur longueur en pieds ?",
+  "ic_sentence_template": "{name_male, Bill} a une tante qui achète {num_ic, 72} pains chaque mois.",
+  "ic_template": "{name_male, Bill} a une tante qui achète {num_ic, 72} pains chaque mois. Chaque jour, {name_male, Bill} prépare {num_digit_1, 300} petits pains, {num_digit_2, 120} croissants au chocolat et {num_digit_3, 60} baguettes. Les petits pains mesurent {num_digit_4, 4} pouces chacun, les croissants {num_digit_5, 6} pouces chacun et les baguettes deux pieds chacun. Si {name_male, Bill} met tous les produits de boulangerie bout à bout, quelle sera leur longueur en pieds ?",
+  "equation": "UPDATE HERE"
+}

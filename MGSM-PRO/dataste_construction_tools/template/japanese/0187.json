@@ -1,0 +1,8 @@
+{
+  "original_question": "マンディはベネディクトに$100借りがあります。彼らは毎月2%の利子がつくことに同意しました。マンディが3か月後に返済できるとすると、彼女はベネディクトにいくら払えばいいですか？",
+  "original_answer": 106,
+  "symbolic_template": "{name_female, マンディ} は {name_male, ベネディクト} に ${num_digit_1, 100} の借金があります。2人は月利 {num_digit_2, 2}% で合意しました。{name_female, マンディ} が {num_digit_3, 3} ヶ月後に返済できた場合、{name_male, ベネディクト} にいくら支払うべきでしょうか？",
+  "ic_sentence_template": "{name_female, マンディ}の叔父は以前、同じ人から{num_ic, 656}ドルを借りました。",
+  "ic_template": "{name_female, マンディ}の叔父は以前、同じ人から{num_ic, 656}ドルを借りました。{name_female, マンディ} は {name_male, ベネディクト} に ${num_digit_1, 100} の借金があります。2人は月利 {num_digit_2, 2}% で合意しました。{name_female, マンディ} が {num_digit_3, 3} ヶ月後に返済できた場合、{name_male, ベネディクト} にいくら支払うべきでしょうか？",
+  "equation": "UPDATE HERE"
+}

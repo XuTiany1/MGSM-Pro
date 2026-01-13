@@ -1,0 +1,8 @@
+{
+  "original_question": "一位商人以每袋 20 美元的价格从农夫手里买了几袋小麦。如果把每袋麦子从农场运到仓库要花 2 美元，而且商人在以每袋 30 美元的价格卖掉所有麦子后获得 400 美元的总利润，则他卖掉了多少袋？",
+  "original_answer": 50,
+  "symbolic_template": "一位商人以每袋 {num_digit_1, 20} 美元的价格从农夫手里买了几袋小麦。如果把每袋麦子从农场运到仓库要花 {num_digit_2, 2} 美元，而且商人在以每袋 {num_digit_4, 30} 美元的价格卖掉所有麦子后获得 {num_digit_3, 400} 美元的总利润，则他卖掉了多少袋？",
+  "ic_sentence_template": "The trader的堂兄在他的土地上种有 {num_ic, 80} 棵苹果树。",
+  "ic_template": "The trader的堂兄在他的土地上种有 {num_ic, 80} 棵苹果树。一位商人以每袋 {num_digit_1, 20} 美元的价格从农夫手里买了几袋小麦。如果把每袋麦子从农场运到仓库要花 {num_digit_2, 2} 美元，而且商人在以每袋 {num_digit_4, 30} 美元的价格卖掉所有麦子后获得 {num_digit_3, 400} 美元的总利润，则他卖掉了多少袋？",
+  "equation": "UPDATE HERE"
+}

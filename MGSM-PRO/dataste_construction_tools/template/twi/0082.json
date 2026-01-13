@@ -1,0 +1,8 @@
+{
+  "original_question": "Grace ԑmu duru yԑ 125 pounds. Alex ԑmu duru yԑ 2 pounds ketewa kyԑn Grace ԑmu duru mmɔho 4. Woka wɔn ԑmu duru no nyinaa bɔ mu a, wonya sԑn?",
+  "original_answer": 623,
+  "symbolic_template": "{name_female, Grace} ԑmu duru yԑ {num_digit_1, 125} pounds. {name_male, Alex} ԑmu duru yԑ {num_digit_2, 2} pounds ketewa kyԑn {name_female, Grace} ԑmu duru mmɔho {num_digit_3, 4}. Woka wɔn ԑmu duru no nyinaa bɔ mu a, wonya sԑn?",
+  "ic_sentence_template": "{name_female, Grace} wɔfa no maa nnaka {num_ic, 17} bi wɔ adwuma nnansa yi ara.",
+  "ic_template": "{name_female, Grace} wɔfa no maa nnaka {num_ic, 17} bi wɔ adwuma nnansa yi ara. {name_female, Grace} ԑmu duru yԑ {num_digit_1, 125} pounds. {name_male, Alex} ԑmu duru yԑ {num_digit_2, 2} pounds ketewa kyԑn {name_female, Grace} ԑmu duru mmɔho {num_digit_3, 4}. Woka wɔn ԑmu duru no nyinaa bɔ mu a, wonya sԑn?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Carlos ne Benji wɔ mpoano. Carlos tua kodoɔ $30 wɔ dɔnhwere baako mu, na Benji nso tua kwadu kodoɔ a wɔde nnua fa so no $18 wɔ dɔnhwere baako mu. Sɛ Carlos de kodoɔ no yɛ adwuma nnɔnhwere 3 na Benji de kodoɔ no yɛ adwuma nnɔnhwere 5 a, sika dodoɔ bɛn na wɔbɛtua etua ama wɔn nyinaa?",
+  "original_answer": 180,
+  "symbolic_template": "{name_male_1, Carlos} ne {name_male_2, Benji} wɔ mpoano. {name_male_1, Carlos} tua kodoɔ ${num_digit_1, 30} wɔ dɔnhwere baako mu, na {name_male_2, Benji} nso tua kwadu kodoɔ a wɔde nnua fa so no ${num_digit_2, 18} wɔ dɔnhwere baako mu. Sɛ {name_male_1, Carlos} de kodoɔ no yɛ adwuma nnɔnhwere {num_digit_3, 3} na {name_male_2, Benji} de kodoɔ no yɛ adwuma nnɔnhwere {num_digit_4, 5} a, sika dodoɔ bɛn na wɔbɛtua etua ama wɔn nyinaa?",
+  "ic_sentence_template": "{name_male_2, Benji} wͻfa de mpopaho {num_ic, 680} brԑԑ kuw no.",
+  "ic_template": "{name_male_1, Carlos} ne {name_male_2, Benji} wɔ mpoano. {name_male_1, Carlos} tua kodoɔ ${num_digit_1, 30} wɔ dɔnhwere baako mu, na {name_male_2, Benji} nso tua kwadu kodoɔ a wɔde nnua fa so no ${num_digit_2, 18} wɔ dɔnhwere baako mu. Sɛ {name_male_1, Carlos} de kodoɔ no yɛ adwuma nnɔnhwere {num_digit_3, 3} na {name_male_2, Benji} de kodoɔ no yɛ adwuma nnɔnhwere {num_digit_4, 5} a, sika dodoɔ bɛn na wɔbɛtua etua ama wɔn nyinaa? {name_male_2, Benji} wͻfa de mpopaho {num_ic, 680} brԑԑ kuw no.",
+  "equation": "UPDATE HERE"
+}

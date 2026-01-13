@@ -1,0 +1,8 @@
+{
+  "original_question": "Two candidates are running for class representative at Sarai's school. If the winner got 3/4 of the votes and the total number of students who voted in the class was 80, calculate the number of votes the loser got.",
+  "original_answer": 20,
+  "symbolic_template": "Two candidates are running for class representative at {name_female, Sarai}'s school. If the winner got 3/4 of the votes and the total number of students who voted in the class was {num_digit_1, 80}, calculate the number of votes the loser got.",
+  "ic_sentence_template": "{name_female, Sarai}'s uncle handed out {num_ic, 405} stickers during the assembly.",
+  "ic_template": "Two candidates are running for class representative at {name_female, Sarai}'s school. If the winner got 3/4 of the votes and the total number of students who voted in the class was {num_digit_1, 80}, {name_female, Sarai}'s uncle handed out {num_ic, 405} stickers during the assembly. Calculate the number of votes the loser got.",
+  "equation": "UPDATE HERE"
+}

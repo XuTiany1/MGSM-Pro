@@ -1,0 +1,8 @@
+{
+  "original_question": "If a bag of marbles costs $20 and the price increases by 20 % of the original price every two months, how much would a bag of marbles cost after 36 months?",
+  "original_answer": 92,
+  "symbolic_template": "If a bag of marbles costs ${num_digit_1, 20} and the price increases by {num_digit_2, 20}% of the original price every two months, how much would a bag of marbles cost after {num_digit_3, 36} months?",
+  "ic_sentence_template": "The store manager's nephew has {num_ic, 60} comic books.",
+  "ic_template": "If a bag of marbles costs ${num_digit_1, 20} and the price increases by {num_digit_2, 20}% of the original price every two months. The store manager's nephew has {num_ic, 60} comic books. How much would a bag of marbles cost after {num_digit_3, 36} months?",
+  "equation": "UPDATE HERE"
+}

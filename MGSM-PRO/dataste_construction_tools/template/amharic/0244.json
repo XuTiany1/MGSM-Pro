@@ -1,0 +1,8 @@
+{
+  "original_question": "ግሪፊን 24 የድንች ጥብስ ነበረው ነገር ግን ካይሌ 5ቱን ወሰደች ቢሊ ካይሌ ከወሰደችው ሁለት እጥፍ ወሰደ ጊንገር ከራሷ የድንች ጥብስ ላይ አንድ እጅ ሙሉ ለግሪፊን ሰጠችው እና ከዚያ ኮልቢ ከግሪፊን ካይሌ ከወሰደችው በ 3 የሚያንስ የድንች ጥብስ ወሰደ በስተመጨረሻ ግሪፊን 27 የድንች ጥብስ ነበረው ምን ያህል የድንች ጥብስ ነው ጊንገር ለግሪፊን የሰጠችው?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male_1, ግሪፊን} {num_digit_1, 24} የድንች ጥብስ ነበረው ነገር ግን {name_male_2, ካይሌ} {num_digit_2, 5}ቱን ወሰደች {name_male_3, ቢሊ} {name_male_2, ካይሌ} ከወሰደችው ሁለት እጥፍ ወሰደ {name_male_4, ጊንገር} ከራሷ የድንች ጥብስ ላይ አንድ እጅ ሙሉ ለ{name_male_1, ግሪፊን} ሰጠችው እና ከዚያ {name_male_5, ኮልቢ} ከ{name_male_1, ግሪፊን} {name_male_2, ካይሌ} ከወሰደችው በ {num_digit_3, 3} የሚያንስ የድንች ጥብስ ወሰደ በስተመጨረሻ {name_male_1, ግሪፊን} {num_digit_4, 27} የድንች ጥብስ ነበረው ምን ያህል የድንች ጥብስ ነው {name_male_4, ጊንገር} ለ{name_male_1, ግሪፊን} የሰጠችው?",
+  "ic_sentence_template": "{name_male_2, ካይል} አጎቱ ወደ ጠረጴዛው {num_ic, 18458} የኬቻፕ ፓኬቶች አመጣች።",
+  "ic_template": "{name_male_1, ግሪፊን} {num_digit_1, 24} የድንች ጥብስ ነበረው ነገር ግን {name_male_2, ካይሌ} {num_digit_2, 5}ቱን ወሰደች {name_male_3, ቢሊ} {name_male_2, ካይሌ} ከወሰደችው ሁለት እጥፍ ወሰደ {name_male_4, ጊንገር} ከራሷ የድንች ጥብስ ላይ አንድ እጅ ሙሉ ለ{name_male_1, ግሪፊን} ሰጠችው እና ከዚያ {name_male_5, ኮልቢ} ከ{name_male_1, ግሪፊን} {name_male_2, ካይሌ} ከወሰደችው በ {num_digit_3, 3} የሚያንስ የድንች ጥብስ ወሰደ በስተመጨረሻ {name_male_1, ግሪፊን} {num_digit_4, 27} የድንች ጥብስ ነበረው ምን ያህል የድንች ጥብስ ነው {name_male_4, ጊንገር} ለ{name_male_1, ግሪፊን} የሰጠችው? {name_male_2, ካይል} አጎቱ ወደ ጠረጴዛው {num_ic, 18458} የኬቻፕ ፓኬቶች አመጣች።",
+  "equation": "UPDATE HERE"
+}

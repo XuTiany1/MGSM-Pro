@@ -1,0 +1,8 @@
+{
+  "original_question": "Charlie marafiki mara tatu zaidi ya marafiki wa Dorothy kwenye Facebook. James ana marafiki mara nne zaidi ya marafiki wa Dorothy kwenye Facebook. Iwapo Charlie ana marafiki 12 kwenye Facebook, James ana marafiki wangapi kwenye Facebook?",
+  "original_answer": 16,
+  "symbolic_template": "{name_male_1, Charlie} ana marafiki wa Facebook mara tatu zaidi ya {name_male_2, Dorothy}. {name_male_3, James} ana marafiki wa Facebook mara nne zaidi ya {name_male_2, Dorothy}. Ikiwa {name_male_1, Charlie} ana marafiki {num_digit_1, 12} kwenye Facebook, {name_male_3, James} ana marafiki wangapi wa Facebook?",
+  "ic_sentence_template": "Shangazi wa {name_male_3, James} hivi karibuni alichukua mbwa {num_ic, 67} wa kufuga.",
+  "ic_template": "Shangazi wa {name_male_3, James} hivi karibuni alichukua mbwa {num_ic, 67} wa kufuga. {name_male_1, Charlie} ana marafiki wa Facebook mara tatu zaidi ya {name_male_2, Dorothy}. {name_male_3, James} ana marafiki wa Facebook mara nne zaidi ya {name_male_2, Dorothy}. Ikiwa {name_male_1, Charlie} ana marafiki {num_digit_1, 12} kwenye Facebook, {name_male_3, James} ana marafiki wangapi wa Facebook?",
+  "equation": "UPDATE HERE"
+}

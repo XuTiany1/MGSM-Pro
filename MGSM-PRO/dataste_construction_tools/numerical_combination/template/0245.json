@@ -1,0 +1,26 @@
+{
+    "problem_id": "0245",
+    "generation_order": ["num_digit_2", "num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [2, 20]},
+        "num_digit_2": {"type": "int", "range": [25, 100]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "snail_diff = abs(num_digit_2 - num_digit_1)",
+            "total_fish = snail_diff / 2",
+            "ans = total_fish / 2"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "abs(num_digit_2 - num_digit_1) % 4 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

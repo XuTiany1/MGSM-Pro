@@ -1,0 +1,8 @@
+{
+  "original_question": "Andy amepanda jeraniamu 90 na zambarau 40 chache zaidi ya jeraniamu. Amepanda maua mangapi kwa jumla?",
+  "original_answer": 140,
+  "symbolic_template": "{name_male, Andy} alipanda maua ya geranium {num_digit_1, 90} na petunia {num_digit_2, 40} pungufu ya geranium. Jumla alipanda maua mangapi?",
+  "ic_sentence_template": "Shangazi wa {name_male, Andy} alinunua mifuko {num_ic, 8324} ya udongo wa kupandia wiki iliyopita.",
+  "ic_template": "Shangazi wa {name_male, Andy} alinunua mifuko {num_ic, 8324} ya udongo wa kupandia wiki iliyopita. {name_male, Andy} alipanda maua ya geranium {num_digit_1, 90} na petunia {num_digit_2, 40} pungufu ya geranium. Jumla alipanda maua mangapi?",
+  "equation": "UPDATE HERE"
+}

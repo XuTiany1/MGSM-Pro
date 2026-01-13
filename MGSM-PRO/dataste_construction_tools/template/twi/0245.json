@@ -1,0 +1,8 @@
+{
+  "original_question": "Nwa enam na ɛwɔ asubura baako bi mu, nwa adusa mmienu nso wɔ asubura foforo bi mu. Nsonsonoeɛ a ɛwɔ nwa dodoɔ a ɛwɔ nsu no mu mmienu no mu yɛ mpataa dodoɔ a ɛwɔ asubura no mu mmienu no mmɔho. Sɛ nsubura mmienu yi nyinaa wɔ mpataa yɛ  pɛ a, mpataa dodoɔ ahe na ɛwɔ wɔn mu biara mu?",
+  "original_answer": 7,
+  "symbolic_template": "Nwa enam {num_digit_1, 4} na ɛwɔ asubura baako bi mu, nwa adusa {num_digit_2, 32} nso wɔ asubura foforo bi mu. Nsonsonoeɛ a ɛwɔ nwa dodoɔ a ɛwɔ nsu no mu mmienu no mu yɛ mpɛn-abien mpataa dodoɔ a ɛwɔ asubura no mu mmienu no mmɔho. Sɛ nsubura mmienu yi nyinaa wɔ mpataa yɛ pɛ a, mpataa dodoɔ ahe na ɛwɔ wɔn mu biara mu?",
+  "ic_sentence_template": "{name_male, Michael} nua no wɔ guppy nnam {num_ic, 15} wɔ fie.",
+  "ic_template": "{name_male, Michael} nua no wɔ guppy nnam {num_ic, 15} wɔ fie. Nwa enam {num_digit_1, 4} na ɛwɔ asubura baako bi mu, nwa adusa {num_digit_2, 32} nso wɔ asubura foforo bi mu. Nsonsonoeɛ a ɛwɔ nwa dodoɔ a ɛwɔ nsu no mu mmienu no mu yɛ mpɛn-abien mpataa dodoɔ a ɛwɔ asubura no mu mmienu no mmɔho. Sɛ nsubura mmienu yi nyinaa wɔ mpataa yɛ pɛ a, mpataa dodoɔ ahe na ɛwɔ wɔn mu biara mu?",
+  "equation": "UPDATE HERE"
+}

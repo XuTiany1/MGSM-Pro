@@ -1,0 +1,27 @@
+{
+    "problem_id": "0182",
+    "generation_order": ["num_digit_2", "num_digit_1", "num_ic"],
+    "variables": {
+        "num_digit_2": {"type": "int", "range": [20, 60]},
+        "num_digit_1": {"type": "int", "range": [2, 10]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_1": [
+            "jan_past = num_digit_2 - 2",
+            "mark_past = num_digit_1 + (jan_past / 2)",
+            "mark_now = mark_past + 2",
+            "ans = mark_now + 2"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_1": [
+            "(num_digit_2 - 2) % 2 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

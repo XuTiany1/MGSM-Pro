@@ -1,0 +1,8 @@
+{
+  "original_question": "Mark bụ onye ndezi edemede. Ọ na-edezi nhatanha ọnụ ọgụgụ ahịrịokwu izu uka ọ bụla maka ndị mbipụta abụọ dị iche iche, ha abụọ otunaotu na-akwụ ya ọnụ ego iche iche na ahịrịokwu ọ bụla. Onye mbipụta B na-akwụ Mark ugboro abụọ ihe onye mbipụta A na-akwụ. Mark na-edezi ngụkọta ahịrịokwu otu puku n'izu ụka ọ bụla ma onye mbipụta A na-akwụ ya senti ise na ahịrịokwu ọ bụla. Ego ole ka Mark na-enweta n'izu, na senti?",
+  "original_answer": 7500,
+  "symbolic_template": "{name_male, Mark} bụ onye ndezi edemede. Ọ na-edezi nhatanha ọnụ ọgụgụ ahịrịokwu izu uka ọ bụla maka ndị mbipụta abụọ dị iche iche, ha abụọ otunaotu na-akwụ ya ọnụ ego iche iche na ahịrịokwu ọ bụla. Onye mbipụta B na-akwụ {name_male, Mark}  ugboro abụọ ihe onye mbipụta A na-akwụ. {name_male, Mark} na-edezi ngụkọta ahịrịokwu {num_digit_1, 1000} n'izu ụka ọ bụla ma onye mbipụta A na-akwụ ya senti {num_digit_2, 5} na ahịrịokwu ọ bụla. Ego ole ka {name_male, Mark} na-enweta n'izu, na senti?",
+  "ic_sentence_template": "Nwanne nna {name_male, Mark} gụrụ akwụkwọ anwansi {num_ic, 3071} n’oge na-adịbeghị anya.",
+  "ic_template": "Nwanne nna {name_male, Mark} gụrụ akwụkwọ anwansi {num_ic, 3071} n’oge na-adịbeghị anya. {name_male, Mark} bụ onye ndezi edemede. Ọ na-edezi nhatanha ọnụ ọgụgụ ahịrịokwu izu uka ọ bụla maka ndị mbipụta abụọ dị iche iche, ha abụọ otunaotu na-akwụ ya ọnụ ego iche iche na ahịrịokwu ọ bụla. Onye mbipụta B na-akwụ {name_male, Mark}  ugboro abụọ ihe onye mbipụta A na-akwụ. {name_male, Mark} na-edezi ngụkọta ahịrịokwu {num_digit_1, 1000} n'izu ụka ọ bụla ma onye mbipụta A na-akwụ ya senti {num_digit_2, 5} na ahịrịokwu ọ bụla. Ego ole ka {name_male, Mark} na-enweta n'izu, na senti?",
+  "equation": "UPDATE HERE"
+}

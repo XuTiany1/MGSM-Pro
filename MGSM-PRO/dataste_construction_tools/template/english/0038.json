@@ -1,0 +1,8 @@
+{
+  "original_question": "John runs 60 miles a week. He runs 3 days a week. He runs 3 hours the first day and half as much the other two days he runs. How fast does he run?",
+  "original_answer": 10,
+  "symbolic_template": "{name_male, John} runs {num_digit_1, 60} miles a week. He runs {num_digit_2, 3} days a week. He runs {num_digit_3, 3} hours the first day and half as much each of the other days he runs. How fast does he run?",
+  "ic_sentence_template": "{name_male, John}'s uncle has {num_ic, 85} baseball caps.",
+  "ic_template": "{name_male, John} runs {num_digit_1, 60} miles a week. He runs {num_digit_2, 3} days a week. He runs {num_digit_3, 3} hours the first day and half as much each of the other days he runs. {name_male, John}'s uncle has {num_ic, 85} baseball caps. How fast does he run?",
+  "equation": "UPDATE HERE"
+}

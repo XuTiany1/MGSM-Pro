@@ -1,0 +1,32 @@
+{
+    "problem_id": "0070",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_5", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [2, 8]},
+        "num_digit_2": {"type": "int", "range": [2, 10]},
+        "num_digit_3": {"type": "int", "range": [10, 25]},
+        "num_digit_4": {"type": "int", "range": [10, 30]},
+        "num_digit_5": {"type": "int", "range": [1, 4]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "classes_per_week = (num_digit_1 * 5) + num_digit_2"
+        ],
+        "num_digit_4": [
+            "revenue_per_week = classes_per_week * num_digit_3 * num_digit_4"
+        ],
+        "num_digit_5": [
+            "ans = revenue_per_week * num_digit_5"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 3, "max_digits": 6}
+    },
+    "restrictions": {
+        "num_digit_5": [
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

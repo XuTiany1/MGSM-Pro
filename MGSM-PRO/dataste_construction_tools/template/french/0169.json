@@ -1,0 +1,8 @@
+{
+  "original_question": "En dehors du weekend où il marche 10 miles, Pancho fait 20 miles tous les jours. Combien de miles parcourt-il à la marche en une semaine ?",
+  "original_answer": 120,
+  "symbolic_template": "En dehors du weekend où il marche {num_digit_2, 10} miles, {name_male, Pancho} fait {num_digit_1, 20} miles tous les jours. Combien de miles parcourt-il à la marche en une semaine ?",
+  "ic_sentence_template": "{name_male, Pancho} a un oncle qui possède {num_ic, 302} chapeaux.",
+  "ic_template": "{name_male, Pancho} a un oncle qui possède {num_ic, 302} chapeaux. En dehors du weekend où il marche {num_digit_2, 10} miles, {name_male, Pancho} fait {num_digit_1, 20} miles tous les jours. Combien de miles parcourt-il à la marche en une semaine ?",
+  "equation": "UPDATE HERE"
+}

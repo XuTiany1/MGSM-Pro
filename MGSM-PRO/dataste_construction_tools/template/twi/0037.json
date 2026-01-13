@@ -1,0 +1,8 @@
+{
+  "original_question": "John yԑ n’adwene sԑ ɔbԑtɔn n’abaduaba no na ɔde sika no akɔtɔ video agodie. Ͻwɔ lego mmoano 13 na ɔtɔn baako biara $15. Ԑwiee ԑkyire no, ɔtɔɔ video agodie 8 a na baako biara yԑ $20 na ɔnyaa nsesa $5. Lego mmoano sԑn na ɔdaso wɔ?",
+  "original_answer": 2,
+  "symbolic_template": "{name_male, John} yԑ n’adwene sԑ ɔbԑtɔn n’abaduaba no na ɔde sika no akɔtɔ video agodie. Ͻwɔ lego mmoano {num_digit_1, 13} na ɔtɔn baako biara ${num_digit_2, 15}. Ԑwiee ԑkyire no, ɔtɔɔ video agodie {num_digit_3, 8} a na baako biara yԑ ${num_digit_4, 20} na ɔnyaa nsesa ${num_digit_5, 5}. Lego mmoano sԑn na ɔdaso wɔ?",
+  "ic_sentence_template": "{name_male, John's} wɔfa tɔɔ action figure {num_ic, 38} nnansa yi ara.",
+  "ic_template": "{name_male, John's} wɔfa tɔɔ action figure {num_ic, 38} nnansa yi ara. {name_male, John} yԑ n’adwene sԑ ɔbԑtɔn n’abaduaba no na ɔde sika no akɔtɔ video agodie. Ͻwɔ lego mmoano {num_digit_1, 13} na ɔtɔn baako biara ${num_digit_2, 15}. Ԑwiee ԑkyire no, ɔtɔɔ video agodie {num_digit_3, 8} a na baako biara yԑ ${num_digit_4, 20} na ɔnyaa nsesa ${num_digit_5, 5}. Lego mmoano sԑn na ɔdaso wɔ?",
+  "equation": "UPDATE HERE"
+}

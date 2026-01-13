@@ -1,0 +1,8 @@
+{
+  "original_question": "Un commerçant hésite entre 2 plans d'achat : des bijoux d'une valeur de 5 000 $ ou des gadgets électroniques d'une valeur de 8 000 $. Son conseiller financier spécule sur une hausse de 2,5 % du marché des bijoux et de 1,2 % de celui des gadgets électroniques au cours du même mois. Si le commerçant fait un choix qui lui permet de maximiser son profit à la fin du mois, quel serait le montant de ce profit ?",
+  "original_answer": 125,
+  "symbolic_template": "Un commerçant hésite entre {num_digit_1, 2} plans d'achat : des bijoux d'une valeur de {num_digit_2, 5 000} $ ou des gadgets électroniques d'une valeur de {num_digit_3, 8 000} $. Son conseiller financier spécule sur une hausse de {num_digit_4, 2,5} % du marché des bijoux et de {num_digit_5, 1,2} % de celui des gadgets électroniques au cours du même mois. Si le commerçant fait un choix qui lui permet de maximiser son profit à la fin du mois, quel serait le montant de ce profit ?",
+  "ic_sentence_template": "Le neveu du marchand a récemment acheté {num_ic, 39} bandes dessinées.",
+  "ic_template": "Le neveu du marchand a récemment acheté {num_ic, 39} bandes dessinées. Un commerçant hésite entre {num_digit_1, 2} plans d'achat : des bijoux d'une valeur de {num_digit_2, 5 000} $ ou des gadgets électroniques d'une valeur de {num_digit_3, 8 000} $. Son conseiller financier spécule sur une hausse de {num_digit_4, 2,5} % du marché des bijoux et de {num_digit_5, 1,2} % de celui des gadgets électroniques au cours du même mois. Si le commerçant fait un choix qui lui permet de maximiser son profit à la fin du mois, quel serait le montant de ce profit ?",
+  "equation": "UPDATE HERE"
+}

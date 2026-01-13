@@ -1,0 +1,8 @@
+{
+  "original_question": "Steve pinu láti máa jẹ ọ‌pọ‌ tomato, ó sì pinu láti gbin tomato tirẹ‌. Ó ń jẹ ìló‌po méjì iye tí aya àfẹ‌sọ‌nà rẹ‌ ń jẹ\nÓ ń jẹ mẹ‌fà lójúmọ‌. Tí igi kan bá ń so tomato mẹ‌ta lọ‌sẹ‌, igi mélòó ló nílò?",
+  "original_answer": 21,
+  "symbolic_template": "{name_male, Steve} pinu láti máa jẹ ọ‌pọ‌ tomato, ó sì pinu láti gbin tomato tirẹ‌. Ó ń jẹ ìló‌po méjì iye tí aya àfẹ‌sọ‌nà rẹ‌ ń jẹ.  Ó ń jẹ {num_digit_1, 6} lójúmọ‌. Tí igi kan bá ń so tomato {num_digit_2, 3} lọ‌sẹ‌, igi mélòó ló nílò?",
+  "ic_sentence_template": "Ìyá ńlá {name_male, Steve} máa ń gbin ata {num_ic, 1531} lẹ́kùnrẹ́rẹ́ ní gbogbo ìgbà ooru.",
+  "ic_template": "Ìyá ńlá {name_male, Steve} máa ń gbin ata {num_ic, 1531} lẹ́kùnrẹ́rẹ́ ní gbogbo ìgbà ooru. {name_male, Steve} pinu láti máa jẹ ọ‌pọ‌ tomato, ó sì pinu láti gbin tomato tirẹ‌. Ó ń jẹ ìló‌po méjì iye tí aya àfẹ‌sọ‌nà rẹ‌ ń jẹ.  Ó ń jẹ {num_digit_1, 6} lójúmọ‌. Tí igi kan bá ń so tomato {num_digit_2, 3} lọ‌sẹ‌, igi mélòó ló nílò?",
+  "equation": "UPDATE HERE"
+}

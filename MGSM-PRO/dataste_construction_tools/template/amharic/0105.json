@@ -1,0 +1,8 @@
+{
+  "original_question": "ኮዲ አሚር ከበላው በሦስት እጥፍ የሚበልጡ ኩኪዎችን ይበላል። አሚር 5 ኩኪዎችን ከበላ። ሁለቱም በአንድ ላይ ስንት ኩኪዎችን ይበላሉ?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male_1, ኮዲ} {name_male_2, አሚር} ከበላው በሦስት እጥፍ የሚበልጡ ኩኪዎችን ይበላል። {name_male_2, አሚር} {num_digit_1, 5} ኩኪዎችን ከበላ። ሁለቱም በአንድ ላይ ስንት ኩኪዎችን ይበላሉ?",
+  "ic_sentence_template": "{name_male_2, አሚር} አጎቱ ወደ ፓርቲ {num_ic, 20} ብራውኒ አመጣ።",
+  "ic_template": "{name_male_1, ኮዲ} {name_male_2, አሚር} ከበላው በሦስት እጥፍ የሚበልጡ ኩኪዎችን ይበላል። {name_male_2, አሚር} {num_digit_1, 5} ኩኪዎችን ከበላ። ሁለቱም በአንድ ላይ ስንት ኩኪዎችን ይበላሉ? {name_male_2, አሚር} አጎቱ ወደ ፓርቲ {num_ic, 20} ብራውኒ አመጣ።",
+  "equation": "UPDATE HERE"
+}

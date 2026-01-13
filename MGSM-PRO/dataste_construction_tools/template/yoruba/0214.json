@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerry ní odò ìwẹ̀ méjì, méjèèjì ń jo omi dànù ni ìwọ̀n-on 4 gallons ní ìṣẹ́jú kan. Ní ìṣẹ́jú mẹ́rin sẹ́yìn, odò ìwẹ̀ ńlá náà ní ìlọ́po méjì ẹkùn omi tó tí ó wà nínú odò ìwẹ̀ kékeré náà. Ní báyìí odò ìwẹ̀ ńlá náà ní ìlọ́po mẹ́rin omi ti inú-un odò ìwẹ̀ kékeré náà. Ọ̀pọ̀ omi mélòó ni odò ìwẹ̀ kékeré náà ní báyìí?",
+  "original_answer": 8,
+  "symbolic_template": "{name_male, Jerry} ní odò ìwẹ̀ méjì, méjèèjì ń jo omi dànù ni ìwọ̀n-on {num_digit_1, 4} gallons ní ìṣẹ́jú kan. Ní ìṣẹ́jú {num_digit_2, 4} sẹ́yìn, odò ìwẹ̀ ńlá náà ní ẹ̀ẹ̀mejì ẹkùn omi tó tí ó wà nínú odò ìwẹ̀ kékeré náà. Ní báyìí odò ìwẹ̀ ńlá náà ní ìlọ́po mẹ́rin omi ti inú-un odò ìwẹ̀ kékeré náà. Ọ̀pọ̀ omi mélòó ni odò ìwẹ̀ kékeré náà ní báyìí?",
+  "ic_sentence_template": "Ìyá ńlá {name_male, Jerry} máa ń kún àpótí omi {num_ic, 123} pẹ̀lú omi ojò l’ọ̀sẹ̀ kọọkan.",
+  "ic_template": "Ìyá ńlá {name_male, Jerry} máa ń kún àpótí omi {num_ic, 123} pẹ̀lú omi ojò l’ọ̀sẹ̀ kọọkan. {name_male, Jerry} ní odò ìwẹ̀ méjì, méjèèjì ń jo omi dànù ni ìwọ̀n-on {num_digit_1, 4} gallons ní ìṣẹ́jú kan. Ní ìṣẹ́jú {num_digit_2, 4} sẹ́yìn, odò ìwẹ̀ ńlá náà ní ẹ̀ẹ̀mejì ẹkùn omi tó tí ó wà nínú odò ìwẹ̀ kékeré náà. Ní báyìí odò ìwẹ̀ ńlá náà ní ìlọ́po mẹ́rin omi ti inú-un odò ìwẹ̀ kékeré náà. Ọ̀pọ̀ omi mélòó ni odò ìwẹ̀ kékeré náà ní báyìí?",
+  "equation": "UPDATE HERE"
+}

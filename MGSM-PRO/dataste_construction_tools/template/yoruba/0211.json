@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerry ní agbo adìẹ kan. Awọn adìẹ pupa n yé ẹyin 3 ni ọjọ kan, awọn adie funfun sì máà n yé ẹyin 5 ní ọjọ́ kan. Ní ojoojúmọ́, Jerry máa ń kó ẹyin 42 jọ. Tí ó bá ní adìẹ funfun méjì ju adìẹ pupa lọ, adìẹ pupa mélòó ni ó ní?",
+  "original_answer": 4,
+  "symbolic_template": "{name_male, Jerry} ní agbo adìẹ kan. Awọn adìẹ pupa n yé ẹyin {num_digit_1, 3} ni ọjọ kan, awọn adie funfun sì máà n yé ẹyin {num_digit_2, 5} ní ọjọ́ kan. Ní ojoojúmọ́, {name_male, Jerry} máa ń kó ẹyin {num_digit_3, 42} jọ. Tí ó bá ní adìẹ funfun méjì ju adìẹ pupa lọ, adìẹ pupa mélòó ni ó ní?",
+  "ic_sentence_template": "Ìyá-ń-ìyá {name_male, Jerry} ní {num_ic, 54} pẹ́pẹ́yẹ lórí ọkò rẹ.",
+  "ic_template": "Ìyá-ń-ìyá {name_male, Jerry} ní {num_ic, 54} pẹ́pẹ́yẹ lórí ọkò rẹ. {name_male, Jerry} ní agbo adìẹ kan. Awọn adìẹ pupa n yé ẹyin {num_digit_1, 3} ni ọjọ kan, awọn adie funfun sì máà n yé ẹyin {num_digit_2, 5} ní ọjọ́ kan. Ní ojoojúmọ́, {name_male, Jerry} máa ń kó ẹyin {num_digit_3, 42} jọ. Tí ó bá ní adìẹ funfun méjì ju adìẹ pupa lọ, adìẹ pupa mélòó ni ó ní?",
+  "equation": "UPDATE HERE"
+}

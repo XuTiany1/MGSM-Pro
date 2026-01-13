@@ -1,0 +1,8 @@
+{
+  "original_question": "Cynthia máa ń jẹ abọ́ wàrà dídì lálaalẹ́. Ó máa ń ra páálí wàrà dídì pẹ̀lú abọ́ wàrà dídì 15 fún páálí kọ̀ọ̀kan èyí tó tó $4.00 níye fún páálí kọ̀ọ̀kan. Lẹ́yìn ọjọ́ 60, èló ni yóò ná lórí wàrà dídì?",
+  "original_answer": 16,
+  "symbolic_template": "{name_female, Cynthia} máa ń jẹ abọ́ kan wàrà dídì lálaalẹ́. Ó máa ń ra páálí wàrà dídì pẹ̀lú abọ́ wàrà dídì {num_digit_1, 15} fún páálí kọ̀ọ̀kan èyí tó tó ${num_digit_2, 4} níye fún páálí kọ̀ọ̀kan. Lẹ́yìn ọjọ́ {num_digit_3, 60}, èló ni yóò ná lórí wàrà dídì?",
+  "ic_sentence_template": "Ẹ̀gbọ́n bàbá {name_female, Cynthia} ní àwọn oríṣìíríṣìí ìtura sorbet {num_ic, 7} nínú firisa rẹ.",
+  "ic_template": "Ẹ̀gbọ́n bàbá {name_female, Cynthia} ní àwọn oríṣìíríṣìí ìtura sorbet {num_ic, 7} nínú firisa rẹ. {name_female, Cynthia} máa ń jẹ abọ́ kan wàrà dídì lálaalẹ́. Ó máa ń ra páálí wàrà dídì pẹ̀lú abọ́ wàrà dídì {num_digit_1, 15} fún páálí kọ̀ọ̀kan èyí tó tó ${num_digit_2, 4} níye fún páálí kọ̀ọ̀kan. Lẹ́yìn ọjọ́ {num_digit_3, 60}, èló ni yóò ná lórí wàrà dídì?",
+  "equation": "UPDATE HERE"
+}

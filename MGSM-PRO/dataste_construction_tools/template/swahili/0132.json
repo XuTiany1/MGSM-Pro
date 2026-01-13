@@ -1,0 +1,8 @@
+{
+  "original_question": "Pam na Fred walienda kanivali. Pam aliendesha rolakosta mara 2 huku Fred aliiendesha mara 4. Baada ya hapo, kila mmoja wao aliamua kuendesha luji mara 2. Ikiwa kila kuendesha ilikuwa inagharimu tiketi 6, wote wawili walitumia tikiti ngapi hiyo siku?",
+  "original_answer": 60,
+  "symbolic_template": "{name_female, Pam} na {name_male, Fred} walienda kwenye tamasha. {name_female, Pam} alipanda roller coaster mara {num_digit_1, 2} ilhali {name_male, Fred} alipanda mara {num_digit_2, 4}. Baada ya hapo, kila mmoja wao alipanda luge mara {num_digit_3, 2}. Ikiwa kila mchezo ulihitaji tiketi {num_digit_4, 6}, walitumia tiketi ngapi siku hiyo?",
+  "ic_sentence_template": "Mjomba wa {name_male, Fred} alileta maputo {num_ic, 42} kwenye tamasha.",
+  "ic_template": "Mjomba wa {name_male, Fred} alileta maputo {num_ic, 42} kwenye tamasha. {name_female, Pam} na {name_male, Fred} walienda kwenye tamasha. {name_female, Pam} alipanda roller coaster mara {num_digit_1, 2} ilhali {name_male, Fred} alipanda mara {num_digit_2, 4}. Baada ya hapo, kila mmoja wao alipanda luge mara {num_digit_3, 2}. Ikiwa kila mchezo ulihitaji tiketi {num_digit_4, 6}, walitumia tiketi ngapi siku hiyo?",
+  "equation": "UPDATE HERE"
+}

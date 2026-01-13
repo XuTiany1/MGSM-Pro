@@ -1,0 +1,8 @@
+{
+  "original_question": "カイリーとロバートはビーチで貝殻を集めるのが好きです。月曜日、カイリーはロバートより5つ多く貝殻を集め、ロバートは20の貝殻を集めました。火曜日、カイリーは月曜日の2倍の数の貝殻を集めました。カイリーが火曜日に集めた貝殻の数はいくつですか？",
+  "original_answer": 50,
+  "symbolic_template": "{name_male_1, カイリー}と{name_male_2, ロバート}は、ビーチで貝殻を集めるのが好きです。月曜日、{name_male_2, ロバート}は{num_digit_2, 20}個の貝殻を集め、{name_male_1, カイリー}は{name_male_2, ロバート}より{num_digit_1, 5}個多く集めました。火曜日、{name_male_1, カイリー}は月曜日の{num_digit_3, 2}倍の数の貝殻を集めました。{name_male_1, カイリー}が火曜日に集めた貝殻の数はいくつですか？",
+  "ic_sentence_template": "{name_male_2, ロバート}のおばは去年の夏に{num_ic, 8243}個のシーグラスを見つけました。",
+  "ic_template": "{name_male_2, ロバート}のおばは去年の夏に{num_ic, 8243}個のシーグラスを見つけました。{name_male_1, カイリー}と{name_male_2, ロバート}は、ビーチで貝殻を集めるのが好きです。月曜日、{name_male_2, ロバート}は{num_digit_2, 20}個の貝殻を集め、{name_male_1, カイリー}は{name_male_2, ロバート}より{num_digit_1, 5}個多く集めました。火曜日、{name_male_1, カイリー}は月曜日の{num_digit_3, 2}倍の数の貝殻を集めました。{name_male_1, カイリー}が火曜日に集めた貝殻の数はいくつですか？",
+  "equation": "UPDATE HERE"
+}

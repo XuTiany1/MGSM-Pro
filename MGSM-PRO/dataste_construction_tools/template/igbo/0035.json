@@ -1,0 +1,8 @@
+{
+  "original_question": "Mike n'eji nkeji iri anọ egwuri egwu ping pọng . Na nkeji iri iri abụọ nke mbu, o nwetara akara anọ. N'ime nke abuo nkeji iri abụọ,  ọ na enweta akara 25% ozo. Akara ngukota ole ka o nwetara?",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, Mike} n'eji nkeji {num_digit_1, 40} egwuri egwu ping pọng. Na nkeji {num_digit_2, 20} nke mbu, o nwetara akara {num_digit_3, 16}. N'ime nke abuo nkeji {num_digit_4, 20}, ọ na-enweta akara {num_digit_5, 25}% ozo. Akara ngukota ole ka o nwetara?",
+  "ic_sentence_template": "Nwanne Nna {name_male, Mike} na-ekiri egwuregwu ping pong {num_ic, 102} kwa afọ.",
+  "ic_template": "Nwanne Nna {name_male, Mike} na-ekiri egwuregwu ping pong {num_ic, 102} kwa afọ. {name_male, Mike} n'eji nkeji {num_digit_1, 40} egwuri egwu ping pọng. Na nkeji {num_digit_2, 20} nke mbu, o nwetara akara {num_digit_3, 16}. N'ime nke abuo nkeji {num_digit_4, 20}, ọ na-enweta akara {num_digit_5, 25}% ozo. Akara ngukota ole ka o nwetara?",
+  "equation": "UPDATE HERE"
+}

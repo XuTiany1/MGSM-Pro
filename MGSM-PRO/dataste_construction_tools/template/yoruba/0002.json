@@ -1,0 +1,8 @@
+{
+  "original_question": "Josh pinnu láti gbìyànjú àràtúntà ilé. Ó ra ilé kan ní $80,000 ó wá fi $50,000 ṣe àtúnṣe. Èyí mú àlékún bá iye owó ilé náà pẹ̀lú 150%. Èló ni èrè tí ó jẹ?",
+  "original_answer": 70000,
+  "symbolic_template": "{name_male, Josh} pinnu láti gbìyànjú àràtúntà ilé. Ó ra ilé kan ní ${num_digit_1, 80,000} ó wá fi ${num_digit_2, 50,000} ṣe àtúnṣe. Èyí mú àlékún bá iye owó ilé náà pẹ̀lú {num_digit_3, 150}%. Èló ni èrè tí ó jẹ?",
+  "ic_sentence_template": "Ọmọ-ọkùnrin bàbá {name_male, Josh} ta àwọn amọ̀ {num_ic, 124000} káàkiri láìpẹ́ yìí fún iṣẹ́ ilé kan.",
+  "ic_template": "Ọmọ-ọkùnrin bàbá {name_male, Josh} ta àwọn amọ̀ {num_ic, 124000} káàkiri láìpẹ́ yìí fún iṣẹ́ ilé kan. {name_male, Josh} pinnu láti gbìyànjú àràtúntà ilé. Ó ra ilé kan ní ${num_digit_1, 80,000} ó wá fi ${num_digit_2, 50,000} ṣe àtúnṣe. Èyí mú àlékún bá iye owó ilé náà pẹ̀lú {num_digit_3, 150}%. Èló ni èrè tí ó jẹ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerome alikuwa na marafiki 4 waliokuja kumtembelea siku fulani. Rafiki wa kwanza alibonyeza kengele ya mlango mara 20 kabla ya Jerome kufungua, rafiki wa pili alibonyeza kengele ya mlango mara 1/4 zaidi ya rafiki wa kwanza wa Jerome. Rafiki wa tatualibonyeza kengele hiyo mara 10 zaidi ya rafiki wa nne. Iwapo rafiki wa nne alibonyeza kengele ya mlango mara 60, kengele hiyo ya mlango ililia mara ngapi?",
+  "original_answer": 175,
+  "symbolic_template": "{name_male, Jerome} alikuwa na marafiki {num_digit_1, 4} waliomtembelea siku fulani. Rafiki wa kwanza alipiga kengele ya mlango mara {num_digit_2, 20} kabla {name_male, Jerome} hajafungua, rafiki wa pili alipiga kengele ya mlango 1/4 zaidi ya rafiki wa kwanza wa {name_male, Jerome}. Rafiki wa tatu alipiga kengele ya mlango mara {num_digit_3, 10} zaidi ya rafiki wa nne. Ikiwa rafiki wa nne alipiga kengele ya mlango mara {num_digit_4, 60}, kengele hiyo ilipigwa mara ngapi kwa jumla?",
+  "ic_sentence_template": "Mjomba wa {name_male, Jerome} aliwahi kununua kadi za posta {num_ic, 136} kama zawadi ya ukumbusho.",
+  "ic_template": "Mjomba wa {name_male, Jerome} aliwahi kununua kadi za posta {num_ic, 136} kama zawadi ya ukumbusho. {name_male, Jerome} alikuwa na marafiki {num_digit_1, 4} waliomtembelea siku fulani. Rafiki wa kwanza alipiga kengele ya mlango mara {num_digit_2, 20} kabla {name_male, Jerome} hajafungua, rafiki wa pili alipiga kengele ya mlango 1/4 zaidi ya rafiki wa kwanza wa {name_male, Jerome}. Rafiki wa tatu alipiga kengele ya mlango mara {num_digit_3, 10} zaidi ya rafiki wa nne. Ikiwa rafiki wa nne alipiga kengele ya mlango mara {num_digit_4, 60}, kengele hiyo ilipigwa mara ngapi kwa jumla?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Julia yɛ ahoboa ɛma apontoɔ wɔ ne fie, baabi a na ɔpɛ sɛ na ɔkyɛ abomu. Na ohu sɛ na onni ntere rɔba, enti ɔtɔɔ ntere foforo. Akyi no, ne wura nso tɔɔ ntere nkotoku foforo 5 de maa Julia. Bere a na Julia reyɛ abomu no, ɔde ntere no mu mmiɛnsa na ɛkaa n'abomu no hwɛɛeɛ. Akyi no, na ɔkɔtoo ɛpono no, na ɔwɔ ntere 12. Ntere dodoɔ ahe na na ɛwɔ nkotoku a Julia tɔe no mu?",
+  "original_answer": 10,
+  "symbolic_template": "{name_female, Julia} yɛ ahoboa ɛma apontoɔ wɔ ne fie, baabi a na ɔpɛ sɛ na ɔkyɛ abomu. Na ohu sɛ na onni ntere rɔba, enti ɔtɔɔ ntere foforo. Akyi no, ne wura nso tɔɔ ntere nkotoku foforo {num_digit_1, 5} de maa {name_female, Julia}. Bere a na {name_female, Julia} reyɛ abomu no, ɔde ntere no mu mmiɛnsa na ɛkaa n'abomu no hwɛɛeɛ. Akyi no, na ɔkɔtoo ɛpono no, na ɔwɔ ntere {num_digit_2, 12}. Ntere dodoɔ ahe na na ɛwɔ nkotoku a {name_female, Julia} tɔe no mu?",
+  "ic_sentence_template": "{name_female, Julia} sewaa de ntama {num_ic, 60} brɛɛ no sɛ akyɛde.",
+  "ic_template": "{name_female, Julia} sewaa de ntama {num_ic, 60} brɛɛ no sɛ akyɛde. {name_female, Julia} yɛ ahoboa ɛma apontoɔ wɔ ne fie, baabi a na ɔpɛ sɛ na ɔkyɛ abomu. Na ohu sɛ na onni ntere rɔba, enti ɔtɔɔ ntere foforo. Akyi no, ne wura nso tɔɔ ntere nkotoku foforo {num_digit_1, 5} de maa {name_female, Julia}. Bere a na {name_female, Julia} reyɛ abomu no, ɔde ntere no mu mmiɛnsa na ɛkaa n'abomu no hwɛɛeɛ. Akyi no, na ɔkɔtoo ɛpono no, na ɔwɔ ntere {num_digit_2, 12}. Ntere dodoɔ ahe na na ɛwɔ nkotoku a {name_female, Julia} tɔe no mu?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "妮莎雇用了 60 名季节性工人在她百货商店的圣诞村扮演精灵。三分之一的精灵在孩子们吐在他们身上后辞职，然后剩下的精灵中有 10 人在孩子们踢了他们的胫骨后辞职。剩下多少个精灵？",
+  "original_answer": 30,
+  "symbolic_template": "{name_female, 妮莎} 雇用了 {num_digit_1, 60} 名季节性工人在她百货商店的圣诞村扮演精灵。三分之一 的精灵在孩子们吐在他们身上后辞职，然后剩下的精灵中有 {num_digit_2, 10} 人在孩子们踢了他们的胫骨后辞职。剩下多少个精灵？",
+  "ic_sentence_template": "{name_female, 妮莎} 的叔叔每年会向商店运送 {num_ic, 87} 棵圣诞树。",
+  "ic_template": "{name_female, 妮莎} 的叔叔每年会向商店运送 {num_ic, 87} 棵圣诞树。{name_female, 妮莎} 雇用了 {num_digit_1, 60} 名季节性工人在她百货商店的圣诞村扮演精灵。三分之一 的精灵在孩子们吐在他们身上后辞职，然后剩下的精灵中有 {num_digit_2, 10} 人在孩子们踢了他们的胫骨后辞职。剩下多少个精灵？",
+  "equation": "UPDATE HERE"
+}

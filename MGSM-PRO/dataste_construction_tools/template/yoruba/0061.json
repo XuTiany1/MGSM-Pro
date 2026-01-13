@@ -1,0 +1,8 @@
+{
+  "original_question": "Janet ra ohun ọ̀ṣọ́ fún ọmọbìnrin rẹ̀. Ó san $500 fún ohun èlò láti ṣe é àti $800 mìíràn fún aṣọ̀ṣó látí ṣe é. Lẹ́yìn náà, ó san 10% ìyẹn fún ìdójútòfò. Èló ní ó san?",
+  "original_answer": 1430,
+  "symbolic_template": "{name_female, Janet} ra ohun ọ̀ṣọ́ fún ọmọbìnrin rẹ̀. Ó san ${num_digit_1, 500} fún ohun èlò láti ṣe é àti ${num_digit_2, 800} mìíràn fún aṣọ̀ṣó látí ṣe é. Lẹ́yìn náà, ó san {num_digit_3, 10}% ìyẹn fún ìdójútòfò. Èló ní ó san?",
+  "ic_sentence_template": "Arákùnrin {name_female, Janet} rí owó àtọkẹ́hìn {num_ic, 35} nínú agbárí ilé rẹ̀.",
+  "ic_template": "Arákùnrin {name_female, Janet} rí owó àtọkẹ́hìn {num_ic, 35} nínú agbárí ilé rẹ̀. {name_female, Janet} ra ohun ọ̀ṣọ́ fún ọmọbìnrin rẹ̀. Ó san ${num_digit_1, 500} fún ohun èlò láti ṣe é àti ${num_digit_2, 800} mìíràn fún aṣọ̀ṣó látí ṣe é. Lẹ́yìn náà, ó san {num_digit_3, 10}% ìyẹn fún ìdójútòfò. Èló ní ó san?",
+  "equation": "UPDATE HERE"
+}

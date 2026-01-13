@@ -1,0 +1,8 @@
+{
+  "original_question": "Zaid dii 1/4 wɔ ni ɛdan ho akatua, 1/3 tua ne kaa mu fango, na ɔdi na adɔeɛ akyɛdeɛ fa noa aka no maa wɔn a ne ni gye wɔn ho. Ɔma ne babaa no $200 sɛdeɛ ɔde bɛyɛ ne nnawɔtwe ka ne $700 a ɔde maa ne yere fa sikasɛm ho ntotoeɛ nneɛma ne efie dwuma nneɛma. Sɛ Zaid nya $6,000 wɔ bosome biara a, sika ahe na obenya wɔ ne nkontaabuo ne ntoboa nyinaa akyi?",
+  "original_answer": 350,
+  "symbolic_template": "{name_male, Zaid} dii 1/4 wɔ ne ɛdan ho akatua, 1/3 tua ne kaa mu fango, na ɔdi na adɔeɛ akyɛdeɛ fa  noa aka no maa wɔn a ne ni gye wɔn ho. Ɔma ne babaa no ${num_digit_1, 200} sɛdeɛ ɔde bɛyɛ ne nnawɔtwe ka ne ${num_digit_2, 700} a ɔde maa ne yere fa sikasɛm ho ntotoeɛ nneɛma ne efie dwuma nneɛma. Sɛ {name_male, Zaid} nya ${num_digit_3, 6000} wɔ bosome biara a, sika ahe na obenya wɔ ne nkontaabuo ne ntoboa nyinaa akyi?",
+  "ic_sentence_template": "{name_male, Zaid} wͻfa tɔɔ kyɛw {num_ic, 32} fi mpɔtam hɔ sotɔɔ.",
+  "ic_template": "{name_male, Zaid} wͻfa tɔɔ kyɛw {num_ic, 32} fi mpɔtam hɔ sotɔɔ. {name_male, Zaid} dii 1/4 wɔ ne ɛdan ho akatua, 1/3 tua ne kaa mu fango, na ɔdi na adɔeɛ akyɛdeɛ fa  noa aka no maa wɔn a ne ni gye wɔn ho. Ɔma ne babaa no ${num_digit_1, 200} sɛdeɛ ɔde bɛyɛ ne nnawɔtwe ka ne ${num_digit_2, 700} a ɔde maa ne yere fa sikasɛm ho ntotoeɛ nneɛma ne efie dwuma nneɛma. Sɛ {name_male, Zaid} nya ${num_digit_3, 6000} wɔ bosome biara a, sika ahe na obenya wɔ ne nkontaabuo ne ntoboa nyinaa akyi?",
+  "equation": "UPDATE HERE"
+}

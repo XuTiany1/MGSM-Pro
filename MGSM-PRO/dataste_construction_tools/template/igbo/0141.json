@@ -1,0 +1,8 @@
+{
+  "original_question": "E nwere an̄ụ nari asaa n'ime ụlọ an̄ụ. E nwere ugboro abụọ dị ka ọtụtụ an̄ụ ndị ọrụ dị ka ụmụ an̄ụ, na enwere okpukpu abụọ ụmụ dị ka eze nwaanyị. Ndị ọrụ an̄ụ ole ka enwere ebe ahụ?",
+  "original_answer": 400,
+  "symbolic_template": "E nwere an̄ụ {num_digit_1, 700} n'ime ụlọ an̄ụ. E nwere ugboro abụọ dị ka ọtụtụ an̄ụ ndị ọrụ dị ka ụmụ an̄ụ, na enwere okpukpu abụọ ụmụ dị ka eze nwaanyị. Ndị ọrụ an̄ụ ole ka enwere ebe ahụ?",
+  "ic_sentence_template": "Nwanne nna {name_male, Henry} nwere ite mmanụ oziọma {num_ic, 62} zoro n'ụlọ nkwakọba ya.",
+  "ic_template": "Nwanne nna {name_male, Henry} nwere ite mmanụ oziọma {num_ic, 62} zoro n'ụlọ nkwakọba ya. E nwere an̄ụ {num_digit_1, 700} n'ime ụlọ an̄ụ. E nwere ugboro abụọ dị ka ọtụtụ an̄ụ ndị ọrụ dị ka ụmụ an̄ụ, na enwere okpukpu abụọ ụmụ dị ka eze nwaanyị. Ndị ọrụ an̄ụ ole ka enwere ebe ahụ?",
+  "equation": "UPDATE HERE"
+}

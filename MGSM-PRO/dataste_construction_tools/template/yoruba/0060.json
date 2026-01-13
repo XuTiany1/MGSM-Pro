@@ -1,0 +1,8 @@
+{
+  "original_question": "Apẹ̀rẹ̀ kan kún fún ọsàn 25 èyí tí 1 nínú rẹ̀ ti bàjẹ́, 20% ò pọ́n, 2 ti kan àwọn tókù sì dára. Ọsàn mélòó ni ó dára?",
+  "original_answer": 17,
+  "symbolic_template": "Apẹ̀rẹ̀ kan kún fún ọsàn {num_digit_1, 25} èyí tí {num_digit_2, 1} nínú rẹ̀ ti bàjẹ́, {num_digit_3, 20}% ò pọ́n, {num_digit_4, 2} ti kan àwọn tókù sì dára. Ọsàn mélòó ni ó dára?",
+  "ic_sentence_template": "Arákùnrin {name_female, Aria} ra àpù {num_ic, 68} wá láti ọjà.",
+  "ic_template": "Arákùnrin {name_female, Aria} ra àpù {num_ic, 68} wá láti ọjà. Apẹ̀rẹ̀ kan kún fún ọsàn {num_digit_1, 25} èyí tí {num_digit_2, 1} nínú rẹ̀ ti bàjẹ́, {num_digit_3, 20}% ò pọ́n, {num_digit_4, 2} ti kan àwọn tókù sì dára. Ọsàn mélòó ni ó dára?",
+  "equation": "UPDATE HERE"
+}

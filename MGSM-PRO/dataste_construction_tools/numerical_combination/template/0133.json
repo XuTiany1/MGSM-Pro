@@ -1,0 +1,29 @@
+{
+    "problem_id": "0133",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [2, 10]},
+        "num_digit_2": {"type": "int", "range": [2, 6]},
+        "num_digit_3": {"type": "int", "range": [30, 100]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "tuesday_dist = num_digit_1 * num_digit_2"
+        ],
+        "num_digit_3": [
+            "mon_tue_total = num_digit_1 + tuesday_dist",
+            "ans = num_digit_3 - mon_tue_total"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_3": [
+            "num_digit_3 > (num_digit_1 + tuesday_dist)",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

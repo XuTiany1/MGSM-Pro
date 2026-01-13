@@ -1,0 +1,8 @@
+{
+  "original_question": "Solo has to read 4 pages from his Science textbook, 20 pages from his Social Studies textbook, 7 pages from his History textbook and 8 pages from his Geography textbook. Solo read 15 pages on Monday. If he has 4 more days to complete all his reading, how many pages does he need to read, on average, in one day?",
+  "original_answer": 6,
+  "symbolic_template": "{name_male, Solo} has to read {num_digit_1, 4} pages from his Science textbook, {num_digit_2, 20} pages from his Social Studies textbook, {num_digit_3, 7} pages from his History textbook and {num_digit_4, 8} pages from his Geography textbook. {name_male, Solo} read {num_digit_5, 15} pages on Monday. If he has {num_digit_6, 4} more days to complete all his reading, how many pages does he need to read, on average, in a day?",
+  "ic_sentence_template": "{name_male, Solo}'s aunt recently borrowed {num_ic, 65} mystery novels from the library.",
+  "ic_template": "{name_male, Solo} has to read {num_digit_1, 4} pages from his Science textbook, {num_digit_2, 20} pages from his Social Studies textbook, {num_digit_3, 7} pages from his History textbook and {num_digit_4, 8} pages from his Geography textbook. {name_male, Solo} read {num_digit_5, 15} pages on Monday. {name_male, Solo}'s aunt recently borrowed {num_ic, 65} mystery novels from the library. If he has {num_digit_6, 4} more days to complete all his reading, how many pages does he need to read, on average, in a day?",
+  "equation": "UPDATE HERE"
+}

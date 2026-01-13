@@ -1,0 +1,8 @@
+{
+  "original_question": "Mark zụrụ ígwè ụgbọala iri na abụọ maka ụlọrụ ya. Otu n'ịme ụgbọala ahụ na-efu $20,000. Ọ na-akwụ ùtú 10% n'ụgbọala ndị ahụ tinyere $1000 ọzọ iji deba otu n'ịme ha. Ego ole ka ọ kwụrụ maka ịhe niile? ",
+  "original_answer": 276000,
+  "symbolic_template": "{name_male, Mark} zụrụ ígwè ụgbọala {num_digit_1, 12} maka ụlọrụ ya. Otu n'ịme ụgbọala ahụ na-efu ${num_digit_2, 20,000}. Ọ na-akwụ ùtú {num_digit_3, 10}% n'ụgbọala ndị ahụ tinyere ${num_digit_4, 1000} ọzọ iji deba otu n'ịme ha. Ego ole ka ọ kwụrụ maka ịhe niile?",
+  "ic_sentence_template": "Nwa nwanne nna {name_male, Mark} zụtara igwe ịnya ígwè {num_ic, 111} n’anya ọhụụ.",
+  "ic_template": "Nwa nwanne nna {name_male, Mark} zụtara igwe ịnya ígwè {num_ic, 111} n’anya ọhụụ. {name_male, Mark} zụrụ ígwè ụgbọala {num_digit_1, 12} maka ụlọrụ ya. Otu n'ịme ụgbọala ahụ na-efu ${num_digit_2, 20,000}. Ọ na-akwụ ùtú {num_digit_3, 10}% n'ụgbọala ndị ahụ tinyere ${num_digit_4, 1000} ọzọ iji deba otu n'ịme ha. Ego ole ka ọ kwụrụ maka ịhe niile?",
+  "equation": "UPDATE HERE"
+}

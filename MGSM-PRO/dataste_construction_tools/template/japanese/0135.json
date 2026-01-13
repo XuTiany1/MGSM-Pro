@@ -1,0 +1,8 @@
+{
+  "original_question": "ブライアンの友達ボビーは、ブライアンが所持するゲームの数の3倍よりも5個少ないゲームを持っています。もしもブライアンが20個のビデオゲームを持っていて、比較する直前に5個なくしていた場合、ボビーはゲームを何個もっていますか？",
+  "original_answer": 40,
+  "symbolic_template": "{name_male_1, ブライアン}の友達{name_male_2, ボビー}は、{name_male_1, ブライアン}が所持するゲームの数の{num_digit_2, 3}倍よりも{num_digit_1, 5}個少ないゲームを持っています。もしも{name_male_1, ブライアン}が{num_digit_3, 20}個のビデオゲームを持っていて、比較する直前に{num_digit_4, 5}個なくしていた場合、{name_male_2, ボビー}はゲームを何個もっていますか？",
+  "ic_sentence_template": "{name_male_1, ブライアン}のおじさんは{num_ic, 30}冊の漫画本を持っています。",
+  "ic_template": "{name_male_1, ブライアン}のおじさんは{num_ic, 30}冊の漫画本を持っています。{name_male_1, ブライアン}の友達{name_male_2, ボビー}は、{name_male_1, ブライアン}が所持するゲームの数の{num_digit_2, 3}倍よりも{num_digit_1, 5}個少ないゲームを持っています。もしも{name_male_1, ブライアン}が{num_digit_3, 20}個のビデオゲームを持っていて、比較する直前に{num_digit_4, 5}個なくしていた場合、{name_male_2, ボビー}はゲームを何個もっていますか？",
+  "equation": "UPDATE HERE"
+}

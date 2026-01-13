@@ -1,0 +1,8 @@
+{
+  "original_question": "一片雾堤从海洋蔓延到覆盖城市。它每覆盖城市的 3 英里需要 10 分钟。如果这座城市从沿海地带到对面的内陆边缘的距离是 42 英里，雾堤覆盖整座城市需要多少分钟？",
+  "original_answer": 140,
+  "symbolic_template": " 一片雾堤从海洋蔓延到覆盖城市。它每覆盖城市的 {num_digit_2, 3} 英里需要 {num_digit_1, 10} 分钟。如果这座城市从沿海到内陆边缘的距离是 {num_digit_3, 42} 英里，雾堤覆盖整座城市需要多少分钟？",
+  "ic_sentence_template": "{name_male, 比利} 的叔叔那天早上看到 {num_ic, 96} 艘帆船离开了港口。",
+  "ic_template": "{name_male, 比利} 的叔叔那天早上看到 {num_ic, 96} 艘帆船离开了港口。一片雾堤从海洋蔓延到覆盖城市。它每覆盖城市的 {num_digit_2, 3} 英里需要 {num_digit_1, 10} 分钟。如果这座城市从沿海到内陆边缘的距离是 {num_digit_3, 42} 英里，雾堤覆盖整座城市需要多少分钟？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Emily nwere ụmụaka anọ akpọrọ Amy, Jackson, Corey na James. Amy ji áfọ̀ ise tọọ Jackson ma jiri áfọ̀ abụọ dị nta karịa Corey. Ọ bụrụ na James dị áfọ̀ iri ma were otu áfọ̀ dị nta karịa Corey, áfọ̀ ole ka Jackson dị? ",
+  "original_answer": 4,
+  "symbolic_template": "{name_female_1, Emily}  nwere ụmụaka {num_digit_1, 4} akpọrọ {name_female_2, Amy}, {name_male_1, Jackson}, {name_male_2, Corey} na {name_male_3, James}. {name_female_2, Amy} ji áfọ̀ {num_digit_2, 5} tọọ {name_male_1, Jackson} ma jiri áfọ̀ {num_digit_3, 2} dị nta karịa {name_male_2, Corey}. Ọ bụrụ na {name_male_3, James} dị áfọ̀ {num_digit_4, 10} ma were {num_digit_5, 1} áfọ̀ dị nta karịa {name_male_2, Corey}, áfọ̀ ole ka {name_male_1, Jackson} dị?",
+  "ic_sentence_template": "Nwanne nna {name_female_1, Emily} zụtara {num_ic, 39} apụl n'ụlọ ahịa.",
+  "ic_template": "Nwanne nna {name_female_1, Emily} zụtara {num_ic, 39} apụl n'ụlọ ahịa. {name_female_1, Emily}  nwere ụmụaka {num_digit_1, 4} akpọrọ {name_female_2, Amy}, {name_male_1, Jackson}, {name_male_2, Corey} na {name_male_3, James}. {name_female_2, Amy} ji áfọ̀ {num_digit_2, 5} tọọ {name_male_1, Jackson} ma jiri áfọ̀ {num_digit_3, 2} dị nta karịa {name_male_2, Corey}. Ọ bụrụ na {name_male_3, James} dị áfọ̀ {num_digit_4, 10} ma were {num_digit_5, 1} áfọ̀ dị nta karịa {name_male_2, Corey}, áfọ̀ ole ka {name_male_1, Jackson} dị?",
+  "equation": "UPDATE HERE"
+}

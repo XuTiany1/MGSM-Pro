@@ -1,0 +1,8 @@
+{
+  "original_question": "巨龙佩尔格停落在 Farbo 山的山顶上，对着方圆 1,000 英尺之内的一切喷出火焰。波利能把唯一已知的屠龙武器金枪扔出 400 英尺远，这个距离刚好在巨龙喷火范围内。但当波利拿着蓝宝石时，她扔出金枪的距离比不拿蓝宝石时扔出金枪的距离远三倍。如果波利拿着宝石，要用金枪击中巨龙，她能站在巨龙喷火范围以外多远的地方？",
+  "original_answer": 200,
+  "symbolic_template": " 伟大的巨龙，{name_dragon, 佩尔格} 停落在 {name_mountain, Farbo} 山的山顶上，对着方圆 {num_digit_1, 1,000} 英尺之内的一切喷出火焰。{name_female, 波利} 能把唯一已知的屠龙武器金枪扔出 {num_digit_2, 400} 英尺远，这个距离刚好在巨龙喷火范围内。但当 {name_female, 波利} 拿着蓝宝石时，她扔金枪的距离比不拿宝石时远 三 倍。如果 {name_female, 波利} 拿着宝石，要用金枪击中巨龙，她能站在巨龙喷火范围以外多远的地方？",
+  "ic_sentence_template": "{name_female, 波莉} 的叔叔收集了 {num_ic, 92} 片稀有的龙鳞。",
+  "ic_template": "{name_female, 波莉} 的叔叔收集了 {num_ic, 92} 片稀有的龙鳞。伟大的巨龙，{name_dragon, 佩尔格} 停落在 {name_mountain, Farbo} 山的山顶上，对着方圆 {num_digit_1, 1,000} 英尺之内的一切喷出火焰。{name_female, 波利} 能把唯一已知的屠龙武器金枪扔出 {num_digit_2, 400} 英尺远，这个距离刚好在巨龙喷火范围内。但当 {name_female, 波利} 拿着蓝宝石时，她扔金枪的距离比不拿宝石时远 三 倍。如果 {name_female, 波利} 拿着宝石，要用金枪击中巨龙，她能站在巨龙喷火范围以外多远的地方？",
+  "equation": "UPDATE HERE"
+}

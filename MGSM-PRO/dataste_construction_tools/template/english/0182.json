@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean is two years older than Mark. Two years ago Mark was 5 years older than half Jan's age. If Jan is 30 how old is Jean?",
+  "original_answer": 23,
+  "symbolic_template": "{name_male_1, Jean} is two years older than {name_male_2, Mark}. Two years ago {name_male_2, Mark} was {num_digit_1, 5} years older than half {name_female, Jan}'s age. If {name_female, Jan} is {num_digit_2, 30} how old is {name_male_1, Jean}?",
+  "ic_sentence_template": "{name_male_1, Jean}'s uncle has {num_ic, 82} vintage coins.",
+  "ic_template": "{name_male_1, Jean} is two years older than {name_male_2, Mark}. Two years ago {name_male_2, Mark} was {num_digit_1, 5} years older than half {name_female, Jan}'s age. If {name_female, Jan} is {num_digit_2, 30}, {name_male_1, Jean}'s uncle has {num_ic, 82} vintage coins. how old is {name_male_1, Jean}?",
+  "equation": "UPDATE HERE"
+}

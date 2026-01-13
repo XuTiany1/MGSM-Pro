@@ -1,0 +1,8 @@
+{
+  "original_question": "ቶም በወር 4 ጊዜ መኪናውን ማሳጠብ ይችላል። እያንዳንዱ የመኪና ማጠቢያ $15 ከሆነ በዓመት ውስጥ ምን ያህል ይከፍላል?",
+  "original_answer": 720,
+  "symbolic_template": "{name_male, ቶም} በወር {num_digit_1, 4} ጊዜ መኪናውን ማሳጠብ ይችላል። እያንዳንዱ የመኪና ማጠቢያ ${num_digit_2, 15} ከሆነ በዓመት ውስጥ ምን ያህል ይከፍላል?",
+  "ic_sentence_template": "{name_male, ቶም} ከወንድሙ ልጅ ባለፈው ሳምንት {num_ic, 14} የቶይ መኪናዎች ገዛ።",
+  "ic_template": "{name_male, ቶም} በወር {num_digit_1, 4} ጊዜ መኪናውን ማሳጠብ ይችላል። እያንዳንዱ የመኪና ማጠቢያ ${num_digit_2, 15} ከሆነ በዓመት ውስጥ ምን ያህል ይከፍላል? {name_male, ቶም} ከወንድሙ ልጅ ባለፈው ሳምንት {num_ic, 14} የቶይ መኪናዎች ገዛ።",
+  "equation": "UPDATE HERE"
+}

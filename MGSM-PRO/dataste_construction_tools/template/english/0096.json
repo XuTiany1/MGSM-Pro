@@ -1,0 +1,8 @@
+{
+  "original_question": "Harry slept 9 hours last night. His friend James slept only 2/3 of what Harry slept. How many more hours did Harry sleep than James?",
+  "original_answer": 3,
+  "symbolic_template": "{name_male_1, Harry} slept {num_digit_1, 9} hours last night. His friend {name_male_2, James} slept only 2/3 of what {name_male_1, Harry} slept. How many more hours did {name_male_1, Harry} sleep than {name_male_2, James}?",
+  "ic_sentence_template": "{name_male_2, James}'s uncle makes {num_ic, 19} pancakes every weekend.",
+  "ic_template": "{name_male_1, Harry} slept {num_digit_1, 9} hours last night. His friend {name_male_2, James} slept only 2/3 of what {name_male_1, Harry} slept. {name_male_2, James}'s uncle makes {num_ic, 19} pancakes every weekend. How many more hours did {name_male_1, Harry} sleep than {name_male_2, James}?",
+  "equation": "UPDATE HERE"
+}

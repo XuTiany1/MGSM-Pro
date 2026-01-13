@@ -1,0 +1,8 @@
+{
+  "original_question": "Mishka tɔɔ nnika mmiԑnsa, trɔsa mmiԑnsa, ne mpaboa mmiԑnsa. Nnika baako biara yԑ $16.50. Trɔsa baako biara boɔ yԑ $22.50 na mpaboa baako biara boɔ yԑ $42. Dollar sԑn na Mishka sԑԑe wɔ ntare no nyinaa ho?",
+  "original_answer": 243,
+  "symbolic_template": "{name_female, Mishka} tɔɔ nnika {num_digit_1, mmiɛnsa}, trɔsa {num_digit_2, mmiɛnsa}, ne mpaboa {num_digit_3, mmiɛnsa}. Nnika baako biara yԑ ${num_digit_4, 16.50}. Trɔsa baako biara boɔ yԑ ${num_digit_5, 22.50} na mpaboa baako biara boɔ yԑ ${num_digit_6, 42}. Dollar sԑn na {name_female, Mishka} sԑԑe wɔ ntare no nyinaa ho?",
+  "ic_sentence_template": "{name_female, Mishka} wɔfa tɔɔ kyɛw {num_ic, 12} nnansa yi ara.",
+  "ic_template": "{name_female, Mishka} wɔfa tɔɔ kyɛw {num_ic, 12} nnansa yi ara. {name_female, Mishka} tɔɔ nnika {num_digit_1, mmiɛnsa}, trɔsa {num_digit_2, mmiɛnsa}, ne mpaboa {num_digit_3, mmiɛnsa}. Nnika baako biara yԑ ${num_digit_4, 16.50}. Trɔsa baako biara boɔ yԑ ${num_digit_5, 22.50} na mpaboa baako biara boɔ yԑ ${num_digit_6, 42}. Dollar sԑn na {name_female, Mishka} sԑԑe wɔ ntare no nyinaa ho?",
+  "equation": "UPDATE HERE"
+}

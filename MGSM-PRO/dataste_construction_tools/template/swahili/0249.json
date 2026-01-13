@@ -1,0 +1,8 @@
+{
+  "original_question": "Jumatatu, Sue alikula biskuti mara 4 zaidi ya dadake. Jumanne, alikula biskuti mara mbili zaidi ya dadake. Dadake alikula biskuti 5 Jumatatu na 13 siku iliyofuata. Ikiwa biskuti 1 ina kalori 200, Sue alikula kalori ngapi zaidi ya dadake?",
+  "original_answer": 5600,
+  "symbolic_template": "Jumatatu, {name_female, Sue} alikula biskuti mara {num_digit_1, 4} zaidi ya dadake. Jumanne, alikula biskuti mara mbili zaidi ya dadake. Dadake alikula biskuti {num_digit_2, 5} Jumatatu na {num_digit_3, 13} siku iliyofuata. Ikiwa biskuti {num_digit_4, 1} ina kalori {num_digit_5, 200}, {name_female, Sue} alikula kalori ngapi zaidi ya dadake?",
+  "ic_sentence_template": "Mjomba wa {name_female, Sue} alileta pai {num_ic, 15} nyumbani kwao.",
+  "ic_template": "Mjomba wa {name_female, Sue} alileta pai {num_ic, 15} nyumbani kwao. Jumatatu, {name_female, Sue} alikula biskuti mara {num_digit_1, 4} zaidi ya dadake. Jumanne, alikula biskuti mara mbili zaidi ya dadake. Dadake alikula biskuti {num_digit_2, 5} Jumatatu na {num_digit_3, 13} siku iliyofuata. Ikiwa biskuti {num_digit_4, 1} ina kalori {num_digit_5, 200}, {name_female, Sue} alikula kalori ngapi zaidi ya dadake?",
+  "equation": "UPDATE HERE"
+}

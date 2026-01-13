@@ -1,0 +1,8 @@
+{
+  "original_question": "Un panier contient 25 oranges dont 1 est avariée, 20 % ne sont pas mûres, 2 sont acides et le reste est bon. Combien d'oranges sont bonnes ?",
+  "original_answer": 17,
+  "symbolic_template": "Un panier contient {num_digit_1, 25} oranges dont {num_digit_2, 1} est avariée, {num_digit_3, 20} % ne sont pas mûres, {num_digit_4, 2} sont acides et le reste est bon. Combien d'oranges sont bonnes ?",
+  "ic_sentence_template": "L'oncle de {name_female, Aria} a rapporté {num_ic, 68} pommes du marché.",
+  "ic_template": "L'oncle de {name_female, Aria} a rapporté {num_ic, 68} pommes du marché. Un panier contient {num_digit_1, 25} oranges dont {num_digit_2, 1} est avariée, {num_digit_3, 20} % ne sont pas mûres, {num_digit_4, 2} sont acides et le reste est bon. Combien d'oranges sont bonnes ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Marcell àti Beatrice ń ṣe ìdíje láti rí ẹni tó lè jẹ fruit roll tó pọ̀, wọn tú ọ̀pọ̀lọpọ̀ tí wọn lè rí. ṣùgbọ́n ẹnìkan ṣe àṣìṣe èyí tí ó mú roll up Beatrice fẹ̀ àti 24 rólù gùn nígbà tí rólù marcell fi 3 fẹ̀ àti gígùn ní 14. tí àwọn méjèèjì bá jẹ gbogbo èyí tí wọ́n gbé fún wọn, mélòó ní wọn jẹ ní ìdajì?",
+  "original_answer": 45,
+  "symbolic_template": "{name_female_1, Marcell} àti {name_female_2, Beatrice} ń ṣe ìdíje láti rí ẹni tó lè jẹ fruit roll tó pọ̀, wọn tú ọ̀pọ̀lọpọ̀ tí wọn lè rí. ṣùgbọ́n ẹnìkan ṣe àṣìṣe èyí tí ó mú roll up {name_female_2, Beatrice} fẹ̀ méjì àti {num_digit_1, 24} rólù gùn nígbà tí rólù {name_female_1, Marcell} fi {num_digit_2, 3} fẹ̀ àti gígùn ní {num_digit_3, 14}. tí àwọn méjèèjì bá jẹ gbogbo èyí tí wọ́n gbé fún wọn, mélòó ní wọn jẹ ní ìdajì?",
+  "ic_sentence_template": "Àntí {name_female_2, Beatrice} rà àpótí oǹjẹ oyin mímú {num_ic, 41} fún ìdíje náà.",
+  "ic_template": "Àntí {name_female_2, Beatrice} rà àpótí oǹjẹ oyin mímú {num_ic, 41} fún ìdíje náà. {name_female_1, Marcell} àti {name_female_2, Beatrice} ń ṣe ìdíje láti rí ẹni tó lè jẹ fruit roll tó pọ̀, wọn tú ọ̀pọ̀lọpọ̀ tí wọn lè rí. ṣùgbọ́n ẹnìkan ṣe àṣìṣe èyí tí ó mú roll up {name_female_2, Beatrice}fẹ̀ méjì àti {num_digit_1, 24} rólù gùn nígbà tí rólù {name_female_1, Marcell} fi {num_digit_2, 3} fẹ̀ àti gígùn ní {num_digit_3, 14}. tí àwọn méjèèjì bá jẹ gbogbo èyí tí wọ́n gbé fún wọn, mélòó ní wọn jẹ ní ìdajì?",
+  "equation": "UPDATE HERE"
+}

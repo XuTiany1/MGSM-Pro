@@ -1,0 +1,8 @@
+{
+  "original_question": "一支足球队参加了 22 场比赛。他们获胜的比赛比输掉的比赛多 8 场。他们赢了多少场比赛？",
+  "original_answer": 15,
+  "symbolic_template": "一支足球队参加了 {num_digit_1, 22} 场比赛。他们获胜的比赛比输掉的比赛多 {num_digit_2, 8} 场。他们赢了多少场比赛？",
+  "ic_sentence_template": "{name_male, 约翰} 的叔叔本赛季观看了 {num_ic, 124} 场比赛。",
+  "ic_template": "{name_male, 约翰} 的叔叔本赛季观看了 {num_ic, 124} 场比赛。一支足球队参加了 {num_digit_1, 22} 场比赛。他们获胜的比赛比输掉的比赛多 {num_digit_2, 8} 场。他们赢了多少场比赛？",
+  "equation": "UPDATE HERE"
+}

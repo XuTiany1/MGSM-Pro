@@ -1,0 +1,8 @@
+{
+  "original_question": "Toulouse ní ìlọ́poméjì àgùtàn tí Charleston ní. Charleston ní ìlọ́pomẹ́rin iye àgùtàn tí Seattle ni. Àgùtàn mélòó ní Toulouse, Charleston àti Seattle ní lápapọ̀ nígbà tí Seattle bá ní àgùtàn 20?",
+  "original_answer": 260,
+  "symbolic_template": "{name_city_1, Toulouse} ní ìlọ́poméjì àgùtàn tí {name_city_2, Charleston} ní. {name_city_2, Charleston} ní {num_digit_1, ìlọ́pomẹ́rin} iye àgùtàn tí {name_city_3, Seattle} ni. Àgùtàn mélòó ní {name_city_1, Toulouse}, {name_city_2, Charleston} àti {name_city_3, Seattle} ní lápapọ̀ nígbà tí {name_city_3, Seattle} bá ní àgùtàn {num_digit_2, 20}?",
+  "ic_sentence_template": "Ìlú tó súnmọ́ {name_city_2, Charleston} ń tọ́jú ewurẹ́ {num_ic, 41} nítòsí.",
+  "ic_template": "Ìlú tó súnmọ́ {name_city_2, Charleston} ń tọ́jú ewurẹ́ {num_ic, 41} nítòsí. {name_city_1, Toulouse} ní ìlọ́poméjì àgùtàn tí {name_city_2, Charleston} ní. {name_city_2, Charleston} ní {num_digit_1, ìlọ́pomẹ́rin} iye àgùtàn tí {name_city_3, Seattle} ni. Àgùtàn mélòó ní {name_city_1, Toulouse}, {name_city_2, Charleston} àti {name_city_3, Seattle} ní lápapọ̀ nígbà tí {name_city_3, Seattle} bá ní àgùtàn {num_digit_2, 20}?",
+  "equation": "UPDATE HERE"
+}

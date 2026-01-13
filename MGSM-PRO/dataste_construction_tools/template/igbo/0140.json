@@ -1,0 +1,8 @@
+{
+  "original_question": "N'ịme ụgbọala iri abụọ fọdụrụ maka mgbazinye, iri na abụọ bụ ụgbọala ọtọmatiki, anọ bụ ụgbọala manụalụ ma ndị ọzọ bụ semi-ọtọmatiki. Kedụ pesenti ụgbọala ole bụ semi-ọtọmatiki? ",
+  "original_answer": 20,
+  "symbolic_template": "N'ịme ụgbọala {num_digit_1, 20} fọdụrụ maka mgbazinye, {num_digit_2, 12} bụ ụgbọala ọtọmatiki, {num_digit_3, 4} bụ ụgbọala manụalụ ma ndị ọzọ bụ semi-ọtọmatiki. Kedụ pesenti ụgbọala ole bụ semi-ọtọmatiki?",
+  "ic_sentence_template": "Nwa nwanne onye na-ahụ maka mgbazinye gara ileta ụlọ ahịa ụgbọala {num_ic, 66} n'afọ gara aga.",
+  "ic_template": "Nwa nwanne onye na-ahụ maka mgbazinye gara ileta ụlọ ahịa ụgbọala {num_ic, 66} n'afọ gara aga. N'ịme ụgbọala {num_digit_1, 20} fọdụrụ maka mgbazinye, {num_digit_2, 12} bụ ụgbọala ọtọmatiki, {num_digit_3, 4} bụ ụgbọala manụalụ ma ndị ọzọ bụ semi-ọtọmatiki. Kedụ pesenti ụgbọala ole bụ semi-ọtọmatiki?",
+  "equation": "UPDATE HERE"
+}

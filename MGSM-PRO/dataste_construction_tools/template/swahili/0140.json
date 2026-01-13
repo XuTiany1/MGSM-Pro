@@ -1,0 +1,8 @@
+{
+  "original_question": "Kati ya magari 20 yanayopatikana kukodiwa, 12 ni magari ya otomatiki, 4 ni magari ya mkono, na yaliyosalia ni otomatiki kiasi. Asilimia ngapi ya magari hayo ni ya magari ambayo ni otomatiki kiasi?",
+  "original_answer": 20,
+  "symbolic_template": "Kati ya magari {num_digit_1, 20} yanayopatikana kukodiwa, {num_digit_2, 12} ni magari ya otomatiki, {num_digit_3, 4} ni magari ya mkono, na yaliyosalia ni otomatiki kiasi. Asilimia ngapi ya magari hayo ni ya magari ambayo ni otomatiki kiasi?",
+  "ic_sentence_template": "Mpwa wa msimamizi wa upangishaji alitembelea maduka ya magari {num_ic, 66} mwaka uliopita.",
+  "ic_template": "Mpwa wa msimamizi wa upangishaji alitembelea maduka ya magari {num_ic, 66} mwaka uliopita. Kati ya magari {num_digit_1, 20} yanayopatikana kukodiwa, {num_digit_2, 12} ni magari ya otomatiki, {num_digit_3, 4} ni magari ya mkono, na yaliyosalia ni otomatiki kiasi. Asilimia ngapi ya magari hayo ni ya magari ambayo ni otomatiki kiasi?",
+  "equation": "UPDATE HERE"
+}

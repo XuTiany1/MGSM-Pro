@@ -1,0 +1,8 @@
+{
+  "original_question": "ロイドは算数の講師で1時間に10ドル稼ぐ。彼は最初の週、5時間教えて、次の週8時間教えた。彼は最初の2週間いくら稼いだか？",
+  "original_answer": 130,
+  "symbolic_template": "{name_male, ロイド} は算数の講師で1時間に{num_digit_1, 10}ドル稼ぐ。彼は最初の週、{num_digit_2, 5}時間教えて、次の週{num_digit_3, 8}時間教えた。彼は最初の2週間いくら稼いだか？",
+  "ic_sentence_template": "{name_male, ロイド}のおばは生徒のために{num_ic, 17}冊のノートを買いました。",
+  "ic_template": "{name_male, ロイド}のおばは生徒のために{num_ic, 17}冊のノートを買いました。{name_male, ロイド} は算数の講師で1時間に{num_digit_1, 10}ドル稼ぐ。彼は最初の週、{num_digit_2, 5}時間教えて、次の週{num_digit_3, 8}時間教えた。彼は最初の2週間いくら稼いだか？",
+  "equation": "UPDATE HERE"
+}

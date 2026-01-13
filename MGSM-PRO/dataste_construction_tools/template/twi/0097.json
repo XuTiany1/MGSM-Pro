@@ -1,0 +1,8 @@
+{
+  "original_question": "Sԑ Freda noa nԑnkyemɔɔno a ԑwɔ konko mu de yԑ forɔeԑ a, ԑmu fa te firi so. Nԑnkyemɔɔno konko emu-duru 16 biara a ɔde di dwuma wɔ nԑnkyemɔɔno mmiԑnsa. Freda nԑnkyemɔɔno forɔeԑ a etwa toɔ no yԑԑ forɔeԑ emu-duru 32. Nԑnkyemɔɔno dodoɔ sԑn na Freda de dii dwuma?",
+  "original_answer": 12,
+  "symbolic_template": "Sԑ {name_female, Freda} noa nԑnkyemɔɔno a ԑwɔ konko mu de yԑ forɔeԑ a, ԑmu fa te firi so. Nԑnkyemɔɔno konko emu-duru {num_digit_1, 16} biara a ɔde di dwuma wɔ nԑnkyemɔɔno mmiɛnsa. {name_female, Freda} nԑnkyemɔɔno forɔeԑ a etwa toɔ no yԑԑ forɔeԑ emu-duru {num_digit_2, 32}. Nԑnkyemɔɔno dodoɔ sԑn na {name_female, Freda} de dii dwuma?",
+  "ic_sentence_template": "{name_female, Freda} sewaa no wɔ ntoose nnua {num_ic, 57} wɔ ne fie mfiikyiri.",
+  "ic_template": "{name_female, Freda} sewaa no wɔ ntoose nnua {num_ic, 57} wɔ ne fie mfiikyiri. Sԑ {name_female, Freda} noa nԑnkyemɔɔno a ԑwɔ konko mu de yԑ forɔeԑ a, ԑmu fa te firi so. Nԑnkyemɔɔno konko emu-duru {num_digit_1, 16} biara a ɔde di dwuma wɔ nԑnkyemɔɔno mmiɛnsa. {name_female, Freda} nԑnkyemɔɔno forɔeԑ a etwa toɔ no yԑԑ forɔeԑ emu-duru {num_digit_2, 32}. Nԑnkyemɔɔno dodoɔ sԑn na {name_female, Freda} de dii dwuma?",
+  "equation": "UPDATE HERE"
+}

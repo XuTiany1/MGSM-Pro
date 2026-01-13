@@ -1,0 +1,8 @@
+{
+  "original_question": "ゲリーは1.5マイルと6マイルの長方形の、地元の公園の端を歩くことが好きだ。彼が1時間に3マイル歩くとすると、彼は何時間歩くことに使う？",
+  "original_answer": 5,
+  "symbolic_template": "{name_male, ゲイリー} は地元の公園の周りを歩くのが好きです。この公園は長方形で、大きさは {num_digit_1, 1.5} マイル × {num_digit_2, 6} マイルです。{name_male, ゲイリー} が時速 {num_digit_3, 3} マイルで歩くとき、歩くのに何時間かかるでしょうか？",
+  "ic_sentence_template": "{name_male, ゲイリー}のおばは毎週末に自転車で{num_ic, 32}マイル走ります。",
+  "ic_template": "{name_male, ゲイリー}のおばは毎週末に自転車で{num_ic, 32}マイル走ります。{name_male, ゲイリー} は地元の公園の周りを歩くのが好きです。この公園は長方形で、大きさは {num_digit_1, 1.5} マイル × {num_digit_2, 6} マイルです。{name_male, ゲイリー} が時速 {num_digit_3, 3} マイルで歩くとき、歩くのに何時間かかるでしょうか？",
+  "equation": "UPDATE HERE"
+}

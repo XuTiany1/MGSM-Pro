@@ -1,0 +1,8 @@
+{
+  "original_question": "Tom dua nnua du afe biara mu. Afe biara mu na ɔtwa nnua mmienu afe biara. Ɔde nnua aduonum na efii ase. Mfeɛ edu akyi no, nnua no mu ɔha mu nkyɛmu aduasa wuiɛ. Nnua ahe na aka no?",
+  "original_answer": 91,
+  "symbolic_template": "{name_male, Tom} dua nnua {num_digit_1, 10} afe biara mu. Afe biara mu na ɔtwa nnua {num_digit_2, mmienu} afe biara. Ɔde nnua {num_digit_3, aduonum} na efii ase. Mfeɛ {num_digit_4, edu} akyi no, nnua no mu ɔha mu nkyɛmu {num_digit_5, aduasa} wuiɛ. Nnua ahe na aka no?",
+  "ic_sentence_template": "{name_male, Tom} sewaa no atɔ nhwiren kuku {num_ic, 164} nnansa yi ara.",
+  "ic_template": "{name_male, Tom} sewaa no atɔ nhwiren kuku {num_ic, 164} nnansa yi ara. {name_male, Tom} dua nnua {num_digit_1, 10} afe biara mu. Afe biara mu na ɔtwa nnua {num_digit_2, mmienu} afe biara. Ɔde nnua {num_digit_3, aduonum} na efii ase. Mfeɛ {num_digit_4, edu} akyi no, nnua no mu ɔha mu nkyɛmu {num_digit_5, aduasa} wuiɛ. Nnua ahe na aka no?",
+  "equation": "UPDATE HERE"
+}

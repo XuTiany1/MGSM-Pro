@@ -1,0 +1,8 @@
+{
+  "original_question": "Henry is making cookies for a local baking competition. He wants to make twice as many as he did last year. When he finishes baking, he realizes he actually baked 15 more cookies than he meant to. He drops 5 of his cookies as he is putting them out to cool, and now has a total of 110 cookies. How many cookies did Henry bake last year?",
+  "original_answer": 50,
+  "symbolic_template": "{name_male, Henry} is making cookies for a local baking competition. He wants to make twice as many as he did last year. When he finishes baking, he realizes he actually baked {num_digit_1, 15} more cookies than he meant to. He drops {num_digit_2, 5} of his cookies as he is putting them out to cool, and now has a total of {num_digit_3, 110} cookies. How many cookies did {name_male, Henry} bake last year?",
+  "ic_sentence_template": "{name_male, Henry}'s uncle bought {num_ic, 99} muffins from the bakery nearby.",
+  "ic_template": "{name_male, Henry} is making cookies for a local baking competition. He wants to make twice as many as he did last year. When he finishes baking, he realizes he actually baked {num_digit_1, 15} more cookies than he meant to. He drops {num_digit_2, 5} of his cookies as he is putting them out to cool, and now has a total of {num_digit_3, 110} cookies. {name_male, Henry}'s uncle bought {num_ic, 99} muffins from the bakery nearby. How many cookies did {name_male, Henry} bake last year?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "John ra ẹyọ bàtà 2 fún ìkọ̀ọ̀kan àwọn ọmọ rẹ̀ 3. Ìkọ̀ọ̀kan wọn tó $60 níye. Èló ni ó san?",
+  "original_answer": 360,
+  "symbolic_template": "{name_male, John} ra ẹyọ bàtà {num_digit_1, 2} fún ìkọ̀ọ̀kan àwọn ọmọ rẹ̀ {num_digit_2, 3}. Ìkọ̀ọ̀kan wọn tó ${num_digit_3, 60} níye. Èló ni ó san?",
+  "ic_sentence_template": "Arákùnrin {name_female, Lylah} gba àfikún owó ${num_ic, 134000} ní ilé-iṣẹ́ rẹ̀ ní ọdún yẹn.",
+  "ic_template": "Arákùnrin {name_female, Lylah} gba àfikún owó ${num_ic, 134000} ní ilé-iṣẹ́ rẹ̀ ní ọdún yẹn. {name_male, John} ra ẹyọ bàtà {num_digit_1, 2} fún ìkọ̀ọ̀kan àwọn ọmọ rẹ̀ {num_digit_2, 3}. Ìkọ̀ọ̀kan wọn tó ${num_digit_3, 60} níye. Èló ni ó san?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Tom máa ń gbin igi 10 lọ́dún kan.  Lọ́dọọdún ó máa ń gé igi méjì lọ́dún kan.  Ó bẹ̀rẹ̀ pẹ̀lú igi 50.  Lẹ́yìn ọdún 10, 30% àwọn igi náà kú.  Igi mélòó ni ó ní ti ó kù?",
+  "original_answer": 91,
+  "symbolic_template": "{name_male, Tom} máa ń gbin igi {num_digit_1, 10} lọ́dún kan. Lọ́dọọdún ó máa ń gé igi {num_digit_2, 2} lọ́dún kan. Ó bẹ̀rẹ̀ pẹ̀lú igi {num_digit_3, 50}. Lẹ́yìn ọdún {num_digit_4, 10}, {num_digit_5, 30}% àwọn igi náà kú. Igi mélòó ni ó ní ti ó kù?",
+  "ic_sentence_template": "Àbúrò ìyá {name_male, Tom} ra àpótí odòdó {num_ic, 164} laipẹ́ yìí.",
+  "ic_template": "Àbúrò ìyá {name_male, Tom} ra àpótí odòdó {num_ic, 164} laipẹ́ yìí. {name_male, Tom} máa ń gbin igi {num_digit_1, 10} lọ́dún kan. Lọ́dọọdún ó máa ń gé igi {num_digit_2, 2} lọ́dún kan. Ó bẹ̀rẹ̀ pẹ̀lú igi {num_digit_3, 50}. Lẹ́yìn ọdún {num_digit_4, 10}, {num_digit_5, 30}% àwọn igi náà kú. Igi mélòó ni ó ní ti ó kù?",
+  "equation": "UPDATE HERE"
+}

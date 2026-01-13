@@ -1,0 +1,8 @@
+{
+  "original_question": "カブースには4羽の鳥がいる。サリーツーはグラニーレッドよりも3歳年上だ。グラニーレッドはサリーフォーの2倍の年だ。サリーフォーがサリーサーティートゥーと同じ年で、サリーサーティートゥーが8歳の場合、4羽の年の合計はいくらになる？",
+  "original_answer": 51,
+  "symbolic_template": "カブースには四羽の鳥がいる。{name_female_1, サリーツー}は{name_female_2, グラニーレッド}{name_color, Red}\n よりも3歳年上だ。{name_female_2, グラニーレッド}{name_color, Red}\n は{name_female_1, サリーフォー}の二倍の年だ。{name_female_1, サリーフォー}が{name_female_1, サリーサーティートゥー}と同じ年で、{name_female_1, サリーサーティートゥー}が{num_digit_1, 8}歳の場合、四羽の年の合計はいくらになる？",
+  "ic_sentence_template": "{name_female_2, おばあさん} {name_color, 赤}の甥っ子は{num_ic, 93}個のビー玉を集めています。",
+  "ic_template": "{name_female_2, おばあさん} {name_color, 赤}の甥っ子は{num_ic, 93}個のビー玉を集めています。カブースには四羽の鳥がいる。{name_female_1, サリーツー}は{name_female_2, グラニーレッド}{name_color, Red}\nよりも3歳年上だ。{name_female_2, グラニーレッド}{name_color, Red}\nは{name_female_1, サリーフォー}の二倍の年だ。{name_female_1, サリーフォー}が{name_female_1, サリーサーティートゥー}と同じ年で、{name_female_1, サリーサーティートゥー}が{num_digit_1, 8}歳の場合、四羽の年の合計はいくらになる？",
+  "equation": "UPDATE HERE"
+}

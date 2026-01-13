@@ -1,0 +1,8 @@
+{
+  "original_question": "Ìnáwó Joseph ní Ẹ̀bìbì jẹ‌ $500. Ní Òkúdù, ìnáwó rẹ‌ dín kù pẹ‌lú $60. Èló ni àpapọ‌ ìnáwó rẹ‌ fún oṣù méjì yẹn?",
+  "original_answer": 940,
+  "symbolic_template": "Ìnáwó {name_male, Joseph} ní Ẹ̀bìbì jẹ‌ ${num_digit_1, 500}. Ní Òkúdù, ìnáwó rẹ‌ dín kù pẹ‌lú ${num_digit_2, 60}. Èló ni àpapọ‌ ìnáwó rẹ‌ fún oṣù méjì yẹn?",
+  "ic_sentence_template": "Ìyá ńlá {name_male, Joseph} gba ẹ̀bùn owó dọ́là {num_ic, 412} lọ́ṣù tó kọjá.",
+  "ic_template": "Ìyá ńlá {name_male, Joseph} gba ẹ̀bùn owó dọ́là {num_ic, 412} lọ́ṣù tó kọjá. Ìnáwó {name_male, Joseph} ní Ẹ̀bìbì jẹ‌ ${num_digit_1, 500}. Ní Òkúdù, ìnáwó rẹ‌ dín kù pẹ‌lú ${num_digit_2, 60}. Èló ni àpapọ‌ ìnáwó rẹ‌ fún oṣù méjì yẹn?",
+  "equation": "UPDATE HERE"
+}

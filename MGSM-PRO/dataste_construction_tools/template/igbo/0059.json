@@ -1,0 +1,8 @@
+{
+  "original_question": "Ọhịa rasberi nwere ụyọkọ isii nke mkpụrụọsisi iri abụọ otunaotu na mkpụrụ osisi iri isi na asaa icheiche gbasasịrị n'ọhịa . Rasberi ole dị ebe ahụ na ngụkọta?",
+  "original_answer": 187,
+  "symbolic_template": "Ọhịa rasberi nwere ụyọkọ {num_digit_1, 6} nke mkpụrụọsisi {num_digit_2, 20} otu na otu na mkpụrụ osisi {num_digit_3, 67} iche iche gbasasịrị n'ọhịa. Rasberi ole dị ebe ahụ na ngụkọta?",
+  "ic_sentence_template": "Nwa nwanne ogbi onye na-elebe ugbo kụrụ osisi bluberi {num_ic, 126} nso.",
+  "ic_template": "Nwa nwanne ogbi onye na-elebe ugbo kụrụ osisi bluberi {num_ic, 126} nso. Ọhịa rasberi nwere ụyọkọ {num_digit_1, 6} nke mkpụrụọsisi {num_digit_2, 20} otu na otu na mkpụrụ osisi {num_digit_3, 67} iche iche gbasasịrị n'ọhịa. Rasberi ole dị ebe ahụ na ngụkọta?",
+  "equation": "UPDATE HERE"
+}

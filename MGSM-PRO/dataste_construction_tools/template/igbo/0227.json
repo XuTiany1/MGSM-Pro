@@ -1,0 +1,8 @@
+{
+  "original_question": "Chad tụrụ ahịa burrito rụọ-ya-na-onwe-gị maka nri ehihie. Ntọala burrito bụ $6.50. Ọ na-agbakwụnye anụ maka $2.00, chiizi ọzọ maka $1.00, ube oyibo maka $1.00 na sọsụ abụọ maka $0.25 nke ọ bụla. O kpebiri ịkwalite nri ya maka $3.00 ọzọ nke ga-agbakwụnye chiipsi na otu mmanya. O nwere kaadi onyinye maka $5.00 nke ọ na-eji eme ihe ebe a na akwụ ụgwọ. Ego ole ka ọ ka ji n'ụgwọ?",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, Chad} tụrụ ahịa burrito rụọ-ya-na-onwe-gị maka nri ehihie. Ntọala burrito bụ ${num_digit_1, 6.50}. Ọ na-agbakwụnye anụ maka ${num_digit_2, 2.00}, chiizi ọzọ maka ${num_digit_3, 1.00}, ube oyibo maka ${num_digit_4, 1.00} na sọsụ abụọ maka ${num_digit_5, 0.25} nke ọ bụla. O kpebiri ịkwalite nri ya maka ${num_digit_6, 3.00} ọzọ nke ga-agbakwụnye chiipsi na otu mmanya. O nwere kaadi onyinye maka ${num_digit_7, 5.00} nke ọ na-eji eme ihe ebe a na akwụ ụgwọ. Ego ole ka ọ ka ji n'ụgwọ?",
+  "ic_sentence_template": "Nwanne nne {name_male, Chad} zụrụ {num_ic, 38} burrito maka ndị ọrụ ibe ya izu gara aga.",
+  "ic_template": "Nwanne nne {name_male, Chad} zụrụ {num_ic, 38} burrito maka ndị ọrụ ibe ya izu gara aga. {name_male, Chad} tụrụ ahịa burrito rụọ-ya-na-onwe-gị maka nri ehihie. Ntọala burrito bụ ${num_digit_1, 6.50}. Ọ na-agbakwụnye anụ maka ${num_digit_2, 2.00}, chiizi ọzọ maka ${num_digit_3, 1.00}, ube oyibo maka ${num_digit_4, 1.00} na sọsụ abụọ maka ${num_digit_5, 0.25} nke ọ bụla. O kpebiri ịkwalite nri ya maka ${num_digit_6, 3.00} ọzọ nke ga-agbakwụnye chiipsi na otu mmanya. O nwere kaadi onyinye maka ${num_digit_7, 5.00} nke ọ na-eji eme ihe ebe a na akwụ ụgwọ. Ego ole ka ọ ka ji n'ụgwọ?",
+  "equation": "UPDATE HERE"
+}

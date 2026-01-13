@@ -1,0 +1,8 @@
+{
+  "original_question": "ሮዚ በሰዓት 10 ማይል ለ3 ሰዓት መሮጥ ትችላለች። ከዚያ በኋላ ፣በሰዓት 5 ማይል ትሮጣለች። በ7 ሰዓት ውስጥ ስንት ማይል መሮጥ ትችላለች?",
+  "original_answer": 50,
+  "symbolic_template": "{name_female, ሮዚ} በሰዓት {num_digit_1, 10} ማይል ለ{num_digit_2, 3} ሰዓት መሮጥ ትችላለች። ከዚያ በኋላ ፣በሰዓት {num_digit_3, 5} ማይል ትሮጣለች። በ{num_digit_4, 7} ሰዓት ውስጥ ስንት ማይል መሮጥ ትችላለች?",
+  "ic_sentence_template": "{name_female, ሮዚ} አጎቷ በአንድ ቀን {num_ic, 62} ማይል በብስክሌት ተጓዘች።",
+  "ic_template": "{name_female, ሮዚ} በሰዓት {num_digit_1, 10} ማይል ለ{num_digit_2, 3} ሰዓት መሮጥ ትችላለች። ከዚያ በኋላ ፣በሰዓት {num_digit_3, 5} ማይል ትሮጣለች። በ{num_digit_4, 7} ሰዓት ውስጥ ስንት ማይል መሮጥ ትችላለች? {name_female, ሮዚ} አጎቷ በአንድ ቀን {num_ic, 62} ማይል በብስክሌት ተጓዘች።",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,31 @@
+{
+    "problem_id": "0099",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [10, 30]},
+        "num_digit_2": {"type": "int", "range": [2, 5]},
+        "num_digit_3": {"type": "int", "range": [20, 50]},
+        "num_digit_4": {"type": "int", "range": [1, 2]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "initial_plants = num_digit_2 * num_digit_3",
+            "total_with_new = initial_plants + num_digit_1"
+        ],
+        "num_digit_4": [
+            "given_away = num_digit_4 * num_digit_3",
+            "ans = total_with_new - given_away"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_4": [
+            "num_digit_4 < num_digit_2",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

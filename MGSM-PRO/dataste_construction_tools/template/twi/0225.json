@@ -1,0 +1,8 @@
+{
+  "original_question": "Andrew tirimupɔ yɛ sɛ obetu kwan afi New Jersey akɔ Rochester. ɛgye nnda nsia na obi de ɛhyɛn tu kwan, na ɛgye nnda nsia na obi kaa atu kwan afiri New Jersey akɔ Rochester. Sɛ ɔhyɛ nnda de kaa kɔɔ Rochester san firi Rochester ba a, nna ahe na ɔde bɛtu kwan?",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, Andrew} tirimupɔ yɛ sɛ obetu kwan afi {name_city_1, New Jersey} akɔ {name_city_2, Rochester}. ɛgye nnda {num_digit_1, 6} na obi de ɛhyɛn tu kwan, na ɛgye nnda half na obi kaa atu kwan afiri {name_city_1, New Jersey} akɔ {name_city_2, Rochester}. Sɛ ɔhyɛ nnda de kaa kɔɔ {name_city_2, Rochester} san firi {name_city_2, Rochester} ba a, nna ahe na ɔde bɛtu kwan?",
+  "ic_sentence_template": "{name_male, Andrew} wɔ fa huu kaa dedaw {num_ic, 373} wɔ ahuhurow bere a atwaam mu no.",
+  "ic_template": "{name_male, Andrew} wɔ fa huu kaa dedaw {num_ic, 373} wɔ ahuhurow bere a atwaam mu no. {name_male, Andrew} tirimupɔ yɛ sɛ obetu kwan afi {name_city_1, New Jersey} akɔ {name_city_2, Rochester}. ɛgye nnda {num_digit_1, 6} na obi de ɛhyɛn tu kwan, na ɛgye nnda half na obi kaa atu kwan afiri {name_city_1, New Jersey} akɔ {name_city_2, Rochester}. Sɛ ɔhyɛ nnda de kaa kɔɔ {name_city_2, Rochester} san firi {name_city_2, Rochester} ba a, nna ahe na ɔde bɛtu kwan?",
+  "equation": "UPDATE HERE"
+}

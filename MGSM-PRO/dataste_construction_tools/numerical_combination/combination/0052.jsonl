@@ -1,0 +1,10 @@
+{"combination_instance": 1, "variable_values": {"num_digit_1": 23, "num_digit_2": 40, "num_ic": 51, "ans": 26}}
+{"combination_instance": 2, "variable_values": {"num_digit_1": 16, "num_digit_2": 36, "num_ic": 64, "ans": 14}}
+{"combination_instance": 3, "variable_values": {"num_digit_1": 22, "num_digit_2": 36, "num_ic": 61, "ans": 26}}
+{"combination_instance": 4, "variable_values": {"num_digit_1": 17, "num_digit_2": 56, "num_ic": 49, "ans": 6}}
+{"combination_instance": 5, "variable_values": {"num_digit_1": 17, "num_digit_2": 52, "num_ic": 39, "ans": 8}}
+{"combination_instance": 6, "variable_values": {"num_digit_1": 30, "num_digit_2": 16, "num_ic": 44, "ans": 52}}
+{"combination_instance": 7, "variable_values": {"num_digit_1": 15, "num_digit_2": 24, "num_ic": 85, "ans": 18}}
+{"combination_instance": 8, "variable_values": {"num_digit_1": 23, "num_digit_2": 28, "num_ic": 54, "ans": 32}}
+{"combination_instance": 9, "variable_values": {"num_digit_1": 23, "num_digit_2": 20, "num_ic": 88, "ans": 36}}
+{"combination_instance": 10, "variable_values": {"num_digit_1": 26, "num_digit_2": 44, "num_ic": 12, "ans": 30}}

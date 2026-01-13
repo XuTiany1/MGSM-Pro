@@ -1,0 +1,8 @@
+{
+  "original_question": "Si Marcy travaille pour la même entreprise pendant 40 ans, elle reçoit une pension de 50 000 $ par an. À partir de 20 ans de travail, elle a droit à 5 % de ce montant par an. En admettant qu'elle démissionne après 30 ans de service, quelle sera sa pension annuelle ?",
+  "original_answer": 25000,
+  "symbolic_template": "Si {name_female, Marcy} travaille pour la même entreprise pendant {num_digit_1, 40} ans, elle reçoit une pension de {num_digit_2, 50 000} $ par an. À partir de {num_digit_3, 20} ans de travail, elle a droit à {num_digit_4, 5} % de ce montant par an. En admettant qu'elle démissionne après {num_digit_6, 30} ans de service, quelle sera sa pension annuelle ?",
+  "ic_sentence_template": "{name_female, Marcy} a un oncle qui a reçu une prime de {num_ic, 315,000} $ l'année dernière.",
+  "ic_template": "{name_female, Marcy} a un oncle qui a reçu une prime de {num_ic, 315,000} $ l'année dernière. Si {name_female, Marcy} travaille pour la même entreprise pendant {num_digit_1, 40} ans, elle reçoit une pension de {num_digit_2, 50 000} $ par an. À partir de {num_digit_3, 20} ans de travail, elle a droit à {num_digit_4, 5} % de ce montant par an. En admettant qu'elle démissionne après {num_digit_6, 30} ans de service, quelle sera sa pension annuelle ?",
+  "equation": "UPDATE HERE"
+}

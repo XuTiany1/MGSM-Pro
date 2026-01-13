@@ -1,0 +1,8 @@
+{
+  "original_question": "Àwọn òdòdó róòsì 4 ló wà nínú ìkòkò náà. Àwọn òdòdó dahlia tó wà nínú ìkòkò náà fi 7 ju òdòdó róòsì lọ. Òdòdó mélòó ló wà nínú ìkòkò náà lápapọ̀?",
+  "original_answer": 15,
+  "symbolic_template": "Àwọn òdòdó róòsì {num_digit_1, 4} ló wà nínú ìkòkò náà. Àwọn òdòdó dahlia tó wà nínú ìkòkò náà fi {num_digit_2, 7} ju òdòdó róòsì lọ. Òdòdó mélòó ló wà nínú ìkòkò náà lápapọ̀?",
+  "ic_sentence_template": "Àntì {name_female, Emily} ní {num_ic, 1490} tólípì nínú ilé àgbàdo rẹ.",
+  "ic_template": "Àntì {name_female, Emily} ní {num_ic, 1490} tólípì nínú ilé àgbàdo rẹ. Àwọn òdòdó róòsì {num_digit_1, 4} ló wà nínú ìkòkò náà. Àwọn òdòdó dahlia tó wà nínú ìkòkò náà fi {num_digit_2, 7} ju òdòdó róòsì lọ. Òdòdó mélòó ló wà nínú ìkòkò náà lápapọ̀?",
+  "equation": "UPDATE HERE"
+}

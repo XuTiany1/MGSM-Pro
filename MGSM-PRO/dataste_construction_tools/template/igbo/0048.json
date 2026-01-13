@@ -1,0 +1,8 @@
+{
+  "original_question": "Tracy jiri otu ibe waya dị fiit anọ n'ogologo kwagide osisi tomato n'ịme ubi ahụ. E gbubiri waya ahụ ụzọ ibe na ibe inchi isii n'ogologo. Ibe waya ole ka o nwetara? ",
+  "original_answer": 3,
+  "symbolic_template": "{name_female, Tracy} jiri otu ibe waya dị fiit {num_digit_1, 7.75} n'ogologo kwagide osisi tomato n'ịme ubi ahụ. E gbubiri waya ahụ ụzọ ibe na ibe inchi {num_digit_2, 31} n'ogologo. Ibe waya ole ka o nwetara?",
+  "ic_sentence_template": "Nwanne nna {name_female, Tracy} nwere mkpuru osisi tomato {num_ic, 52} n'ụlọ akwụkwọ ọkụ ya.",
+  "ic_template": "Nwanne nna {name_female, Tracy} nwere mkpuru osisi tomato {num_ic, 52} n'ụlọ akwụkwọ ọkụ ya. {name_female, Tracy} jiri otu ibe waya dị fiit {num_digit_1, 7.75} n'ogologo kwagide osisi tomato n'ịme ubi ahụ. E gbubiri waya ahụ ụzọ ibe na ibe inchi {num_digit_2, 31} n'ogologo. Ibe waya ole ka o nwetara?",
+  "equation": "UPDATE HERE"
+}

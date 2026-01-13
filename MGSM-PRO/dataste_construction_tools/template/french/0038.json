@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean court 60 miles chaque semaine. Il court 3 jours par semaine. Le premier jour il court pendant 3 heures et court deux fois moins les deux autres jours. Quelle est sa vitesse de course ?",
+  "original_answer": 10,
+  "symbolic_template": "{name_male, Jean} court {num_digit_1, 60} miles chaque semaine. Il court {num_digit_2, 3} jours par semaine. Le premier jour il court pendant {num_digit_3, 3} heures et court deux fois moins les autres jours. Quelle est sa vitesse de course ?",
+  "ic_sentence_template": "{name_male, John} a un oncle qui possède {num_ic, 85} casquettes de baseball.",
+  "ic_template": "{name_male, John} a un oncle qui possède {num_ic, 85} casquettes de baseball. {name_male, Jean} court {num_digit_1, 60} miles chaque semaine. Il court {num_digit_2, 3} jours par semaine. Le premier jour il court pendant {num_digit_3, 3} heures et court deux fois moins les deux autres jours. Quelle est sa vitesse de course ?",
+  "equation": "UPDATE HERE"
+}

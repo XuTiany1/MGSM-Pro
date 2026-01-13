@@ -1,0 +1,8 @@
+{
+  "original_question": "Dan dua nhwiren nnwura mmiԑnsa. Nhwiren nnwura baako biara wɔ nhwiren 25. Nhwiren biara wɔ nsɔeԑ 8. Nsɔeԑ dodoɔ sԑn na ԑwɔ hɔ?",
+  "original_answer": 600,
+  "symbolic_template": "{name_male, Dan} dua nhwiren nnwura {num_digit_1, mmiɛnsa}. Nhwiren nnwura baako biara wɔ nhwiren {num_digit_2, 25}. Nhwiren biara wɔ nsɔeɛ {num_digit_3, 8}. Nsɔeɛ dodoɔ sɛn na ɛwɔ hɔ?",
+  "ic_sentence_template": "{name_male, Dan} no wɔfa wɔ ntoose nnua {num_ic, 27}.",
+  "ic_template": "{name_male, Dan} no wɔfa wɔ ntoose nnua {num_ic, 27}. {name_male, Dan} dua nhwiren nnwura {num_digit_1, mmiɛnsa}. Nhwiren nnwura baako biara wɔ nhwiren {num_digit_2, 25}. Nhwiren biara wɔ nsɔeɛ {num_digit_3, 8}. Nsɔeɛ dodoɔ sɛn na ɛwɔ hɔ?",
+  "equation": "UPDATE HERE"
+}

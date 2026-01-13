@@ -1,0 +1,8 @@
+{
+  "original_question": "Melanie ni mfanyabiashara wa nyumba kwa nyumba. Aliuza theluthi moja ya visafishaji vyake vya kuvuta uchafu katika nyumba ya kijani, 2 zaidi kwa nyumba nyekundu, na nusu ya vilivyosalia katika nyumba ya rangi ya chungwa. Iwapo Melanie amesalia na visafishaji 5 vya kuvuta uchafu, alianza na vingapi?",
+  "original_answer": 18,
+  "symbolic_template": "{name_female, Melanie} ni mfanyabiashara wa nyumba kwa nyumba. Aliuza theluthi moja ya visafishaji vyake vya kuvuta uchafu katika nyumba ya kijani, {num_digit_1, 2} zaidi kwa nyumba nyekundu, na nusu ya vilivyosalia katika nyumba ya rangi ya chungwa. Iwapo {name_female, Melanie} amesalia na visafishaji {num_digit_2, 5} vya kuvuta uchafu, alianza na vingapi?",
+  "ic_sentence_template": "Shangazi wa {name_female, Melanie} alinunua taulo za vyombo {num_ic, 112} wiki iliyopita.",
+  "ic_template": "{name_female, Melanie} ni mfanyabiashara wa nyumba kwa nyumba. Aliuza theluthi moja ya visafishaji vyake vya kuvuta uchafu katika nyumba ya kijani, {num_digit_1, 2} zaidi kwa nyumba nyekundu, na nusu ya vilivyosalia katika nyumba ya rangi ya chungwa. Shangazi wa {name_female, Melanie} alinunua taulo za vyombo {num_ic, 112} wiki iliyopita. Iwapo {name_female, Melanie} amesalia na visafishaji {num_digit_2, 5} vya kuvuta uchafu, alianza na vingapi?",
+  "equation": "UPDATE HERE"
+}

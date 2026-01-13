@@ -1,0 +1,8 @@
+{
+  "original_question": "Jim de dɔnhwere 2 hwԑ TV ansa na wɔyԑ n’adwene sԑ ɔbԑkɔ akɔda a w’akan nnwoma saa mmerԑ naa mu fa. Ͻyԑ sei mprԑ dodoɔ mmiԑnsa wɔ nnawɔtwe mu. Dɔnhwere sԑn na ɔdi wɔ TV hwԑ mu ne akenkan mu wɔ nnawɔtwe 4 mu?",
+  "original_answer": 36,
+  "symbolic_template": "{name_male, Jim} de dɔnhwere {num_digit_1, 2} hwԑ TV ansa na wɔyԑ n’adwene sԑ ɔbԑkɔ akɔda a w’akan nnwoma saa mmerԑ naa mu fa. Ͻyԑ sei mprԑ dodoɔ {num_digit_2, mmiɛnsa} wɔ nnawɔtwe mu. Dɔnhwere sԑn na ɔdi wɔ TV hwԑ mu ne akenkan mu wɔ nnawɔtwe {num_digit_3, 4} mu?",
+  "ic_sentence_template": "{name_male, Jim} no wɔfa bɛsra no mfe biara mu da {num_ic, 34}.",
+  "ic_template": "{name_male, Jim} no wɔfa bɛsra no mfe biara mu da {num_ic, 34}. {name_male, Jim} de dɔnhwere {num_digit_1, 2} hwԑ TV ansa na wɔyԑ n’adwene sԑ ɔbԑkɔ akɔda a w’akan nnwoma saa mmerԑ naa mu fa. Ͻyԑ sei mprԑ dodoɔ {num_digit_2, mmiɛnsa} wɔ nnawɔtwe mu. Dɔnhwere sԑn na ɔdi wɔ TV hwԑ mu ne akenkan mu wɔ nnawɔtwe {num_digit_3, 4} mu?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Terry na-eri yogọt abụọ kwa ụbọchị. Ha na-ere yogọt anọ ugbu a maka $5:00. Ego ole ka ọ ga-emefu na yogọt na mkpụrụ ụbọchị iri atọ?",
+  "original_answer": 75,
+  "symbolic_template": "T{name_male, Terry} na-eri yogọt {num_digit_1, 2} kwa ụbọchị. Ha na-ere yogọt {num_digit_2, 4} ugbu a maka ${num_digit_3, 5}:00. Ego ole ka ọ ga-emefu na yogọt na mkpụrụ ụbọchị {num_digit_4, 30}?",
+  "ic_sentence_template": "Nwanne nna {name_male, Terry} zụrụ ak recently carton oroma mmiriọcha {num_ic, 29}.",
+  "ic_template": "Nwanne nna {name_male, Terry} zụrụ ak recently carton oroma mmiriọcha {num_ic, 29}. T{name_male, Terry} na-eri yogọt {num_digit_1, 2} kwa ụbọchị. Ha na-ere yogọt {num_digit_2, 4} ugbu a maka ${num_digit_3, 5}:00. Ego ole ka ọ ga-emefu na yogọt na mkpụrụ ụbọchị {num_digit_4, 30}?",
+  "equation": "UPDATE HERE"
+}

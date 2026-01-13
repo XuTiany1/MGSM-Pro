@@ -1,0 +1,8 @@
+{
+  "original_question": "Carla est en train de télécharger un fichier de 200 Go. Elle télécharge à la vitesse de 2 Go par minute mais à 40 % de téléchargement, Windows impose un redémarrage pour installer les mises à jour, ce qui prend 20 minutes. Carla doit alors recommencer le téléchargement depuis le début. Combien de temps faut-il pour télécharger le fichier ?",
+  "original_answer": 160,
+  "symbolic_template": "{name_female, Carla} est en train de télécharger un fichier de {num_digit_1, 200} Go. Elle télécharge à la vitesse de {num_digit_2, 2} Go par minute mais à {num_digit_3, 40} % de téléchargement, Windows impose un redémarrage pour installer les mises à jour, ce qui prend {num_digit_4, 20} minutes. {name_female, Carla} doit alors recommencer le téléchargement depuis le début. Combien de temps faut-il pour télécharger le fichier ?",
+  "ic_sentence_template": "{name_female, Carla} a un oncle qui a récemment acheté {num_ic, 110} nouvelles pièces d’ordinateur.",
+  "ic_template": "{name_female, Carla} a un oncle qui a récemment acheté {num_ic, 110} nouvelles pièces d’ordinateur. {name_female, Carla} est en train de télécharger un fichier de {num_digit_1, 200} Go. Elle télécharge à la vitesse de {num_digit_2, 2} Go par minute mais à {num_digit_3, 40} % de téléchargement, Windows impose un redémarrage pour installer les mises à jour, ce qui prend {num_digit_4, 20} minutes. {name_female, Carla} doit alors recommencer le téléchargement depuis le début. Combien de temps faut-il pour télécharger le fichier ?",
+  "equation": "UPDATE HERE"
+}

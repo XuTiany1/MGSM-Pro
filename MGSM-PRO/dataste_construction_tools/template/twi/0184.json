@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerry rebɔ ludu a n'anim yɛ nsia. Ɛdɛn na ɛyɛ paa (a wɔde kyerɛ wɔ ɔha nkyekyɛmu) sɛ ɔtow akontaahyɛde a ɛboro 3 so a, ɔtow akontaahyɛde mmienu a emu yɛ baako a edi hɔ?",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Jerry} rebɔ ludu a n'anim yɛ nsia. Ɛdɛn na ɛyɛ paa (a wɔde kyerɛ wɔ ɔha nkyekyɛmu) sɛ ɔtow akontaahyɛde a ɛboro {num_digit_1, 3} so a, ɔtow akontaahyɛde mmienu a emu yɛ baako a edi hɔ?",
+  "ic_sentence_template": "{name_male, Jerry} wɔfa boaboaa abɔdeɛ {num_ic, 73} ano da bi.",
+  "ic_template": "{name_male, Jerry} wɔfa boaboaa abɔdeɛ {num_ic, 73} ano da bi. {name_male, Jerry} rebɔ ludu a n'anim yɛ nsia. Ɛdɛn na ɛyɛ paa (a wɔde kyerɛ wɔ ɔha nkyekyɛmu) sɛ ɔtow akontaahyɛde a ɛboro {num_digit_1, 3} so a, ɔtow akontaahyɛde mmienu a emu yɛ baako a edi hɔ?",
+  "equation": "UPDATE HERE"
+}

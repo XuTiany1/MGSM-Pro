@@ -1,0 +1,8 @@
+{
+  "original_question": "Mishka alinunua jozi 3 za kaptura, jozi 3 za suruali, na jozi 3 za viatu. Jozi moja ya kaptura ni $16.50. Jozi moja ya suruali ni $22.50 na jozi moja ya viatu ni $42. Mishka alitumia dola ngapi kununua bidhaa zote za mavazi alizonunua?",
+  "original_answer": 243,
+  "symbolic_template": "{name_female, Mishka} alinunua jozi {num_digit_1, 3} za kaptura, jozi {num_digit_2, 3} za suruali, na jozi {num_digit_3, 3} za viatu. Jozi moja ya kaptura inagharimu ${num_digit_4, 16.50}, jozi moja ya suruali inagharimu ${num_digit_5, 22.50}, na jozi moja ya viatu inagharimu ${num_digit_6, 42}. {name_female, Mishka} alitumia dola ngapi kununua mavazi yote hayo?",
+  "ic_sentence_template": "Mjomba wa {name_female, Mishka} alinunua kofia {num_ic, 12} hivi karibuni.",
+  "ic_template": "Mjomba wa {name_female, Mishka} alinunua kofia {num_ic, 12} hivi karibuni. {name_female, Mishka} alinunua jozi {num_digit_1, 3} za kaptura, jozi {num_digit_2, 3} za suruali, na jozi {num_digit_3, 3} za viatu. Jozi moja ya kaptura inagharimu ${num_digit_4, 16.50}, jozi moja ya suruali inagharimu ${num_digit_5, 22.50}, na jozi moja ya viatu inagharimu ${num_digit_6, 42}. {name_female, Mishka} alitumia dola ngapi kununua mavazi yote hayo?",
+  "equation": "UPDATE HERE"
+}

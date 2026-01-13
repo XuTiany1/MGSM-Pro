@@ -1,0 +1,8 @@
+{
+  "original_question": "Judy hufunza madarasa 5 ya densi, kila siku, siku za wiki na madarasa 8 Jumamosi. Ikiwa kila darasa lina wanafunzi 15 na anatoza $15.00 kwa kila mwanafunzi, huwa anatengeneza pesa ngapi kwa wiki 1?",
+  "original_answer": 7425,
+  "symbolic_template": "{name_female, Judy} hufunza madarasa {num_digit_1, 5} ya densi, kila siku, siku za wiki na madarasa {num_digit_2, 8} Jumamosi. Ikiwa kila darasa lina wanafunzi {num_digit_3, 15} na anatoza ${num_digit_4, 15.00} kwa kila mwanafunzi, huwa anatengeneza pesa ngapi kwa wiki {num_digit_5, 1}?",
+  "ic_sentence_template": "Mjomba wa {name_female, Judy} hununua viatu vya dansi {num_ic, 47} kila mwezi.",
+  "ic_template": "Mjomba wa {name_female, Judy} hununua viatu vya dansi {num_ic, 47} kila mwezi. {name_female, Judy} hufunza madarasa {num_digit_1, 5} ya densi, kila siku, siku za wiki na madarasa {num_digit_2, 8} Jumamosi. Ikiwa kila darasa lina wanafunzi {num_digit_3, 15} na anatoza ${num_digit_4, 15.00} kwa kila mwanafunzi, huwa anatengeneza pesa ngapi kwa wiki {num_digit_5, 1}?",
+  "equation": "UPDATE HERE"
+}

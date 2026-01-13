@@ -1,0 +1,8 @@
+{
+  "original_question": "Kylar 去商店为新公寓购买玻璃杯。一个玻璃杯 5 美元，但第二个玻璃杯售价仅为原价的 60%。Kylar 想买 16 个玻璃杯。他需要付多少钱？",
+  "original_answer": 64,
+  "symbolic_template": "{name_male, Kylar} 去商店为新公寓购买玻璃杯。一个玻璃杯 {num_digit_1, 5} 美元，但每 第二 个玻璃杯售价仅为原价的 {num_digit_2, 60}%。{name_male, Kylar} 想买 {num_digit_3, 16} 个玻璃杯。他需要付多少钱？",
+  "ic_sentence_template": "{name_male, 凯拉} 的姑妈最近为她的办公室买了 {num_ic, 25} 个杯子。",
+  "ic_template": "{name_male, 凯拉} 的姑妈最近为她的办公室买了 {num_ic, 25} 个杯子。{name_male, Kylar} 去商店为新公寓购买玻璃杯。一个玻璃杯 {num_digit_1, 5} 美元，但每 第二 个玻璃杯售价仅为原价的 {num_digit_2, 60}%。{name_male, Kylar} 想买 {num_digit_3, 16} 个玻璃杯。他需要付多少钱？",
+  "equation": "UPDATE HERE"
+}

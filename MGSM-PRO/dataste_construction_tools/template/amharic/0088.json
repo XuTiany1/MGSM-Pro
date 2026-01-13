@@ -1,0 +1,8 @@
+{
+  "original_question": "የሜሪሊን የመጀመሪያ ቅጅ ከሃራልድ ቅጅ በ10 እጥፍ ተሽጧል። እነዚህ ቅጅዎች በድምሩ 88,000 ቅጂዎች ከተሸጡ ፣ሃራልድ ስንት ቅጂዎች ሸጠ?",
+  "original_answer": 8000,
+  "symbolic_template": "የ{name_male_1, ሜሪሊን} የመጀመሪያ ቅጅ ከ{name_male_2, ሃራልድ} ቅጅ በ{num_digit_1, 10} እጥፍ ተሽጧል። እነዚህ ቅጅዎች በድምሩ {num_digit_2, 88,000} ቅጂዎች ከተሸጡ ፣{name_male_2, ሃራልድ} ስንት ቅጂዎች ሸጠ?",
+  "ic_sentence_template": "{name_male_1, ማሪሊን} ባለፈው ዓመት {num_ic, 23,000} የአድናቂ ደብዳቤዎችን ተቀብሏል።",
+  "ic_template": "የ{name_male_1, ሜሪሊን} የመጀመሪያ ቅጅ ከ{name_male_2, ሃራልድ} ቅጅ በ{num_digit_1, 10} እጥፍ ተሽጧል። እነዚህ ቅጅዎች በድምሩ {num_digit_2, 88,000} ቅጂዎች ከተሸጡ ፣{name_male_2, ሃራልድ} ስንት ቅጂዎች ሸጠ? {name_male_1, ማሪሊን} ባለፈው ዓመት {num_ic, 23,000} የአድናቂ ደብዳቤዎችን ተቀብሏል።",
+  "equation": "UPDATE HERE"
+}

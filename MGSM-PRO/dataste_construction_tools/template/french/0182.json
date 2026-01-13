@@ -1,0 +1,8 @@
+{
+  "original_question": "Jean a deux ans de plus que Marc. Il y a deux ans, Marc avait 5 ans de plus que la moitié de l'âge de Jan. Si Jan a 30 ans, quel âge a Jean ?",
+  "original_answer": 23,
+  "symbolic_template": "{name_male_1, Jean} a deux ans de plus que {name_male_2, Marc}. Il y a deux ans, {name_male_2, Marc} avait {num_digit_1, 5} ans de plus que la moitié de l'âge de {name_female, Jan}. Si {name_female, Jan} a {num_digit_2, 30} ans, quel âge a {name_male_1, Jean} ?",
+  "ic_sentence_template": "{name_male_1, Jean} a un oncle qui possède {num_ic, 82} pièces de monnaie anciennes.",
+  "ic_template": "{name_male_1, Jean} a un oncle qui possède {num_ic, 82} pièces de monnaie anciennes. {name_male_1, Jean} a deux ans de plus que {name_male_2, Marc}. Il y a deux ans, {name_male_2, Marc} avait {num_digit_1, 5} ans de plus que la moitié de l'âge de {name_female, Jan}. Si {name_female, Jan} a {num_digit_2, 30} ans, quel âge a {name_male_1, Jean} ?",
+  "equation": "UPDATE HERE"
+}

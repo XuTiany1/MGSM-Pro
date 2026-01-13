@@ -1,0 +1,8 @@
+{
+  "original_question": "A trader buys some bags of wheat from a farmer at a rate of $20 per bag. If it costs $2 to transport each bag from the farm to the warehouse, and the trader made a total profit of $400 after selling all the bags at a rate of $30 each, how many bags did he sell?",
+  "original_answer": 50,
+  "symbolic_template": "A trader buys some bags of wheat from a farmer at a rate of ${num_digit_1, 20} per bag. If it costs ${num_digit_2, 2} to transport each bag from the farm to the warehouse, and the trader made a total profit of ${num_digit_3, 400} after selling all the bags at a rate of ${num_digit_4, 30} each, how many bags did he sell?",
+  "ic_sentence_template": "The trader's cousin has {num_ic, 80} apple trees on his property.",
+  "ic_template": "A trader buys some bags of wheat from a farmer at a rate of ${num_digit_1, 20} per bag. If it costs ${num_digit_2, 2} to transport each bag from the farm to the warehouse, and the trader made a total profit of ${num_digit_3, 400} after selling all the bags at a rate of ${num_digit_4, 30} each, the trader's cousin has {num_ic, 80} apple trees on his property. How many bags did he sell?",
+  "equation": "UPDATE HERE"
+}

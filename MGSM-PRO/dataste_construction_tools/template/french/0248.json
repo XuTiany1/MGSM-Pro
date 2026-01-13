@@ -1,0 +1,8 @@
+{
+  "original_question": "Un chef a acheté 4 sacs d'oignons de 50 livres chacun. Si une livre d'oignons coûte 1,50 $, combien a-t-il dépensé ?",
+  "original_answer": 300,
+  "symbolic_template": "Un chef a acheté {num_digit_1, 4} sacs d'oignons de {num_digit_2, 50} livres chacun. Si une livre d'oignons coûte {num_digit_3, 1.50} $, combien a-t-il dépensé ?",
+  "ic_sentence_template": "La tante du chef cultive {num_ic, 38} tomates dans son jardin chaque année.",
+  "ic_template": "La tante du chef cultive {num_ic, 38} tomates dans son jardin chaque année. Un chef a acheté {num_digit_1, 4} sacs d'oignons de {num_digit_2, 50} livres chacun. Si une livre d'oignons coûte {num_digit_3, 1.50} $, combien a-t-il dépensé ?",
+  "equation": "UPDATE HERE"
+}

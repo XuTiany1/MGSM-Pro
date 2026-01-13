@@ -1,0 +1,8 @@
+{
+  "original_question": "Iye owó tí Jimmy ní fi $2 ju ìlọ́po méjì owó tí Ethel ní lọ. Tí Ethal bá ní $8, èló ni Jimmy ní?",
+  "original_answer": 18,
+  "symbolic_template": "Iye owó tí {name_male_1, Jimmy} ní fi ${num_digit_1, 2} ju ìlọ́po méjì owó tí {name_male_2, Ethel} ní lọ. Tí {name_male_2, Ethal} bá ní ${num_digit_2, 8}, èló ni {name_male_1, Jimmy} ní?",
+  "ic_sentence_template": "Ọmọkáàrùn {name_male_2, Ethel} rí {num_ic, 33} owó atijọ́ ní orílé ilẹ̀ rẹ̀.",
+  "ic_template": "Ọmọkáàrùn {name_male_2, Ethel} rí {num_ic, 33} owó atijọ́ ní orílé ilẹ̀ rẹ̀. Iye owó tí {name_male_1, Jimmy} ní fi ${num_digit_1, 2} ju ìlọ́po méjì owó tí {name_male_2, Ethel} ní lọ. Tí {name_male_2, Ethal} bá ní ${num_digit_2, 8}, èló ni {name_male_1, Jimmy} ní?",
+  "equation": "UPDATE HERE"
+}

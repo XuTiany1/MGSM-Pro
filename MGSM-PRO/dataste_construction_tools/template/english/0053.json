@@ -1,0 +1,8 @@
+{
+  "original_question": "A mechanic charges different rates to repair the tires of trucks and cars. For each truck tire that is repaired, the mechanic will charge $78 and for each car tire that is repaired, the mechanic will charge $29. On Thursday, the mechanic repairs 8 truck tires and 9 car tires. On Friday, the mechanic repairs 28 car tires and doesn't repair any truck tires. How much more revenue did the mechanic earn on the day with higher revenue?",
+  "original_answer": 73,
+  "symbolic_template": "A mechanic charges different rates to repair the tires of trucks and cars. For each truck tire that is repaired, the mechanic will charge ${num_digit_1, 78} and for each car tire that is repaired, the mechanic will charge ${num_digit_2, 29}. On Thursday, the mechanic repairs {num_digit_3, 8} truck tires and {num_digit_4, 9} car tires. On Friday, the mechanic repairs {num_digit_5, 28} car tires and doesn't repair any truck tires. How much more revenue did the mechanic earn on the day with higher revenue?",
+  "ic_sentence_template": "The mechanic's niece has {num_ic, 115} toy cars.",
+  "ic_template": "A mechanic charges different rates to repair the tires of trucks and cars. For each truck tire that is repaired, the mechanic will charge ${num_digit_1, 78} and for each car tire that is repaired, the mechanic will charge ${num_digit_2, 29}. On Thursday, the mechanic repairs {num_digit_3, 8} truck tires and {num_digit_4, 9} car tires. On Friday, the mechanic repairs {num_digit_5, 28} car tires and doesn't repair any truck tires. The mechanic's niece has {num_ic, 115} toy cars. How much more revenue did the mechanic earn on the day with higher revenue?",
+  "equation": "UPDATE HERE"
+}

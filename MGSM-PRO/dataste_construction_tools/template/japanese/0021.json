@@ -1,0 +1,8 @@
+{
+  "original_question": "レイモンドとサマンサはいとこ同士です。レイモンドはサマンサより6年間早く生まれました。レイモンドには23歳の時に息子ができました。サマンサが今31歳だとしたら、レイモンドの息子が生まれたのは何年前のことですか？",
+  "original_answer": 14,
+  "symbolic_template": "{name_male, レイモンド} と {name_female, サマンサ}はいとこ同士です。{name_male, レイモンド} は{name_female, サマンサ}より{num_digit_1, 6}年間早く生まれました。{name_male, レイモンド}には{num_digit_2, 23}歳の時に息子ができました。{name_female, サマンサ}が今{num_digit_3, 31}歳だとしたら、{name_male, レイモンド}の息子が生まれたのは何年前のことですか？",
+  "ic_sentence_template": "{name_female, サマンサ}のおじは{num_ic, 77}枚のポストカードを集めています。",
+  "ic_template": "{name_female, サマンサ}のおじは{num_ic, 77}枚のポストカードを集めています。{name_male, レイモンド} と {name_female, サマンサ}はいとこ同士です。{name_male, レイモンド} は{name_female, サマンサ}より{num_digit_1, 6}年間早く生まれました。{name_male, レイモンド}には{num_digit_2, 23}歳の時に息子ができました。{name_female, サマンサ}が今{num_digit_3, 31}歳だとしたら、{name_male, レイモンド}の息子が生まれたのは何年前のことですか？",
+  "equation": "UPDATE HERE"
+}

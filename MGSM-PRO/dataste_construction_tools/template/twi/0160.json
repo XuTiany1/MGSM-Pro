@@ -1,0 +1,8 @@
+{
+  "original_question": "Na nsuo a ɛwɔ akoradeɛ no mu dɔ bɛyɛ anammɔn du nson wɔ Ɛdwoada. Wɔ Ɛbenada no, na nsuo a ɛwɔ akoradeɛ no mu no boro anammɔn nson. Wɔ Wukuda no, na nsuo no mu dɔ a ɛwɔ hɔ no yɛ nea na ɛwɔ hɔ Ɛbenada no mu nkyem mmienu. Ɛyɛɛ dɛn na akoradeɛ no mu nsuo emu dɔ wɔ Ɛdwoada?",
+  "original_answer": 16,
+  "symbolic_template": "Na nsuo a ɛwɔ akoradeɛ no mu dɔ bɛyɛ anammɔn {num_digit_1, 17} wɔ Ɛdwoada. Wɔ Ɛbenada no, na nsuo a ɛwɔ akoradeɛ no mu no boro anammɔn {num_digit_2, 7}. Wɔ Wukuda no, na nsuo no mu dɔ a ɛwɔ hɔ no yɛ two thirds nea na ɛwɔ hɔ Ɛbenada no mu. Ɛyɛɛ dɛn na akoradeɛ no mu nsuo emu dɔ wɔ Ɛdwoada?",
+  "ic_sentence_template": "{name_male, Brian} wɔfa hwɛɛ nsuo a ɛwɔ ankorɛ no mu mprɛn {num_ic, 79} afe a atwa mu.",
+  "ic_template": "{name_male, Brian} wɔfa hwɛɛ nsuo a ɛwɔ ankorɛ no mu mprɛn {num_ic, 79} afe a atwa mu. Na nsuo a ɛwɔ akoradeɛ no mu dɔ bɛyɛ anammɔn {num_digit_1, 17} wɔ Ɛdwoada. Wɔ Ɛbenada no, na nsuo a ɛwɔ akoradeɛ no mu no boro anammɔn {num_digit_2, 7}. Wɔ Wukuda no, na nsuo no mu dɔ a ɛwɔ hɔ no yɛ two thirds nea na ɛwɔ hɔ Ɛbenada no mu. Ɛyɛɛ dɛn na akoradeɛ no mu nsuo emu dɔ wɔ Ɛdwoada?",
+  "equation": "UPDATE HERE"
+}

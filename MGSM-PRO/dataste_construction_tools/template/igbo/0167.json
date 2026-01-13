@@ -1,0 +1,8 @@
+{
+  "original_question": "Seth dị afo ugboro abụọ di ka Brooke. N'ime afọ abụọ, mgbakọta afọ ha ga-abụ iri abụọ na asatọ. Afọ ole ka Seth dị?",
+  "original_answer": 16,
+  "symbolic_template": "{name_male, Seth} dị afọ ugboro abụọ dị ka {name_female, Brooke}.. N'ime afọ {num_digit_1, 2}, mgbakọta afọ ha ga-abụ {num_digit_2, 28}. Afọ ole ka {name_male, Seth} dị?",
+  "ic_sentence_template": "Nwanne nne {name_male, Seth} zụtara tiketi fim diskaụnt ọhụrụ {num_ic, 17}.",
+  "ic_template": "Nwanne nne {name_male, Seth} zụtara tiketi fim diskaụnt ọhụrụ {num_ic, 17}. {name_male, Seth} dị afọ ugboro abụọ dị ka {name_female, Brooke}.. N'ime afọ {num_digit_1, 2}, mgbakọta afọ ha ga-abụ {num_digit_2, 28}. Afọ ole ka {name_male, Seth}  dị?",
+  "equation": "UPDATE HERE"
+}

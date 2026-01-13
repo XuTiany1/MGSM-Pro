@@ -1,0 +1,8 @@
+{
+  "original_question": "ジルは、教員としては時給20ドル、チアリーディングコーチとしては時給30ドル受け取ります。ジルが年間50週間働き、1週間に35時間を教員、15時間をコーチとして働いた場合、年間の給料はいくらになりますか？",
+  "original_answer": 57500,
+  "symbolic_template": "{name_female, Jill}は、教員としては時給${num_digit_1, 20}ドル、チアリーディングコーチとしては時給${num_digit_2, 30}ドル受け取ります。ジルが年間{num_digit_3, 50}週間働き、1週間に{num_digit_4, 35}時間を教員、{num_digit_5, 15}時間をコーチとして働いた場合、年間の給料はいくらになりますか？",
+  "ic_sentence_template": "{name_female, ジル}のおじは最近{num_ic, 127}匹の子犬を飼い始めました。",
+  "ic_template": "{name_female, ジル}のおじは最近{num_ic, 127}匹の子犬を飼い始めました。{name_female, Jill}は、教員としては時給${num_digit_1, 20}ドル、チアリーディングコーチとしては時給${num_digit_2, 30}ドル受け取ります。ジルが年間{num_digit_3, 50}週間働き、1週間に{num_digit_4, 35}時間を教員、{num_digit_5, 15}時間をコーチとして働いた場合、年間の給料はいくらになりますか？",
+  "equation": "UPDATE HERE"
+}

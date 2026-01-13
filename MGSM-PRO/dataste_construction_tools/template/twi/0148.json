@@ -1,0 +1,8 @@
+{
+  "original_question": "Na Brittany ne  maame kɔɔ tete nneɛma akoraeɛ. Akwannya a wɔde to agua no bo yɛ $12 ma mpanyimfoɔ ne $10 ma mmɔfra. Brittany maame ma sikatua dwumayɛfoɔ no sika a ɔde bɛtɔ abofra ne ɔpanyin tiketi baako. Sɛ ne nsa kaa $8 wɔ sika foforo mu, sika dodoɔ ahe na ɔde maa  sikatua dwumayɛfoɔ no?",
+  "original_answer": 30,
+  "symbolic_template": "Na {name_female, Brittany} ne maame kɔɔ tete nneɛma akoraeɛ. Akwannya a wɔde to agua no bo yɛ ${num_digit_1, 12} ma mpanyimfoɔ ne ${num_digit_2, 10} ma mmɔfra. {name_female, Brittany} maame ma sikatua dwumayɛfoɔ no sika a ɔde bɛtɔ abofra tiketi {num_digit_3, 1} ne ɔpanyin tiketi {num_digit_4, 1} baako. Sɛ ne nsa kaa ${num_digit_5, 8} wɔ sika foforo mu, sika dodoɔ ahe na ɔde maa sikatua dwumayɛfoɔ no?",
+  "ic_sentence_template": "{name_female, Brittany} wɔfa kɔ sraa tete nneɛma akoraeɛ nnawɔtwe a atwa mu na ɔtɔɔ nkratoɔ krataa {num_ic, 31}.",
+  "ic_template": "{name_female, Brittany} wɔfa kɔ sraa tete nneɛma akoraeɛ nnawɔtwe a atwa mu na ɔtɔɔ nkratoɔ krataa {num_ic, 31}. Na {name_female, Brittany} ne maame kɔɔ tete nneɛma akoraeɛ. Akwannya a wɔde to agua no bo yɛ ${num_digit_1, 12} ma mpanyimfoɔ ne ${num_digit_2, 10} ma mmɔfra. {name_female, Brittany} maame ma sikatua dwumayɛfoɔ no sika a ɔde bɛtɔ abofra tiketi {num_digit_3, 1} ne ɔpanyin tiketi {num_digit_4, 1} baako. Sɛ ne nsa kaa ${num_digit_5, 8} wɔ sika foforo mu, sika dodoɔ ahe na ɔde maa sikatua dwumayɛfoɔ no?",
+  "equation": "UPDATE HERE"
+}

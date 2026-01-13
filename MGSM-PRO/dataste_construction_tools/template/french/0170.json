@@ -1,0 +1,8 @@
+{
+  "original_question": "La fanfare commande de nouveaux uniformes. Chaque uniforme comprend un chapeau qui coûte 25 $, une veste trois fois plus chère que le chapeau et un pantalon dont le prix équivaut à la moyenne des prix du chapeau et de la veste. Quel est le coût total de chaque uniforme ?",
+  "original_answer": 150,
+  "symbolic_template": "La fanfare commande de nouveaux uniformes. Chaque uniforme comprend un chapeau qui coûte {num_digit_1, 25} $, une veste trois fois plus chère que le chapeau et un pantalon dont le prix équivaut à la moyenne des prix du chapeau et de la veste. Quel est le coût total de chaque uniforme ?",
+  "ic_sentence_template": "Le cousin du chef d'orchestre a acheté {num_ic, 517} paires de gants pour la section de percussion.",
+  "ic_template": "Le cousin du chef d'orchestre a acheté {num_ic, 517} paires de gants pour la section de percussion. La fanfare commande de nouveaux uniformes. Chaque uniforme comprend un chapeau qui coûte {num_digit_1, 25} $, une veste trois fois plus chère que le chapeau et un pantalon dont le prix équivaut à la moyenne des prix du chapeau et de la veste. Quel est le coût total de chaque uniforme ?",
+  "equation": "UPDATE HERE"
+}

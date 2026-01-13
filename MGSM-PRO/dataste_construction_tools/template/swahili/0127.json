@@ -1,0 +1,8 @@
+{
+  "original_question": "Baada ya kuhamia shule mpya, Amy alipata marafiki 20 zaidi ya Lily. Iwapo Lily alipata marafiki 50, Lily na Amy wana jumla ya marafiki wangapi kwa jumla?",
+  "original_answer": 120,
+  "symbolic_template": "Baada ya kuhamia shule mpya, {name_female_1, Amy} alipata marafiki {num_digit_1, 20} zaidi ya {name_female_2, Lily}. Iwapo {name_female_2, Lily} alipata marafiki {num_digit_2, 50}, {name_female_2, Lily} na {name_female_1, Amy} wana jumla ya marafiki wangapi kwa jumla?",
+  "ic_sentence_template": "Mjomba wa {name_female_2, Lily} alimtunuku vitabu vya vichekesho {num_ic, 42} kama zawadi ya kumkaribisha.",
+  "ic_template": "Mjomba wa {name_female_2, Lily} alimtunuku vitabu vya vichekesho {num_ic, 42} kama zawadi ya kumkaribisha. Baada ya kuhamia shule mpya, {name_female_1, Amy} alipata marafiki {num_digit_1, 20} zaidi ya {name_female_2, Lily}. Iwapo {name_female_2, Lily} alipata marafiki {num_digit_2, 50}, {name_female_2, Lily} na {name_female_1, Amy} wana jumla ya marafiki wangapi kwa jumla?",
+  "equation": "UPDATE HERE"
+}

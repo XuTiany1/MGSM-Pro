@@ -1,0 +1,8 @@
+{
+  "original_question": "Ọkọ̀ ojú omi Tom lè rìn ní máìlì 10 ní wákàtí kan. Ó ń rìn láti ago 1 sí 4 PM. Ó wá rìnrìnàjò padà ní òṣùwọ̀n 6 mph. Báwo ló ṣe pẹ́ tó fún-un láti padà? ",
+  "original_answer": 20,
+  "symbolic_template": "Ọkọ̀ ojú omi {name_male, Tom} lè rìn ní máìlì {num_digit_1, 15} ní wákàtí kan. Ó ń rìn láti ago {num_digit_2, 1} sí {num_digit_3, 9} PM. Ó wá rìnrìnàjò padà ní òṣùwọ̀n {num_digit_4, 6} mph. Báwo ló ṣe pẹ́ tó fún-un láti padà?",
+  "ic_sentence_template": "Ẹ̀gbọ́n baba {name_male, Tom} ra ọkọ ojú omi àtẹ́yẹ̀wò {num_ic, 20} laipẹ̀ yii.",
+  "ic_template": "Ẹ̀gbọ́n baba {name_male, Tom} ra ọkọ ojú omi àtẹ́yẹ̀wò {num_ic, 20} laipẹ̀ yii. Ọkọ̀ ojú omi {name_male, Tom} lè rìn ní máìlì {num_digit_1, 15} ní wákàtí kan. Ó ń rìn láti ago {num_digit_2, 1} sí {num_digit_3, 9} PM. Ó wá rìnrìnàjò padà ní òṣùwọ̀n {num_digit_4, 6} mph. Báwo ló ṣe pẹ́ tó fún-un láti padà?",
+  "equation": "UPDATE HERE"
+}

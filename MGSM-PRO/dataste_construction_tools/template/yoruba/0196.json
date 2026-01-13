@@ -1,0 +1,8 @@
+{
+  "original_question": "Kárọ̀tì pọ́ùn 200 nílò pínpín láàárín ilé oúnjẹ 40 ní ìlú kan. Ilé oúnjẹ kọ̀ọ̀kan ní láti gba Kárọ̀tì pọ́ùn 2. Iye pọ́ùn Kárọ̀tì mélòó ni a kò ní lò?",
+  "original_answer": 120,
+  "symbolic_template": "Kárọ̀tì pọ́ùn {num_digit_1, 200} nílò pínpín láàárín ilé oúnjẹ {num_digit_2, 40} ní ìlú kan. Ilé oúnjẹ kọ̀ọ̀kan ní láti gba Kárọ̀tì pọ́ùn {num_digit_3, 2}. Iye pọ́ùn Kárọ̀tì mélòó ni a kò ní lò?",
+  "ic_sentence_template": "Àwọn agbẹ́rùnrẹ́rẹ́ {num_ic, 22} ní ìlú náà ń gbìyànjú onjẹ ìbáṣepọ tuntun kan.",
+  "ic_template": "Àwọn agbẹ́rùnrẹ́rẹ́ {num_ic, 22} ní ìlú náà ń gbìyànjú onjẹ ìbáṣepọ tuntun kan. Kárọ̀tì pọ́ùn {num_digit_1, 200} nílò pínpín láàárín ilé oúnjẹ {num_digit_2, 40} ní ìlú kan. Ilé oúnjẹ kọ̀ọ̀kan ní láti gba Kárọ̀tì pọ́ùn {num_digit_3, 2}. Iye pọ́ùn Kárọ̀tì mélòó ni a kò ní lò?",
+  "equation": "UPDATE HERE"
+}

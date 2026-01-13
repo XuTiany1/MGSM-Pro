@@ -1,0 +1,8 @@
+{
+  "original_question": "A fog bank rolls in from the ocean to cover a city. It takes 10 minutes to cover every 3 miles of the city. If the city is 42 miles across from the oceanfront to the opposite inland edge, how many minutes will it take for the fog bank to cover the whole city?",
+  "original_answer": 140,
+  "symbolic_template": "A fog bank rolls in from the ocean to cover a city. It takes {num_digit_1, 10} minutes to cover every {num_digit_2, 3} miles of the city. If the city is {num_digit_3, 42} miles across from the oceanfront to the opposite inland edge, how many minutes will it take for the fog bank to cover the whole city?",
+  "ic_sentence_template": "{name_male, Billy}'s uncle spotted {num_ic, 96} sailboats leaving the harbor that morning.",
+  "ic_template": "A fog bank rolls in from the ocean to cover a city. It takes {num_digit_1, 10} minutes to cover every {num_digit_2, 3} miles of the city. {name_male, Billy}'s uncle spotted {num_ic, 96} sailboats leaving the harbor that morning. If the city is {num_digit_3, 42} miles across from the oceanfront to the opposite inland edge, how many minutes will it take for the fog bank to cover the whole city?",
+  "equation": "UPDATE HERE"
+}

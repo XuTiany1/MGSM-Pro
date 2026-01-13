@@ -1,0 +1,8 @@
+{
+  "original_question": "Dada wa Doubtfire wanaendesha wakielekea nyumbani na watoto 7 wa paka waliochukua kutoka makao ya wanyama katika eneo lao kisha mama yao akawapigia simu kuwa paka wao wawili wa nyumba wamezaa watoto. Anasema kuwa Patchy, paka wa kwanza, ana watoto ambao idadi yao ni mara tatu ya watoto wa paka waliotwaa, huku Trixie, paka mwingine, ana watoto 12. Familia ya Doubtfire sasa ina watoto wangapi wa paka?",
+  "original_answer": 40,
+  "symbolic_template": "Dada wa {name_family, Doubtfire} wanaendesha wakielekea nyumbani na watoto {num_digit_1, 7} wa paka waliochukua kutoka makao ya wanyama katika eneo lao kisha mama yao akawapigia simu kuwa paka wao wawili wa nyumba wamezaa watoto. Anasema kuwa {name_cat_1, Patchy}, paka wa kwanza, ana watoto ambao idadi yao ni mara tatu ya watoto wa paka waliotwaa, huku {name_cat_2, Trixie}, paka mwingine, ana watoto {num_digit_2, 12}. Familia ya {name_family, Doubtfire} sasa ina watoto wangapi wa paka?",
+  "ic_sentence_template": "Mjomba wa {name_family, Doubtfire} hivi karibuni alihamia umbali wa maili {num_ic, 41}.",
+  "ic_template": "Dada wa {name_family, Doubtfire} wanaendesha wakielekea nyumbani na watoto {num_digit_1, 7} wa paka waliochukua kutoka makao ya wanyama katika eneo lao kisha mama yao akawapigia simu kuwa paka wao wawili wa nyumba wamezaa watoto. Anasema kuwa {name_cat_1, Patchy}, paka wa kwanza, ana watoto ambao idadi yao ni mara tatu ya watoto wa paka waliotwaa, huku {name_cat_2, Trixie}, paka mwingine, ana watoto {num_digit_2, 12}. Familia ya {name_family, Doubtfire} sasa ina watoto wangapi wa paka? Mjomba wa {name_family, Doubtfire} hivi karibuni alihamia umbali wa maili {num_ic, 41}.",
+  "equation": "UPDATE HERE"
+}

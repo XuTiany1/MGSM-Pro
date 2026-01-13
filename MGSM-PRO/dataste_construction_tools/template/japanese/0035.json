@@ -1,0 +1,8 @@
+{
+  "original_question": "マイクは卓球を40分します。最初の20分に、彼は4ポイント得点します。次の20分では、彼は25%多く得点しました。全部で何ポイント得点しましたか？",
+  "original_answer": 9,
+  "symbolic_template": "{name_male, マイク}は卓球を{num_digit_1, 40}分します。最初の{num_digit_2, 20}分に、彼は{num_digit_3, 16}ポイント得点します。次の{num_digit_4, 20}分では、彼は{num_digit_5, 25}%多く得点しました。全部で何ポイント得点しましたか？",
+  "ic_sentence_template": "{name_male, マイク}のおじさんは毎年{num_ic, 102}回の卓球の試合を観戦します。",
+  "ic_template": "{name_male, マイク}のおじさんは毎年{num_ic, 102}回の卓球の試合を観戦します。{name_male, マイク}は卓球を{num_digit_1, 40}分します。最初の{num_digit_2, 20}分に、彼は{num_digit_3, 16}ポイント得点します。次の{num_digit_4, 20}分では、彼は{num_digit_5, 25}%多く得点しました。全部で何ポイント得点しましたか？",
+  "equation": "UPDATE HERE"
+}

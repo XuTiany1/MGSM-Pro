@@ -1,0 +1,8 @@
+{
+  "original_question": "Ted the T-Rex alikuwa anapanga kupeleka kachumbari ya viazi kwenye mandari ya dinosaria. Anajua kuwa dinosaria mkubwa atakula lb 10 za kachumbari ya viazi, na mtoto atakula nusu ya kiwango ambacho mkubwa atakula. Iwapo kutakuwa na wakubwa 20 na watoto 5 katika mandari hiyo, Ted anahitaji kuleta pauni ngapi za kachumbari ya viazi kwenye mandari ikiwa anatarajia kulisha kila dinosaria?",
+  "original_answer": 225,
+  "symbolic_template": "{name_dinosaur, Ted} the T-Rex alikuwa anapanga kuleta saladi ya viazi kwenye mkutano wa dinosaria. Anajua kuwa dinosaria mzima atakula pauni {num_digit_1, 10} za saladi ya viazi, na mtoto atakula nusu ya kiasi hicho. Iwapo kutakuwa na dinosaria watu wazima {num_digit_2, 20} na watoto {num_digit_3, 5} kwenye mkutano huo, {name_dinosaur, Ted} anapaswa kuleta pauni ngapi za saladi ya viazi ili kila mmoja apate chakula cha kutosha?",
+  "ic_sentence_template": "Binamu wa {name_dinosaur, Ted} ana mananasi {num_ic, 94}.",
+  "ic_template": "Binamu wa {name_dinosaur, Ted} ana mananasi {num_ic, 94}. {name_dinosaur, Ted} the T-Rex alikuwa anapanga kuleta saladi ya viazi kwenye mkutano wa dinosaria. Anajua kuwa dinosaria mzima atakula pauni {num_digit_1, 10} za saladi ya viazi, na mtoto atakula nusu ya kiasi hicho. Iwapo kutakuwa na dinosaria watu wazima {num_digit_2, 20} na watoto {num_digit_3, 5} kwenye mkutano huo, {name_dinosaur, Ted} anapaswa kuleta pauni ngapi za saladi ya viazi ili kila mmoja apate chakula cha kutosha?",
+  "equation": "UPDATE HERE"
+}

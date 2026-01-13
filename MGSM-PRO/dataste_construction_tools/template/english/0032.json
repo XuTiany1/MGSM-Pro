@@ -1,0 +1,8 @@
+{
+  "original_question": "John takes care of 10 dogs. Each dog takes 0.5 hours a day to walk and take care of their business. How many hours a week does he spend taking care of dogs?",
+  "original_answer": 35,
+  "symbolic_template": "{name_male, John} takes care of {num_digit_1, 10} dogs. Each dog takes half hours a day to walk and take care of their business. How many hours a week does he spend taking care of dogs?",
+  "ic_sentence_template": "{name_male, John}'s niece has {num_ic, 19} rabbits.",
+  "ic_template": "{name_male, John} takes care of {num_digit_1, 10} dogs. Each dog takes half hours a day to walk and take care of their business. {name_male, John}'s niece has {num_ic, 19} rabbits. How many hours a week does he spend taking care of dogs?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Kelian nwere usoro esim nri abụọ o ji akwadobe nri, otu na-enwe ntụziaka iri abụọ na nke abụọ nwere ntụziaka okpukpu abụọ karịa nke mbụ. Ntụziaka ole ka Kelin ga-agụ iji kwadobe nri abụọ ahụ?",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Kelian} nwere usoro esim nri abụọ o ji akwadobe nri, otu na-enwe ntụziaka {num_digit_1, 20} na nke abụọ nwere ntụziaka okpukpu abụọ karịa nke mbụ. Ntụziaka ole ka {name_male, Kelian} ga-agụ iji kwadobe nri abụọ ahụ?",
+  "ic_sentence_template": "Nwunye nwanne nna {name_male, Kelian} nwere akwụkwọ esi nri {num_ic, 77}.",
+  "ic_template": "Nwunye nwanne nna {name_male, Kelian} nwere akwụkwọ esi nri {num_ic, 77}. {name_male, Kelian} nwere usoro esim nri abụọ o ji akwadobe nri, otu na-enwe ntụziaka {num_digit_1, 20} na nke abụọ nwere ntụziaka okpukpu abụọ karịa nke mbụ. Ntụziaka ole ka {name_male, Kelian}  ga-agụ iji kwadobe nri abụọ ahụ?",
+  "equation": "UPDATE HERE"
+}

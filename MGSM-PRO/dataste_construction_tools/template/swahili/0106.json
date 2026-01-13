@@ -1,0 +1,8 @@
+{
+  "original_question": "John ana maboksi 3. Kila boksi ni la inchi 5 kwa inchi 6 kwa inchi 4. Kuta zina unene wa inchi 1. Jumla ya nafasi ya ndani ya visanduku vyote 3 ni ngapi?",
+  "original_answer": 72,
+  "symbolic_template": "{name_male, John} ana masanduku {num_digit_1, 3}. Kila sanduku lina vipimo vya inchi {num_digit_2, 5} kwa {num_digit_3, 6} kwa {num_digit_4, 4}. Kuta ni nene kwa inchi {num_digit_5, 1}. Je, jumla ya ujazo wa ndani wa masanduku yote {num_digit_1, 3} ni kiasi gani?",
+  "ic_sentence_template": "Shangazi wa {name_male, John} alinunua masanduku ya ziada {num_ic, 49} hivi karibuni kwa ajili ya dari lake.",
+  "ic_template": "Shangazi wa {name_male, John} alinunua masanduku ya ziada {num_ic, 49} hivi karibuni kwa ajili ya dari lake. {name_male, John} ana masanduku {num_digit_1, 3}. Kila sanduku lina vipimo vya inchi {num_digit_2, 5} kwa {num_digit_3, 6} kwa {num_digit_4, 4}. Kuta ni nene kwa inchi {num_digit_5, 1}. Je, jumla ya ujazo wa ndani wa masanduku yote {num_digit_1, 3} ni kiasi gani?",
+  "equation": "UPDATE HERE"
+}

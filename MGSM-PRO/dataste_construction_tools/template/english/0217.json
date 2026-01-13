@@ -1,0 +1,8 @@
+{
+  "original_question": "There are 4 roses in the vase. There are 7 more dahlias than roses in the vase. How many flowers are there in the vase in total?",
+  "original_answer": 15,
+  "symbolic_template": "There are {num_digit_1, 4} roses in the vase. There are {num_digit_2, 7} more dahlias than roses in the vase. How many flowers are there in the vase in total?",
+  "ic_sentence_template": "{name_female, Emily}'s aunt owns {num_ic, 1490} tulips in her greenhouse.",
+  "ic_template": "There are {num_digit_1, 4} roses in the vase. There are {num_digit_2, 7} more dahlias than roses in the vase. {name_female, Emily}'s aunt owns {num_ic, 1490} tulips in her greenhouse. How many flowers are there in the vase in total?",
+  "equation": "UPDATE HERE"
+}

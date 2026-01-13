@@ -1,0 +1,8 @@
+{
+  "original_question": "A na-akwụ Jill $20 kwa awa ikụzi nkuzi na $30 ịbụ onye nchịkwa ikwalite obi ụtọ. Ọ bụrụ na ọ ruo ọrụ izu ụka iri ise na otu afọ, awa iri atọ na ise  na otu izu ụka dịka onye nkuzi na awa iri na ise n'otu izu ụka dịka onye nchịkwa, gịnị bụ ụgwọ ọrụ afọ ya?",
+  "original_answer": 57500,
+  "symbolic_template": "A na-akwụ {name_female, Jill} ${num_digit_1, 20} kwa awa ikụzi nkuzi na ${num_digit_2, 30} ịbụ onye nchịkwa ikwalite obi ụtọ. Ọ bụrụ na ọ ruo ọrụ izu ụka {num_digit_3, 50} na otu afọ, awa {num_digit_4, 35} na otu izu ụka dịka onye nkuzi na awa {num_digit_5, 15} n'otu izu ụka dịka onye nchịkwa, gịnị bụ ụgwọ ọrụ afọ ya?",
+  "ic_sentence_template": "Nwanne nna {name_female, Jill} weere ụmụ nkịta {num_ic, 127} n'oge na-adịbeghị anya.",
+  "ic_template": "Nwanne nna {name_female, Jill} weere ụmụ nkịta {num_ic, 127} n'oge na-adịbeghị anya. A na-akwụ {name_female, Jill} ${num_digit_1, 20} kwa awa ikụzi nkuzi na ${num_digit_2, 30} ịbụ onye nchịkwa ikwalite obi ụtọ. Ọ bụrụ na ọ ruo ọrụ izu ụka {num_digit_3, 50} na otu afọ, awa {num_digit_4, 35} na otu izu ụka dịka onye nkuzi na awa {num_digit_5, 15} n'otu izu ụka dịka onye nchịkwa, gịnị bụ ụgwọ ọrụ afọ ya?",
+  "equation": "UPDATE HERE"
+}

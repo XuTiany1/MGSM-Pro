@@ -1,0 +1,8 @@
+{
+  "original_question": "Dan gbin igbó òdòdó róòsì 3. Igbó òdòdó róòsì kọ̀ọ̀kan ní róòsì 25. Róòsì kọ̀ọ̀kan ní ẹ̀gún 8. Ẹ̀gún mélòó ni ó wà níbẹ̀ lápapọ̀?",
+  "original_answer": 600,
+  "symbolic_template": "{name_male, Dan} gbin igbó òdòdó róòsì {num_digit_1, 3}. Igbó òdòdó róòsì kọ̀ọ̀kan ní róòsì {num_digit_2, 25}. Róòsì kọ̀ọ̀kan ní ẹ̀gún {num_digit_3, 8}. Ẹ̀gún mélòó ni ó wà níbẹ̀ lápapọ̀?",
+  "ic_sentence_template": "Àntì {name_male, Dan} ní àwọn igi tomati {num_ic, 27}.",
+  "ic_template": "Àntì {name_male, Dan} ní àwọn igi tomati {num_ic, 27}. {name_male, Dan} gbin igbó òdòdó róòsì {num_digit_1, 3}. Igbó òdòdó róòsì kọ̀ọ̀kan ní róòsì {num_digit_2, 25}. Róòsì kọ̀ọ̀kan ní ẹ̀gún {num_digit_3, 8}. Ẹ̀gún mélòó ni ó wà níbẹ̀ lápapọ̀?",
+  "equation": "UPDATE HERE"
+}

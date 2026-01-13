@@ -1,0 +1,8 @@
+{
+  "original_question": "ハリーは昨夜9時間寝ました。彼の友達のジェームスはハリーが寝た分の2/3だけしか寝ませんでした。ハリーはジェームズより、何時間多く寝ましたか？",
+  "original_answer": 3,
+  "symbolic_template": "{name_male_1, ハリー}は昨夜{num_digit_1, 9}時間寝ました。彼の友達の{name_male_2, ジェームズ}は{name_male_1, ハリー}が寝た分の2/3だけしか寝ませんでした。{name_male_1, ハリー}は{name_male_2, ジェームズ}より、何時間多く寝ましたか？",
+  "ic_sentence_template": "{name_male_2, ジェームズ}のおじさんは毎週末に{num_ic, 19}枚のパンケーキを作ります。",
+  "ic_template": "{name_male_2, ジェームズ}のおじさんは毎週末に{num_ic, 19}枚のパンケーキを作ります。{name_male_1, ハリー}は昨夜{num_digit_1, 9}時間寝ました。彼の友達の{name_male_2, ジェームズ}は{name_male_1, ハリー}が寝た分の2/3だけしか寝ませんでした。{name_male_1, ハリー}は{name_male_2, ジェームズ}より、何時間多く寝ましたか？",
+  "equation": "UPDATE HERE"
+}

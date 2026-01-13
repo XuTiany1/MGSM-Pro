@@ -1,0 +1,8 @@
+{
+  "original_question": "Mgbe ọ nọ n'ụlọ ahịa dollar, Sloane na-agụ ndị ahịa otu nari na-abanye n'ụlọ ahịa ahụ. N'echi ya, ọ na-agụ ndị ahịa iri ise karịa ụbọchị mbụ. Ọ bụrụ na ngụkọta ọnụ ọgụgụ ndị ahịa n'ụbọchị nke atọ bụ nari ise, ndị ahịa ole ka ọ gụtara n'ụbọchị nke atọ?",
+  "original_answer": 250,
+  "symbolic_template": "Mgbe ọ nọ n'ụlọ ahịa dollar, {name_female, Sloane} na-agụ ndị ahịa {num_digit_1, 100} na-abanye n'ụlọ ahịa ahụ. N'echi ya, ọ na-agụ ndị ahịa {num_digit_2, 50} karịa ụbọchị mbụ. Ọ bụrụ na ngụkọta ọnụ ọgụgụ ndị ahịa n'ụbọchị nke atọ bụ {num_digit_3, 500}, ndị ahịa ole ka ọ gụtara n'ụbọchị nke atọ?",
+  "ic_sentence_template": "Nwanne nna {name_female, Sloane} ghere achịcha blueberry {num_ic, 93} maka ahịa achịcha.",
+  "ic_template": "Nwanne nna {name_female, Sloane} ghere achịcha blueberry {num_ic, 93} maka ahịa achịcha. Mgbe ọ nọ n'ụlọ ahịa dollar, {name_female, Sloane} na-agụ ndị ahịa {num_digit_1, 100} na-abanye n'ụlọ ahịa ahụ. N'echi ya, ọ na-agụ ndị ahịa {num_digit_2, 50} karịa ụbọchị mbụ. Ọ bụrụ na ngụkọta ọnụ ọgụgụ ndị ahịa n'ụbọchị nke atọ bụ {num_digit_3, 500}, ndị ahịa ole ka ọ gụtara n'ụbọchị nke atọ?",
+  "equation": "UPDATE HERE"
+}

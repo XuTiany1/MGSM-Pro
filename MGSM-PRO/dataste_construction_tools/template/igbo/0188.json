@@ -1,0 +1,8 @@
+{
+  "original_question": "Ọzụahịa na-azụta ụfọdụ akpa ọka wit n'aka onye ọrụ ugbo n'ọnụ ego $20 maka otu akpa. Ọ bụrụ na ọ ga-efu $2 ịji buru otu akpa site n'ugbo ruo n'ụlọ nchekwa ibu, ma ọzụahịa ahụ ritere $400 n'uru ka o rechara akpa niile n'ọnụ ego $30 maka otu akpa, akpa ole ka o rere? ",
+  "original_answer": 50,
+  "symbolic_template": "Ọzụahịa na-azụta ụfọdụ akpa ọka wit n'aka onye ọrụ ugbo n'ọnụ ego ${num_digit_1, 20} maka otu akpa. Ọ bụrụ na ọ ga-efu ${num_digit_2, 2} ịji buru otu akpa site n'ugbo ruo n'ụlọ nchekwa ibu, ma ọzụahịa ahụ ritere ${num_digit_3, 400} n'uru ka o rechara akpa niile n'ọnụ ego ${num_digit_4, 30} maka otu akpa, akpa ole ka o rere?",
+  "ic_sentence_template": "Nwa nwanne nna onye ụlọ ahịa ahụ nwere osisi apụl {num_ic, 80} n'ụlọ ya.",
+  "ic_template": "Nwa nwanne nna onye ụlọ ahịa ahụ nwere osisi apụl {num_ic, 80} n'ụlọ ya. Ọzụahịa na-azụta ụfọdụ akpa ọka wit n'aka onye ọrụ ugbo n'ọnụ ego ${num_digit_1, 20} maka otu akpa. Ọ bụrụ na ọ ga-efu ${num_digit_2, 2} ịji buru otu akpa site n'ugbo ruo n'ụlọ nchekwa ibu, ma ọzụahịa ahụ ritere ${num_digit_3, 400} n'uru ka o rechara akpa niile n'ọnụ ego ${num_digit_4, 30} maka otu akpa, akpa ole ka o rere?",
+  "equation": "UPDATE HERE"
+}

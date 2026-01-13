@@ -1,0 +1,8 @@
+{
+  "original_question": "Meredith yԑ nsԑmtwerԑfoɔ a ɔyԑ adwuma ma neho a ɔtwerԑ fa apɔmuden nsԑm ho na ɔde ma n’adetɔfoɔ da biara sԑ adwuma ɔyԑ n’afebɔɔ. Ͻde dɔnhwere 4 na ԑyԑ nhwehwԑmu na w’atwerԑ. Nnawɔtwe a ԑtwa mu yi, ɔtwerԑԑ nkrataa 5 wɔ Dwoada na krataa mmɔho 2/5 wɔ Benada kyԑn Dwoada. Wukuada mu no, ɔtwerԑԑ nkrataa mmɔho mmienu kyԑn deԑ ɔtwerԑԑ no Benada no. Hwehwԑ dɔnhwere dodoɔ a ɔde twerԑԑ nkrataa no wɔ nna mmiԑnsa mu.",
+  "original_answer": 104,
+  "symbolic_template": "{name_female, Meredith} yԑ nsԑmtwerԑfoɔ a ɔyԑ adwuma ma neho a ɔtwerԑ fa apɔmuden nsԑm ho na ɔde ma n’adetɔfoɔ da biara sԑ adwuma ɔyԑ n’afebɔɔ. Ͻde dɔnhwere {num_digit_1, 4} na ԑyԑ nhwehwԑmu na w’atwerԑ. Nnawɔtwe a ԑtwa mu yi, ɔtwerԑԑ nkrataa {num_digit_2, 5} wɔ Dwoada na krataa mmɔho 2/5 wɔ Benada kyԑn Dwoada. Wukuada mu no, ɔtwerԑԑ nkrataa mmɔho mmienu kyԑn deԑ ɔtwerԑԑ no Benada no. Hwehwԑ dɔnhwere dodoɔ a ɔde twerԑԑ nkrataa no wɔ nna mmiԑnsa mu.",
+  "ic_sentence_template": "{name_female, Meredith} wɔfa tɔɔ nwoma a ɛfa aduanidie ho {num_ic, 54} bosome a atwa mu.",
+  "ic_template": "{name_female, Meredith} wɔfa tɔɔ nwoma a ɛfa aduanidie ho {num_ic, 54} bosome a atwa mu. {name_female, Meredith} yԑ nsԑmtwerԑfoɔ a ɔyԑ adwuma ma neho a ɔtwerԑ fa apɔmuden nsԑm ho na ɔde ma n’adetɔfoɔ da biara sԑ adwuma ɔyԑ n’afebɔɔ. Ͻde dɔnhwere {num_digit_1, 4} na ԑyԑ nhwehwԑmu na w’atwerԑ. Nnawɔtwe a ԑtwa mu yi, ɔtwerԑԑ nkrataa {num_digit_2, 5} wɔ Dwoada na krataa mmɔho 2/5 wɔ Benada kyԑn Dwoada. Wukuada mu no, ɔtwerԑԑ nkrataa mmɔho mmienu kyԑn deԑ ɔtwerԑԑ no Benada no. Hwehwԑ dɔnhwere dodoɔ a ɔde twerԑԑ nkrataa no wɔ nna mmiԑnsa mu.",
+  "equation": "UPDATE HERE"
+}

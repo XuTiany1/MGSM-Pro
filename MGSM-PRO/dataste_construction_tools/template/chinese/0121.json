@@ -1,0 +1,8 @@
+{
+  "original_question": "莫里塞特和凯尔被要求带水果。莫里塞特带了 5 颗苹果和 8 颗橙子，而凯尔比莫里塞特多带了一倍的苹果，少带了一半的橙子。他们一共带了多少水果？",
+  "original_answer": 27,
+  "symbolic_template": "{name_female, 莫里塞特} 和 {name_male, 凯尔} 被要求带水果。{name_female, 莫里塞特} 带了 {num_digit_1, 5} 颗苹果和 {num_digit_2, 8} 颗橙子，而 {name_male, 凯尔} 带了 一倍的苹果和 一半的橙子，比 {name_female, 莫里塞特} 少。他们一共带了多少水果？",
+  "ic_sentence_template": "{name_male, 凯尔} 的姨妈摘了 {num_ic, 29} 个白萝卜。",
+  "ic_template": "{name_male, 凯尔} 的姨妈摘了 {num_ic, 29} 个白萝卜。{name_female, 莫里塞特} 和 {name_male, 凯尔} 被要求带水果。{name_female, 莫里塞特} 带了 {num_digit_1, 5} 颗苹果和 {num_digit_2, 8} 颗橙子，而 {name_male, 凯尔} 带了 一倍的苹果和 一半的橙子，比 {name_female, 莫里塞特} 少。他们一共带了多少水果？",
+  "equation": "UPDATE HERE"
+}

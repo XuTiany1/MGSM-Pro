@@ -1,0 +1,8 @@
+{
+  "original_question": "Dax went to their farm to pick some apples and found half as many bugs as ants in the garden. If there were 50 ants, calculate the total number of insects in the garden.",
+  "original_answer": 75,
+  "symbolic_template": "{name_male, Dax} went to their farm to pick some apples and found half as many bugs as ants in the garden. If there were {num_digit, 50} ants, calculate the total number of insects in the garden.",
+  "ic_sentence_template": "{name_male, Dax}'s uncle saw {num_ic, 372} rabbits running across the field.",
+  "ic_template": "{name_male, Dax} went to their farm to pick some apples and found half as many bugs as ants in the garden. {name_male, Dax}'s uncle saw {num_ic, 372} rabbits running across the field. If there were {num_digit, 50} ants, calculate the total number of insects in the garden.",
+  "equation": "UPDATE HERE"
+}

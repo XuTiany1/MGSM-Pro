@@ -1,0 +1,8 @@
+{
+  "original_question": "Stephen ra ọjà lórí ẹ̀rọ ayélujára fún àwọn ohun tí ẹnu ń jẹ. Àpapọ̀ owó rẹ̀ kú sí $40.00. Nítorí èyí wá láti ọ̀dọ afi ọjà ránṣẹ́, wọ́n fi 25% owó kún àpapọ̀ owó rẹ̀ wọ́n sì bèrè $3.00 lọ́wọ́ rẹ̀ fún owó ìfiránṣẹ́. Stephen tún fi $4.00 owó ìjẹ kún-un. Lẹ́yìn àfikún owó náà, èlò ní pààpin iye owó ọjà tí Stephen rà?",
+  "original_answer": 57,
+  "symbolic_template": "{name_male, Stephen} ra ọjà lórí ẹ̀rọ ayélujára fún àwọn ohun tí ẹnu ń jẹ. Àpapọ̀ owó rẹ̀ kú sí ${num_digit_1, 40.00}. Nítorí èyí wá láti ọ̀dọ afi ọjà ránṣẹ́, wọ́n fi {num_digit_2, 25}% owó kún àpapọ̀ owó rẹ̀ wọ́n sì bèrè ${num_digit_3, 3.00} lọ́wọ́ rẹ̀ fún owó ìfiránṣẹ́. Stephen tún fi ${num_digit_4, 4.00} owó ìjẹ kún-un. Lẹ́yìn àfikún owó náà, èlò ní pààpin iye owó ọjà tí {name_male, Stephen} rà?",
+  "ic_sentence_template": "Ìyá ńlá {name_male, Stephen} ra ọ̀gẹ̀dẹ̀ {num_ic, 41} ní àná.",
+  "ic_template": "Ìyá ńlá {name_male, Stephen} ra ọ̀gẹ̀dẹ̀ {num_ic, 41} ní àná. {name_male, Stephen} ra ọjà lórí ẹ̀rọ ayélujára fún àwọn ohun tí ẹnu ń jẹ. Àpapọ̀ owó rẹ̀ kú sí ${num_digit_1, 40.00}. Nítorí èyí wá láti ọ̀dọ afi ọjà ránṣẹ́, wọ́n fi {num_digit_2, 25}% owó kún àpapọ̀ owó rẹ̀ wọ́n sì bèrè ${num_digit_3, 3.00} lọ́wọ́ rẹ̀ fún owó ìfiránṣẹ́. Stephen tún fi ${num_digit_4, 4.00} owó ìjẹ kún-un. Lẹ́yìn àfikún owó náà, èlò ní pààpin iye owó ọjà tí {name_male, Stephen} rà?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Billy sells DVDs. He has 8 customers on Tuesday. His first 3 customers buy one DVD each. His next 2 customers buy 2 DVDs each. His last 3 customers don't buy any DVDs. How many DVDs did Billy sell on Tuesday?",
+  "original_answer": 7,
+  "symbolic_template": "{name_male, Billy} sells DVDs. He has {num_digit_1, 8} customers on Tuesday. His first {num_digit_2, 3} customers buy one DVD each. His next {num_digit_3, 2} customers buy {num_digit_4, 2} DVDs each. His last {num_digit_5, 3} customers don't buy any DVDs. How many DVDs did {name_male, Billy} sell on Tuesday?",
+  "ic_sentence_template": "{name_male, Billy}'s aunt brought {num_ic, 18} popcorn bags to share.",
+  "ic_template": "{name_male, Billy} sells DVDs. He has {num_digit_1, 8} customers on Tuesday. His first {num_digit_2, 3} customers buy one DVD each. His next {num_digit_3, 2} customers buy {num_digit_4, 2} DVDs each. His last {num_digit_5, 3} customers don't buy any DVDs. {name_male, Billy}'s aunt brought {num_ic, 18} popcorn bags to share. How many DVDs did {name_male, Billy} sell on Tuesday?",
+  "equation": "UPDATE HERE"
+}

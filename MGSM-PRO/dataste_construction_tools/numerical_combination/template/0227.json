@@ -1,0 +1,32 @@
+{
+    "problem_id": "0227",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_5", "num_digit_6", "num_digit_7", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "float", "range": [6.00, 12.00], "precision": 2},
+        "num_digit_2": {"type": "float", "range": [1.50, 4.00], "precision": 2},
+        "num_digit_3": {"type": "float", "range": [0.50, 2.00], "precision": 2},
+        "num_digit_4": {"type": "float", "range": [1.00, 3.00], "precision": 2},
+        "num_digit_5": {"type": "float", "range": [0.25, 1.00], "precision": 2},
+        "num_digit_6": {"type": "float", "range": [2.50, 5.00], "precision": 2},
+        "num_digit_7": {"type": "float", "range": [5.00, 15.00], "precision": 2},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_7": [
+            "burrito_base = num_digit_1 + num_digit_2 + num_digit_3 + num_digit_4",
+            "sauces_total = 2 * num_digit_5",
+            "subtotal = burrito_base + sauces_total + num_digit_6",
+            "ans = subtotal - num_digit_7"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 2}
+    },
+    "restrictions": {
+        "num_digit_7": [
+            "subtotal > num_digit_7",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

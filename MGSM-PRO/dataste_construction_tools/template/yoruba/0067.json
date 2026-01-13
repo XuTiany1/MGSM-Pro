@@ -1,0 +1,8 @@
+{
+  "original_question": "Ọdẹ ohun ìṣúra rí àpótí ìṣúra tí a bò mọ́lẹ̀ tí àwọn òkúta olówó iyebíye kún inú rẹ̀. Dáyámọ́ndì jẹ́ 175, rúbì tó fi 35 kéré sí dáyámọ́ndì, tó sì jẹ́ ìlọ́po méjì ẹ́mírádì ju rúbì lọ. ìṣúra mélòó ní ó wà nínú àpótí náà?",
+  "original_answer": 595,
+  "symbolic_template": "Ọdẹ ohun ìṣúra rí àpótí ìṣúra tí a bò mọ́lẹ̀ tí àwọn òkúta olówó iyebíye kún inú rẹ̀. Dáyámọ́ndì jẹ́ {num_digit_1, 175}, rúbì tó fi {num_digit_2, 35} kéré sí dáyámọ́ndì, tó sì jẹ́ ìlọ́po méjì ẹ́mírádì ju rúbì lọ. ìṣúra mélòó ní ó wà nínú àpótí náà?",
+  "ic_sentence_template": "Ọmọbìnrin/Ọmọkùnrin oníṣàwárí àrà òkunrìn rẹ̀ rí {num_ic, 632} owó ìṣàkóso atijọ́ nínú iho mìíràn lẹ́ẹ̀kan.",
+  "ic_template": "Ọmọbìnrin/Ọmọkùnrin oníṣàwárí àrà òkunrìn rẹ̀ rí {num_ic, 632} owó ìṣàkóso atijọ́ nínú iho mìíràn lẹ́ẹ̀kan. Ọdẹ ohun ìṣúra rí àpótí ìṣúra tí a bò mọ́lẹ̀ tí àwọn òkúta olówó iyebíye kún inú rẹ̀. Dáyámọ́ndì jẹ́ {num_digit_1, 175}, rúbì tó fi {num_digit_2, 35} kéré sí dáyámọ́ndì, tó sì jẹ́ ìlọ́po méjì ẹ́mírádì ju rúbì lọ. ìṣúra mélòó ní ó wà nínú àpótí náà?",
+  "equation": "UPDATE HERE"
+}

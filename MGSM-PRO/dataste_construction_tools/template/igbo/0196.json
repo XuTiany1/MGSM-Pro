@@ -1,0 +1,8 @@
+{
+  "original_question": "Narị paund karọt abụọ ka a ga-ekesara ụlọ oriri na ọṅụṅụ dị iri anọ n'otu obodo. Ụlọ oriri na ọṅụṅụ ọbụla ga-anata paund karọt abụọ. Kedụ paund karọt ole a na-agaghị eji eme ihe? ",
+  "original_answer": 120,
+  "symbolic_template": "Narị paund karọt {num_digit_1, 200} ka a ga-ekesara ụlọ oriri na ọṅụṅụ dị {num_digit_2, 40} n'otu obodo. Ụlọ oriri na ọṅụṅụ ọbụla ga-anata paund karọt {num_digit_3, 2}. Kedụ paund karọt ole a na-agaghị eji eme ihe?",
+  "ic_sentence_template": "Ndi osi nri {num_ic, 22} nọ n’obodo na-anwale uzommeputa ofe ohuru.",
+  "ic_template": "Ndi osi nri {num_ic, 22} nọ n’obodo na-anwale uzommeputa ofe ohuru. Narị paund karọt {num_digit_1, 200} ka a ga-ekesara ụlọ oriri na ọṅụṅụ dị {num_digit_2, 40} n'otu obodo. Ụlọ oriri na ọṅụṅụ ọbụla ga-anata paund karọt {num_digit_3, 2}. Kedụ paund karọt ole a na-agaghị eji eme ihe?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Charlie anataka kuuza mishumaa ya nta ya nyuki. Kwa kila pauni ya nta ya nyuki, anaweza kutengeneza mishumaa 10. Pauni moja ya nta ya nyuki na tambi zote zinagharimu $10.00. Akiuza kila mshumaa kwa $2.00 kwa kila moja, jumla ya faida yake akitengeneza na kuuza mishumaa 20 itakuwa ngapi?",
+  "original_answer": 20,
+  "symbolic_template": "{name_male, Charlie} anataka kuuza mishumaa ya nta ya nyuki. Kwa kila pauni ya nta ya nyuki, anaweza kutengeneza mishumaa {num_digit_1, 10}. Pauni moja ya nta ya nyuki na tambi zake zinagharimu ${num_digit_2, 10.00}. Akiuza kila mshumaa kwa ${num_digit_3, 2.00}, faida yake ikiwa atatengeneza na kuuza mishumaa {num_digit_4, 20} itakuwa ngapi?",
+  "ic_sentence_template": "Mjomba wa {name_male, Charlie} ana mizinga ya nyuki {num_ic, 37}.",
+  "ic_template": "Mjomba wa {name_male, Charlie} ana mizinga ya nyuki {num_ic, 37}. {name_male, Charlie} anataka kuuza mishumaa ya nta ya nyuki. Kwa kila pauni ya nta ya nyuki, anaweza kutengeneza mishumaa {num_digit_1, 10}. Pauni moja ya nta ya nyuki na tambi zake zinagharimu ${num_digit_2, 10.00}. Akiuza kila mshumaa kwa ${num_digit_3, 2.00}, faida yake ikiwa atatengeneza na kuuza mishumaa {num_digit_4, 20} itakuwa ngapi?",
+  "equation": "UPDATE HERE"
+}

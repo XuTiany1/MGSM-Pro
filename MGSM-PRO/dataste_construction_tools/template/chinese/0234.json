@@ -1,0 +1,8 @@
+{
+  "original_question": "史蒂夫决定开始吃更多番茄，并决定自己种植小番茄。他吃的是他女朋友的两倍。他每天吃 6 个。如果一根藤蔓每周能结 3 个番茄，他需要多少根藤蔓？",
+  "original_answer": 21,
+  "symbolic_template": "{name_male, 史蒂夫} 决定开始吃更多番茄，并决定自己种植小番茄。他吃的是他女朋友的 两倍。他每天吃 {num_digit_1, 6} 个。如果一根藤蔓每周能结 {num_digit_2, 3} 个番茄，他需要多少根藤蔓？",
+  "ic_sentence_template": "{name_male, 史蒂夫} 的姑妈每年夏天种植 {num_ic, 1531} 个辣椒。",
+  "ic_template": "{name_male, 史蒂夫} 的姑妈每年夏天种植 {num_ic, 1531} 个辣椒。{name_male, 史蒂夫} 决定开始吃更多番茄，并决定自己种植小番茄。他吃的是他女朋友的 两倍。他每天吃 {num_digit_1, 6} 个。如果一根藤蔓每周能结 {num_digit_2, 3} 个番茄，他需要多少根藤蔓？",
+  "equation": "UPDATE HERE"
+}

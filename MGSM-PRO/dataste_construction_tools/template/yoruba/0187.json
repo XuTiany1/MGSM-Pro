@@ -1,0 +1,8 @@
+{
+  "original_question": "Mandy jẹ Benedict ní $100. Wọ́n ní àdéhùn wípé yóò ní èrè 2% ni oṣooṣù. Bí Mandy bá lè san án lẹ́yìn oṣù mẹ́ta, èló ló yẹ kí ó fi fún Benedict?",
+  "original_answer": 106,
+  "symbolic_template": "{name_female, Mandy} jẹ {name_male, Benedict} ní ${num_digit_1, 100}. Wọ́n ní àdéhùn wípé yóò ní èrè {num_digit_2, 2}% ni oṣooṣù. Bí {name_female, Mandy} bá lè san án lẹ́yìn oṣù {num_digit_3, 3}, èló ló yẹ kí ó fi fún {name_male, Benedict}?",
+  "ic_sentence_template": "Ọ̀gá bàbá {name_female, Mandy} rákòwé owó dọ́là {num_ic, 656} láti ọwọ́ ẹni kan náà nígbà kan.",
+  "ic_template": "Ọ̀gá bàbá {name_female, Mandy} rákòwé owó dọ́là {num_ic, 656} láti ọwọ́ ẹni kan náà nígbà kan. {name_female, Mandy} jẹ {name_male, Benedict} ní ${num_digit_1, 100}. Wọ́n ní àdéhùn wípé yóò ní èrè {num_digit_2, 2}% ni oṣooṣù. Bí {name_female, Mandy} bá lè san án lẹ́yìn oṣù {num_digit_3, 3}, èló ló yẹ kí ó fi fún {name_male, Benedict}?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "波比正在拼一幅 1,000 片的拼图。她在拼板上拼完了四分之一的拼片，然后她妈妈拼完了剩下拼片的三分之一。拼图还剩下多少片需要拼？",
+  "original_answer": 500,
+  "symbolic_template": "{name_female, 波比} 正在拼一幅 {num_digit_1, 1,000} 片的拼图。她在拼板上拼完了 四分之一 的拼片，然后她妈妈拼完了剩下拼片的 三分之一。拼图还剩下多少片需要拼？",
+  "ic_sentence_template": "{name_female, 波比} 的叔叔拥有 {num_ic, 98} 个桌游。",
+  "ic_template": "{name_female, 波比} 的叔叔拥有 {num_ic, 98} 个桌游。{name_female, 波比} 正在拼一幅 {num_digit_1, 1,000} 片的拼图。她在拼板上拼完了 四分之一 的拼片，然后她妈妈拼完了剩下拼片的 三分之一。拼图还剩下多少片需要拼？",
+  "equation": "UPDATE HERE"
+}

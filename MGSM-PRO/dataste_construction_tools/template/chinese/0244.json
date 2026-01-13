@@ -1,0 +1,8 @@
+{
+  "original_question": "格里芬有 24 根薯条，但是凯尔拿了其中 5 根。比利拿的是凯尔的两倍。金杰给了格里芬一把她的薯条，然后科尔比从格里芬那里拿了比凯尔所拿数量少 3 根的薯条。如果最后格里芬有 27 根薯条，金杰给了格里芬多少根薯条？",
+  "original_answer": 20,
+  "symbolic_template": "{name_male_1, 格里芬} 有 {num_digit_1, 24} 根薯条，但是 {name_male_2, 凯尔} 拿了其中 {num_digit_2, 5} 根。{name_male_3, 比利} 拿的是 {name_male_2, 凯尔} 的 两倍。{name_male_4, 金杰} 给了 {name_male_1, 格里芬} 一把她的薯条，然后 {name_male_5, 科尔比} 从 {name_male_1, 格里芬} 那里拿了比 {name_male_2, 凯尔} 所拿数量少 {num_digit_3, 3} 根的薯条。如果最后 {name_male_1, 格里芬} 有 {num_digit_4, 27} 根薯条，{name_male_4, 金杰} 给了 {name_male_1, 格里芬} 多少根薯条？",
+  "ic_sentence_template": "{name_male_2, 凯尔} 的阿姨带来了 {num_ic, 18458} 包番茄酱到桌上。",
+  "ic_template": "{name_male_2, 凯尔} 的阿姨带来了 {num_ic, 18458} 包番茄酱到桌上。{name_male_1, 格里芬} 有 {num_digit_1, 1024} 根薯条，但是 {name_male_2, 凯尔} 拿了其中 {num_digit_2, 157} 根。{name_male_3, 比利} 拿的是 {name_male_2, 凯尔} 的 两倍。{name_male_4, 金杰} 给了 {name_male_1, 格里芬} 一把她的薯条，然后 {name_male_5, 科尔比} 从 {name_male_1, 格里芬} 那里拿了比 {name_male_2, 凯尔} 所拿数量少 {num_digit_3, 13} 根的薯条。如果最后 {name_male_1, 格里芬} 有 {num_digit_4, 600} 根薯条，{name_male_4, 金杰} 给了 {name_male_1, 格里芬} 多少根薯条？",
+  "equation": "UPDATE HERE"
+}

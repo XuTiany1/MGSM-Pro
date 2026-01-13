@@ -1,0 +1,8 @@
+{
+  "original_question": "Jennie ԑboa wɔ beaeԑ a ne maame yԑ adwuma. Ͻwɔ nkrataa 60 a ԑhia sԑ wɔde adeԑ tare so, ne nkrataa dodoɔ bi a wɔde adeԑ atare so deda. Ͻde ataredeԑ tare nkrataa a ԑhia ataredeԑ no mu mmiensa nkyԑmu baako so. Sԑ wɔwɔ nkrataa 30 a w’atare so seesei a, na sԑn na ԑwɔ hɔ ansa na Jennie hyԑԑ aseԑ?",
+  "original_answer": 10,
+  "symbolic_template": "{name_female, Jennie} ԑboa wɔ beaeԑ a ne maame yԑ adwuma. Ͻwɔ nkrataa {num_digit_1, 60} a ԑhia sԑ wɔde adeԑ tare so, ne nkrataa dodoɔ bi a wɔde adeԑ atare so deda. Ͻde ataredeԑ tare nkrataa a ԑhia ataredeԑ no mu mmiensa nkyԑmu baako so. Sԑ wɔwɔ nkrataa {num_digit_2, 30} a w’atare so seesei a, na sԑn na ԑwɔ hɔ ansa na {name_female, Jennie} hyԑԑ aseԑ?",
+  "ic_sentence_template": "{name_female, Jennie} wɔfa no nsa kaa nkratoɔ krataa {num_ic, 27} wɔ ne awo da no so.",
+  "ic_template": "{name_female, Jennie} wɔfa no nsa kaa nkratoɔ krataa {num_ic, 27} wɔ ne awo da no so. {name_female, Jennie} ԑboa wɔ beaeԑ a ne maame yԑ adwuma. Ͻwɔ nkrataa {num_digit_1, 60} a ԑhia sԑ wɔde adeԑ tare so, ne nkrataa dodoɔ bi a wɔde adeԑ atare so deda. Ͻde ataredeԑ tare nkrataa a ԑhia ataredeԑ no mu mmiensa nkyԑmu baako so. Sԑ wɔwɔ nkrataa {num_digit_2, 30} a w’atare so seesei a, na sԑn na ԑwɔ hɔ ansa na {name_female, Jennie} hyԑԑ aseԑ?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "ọkọ̀ ojú omi júlia ń jò nígbàtí ó wà ní orí omi. ọkọ̀ ojú omi náà ń mu omi lítà méjì fún gbogbo ẹsẹ̀ bàtà tó bá padà sí èbúté. ó gbàá tó ìṣẹ́jú mẹ́rìndínlógún láti kọjá ẹsẹ̀ bàtà ogún. èbúté jìnà pẹ̀lú ìṣẹ́jú 64. omi mélòó ní ọkọ̀ ojú omi náà ti fà nígbàtí júlia yóò fi dé èbúté?",
+  "original_answer": 16,
+  "symbolic_template": "ọkọ̀ ojú omi {name_female, Julia} ń jò nígbàtí ó wà ní orí omi. ọkọ̀ ojú omi náà ń mu omi lítà méjì fún gbogbo ẹsẹ̀ bàtà tó bá padà sí èbúté. ó gbàá tó ìṣẹ́jú mẹ́rìndínlógún láti kọjá ẹsẹ̀ bàtà ogún. èbúté jìnà pẹ̀lú ìṣẹ́jú {num_digit_1, 64}. omi mélòó ní ọkọ̀ ojú omi náà ti fà nígbàtí {name_female, Julia} yóò fi dé èbúté?",
+  "ic_sentence_template": "Arákùnrin {name_female, Julia} ní àwọn ìdákẹ́ńdé pẹja {num_ic, 444}.",
+  "ic_template": "Arákùnrin {name_female, Julia} ní àwọn ìdákẹ́ńdé pẹja {num_ic, 444}. ọkọ̀ ojú omi {name_female, Julia} ń jò nígbàtí ó wà ní orí omi. ọkọ̀ ojú omi náà ń mu omi lítà méjì fún gbogbo ẹsẹ̀ bàtà tó bá padà sí èbúté. ó gbàá tó ìṣẹ́jú mẹ́rìndínlógún láti kọjá ẹsẹ̀ bàtà ogún. èbúté jìnà pẹ̀lú ìṣẹ́jú {num_digit_1, 64}. omi mélòó ní ọkọ̀ ojú omi náà ti fà nígbàtí {name_female, Julia} yóò fi dé èbúté?",
+  "equation": "UPDATE HERE"
+}

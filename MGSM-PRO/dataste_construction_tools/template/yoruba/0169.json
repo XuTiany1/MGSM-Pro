@@ -1,0 +1,8 @@
+{
+  "original_question": "Pancho máa ń rìn máìlì 20 lójúmọ́. Àyàfi ní òpin ọ̀sẹ̀ nígbà tí ó bá rìn máìlì 10. Máìlì mélòó ni ó ń rìn láàárín ọ̀sẹ̀ kan?",
+  "original_answer": 120,
+  "symbolic_template": "{name_male, Pancho} máa ń rìn máìlì {num_digit_1, 20} lójúmọ́. Àyàfi ní òpin ọ̀sẹ̀ nígbà tí ó bá rìn máìlì {num_digit_2, 10}. Máìlì mélòó ni ó ń rìn láàárín ọ̀sẹ̀ kan?",
+  "ic_sentence_template": "Agbà {name_male, Pancho} ní baba ńlá tó ní fila {num_ic, 302}.",
+  "ic_template": "Agbà {name_male, Pancho} ní baba ńlá tó ní fila {num_ic, 302}. {name_male, Pancho} máa ń rìn máìlì {num_digit_1, 20} lójúmọ́. Àyàfi ní òpin ọ̀sẹ̀ nígbà tí ó bá rìn máìlì {num_digit_2, 10}. Máìlì mélòó ni ó ń rìn láàárín ọ̀sẹ̀ kan?",
+  "equation": "UPDATE HERE"
+}

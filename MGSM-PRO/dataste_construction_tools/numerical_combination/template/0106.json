@@ -1,0 +1,32 @@
+{
+    "problem_id": "0106",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_5", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [2, 10]},
+        "num_digit_2": {"type": "int", "range": [6, 20]},
+        "num_digit_3": {"type": "int", "range": [6, 20]},
+        "num_digit_4": {"type": "int", "range": [6, 20]},
+        "num_digit_5": {"type": "int", "range": [1, 2]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_5": [
+            "inner_l = num_digit_2 - (2 * num_digit_5)",
+            "inner_w = num_digit_3 - (2 * num_digit_5)",
+            "inner_h = num_digit_4 - (2 * num_digit_5)",
+            "vol_one = inner_l * inner_w * inner_h",
+            "ans = num_digit_1 * vol_one"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 5}
+    },
+    "restrictions": {
+        "num_digit_5": [
+            "num_digit_2 > (2 * num_digit_5)",
+            "num_digit_3 > (2 * num_digit_5)",
+            "num_digit_4 > (2 * num_digit_5)",
+            "ans > 0"
+        ]
+    }
+}

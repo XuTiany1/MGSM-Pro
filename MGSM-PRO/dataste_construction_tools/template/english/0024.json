@@ -1,0 +1,8 @@
+{
+  "original_question": "Kyle bought last year's best-selling book for $19.50. This is with a 25% discount from the original price. What was the original price of the book?",
+  "original_answer": 26,
+  "symbolic_template": "{name_male, Kyle} bought last year's best-selling book for ${num_digit_1, 19.50}. This is with a {num_digit_2, 25}% discount from the original price. What was the original price of the book?",
+  "ic_sentence_template": "{name_male, Kyle}'s aunt used to read {num_ic, 326332763} magazines every year.",
+  "ic_template": "{name_male, Kyle} bought last year's best-selling book for ${num_digit_1, 19.50}. This is with a {num_digit_2, 25}% discount from the original price. {name_male, Kyle}'s aunt used to read {num_ic, 326332763} magazines every year. What was the original price of the book?",
+  "equation": "UPDATE HERE"
+}

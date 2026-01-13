@@ -1,0 +1,8 @@
+{
+  "original_question": "Melanie bụ nwannyị onyeahịa na-aga site n'ọnụ ụzọ n'ọnụ ụzọ ere ahịa. O rere ihe atọ eji ehicha ụlọ n'ulo akwụkwọ ndụ akwụkwọ ndụ, abụọ ọzọ n'ụlọ ọbara ọbara, na okara ihe ndị ọzọ fọdụrụ n'ulo oroma. Ọ bụrụ na Melanie nwere ihe e ji ehicha ụlọ ise fọdụrụ, ole ka oọ jiri malite?",
+  "original_answer": 18,
+  "symbolic_template": "{name_female, Melanie} bụ nwannyị onyeahịa na-aga site n'ọnụ ụzọ n'ọnụ ụzọ ere ahịa. O rere otu n'ime atọ ihe eji ehicha ụlọ n'ulo akwụkwọ ndụ, {num_digit_1, 2} ọzọ n'ụlọ ọbara ọbara, na ọkara ihe ndị ọzọ fọdụrụ n'ulo oroma. Ọ bụrụ na {name_female, Melanie} nwere {num_digit_2, 5} ihe e ji ehicha ụlọ fọdụrụ, ole ka oọ jiri malite",
+  "ic_sentence_template": "Nwanne nna m {name_female, Melanie} zụtara ákwà esi nri {num_ic, 112} izu gara aga.",
+  "ic_template": "Nwanne nna m {name_female, Melanie} zụtara ákwà esi nri {num_ic, 112} izu gara aga. {name_female, Melanie} bụ nwannyị onyeahịa na-aga site n'ọnụ ụzọ n'ọnụ ụzọ ere ahịa. O rere otu n'ime atọ ihe eji ehicha ụlọ n'ulo akwụkwọ ndụ, {num_digit_1, 2} ọzọ n'ụlọ ọbara ọbara, na ọkara ihe ndị ọzọ fọdụrụ n'ulo oroma. Ọ bụrụ na {name_female, Melanie} nwere {num_digit_2, 5} ihe e ji ehicha ụlọ fọdụrụ, ole ka oọ jiri malite",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "约翰收养了一条狗。他把狗带去美容，美容价格是 100 美元。因为他是新顾客，所以宠物美容师给他打了七折。这次美容花了多少钱？",
+  "original_answer": 70,
+  "symbolic_template": "{name_male, 约翰} 收养了一条狗。他把狗带去美容，美容价格是 {num_digit_1, 100} 美元。因为他是新顾客，所以宠物美容师给他打了 {num_digit_2, 30}% 折扣。这次美容花了多少钱？",
+  "ic_sentence_template": "{name_male, 约翰} 的叔叔有 {num_ic, 13} 只猫。",
+  "ic_template": "{name_male, 约翰} 的叔叔有 {num_ic, 13} 只猫。{name_male, 约翰} 收养了一条狗。他把狗带去美容，美容价格是 {num_digit_1, 100} 美元。因为他是新顾客，所以宠物美容师给他打了 {num_digit_2, 30}% 折扣。这次美容花了多少钱？",
+  "equation": "UPDATE HERE"
+}

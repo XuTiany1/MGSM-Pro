@@ -1,0 +1,8 @@
+{
+  "original_question": "Rani nwere nshikọ iri karịa Monic, onye nshikọ ya ji anọ dị nta karịa nke Bo. Ọ bụrụ na Bo nwere nshikọ iri anọ, gbakọọ na ngụkọta ọnụọgụgụ nshikọ mmadụ atọ ahụ nwekọrọ ọnụ. ",
+  "original_answer": 122,
+  "symbolic_template": "{name_female_1, Rani} nwere nshikọ iri karịa {name_female_2, Monic}, onye nshikọ ya ji {num_digit_1, 4} dị nta karịa nke {name_male_1, Bo}. Ọ bụrụ na {name_male_1, Bo} nwere nshikọ {num_digit_2, 40}, gbakọọ na ngụkọta ọnụọgụgụ nshikọ mmadụ atọ ahụ nwekọrọ ọnụ.",
+  "ic_sentence_template": "Nwanne nne {name_female_2, Monic} hụrụ {num_ic, 88} mkpụrụese n'ọdụ osimiri.",
+  "ic_template": "Nwanne nne {name_female_2, Monic} hụrụ {num_ic, 88} mkpụrụese n'ọdụ osimiri. {name_female_1, Rani} nwere nshikọ iri karịa {name_female_2, Monic}, onye nshikọ ya ji {num_digit_1, 4} dị nta karịa nke {name_male_1, Bo}. Ọ bụrụ na {name_male_1, Bo} nwere nshikọ {num_digit_2, 40}, gbakọọ na ngụkọta ọnụọgụgụ nshikọ mmadụ atọ ahụ nwekọrọ ọnụ.",
+  "equation": "UPDATE HERE"
+}

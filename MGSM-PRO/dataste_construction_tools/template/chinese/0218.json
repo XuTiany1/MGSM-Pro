@@ -1,0 +1,8 @@
+{
+  "original_question": "阿德里安的年龄是哈丽特年龄的三倍，哈丽特的年龄是扎克的一半。如果哈丽特现在 21 岁，计算三年之后这三个人的平均年龄。",
+  "original_answer": 45,
+  "symbolic_template": "{name_male_1, 阿德里安} 的年龄是 {name_male_2, 哈丽特} 年龄的 3 倍，{name_male_2, 哈丽特} 的年龄是 {name_male_3, 扎克} 的 一半。如果 {name_male_2, 哈丽特} 现在 {num_digit_1, 21} 岁，计算 3 年之后这三个人的平均年龄。",
+  "ic_sentence_template": "{name_male_2, 哈丽雅特} 的叔叔刚刚从市场买了 {num_ic, 107} 个苹果。",
+  "ic_template": "{name_male_2, 哈丽雅特} 的叔叔刚刚从市场买了 {num_ic, 107} 个苹果。{name_male_1, 阿德里安} 的年龄是 {name_male_2, 哈丽特} 年龄的 3 倍，{name_male_2, 哈丽特} 的年龄是 {name_male_3, 扎克} 的 一半。如果 {name_male_2, 哈丽特} 现在 {num_digit_1, 21} 岁，计算 3 年之后这三个人的平均年龄。",
+  "equation": "UPDATE HERE"
+}

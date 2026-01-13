@@ -1,0 +1,8 @@
+{
+  "original_question": "ロージーは1時間10マイルの速度で3時間走ります。その後、1時間5マイルの速度で走ります。彼女は7時間で何マイル走ることができますか？",
+  "original_answer": 50,
+  "symbolic_template": "{name_female, ロージー} は1時間{num_digit_1, 10}マイルの速度で{num_digit_2, 3}時間走ります。その後、1時間{num_digit_3, 5}マイルの速度で走ります。彼女は{num_digit_4, 7}時間で何マイル走ることができますか？",
+  "ic_sentence_template": "{name_female, ロージー}のおじさんは、1日に{num_ic, 62}マイル自転車で走ったことがあります。",
+  "ic_template": "{name_female, ロージー}のおじさんは、1日に{num_ic, 62}マイル自転車で走ったことがあります。{name_female, ロージー} は1時間{num_digit_1, 10}マイルの速度で{num_digit_2, 3}時間走ります。その後、1時間{num_digit_3, 5}マイルの速度で走ります。彼女は{num_digit_4, 7}時間で何マイル走ることができますか？",
+  "equation": "UPDATE HERE"
+}

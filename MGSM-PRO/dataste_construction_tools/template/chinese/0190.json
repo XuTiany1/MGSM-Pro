@@ -1,0 +1,8 @@
+{
+  "original_question": "约翰摘了 3 个小时的桃子。他一分钟能摘 2 颗桃子。他摘了多少颗桃子？",
+  "original_answer": 360,
+  "symbolic_template": "{name_male, 约翰} 摘了 {num_digit_1, 3} 个小时的桃子。他一分钟能摘 {num_digit_2, 2} 颗桃子。他摘了多少颗桃子？",
+  "ic_sentence_template": "{name_male, 约翰} 的叔叔每天早上带着 {num_ic, 9} 个篮子去果园。",
+  "ic_template": "{name_male, 约翰} 的叔叔每天早上带着 {num_ic, 9} 个篮子去果园。{name_male, 约翰} 摘了 {num_digit_1, 3} 个小时的桃子。他一分钟能摘 {num_digit_2, 2} 颗桃子。他摘了多少颗桃子？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Janet anamnunulia binti yake bruki. Analipa $500 ya kitambaa cha kuitengeneza na kisha $800 nyingine ya mtengeneza vito wa kuitengeneza. Baada ya hapo, analipa 10% ya hiyo kuiwekea bima. Alilipa pesa ngapi kwa jumla?",
+  "original_answer": 1430,
+  "symbolic_template": "{name_female, Janet} anamnunulia binti yake broshi. Analipa ${num_digit_1, 500} ya kitambaa cha kuitengeneza na kisha ${num_digit_2, 800} nyingine ya mtengeneza vito wa kuitengeneza. Baada ya hapo, analipa {num_digit_3, 10}% ya hiyo kuiwekea bima. Alilipa pesa ngapi kwa jumla?",
+  "ic_sentence_template": "Mjomba wa {name_female, Janet} alipata sarafu adimu {num_ic, 35} kwenye dari la nyumba yake.",
+  "ic_template": "{name_female, Janet} anamnunulia binti yake broshi. Analipa ${num_digit_1, 500} ya kitambaa cha kuitengeneza na kisha ${num_digit_2, 800} nyingine ya mtengeneza vito wa kuitengeneza. Baada ya hapo, analipa {num_digit_3, 10}% ya hiyo kuiwekea bima. Mjomba wa {name_female, Janet} alipata sarafu adimu {num_ic, 35} kwenye dari la nyumba yake. Alilipa pesa ngapi kwa jumla?",
+  "equation": "UPDATE HERE"
+}

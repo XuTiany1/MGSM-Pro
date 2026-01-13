@@ -1,0 +1,8 @@
+{
+  "original_question": "杰克正在参观昆虫博物馆。他看到 80 只蜘蛛（每只有 8 条腿）、90 只昆虫（每只有 6 条腿）和 3 只珍稀的突变无脊椎动物（每只有 10 条腿）。杰克一共看到多少条腿？",
+  "original_answer": 1210,
+  "symbolic_template": "{name_male, 杰克} 正在参观昆虫博物馆。他看到 {num_digit_1, 80} 只蜘蛛（每只有 {num_digit_2, 8} 条腿）、{num_digit_3, 90} 只昆虫（每只有 {num_digit_4, 6} 条腿）和 {num_digit_5, 3} 只珍稀的突变无脊椎动物（每只有 {num_digit_6, 10} 条腿）。{name_male, 杰克} 一共看到多少条腿？",
+  "ic_sentence_template": "{name_male, 杰克} 的侄女去年夏天收集了 {num_ic, 328} 只蝴蝶。",
+  "ic_template": "{name_male, 杰克} 的侄女去年夏天收集了 {num_ic, 328} 只蝴蝶。{name_male, 杰克} 正在参观昆虫博物馆。他看到 {num_digit_1, 80} 只蜘蛛（每只有 {num_digit_2, 8} 条腿）、{num_digit_3, 90} 只昆虫（每只有 {num_digit_4, 6} 条腿）和 {num_digit_5, 3} 只珍稀的突变无脊椎动物（每只有 {num_digit_6, 10} 条腿）。{name_male, 杰克} 一共看到多少条腿？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Greg ameweka king'ora kilie mara tatu kwa siku kama kikumbusho. King'ora kikianza kulia, huwa kinaendelea kulia hadi Greg akizime. Mara ya kwanza kilipoanza kulia leo, kililia mara nne. Mara ya pili kilipoanza kulia, kililia mara tatu zaidi ya mara ya kwanza kilipolia. Mara ya tatu kilipolia, kililia nusu ya kilivyolia mara ya pili. King'ora hicho kililia mara ngapi kwa jumla?",
+  "original_answer": 22,
+  "symbolic_template": "{name_male, Greg} ameweka kengele ili ipige mara tatu kwa siku kama kikumbusho. Kengele ikipiga, huendelea hadi {name_male, Greg} aipooze. Mara ya kwanza ilipopiga leo, ilipiga mara nne. Mara ya pili ilipopiga, ilipiga kwa muda wa mara tatu ya muda wa mara ya kwanza. Mara ya tatu, ilipiga kwa muda wa nusu ya muda wa mara ya pili. Kengele ilipiga jumla ya mara ngapi?",
+  "ic_sentence_template": "Shangazi wa {name_male, Greg} amenunua saa za kengele mpya {num_ic, 15}.",
+  "ic_template": "Shangazi wa {name_male, Greg} amenunua saa za kengele mpya {num_ic, 15}. {name_male, Greg} ameweka kengele ili ipige mara tatu kwa siku kama kikumbusho. Kengele ikipiga, huendelea hadi {name_male, Greg} aipooze. Mara ya kwanza ilipopiga leo, ilipiga mara nne. Mara ya pili ilipopiga, ilipiga kwa muda wa mara tatu ya muda wa mara ya kwanza. Mara ya tatu, ilipiga kwa muda wa nusu ya muda wa mara ya pili. Kengele ilipiga jumla ya mara ngapi?",
+  "equation": "UPDATE HERE"
+}

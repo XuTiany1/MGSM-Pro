@@ -1,0 +1,8 @@
+{
+  "original_question": "Dans un certain quartier, la population des lapins de compagnie compte douze unités de moins que celle de l'ensemble des chiens et des chats de compagnie. Si pour chaque chien on compte deux chats et qu'il y a en tout 60 chiens, combien d'animaux domestiques y a-t-il au total dans le quartier ?",
+  "original_answer": 348,
+  "symbolic_template": "Dans un certain quartier, la population des lapins de compagnie compte douze unités de moins que celle de l'ensemble des chiens et des chats de compagnie. Si pour chaque chien on compte deux chats et qu'il y a en tout {num_digit_1, 60} chiens, combien d'animaux domestiques y a-t-il au total dans le quartier ?",
+  "ic_sentence_template": "{name_female, Olivia} a un oncle qui possède {num_ic, 197} tortues.",
+  "ic_template": "{name_female, Olivia} a un oncle qui possède {num_ic, 197} tortues. Dans un certain quartier, la population des lapins de compagnie compte douze unités de moins que celle de l'ensemble des chiens et des chats de compagnie. Si pour chaque chien on compte deux chats et qu'il y a en tout {num_digit_1, 60} chiens, combien d'animaux domestiques y a-t-il au total dans le quartier ?",
+  "equation": "UPDATE HERE"
+}

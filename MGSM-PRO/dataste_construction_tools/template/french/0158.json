@@ -1,0 +1,8 @@
+{
+  "original_question": "Raphael est allé acheter des fournitures scolaires. Il a acheté 4 stylos de 1,5 $ chacun, 2 cahiers de 4 $ chacun et du papier bond pour 20 $. Combien Raphael a-t-il dépensé pour tout cela ?",
+  "original_answer": 34,
+  "symbolic_template": "{name_male, Raphael} est allé acheter des fournitures scolaires. Il a acheté {num_digit_1, 4} stylos de {num_digit_2, 1.5} $ chacun, {num_digit_3, 2} cahiers de {num_digit_4, 4} $ chacun et du papier bond pour {num_digit_5, 20} $. Combien {name_male, Raphael} a-t-il dépensé pour tout cela ?",
+  "ic_sentence_template": "{name_male, Raphael} a reçu {num_ic, 19} boîtes de crayons de la part de son oncle la semaine dernière.",
+  "ic_template": "{name_male, Raphael} a reçu {num_ic, 19} boîtes de crayons de la part de son oncle la semaine dernière. {name_male, Raphael} est allé acheter des fournitures scolaires. Il a acheté {num_digit_1, 4} stylos de {num_digit_2, 1.5} $ chacun, {num_digit_3, 2} cahiers de {num_digit_4, 4} $ chacun et du papier bond pour {num_digit_5, 20} $. Combien {name_male, Raphael} a-t-il dépensé pour tout cela ?",
+  "equation": "UPDATE HERE"
+}

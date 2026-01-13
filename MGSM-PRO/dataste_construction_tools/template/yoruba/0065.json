@@ -1,0 +1,8 @@
+{
+  "original_question": "Jim lo wákàtí 2 láti wo TV ó wá pinnu láti lọ sórí ibùsùn lọ ka ìwé fún ìdajì bó ṣe gùn tó. Ó máa ń ṣe èyí ní ìgbà 3 lọ́sẹ̀ kan. Wákàtí mélòó ló ń lò láti wo TV àti láti kàwé ní ọ̀sẹ̀ 4?",
+  "original_answer": 36,
+  "symbolic_template": "{name_male, Jim} lo wákàtí {num_digit_1, 2} láti wo TV ó wá pinnu láti lọ sórí ibùsùn lọ ka ìwé fún ìdajì bó ṣe gùn tó. Ó máa ń ṣe èyí ní ìgbà {num_digit_2, 3} lọ́sẹ̀ kan. Wákàtí mélòó ló ń lò láti wo TV àti láti kàwé ní ọ̀sẹ̀ {num_digit_3, 4}?",
+  "ic_sentence_template": "Arákùnrin {name_male, Jim} maá ń sàbẹ̀wò fún un ní ọjọ́ {num_ic, 34} lọ́dọdún.",
+  "ic_template": "{name_male, Jim} lo wákàtí {num_digit_1, 2} láti wo TV ó wá pinnu láti lọ sórí ibùsùn lọ ka ìwé fún ìdajì bó ṣe gùn tó. Ó máa ń ṣe èyí ní ìgbà {num_digit_2, 3} lọ́sẹ̀ kan. Wákàtí mélòó ló ń lò láti wo TV àti láti kàwé ní ọ̀sẹ̀ {num_digit_3, 4}? Arákùnrin {name_male, Jim} maá ń sàbẹ̀wò fún un ní ọjọ́ {num_ic, 34} lọ́dọdún.",
+  "equation": "UPDATE HERE"
+}

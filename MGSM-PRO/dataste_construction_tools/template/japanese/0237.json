@@ -1,0 +1,8 @@
+{
+  "original_question": "ジョニーはお小遣いの20ドルに10ドルを新たに加えた後、このお金を投資して1年間で3倍に増やしました。1年たった時点でジョニーはいくらもっていましたか？",
+  "original_answer": 90,
+  "symbolic_template": "{name_male, ジョニー}はお小遣いの{num_digit_1, 20}ドルに{num_digit_2, 10}ドルを新たに加えた後、このお金を投資して1年間で3倍に増やしました。1年たった時点で{name_male, ジョニー}はいくらもっていましたか？",
+  "ic_sentence_template": "{name_male, ジョニー}のいとこは誕生日に{num_ic, 88}枚の野球カードをもらいました。",
+  "ic_template": "{name_male, ジョニー}のいとこは誕生日に{num_ic, 88}枚の野球カードをもらいました。{name_male, ジョニー}はお小遣いの{num_digit_1, 20}ドルに{num_digit_2, 10}ドルを新たに加えた後、このお金を投資して1年間で3倍に増やしました。1年たった時点で{name_male, ジョニー}はいくらもっていましたか？",
+  "equation": "UPDATE HERE"
+}

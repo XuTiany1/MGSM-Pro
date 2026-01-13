@@ -1,0 +1,8 @@
+{
+  "original_question": "ሲዮባን ከአሮን በ2 ያነሱ ጌጣጌጦች አሉት። አሮን ከግማሽ የሬይመንድ ጌጣጌጦች 5 ተጨማሪ ጌጣጌጦች አሉት። ሬይመንድ 40 ጌጣጌጦች ካሉት ሲዮባን ስንት ጌጣጌጦች አሉት?",
+  "original_answer": 23,
+  "symbolic_template": "{name_male_1, ሲዮባን} ከ{name_male_2, አሮን} በ{num_digit_1, 2} ያነሱ ጌጣጌጦች አሉት። {name_male_2, አሮን} ከግማሽ የ{name_male_3, ሬይመንድ} ጌጣጌጦች {num_digit_2, 5} ተጨማሪ ጌጣጌጦች አሉት። {name_male_3, ሬይመንድ} {num_digit_3, 40} ጌጣጌጦች ካሉት {name_male_1, ሲዮባን} ስንት ጌጣጌጦች አሉት?",
+  "ic_sentence_template": "የ{name_male_2, አሮን} አጎቱ አንድ ጊዜ {num_ic, 341} ጭብጦ ስጦታ ሰጠው።",
+  "ic_template": "{name_male_1, ሲዮባን} ከ{name_male_2, አሮን} በ{num_digit_1, 2} ያነሱ ጌጣጌጦች አሉት። {name_male_2, አሮን} ከግማሽ የ{name_male_3, ሬይመንድ} ጌጣጌጦች {num_digit_2, 5} ተጨማሪ ጌጣጌጦች አሉት። {name_male_3, ሬይመንድ} {num_digit_3, 40} ጌጣጌጦች ካሉት {name_male_1, ሲዮባን} ስንት ጌጣጌጦች አሉት? የ{name_male_2, አሮን} አጎቱ አንድ ጊዜ {num_ic, 341} ጭብጦ ስጦታ ሰጠው።",
+  "equation": "UPDATE HERE"
+}

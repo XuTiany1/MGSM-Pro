@@ -1,0 +1,8 @@
+{
+  "original_question": "Iye tí wọ́n ń ta ife méjìlá fi $1200 kéré sí iye tí wọ́n ń tà abọ́ mẹ́fà tí wọ́n tà ní $6000 lọ́kọ̀ọ̀kan. Ṣe ìṣirò iye tí wọ́n ń ta ife kọ̀ọ̀kan",
+  "original_answer": 145,
+  "symbolic_template": "Iye tí wọ́n ń ta ife Ogún méjìlá fi ${num_digit_1, 1200} kéré sí iye tí wọ́n ń tà ààbọ̀ méjìlá tí wọ́n tà ní ${num_digit_2, 6000} lọ́kọ̀ọ̀kan. Ṣe ìṣirò iye tí wọ́n ń ta ife kọ̀ọ̀kan",
+  "ic_sentence_template": "A fi àwo kọ́pà mẹ́ẹ̀dógún dúrú ni a fi sí ẹgbẹ̀ {num_ic, 245} ikòkò tí a fi gbẹ́ sí ilé-itaja.",
+  "ic_template": "A fi àwo kọ́pà mẹ́ẹ̀dógún dúrú ni a fi sí ẹgbẹ̀ {num_ic, 245} ikòkò tí a fi gbẹ́ sí ilé-itaja. Iye tí wọ́n ń ta ife Ogún méjìlá fi ${num_digit_1, 1200} kéré sí iye tí wọ́n ń tà ààbọ̀ méjìlá tí wọ́n tà ní ${num_digit_2, 6000} lọ́kọ̀ọ̀kan. Ṣe ìṣirò iye tí wọ́n ń ta ife kọ̀ọ̀kan",
+  "equation": "UPDATE HERE"
+}

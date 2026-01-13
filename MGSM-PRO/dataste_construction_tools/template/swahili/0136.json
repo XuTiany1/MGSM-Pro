@@ -1,0 +1,8 @@
+{
+  "original_question": "Kuna vifarasi 27 waliosalia duniani. Theluthi moja yao wapo katika Nyanda za Juu za Uskoti. Theluthi mbili ya vifaransi wa Uskoti ni wa kike. Kuna vifarasi wangapi wa kike wa Uskoti?",
+  "original_answer": 6,
+  "symbolic_template": "Kuna vifarasi {num_digit_1, 27} waliosalia duniani. Theluthi moja yao wapo katika Nyanda za Juu za Uskoti. Theluthi mbili ya vifaransi wa Uskoti ni wa kike. Kuna vifarasi wangapi wa kike wa Uskoti?",
+  "ic_sentence_template": "Mkulima wa eneo hilo amegundua hivi karibuni majoka {num_ic, 38}.",
+  "ic_template": "Mkulima wa eneo hilo amegundua hivi karibuni majoka {num_ic, 38}. Kuna vifarasi {num_digit_1, 27} waliosalia duniani. Theluthi moja yao wapo katika Nyanda za Juu za Uskoti. Theluthi mbili ya vifaransi wa Uskoti ni wa kike. Kuna vifarasi wangapi wa kike wa Uskoti?",
+  "equation": "UPDATE HERE"
+}

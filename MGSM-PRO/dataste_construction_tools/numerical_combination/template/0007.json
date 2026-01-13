@@ -1,0 +1,37 @@
+{
+    "problem_id": "0007",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [100, 500]},
+        "num_digit_2": {"type": "int", "range": [1, 39]},
+        "num_digit_3": {"type": "int", "range": [10, 99]},
+        "num_digit_4": {"type": "int", "range": [5, 59]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [],
+        "num_digit_3": [
+            "interrupted_gb = num_digit_1 * (num_digit_3 / 100)",
+            "time_first_attempt = interrupted_gb / num_digit_2"
+        ],
+        "num_digit_4": [
+            "time_second_attempt = num_digit_1 / num_digit_2",
+            "ans = time_first_attempt + num_digit_4 + time_second_attempt"
+        ],
+        "num_ic": []
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 4}
+    },
+    "restrictions": {
+        "num_digit_3": [
+            "interrupted_gb % 1 == 0"
+        ],
+        "num_digit_4": [
+            "time_first_attempt % 1 == 0",
+            "time_second_attempt % 1 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

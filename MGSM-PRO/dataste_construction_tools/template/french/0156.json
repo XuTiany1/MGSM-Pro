@@ -1,0 +1,8 @@
+{
+  "original_question": "Pour nourrir les singes du zoo, le gardien commande des bananes à une ferme locale tous les 2 mois. S'il faut 200 bananes pour les macaques, 400 pour les gorilles et 100 pour les babouins, combien doit-il en commander pour tenir durant les 2 mois ?",
+  "original_answer": 1400,
+  "symbolic_template": "Pour nourrir les singes du zoo, le gardien commande des bananes à une ferme locale tous les {num_digit_1, 2} mois. S'il faut {num_digit_2, 200} bananes pour les macaques, {num_digit_3, 400} pour les gorilles et {num_digit_4, 100} pour les babouins, combien doit-il en commander pour tenir durant les {num_digit_5, 2} mois ?",
+  "ic_sentence_template": "La nièce du gardien de zoo a {num_ic, 13} perroquets à la maison.",
+  "ic_template": "La nièce du gardien de zoo a {num_ic, 13} perroquets à la maison. Pour nourrir les singes du zoo, le gardien commande des bananes à une ferme locale tous les {num_digit_1, 2} mois. S'il faut {num_digit_2, 200} bananes pour les macaques, {num_digit_3, 400} pour les gorilles et {num_digit_4, 100} pour les babouins, combien doit-il en commander pour tenir durant les {num_digit_5, 2} mois ?",
+  "equation": "UPDATE HERE"
+}

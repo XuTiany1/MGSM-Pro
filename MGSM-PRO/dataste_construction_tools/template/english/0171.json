@@ -1,0 +1,8 @@
+{
+  "original_question": "Jake is walking through the Museum of Entomology. He sees 80 spiders with 8 legs each, 90 insects with 6 legs each, and 3 rare mutant invertebrates with 10 legs each. How many legs does Jake see total?",
+  "original_answer": 1210,
+  "symbolic_template": "{name_male, Jake} is walking through the Museum of Entomology. He sees {num_digit_1, 80} spiders with {num_digit_2, 8} legs each, {num_digit_3, 90} insects with {num_digit_4, 6} legs each, and {num_digit_5, 3} rare mutant invertebrates with {num_digit_6, 10} legs each. How many legs does {name_male, Jake} see total?",
+  "ic_sentence_template": "{name_male, Jake}'s niece collected {num_ic, 328} butterflies last summer.",
+  "ic_template": "{name_male, Jake} is walking through the Museum of Entomology. He sees {num_digit_1, 80} spiders with {num_digit_2, 8} legs each, {num_digit_3, 90} insects with {num_digit_4, 6} legs each, and {num_digit_5, 3} rare mutant invertebrates with {num_digit_6, 10} legs each. {name_male, Jake}'s niece collected {num_ic, 328} butterflies last summer. How many legs does {name_male, Jake} see total?",
+  "equation": "UPDATE HERE"
+}

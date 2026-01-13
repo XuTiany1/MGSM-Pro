@@ -1,0 +1,8 @@
+{
+  "original_question": "Bere a Amy kɔɔ sukuu foforo mu no, onyaa nnamfo aduonu sen Lily. Sɛ Lily nyaa nnamfo aduonum a, nnamfo dodoɔ ahe na Lily ne Amy wɔ?",
+  "original_answer": 120,
+  "symbolic_template": "Bere a {name_female_1, Amy} kɔɔ sukuu foforo mu no, onyaa nnamfo {num_digit_1, aduonu} sen {name_female_2, Lily}. Sɛ {name_female_2, Lily} nyaa nnamfo {num_digit_2, aduonum} a, nnamfo dodoɔ ahe na {name_female_2, Lily} ne {name_female_1, Amy} wɔ?",
+  "ic_sentence_template": "{name_female_2, Lily} wɔfa maa no aseresɛm nhoma {num_ic, 42} sɛ akwaaba akyɛde.",
+  "ic_template": "{name_female_2, Lily} wɔfa maa no aseresɛm nhoma {num_ic, 42} sɛ akwaaba akyɛde. Bere a {name_female_1, Amy} kɔɔ sukuu foforo mu no, onyaa nnamfo {num_digit_1, aduonu} sen {name_female_2, Lily}. Sɛ {name_female_2, Lily} nyaa nnamfo {num_digit_2, aduonum} a, nnamfo dodoɔ ahe na {name_female_2, Lily} ne {name_female_1, Amy} wɔ?",
+  "equation": "UPDATE HERE"
+}

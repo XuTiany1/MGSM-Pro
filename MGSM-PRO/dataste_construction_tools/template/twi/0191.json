@@ -1,0 +1,8 @@
+{
+  "original_question": "Na ɛho hia sɛ Ndabodabo  bedi sonkosuo 3.5 pounds ansa na watumi atra ase nnawɔtwɛ biara. Sɛ ndabodabo edu na wɔwɔ kuo bi mu a, nsonkosuo pounds ahe na wohia da biara?",
+  "original_answer": 5,
+  "symbolic_template": "Na ɛho hia sɛ Ndabodabo  bedi sonkosuo {num_digit_1, 3.5} pounds ansa na watumi atra ase nnawɔtwɛ biara. Sɛ ndabodabo edu na wɔwɔ kuo bi mu a, nsonkosuo pounds ahe na wohia da biara?",
+  "ic_sentence_template": "Apɔtrɔ {num_ic, 144} te ɔtare a ewɔ agoroprama nkyɛn no mu.",
+  "ic_template": "Apɔtrɔ {num_ic, 144} te ɔtare a ewɔ agoroprama nkyɛn no mu. Na ɛho hia sɛ Ndabodabo  bedi sonkosuo {num_digit_1, 3.5} pounds ansa na watumi atra ase nnawɔtwɛ biara. Sɛ ndabodabo edu na wɔwɔ kuo bi mu a, nsonkosuo pounds ahe na wohia da biara?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Poppy anatatua fumbo lenye vipande 1000. Anaweza robo moja ya vipande hivyo kwenye ubao, kisha mamake anaweza thuluthi moja ya vipande vinavyosalia. Vipande vingapi vimesalia bila kuwekwa?",
+  "original_answer": 500,
+  "symbolic_template": "{name_female, Poppy} anatatua fumbo la picha lenye vipande {num_digit_1, 1000}. Anaweka robo ya vipande hivyo kwenye ubao, kisha mama yake anaweka theluthi ya vipande vilivyosalia. Ni vipande vingapi vya fumbo vitakavyosalia kuwekwa?",
+  "ic_sentence_template": "Mjomba wa {name_female, Poppy} anamiliki michezo ya ubao {num_ic, 98}.",
+  "ic_template": "Mjomba wa {name_female, Poppy} anamiliki michezo ya ubao {num_ic, 98}. {name_female, Poppy} anatatua fumbo la picha lenye vipande {num_digit_1, 1000}. Anaweka robo ya vipande hivyo kwenye ubao, kisha mama yake anaweka theluthi ya vipande vilivyosalia. Ni vipande vingapi vya fumbo vitakavyosalia kuwekwa?",
+  "equation": "UPDATE HERE"
+}

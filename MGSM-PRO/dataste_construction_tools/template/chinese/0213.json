@@ -1,0 +1,8 @@
+{
+  "original_question": "在一美元商店，斯隆数了数，有 100 位顾客进入了这家店。第二天，她数了数，到店人数比第一天多了 50。如果到第三天为止顾客总数是 500，第三天有多少位顾客到店？",
+  "original_answer": 250,
+  "symbolic_template": "{name_female, 斯隆} 在一美元商店数了数，有 {num_digit_1, 100} 位顾客进入了这家店。第二天，她数了数，到店人数比第一天多了 {num_digit_2, 50}。如果到第三天为止顾客总数是 {num_digit_3, 500}，第三天有多少位顾客到店？",
+  "ic_sentence_template": "{name_female, 斯隆} 的叔叔为烘焙义卖烤了 {num_ic, 93} 个蓝莓派。",
+  "ic_template": "{name_female, 斯隆} 的叔叔为烘焙义卖烤了 {num_ic, 93} 个蓝莓派。{name_female, 斯隆} 在一美元商店数了数，有 {num_digit_1, 100} 位顾客进入了这家店。第二天，她数了数，到店人数比第一天多了 {num_digit_2, 50}。如果到第三天为止顾客总数是 {num_digit_3, 500}，第三天有多少位顾客到店？",
+  "equation": "UPDATE HERE"
+}

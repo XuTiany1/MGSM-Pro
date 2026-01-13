@@ -1,0 +1,8 @@
+{
+  "original_question": "Vingt douzaines de tasses ont coûté 1 200 $ de moins que le coût total d'une demi-douzaine d'assiettes vendues à 6 000 $ chacune. Calculez le prix d'une tasse.",
+  "original_answer": 145,
+  "symbolic_template": "Vingt douzaines de tasses ont coûté {num_digit_1, 1200} $ de moins que le coût total d'une demi douzaine d'assiettes vendues à {num_digit_2, 6000} $ chacune. Calculez le prix d'une tasse.",
+  "ic_sentence_template": "Vingt douzaines de tasses étaient entreposées à côté de {num_ic, 245} théières dans l'entrepôt.",
+  "ic_template": "Vingt douzaines de tasses étaient entreposées à côté de {num_ic, 245} théières dans l'entrepôt. Vingt douzaines de tasses ont coûté {num_digit_1, 1200} $ de moins que le coût total d'une demi douzaine d'assiettes vendues à {num_digit_2, 6000} $ chacune. Calculez le prix d'une tasse.",
+  "equation": "UPDATE HERE"
+}

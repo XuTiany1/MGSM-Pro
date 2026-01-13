@@ -1,0 +1,8 @@
+{
+  "original_question": "Julia na-akwado oriri nri abali n'ụlọ ya, ebe obu na uche ka o keé sitiu. Ọ chọpụtara na o nweghịzị ngaji plasitiki, n'ihi ya ọ zụtara ngwugwu ngaji ohụụ. E mechaa, di ya zụtakwara ngwugwu ngaji ọhụụ ise ma nye ha Julia. Mgbe Julia na-esi sitiu ahụ, o ji ngaji atọ mee nlele sitiu ya , E mecha, mgbe ọ gara idozi tebulu, o nwere ngụkọta ngaji iri na abụọ. Ngaji ole dị n'ime ngwugwu Julia zụtara?",
+  "original_answer": 10,
+  "symbolic_template": "{name_female, Julia} na-akwado oriri nri abali n'ụlọ ya, ebe obu na uche ka o keé sitiu. Ọ chọpụtara na o nweghịzị ngaji plasitiki, n'ihi ya ọ zụtara ngwugwu ngaji ohụụ. E mechaa, di ya zụtakwara ngwugwu ngaji ọhụụ {num_digit_1, 5} ma nye ha {name_female, Julia}. Mgbe {name_female, Julia} na-esi sitiu ahụ, o ji ngaji atọ mee nlele sitiu ya. E mecha, mgbe ọ gara idozi tebulu, o nwere ngụkọta ngaji {num_digit_2, 12}. Ngaji ole dị n'ime ngwugwu {name_female, Julia} zụtara?",
+  "ic_sentence_template": "Nwanne nne {name_female, Julia} bịara na onyinye akwa-napkin {num_ic, 60}.",
+  "ic_template": "Nwanne nne {name_female, Julia} bịara na onyinye akwa-napkin {num_ic, 60}. {name_female, Julia} na-akwado oriri nri abali n'ụlọ ya, ebe obu na uche ka o keé sitiu. Ọ chọpụtara na o nweghịzị ngaji plasitiki, n'ihi ya ọ zụtara ngwugwu ngaji ohụụ. E mechaa, di ya zụtakwara ngwugwu ngaji ọhụụ {num_digit_1, 5} ma nye ha {name_female, Julia}. Mgbe {name_female, Julia} na-esi sitiu ahụ, o ji ngaji atọ mee nlele sitiu ya. E mecha, mgbe ọ gara idozi tebulu, o nwere ngụkọta ngaji {num_digit_2, 12}. Ngaji ole dị n'ime ngwugwu {name_female, Julia} zụtara?",
+  "equation": "UPDATE HERE"
+}

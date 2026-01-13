@@ -1,0 +1,8 @@
+{
+  "original_question": "Kyle tɔɔ nnwoma a ԑtɔnn kyԑn biara afe a etwaa mu yi $19.50. Yei yԑ deԑ w’ate boɔ ankasa no so ɔha nkyԑmu 24. Na boɔ n’ankasa yԑ sԑn?",
+  "original_answer": 26,
+  "symbolic_template": "{name_male, Kyle} tɔɔ nnwoma a ԑtɔnn kyԑn biara afe a etwaa mu yi ${num_digit_1, 19.50}. Yei yԑ deԑ w’ate boɔ ankasa no so {num_digit_2, 25}% nkyԑmu. Na boɔ n’ankasa yԑ sԑn?",
+  "ic_sentence_template": "{name_male, Kyle} sewaa no taa kenkan nwoma ahorow {num_ic, 326332763} afe biara.",
+  "ic_template": "{name_male, Kyle} tɔɔ nnwoma a ԑtɔnn kyԑn biara afe a etwaa mu yi ${num_digit_1, 19.50}. Yei yԑ deԑ w’ate boɔ ankasa no so {num_digit_2, 25}% nkyԑmu. Na boɔ n’ankasa yԑ sԑn? {name_male, Kyle} sewaa no taa kenkan nwoma ahorow {num_ic, 326332763} afe biara.",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Wɔtua Jill $20 dɔnhwere biara sԑ ɔnkyerԑ adeԑ na $30 sԑ ɔntete wɔn a wɔbɔgye agodifoɔ so. Sԑ ɔyԑ adwuma nnawɔtwe aduonum afe biara, dɔnhwere 35 nnawɔtwe biara sԑ ɔkyerԑkyerԑni na dɔnhwere 15 nnawɔtwe biara sԑ ɔtetefoɔ a, n’akatua wɔ afe no mu nyinaa yԑ sԑn?",
+  "original_answer": 57500,
+  "symbolic_template": "Wɔtua {name_female, Jill} $ {num_digit_1, 20} dɔnhwere biara sԑ ɔnkyerԑ adeԑ na $ {num_digit_2, 30} sԑ ɔntete wɔn a wɔbɔgye agodifoɔ so. Sԑ ɔyԑ adwuma nnawɔtwe {num_digit_3, 50} afe biara, dɔnhwere {num_digit_4, 35} nnawɔtwe biara sԑ ɔkyerԑkyerԑni na dɔnhwere {num_digit_5, 15} nnawɔtwe biara sԑ ɔtetefoɔ a, n’akatua wɔ afe no mu nyinaa yԑ sԑn?",
+  "ic_sentence_template": "{name_female, Jill} wɔfa no adopte nkraman mma {num_ic, 127} nnansa yi ara.",
+  "ic_template": "{name_female, Jill} wɔfa no adopte nkraman mma {num_ic, 127} nnansa yi ara. Wɔtua {name_female, Jill} $ {num_digit_1, 20} dɔnhwere biara sԑ ɔnkyerԑ adeԑ na $ {num_digit_2, 30} sԑ ɔntete wɔn a wɔbɔgye agodifoɔ so. Sԑ ɔyԑ adwuma nnawɔtwe {num_digit_3, 50} afe biara, dɔnhwere {num_digit_4, 35} nnawɔtwe biara sԑ ɔkyerԑkyerԑni na dɔnhwere {num_digit_5, 15} nnawɔtwe biara sԑ ɔtetefoɔ a, n’akatua wɔ afe no mu nyinaa yԑ sԑn?",
+  "equation": "UPDATE HERE"
+}

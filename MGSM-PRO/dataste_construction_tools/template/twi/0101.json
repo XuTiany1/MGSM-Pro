@@ -1,0 +1,8 @@
+{
+  "original_question": "Ԑwɔ sԑ Sola kan kratafa 4 firi n’abɔdeԑ mu nyansapԑ nnwoma no mu, kratafa 20 firi nipa ho nkitahodie adesua nnwoma no mu, kratafa 7 firi n’abakɔsԑm nnwoma no mu na kratafa 8 firi asaase ho adesua nnwoma no mu. Solo kan kratafa 15 wɔ Dwoada. Sԑ ɔwɔ nna 4 sԑ ɔde bԑkan nnwoma no nyinaa a, nnwoma bԑyԑ sԑn na ԑwɔ sԑ ɔkan no dabiara?",
+  "original_answer": 6,
+  "symbolic_template": "Ԑwɔ sԑ {name_male, Sola} kan kratafa {num_digit_1, 4} firi n’abɔdeԑ mu nyansapԑ nnwoma no mu, kratafa {num_digit_2, 20} firi nipa ho nkitahodie adesua nnwoma no mu, kratafa {num_digit_3, 7} firi n’abakɔsԑm nnwoma no mu na kratafa {num_digit_4, 8} firi asaase ho adesua nnwoma no mu. {name_male, Solo} kan kratafa {num_digit_5, 15} wɔ Dwoada. Sԑ ɔwɔ nna {num_digit_6, 4} sԑ ɔde bԑkan nnwoma no nyinaa a, nnwoma bԑyԑ sԑn na ԑwɔ sԑ ɔkan no dabiara?",
+  "ic_sentence_template": "{name_male, Solo} sewaa srɛɛ ahintasɛm ayɛsɛm {num_ic, 65} firii nwomakorabea no.",
+  "ic_template": "{name_male, Solo} sewaa srɛɛ ahintasɛm ayɛsɛm {num_ic, 65} firii nwomakorabea no. Ԑwɔ sԑ {name_male, Sola} kan kratafa {num_digit_1, 4} firi n’abɔdeԑ mu nyansapԑ nnwoma no mu, kratafa {num_digit_2, 20} firi nipa ho nkitahodie adesua nnwoma no mu, kratafa {num_digit_3, 7} firi n’abakɔsԑm nnwoma no mu na kratafa {num_digit_4, 8} firi asaase ho adesua nnwoma no mu. {name_male, Solo} kan kratafa {num_digit_5, 15} wɔ Dwoada. Sԑ ɔwɔ nna {num_digit_6, 4} sԑ ɔde bԑkan nnwoma no nyinaa a, nnwoma bԑyԑ sԑn na ԑwɔ sԑ ɔkan no dabiara?",
+  "equation": "UPDATE HERE"
+}

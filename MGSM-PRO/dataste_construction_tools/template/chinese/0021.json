@@ -1,0 +1,8 @@
+{
+  "original_question": "雷蒙德和萨曼莎是堂兄妹。雷蒙德比萨曼莎大 6 岁。雷蒙德有一个 23 岁的儿子。如果萨曼莎现在 31 岁，雷蒙德的儿子是多少年前出生的？",
+  "original_answer": 14,
+  "symbolic_template": "{name_male, 雷蒙德} 和 {name_female, 萨曼莎} 是堂兄妹。{name_male, 雷蒙德} 比 {name_female, 萨曼莎} 大 {num_digit_1, 6} 岁。{name_male, 雷蒙德} 有一个在 {num_digit_2, 23} 岁时生的儿子。如果 {name_female, 萨曼莎} 现在 {num_digit_3, 31} 岁，{name_male, 雷蒙德} 的儿子是多少年前出生的？",
+  "ic_sentence_template": "{name_female, 萨曼莎} 的叔叔收集了 {num_ic, 77} 张明信片。",
+  "ic_template": "{name_female, 萨曼莎} 的叔叔收集了 {num_ic, 77} 张明信片。{name_male, 雷蒙德} 和 {name_female, 萨曼莎} 是堂兄妹。{name_male, 雷蒙德} 比 {name_female, 萨曼莎} 大 {num_digit_1, 6} 岁。{name_male, 雷蒙德} 有一个在 {num_digit_2, 23} 岁时生的儿子。如果 {name_female, 萨曼莎} 现在 {num_digit_3, 31} 岁，{name_male, 雷蒙德} 的儿子是多少年前出生的？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Jessica ń gbìyànjú láti mọ iye tí ó lè san lórí gbogbo gbèsè rẹ̀ lóṣooṣù. Ó nílò láti san ó kéré jù, $300 ní oṣooṣù fún àwọn gbèsè akẹ́kọ̀ọ́ rẹ́, ó kéré jù $200 fún káàdì ìyáwó rẹ̀, àti $500 ní oṣooṣù fún  owó ìgbéléwọ̀n. Tí Jessica bá fẹ́ san 50% ju èyí tí ó kéré jù lọ, èló ni ó san ní ọdún kan?",
+  "original_answer": 18000,
+  "symbolic_template": "{name_female, Jessica} ń gbìyànjú láti mọ iye tí ó lè san lórí gbogbo gbèsè rẹ̀ lóṣooṣù. Ó nílò láti san ó kéré jù, ${num_digit_1, 300} ní oṣooṣù fún àwọn gbèsè akẹ́kọ̀ọ́ rẹ́, ó kéré jù ${num_digit_2, 200} fún káàdì ìyáwó rẹ̀, àti ${num_digit_3, 500} ní oṣooṣù fún owó ìgbéléwọ̀n. Tí {name_female, Jessica} bá fẹ́ san {num_digit_4, 50}% ju èyí tí ó kéré jù lọ, èló ni ó san ní ọdún kan?",
+  "ic_sentence_template": "{name_female, Jessica} ní ẹ̀gbọ́n bàbá rẹ̀ tó fún un ní kápọ́ọ̀nù ìdásílẹ̀ {num_ic, 58} laipẹ́ yi.",
+  "ic_template": "{name_female, Jessica} ní ẹ̀gbọ́n bàbá rẹ̀ tó fún un ní kápọ́ọ̀nù ìdásílẹ̀ {num_ic, 58} laipẹ́ yi. {name_female, Jessica} ń gbìyànjú láti mọ iye tí ó lè san lórí gbogbo gbèsè rẹ̀ lóṣooṣù. Ó nílò láti san ó kéré jù, ${num_digit_1, 300} ní oṣooṣù fún àwọn gbèsè akẹ́kọ̀ọ́ rẹ́, ó kéré jù ${num_digit_2, 200} fún káàdì ìyáwó rẹ̀, àti ${num_digit_3, 500} ní oṣooṣù fún owó ìgbéléwọ̀n. Tí {name_female, Jessica} bá fẹ́ san {num_digit_4, 50}% ju èyí tí ó kéré jù lọ, èló ni ó san ní ọdún kan?",
+  "equation": "UPDATE HERE"
+}

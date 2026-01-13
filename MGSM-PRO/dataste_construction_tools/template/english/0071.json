@@ -1,0 +1,8 @@
+{
+  "original_question": "Kelian has two recipes for preparing dishes, one having 20 instructions and the second one having twice as many instructions as the first one. How many instructions does Kelian have to read to prepare the two dishes?",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Kelian} has two recipes for preparing dishes, one having {num_digit_1, 20} instructions and the second one having twice as many instructions as the first one. How many instructions does {name_male, Kelian} have to read to prepare the two dishes?",
+  "ic_sentence_template": "{name_male, Kelian}'s aunt owns {num_ic, 77} cookbooks.",
+  "ic_template": "{name_male, Kelian} has two recipes for preparing dishes, one having {num_digit_1, 20} instructions and the second one having twice as many instructions as the first one. {name_male, Kelian}'s aunt owns {num_ic, 77} cookbooks. How many instructions does {name_male, Kelian} have to read to prepare the two dishes?",
+  "equation": "UPDATE HERE"
+}

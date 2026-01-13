@@ -1,0 +1,8 @@
+{
+  "original_question": "Katika mtaa, idadi ya sungura ni kidogo na kumi na mbili kwa jumla ya idadi ya mbwa na paka. Ikiwa kuna paka wawili kwa kila mbwa, na idadi ya mbwa ni 60, kuna wanyama vipenzi wangapi kwa jumla katika mtaa huo?",
+  "original_answer": 348,
+  "symbolic_template": "Katika mtaa fulani, idadi ya sungura wa kufugwa ni kumi na mbili pungufu ya jumla ya mbwa na paka wa kufugwa. Ikiwa kuna paka wawili kwa kila mbwa, na idadi ya mbwa ni {num_digit_1, 60}, kuna jumla ya wanyama wa kufugwa wangapi katika mtaa huo?",
+  "ic_sentence_template": "Mjomba wa {name_female, Olivia} ana kasa {num_ic, 197}.",
+  "ic_template": "Mjomba wa {name_female, Olivia} ana kasa {num_ic, 197}. Katika mtaa fulani, idadi ya sungura wa kufugwa ni kumi na mbili pungufu ya jumla ya mbwa na paka wa kufugwa. Ikiwa kuna paka wawili kwa kila mbwa, na idadi ya mbwa ni {num_digit_1, 60}, kuna jumla ya wanyama wa kufugwa wangapi katika mtaa huo?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Dana lè sáré ní òṣùwọ̀n iyàrá ní ìlọ́po ju bí ó ṣe ń rìn lọ, ṣùgbọ́n ó lè fò ní òṣùwọ̀n iyàrá tó jẹ́ ààbọ̀ bí ó ṣe lè yára sáré. Tó bá lè fò ní máìlì 3 ní wákàtí kan, máìlì mélòó ní ó lè rìn ní wákàtí mẹ́fà tó bá fẹ́ lo ìdá kan nínú mẹ́ta àkókò tó fi ń sáré àti ìdá méjì nínú mẹ́ta àkókò tó fi ń rìn?",
+  "original_answer": 18,
+  "symbolic_template": "{name_female, Dana} lè sáré ní òṣùwọ̀n iyàrá ìlọ́po mẹ́rin ju bí ó ṣe ń rìn lọ, ṣùgbọ́n ó lè fò ní òṣùwọ̀n iyàrá tó jẹ́ ààbọ̀ bí ó ṣe lè yára sáré. Tó bá lè fò ní máìlì {num_digit_1, 3} ní wákàtí kan, máìlì mélòó ní ó lè rìn ní wákàtí mẹ́fà tó bá fẹ́ lo ìdá kan nínú mẹ́ta àkókò tó fi ń sáré àti ìdá méjì nínú mẹ́ta àkókò tó fi ń rìn?",
+  "ic_sentence_template": "Ẹ̀gbọ́n bàbá {name_female, Dana} kan ti parí eré-ije kan tí àwọn olukopa rẹ̀ jẹ́ {num_ic, 106}.",
+  "ic_template": "Ẹ̀gbọ́n bàbá {name_female, Dana} kan ti parí eré-ije kan tí àwọn olukopa rẹ̀ jẹ́ {num_ic, 106}. {name_female, Dana} lè sáré ní òṣùwọ̀n iyàrá ìlọ́po mẹ́rin ju bí ó ṣe ń rìn lọ, ṣùgbọ́n ó lè fò ní òṣùwọ̀n iyàrá tó jẹ́ ààbọ̀ bí ó ṣe lè yára sáré. Tó bá lè fò ní máìlì {num_digit_1, 3} ní wákàtí kan, máìlì mélòó ní ó lè rìn ní wákàtí mẹ́fà tó bá fẹ́ lo ìdá kan nínú mẹ́ta àkókò tó fi ń sáré àti ìdá méjì nínú mẹ́ta àkókò tó fi ń rìn?",
+  "equation": "UPDATE HERE"
+}

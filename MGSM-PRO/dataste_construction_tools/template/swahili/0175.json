@@ -1,0 +1,8 @@
+{
+  "original_question": "Juan na Carlos kaka yake wanauza maji ya limau. Kwa kila galoni ambayo wanatengeneza huwa inawagharimu $3 ya limau na $2 ya sukari. Wanauza kila glesi kwa $0.50 na galoni moja huwa imebeba glesi 20. Iwapo walipata faida ya $25, walitumia pesa ngapi kununua limanu?",
+  "original_answer": 15,
+  "symbolic_template": "{name_male_1, Juan} na kaka yake {name_male_2, Carlos} wanauza juisi ya limau. Kwa kila galoni wanayotengeneza, inagharimu ${num_digit_1, 3} kwa limau na ${num_digit_2, 2} kwa sukari. Wanaouza kila glasi kwa ${num_digit_3, 0.50} na hupata glasi {num_digit_4, 20} kwa galoni. Ikiwa walipata faida ya ${num_digit_5, 25}, walitumia kiasi gani kwa limau?",
+  "ic_sentence_template": "Shangazi wa {name_male_2, Carlos} allileta vidaku {num_ic, 44} ili washirikiane.",
+  "ic_template": "Shangazi wa {name_male_2, Carlos} allileta vidaku {num_ic, 44} ili washirikiane. {name_male_1, Juan} na kaka yake {name_male_2, Carlos} wanauza juisi ya limau. Kwa kila galoni wanayotengeneza, inagharimu ${num_digit_1, 3} kwa limau na ${num_digit_2, 2} kwa sukari. Wanaouza kila glasi kwa ${num_digit_3, 0.50} na hupata glasi {num_digit_4, 20} kwa galoni. Ikiwa walipata faida ya ${num_digit_5, 25}, walitumia kiasi gani kwa limau?",
+  "equation": "UPDATE HERE"
+}

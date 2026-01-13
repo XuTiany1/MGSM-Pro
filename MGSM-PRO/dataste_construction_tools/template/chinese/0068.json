@@ -1,0 +1,8 @@
+{
+  "original_question": "在韦茨博士的学校里，男生数量是女生数量的两倍。如果有 60 个女生，而且每 5 个学生有一位老师，则这间学校有多少位老师？",
+  "original_answer": 36,
+  "symbolic_template": "在 韦茨博士 的学校里，男生数量是女生数量的 两倍。如果有 {num_digit_1, 60} 个女生，而且每 {num_digit_2, 5} 个学生有一位老师，则这间学校有多少位老师？",
+  "ic_sentence_template": "{name_male, 韦尔茨}博士所在学校的图书馆今年收到了 {num_ic, 222} 本新书。",
+  "ic_template": "韦尔茨博士所在学校的图书馆今年收到了 {num_ic, 222} 本新书。在 韦茨博士 的学校里，男生数量是女生数量的 两倍。如果有 {num_digit_1, 60} 个女生，而且每 {num_digit_2, 5} 个学生有一位老师，则这间学校有多少位老师？",
+  "equation": "UPDATE HERE"
+}

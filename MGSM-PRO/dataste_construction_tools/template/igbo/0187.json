@@ -1,0 +1,8 @@
+{
+  "original_question": "Mandy ji Benedict ụgwọ $100. Ha kwekọrịtara inwe uma kwa ọnwa nke bu 2%. Ọ bụrụ na Mandy nwere ike ịkwụ ya mgbe ọnwa atọ gachara, ego ole ka ọ ga-enye Benedict?",
+  "original_answer": 106,
+  "symbolic_template": "{name_female, Mandy} ji {name_male, Benedict} ụgwọ ${num_digit_1, 100}. Ha kwekọrịtara inwe uma kwa ọnwa nke bu {num_digit_2, 2}%. Ọ bụrụ na {name_female, Mandy} nwere ike ịkwụ ya mgbe ọnwa {num_digit_3, 3} gachara, ego ole ka ọ ga-enye {name_male, Benedict}?",
+  "ic_sentence_template": "Nwanna nna {name_female, Mandy} gbazịrị ego dollar {num_ic, 656} na onye ahụ otu ugboro gara aga.",
+  "ic_template": "Nwanna nna {name_female, Mandy} gbazịrị ego dollar {num_ic, 656} na onye ahụ otu ugboro gara aga. {name_female, Mandy} ji {name_male, Benedict} ụgwọ ${num_digit_1, 100}. Ha kwekọrịtara inwe uma kwa ọnwa nke bu {num_digit_2, 2}%. Ọ bụrụ na {name_female, Mandy} nwere ike ịkwụ ya mgbe ọnwa {num_digit_3, 3} gachara, ego ole ka ọ ga-enye {name_male, Benedict}?",
+  "equation": "UPDATE HERE"
+}

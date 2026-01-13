@@ -1,0 +1,8 @@
+{
+  "original_question": "Bobby rafikiye Brian ana michezo ya video ambayo ni kidogo na 5 kwa mara 3 ya michezo ya video ya Brian. Ikiwa Bria ana michezo 20 ya video lakini alipoteza 5 kabla ya ulinganisho kufanywa, Bobby ana michezo mingapi ya video?",
+  "original_answer": 40,
+  "symbolic_template": "Rafiki yake {name_male_1, Brian} aitwaye {name_male_2, Bobby} ana michezo ya video {num_digit_1, 5} pungufu ya mara {num_digit_2, 3} ya michezo ya video ambayo {name_male_1, Brian} anayo. Ikiwa {name_male_1, Brian} ana michezo ya video {num_digit_3, 20} lakini alipoteza michezo {num_digit_4, 5} kabla ya kulinganisha kufanywa, {name_male_2, Bobby} ana michezo mingapi?",
+  "ic_sentence_template": "Mjomba wa {name_male_1, Brian} anamiliki vitabu vya vichekesho {num_ic, 30}.",
+  "ic_template": "Mjomba wa {name_male_1, Brian} anamiliki vitabu vya vichekesho {num_ic, 30}. Rafiki yake {name_male_1, Brian} aitwaye {name_male_2, Bobby} ana michezo ya video {num_digit_1, 5} pungufu ya mara {num_digit_2, 3} ya michezo ya video ambayo {name_male_1, Brian} anayo. Ikiwa {name_male_1, Brian} ana michezo ya video {num_digit_3, 20} lakini alipoteza michezo {num_digit_4, 5} kabla ya kulinganisha kufanywa, {name_male_2, Bobby} ana michezo mingapi?",
+  "equation": "UPDATE HERE"
+}

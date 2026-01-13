@@ -1,0 +1,8 @@
+{
+  "original_question": "Mark ananunua magari 12 katika kampuni yake. Kila gari linauzwa kwa $20,000. Analipa ushuru wa 10% wa magari hayo na kisha $1000 ya usajili kwa kila moja yao. Jumla ya pesa alizolipia kila kitu ni ngapi?",
+  "original_answer": 276000,
+  "symbolic_template": "{name_male, Mark} alinunua magari {num_digit_1, 12} kwa kampuni yake. Kila gari linauzwa kwa dola {num_digit_2, 20,000}. Alilipa kodi ya {num_digit_3, 10}% kwa magari na kisha dola {num_digit_4, 1000} ya usajili kwa kila moja. Alilipa jumla ya kiasi gani?",
+  "ic_sentence_template": "Binamu wa {name_male, Mark} alinunua pikipiki {num_ic, 111} hivi karibuni.",
+  "ic_template": "Binamu wa {name_male, Mark} alinunua pikipiki {num_ic, 111} hivi karibuni. {name_male, Mark} alinunua magari {num_digit_1, 12} kwa kampuni yake. Kila gari linauzwa kwa dola {num_digit_2, 20,000}. Alilipa kodi ya {num_digit_3, 10}% kwa magari na kisha dola {num_digit_4, 1000} ya usajili kwa kila moja. Alilipa jumla ya kiasi gani?",
+  "equation": "UPDATE HERE"
+}

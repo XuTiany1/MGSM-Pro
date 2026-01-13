@@ -1,0 +1,8 @@
+{
+  "original_question": "Marie kraa akokɔnam baako a na ԑboɔ no yԑ $12, nufosuo adaka 5 a na baako biara boɔ yԑ $3, aprԑ num a na baako biara boɔ yԑ $1.50 ne pizza nnaka bebree. No nyinaa no Marie tuaa $50. Pizza nnaka sԑn na Marie kraaԑ sԑ adaka baako biara yԑ $8.50?",
+  "original_answer": 2,
+  "symbolic_template": "{name_female, Marie} kraa akokɔnam baako a na ԑboɔ no yԑ ${num_digit_1, 12}, nufosuo adaka {num_digit_2, 5} a na baako biara boɔ yԑ ${num_digit_3, 3}, aprԑ {num_digit_4, num} a na baako biara boɔ yԑ ${num_digit_5, 1.50} ne pizza nnaka bebree. No nyinaa no {name_female, Marie} tuaa ${num_digit_6, 50}. Pizza nnaka sԑn na {name_female, Marie} kraaԑ sԑ adaka baako biara yԑ ${num_digit_7, 8.50}?",
+  "ic_sentence_template": "{name_female, Marie} nua no tɔɔ kaaki nketewaa {num_ic, 128} nnansa yi ara.",
+  "ic_template": "{name_female, Marie} nua no tɔɔ kaaki nketewaa {num_ic, 128} nnansa yi ara. {name_female, Marie} kraa akokɔnam baako a na ԑboɔ no yԑ ${num_digit_1, 12}, nufosuo adaka {num_digit_2, 5} a na baako biara boɔ yԑ ${num_digit_3, 3}, aprԑ {num_digit_4, num} a na baako biara boɔ yԑ ${num_digit_5, 1.50} ne pizza nnaka bebree. No nyinaa no {name_female, Marie} tuaa ${num_digit_6, 50}. Pizza nnaka sԑn na {name_female, Marie} kraaԑ sԑ adaka baako biara yԑ ${num_digit_7, 8.50}?",
+  "equation": "UPDATE HERE"
+}

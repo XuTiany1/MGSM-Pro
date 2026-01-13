@@ -1,0 +1,29 @@
+{
+    "problem_id": "0234",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [4, 40]},
+        "num_digit_2": {"type": "int", "range": [3, 15]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": [
+            "steve_daily = num_digit_1",
+            "gf_daily = steve_daily / 2",
+            "total_daily = steve_daily + gf_daily",
+            "total_weekly = total_daily * 7",
+            "ans = total_weekly / num_digit_2"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_2": [
+            "num_digit_1 % 2 == 0",
+            "total_weekly % num_digit_2 == 0",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

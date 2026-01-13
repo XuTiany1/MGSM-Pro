@@ -1,0 +1,8 @@
+{
+  "original_question": "Claire na-eghe àkwá atọ kwa ụtụtụ ọbụla maka nri ụtụtụ. Dọzinụ àkwá ole ka ọ ga-eri n'ime izu ụka anọ? ",
+  "original_answer": 7,
+  "symbolic_template": "{name_female, Claire} na-eghe àkwá {num_digit_1, 3} kwa ụtụtụ ọbụla maka nri ụtụtụ. Dọzinụ àkwá ole ka ọ ga-eri n'ime izu ụka {num_digit_2, 4}?",
+  "ic_sentence_template": "Nwanne nne {name_female, Claire} nwere anụ ụlọ ụmụ nnụnụ {num_ic, 44} n'ụlọ ugbo ya.",
+  "ic_template": "Nwanne nne {name_female, Claire} nwere anụ ụlọ ụmụ nnụnụ {num_ic, 44} n'ụlọ ugbo ya. {name_female, Claire} na-eghe àkwá {num_digit_1, 3} kwa ụtụtụ ọbụla maka nri ụtụtụ. Dọzinụ àkwá ole ka ọ ga-eri n'ime izu ụka {num_digit_2, 4}?",
+  "equation": "UPDATE HERE"
+}

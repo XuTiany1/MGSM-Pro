@@ -1,0 +1,8 @@
+{
+  "original_question": "John anaagiza pizza za kushiriki na marafiki zake. Kuna marafiki 20 kwa jumla, na John anahitaji kuhakikisha kila mmoja anaweza kupata vipande 4. Pizza zinauzwa zikiwa na vipande 8 pekee. John anahitaji kuagiza Pizza ngapi?",
+  "original_answer": 10,
+  "symbolic_template": "{name_male, John} anaagiza pizza kushirikiana na marafiki zake. Kuna marafiki jumla {num_digit_1, 20}, na {name_male, John} anataka kila mmoja apate vipande {num_digit_2, 4}. Pizza huuzwa ikiwa na vipande {num_digit_3, 8} kila moja. {name_male, John} atahitaji kuagiza pizza ngapi?",
+  "ic_sentence_template": "Mjomba wa {name_male, John} ana kadi za baseball {num_ic, 712}.",
+  "ic_template": "{name_male, John} anaagiza pizza kushirikiana na marafiki zake. Kuna marafiki jumla {num_digit_1, 20}, na {name_male, John} anataka kila mmoja apate vipande {num_digit_2, 4}. Pizza huuzwa ikiwa na vipande {num_digit_3, 8} kila moja. {name_male, John} atahitaji kuagiza pizza ngapi? Mjomba wa {name_male, John} ana kadi za baseball {num_ic, 712}.",
+  "equation": "UPDATE HERE"
+}

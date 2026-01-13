@@ -1,0 +1,8 @@
+{
+  "original_question": "史蒂夫和蒂姆决定看看谁能最快从学校回到家。史蒂夫比蒂姆住得远，所以他被允许骑自行车。史蒂夫住的地方离学校 3 英里，而且他骑自行车的速度为每分钟 440 英尺。蒂姆住的地方离学校 2 英里。如果蒂姆能以每分钟 264 英尺的速度骑滑板，则在失败者完成比赛前，获胜者将在自己家里等多长时间？",
+  "original_answer": 4,
+  "symbolic_template": "{name_male_1, 史蒂夫} 和 {name_male_2, 蒂姆} 决定看看谁能最快从学校回到家。{name_male_1, 史蒂夫} 比 {name_male_2, 蒂姆} 住得远，所以他被允许骑自行车。{name_male_1, 史蒂夫} 住的地方离学校 {num_digit_1, 3} 英里，而且他骑自行车的速度为每分钟 {num_digit_2, 440} 英尺。{name_male_2, 蒂姆} 住的地方离学校 {num_digit_3, 2} 英里。如果 {name_male_2, 蒂姆} 能以每分钟 {num_digit_4, 264} 英尺的速度骑滑板，则在失败者完成比赛前，获胜者将在自己家里等多长时间？",
+  "ic_sentence_template": "{name_male_1, 史蒂夫} 的姑妈养了 {num_ic, 34} 只猫。",
+  "ic_template": "{name_male_1, 史蒂夫} 的姑妈养了 {num_ic, 34} 只猫。{name_male_1, 史蒂夫} 和 {name_male_2, 蒂姆} 决定看看谁能最快从学校回到家。{name_male_1, 史蒂夫} 比 {name_male_2, 蒂姆} 住得远，所以他被允许骑自行车。{name_male_1, 史蒂夫} 住的地方离学校 {num_digit_1, 3} 英里，而且他骑自行车的速度为每分钟 {num_digit_2, 440} 英尺。{name_male_2, 蒂姆} 住的地方离学校 {num_digit_3, 2} 英里。如果 {name_male_2, 蒂姆} 能以每分钟 {num_digit_4, 264} 英尺的速度骑滑板，则在失败者完成比赛前，获胜者将在自己家里等多长时间？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Otu ugbo watermelon mịpụtara  nwa watermelon 120. Ashlyn gara n'ugbo ahụ mgbe ọnwa abụọ gachara wee chọpụta na 30% watermelon adịgo njikere maka owuweihe ubi, ya mere o welara ha ụlọ. Mgbe ọ lọghachitere azụ ka izu ụka abụọ gasịrị, 3/4 melon fọdụrụ adịgo njikere, ya mere ọ ghọrọ ha. Kedu melon ole na-adịghị njikere owuweihe ubi mgbe izu abụọ gasịrị?",
+  "original_answer": 21,
+  "symbolic_template": "Otu ugbo watermelon mịpụtara nwa watermelon {num_digit_1, 120}. {name_female, Ashlyn} gara n'ugbo ahụ mgbe ọnwa abụọ gachara wee chọpụta na {num_digit_2, 30}% watermelon adịgo njikere maka owuweihe ubi, ya mere o welara ha ụlọ. Mgbe ọ lọghachitere azụ ka izu ụka abụọ gasịrị, 3/4 melon fọdụrụ adịgo njikere, ya mere ọ ghọrọ ha. Kedu melon ole na-adịghị njikere owuweihe ubi mgbe izu abụọ gasịrị?",
+  "ic_sentence_template": "Nwanne nna {name_female, Ashlyn} zụrụ akpa nri {num_ic, 958} maka osisi apụl ya.",
+  "ic_template": "Nwanne nna {name_female, Ashlyn} zụrụ akpa nri {num_ic, 958} maka osisi apụl ya. Otu ugbo watermelon mịpụtara nwa watermelon {num_digit_1, 120}. {name_female, Ashlyn} gara n'ugbo ahụ mgbe ọnwa abụọ gachara wee chọpụta na {num_digit_2, 30}% watermelon adịgo njikere maka owuweihe ubi, ya mere o welara ha ụlọ. Mgbe ọ lọghachitere azụ ka izu ụka abụọ gasịrị, 3/4 melon fọdụrụ adịgo njikere, ya mere ọ ghọrọ ha. Kedu melon ole na-adịghị njikere owuweihe ubi mgbe izu abụọ gasịrị?",
+  "equation": "UPDATE HERE"
+}

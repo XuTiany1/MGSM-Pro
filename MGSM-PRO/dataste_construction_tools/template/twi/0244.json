@@ -1,0 +1,8 @@
+{
+  "original_question": "Na Griffin wɔ frenchefo aduan ahorow aduonu nan, nanso Kyle faa emu enum. Billy faa Kyle mmɔho mmienu. Ginger maa Griffin ne aduania waakyɛ no bi kakra, na afei Colby gyeeaduania waakyɛ no na Kyle agye no mu mmiensa fii Griffin hɔ. Sɛ Griffin nyaa fries aduonu nson wɔ awiei no mu a, aduania waakyɛ ahe na Ginger de maa Griffin?",
+  "original_answer": 20,
+  "symbolic_template": "Na {name_male_1, Griffin} wɔ frenchefo aduan ahorow {num_digit_1, 1024}, nanso {name_male_2, Kyle} faa emu {num_digit_2, 157}. {name_male_3, Billy} faa {name_male_2, Kyle} mmɔho mmienu. {name_male_4, Ginger} maa {name_male_1, Griffin} ne aduania waakyɛ no bi kakra, na afei {name_male_5, Colby} gyeeaduania waakyɛ no na {name_male_2, Kyle} agye no mu {num_digit_3, 13} fii {name_male_1, Griffin} hɔ. Sɛ {name_male_1, Griffin} nyaa fries {num_digit_4, 600} wɔ awiei no mu a, aduania waakyɛ ahe na {name_male_4, Ginger} de maa {name_male_1, Griffin}?",
+  "ic_sentence_template": "{name_male_2, Kyle} sewaa de ketchup kotokuo {num_ic, 18458} baa pon no so.",
+  "ic_template": "{name_male_2, Kyle} sewaa de ketchup kotokuo {num_ic, 18458} baa pon no so. {name_male_1, Griffin} wɔ frenchefo aduan ahorow {num_digit_1, 1024}, nanso {name_male_2, Kyle} faa emu {num_digit_2, 157}. {name_male_3, Billy} faa {name_male_2, Kyle} mmɔho mmienu. {name_male_4, Ginger} maa {name_male_1, Griffin} ne aduania waakyɛ no bi kakra, na afei {name_male_5, Colby} gyeeaduania waakyɛ no na {name_male_2, Kyle} agye no mu {num_digit_3, 13} fii {name_male_1, Griffin} hɔ. Sɛ {name_male_1, Griffin} nyaa fries {num_digit_4, 600} wɔ awiei no mu a, aduania waakyɛ ahe na {name_male_4, Ginger} de maa {name_male_1, Griffin}?",
+  "equation": "UPDATE HERE"
+}

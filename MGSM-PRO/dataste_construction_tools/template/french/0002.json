@@ -1,0 +1,8 @@
+{
+  "original_question": "Josh se lance dans la rénovation d'une maison. Il en achète une au prix de 80 000 $ et investit 50 000 $ dans sa restauration. La valeur de la maison augmente alors de 150 %. Quel bénéfice a-t-il réalisé ?",
+  "original_answer": 70000,
+  "symbolic_template": "{name_male, Josh} se lance dans la rénovation d'une maison. Il en achète une au prix de {num_digit_1, 80,000} $ et investit {num_digit_2, 50,000} $ dans sa restauration. La valeur de la maison augmente alors de {num_digit_3, 150} %. Quel bénéfice a-t-il réalisé ?",
+  "ic_sentence_template": "{name_male, Josh} a un oncle qui a récemment vendu {num_ic, 124000} briques pour un projet de construction.",
+  "ic_template": "{name_male, Josh} a un oncle qui a récemment vendu {num_ic, 124000} briques pour un projet de construction. {name_male, Josh} se lance dans la rénovation d'une maison. Il en achète une au prix de {num_digit_1, 80,000} $ et investit {num_digit_2, 50,000} $ dans sa restauration. La valeur de la maison augmente alors de {num_digit_3, 150} %. Quel bénéfice a-t-il réalisé ?",
+  "equation": "UPDATE HERE"
+}

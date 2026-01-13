@@ -1,0 +1,8 @@
+{
+  "original_question": "Luke ametulia kwenye ufuo wa bahari akijenga kasri za mchanga. Hatimaye anagundua kuwa kila kiwango cha kasri ya mchanga kitakuwa na nusu ya futi mraba ya kiwango kilichoko chini yake. Akiunda kasri ya mchanga yenye viwango 4 ambapo kiwango cha juu kina futi mraba 16, wastani wa futi mraba ya kiwango ni ngapi?",
+  "original_answer": 60,
+  "symbolic_template": "{name_male, Luke} ametumia muda ufukweni akijenga majumba ya mchanga. Hatimaye anagundua kuwa kila ghorofa ya jumba la mchanga litakuwa na nusu ya ukubwa wa eneo la ghorofa lililo chini yake. Iwapo atajenga jumba la mchanga lenye ghorofa {num_digit_1, 4} ambapo ghorofa la juu lina ukubwa wa eneo la futi za mraba {num_digit_2, 16}, wastani wa ukubwa wa eneo la ghorofa moja utakuwa kiasi gani?",
+  "ic_sentence_template": "Mjomba wa {name_male, Luke} alileta viti vya pwani {num_ic, 26} kwa ajili ya wote.",
+  "ic_template": "Mjomba wa {name_male, Luke} alileta viti vya pwani {num_ic, 26} kwa ajili ya wote. {name_male, Luke} ametumia muda ufukweni akijenga majumba ya mchanga. Hatimaye anagundua kuwa kila ghorofa ya jumba la mchanga litakuwa na nusu ya ukubwa wa eneo la ghorofa lililo chini yake. Iwapo atajenga jumba la mchanga lenye ghorofa {num_digit_1, 4} ambapo ghorofa la juu lina ukubwa wa eneo la futi za mraba {num_digit_2, 16}, wastani wa ukubwa wa eneo la ghorofa moja utakuwa kiasi gani?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Marie a deux ans de moins que Jeanne, qui a cinq ans de plus que Jessa. Si Jessa a 20 ans, quelle est la somme des âges des trois filles ?",
+  "original_answer": 68,
+  "symbolic_template": "{name_female_1, Marie} a deux ans de moins que {name_female_2, Jeanne}, qui a cinq ans de plus que {name_female_3, Jessa}. Si {name_female_3, Jessa} a {num_digit_1, 20} ans, quelle est la somme des âges des trois filles ?",
+  "ic_sentence_template": "{name_female_2, Joan} a un oncle qui possède {num_ic, 73} cartes de baseball.",
+  "ic_template": "{name_female_2, Joan} a un oncle qui possède {num_ic, 73} cartes de baseball. {name_female_1, Marie} a deux ans de moins que {name_female_2, Jeanne}, qui a cinq ans de plus que {name_female_3, Jessa}. Si {name_female_3, Jessa} a {num_digit_1, 20} ans, quelle est la somme des âges des trois filles ?",
+  "equation": "UPDATE HERE"
+}

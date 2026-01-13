@@ -1,0 +1,8 @@
+{
+  "original_question": "Ducks need to eat 3.5 pounds of insects each week to survive. If there is a flock of ten ducks, how many pounds of insects do they need per day?",
+  "original_answer": 5,
+  "symbolic_template": "Ducks need to eat {num_digit_1, 3.5} pounds of insects each week to survive. If there is a flock of ten ducks, how many pounds of insects do they need per day?",
+  "ic_sentence_template": "{num_ic, 144} frogs live in the pond beside the field.",
+  "ic_template": "Ducks need to eat {num_digit_1, 3.5} pounds of insects each week to survive. {num_ic, 144} frogs live in the pond beside the field. If there is a flock of ten ducks, how many pounds of insects do they need per day?",
+  "equation": "UPDATE HERE"
+}

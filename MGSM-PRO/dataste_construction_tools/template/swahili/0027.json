@@ -1,0 +1,8 @@
+{
+  "original_question": "Cynthia hukula kipande kimoja cha aiskrimu kila usiku. Yeye hununua katoni za aiskrimu zilizo na vipande 15 vya aiskrimu kwa kila katoni kwa bei ya $4.00 kwa kila katoni. Baada ya siku 60, atakuwa ametumia pesa ngapi kwenye aiskrimu?",
+  "original_answer": 16,
+  "symbolic_template": "{name_female, Cynthia} hula sehemu moja ya aiskrimu kila usiku. Yeye hununua katoni za aiskrimu zenye sehemu {num_digit_1, 15} kwa kila katoni kwa bei ya ${num_digit_2, 4} kwa katoni. Baada ya siku {num_digit_3, 60}, atakuwa ametumia pesa ngapi kwa aiskrimu?",
+  "ic_sentence_template": "Mjomba wa {name_female, Cynthia} ana ladha {num_ic, 7} za sorbet kwenye friza yake.",
+  "ic_template": "Mjomba wa {name_female, Cynthia} ana ladha {num_ic, 7} za sorbet kwenye friza yake. {name_female, Cynthia} hula sehemu moja ya aiskrimu kila usiku. Yeye hununua katoni za aiskrimu zenye sehemu {num_digit_1, 15} kwa kila katoni kwa bei ya ${num_digit_2, 4} kwa katoni. Baada ya siku {num_digit_3, 60}, atakuwa ametumia pesa ngapi kwa aiskrimu?",
+  "equation": "UPDATE HERE"
+}

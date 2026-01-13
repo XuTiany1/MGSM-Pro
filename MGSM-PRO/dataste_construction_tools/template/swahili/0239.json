@@ -1,0 +1,8 @@
+{
+  "original_question": "Idadi ya wanafunzi katika ukumbi wa shule ilikuwa 1000. Ukumbi huo ulikuwa na milango 3 ambayo ni A, B, na C ambayo ilitumika kuingia na kutoka. Ikiwa baada ya mkutano 30% ya wanafunzi waliondoka kwenye jengo hilo kupitia mlango wa A, 3/5 ya waliosalia waliondokea mlango wa B, na wengine waliosalia waliondokea mlango wa C, piga hesabu ya wanafunzi waliondokea mlango wa C.",
+  "original_answer": 280,
+  "symbolic_template": "Idadi ya wanafunzi katika ukumbi wa shule ilikuwa {num_digit_1, 1000}. Ukumbi huo ulikuwa na milango {num_digit_2, 3} ambayo ni A, B, na C ambayo ilitumika kuingia na kutoka. Ikiwa baada ya mkutano {num_digit_3, 30}% ya wanafunzi waliondoka kwenye jengo hilo kupitia mlango wa A, 3/5 ya waliosalia waliondokea mlango wa B, na wengine waliosalia waliondokea mlango wa C, piga hesabu ya wanafunzi waliondokea mlango wa C.",
+  "ic_sentence_template": "Walimu {num_ic, 95} walipokea vitabu vipya vya kiada siku hiyo.",
+  "ic_template": "Idadi ya wanafunzi katika ukumbi wa shule ilikuwa {num_digit_1, 1000}. Ukumbi huo ulikuwa na milango {num_digit_2, 3} ambayo ni A, B, na C ambayo ilitumika kuingia na kutoka. Ikiwa baada ya mkutano {num_digit_3, 30}% ya wanafunzi waliondoka kwenye jengo hilo kupitia mlango wa A, 3/5 ya waliosalia waliondokea mlango wa B, na wengine waliosalia waliondokea mlango wa C, piga hesabu ya wanafunzi waliondokea mlango wa C. Walimu {num_ic, 95} walipokea vitabu vipya vya kiada siku hiyo.",
+  "equation": "UPDATE HERE"
+}

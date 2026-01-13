@@ -1,0 +1,8 @@
+{
+  "original_question": "Wode nhwiren 4 a ɛwɔ nhwiren ankorɛ mu. Dahlias ahoroɔ 7 na ɛwɔ nhwiren no mu sen nhwiren ankorɛ no. Nhwiren dodoɔ ahe na ɛwɔ nhwiren ankorɛ no mu?",
+  "original_answer": 15,
+  "symbolic_template": "Wode nhwiren {num_digit_1, 4} a ɛwɔ nhwiren ankorɛ mu. Dahlias ahoroɔ {num_digit_2, 7} na ɛwɔ nhwiren no mu sen nhwiren ankorɛ no. Nhwiren dodoɔ ahe na ɛwɔ nhwiren ankorɛ no mu?",
+  "ic_sentence_template": "{name_female, Emily} sewaa wɔ tulip dua {num_ic, 1490} wɔ ne ahaban mono fie mu.",
+  "ic_template": "{name_female, Emily} sewaa wɔ tulip dua {num_ic, 1490} wɔ ne ahaban mono fie mu. Wode nhwiren {num_digit_1, 4} a ɛwɔ nhwiren ankorɛ mu. Dahlias ahoroɔ {num_digit_2, 7} na ɛwɔ nhwiren no mu sen nhwiren ankorɛ no. Nhwiren dodoɔ ahe na ɛwɔ nhwiren ankorɛ no mu?",
+  "equation": "UPDATE HERE"
+}

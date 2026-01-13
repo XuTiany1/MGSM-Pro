@@ -1,0 +1,8 @@
+{
+  "original_question": "Ngụkọta ụgwọ ọnwa Adrien bụ pasentị iri atọ karịa nke Lylah. Afọ anọ gasịrị, ụgwọ ọnwa ya mụbara, ọ na-enweta 40% karịa ihe ọ na-enweta afọ anọ gara aga. Ọ bụrụ na ụgwọ ọnwa Adrien na nke Lylah mụbara n'otu oge, na Adrien nwetara $40000 afọ anọ gara aga, gbakọọ ngụkọta ụgwọ ọnwa ha abụọ na-anata afọ anọ gasiri? ",
+  "original_answer": 95200,
+  "symbolic_template": "Ngụkọta ụgwọ ọnwa {name_male, Adrien} bụ pasentị {num_digit_1, 30} karịa nke {name_female, Lylah}. Afọ anọ gasịrị, ụgwọ ọnwa ya mụbara, ọ na-enweta afọ {num_digit_2, 40}% karịa ihe ọ na-enweta anọ gara aga. Ọ bụrụ na ụgwọ ọnwa {name_male, Adrien} na nke {name_female, Lylah} mụbara n'otu oge, na {name_male, Adrien} nwetara ${num_digit_3, 40000} afọ anọ gara aga, gbakọọ ngụkọta ụgwọ ọnwa ha abụọ na-anata afọ anọ gasịrị?",
+  "ic_sentence_template": "Nwanne nna {name_female, Lylah} nwetara ego mgbakwunye ${num_ic, 134000} na ụlọ ọrụ ya n'afọ ahụ.",
+  "ic_template": "Nwanne nna {name_female, Lylah} nwetara ego mgbakwunye ${num_ic, 134000} na ụlọ ọrụ ya n'afọ ahụ. Ngụkọta ụgwọ ọnwa {name_male, Adrien} bụ pasentị {num_digit_1, 30} karịa nke {name_female, Lylah}. Afọ anọ gasịrị, ụgwọ ọnwa ya mụbara, ọ na-enweta afọ {num_digit_2, 40}% karịa ihe ọ na-enweta anọ gara aga. Ọ bụrụ na ụgwọ ọnwa {name_male, Adrien} na nke {name_female, Lylah} mụbara n'otu oge, na {name_male, Adrien} nwetara ${num_digit_3, 40000} afọ anọ gara aga, gbakọọ ngụkọta ụgwọ ọnwa ha abụọ na-anata afọ anọ gasịrị?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,21 @@
+{
+    "problem_id": "0000",
+    "generation_order": ["num_digit_1", "num_ic", "num_digit_2"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [14, 100]},
+        "num_ic": {"type": "int", "construction": "num_ic = 2 * num_digit_1"},
+        "num_digit_2": {"type": "int", "range": [1, 10]}
+    },
+    "equation_steps": {
+        "num_digit_1": ["eggs_used = 3 + 4", "remainder = num_digit_1 - eggs_used"],
+        "num_digit_2": ["ans = remainder * num_digit_2"]
+    },
+    "complexity_restrictions": {
+        "remainder": {"min_digits": 2, "max_digits": 3},
+        "ans": {"min_digits": 1, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_1": ["remainder > 0"],
+        "num_digit_2": ["ans % 1 == 0"]
+    }
+}

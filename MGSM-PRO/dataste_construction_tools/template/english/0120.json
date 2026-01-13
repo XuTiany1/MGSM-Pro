@@ -1,0 +1,8 @@
+{
+  "original_question": "Miguel uses 2 pads of paper a week for his drawing. If there are 30 sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+  "original_answer": 240,
+  "symbolic_template": "{name_male, Miguel} uses {num_digit_1, 2} pads of paper a week for his drawing. If there are {num_digit_2, 30} sheets of paper on a pad of paper, how many sheets of paper does he use every month?",
+  "ic_sentence_template": "{name_male, Miguel}'s uncle has {num_ic, 100} colored pencils in his art studio.",
+  "ic_template": "{name_male, Miguel} uses {num_digit_1, 2} pads of paper a week for his drawing. If there are {num_digit_2, 30} sheets of paper on a pad of paper, {name_male, Miguel}'s uncle has {num_ic, 100} colored pencils in his art studio. How many sheets of paper does he use every month?",
+  "equation": "UPDATE HERE"
+}

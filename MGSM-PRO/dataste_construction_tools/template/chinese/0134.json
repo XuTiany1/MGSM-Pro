@@ -1,0 +1,8 @@
+{
+  "original_question": "汤姆每周洗 4 次车。如果每次洗车 15 美元，他一年要支付多少钱？",
+  "original_answer": 720,
+  "symbolic_template": "{name_male, 汤姆} 每月洗 {num_digit_1, 4} 次车。如果每次洗车 {num_digit_2, 15} 美元，他一年要支付多少钱？",
+  "ic_sentence_template": "{name_male, 汤姆} 的表弟上周买了 {num_ic, 14} 辆玩具车。",
+  "ic_template": "{name_male, 汤姆} 的表弟上周买了 {num_ic, 14} 辆玩具车。{name_male, 汤姆} 每月洗 {num_digit_1, 4} 次车。如果每次洗车 {num_digit_2, 15} 美元，他一年要支付多少钱？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Otu klasị nwere bọọdụ ọcha nke a na-ekere ndị nkụzi anọ ndị nke na-ewe oge n'ahiri eji klasị ahụ eme ịhe. Onye nkụzi ọbụla nwere ịhe nkụzi abụọ kwa ụbọchị ma na-eji bọọdụ ọcha na nkụzi ọbụla. Ọ bụrụ na a ná-ehicha bọọdụ ọcha ugboro atọ n'oge nkụzi ọbụla, kedụ ugboro ole a ná-ehicha bọọdụ ọcha ahụ kwa ụbọchị? ",
+  "original_answer": 24,
+  "symbolic_template": "Otu klasị nwere bọọdụ ọcha nke a na-ekere ndị nkụzi {num_digit_1, 4} ndị nke na-ewe oge n'ahiri eji klasị ahụ eme ịhe. Onye nkụzi ọbụla nwere ịhe nkụzi {num_digit_2, 2} kwa ụbọchị ma na-eji bọọdụ ọcha na nkụzi ọbụla. Ọ bụrụ na a ná-ehicha bọọdụ ọcha ugboro {num_digit_3, 3} n'oge nkụzi ọbụla, kedụ ugboro ole a ná-ehicha bọọdụ ọcha ahụ kwa ụbọchị?",
+  "ic_sentence_template": "Nwa nwanne janịtọọ ahụ na-eweta {num_ic, 61} mkpịsị edemede na ụlọ akwụkwọ.",
+  "ic_template": "Nwa nwanne janịtọọ ahụ na-eweta {num_ic, 61} mkpịsị edemede na ụlọ akwụkwọ. Otu klasị nwere bọọdụ ọcha nke a na-ekere ndị nkụzi {num_digit_1, 4} ndị nke na-ewe oge n'ahiri eji klasị ahụ eme ịhe. Onye nkụzi ọbụla nwere ịhe nkụzi {num_digit_2, 2} kwa ụbọchị ma na-eji bọọdụ ọcha na nkụzi ọbụla. Ọ bụrụ na a ná-ehicha bọọdụ ọcha ugboro {num_digit_3, 3} n'oge nkụzi ọbụla, kedụ ugboro ole a ná-ehicha bọọdụ ọcha ahụ kwa ụbọchị?",
+  "equation": "UPDATE HERE"
+}

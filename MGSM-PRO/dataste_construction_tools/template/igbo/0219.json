@@ -1,0 +1,8 @@
+{
+  "original_question": "Ụmụ akwụkwọ anọ nwetara ngụkọta nke akara nari abụọ na iri ise na otu na-egwuregwu bọọdụ. Naomi nwetara akara iri isii na asatọ. Yuri nwetara iri karịa ọkara ka Naomi na Brianna nwetara akara iri na asaa karịa Naomi. Akara ole ka Jojo nwetara?",
+  "original_answer": 54,
+  "symbolic_template": "Ụmụ akwụkwọ anọ nwetara ngụkọta nke akara {num_digit_1, 251} na-egwuregwu bọọdụ. {name_female_1, Naomi} nwetara akara {num_digit_2, 68}. {name_female_2, Yuri} nwetara {num_digit_3, 10} karịa ọkara ka {name_female_1, Naomi} na {name_female_3, Brianna} nwetara akara {num_digit_4, 17} karịa {name_female_1, Naomi}. Akara ole ka {name_female_4, Jojo} nwetara?",
+  "ic_sentence_template": "Nwanne nna {name_female_3, Brianna} bịara na nri ụtọ {num_ic, 38} maka onye ọbụla.",
+  "ic_template": "Nwanne nna {name_female_3, Brianna} bịara na nri ụtọ {num_ic, 38} maka onye ọbụla. Ụmụ akwụkwọ anọ nwetara ngụkọta nke akara {num_digit_1, 251} na-egwuregwu bọọdụ. {name_female_1, Naomi} nwetara akara {num_digit_2, 68}. {name_female_2, Yuri} nwetara {num_digit_3, 10} karịa ọkara ka {name_female_1, Naomi} na {name_female_3, Brianna} nwetara akara {num_digit_4, 17} karịa {name_female_1, Naomi}. Akara ole ka {name_female_4, Jojo} nwetara?",
+  "equation": "UPDATE HERE"
+}

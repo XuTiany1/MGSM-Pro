@@ -1,0 +1,8 @@
+{
+  "original_question": "Terry ń jẹ yúgọtì 2 lójúmọ́. Wọ́n ń tà á lọ́wọ́lọ́wọ́ báyìí ní yúgọtì 4 fún $5.00. Èló ní ó ń ná lórí yúgọtì ní ọjọ́ 30?",
+  "original_answer": 75,
+  "symbolic_template": "{name_male, Terry} ń jẹ yúgọtì {num_digit_1, 2} lójúmọ́. Wọ́n ń tà á lọ́wọ́lọ́wọ́ báyìí ní yúgọtì {num_digit_2, 4} fún ${num_digit_3, 5}.00. Èló ní ó ń ná lórí yúgọtì ní ọjọ́ {num_digit_4, 30}?",
+  "ic_sentence_template": "Arákùnrin {name_male, Terry} ra àwọn paali oyinbo oje olómi ọsàn {num_ic, 29}.",
+  "ic_template": "Arákùnrin {name_male, Terry} ra àwọn paali oyinbo oje olómi ọsàn {num_ic, 29}. {name_male, Terry} ń jẹ yúgọtì {num_digit_1, 2} lójúmọ́. Wọ́n ń tà á lọ́wọ́lọ́wọ́ báyìí ní yúgọtì {num_digit_2, 4} fún ${num_digit_3, 5}.00. Èló ní ó ń ná lórí yúgọtì ní ọjọ́ {num_digit_4, 30}?",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Melanie is a door-to-door saleswoman. She sold a third of her vacuum cleaners at the green house, 2 more to the red house, and half of what was left at the orange house. If Melanie has 5 vacuum cleaners left, how many did she start with?",
+  "original_answer": 18,
+  "symbolic_template": "{name_female, Melanie} is a door-to-door saleswoman. She sold a third of her vacuum cleaners at the green house, {num_digit_1, 2} more to the red house, and half of what was left at the orange house. If {name_female, Melanie} has {num_digit_2, 5} vacuum cleaners left, how many did she start with?",
+  "ic_sentence_template": "{name_female, Melanie}'s aunt bought {num_ic, 112} dish towels last week.",
+  "ic_template": "{name_female, Melanie} is a door-to-door saleswoman. She sold a third of her vacuum cleaners at the green house, {num_digit_1, 2} more to the red house, and half of what was left at the orange house.  {name_female, Melanie}'s aunt bought {num_ic, 112} dish towels last week. If {name_female, Melanie} has {num_digit_2, 5} vacuum cleaners left, how many did she start with?",
+  "equation": "UPDATE HERE"
+}

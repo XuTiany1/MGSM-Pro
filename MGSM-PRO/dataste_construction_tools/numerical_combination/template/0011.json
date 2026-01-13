@@ -1,0 +1,30 @@
+{
+    "problem_id": "0011",
+    "generation_order": ["num_digit_1", "num_digit_2", "num_digit_3", "num_digit_4", "num_digit_5", "num_digit_6", "num_ic"],
+    "variables": {
+        "num_digit_1": {"type": "int", "range": [2, 6]},
+        "num_digit_2": {"type": "int", "range": [41, 89]},
+        "num_digit_3": {"type": "int", "range": [2, 6]},
+        "num_digit_4": {"type": "int", "range": [41, 89]},
+        "num_digit_5": {"type": "int", "range": [2, 8]},
+        "num_digit_6": {"type": "int", "range": [31, 79]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_2": ["cost_donuts = num_digit_1 * num_digit_2"],
+        "num_digit_4": ["cost_cupcakes = num_digit_3 * num_digit_4"],
+        "num_digit_6": [
+            "cost_cheesecakes = num_digit_5 * num_digit_6",
+            "ans = cost_donuts + cost_cupcakes + cost_cheesecakes"
+        ],
+        "num_ic": []
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 3, "max_digits": 4}
+    },
+    "restrictions": {
+        "num_digit_2": ["num_digit_2 % 10 != 0"],
+        "num_digit_4": ["num_digit_4 % 10 != 0"],
+        "num_digit_6": ["num_digit_6 % 10 != 0", "ans > 0", "ans % 1 == 0"]
+    }
+}

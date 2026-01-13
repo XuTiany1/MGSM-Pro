@@ -1,0 +1,8 @@
+{
+  "original_question": "在 Doubtfire 姐妹开车载着 7 只从当地动物收容所收养的小猫回家的路上，她们的妈妈打电话来告诉她们说，她们的两只家猫刚生了小猫。她说小补丁（第一只猫）生的小猫数量是收养小猫数量的两倍，而特雷克西（第二只猫）生了 12 只。Doubtfire 一家现在有多少只小猫？",
+  "original_answer": 40,
+  "symbolic_template": "{name_family, Doubtfire} 姐妹开车带着 {num_digit_1, 7} 只从当地动物收容所收养的小猫回家的路上，她们的妈妈打电话来告诉她们，她们的两只家猫刚生了小猫。她说 {name_cat_1, 小补丁}（第一只猫）生的小猫数量是收养小猫数量的 3倍 ，而 {name_cat_2, 特雷克西}（第二只猫）生了 {num_digit_2, 12} 只。{name_family, Doubtfire} 一家现在有多少只小猫？",
+  "ic_sentence_template": "{name_family, 道特菲尔}的叔叔最近搬到了 {num_ic, 41} 英里外。",
+  "ic_template": "{name_family, 道特菲尔}的叔叔最近搬到了 {num_ic, 41} 英里外。{name_family, Doubtfire} 姐妹开车带着 {num_digit_1, 7} 只从当地动物收容所收养的小猫回家的路上，她们的妈妈打电话来告诉她们，她们的两只家猫刚生了小猫。她说 {name_cat_1, 小补丁}（第一只猫）生的小猫数量是收养小猫数量的 3倍 ，而 {name_cat_2, 特雷克西}（第二只猫）生了 {num_digit_2, 12} 只。{name_family, Doubtfire} 一家现在有多少只小猫？",
+  "equation": "UPDATE HERE"
+}

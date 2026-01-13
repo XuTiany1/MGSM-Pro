@@ -1,0 +1,8 @@
+{
+  "original_question": "Marie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cost $1.50 each, and some boxes of pizza. Marie paid a total of $50. How many boxes of pizza did Marie order if each box costs $8.50?",
+  "original_answer": 2,
+  "symbolic_template": "{name_female, Marie} ordered one chicken meal that costs ${num_digit_1, 12}, {num_digit_2, 5} packs of milk that costs ${num_digit_3, 3} each, {num_digit_4, 4} apples that cost ${num_digit_5, 1.50} each, and some boxes of pizza. {name_female, Marie} paid a total of ${num_digit_6, 50}. How many boxes of pizza did {name_female, Marie} order if each box costs ${num_digit_7, 8.50}?",
+  "ic_sentence_template": "{name_female, Marie}'s cousin recently bought {num_ic, 128} cupcakes.",
+  "ic_template": "{name_female, Marie} ordered one chicken meal that costs ${num_digit_1, 12}, {num_digit_2, 5} packs of milk that costs ${num_digit_3, 3} each, {num_digit_4, 4} apples that cost ${num_digit_5, 1.50} each, and some boxes of pizza. {name_female, Marie} paid a total of ${num_digit_6, 50}. {name_female, Marie}'s cousin recently bought {num_ic, 128} cupcakes. How many boxes of pizza did {name_female, Marie} order if each box costs ${num_digit_7, 8.50}?",
+  "equation": "UPDATE HERE"
+}

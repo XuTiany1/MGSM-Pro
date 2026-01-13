@@ -1,0 +1,8 @@
+{
+  "original_question": "Tangi ya maji imejazwa na lita 120 ya maji. Celine alitumia lita 90 ya maji kutoka kwa tangi hiyo kunyunyuzia shamba lake. Kisha aliweza kuteka maji ya mvua ambayo ni mara mbili zaidi ya maji ambayo yalikuwa yamesalia. Kwa sasa kuna lita ngapi za maji kwenye tangi hiyo?",
+  "original_answer": 90,
+  "symbolic_template": "Tangi ya maji imejazwa na lita {num_digit_1, 120} ya maji. {name_female, Celine} alitumia lita {num_digit_2, 90} ya maji kutoka kwa tangi hiyo kunyunyuzia shamba lake. Kisha aliweza kuteka maji ya mvua ambayo ni mara mbili zaidi ya maji ambayo yalikuwa yamesalia. Kwa sasa kuna lita ngapi za maji kwenye tangi hiyo?",
+  "ic_sentence_template": "Mjomba wa {name_female, Celine} alinunua vitunguu vya tulipu {num_ic, 388} majira ya masika yaliyopita.",
+  "ic_template": "Mjomba wa {name_female, Celine} alinunua vitunguu vya tulipu {num_ic, 388} majira ya masika yaliyopita. Tangi ya maji imejazwa na lita {num_digit_1, 120} ya maji. {name_female, Celine} alitumia lita {num_digit_2, 90} ya maji kutoka kwa tangi hiyo kunyunyuzia shamba lake. Kisha aliweza kuteka maji ya mvua ambayo ni mara mbili zaidi ya maji ambayo yalikuwa yamesalia. Kwa sasa kuna lita ngapi za maji kwenye tangi hiyo?",
+  "equation": "UPDATE HERE"
+}

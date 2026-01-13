@@ -1,0 +1,8 @@
+{
+  "original_question": "图拉去烘焙店买了各种不同的糕点。她买了 3 打甜甜圈（每打 68 美元）、2 打迷你纸杯蛋糕（每打 80 美元）和 6 打迷你奶酪蛋糕（每打 55 美元）。总共花了多少钱？",
+  "original_answer": 694,
+  "symbolic_template": "{name_female, 图拉} 去烘焙店买了各种不同的糕点。她买了 {num_digit_1, 3} 打甜甜圈（每打 {num_digit_2, 68} 美元）、{num_digit_3, 2} 打迷你纸杯蛋糕（每打 {num_digit_4, 80} 美元）和 {num_digit_5, 6} 打迷你奶酪蛋糕（每打 {num_digit_6, 55} 美元）。总共花了多少钱？",
+  "ic_sentence_template": "{name_female, 图拉} 的叔叔为了聚会订购了 {num_ic, 136} 条面包。",
+  "ic_template": "{name_female, 图拉} 的叔叔为了聚会订购了 {num_ic, 136} 条面包。{name_female, 图拉} 去烘焙店买了各种不同的糕点。她买了 {num_digit_1, 3} 打甜甜圈（每打 {num_digit_2, 68} 美元）、{num_digit_3, 2} 打迷你纸杯蛋糕（每打 {num_digit_4, 80} 美元）和 {num_digit_5, 6} 打迷你奶酪蛋糕（每打 {num_digit_6, 55} 美元）。总共花了多少钱？",
+  "equation": "UPDATE HERE"
+}

@@ -1,0 +1,29 @@
+{
+    "problem_id": "0123",
+    "generation_order": ["num_digit_4", "num_digit_2", "num_digit_1", "num_digit_3", "num_ic"],
+    "variables": {
+        "num_digit_4": {"type": "int", "range": [5, 10]},
+        "num_digit_2": {"type": "int", "range": [1, 4]},
+        "num_digit_1": {"type": "int", "range": [6, 12]},
+        "num_digit_3": {"type": "int", "range": [3, 5]},
+        "num_ic": {"type": "int", "range": [10, 99]}
+    },
+    "equation_steps": {
+        "num_digit_3": [
+            "dist_1 = num_digit_1 * num_digit_2",
+            "time_2 = num_digit_4 - num_digit_2",
+            "dist_2 = time_2 * num_digit_3",
+            "ans = dist_1 + dist_2"
+        ]
+    },
+    "complexity_restrictions": {
+        "ans": {"min_digits": 2, "max_digits": 3}
+    },
+    "restrictions": {
+        "num_digit_3": [
+            "num_digit_4 > num_digit_2",
+            "ans > 0",
+            "ans % 1 == 0"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "original_question": "Lloyd hupata $10 kwa saa anapofunza mtu Hisabati. Wiki ya kwanza alifunza kwa saa 5 na wiki ya pili akafunza kwa saa 8. Alipata pesa ngapi kwa wiki mbili za kwanza?",
+  "original_answer": 130,
+  "symbolic_template": "{name_male, Lloyd} hupata ${num_digit_1, 10} kwa saa kwa kufundisha somo la hisabati. Aliwafundisha wanafunzi kwa saa {num_digit_2, 5} katika wiki ya kwanza na saa {num_digit_3, 8} katika wiki ya pili. Alipata kiasi gani kwa wiki mbili za mwanzo?",
+  "ic_sentence_template": "Shangazi yake {name_male, Lloyd} alinunua daftari {num_ic, 17} kwa ajili ya wanafunzi wake.",
+  "ic_template": "Shangazi yake {name_male, Lloyd} alinunua daftari {num_ic, 17} kwa ajili ya wanafunzi wake. {name_male, Lloyd} hupata ${num_digit_1, 10} kwa saa kwa kufundisha somo la hisabati. Aliwafundisha wanafunzi kwa saa {num_digit_2, 5} katika wiki ya kwanza na saa {num_digit_3, 8} katika wiki ya pili. Alipata kiasi gani kwa wiki mbili za mwanzo?",
+  "equation": "UPDATE HERE"
+}

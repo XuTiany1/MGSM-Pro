@@ -1,0 +1,8 @@
+{
+  "original_question": "Ryan dua nhwiren mmienu wɔ ne turo no mu. Wɔ nna 15 akyi no, nhwiren sԑn na ɔwɔ sԑ nhwiren 5 annyini a?",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Ryan} dua nhwiren {num_digit_1, mmienu} wɔ ne turo no mu. Wɔ nna {num_digit_2, 15} akyi no, nhwiren sԑn na ɔwɔ sԑ nhwiren {num_digit_3, 5} annyini a?",
+  "ic_sentence_template": "{name_male, Ryan} wɔfa de nkuku foforo {num_ic, 8} brɛɛ mfikyiri no.",
+  "ic_template": "{name_male, Ryan} wɔfa de nkuku foforo {num_ic, 8} brɛɛ mfikyiri no. {name_male, Ryan} dua nhwiren {num_digit_1, mmienu} wɔ ne turo no mu. Wɔ nna {num_digit_2, 15} akyi no, nhwiren sԑn na ɔwɔ sԑ nhwiren {num_digit_3, 5} annyini a?",
+  "equation": "UPDATE HERE"
+}

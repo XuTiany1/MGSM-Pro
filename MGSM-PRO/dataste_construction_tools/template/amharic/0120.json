@@ -1,0 +1,8 @@
+{
+  "original_question": "ሚጌል ለስዕሉ በሳምንት ሁለት ወረቀቶችን ይጠቀማል። በአንድ ወረቀት ላይ 30 ወረቀቶች ካሉ በየወሩ ስንት ወረቀቶችን ይጠቀማል?",
+  "original_answer": 240,
+  "symbolic_template": "{name_male, ሚጌል} ለስዕሉ በሳምንት {num_digit_1, ሁለት} ወረቀቶችን ይጠቀማል። በአንድ ወረቀት ላይ {num_digit_2, 30} ወረቀቶች ካሉ በየወሩ ስንት ወረቀቶችን ይጠቀማል?",
+  "ic_sentence_template": "{name_female, ላይላ} አጎቷ በዚያ ዓመት በኩባንያው ${num_ic, 134000} ባለቀለም እርሳሶች አሉት።",
+  "ic_template": "{name_male, ሚጌል} ለስዕሉ በሳምንት {num_digit_1, ሁለት} ወረቀቶችን ይጠቀማል። በአንድ ወረቀት ላይ {num_digit_2, 30} ወረቀቶች ካሉ በየወሩ ስንት ወረቀቶችን ይጠቀማል? {name_female, ላይላ} አጎቷ በዚያ ዓመት በኩባንያው ${num_ic, 134000} ባለቀለም እርሳሶች አሉት።",
+  "equation": "UPDATE HERE"
+}
