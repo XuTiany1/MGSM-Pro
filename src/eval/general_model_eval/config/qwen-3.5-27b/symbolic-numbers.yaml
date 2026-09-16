@@ -1,0 +1,21 @@
+base_dataset_folder: /path/to/dataset
+dataset_type: symbolic-numbers
+language: 
+  - amharic
+  - chinese
+  - english
+  - french
+  - igbo
+  - japanese
+  - swahili
+  - twi
+  - yoruba
+prompt_id_to_use:
+   - english
+model_platform: vllm
+model_name: Qwen/Qwen3.5-27B
+model_max_token: 4096
+model_temperature: 0.1
+result_basedir: /path/to/result
+
+total_num_variation: 10

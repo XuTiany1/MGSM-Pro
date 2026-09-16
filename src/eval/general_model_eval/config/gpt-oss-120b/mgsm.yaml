@@ -1,0 +1,17 @@
+base_dataset_folder: /path/to/dataset
+dataset_type: original-mgsm
+language: 
+  - english
+  - french
+  - japanese
+  - chinese
+prompt_id_to_use:
+   - english
+n_shots: 8
+total_num_variation: 1
+model_platform: vllm
+reasoning_effort: low   # smallest thinking budget; "low" | "medium" | "high"
+model_name: openai/gpt-oss-120b
+model_max_token: 4096
+model_temperature: 0.1
+result_basedir: /path/to/result

@@ -1,9 +1,0 @@
-base_dataset_folder: /home/mila/x/xut/github/evaluation-pipeline/dataset
-dataset_type: symbolic-numbers
-language: 
-  - amh
-model_platform: AzureAPI
-model_name: Llama-4-Maverick-17B-128E-Instruct-FP8
-model_max_token: 4096
-model_temperature: 0.1
-result_basedir: /home/mila/x/xut/github/evaluation-pipeline/result

@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerry anacheza dadu yenye pande sita. Ana uwezekano mgani mkubwa zaidi (katika asilimia) kuwa atabingirisha nambari kubwa kwa 3 zaidi ya kubingirisha nambari mbili za zushfwa mara mbili mfululizo?",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Jerry} anacheza dadu yenye pande {num_digit_1, 6}. Je, ana uwezekano mkubwa kiasi gani zaidi (katika asilimia) wa kupata nambari kubwa kuliko {num_digit_2, 3} kuliko kupata nambari shufwa {num_digit_3, 2} mfululizo?",
+  "ic_sentence_template": "Mjomba wa {name_male, Jerry} aliwahi kukusanya marumaru {num_ic, 73}.",
+  "ic_template": "Mjomba wa {name_male, Jerry} aliwahi kukusanya marumaru {num_ic, 73}. {name_male, Jerry} anacheza dadu yenye pande {num_digit_1, 6}. Je, ana uwezekano mkubwa kiasi gani zaidi (katika asilimia) wa kupata nambari kubwa kuliko {num_digit_2, 3} kuliko kupata nambari shufwa {num_digit_3, 2} mfululizo?",
+  "equation": "UPDATE HERE"
+}

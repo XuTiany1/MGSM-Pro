@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerry is rolling a six-sided die. How much more likely is it (expressed as a percentage) that he rolls a number greater than 3 than that he rolls two even numbers in a row?",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Jerry} is rolling a {num_digit_1, 6}-sided die. How much more likely is it (expressed as a percentage) that he rolls a number greater than {num_digit_2, 3} than that he rolls {num_digit_3, 2} even numbers in a row?",
+  "ic_sentence_template": "{name_male, Jerry}'s uncle once collected {num_ic, 73} marbles.",
+  "ic_template": "{name_male, Jerry} is rolling a six-sided die. {name_male, Jerry}'s uncle once collected {num_ic, 73} marbles. How much more likely is it (expressed as a percentage) that he rolls a number greater than {num_digit_1, 3} than that he rolls two even numbers in a row?",
+  "equation": "UPDATE HERE"
+}

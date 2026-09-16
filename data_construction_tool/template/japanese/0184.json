@@ -1,0 +1,8 @@
+{
+  "original_question": "ジェリーは6面ダイスを振っている。彼が3よりも大きい数を出す確率は、偶数を2回連続で出す確率よりも（何%）高いか？",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, ジェリー}は {num_digit_1, 6} 面ダイスを振っている。彼が {num_digit_2, 3} よりも大きい数を出す確率は、偶数を {num_digit_3, 2} 回連続で出す確率よりも（何%）高いか？",
+  "ic_sentence_template": "{name_male, ジェリー}のおじさんはかつて{num_ic, 73}個のビー玉を集めました。",
+  "ic_template": "{name_male, ジェリー}のおじさんはかつて{num_ic, 73}個のビー玉を集めました。{name_male, ジェリー}は {num_digit_1, 6} 面ダイスを振っている。彼が {num_digit_2, 3} よりも大きい数を出す確率は、偶数を {num_digit_3, 2} 回連続で出す確率よりも（何%）高いか？",
+  "equation": "UPDATE HERE"
+}

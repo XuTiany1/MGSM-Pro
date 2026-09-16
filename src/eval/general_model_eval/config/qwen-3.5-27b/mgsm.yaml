@@ -1,0 +1,16 @@
+base_dataset_folder: /path/to/dataset
+dataset_type: original-mgsm
+language: 
+  - english
+  - french
+  - japanese
+  - chinese
+prompt_id_to_use:
+   - english
+n_shots: 8
+total_num_variation: 1
+model_platform: vllm
+model_name: Qwen/Qwen3.5-27B
+model_max_token: 4096
+model_temperature: 0.1
+result_basedir: /path/to/result

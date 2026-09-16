@@ -1,0 +1,8 @@
+{
+  "original_question": "Jerry ń yí die ólójú mẹ́fà. Èló ló ṣe é ṣe kí ó jẹ́ (tí wọ́n ṣàfihàn rẹ̀ gẹ́gẹ́ bí ìdá ọgọ́rùn-ún) pé ó yí nọ́mbà tó tóbi ju 3 lọ ju pé ó yí even nọ́mbà méjì léraléra?",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, Jerry} ń yí die ólójú {num_digit_1, 6}. Èló ló ṣe é ṣe kí ó jẹ́ (tí wọ́n ṣàfihàn rẹ̀ gẹ́gẹ́ bí ìdá ọgọ́rùn-ún) pé ó yí nọ́mbà tó tóbi ju {num_digit_2, 3} lọ ju pé ó yí even nọ́mbà {num_digit_3, 2} léraléra?",
+  "ic_sentence_template": "Ọmọkùnrin {name_male, Jerry} ní baba ńlá kan tó kó apáńdí {num_ic, 73} lẹ́ẹ̀kan ṣoṣo.",
+  "ic_template": "Ọmọkùnrin {name_male, Jerry} ní baba ńlá kan tó kó apáńdí {num_ic, 73} lẹ́ẹ̀kan ṣoṣo. {name_male, Jerry} ń yí die ólójú {num_digit_1, 6}. Èló ló ṣe é ṣe kí ó jẹ́ (tí wọ́n ṣàfihàn rẹ̀ gẹ́gẹ́ bí ìdá ọgọ́rùn-ún) pé ó yí nọ́mbà tó tóbi ju {num_digit_2, 3} lọ ju pé ó yí even nọ́mbà {num_digit_3, 2} léraléra?",
+  "equation": "UPDATE HERE"
+}

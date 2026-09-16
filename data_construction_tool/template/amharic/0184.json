@@ -1,0 +1,8 @@
+{
+  "original_question": "ጄሪ ባለ ስድስት ጎን ዳይ እያንከባለለ ነው። በተከታታይ ሁለት ቁጥሮችን ከማንከባለል ይልቅ ቁጥርን ከ3 በላይ የመንከባለሉ (በመቶኛ የተገለፀው) ምን ያህል የበለጠ ነው",
+  "original_answer": 25,
+  "symbolic_template": "{name_male, ጄሪ} ባለ {num_digit_1, 6} ጎን ዳይ እያንከባለለ ነው። ከ {num_digit_2, 3} በላይ የሆነ ቁጥር የማግኘት ዕድሉ በተከታታይ {num_digit_3, 2} ጊዜ ተጋማሽ ቁጥሮችን የማግኘት ዕድል ምን ያህል ይበልጣል? (በመቶኛ ይገለጽ)",
+  "ic_sentence_template": "የ{name_male, ጀሪ} አጎት አንድ ጊዜ {num_ic, 73} ጠጠሮችን ሰበሰበ።",
+  "ic_template": "{name_male, ጄሪ} ባለ {num_digit_1, 6} ጎን ዳይ እያንከባለለ ነው። ከ {num_digit_2, 3} በላይ የሆነ ቁጥር የማግኘት ዕድሉ በተከታታይ {num_digit_3, 2} ጊዜ ተጋማሽ ቁጥሮችን የማግኘት ዕድል ምን ያህል ይበልጣል? (በመቶኛ ይገለጽ){name_male, ጀሪ} አጎት አንድ ጊዜ {num_ic, 73} ጠጠሮችን ሰበሰበ።",
+  "equation": "UPDATE HERE"
+}
