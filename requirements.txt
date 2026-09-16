@@ -2,9 +2,9 @@ PyYAML==6.0.2
 tqdm==4.67.1
 tenacity==9.1.2
 
-# Model backends (only install the ones you actually plan to use)
+# Model backends
 vllm==0.19.0
-hf_transfer==0.1.9   # only needed if HF_HUB_ENABLE_HF_TRANSFER=1 is set in your shell
+hf_transfer==0.1.9  
 google-genai==1.65.0
 google-api-core==2.25.0rc0
 openai==2.32.0
